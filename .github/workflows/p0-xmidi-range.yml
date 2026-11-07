@@ -1,0 +1,23 @@
+name: P0 - acces partiel archive XMIDI
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/p0-xmidi-range.yml
+      - scripts/probe_xmidi_range.py
+      - tests/test_probe_xmidi_range.py
+
+permissions:
+  contents: read
+
+jobs:
+  range:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tests sans reseau
+        run: python -m unittest discover -s tests -v
+      - name: Mesurer le support Range sans importer le ZIP
+        run: python scripts/probe_xmidi_range.py
