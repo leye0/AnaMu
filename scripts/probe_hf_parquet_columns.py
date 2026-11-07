@@ -18,10 +18,11 @@ MAX_READ_BYTES = 24_000_000
 PATH = "hf://datasets/Metacreation/GigaMIDI/v2.0.0/validation/00001.parquet"
 
 
-class BudgetFile:
+class BudgetFile(io.RawIOBase):
     """File-like wrapper that aborts on excessive reads from its remote file."""
 
     def __init__(self, stream, limit: int = MAX_READ_BYTES):
+        super().__init__()
         self.stream = stream
         self.limit = limit
         self.read_bytes = 0
@@ -44,6 +45,11 @@ class BudgetFile:
 
     def readable(self) -> bool:
         return True
+
+    def readinto(self, buffer) -> int:
+        data = self.read(len(buffer))
+        buffer[:len(data)] = data
+        return len(data)
 
 
 def inspect(token: str) -> dict:
