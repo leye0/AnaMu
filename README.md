@@ -12,7 +12,7 @@ L'objectif n'est pas de commencer par entraîner un modèle génératif. Nous vo
 4. Mesurer la couverture et les erreurs avant d'envisager le passage à grande échelle.
 5. Enrichir ensuite les chansons identifiées avec leurs paroles, leurs données de popularité et, ultérieurement, des observations audio synchronisées.
 
-**[Feuille de route détaillée →](docs/roadmap.md)** · **[Premier audit de sources →](docs/audit-p0.md)**
+**[Feuille de route détaillée →](docs/roadmap.md)** · **[Premier audit de sources →](docs/audit-p0.md)** · **[Première jointure exacte XMIDI ↔ GigaMIDI →](docs/p1-exact-join.md)**
 
 ## Principes
 
@@ -26,10 +26,10 @@ L'objectif n'est pas de commencer par entraîner un modèle génératif. Nous vo
 
 ## État du projet
 
-- **Phase** : P0 en cours et pilote P1 démarré ; accès XMIDI par plages HTTP et lecture partielle de la colonne `md5` GigaMIDI démontrés sur [GitHub Actions](https://github.com/leye0/AnaMu/actions).
-- **Corpus local** : aucune archive complète importée ; trois petits fichiers XMIDI lus temporairement en mémoire, sans conservation des MIDI ni téléchargement d'audio.
-- **Rapprochements** : tentative de jointure exacte sur trois fichiers XMIDI ; résultat **indéterminé** parce que les endpoints `/filter` et `/search` du viewer GigaMIDI expirent ou échouent. Aucun match confirmé, aucun taux de couverture calculé.
-- **Accès GigaMIDI** : sur trois lignes, `md5` correspond aux octets MIDI (3/3). Le CSV original a un champ `file_path`, mais 86 chemins inspectés sur 86 sont anonymisés sous leur MD5 ; aucune clé XMIDI explicite n'y a été observée. Secret Actions `HUGGING_FACE_KEY` vérifié ; accès anonyme HTTP 401, requête authentifiée autorisée (HTTP 302), et schéma consulté avec succès (HTTP 200, une ligne de réponse de 5 762 octets). Champs de rapprochement disponibles (`md5`, `title`, `artist`, `audio_text_matches_mbid`, `audio_text_matches_score`), mais **aucune colonne explicite d'identifiant XMIDI ou d'émotion humaine** dans le schéma observé.
-- **Workflows** : 19 tests unitaires ; lecture XMIDI ciblée à **12 966 652 octets** de transfert HTTP pour inspecter l'index ZIP et trois MIDI ; essai de projection d'une colonne Parquet limité à 24 Mo de lecture logique, sans extraire la colonne `music`. Aucun traitement massif lancé. [Pilote XMIDI](https://github.com/leye0/AnaMu/actions/runs/42335658732) · [Projection Parquet](https://github.com/leye0/AnaMu/actions/runs/42336189129).
+- **Phase :** P0 a démontré l'accès partiel aux deux corpus ; P1 a confirmé **une première jointure binaire exacte XMIDI ↔ GigaMIDI** par MD5. [Exécution vérifiée du 7 novembre 2026](https://github.com/leye0/AnaMu/actions/runs/42336949364).
+- **Émotions humaines :** l'exemple joint est étiqueté `quiet` / `traditional` dans XMIDI ; l'étiquette ne provient **pas** d'une détection émotionnelle automatique de GigaMIDI.
+- **Mesures :** 100 XMIDI valides et distincts prélevés en mémoire ; 5 200 MD5 GigaMIDI examinés dans **un seul shard** jusqu'au premier match. 13 328 176 octets HTTP pour XMIDI ; 5 657 337 octets de lectures *logiques* Parquet (pas un compteur réseau exact). **24 tests réussis**.
+- **Limites :** le balayage s'est arrêté au premier match, donc **aucun taux de couverture global** n'est calculable. Aucun titre, artiste ni MusicBrainz n'a été confirmé pour cet exemple ; aucune chanson audio ni parole n'a été récupérée. Le job a duré environ 5 min 28 s : optimiser les requêtes avant de généraliser.
+- **Conservation :** aucun gros corpus ni audio téléchargé ou archivé, aucun contenu MIDI conservé. Les limites de temps et de volume sont imposées dans les scripts et workflows.
 
 La feuille de route est un document vivant : les hypothèses doivent être confirmées par des expériences mesurables avant d'être considérées comme des acquis.

@@ -1,6 +1,6 @@
 # AnaMu — Feuille de route de recherche et de développement
 
-**Version :** 0.4 — empreintes MD5 et accès partiel XMIDI/GigaMIDI mesurés  
+**Version :** 0.5 — première jointure binaire XMIDI ↔ GigaMIDI prouvée  
 **Objectif :** constituer un corpus musical multimodal, identifiable et traçable, sur lequel plusieurs moteurs pourront étudier le langage musical et ses relations avec les émotions humaines.
 
 Ce document guide le projet. Une tâche n'est « terminée » que lorsque son résultat et ses limites sont documentés et vérifiés.
@@ -218,7 +218,8 @@ Liste de contrôle immédiate :
 - [x] Vérifier les restrictions MetaMIDI (Zenodo) et GigaMIDI (Hugging Face) et mesurer le rejet anonyme (HTTP 401).
 - [x] Configurer le secret GitHub Actions `HUGGING_FACE_KEY`, vérifier l'accès authentifié et lire un schéma minimal GigaMIDI (HTTP 302 puis 200, 5 762 octets de réponse).
 - [x] Examiner l'en-tête et 86 chemins du CSV original de GigaMIDI par plages HTTP (65 536 octets) : champ `file_path` présent mais 86/86 noms de fichier anonymisés au MD5 ; aucune provenance XMIDI directe observée dans l'échantillon.
-- [ ] Établir **au moins une jointure XMIDI→GigaMIDI prouvée** : les endpoints serveur `/filter` (délai dépassé) et `/search` (HTTP 500) ne fonctionnent pas pour notre essai ; évaluer une jointure locale par les colonnes MD5, **avec métriques de trafic et de coût avant toute montée en charge**.
+- [x] **Première jointure XMIDI→GigaMIDI prouvée** : [pilote de 100 XMIDI, arrêt après 5 200 empreintes d'un seul shard](https://github.com/leye0/AnaMu/actions/runs/42336949364). Correspondance exacte de l'échantillon `quiet`/`traditional`, 13 328 176 octets XMIDI et 5 657 337 octets de lectures logiques Parquet. [Rapport P1 détaillé](p1-exact-join.md). **Aucun taux de couverture global établi.**
+- [ ] **Optimiser le débit des lectures HTTP** (305 requêtes XMIDI pour 100 fichiers, ≈5 min 28 s de traitement) avant tout lot de grande taille ; mesurer séparément le trafic réseau réel du Parquet.
 - [ ] Choisir un référentiel identifié utilisable sans droit d'accès supplémentaire.
 - [ ] Définir un format de manifeste minimal et une convention de scores de rapprochement.
 - [ ] Créer un test reproductible sur un petit nombre de MIDI avant de viser 1 000.

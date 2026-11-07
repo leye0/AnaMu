@@ -1,7 +1,7 @@
 # AnaMu — Audit P0 : accès aux corpus et réutilisation des analyses
 
 **Dernière vérification :** 7 novembre 2026.  
-**État :** en cours — les deux sources sont accessibles partiellement ; empreintes vérifiées côté GigaMIDI et trois MIDI XMIDI lus, mais **aucune jointure exacte encore démontrée**.  
+**État :** accès partiel vérifié ; **première jointure exacte XMIDI ↔ GigaMIDI démontrée** le 7 novembre 2026 ([rapport P1](p1-exact-join.md)).  
 **Priorité scientifique :** les **émotions humaines de XMIDI** restent la référence ; GigaMIDI est un candidat pour retrouver les identités et réutiliser les caractéristiques calculées.
 
 ## Preuves d'exécution
@@ -34,7 +34,7 @@ Les licences des compilations n'effacent pas les droits éventuels sur les compo
 La fiche GigaMIDI v2 affirme incorporer XMIDI, mais **n'établit pas** dans son schéma documenté :
 
 - la présence d'une colonne gardant le **nom original de fichier XMIDI** ;
-- la conservation du **MD5 exact de la version XMIDI non normalisée** ;
+- la conservation **systématique** du MD5 exact de la version XMIDI non normalisée (**une correspondance binaire a depuis été prouvée**, pas le taux global) ;
 - le transfert des **11 étiquettes émotionnelles humaines**, de leur provenance et de la méthodologie d'annotation ;
 - la proportion d'éléments XMIDI qui disposent de titres, d'artistes ou d'ID MusicBrainz fiables.
 
@@ -46,10 +46,10 @@ Ces quatre inconnues forment maintenant le cœur de P1. Il serait incorrect de c
 - Même fichier Parquet : **HTTP 401 en anonyme**, **HTTP 302 après authentification**.
 - La lecture viewer de `v2.0.0/validation?offset=0&length=1` donne **HTTP 200**, une ligne et **5 762 octets de corps de réponse**. Cette taille n'inclut pas les en-têtes ni les éventuels coûts internes du service.
 - Le schéma de 37 champs observés contient notamment `md5`, `title`, `artist`, `audio_text_matches_score`, `audio_text_matches_sid`, `audio_text_matches_mbid`, `tempo`, `music_styles_curated` et plusieurs caractéristiques de notes et d'instruments.
-- **Aucun champ explicitement nommé XMIDI, source filename ou émotion humaine** n'y apparaît. `md5` est prometteur, mais il faut vérifier s'il correspond au fichier XMIDI original, à une version normalisée ou à une autre représentation.
-- Le corps de la ligne a été reçu temporairement par le script pour examiner ses clés, **sans l'afficher ni le sauvegarder**. Aucune correspondance XMIDI/GigaMIDI n'a encore été mesurée.
+- **Aucun champ explicitement nommé XMIDI, source filename ou émotion humaine** n'y apparaît. Le `md5` d'au moins un élément a depuis été démontré identique aux octets XMIDI d'origine ; la couverture des autres éléments demeure inconnue.
+- Le corps de la ligne a été reçu temporairement par le script pour examiner ses clés, **sans l'afficher ni le sauvegarder**. Ce premier sondage du schéma ne mesurait aucune correspondance ; la preuve positive est décrite dans le [pilote P1 ultérieur](p1-exact-join.md).
 
-## Étape suivante : établir la traçabilité XMIDI → GigaMIDI
+## Programme initial de traçabilité XMIDI → GigaMIDI (étape historiquement définie avant la première jointure)
 
 1. Chercher dans la documentation officielle de GigaMIDI/XMIDI une table de correspondance source, des chemins d'origine ou une définition précise du `md5`.
 2. Tester sur un très petit échantillon l'identité d'empreintes **si des originaux XMIDI sont accessibles sans transfert massif** ; ne pas supposer qu'un MD5 d'un fichier MIDI normalisé correspond au fichier initial.
@@ -80,10 +80,15 @@ La [sonde d'empreintes](https://github.com/leye0/AnaMu/actions/runs/42335271305)
 
 La [sonde de l'en-tête et de 86 chemins](https://github.com/leye0/AnaMu/actions/runs/42336503063) a confirmé que le fichier CSV original fait **1 246 867 116 octets** et expose `file_path`, contrairement au Parquet qui expose `music`. Toutefois, **86 chemins sur 86 avaient un nom de base MD5**, correspondant au champ `md5` ; aucun ne portait un nom `XMIDI_...` ni de dossier source explicitement XMIDI. Seulement **65 536 octets** ont été lus. Il s'agit d'un échantillon, pas d'une preuve que toute trace de provenance est absente ; ce raccourci n'est pour l'instant pas démontré.
 
-### Nouvelle priorité de P1
+### Priorité P1 envisagée avant la première jointure
 
 1. Chercher une table de correspondance **externe** (provenance/source) si elle a été publiée ; le champ `file_path` du CSV testé ne contient pas les noms XMIDI originaux dans les 86 lignes inspectées.
 2. À défaut, **mesurer sur quelques groupes** le coût réel de collecte de la seule colonne `md5` (pas les MIDI) et estimer le coût à l'échelle des ≈2,1 millions de lignes.
 3. Construire un petit index de MD5 GigaMIDI, comparer aux empreintes de quelques fichiers XMIDI extraits par plages, et publier **des exemples exacts** ou un échec documenté. Les annotations XMIDI restent des observations humaines séparées, associées seulement après preuve de jointure.
 
 **Aucune extraction de plusieurs Go ni aucun traitement audio ne sont autorisés implicitement par cet audit.**
+
+
+### Première preuve positive de jointure binaire XMIDI ↔ GigaMIDI
+
+La [nouvelle expérience](https://github.com/leye0/AnaMu/actions/runs/42336949364) a sélectionné 100 MIDI XMIDI aléatoires (100 valides, 100 MD5 distincts), puis parcouru uniquement 52 groupes de la colonne `md5` d'un shard GigaMIDI. **Une correspondance MD5 exacte a été trouvée après 5 200 lignes** : étiquette humaine XMIDI `quiet`, genre `traditional`. Le ZIP XMIDI a fourni 13 328 176 octets en 305 requêtes Range ; le Parquet a nécessité 5 657 337 octets de lectures logiques, différents du trafic réseau réel. Aucune métadonnée de titre ou d'artiste exploitable pour cette ligne, aucun taux de couverture inférable, aucun audio téléchargé. Le traitement principal a duré ≈5 min 28 s, ce qui rend l'optimisation réseau prioritaire. **[Protocole, chiffres, limites et prochaines étapes →](p1-exact-join.md).**
