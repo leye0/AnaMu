@@ -62,22 +62,26 @@ def _without_known_ace_dtd(raw: bytes) -> bytes:
     return raw[:start] + raw[end + 2:]
 
 
-def _feature_values(parent: ET.Element) -> dict[str, list[float]]:
-    result: dict[str, list[float]] = {}
+def _feature_values(parent: ET.Element, *, nonfinite_as_missing: bool = False) -> dict[str, list[float | None]]:
+    result: dict[str, list[float | None]] = {}
     for element in parent.findall("feature"):
         label = element.findtext("name")
         if not label or not label.strip():
             raise ValueError("ace_feature_name_missing")
         if label in result:
             raise ValueError(f"ace_duplicate_feature_name: {label}")
-        values: list[float] = []
+        values: list[float | None] = []
         for node in element.findall("v"):
             try:
                 parsed = float(node.text or "")
             except ValueError as exc:
                 raise ValueError(f"ace_invalid_feature_value: {label}") from exc
             if not math.isfinite(parsed):
-                raise ValueError(f"ace_nonfinite_feature_value: {label}")
+                if not nonfinite_as_missing:
+                    raise ValueError(f"ace_nonfinite_feature_value: {label}")
+                # Original jSymbolic may emit NaN for undefined variability
+                # on sparse windows. It is missing data, NEVER a zero.
+                parsed = None
             values.append(parsed)
         if not values:
             raise ValueError(f"ace_feature_empty: {label}")
@@ -85,7 +89,8 @@ def _feature_values(parent: ET.Element) -> dict[str, list[float]]:
     return result
 
 
-def read_jsymbolic_ace(path: str | Path, *, max_bytes: int = 25_000_000) -> dict:
+def read_jsymbolic_ace(path: str | Path, *, max_bytes: int = 25_000_000,
+                       nonfinite_as_missing: bool = False) -> dict:
     """Parse published ACE 1.1 feature vectors for a bounded, local XML file.
 
     The jSymbolic CLI creates *seconds*-based windows when given ``-window``.
@@ -123,9 +128,9 @@ def read_jsymbolic_ace(path: str | Path, *, max_bytes: int = 25_000_000) -> dict
                     raise ValueError("ace_invalid_section_interval")
             windows.append({"start_seconds_if_j_symbolic_windowed": start,
                             "stop_seconds_if_j_symbolic_windowed": stop,
-                            "features": _feature_values(section)})
+                            "features": _feature_values(section, nonfinite_as_missing=nonfinite_as_missing)})
         datasets.append({"source_id": identifier, "whole_piece_features":
-                         _feature_values(dataset), "windows": windows})
+                         _feature_values(dataset, nonfinite_as_missing=nonfinite_as_missing), "windows": windows})
     if not datasets:
         raise ValueError("ace_no_data_sets")
     return {"engine": "jSymbolic original (imported ACE XML 1.1)",
@@ -133,6 +138,7 @@ def read_jsymbolic_ace(path: str | Path, *, max_bytes: int = 25_000_000) -> dict
             "source_file": str(source), "data_set_count": len(datasets),
             "window_count": sum(len(x["windows"]) for x in datasets),
             "time_axis": "performance_seconds_if_exported_by_jsymbolic_window_cli",
+            "nonfinite_source_values_as_missing": nonfinite_as_missing,
             "limitations": ["jSymbolic_feature_values_are_not_emotion_labels",
                             "timestamps_are_only_valid_when_produced_with_-window",
                             "preserve_missing_features_and_multidimensional_vectors"],

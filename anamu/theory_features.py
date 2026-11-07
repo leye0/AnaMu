@@ -126,9 +126,14 @@ def music21_harmonic_hypotheses(midi_path: str | Path) -> dict:
     for event in score.chordify().flatten().getElementsByClass(chord.Chord):
         pcs = sorted(set(event.pitchClasses))
         roman_hypothesis = None
+        roman_scale_degree = None
+        roman_inversion = None
         if len(pcs) >= 3:
             try:
-                roman_hypothesis = roman.romanNumeralFromChord(event, estimated_key).figure
+                hypothesis = roman.romanNumeralFromChord(event, estimated_key)
+                roman_hypothesis = hypothesis.figure
+                roman_scale_degree = int(hypothesis.scaleDegree)
+                roman_inversion = int(hypothesis.inversion())
             except (ValueError, IndexError, music21.exceptions21.Music21Exception):
                 pass  # Unknown is more honest than a fabricated harmonic role.
         sonorities.append({
@@ -136,6 +141,8 @@ def music21_harmonic_hypotheses(midi_path: str | Path) -> dict:
             "duration_quarter_beats": float(event.quarterLength),
             "pitch_classes": pcs,
             "roman_numeral_hypothesis": roman_hypothesis,
+            "roman_scale_degree_hypothesis": roman_scale_degree,
+            "roman_inversion_hypothesis": roman_inversion,
             "candidate_not_verified_chord": True,
         })
     return {

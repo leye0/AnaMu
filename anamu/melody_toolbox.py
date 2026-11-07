@@ -39,7 +39,8 @@ def _json_value(value):
     return None
 
 
-def extract_melody_toolbox(midi_path: str | Path, *, minimum_notes: int = 6) -> dict:
+def extract_melody_toolbox(midi_path: str | Path, *, minimum_notes: int = 6,
+                           fallback_skyline: bool = False) -> dict:
     """Run external source-comparison features for strictly monophonic parts.
 
     The library's default reference corpus may be used by corpus-statistical
@@ -62,6 +63,26 @@ def extract_melody_toolbox(midi_path: str | Path, *, minimum_notes: int = 6) -> 
     timing = MidiTempoMap.from_bytes(contents)
     selection = extract_monophonic_candidates(contents, min_notes=minimum_notes)
     accepted = selection["candidates"]
+    if not accepted and fallback_skyline:
+        # Extract a declared upper-voice candidate *only* for benchmarking
+        # coverage. Polyphonic skyline != musically verified melody, so leave
+        # its provenance visible; do not silently call it a true melody.
+        from .academic_fusion import _notes
+        notes, _ = _notes(source)
+        at_time = {}
+        for note in notes:
+            at_time.setdefault(round(note[0], 6), []).append(note)
+        points = [(start, max(group, key=lambda note: (note[2], note[3])))
+                  for start, group in sorted(at_time.items())]
+        sliced = []
+        for i, (start, note) in enumerate(points):
+            finish = min(note[1], points[i + 1][0] if i + 1 < len(points) else note[1])
+            if finish > start:
+                sliced.append({"pitch": note[2], "start_beats": start,
+                               "end_beats": finish, "velocity": note[3]})
+        if len(sliced) >= minimum_notes:
+            accepted = [{"track": -1, "channel": -1, "notes": sliced,
+                         "extraction_method": "unverified_upper_pitch_skyline"}]
     if not accepted:
         return {"engine": "melody-features", "status": "no_reliable_monophonic_part",
                 "candidate_count": 0, "rejected_parts": selection["rejected_parts"],
@@ -112,6 +133,7 @@ def extract_melody_toolbox(midi_path: str | Path, *, minimum_notes: int = 6) -> 
                 "scores": _json_value(get_narmour_features(fragment_melody)),
             })
         records.append({"track": part["track"], "channel": part["channel"],
+                        "extraction_method": part.get("extraction_method", "strict_monophonic_track"),
                         "notes_count": len(part["notes"]),
                         "start_seconds": timing.beats_to_seconds(part["notes"][0]["start_beats"]),
                         "end_seconds": timing.beats_to_seconds(part["notes"][-1]["end_beats"]),
@@ -129,5 +151,6 @@ def extract_melody_toolbox(midi_path: str | Path, *, minimum_notes: int = 6) -> 
             "candidate_count": len(records), "parts": records,
             "rejected_parts": selection["rejected_parts"],
             "limitations": ["no_voice_separation_of_ambiguous_polyphony",
+                            "skyline_if_used_is_unverified_upper_pitch_hypothesis",
                             "candidate_track_not_verified_primary_melody",
                             "feature_computations_are_not_direct_emotional_labels"]}

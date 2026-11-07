@@ -59,6 +59,16 @@ class MidiTempoMap:
             preceding.micros_per_quarter / 1_000_000 / self.ticks_per_quarter
         )
 
+    def seconds_to_beats(self, seconds: float) -> float:
+        """Inverse tempo map, retaining exact historical tempo changes."""
+        if seconds < 0:
+            raise ValueError("negative_seconds")
+        positions = [segment.seconds for segment in self.segments]
+        index = bisect.bisect_right(positions, seconds) - 1
+        preceding = self.segments[index]
+        return (preceding.tick + (seconds - preceding.seconds) *
+                1_000_000 * self.ticks_per_quarter / preceding.micros_per_quarter) / self.ticks_per_quarter
+
     def tempo_changes_seconds(self) -> list[tuple[float, float]]:
         return [(v.seconds, 60_000_000 / v.micros_per_quarter)
                 for v in self.segments]
