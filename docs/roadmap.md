@@ -1,6 +1,6 @@
 # AnaMu — Feuille de route de recherche et de développement
 
-**Version :** 0.5 — première jointure binaire XMIDI ↔ GigaMIDI prouvée  
+**Version :** 0.6 — jointure MD5 prouvée et audit instrumental XMIDI sur 200 fichiers  
 **Objectif :** constituer un corpus musical multimodal, identifiable et traçable, sur lequel plusieurs moteurs pourront étudier le langage musical et ses relations avec les émotions humaines.
 
 Ce document guide le projet. Une tâche n'est « terminée » que lorsque son résultat et ses limites sont documentés et vérifiés.
@@ -132,6 +132,7 @@ Les outils existants de rapprochement MIDI/audio (notamment les résultats MetaM
 **Cible :** jusqu'à **1 000 MIDI XMIDI**, sous réserve d'un accès raisonnable. Si l'archive ne permet aucun échantillonnage, documenter le problème et convenir d'une alternative avant un téléchargement massif.
 
 - Construire le plus petit pipeline reproductible de lecture des MIDI et de signatures.
+- **Audit instrumental mesuré :** [200 XMIDI sélectionnés, 199 analysés](p1-instrument-audit.md) ; 100 aléatoires (64 % avec parties guitare/basse/batterie actives), 99 pop/rock analysés (59,6 %). L'identification des artistes et la fidélité à l'enregistrement commercial restent à démontrer.
 - Chercher les correspondances exactes puis approchées dans un référentiel identifié.
 - Vérifier manuellement un échantillon des résultats, y compris les cas difficiles et les refus.
 - Publier les taux de couverture, de précision estimée et les erreurs représentatives.
@@ -219,7 +220,8 @@ Liste de contrôle immédiate :
 - [x] Configurer le secret GitHub Actions `HUGGING_FACE_KEY`, vérifier l'accès authentifié et lire un schéma minimal GigaMIDI (HTTP 302 puis 200, 5 762 octets de réponse).
 - [x] Examiner l'en-tête et 86 chemins du CSV original de GigaMIDI par plages HTTP (65 536 octets) : champ `file_path` présent mais 86/86 noms de fichier anonymisés au MD5 ; aucune provenance XMIDI directe observée dans l'échantillon.
 - [x] **Première jointure XMIDI→GigaMIDI prouvée** : [pilote de 100 XMIDI, arrêt après 5 200 empreintes d'un seul shard](https://github.com/leye0/AnaMu/actions/runs/42336949364). Correspondance exacte de l'échantillon `quiet`/`traditional`, 13 328 176 octets XMIDI et 5 657 337 octets de lectures logiques Parquet. [Rapport P1 détaillé](p1-exact-join.md). **Aucun taux de couverture global établi.**
-- [ ] **Optimiser le débit des lectures HTTP** (305 requêtes XMIDI pour 100 fichiers, ≈5 min 28 s de traitement) avant tout lot de grande taille ; mesurer séparément le trafic réseau réel du Parquet.
+- [x] **Accélérer l'extraction XMIDI ciblée** : [audit instrumental](p1-instrument-audit.md), 200 fichiers sélectionnés dont 199 analysés, 205 requêtes HTTP Range, 13 752 533 octets transférés, 198,8 s. La lecture ZIP optimisée passe normalement à une requête par fichier.
+- [ ] **Mesurer le débit d'indexation Parquet** et le trafic réseau réel, puis les artistes identifiables parmi les MIDI pop/rock avant toute montée en charge.
 - [ ] Choisir un référentiel identifié utilisable sans droit d'accès supplémentaire.
 - [ ] Définir un format de manifeste minimal et une convention de scores de rapprochement.
 - [ ] Créer un test reproductible sur un petit nombre de MIDI avant de viser 1 000.
@@ -235,12 +237,12 @@ Ce document décrit les **jalons** ; les progrès doivent être enregistrés ave
 - **Bloqué** : obstacle et action requise documentés.
 - **Terminé** : livrable et validation vérifiables, avec lien vers commit/rapport.
 
-### État initial
+### État actuel (7 novembre 2026)
 
 | Phase | Statut | Preuve / observation |
 |---|---|---|
 | P0 — Audit | **En cours (accès partiel vérifié)** | [Audit détaillé](audit-p0.md) ; XMIDI 449,63 Mo avec plages HTTP fonctionnelles, 3 MD5 GigaMIDI conformes, projection Parquet d'une colonne réussie. Plan de lecture exhaustive à chiffrer. |
-| P1 — Identification | **En cours (pilote non concluant)** | [Pilote XMIDI](https://github.com/leye0/AnaMu/actions/runs/42335658732) : 3 fichiers extraits temporairement ; tentative de recherche exacte bloquée par l'API (timeout) ; [lecture de colonne Parquet](https://github.com/leye0/AnaMu/actions/runs/42336189129) : 100 MD5 lus sans audio. **0 correspondance confirmée**, pas un résultat négatif. |
+| P1 — Identification / instrumentation | **En cours (preuves positives)** | [Jointure exacte](p1-exact-join.md) : 1 fichier XMIDI/GigaMIDI prouvé identique ; [audit instrumental](p1-instrument-audit.md) : 199/200 MIDI analysés, 64 % des 100 aléatoires avec guitare + basse + batterie actives. Identification d'artistes et qualité de l'alignement avec l'audio encore inconnues. |
 | P2 — Catalogue | À faire | Aucun catalogue produit |
 | P3 — Grammaire | À faire | Aucun résultat expérimental |
 | P4 — Audio et paroles | À faire | Aucun pipeline exécuté |
@@ -248,4 +250,4 @@ Ce document décrit les **jalons** ; les progrès doivent être enregistrés ave
 
 Lorsqu'une phase progresse, mettre à jour sa **mesure de couverture**, ses **critères de sortie** et son **état**.
 
-**Mesures du 7 novembre 2026 :** 19 tests unitaires ; archive XMIDI de 449 632 771 octets accessible par plages, index + 3 MIDI lus dans un budget de 12 966 652 octets (14 requêtes HTTP) ; 3 MD5 GigaMIDI égaux aux empreintes des octets exposés ; 100 MD5 du premier groupe Parquet récupérés par projection de colonne (5 473 205 octets de lectures logiques, aucune colonne MIDI demandée). Les recherches `/filter` et `/search` ont respectivement expiré et renvoyé 500, **ce qui ne prouve ni absence ni présence de correspondances**. L'en-tête du CSV de métadonnées de 1 246 867 116 octets a été interrogé avec une plage de 65 536 octets : `file_path` présent, mais 86/86 lignes inspectées ne contiennent qu'un nom de fichier MD5, sans marqueur XMIDI visible. Aucun ZIP complet ni fichier audio téléchargé ; aucun taux de correspondance estimé. Ne pas laisser éternellement le même nombre de « grands chantiers ouverts » sans indiquer leurs sous-étapes effectivement terminées.
+**Mesures cumulées du 7 novembre 2026 :** 30 tests unitaires ; ZIP XMIDI de 449 632 771 octets ; première correspondance MD5 exacte XMIDI ↔ GigaMIDI après 5 200 empreintes d'un shard de validation, sans titre/artiste confirmé ; audit instrumental de 200 MIDI sélectionnés (199 analysés) avec **64/100 fichiers aléatoires** réunissant guitare, basse et batterie actives. Sur les 108 016 fichiers XMIDI admissibles, 26 708 sont étiquetés rock, 25 582 pop. L'audit instrumental a transféré 13 752 533 octets au moyen de 205 requêtes Range (198,8 s) ; **aucun enregistrement audio ni aucune parole ne sont téléchargés ou conservés**. Ce sont des mesures d'échantillons, pas un taux de couverture ou de fidélité au corpus complet. [Rapport de jointure](p1-exact-join.md) · [Rapport instrumental](p1-instrument-audit.md).

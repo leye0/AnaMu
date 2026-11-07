@@ -12,7 +12,7 @@ L'objectif n'est pas de commencer par entraîner un modèle génératif. Nous vo
 4. Mesurer la couverture et les erreurs avant d'envisager le passage à grande échelle.
 5. Enrichir ensuite les chansons identifiées avec leurs paroles, leurs données de popularité et, ultérieurement, des observations audio synchronisées.
 
-**[Feuille de route détaillée →](docs/roadmap.md)** · **[Premier audit de sources →](docs/audit-p0.md)** · **[Première jointure exacte XMIDI ↔ GigaMIDI →](docs/p1-exact-join.md)**
+**[Feuille de route détaillée →](docs/roadmap.md)** · **[Premier audit de sources →](docs/audit-p0.md)** · **[Première jointure exacte →](docs/p1-exact-join.md)** · **[Audit instrumental XMIDI →](docs/p1-instrument-audit.md)**
 
 ## Principes
 
@@ -28,8 +28,9 @@ L'objectif n'est pas de commencer par entraîner un modèle génératif. Nous vo
 
 - **Phase :** P0 a démontré l'accès partiel aux deux corpus ; P1 a confirmé **une première jointure binaire exacte XMIDI ↔ GigaMIDI** par MD5. [Exécution vérifiée du 7 novembre 2026](https://github.com/leye0/AnaMu/actions/runs/42336949364).
 - **Émotions humaines :** l'exemple joint est étiqueté `quiet` / `traditional` dans XMIDI ; l'étiquette ne provient **pas** d'une détection émotionnelle automatique de GigaMIDI.
-- **Mesures :** 100 XMIDI valides et distincts prélevés en mémoire ; 5 200 MD5 GigaMIDI examinés dans **un seul shard** jusqu'au premier match. 13 328 176 octets HTTP pour XMIDI ; 5 657 337 octets de lectures *logiques* Parquet (pas un compteur réseau exact). **24 tests réussis**.
-- **Limites :** le balayage s'est arrêté au premier match, donc **aucun taux de couverture global** n'est calculable. Aucun titre, artiste ni MusicBrainz n'a été confirmé pour cet exemple ; aucune chanson audio ni parole n'a été récupérée. Le job a duré environ 5 min 28 s : optimiser les requêtes avant de généraliser.
+- **Jointure :** 100 XMIDI valides et distincts prélevés en mémoire ; 5 200 MD5 GigaMIDI examinés dans **un seul shard** jusqu'au premier match. 13 328 176 octets HTTP pour XMIDI ; 5 657 337 octets de lectures *logiques* Parquet (pas un compteur réseau exact).
+- **Instrumentation XMIDI, audit P1 :** 200 MIDI sélectionnés, **199 analysés** ; dans les 100 échantillons aléatoires, 100 % ont au moins deux pistes contenant des notes, 91 % au moins trois parties, et **64 % des parties guitare + basse + batterie actives** (au moins 16 notes par famille). Dans les 99 pop/rock analysés, **59/99 (59,6 %)** réunissent ces trois familles. 13 752 533 octets transférés, 205 requêtes HTTP Range, **30 tests réussis**. [Rapport instrumental](docs/p1-instrument-audit.md).
+- **Limites :** le balayage MD5 s'est arrêté au premier match, donc **aucun taux de couverture global** n'est calculable. Aucun titre, artiste ni MusicBrainz n'a été confirmé pour cet exemple ; **The Cranberries** et les autres artistes restent à identifier dans XMIDI. Le profil instrumental MIDI mesure les programmes/canaux et notes, **pas** la fidélité sonore à l'original. Aucun audio ni paroles récupérés.
 - **Conservation :** aucun gros corpus ni audio téléchargé ou archivé, aucun contenu MIDI conservé. Les limites de temps et de volume sont imposées dans les scripts et workflows.
 
 La feuille de route est un document vivant : les hypothèses doivent être confirmées par des expériences mesurables avant d'être considérées comme des acquis.
