@@ -26,10 +26,10 @@ L'objectif n'est pas de commencer par entraîner un modèle génératif. Nous vo
 
 ## État du projet
 
-- **Phase** : P0 en cours ; deux audits métadonnées exécutés et vérifiés sur [GitHub Actions](https://github.com/leye0/AnaMu/actions).
+- **Phase** : P0 en cours ; trois sondes de métadonnées et d'accès exécutées et vérifiées sur [GitHub Actions](https://github.com/leye0/AnaMu/actions).
 - **Corpus local** : aucun corpus importé ; aucun MIDI ni audio téléchargé.
 - **Rapprochements** : aucun encore exécuté ; XMIDI reste la référence des émotions humaines.
-- **Accès GigaMIDI** : accès anonyme refusé (HTTP 401), aucun `HF_TOKEN` configuré dans les secrets Actions ; accès authentifié à vérifier.
-- **Workflows** : sondes légères uniquement, quatre tests réussis ; aucun traitement massif autorisé ou lancé.
+- **Accès GigaMIDI** : secret Actions `HUGGING_FACE_KEY` vérifié ; accès anonyme HTTP 401, requête authentifiée autorisée (HTTP 302), et schéma consulté avec succès (HTTP 200, une ligne de réponse de 5 762 octets). Champs de rapprochement disponibles (`md5`, `title`, `artist`, `audio_text_matches_mbid`, `audio_text_matches_score`), mais **aucune colonne explicite d'identifiant XMIDI ou d'émotion humaine** dans le schéma observé.
+- **Workflows** : sondes légères uniquement, cinq tests réussis ; aucun traitement massif autorisé ou lancé. [Sonde du schéma](https://github.com/leye0/AnaMu/actions/runs/42334121279).
 
 La feuille de route est un document vivant : les hypothèses doivent être confirmées par des expériences mesurables avant d'être considérées comme des acquis.
