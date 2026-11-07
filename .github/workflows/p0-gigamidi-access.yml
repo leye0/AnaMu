@@ -21,5 +21,5 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Verifier le fichier Parquet sans telechargement
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_TOKEN: ${{ secrets.HUGGING_FACE_KEY }}
         run: python scripts/probe_gigamidi_access.py
