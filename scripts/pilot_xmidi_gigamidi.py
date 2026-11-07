@@ -42,20 +42,22 @@ class NoRedirect(urllib.request.HTTPRedirectHandler):
 class RangeFile:
     """Seekable remote file with a hard byte and request budget."""
 
-    def __init__(self, url: str, max_bytes: int = MAX_ZIP_TRANSFER):
+    def __init__(self, url: str, max_bytes: int = MAX_ZIP_TRANSFER,
+                 max_requests: int = MAX_ZIP_REQUESTS):
         self.url = url
         self.pos = 0
         self.total_size = None
         self.downloaded = 0
         self.requests = 0
         self.max_bytes = max_bytes
+        self.max_requests = max_requests
         self._get_range(0, 0)
 
     def _get_range(self, first: int, last: int) -> bytes:
         count = last - first + 1
         if count < 0 or count + self.downloaded > self.max_bytes:
             raise ValueError("zip_byte_budget_exceeded")
-        if self.requests >= MAX_ZIP_REQUESTS:
+        if self.requests >= self.max_requests:
             raise ValueError("zip_request_budget_exceeded")
         self.requests += 1
         req = urllib.request.Request(self.url, headers={
@@ -109,12 +111,12 @@ class RangeFile:
         return result
 
 
-def select_entries(infos: list[zipfile.ZipInfo]) -> tuple[int, list[zipfile.ZipInfo]]:
+def select_entries(infos: list[zipfile.ZipInfo], sample_size: int = SAMPLE_SIZE) -> tuple[int, list[zipfile.ZipInfo]]:
     eligible = [i for i in infos if i.filename.lower().endswith((".mid", ".midi"))
                 and not i.is_dir() and 200 <= i.file_size <= MAX_MIDI_SIZE
                 and i.compress_size <= MAX_COMPRESSED_SIZE]
     rng = random.Random(20261107)
-    return len(eligible), rng.sample(eligible, min(SAMPLE_SIZE, len(eligible)))
+    return len(eligible), rng.sample(eligible, min(sample_size, len(eligible)))
 
 
 def labels_from_filename(name: str) -> dict:
