@@ -1,7 +1,7 @@
 # AnaMu — Audit P0 : accès aux corpus et réutilisation des analyses
 
 **Dernière vérification :** 7 novembre 2026.  
-**État :** en cours — accès authentifié et lecture d'une ligne du schéma GigaMIDI confirmés ; jointure avec XMIDI non démontrée.  
+**État :** en cours — les deux sources sont accessibles partiellement ; empreintes vérifiées côté GigaMIDI et trois MIDI XMIDI lus, mais **aucune jointure exacte encore démontrée**.  
 **Priorité scientifique :** les **émotions humaines de XMIDI** restent la référence ; GigaMIDI est un candidat pour retrouver les identités et réutiliser les caractéristiques calculées.
 
 ## Preuves d'exécution
@@ -56,5 +56,30 @@ Ces quatre inconnues forment maintenant le cœur de P1. Il serait incorrect de c
 3. Si aucune clé directe n'existe, définir un plan de jointure conservatrice par caractéristiques symboliques avec estimation de faux positifs, et expliciter le coût prévisionnel.
 4. Mesurer ensuite, avant toute grande extraction, le trafic réel d'un lot borné via l'API viewer ; une réponse de 5,8 Ko pour une ligne ne préjuge pas du trafic pour des centaines de milliers de lignes.
 5. Garder les annotations humaines XMIDI séparées et les relier uniquement à des entrées identifiées avec un niveau de confiance documenté.
+
+## Nouvelles expériences — 7 novembre 2026
+
+### GigaMIDI : validité des MD5
+
+La [sonde d'empreintes](https://github.com/leye0/AnaMu/actions/runs/42335271305) a décodé temporairement trois petits MIDI exposés par l'API viewer et vérifié que leurs empreintes correspondent exactement à la colonne `md5` (**3 sur 3**). Cela prouve la signification de ce champ **pour les échantillons testés**, sans démontrer que les fichiers d'origine XMIDI ont les mêmes octets après normalisation.
+
+### XMIDI : une archive ZIP exploitable sans téléchargement total
+
+- [Sonde HTTP Range](https://github.com/leye0/AnaMu/actions/runs/42335377434) : l'URL de téléchargement public Google Drive répond **HTTP 206** pour les derniers 65 536 octets, avec une fin d'archive ZIP valide. Taille annoncée : **449 632 771 octets** (≈450 Mo décimaux).
+- [Pilote de lecture ciblée](https://github.com/leye0/AnaMu/actions/runs/42335658732) : index ZIP de **108 024 entrées**, **108 016 MIDI éligibles** au plafond de taille sélectionné. Trois exemples extraits **en mémoire**, étiquettes provenant des noms de fichiers : `sad/rock` (45 691 octets), `romantic/pop` (41 144 octets), `happy/country` (35 811 octets).
+- **Trafic réel mesuré** : **12 966 652 octets** reçus via **14 requêtes Range** (index central ZIP + fichiers ciblés). Aucun fichier musical conservé ; aucune archive complète téléchargée.
+- La tentative de contrôle de correspondance par `/filter` a expiré. Les trois résultats de jointure sont **inconnus**, et non trois non-correspondances.
+
+### GigaMIDI : limites du viewer, alternative Parquet
+
+- [Vérification des endpoints de recherche](https://github.com/leye0/AnaMu/actions/runs/42335780264) : `/is-valid` annonce `filter` et `search` disponibles ; pourtant `/filter` a expiré sur un MD5 de contrôle et `/search` a renvoyé **HTTP 500**. Ne pas lancer des milliers de recherches une par une sans résoudre ce problème.
+- [Projection Parquet `md5` uniquement](https://github.com/leye0/AnaMu/actions/runs/42336189129) : succès avec `pyarrow` et un accès `hf://` par plages HTTP. Le premier shard de validation contient **106 810 lignes**, réparties en **1 069 groupes** de 100 ; la colonne `md5` du premier groupe occupe **3 589 octets compressés**. **100 empreintes valides** lues, **5 473 205 octets de lectures logiques** au total (métadonnées Parquet incluses), sous un plafond de 24 Mo. Aucune colonne `music` demandée.
+- Les octets de *lecture logique* ne sont pas un compteur réseau exact : le cache de lecture du système de fichiers peut ajouter des transferts. Lire tous les groupes de tous les shards exigera une estimation de débit, de requêtes, de trafic et de coût avant exécution.
+
+### Nouvelle priorité de P1
+
+1. Évaluer si une table de provenance publiée associe déjà le `md5` de GigaMIDI à l'original XMIDI ; c'est la voie prioritaire.
+2. À défaut, **mesurer sur quelques groupes** le coût réel de collecte de la seule colonne `md5` (pas les MIDI) et estimer le coût à l'échelle des ≈2,1 millions de lignes.
+3. Construire un petit index de MD5 GigaMIDI, comparer aux empreintes de quelques fichiers XMIDI extraits par plages, et publier **des exemples exacts** ou un échec documenté. Les annotations XMIDI restent des observations humaines séparées, associées seulement après preuve de jointure.
 
 **Aucune extraction de plusieurs Go ni aucun traitement audio ne sont autorisés implicitement par cet audit.**
