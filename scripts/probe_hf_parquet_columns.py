@@ -11,6 +11,7 @@ from __future__ import annotations
 import io
 import json
 import os
+import re
 import urllib.error
 
 
@@ -50,6 +51,15 @@ class BudgetFile(io.RawIOBase):
         data = self.read(len(buffer))
         buffer[:len(data)] = data
         return len(data)
+
+
+def safe_error_detail(exc: Exception, token: str) -> str:
+    """Keep diagnostic content without logging credentials or signed URLs."""
+    message = str(exc).replace(token, "[TOKEN]") if token else str(exc)
+    message = re.sub(r"https?://[^\s\"']+", "[URL]", message)
+    message = re.sub(r"hf://[^\s\"']+", "[HF_PATH]", message)
+    message = re.sub(r"\b[a-zA-Z0-9_-]{40,}\b", "[OPAQUE]", message)
+    return message[:220]
 
 
 def inspect(token: str) -> dict:
@@ -93,8 +103,8 @@ def main() -> None:
         try:
             result["inspection"] = inspect(token)
         except Exception as exc:
-            # Never print arbitrary exception messages: some contain signed URLs.
             result["error"] = type(exc).__name__
+            result["error_detail_redacted"] = safe_error_detail(exc, token)
     print(json.dumps(result, indent=2))
 
 
