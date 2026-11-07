@@ -1,6 +1,6 @@
 # AnaMu — Feuille de route de recherche et de développement
 
-**Version :** 0.2 — audit P0 démarré et vérifié sur GitHub Actions  
+**Version :** 0.3 — accès et schéma GigaMIDI vérifiés sur GitHub Actions  
 **Objectif :** constituer un corpus musical multimodal, identifiable et traçable, sur lequel plusieurs moteurs pourront étudier le langage musical et ses relations avec les émotions humaines.
 
 Ce document guide le projet. Une tâche n'est « terminée » que lorsque son résultat et ses limites sont documentés et vérifiés.
@@ -214,7 +214,8 @@ Liste de contrôle immédiate :
 - [x] Vérifier la forme de distribution de XMIDI (ZIP Google Drive unique) et le contenu du dépôt public.
 - [ ] Mesurer la taille du ZIP XMIDI et établir si un sous-ensemble est accessible sans l'archive complète.
 - [x] Vérifier les restrictions MetaMIDI (Zenodo) et GigaMIDI (Hugging Face) et mesurer le rejet anonyme (HTTP 401).
-- [ ] Configurer un jeton Hugging Face de lecture `HF_TOKEN` dans les secrets Actions, puis vérifier l'accès réel à GigaMIDI.
+- [x] Configurer le secret GitHub Actions `HUGGING_FACE_KEY`, vérifier l'accès authentifié et lire un schéma minimal GigaMIDI (HTTP 302 puis 200, 5 762 octets de réponse).
+- [ ] Vérifier si le champ GigaMIDI `md5` ou une table de provenance permet de retrouver sans ambiguïté les MIDI et annotations humaines XMIDI.
 - [ ] Choisir un référentiel identifié utilisable sans droit d'accès supplémentaire.
 - [ ] Définir un format de manifeste minimal et une convention de scores de rapprochement.
 - [ ] Créer un test reproductible sur un petit nombre de MIDI avant de viser 1 000.
@@ -234,7 +235,7 @@ Ce document décrit les **jalons** ; les progrès doivent être enregistrés ave
 
 | Phase | Statut | Preuve / observation |
 |---|---|---|
-| P0 — Audit | **En cours** | [Rapport de vérification](audit-p0.md) et [workflow d'audit réussi](https://github.com/leye0/AnaMu/actions/runs/42332678641) ; [sonde d'accès réussie](https://github.com/leye0/AnaMu/actions/runs/42333456588) : HTTP 401 anonyme et `HF_TOKEN` absent ; taille et extraction partielle XMIDI non établies |
+| P0 — Audit | **En cours** | [Rapport de vérification](audit-p0.md) et [workflow d'audit réussi](https://github.com/leye0/AnaMu/actions/runs/42332678641) ; [sonde initiale](https://github.com/leye0/AnaMu/actions/runs/42333456588) : HTTP 401 anonyme ; [sonde authentifiée](https://github.com/leye0/AnaMu/actions/runs/42333965236) : HTTP 302 ; [schéma lu](https://github.com/leye0/AnaMu/actions/runs/42334121279) : HTTP 200, 1 ligne, champs `md5`/titre/artiste/MusicBrainz, aucune clé XMIDI explicite. Taille et extraction partielle XMIDI non établies |
 | P1 — Identification | À faire | Aucun rapprochement exécuté |
 | P2 — Catalogue | À faire | Aucun catalogue produit |
 | P3 — Grammaire | À faire | Aucun résultat expérimental |
@@ -243,4 +244,4 @@ Ce document décrit les **jalons** ; les progrès doivent être enregistrés ave
 
 Lorsqu'une phase progresse, mettre à jour sa **mesure de couverture**, ses **critères de sortie** et son **état**.
 
-**Mesures du 7 novembre 2026 :** 2 workflows P0 terminés avec succès, 4 tests automatiques réussis, 5 sources interrogées par API et 1 requête `HEAD` d'accès GigaMIDI, 0 fichier MIDI téléchargé, 0 correspondance exécutée. L'état P0 reste *En cours* tant que le contrôle d'accès authentifié et l'échantillonnage ne sont pas vérifiés. Ne pas laisser éternellement le même nombre de « grands chantiers ouverts » sans indiquer leurs sous-étapes effectivement terminées.
+**Mesures du 7 novembre 2026 :** 4 exécutions P0 réussies (audit, accès anonyme, accès authentifié, schéma), 5 tests automatiques réussis, 5 sources initialement interrogées par API, un contrôle d'accès GigaMIDI anonyme puis authentifié, et une lecture viewer d'une ligne (corps de réponse de 5 762 octets). 0 archive téléchargée, 0 correspondance XMIDI/GigaMIDI exécutée. P0 reste *En cours* : absence de preuve de clé commune XMIDI/GigaMIDI et conditions d'échantillonnage XMIDI encore inconnues. Ne pas laisser éternellement le même nombre de « grands chantiers ouverts » sans indiquer leurs sous-étapes effectivement terminées.
