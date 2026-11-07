@@ -18,6 +18,8 @@ import shutil
 import subprocess
 from pathlib import Path
 
+from anamu.jsymbolic_ace import read_jsymbolic_ace
+
 
 def build_jsymbolic_command(jar: Path, midi: Path, values: Path, definitions: Path,
                             window_seconds: float, overlap: float,
@@ -46,6 +48,8 @@ def main() -> None:
     parser.add_argument("--overlap", type=float, default=0.5)
     parser.add_argument("--heap-gb", type=int, default=2)
     parser.add_argument("--max-minutes", type=int, default=10)
+    parser.add_argument("--json-out", type=Path,
+                        help="Optional parsed ACE 1.1 JSON output (explicit path)")
     parser.add_argument("--execute", action="store_true")
     args = parser.parse_args()
     output = args.out.resolve()
@@ -69,9 +73,23 @@ def main() -> None:
                                timeout=args.max_minutes * 60)
     if not values.is_file():
         raise RuntimeError(f"jSymbolic returned but did not write {values}")
+    if not definitions.is_file() or not values.with_suffix(".csv").is_file():
+        raise RuntimeError("jSymbolic_missing_requested_feature_outputs")
+    imported = read_jsymbolic_ace(values)
+    if imported["data_set_count"] != 1 or imported["window_count"] < 1:
+        raise RuntimeError("jSymbolic_did_not_return_windowed_features_for_one_midi")
+    if args.json_out:
+        target = args.json_out.resolve()
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(json.dumps(imported, indent=2, ensure_ascii=False) + "\n",
+                          encoding="utf-8")
     print(json.dumps({"status": "completed", "stdout": completed.stdout[-2000:],
                       "csv": str(values.with_suffix(".csv")),
-                      "values_xml": str(values), "definitions_xml": str(definitions)},
+                      "values_xml": str(values), "definitions_xml": str(definitions),
+                      "data_set_count": imported["data_set_count"],
+                      "window_count": imported["window_count"],
+                      "feature_values_sha256": imported["input_sha256"],
+                      "parsed_json": str(args.json_out.resolve()) if args.json_out else None},
                      indent=2))
 
 
