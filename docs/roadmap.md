@@ -1,6 +1,6 @@
 # AnaMu — Feuille de route de recherche et de développement
 
-**Version :** 0.3 — accès et schéma GigaMIDI vérifiés sur GitHub Actions  
+**Version :** 0.4 — empreintes MD5 et accès partiel XMIDI/GigaMIDI mesurés  
 **Objectif :** constituer un corpus musical multimodal, identifiable et traçable, sur lequel plusieurs moteurs pourront étudier le langage musical et ses relations avec les émotions humaines.
 
 Ce document guide le projet. Une tâche n'est « terminée » que lorsque son résultat et ses limites sont documentés et vérifiés.
@@ -212,10 +212,12 @@ Exemples de questions : tensions/résolutions, continuité entre phrases, contra
 Liste de contrôle immédiate :
 
 - [x] Vérifier la forme de distribution de XMIDI (ZIP Google Drive unique) et le contenu du dépôt public.
-- [ ] Mesurer la taille du ZIP XMIDI et établir si un sous-ensemble est accessible sans l'archive complète.
+- [x] Mesurer le ZIP XMIDI (**449 632 771 octets**, 108 024 entrées ZIP) et lire trois petits MIDI par plages HTTP (12 966 652 octets transférés au total, sans archive complète).
+- [x] Vérifier sur trois lignes que le `md5` GigaMIDI est bien le MD5 des octets MIDI exposés (3/3).
+- [x] Démontrer la projection de la seule colonne Parquet `md5` sur un groupe de 100 lignes (5 473 205 octets de lectures logiques, limite 24 Mo).
 - [x] Vérifier les restrictions MetaMIDI (Zenodo) et GigaMIDI (Hugging Face) et mesurer le rejet anonyme (HTTP 401).
 - [x] Configurer le secret GitHub Actions `HUGGING_FACE_KEY`, vérifier l'accès authentifié et lire un schéma minimal GigaMIDI (HTTP 302 puis 200, 5 762 octets de réponse).
-- [ ] Vérifier si le champ GigaMIDI `md5` ou une table de provenance permet de retrouver sans ambiguïté les MIDI et annotations humaines XMIDI.
+- [ ] Établir **au moins une jointure XMIDI→GigaMIDI prouvée** : les endpoints serveur `/filter` (délai dépassé) et `/search` (HTTP 500) ne fonctionnent pas pour notre essai ; évaluer une jointure locale par les colonnes MD5, **avec métriques de trafic et de coût avant toute montée en charge**.
 - [ ] Choisir un référentiel identifié utilisable sans droit d'accès supplémentaire.
 - [ ] Définir un format de manifeste minimal et une convention de scores de rapprochement.
 - [ ] Créer un test reproductible sur un petit nombre de MIDI avant de viser 1 000.
@@ -235,8 +237,8 @@ Ce document décrit les **jalons** ; les progrès doivent être enregistrés ave
 
 | Phase | Statut | Preuve / observation |
 |---|---|---|
-| P0 — Audit | **En cours** | [Rapport de vérification](audit-p0.md) et [workflow d'audit réussi](https://github.com/leye0/AnaMu/actions/runs/42332678641) ; [sonde initiale](https://github.com/leye0/AnaMu/actions/runs/42333456588) : HTTP 401 anonyme ; [sonde authentifiée](https://github.com/leye0/AnaMu/actions/runs/42333965236) : HTTP 302 ; [schéma lu](https://github.com/leye0/AnaMu/actions/runs/42334121279) : HTTP 200, 1 ligne, champs `md5`/titre/artiste/MusicBrainz, aucune clé XMIDI explicite. Taille et extraction partielle XMIDI non établies |
-| P1 — Identification | À faire | Aucun rapprochement exécuté |
+| P0 — Audit | **En cours (accès partiel vérifié)** | [Audit détaillé](audit-p0.md) ; XMIDI 449,63 Mo avec plages HTTP fonctionnelles, 3 MD5 GigaMIDI conformes, projection Parquet d'une colonne réussie. Plan de lecture exhaustive à chiffrer. |
+| P1 — Identification | **En cours (pilote non concluant)** | [Pilote XMIDI](https://github.com/leye0/AnaMu/actions/runs/42335658732) : 3 fichiers extraits temporairement ; tentative de recherche exacte bloquée par l'API (timeout) ; [lecture de colonne Parquet](https://github.com/leye0/AnaMu/actions/runs/42336189129) : 100 MD5 lus sans audio. **0 correspondance confirmée**, pas un résultat négatif. |
 | P2 — Catalogue | À faire | Aucun catalogue produit |
 | P3 — Grammaire | À faire | Aucun résultat expérimental |
 | P4 — Audio et paroles | À faire | Aucun pipeline exécuté |
@@ -244,4 +246,4 @@ Ce document décrit les **jalons** ; les progrès doivent être enregistrés ave
 
 Lorsqu'une phase progresse, mettre à jour sa **mesure de couverture**, ses **critères de sortie** et son **état**.
 
-**Mesures du 7 novembre 2026 :** 4 exécutions P0 réussies (audit, accès anonyme, accès authentifié, schéma), 5 tests automatiques réussis, 5 sources initialement interrogées par API, un contrôle d'accès GigaMIDI anonyme puis authentifié, et une lecture viewer d'une ligne (corps de réponse de 5 762 octets). 0 archive téléchargée, 0 correspondance XMIDI/GigaMIDI exécutée. P0 reste *En cours* : absence de preuve de clé commune XMIDI/GigaMIDI et conditions d'échantillonnage XMIDI encore inconnues. Ne pas laisser éternellement le même nombre de « grands chantiers ouverts » sans indiquer leurs sous-étapes effectivement terminées.
+**Mesures du 7 novembre 2026 :** 17 tests unitaires ; archive XMIDI de 449 632 771 octets accessible par plages, index + 3 MIDI lus dans un budget de 12 966 652 octets (14 requêtes HTTP) ; 3 MD5 GigaMIDI égaux aux empreintes des octets exposés ; 100 MD5 du premier groupe Parquet récupérés par projection de colonne (5 473 205 octets de lectures logiques, aucune colonne MIDI demandée). Les recherches `/filter` et `/search` ont respectivement expiré et renvoyé 500, **ce qui ne prouve ni absence ni présence de correspondances**. Aucun ZIP complet ni fichier audio téléchargé ; aucun taux de correspondance estimé. Ne pas laisser éternellement le même nombre de « grands chantiers ouverts » sans indiquer leurs sous-étapes effectivement terminées.
