@@ -26,10 +26,10 @@ L'objectif n'est pas de commencer par entraîner un modèle génératif. Nous vo
 
 ## État du projet
 
-- **Phase** : P0 en cours ; trois sondes de métadonnées et d'accès exécutées et vérifiées sur [GitHub Actions](https://github.com/leye0/AnaMu/actions).
-- **Corpus local** : aucun corpus importé ; aucun MIDI ni audio téléchargé.
-- **Rapprochements** : aucun encore exécuté ; XMIDI reste la référence des émotions humaines.
-- **Accès GigaMIDI** : secret Actions `HUGGING_FACE_KEY` vérifié ; accès anonyme HTTP 401, requête authentifiée autorisée (HTTP 302), et schéma consulté avec succès (HTTP 200, une ligne de réponse de 5 762 octets). Champs de rapprochement disponibles (`md5`, `title`, `artist`, `audio_text_matches_mbid`, `audio_text_matches_score`), mais **aucune colonne explicite d'identifiant XMIDI ou d'émotion humaine** dans le schéma observé.
-- **Workflows** : sondes légères uniquement, cinq tests réussis ; aucun traitement massif autorisé ou lancé. [Sonde du schéma](https://github.com/leye0/AnaMu/actions/runs/42334121279).
+- **Phase** : P0 en cours et pilote P1 démarré ; accès XMIDI par plages HTTP et lecture partielle de la colonne `md5` GigaMIDI démontrés sur [GitHub Actions](https://github.com/leye0/AnaMu/actions).
+- **Corpus local** : aucune archive complète importée ; trois petits fichiers XMIDI lus temporairement en mémoire, sans conservation des MIDI ni téléchargement d'audio.
+- **Rapprochements** : tentative de jointure exacte sur trois fichiers XMIDI ; résultat **indéterminé** parce que les endpoints `/filter` et `/search` du viewer GigaMIDI expirent ou échouent. Aucun match confirmé, aucun taux de couverture calculé.
+- **Accès GigaMIDI** : sur trois lignes, `md5` correspond aux octets MIDI (3/3). Secret Actions `HUGGING_FACE_KEY` vérifié ; accès anonyme HTTP 401, requête authentifiée autorisée (HTTP 302), et schéma consulté avec succès (HTTP 200, une ligne de réponse de 5 762 octets). Champs de rapprochement disponibles (`md5`, `title`, `artist`, `audio_text_matches_mbid`, `audio_text_matches_score`), mais **aucune colonne explicite d'identifiant XMIDI ou d'émotion humaine** dans le schéma observé.
+- **Workflows** : 17 tests unitaires ; lecture XMIDI ciblée à **12 966 652 octets** de transfert HTTP pour inspecter l'index ZIP et trois MIDI ; essai de projection d'une colonne Parquet limité à 24 Mo de lecture logique, sans extraire la colonne `music`. Aucun traitement massif lancé. [Pilote XMIDI](https://github.com/leye0/AnaMu/actions/runs/42335658732) · [Projection Parquet](https://github.com/leye0/AnaMu/actions/runs/42336189129).
 
 La feuille de route est un document vivant : les hypothèses doivent être confirmées par des expériences mesurables avant d'être considérées comme des acquis.
