@@ -46,7 +46,7 @@ Une corrélation ne prouve pas un mécanisme causal. La **tension**, le
 | **Prochain** | **S2 — Harmonie et enchaînements** | Hypothèses d'accords, progression, fonction, tonalité locale, cadences, Tonal Pitch Space, Spiral Array ; tests sur vérité musicale annotée. | **music21 + Partitura actifs sur fixtures ; vérité musicale externe à venir** |
 | **Prochain** | **S3 — Motifs, formes, tension** | Répétitions/transformations, structure hiérarchique, mémoire et modèles temporels Lerdahl/Farbood. | À faire |
 | **Après** | **S4 — Fusion des mécanismes** | Entropie avant l'événement, surprise à l'événement, tension/résolution et interactions, ablations. | À faire |
-| **Après** | **S5 — Émotions humaines** | Relations calibrées aux labels et courbes **humaines** avec baselines, séparations d'œuvres et contrôles négatifs. | **Protocole EMOPIA et évaluateur construits ; pas de classificateur entraîné ni de score humain** |
+| **Démarré** | **S5 — Émotions humaines** | Relations calibrées aux labels et courbes **humaines** avec baselines, séparations d'œuvres et contrôles négatifs. | **Premier benchmark VGMIDI réel : 10 pièces jamais vues, 30 évaluations temporelles par pièce, MAE V/A 0,236/0,172 vs baseline 0,289/0,208 ; corrélation de forme encore faible. EMOPIA externe intact.** |
 | **Après preuve de besoin** | **S6 — Corpus ciblé** | Sélection par requirements de S0–S5, peu de MIDI fiables, couverture/erreurs/biais documentés. | Études de sources déjà réalisées ; sélection à redéfinir |
 | **Recherche appliquée** | **S7 — Bach, Chopin, puis pop** | Analyses explicables de pièces identifiées, confrontées à la théorie et aux évaluations humaines quand elles existent. | À faire |
 | **Long terme** | **S8 — Génération symbolique** | Génération + révision sous contraintes, rendus MIDI multipistes, évaluation humaine et musicale. | À faire |
@@ -145,6 +145,7 @@ humaine globale ne prouve pas la cause locale d'une émotion.
 |---|---|---|
 | [XMIDI / XMusic](https://github.com/xmusic-project/XMIDI_Dataset) | 108 023 MIDI, 11 classes émotionnelles humaines et genre | Étiquette du **morceau**, titre/artiste non fournis dans les noms |
 | [EMOPIA](https://annahung31.github.io/EMOPIA/) | 1 087 extraits de piano, MIDI et audio, quadrants émotionnels annotés | Piano pop, classes par **extrait**, pas secondes individuelles |
+| [VGMIDI](https://github.com/lucasnfe/vgmidi) | 200 pièces de piano de jeux vidéo, environ 30 annotations humaines valence/activation **par mesure**, MIDI originaux | Droits des arrangements à vérifier ; 59 des 200 MIDI refusés dans notre premier parseur de mesure, couverture partielle ; protocole interne et transfert de style non prouvé |
 | [DEAM](https://cvml.unige.ch/databases/DEAM/) | 1 802 extraits/chansons, valence/activation dans le temps | Principalement audio, appariement MIDI à créer prudemment si nécessaire |
 | [PMEmo](https://github.com/HuiZhangDB/PMEmo) | 794 chansons, annotations et activité électrodermale | Audio ; physiologie et émotion déclarée distinctes |
 | MIDI Bach/Chopin autorisés | Analyses de tonalité, motifs, cadences et forme, études de cas compréhensibles | Domaine public de la composition ≠ licence de chaque transcription MIDI |
@@ -175,9 +176,11 @@ La version 0.8 a accompli des audits utiles, qui demeurent vérifiables :
 - Les scripts de sondage et audits historiques restent en place ; ne pas
   les supprimer, mais **ne pas lancer leurs workflows lourds par défaut**.
 
-Le projet n'a actuellement **aucune** preuve de prédiction émotionnelle
-locale validée. Ne pas confondre les audits d'instrumentation, une jointure
-MD5 et une validation psychologique.
+Depuis le pilote VGMIDI, le projet a **une première comparaison réelle des
+émotions annotées par des humains et estimées par AnaMu** sur des thèmes
+connus mis de côté pour le test. Le résultat reste modeste, surtout pour la
+forme temporelle ; une jointure MD5 ou un audit instrumental ne valent toujours
+pas validation psychologique.
 
 ## 8. État du premier incrément S0/S1
 

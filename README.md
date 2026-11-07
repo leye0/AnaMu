@@ -16,6 +16,12 @@ de chaque mécanisme. Les rapprochements MIDI↔audio et **Demucs sont reportés
 - **[Moteur émotionnel et couverture des algorithmes](docs/emotion-engine.md)** —
   23 mécanismes distincts étudiés, logiciels de recherche disponibles,
   intégration, expérience EMOPIA sans fuite et critères de validité.
+- **[Comparaison réelle sur dix thèmes connus de piano VGMIDI](reports/vgmidi-temporal-ten.md)** —
+  humains (environ 30 évaluations *à chaque mesure*) vs **estimations
+  émotionnelles d'AnaMu sur les morceaux existants**, courbes SVG et
+  [résultats détaillés](reports/vgmidi-temporal-ten.json). Il ne s'agit pas de
+  prévoir les notes ou émotions futures ; les dix titres étaient simplement
+  exclus de l'apprentissage du modèle.
 - **[Audits historiques](docs/audit-p0.md)** ·
   [jointure exacte](docs/p1-exact-join.md) ·
   [audit instrumental XMIDI](docs/p1-instrument-audit.md) ·
@@ -59,6 +65,20 @@ La base `anamu/` comporte :
   de fichiers, hash, rejets, séparation reproductible de **chansons**.
 - `emotion_evaluation.py` : baselines sur entraînement seulement et score sur
   test réservé, macro-F1 quatre classes, couverture, abstentions, confusion.
+- `vgmidi_temporal.py` et `scripts/vgmidi_temporal_benchmark.py` : **première
+  véritable comparaison humaine**, sur 200 pièces de piano évaluées par ~30
+  auditeurs *mesure par mesure*. À partir de 141 MIDI chronologiquement
+  fiables, 111 pièces entraînent le lien entre 24 caractéristiques MIDI
+  explicables (dont **Partitura tonal tension** et **music21 harmonies**)
+  et les médianes valence/activation humaines. 20 pièces servent au choix du
+  modèle et **10 thèmes connus du public sont réservés au test et exclus de
+  l'apprentissage**.
+  **MAE test sur −1..+1 : 0,236 valence / 0,172 activation**, contre
+  **0,289 / 0,208** pour la baseline constante. La corrélation temporelle
+  *à l'intérieur de chaque pièce* demeure faible (+0,08 / +0,23) : cette
+  première amélioration **ne prouve pas** la compréhension des montées
+  d'émotion. Le [rapport](reports/vgmidi-temporal-ten.md) montre aussi les
+  erreurs, les refus et la dispersion des réponses humaines.
 - `scripts/run_original_idyom.py` : configuration/lancement *optionnel* de
   l'outil IDyOM via py2lispIDyOM et SBCL. Le module
   `idyom_guardrails.py` vérifie les empreintes de toutes les pistes de
@@ -118,6 +138,10 @@ La vérification Java originale peut être activée manuellement avec le
 paramètre `jsymbolic_smoke` ; elle télécharge **seulement l'outil publié**,
 dans une exécution séparée et plafonnée. Cette vérification plus coûteuse
 n'est pas lancée à chaque modification de code.
+Une **comparaison humaine VGMIDI** plus longue est disponible dans **le même
+workflow**, à déclencher avec `vgmidi_temporal=true` (ou un commit explicitement
+marqué `[vgmidi-run]`). Le job ne publie que des rapports dérivés, jamais les
+MIDI téléchargés. Le test unitaire des conventions VGMIDI roule normalement.
 **Bilan du 7 novembre 2026 : 81 tests locaux réussis ; deux jobs GitHub
 Actions réussis** (tests symboliques et analyse Java originale), sur
 [l'exécution 42415633459](https://github.com/leye0/AnaMu/actions/runs/42415633459).
@@ -151,8 +175,8 @@ Actions réussis** (tests symboliques et analyse Java originale), sur
 - Ancien protocole Demucs/ADTOF/Omnizart écrit, **jamais exécuté** ; ses
   scripts et rapports restent consultables à titre historique.
 
-**Important :** la tension musicale et les accords sont maintenant extraits
-par des bibliothèques existantes sur des fichiers de test. **Aucun score de
-prédiction émotionnelle sur les annotations humaines d'EMOPIA n'a encore été
-mesuré.** L'entraînement émotionnel, la fusion temporelle des mécanismes, les
-ablations et la validation humaine indépendante restent à construire.
+**Important :** ce premier score sur **VGMIDI** est une validation *interne* à
+ce corpus et avec un sous-ensemble de nos mécanismes, pas une preuve externe.
+**Aucun score de prédiction sur les annotations humaines d'EMOPIA n'a encore été
+mesuré.** IDyOM Lisp, jSymbolic Java en fusion, de nombreuses familles
+théoriques, les ablations et une validation externe restent à construire.

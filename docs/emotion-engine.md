@@ -46,8 +46,8 @@ de bibliothèques ne suffisent pas à valider un mécanisme psychologique.
 | M19 — psychologie des attentes | Meyer (1956), Huron ITPRA (2006) | Hypothèses sur événements prévus, différés, violés, évalués | **cadre** ; états mentaux non directement observables |
 | M20 — mémoire et familiarité stylistique | IDyOM long/short-term, réexposition, apprentissage de style | Modèles pré-entraînés vs adaptation causale, familiarité locale | candidat ; ne pas préentraîner sur test |
 | M21 — styles et signatures de compositeurs | jSymbolic, music21, comparaisons normalisées | Profil stylistique, contraintes et références interprétables | candidat ; identité ≠ émotion |
-| M22 — trajectoires affectives | Circumplex valence/activation, études de tension et plaisir | Courbe et résumé émotionnels **appris à partir de labels humains** | futur ; aucun modèle validé |
-| M23 — désaccord et pluralité d'annotateurs | Psychométrie, modèles ordinal/probabilistes | Distribution des jugements et incertitude inter-humains | futur ; dépend des votes publiés |
+| **M22 — trajectoires affectives** | Circumplex valence/activation, études de tension et plaisir | Courbe et résumé émotionnels **appris à partir de labels humains** | **pilote réel** VGMIDI sur 10 thèmes connus, mais réservés au test du modèle (supervisé ; validité externe non prouvée) |
+| **M23 — désaccord et pluralité d'annotateurs** | Psychométrie, modèles ordinal/probabilistes | Distribution des jugements et incertitude inter-humains | **pilote réel** : médiane / quartiles de ~30 personnes, par mesure sur VGMIDI ; modèles explicites du désaccord encore candidats |
 
 **Critère de non-redondance :** deux sorties portant sur *le même signal*
 (p. ex. moyenne et maximum de `cloud_diameter`) sont des agrégations
@@ -193,7 +193,47 @@ python -m scripts.emopia_benchmark ./EMOPIA_2.2 --protocol external --prediction
 python -m scripts.emopia_benchmark ./EMOPIA_2.2 --protocol internal --seed 2026
 ```
 
-### Ce qu'il faut encore prouver
+### Première exécution émotionnelle *humaine* — VGMIDI (7 novembre 2026)
+
+Le [rapport avec graphique et dix tableaux](../reports/vgmidi-temporal-ten.md)
+présente maintenant une **vraie expérience** distincte du banc externe
+EMOPIA : [VGMIDI, Ferreira & Whitehead](https://github.com/lucasnfe/vgmidi),
+200 arrangements MIDI de piano de jeux vidéo et leurs données brutes de
+~30 personnes annotant **valence et activation à chaque mesure**.
+
+- Un lecteur reconstruit chaque médiane **et ses quartiles humains** à partir
+  des réponses individuelles. Chaque mesure reste une unité temporelle, sans
+  faux alignement « échantillon = seconde ».
+- Les 200 MIDI originaux ont été lus ; **141** présentent une grille métrique
+  utilisable avec ce parseur strict, **59** sont explicitement refusés
+  (36 changements de signature rythmique ; 23 correspondances de mesures
+  non confirmées). Cette sélection peut biaiser le type de musique couverte.
+- **111 pièces** d'apprentissage, **20** de validation, **10** de test ;
+  partitions choisies par hash de nom de MIDI, **sans consulter les labels**.
+  Entraînement d'une régression V/A sur 24 signaux de théorie et d'exécution
+  MIDI ; **Partitura original** (3 rubans) et **music21 original** (tonalité,
+  enchaînements d'hypothèses harmoniques) ont été exécutés pour les 141 MIDI.
+- Les modèles constants, Ridge et RandomForest sont départagés **exclusivement
+  sur la validation**. Ridge α=10 est choisi puis refait sur train+validation.
+  Sur 10 thèmes de jeux vidéo connus, tenus hors entraînement : **MAE 0,236 (V) / 0,172 (A)**, contre **0,289 /
+  0,208** pour la moyenne constante. Erreur calculée **par pièce puis moyennée**,
+  sur l'échelle −1 à +1.
+- **Attention cruciale :** la corrélation de la *forme temporelle* au sein
+  des pièces n'est en moyenne que **+0,08 (V) / +0,23 (A)**. Un modèle peut
+  deviner approximativement la couleur générale sans suivre les épisodes
+  émotionnels. Voir notamment les erreurs sur *The Opened Way* et *Zeppelin*.
+- Le pilote utilise les **24 signaux effectivement calculés**, pas les 226
+  caractéristiques jSymbolic ni IDyOM Lisp, qui demeurent à connecter avec
+  une séparation d'entraînement. Il ne valide **ni Bach/Chopin**, ni EMOPIA,
+  ni le transfert à des chansons pop, ni la causalité des mécanismes.
+
+Sources, scripts, tests et rapport JSON complet disponibles dans `anamu/`,
+`scripts/`, `tests/` et `reports/`. Le job facultatif
+`vgmidi-human-comparison` se lance dans le **workflow existant**. Les MIDI
+du corpus ne sont ni ajoutés ni redistribués dans AnaMu ; sa licence publique
+reste à clarifier avant réutilisation commerciale ou partage massif.
+
+### Travaux scientifiques encore nécessaires
 
 - **Dès maintenant :** tester la stabilité des rubans et analyses harmoniques
   sur diverses pièces, valider la détection des accords sur un gold set
@@ -208,12 +248,13 @@ python -m scripts.emopia_benchmark ./EMOPIA_2.2 --protocol internal --seed 2026
   dynamiques sur une grille temporelle sans masquer les erreurs de conversion.
 - **Puis :** apprendre un lien entre mécanismes et émotion, avec ablations,
   interaction, refus (`unknown`) et une vraie comparaison avec EMOPIA_cls.
-- **Enfin :** évaluer une version figée sur des chansons et reprises inédites ;
-  Bach/Chopin illustreront les mécanismes mais n'apporteront des labels
+- **Enfin :** évaluer une version figée sur des chansons et reprises connues
+  mais absentes de l'entraînement ; Bach/Chopin illustreront les mécanismes
+  mais n'apporteront des labels
   affectifs que si des humains les annotent.
 
-**État réel de la recherche :** prototypes de mécanismes existants et protocole
-d'évaluation testés sur fixtures, et bibliothèque académique `melody-features`
-réellement exécutée sur MIDI monophonique avec chronologie Narmour ; **aucun
-score empirique d'émotion humaine** et
-aucune « super-machine validée » annoncés à ce stade.
+**État réel de la recherche :** plusieurs vrais outils universitaires ont été
+exécutés, et **un premier test supervisé VGMIDI contre des humains est
+mesuré**, avec ses échecs publiés. La faible corrélation temporelle interdit
+encore de qualifier le système de « super-machine validée » ; EMOPIA externe
+demeure réservé et l'intégration des autres théories reste en cours.
