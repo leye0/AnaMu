@@ -26,17 +26,17 @@ de bibliothèques ne suffisent pas à valider un mécanisme psychologique.
 | Mécanisme non redondant | Théories / outils existants | Observables apportés | Statut |
 |---|---|---|---|
 | **M1 — attentes mélodiques statistiques** | Pearce, **IDyOM original** + [py2lispIDyOM](https://github.com/xinyiguan/py2lispIDyOM) | Entropie *avant* la note, contenu informationnel *après*, adaptation/style, points d'attente | **adaptateur** CSV + lanceur officiel optionnel ; Lisp non exécuté |
-| M2 — attentes mélodiques structurelles | Narmour, Schellenberg, Implication-Realization | Taille/direction d'intervalles, continuation, inversion, fermeture | candidat ; à comparer à M1 |
+| **M2 — attentes mélodiques structurelles** | Narmour, Schellenberg, Implication-Realization ; **melody-features 1.3.3** | Taille/direction d'intervalles, continuation, inversion, fermeture | **actif partiellement** : cinq scores Narmour calculés sur triplets temporels ; pas encore de prédiction avant la note ni de validation perceptive |
 | M3 — attente harmonique | IDyOM multi-viewpoints, apprentissage sur séquences d'accords | Surprise harmonique **distincte de** surprise mélodique | candidat ; exige accord/voix validés |
 | **M4 — distance et déplacement tonal** | Chew Spiral Array, Herremans & Chew *Tension Ribbons*, **Partitura** | Cloud diameter, momentum, tensile strain en **courbe temporelle** | **actif** sur MIDI de piano polyphonique de test |
 | **M5 — tonalité/statut modal** | Krumhansl–Schmuckler (implémenté par **music21**), alternatives Temperley | Hypothèses de tonique, mode, accord tonal estimé | **actif** K-S global ; modèles alternatifs candidats |
 | **M6 — fonctions et transitions d'accords** | music21 `chordify`, `romanNumeralFromChord`, Harmonic Function | Sonorités, degrés romains hypothétiques, fonctions, séquences | **actif** sonorités + degrés ; fonctions et cadences à valider |
 | M7 — attraction/prolongation hiérarchique | Lerdahl *Tonal Pitch Space*, Lerdahl & Krumhansl | Attraction tonale, distance régionale, force des résolutions | candidat ; ne pas confondre avec M4 |
 | M8 — cadences et résolutions | Règles tonales, analyse de fonction, modèles de clôture | Préparation, dominantisation, retard, résolution, stabilité restaurée | candidat ; gold set manuel nécessaire |
-| M9 — motifs et transformations | Analyses de motifs, séquences, Lerdahl–Jackendoff | Retour attendu, identité/variation, inversion, augmentation, diminution | candidat ; échelles multiples |
+| M9 — motifs et transformations | Analyses de motifs, séquences, Lerdahl–Jackendoff ; descripteurs FANTASTIC/SIMILE/MUST de `melody-features` | Retour attendu, identité/variation, inversion, augmentation, diminution | **partiel** : descripteurs mélodiques globaux ; détection structurelle complète candidate |
 | M10 — groupes, phrases et forme | GTTM (Lerdahl–Jackendoff), arbres de structure | Segmentation, regroupement, anacrouses, apogées, clôtures | candidat ; ambiguïtés autorisées |
-| M11 — métrique et accents | Théorie métrique, outils `music21.meter`, `jSymbolic` | Accent fort/faible, synchronisme des entrées, changements de mètre | candidat ; différent de densité |
-| M12 — syncopation / groove | Longuet-Higgins/Lee, métrique, `jSymbolic` | Déplacement d'accent, tension rythmique locale, swing | candidat ; perception/style dépendants |
+| M11 — métrique et accents | Théorie métrique, outils `music21.meter`, `jSymbolic` et `melody-features` | Accent fort/faible, synchronisme des entrées, changements de mètre | **partiel** : mesures mélodiques ; polyphonie à intégrer |
+| M12 — syncopation / groove | Longuet-Higgins/Lee, métrique, `jSymbolic` et `melody-features` | Déplacement d'accent, tension rythmique locale, swing | **partiel** : descripteurs rythmiques monophoniques ; groove polyphonique candidat |
 | M13 — densité / polyphonie / texture | **jSymbolic** (analyse MIDI/MEI) | Couplage des voix, onsets/s, épaisseur, registre, instrumentation | candidat ; comparer aux variables M4 |
 | M14 — dynamique / accent / jeu | Vélocité, notes tenues, articulation, `jSymbolic`/Partitura | Croissance, accent, contraste, nuances, respiration | candidat ; vélocité MIDI ≠ volume acoustique |
 | M15 — dissonance / rugosité symbolique | Théories de consonance, classes d'intervalles | Intervalles verticaux instables, changements de dissonance | candidat ; timbre et acoustique peuvent manquer |
@@ -65,6 +65,16 @@ examinés et rejetés avec justification.
 3. **[IDyOM](https://github.com/mtpearce/idyom)** : moteur original Common Lisp, GPLv3 ; [py2lispIDyOM](https://github.com/xinyiguan/py2lispIDyOM), interface Python MIT, publiée dans JOSS (2022). `scripts/run_original_idyom.py` prépare/lance **facultativement** une expérience réelle, tandis que `read_idyom_export()` importe des mesures originales en bits. **Aucune exécution SBCL ni validation des résultats IDyOM n'a encore été réalisée.** Le lissage n-gramme local est une simple baseline indépendante.
 4. **[jSymbolic](https://jmir.sourceforge.net/jSymbolic.html)** (Java) : **246 caractéristiques uniques / 1 497 valeurs possibles** dans la version 2.2, dont rythme, dynamique, texture, polyphonie, instrumentation, mélodie, accord et registre. `scripts/run_jsymbolic.py` appelle le **vrai** outil Java par sa CLI `-csv -window` documentée, avec bornes de mémoire et de temps, pour obtenir des features **fenêtrées** en secondes. Adaptateur prêt, mais aucun exécutable `.jar` installé ni lancé ici. Les nombreuses variables de jSymbolic n'équivalent pas à 1 497 mécanismes émotionnels indépendants.
 5. **[EMOPIA_cls](https://github.com/SeungHeonDoh/EMOPIA_cls)** : code d'un classificateur sur EMOPIA. À comparer comme **baseline externe**, avec vérification impérative des morceaux d'entraînement utilisés par ses poids. Pas de garantie de test disjoint pour un modèle pré-entraîné inconnu.
+6. **[melody-features 1.3.3](https://dmwhyatt.github.io/melody-features/)**, Whyatt (*Computational Features for Symbolic Melody Analysis*, [prépublication 2026](https://arxiv.org/abs/2608.19061)) : boîte à outils Python publiée regroupant et **réimplémentant** des familles de FANTASTIC, SIMILE, MUST, MIDI Toolbox, jSymbolic, Partitura, Narmour et d'autres. Notre adaptateur `anamu.melody_toolbox.extract_melody_toolbox()` exécute **réellement** `get_all_features(..., skip_idyom=True)` sur les pistes MIDI monophoniques admissibles. Sur une fixture de neuf notes : **278 colonnes de descripteurs**, rangées dans **12 familles** ; ce nombre ne correspond **ni à 278 mécanismes indépendants**, ni à une évaluation des émotions. La bibliothèque fournit aussi cinq règles de Narmour, que nous invoquons sur chaque **triplet successif** pour obtenir une trajectoire d'observations musicales datées. C'est une implémentation publiée *consolidée*, **pas** une exécution des outils originaux FANTASTIC, IDyOM ou jSymbolic Java. Les sources et paramètres doivent être comparés aux implémentations originales avant toute revendication de fidélité. **Uniquement monophonie non chevauchante** : elle ne convertit pas magiquement un piano polyphonique en mélodie principale.
+
+### Passage exact des notes MIDI à l'axe temporel
+
+- `anamu.tempo_map.MidiTempoMap` lit les métaévénements MIDI `set_tempo` sur toutes les pistes, calcule des segments de vitesse et convertit correctement **quarts de mesure / beats → secondes de performance**, y compris lorsque le tempo change pendant une phrase. Aucun arrondi fixe à « 120 BPM ».
+- Chaque candidat conserve piste, canal, nombre de notes, début/fin, 12 familles de descripteurs et valeurs absentes explicites (`null`), avec provenance et **la mention que la mélodie principale n'est pas vérifiée**.
+- `narmour_triplet_realizations` est daté au **début de la troisième note** de chaque triplet. Ces cinq scores sont des **mesures rétrospectives d'une réalisation**, pas une anticipation psychologique prouvée ni une prédiction émotionnelle.
+- Les caractéristiques dépendant du corpus utilisent par défaut la collection de **903 mélodies traditionnelles** distribuée avec `melody-features` ; son contenu, ses droits et d'éventuels recouvrements doivent être audités avant entraînement ou publication. `skip_idyom=True` empêche de prétendre avoir exécuté IDyOM original.
+- **Droits à conserver séparés :** le code `melody-features` est principalement MIT (certains composants hérités sont Apache-2.0), tandis que la conversion MIDI **Essen Folksong Collection** distribuée dans le paquet est **CC BY-SA 4.0**. Ne pas confondre les licences du logiciel, des corpus embarqués et des MIDI de notre étude ; voir le [NOTICE et le tableau des licences du dépôt officiel](https://github.com/dmwhyatt/melody-features#license).
+- La grande quantité de variables corrélées exige une sélection par **familles scientifiques**, un regroupement des doublons et des ablations **sur validation** ; conserver les variables brutes pour rendre cette sélection contrôlable.
 
 ## Chaîne de preuve et contrats
 
@@ -72,8 +82,9 @@ examinés et rejetés avec justification.
 MIDI brut + empreinte + droits + provenance
     ├─ Partitura  → trajectoires de tension tonale
     ├─ music21    → sonorités, tonalité et accords hypothétiques
+    ├─ melody-features → ~278 caractéristiques monophoniques et Narmour triplets
     ├─ IDyOM réel → attente, surprisal et entropie
-    ├─ jSymbolic  → rythme, articulation, texture, dynamique (à venir)
+    ├─ jSymbolic original → rythme, articulation, texture, dynamique (adaptateur ; à exécuter)
     └─ modèles théoriques ciblés → modèles de motifs, cadences, mémoire (à venir)
              ↓ (chaque moteur conserve version, unités, paramètres, `unknown`)
       alignement temporel + fusion + ablations (à construire)
@@ -135,6 +146,9 @@ python -m pip install 'mido>=1.3,<2' 'partitura>=1.8,<2' 'music21>=9,<12'
 python -m unittest discover -s tests -p 'test_emotion_research.py' -v
 python -m scripts.extract_tonal_tension ./piano.mid > tension.json
 python -m scripts.extract_harmony ./piano.mid > harmony.json
+python -m pip install 'melody-features==1.3.3'
+python -m scripts.extract_melody_features ./midi-avec-piste-monophonique.mid > melodia.json
+python -m unittest discover -s tests -p 'test_melody_toolbox.py' -v
 python -m scripts.run_original_idyom --test ./test-midis --pretrain ./train-midis --history ./idyom-history
 python -m scripts.run_jsymbolic ./piano.mid --jar ./jSymbolic/jSymbolic2.jar --out ./jsymbolic-results --window-seconds 5 --overlap 0.5
 python -m scripts.emopia_benchmark ./EMOPIA_2.2 --protocol external --manifest-out ./emopia-external.jsonl
@@ -148,6 +162,9 @@ python -m scripts.emopia_benchmark ./EMOPIA_2.2 --protocol internal --seed 2026
   sur diverses pièces, valider la détection des accords sur un gold set
   indépendant, **exécuter l'adaptateur jSymbolic avec le vrai `.jar`**, et
   **faire réellement tourner IDyOM** original avec préentraînement sans fuite.
+  Vérifier sur mélodies annotées les mesures Narmour et les 278 colonnes
+  réimplémentées par `melody-features` ; documenter les familles qui se
+  recouvrent avec Partitura ou jSymbolic avant leur fusion.
 - **Puis :** aligner mélodie, accords, tension, groove, motifs et variables
   dynamiques sur une grille temporelle sans masquer les erreurs de conversion.
 - **Puis :** apprendre un lien entre mécanismes et émotion, avec ablations,
@@ -157,5 +174,7 @@ python -m scripts.emopia_benchmark ./EMOPIA_2.2 --protocol internal --seed 2026
   affectifs que si des humains les annotent.
 
 **État réel de la recherche :** prototypes de mécanismes existants et protocole
-d'évaluation testés sur fixtures ; aucun score empirique d'émotion humaine et
+d'évaluation testés sur fixtures, et bibliothèque académique `melody-features`
+réellement exécutée sur MIDI monophonique avec chronologie Narmour ; **aucun
+score empirique d'émotion humaine** et
 aucune « super-machine validée » annoncés à ce stade.

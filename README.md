@@ -46,6 +46,15 @@ La base `anamu/` comporte :
 - `theory_features.py` : adaptateurs pour les **vrais outils** Partitura
   (tension tonale Herremans/Chew), music21 (tonalité Krumhansl-Schmuckler,
   sonorités et degrés romains hypothétiques), lecture d'export IDyOM **original**.
+- `tempo_map.py` : conversion MIDI beats → secondes de performance, avec
+  prise en compte des changements de tempo.
+- `melody_toolbox.py` : **bibliothèque universitaire réelle**
+  [`melody-features` 1.3.3](https://dmwhyatt.github.io/melody-features/),
+  qui rassemble des centaines de descripteurs de mélodie issus de théories
+  diverses. Sur neuf notes de test : **278 valeurs/structures, 12 familles** ;
+  courbe temporelle des **cinq mesures Narmour** par triplet. Rejette les
+  pistes polyphoniques sans séparation de voix fiable. Ce ne sont pas des
+  étiquettes émotionnelles ni une exécution d'IDyOM original.
 - `emopia.py` : inventaire du corpus EMOPIA directement à partir de ses noms
   de fichiers, hash, rejets, séparation reproductible de **chansons**.
 - `emotion_evaluation.py` : baselines sur entraînement seulement et score sur
@@ -71,6 +80,18 @@ python -m scripts.extract_tonal_tension /chemin/piano.mid
 python -m scripts.extract_harmony /chemin/piano.mid
 python -m scripts.emopia_benchmark /chemin/EMOPIA_2.2 --manifest-out emopia-split.jsonl
 ```
+
+Pour extraire les mesures mélodiques académiques directement d'un MIDI :
+
+```bash
+python -m pip install 'melody-features==1.3.3'
+python -m scripts.extract_melody_features /chemin/melodie.mid > melodia.json
+python -m unittest discover -s tests -p 'test_melody_toolbox.py' -v
+```
+
+Le corpus de référence implicite de `melody-features` et la fidélité des
+réimplémentations sont à auditer avant exploitation statistique. Le résultat
+JSON garde ses valeurs inconnues et la provenance de chaque piste.
 
 Le workflow GitHub Actions `symbolic-theory-tests.yml` exécute ces tests sur
 des MIDI synthétiques, **sans télécharger de corpus ni traiter d'audio**.

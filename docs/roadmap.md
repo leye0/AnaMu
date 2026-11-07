@@ -42,7 +42,7 @@ Une corrélation ne prouve pas un mécanisme causal. La **tension**, le
 | Priorité | Phase | Livrable / condition de sortie | Statut |
 |---|---|---|---|
 | **Maintenant** | **S0 — Laboratoire MIDI brut** | Lecteur conservateur, vues sans pertes, fixtures et contrats de données. Aucune extraction audio. | **Premier incrément en cours** |
-| **Maintenant** | **S1 — Attentes mélodiques** | Baseline probabiliste puis comparaison IDyOM + Narmour/Schellenberg, vraies mesures de prédiction hors entraînement. | **Baseline initiée, validation académique à faire** |
+| **Maintenant** | **S1 — Attentes mélodiques** | Baseline probabiliste puis comparaison IDyOM + Narmour/Schellenberg, vraies mesures de prédiction hors entraînement. | **Baseline et Narmour (outil `melody-features` + triplets datés) actifs ; IDyOM original et validation perceptive à faire** |
 | **Prochain** | **S2 — Harmonie et enchaînements** | Hypothèses d'accords, progression, fonction, tonalité locale, cadences, Tonal Pitch Space, Spiral Array ; tests sur vérité musicale annotée. | **music21 + Partitura actifs sur fixtures ; vérité musicale externe à venir** |
 | **Prochain** | **S3 — Motifs, formes, tension** | Répétitions/transformations, structure hiérarchique, mémoire et modèles temporels Lerdahl/Farbood. | À faire |
 | **Après** | **S4 — Fusion des mécanismes** | Entropie avant l'événement, surprise à l'événement, tension/résolution et interactions, ablations. | À faire |
@@ -188,6 +188,12 @@ Le code expérimental introduit :
 - `anamu/expectation.py` : baseline probabiliste à ordre variable lissé,
   renvoyant `P(event|contexte)`, surprise en bits et entropie **avant**
   l'événement. **Ce n'est pas IDyOM.**
+- `anamu/tempo_map.py` : conversion exacte des événements MIDI vers les
+  secondes, même avec changement de tempo.
+- `anamu/melody_toolbox.py` : exécution de `melody-features==1.3.3` sur les
+  pistes monophoniques admissibles. 278 colonnes sur la fixture de neuf notes,
+  **12 familles descriptives**, et cinq mesures de Narmour à chaque triplet.
+  Les pistes polyphoniques ambiguës sont rejetées, pas devinées.
 - `tests/test_symbolic_expectation.py` : tests locaux sur fixtures MIDI et
   séquences contrôlées ; il reste à mesurer la validité perceptuelle.
 
@@ -209,12 +215,23 @@ Le code expérimental introduit :
   original** avec py2lispIDyOM, sans prétendre l'avoir exécuté.
 - [x] Fournir un lanceur des 246 caractéristiques **jSymbolic original**
   (sorties en fenêtres temporelles), sans prétendre l'avoir exécuté.
+- [x] Intégrer **la bibliothèque publiée `melody-features`** (FANTASTIC,
+  SIMILE, MUST, jSymbolic réimplémenté, MIDI Toolbox, Narmour, etc.) sur MIDI
+  monophonique seulement, avec changements de tempo, sortie JSON et tests
+  de non-invention des mélodies ; les 278 sorties sont des *descripteurs* et
+  pas 278 causes d'émotions.
+- [x] Produire une chronologie datée de cinq scores Narmour sur triplets
+  en réutilisant les fonctions publiées ; ce sont des réalisations observées,
+  pas des probabilités d'attentes validées.
 - [ ] Faire réellement tourner l'IDyOM upstream (SBCL, Quicklisp, SQLite),
   sur un apprentissage séparé du jeu de test, et analyser les résultats.
 - [ ] **Exécuter jSymbolic réel**, puis inventorier et dédoublonner ses
   features temporelles (rythme, expression, densité, texture, instrumentation).
 - [ ] Aligner les mécanismes dans le temps et réaliser une première fusion
   explicable, avec indicateur d'incertitude et tests d'ablation.
+- [ ] Auditer la fidélité des réimplémentations de `melody-features`, son
+  corpus de référence embarqué (903 mélodies), les redondances entre familles
+  et le comportement des mesures sur des mélodies humaines externes.
 - [ ] Apprendre un estimateur d'émotions sur un **autre corpus** pour le test
   EMOPIA externe (ou sur EMOPIA train pour le protocole secondaire clairement
   identifié) ; sélectionner les paramètres en validation, mesurer les scores
