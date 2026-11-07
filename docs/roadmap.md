@@ -1,6 +1,6 @@
 # AnaMu — Feuille de route de recherche et de développement
 
-**Version :** 0.7 — audit instrumental XMIDI et plan de validation MIDI ↔ batterie d'enregistrement réel  
+**Version :** 0.8 — priorité à la qualité du corpus et validation MIDI ↔ audio réel  
 **Objectif :** constituer un corpus musical multimodal, identifiable et traçable, sur lequel plusieurs moteurs pourront étudier le langage musical et ses relations avec les émotions humaines.
 
 Ce document guide le projet. Une tâche n'est « terminée » que lorsque son résultat et ses limites sont documentés et vérifiés.
@@ -54,6 +54,31 @@ Une même œuvre peut avoir plusieurs enregistrements, et un MIDI peut correspon
 | [EMOPIA](https://annahung31.github.io/EMOPIA/) | 1 087 extraits de piano avec MIDI et émotions évaluées par des humains | Plus petit et centré sur le piano pop. |
 
 **Politique émotionnelle :** les annotations humaines forment le corpus de référence. Les étiquettes automatiques peuvent servir d'hypothèses secondaires, jamais de vérité de validation non signalée.
+
+### Principe transversal : qualité avant quantité
+
+**Décision du 7 novembre 2026 :** AnaMu privilégie un **corpus sélectionné et fiable**, même si cela signifie ne conserver que **10 000 MIDI, ou nettement moins**, parmi plus de 108 000 fichiers XMIDI. **10 000 n'est pas un minimum à atteindre**, et le volume du corpus n'est pas un indicateur principal de réussite. Si 500 ou 2 000 MIDI satisfont vraiment les exigences, ces fichiers valent davantage qu'une collection dix fois plus grande mais bruitée.
+
+Les règles de sélection doivent rester **relatives à l'objectif** : une pièce pour piano seul peut être excellente dans un sous-corpus mélodique ; pour l'étude de la batterie rock, il faut une partie batterie suffisamment détaillée. Éviter de rendre obligatoires guitare/basse/batterie pour tous les genres.
+
+**Critères de qualification, avec preuve et raison de refus ou d'incertitude :**
+
+1. **Intégrité symbolique** : fichier valide, temps et tempo interprétables, notes et pistes utiles, absence d'anomalies majeures.
+2. **Richesse appropriée** : parties réellement actives, détails rythmiques/harmoniques utiles et cohérents avec le genre et la tâche ; pas seulement un nom de programme MIDI.
+3. **Fidélité vérifiable lorsque l'audio est disponible** : identité précise de l'œuvre/version, correspondance de structure et, pour la batterie, métriques d'événements et revue des désaccords selon le [plan MIDI/audio](p1-drum-audio-validation-plan.md).
+4. **Provenance des annotations humaines** : conserver le label émotionnel XMIDI avec sa source, et documenter sa portée. Une sortie de détecteur n'est pas un label humain.
+5. **Identités et doublons** : distinguer même fichier, même composition, différentes versions, arrangements approximatifs et transpositions ; ne pas gonfler artificiellement le corpus.
+6. **Traçabilité et droits** : source des MIDI et métadonnées, accès audio autorisé, méthodes et versions des outils, score d'incertitude.
+7. **Diversité sous contrôle** : éviter qu'une sélection « facile à identifier » ne devienne presque exclusivement populaire, occidentale ou rock ; mesurer les biais par genre et émotion.
+
+**Deux ensembles explicites, sans confusion de niveau :**
+
+- **Corpus qualifié symbolique** : MIDI vérifié + émotion humaine traçable + instruments/structure utiles. L'identité discographique ou l'audio peuvent manquer ; le dossier l'indique.
+- **Sous-corpus de référence multimodal** : critères précédents **plus** identification œuvre/enregistrement vérifiée et fidélité MIDI/audio évaluée par méthode indépendante, avec limites connues.
+
+Conserver les candidats rejetés ou incertains dans un **index d'évaluation** (statut, motif, provenance), pas dans le corpus de référence. Pas d'effacement des sources ; possibilité de réévaluer après amélioration des détecteurs ou métadonnées. Publier avant tout **taux de passage aux critères, précision des cas acceptés, distribution par genre/émotion et couverture multimodale**, puis seulement le nombre total de fichiers.
+
+**Politique d'effort :** petit échantillon audité → règles calibrées → sélection par lots et contrôles négatifs → validation humaine d'un sous-échantillon accepté/refusé. Stopper l'élargissement quand le gain marginal en pièces fiables est trop faible par rapport au temps, aux droits et au coût.
 
 ## 4. Popularité et représentativité
 
@@ -224,6 +249,7 @@ Liste de contrôle immédiate :
 - [x] **Première jointure XMIDI→GigaMIDI prouvée** : [pilote de 100 XMIDI, arrêt après 5 200 empreintes d'un seul shard](https://github.com/leye0/AnaMu/actions/runs/42336949364). Correspondance exacte de l'échantillon `quiet`/`traditional`, 13 328 176 octets XMIDI et 5 657 337 octets de lectures logiques Parquet. [Rapport P1 détaillé](p1-exact-join.md). **Aucun taux de couverture global établi.**
 - [x] **Accélérer l'extraction XMIDI ciblée** : [audit instrumental](p1-instrument-audit.md), 200 fichiers sélectionnés dont 199 analysés, 205 requêtes HTTP Range, 13 752 533 octets transférés, 198,8 s. La lecture ZIP optimisée passe normalement à une requête par fichier.
 - [x] **Documenter le protocole de comparaison instrumentale avec l'audio réel** : [plan batterie](p1-drum-audio-validation-plan.md), choix d'outils déjà publiés, mesures par instrument, faux positifs et contrôle humain. **Plan seulement**, aucun audio traité.
+- [ ] **Définir et tester les filtres qualité du corpus** : critères par usage, statuts « qualifié symbolique / référence multimodale / incertain / refusé », raisons auditées, estimation des faux rejets et tableau de diversité. Ne fixer aucun quota minimum de MIDI.
 - [ ] **Exécuter un mini-pilote batterie MIDI ↔ audio** sur 1–3 chansons connues légalement accessibles : vérifier la version, isoler via Demucs, transcrire avec un détecteur existant et mesurer l'écart par rapport au MIDI avec contrôles négatifs.
 - [ ] **Mesurer le débit d'indexation Parquet** et le trafic réseau réel, puis les artistes identifiables parmi les MIDI pop/rock avant toute montée en charge.
 - [ ] Choisir un référentiel identifié utilisable sans droit d'accès supplémentaire.
@@ -247,7 +273,7 @@ Ce document décrit les **jalons** ; les progrès doivent être enregistrés ave
 |---|---|---|
 | P0 — Audit | **En cours (accès partiel vérifié)** | [Audit détaillé](audit-p0.md) ; XMIDI 449,63 Mo avec plages HTTP fonctionnelles, 3 MD5 GigaMIDI conformes, projection Parquet d'une colonne réussie. Plan de lecture exhaustive à chiffrer. |
 | P1 — Identification / instrumentation | **En cours (preuves positives)** | [Jointure exacte](p1-exact-join.md) : 1 fichier XMIDI/GigaMIDI prouvé identique ; [audit instrumental](p1-instrument-audit.md) : 199/200 MIDI analysés, 64 % des 100 aléatoires avec guitare + basse + batterie actives. Identification d'artistes et qualité de l'alignement avec l'audio encore inconnues. |
-| P2 — Catalogue | À faire | Aucun catalogue produit |
+| P2 — Catalogue | **Planifié (qualité d'abord)** | Critères de qualification du corpus définis ; sélection et catalogue non exécutés |
 | P3 — Grammaire | À faire | Aucun résultat expérimental |
 | P4 — Audio et paroles | **Planifié (non exécuté)** | [Protocole de validation batterie](p1-drum-audio-validation-plan.md), sans traitement audio ni métrique de fidélité mesurée |
 | P5 — Multimodal | À faire | Aucun résultat expérimental |

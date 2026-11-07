@@ -16,6 +16,7 @@ L'objectif n'est pas de commencer par entraîner un modèle génératif. Nous vo
 
 ## Principes
 
+- **Qualité avant quantité** : viser un petit corpus soigneusement qualifié, **10 000 MIDI ou moins si nécessaire** ; aucune obligation d'atteindre un volume. Distinguer les MIDI qualifiés symboliquement des rares paires avec fidélité MIDI/audio vérifiée.
 - **Réutiliser les travaux existants** : ne pas refaire les extractions ou statistiques déjà disponibles.
 - **Émotions humaines d'abord** : distinguer les annotations humaines des labels inférés par machine.
 - **Provenance partout** : chaque observation conserve sa source, sa méthode, son horodatage éventuel et son degré de confiance.
@@ -30,6 +31,7 @@ L'objectif n'est pas de commencer par entraîner un modèle génératif. Nous vo
 - **Émotions humaines :** l'exemple joint est étiqueté `quiet` / `traditional` dans XMIDI ; l'étiquette ne provient **pas** d'une détection émotionnelle automatique de GigaMIDI.
 - **Jointure :** 100 XMIDI valides et distincts prélevés en mémoire ; 5 200 MD5 GigaMIDI examinés dans **un seul shard** jusqu'au premier match. 13 328 176 octets HTTP pour XMIDI ; 5 657 337 octets de lectures *logiques* Parquet (pas un compteur réseau exact).
 - **Instrumentation XMIDI, audit P1 :** 200 MIDI sélectionnés, **199 analysés** ; dans les 100 échantillons aléatoires, 100 % ont au moins deux pistes contenant des notes, 91 % au moins trois parties, et **64 % des parties guitare + basse + batterie actives** (au moins 16 notes par famille). Dans les 99 pop/rock analysés, **59/99 (59,6 %)** réunissent ces trois familles. 13 752 533 octets transférés, 205 requêtes HTTP Range, **30 tests réussis**. [Rapport instrumental](docs/p1-instrument-audit.md).
+- **Critère directeur :** maximiser les morceaux fiables plutôt que le volume importé, conserver les rejets/incertitudes avec justification, surveiller les biais par genre et émotion.
 - **Prochain test planifié, non exécuté :** [validation de la batterie MIDI contre un enregistrement réel](docs/p1-drum-audio-validation-plan.md), avec Demucs, transcripteurs de batterie publiés, alignement, métriques par instrument et contrôle humain.
 - **Limites :** le balayage MD5 s'est arrêté au premier match, donc **aucun taux de couverture global** n'est calculable. Aucun titre, artiste ni MusicBrainz n'a été confirmé pour cet exemple ; **The Cranberries** et les autres artistes restent à identifier dans XMIDI. Le profil instrumental MIDI mesure les programmes/canaux et notes, **pas** la fidélité sonore à l'original. Aucun audio ni paroles récupérés.
 - **Conservation :** aucun gros corpus ni audio téléchargé ou archivé, aucun contenu MIDI conservé. Les limites de temps et de volume sont imposées dans les scripts et workflows.

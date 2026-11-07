@@ -13,6 +13,14 @@ Il faut distinguer trois objets : (a) le fichier MIDI / arrangement, (b) un **en
 
 Exemple pédagogique : « Zombie » — The Cranberries. **Ce titre n'a pas été retrouvé ni confirmé dans XMIDI.** Ne l'utiliser que si on dispose effectivement d'un MIDI de la chanson et de l'audio de la version correspondante, accessibles dans des conditions permises. Sinon, choisir un autre titre connu vérifiable.
 
+### Politique de sélection des données
+
+**Qualité avant quantité.** Notre objectif est de retenir uniquement les MIDI qui satisfont des critères explicitement vérifiés, même si le corpus final contient **10 000 fichiers ou moins**. Il ne faut ni chercher à atteindre un seuil de volume, ni confondre « possède une batterie MIDI » avec « batterie fidèlement transcrite ».
+
+Pour la **validation batterie/audio**, prioriser les cas avec identité d'enregistrement crédible, batterie MIDI réellement active, matériau audio utilisable, transcription automatique et vérification indépendante possibles. Des morceaux sans cette couverture audio peuvent rester admissibles au **corpus symbolique** si leur intégrité et leurs annotations humaines sont fiables ; ils ne doivent pas recevoir un score de fidélité fictif.
+
+Documenter les pièces retenues, exclues et incertaines avec leurs motifs, ainsi que les biais de sélection (genre, émotion, popularité). Une expérimentation concluante sur 10 morceaux n'autorise pas à extrapoler à 10 000 sans contrôles supplémentaires.
+
 ## 2. Sources et outils éprouvés à évaluer
 
 | Rôle | Première solution | Alternative / précaution |
@@ -87,6 +95,7 @@ Prendre [mir_eval](https://mir-eval.readthedocs.io/latest/api/transcription.html
 
 ## 8. Checklist et critères de sortie
 
+- [ ] Définir les **critères d'admission** de ce sous-corpus de référence, leurs preuves, les statuts d'incertitude et un registre des exclusions ; **aucun quota de volume minimal**.
 - [ ] Choisir 1–3 paires identifiées, avec audio disponible et statut de droits explicite.
 - [ ] Établir les versions et licences opérationnelles de Demucs, ADTOF et d'au moins un détecteur de comparaison.
 - [ ] Tester la transcription de batterie sur le mix original, puis sur drums.wav.
