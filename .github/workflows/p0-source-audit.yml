@@ -1,0 +1,29 @@
+name: P0 - audit sources
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/p0-source-audit.yml
+      - scripts/source_audit.py
+      - tests/test_source_audit.py
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test de l'outil (sans accès réseau)
+        run: python -m unittest discover -s tests -v
+      - name: Interroger uniquement les métadonnées des sources
+        run: python scripts/source_audit.py --output reports/p0/source-audit.json
+      - name: Conserver la preuve de l'audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: anamu-p0-source-audit
+          path: reports/p0/source-audit.json
+          retention-days: 7
