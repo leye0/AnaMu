@@ -12,7 +12,7 @@ L'objectif n'est pas de commencer par entraîner un modèle génératif. Nous vo
 4. Mesurer la couverture et les erreurs avant d'envisager le passage à grande échelle.
 5. Enrichir ensuite les chansons identifiées avec leurs paroles, leurs données de popularité et, ultérieurement, des observations audio synchronisées.
 
-**[Feuille de route détaillée →](docs/roadmap.md)**
+**[Feuille de route détaillée →](docs/roadmap.md)** · **[Premier audit de sources →](docs/audit-p0.md)**
 
 ## Principes
 
@@ -26,9 +26,10 @@ L'objectif n'est pas de commencer par entraîner un modèle génératif. Nous vo
 
 ## État du projet
 
-- **Phase** : planification et audit initial.
-- **Corpus local** : aucun corpus importé.
-- **Rapprochements** : aucun encore exécuté.
-- **Workflows** : aucun traitement massif autorisé ou lancé.
+- **Phase** : P0 en cours ; deux audits métadonnées exécutés et vérifiés sur [GitHub Actions](https://github.com/leye0/AnaMu/actions).
+- **Corpus local** : aucun corpus importé ; aucun MIDI ni audio téléchargé.
+- **Rapprochements** : aucun encore exécuté ; XMIDI reste la référence des émotions humaines.
+- **Accès GigaMIDI** : accès anonyme refusé (HTTP 401), aucun `HF_TOKEN` configuré dans les secrets Actions ; accès authentifié à vérifier.
+- **Workflows** : sondes légères uniquement, quatre tests réussis ; aucun traitement massif autorisé ou lancé.
 
 La feuille de route est un document vivant : les hypothèses doivent être confirmées par des expériences mesurables avant d'être considérées comme des acquis.
