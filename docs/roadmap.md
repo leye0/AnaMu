@@ -1,6 +1,6 @@
 # AnaMu — Feuille de route de recherche et de développement
 
-**Version :** 0.6 — jointure MD5 prouvée et audit instrumental XMIDI sur 200 fichiers  
+**Version :** 0.7 — audit instrumental XMIDI et plan de validation MIDI ↔ batterie d'enregistrement réel  
 **Objectif :** constituer un corpus musical multimodal, identifiable et traçable, sur lequel plusieurs moteurs pourront étudier le langage musical et ses relations avec les émotions humaines.
 
 Ce document guide le projet. Une tâche n'est « terminée » que lorsque son résultat et ses limites sont documentés et vérifiés.
@@ -162,6 +162,8 @@ Les outils existants de rapprochement MIDI/audio (notamment les résultats MetaM
 
 ### P4 — Prototype audio et paroles synchronisées
 
+**Plan d'expérimentation batterie (non exécuté) :** [validation MIDI ↔ vrai enregistrement, Demucs + ADTOF/Omnizart + métriques vérifiables](p1-drum-audio-validation-plan.md). Cette expérience pilote commence sur quelques chansons connues et correctement appariées, puis s'applique à XMIDI seulement lorsque titre, artiste et version sont établis. Les sorties de transcription automatique ne constituent pas une vérité terrain : revue humaine et contrôles négatifs obligatoires.
+
 **Périmètre initial :** petit lot de chansons identifiées, accessibles pour une analyse conforme aux droits.
 
 - Préférer des paroles déjà synchronisées au mot ; sinon à la ligne.
@@ -221,6 +223,8 @@ Liste de contrôle immédiate :
 - [x] Examiner l'en-tête et 86 chemins du CSV original de GigaMIDI par plages HTTP (65 536 octets) : champ `file_path` présent mais 86/86 noms de fichier anonymisés au MD5 ; aucune provenance XMIDI directe observée dans l'échantillon.
 - [x] **Première jointure XMIDI→GigaMIDI prouvée** : [pilote de 100 XMIDI, arrêt après 5 200 empreintes d'un seul shard](https://github.com/leye0/AnaMu/actions/runs/42336949364). Correspondance exacte de l'échantillon `quiet`/`traditional`, 13 328 176 octets XMIDI et 5 657 337 octets de lectures logiques Parquet. [Rapport P1 détaillé](p1-exact-join.md). **Aucun taux de couverture global établi.**
 - [x] **Accélérer l'extraction XMIDI ciblée** : [audit instrumental](p1-instrument-audit.md), 200 fichiers sélectionnés dont 199 analysés, 205 requêtes HTTP Range, 13 752 533 octets transférés, 198,8 s. La lecture ZIP optimisée passe normalement à une requête par fichier.
+- [x] **Documenter le protocole de comparaison instrumentale avec l'audio réel** : [plan batterie](p1-drum-audio-validation-plan.md), choix d'outils déjà publiés, mesures par instrument, faux positifs et contrôle humain. **Plan seulement**, aucun audio traité.
+- [ ] **Exécuter un mini-pilote batterie MIDI ↔ audio** sur 1–3 chansons connues légalement accessibles : vérifier la version, isoler via Demucs, transcrire avec un détecteur existant et mesurer l'écart par rapport au MIDI avec contrôles négatifs.
 - [ ] **Mesurer le débit d'indexation Parquet** et le trafic réseau réel, puis les artistes identifiables parmi les MIDI pop/rock avant toute montée en charge.
 - [ ] Choisir un référentiel identifié utilisable sans droit d'accès supplémentaire.
 - [ ] Définir un format de manifeste minimal et une convention de scores de rapprochement.
@@ -245,7 +249,7 @@ Ce document décrit les **jalons** ; les progrès doivent être enregistrés ave
 | P1 — Identification / instrumentation | **En cours (preuves positives)** | [Jointure exacte](p1-exact-join.md) : 1 fichier XMIDI/GigaMIDI prouvé identique ; [audit instrumental](p1-instrument-audit.md) : 199/200 MIDI analysés, 64 % des 100 aléatoires avec guitare + basse + batterie actives. Identification d'artistes et qualité de l'alignement avec l'audio encore inconnues. |
 | P2 — Catalogue | À faire | Aucun catalogue produit |
 | P3 — Grammaire | À faire | Aucun résultat expérimental |
-| P4 — Audio et paroles | À faire | Aucun pipeline exécuté |
+| P4 — Audio et paroles | **Planifié (non exécuté)** | [Protocole de validation batterie](p1-drum-audio-validation-plan.md), sans traitement audio ni métrique de fidélité mesurée |
 | P5 — Multimodal | À faire | Aucun résultat expérimental |
 
 Lorsqu'une phase progresse, mettre à jour sa **mesure de couverture**, ses **critères de sortie** et son **état**.
