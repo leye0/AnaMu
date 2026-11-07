@@ -1,6 +1,6 @@
 # AnaMu — Feuille de route de recherche et de développement
 
-**Version :** 0.1 — plan initial, non exécuté  
+**Version :** 0.2 — audit P0 démarré et vérifié sur GitHub Actions  
 **Objectif :** constituer un corpus musical multimodal, identifiable et traçable, sur lequel plusieurs moteurs pourront étudier le langage musical et ses relations avec les émotions humaines.
 
 Ce document guide le projet. Une tâche n'est « terminée » que lorsque son résultat et ses limites sont documentés et vérifiés.
@@ -211,8 +211,10 @@ Exemples de questions : tensions/résolutions, continuité entre phrases, contra
 
 Liste de contrôle immédiate :
 
-- [ ] Mesurer le volume et le mode de distribution de XMIDI ; vérifier si un sous-ensemble peut être obtenu.
-- [ ] Identifier les jeux de métadonnées et correspondances MetaMIDI réellement accessibles.
+- [x] Vérifier la forme de distribution de XMIDI (ZIP Google Drive unique) et le contenu du dépôt public.
+- [ ] Mesurer la taille du ZIP XMIDI et établir si un sous-ensemble est accessible sans l'archive complète.
+- [x] Vérifier les restrictions MetaMIDI (Zenodo) et GigaMIDI (Hugging Face) et mesurer le rejet anonyme (HTTP 401).
+- [ ] Configurer un jeton Hugging Face de lecture `HF_TOKEN` dans les secrets Actions, puis vérifier l'accès réel à GigaMIDI.
 - [ ] Choisir un référentiel identifié utilisable sans droit d'accès supplémentaire.
 - [ ] Définir un format de manifeste minimal et une convention de scores de rapprochement.
 - [ ] Créer un test reproductible sur un petit nombre de MIDI avant de viser 1 000.
@@ -232,11 +234,13 @@ Ce document décrit les **jalons** ; les progrès doivent être enregistrés ave
 
 | Phase | Statut | Preuve / observation |
 |---|---|---|
-| P0 — Audit | À faire | Sources recensées conceptuellement, accès non encore audités depuis le dépôt |
+| P0 — Audit | **En cours** | [Rapport de vérification](audit-p0.md) et [workflow d'audit réussi](https://github.com/leye0/AnaMu/actions/runs/42332678641) ; [sonde d'accès réussie](https://github.com/leye0/AnaMu/actions/runs/42333456588) : HTTP 401 anonyme et `HF_TOKEN` absent ; taille et extraction partielle XMIDI non établies |
 | P1 — Identification | À faire | Aucun rapprochement exécuté |
 | P2 — Catalogue | À faire | Aucun catalogue produit |
 | P3 — Grammaire | À faire | Aucun résultat expérimental |
 | P4 — Audio et paroles | À faire | Aucun pipeline exécuté |
 | P5 — Multimodal | À faire | Aucun résultat expérimental |
 
-Lorsqu'une phase progresse, mettre à jour sa **mesure de couverture**, ses **critères de sortie** et son **état**. Ne pas laisser éternellement le même nombre de « grands chantiers ouverts » sans indiquer leurs sous-étapes effectivement terminées.
+Lorsqu'une phase progresse, mettre à jour sa **mesure de couverture**, ses **critères de sortie** et son **état**.
+
+**Mesures du 7 novembre 2026 :** 2 workflows P0 terminés avec succès, 4 tests automatiques réussis, 5 sources interrogées par API et 1 requête `HEAD` d'accès GigaMIDI, 0 fichier MIDI téléchargé, 0 correspondance exécutée. L'état P0 reste *En cours* tant que le contrôle d'accès authentifié et l'échantillonnage ne sont pas vérifiés. Ne pas laisser éternellement le même nombre de « grands chantiers ouverts » sans indiquer leurs sous-étapes effectivement terminées.
