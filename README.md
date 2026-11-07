@@ -74,9 +74,11 @@ La base `anamu/` comporte :
   jSymbolic, avec fonctions multi-valeurs, fenêtres temporelles natives et
   **dictionnaire original de définitions** (description/dimensions de chaque
   caractéristique) pour documenter la non-redondance.
-  L'analyse Java 2.2 a un smoke test **facultatif dans le workflow habituel**,
-  sur un MIDI polyphonique synthétique et avec archive officielle vérifiée
-  par SHA-256 ; aucune extraction audio.
+  **Le moteur Java original 2.2 a réellement tourné** dans le workflow
+  habituel : [run 42415633459](https://github.com/leye0/AnaMu/actions/runs/42415633459),
+  **6 fenêtres et 226 caractéristiques**, autant de définitions officielles,
+  sur MIDI polyphonique synthétique. Archive vérifiée par SHA-256 et mise en
+  cache ; aucune extraction audio ni validation émotionnelle humaine.
 - `scripts/extract_tonal_tension.py`, `scripts/extract_harmony.py`,
   `scripts/emopia_benchmark.py` : exécutions locales et reproductibles.
 
@@ -116,6 +118,9 @@ La vérification Java originale peut être activée manuellement avec le
 paramètre `jsymbolic_smoke` ; elle télécharge **seulement l'outil publié**,
 dans une exécution séparée et plafonnée. Cette vérification plus coûteuse
 n'est pas lancée à chaque modification de code.
+**Bilan du 7 novembre 2026 : 81 tests locaux réussis ; deux jobs GitHub
+Actions réussis** (tests symboliques et analyse Java originale), sur
+[l'exécution 42415633459](https://github.com/leye0/AnaMu/actions/runs/42415633459).
 
 ## Corpus et qualité
 

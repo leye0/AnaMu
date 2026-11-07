@@ -37,7 +37,7 @@ de bibliothèques ne suffisent pas à valider un mécanisme psychologique.
 | M10 — groupes, phrases et forme | GTTM (Lerdahl–Jackendoff), arbres de structure | Segmentation, regroupement, anacrouses, apogées, clôtures | candidat ; ambiguïtés autorisées |
 | M11 — métrique et accents | Théorie métrique, outils `music21.meter`, `jSymbolic` et `melody-features` | Accent fort/faible, synchronisme des entrées, changements de mètre | **partiel** : mesures mélodiques ; polyphonie à intégrer |
 | M12 — syncopation / groove | Longuet-Higgins/Lee, métrique, `jSymbolic` et `melody-features` | Déplacement d'accent, tension rythmique locale, swing | **partiel** : descripteurs rythmiques monophoniques ; groove polyphonique candidat |
-| M13 — densité / polyphonie / texture | **jSymbolic** (analyse MIDI/MEI) | Couplage des voix, onsets/s, épaisseur, registre, instrumentation | candidat ; comparer aux variables M4 |
+| **M13 — densité / polyphonie / texture** | **jSymbolic original 2.2** (analyse MIDI/MEI) | Couplage des voix, onsets/s, épaisseur, registre, instrumentation | **extraction réelle exécutée** sur MIDI polyphonique fictif ; validité perceptive à tester |
 | M14 — dynamique / accent / jeu | Vélocité, notes tenues, articulation, `jSymbolic`/Partitura | Croissance, accent, contraste, nuances, respiration | candidat ; vélocité MIDI ≠ volume acoustique |
 | M15 — dissonance / rugosité symbolique | Théories de consonance, classes d'intervalles | Intervalles verticaux instables, changements de dissonance | candidat ; timbre et acoustique peuvent manquer |
 | M16 — conduite des voix / contrepoint | `music21.voiceLeading`, règles contrapuntiques | Continuité, voix contraires, retards, résolutions internes | candidat ; exige séparation de voix fiable |
@@ -89,10 +89,15 @@ examinés et rejetés avec justification.
    L'archive stable officielle de 19,6 Mo est [vérifiée par SHA-256](https://sourceforge.net/projects/jmir/files/jSymbolic/jSymbolic%202.2/jSymbolic_2_2_user.zip/download)
    (`e1686a6bb1133cc21fb4678185d81e5e0a322b371ac713cbaf5fd9b69e2396cb`).
    Deux premiers essais ont échoué par transfert ; les deux suivants ont
-   téléchargé et validé l'archive. Le cache GitHub est désormais alimenté,
-   évitant de nouveaux téléchargements lents. **Aucune extraction Java
-   originale n'est confirmée tant que le rapport `original_java_executed`
-   n'existe pas.** Les 1 497 valeurs ne sont pas 1 497 causes émotionnelles.
+   téléchargé et validé l'archive. Le cache GitHub est désormais alimenté.
+   **Résultat réel confirmé :** [exécution GitHub Actions 42415633459](https://github.com/leye0/AnaMu/actions/runs/42415633459),
+   rapport `original_java_executed` : **6 fenêtres temporelles**, **226 noms
+   de features observés**, **226 définitions officielles lues** sur le MIDI
+   synthétique original. Les 226 correspondent aux features effectivement
+   extraites sous cette configuration et non à la totalité théorique des
+   246 features disponibles. Le rapport `jsymbolic-original-smoke-summary`
+   est conservé comme artefact pendant sept jours. **Aucune prédiction
+   émotionnelle ni validation humaine n'a été effectuée par cet essai.**
 5. **[EMOPIA_cls](https://github.com/SeungHeonDoh/EMOPIA_cls)** : code d'un classificateur sur EMOPIA. À comparer comme **baseline externe**, avec vérification impérative des morceaux d'entraînement utilisés par ses poids. Pas de garantie de test disjoint pour un modèle pré-entraîné inconnu.
 6. **[melody-features 1.3.3](https://dmwhyatt.github.io/melody-features/)**, Whyatt (*Computational Features for Symbolic Melody Analysis*, [prépublication 2026](https://arxiv.org/abs/2608.19061)) : boîte à outils Python publiée regroupant et **réimplémentant** des familles de FANTASTIC, SIMILE, MUST, MIDI Toolbox, jSymbolic, Partitura, Narmour et d'autres. Notre adaptateur `anamu.melody_toolbox.extract_melody_toolbox()` exécute **réellement** `get_all_features(..., skip_idyom=True)` sur les pistes MIDI monophoniques admissibles. Sur une fixture de neuf notes : **278 colonnes de descripteurs**, rangées dans **12 familles** ; ce nombre ne correspond **ni à 278 mécanismes indépendants**, ni à une évaluation des émotions. La bibliothèque fournit aussi cinq règles de Narmour, que nous invoquons sur chaque **triplet successif** pour obtenir une trajectoire d'observations musicales datées. C'est une implémentation publiée *consolidée*, **pas** une exécution des outils originaux FANTASTIC, IDyOM ou jSymbolic Java. Les sources et paramètres doivent être comparés aux implémentations originales avant toute revendication de fidélité. **Uniquement monophonie non chevauchante** : elle ne convertit pas magiquement un piano polyphonique en mélodie principale.
 
@@ -113,7 +118,7 @@ MIDI brut + empreinte + droits + provenance
     ├─ music21    → sonorités, tonalité et accords hypothétiques
     ├─ melody-features → ~278 caractéristiques monophoniques et Narmour triplets
     ├─ IDyOM réel → attente, surprisal et entropie
-    ├─ jSymbolic original → rythme, articulation, texture, dynamique (adaptateur ; à exécuter)
+    ├─ jSymbolic original → rythme, articulation, texture, dynamique (Java réel vérifié sur fixture)
     └─ modèles théoriques ciblés → modèles de motifs, cadences, mémoire (à venir)
              ↓ (chaque moteur conserve version, unités, paramètres, `unknown`)
       alignement temporel + fusion + ablations (à construire)
@@ -192,9 +197,10 @@ python -m scripts.emopia_benchmark ./EMOPIA_2.2 --protocol internal --seed 2026
 
 - **Dès maintenant :** tester la stabilité des rubans et analyses harmoniques
   sur diverses pièces, valider la détection des accords sur un gold set
-  indépendant, **exécuter l'adaptateur jSymbolic avec le vrai `.jar`**, et
-  **faire réellement tourner IDyOM** original avec préentraînement sans fuite.
-  Les tests ACE 1.1 et SHA-256 ne constituent pas encore une preuve d'exécution Java.
+  indépendant, **étudier les 226 caractéristiques jSymbolic réellement
+  extraites et leur robustesse**, et **faire réellement tourner IDyOM**
+  original avec préentraînement sans fuite. Le *smoke test* Java n'établit
+  pas l'exactitude musicale ni émotionnelle de ces caractéristiques.
   Vérifier sur mélodies annotées les mesures Narmour et les 278 colonnes
   réimplémentées par `melody-features` ; documenter les familles qui se
   recouvrent avec Partitura ou jSymbolic avant leur fusion.

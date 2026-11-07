@@ -230,8 +230,8 @@ Le code expérimental introduit :
   émotionnel réel n'est encore revendiqué**.
 - [x] Fournir un adaptateur de sorties et un lanceur optionnel pour **IDyOM
   original** avec py2lispIDyOM, sans prétendre l'avoir exécuté.
-- [x] Fournir un lanceur des 246 caractéristiques **jSymbolic original**
-  (sorties en fenêtres temporelles), sans prétendre l'avoir exécuté.
+- [x] Fournir un lanceur des caractéristiques **jSymbolic original**
+  (sorties en fenêtres temporelles), puis prouver son exécution réelle.
 - [x] Intégrer **la bibliothèque publiée `melody-features`** (FANTASTIC,
   SIMILE, MUST, jSymbolic réimplémenté, MIDI Toolbox, Narmour, etc.) sur MIDI
   monophonique seulement, avec changements de tempo, sortie JSON et tests
@@ -252,10 +252,16 @@ Le code expérimental introduit :
 - [x] Ajouter au **workflow existant** un test Java facultatif de la
   distribution jSymbolic 2.2 officielle, avec contrôle SHA-256 public et
   artefact de résultats, sans télécharger l'outil à chaque push.
+- [x] **Exécuter réellement jSymbolic 2.2** dans le workflow existant :
+  [run 42415633459](https://github.com/leye0/AnaMu/actions/runs/42415633459),
+  SHA-256 officiel vérifié, **6 fenêtres, 226 types de descripteurs observés,
+  226 définitions importées**, fichier de résultats conservé en artefact,
+  binaire mis en cache. Fixture MIDI synthétique, non-validation émotionnelle.
 - [ ] Faire réellement tourner l'IDyOM upstream (SBCL, Quicklisp, SQLite),
   sur un apprentissage séparé du jeu de test, et analyser les résultats.
-- [ ] **Exécuter jSymbolic réel**, puis inventorier et dédoublonner ses
-  features temporelles (rythme, expression, densité, texture, instrumentation).
+- [ ] **Inventorier et dédoublonner** les features temporelles jSymbolic
+  effectivement extraites (rythme, expression, densité, texture,
+  instrumentation), puis vérifier leur fidélité sur musique réelle.
 - [ ] Aligner les mécanismes dans le temps et réaliser une première fusion
   explicable, avec indicateur d'incertitude et tests d'ablation.
 - [ ] Auditer la fidélité des réimplémentations de `melody-features`, son
