@@ -12,13 +12,14 @@ import csv
 import io
 import json
 import os
+import re
 import urllib.error
 import urllib.parse
 import urllib.request
 
 
 CSV_URL = "https://huggingface.co/datasets/Metacreation/GigaMIDI/resolve/main/Final-Metadata-Extended-GigaMIDI-Dataset-updated.csv"
-MAX_READ = 8192
+MAX_READ = 65_536
 
 
 class NoRedirect(urllib.request.HTTPRedirectHandler):
@@ -29,6 +30,38 @@ class NoRedirect(urllib.request.HTTPRedirectHandler):
 def parse_header(chunk: bytes) -> list[str]:
     line = chunk.split(b"\n", 1)[0]
     return next(csv.reader(io.StringIO(line.decode("utf-8-sig"))))
+
+
+def summarize_paths(chunk: bytes) -> dict:
+    # Drop the unfinished trailing CSV record, if any.
+    complete_lines = chunk.rsplit(b"\n", 1)[0]
+    reader = csv.DictReader(io.StringIO(complete_lines.decode("utf-8-sig", "replace")))
+    kinds = {"xmidi_labeled_basename": 0, "md5_basename": 0, "other_basename": 0}
+    source_folder_markers = 0
+    md5_matches_filename = 0
+    examined = 0
+    for record in reader:
+        if examined >= 150:
+            break
+        name = (record.get("file_path") or "").replace("\\", "/")
+        md5 = (record.get("md5") or "").lower()
+        segments = [segment for segment in name.split("/") if segment]
+        basename = segments[-1] if segments else ""
+        stem = basename.rsplit(".", 1)[0]
+        examined += 1
+        if basename.startswith("XMIDI_"):
+            kinds["xmidi_labeled_basename"] += 1
+        elif re.fullmatch(r"[0-9a-fA-F]{32}", stem):
+            kinds["md5_basename"] += 1
+        else:
+            kinds["other_basename"] += 1
+        if any("xmidi" in segment.lower() for segment in segments[:-1]):
+            source_folder_markers += 1
+        if re.fullmatch(r"[0-9a-f]{32}", md5) and stem.lower() == md5:
+            md5_matches_filename += 1
+    return {"rows_examined": examined, "file_path_basename_patterns": kinds,
+            "source_folder_mentions_xmidi": source_folder_markers,
+            "md5_matches_filename": md5_matches_filename}
 
 
 def discover_url(token: str) -> tuple[str, int]:
@@ -72,6 +105,7 @@ def probe(token: str) -> dict:
             "bytes_examined": len(chunk),
             "column_count": len(names),
             "column_names": names,
+            "path_patterns": summarize_paths(chunk),
         }
 
 
