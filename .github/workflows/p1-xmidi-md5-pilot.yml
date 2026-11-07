@@ -1,0 +1,25 @@
+name: P1 - pilote XMIDI GigaMIDI MD5
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/p1-xmidi-md5-pilot.yml
+      - scripts/pilot_xmidi_gigamidi.py
+      - tests/test_pilot_xmidi_gigamidi.py
+
+permissions:
+  contents: read
+
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tests sans reseau
+        run: python -m unittest discover -s tests -v
+      - name: Echantillon temporaire borne et jointure exacte
+        env:
+          HF_TOKEN: ${{ secrets.HUGGING_FACE_KEY }}
+        run: python scripts/pilot_xmidi_gigamidi.py
