@@ -67,7 +67,9 @@ def inspect(token: str) -> dict:
     from huggingface_hub import HfFileSystem
 
     fs = HfFileSystem(token=token)
-    with fs.open(PATH, "rb", block_size=0, cache_type="none") as stream:
+    # A zero block_size makes HfFileSystem non-seekable. Small buffered blocks
+    # preserve range access without buffering the complete remote Parquet file.
+    with fs.open(PATH, "rb", block_size=262_144, cache_type="readahead") as stream:
         bounded = BudgetFile(stream)
         parquet = pq.ParquetFile(bounded, pre_buffer=False)
         names = parquet.schema_arrow.names
