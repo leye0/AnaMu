@@ -16,8 +16,10 @@ on:
       - 'tests/test_melody_toolbox.py'
       - 'tests/test_jsymbolic_ace.py'
       - 'tests/test_idyom_guardrails.py'
+      - 'tests/test_idyom_dat.py'
       - 'scripts/emopia_benchmark.py'
       - 'scripts/run_original_idyom.py'
+      - 'scripts/import_idyom_dat.py'
       - 'scripts/extract_tonal_tension.py'
       - 'scripts/extract_harmony.py'
       - 'scripts/extract_melody_features.py'
@@ -46,13 +48,14 @@ jobs:
         run: |
           python -m unittest discover -s tests -p 'test_jsymbolic_ace.py' -v
           python -m unittest discover -s tests -p 'test_idyom_guardrails.py' -v
+          python -m unittest discover -s tests -p 'test_idyom_dat.py' -v
 
   jsymbolic-upstream-smoke:
     # Same normal workflow; no costly Java download in routine test runs.
     # Opt in manually, or exactly once by marking a commit [jsymbolic-smoke].
     if: ${{ (github.event_name == 'workflow_dispatch' && inputs.jsymbolic_smoke) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[jsymbolic-smoke]')) }}
     runs-on: ubuntu-latest
-    timeout-minutes: 9
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
@@ -64,7 +67,10 @@ jobs:
       - name: Telecharger et verifier jSymbolic original 2.2
         shell: bash
         run: |
-          curl --fail --location --silent --show-error --retry 0 --max-time 310 --output "$RUNNER_TEMP/jsymbolic-2.2.zip" 'https://sourceforge.net/projects/jmir/files/jSymbolic/jSymbolic%202.2/jSymbolic_2_2_user.zip/download'
+          # Official SourceForge transfer is heavily throttled (~17 MB in 310 s
+          # on the previous run); use a single longer bounded transfer. SHA-256
+          # is mandatory; a partial or HTML response can never be executed.
+          curl --fail --location --silent --show-error --retry 0 --max-time 600 --output "$RUNNER_TEMP/jsymbolic-2.2.zip" 'https://sourceforge.net/projects/jmir/files/jSymbolic/jSymbolic%202.2/jSymbolic_2_2_user.zip/download'
           printf 'e1686a6bb1133cc21fb4678185d81e5e0a322b371ac713cbaf5fd9b69e2396cb  %s\n' "$RUNNER_TEMP/jsymbolic-2.2.zip" | sha256sum --check
           mkdir -p "$RUNNER_TEMP/jsymbolic-2.2"
           unzip -q "$RUNNER_TEMP/jsymbolic-2.2.zip" -d "$RUNNER_TEMP/jsymbolic-2.2"

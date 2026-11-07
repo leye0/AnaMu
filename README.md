@@ -10,7 +10,7 @@ algorithmes issus des théories musicales et psychologiques sur le **MIDI
 symbolique brut**. Déterminer ensuite le corpus nécessaire à la validation
 de chaque mécanisme. Les rapprochements MIDI↔audio et **Demucs sont reportés**.
 
-- **[Feuille de route v1.0](docs/roadmap.md)** — priorités, jalons et état réel.
+- **[Feuille de route v1.1](docs/roadmap.md)** — priorités, jalons et état réel.
 - **[Théorie → algorithmes](docs/theory-to-algorithms.md)** — références
   académiques, entrées/sorties, modèles, expériences et critères de preuve.
 - **[Moteur émotionnel et couverture des algorithmes](docs/emotion-engine.md)** —
@@ -64,6 +64,12 @@ La base `anamu/` comporte :
   `idyom_guardrails.py` vérifie les empreintes de toutes les pistes de
   préentraînement/test, refuse les doublons exacts et bloque EMOPIA dans le
   préentraînement. Aucun résultat IDyOM publié pour le moment.
+- `idyom_dat.py` et `scripts/import_idyom_dat.py` : lecture du **format
+  original `.dat` d'IDyOM** et conversion JSON sans recalculer ses modèles.
+  Les surprises, entropies, probabilités de continuations, gains d'information,
+  vues mélodiques/rythmiques et valeurs absentes sont conservés par note et
+  par morceau. Lecture testée sur le schéma d'un exemple des auteurs, mais
+  **aucun moteur Lisp original n'a encore tourné dans notre infrastructure**.
 - `jsymbolic_ace.py` : parseur du **format ACE XML original 1.1** de
   jSymbolic, avec fonctions multi-valeurs et fenêtres temporelles natives.
   L'analyse Java 2.2 a un smoke test **facultatif dans le workflow habituel**,
@@ -95,6 +101,7 @@ Pour extraire les mesures mélodiques académiques directement d'un MIDI :
 python -m pip install 'melody-features==1.3.3'
 python -m scripts.extract_melody_features /chemin/melodie.mid > melodia.json
 python -m unittest discover -s tests -p 'test_melody_toolbox.py' -v
+python -m scripts.import_idyom_dat /chemin/resultats-idyom.dat --json-out idyom-events.json
 ```
 
 Le corpus de référence implicite de `melody-features` et la fidélité des

@@ -196,6 +196,11 @@ Le code expérimental introduit :
 - `anamu/idyom_guardrails.py` : séparation stricte des répertoires,
   empreintes SHA-256 pour éviter les doublons exacts, blocage des MIDI EMOPIA
   en préentraînement, budget de fichiers et manifestes vérifiables.
+- `anamu/idyom_dat.py` : lecture du **format `.dat` original** d'IDyOM,
+  groupement par mélodie, surprise/entropie pour chaque point de vue, vecteurs
+  de probabilités des continuations, informations manquantes explicites et
+  conservation facultative de toutes les colonnes non normalisées. L'axe
+  temporel reste en unités natives, sans secondes inventées.
 - `anamu/melody_toolbox.py` : exécution de `melody-features==1.3.3` sur les
   pistes monophoniques admissibles. 278 colonnes sur la fixture de neuf notes,
   **12 familles descriptives**, et cinq mesures de Narmour à chaque triplet.
@@ -235,6 +240,9 @@ Le code expérimental introduit :
 - [x] Ajouter des garde-fous anti-fuites dans le lanceur IDyOM original,
   notamment les SHA-256 entre train et test et le refus d'EMOPIA dans le
   préentraînement.
+- [x] Lire **les vrais fichiers `.dat` d'IDyOM** selon le format fourni dans
+  le dépôt officiel `py2lispIDyOM`, conserver les vues concurrentes,
+  distributions et valeurs inconnues ; ajouter des tests de non-corruption.
 - [x] Ajouter au **workflow existant** un test Java facultatif de la
   distribution jSymbolic 2.2 officielle, avec contrôle SHA-256 public et
   artefact de résultats, sans télécharger l'outil à chaque push.
