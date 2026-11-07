@@ -1,283 +1,216 @@
-# AnaMu — Feuille de route de recherche et de développement
+# AnaMu — Feuille de route scientifique et technique
 
-**Version :** 0.8 — priorité à la qualité du corpus et validation MIDI ↔ audio réel  
-**Objectif :** constituer un corpus musical multimodal, identifiable et traçable, sur lequel plusieurs moteurs pourront étudier le langage musical et ses relations avec les émotions humaines.
+**Version : 1.0 — 7 novembre 2026.**  
+**Décision :** théorie musicale algorithmisée → mécanismes temporels → étude
+des émotions humaines → corpus construit selon les besoins prouvés → analyses
+de compositions connues → génération expérimentale. **Audio/Demucs reportés.**
 
-Ce document guide le projet. Une tâche n'est « terminée » que lorsque son résultat et ses limites sont documentés et vérifiés.
+Le programme scientifique détaillé, les références primaires et les
+critères de chaque algorithme se trouvent dans
+**[theory-to-algorithms.md](theory-to-algorithms.md)**. Ce document constitue
+la référence d'implémentation pour les prochaines étapes.
 
-## 1. Vision
+## 1. Vision et objectifs
 
-AnaMu vise à étudier conjointement :
+**AnaMu étudie comment les événements musicaux créent, déplacent, déçoivent,
+confirment et résolvent des attentes, et comment ces transformations peuvent
+être reliées aux émotions perçues par des auditeurs.** L'ambition n'est pas
+de réapprendre que le mineur et le tempo lent sont souvent associés à la
+tristesse, mais d'identifier des mécanismes temporels explicables.
 
-1. **La composition symbolique** : notes, intervalles, accords, séquences, rythmes, motifs, répétitions, transformations, structure et attentes.
-2. **La sémantique des paroles** : thèmes, émotions exprimées, figures, tensions narratives et changements de sens.
-3. **L'interprétation et le son** : voix, instruments, timbres, intensité, articulation, effets et production.
-4. **La perception humaine** : annotations émotionnelles réellement produites par des personnes, avec leurs méthodes et éventuels désaccords.
-5. **Le contexte** : artiste, genre, époque, version de l'enregistrement, popularité et diffusion.
+Trois objectifs successifs et complémentaires :
 
-L'ambition à long terme est une **grammaire musicale explicable** : découvrir des régularités génériques, calculer des attentes conditionnelles, caractériser les surprises et relier les structures observées à des phénomènes humains. Une corrélation n'est pas automatiquement une explication causale.
+1. Comprendre la composition symbolique, les mélodies, les harmonies, les
+   motifs, les relations et l'organisation des chansons connues.
+2. Découvrir et tester les relations entre ces mécanismes **en séquence** et
+   les annotations émotionnelles humaines, avec incertitude et limites.
+3. Plus tard, concevoir un générateur MIDI piloté par trajectoires
+   émotionnelles, instruments, structures et références stylistiques.
 
-### Hors périmètre initial
+Une corrélation ne prouve pas un mécanisme causal. La **tension**, le
+**plaisir**, l'**activation**, la **valence**, l'émotion **perçue** et l'émotion
+**ressentie** sont des concepts distincts.
 
-- Entraîner un grand modèle de génération musicale.
-- Télécharger et conserver toutes les chansons de toutes les bases.
-- Démixer immédiatement des dizaines de milliers d'enregistrements.
-- Affirmer qu'une annotation émotionnelle générée automatiquement est une vérité humaine.
-- Reproduire des analyses ou extractions disponibles et réutilisables sans nécessité démontrée.
+## 2. Ordre des travaux décidé
 
-## 2. Stratégie générale
+| Priorité | Phase | Livrable / condition de sortie | Statut |
+|---|---|---|---|
+| **Maintenant** | **S0 — Laboratoire MIDI brut** | Lecteur conservateur, vues sans pertes, fixtures et contrats de données. Aucune extraction audio. | **Premier incrément en cours** |
+| **Maintenant** | **S1 — Attentes mélodiques** | Baseline probabiliste puis comparaison IDyOM + Narmour/Schellenberg, vraies mesures de prédiction hors entraînement. | **Baseline initiée, validation académique à faire** |
+| **Prochain** | **S2 — Harmonie et enchaînements** | Hypothèses d'accords, progression, fonction, tonalité locale, cadences, Tonal Pitch Space, Spiral Array ; tests sur vérité musicale annotée. | À faire |
+| **Prochain** | **S3 — Motifs, formes, tension** | Répétitions/transformations, structure hiérarchique, mémoire et modèles temporels Lerdahl/Farbood. | À faire |
+| **Après** | **S4 — Fusion des mécanismes** | Entropie avant l'événement, surprise à l'événement, tension/résolution et interactions, ablations. | À faire |
+| **Après** | **S5 — Émotions humaines** | Relations calibrées aux labels et courbes **humaines** avec baselines, séparations d'œuvres et contrôles négatifs. | À faire |
+| **Après preuve de besoin** | **S6 — Corpus ciblé** | Sélection par requirements de S0–S5, peu de MIDI fiables, couverture/erreurs/biais documentés. | Études de sources déjà réalisées ; sélection à redéfinir |
+| **Recherche appliquée** | **S7 — Bach, Chopin, puis pop** | Analyses explicables de pièces identifiées, confrontées à la théorie et aux évaluations humaines quand elles existent. | À faire |
+| **Long terme** | **S8 — Génération symbolique** | Génération + révision sous contraintes, rendus MIDI multipistes, évaluation humaine et musicale. | À faire |
+| **Ultérieur, conditionnel** | **S9 — Audio, paroles, Demucs** | Un cas d'usage démontre que l'observation audio améliore S0–S8, avec coûts et erreurs mesurés. | **Reporté explicitement** |
 
-**Construire d'abord un catalogue d'identités, puis l'enrichir avec des observations indépendantes.**
+Les phases ne sont pas des murs : S5 peut tester un mécanisme de S1 sur un
+petit dataset avant la fin de S3. Mais il est interdit de déclarer un détecteur
+émotionnel validé tant que l'annotation humaine et les contrôles requis
+n'existent pas.
 
-Les identités ne doivent pas être confondues :
+## 3. Pourquoi les algorithmes précèdent le corpus
 
-- **Œuvre** : composition musicale, éventuellement avec texte original.
-- **Enregistrement** : réalisation sonore précise (studio, concert, reprise, remaster, etc.).
-- **Transcription MIDI / arrangement** : représentation symbolique pouvant différer de l'enregistrement.
-- **Version des paroles** : langue, modifications et éventuelle synchronisation.
-- **Annotation émotionnelle** : jugement humain ou sortie de machine, à conserver séparément.
-- **Observation analytique** : résultat d'un moteur, associé à une version et une configuration reproductibles.
+Le plan précédent imposait catalogue identitaire et rapprochement MIDI↔audio
+avant la grammaire. **Cette dépendance est supprimée.**
 
-Une même œuvre peut avoir plusieurs enregistrements, et un MIDI peut correspondre à plusieurs candidats. Ces relations sont **plusieurs-à-plusieurs** lorsque nécessaire.
+1. Définir un mécanisme théorique à étudier et l'observation attendue.
+2. Écrire le contrat des données **strictement nécessaires** au module.
+3. Tester sur MIDI bruts ou séquences symboliques contrôlées. Conserver les
+   données originales ; ne préparer que les vues demandées.
+4. Identifier où une vérité terrain humaine ou musicale devient nécessaire.
+5. Sélectionner alors un petit corpus pertinent, avec critères adaptés à
+   cette question. Élargir **uniquement** si la preuve scientifique le justifie.
 
-## 3. Sources candidates et limites connues
+Exemples : une étude des intervalles peut utiliser directement des pistes
+MIDI monophoniques ; une étude des fonctions harmoniques a besoin de vérité
+terrain d'accords/tonalités ; XMIDI permet des tests émotionnels **globaux**
+mais pas des courbes temporelles ; DEAM fournit des évaluations émotionnelles
+temporelles **audio** mais pas un MIDI aligné par défaut.
 
-| Source | Intérêt | Limites / vérifications préalables |
+**Qualité avant quantité** : 10 000 MIDI n'est ni une cible obligatoire ni un
+minimum ; 500 ou 2 000 excellents cas peuvent suffire. Garder aussi un index
+des refus et de leurs motifs. Ne pas favoriser les seuls styles plus faciles
+à analyser sans mesurer le biais.
+
+## 4. Architecture d'analyse
+
+### Entrée et vues, sans conversion audio forcée
+
+Un fichier MIDI valide est un *asset brut*. On doit pouvoir le soumettre
+directement à un module qui sait lire les événements nécessaires.
+
+- **Événements natifs** : notes, pistes, canaux, programmes, durées, tempo,
+  vélocités, mètre, contrôleurs ; conserver source et checksum.
+- **Vues** : lignes monophoniques candidates, ensembles simultanés de notes,
+  hypothèses d'accords, modes et tonalités, structure, motifs, positions.
+- **Indicateurs** : `confidence`, `unknown`, ambiguïtés, qualité de segmentation,
+  hypothèses concurrentes, provenance de chaque dérivation.
+- **Moteurs purs** : consommant les vues dont ils ont besoin, retournant
+  des événements mesurés, non des étiquettes émotionnelles improvisées.
+
+### Moteurs à algorithmiser et comparer
+
+1. **Attente mélodique** : Narmour, Schellenberg, IDyOM/Pearce,
+   continuations conditionnelles et adaptation au morceau.
+2. **Harmonie tonale** : Lerdahl/Krumhansl, attraction, contexte local,
+   fonctions, cadences, relations hiérarchiques.
+3. **Géométrie tonale** : Herremans/Chew (cloud diameter, momentum,
+   tensile strain), hypothèses de tonalité et stabilité.
+4. **Intégration temporelle** : Farbood, tendances, fenêtres, densité,
+   crescendos, pente de tension et relaxation.
+5. **Réponses aux attentes** : Meyer/Huron ; différence entre prédiction,
+   incertitude, surprise, suspension, réaction et appréciation.
+6. **Interaction attente/plaisir** : Cheung et al. ; mesurer les interactions
+   *avant/après* l'événement sans les prendre pour toutes les émotions.
+7. **Structure et motif** : hiérarchie Lerdahl/Jackendoff, transformations,
+   récurrence, segmentation et attentes de retour.
+
+Les études de Steinbeis et d'Egermann fournissent des protocoles humains
+pertinents pour vérifier certaines prédictions de tension/réaction. Chaque
+module doit posséder définition, référence, limites, tests négatifs,
+baselines et mesures de calibration dans
+[le programme scientifique](theory-to-algorithms.md).
+
+## 5. Protocole scientifique : quatre couches de preuve
+
+1. **Exactitude informatique** : notes, temps, intervalles, fréquences,
+   probabilités et invariances contrôlées par des tests unitaires.
+2. **Justesse musicale** : accord/voix/tonalité/structure comparés à des
+   analyses humaines, sans maquiller `unknown` en précision artificielle.
+3. **Théorie de la perception** : probabilités comparées à des continuations
+   humaines ; tension comparée à des évaluations temporelles.
+4. **Émotion** : corrélations et prédictions sur labels humains, avec
+   contextes, styles et groupes d'œuvres séparés de l'apprentissage.
+
+Baselines indispensables : caractéristiques statiques (mode/tempo),
+unigramme, modèle sans ordre, modèles séquentiels simples, versions sans
+interactions. Contrefactuels : permuter l'ordre des événements, retarder une
+cadence, modifier un accord, transposer une progression, retirer un motif.
+
+Ne jamais déduire « tristesse prouvée » d'une courbe de tension. Une classe
+humaine globale ne prouve pas la cause locale d'une émotion.
+
+## 6. Sources et annotation humaine — choisies par besoin
+
+| Source | Atout principal | Limitation importante |
 |---|---|---|
-| [XMIDI / XMusic](https://github.com/xmusic-project/XMIDI_Dataset) | 108 023 MIDI, 11 classes d'émotions annotées par des professionnels, catégories de genre | Noms publiés selon le modèle XMIDI_Emotion_Genre_ID ; pas de titre/artiste dans ces noms. Téléchargement présenté sous forme d'une archive Google Drive : vérifier taille, droits et accès partiel. Émotions principalement au niveau du morceau. |
-| [MetaMIDI](https://github.com/Metacreation-Lab/MetaMIDI-Dataset) | 436 631 MIDI ; nombreux titres/artistes et rapprochements Spotify/MusicBrainz déjà calculés | L'accès aux fichiers est soumis à une demande ; ne pas supposer les données disponibles avant autorisation. |
-| [GigaMIDI](https://github.com/Metacreation-Lab/GigaMIDI-Dataset) et [Discover MIDI](https://huggingface.co/datasets/projectlosangeles/Discover-MIDI-Dataset) | Grands corpus et caractéristiques pré-calculées ; solutions ou compléments selon les données réellement accessibles | Vérifier les sous-ensembles, les champs, les licences, les coûts de transfert et les mécanismes d'accès. |
-| [MusicBrainz](https://musicbrainz.org/doc/Work) | Référentiel des œuvres, enregistrements, artistes, relations et identifiants stables | Ne fournit pas l'audio complet ni nécessairement les paroles ; un identifiant d'œuvre n'identifie pas une version studio précise. |
-| [LRCLIB](https://lrclib.net/docs) | Paroles en texte, parfois synchronisées par ligne ou mot | Couverture variable, correspondance à vérifier avec l'enregistrement ; examiner les droits d'usage. |
-| [Musixmatch](https://github.com/musixmatch/musixmatch-sdk) | Recherche de paroles et catalogue sous licence | Conditions d'accès, de stockage et de réutilisation à vérifier. |
-| [DEAM](https://cvml.unige.ch/databases/DEAM/) | 1 802 extraits/chansons avec évaluations humaines temporelles de valence et d'activation | Principalement audio ; ne pas inventer un lien MIDI. |
-| [EMOPIA](https://annahung31.github.io/EMOPIA/) | 1 087 extraits de piano avec MIDI et émotions évaluées par des humains | Plus petit et centré sur le piano pop. |
-
-**Politique émotionnelle :** les annotations humaines forment le corpus de référence. Les étiquettes automatiques peuvent servir d'hypothèses secondaires, jamais de vérité de validation non signalée.
-
-### Principe transversal : qualité avant quantité
-
-**Décision du 7 novembre 2026 :** AnaMu privilégie un **corpus sélectionné et fiable**, même si cela signifie ne conserver que **10 000 MIDI, ou nettement moins**, parmi plus de 108 000 fichiers XMIDI. **10 000 n'est pas un minimum à atteindre**, et le volume du corpus n'est pas un indicateur principal de réussite. Si 500 ou 2 000 MIDI satisfont vraiment les exigences, ces fichiers valent davantage qu'une collection dix fois plus grande mais bruitée.
-
-Les règles de sélection doivent rester **relatives à l'objectif** : une pièce pour piano seul peut être excellente dans un sous-corpus mélodique ; pour l'étude de la batterie rock, il faut une partie batterie suffisamment détaillée. Éviter de rendre obligatoires guitare/basse/batterie pour tous les genres.
-
-**Critères de qualification, avec preuve et raison de refus ou d'incertitude :**
-
-1. **Intégrité symbolique** : fichier valide, temps et tempo interprétables, notes et pistes utiles, absence d'anomalies majeures.
-2. **Richesse appropriée** : parties réellement actives, détails rythmiques/harmoniques utiles et cohérents avec le genre et la tâche ; pas seulement un nom de programme MIDI.
-3. **Fidélité vérifiable lorsque l'audio est disponible** : identité précise de l'œuvre/version, correspondance de structure et, pour la batterie, métriques d'événements et revue des désaccords selon le [plan MIDI/audio](p1-drum-audio-validation-plan.md).
-4. **Provenance des annotations humaines** : conserver le label émotionnel XMIDI avec sa source, et documenter sa portée. Une sortie de détecteur n'est pas un label humain.
-5. **Identités et doublons** : distinguer même fichier, même composition, différentes versions, arrangements approximatifs et transpositions ; ne pas gonfler artificiellement le corpus.
-6. **Traçabilité et droits** : source des MIDI et métadonnées, accès audio autorisé, méthodes et versions des outils, score d'incertitude.
-7. **Diversité sous contrôle** : éviter qu'une sélection « facile à identifier » ne devienne presque exclusivement populaire, occidentale ou rock ; mesurer les biais par genre et émotion.
-
-**Deux ensembles explicites, sans confusion de niveau :**
-
-- **Corpus qualifié symbolique** : MIDI vérifié + émotion humaine traçable + instruments/structure utiles. L'identité discographique ou l'audio peuvent manquer ; le dossier l'indique.
-- **Sous-corpus de référence multimodal** : critères précédents **plus** identification œuvre/enregistrement vérifiée et fidélité MIDI/audio évaluée par méthode indépendante, avec limites connues.
-
-Conserver les candidats rejetés ou incertains dans un **index d'évaluation** (statut, motif, provenance), pas dans le corpus de référence. Pas d'effacement des sources ; possibilité de réévaluer après amélioration des détecteurs ou métadonnées. Publier avant tout **taux de passage aux critères, précision des cas acceptés, distribution par genre/émotion et couverture multimodale**, puis seulement le nombre total de fichiers.
-
-**Politique d'effort :** petit échantillon audité → règles calibrées → sélection par lots et contrôles négatifs → validation humaine d'un sous-échantillon accepté/refusé. Stopper l'élargissement quand le gain marginal en pièces fiables est trop faible par rapport au temps, aux droits et au coût.
-
-## 4. Popularité et représentativité
-
-La popularité est utile à deux titres :
-
-1. **Priorisation** : favoriser initialement les œuvres connues susceptibles de posséder paroles, enregistrements et métadonnées riches.
-2. **Variable de recherche** : étudier si des structures musicales sont statistiquement associées à la diffusion, à la mémorisation ou aux succès commerciaux.
-
-Mais la popularité **n'est pas** une mesure directe de qualité, d'émotion ou de préférence universelle. La stocker comme une suite de **mesures datées**, chacune avec source et définition (par exemple un rang de palmarès ou des écoutes), et non comme un score permanent universel.
-
-Conserver également un échantillon diversifié de morceaux peu connus. Sinon, la grammaire risquerait de modéliser surtout les biais commerciaux ou les particularités d'une époque.
-
-## 5. Modèle de données initial
-
-Schéma conceptuel — les champs définitifs seront précisés lors du premier prototype :
-
-| Entité / table | Champs essentiels |
-|---|---|
-| works | work_id, musicbrainz_work_id, title, composers, lyricists, language |
-| recordings | recording_id, work_id, musicbrainz_recording_id, isrc, artist_id, duration, year, version_type |
-| midi_assets | midi_id, source, source_file_id, checksum, emotion_label_source, genre_source, storage_reference |
-| midi_recording_matches | midi_id, recording_id, method, score, decision, reviewed_at, evidence |
-| lyrics_versions | lyrics_id, work_id, recording_id (facultatif), language, provider, rights, sync_level |
-| lyric_segments | lyrics_id, start_ms, end_ms, text_or_reference, confidence, alignment_method |
-| emotion_annotations | subject_type, subject_id, time_range, label_or_dimensions, annotator_type, source, confidence |
-| popularity_observations | recording_id ou work_id, source, metric, value, observed_at |
-| analysis_runs | run_id, engine, version, parameters, source_checksums, execution_date |
-| analysis_events | run_id, target_id, start_ms, end_ms, feature_type, value, confidence |
-
-**Règle fondamentale :** ne pas perdre les données originales ni leur provenance lorsque des résultats normalisés ou agrégés sont ajoutés.
-
-Pour les textes protégés, pouvoir stocker seulement les identifiants, références ou caractéristiques permises par les droits de la source.
-
-## 6. Identité musicale : stratégie de rapprochement
-
-On ne peut **pas** joindre directement XMIDI à MusicBrainz par le nom de fichier : les noms XMIDI ne comprennent pas le titre ni l'artiste.
-
-Approche progressive :
-
-1. Chercher les correspondances exactes éventuellement établissables par empreinte de fichier ou identifiant d'origine partagé.
-2. Constituer un index de candidats à partir des données symboliques et des métadonnées identifiées accessibles.
-3. Rechercher les candidats par des signatures de mélodie, intervalles, rythme et structure robustes aux changements de tempo et de tonalité.
-4. Comparer plus finement les candidats (alignement de séquences et mesures de similitude musicale).
-5. Ne confirmer automatiquement que les rapprochements dépassant des seuils **calibrés expérimentalement**.
-6. Conserver les candidats ambigus, les contre-exemples et l'explication des scores pour réévaluation.
-
-**Ne pas utiliser une simple progression d'accords comme preuve d'identité :** de nombreuses chansons partagent les mêmes progressions.
-
-Les outils existants de rapprochement MIDI/audio (notamment les résultats MetaMIDI) doivent être réutilisés lorsque les données et droits le permettent.
-
-### Mesures de qualité
-
-- Couverture : MIDI identifiés / MIDI évalués.
-- Précision estimée des correspondances acceptées, sur un échantillon revu manuellement.
-- Ambiguïtés : plusieurs candidats plausibles / MIDI évalués.
-- Cas de refus et faux positifs, notamment entre reprises et versions studio.
-- Répartition des résultats selon genre, année, popularité et émotion.
-
-**Ne pas annoncer une couverture ou une précision avant mesure.**
-
-## 7. Étapes et critères de sortie
-
-### P0 — Audit de faisabilité et d'accès
-
-**Livrables :** tableau des sources accessibles, formats, volumes, restrictions, identifiants, caractéristiques déjà calculées et possibilités de téléchargement partiel.
-
-- Inspecter l'archive XMIDI et déterminer si un sous-ensemble est accessible sans transfert massif.
-- Vérifier le processus d'autorisation MetaMIDI et les données déjà publiques.
-- Évaluer les alternatives exploitables immédiatement (GigaMIDI, Discover MIDI, Lakh, etc.).
-- Inventorier précisément les jeux de correspondances identifiées, leurs scores et licences.
-
-**Terminé lorsque :** les méthodes d'accès, coûts estimés et obstacles sont documentés ; aucun téléchargement de plusieurs Go ne doit être lancé implicitement.
-
-### P1 — Expérience de rapprochement sur un échantillon
-
-**Cible :** jusqu'à **1 000 MIDI XMIDI**, sous réserve d'un accès raisonnable. Si l'archive ne permet aucun échantillonnage, documenter le problème et convenir d'une alternative avant un téléchargement massif.
-
-- Construire le plus petit pipeline reproductible de lecture des MIDI et de signatures.
-- **Audit instrumental mesuré :** [200 XMIDI sélectionnés, 199 analysés](p1-instrument-audit.md) ; 100 aléatoires (64 % avec parties guitare/basse/batterie actives), 99 pop/rock analysés (59,6 %). L'identification des artistes et la fidélité à l'enregistrement commercial restent à démontrer.
-- Chercher les correspondances exactes puis approchées dans un référentiel identifié.
-- Vérifier manuellement un échantillon des résultats, y compris les cas difficiles et les refus.
-- Publier les taux de couverture, de précision estimée et les erreurs représentatives.
-
-**Terminé lorsque :** nous savons si l'identification est suffisamment fiable pour justifier une montée en charge. Une couverture élevée avec de nombreux faux positifs est un échec, pas un succès.
-
-### P2 — Catalogue et enrichissement léger
-
-- Normaliser les entités œuvre / enregistrement / MIDI.
-- Récupérer les informations MusicBrainz avec leurs identifiants.
-- Intégrer des indicateurs de popularité datés, de sources vérifiables.
-- Rechercher les versions disponibles des paroles et leur niveau de synchronisation.
-- Mesurer le pourcentage de chansons couvertes pour chaque type d'information.
-
-**Terminé lorsque :** on peut interroger et exporter un catalogue dédupliqué, traçable et représentatif.
-
-### P3 — Première grammaire symbolique
-
-- Réutiliser les caractéristiques musicales pré-calculées pertinentes.
-- Normaliser les tonalités, intervalles, rythmes et positions structurelles.
-- Mesurer motifs, répétitions, suites d'accords, transitions et probabilités conditionnelles.
-- Étudier les attentes, la surprise et les structures multi-échelles.
-- Tester la généralisation sur des œuvres et artistes retenus hors du corpus d'exploration.
-- Relier les résultats aux émotions **humaines** sans en inférer une causalité prématurée.
-
-**Terminé lorsque :** des règles explicables sont évaluées sur des morceaux inconnus, avec échecs documentés.
-
-### P4 — Prototype audio et paroles synchronisées
-
-**Plan d'expérimentation batterie (non exécuté) :** [validation MIDI ↔ vrai enregistrement, Demucs + ADTOF/Omnizart + métriques vérifiables](p1-drum-audio-validation-plan.md). Cette expérience pilote commence sur quelques chansons connues et correctement appariées, puis s'applique à XMIDI seulement lorsque titre, artiste et version sont établis. Les sorties de transcription automatique ne constituent pas une vérité terrain : revue humaine et contrôles négatifs obligatoires.
-
-**Périmètre initial :** petit lot de chansons identifiées, accessibles pour une analyse conforme aux droits.
-
-- Préférer des paroles déjà synchronisées au mot ; sinon à la ligne.
-- Avec des paroles connues, tenter d'abord un **alignement forcé** sur la voix isolée.
-- Utiliser la transcription Whisper comme recours si le texte manque, en mesurant ses erreurs sur le chant.
-- Démixer temporairement avec Demucs ; la séparation piano/guitare et les effets vocaux peuvent être imparfaits.
-- Extraire hauteurs vocales, contour mélodique, vibrato, intensité, articulation, timbres et indices de production.
-- Aligner les événements audio avec la chronologie MIDI ; mesurer les écarts entre l'arrangement et l'enregistrement réel.
-
-**Terminé lorsque :** qualité de synchronisation, temps de traitement, coûts et taux d'erreur sont mesurés sur un lot représentatif.
-
-### P5 — Analyses multimodales et grammaires croisées
-
-Étudier les relations entre :
-
-- Grammaire de composition.
-- Sémantique et narration des paroles.
-- Grammaire de l'interprétation vocale et de la production sonore.
-- Perception émotionnelle humaine.
-- Contexte historique, genre et popularité.
-
-Exemples de questions : tensions/résolutions, continuité entre phrases, contradictions entre texte et harmonie, effets de l'interprétation sur une même mélodie, différences historiques dans les structures récurrentes.
-
-**Terminé lorsque :** chaque hypothèse précise ses variables, son jeu de validation, ses résultats et les explications alternatives possibles.
-
-## 8. Qualité scientifique
-
-- **Fuites de données** : séparer les jeux d'entraînement/exploration/test par œuvre, et si nécessaire par artiste, pas uniquement par fichier MIDI.
-- **Doublons** : identifier reprises, arrangements et transpositions avant de calculer des fréquences.
-- **Annotations** : distinguer « émotion exprimée/perçue » de « émotion ressentie par un auditeur ».
-- **Désaccords** : conserver les jugements individuels lorsqu'ils sont disponibles, pas seulement la moyenne.
-- **Biais** : documenter les genres, époques, cultures, langues et niveaux de popularité sous-représentés.
-- **Généricité** : interdire les règles particulières à des titres, artistes ou fichiers individuels sans justification de portée générale.
-- **Reproductibilité** : versionner les configurations, scripts, définitions de caractéristiques et rapports de validation.
-
-## 9. Exécution, stockage et budget
-
-- GitHub Actions pour les inventaires, téléchargements de métadonnées, signatures et statistiques de taille raisonnable.
-- Déclenchement manuel des traitements volumineux, petites limites de lots, durée maximale et rapports de consommation.
-- Enregistrer de préférence les **résultats compacts**, manifestes et index ; ne pas mettre les grosses archives dans Git.
-- Pour l'audio, traiter temporairement les fichiers et ne garder les stems que si leur conservation est indispensable et autorisée.
-- Évaluer séparément les coûts du démixage et de l'alignement de nombreux enregistrements ; ne pas supposer que des runners CPU gratuits suffiront.
-- Les restrictions d'accès et les droits de reproduction/stockage/redistribution ne disparaissent pas parce que l'usage est éducatif.
-
-## 10. Prochaine action concrète
-
-**Démarrer P0, puis P1 uniquement si l'accès aux sources le permet.**
-
-Liste de contrôle immédiate :
-
-- [x] Vérifier la forme de distribution de XMIDI (ZIP Google Drive unique) et le contenu du dépôt public.
-- [x] Mesurer le ZIP XMIDI (**449 632 771 octets**, 108 024 entrées ZIP) et lire trois petits MIDI par plages HTTP (12 966 652 octets transférés au total, sans archive complète).
-- [x] Vérifier sur trois lignes que le `md5` GigaMIDI est bien le MD5 des octets MIDI exposés (3/3).
-- [x] Démontrer la projection de la seule colonne Parquet `md5` sur un groupe de 100 lignes (5 473 205 octets de lectures logiques, limite 24 Mo).
-- [x] Vérifier les restrictions MetaMIDI (Zenodo) et GigaMIDI (Hugging Face) et mesurer le rejet anonyme (HTTP 401).
-- [x] Configurer le secret GitHub Actions `HUGGING_FACE_KEY`, vérifier l'accès authentifié et lire un schéma minimal GigaMIDI (HTTP 302 puis 200, 5 762 octets de réponse).
-- [x] Examiner l'en-tête et 86 chemins du CSV original de GigaMIDI par plages HTTP (65 536 octets) : champ `file_path` présent mais 86/86 noms de fichier anonymisés au MD5 ; aucune provenance XMIDI directe observée dans l'échantillon.
-- [x] **Première jointure XMIDI→GigaMIDI prouvée** : [pilote de 100 XMIDI, arrêt après 5 200 empreintes d'un seul shard](https://github.com/leye0/AnaMu/actions/runs/42336949364). Correspondance exacte de l'échantillon `quiet`/`traditional`, 13 328 176 octets XMIDI et 5 657 337 octets de lectures logiques Parquet. [Rapport P1 détaillé](p1-exact-join.md). **Aucun taux de couverture global établi.**
-- [x] **Accélérer l'extraction XMIDI ciblée** : [audit instrumental](p1-instrument-audit.md), 200 fichiers sélectionnés dont 199 analysés, 205 requêtes HTTP Range, 13 752 533 octets transférés, 198,8 s. La lecture ZIP optimisée passe normalement à une requête par fichier.
-- [x] **Documenter le protocole de comparaison instrumentale avec l'audio réel** : [plan batterie](p1-drum-audio-validation-plan.md), choix d'outils déjà publiés, mesures par instrument, faux positifs et contrôle humain. **Plan seulement**, aucun audio traité.
-- [ ] **Définir et tester les filtres qualité du corpus** : critères par usage, statuts « qualifié symbolique / référence multimodale / incertain / refusé », raisons auditées, estimation des faux rejets et tableau de diversité. Ne fixer aucun quota minimum de MIDI.
-- [ ] **Exécuter un mini-pilote batterie MIDI ↔ audio** sur 1–3 chansons connues légalement accessibles : vérifier la version, isoler via Demucs, transcrire avec un détecteur existant et mesurer l'écart par rapport au MIDI avec contrôles négatifs.
-- [ ] **Mesurer le débit d'indexation Parquet** et le trafic réseau réel, puis les artistes identifiables parmi les MIDI pop/rock avant toute montée en charge.
-- [ ] Choisir un référentiel identifié utilisable sans droit d'accès supplémentaire.
-- [ ] Définir un format de manifeste minimal et une convention de scores de rapprochement.
-- [ ] Créer un test reproductible sur un petit nombre de MIDI avant de viser 1 000.
-- [ ] Exécuter le pilote, inspecter les faux positifs et publier les premiers chiffres.
-- [ ] Décider, à partir des résultats, s'il faut étendre l'identification ou changer de stratégie.
-
-## 11. Suivi de progression
-
-Ce document décrit les **jalons** ; les progrès doivent être enregistrés avec des états précis :
-
-- **À faire** : aucune preuve d'exécution.
-- **En cours** : code ou expérience partiellement exécutée, avec résultat intermédiaire.
-- **Bloqué** : obstacle et action requise documentés.
-- **Terminé** : livrable et validation vérifiables, avec lien vers commit/rapport.
-
-### État actuel (7 novembre 2026)
-
-| Phase | Statut | Preuve / observation |
-|---|---|---|
-| P0 — Audit | **En cours (accès partiel vérifié)** | [Audit détaillé](audit-p0.md) ; XMIDI 449,63 Mo avec plages HTTP fonctionnelles, 3 MD5 GigaMIDI conformes, projection Parquet d'une colonne réussie. Plan de lecture exhaustive à chiffrer. |
-| P1 — Identification / instrumentation | **En cours (preuves positives)** | [Jointure exacte](p1-exact-join.md) : 1 fichier XMIDI/GigaMIDI prouvé identique ; [audit instrumental](p1-instrument-audit.md) : 199/200 MIDI analysés, 64 % des 100 aléatoires avec guitare + basse + batterie actives. Identification d'artistes et qualité de l'alignement avec l'audio encore inconnues. |
-| P2 — Catalogue | **Planifié (qualité d'abord)** | Critères de qualification du corpus définis ; sélection et catalogue non exécutés |
-| P3 — Grammaire | À faire | Aucun résultat expérimental |
-| P4 — Audio et paroles | **Planifié (non exécuté)** | [Protocole de validation batterie](p1-drum-audio-validation-plan.md), sans traitement audio ni métrique de fidélité mesurée |
-| P5 — Multimodal | À faire | Aucun résultat expérimental |
-
-Lorsqu'une phase progresse, mettre à jour sa **mesure de couverture**, ses **critères de sortie** et son **état**.
-
-**Mesures cumulées du 7 novembre 2026 :** 30 tests unitaires ; ZIP XMIDI de 449 632 771 octets ; première correspondance MD5 exacte XMIDI ↔ GigaMIDI après 5 200 empreintes d'un shard de validation, sans titre/artiste confirmé ; audit instrumental de 200 MIDI sélectionnés (199 analysés) avec **64/100 fichiers aléatoires** réunissant guitare, basse et batterie actives. Sur les 108 016 fichiers XMIDI admissibles, 26 708 sont étiquetés rock, 25 582 pop. L'audit instrumental a transféré 13 752 533 octets au moyen de 205 requêtes Range (198,8 s) ; **aucun enregistrement audio ni aucune parole ne sont téléchargés ou conservés**. Ce sont des mesures d'échantillons, pas un taux de couverture ou de fidélité au corpus complet. [Rapport de jointure](p1-exact-join.md) · [Rapport instrumental](p1-instrument-audit.md).
+| [XMIDI / XMusic](https://github.com/xmusic-project/XMIDI_Dataset) | 108 023 MIDI, 11 classes émotionnelles humaines et genre | Étiquette du **morceau**, titre/artiste non fournis dans les noms |
+| [EMOPIA](https://annahung31.github.io/EMOPIA/) | 1 087 extraits de piano, MIDI et audio, quadrants émotionnels annotés | Piano pop, classes par **extrait**, pas secondes individuelles |
+| [DEAM](https://cvml.unige.ch/databases/DEAM/) | 1 802 extraits/chansons, valence/activation dans le temps | Principalement audio, appariement MIDI à créer prudemment si nécessaire |
+| [PMEmo](https://github.com/HuiZhangDB/PMEmo) | 794 chansons, annotations et activité électrodermale | Audio ; physiologie et émotion déclarée distinctes |
+| MIDI Bach/Chopin autorisés | Analyses de tonalité, motifs, cadences et forme, études de cas compréhensibles | Domaine public de la composition ≠ licence de chaque transcription MIDI |
+| [MetaMIDI](https://github.com/Metacreation-Lab/MetaMIDI-Dataset), [GigaMIDI](https://github.com/Metacreation-Lab/GigaMIDI-Dataset) | Identités et caractéristiques déjà calculées, pour phase d'enrichissement | Accès/licences, identité de l'arrangement et qualité non garantis |
+
+L'unité d'entraînement est le **morceau/œuvre** lorsque des versions peuvent
+fuir d'un jeu à l'autre. Conserver les annotations originales, leurs
+désaccords et les différences émotion perçue/ressentie. Enregistrer dates,
+versions et droits. Ne jamais utiliser des labels inférés comme vérité humaine.
+
+## 7. État des travaux antérieurs (préservés, mais non bloquants)
+
+La version 0.8 a accompli des audits utiles, qui demeurent vérifiables :
+
+- **XMIDI** : ZIP distant **449 632 771 octets** et 108 024 entrées ZIP ;
+  lecture ciblée HTTP Range possible. [Audit de sources](audit-p0.md).
+- **Jointure XMIDI↔GigaMIDI** : une première correspondance MD5 exacte
+  `quiet`/`traditional` parmi 100 XMIDI choisis et 5 200 MD5 lus dans **un seul
+  shard** ; pas de titre/artiste validé, aucun taux de couverture général.
+  [Rapport](p1-exact-join.md) ; [exécution](https://github.com/leye0/AnaMu/actions/runs/42336949364).
+- **Instrumentation** : 200 XMIDI sélectionnés, 199 lus. Dans l'échantillon
+  aléatoire de 100, 64 avaient au moins 16 notes de guitare, basse et
+  batterie chacune ; cela ne prouve pas la fidélité de l'arrangement à un
+  enregistrement. [Rapport](p1-instrument-audit.md).
+- **Audio/batterie** : [protocole Demucs/ADTOF/Omnizart](p1-drum-audio-validation-plan.md)
+  documenté, **non exécuté**, maintenant **archivé comme piste future**. Ne
+  pas le laisser dans la liste des tâches immédiates.
+- Les scripts de sondage et audits historiques restent en place ; ne pas
+  les supprimer, mais **ne pas lancer leurs workflows lourds par défaut**.
+
+Le projet n'a actuellement **aucune** preuve de prédiction émotionnelle
+locale validée. Ne pas confondre les audits d'instrumentation, une jointure
+MD5 et une validation psychologique.
+
+## 8. État du premier incrément S0/S1
+
+Le code expérimental introduit :
+
+- `anamu/midi_views.py` : pistes/canaux monophoniques *candidats*, avec
+  rejet explicite des recouvrements, sans supposer identifier la vraie mélodie.
+- `anamu/expectation.py` : baseline probabiliste à ordre variable lissé,
+  renvoyant `P(event|contexte)`, surprise en bits et entropie **avant**
+  l'événement. **Ce n'est pas IDyOM.**
+- `tests/test_symbolic_expectation.py` : tests locaux sur fixtures MIDI et
+  séquences contrôlées ; il reste à mesurer la validité perceptuelle.
+
+### Prochaines actions vérifiables
+
+- [x] Reprioriser théorie / MIDI direct / émotion humaine, repousser l'audio.
+- [x] Mettre sur papier les références, modules, entrées, sorties et tests.
+- [x] Créer le tout premier noyau S0/S1 et tests synthétiques.
+- [ ] Définir un petit jeu de continuations monophoniques externes avec
+  référence humaine (et sans fuite entre entraînement et test).
+- [ ] Exécuter et comparer **IDyOM réel** et la baseline explicable ; rapporter
+  les échecs, coûts, versions et hypothèses de style.
+- [ ] Définir la première vérité terrain d'accords et implémenter les vues
+  harmoniques S2 sans forcer de solution lorsqu'elles sont ambiguës.
+- [ ] Choisir 2–5 pièces attribuées de Bach/Chopin pour études de cas
+  musicales, sans inventer leurs émotions ni leurs versions MIDI.
+- [ ] Choisir ensuite le sous-corpus émotionnel selon les sorties S1–S4,
+  puis comparer sur EMOPIA et XMIDI avec précautions de granularité.
+- [ ] Faire la première étude contrefactuelle et ablation complète.
+
+## 9. Conditions de travail et budget
+
+Les études commencent sur **fixtures en mémoire, puis petits lots bornés**.
+Les workflows GitHub Actions restent des contrôles explicites : tests
+automatiques légers, opérations lourdes seulement sur déclenchement et avec
+plafonds de temps/volume. Aucun téléchargement de corpus massif ni de modèles
+sans nécessité expérimentale. Garder dans Git les scripts, configurations,
+résultats compacts et manifestes permis, pas les chansons protégées.
+
+Une phase est **terminée** seulement quand code, données de test, validation
+et limites sont reproductibles. L'état documenté ne doit pas masquer une
+absence d'évaluation humaine.
