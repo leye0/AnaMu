@@ -192,7 +192,9 @@ Le code expérimental introduit :
   secondes, même avec changement de tempo.
 - `anamu/jsymbolic_ace.py` : réception des vrais vecteurs ACE XML 1.1
   jSymbolic, sections temporelles, dimensions, empreinte du fichier. Le
-  parseur est testé sans présenter une fixture comme résultat Java réel.
+  parseur accepte exclusivement la DTD interne **officielle** après contrôle
+  et la retire sans en interpréter les entités ; les DTD étrangères sont
+  refusées. Il est testé sans présenter une fixture comme résultat Java réel.
 - `anamu/idyom_guardrails.py` : séparation stricte des répertoires,
   empreintes SHA-256 pour éviter les doublons exacts, blocage des MIDI EMOPIA
   en préentraînement, budget de fichiers et manifestes vérifiables.

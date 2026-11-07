@@ -128,12 +128,14 @@ class ExistingPublishedAlgorithmsTests(unittest.TestCase):
             jar.write_bytes(b"fake; dry run only")
             midi.write_bytes(b"fake; dry run only")
             command = build_jsymbolic_command(
-                jar, midi, root / "results.xml", root / "defs.xml", 5, 0.5)
+                jar, midi, root / "results.xml", 5, 0.5)
             self.assertEqual(command[0], "java")
             self.assertEqual(command[4:6], ["-csv", "-window"])
+            self.assertEqual(len(command), 10)
+            self.assertEqual(command[7], str((root / "results.xml").resolve()))
             self.assertEqual(command[-2:], ["5", "0.5"])
             with self.assertRaises(ValueError):
-                build_jsymbolic_command(jar, midi, root / "a", root / "b", 5, 1.0)
+                build_jsymbolic_command(jar, midi, root / "a", 5, 1.0)
 
     def test_idyom_external_output_columns_are_explicit(self):
         with tempfile.TemporaryDirectory() as name:

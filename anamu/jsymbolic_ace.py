@@ -14,6 +14,42 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 
+# Published ACE XML 1.1 feature-values files from the upstream DDMAL/jSymbolic2
+# repository include this exact *internal schema declaration*. We remove it
+# after an exact normalized-content whitelist check, so the XML parser never
+# processes a DTD or an entity definition. Arbitrary DOCTYPE remains forbidden.
+_OFFICIAL_ACE_VALUES_DTD = b"""<!DOCTYPE feature_vector_file [
+   <!ELEMENT feature_vector_file (comments, data_set+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT data_set (data_set_id, section*, feature*)>
+   <!ELEMENT data_set_id (#PCDATA)>
+   <!ELEMENT section (feature+)>
+   <!ATTLIST section start CDATA ""
+                     stop CDATA "">
+   <!ELEMENT feature (name, v+)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT v (#PCDATA)>
+]>"""
+
+
+def _without_known_ace_dtd(raw: bytes) -> bytes:
+    upper = raw.upper()
+    if b"<!ENTITY" in upper:
+        raise ValueError("ace_external_or_inline_entity_not_allowed")
+    start = upper.find(b"<!DOCTYPE")
+    if start < 0:
+        return raw
+    if upper.count(b"<!DOCTYPE") != 1:
+        raise ValueError("ace_multiple_doctypes_not_allowed")
+    end = raw.find(b"]>", start)
+    if end < 0 or end - start > 4096:
+        raise ValueError("ace_unknown_or_oversized_doctype")
+    declaration = raw[start:end + 2]
+    if b" ".join(declaration.split()) != b" ".join(_OFFICIAL_ACE_VALUES_DTD.split()):
+        raise ValueError("ace_unrecognized_doctype_not_allowed")
+    return raw[:start] + raw[end + 2:]
+
+
 def _feature_values(parent: ET.Element) -> dict[str, list[float]]:
     result: dict[str, list[float]] = {}
     for element in parent.findall("feature"):
@@ -48,10 +84,8 @@ def read_jsymbolic_ace(path: str | Path, *, max_bytes: int = 25_000_000) -> dict
     if source.stat().st_size > max_bytes:
         raise ValueError("ace_file_over_size_limit")
     raw = source.read_bytes()
-    if b"<!DOCTYPE" in raw.upper() or b"<!ENTITY" in raw.upper():
-        raise ValueError("ace_external_or_inline_dtd_not_allowed")
     try:
-        root = ET.fromstring(raw)
+        root = ET.fromstring(_without_known_ace_dtd(raw))
     except ET.ParseError as exc:
         raise ValueError("invalid_ace_xml") from exc
     if root.tag != "feature_vector_file":

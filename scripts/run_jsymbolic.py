@@ -8,6 +8,8 @@ No imitation of its 246 features; the original tool is run unmodified.
 
 Creates ACE XML and CSV outputs when explicitly executed. The documented
 jSymbolic -csv -window CLI is used with fixed arrays, never shell commands.
+Its feature-definition XML path is generated automatically by jSymbolic
+from the sole feature-values XML path (suffix ``_FeatDefs.xml``).
 """
 
 from __future__ import annotations
@@ -21,7 +23,7 @@ from pathlib import Path
 from anamu.jsymbolic_ace import read_jsymbolic_ace
 
 
-def build_jsymbolic_command(jar: Path, midi: Path, values: Path, definitions: Path,
+def build_jsymbolic_command(jar: Path, midi: Path, values: Path,
                             window_seconds: float, overlap: float,
                             heap_gb: int = 2) -> list[str]:
     if window_seconds <= 0 or not (0 <= overlap < 1):
@@ -35,7 +37,7 @@ def build_jsymbolic_command(jar: Path, midi: Path, values: Path, definitions: Pa
         raise ValueError("unsupported_symbolic_format")
     return ["java", f"-Xmx{heap_gb}g", "-jar", str(jar.resolve()),
             "-csv", "-window", str(midi.resolve()),
-            str(values.resolve()), str(definitions.resolve()),
+            str(values.resolve()),
             str(window_seconds), str(overlap)]
 
 
@@ -54,8 +56,8 @@ def main() -> None:
     args = parser.parse_args()
     output = args.out.resolve()
     values = output / "features.xml"
-    definitions = output / "feature_definitions.xml"
-    command = build_jsymbolic_command(args.jar, args.midi_path, values, definitions,
+    definitions = output / "features_FeatDefs.xml"
+    command = build_jsymbolic_command(args.jar, args.midi_path, values,
                                        args.window_seconds, args.overlap, args.heap_gb)
     if not args.execute:
         print(json.dumps({"status": "dry_run", "command": command,
@@ -69,12 +71,21 @@ def main() -> None:
     # jSymbolic resolves paths relative to the jar directory. All paths above
     # are absolute, so this cwd is only for finding upstream lib/ dependencies.
     completed = subprocess.run(command, cwd=args.jar.resolve().parent,
-                               capture_output=True, text=True, check=True,
+                               capture_output=True, text=True,
                                timeout=args.max_minutes * 60)
+    if completed.returncode:
+        raise RuntimeError("jSymbolic_original_java_failed: "
+                           f"exit={completed.returncode}; "
+                           f"stdout_tail={completed.stdout[-3000:]!r}; "
+                           f"stderr_tail={completed.stderr[-3000:]!r}")
     if not values.is_file():
-        raise RuntimeError(f"jSymbolic returned but did not write {values}")
+        raise RuntimeError("jSymbolic_returned_without_ace_values: "
+                           f"{values}; stdout_tail={completed.stdout[-3000:]!r}; "
+                           f"stderr_tail={completed.stderr[-3000:]!r}")
     if not definitions.is_file() or not values.with_suffix(".csv").is_file():
-        raise RuntimeError("jSymbolic_missing_requested_feature_outputs")
+        raise RuntimeError("jSymbolic_missing_requested_feature_outputs: "
+                           f"stdout_tail={completed.stdout[-3000:]!r}; "
+                           f"stderr_tail={completed.stderr[-3000:]!r}")
     imported = read_jsymbolic_ace(values)
     if imported["data_set_count"] != 1 or imported["window_count"] < 1:
         raise RuntimeError("jSymbolic_did_not_return_windowed_features_for_one_midi")

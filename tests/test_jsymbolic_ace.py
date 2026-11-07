@@ -67,6 +67,37 @@ class JsymbolicAceTests(unittest.TestCase):
             with self.subTest(content=content), self.assertRaises(ValueError):
                 self.parse(content)
 
+    def test_official_ace_11_internal_dtd_is_read_without_entity_expansion(self):
+        # This declaration is taken from the upstream source file
+        # DDMAL/jSymbolic2/manual/api_files/ExtractedFeatureValues.xml.
+        dtd = '''<?xml version="1.0"?>
+<!DOCTYPE feature_vector_file [
+   <!ELEMENT feature_vector_file (comments, data_set+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT data_set (data_set_id, section*, feature*)>
+   <!ELEMENT data_set_id (#PCDATA)>
+   <!ELEMENT section (feature+)>
+   <!ATTLIST section start CDATA ""
+                     stop CDATA "">
+   <!ELEMENT feature (name, v+)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT v (#PCDATA)>
+]>
+<feature_vector_file><comments></comments><data_set>
+  <data_set_id>x.mid</data_set_id>
+  <section start="0" stop="2"><feature><name>Mean Pitch</name><v>6E1</v>
+  </feature></section>
+</data_set></feature_vector_file>'''
+        parsed = self.parse(dtd)
+        self.assertEqual(parsed["window_count"], 1)
+        self.assertEqual(parsed["data_sets"][0]["windows"][0]["features"]["Mean Pitch"],
+                         [60.0])
+
+    def test_reject_different_dtd_even_without_entities(self):
+        with self.assertRaisesRegex(ValueError, "unrecognized_doctype"):
+            self.parse('''<!DOCTYPE feature_vector_file [<!ELEMENT feature_vector_file ANY>]>
+<feature_vector_file><data_set><data_set_id>x</data_set_id></data_set></feature_vector_file>''')
+
     def test_reject_oversized_file(self):
         with tempfile.TemporaryDirectory() as folder:
             path = Path(folder) / "x.xml"

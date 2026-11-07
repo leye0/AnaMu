@@ -54,8 +54,13 @@ def run_smoke(distribution: Path, output: Path) -> dict:
          "--window-seconds", "3", "--overlap", "0.5",
          "--heap-gb", "2", "--max-minutes", "3", "--execute",
          "--json-out", str(values)],
-        check=True, text=True, capture_output=True, timeout=200,
+        text=True, capture_output=True, timeout=200,
     )
+    if completed.returncode:
+        raise RuntimeError("original_java_adapter_failure: "
+                           f"exit={completed.returncode}; "
+                           f"stdout_tail={completed.stdout[-4000:]!r}; "
+                           f"stderr_tail={completed.stderr[-4000:]!r}")
     parsed = read_jsymbolic_ace(output_dir / "features.xml")
     if parsed["data_set_count"] != 1 or parsed["window_count"] < 2:
         raise RuntimeError("original_jsymbolic_smoke_missing_multiple_windows")
