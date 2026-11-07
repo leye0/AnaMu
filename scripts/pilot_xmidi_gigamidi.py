@@ -95,6 +95,9 @@ class RangeFile:
     def tell(self) -> int:
         return self.pos
 
+    def seekable(self) -> bool:
+        return True
+
     def read(self, size: int = -1) -> bytes:
         if size < 0:
             size = self.total_size - self.pos
