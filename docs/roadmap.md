@@ -1,6 +1,6 @@
 # AnaMu — Feuille de route scientifique et technique
 
-**Version : 1.0 — 7 novembre 2026.**  
+**Version : 1.1 — 7 novembre 2026.**  
 **Décision :** théorie musicale algorithmisée → mécanismes temporels → étude
 des émotions humaines → corpus construit selon les besoins prouvés → analyses
 de compositions connues → génération expérimentale. **Audio/Demucs reportés.**
@@ -9,6 +9,12 @@ Le programme scientifique détaillé, les références primaires et les
 critères de chaque algorithme se trouvent dans
 **[theory-to-algorithms.md](theory-to-algorithms.md)**. Ce document constitue
 la référence d'implémentation pour les prochaines étapes.
+
+**Nouvelle règle :** chercher et intégrer systématiquement les **outils
+académiques existants**, maximiser la diversité des mécanismes non redondants
+et mesurer chacun séparément. Voir [l'inventaire de 23 mécanismes et le banc
+EMOPIA](emotion-engine.md). EMOPIA sert de **vérification hors entraînement**,
+pas de générateur de pseudo-règles émotionnelles.
 
 ## 1. Vision et objectifs
 
@@ -37,10 +43,10 @@ Une corrélation ne prouve pas un mécanisme causal. La **tension**, le
 |---|---|---|---|
 | **Maintenant** | **S0 — Laboratoire MIDI brut** | Lecteur conservateur, vues sans pertes, fixtures et contrats de données. Aucune extraction audio. | **Premier incrément en cours** |
 | **Maintenant** | **S1 — Attentes mélodiques** | Baseline probabiliste puis comparaison IDyOM + Narmour/Schellenberg, vraies mesures de prédiction hors entraînement. | **Baseline initiée, validation académique à faire** |
-| **Prochain** | **S2 — Harmonie et enchaînements** | Hypothèses d'accords, progression, fonction, tonalité locale, cadences, Tonal Pitch Space, Spiral Array ; tests sur vérité musicale annotée. | À faire |
+| **Prochain** | **S2 — Harmonie et enchaînements** | Hypothèses d'accords, progression, fonction, tonalité locale, cadences, Tonal Pitch Space, Spiral Array ; tests sur vérité musicale annotée. | **music21 + Partitura actifs sur fixtures ; vérité musicale externe à venir** |
 | **Prochain** | **S3 — Motifs, formes, tension** | Répétitions/transformations, structure hiérarchique, mémoire et modèles temporels Lerdahl/Farbood. | À faire |
 | **Après** | **S4 — Fusion des mécanismes** | Entropie avant l'événement, surprise à l'événement, tension/résolution et interactions, ablations. | À faire |
-| **Après** | **S5 — Émotions humaines** | Relations calibrées aux labels et courbes **humaines** avec baselines, séparations d'œuvres et contrôles négatifs. | À faire |
+| **Après** | **S5 — Émotions humaines** | Relations calibrées aux labels et courbes **humaines** avec baselines, séparations d'œuvres et contrôles négatifs. | **Protocole EMOPIA et évaluateur construits ; pas de classificateur entraîné ni de score humain** |
 | **Après preuve de besoin** | **S6 — Corpus ciblé** | Sélection par requirements de S0–S5, peu de MIDI fiables, couverture/erreurs/biais documentés. | Études de sources déjà réalisées ; sélection à redéfinir |
 | **Recherche appliquée** | **S7 — Bach, Chopin, puis pop** | Analyses explicables de pièces identifiées, confrontées à la théorie et aux évaluations humaines quand elles existent. | À faire |
 | **Long terme** | **S8 — Génération symbolique** | Génération + révision sous contraintes, rendus MIDI multipistes, évaluation humaine et musicale. | À faire |
@@ -190,6 +196,29 @@ Le code expérimental introduit :
 - [x] Reprioriser théorie / MIDI direct / émotion humaine, repousser l'audio.
 - [x] Mettre sur papier les références, modules, entrées, sorties et tests.
 - [x] Créer le tout premier noyau S0/S1 et tests synthétiques.
+- [x] Exécuter la **véritable** méthode *Tension Ribbons* via Partitura sur
+  un MIDI piano polyphonique fictif ; mesurer la courbe tonale sans attribuer
+  d'émotion par décret.
+- [x] Exécuter Krumhansl–Schmuckler et des hypothèses de degrés romains via
+  music21 ; noter les incertitudes de l'analyse harmonique.
+- [x] Préparer un manifeste EMOPIA vérifiable : **100 % hors entraînement**
+  pour le test externe principal, ou splits par YouTube ID pour diagnostic
+  interne ; une baseline train-only et des métriques test-only ; **aucun score
+  émotionnel réel n'est encore revendiqué**.
+- [x] Fournir un adaptateur de sorties et un lanceur optionnel pour **IDyOM
+  original** avec py2lispIDyOM, sans prétendre l'avoir exécuté.
+- [x] Fournir un lanceur des 246 caractéristiques **jSymbolic original**
+  (sorties en fenêtres temporelles), sans prétendre l'avoir exécuté.
+- [ ] Faire réellement tourner l'IDyOM upstream (SBCL, Quicklisp, SQLite),
+  sur un apprentissage séparé du jeu de test, et analyser les résultats.
+- [ ] **Exécuter jSymbolic réel**, puis inventorier et dédoublonner ses
+  features temporelles (rythme, expression, densité, texture, instrumentation).
+- [ ] Aligner les mécanismes dans le temps et réaliser une première fusion
+  explicable, avec indicateur d'incertitude et tests d'ablation.
+- [ ] Apprendre un estimateur d'émotions sur un **autre corpus** pour le test
+  EMOPIA externe (ou sur EMOPIA train pour le protocole secondaire clairement
+  identifié) ; sélectionner les paramètres en validation, mesurer les scores
+  externes une seule fois sur une version figée.
 - [ ] Définir un petit jeu de continuations monophoniques externes avec
   référence humaine (et sans fuite entre entraînement et test).
 - [ ] Exécuter et comparer **IDyOM réel** et la baseline explicable ; rapporter

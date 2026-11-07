@@ -13,6 +13,9 @@ de chaque mécanisme. Les rapprochements MIDI↔audio et **Demucs sont reportés
 - **[Feuille de route v1.0](docs/roadmap.md)** — priorités, jalons et état réel.
 - **[Théorie → algorithmes](docs/theory-to-algorithms.md)** — références
   académiques, entrées/sorties, modèles, expériences et critères de preuve.
+- **[Moteur émotionnel et couverture des algorithmes](docs/emotion-engine.md)** —
+  23 mécanismes distincts étudiés, logiciels de recherche disponibles,
+  intégration, expérience EMOPIA sans fuite et critères de validité.
 - **[Audits historiques](docs/audit-p0.md)** ·
   [jointure exacte](docs/p1-exact-join.md) ·
   [audit instrumental XMIDI](docs/p1-instrument-audit.md) ·
@@ -40,6 +43,17 @@ La base `anamu/` comporte :
   ni un détecteur d'émotions déjà validé.**
 - `tests/test_symbolic_expectation.py` : fixtures contrôlées, invariants et
   rejets des parties MIDI ambiguës.
+- `theory_features.py` : adaptateurs pour les **vrais outils** Partitura
+  (tension tonale Herremans/Chew), music21 (tonalité Krumhansl-Schmuckler,
+  sonorités et degrés romains hypothétiques), lecture d'export IDyOM **original**.
+- `emopia.py` : inventaire du corpus EMOPIA directement à partir de ses noms
+  de fichiers, hash, rejets, séparation reproductible de **chansons**.
+- `emotion_evaluation.py` : baselines sur entraînement seulement et score sur
+  test réservé, macro-F1 quatre classes, couverture, abstentions, confusion.
+- `scripts/run_original_idyom.py` : configuration/lancement *optionnel* de
+  l'outil IDyOM via py2lispIDyOM et SBCL. Aucun résultat IDyOM publié pour le moment.
+- `scripts/extract_tonal_tension.py`, `scripts/extract_harmony.py`,
+  `scripts/emopia_benchmark.py` : exécutions locales et reproductibles.
 
 Exécuter localement les tests légers :
 
@@ -48,8 +62,18 @@ python -m pip install 'mido>=1.3,<2'
 python -m unittest tests.test_symbolic_expectation -v
 ```
 
-Le workflow GitHub Actions `symbolic-theory-tests.yml` exécute les mêmes tests
-sans télécharger de corpus ni traiter d'audio.
+Pour tester les **moteurs publiés** et préparer l'évaluation EMOPIA :
+
+```bash
+python -m pip install 'partitura>=1.8,<2' 'music21>=9,<12'
+python -m unittest discover -s tests -p 'test_emotion_research.py' -v
+python -m scripts.extract_tonal_tension /chemin/piano.mid
+python -m scripts.extract_harmony /chemin/piano.mid
+python -m scripts.emopia_benchmark /chemin/EMOPIA_2.2 --manifest-out emopia-split.jsonl
+```
+
+Le workflow GitHub Actions `symbolic-theory-tests.yml` exécute ces tests sur
+des MIDI synthétiques, **sans télécharger de corpus ni traiter d'audio**.
 
 ## Corpus et qualité
 
@@ -80,6 +104,8 @@ sans télécharger de corpus ni traiter d'audio.
 - Ancien protocole Demucs/ADTOF/Omnizart écrit, **jamais exécuté** ; ses
   scripts et rapports restent consultables à titre historique.
 
-Le projet n'a pas encore démontré de capacité de prédiction d'émotions à
-partir d'une séquence musicale. Les prochaines étapes visent précisément à
-construire, comparer et valider ces mécanismes.
+**Important :** la tension musicale et les accords sont maintenant extraits
+par des bibliothèques existantes sur des fichiers de test. **Aucun score de
+prédiction émotionnelle sur les annotations humaines d'EMOPIA n'a encore été
+mesuré.** L'entraînement émotionnel, la fusion temporelle des mécanismes, les
+ablations et la validation humaine indépendante restent à construire.
