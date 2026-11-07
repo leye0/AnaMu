@@ -76,9 +76,13 @@ La [sonde d'empreintes](https://github.com/leye0/AnaMu/actions/runs/42335271305)
 - [Projection Parquet `md5` uniquement](https://github.com/leye0/AnaMu/actions/runs/42336189129) : succès avec `pyarrow` et un accès `hf://` par plages HTTP. Le premier shard de validation contient **106 810 lignes**, réparties en **1 069 groupes** de 100 ; la colonne `md5` du premier groupe occupe **3 589 octets compressés**. **100 empreintes valides** lues, **5 473 205 octets de lectures logiques** au total (métadonnées Parquet incluses), sous un plafond de 24 Mo. Aucune colonne `music` demandée.
 - Les octets de *lecture logique* ne sont pas un compteur réseau exact : le cache de lecture du système de fichiers peut ajouter des transferts. Lire tous les groupes de tous les shards exigera une estimation de débit, de requêtes, de trafic et de coût avant exécution.
 
+### Vérification du champ `file_path` du CSV original
+
+La [sonde de l'en-tête et de 86 chemins](https://github.com/leye0/AnaMu/actions/runs/42336503063) a confirmé que le fichier CSV original fait **1 246 867 116 octets** et expose `file_path`, contrairement au Parquet qui expose `music`. Toutefois, **86 chemins sur 86 avaient un nom de base MD5**, correspondant au champ `md5` ; aucun ne portait un nom `XMIDI_...` ni de dossier source explicitement XMIDI. Seulement **65 536 octets** ont été lus. Il s'agit d'un échantillon, pas d'une preuve que toute trace de provenance est absente ; ce raccourci n'est pour l'instant pas démontré.
+
 ### Nouvelle priorité de P1
 
-1. Évaluer si une table de provenance publiée associe déjà le `md5` de GigaMIDI à l'original XMIDI ; c'est la voie prioritaire.
+1. Chercher une table de correspondance **externe** (provenance/source) si elle a été publiée ; le champ `file_path` du CSV testé ne contient pas les noms XMIDI originaux dans les 86 lignes inspectées.
 2. À défaut, **mesurer sur quelques groupes** le coût réel de collecte de la seule colonne `md5` (pas les MIDI) et estimer le coût à l'échelle des ≈2,1 millions de lignes.
 3. Construire un petit index de MD5 GigaMIDI, comparer aux empreintes de quelques fichiers XMIDI extraits par plages, et publier **des exemples exacts** ou un échec documenté. Les annotations XMIDI restent des observations humaines séparées, associées seulement après preuve de jointure.
 
