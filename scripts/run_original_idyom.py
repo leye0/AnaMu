@@ -14,6 +14,7 @@ import argparse
 import hashlib
 import json
 import shutil
+from importlib.metadata import version
 from pathlib import Path
 
 from anamu.idyom_guardrails import audit_idyom_partitions
@@ -66,6 +67,9 @@ def main() -> None:
         return
     if shutil.which("sbcl") is None:
         parser.error("SBCL binary not found; install original IDyOM requirements first")
+    history = args.history.resolve()
+    if history.exists() and any(history.rglob("*.dat")):
+        parser.error("existing_idyom_dat_outputs_would_mask_new_run; use a fresh history directory")
     try:
         from py2lispIDyOM.run import IDyOMExperiment
     except ImportError:
@@ -73,7 +77,7 @@ def main() -> None:
     experiment = IDyOMExperiment(
         test_dataset_path=str(test),
         pretrain_dataset_path=str(train),
-        experiment_history_folder_path=str(args.history.resolve()),
+        experiment_history_folder_path=str(history),
     )
     experiment.set_parameters(
         target_viewpoints=configuration["target_viewpoints"],
@@ -83,6 +87,14 @@ def main() -> None:
     # This executes the upstream Lisp engine. Runtime/errors belong to its
     # environment; do not claim a valid result merely from process launch.
     experiment.run()
+    generated = sorted(path for path in history.rglob("*.dat") if path.stat().st_size)
+    if not generated:
+        raise RuntimeError("original_idyom_completed_without_nonempty_dat_output")
+    print(json.dumps({"status": "original_sbcl_idyom_executed",
+                      "wrapper_version": version("py2lispIDyOM"),
+                      "partition_audit": configuration["partition_audit"],
+                      "output_dat_files": [str(path) for path in generated]},
+                     indent=2, ensure_ascii=False))
 
 
 if __name__ == "__main__":

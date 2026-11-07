@@ -60,7 +60,15 @@ La base `anamu/` comporte :
 - `emotion_evaluation.py` : baselines sur entraînement seulement et score sur
   test réservé, macro-F1 quatre classes, couverture, abstentions, confusion.
 - `scripts/run_original_idyom.py` : configuration/lancement *optionnel* de
-  l'outil IDyOM via py2lispIDyOM et SBCL. Aucun résultat IDyOM publié pour le moment.
+  l'outil IDyOM via py2lispIDyOM et SBCL. Le module
+  `idyom_guardrails.py` vérifie les empreintes de toutes les pistes de
+  préentraînement/test, refuse les doublons exacts et bloque EMOPIA dans le
+  préentraînement. Aucun résultat IDyOM publié pour le moment.
+- `jsymbolic_ace.py` : parseur du **format ACE XML original 1.1** de
+  jSymbolic, avec fonctions multi-valeurs et fenêtres temporelles natives.
+  L'analyse Java 2.2 a un smoke test **facultatif dans le workflow habituel**,
+  sur un MIDI polyphonique synthétique et avec archive officielle vérifiée
+  par SHA-256 ; aucune extraction audio.
 - `scripts/extract_tonal_tension.py`, `scripts/extract_harmony.py`,
   `scripts/emopia_benchmark.py` : exécutions locales et reproductibles.
 
@@ -95,6 +103,10 @@ JSON garde ses valeurs inconnues et la provenance de chaque piste.
 
 Le workflow GitHub Actions `symbolic-theory-tests.yml` exécute ces tests sur
 des MIDI synthétiques, **sans télécharger de corpus ni traiter d'audio**.
+La vérification Java originale peut être activée manuellement avec le
+paramètre `jsymbolic_smoke` ; elle télécharge **seulement l'outil publié**,
+dans une exécution séparée et plafonnée. Cette vérification plus coûteuse
+n'est pas lancée à chaque modification de code.
 
 ## Corpus et qualité
 

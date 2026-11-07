@@ -190,6 +190,12 @@ Le code expérimental introduit :
   l'événement. **Ce n'est pas IDyOM.**
 - `anamu/tempo_map.py` : conversion exacte des événements MIDI vers les
   secondes, même avec changement de tempo.
+- `anamu/jsymbolic_ace.py` : réception des vrais vecteurs ACE XML 1.1
+  jSymbolic, sections temporelles, dimensions, empreinte du fichier. Le
+  parseur est testé sans présenter une fixture comme résultat Java réel.
+- `anamu/idyom_guardrails.py` : séparation stricte des répertoires,
+  empreintes SHA-256 pour éviter les doublons exacts, blocage des MIDI EMOPIA
+  en préentraînement, budget de fichiers et manifestes vérifiables.
 - `anamu/melody_toolbox.py` : exécution de `melody-features==1.3.3` sur les
   pistes monophoniques admissibles. 278 colonnes sur la fixture de neuf notes,
   **12 familles descriptives**, et cinq mesures de Narmour à chaque triplet.
@@ -223,6 +229,15 @@ Le code expérimental introduit :
 - [x] Produire une chronologie datée de cinq scores Narmour sur triplets
   en réutilisant les fonctions publiées ; ce sont des réalisations observées,
   pas des probabilités d'attentes validées.
+- [x] Lire le format **ACE 1.1 jSymbolic original** en conservant les
+  dimensions et les fenêtres sans inventer de coordonnées temporelles ; tester
+  le refus des données corrompues.
+- [x] Ajouter des garde-fous anti-fuites dans le lanceur IDyOM original,
+  notamment les SHA-256 entre train et test et le refus d'EMOPIA dans le
+  préentraînement.
+- [x] Ajouter au **workflow existant** un test Java facultatif de la
+  distribution jSymbolic 2.2 officielle, avec contrôle SHA-256 public et
+  artefact de résultats, sans télécharger l'outil à chaque push.
 - [ ] Faire réellement tourner l'IDyOM upstream (SBCL, Quicklisp, SQLite),
   sur un apprentissage séparé du jeu de test, et analyser les résultats.
 - [ ] **Exécuter jSymbolic réel**, puis inventorier et dédoublonner ses
