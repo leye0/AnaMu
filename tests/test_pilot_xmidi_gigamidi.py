@@ -2,7 +2,7 @@ import io
 import unittest
 import zipfile
 
-from scripts.pilot_xmidi_gigamidi import labels_from_filename, select_entries
+from scripts.pilot_xmidi_gigamidi import RangeFile, labels_from_filename, select_entries
 
 
 class PilotTests(unittest.TestCase):
@@ -23,6 +23,19 @@ class PilotTests(unittest.TestCase):
             self.assertEqual(len(selected), 3)
             self.assertEqual([i.filename for i in selected],
                              [i.filename for i in select_entries(z.infolist())[1]])
+
+    def test_zipfile_can_read_via_seekable_rangefile(self):
+        inmem = io.BytesIO()
+        with zipfile.ZipFile(inmem, "w", compression=zipfile.ZIP_DEFLATED) as z:
+            z.writestr("XMIDI_Happy_Pop_12345678.midi", b"MThd" + b"0" * 200)
+        data = inmem.getvalue()
+        remote = RangeFile.__new__(RangeFile)
+        remote.pos = 0
+        remote.total_size = len(data)
+        remote._get_range = lambda first, last: data[first:last + 1]
+        with zipfile.ZipFile(remote) as z:
+            self.assertTrue(remote.seekable())
+            self.assertEqual(z.read("XMIDI_Happy_Pop_12345678.midi"), b"MThd" + b"0" * 200)
 
 
 if __name__ == "__main__":
