@@ -71,7 +71,9 @@ La base `anamu/` comporte :
   par morceau. Lecture testée sur le schéma d'un exemple des auteurs, mais
   **aucun moteur Lisp original n'a encore tourné dans notre infrastructure**.
 - `jsymbolic_ace.py` : parseur du **format ACE XML original 1.1** de
-  jSymbolic, avec fonctions multi-valeurs et fenêtres temporelles natives.
+  jSymbolic, avec fonctions multi-valeurs, fenêtres temporelles natives et
+  **dictionnaire original de définitions** (description/dimensions de chaque
+  caractéristique) pour documenter la non-redondance.
   L'analyse Java 2.2 a un smoke test **facultatif dans le workflow habituel**,
   sur un MIDI polyphonique synthétique et avec archive officielle vérifiée
   par SHA-256 ; aucune extraction audio.

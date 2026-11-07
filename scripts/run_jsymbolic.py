@@ -7,9 +7,9 @@ No imitation of its 246 features; the original tool is run unmodified.
         --out ./reports --window-seconds 5 --overlap 0.5 --execute
 
 Creates ACE XML and CSV outputs when explicitly executed. The documented
-jSymbolic -csv -window CLI is used with fixed arrays, never shell commands.
-Its feature-definition XML path is generated automatically by jSymbolic
-from the sole feature-values XML path (suffix ``_FeatDefs.xml``).
+jSymbolic **2.2** -csv -window CLI is used with fixed arrays, never shell
+commands. The 2.2 Java -help requires *two* XML output path arguments;
+the newer 2.3 GitHub manual shows only one, and cannot be applied to 2.2.
 """
 
 from __future__ import annotations
@@ -20,10 +20,10 @@ import shutil
 import subprocess
 from pathlib import Path
 
-from anamu.jsymbolic_ace import read_jsymbolic_ace
+from anamu.jsymbolic_ace import read_jsymbolic_ace, read_jsymbolic_definitions
 
 
-def build_jsymbolic_command(jar: Path, midi: Path, values: Path,
+def build_jsymbolic_command(jar: Path, midi: Path, values: Path, definitions: Path,
                             window_seconds: float, overlap: float,
                             heap_gb: int = 2) -> list[str]:
     if window_seconds <= 0 or not (0 <= overlap < 1):
@@ -37,7 +37,7 @@ def build_jsymbolic_command(jar: Path, midi: Path, values: Path,
         raise ValueError("unsupported_symbolic_format")
     return ["java", f"-Xmx{heap_gb}g", "-jar", str(jar.resolve()),
             "-csv", "-window", str(midi.resolve()),
-            str(values.resolve()),
+            str(values.resolve()), str(definitions.resolve()),
             str(window_seconds), str(overlap)]
 
 
@@ -56,8 +56,8 @@ def main() -> None:
     args = parser.parse_args()
     output = args.out.resolve()
     values = output / "features.xml"
-    definitions = output / "features_FeatDefs.xml"
-    command = build_jsymbolic_command(args.jar, args.midi_path, values,
+    definitions = output / "feature_definitions.xml"
+    command = build_jsymbolic_command(args.jar, args.midi_path, values, definitions,
                                        args.window_seconds, args.overlap, args.heap_gb)
     if not args.execute:
         print(json.dumps({"status": "dry_run", "command": command,
@@ -87,8 +87,12 @@ def main() -> None:
                            f"stdout_tail={completed.stdout[-3000:]!r}; "
                            f"stderr_tail={completed.stderr[-3000:]!r}")
     imported = read_jsymbolic_ace(values)
+    definition_metadata = read_jsymbolic_definitions(definitions)
     if imported["data_set_count"] != 1 or imported["window_count"] < 1:
         raise RuntimeError("jSymbolic_did_not_return_windowed_features_for_one_midi")
+    # Preserve the upstream feature descriptions, rather than attempting to
+    # infer mechanisms or units from numerical values alone.
+    imported["original_feature_definitions"] = definition_metadata
     if args.json_out:
         target = args.json_out.resolve()
         target.parent.mkdir(parents=True, exist_ok=True)
@@ -99,6 +103,7 @@ def main() -> None:
                       "values_xml": str(values), "definitions_xml": str(definitions),
                       "data_set_count": imported["data_set_count"],
                       "window_count": imported["window_count"],
+                      "definition_count": definition_metadata["feature_definition_count"],
                       "feature_values_sha256": imported["input_sha256"],
                       "parsed_json": str(args.json_out.resolve()) if args.json_out else None},
                      indent=2))

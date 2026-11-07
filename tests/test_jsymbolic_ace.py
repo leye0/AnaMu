@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from anamu.jsymbolic_ace import read_jsymbolic_ace
+from anamu.jsymbolic_ace import read_jsymbolic_ace, read_jsymbolic_definitions
 
 
 class JsymbolicAceTests(unittest.TestCase):
@@ -13,6 +13,12 @@ class JsymbolicAceTests(unittest.TestCase):
             path = Path(folder) / "feature_values.xml"
             path.write_text(content, encoding="utf-8")
             return read_jsymbolic_ace(path)
+
+    def definitions(self, content: str):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "feature_defs.xml"
+            path.write_text(content, encoding="utf-8")
+            return read_jsymbolic_definitions(path)
 
     def test_windowed_vectors_and_whole_piece_features_remain_distinct(self):
         parsed = self.parse("""<?xml version="1.0"?>
@@ -97,6 +103,42 @@ class JsymbolicAceTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "unrecognized_doctype"):
             self.parse('''<!DOCTYPE feature_vector_file [<!ELEMENT feature_vector_file ANY>]>
 <feature_vector_file><data_set><data_set_id>x</data_set_id></data_set></feature_vector_file>''')
+
+    def test_original_ace_feature_definitions_include_semantics_and_dimensions(self):
+        result = self.definitions('''<?xml version="1.0"?>
+<!DOCTYPE feature_key_file [
+   <!ELEMENT feature_key_file (comments, feature+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT feature (name, description?, is_sequential, parallel_dimensions)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT description (#PCDATA)>
+   <!ELEMENT is_sequential (#PCDATA)>
+   <!ELEMENT parallel_dimensions (#PCDATA)>
+]>
+<feature_key_file><comments></comments><feature>
+<name>Mean Pitch</name><description>Average MIDI pitch.</description>
+<is_sequential>true</is_sequential><parallel_dimensions>1</parallel_dimensions>
+</feature><feature><name>Pitch Class Histogram</name>
+<is_sequential>false</is_sequential><parallel_dimensions>12</parallel_dimensions>
+</feature></feature_key_file>''')
+        self.assertEqual(result["feature_definition_count"], 2)
+        self.assertTrue(result["definitions"]["Mean Pitch"]["is_sequential"])
+        self.assertEqual(result["definitions"]["Pitch Class Histogram"]["parallel_dimensions"], 12)
+        self.assertIsNone(result["definitions"]["Pitch Class Histogram"]["description_from_upstream"])
+
+    def test_reject_invalid_or_duplicate_feature_definitions(self):
+        head = '<feature_key_file><feature><name>F</name>'
+        tail = '</feature></feature_key_file>'
+        for body in ('<is_sequential>sometimes</is_sequential><parallel_dimensions>2</parallel_dimensions>',
+                     '<is_sequential>true</is_sequential><parallel_dimensions>NaN</parallel_dimensions>',
+                     '<is_sequential>true</is_sequential><parallel_dimensions>-4</parallel_dimensions>'):
+            with self.subTest(body=body), self.assertRaises(ValueError):
+                self.definitions(head + body + tail)
+        with self.assertRaisesRegex(ValueError, "ace_duplicate_definition"):
+            self.definitions('<feature_key_file>' + (
+                '<feature><name>F</name><is_sequential>true</is_sequential>'
+                '<parallel_dimensions>1</parallel_dimensions></feature>') * 2
+                + '</feature_key_file>')
 
     def test_reject_oversized_file(self):
         with tempfile.TemporaryDirectory() as folder:

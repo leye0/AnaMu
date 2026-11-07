@@ -15,7 +15,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-from anamu.jsymbolic_ace import read_jsymbolic_ace
+from anamu.jsymbolic_ace import read_jsymbolic_ace, read_jsymbolic_definitions
 
 
 def synthetic_polyphonic_midi(destination: Path) -> None:
@@ -74,6 +74,8 @@ def run_smoke(distribution: Path, output: Path) -> dict:
                "ace_sha256": parsed["input_sha256"],
                "window_count": parsed["window_count"],
                "observed_window_feature_names": len(features),
+               "upstream_feature_definitions": read_jsymbolic_definitions(
+                   output_dir / "feature_definitions.xml")["feature_definition_count"],
                "limitations": ["synthetic_music_only_no_human_emotion_validation",
                                "default_jsymbolic_features_not_all_available_features"]}
     (output / "smoke_summary.json").write_text(

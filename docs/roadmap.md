@@ -194,7 +194,11 @@ Le code expérimental introduit :
   jSymbolic, sections temporelles, dimensions, empreinte du fichier. Le
   parseur accepte exclusivement la DTD interne **officielle** après contrôle
   et la retire sans en interpréter les entités ; les DTD étrangères sont
-  refusées. Il est testé sans présenter une fixture comme résultat Java réel.
+  refusées. Le **dictionnaire original des features** `feature_key_file` peut
+  aussi être importé : noms, descriptions de l'auteur, caractère séquentiel,
+  dimensions attendues. Ces métadonnées aident à classer les mécanismes sans
+  confondre 1 497 valeurs avec 1 497 causes émotionnelles. Le lecteur est
+  testé sans présenter une fixture comme résultat Java réel.
 - `anamu/idyom_guardrails.py` : séparation stricte des répertoires,
   empreintes SHA-256 pour éviter les doublons exacts, blocage des MIDI EMOPIA
   en préentraînement, budget de fichiers et manifestes vérifiables.
