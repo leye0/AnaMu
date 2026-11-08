@@ -202,9 +202,9 @@ jobs:
           printf 'e1686a6bb1133cc21fb4678185d81e5e0a322b371ac713cbaf5fd9b69e2396cb  %s\n' "$RUNNER_TEMP/jsymbolic-2.2.zip" | sha256sum --check
           mkdir -p "$RUNNER_TEMP/jsymbolic-2.2"
           unzip -q "$RUNNER_TEMP/jsymbolic-2.2.zip" -d "$RUNNER_TEMP/jsymbolic-2.2"
-      - name: Analyser cinq œuvres connues avec reprise temporelle Java bornee
+      - name: Analyser cinq œuvres connues avec Java original ou extraits bornes
         run: |
-          python -m scripts.analyze_known_scores --expanded --jsymbolic-jar "$RUNNER_TEMP/jsymbolic-2.2/jSymbolic_2_2_user/jSymbolic2.jar" --jsymbolic-timeout 90 --jsymbolic-fallback-window 30 --jsymbolic-fallback-timeout 90 --out "$RUNNER_TEMP/anamu-classics"
+          python -m scripts.analyze_known_scores --expanded --jsymbolic-jar "$RUNNER_TEMP/jsymbolic-2.2/jSymbolic_2_2_user/jSymbolic2.jar" --jsymbolic-timeout 90 --jsymbolic-fallback-window 30 --jsymbolic-fallback-timeout 90 --jsymbolic-segment-threshold 48 --jsymbolic-segment-measures 16 --jsymbolic-segment-timeout 45 --out "$RUNNER_TEMP/anamu-classics"
           python -m scripts.plot_known_emotions "$RUNNER_TEMP/anamu-classics/known-classics-emotions.json" "$RUNNER_TEMP/anamu-classics/known-classics-emotions.svg"
           python -m scripts.report_known_emotions "$RUNNER_TEMP/anamu-classics/known-classics-emotions.json" "$RUNNER_TEMP/anamu-classics/known-classics-emotions.md"
           python -m scripts.trace_known_mechanisms "$RUNNER_TEMP/anamu-classics/known-classics-emotions.json" --out "$RUNNER_TEMP/anamu-classics/known-classics-mechanisms.json"

@@ -247,6 +247,12 @@ descripteurs explicites (Partitura, music21, Narmour, attentes entraînées,
 rythme, texture et répétition) sur les émotions inférées. Le MIDI source et
 le modèle doivent correspondre **par SHA-256** au rapport d'analyse. Ces
 juxtapositions montrent des mécanismes observés, **pas des causes prouvées**.
+Pour les partitions longues, `--jsymbolic-segment-threshold 48` déclenche
+l'exécution du **jSymbolic Java original** sur des extraits bornés de 16
+mesures. Ses seules fenêtres temporelles sont replacées sur le temps de la
+pièce complète ; les descripteurs globaux restent manquants (ils ne sont
+jamais recomposés artificiellement). Le rapport chiffre les segments réussis,
+les échecs et les éventuelles anomalies de couplage note-on/note-off du MIDI.
 
 ## Corpus et qualité
 

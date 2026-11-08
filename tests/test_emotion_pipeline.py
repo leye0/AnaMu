@@ -12,10 +12,37 @@ from anamu.emotion_pipeline import (export_ridge_artifact, load_ridge_artifact,
                                     predict_ridge_artifact, infer_measure_count,
                                     execute_original_jsymbolic)
 from anamu.expectation import VariableOrderExpectancy
+from anamu.jsymbolic_segments import split_midi_measures
 from scripts.vgmidi_temporal_benchmark import create_model, fit, predict
 
 
 class EmotionPipelineTests(unittest.TestCase):
+    def test_bounded_original_java_segments_preserve_crossing_notes_and_tempo(self):
+        import mido
+        with tempfile.TemporaryDirectory() as tmp:
+            origin = Path(tmp) / "source.mid"
+            midi = mido.MidiFile(ticks_per_beat=480)
+            track = mido.MidiTrack()
+            midi.tracks.append(track)
+            track.append(mido.MetaMessage("set_tempo", tempo=600000, time=0))
+            track.append(mido.Message("program_change", program=11, time=0))
+            track.append(mido.Message("note_on", note=67, velocity=81, time=3700))
+            track.append(mido.Message("note_off", note=67, velocity=0, time=400))
+            midi.save(origin)
+            segments = split_midi_measures(origin, Path(tmp) / "segments",
+                                           measure_count=4, max_measures=2)
+            self.assertEqual(len(segments), 2)
+            self.assertAlmostEqual(segments[1].start_seconds, 4.8)
+            for segment in segments:
+                messages = list(mido.MidiFile(segment.path).tracks[0])
+                self.assertTrue(any(m.type == "set_tempo" and m.tempo == 600000
+                                    for m in messages))
+                self.assertTrue(any(m.type == "program_change" and m.program == 11
+                                    for m in messages))
+                self.assertEqual(sum(m.type == "note_on" for m in messages), 1)
+                self.assertEqual(sum(m.type == "note_off" for m in messages), 1)
+            self.assertEqual(segments[0].source_unmatched_note_off_count, 0)
+
     def test_original_java_timeout_falls_back_to_real_longer_windows(self):
         with tempfile.TemporaryDirectory() as tmp:
             midi, jar = Path(tmp) / "known.mid", Path(tmp) / "jSymbolic2.jar"

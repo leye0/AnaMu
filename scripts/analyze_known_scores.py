@@ -14,6 +14,7 @@ import json
 from pathlib import Path
 
 from anamu.emotion_pipeline import (analyze_known_midi, execute_original_jsymbolic,
+                                    execute_segmented_jsymbolic, infer_measure_count,
                                     load_ridge_artifact)
 
 
@@ -43,6 +44,10 @@ def main() -> None:
     parser.add_argument("--jsymbolic-fallback-window", type=float, default=30.,
                         help="longer original Java windows after a timeout")
     parser.add_argument("--jsymbolic-fallback-timeout", type=int, default=120)
+    parser.add_argument("--jsymbolic-segment-threshold", type=int, default=48,
+                        help="use bounded original Java excerpts for scores longer than this many bars")
+    parser.add_argument("--jsymbolic-segment-measures", type=int, default=16)
+    parser.add_argument("--jsymbolic-segment-timeout", type=int, default=45)
     parser.add_argument("--expanded", action="store_true",
                         help="analyze five identified classical works instead of two")
     args = parser.parse_args()
@@ -77,10 +82,16 @@ def main() -> None:
         original_java_error = None
         if args.jsymbolic_jar:
             try:
-                record = execute_original_jsymbolic(
-                    midi, args.jsymbolic_jar, timeout_seconds=args.jsymbolic_timeout,
-                    fallback_window_seconds=args.jsymbolic_fallback_window,
-                    fallback_timeout_seconds=args.jsymbolic_fallback_timeout)
+                if infer_measure_count(midi) > args.jsymbolic_segment_threshold:
+                    record = execute_segmented_jsymbolic(
+                        midi, args.jsymbolic_jar,
+                        max_measures=args.jsymbolic_segment_measures,
+                        timeout_per_segment=args.jsymbolic_segment_timeout)
+                else:
+                    record = execute_original_jsymbolic(
+                        midi, args.jsymbolic_jar, timeout_seconds=args.jsymbolic_timeout,
+                        fallback_window_seconds=args.jsymbolic_fallback_window,
+                        fallback_timeout_seconds=args.jsymbolic_fallback_timeout)
             except Exception as exc:
                 # Keep the known composition, mark the original tool missing.
                 original_java_error = f"original_jsymbolic_unavailable:{type(exc).__name__}"

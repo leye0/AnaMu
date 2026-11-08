@@ -245,8 +245,14 @@ directement sans apprendre de nouveau sur les œuvres analysées.
 - La reprise contrôlée de jSymbolic à fenêtres de 30 secondes a été exécutée
   dans la run des cinq classiques. Elle n'a pas suffi pour Chopin et Beethoven :
   ces deux sorties Java demeurent **absentes puis imputées**. Le pipeline doit
-  maintenant travailler sur un découpage borné des longues partitions pour
-  élargir la couverture originale sans attribuer de faux résultats au moteur.
+  désormais utiliser un **découpage en extraits MIDI de 16 mesures** dès que
+  l'œuvre dépasse 48 mesures. Ce découpage conserve les canaux, les pistes,
+  le tempo et les notes traversant les frontières, puis rétablit les secondes
+  absolues dans les fenêtres Java. Les caractéristiques globales sont exclues,
+  les éventuels segments manquants ne sont pas interpolés, et les anomalies
+  d'appariement MIDI sont quantifiées. Le succès de cette **nouvelle passe
+  Java segmentée** doit être mesuré séparément : ne pas confondre son
+  implémentation avec une validation déjà obtenue.
 - Avec jSymbolic original, la réanalyse autonome des **136 mesures de Chrono
   Trigger** reproduit les sorties du banc académique avec une erreur numérique
   maximale inférieure à `3e-15` ; la chaîne entraînement → export → rechargement

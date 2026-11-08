@@ -23,6 +23,7 @@ from .academic_fusion import (add_jsymbolic_ace, add_melody_library,
                               add_multiscale_motion, add_theory_observations)
 from .expectation import VariableOrderExpectancy
 from .jsymbolic_ace import read_jsymbolic_ace
+from .jsymbolic_segments import split_midi_measures
 from .tempo_map import MidiTempoMap
 from .vgmidi_temporal import enrich_published_mechanisms, extract_midi_measures
 
@@ -81,6 +82,73 @@ def execute_original_jsymbolic(path: Path, jar: Path, *,
         record["anamu_extraction_window_seconds"] = actual_window
         record["anamu_window_fallback_used"] = actual_window != window_seconds
         return record
+
+
+def execute_segmented_jsymbolic(path: Path, jar: Path, *,
+                                max_measures: int = 16,
+                                timeout_per_segment: int = 45) -> dict:
+    """Run unchanged original jSymbolic on bounded, exact MIDI bar excerpts.
+
+    Section features retain original seconds coordinates. Whole-piece features
+    are intentionally NOT reconstructed from excerpts. Missing segments stay
+    missing, with an explicit coverage warning and per-segment provenance.
+    """
+    if timeout_per_segment <= 0 or max_measures < 2:
+        raise ValueError("invalid_segment_timeout")
+    path = Path(path)
+    total_measures = infer_measure_count(path)
+    if total_measures > 256 or (total_measures + max_measures - 1) // max_measures > 16:
+        raise ValueError("segmented_original_java_budget_exceeded")
+    sections = []
+    provenance = []
+    with tempfile.TemporaryDirectory(prefix="anamu-jsymbolic-segments-") as tmp:
+        excerpts = split_midi_measures(path, Path(tmp), measure_count=total_measures,
+                                       max_measures=max_measures)
+        for segment in excerpts:
+            result = {"first_measure": segment.first_measure,
+                      "last_measure": segment.stop_measure_exclusive - 1,
+                      "midi_sha256": segment.source_sha256}
+            try:
+                record = execute_original_jsymbolic(
+                    segment.path, jar, timeout_seconds=timeout_per_segment,
+                    fallback_window_seconds=None)
+                count = 0
+                for window in record["windows"]:
+                    left = window["start_seconds_if_j_symbolic_windowed"]
+                    right = window["stop_seconds_if_j_symbolic_windowed"]
+                    if left is None or right is None:
+                        continue
+                    start = max(segment.start_seconds, segment.start_seconds + left)
+                    stop = min(segment.stop_seconds, segment.start_seconds + right)
+                    if start >= stop:
+                        continue
+                    sections.append({**window,
+                                     "start_seconds_if_j_symbolic_windowed": start,
+                                     "stop_seconds_if_j_symbolic_windowed": stop})
+                    count += 1
+                result["status"] = "original_java_executed" if count else "no_timed_windows"
+                result["window_count"] = count
+            except (subprocess.TimeoutExpired, RuntimeError, ValueError, OSError) as exc:
+                result["status"] = f"unavailable:{type(exc).__name__}"
+                result["window_count"] = 0
+            provenance.append(result)
+    if not sections:
+        raise RuntimeError("original_jsymbolic_no_segment_windows")
+    return {
+        "source_id": str(path), "whole_piece_features": {},
+        "windows": sorted(sections, key=lambda w: w["start_seconds_if_j_symbolic_windowed"]),
+        "anamu_segmented_original_java": True,
+        "anamu_extraction_window_seconds": 10.,
+        "anamu_original_java_segment_provenance": provenance,
+        "anamu_original_java_segments_total": len(provenance),
+        "anamu_original_java_segments_ok": sum(
+            x["status"] == "original_java_executed" for x in provenance),
+        "anamu_whole_piece_jsymbolic_features": "unavailable:segmented_not_equivalent",
+        "anamu_midi_pairing_adjustments": {
+            "discarded_unmatched_note_offs": excerpts[0].source_unmatched_note_off_count,
+            "discarded_unclosed_note_ons": excerpts[0].source_unclosed_note_on_count,
+        },
+    }
 
 
 def infer_measure_count(path: str | Path) -> int:
@@ -262,6 +330,16 @@ def analyze_known_midi(path: str | Path, artifact: dict, *,
     if jsymbolic_record is not None and "anamu_extraction_window_seconds" in jsymbolic_record:
         engines["jsymbolic_original_window_seconds"] = jsymbolic_record[
             "anamu_extraction_window_seconds"]
+    if jsymbolic_record is not None and jsymbolic_record.get("anamu_segmented_original_java"):
+        engines["jsymbolic_original_segments_ok"] = jsymbolic_record[
+            "anamu_original_java_segments_ok"]
+        engines["jsymbolic_original_segments_total"] = jsymbolic_record[
+            "anamu_original_java_segments_total"]
+        engines["jsymbolic_original_whole_piece_features"] = "unavailable:segmented"
+        engines["jsymbolic_original_segment_provenance"] = jsymbolic_record[
+            "anamu_original_java_segment_provenance"]
+        engines["jsymbolic_segment_midi_pairing_adjustments"] = jsymbolic_record[
+            "anamu_midi_pairing_adjustments"]
     estimates = predict_ridge_artifact(artifact, rows)
     names = artifact["feature_names"]
     used = sum(any(row.get(name) is not None and
@@ -271,6 +349,18 @@ def analyze_known_midi(path: str | Path, artifact: dict, *,
     if jsymbolic_record is not None and jsymbolic_record.get("anamu_window_fallback_used"):
         warnings.append("original jSymbolic used longer windows after timeout; "
                         "temporal resolution differs from 10-second training windows")
+    if jsymbolic_record is not None and jsymbolic_record.get("anamu_segmented_original_java"):
+        warnings.append("original jSymbolic executed on bounded MIDI segments, "
+                        "with note clipping at artificial boundaries; global original "
+                        "features unavailable and imputed")
+        if any(jsymbolic_record["anamu_midi_pairing_adjustments"].values()):
+            warnings.append("source MIDI contained malformed unmatched note events; "
+                            "unpaired note events excluded from Java excerpts, quantified "
+                            "in engine_status")
+        if (jsymbolic_record["anamu_original_java_segments_ok"] !=
+                jsymbolic_record["anamu_original_java_segments_total"]):
+            warnings.append("original jSymbolic only covered some MIDI segments; "
+                            "uncovered windows imputed")
     if engines.get("jsymbolic") != "ok" and any(name.startswith("jsym_") for name in names):
         warnings.append("original jSymbolic unavailable: model imputes its features")
     if any(name.startswith("idyom_") for name in names):
