@@ -57,20 +57,20 @@ def main() -> None:
     analyses = []
     for title, work, filename in SCORES + (EXTRA_SCORES if args.expanded else ()):
         score = corpus.parse(work)
-        score_caveat = None
+        # music21's MIDI writer expands some imported repeat marks, yielding
+        # unverified playback lengths (e.g. Beethoven op.18/1 mov.3: 456 MIDI
+        # bars vs 145 written measures). Analyze the unrolled *written score*
+        # consistently across composers, without guessing performance repeats.
+        linear = stream.Score()
+        for part in score.parts:
+            target = stream.Part()
+            for event in part.flatten():
+                target.insert(event.offset, event)
+            linear.insert(0, target)
+        score = linear
+        score_caveat = "written-score order; original repeats not expanded"
         if work.startswith("chopin/"):
-            # The distributed Humdrum Mazurka has malformed repeat symbols
-            # for music21's automatic repeat expander. Preserve its original
-            # written note order/timing by flattening each part; do not invent
-            # an unverified performed repeat sequence.
-            linear = stream.Score()
-            for part in score.parts:
-                target = stream.Part()
-                for event in part.flatten():
-                    target.insert(event.offset, event)
-                linear.insert(0, target)
-            score = linear
-            score_caveat = "notated order only; malformed source repeats not performed/unrolled"
+            score_caveat += "; source repeat marks malformed"
         midi = args.out / filename
         score.write("midi", fp=str(midi))
         record = None

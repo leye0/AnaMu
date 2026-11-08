@@ -227,6 +227,11 @@ directement sans apprendre de nouveau sur les œuvres analysées.
 - [Analyse concrète Bach/Chopin](../reports/bach-chopin-emotions.md) : les
   estimations pour 9 mesures de Bach et 72 mesures de Chopin, leurs séries
   temporelles SVG et la couverture explicite des vrais moteurs.
+- La suite étendue (Bach BWV 140.7, Mozart K. 545 et Beethoven op. 18 no 1)
+  utilise **l'ordre écrit de la partition** : le lecteur MIDI ne développe
+  pas de reprises hypothétiques. Exemple vérifié : Beethoven, mouvement 3,
+  représente **145 mesures écrites**, et non les 456 mesures de l'export
+  initial qui développait implicitement des reprises.
 - jSymbolic original s'exécute sur Bach. Il a atteint le timeout sur Chopin ;
   ses valeurs sont **absentes puis imputées**, sans prétendre qu'il ait réussi.
   Pour la prochaine exécution, une **reprise contrôlée à fenêtres originales
