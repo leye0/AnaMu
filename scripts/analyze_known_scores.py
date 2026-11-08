@@ -8,6 +8,7 @@ not quantitative validation against their listeners.
 from __future__ import annotations
 
 import argparse
+import gzip
 import hashlib
 import json
 from pathlib import Path
@@ -33,6 +34,10 @@ def main() -> None:
     from music21 import corpus, stream
 
     artifact = load_ridge_artifact(args.model)
+    # Fingerprint the model's uncompressed JSON, irrespective of whether it
+    # came from the CI artifact or the compressed checked-in distribution.
+    model_bytes = (gzip.decompress(args.model.read_bytes())
+                   if args.model.suffix == ".gz" else args.model.read_bytes())
     args.out.mkdir(parents=True, exist_ok=True)
     analyses = []
     for title, work, filename in SCORES:
@@ -76,7 +81,7 @@ def main() -> None:
     report = args.out / "bach-chopin-emotions.json"
     report.write_text(json.dumps({"status": "inferred_not_human_verified",
                                   "calibrated_artifact_sha256": hashlib.sha256(
-                                      args.model.read_bytes()).hexdigest(),
+                                      model_bytes).hexdigest(),
                                   "analyses": analyses}, ensure_ascii=False,
                                  indent=2, allow_nan=False) + "\n", encoding="utf-8")
     print(f"Wrote {report}")
