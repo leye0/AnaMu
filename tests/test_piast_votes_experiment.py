@@ -47,6 +47,9 @@ class PIASVotesTests(unittest.TestCase):
         self.assertEqual(predicted.shape, (3,))
         self.assertTrue(np.isfinite(predicted).all())
         self.assertTrue(((predicted > 0) & (predicted < 1)).all())
+        unweighted = predict_soft_votes(x, x[:3], q, class_balanced=False)
+        self.assertTrue(np.isfinite(unweighted).all())
+        self.assertFalse(np.allclose(predicted, unweighted))
         with self.assertRaisesRegex(ValueError, "invalid_vote_fraction"):
             predict_soft_votes(x, x[:3], np.full(70, 1.1))
 

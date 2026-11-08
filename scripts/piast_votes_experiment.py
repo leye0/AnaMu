@@ -42,7 +42,8 @@ def expert_vote_fraction(clip: PIASTClip, label: str) -> float:
 
 
 def predict_soft_votes(train_x: np.ndarray, test_x: np.ndarray,
-                       vote_fractions: np.ndarray) -> np.ndarray:
+                       vote_fractions: np.ndarray, *,
+                       class_balanced: bool = True) -> np.ndarray:
     """Optimize class-balanced expected log loss under fractional Bernoulli tags.
 
     Each source contributes positive and negative loss in proportion to its
@@ -67,8 +68,9 @@ def predict_soft_votes(train_x: np.ndarray, test_x: np.ndarray,
     ])
     duplicated = np.concatenate([train_x, train_x], axis=0)
     outcomes = np.concatenate([np.ones(n, dtype=int), np.zeros(n, dtype=int)])
-    weights = np.concatenate([votes * n / (2 * positives),
-                              (1 - votes) * n / (2 * (n - positives))])
+    weights = (np.concatenate([votes * n / (2 * positives),
+                               (1 - votes) * n / (2 * (n - positives))])
+               if class_balanced else np.concatenate([votes, 1 - votes]))
     model.fit(duplicated, outcomes, classifier__sample_weight=weights)
     return model.predict_proba(test_x)[:, 1]
 
