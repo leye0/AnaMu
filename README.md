@@ -25,7 +25,14 @@ le hasard. Aucun gain significatif et aucune promotion en production.
 **[Nouvelle recherche : évolution tonale sur les 1 900 PIAST](reports/piast-tonal-motion-2026-11-08.md)** :
 `Dark` AP **0,344 → 0,455** en exploration, mais la sélection par validation
 des variantes sur cinq humeurs difficiles **régresse de 0,352 à 0,346**.
-La théorie de l'évolution tonale est une **piste**, pas encore une percée.
+**[Contre-épreuve sur cinq plis disjoints par œuvre](reports/piast-tonal-cv-2026-11-08.md)** :
+la distribution des tonalités locales explique le gain `Dark`
+(AP **0,340 → 0,390**) ; conserver l'ordre réel des huit fenêtres
+ne fait **pas** mieux que les permuter (0,389 contre 0,390).
+L'effet temporel précédent ne se reproduit donc pas. La moyenne des cinq
+humeurs difficiles progresse modestement (0,348 → 0,361), sans gain
+sur les 14 humeurs noncalm. Résultats **exploratoires**, car les 1 900
+exemples avaient déjà été examinés. Aucun algorithme promu en production.
 Les tests comparent explicitement les ordres humains de tension et les différences
 **sombre / imaginatif / dramatique** entre interprétations MIDI d'une même partition.
 Les algorithmes sont testables, mais **aucun gain sur PIAST Dark/Epic/Tense/Mysterious/Happy
