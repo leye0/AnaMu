@@ -143,6 +143,7 @@ humaine globale ne prouve pas la cause locale d'une émotion.
 
 | Source | Atout principal | Limitation importante |
 |---|---|---|
+| [PIAST-AT (Bang et al., 2024)](https://huggingface.co/datasets/Hayeonbang/PIAST) | **2 023 extraits de piano** annotés par trois musiciens parmi 16 termes d'humeur, avec niveaux d'accord 3/2/1 et MIDI transcrits publiés | **1 900 correspondances exactes CSV↔MIDI** à la révision vérifiée ; humeur perçue plutôt qu'émotion ressentie ; 11 catégories de genre et quatre de style à exclure des cibles ; piano seul |
 | [XMIDI / XMusic](https://github.com/xmusic-project/XMIDI_Dataset) | 108 023 MIDI, 11 classes émotionnelles humaines et genre | Étiquette du **morceau**, titre/artiste non fournis dans les noms |
 | [EMOPIA](https://annahung31.github.io/EMOPIA/) | 1 087 extraits de piano, MIDI et audio, quadrants émotionnels annotés | Piano pop, classes par **extrait**, pas secondes individuelles |
 | [VGMIDI](https://github.com/lucasnfe/vgmidi) | 200 pièces de piano de jeux vidéo, environ 30 annotations humaines valence/activation **par mesure**, MIDI originaux | Droits des arrangements à vérifier ; 59 des 200 MIDI refusés dans notre premier parseur de mesure, couverture partielle ; protocole interne et transfert de style non prouvé |
@@ -150,6 +151,18 @@ humaine globale ne prouve pas la cause locale d'une émotion.
 | [PMEmo](https://github.com/HuiZhangDB/PMEmo) | 794 chansons, annotations et activité électrodermale | Audio ; physiologie et émotion déclarée distinctes |
 | MIDI Bach/Chopin autorisés | Analyses de tonalité, motifs, cadences et forme, études de cas compréhensibles | Domaine public de la composition ≠ licence de chaque transcription MIDI |
 | [MetaMIDI](https://github.com/Metacreation-Lab/MetaMIDI-Dataset), [GigaMIDI](https://github.com/Metacreation-Lab/GigaMIDI-Dataset) | Identités et caractéristiques déjà calculées, pour phase d'enrichissement | Accès/licences, identité de l'arrangement et qualité non garantis |
+
+**Priorité opérationnelle (8 novembre 2026) : PIAST-AT**, plutôt que déduire
+des noms d'émotions de la seule valence/activation numérique de VGMIDI ou des
+quatre quadrants d'EMOPIA. Les labels de genre/style ne sont **pas** des
+émotions. Un premier banc MIDI seul compare humeurs humaines majoritaires et
+prédictions du modèle à la fréquence de chaque humeur, sur des sources vidéo
+disjointes. [Protocole et résultats du pilote](../reports/piast-at-pilot.md).
+**Première hypothèse scientifique évaluée** : les indices mode, tempo,
+articulation et nuances issus de l'étude expérimentale de Micallef Grimaud
+et Eerola (2022) améliorent modestement le classement des 15 humeurs nommées
+sur 91 nouveaux extraits, **AP 0,528 → 0,548**, tandis que six produits
+d'interaction redescendent à 0,539. [Hypothèses, ablations et limites](piast-research-experiments.md).
 
 L'unité d'entraînement est le **morceau/œuvre** lorsque des versions peuvent
 fuir d'un jeu à l'autre. Conserver les annotations originales, leurs

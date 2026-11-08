@@ -13,6 +13,19 @@ de chaque mécanisme. Les rapprochements MIDI↔audio et **Demucs sont reportés
 - **[Feuille de route v1.1](docs/roadmap.md)** — priorités, jalons et état réel.
 - **[Théorie → algorithmes](docs/theory-to-algorithms.md)** — références
   académiques, entrées/sorties, modèles, expériences et critères de preuve.
+- **[PIAST-AT : premier vrai test d'humeurs humaines sur MIDI](reports/piast-at-pilot.md)** —
+  extraits de piano annotés par des experts sur **16 humeurs/traits**
+  distincts des genres/styles, consensus humain exigé (≥2/3),
+  apprentissage et test séparés par source et comparaison à la fréquence
+  des classes. [Comparaison avec Partitura/music21 sur les mêmes extraits](reports/piast-at-academic-240.md) :
+  le surcroît de complexité n'a **pas** encore amélioré le petit test.
+  **C'est de l'émotion perçue, pas une émotion ressentie prouvée.**
+- **[PIAST-AT : hypothèses issues des recherches et résultats sur 850 MIDI](docs/piast-research-experiments.md)** —
+  étude expérimentale de Micallef Grimaud & Eerola, modes/tempo/articulation
+  calculés directement dans le MIDI, et ablations chiffrées :
+  **AP des 15 humeurs 0,528 → 0,548** sur 91 extraits nouvellement réservés ;
+  les interactions supplémentaires redescendent à **0,539**. L'amélioration
+  est modeste et ne prouve pas la cause psychologique d'une émotion.
 - **[Moteur émotionnel et couverture des algorithmes](docs/emotion-engine.md)** —
   23 mécanismes distincts étudiés, logiciels de recherche disponibles,
   intégration, expérience EMOPIA sans fuite et critères de validité.
@@ -118,6 +131,22 @@ La base `anamu/` comporte :
   étiquettes émotionnelles ni une exécution d'IDyOM original.
 - `emopia.py` : inventaire du corpus EMOPIA directement à partir de ses noms
   de fichiers, hash, rejets, séparation reproductible de **chansons**.
+- `piast_at.py` : lecture vérifiée des **2 023 annotations PIAST-AT**, trois
+  niveaux d'accord entre les experts et distinction explicite entre
+  **16 humeurs**, 11 genres et quatre traits de style ; identification des
+  MIDI réellement disponibles, sélection reproductible des vidéos disjointes.
+- `scripts/fetch_piast_at.py` : téléchargement **uniquement des MIDI et du CSV**
+  depuis la révision officielle figée, sans traitement des enregistrements
+  audio (1 900 correspondances exactes sur 2 023 annotations).
+- `scripts/piast_at_benchmark.py` : classification supervisée de chaque humeur
+  sur les seules caractéristiques extraites des MIDI, test séparé avec
+  comparaison à une prédiction constante ; version légère, ou mécanismes
+  académiques Partitura et music21 en option. Ne pas confondre la performance
+  d'un classificateur et la preuve d'un mécanisme psychologique.
+- `piast_research_cues.py` : **hypothèse tirée de recherches expérimentales**,
+  et non d'un logiciel universitaire : profils majeurs/mineurs, tempo réel,
+  articulation estimée, arc dynamique, plus six interactions optionnelles ;
+  [comparaison H0/H1/H2](docs/piast-research-experiments.md).
 - `emotion_evaluation.py` : baselines sur entraînement seulement et score sur
   test réservé, macro-F1 quatre classes, couverture, abstentions, confusion.
 - `vgmidi_temporal.py` et `scripts/vgmidi_temporal_benchmark.py` : **première
