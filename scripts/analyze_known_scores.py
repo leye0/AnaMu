@@ -10,7 +10,6 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
-import subprocess
 from pathlib import Path
 
 from anamu.emotion_pipeline import (analyze_known_midi, execute_original_jsymbolic,
@@ -58,7 +57,8 @@ def main() -> None:
         if args.jsymbolic_jar:
             try:
                 record = execute_original_jsymbolic(midi, args.jsymbolic_jar)
-            except (RuntimeError, ValueError, OSError, subprocess.TimeoutExpired) as exc:
+            except Exception as exc:
+                # Keep the known composition, mark the original tool missing.
                 original_java_error = f"original_jsymbolic_unavailable:{type(exc).__name__}:{str(exc)[:160]}"
         analyzed = analyze_known_midi(midi, artifact, jsymbolic_record=record)
         if original_java_error:
