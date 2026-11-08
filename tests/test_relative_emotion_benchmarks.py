@@ -15,10 +15,14 @@ from scripts.percepiano_hard_benchmark import (
     HARD_DIFFERENCE, evaluate, parent_work, scored_excerpt,
 )
 from scripts.percepiano_pulse_hypothesis import (
-    center_within_score, shuffled_within_score, work_regression,
+    center_within_score, nested_emotion_selector, shuffled_within_score,
+    work_regression,
 )
 from anamu.expressive_pulse import PULSE_FEATURE_NAMES, expressive_pulse_features
 from anamu.expressive_accent import ACCENT_FEATURE_NAMES, expressive_accent_features
+from anamu.score_aligned_expression import (
+    SCORE_FEATURE_NAMES, _read_midi, score_aligned_features,
+)
 
 
 class SymbolicEmotionBenchmarkTests(unittest.TestCase):
@@ -140,6 +144,47 @@ class SymbolicEmotionBenchmarkTests(unittest.TestCase):
             self.assertGreater(v["high_vs_low_velocity"], 0.1)
             self.assertLess(v["high_note_lead_ms"], -2.0)
 
+    def test_aligned_score_uses_real_corresponding_written_notes(self):
+        with TemporaryDirectory() as tmp:
+            data = Path(tmp)
+            perf_folder = data / "all_2rounds"
+            score_folder = data / "score_midi"
+            perf_folder.mkdir()
+            score_folder.mkdir()
+            names = (score_folder / "Schubert_D960_mv3_8bars_Score_25.mid",
+                     perf_folder / "Schubert_D960_mv3_8bars_1_25.mid")
+            for index, path in enumerate(names):
+                midi = mido.MidiFile(ticks_per_beat=480)
+                tr = mido.MidiTrack()
+                midi.tracks.append(tr)
+                tr.append(mido.MetaMessage("time_signature", numerator=3 if not index else 4,
+                                           denominator=4, time=0))
+                tr.append(mido.MetaMessage("set_tempo", tempo=500_000, time=0))
+                for i in range(24):
+                    tr.append(mido.Message("note_on", note=60 + i % 6,
+                                           velocity=60 + index * 10, time=500 + index * 30))
+                    tr.append(mido.Message("note_on", note=72 + i % 5,
+                                           velocity=85 + index * 5, time=0))
+                    tr.append(mido.Message("note_off", note=60 + i % 6,
+                                           velocity=0, time=250))
+                    tr.append(mido.Message("note_off", note=72 + i % 5,
+                                           velocity=0, time=0))
+                midi.save(path)
+            values = score_aligned_features(names[1])
+            diagnostics = values.pop("alignment_diagnostics")
+            self.assertEqual(set(values), set(SCORE_FEATURE_NAMES))
+            self.assertTrue(all(np.isfinite(v) for v in values.values()))
+            self.assertGreater(diagnostics["match_fraction"], .99)
+            self.assertGreater(values["score_register_dynamic_contrast"], 0.)
+            # CP-WTC uses an external MusicXML-derived score-note array.
+            supplied = score_aligned_features(names[1], score_notes=_read_midi(names[0]))
+            for feature in SCORE_FEATURE_NAMES:
+                self.assertAlmostEqual(values[feature], supplied[feature], places=10)
+            unrelated_score = _read_midi(names[0]).copy()
+            unrelated_score[:, 1] += 24
+            with self.assertRaisesRegex(ValueError, "insufficient_pitch_matching"):
+                score_aligned_features(names[1], score_notes=unrelated_score)
+
     def test_work_holdout_regression_can_generalize_identical_relationship(self):
         rng = np.random.default_rng(19)
         work = np.repeat(np.arange(4), 30)
@@ -148,6 +193,29 @@ class SymbolicEmotionBenchmarkTests(unittest.TestCase):
         estimate = work_regression(x, y, work)
         self.assertEqual(estimate.shape, y.shape)
         self.assertGreater(np.corrcoef(y[:, 0], estimate[:, 0])[0, 1], .95)
+
+    def test_nested_selection_never_reads_held_out_work_labels(self):
+        rng = np.random.default_rng(129)
+        works = np.repeat(np.arange(4), 15)
+        score_groups = np.repeat(np.arange(12), 5)
+        base = rng.normal(size=(len(works), 4))
+        extra = np.column_stack((base, rng.normal(size=(len(works), 2))))
+        control = np.column_stack((base, rng.normal(size=(len(works), 2))))
+        y = base * 1.5
+        systems = {"baseline_expressivity": base,
+                   "additional_features": extra, "permuted_control": control}
+        # Outer predictions are intentionally arbitrary; inner selection must
+        # depend on other works' train labels only, never on these predictions.
+        predictions = {arm: {"ranker": np.zeros_like(y)} for arm in systems}
+        first = nested_emotion_selector(y, score_groups, works,
+                                        systems, predictions)
+        y_mutated = y.copy()
+        y_mutated[works == 0] *= -12
+        second = nested_emotion_selector(y_mutated, score_groups, works,
+                                         systems, predictions)
+        for arm in ("additional_features", "permuted_control"):
+            self.assertEqual(first[arm]["choices_by_work_id"][0],
+                             second[arm]["choices_by_work_id"][0])
 
 
 if __name__ == "__main__":

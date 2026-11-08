@@ -41,6 +41,7 @@ on:
       - 'scripts/piast_tension_experiment.py'
       - 'scripts/isovat_tension_benchmark.py'
       - 'scripts/cp_wtc_relative_benchmark.py'
+      - 'scripts/cp_wtc_score_alignment_benchmark.py'
       - 'scripts/percepiano_hard_benchmark.py'
       - 'scripts/percepiano_pulse_hypothesis.py'
       - 'scripts/run_original_idyom.py'

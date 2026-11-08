@@ -23,6 +23,9 @@ from sklearn.preprocessing import StandardScaler
 
 from anamu.expressive_pulse import PULSE_FEATURE_NAMES, expressive_pulse_features
 from anamu.expressive_accent import ACCENT_FEATURE_NAMES, expressive_accent_features
+from anamu.score_aligned_expression import (
+    SCORE_FEATURE_NAMES, alignment_quality, score_aligned_features,
+)
 from .percepiano_hard_benchmark import (
     TARGETS, cluster_bootstrap_pair_difference, contrastive_rank_oof,
     evaluate, load_examples,
@@ -63,6 +66,48 @@ def shuffled_within_score(x: np.ndarray, groups: np.ndarray,
     return shuffled
 
 
+def nested_emotion_selector(y: np.ndarray, groups: np.ndarray,
+                            works: np.ndarray, systems: dict,
+                            outer_predictions: dict,
+                            *, minimum_inner_gain: float = .02) -> dict:
+    """Choose score-aware vs baseline arm separately for each target axis.
+
+    For each unseen outer parent work, do inner leave-one-WORK-out validation
+    only on the other three works. The held-out work's human labels are never
+    available to the choice. Require >2pp relative gain to change arms.
+    Compare with the same selector using within-score shuffled features.
+    """
+    results = {}
+    for extra_arm in ("additional_features", "permuted_control"):
+        selected = np.zeros_like(y)
+        choices = {}
+        for outer_work in np.unique(works):
+            train = works != outer_work
+            test = works == outer_work
+            inner_metric = {}
+            for arm in ("baseline_expressivity", extra_arm):
+                inner_pred = contrastive_rank_oof(
+                    systems[arm][train], y[train], groups[train],
+                    cv_groups=works[train])
+                inner_metric[arm] = evaluate(y[train], inner_pred, groups[train])
+            choice_by_axis = {}
+            for dim, axis in enumerate(TARGETS):
+                base_score = inner_metric["baseline_expressivity"][axis]["hard_pair_accuracy"]
+                extra_score = inner_metric[extra_arm][axis]["hard_pair_accuracy"]
+                selected_arm = (extra_arm if extra_score - base_score >= minimum_inner_gain
+                                else "baseline_expressivity")
+                choice_by_axis[axis] = {"arm": selected_arm,
+                                        "inner_baseline_accuracy": base_score,
+                                        "inner_additional_accuracy": extra_score}
+                selected[test, dim] = outer_predictions[selected_arm]["ranker"][test, dim]
+            choices[int(outer_work)] = choice_by_axis
+        metric = evaluate(y, selected, groups)
+        for v in metric.values():
+            del v["centered_delta_r2"]
+        results[extra_arm] = {"evaluation": metric, "choices_by_work_id": choices}
+    return results
+
+
 def benchmark(root: Path, cache: Path | None = None,
               feature_pack: str = "pulse") -> dict:
     base, y, score_groups, examples = load_examples(root)
@@ -75,20 +120,38 @@ def benchmark(root: Path, cache: Path | None = None,
         feature_names, extractor = PULSE_FEATURE_NAMES, expressive_pulse_features
     elif feature_pack == "accent":
         feature_names, extractor = ACCENT_FEATURE_NAMES, expressive_accent_features
+    elif feature_pack == "score":
+        feature_names, extractor = SCORE_FEATURE_NAMES, score_aligned_features
     else:
         raise ValueError(f"unsupported_feature_pack:{feature_pack}")
     stems = [e["stem"] for e in examples]
     extra = None
+    diagnostics = []
+    excluded_alignment = []
     if cache and cache.is_file():
         saved = json.loads(cache.read_text(encoding="utf-8"))
         if saved.get("stems") == stems and saved.get("features") == list(feature_names):
             extra = np.asarray(saved["values"], dtype=float)
+            diagnostics = saved.get("diagnostics", [])
+            excluded_alignment = saved.get("excluded_alignment", [])
     if extra is None:
         rows = []
         for index, stem in enumerate(stems):
             path = root / "virtuoso" / "data" / "all_2rounds" / (stem + ".mid")
-            values = extractor(path)
+            try:
+                values = extractor(path)
+            except ValueError as error:
+                if feature_pack != "score" or str(error) != "unreliable_alignment_coverage":
+                    raise
+                # MIDI-only quality gate, fixed BEFORE labels/predictions.
+                # Only two of 1,072 are affected in the observed corpus;
+                # fill with same-score neutral values below, without a flag.
+                excluded_alignment.append({"stem": stem, **alignment_quality(path)})
+                rows.append([None] * len(feature_names))
+                continue
             rows.append([values[name] for name in feature_names])
+            if "alignment_diagnostics" in values:
+                diagnostics.append(values["alignment_diagnostics"])
             if (index + 1) % 200 == 0:
                 print(f"{feature_pack} extracted: {index + 1}/{len(stems)}", flush=True)
         extra = np.asarray(rows, dtype=float)
@@ -96,12 +159,28 @@ def benchmark(root: Path, cache: Path | None = None,
             cache.parent.mkdir(parents=True, exist_ok=True)
             cache.write_text(json.dumps({"stems": stems,
                                          "features": list(feature_names),
+                                         "diagnostics": diagnostics,
+                                         "excluded_alignment": excluded_alignment,
                                          "values": extra.tolist()}) + "\n",
                              encoding="utf-8")
     if extra.shape != (len(examples), len(feature_names)):
         raise ValueError("invalid_feature_cache_shape")
+    missing = np.any(~np.isfinite(extra), axis=1)
+    if np.any(missing):
+        if feature_pack != "score" or np.sum(missing) != len(excluded_alignment):
+            raise ValueError("unexpected_missing_features")
+        for group in np.unique(score_groups):
+            members = score_groups == group
+            valid = members & ~missing
+            if np.any(members & missing):
+                # Impute from MIDI observations of other interpretations of
+                # exactly the same score. Never use emotion labels or labels
+                # from any held-out work for this imputation.
+                replacement = extra[valid].mean(axis=0) if np.any(valid) else np.zeros(
+                    len(feature_names))
+                extra[members & missing] = replacement
     if not np.isfinite(extra).all():
-        raise ValueError("nonfinite_extra_features")
+        raise ValueError("nonfinite_extra_features_after_imputation")
     extra = center_within_score(extra, score_groups)
 
     systems = {"baseline_expressivity": base,
@@ -136,6 +215,8 @@ def benchmark(root: Path, cache: Path | None = None,
                      for axis in ("dark", "imaginative", "dramatic_expressive")},
               flush=True)
 
+    nested = nested_emotion_selector(y, score_groups, work_groups,
+                                    systems, predictions)
     comparisons = {}
     for algorithm in ("ridge", "ranker"):
         base_pred = predictions["baseline_expressivity"][algorithm]
@@ -155,10 +236,23 @@ def benchmark(root: Path, cache: Path | None = None,
         "cv": "strict leave-one-parent-work-out (4 folds)",
         "feature_pack": feature_pack,
         "new_features": list(feature_names),
+        "alignment_audit": {
+            "matched_coverage_min": float(min(d["match_fraction"] for d in diagnostics)),
+            "matched_coverage_median": float(np.median([
+                d["match_fraction"] for d in diagnostics])),
+            "relative_time_error_median": float(np.median([
+                d["median_relative_position_error"] for d in diagnostics])),
+        } if diagnostics else None,
+        "neutralized_low_quality_alignment": excluded_alignment,
         "inferred_pulse_not_score_meter": feature_pack == "pulse",
         "self_fitted_ioi_regularity_not_listener_surprise": feature_pack == "pulse",
         "taxonomies_not_equated": "PercePiano Dark/Dramatic/Imaginative != PIAST Dark/Epic/Mysterious",
         "models": results,
+        "nested_emotion_aware_selection": {
+            "rule": "inner 3-work LOOW per target, require >=2 percentage point hard-pair gain",
+            "never_uses_outer_test_labels": True,
+            "arms": nested,
+        },
         "comparisons": comparisons,
         "inference_limitations": [
             "Four independent parent compositions, all piano, high uncertainty",
@@ -173,7 +267,8 @@ def main():
     parser.add_argument("dataset_directory", type=Path)
     parser.add_argument("--cache", type=Path)
     parser.add_argument("--output", type=Path)
-    parser.add_argument("--feature-pack", choices=("pulse", "accent"), default="pulse")
+    parser.add_argument("--feature-pack", choices=("pulse", "accent", "score"),
+                        default="pulse")
     args = parser.parse_args()
     report = benchmark(args.dataset_directory, args.cache, args.feature_pack)
     if args.output:

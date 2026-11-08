@@ -12,6 +12,12 @@ de chaque mécanisme. Les rapprochements MIDI↔audio et **Demucs sont reportés
 
 **8 novembre — nouveaux corpus réellement annotés :**
 [étude IsoVAT + CP-WTC + PercePiano sur les cas difficiles](reports/midi-human-emotion-hard-benchmarks-2026-11-08.md).
+**[Suite : partition contre interprétation, 1 072 + 288 MIDI](reports/score-aligned-expression-transfer-2026-11-08.md)** :
+14 descripteurs d'expression alignés sur les notes écrites, évaluation hors
+œuvre parente, témoin mélangé, sélection imbriquée et transfert sur 48 œuvres.
+Un gain brut de +4,55 points sur l'axe *Dramatique* s'écroule en grande partie
+quand le choix de modèle se fait sans consulter l'œuvre test ; aucun grand
+gain robuste, **aucune intégration de cette branche au modèle principal**.
 Les tests comparent explicitement les ordres humains de tension et les différences
 **sombre / imaginatif / dramatique** entre interprétations MIDI d'une même partition.
 Les algorithmes sont testables, mais **aucun gain sur PIAST Dark/Epic/Tense/Mysterious/Happy
