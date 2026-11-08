@@ -23,6 +23,8 @@ on:
       - 'anamu/**'
       - 'tests/test_symbolic_expectation.py'
       - 'tests/test_piast_expectation_hypothesis.py'
+      - 'tests/test_piast_tension_hypothesis.py'
+      - 'tests/test_piast_at.py'
       - 'tests/test_emotion_research.py'
       - 'tests/test_melody_toolbox.py'
       - 'tests/test_jsymbolic_ace.py'
@@ -35,6 +37,7 @@ on:
       - 'scripts/emopia_benchmark.py'
       - 'scripts/piast_at_benchmark.py'
       - 'scripts/piast_surprise_experiment.py'
+      - 'scripts/piast_tension_experiment.py'
       - 'scripts/run_original_idyom.py'
       - 'scripts/import_idyom_dat.py'
       - 'scripts/extract_tonal_tension.py'
@@ -68,6 +71,10 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_symbolic_expectation.py' -v
       - name: Verifier les hypotheses de surprise MIDI et les plis anti-fuite
         run: python -m unittest discover -s tests -p 'test_piast_expectation_hypothesis.py' -v
+      - name: Verifier le cumul de tension, la relaxation et les mesures melangees
+        run: python -m unittest discover -s tests -p 'test_piast_tension_hypothesis.py' -v
+      - name: Verifier les metriques multi-etiquettes PIAST et l'audit des erreurs
+        run: python -m unittest discover -s tests -p 'test_piast_at.py' -v
       - name: Tester EMOPIA et les moteurs academiques reels sur MIDI fictifs
         run: python -m unittest discover -s tests -p 'test_emotion_research.py' -v
       - name: Tester la boite a outils melodiques et la chronologie Narmour

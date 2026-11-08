@@ -80,6 +80,11 @@ class PIASTATTests(unittest.TestCase):
         self.assertTrue(scores["per_mood"]["Happy"]["eligible"])
         self.assertIsNone(scores["per_mood"]["Sad"]["average_precision"])
         self.assertEqual(len(MOOD_LABELS), len(scores["per_mood"]))
+        diagnosed = score_labels(train, test, ["note_density__mean"], diagnostic_examples=2)
+        happy = diagnosed["per_mood"]["Happy"]
+        self.assertEqual(len(happy["highest_scoring_unlabeled"]), 2)
+        self.assertEqual(len(happy["lowest_scoring_labeled"]), 2)
+        self.assertNotIn("highest_scoring_unlabeled", scores["per_mood"]["Happy"])
 
 
 if __name__ == "__main__":

@@ -30,6 +30,7 @@ from sklearn.preprocessing import StandardScaler
 from anamu.emotion_pipeline import extract_academic_rows, infer_measure_count
 from anamu.piast_research_cues import midi_emotion_cues
 from anamu.piast_expectation_hypothesis import add_out_of_fold_expectancy
+from anamu.piast_tension_hypothesis import tension_trend_features
 from anamu.piast_at import (MOOD_LABELS, assigned_split, available_annotations,
                             load_annotations, tag_popularity)
 
@@ -59,7 +60,8 @@ def make_matrix(records: list[tuple], features: list[str]) -> np.ndarray:
                        for _, data in records], dtype=float)
 
 
-def score_labels(train: list[tuple], subset: list[tuple], features: list[str]) -> dict:
+def score_labels(train: list[tuple], subset: list[tuple], features: list[str],
+                 *, diagnostic_examples: int = 0) -> dict:
     """One fixed, class-balanced linear model per mood, with prevalence baseline."""
     if not train or not subset:
         raise ValueError("train_and_evaluation_splits_required")
@@ -100,6 +102,19 @@ def score_labels(train: list[tuple], subset: list[tuple], features: list[str]) -
                                                        zero_division=0)) if eligible else None,
             "eligible": eligible,
         }
+        if diagnostic_examples:
+            # Rank conflicts for future hypotheses, NEVER fitting/tuning.
+            # They are NOT thresholded false positives/negatives: a tag may
+            # simply lack two annotator votes, and scores are not calibrated.
+            ranked = [(clip.clip_id, float(predictions[i]), int(test_y[i]))
+                      for i, (clip, _) in enumerate(subset)]
+            errors = lambda rows: [
+                {"clip_id": name, "model_score": round(score, 6)}
+                for name, score, _ in rows[:diagnostic_examples]]
+            results[label]["highest_scoring_unlabeled"] = errors(sorted(
+                (row for row in ranked if row[2] == 0), key=lambda r: -r[1]))
+            results[label]["lowest_scoring_labeled"] = errors(sorted(
+                (row for row in ranked if row[2] == 1), key=lambda r: r[1]))
     scored = [row for row in results.values() if row["eligible"]]
     # 'Emotional' is exceptionally broad, so do not count it as a named emotion.
     named = [row for label, row in results.items() if label != "Emotional" and row["eligible"]]
@@ -117,9 +132,11 @@ def score_labels(train: list[tuple], subset: list[tuple], features: list[str]) -
 def run(root: Path, *, feature_set: str = "basic", cache_dir: Path | None = None,
         seed: int = 20261108, limit: int = 0, fresh_after: int = 0) -> dict:
     surprise_sets = {"research_surprise", "research_surprise_unigram",
-                     "research_surprise_shuffled"}
+                     "research_surprise_shuffled", "research_surprise_tension"}
+    tension_sets = {"research_tension", "research_tension_shuffled",
+                    "research_surprise_tension"}
     if feature_set not in {"basic", "academic", "full",
-                           "research_cues", "research_interactions"} | surprise_sets:
+                           "research_cues", "research_interactions"} | surprise_sets | tension_sets:
         raise ValueError("unsupported_feature_set")
     if limit < 0 or fresh_after < 0:
         raise ValueError("invalid_limit")
@@ -134,7 +151,7 @@ def run(root: Path, *, feature_set: str = "basic", cache_dir: Path | None = None
     extracted = []
     academic = feature_set in ("academic", "full")
     full_fusion = feature_set == "full"
-    base_feature_set = "research_cues" if feature_set in surprise_sets else feature_set
+    base_feature_set = "research_cues" if feature_set in surprise_sets - tension_sets else feature_set
     start = time.monotonic()
     if cache_dir:
         cache_dir.mkdir(parents=True, exist_ok=True)
@@ -151,9 +168,13 @@ def run(root: Path, *, feature_set: str = "basic", cache_dir: Path | None = None
                 rows, _, _ = extract_academic_rows(path, n,
                                                     academic=academic, full_fusion=full_fusion)
                 features = summarize_measures(rows)
-                if feature_set in {"research_cues", "research_interactions"} | surprise_sets:
+                if feature_set in {"research_cues", "research_interactions"} | surprise_sets | tension_sets:
                     features.update(midi_emotion_cues(
                         path, interactions=(feature_set == "research_interactions")))
+                if feature_set in tension_sets:
+                    features.update(tension_trend_features(
+                        rows, shuffle=feature_set == "research_tension_shuffled",
+                        group=clip.song_group, seed=seed))
                 if cache_file:
                     cache_file.write_text(json.dumps(features, allow_nan=False),
                                           encoding="utf-8")
@@ -181,7 +202,8 @@ def run(root: Path, *, feature_set: str = "basic", cache_dir: Path | None = None
     test = score_labels(splits["train"], splits["test"], feature_names)
     fresh_records = [(clip, data) for clip, data in splits["test"]
                      if clip.song_group not in previously_examined_groups]
-    fresh_test = score_labels(splits["train"], fresh_records, feature_names) \
+    fresh_test = score_labels(splits["train"], fresh_records, feature_names,
+                              diagnostic_examples=5) \
         if fresh_after and fresh_records else None
     split_groups = {name: {clip.song_group for clip, _ in records}
                     for name, records in splits.items()}
@@ -283,7 +305,9 @@ def main() -> None:
                                                    "research_cues", "research_interactions",
                                                    "research_surprise",
                                                    "research_surprise_unigram",
-                                                   "research_surprise_shuffled"),
+                                                   "research_surprise_shuffled",
+                                                   "research_tension", "research_tension_shuffled",
+                                                   "research_surprise_tension"),
                         default="basic")
     parser.add_argument("--cache-dir", type=Path)
     parser.add_argument("--seed", type=int, default=20261108)

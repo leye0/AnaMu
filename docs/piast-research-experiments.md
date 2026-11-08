@@ -151,6 +151,84 @@ mélodique supérieure peut être fausse sur piano polyphonique ; la précision
 des attaques dépend de la transcription. Le plaisir musical mesuré dans
 une étude n'est pas synonyme des adjectifs d'humeur perçue par les experts.
 
+## Expérience suivante : résoudre les échecs, sans se féliciter pour Calm
+
+**Priorité exprimée par Léon le 8 novembre 2026 :** ne plus choisir nos
+victoires en fonction de humeurs faciles, notamment `Relaxing/Calm`, déjà
+à AP ≈ 0,91 sur le nouveau test précédent. Aucun nouveau score n'a été
+regardé pour construire les critères qui suivent.
+
+### Cibles fixées à l'avance, à partir de la validation précédente
+
+Sur les 196 extraits de **validation** de l'expérience 1 400 (et non sur
+les prochains extraits test), les cinq humeurs éligibles ayant la plus
+faible AP étaient :
+
+| Humeur-cible | Positifs dans l'ancienne validation | AP dans cette validation |
+|---|---:|---:|
+| `Mysterious` | 25 | 0,290 |
+| `Epic` | 13 | 0,301 |
+| `Tense` | 24 | 0,371 |
+| `Dark` | 23 | 0,377 |
+| `Happy` | 28 | 0,392 |
+
+**Critère de succès prioritaire :** AP moyenne de ces **cinq** catégories
+sur les groupes vidéo jamais vus, plus une seconde AP moyenne des **14
+humeurs** spécifiques à l'exclusion de `Relaxing/Calm` et `Emotional`.
+Pour chaque humeur, afficher aussi le nombre de positifs et son AP
+individuelle. La moyenne des 15 humeurs incluant Calm n'est qu'un témoin
+diagnostique : une amélioration portée uniquement par Calm ne compte pas.
+Conserver en plus les cinq exemples notés les plus haut alors que le terme
+n'a pas atteint deux votes, et les cinq exemples annotés positifs auxquels
+le modèle donne les notes les plus basses. Ce sont des **désaccords de
+classement**, pas des « faux positifs » cliniques ou des émotions prouvées.
+La validation doit aussi aller dans le bon sens ; sinon le gain est
+considéré instable. Trois positifs au minimum restent nécessaires pour
+évaluer chaque humeur.
+
+### Recherche, algorithme, ablations
+
+**Étude primaire :** [Farbood (2012), *A Parametric, Temporal Model of
+Musical Tension*](https://doi.org/10.1525/mp.2012.29.4.387).
+Deux expériences avec jugements de tension continue montrent l'importance
+de combiner des paramètres musicaux et surtout la **direction des tendances
+dans une fenêtre d'attention**, avec une fenêtre de mémoire précédente.
+L'étude précise que le signal d'attente mélodique n'avait pas de relation
+directionnelle assez nette pour figurer dans le modèle final : cette piste
+de tension est donc **distincte** de notre surprisal précédent.
+
+Notre prototype prend cinq indices **déjà extraits du MIDI par mesure** :
+dissonance verticale estimée, dynamique MIDI, fréquence des attaques,
+proportion de syncopes estimées et étendue de registre. Nous les ramenons
+sur des échelles physiques fixes, calculons les pentes de deux ou quatre
+mesures et amplifions leur accumulation quand la fenêtre précédente évolue
+dans le même sens. Nous résumons les montées persistantes, baisses,
+inversions, excursions, chutes depuis le pic et relâchement final.
+
+**Attention :** ce n'est PAS l'équation originale ni les poids appris
+par Farbood ; ses fenêtres s'expriment en temps et non en mesures.
+Ces substitutions sont explicites pour ne pas fabriquer un faux « outil
+académique validé ».
+
+**Variantes prévues avant tout test supplémentaire :**
+
+1. H1 : indices physiques précédents sans surprise ni tension.
+2. H1 + surprise mélodique : notre meilleur candidat précédent.
+3. H1 + tendances de tension (mémoire et résolution).
+4. H1 + tension des **mêmes mesures mélangées** (contrôle sans temporalité).
+5. H1 + surprise mélodique + tendances de tension (complémentarité).
+
+**Nouveau test protégé :** étendre l'échantillon déterministe de 1 400
+à l'ensemble des **1 900 MIDI exactement appariés**. Le rapport distingue
+les morceaux du test dont le groupe vidéo n'apparaissait dans **aucun
+des 1 400 extraits précédemment examinés**. Les partitions restent
+séparées par groupe ; les paramètres restent identiques. Une hausse sur
+les 217 anciens tests n'est **pas** la preuve recherchée.
+
+**Statut avant exécution :** code et tests locaux d'analyse temporelle
+écrits, humeurs difficiles et variantes fixées ; résultats du test sur
+les morceaux 1 401–1 900 **encore inconnus** à cette étape.
+
 ## Résultat observé — première hypothèse (8 novembre 2026)
 
 Après avoir fixé les trois variantes ci-dessus, nous les avons exécutées
