@@ -114,10 +114,37 @@ Tous les essais partagent la séparation groupes/labels et le classificateur
 linéaire figé. La mesure principale reste l'AP moyenne des étiquettes
 nommées, sur les morceaux précédemment inconnus.
 
-**Statut au moment de l'écriture :** algorithmes et tests anti-fuite
-implémentés ; comparaison sur 1 400 MIDI via GitHub Actions optionnelle,
-dont un test excluant les 850 premiers morceaux examinés. **Aucun score
-de ce nouvel essai ne doit être annoncé avant réception des rapports.**
+**Résultat mesuré le 8 novembre 2026 :** les 1 400 MIDI sélectionnés ont
+été téléchargés et contrôlés intégralement ; toutes les variantes ont
+terminé avec 1 400 extraits analysés, distribués en 987 entraînement,
+196 validation, 217 test. Dans le test, **94 extraits proviennent de groupes
+vidéo absents des 850 pièces précédemment examinées**. Le lot et le
+protocole sont identiques entre les quatre variantes.
+
+| Modèle | Validation (196) | Test (217) | Nouveau test (94) |
+|---|---:|---:|---:|
+| H1 (sans surprise) | **0,512** | 0,484 | 0,474 |
+| H1 + surprise conditionnelle d'ordre 3 | 0,502 | **0,504** | **0,502** |
+| H1 + fréquences seules d'ordre 0 | 0,509 | 0,484 | 0,464 |
+| H1 + surprise de notes mélangées | 0,501 | 0,494 | 0,483 |
+
+Mesure : **AP moyenne de 15 humeurs nommées**, sans `Emotional`. Le modèle
+conditionnel gagne **0,028 point d'AP** sur le nouveau test par rapport
+à H1, **0,038** face au modèle sans ordre et **0,019** par rapport à
+la version dont les notes sont mélangées. Sur les 15 humeurs, 10 montent
+et 5 baissent. Les hausses les plus grandes sont `Epic` (+0,115 ; 8
+positifs), `Powerful` (+0,082 ; 6), `Sad` (+0,078 ; 7), `Cute`
+(+0,075 ; 5) et `Passionate` (+0,070 ; 12). Les baisses notables sont
+`Tense` (−0,041 ; 8) et `Upbeat/Energetic` (−0,034 ; 15).
+
+**Verdict prudent :** l'ordre des intervalles **semble** contenir un signal
+utile sur les nouveaux morceaux, distinct de leur simple distribution.
+Mais la validation se **dégrade** (0,512 → 0,502) ; sur seulement 94 tests
+nouveaux, les termes rares sont instables. Il n'y a ni intervalle de
+confiance ni preuve de significativité ou de causalité. L'algorithme
+n'est **pas** déclaré validé au sens scientifique ; ce résultat oriente
+la prochaine étude. Le compte rendu intégral et les scores par humeur
+sont dans `reports/piast-at-1400-*`.
 
 **Limites :** cette approximation n'est **pas** l'IDyOM original. La ligne
 mélodique supérieure peut être fausse sur piano polyphonique ; la précision
