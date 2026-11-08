@@ -5,6 +5,11 @@ gain déployé dans le modèle PIAST.** Le but est de tester des mécanismes
 académiques sur des émotions **annotées par des humains**, avec MIDI uniquement.
 Ni décodage audio ni reconnaissance d'émotion sur enregistrements sonores.
 
+**Mise en garde ajoutée après audit plus strict (même date) :** les scores
+PercePiano du tableau initial ne résistent pas intégralement à une séparation
+par **œuvre parente entière**. Le meilleur 68,1 % « sombre » redescend à
+**59,5 %** ; le corpus ne comporte que **quatre œuvres parentes**. Voir §4.1.
+
 ## 1. Ce qui est réellement nouveau
 
 | Corpus | Véritable cible humaine | MIDI analysable | Pertinence et limites |
@@ -133,6 +138,82 @@ essayé le classement après avoir vu les premiers résultats ; ils ne
 corrigent pas toute la recherche d'hyperparamètres, ni les dépendances
 entre différentes variations d'une même œuvre.
 
+### 4.1 Audit contradictoire : laisser une œuvre entière totalement inconnue
+
+Les validations précédentes retenaient les **99 extraits notés** comme groupes,
+mais d'autres variations ou passages de la même œuvre apparaissaient pendant
+l'entraînement. Nous avons donc ajouté une validation croisée plus sévère :
+chaque pli masque **une œuvre parente complète**, toutes ses variations et
+toutes ses interprétations (Beethoven WoO80 ; Schubert D935, D960-mv2, D960-mv3).
+
+| Axe difficile | Classement initial (extrait tenu à part) | **Classement strict (œuvre tenue à part)** | Régression 14 indices, strict |
+|---|---:|---:|---:|
+| Sombre | 222/326 = **68,1 %** | **194/326 = 59,5 %** | 185/326 = 56,7 % |
+| Imaginatif | 652/918 = **71,0 %** | **631/918 = 68,7 %** | 640/918 = 69,7 % |
+| Dramatique/expressif | 802/1 232 = **65,1 %** | **759/1 232 = 61,6 %** | 776/1 232 = 63,0 % |
+
+**Conclusion nouvelle :** aucun grand gain de classement confirmé sur une
+nouvelle œuvre. La différence « sombre » n'est plus que +2,8 points devant
+la régression, sur seulement 4 blocs indépendants. On ne doit **pas** recycler
+le 68,1 % comme généralisation à de nouvelles compositions.
+
+**Anomalie objective des données** : les **1 073 MIDI des interprétations
+humaines disponibles** déclarent tous `4/4` comme signature ; au moins une
+partition de référence Schubert D960 troisième mouvement déclare `3/4`.
+Les signatures de performances ne sont donc pas une vérité métrique fiable.
+Une analyse qui traite les métadonnées 4/4 comme des véritables mesures
+peut produire de faux indices d'accentuation.
+
+### 4.2 Deux hypothèses scientifiques supplémentaires, avec témoins négatifs
+
+Sur **les mêmes 1 072 interprétations, 326/918/1 232 paires difficiles et
+les mêmes quatre œuvres tenues à part**, nous ajoutons deux familles de
+caractéristiques extraites uniquement du MIDI, sans recourir à ses signatures.
+Chaque variante est comparée à la régression d'origine et au classificateur
+par paires, ainsi qu'à un témoin où **les nouvelles caractéristiques sont
+permutées entre interprètes du même extrait**. Aucun test supplémentaire
+ne fournit un nouvel ensemble aveugle ; les intervalles restent exploratoires.
+
+| Modèle de classement par paires | Sombre | Imaginatif | Dramatique/expressif |
+|---|---:|---:|---:|
+| **14 indices d'origine** | **194/326 = 59,5 %** | **631/918 = 68,7 %** | **759/1 232 = 61,6 %** |
+| + 9 indices pulsation / régularité IOI | 200/326 = 61,3 % | 625/918 = 68,1 % | 735/1 232 = 59,7 % |
+| + pulsation **permutée** (témoin) | 197/326 = 60,4 % | **650/918 = 70,8 %** | 768/1 232 = 62,3 % |
+| + 10 indices d'accent, registre, articulation | 191/326 = 58,6 % | 572/918 = 62,3 % | 682/1 232 = 55,4 % |
+| + accents **permutés** (témoin) | 179/326 = 54,9 % | 616/918 = 67,1 % | 706/1 232 = 57,3 % |
+
+**Pulsation** : autocorrélation de la force des attaques à une période inférée
+et ses multiples, concentration et entropie de phase, corrélations d'accents,
+entropie des transitions entre intervalles et surprise **auto-ajustée** des
+intervalles. Ce n'est **pas** une reconstruction fiable des temps forts du
+score, ni une estimation formelle de la surprise d'un auditeur. Inspiration :
+[métrique et tension perceptuelle (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11297889/),
+[incertitude, surprise et émotion (Daikoku et al., 2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11075058/).
+Leur étude chordale comprend 527 participants et 92 progressions, mais ses
+stimuli et notes brutes à [OSF](https://osf.io/cyqhd/) n'ont pas été importés
+(accès HTTP 403 pendant cette recherche). **Pas de validation revendiquée sur
+les annotations de Daikoku.**
+
+**Accents** : différences de vélocité entre registres, corrélations
+hauteur/intensité, dispersion des accents, anticipation de la note aiguë dans
+les accords, couplage temporel/dynamique, proportions d'articulation courte.
+La note aiguë est **un substitut très imparfait de la mélodie**, pas une
+détection de voix. Inspiré des 600+ heures de performances dans
+[Hu et al., *Revisiting Expressive Timing ...*, TISMIR 2026](https://doi.org/10.5334/tismir.317)
+et des résultats de
+[*Beyond the notes: Clarifying the role of expressivity in conveying musical emotion*](https://pmc.ncbi.nlm.nih.gov/articles/PMC12982568/).
+Ces sources ne prétendent pas que nos 10 indices prédisent « sombre ».
+
+**Décision sur les deux hypothèses : non retenues.** Le gain pulsation
+« sombre » de +1,8 point est incertain : intervalle bootstrap **-5,9 à +9,0**
+points, et le témoin permuté gagne déjà +0,9 point. La pulsation dégrade
+les deux autres cibles. Les accents dégradent les trois. Il serait trompeur
+de qualifier cela de réussite.
+
+La répartition par œuvre montre notamment que le changement « sombre » de
+pulsation vient de **+9 paires sur Schubert D960-mv2**, tandis que Beethoven
+perd 5 paires. Même les petites améliorations ne sont pas homogènes.
+
 ## 5. Corpus et théories évalués mais non intégrés
 
 - **EMOPIA / EMOPIA+ :** EMOPIA possède de vraies annotations humaines de
@@ -177,6 +258,12 @@ python -m scripts.cp_wtc_relative_benchmark /chemin/The-CP-WTC-Dataset \
   --output /tmp/cp-wtc-result.json
 python -m scripts.percepiano_hard_benchmark /chemin/PercePiano \
   --output /tmp/percepiano-result.json
+python -m scripts.percepiano_pulse_hypothesis /chemin/PercePiano \
+  --feature-pack pulse --cache /tmp/ana-pulse-cache.json \
+  --output /tmp/ana-pulse-result.json
+python -m scripts.percepiano_pulse_hypothesis /chemin/PercePiano \
+  --feature-pack accent --cache /tmp/ana-accent-cache.json \
+  --output /tmp/ana-accent-result.json
 
 python -m unittest discover -s tests -p 'test_relative_emotion_benchmarks.py' -v
 ```
@@ -187,18 +274,30 @@ mais **aucun MIDI tiers**. Un test complet local : **126 tests réussis,
 valident le traitement des MIDI et le blocage des scores entre plis, sans
 faux fichiers d'émotions « humaines ».
 
+Audit additionnel sur les 1 072 fichiers PercePiano : **9 tests unitaires
+ciblés réussis** pour la séparation, le traitement sans signature de mesure,
+les deux extracteurs et les témoins mélangés. Les résultats numériques de
+§4.1–4.2 ont été exécutés avec les vrais MIDI des auteurs, pas avec des
+fixtures factices. Pour ce dernier audit, **nouvelle suite complète locale :
+131 tests exécutés, 129 réussis et 2 ignorés** (dépendance facultative
+`melody-features==1.3.3` installée avant l'exécution). Le total 126 tests
+ci-dessus se rapporte uniquement à la campagne précédente.
+
 ### Priorités scientifiques suivantes
 
 1. Réplication **aveugle** de la tension harmonique sur une autre collection
    de jugements humains de tension (notamment des items non utilisés lors du
    choix des 11 indices) ; ne plus ajuster sur les 10 triplets IsoVAT.
-2. Sur PercePiano, tester un vrai **modèle ordinal/magnitude calibré** et
-   une séparation **par œuvre entière** ; le 68 % actuel compare des scores
-   et n'est pas transférable automatiquement au label PIAST *Dark*.
+2. Sur PercePiano, le groupe **œuvre entière est désormais obligatoire** ;
+   tester ensuite un vrai **modèle de déviations à la partition alignée**
+   (articulation, retard de voix, rubato) au lieu de suppléer à l'alignement
+   par une liste toujours plus longue de résumés globaux. Il faudrait des
+   œuvres parentes indépendantes supplémentaires pour la confirmation.
 3. Étudier les confusions **Dark ↔ Imaginative ↔ Dramatic** et les trajectoires
-   d'**incertitude → surprise → résolution**, suivant GEMS/ITPRA ; tester
-   contre des labels difficiles exclusivement, jamais une moyenne sauvée par
-   « calme ».
+   d'**incertitude → surprise → résolution**, suivant GEMS/ITPRA ; les
+   n-grammes auto-ajustés au morceau ne sont pas une théorie crédible des
+   attentes humaines à long terme. Exiger un corpus externe et des
+   hypothèses définies **avant** l'examen des étiquettes.
 4. Pour PIAST, exiger un **nouveau lot de morceaux jamais consultés** avant
    d'annoncer un gain de précision par classe. L'ancien lot de 1 900 est
    maintenant exposé à de nombreux essais et n'est plus un test vierge.

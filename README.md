@@ -16,6 +16,11 @@ Les tests comparent explicitement les ordres humains de tension et les différen
 **sombre / imaginatif / dramatique** entre interprétations MIDI d'une même partition.
 Les algorithmes sont testables, mais **aucun gain sur PIAST Dark/Epic/Tense/Mysterious/Happy
 n'est encore confirmé** : les taxonomies et les corpus sont distincts.
+**Audit indépendant de l'œuvre :** le 68,1 % « sombre » de PercePiano
+retombe à **59,5 %** lorsque chaque composition parente est entièrement
+absente de l'entraînement ; deux familles supplémentaires de caractéristiques
+rythmiques/expressives, avec témoins mélangés, **n'ont pas produit de gain
+fiable**. Voir §4.1–4.2 du rapport, avant de citer les résultats initiaux.
 
 - **[Feuille de route v1.1](docs/roadmap.md)** — priorités, jalons et état réel.
 - **[Théorie → algorithmes](docs/theory-to-algorithms.md)** — références

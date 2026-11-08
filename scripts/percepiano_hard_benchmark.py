@@ -20,8 +20,8 @@ from itertools import combinations
 from pathlib import Path
 
 import numpy as np
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import GroupKFold
+from sklearn.linear_model import LogisticRegression, Ridge
+from sklearn.model_selection import GroupKFold, LeaveOneGroupOut
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
@@ -125,7 +125,8 @@ def evaluate(y: np.ndarray, pred: np.ndarray, groups: np.ndarray) -> dict:
 
 
 def contrastive_rank_oof(x: np.ndarray, y: np.ndarray,
-                         groups: np.ndarray) -> np.ndarray:
+                         groups: np.ndarray, *,
+                         cv_groups: np.ndarray | None = None) -> np.ndarray:
     """Learning-to-rank ablation: train on LARGE within-score disagreements.
 
     Inspired by rank-based affect research, not a reproduction of RnC loss.
@@ -133,7 +134,10 @@ def contrastive_rank_oof(x: np.ndarray, y: np.ndarray,
     dark/dramatic/imaginative. Every score group is withheld in its entirety.
     """
     estimated = np.zeros_like(y)
-    for train, test in GroupKFold(n_splits=6).split(x, y, groups):
+    splitter = (GroupKFold(n_splits=6).split(x, y, groups)
+                if cv_groups is None else
+                LeaveOneGroupOut().split(x, y, cv_groups))
+    for train, test in splitter:
         train_groups = groups[train]
         for dim in range(y.shape[1]):
             pair_x = []
@@ -156,6 +160,19 @@ def contrastive_rank_oof(x: np.ndarray, y: np.ndarray,
             # but NOT calibrated affect levels; no R² is computed for them.
             estimated[test, dim] = classifier.decision_function(x[test])
     return estimated
+
+
+def work_heldout_regression(x: np.ndarray, y: np.ndarray,
+                            work_groups: np.ndarray,
+                            features: tuple[str, ...]) -> np.ndarray:
+    """Entire Beethoven/Schubert work held out, not just an 8-bar score."""
+    cols = [FEATURES.index(label) for label in features]
+    predicted = np.zeros_like(y)
+    for train, test in LeaveOneGroupOut().split(x, y, work_groups):
+        model = make_pipeline(StandardScaler(), Ridge(alpha=20.0))
+        model.fit(x[train][:, cols], y[train])
+        predicted[test] = model.predict(x[test][:, cols])
+    return predicted
 
 
 def cluster_bootstrap_pair_difference(y: np.ndarray, reference: np.ndarray,
@@ -221,6 +238,22 @@ def benchmark(root: Path) -> dict:
     confidence = cluster_bootstrap_pair_difference(y, full_pred, rank_pred, groups)
     confidence_against_dynamics = cluster_bootstrap_pair_difference(
         y, dynamics_pred, rank_pred, groups)
+    # Test whether score-level generalization was over-optimistic: Beethoven
+    # variations and Schubert segments form just four parent works, which
+    # generate substantially harder, high-variance held-out splits.
+    works = sorted({example["work"] for example in examples})
+    work_groups = np.array([works.index(example["work"]) for example in examples])
+    if len(works) != 4:
+        raise ValueError(f"unexpected_parent_works:{works}")
+    work_holdout = {}
+    for name, features in MODELS.items():
+        work_pred = work_heldout_regression(x, y, work_groups, features)
+        work_holdout[name] = evaluate(y, work_pred, groups)
+    rank_work_pred = contrastive_rank_oof(x, y, groups, cv_groups=work_groups)
+    rank_work_eval = evaluate(y, rank_work_pred, groups)
+    for item in rank_work_eval.values():
+        del item["centered_delta_r2"]
+    work_holdout["hard_pairwise_logistic"] = rank_work_eval
     return {
         "dataset": "PercePiano, Park et al. 2024, listener-annotated MIDI performances",
         "claim_scope": "perceptual axes Dark/Dramatic/Imaginative, NOT PIAST category equivalence",
@@ -235,6 +268,12 @@ def benchmark(root: Path) -> dict:
         "models": results,
         "rank_vs_regression_cluster_bootstrap": confidence,
         "rank_vs_dynamics_cluster_bootstrap": confidence_against_dynamics,
+        "strict_parent_work_holdout": {
+            "works": works,
+            "split": "LeaveOneGroupOut: all performances and excerpts of one entire parent work unseen",
+            "limitation": "only 4 parent works, so high between-work variation and weak statistical precision",
+            "models": work_holdout,
+        },
     }
 
 
@@ -254,6 +293,10 @@ def main():
                   metrics["hard_pair_evaluable"], "=",
                   round(metrics["hard_pair_accuracy"], 3)
                   if metrics["hard_pair_accuracy"] is not None else None)
+    print("STRICT parent-work holdout (4 unique parent works)")
+    for name, evaluation in report["strict_parent_work_holdout"]["models"].items():
+        print(name, {label: (value["hard_pair_correct"], value["hard_pair_evaluable"])
+                     for label, value in evaluation.items()})
     if args.output:
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(json.dumps(report, indent=2, allow_nan=False) + "\n",

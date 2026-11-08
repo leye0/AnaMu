@@ -42,6 +42,7 @@ on:
       - 'scripts/isovat_tension_benchmark.py'
       - 'scripts/cp_wtc_relative_benchmark.py'
       - 'scripts/percepiano_hard_benchmark.py'
+      - 'scripts/percepiano_pulse_hypothesis.py'
       - 'scripts/run_original_idyom.py'
       - 'scripts/import_idyom_dat.py'
       - 'scripts/extract_tonal_tension.py'
