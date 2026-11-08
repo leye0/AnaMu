@@ -1,0 +1,89 @@
+{
+  "record": "5257995",
+  "zip": "EMOPIA_2.2.zip",
+  "bytes": 32117182,
+  "sha256": "ec6debc927679c844f9d6084755cc25771d0953836c6ed3cb05340371a94bcc7",
+  "all_files": 5184,
+  "midi_files": 1071,
+  "raw_tag_files": 389,
+  "label_csv_files": 1,
+  "label_csv_rows": 1078,
+  "unique_clip_ids_in_label_csv": 1078,
+  "ids_with_multiple_rows": 0,
+  "max_rows_per_clip_id": 1,
+  "annotator_ids_and_row_counts": {
+    "D": 362,
+    "C": 546,
+    "A": 34,
+    "B": 136
+  },
+  "four_quadrant_row_counts": {
+    "1": 250,
+    "2": 265,
+    "3": 253,
+    "4": 310
+  },
+  "raw_tag_extensions": {
+    ".txt": 389
+  },
+  "root_paths": {
+    "EMOPIA_2.2": 5184
+  },
+  "schema_previews": [
+    {
+      "kind": "raw_tagging",
+      "suffix": ".txt",
+      "bytes": 107,
+      "first_line": "105.392000000 0.745572 1_1",
+      "second_line_shape": [
+        1
+      ]
+    },
+    {
+      "kind": "raw_tagging",
+      "suffix": ".txt",
+      "bytes": 151,
+      "first_line": "204.348000000 0.745 1_1",
+      "second_line_shape": [
+        1
+      ]
+    },
+    {
+      "kind": "raw_tagging",
+      "suffix": ".txt",
+      "bytes": 102,
+      "first_line": "0.060000000 0.749669 1_3",
+      "second_line_shape": [
+        1
+      ]
+    },
+    {
+      "kind": "raw_tagging",
+      "suffix": ".txt",
+      "bytes": 155,
+      "first_line": "0.084000000 0.744371 1_4",
+      "second_line_shape": [
+        1
+      ]
+    },
+    {
+      "kind": "raw_tagging",
+      "suffix": ".txt",
+      "bytes": 156,
+      "first_line": "0.000000000 0.747766 1_2",
+      "second_line_shape": [
+        1
+      ]
+    },
+    {
+      "kind": "label_csv",
+      "suffix": ".csv",
+      "bytes": 22688,
+      "first_line": "ID,4Q,annotator",
+      "second_line_shape": [
+        3
+      ]
+    }
+  ],
+  "scope": "metadata and schemas only; no MIDI or audio uploaded"
+}
