@@ -33,6 +33,14 @@ L'effet temporel précédent ne se reproduit donc pas. La moyenne des cinq
 humeurs difficiles progresse modestement (0,348 → 0,361), sans gain
 sur les 14 humeurs noncalm. Résultats **exploratoires**, car les 1 900
 exemples avaient déjà été examinés. Aucun algorithme promu en production.
+**[Test de transfert PIAST → IsoVAT](reports/piast-to-isovat-tension-transfer-2026-11-08.md)** :
+un classificateur `Tense` entraîné sur les 1 900 MIDI de PIAST classe
+seulement **17/30 paires** de tension humaine dans les dix triplets
+IsoVAT ; la distribution tonale ne l'aide pas (17/30), et la séquence
+aggrave (15/30). Un simple diamètre tonal *Tension Ribbons*, calculé
+sans apprendre les étiquettes, atteint **24/30** (résultat déjà exploré
+antérieurement). Le transfert est **négatif** : les labels `Tense` et
+la tension comparative d'auditeurs ne sont pas interchangeables.
 Les tests comparent explicitement les ordres humains de tension et les différences
 **sombre / imaginatif / dramatique** entre interprétations MIDI d'une même partition.
 Les algorithmes sont testables, mais **aucun gain sur PIAST Dark/Epic/Tense/Mysterious/Happy

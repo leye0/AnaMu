@@ -1,0 +1,450 @@
+{
+  "study": "Independent-corpus transfer of PIAST Tense onto IsoVAT listener-ranked tension",
+  "status": "exploratory; IsoVAT human ranks previously examined for different observables",
+  "corpus": "1900 PIAST training MIDI; 30 IsoVAT symbolic MIDI, ten controlled listener triplets",
+  "source_isovat_commit": "f62317920edd85ef4862e8f77633dc19f1a54c92",
+  "human_ground_truth": "Plut et al. (2022) Table 8, Aggregate G-T Order",
+  "train_tag": "PIAST Tense consensus >=2 of 3 expert mood annotators",
+  "test_concept": "relative tension as perceived in IsoVAT listener judgments",
+  "model": "one fixed class-balanced logistic regression C=.5 per feature family",
+  "no_isovat_model_selection_or_tuning": true,
+  "input": "MIDI alone; no audio, lyrics or emotion text for features",
+  "train_clip_count": 1900,
+  "positive_train": 230,
+  "isovat_test_count": 30,
+  "results": {
+    "baseline": {
+      "exact_orders": 2,
+      "correct_pairs": 17,
+      "by_set": {
+        "1": {
+          "predicted": "LMH",
+          "human": "HML",
+          "pairwise_correct": 0,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 4.018807585686087e-05,
+            "M": 0.0016783656389666602,
+            "L": 0.0065945468356417595
+          }
+        },
+        "2": {
+          "predicted": "HML",
+          "human": "HLM",
+          "pairwise_correct": 2,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.059071122798978755,
+            "M": 0.0006462051401578623,
+            "L": 0.00012858608142228906
+          }
+        },
+        "3": {
+          "predicted": "HLM",
+          "human": "HML",
+          "pairwise_correct": 2,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.00010142189903311395,
+            "M": 9.430600907964629e-06,
+            "L": 4.282664984453514e-05
+          }
+        },
+        "4": {
+          "predicted": "LHM",
+          "human": "HML",
+          "pairwise_correct": 1,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 5.167929850594918e-05,
+            "M": 2.0239472068612666e-05,
+            "L": 0.0001689017730258915
+          }
+        },
+        "5": {
+          "predicted": "HLM",
+          "human": "HML",
+          "pairwise_correct": 2,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 3.059923537565908e-05,
+            "M": 1.1617524270698262e-06,
+            "L": 1.1996374015538445e-06
+          }
+        },
+        "6": {
+          "predicted": "MHL",
+          "human": "LMH",
+          "pairwise_correct": 1,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.0031904807430508586,
+            "M": 0.005834370406172949,
+            "L": 0.0007954752673258166
+          }
+        },
+        "7": {
+          "predicted": "MHL",
+          "human": "MHL",
+          "pairwise_correct": 3,
+          "pairwise_possible": 3,
+          "exact_order": true,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.00015282067005091456,
+            "M": 0.07789056451370238,
+            "L": 4.020894402665832e-06
+          }
+        },
+        "8": {
+          "predicted": "LMH",
+          "human": "MLH",
+          "pairwise_correct": 2,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.00012035074078333463,
+            "M": 0.0005040361496281379,
+            "L": 0.0052248394328938295
+          }
+        },
+        "9": {
+          "predicted": "LMH",
+          "human": "MHL",
+          "pairwise_correct": 1,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.01996985351384261,
+            "M": 0.03738113607483355,
+            "L": 0.2612641302547832
+          }
+        },
+        "10": {
+          "predicted": "HML",
+          "human": "HML",
+          "pairwise_correct": 3,
+          "pairwise_possible": 3,
+          "exact_order": true,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.020651425275306143,
+            "M": 0.0007096000791951986,
+            "L": 0.00017078931581379297
+          }
+        }
+      }
+    },
+    "distribution": {
+      "exact_orders": 2,
+      "correct_pairs": 17,
+      "by_set": {
+        "1": {
+          "predicted": "LMH",
+          "human": "HML",
+          "pairwise_correct": 0,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.0004228000579354572,
+            "M": 0.0030813860619221243,
+            "L": 0.010200344592805602
+          }
+        },
+        "2": {
+          "predicted": "HML",
+          "human": "HLM",
+          "pairwise_correct": 2,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.05023143861263364,
+            "M": 0.002566852918257746,
+            "L": 0.0002087369800757307
+          }
+        },
+        "3": {
+          "predicted": "HLM",
+          "human": "HML",
+          "pairwise_correct": 2,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.00012074258545907337,
+            "M": 4.172372142594906e-05,
+            "L": 4.419712751756052e-05
+          }
+        },
+        "4": {
+          "predicted": "HLM",
+          "human": "HML",
+          "pairwise_correct": 2,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.00024683864535879476,
+            "M": 5.063036121176049e-05,
+            "L": 0.00021884578296063058
+          }
+        },
+        "5": {
+          "predicted": "HML",
+          "human": "HML",
+          "pairwise_correct": 3,
+          "pairwise_possible": 3,
+          "exact_order": true,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.00030416337039338137,
+            "M": 4.429113200513947e-06,
+            "L": 1.965691882196847e-06
+          }
+        },
+        "6": {
+          "predicted": "MHL",
+          "human": "LMH",
+          "pairwise_correct": 1,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.005325280287590005,
+            "M": 0.011010881229679196,
+            "L": 0.0013916385601466107
+          }
+        },
+        "7": {
+          "predicted": "MHL",
+          "human": "MHL",
+          "pairwise_correct": 3,
+          "pairwise_possible": 3,
+          "exact_order": true,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.00017114779785598768,
+            "M": 0.08522281122718216,
+            "L": 5.922952406633584e-06
+          }
+        },
+        "8": {
+          "predicted": "LMH",
+          "human": "MLH",
+          "pairwise_correct": 2,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.00023981598077679666,
+            "M": 0.0016688113224975364,
+            "L": 0.003903508792984319
+          }
+        },
+        "9": {
+          "predicted": "LHM",
+          "human": "MHL",
+          "pairwise_correct": 0,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.054713317380825785,
+            "M": 0.018899667768672523,
+            "L": 0.15538411964069612
+          }
+        },
+        "10": {
+          "predicted": "HLM",
+          "human": "HML",
+          "pairwise_correct": 2,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.01419705948089732,
+            "M": 0.00045910262287890993,
+            "L": 0.0011282424824697677
+          }
+        }
+      }
+    },
+    "temporal": {
+      "exact_orders": 2,
+      "correct_pairs": 15,
+      "by_set": {
+        "1": {
+          "predicted": "LMH",
+          "human": "HML",
+          "pairwise_correct": 0,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.0012400963810143622,
+            "M": 0.0015672998879909428,
+            "L": 0.007724192291705994
+          }
+        },
+        "2": {
+          "predicted": "HML",
+          "human": "HLM",
+          "pairwise_correct": 2,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.03179970947683966,
+            "M": 0.000999507717604796,
+            "L": 0.00041952105296109293
+          }
+        },
+        "3": {
+          "predicted": "LHM",
+          "human": "HML",
+          "pairwise_correct": 1,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 6.674351959458599e-05,
+            "M": 2.9640946502544602e-05,
+            "L": 0.00015905286149736004
+          }
+        },
+        "4": {
+          "predicted": "LHM",
+          "human": "HML",
+          "pairwise_correct": 1,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 6.142407342809391e-05,
+            "M": 2.0463939155735812e-05,
+            "L": 0.0002527634872716966
+          }
+        },
+        "5": {
+          "predicted": "HML",
+          "human": "HML",
+          "pairwise_correct": 3,
+          "pairwise_possible": 3,
+          "exact_order": true,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.0009367971017570384,
+            "M": 1.2768618164049185e-05,
+            "L": 4.364053261682416e-06
+          }
+        },
+        "6": {
+          "predicted": "MHL",
+          "human": "LMH",
+          "pairwise_correct": 1,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.004625533855760394,
+            "M": 0.004810747275261377,
+            "L": 0.0006150451978217815
+          }
+        },
+        "7": {
+          "predicted": "MHL",
+          "human": "MHL",
+          "pairwise_correct": 3,
+          "pairwise_possible": 3,
+          "exact_order": true,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 7.647835972877622e-05,
+            "M": 0.11966670857628318,
+            "L": 2.6063929504040137e-06
+          }
+        },
+        "8": {
+          "predicted": "LMH",
+          "human": "MLH",
+          "pairwise_correct": 2,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.0005615250723575065,
+            "M": 0.001494664585742988,
+            "L": 0.0034838703535983568
+          }
+        },
+        "9": {
+          "predicted": "LHM",
+          "human": "MHL",
+          "pairwise_correct": 0,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.05910011317007571,
+            "M": 0.03168470780855583,
+            "L": 0.2330197323705314
+          }
+        },
+        "10": {
+          "predicted": "HLM",
+          "human": "HML",
+          "pairwise_correct": 2,
+          "pairwise_possible": 3,
+          "exact_order": false,
+          "tied_pairs": 0,
+          "scores": {
+            "H": 0.017482833488297503,
+            "M": 0.00030403576681486933,
+            "L": 0.0009813415391152166
+          }
+        }
+      }
+    }
+  },
+  "controls": {
+    "note_density": {
+      "correct_pairs": 20,
+      "exact_orders": 3
+    },
+    "cloud_diameter": {
+      "correct_pairs": 24,
+      "exact_orders": 6
+    }
+  },
+  "random_order_null": {
+    "iterations": 20000,
+    "best_of_3_observed_pairs": 17,
+    "best_of_3_observed_exact": 2,
+    "familywise_p_pairs": 0.4310284485775711,
+    "familywise_p_exact": 0.7157642117894105,
+    "null": "independent uniform listener rank permutations within ten sets",
+    "caveat": "does not adjust for selection of this research direction after previous results"
+  },
+  "limitations": [
+    "PIAST 'Tense' is a perceived adjective, whereas IsoVAT ranks perceived tension; not identical measurement.",
+    "Mixed-genre, multi-instrument four-bar clips differ substantially from PIAST solo piano.",
+    "Only 10 triplets; their human orders were inspected in prior work. No claim of independent scientific confirmation.",
+    "Class probabilities cannot be compared as calibrated perceived-tension intensities."
+  ]
+}
