@@ -44,9 +44,9 @@ Une corrélation ne prouve pas un mécanisme causal. La **tension**, le
 | **Maintenant** | **S0 — Laboratoire MIDI brut** | Lecteur conservateur, vues sans pertes, fixtures et contrats de données. Aucune extraction audio. | **Premier incrément en cours** |
 | **Maintenant** | **S1 — Attentes mélodiques** | Baseline probabiliste puis comparaison IDyOM + Narmour/Schellenberg, vraies mesures de prédiction hors entraînement. | **Baseline et Narmour (outil `melody-features` + triplets datés) actifs ; IDyOM original et validation perceptive à faire** |
 | **Prochain** | **S2 — Harmonie et enchaînements** | Hypothèses d'accords, progression, fonction, tonalité locale, cadences, Tonal Pitch Space, Spiral Array ; tests sur vérité musicale annotée. | **music21 + Partitura actifs sur fixtures ; vérité musicale externe à venir** |
-| **Prochain** | **S3 — Motifs, formes, tension** | Répétitions/transformations, structure hiérarchique, mémoire et modèles temporels Lerdahl/Farbood. | À faire |
-| **Après** | **S4 — Fusion des mécanismes** | Entropie avant l'événement, surprise à l'événement, tension/résolution et interactions, ablations. | À faire |
-| **Démarré** | **S5 — Émotions humaines** | Relations calibrées aux labels et courbes **humaines** avec baselines, séparations d'œuvres et contrôles négatifs. | **Premier benchmark VGMIDI réel : 10 pièces jamais vues, 30 évaluations temporelles par pièce, MAE V/A 0,236/0,172 vs baseline 0,289/0,208 ; corrélation de forme encore faible. EMOPIA externe intact.** |
+| **En cours** | **S3 — Motifs, formes, tension** | Répétitions/transformations, structure hiérarchique, mémoire et modèles temporels Lerdahl/Farbood. | **Motifs/récurrences, cadences et mémoire multicadence en approximation calculable ; hiérarchie perceptive et modèles originaux complets à étudier.** |
+| **En cours** | **S4 — Fusion des mécanismes** | Entropie avant l'événement, surprise à l'événement, tension/résolution et interactions, ablations. | **Fusion temporelle réelle des originaux music21/Partitura/melody-features/jSymbolic, deux n-grammes de contrôle, mémoire/interaction et ablations. Extraction mutualisée et export de calibration JSON ajoutés ; IDyOM original non exécuté.** |
+| **En cours** | **S5 — Émotions humaines** | Relations calibrées aux labels et courbes **humaines** avec baselines, séparations d'œuvres et contrôles négatifs. | **20 morceaux connus comparés mesure par mesure aux humains en deux expériences : fusion de 1 203 variables de neuf familles, moteur Java original jSymbolic sur 137/141 MIDI, études de contribution par ablation. Corrélations temporelles modestes ; EMOPIA externe intact.** |
 | **Après preuve de besoin** | **S6 — Corpus ciblé** | Sélection par requirements de S0–S5, peu de MIDI fiables, couverture/erreurs/biais documentés. | Études de sources déjà réalisées ; sélection à redéfinir |
 | **Recherche appliquée** | **S7 — Bach, Chopin, puis pop** | Analyses explicables de pièces identifiées, confrontées à la théorie et aux évaluations humaines quand elles existent. | À faire |
 | **Long terme** | **S8 — Génération symbolique** | Génération + révision sous contraintes, rendus MIDI multipistes, évaluation humaine et musicale. | À faire |
@@ -181,6 +181,40 @@ Depuis le pilote VGMIDI, le projet a **une première comparaison réelle des
 connus mis de côté pour le test. Le résultat reste modeste, surtout pour la
 forme temporelle ; une jointure MD5 ou un audit instrumental ne valent toujours
 pas validation psychologique.
+
+### Reprise académique mesurée — 7 novembre 2026
+
+- [Dix mêmes thèmes, analyse exploratoire](../reports/vgmidi-temporal-ten-full.md) :
+  **MAE V/A 0,263 / 0,150**, corrélations temporelles intra-pièce
+  **+0,20 / +0,41**. Le pilote antérieur sur ces mêmes pièces reposait sur
+  24 variables ; la reprise en utilise 1 203. Les titres avaient déjà été
+  inspectés : ce n'est **pas** un test indépendant.
+- [Dix autres œuvres sélectionnées avant examen de leurs annotations](../reports/vgmidi-temporal-ten-confirmatory.md) :
+  **MAE V/A 0,177 / 0,193** contre la constante **0,340 / 0,263** ;
+  corrélations temporelles **+0,16 / +0,30**. Test interne VGMIDI,
+  pas de généralisation prouvée à Bach, Chopin ou à la pop.
+- Les résultats viennent de **Partitura, music21, melody-features, Narmour et
+  jSymbolic Java réellement exécutés**, complétés par des approximations
+  algorithmiques identifiées par famille et deux modèles d'attente formés
+  uniquement sur les œuvres d'entraînement. **IDyOM Lisp original n'a pas
+  été exécuté** ; les phénomènes cognitifs non observables ne sont pas
+  présentés comme des moteurs existants. Quatre MIDI ont échoué chez jSymbolic.
+- Les ablations sont effectuées **sur validation** : certaines familles
+  apportent un gain, d'autres non. L'agrégation des 1 203 colonnes n'est pas
+  une preuve que chacune contribue ni que les 23 théories sont reproduites.
+
+### Pipeline réutilisable — incrément suivant
+
+Le benchmark VGMIDI et la nouvelle inférence autonome passent par le **même
+extracteur académique** `anamu.emotion_pipeline.extract_academic_rows()`.
+Après apprentissage supervisé, `--model-out` exporte l'imputation, les
+échelles et les poids Ridge ainsi que les statistiques d'attente entraînées
+sur les seules pièces d'apprentissage, en **JSON sans désérialisation de code**.
+Chaque nouveau MIDI obtient des estimations valence/activation par mesure,
+les moteurs réellement disponibles et des avertissements d'extrapolation.
+Un script applique la chaîne à Bach BWV 66.6 et Chopin Mazurka op. 6 no 2
+distribués avec music21. **Ce sont des analyses de compositions connues,
+mais pas des évaluations humaines de leurs émotions**.
 
 ## 8. État du premier incrément S0/S1
 

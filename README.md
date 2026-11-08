@@ -22,6 +22,15 @@ de chaque mécanisme. Les rapprochements MIDI↔audio et **Demucs sont reportés
   [résultats détaillés](reports/vgmidi-temporal-ten.json). Il ne s'agit pas de
   prévoir les notes ou émotions futures ; les dix titres étaient simplement
   exclus de l'apprentissage du modèle.
+- **[Fusion académique — reprise sur ces mêmes dix pièces](reports/vgmidi-temporal-ten-full.md)** —
+  Partitura, music21, **melody-features**, **jSymbolic original**, familles
+  théoriques distinctes, mémoire et attentes symboliques ; audit de couverture
+  et ablations. Cette reprise est **exploratoire** : les titres avaient déjà
+  été examinés dans le premier pilote.
+- **[Vérification sur dix autres morceaux connus](reports/vgmidi-temporal-ten-confirmatory.md)** —
+  pièces choisies par identités MIDI **avant examen de leurs annotations**,
+  sans recoupement avec les dix précédentes, mêmes courbes humaines et AnaMu.
+  Ce second ensemble est un test interne VGMIDI, **pas** une validation externe.
 - **[Audits historiques](docs/audit-p0.md)** ·
   [jointure exacte](docs/p1-exact-join.md) ·
   [audit instrumental XMIDI](docs/p1-instrument-audit.md) ·
@@ -53,20 +62,48 @@ La base `anamu/` comporte :
   (tension tonale Herremans/Chew), music21 (tonalité Krumhansl-Schmuckler,
   sonorités et degrés romains hypothétiques), lecture d'export IDyOM **original**.
 - `tempo_map.py` : conversion MIDI beats → secondes de performance, avec
-  prise en compte des changements de tempo.
+  prise en compte des changements de tempo **dans les deux sens**, y compris
+  pour aligner les sorties d'outils en secondes sur les mesures MIDI.
+- `academic_fusion.py` : fusion **par mesure** des moteurs originaux et des
+  familles théoriques complémentaires. Sépare la provenance (logiciel publié
+  réellement exécuté, approximation explicitée, simple cadre psychologique),
+  les valeurs absentes et les observations globales des séries temporelles.
+- `academic_expectations.py` : deux modèles symboliques distincts entraînés
+  sur les **MIDI du lot d'entraînement uniquement** : attentes de mouvements
+  mélodiques candidats et attentes de sonorités harmoniques. Entropie préalable,
+  surprise réalisée et interaction des deux ; **ce ne sont ni IDyOM original
+  ni une prévision d'émotions futures**.
+- `academic_idyom.py` : intégration facultative de fichiers `.dat` obtenus
+  en faisant tourner **IDyOM original**, avec vérification du manifeste, des
+  SHA-256 des MIDI et résultats, et exclusion de tout MIDI test/validation
+  de l'ensemble de formation IDyOM déclaré. Si le Lisp ne tourne pas,
+  ses caractéristiques restent manquantes.
+- `emotion_pipeline.py` : **même extraction académique pour le banc VGMIDI
+  et pour tout nouveau MIDI connu**. Exporte au format JSON sûr les poids
+  de calibration Ridge, l'imputation, les échelles et les n-grammes de
+  l'entraînement (sans charger de `pickle`). Analyse valence/activation
+  par mesure, avec couverture et signalement des moteurs indisponibles.
+- `scripts/analyze_known_midi.py` : applique le modèle sauvegardé à un ou
+  plusieurs MIDI, avec jSymbolic Java original en option.
+- `scripts/analyze_known_scores.py` : exemple reproductible de la chaîne
+  sur **Bach BWV 66.6** et **Chopin, Mazurka op. 6 no 2**, deux œuvres connues
+  distribuées avec `music21` ; résultats inférés, **sans annotations humaines
+  locales** permettant de les valider.
 - `melody_toolbox.py` : **bibliothèque universitaire réelle**
   [`melody-features` 1.3.3](https://dmwhyatt.github.io/melody-features/),
   qui rassemble des centaines de descripteurs de mélodie issus de théories
   diverses. Sur neuf notes de test : **278 valeurs/structures, 12 familles** ;
   courbe temporelle des **cinq mesures Narmour** par triplet. Rejette les
-  pistes polyphoniques sans séparation de voix fiable. Ce ne sont pas des
+  pistes polyphoniques sans séparation de voix fiable, sauf si on demande
+  expressément une **hypothèse de ligne supérieure**, jamais présentée comme
+  la véritable mélodie. Ce ne sont pas des
   étiquettes émotionnelles ni une exécution d'IDyOM original.
 - `emopia.py` : inventaire du corpus EMOPIA directement à partir de ses noms
   de fichiers, hash, rejets, séparation reproductible de **chansons**.
 - `emotion_evaluation.py` : baselines sur entraînement seulement et score sur
   test réservé, macro-F1 quatre classes, couverture, abstentions, confusion.
 - `vgmidi_temporal.py` et `scripts/vgmidi_temporal_benchmark.py` : **première
-  véritable comparaison humaine**, sur 200 pièces de piano évaluées par ~30
+  véritable comparaison humaine (version initiale à 24 signaux)**, sur 200 pièces de piano évaluées par ~30
   auditeurs *mesure par mesure*. À partir de 141 MIDI chronologiquement
   fiables, 111 pièces entraînent le lien entre 24 caractéristiques MIDI
   explicables (dont **Partitura tonal tension** et **music21 harmonies**)
@@ -79,6 +116,15 @@ La base `anamu/` comporte :
   première amélioration **ne prouve pas** la compréhension des montées
   d'émotion. Le [rapport](reports/vgmidi-temporal-ten.md) montre aussi les
   erreurs, les refus et la dispersion des réponses humaines.
+  **La reprise complète** utilise maintenant **1 203 variables normalisées**
+  dans neuf groupes de provenances, avec de réelles courbes académiques
+  temporelles. Partitura, music21 et `melody-features` ont fonctionné sur
+  **141/141 pièces admissibles** ; jSymbolic original sur **137/141**.
+  Sur les dix pièces historiques : **MAE V/A = 0,263 / 0,150** ; corrélations
+  temporelles **+0,20 / +0,41**. Sur les **dix autres** pièces sélectionnées
+  avant inspection : **MAE V/A = 0,177 / 0,193**, comparé à la moyenne constante
+  **0,340 / 0,263** ; corrélations temporelles **+0,16 / +0,30**. L'exactitude
+  temporelle reste **modeste** malgré le gain sur la valeur moyenne.
 - `scripts/run_original_idyom.py` : configuration/lancement *optionnel* de
   l'outil IDyOM via py2lispIDyOM et SBCL. Le module
   `idyom_guardrails.py` vérifie les empreintes de toutes les pistes de
@@ -99,6 +145,12 @@ La base `anamu/` comporte :
   **6 fenêtres et 226 caractéristiques**, autant de définitions officielles,
   sur MIDI polyphonique synthétique. Archive vérifiée par SHA-256 et mise en
   cache ; aucune extraction audio ni validation émotionnelle humaine.
+- `scripts/batch_jsymbolic_vgmidi.py` : exécution **en lots du JAR Java 2.2
+  non modifié** sur les pièces temporellement admissibles de VGMIDI. Les
+  échecs individuels restent connus ; un `NaN` émis par jSymbolic pour une
+  statistique indéfinie reste **manquant**, jamais artificiellement zéro.
+  Les fenêtres de performance sont fusionnées par recouvrement temporel avec
+  les mesures MIDI.
 - `scripts/extract_tonal_tension.py`, `scripts/extract_harmony.py`,
   `scripts/emopia_benchmark.py` : exécutions locales et reproductibles.
 
@@ -142,9 +194,32 @@ Une **comparaison humaine VGMIDI** plus longue est disponible dans **le même
 workflow**, à déclencher avec `vgmidi_temporal=true` (ou un commit explicitement
 marqué `[vgmidi-run]`). Le job ne publie que des rapports dérivés, jamais les
 MIDI téléchargés. Le test unitaire des conventions VGMIDI roule normalement.
-**Bilan du 7 novembre 2026 : 81 tests locaux réussis ; deux jobs GitHub
-Actions réussis** (tests symboliques et analyse Java originale), sur
+L'option complète utilise `melody-features`, Partitura, music21, **le vrai
+jSymbolic Java**, la théorie rythmique/harmonique additionnelle et les deux
+modèles d'attentes MIDI, puis montre séparément les résultats par morceau,
+la couverture de chaque moteur et les ablations sur validation. Par défaut,
+**IDyOM Lisp original reste manquant** tant que ses propres fichiers de
+sortie validés ne sont pas fournis ; il n'est pas remplacé subrepticement.
+Le job facultatif exporte désormais aussi un **modèle JSON déployable** et
+analyse séparément un thème connu, Bach et Chopin à l'aide de ce modèle ;
+la mesure des émotions des auditeurs n'existe pas pour ces deux classiques.
+**Bilan du 7 novembre 2026 : 100 tests locaux réussis**, y compris les nouveaux
+adaptateurs académiques. Deux jobs GitHub Actions antérieurs ont réussi
+(tests symboliques et analyse Java originale), sur
 [l'exécution 42415633459](https://github.com/leye0/AnaMu/actions/runs/42415633459).
+
+Pour analyser une autre composition connue après récupération de
+`calibrated-model.json` dans les artefacts du job :
+
+```bash
+python -m scripts.analyze_known_midi --model ./calibrated-model.json \
+  --jsymbolic-jar /chemin/jSymbolic2.jar \
+  --json-out ./emotion-par-mesure.json /chemin/oeuvre-connue.mid
+```
+
+Sans le JAR, les observations jSymbolic manquent et sont **signalées** au
+lieu d'être inventées. Le transfert d'une calibration VGMIDI à d'autres
+styles n'est pas encore prouvé.
 
 ## Corpus et qualité
 

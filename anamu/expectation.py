@@ -118,3 +118,40 @@ class VariableOrderExpectancy:
             ))
             history.append(event)
         return result
+
+    def to_state(self) -> dict:
+        """Pure-data representation for reproducible, non-pickle deployment."""
+        if not self._fitted:
+            raise RuntimeError("fit the expectancy model before exporting")
+        return {
+            "max_order": self.max_order,
+            "smoothing": self.smoothing,
+            "vocabulary": sorted(self.vocabulary, key=lambda item: (str(type(item)), str(item))),
+            "counts": [[{"context": list(context),
+                          "events": [[event, count] for event, count in counter.items()]}
+                         for context, counter in bucket.items()]
+                        for bucket in self._counts],
+        }
+
+    @classmethod
+    def from_state(cls, state: dict) -> "VariableOrderExpectancy":
+        """Restore the exact trained n-gram statistics without executable code."""
+        model = cls(max_order=int(state["max_order"]), smoothing=float(state["smoothing"]))
+        model.vocabulary = frozenset(state["vocabulary"])
+        if not model.vocabulary or len(state["counts"]) != model.max_order + 1:
+            raise ValueError("invalid_expectancy_export")
+        model._counts = []
+        for order, bucket in enumerate(state["counts"]):
+            restored = {}
+            for entry in bucket:
+                context = tuple(entry["context"])
+                if len(context) != order or context in restored:
+                    raise ValueError("invalid_expectancy_context")
+                counter = Counter({event: int(count) for event, count in entry["events"]})
+                if any(count <= 0 or event not in model.vocabulary
+                       for event, count in counter.items()):
+                    raise ValueError("invalid_expectancy_counts")
+                restored[context] = counter
+            model._counts.append(restored)
+        model._fitted = True
+        return model
