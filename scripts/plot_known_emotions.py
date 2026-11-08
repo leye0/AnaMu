@@ -1,7 +1,7 @@
 """Make an SVG of AnaMu's inferred trajectories on known classic works.
 
-No human reference lines are drawn: Bach and Chopin in the bundled music21
-corpus are not part of the temporally human-annotated VGMIDI benchmark.
+No human reference lines are drawn: these bundled music21 scores are not part
+of the temporally human-annotated VGMIDI benchmark.
 """
 
 from __future__ import annotations
@@ -30,7 +30,7 @@ def main() -> None:
         '.small{font-size:12px}.axis{stroke:#cad3dc;stroke-width:1}'
         '.valence{fill:none;stroke:#167b75;stroke-width:3}'
         '.arousal{fill:none;stroke:#ad4033;stroke-width:3}</style>',
-        '<text x="28" y="36" style="font-size:25px;font-weight:bold">AnaMu — Bach et Chopin : émotions estimées</text>',
+        '<text x="28" y="36" style="font-size:25px;font-weight:bold">AnaMu — compositions classiques : émotions estimées</text>',
         '<text x="28" y="62" class="small">Valence (vert) et activation (rouge), de −1 à +1, par mesure ; '
         'aucune annotation humaine correspondante disponible.</text>',
     ]

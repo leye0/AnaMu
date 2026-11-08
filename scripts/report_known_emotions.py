@@ -15,7 +15,7 @@ def summarize(report: dict) -> str:
     lines = [
         "# AnaMu — analyse de compositions connues",
         "",
-        "**Estimations algorithmiques uniquement.** Ces deux œuvres n'ont pas",
+        "**Estimations algorithmiques uniquement.** Ces œuvres n'ont pas",
         "d'annotations humaines temporelles associées dans VGMIDI ; ce rapport",
         "ne mesure donc **pas** leur justesse émotionnelle. Le modèle est calibré",
         "sur d'autres pièces annotées par des humains.",
@@ -52,7 +52,7 @@ def summarize(report: dict) -> str:
         "Chaque point du graphique correspond à une mesure MIDI, et les valeurs",
         "vont de −1 à +1. L'analyse peut refléter des régularités apprises sur",
         "VGMIDI, mais ni le transfert au répertoire classique ni les émotions de",
-        "ses auditeurs n'ont été validés sur Bach ou Chopin.",
+        "ses auditeurs n'ont été validés sur ces œuvres.",
         "",
     ]
     return "\n".join(lines)

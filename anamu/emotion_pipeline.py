@@ -31,7 +31,9 @@ SCHEMA = "anamu-symbolic-emotions-ridge-v1"
 
 
 def execute_original_jsymbolic(path: Path, jar: Path, *,
-                               window_seconds: float = 10., timeout_seconds: int = 240) -> dict:
+                               window_seconds: float = 10., timeout_seconds: int = 240,
+                               fallback_window_seconds: float | None = 30.,
+                               fallback_timeout_seconds: int = 120) -> dict:
     """Execute real jSymbolic 2.2 on a new work and return its ACE windows.
 
     No network or fabricated substitution. The official tool can fail on
@@ -39,16 +41,34 @@ def execute_original_jsymbolic(path: Path, jar: Path, *,
     """
     if not path.is_file() or not jar.is_file() or window_seconds <= 0:
         raise ValueError("missing_midi_or_original_jsymbolic_jar")
+    if timeout_seconds <= 0 or fallback_timeout_seconds <= 0:
+        raise ValueError("invalid_jsymbolic_timeout")
+    if fallback_window_seconds is not None and fallback_window_seconds <= window_seconds:
+        raise ValueError("fallback_window_must_be_longer")
     with tempfile.TemporaryDirectory(prefix="anamu-original-jsymbolic-") as tmp:
         xml = Path(tmp) / "features.xml"
         definitions = Path(tmp) / "definitions.xml"
-        completed = subprocess.run(
-            ["java", "-Xmx3g", "-jar", str(jar.resolve()), "-csv", "-window",
-             str(path.resolve()), str(xml), str(definitions), str(window_seconds), "0"],
-            cwd=jar.resolve().parent, capture_output=True, text=True,
-            timeout=timeout_seconds)
-        if completed.returncode:
-            raise RuntimeError("original_jsymbolic_failed:" + completed.stderr[-240:])
+        options = [(window_seconds, timeout_seconds)]
+        if fallback_window_seconds is not None:
+            options.append((fallback_window_seconds, fallback_timeout_seconds))
+        for index, (actual_window, budget) in enumerate(options):
+            xml.unlink(missing_ok=True)
+            definitions.unlink(missing_ok=True)
+            try:
+                completed = subprocess.run(
+                    ["java", "-Xmx3g", "-jar", str(jar.resolve()), "-csv", "-window",
+                     str(path.resolve()), str(xml), str(definitions), str(actual_window), "0"],
+                    cwd=jar.resolve().parent, capture_output=True, text=True,
+                    timeout=budget)
+            except subprocess.TimeoutExpired:
+                # Longer windows mean fewer genuine Java sections. This is a
+                # documented granularity change, never a synthetic substitute.
+                if index + 1 == len(options):
+                    raise
+                continue
+            if completed.returncode:
+                raise RuntimeError("original_jsymbolic_failed:" + completed.stderr[-240:])
+            break
         if not xml.is_file():
             raise RuntimeError("original_jsymbolic_missing_ace")
         data = read_jsymbolic_ace(xml, max_bytes=200_000_000,
@@ -57,7 +77,10 @@ def execute_original_jsymbolic(path: Path, jar: Path, *,
                    if Path(item["source_id"]).name == path.name]
         if len(matched) != 1:
             raise RuntimeError("original_jsymbolic_no_unique_matching_source")
-        return matched[0]
+        record = matched[0]
+        record["anamu_extraction_window_seconds"] = actual_window
+        record["anamu_window_fallback_used"] = actual_window != window_seconds
+        return record
 
 
 def infer_measure_count(path: str | Path) -> int:
@@ -236,12 +259,18 @@ def analyze_known_midi(path: str | Path, artifact: dict, *,
               for name, state in artifact["expectancy_models"].items()}
     rows, metadata, engines = extract_academic_rows(
         path, n_measures, jsymbolic_record=jsymbolic_record, expectancy_models=models)
+    if jsymbolic_record is not None and "anamu_extraction_window_seconds" in jsymbolic_record:
+        engines["jsymbolic_original_window_seconds"] = jsymbolic_record[
+            "anamu_extraction_window_seconds"]
     estimates = predict_ridge_artifact(artifact, rows)
     names = artifact["feature_names"]
     used = sum(any(row.get(name) is not None and
                    isinstance(row[name], (int, float)) and math.isfinite(row[name])
                    for row in rows) for name in names)
     warnings = []
+    if jsymbolic_record is not None and jsymbolic_record.get("anamu_window_fallback_used"):
+        warnings.append("original jSymbolic used longer windows after timeout; "
+                        "temporal resolution differs from 10-second training windows")
     if engines.get("jsymbolic") != "ok" and any(name.startswith("jsym_") for name in names):
         warnings.append("original jSymbolic unavailable: model imputes its features")
     if any(name.startswith("idyom_") for name in names):

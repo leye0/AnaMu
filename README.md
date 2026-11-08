@@ -229,6 +229,14 @@ lieu d'être inventées. Le transfert d'une calibration VGMIDI à d'autres
 styles n'est pas encore prouvé.
 Pour reproduire les trajectoires Bach/Chopin déjà publiées avec leur partition
 intégrée à music21 : `python -m scripts.analyze_known_scores --out ./analyses`.
+Pour étendre le traitement à **cinq œuvres identifiées de Bach, Chopin,
+Mozart et Beethoven**, utiliser `python -m scripts.analyze_known_scores
+--expanded --out ./analyses` (ajouter `--jsymbolic-jar ...` pour l'original
+Java). Le moteur réessaie **avec de véritables fenêtres Java plus longues**
+après un timeout ; il signale explicitement cette résolution temporelle
+différente de celle de l'apprentissage, ou l'absence persistante de Java.
+La même analyse élargie est disponible via le workflow habituel avec
+`classics_analysis=true` ou `[classics-run]`, sans réapprendre VGMIDI.
 
 ## Corpus et qualité
 

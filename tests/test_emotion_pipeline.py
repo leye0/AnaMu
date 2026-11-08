@@ -2,17 +2,47 @@
 
 import tempfile
 import unittest
+import subprocess
 from pathlib import Path
+from unittest.mock import patch
 
 import numpy as np
 
 from anamu.emotion_pipeline import (export_ridge_artifact, load_ridge_artifact,
-                                    predict_ridge_artifact, infer_measure_count)
+                                    predict_ridge_artifact, infer_measure_count,
+                                    execute_original_jsymbolic)
 from anamu.expectation import VariableOrderExpectancy
 from scripts.vgmidi_temporal_benchmark import create_model, fit, predict
 
 
 class EmotionPipelineTests(unittest.TestCase):
+    def test_original_java_timeout_falls_back_to_real_longer_windows(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            midi, jar = Path(tmp) / "known.mid", Path(tmp) / "jSymbolic2.jar"
+            midi.touch()
+            jar.touch()
+            attempted = []
+
+            def fake_java(command, **kwargs):
+                window = float(command[-2])
+                attempted.append(window)
+                if window == 10.:
+                    raise subprocess.TimeoutExpired(command, kwargs["timeout"])
+                Path(command[-4]).write_text("original-java-output")
+                return subprocess.CompletedProcess(command, 0, "", "")
+
+            # This validates fallback selection and provenance without
+            # pretending a mock executed any real academic feature algorithm.
+            ace = {"data_sets": [{"source_id": str(midi),
+                                  "whole_piece_features": {}, "windows": []}]}
+            with patch("anamu.emotion_pipeline.subprocess.run", side_effect=fake_java), \
+                 patch("anamu.emotion_pipeline.read_jsymbolic_ace", return_value=ace):
+                record = execute_original_jsymbolic(midi, jar, timeout_seconds=1,
+                                                     fallback_timeout_seconds=1)
+            self.assertEqual(attempted, [10., 30.])
+            self.assertTrue(record["anamu_window_fallback_used"])
+            self.assertEqual(record["anamu_extraction_window_seconds"], 30.)
+
     def test_safe_json_ridge_roundtrip_matches_sklearn_with_missing_features(self):
         matrix = np.asarray([[1.0, np.nan, 5.0], [2.0, 3.0, np.nan],
                              [5.0, 4.0, 4.0], [7.0, np.nan, 6.0]])

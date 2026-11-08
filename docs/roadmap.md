@@ -229,6 +229,9 @@ directement sans apprendre de nouveau sur les œuvres analysées.
   temporelles SVG et la couverture explicite des vrais moteurs.
 - jSymbolic original s'exécute sur Bach. Il a atteint le timeout sur Chopin ;
   ses valeurs sont **absentes puis imputées**, sans prétendre qu'il ait réussi.
+  Pour la prochaine exécution, une **reprise contrôlée à fenêtres originales
+  plus longues** est maintenant implémentée et son changement de granularité
+  est marqué dans le résultat. Son succès réel sur Chopin reste à vérifier.
 - Avec jSymbolic original, la réanalyse autonome des **136 mesures de Chrono
   Trigger** reproduit les sorties du banc académique avec une erreur numérique
   maximale inférieure à `3e-15` ; la chaîne entraînement → export → rechargement

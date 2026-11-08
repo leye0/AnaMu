@@ -32,6 +32,9 @@ def main() -> None:
                         help="optional original Java ACE XML OR checksum-verified jSymbolic batch directory")
     java_group.add_argument("--jsymbolic-jar", type=Path,
                             help="run the original Java engine on each new piece")
+    parser.add_argument("--jsymbolic-timeout", type=int, default=120)
+    parser.add_argument("--jsymbolic-fallback-window", type=float, default=30.)
+    parser.add_argument("--jsymbolic-fallback-timeout", type=int, default=120)
     parser.add_argument("--measure-count", type=int,
                         help="explicit measure count if known from verified human grid")
     parser.add_argument("midis", type=Path, nargs="+", help="known original MIDI compositions")
@@ -56,7 +59,10 @@ def main() -> None:
         error = None
         if args.jsymbolic_jar:
             try:
-                record = execute_original_jsymbolic(midi, args.jsymbolic_jar)
+                record = execute_original_jsymbolic(
+                    midi, args.jsymbolic_jar, timeout_seconds=args.jsymbolic_timeout,
+                    fallback_window_seconds=args.jsymbolic_fallback_window,
+                    fallback_timeout_seconds=args.jsymbolic_fallback_timeout)
             except Exception as exc:
                 # A single upstream Java failure must never become a fake
                 # academic observation or block the rest of the batch.
