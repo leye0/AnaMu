@@ -225,9 +225,56 @@ des 1 400 extraits précédemment examinés**. Les partitions restent
 séparées par groupe ; les paramètres restent identiques. Une hausse sur
 les 217 anciens tests n'est **pas** la preuve recherchée.
 
-**Statut avant exécution :** code et tests locaux d'analyse temporelle
-écrits, humeurs difficiles et variantes fixées ; résultats du test sur
-les morceaux 1 401–1 900 **encore inconnus** à cette étape.
+### Résultat réel — 8 novembre 2026, aucune victoire globale
+
+Le workflow GitHub s'est terminé avec succès. Les **1 900 MIDI ont été
+analysés sans aucun rejet** : 1 331 entraînement, 274 validation,
+295 test. Dans ce dernier, **78 extraits de groupes vidéo n'appartenaient
+à aucun des 1 400 précédemment examinés**. Les cinq étiquettes difficiles
+avaient toutes au moins trois positifs dans ces 78 nouveaux extraits.
+
+| Algorithme | Hard 5 validation | **Hard 5 nouveau test** | 14 noncalm nouveau test | Avec Calm (diagnostic) |
+|---|---:|---:|---:|---:|
+| H1 : indices physiques | **0,362** | **0,363** | **0,536** | **0,553** |
+| H1 + surprise mélodique | 0,358 | 0,344 | 0,525 | 0,543 |
+| H1 + tension temporelle | 0,360 | 0,334 | 0,511 | 0,532 |
+| H1 + tension de mesures mélangées | 0,337 | 0,297 | 0,502 | 0,522 |
+| H1 + surprise + tension | 0,356 | 0,353 | 0,520 | 0,539 |
+
+Pour les cinq humeurs, la référence de fréquence seule est à **0,131**
+d'AP moyenne. Une AP de 0,363 n'est pas un « 36,3 % de bonnes réponses ».
+
+| Humeur | Positifs nouveaux | H1 AP | Tension AP | Surprise + tension AP |
+|---|---:|---:|---:|---:|
+| Mysterious | 13 | **0,403** | 0,334 | 0,361 |
+| Epic | 6 | **0,313** | 0,221 | 0,306 |
+| Tense | 11 | 0,330 | 0,349 | **0,379** |
+| Dark | 9 | 0,255 | 0,258 | **0,304** |
+| Happy | 12 | **0,514** | 0,507 | 0,416 |
+
+**Verdict : hypothèse rejetée comme amélioration générale.** La tension
+temporelle conserve davantage de signal que sa version mélangée, mais elle
+ne dépasse pas le modèle simple. La combinaison surprise + tension donne
+des pistes locales pour `Tense` et `Dark` (+0,049 d'AP chacun), aux dépens
+des autres cibles. Cette observation est **postérieure au test** ; choisir
+maintenant de n'activer ces indices que sur ces deux humeurs serait du
+réglage sur le test et **ne prouverait rien** sans données indépendantes.
+Le gain de surprise observé sur le précédent test nouveau (94 clips) ne
+se généralise pas automatiquement à ce nouveau lot de 78 extraits.
+
+Les JSON complets de `reports/piast-at-1900-*` conservent en outre, pour
+chaque humeur, les cinq extraits positifs les plus mal classés et les cinq
+extraits non annotés dans cette humeur les plus fortement classés. Cela
+permet un audit qualitatif des erreurs, sans prétendre qu'une annotation
+manquante signifie « émotion absente ».
+
+**Direction suivante :** diagnostiquer les erreurs de catégories
+particulières à partir de ces extraits et d'un nouveau jeu de données.
+PIAST-AT a maintenant livré tous ses 1 900 MIDI appariés : **ne plus
+revendiquer un nouveau test PIAST totalement inédit** après lecture de
+ces résultats. Pour tester une spécialisation par humeur, obtenir une
+évaluation réellement indépendante (autre corpus, nouvelle annotation,
+ou protocole de validation croisée imbriquée explicitement exploratoire).
 
 ## Résultat observé — première hypothèse (8 novembre 2026)
 

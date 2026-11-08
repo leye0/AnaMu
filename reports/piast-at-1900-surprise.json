@@ -1,0 +1,1593 @@
+{
+  "dataset": "PIAST-AT",
+  "source": "Hayeonbang/PIAST",
+  "annotation_kind": "piano mood descriptors, not listeners' felt emotions",
+  "input": "symbolic MIDI only, no recorded audio",
+  "consensus": "at least two of three expert annotators",
+  "feature_set": "research_surprise",
+  "expectancy_protocol": {
+    "model": "smoothed variable-order interval n-gram; not original IDyOM",
+    "prior_max_order": 3,
+    "smoothing": 2.0,
+    "shuffled_event_order": false,
+    "training_prior": "out-of-fold, source-group-exclusive",
+    "validation_test_prior": "all train groups only",
+    "training_fold_sizes": {
+      "0": 272,
+      "1": 292,
+      "2": 255,
+      "3": 240,
+      "4": 272
+    },
+    "melody_viewpoint": "upper-pitch-onset candidate, interval clipped to +/-24 semitones"
+  },
+  "model": "fixed class-balanced logistic regression per tag (C=0.5)",
+  "fixed_decision_threshold": 0.5,
+  "split_policy": "deterministic source-video-disjoint 70/15/15; no label stratification",
+  "annotated": 2023,
+  "local_matched_midis": 1900,
+  "requested_analysis_limit": 1900,
+  "previously_examined_pilot_count": 1400,
+  "fresh_heldout_test_size": 78,
+  "accepted": 1900,
+  "rejected": [],
+  "split_sizes": {
+    "train": 1331,
+    "validation": 274,
+    "test": 295
+  },
+  "split_source_groups": {
+    "train": 1329,
+    "validation": 274,
+    "test": 293
+  },
+  "feature_count": 119,
+  "feature_names": [
+    "cue_articulation_median_ratio",
+    "cue_detached_fraction",
+    "cue_dynamic_second_half_minus_first",
+    "cue_legato_fraction",
+    "cue_major_profile_fit",
+    "cue_minor_minus_major_fit",
+    "cue_minor_profile_fit",
+    "cue_mode_fit_strength",
+    "cue_performed_bpm",
+    "cue_tempo_log_variation",
+    "end_of_measure_density__last_minus_first",
+    "end_of_measure_density__max",
+    "end_of_measure_density__mean",
+    "end_of_measure_density__min",
+    "end_of_measure_density__observed_fraction",
+    "end_of_measure_density__std",
+    "fraction_high_register__last_minus_first",
+    "fraction_high_register__max",
+    "fraction_high_register__mean",
+    "fraction_high_register__min",
+    "fraction_high_register__observed_fraction",
+    "fraction_high_register__std",
+    "fraction_low_register__last_minus_first",
+    "fraction_low_register__max",
+    "fraction_low_register__mean",
+    "fraction_low_register__min",
+    "fraction_low_register__observed_fraction",
+    "fraction_low_register__std",
+    "mean_abs_melodic_leap__last_minus_first",
+    "mean_abs_melodic_leap__max",
+    "mean_abs_melodic_leap__mean",
+    "mean_abs_melodic_leap__min",
+    "mean_abs_melodic_leap__observed_fraction",
+    "mean_abs_melodic_leap__std",
+    "mean_duration_beats__last_minus_first",
+    "mean_duration_beats__max",
+    "mean_duration_beats__mean",
+    "mean_duration_beats__min",
+    "mean_duration_beats__observed_fraction",
+    "mean_duration_beats__std",
+    "mean_pitch__last_minus_first",
+    "mean_pitch__max",
+    "mean_pitch__mean",
+    "mean_pitch__min",
+    "mean_pitch__observed_fraction",
+    "mean_pitch__std",
+    "mean_polyphony__last_minus_first",
+    "mean_polyphony__max",
+    "mean_polyphony__mean",
+    "mean_polyphony__min",
+    "mean_polyphony__observed_fraction",
+    "mean_polyphony__std",
+    "mean_velocity__last_minus_first",
+    "mean_velocity__max",
+    "mean_velocity__mean",
+    "mean_velocity__min",
+    "mean_velocity__observed_fraction",
+    "mean_velocity__std",
+    "melodic_direction_bias__last_minus_first",
+    "melodic_direction_bias__max",
+    "melodic_direction_bias__mean",
+    "melodic_direction_bias__min",
+    "melodic_direction_bias__observed_fraction",
+    "melodic_direction_bias__std",
+    "n_measures",
+    "note_density__last_minus_first",
+    "note_density__max",
+    "note_density__mean",
+    "note_density__min",
+    "note_density__observed_fraction",
+    "note_density__std",
+    "onset_density__last_minus_first",
+    "onset_density__max",
+    "onset_density__mean",
+    "onset_density__min",
+    "onset_density__observed_fraction",
+    "onset_density__std",
+    "pc_entropy__last_minus_first",
+    "pc_entropy__max",
+    "pc_entropy__mean",
+    "pc_entropy__min",
+    "pc_entropy__observed_fraction",
+    "pc_entropy__std",
+    "pitch_range__last_minus_first",
+    "pitch_range__max",
+    "pitch_range__mean",
+    "pitch_range__min",
+    "pitch_range__observed_fraction",
+    "pitch_range__std",
+    "surprise_entropy_before_mean",
+    "surprise_entropy_before_std",
+    "surprise_entropy_x_ic",
+    "surprise_event_count",
+    "surprise_ic_end_minus_start",
+    "surprise_ic_given_low_entropy",
+    "surprise_ic_max",
+    "surprise_ic_mean",
+    "surprise_ic_negative_jump_mean",
+    "surprise_ic_p90",
+    "surprise_ic_positive_jump_mean",
+    "surprise_ic_std",
+    "velocity_variation__last_minus_first",
+    "velocity_variation__max",
+    "velocity_variation__mean",
+    "velocity_variation__min",
+    "velocity_variation__observed_fraction",
+    "velocity_variation__std",
+    "vertical_interval_clash__last_minus_first",
+    "vertical_interval_clash__max",
+    "vertical_interval_clash__mean",
+    "vertical_interval_clash__min",
+    "vertical_interval_clash__observed_fraction",
+    "vertical_interval_clash__std",
+    "weak_beat_onset_fraction__last_minus_first",
+    "weak_beat_onset_fraction__max",
+    "weak_beat_onset_fraction__mean",
+    "weak_beat_onset_fraction__min",
+    "weak_beat_onset_fraction__observed_fraction",
+    "weak_beat_onset_fraction__std"
+  ],
+  "mood_popularity": [
+    {
+      "tag": "Emotional",
+      "clips_with_tag": 1566,
+      "human_votes": 3591,
+      "majority_clips": 1225
+    },
+    {
+      "tag": "Relaxing/Calm",
+      "clips_with_tag": 1379,
+      "human_votes": 2747,
+      "majority_clips": 908
+    },
+    {
+      "tag": "Bright",
+      "clips_with_tag": 931,
+      "human_votes": 1670,
+      "majority_clips": 521
+    },
+    {
+      "tag": "Dreamy",
+      "clips_with_tag": 881,
+      "human_votes": 1413,
+      "majority_clips": 400
+    },
+    {
+      "tag": "Happy",
+      "clips_with_tag": 807,
+      "human_votes": 1257,
+      "majority_clips": 332
+    },
+    {
+      "tag": "Mysterious",
+      "clips_with_tag": 647,
+      "human_votes": 993,
+      "majority_clips": 254
+    },
+    {
+      "tag": "Playful",
+      "clips_with_tag": 642,
+      "human_votes": 1175,
+      "majority_clips": 360
+    },
+    {
+      "tag": "Upbeat/Energetic",
+      "clips_with_tag": 599,
+      "human_votes": 1121,
+      "majority_clips": 353
+    },
+    {
+      "tag": "Passionate",
+      "clips_with_tag": 598,
+      "human_votes": 1073,
+      "majority_clips": 327
+    },
+    {
+      "tag": "Intense/Grand",
+      "clips_with_tag": 571,
+      "human_votes": 963,
+      "majority_clips": 274
+    },
+    {
+      "tag": "Dark",
+      "clips_with_tag": 547,
+      "human_votes": 897,
+      "majority_clips": 246
+    },
+    {
+      "tag": "Sad",
+      "clips_with_tag": 538,
+      "human_votes": 849,
+      "majority_clips": 221
+    },
+    {
+      "tag": "Tense",
+      "clips_with_tag": 508,
+      "human_votes": 844,
+      "majority_clips": 239
+    },
+    {
+      "tag": "Epic",
+      "clips_with_tag": 417,
+      "human_votes": 674,
+      "majority_clips": 181
+    },
+    {
+      "tag": "Cute",
+      "clips_with_tag": 361,
+      "human_votes": 535,
+      "majority_clips": 127
+    },
+    {
+      "tag": "Powerful",
+      "clips_with_tag": 324,
+      "human_votes": 564,
+      "majority_clips": 161
+    }
+  ],
+  "validation": {
+    "named_moods": {
+      "labels": 15,
+      "mean_average_precision": 0.5304371215547232,
+      "mean_prevalence_baseline": 0.1583941605839416
+    },
+    "all_moods": {
+      "labels": 16,
+      "mean_average_precision": 0.5507880932713212,
+      "mean_prevalence_baseline": 0.1852189781021898
+    },
+    "per_mood": {
+      "Happy": {
+        "status": "trained",
+        "train_positives": 227,
+        "evaluated_positives": 43,
+        "evaluated_total": 274,
+        "train_prevalence": 0.17054845980465816,
+        "observed_prevalence": 0.15693430656934307,
+        "average_precision": 0.4289419690564992,
+        "prevalence_baseline_ap": 0.15693430656934307,
+        "f1_fixed_threshold_0_5": 0.3815789473684211,
+        "eligible": true
+      },
+      "Bright": {
+        "status": "trained",
+        "train_positives": 349,
+        "evaluated_positives": 67,
+        "evaluated_total": 274,
+        "train_prevalence": 0.2622088655146506,
+        "observed_prevalence": 0.24452554744525548,
+        "average_precision": 0.686486223821456,
+        "prevalence_baseline_ap": 0.24452554744525548,
+        "f1_fixed_threshold_0_5": 0.6054054054054054,
+        "eligible": true
+      },
+      "Playful": {
+        "status": "trained",
+        "train_positives": 237,
+        "evaluated_positives": 60,
+        "evaluated_total": 274,
+        "train_prevalence": 0.17806160781367392,
+        "observed_prevalence": 0.21897810218978103,
+        "average_precision": 0.7071309782099517,
+        "prevalence_baseline_ap": 0.21897810218978103,
+        "f1_fixed_threshold_0_5": 0.7428571428571429,
+        "eligible": true
+      },
+      "Cute": {
+        "status": "trained",
+        "train_positives": 86,
+        "evaluated_positives": 18,
+        "evaluated_total": 274,
+        "train_prevalence": 0.06461307287753569,
+        "observed_prevalence": 0.06569343065693431,
+        "average_precision": 0.6431286686303539,
+        "prevalence_baseline_ap": 0.06569343065693431,
+        "f1_fixed_threshold_0_5": 0.375,
+        "eligible": true
+      },
+      "Relaxing/Calm": {
+        "status": "trained",
+        "train_positives": 580,
+        "evaluated_positives": 116,
+        "evaluated_total": 274,
+        "train_prevalence": 0.4357625845229151,
+        "observed_prevalence": 0.4233576642335766,
+        "average_precision": 0.8213845843524392,
+        "prevalence_baseline_ap": 0.4233576642335766,
+        "f1_fixed_threshold_0_5": 0.7351778656126482,
+        "eligible": true
+      },
+      "Emotional": {
+        "status": "trained",
+        "train_positives": 803,
+        "evaluated_positives": 161,
+        "evaluated_total": 274,
+        "train_prevalence": 0.6033057851239669,
+        "observed_prevalence": 0.5875912408759124,
+        "average_precision": 0.8560526690202896,
+        "prevalence_baseline_ap": 0.5875912408759124,
+        "f1_fixed_threshold_0_5": 0.7886435331230284,
+        "eligible": true
+      },
+      "Dreamy": {
+        "status": "trained",
+        "train_positives": 262,
+        "evaluated_positives": 54,
+        "evaluated_total": 274,
+        "train_prevalence": 0.19684447783621337,
+        "observed_prevalence": 0.19708029197080293,
+        "average_precision": 0.3903898927146912,
+        "prevalence_baseline_ap": 0.19708029197080293,
+        "f1_fixed_threshold_0_5": 0.4774193548387097,
+        "eligible": true
+      },
+      "Mysterious": {
+        "status": "trained",
+        "train_positives": 159,
+        "evaluated_positives": 33,
+        "evaluated_total": 274,
+        "train_prevalence": 0.11945905334335086,
+        "observed_prevalence": 0.12043795620437957,
+        "average_precision": 0.19715649713128314,
+        "prevalence_baseline_ap": 0.12043795620437957,
+        "f1_fixed_threshold_0_5": 0.29310344827586204,
+        "eligible": true
+      },
+      "Sad": {
+        "status": "trained",
+        "train_positives": 138,
+        "evaluated_positives": 34,
+        "evaluated_total": 274,
+        "train_prevalence": 0.10368144252441773,
+        "observed_prevalence": 0.12408759124087591,
+        "average_precision": 0.38506734375097357,
+        "prevalence_baseline_ap": 0.12408759124087591,
+        "f1_fixed_threshold_0_5": 0.4222222222222222,
+        "eligible": true
+      },
+      "Dark": {
+        "status": "trained",
+        "train_positives": 162,
+        "evaluated_positives": 34,
+        "evaluated_total": 274,
+        "train_prevalence": 0.1217129977460556,
+        "observed_prevalence": 0.12408759124087591,
+        "average_precision": 0.4041137109607024,
+        "prevalence_baseline_ap": 0.12408759124087591,
+        "f1_fixed_threshold_0_5": 0.41904761904761906,
+        "eligible": true
+      },
+      "Tense": {
+        "status": "trained",
+        "train_positives": 160,
+        "evaluated_positives": 33,
+        "evaluated_total": 274,
+        "train_prevalence": 0.12021036814425244,
+        "observed_prevalence": 0.12043795620437957,
+        "average_precision": 0.4588223057224873,
+        "prevalence_baseline_ap": 0.12043795620437957,
+        "f1_fixed_threshold_0_5": 0.44,
+        "eligible": true
+      },
+      "Epic": {
+        "status": "trained",
+        "train_positives": 133,
+        "evaluated_positives": 17,
+        "evaluated_total": 274,
+        "train_prevalence": 0.09992486851990984,
+        "observed_prevalence": 0.06204379562043796,
+        "average_precision": 0.29977077336138336,
+        "prevalence_baseline_ap": 0.06204379562043796,
+        "f1_fixed_threshold_0_5": 0.26865671641791045,
+        "eligible": true
+      },
+      "Intense/Grand": {
+        "status": "trained",
+        "train_positives": 190,
+        "evaluated_positives": 36,
+        "evaluated_total": 274,
+        "train_prevalence": 0.14274981217129978,
+        "observed_prevalence": 0.13138686131386862,
+        "average_precision": 0.682263927618142,
+        "prevalence_baseline_ap": 0.13138686131386862,
+        "f1_fixed_threshold_0_5": 0.5471698113207547,
+        "eligible": true
+      },
+      "Passionate": {
+        "status": "trained",
+        "train_positives": 230,
+        "evaluated_positives": 39,
+        "evaluated_total": 274,
+        "train_prevalence": 0.1728024042073629,
+        "observed_prevalence": 0.14233576642335766,
+        "average_precision": 0.668610734252617,
+        "prevalence_baseline_ap": 0.14233576642335766,
+        "f1_fixed_threshold_0_5": 0.6071428571428571,
+        "eligible": true
+      },
+      "Powerful": {
+        "status": "trained",
+        "train_positives": 111,
+        "evaluated_positives": 19,
+        "evaluated_total": 274,
+        "train_prevalence": 0.08339594290007513,
+        "observed_prevalence": 0.06934306569343066,
+        "average_precision": 0.5148217061482256,
+        "prevalence_baseline_ap": 0.06934306569343066,
+        "f1_fixed_threshold_0_5": 0.4411764705882353,
+        "eligible": true
+      },
+      "Upbeat/Energetic": {
+        "status": "trained",
+        "train_positives": 237,
+        "evaluated_positives": 48,
+        "evaluated_total": 274,
+        "train_prevalence": 0.17806160781367392,
+        "observed_prevalence": 0.17518248175182483,
+        "average_precision": 0.6684675075896434,
+        "prevalence_baseline_ap": 0.17518248175182483,
+        "f1_fixed_threshold_0_5": 0.5777777777777777,
+        "eligible": true
+      }
+    }
+  },
+  "test": {
+    "named_moods": {
+      "labels": 15,
+      "mean_average_precision": 0.5275123174271626,
+      "mean_prevalence_baseline": 0.16451977401129944
+    },
+    "all_moods": {
+      "labels": 16,
+      "mean_average_precision": 0.5482378255263176,
+      "mean_prevalence_baseline": 0.19110169491525425
+    },
+    "per_mood": {
+      "Happy": {
+        "status": "trained",
+        "train_positives": 227,
+        "evaluated_positives": 45,
+        "evaluated_total": 295,
+        "train_prevalence": 0.17054845980465816,
+        "observed_prevalence": 0.15254237288135594,
+        "average_precision": 0.2966996843331462,
+        "prevalence_baseline_ap": 0.15254237288135594,
+        "f1_fixed_threshold_0_5": 0.32727272727272727,
+        "eligible": true
+      },
+      "Bright": {
+        "status": "trained",
+        "train_positives": 349,
+        "evaluated_positives": 80,
+        "evaluated_total": 295,
+        "train_prevalence": 0.2622088655146506,
+        "observed_prevalence": 0.2711864406779661,
+        "average_precision": 0.620502052238099,
+        "prevalence_baseline_ap": 0.2711864406779661,
+        "f1_fixed_threshold_0_5": 0.5786802030456852,
+        "eligible": true
+      },
+      "Playful": {
+        "status": "trained",
+        "train_positives": 237,
+        "evaluated_positives": 50,
+        "evaluated_total": 295,
+        "train_prevalence": 0.17806160781367392,
+        "observed_prevalence": 0.1694915254237288,
+        "average_precision": 0.6102677701824754,
+        "prevalence_baseline_ap": 0.1694915254237288,
+        "f1_fixed_threshold_0_5": 0.6141732283464567,
+        "eligible": true
+      },
+      "Cute": {
+        "status": "trained",
+        "train_positives": 86,
+        "evaluated_positives": 19,
+        "evaluated_total": 295,
+        "train_prevalence": 0.06461307287753569,
+        "observed_prevalence": 0.06440677966101695,
+        "average_precision": 0.35197658715566604,
+        "prevalence_baseline_ap": 0.06440677966101695,
+        "f1_fixed_threshold_0_5": 0.18421052631578946,
+        "eligible": true
+      },
+      "Relaxing/Calm": {
+        "status": "trained",
+        "train_positives": 580,
+        "evaluated_positives": 139,
+        "evaluated_total": 295,
+        "train_prevalence": 0.4357625845229151,
+        "observed_prevalence": 0.4711864406779661,
+        "average_precision": 0.8607012862535592,
+        "prevalence_baseline_ap": 0.4711864406779661,
+        "f1_fixed_threshold_0_5": 0.7781569965870307,
+        "eligible": true
+      },
+      "Emotional": {
+        "status": "trained",
+        "train_positives": 803,
+        "evaluated_positives": 174,
+        "evaluated_total": 295,
+        "train_prevalence": 0.6033057851239669,
+        "observed_prevalence": 0.5898305084745763,
+        "average_precision": 0.8591204470136429,
+        "prevalence_baseline_ap": 0.5898305084745763,
+        "f1_fixed_threshold_0_5": 0.8135593220338984,
+        "eligible": true
+      },
+      "Dreamy": {
+        "status": "trained",
+        "train_positives": 262,
+        "evaluated_positives": 66,
+        "evaluated_total": 295,
+        "train_prevalence": 0.19684447783621337,
+        "observed_prevalence": 0.22372881355932203,
+        "average_precision": 0.4330165931580194,
+        "prevalence_baseline_ap": 0.22372881355932203,
+        "f1_fixed_threshold_0_5": 0.5111111111111111,
+        "eligible": true
+      },
+      "Mysterious": {
+        "status": "trained",
+        "train_positives": 159,
+        "evaluated_positives": 44,
+        "evaluated_total": 295,
+        "train_prevalence": 0.11945905334335086,
+        "observed_prevalence": 0.14915254237288136,
+        "average_precision": 0.4365654831054286,
+        "prevalence_baseline_ap": 0.14915254237288136,
+        "f1_fixed_threshold_0_5": 0.4186046511627907,
+        "eligible": true
+      },
+      "Sad": {
+        "status": "trained",
+        "train_positives": 138,
+        "evaluated_positives": 28,
+        "evaluated_total": 295,
+        "train_prevalence": 0.10368144252441773,
+        "observed_prevalence": 0.09491525423728814,
+        "average_precision": 0.3775346130908578,
+        "prevalence_baseline_ap": 0.09491525423728814,
+        "f1_fixed_threshold_0_5": 0.32989690721649484,
+        "eligible": true
+      },
+      "Dark": {
+        "status": "trained",
+        "train_positives": 162,
+        "evaluated_positives": 39,
+        "evaluated_total": 295,
+        "train_prevalence": 0.1217129977460556,
+        "observed_prevalence": 0.13220338983050847,
+        "average_precision": 0.3730575660920576,
+        "prevalence_baseline_ap": 0.13220338983050847,
+        "f1_fixed_threshold_0_5": 0.43859649122807015,
+        "eligible": true
+      },
+      "Tense": {
+        "status": "trained",
+        "train_positives": 160,
+        "evaluated_positives": 37,
+        "evaluated_total": 295,
+        "train_prevalence": 0.12021036814425244,
+        "observed_prevalence": 0.12542372881355932,
+        "average_precision": 0.26460602942822714,
+        "prevalence_baseline_ap": 0.12542372881355932,
+        "f1_fixed_threshold_0_5": 0.37383177570093457,
+        "eligible": true
+      },
+      "Epic": {
+        "status": "trained",
+        "train_positives": 133,
+        "evaluated_positives": 25,
+        "evaluated_total": 295,
+        "train_prevalence": 0.09992486851990984,
+        "observed_prevalence": 0.0847457627118644,
+        "average_precision": 0.40836461257290707,
+        "prevalence_baseline_ap": 0.0847457627118644,
+        "f1_fixed_threshold_0_5": 0.3287671232876712,
+        "eligible": true
+      },
+      "Intense/Grand": {
+        "status": "trained",
+        "train_positives": 190,
+        "evaluated_positives": 36,
+        "evaluated_total": 295,
+        "train_prevalence": 0.14274981217129978,
+        "observed_prevalence": 0.12203389830508475,
+        "average_precision": 0.6897972020714599,
+        "prevalence_baseline_ap": 0.12203389830508475,
+        "f1_fixed_threshold_0_5": 0.5346534653465347,
+        "eligible": true
+      },
+      "Passionate": {
+        "status": "trained",
+        "train_positives": 230,
+        "evaluated_positives": 43,
+        "evaluated_total": 295,
+        "train_prevalence": 0.1728024042073629,
+        "observed_prevalence": 0.14576271186440679,
+        "average_precision": 0.7559459659520991,
+        "prevalence_baseline_ap": 0.14576271186440679,
+        "f1_fixed_threshold_0_5": 0.6,
+        "eligible": true
+      },
+      "Powerful": {
+        "status": "trained",
+        "train_positives": 111,
+        "evaluated_positives": 25,
+        "evaluated_total": 295,
+        "train_prevalence": 0.08339594290007513,
+        "observed_prevalence": 0.0847457627118644,
+        "average_precision": 0.7003747039997167,
+        "prevalence_baseline_ap": 0.0847457627118644,
+        "f1_fixed_threshold_0_5": 0.6129032258064516,
+        "eligible": true
+      },
+      "Upbeat/Energetic": {
+        "status": "trained",
+        "train_positives": 237,
+        "evaluated_positives": 52,
+        "evaluated_total": 295,
+        "train_prevalence": 0.17806160781367392,
+        "observed_prevalence": 0.17627118644067796,
+        "average_precision": 0.7332746117737201,
+        "prevalence_baseline_ap": 0.17627118644067796,
+        "f1_fixed_threshold_0_5": 0.6212121212121212,
+        "eligible": true
+      }
+    }
+  },
+  "fresh_test": {
+    "named_moods": {
+      "labels": 15,
+      "mean_average_precision": 0.5432084125753559,
+      "mean_prevalence_baseline": 0.1675213675213675
+    },
+    "all_moods": {
+      "labels": 16,
+      "mean_average_precision": 0.5601543601554697,
+      "mean_prevalence_baseline": 0.19230769230769232
+    },
+    "per_mood": {
+      "Happy": {
+        "status": "trained",
+        "train_positives": 227,
+        "evaluated_positives": 12,
+        "evaluated_total": 78,
+        "train_prevalence": 0.17054845980465816,
+        "observed_prevalence": 0.15384615384615385,
+        "average_precision": 0.4438530658467747,
+        "prevalence_baseline_ap": 0.15384615384615385,
+        "f1_fixed_threshold_0_5": 0.37209302325581395,
+        "eligible": true,
+        "highest_scoring_unlabeled": [
+          {
+            "clip_id": "LKMZyDMsVos",
+            "model_score": 0.982298
+          },
+          {
+            "clip_id": "9cfDrONba54",
+            "model_score": 0.863085
+          },
+          {
+            "clip_id": "Slqw-92QL3I",
+            "model_score": 0.859584
+          },
+          {
+            "clip_id": "zxuk15YGGGY",
+            "model_score": 0.838277
+          },
+          {
+            "clip_id": "OdPoloO4phQ",
+            "model_score": 0.835885
+          }
+        ],
+        "lowest_scoring_labeled": [
+          {
+            "clip_id": "-RNFQJOzWPY",
+            "model_score": 0.123993
+          },
+          {
+            "clip_id": "14CpZ1Pegzk",
+            "model_score": 0.14418
+          },
+          {
+            "clip_id": "g4xoe5Ccuzc",
+            "model_score": 0.444274
+          },
+          {
+            "clip_id": "pO7RPJqlD8w",
+            "model_score": 0.499574
+          },
+          {
+            "clip_id": "SMh_uaipd38",
+            "model_score": 0.538399
+          }
+        ]
+      },
+      "Bright": {
+        "status": "trained",
+        "train_positives": 349,
+        "evaluated_positives": 21,
+        "evaluated_total": 78,
+        "train_prevalence": 0.2622088655146506,
+        "observed_prevalence": 0.2692307692307692,
+        "average_precision": 0.6738814403274198,
+        "prevalence_baseline_ap": 0.2692307692307692,
+        "f1_fixed_threshold_0_5": 0.625,
+        "eligible": true,
+        "highest_scoring_unlabeled": [
+          {
+            "clip_id": "LKMZyDMsVos",
+            "model_score": 0.971425
+          },
+          {
+            "clip_id": "OZeeyALOrtk",
+            "model_score": 0.901885
+          },
+          {
+            "clip_id": "VW14jg20gxk",
+            "model_score": 0.876215
+          },
+          {
+            "clip_id": "FtgxuEHN7Ys",
+            "model_score": 0.811688
+          },
+          {
+            "clip_id": "BRFdaIhTBAc",
+            "model_score": 0.760472
+          }
+        ],
+        "lowest_scoring_labeled": [
+          {
+            "clip_id": "sAWGcV07XAA",
+            "model_score": 0.144987
+          },
+          {
+            "clip_id": "1P9EV19o41U",
+            "model_score": 0.220546
+          },
+          {
+            "clip_id": "-RNFQJOzWPY",
+            "model_score": 0.25484
+          },
+          {
+            "clip_id": "g4xoe5Ccuzc",
+            "model_score": 0.410748
+          },
+          {
+            "clip_id": "SMh_uaipd38",
+            "model_score": 0.4348
+          }
+        ]
+      },
+      "Playful": {
+        "status": "trained",
+        "train_positives": 237,
+        "evaluated_positives": 16,
+        "evaluated_total": 78,
+        "train_prevalence": 0.17806160781367392,
+        "observed_prevalence": 0.20512820512820512,
+        "average_precision": 0.8104480300690501,
+        "prevalence_baseline_ap": 0.20512820512820512,
+        "f1_fixed_threshold_0_5": 0.6842105263157895,
+        "eligible": true,
+        "highest_scoring_unlabeled": [
+          {
+            "clip_id": "FtoU5Ku36p4",
+            "model_score": 0.888499
+          },
+          {
+            "clip_id": "VW14jg20gxk",
+            "model_score": 0.777282
+          },
+          {
+            "clip_id": "BRFdaIhTBAc",
+            "model_score": 0.760456
+          },
+          {
+            "clip_id": "By8xfHJfOkA",
+            "model_score": 0.751047
+          },
+          {
+            "clip_id": "pCTE-T47sQY",
+            "model_score": 0.679506
+          }
+        ],
+        "lowest_scoring_labeled": [
+          {
+            "clip_id": "dF8a_URW_2k",
+            "model_score": 0.311217
+          },
+          {
+            "clip_id": "sAWGcV07XAA",
+            "model_score": 0.353943
+          },
+          {
+            "clip_id": "Slqw-92QL3I",
+            "model_score": 0.497759
+          },
+          {
+            "clip_id": "XmkPdP48r2M",
+            "model_score": 0.518881
+          },
+          {
+            "clip_id": "zxuk15YGGGY",
+            "model_score": 0.593093
+          }
+        ]
+      },
+      "Cute": {
+        "status": "trained",
+        "train_positives": 86,
+        "evaluated_positives": 4,
+        "evaluated_total": 78,
+        "train_prevalence": 0.06461307287753569,
+        "observed_prevalence": 0.05128205128205128,
+        "average_precision": 0.32232804232804235,
+        "prevalence_baseline_ap": 0.05128205128205128,
+        "f1_fixed_threshold_0_5": 0.09090909090909091,
+        "eligible": true,
+        "highest_scoring_unlabeled": [
+          {
+            "clip_id": "BRFdaIhTBAc",
+            "model_score": 0.968696
+          },
+          {
+            "clip_id": "VW14jg20gxk",
+            "model_score": 0.958291
+          },
+          {
+            "clip_id": "uUAjxkNYLM4",
+            "model_score": 0.95445
+          },
+          {
+            "clip_id": "9cfDrONba54",
+            "model_score": 0.938996
+          },
+          {
+            "clip_id": "pCTE-T47sQY",
+            "model_score": 0.927475
+          }
+        ],
+        "lowest_scoring_labeled": [
+          {
+            "clip_id": "dF8a_URW_2k",
+            "model_score": 0.015746
+          },
+          {
+            "clip_id": "V-eXFZGHfG4",
+            "model_score": 0.308209
+          },
+          {
+            "clip_id": "EeGivCH5npo",
+            "model_score": 0.38014
+          },
+          {
+            "clip_id": "UxBLayLozbU",
+            "model_score": 0.983917
+          }
+        ]
+      },
+      "Relaxing/Calm": {
+        "status": "trained",
+        "train_positives": 580,
+        "evaluated_positives": 30,
+        "evaluated_total": 78,
+        "train_prevalence": 0.4357625845229151,
+        "observed_prevalence": 0.38461538461538464,
+        "average_precision": 0.7976140221038127,
+        "prevalence_baseline_ap": 0.38461538461538464,
+        "f1_fixed_threshold_0_5": 0.7647058823529411,
+        "eligible": true,
+        "highest_scoring_unlabeled": [
+          {
+            "clip_id": "5FikLlapvgk",
+            "model_score": 0.962506
+          },
+          {
+            "clip_id": "osa60046xcY",
+            "model_score": 0.92029
+          },
+          {
+            "clip_id": "zAmjEG6SNXg",
+            "model_score": 0.901503
+          },
+          {
+            "clip_id": "JldiwRGUKRo",
+            "model_score": 0.871101
+          },
+          {
+            "clip_id": "x8Pjhsv0E9o",
+            "model_score": 0.840188
+          }
+        ],
+        "lowest_scoring_labeled": [
+          {
+            "clip_id": "XcOWrctFrkM",
+            "model_score": 0.114132
+          },
+          {
+            "clip_id": "SMh_uaipd38",
+            "model_score": 0.326369
+          },
+          {
+            "clip_id": "YsTSEQ20brQ",
+            "model_score": 0.422679
+          },
+          {
+            "clip_id": "6mohxZTeeAI",
+            "model_score": 0.45885
+          },
+          {
+            "clip_id": "52CE5CvBbpo",
+            "model_score": 0.549837
+          }
+        ]
+      },
+      "Emotional": {
+        "status": "trained",
+        "train_positives": 803,
+        "evaluated_positives": 44,
+        "evaluated_total": 78,
+        "train_prevalence": 0.6033057851239669,
+        "observed_prevalence": 0.5641025641025641,
+        "average_precision": 0.8143435738571755,
+        "prevalence_baseline_ap": 0.5641025641025641,
+        "f1_fixed_threshold_0_5": 0.851063829787234,
+        "eligible": true,
+        "highest_scoring_unlabeled": [
+          {
+            "clip_id": "WPe5ojLWKww",
+            "model_score": 0.981413
+          },
+          {
+            "clip_id": "YubsCfqe2yc",
+            "model_score": 0.957875
+          },
+          {
+            "clip_id": "5FikLlapvgk",
+            "model_score": 0.849593
+          },
+          {
+            "clip_id": "smKg7ItBUBQ",
+            "model_score": 0.840967
+          },
+          {
+            "clip_id": "zAmjEG6SNXg",
+            "model_score": 0.776644
+          }
+        ],
+        "lowest_scoring_labeled": [
+          {
+            "clip_id": "QWGA-M90-8o",
+            "model_score": 0.229425
+          },
+          {
+            "clip_id": "-RNFQJOzWPY",
+            "model_score": 0.347516
+          },
+          {
+            "clip_id": "BRFdaIhTBAc",
+            "model_score": 0.407893
+          },
+          {
+            "clip_id": "SMh_uaipd38",
+            "model_score": 0.480008
+          },
+          {
+            "clip_id": "qewr1aucO9Q",
+            "model_score": 0.500059
+          }
+        ]
+      },
+      "Dreamy": {
+        "status": "trained",
+        "train_positives": 262,
+        "evaluated_positives": 21,
+        "evaluated_total": 78,
+        "train_prevalence": 0.19684447783621337,
+        "observed_prevalence": 0.2692307692307692,
+        "average_precision": 0.6207325752449591,
+        "prevalence_baseline_ap": 0.2692307692307692,
+        "f1_fixed_threshold_0_5": 0.6530612244897959,
+        "eligible": true,
+        "highest_scoring_unlabeled": [
+          {
+            "clip_id": "wtVYNw10aYc",
+            "model_score": 0.972282
+          },
+          {
+            "clip_id": "5FikLlapvgk",
+            "model_score": 0.864669
+          },
+          {
+            "clip_id": "WPe5ojLWKww",
+            "model_score": 0.863611
+          },
+          {
+            "clip_id": "1n5IJAyr5Hw",
+            "model_score": 0.840177
+          },
+          {
+            "clip_id": "7dnfni450P4",
+            "model_score": 0.825751
+          }
+        ],
+        "lowest_scoring_labeled": [
+          {
+            "clip_id": "RcmwcHVm_tU",
+            "model_score": 0.111031
+          },
+          {
+            "clip_id": "g4xoe5Ccuzc",
+            "model_score": 0.287555
+          },
+          {
+            "clip_id": "52CE5CvBbpo",
+            "model_score": 0.429767
+          },
+          {
+            "clip_id": "mcsOhb0QVuE",
+            "model_score": 0.451976
+          },
+          {
+            "clip_id": "1P9EV19o41U",
+            "model_score": 0.486283
+          }
+        ]
+      },
+      "Mysterious": {
+        "status": "trained",
+        "train_positives": 159,
+        "evaluated_positives": 13,
+        "evaluated_total": 78,
+        "train_prevalence": 0.11945905334335086,
+        "observed_prevalence": 0.16666666666666666,
+        "average_precision": 0.35611798441001286,
+        "prevalence_baseline_ap": 0.16666666666666666,
+        "f1_fixed_threshold_0_5": 0.32432432432432434,
+        "eligible": true,
+        "highest_scoring_unlabeled": [
+          {
+            "clip_id": "hyRlESJ0LKg",
+            "model_score": 0.957536
+          },
+          {
+            "clip_id": "FtgxuEHN7Ys",
+            "model_score": 0.925782
+          },
+          {
+            "clip_id": "-RNFQJOzWPY",
+            "model_score": 0.797088
+          },
+          {
+            "clip_id": "uUAjxkNYLM4",
+            "model_score": 0.772316
+          },
+          {
+            "clip_id": "g4xoe5Ccuzc",
+            "model_score": 0.764111
+          }
+        ],
+        "lowest_scoring_labeled": [
+          {
+            "clip_id": "RcmwcHVm_tU",
+            "model_score": 0.160862
+          },
+          {
+            "clip_id": "8GHuHQUEwDU",
+            "model_score": 0.300445
+          },
+          {
+            "clip_id": "sBTlb-JkYrg",
+            "model_score": 0.32191
+          },
+          {
+            "clip_id": "j_3tuqYNB7I",
+            "model_score": 0.357572
+          },
+          {
+            "clip_id": "YubsCfqe2yc",
+            "model_score": 0.363042
+          }
+        ]
+      },
+      "Sad": {
+        "status": "trained",
+        "train_positives": 138,
+        "evaluated_positives": 10,
+        "evaluated_total": 78,
+        "train_prevalence": 0.10368144252441773,
+        "observed_prevalence": 0.1282051282051282,
+        "average_precision": 0.46153625110521657,
+        "prevalence_baseline_ap": 0.1282051282051282,
+        "f1_fixed_threshold_0_5": 0.37037037037037035,
+        "eligible": true,
+        "highest_scoring_unlabeled": [
+          {
+            "clip_id": "KF64c0B9_1s",
+            "model_score": 0.971942
+          },
+          {
+            "clip_id": "IqD02F9S1Bo",
+            "model_score": 0.951352
+          },
+          {
+            "clip_id": "TXs8HNg2rsI",
+            "model_score": 0.929402
+          },
+          {
+            "clip_id": "smKg7ItBUBQ",
+            "model_score": 0.845703
+          },
+          {
+            "clip_id": "VDX-F2ph4Eo",
+            "model_score": 0.840503
+          }
+        ],
+        "lowest_scoring_labeled": [
+          {
+            "clip_id": "VW14jg20gxk",
+            "model_score": 0.034778
+          },
+          {
+            "clip_id": "RcmwcHVm_tU",
+            "model_score": 0.037754
+          },
+          {
+            "clip_id": "XcOWrctFrkM",
+            "model_score": 0.113262
+          },
+          {
+            "clip_id": "zAmjEG6SNXg",
+            "model_score": 0.274024
+          },
+          {
+            "clip_id": "5FikLlapvgk",
+            "model_score": 0.389914
+          }
+        ]
+      },
+      "Dark": {
+        "status": "trained",
+        "train_positives": 162,
+        "evaluated_positives": 9,
+        "evaluated_total": 78,
+        "train_prevalence": 0.1217129977460556,
+        "observed_prevalence": 0.11538461538461539,
+        "average_precision": 0.2755586282134185,
+        "prevalence_baseline_ap": 0.11538461538461539,
+        "f1_fixed_threshold_0_5": 0.4,
+        "eligible": true,
+        "highest_scoring_unlabeled": [
+          {
+            "clip_id": "lzddg3_Y0vQ",
+            "model_score": 0.978676
+          },
+          {
+            "clip_id": "FtgxuEHN7Ys",
+            "model_score": 0.974786
+          },
+          {
+            "clip_id": "kt_ELiL-GIQ",
+            "model_score": 0.953328
+          },
+          {
+            "clip_id": "IqD02F9S1Bo",
+            "model_score": 0.944574
+          },
+          {
+            "clip_id": "j_3tuqYNB7I",
+            "model_score": 0.935463
+          }
+        ],
+        "lowest_scoring_labeled": [
+          {
+            "clip_id": "VW14jg20gxk",
+            "model_score": 0.071068
+          },
+          {
+            "clip_id": "xiZJaDRNSXk",
+            "model_score": 0.307808
+          },
+          {
+            "clip_id": "Xyc9i2R3WII",
+            "model_score": 0.362827
+          },
+          {
+            "clip_id": "qCzrVoTTbQU",
+            "model_score": 0.548955
+          },
+          {
+            "clip_id": "5FikLlapvgk",
+            "model_score": 0.590389
+          }
+        ]
+      },
+      "Tense": {
+        "status": "trained",
+        "train_positives": 160,
+        "evaluated_positives": 11,
+        "evaluated_total": 78,
+        "train_prevalence": 0.12021036814425244,
+        "observed_prevalence": 0.14102564102564102,
+        "average_precision": 0.3512493840880028,
+        "prevalence_baseline_ap": 0.14102564102564102,
+        "f1_fixed_threshold_0_5": 0.375,
+        "eligible": true,
+        "highest_scoring_unlabeled": [
+          {
+            "clip_id": "sAWGcV07XAA",
+            "model_score": 0.940803
+          },
+          {
+            "clip_id": "IqD02F9S1Bo",
+            "model_score": 0.934826
+          },
+          {
+            "clip_id": "XmkPdP48r2M",
+            "model_score": 0.87059
+          },
+          {
+            "clip_id": "QWGA-M90-8o",
+            "model_score": 0.868087
+          },
+          {
+            "clip_id": "-RNFQJOzWPY",
+            "model_score": 0.840647
+          }
+        ],
+        "lowest_scoring_labeled": [
+          {
+            "clip_id": "x8Pjhsv0E9o",
+            "model_score": 0.014294
+          },
+          {
+            "clip_id": "YubsCfqe2yc",
+            "model_score": 0.126509
+          },
+          {
+            "clip_id": "WPe5ojLWKww",
+            "model_score": 0.213083
+          },
+          {
+            "clip_id": "5FikLlapvgk",
+            "model_score": 0.250996
+          },
+          {
+            "clip_id": "CXdcveJ357Q",
+            "model_score": 0.489548
+          }
+        ]
+      },
+      "Epic": {
+        "status": "trained",
+        "train_positives": 133,
+        "evaluated_positives": 6,
+        "evaluated_total": 78,
+        "train_prevalence": 0.09992486851990984,
+        "observed_prevalence": 0.07692307692307693,
+        "average_precision": 0.2931119280231906,
+        "prevalence_baseline_ap": 0.07692307692307693,
+        "f1_fixed_threshold_0_5": 0.25,
+        "eligible": true,
+        "highest_scoring_unlabeled": [
+          {
+            "clip_id": "LKMZyDMsVos",
+            "model_score": 0.971637
+          },
+          {
+            "clip_id": "zxuk15YGGGY",
+            "model_score": 0.939825
+          },
+          {
+            "clip_id": "EeGivCH5npo",
+            "model_score": 0.933041
+          },
+          {
+            "clip_id": "XmkPdP48r2M",
+            "model_score": 0.885712
+          },
+          {
+            "clip_id": "OZeeyALOrtk",
+            "model_score": 0.853544
+          }
+        ],
+        "lowest_scoring_labeled": [
+          {
+            "clip_id": "FtgxuEHN7Ys",
+            "model_score": 0.004361
+          },
+          {
+            "clip_id": "x8Pjhsv0E9o",
+            "model_score": 0.035431
+          },
+          {
+            "clip_id": "qCzrVoTTbQU",
+            "model_score": 0.117643
+          },
+          {
+            "clip_id": "g4xoe5Ccuzc",
+            "model_score": 0.346454
+          },
+          {
+            "clip_id": "c7r0hBt-hGI",
+            "model_score": 0.548291
+          }
+        ]
+      },
+      "Intense/Grand": {
+        "status": "trained",
+        "train_positives": 190,
+        "evaluated_positives": 8,
+        "evaluated_total": 78,
+        "train_prevalence": 0.14274981217129978,
+        "observed_prevalence": 0.10256410256410256,
+        "average_precision": 0.6168355351545007,
+        "prevalence_baseline_ap": 0.10256410256410256,
+        "f1_fixed_threshold_0_5": 0.5217391304347826,
+        "eligible": true,
+        "highest_scoring_unlabeled": [
+          {
+            "clip_id": "XmkPdP48r2M",
+            "model_score": 0.989111
+          },
+          {
+            "clip_id": "LKMZyDMsVos",
+            "model_score": 0.902633
+          },
+          {
+            "clip_id": "OZeeyALOrtk",
+            "model_score": 0.825327
+          },
+          {
+            "clip_id": "QWGA-M90-8o",
+            "model_score": 0.797404
+          },
+          {
+            "clip_id": "-RNFQJOzWPY",
+            "model_score": 0.761771
+          }
+        ],
+        "lowest_scoring_labeled": [
+          {
+            "clip_id": "qCzrVoTTbQU",
+            "model_score": 0.007763
+          },
+          {
+            "clip_id": "Wn1b8om_1-M",
+            "model_score": 0.36682
+          },
+          {
+            "clip_id": "5vVMgXdThC0",
+            "model_score": 0.556899
+          },
+          {
+            "clip_id": "zxuk15YGGGY",
+            "model_score": 0.926341
+          },
+          {
+            "clip_id": "dF8a_URW_2k",
+            "model_score": 0.929189
+          }
+        ]
+      },
+      "Passionate": {
+        "status": "trained",
+        "train_positives": 230,
+        "evaluated_positives": 12,
+        "evaluated_total": 78,
+        "train_prevalence": 0.1728024042073629,
+        "observed_prevalence": 0.15384615384615385,
+        "average_precision": 0.6448683631976166,
+        "prevalence_baseline_ap": 0.15384615384615385,
+        "f1_fixed_threshold_0_5": 0.5833333333333334,
+        "eligible": true,
+        "highest_scoring_unlabeled": [
+          {
+            "clip_id": "zxuk15YGGGY",
+            "model_score": 0.988247
+          },
+          {
+            "clip_id": "QWGA-M90-8o",
+            "model_score": 0.943559
+          },
+          {
+            "clip_id": "sBTlb-JkYrg",
+            "model_score": 0.726031
+          },
+          {
+            "clip_id": "lgxXiupomvo",
+            "model_score": 0.657854
+          },
+          {
+            "clip_id": "UzxNg0YQW6I",
+            "model_score": 0.621309
+          }
+        ],
+        "lowest_scoring_labeled": [
+          {
+            "clip_id": "qCzrVoTTbQU",
+            "model_score": 0.03153
+          },
+          {
+            "clip_id": "-2JPf3mSSrQ",
+            "model_score": 0.04918
+          },
+          {
+            "clip_id": "FtgxuEHN7Ys",
+            "model_score": 0.054356
+          },
+          {
+            "clip_id": "kt_ELiL-GIQ",
+            "model_score": 0.259882
+          },
+          {
+            "clip_id": "Wn1b8om_1-M",
+            "model_score": 0.324849
+          }
+        ]
+      },
+      "Powerful": {
+        "status": "trained",
+        "train_positives": 111,
+        "evaluated_positives": 8,
+        "evaluated_total": 78,
+        "train_prevalence": 0.08339594290007513,
+        "observed_prevalence": 0.10256410256410256,
+        "average_precision": 0.7938228438228438,
+        "prevalence_baseline_ap": 0.10256410256410256,
+        "f1_fixed_threshold_0_5": 0.7142857142857143,
+        "eligible": true,
+        "highest_scoring_unlabeled": [
+          {
+            "clip_id": "LKMZyDMsVos",
+            "model_score": 0.575097
+          },
+          {
+            "clip_id": "qewr1aucO9Q",
+            "model_score": 0.386538
+          },
+          {
+            "clip_id": "OZeeyALOrtk",
+            "model_score": 0.362146
+          },
+          {
+            "clip_id": "UzxNg0YQW6I",
+            "model_score": 0.351873
+          },
+          {
+            "clip_id": "QWGA-M90-8o",
+            "model_score": 0.327803
+          }
+        ],
+        "lowest_scoring_labeled": [
+          {
+            "clip_id": "qCzrVoTTbQU",
+            "model_score": 0.023194
+          },
+          {
+            "clip_id": "g4xoe5Ccuzc",
+            "model_score": 0.234959
+          },
+          {
+            "clip_id": "dF8a_URW_2k",
+            "model_score": 0.24684
+          },
+          {
+            "clip_id": "5vVMgXdThC0",
+            "model_score": 0.84531
+          },
+          {
+            "clip_id": "EeGivCH5npo",
+            "model_score": 0.93111
+          }
+        ]
+      },
+      "Upbeat/Energetic": {
+        "status": "trained",
+        "train_positives": 237,
+        "evaluated_positives": 15,
+        "evaluated_total": 78,
+        "train_prevalence": 0.17806160781367392,
+        "observed_prevalence": 0.19230769230769232,
+        "average_precision": 0.686168094695478,
+        "prevalence_baseline_ap": 0.19230769230769232,
+        "f1_fixed_threshold_0_5": 0.5641025641025641,
+        "eligible": true,
+        "highest_scoring_unlabeled": [
+          {
+            "clip_id": "By8xfHJfOkA",
+            "model_score": 0.961472
+          },
+          {
+            "clip_id": "Wn1b8om_1-M",
+            "model_score": 0.911801
+          },
+          {
+            "clip_id": "FtoU5Ku36p4",
+            "model_score": 0.907639
+          },
+          {
+            "clip_id": "OdPoloO4phQ",
+            "model_score": 0.907414
+          },
+          {
+            "clip_id": "pCTE-T47sQY",
+            "model_score": 0.839392
+          }
+        ],
+        "lowest_scoring_labeled": [
+          {
+            "clip_id": "g4xoe5Ccuzc",
+            "model_score": 0.124545
+          },
+          {
+            "clip_id": "14CpZ1Pegzk",
+            "model_score": 0.333087
+          },
+          {
+            "clip_id": "-RNFQJOzWPY",
+            "model_score": 0.362719
+          },
+          {
+            "clip_id": "x8Pjhsv0E9o",
+            "model_score": 0.408843
+          },
+          {
+            "clip_id": "dF8a_URW_2k",
+            "model_score": 0.608434
+          }
+        ]
+      }
+    }
+  },
+  "elapsed_seconds": 100.41,
+  "limitations": [
+    "Échantillon prélevé par hachage ; certaines humeurs rares ont trop peu d'exemples dans le test.",
+    "Associations musique/humeur, pas preuve d'émotion réellement ressentie ou causée.",
+    "Domaine limité au piano solo ; aucun audio analysé, transfert à d'autres styles non démontré.",
+    "Les MIDI de structure irrégulière peuvent être refusés ; refus et couverture sont déclarés.",
+    "Le terme générique 'Emotional' est exclu de la moyenne des humeurs nommées.",
+    "Validation et test restent séparés ; aucune sélection ni réglage sur les labels de test.",
+    "Les indices de surprise proviennent d'un petit n-gramme, non du logiciel IDyOM original.",
+    "L'ordre mélodique repose sur une voix supérieure estimée; les émotions ressenties ne sont pas mesurées."
+  ]
+}
