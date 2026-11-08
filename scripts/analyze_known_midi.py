@@ -39,6 +39,8 @@ def main() -> None:
     parser.add_argument("--jsymbolic-segment-threshold", type=int, default=48)
     parser.add_argument("--jsymbolic-segment-measures", type=int, default=16)
     parser.add_argument("--jsymbolic-segment-timeout", type=int, default=45)
+    parser.add_argument("--valence-memory-alpha", type=float,
+                        help="optional exploratory valence-only causal smoothing, e.g. 0.2")
     parser.add_argument("--measure-count", type=int,
                         help="explicit measure count if known from verified human grid")
     parser.add_argument("midis", type=Path, nargs="+", help="known original MIDI compositions")
@@ -79,7 +81,8 @@ def main() -> None:
                 error = f"original_jsymbolic_unavailable:{type(exc).__name__}"
         results.append(analyze_known_midi(
             midi, artifact, jsymbolic_record=record,
-            n_measures=args.measure_count))
+            n_measures=args.measure_count,
+            valence_memory_alpha=args.valence_memory_alpha))
         if error:
             results[-1]["warnings"].append(error)
         print(f"{midi.name}: {results[-1]['measure_count']} bars, "

@@ -14,6 +14,24 @@ from sklearn.linear_model import Ridge
 from sklearn.preprocessing import StandardScaler
 
 
+def causal_valence_inertia(trajectory, *, alpha: float = .2):
+    """An optional memory hypothesis on already inferred V/A, never MIDI notes.
+
+    V[t] = alpha * V_raw[t] + (1-alpha) * V[t-1]; A remains untouched.
+    Run separately for each composition. This is a research postprocessor,
+    neither the original Farbood algorithm nor an independently validated law.
+    """
+    if not 0 < alpha <= 1:
+        raise ValueError("valence_inertia_alpha_must_be_in_0_1")
+    raw = np.asarray(trajectory, dtype=float)
+    if raw.ndim != 2 or raw.shape[1] != 2 or not np.isfinite(raw).all():
+        raise ValueError("invalid_emotion_trajectory_for_inertia")
+    smoothed = raw.copy()
+    for row in range(1, len(raw)):
+        smoothed[row, 0] = alpha * raw[row, 0] + (1 - alpha) * smoothed[row - 1, 0]
+    return smoothed
+
+
 def _ranges(lengths):
     start = 0
     for span in lengths:

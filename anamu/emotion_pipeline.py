@@ -24,6 +24,7 @@ from .academic_fusion import (add_jsymbolic_ace, add_melody_library,
 from .expectation import VariableOrderExpectancy
 from .jsymbolic_ace import read_jsymbolic_ace
 from .jsymbolic_segments import split_midi_measures
+from .emotion_models import causal_valence_inertia
 from .tempo_map import MidiTempoMap
 from .vgmidi_temporal import enrich_published_mechanisms, extract_midi_measures
 
@@ -318,7 +319,8 @@ def predict_ridge_artifact(artifact: dict, rows: list[dict]) -> np.ndarray:
 
 def analyze_known_midi(path: str | Path, artifact: dict, *,
                        jsymbolic_record: dict | None = None,
-                       n_measures: int | None = None) -> dict:
+                       n_measures: int | None = None,
+                       valence_memory_alpha: float | None = None) -> dict:
     """Analyze existing music with trained human calibration, no ground truth."""
     path = Path(path)
     if n_measures is None:
@@ -331,20 +333,29 @@ def analyze_known_midi(path: str | Path, artifact: dict, *,
         engines["jsymbolic_original_window_seconds"] = jsymbolic_record[
             "anamu_extraction_window_seconds"]
     if jsymbolic_record is not None and jsymbolic_record.get("anamu_segmented_original_java"):
-        engines["jsymbolic_original_segments_ok"] = jsymbolic_record[
-            "anamu_original_java_segments_ok"]
-        engines["jsymbolic_original_segments_total"] = jsymbolic_record[
-            "anamu_original_java_segments_total"]
+        successful = jsymbolic_record["anamu_original_java_segments_ok"]
+        total = jsymbolic_record["anamu_original_java_segments_total"]
+        engines["jsymbolic_original_segments_ok"] = successful
+        engines["jsymbolic_original_segments_total"] = total
+        if successful < total:
+            engines["jsymbolic"] = f"partial:{successful}/{total}_original_java_segments"
         engines["jsymbolic_original_whole_piece_features"] = "unavailable:segmented"
         engines["jsymbolic_original_segment_provenance"] = jsymbolic_record[
             "anamu_original_java_segment_provenance"]
         engines["jsymbolic_segment_midi_pairing_adjustments"] = jsymbolic_record[
             "anamu_midi_pairing_adjustments"]
+        engines["jsymbolic_measures_with_original_windows"] = sum(
+            float(row.get("jsym_window_coverage_seconds") or 0) > 0 for row in rows)
     estimates = predict_ridge_artifact(artifact, rows)
+    if valence_memory_alpha is not None:
+        estimates = causal_valence_inertia(estimates, alpha=valence_memory_alpha)
     names = artifact["feature_names"]
     used = sum(any(row.get(name) is not None and
                    isinstance(row[name], (int, float)) and math.isfinite(row[name])
                    for row in rows) for name in names)
+    per_measure_available = [sum(
+        isinstance(row.get(name), (int, float)) and math.isfinite(row[name])
+        for name in names) for row in rows]
     warnings = []
     if jsymbolic_record is not None and jsymbolic_record.get("anamu_window_fallback_used"):
         warnings.append("original jSymbolic used longer windows after timeout; "
@@ -361,19 +372,30 @@ def analyze_known_midi(path: str | Path, artifact: dict, *,
                 jsymbolic_record["anamu_original_java_segments_total"]):
             warnings.append("original jSymbolic only covered some MIDI segments; "
                             "uncovered windows imputed")
-    if engines.get("jsymbolic") != "ok" and any(name.startswith("jsym_") for name in names):
+    if str(engines.get("jsymbolic", "")).startswith("partial:"):
+        warnings.append("partial original jSymbolic coverage: other segments are "
+                        "missing; model imputes uncovered original features")
+    elif engines.get("jsymbolic") != "ok" and any(name.startswith("jsym_") for name in names):
         warnings.append("original jSymbolic unavailable: model imputes its features")
     if any(name.startswith("idyom_") for name in names):
         warnings.append("original IDyOM features not included in this standalone pipeline")
     warnings.append("estimated human-perceived valence/arousal, NOT measured human emotions")
     warnings.append("VGMIDI piano calibration may not generalize to other eras, styles or instrumentation")
+    if valence_memory_alpha is not None:
+        warnings.append("exploratory causal valence memory applied; hypothesis selected after "
+                        "inspecting initial 10 test pieces, not independent validation")
     return {
         "source_midi": path.name,
         "source_sha256": metadata["source_sha256"],
         "measure_count": n_measures,
         "model_schema": artifact["schema"],
+        "postprocessing": ({"causal_valence_inertia_alpha": valence_memory_alpha,
+                            "arousal_unchanged": True} if valence_memory_alpha is not None
+                           else None),
         "engine_status": engines,
         "available_feature_columns": used,
+        "mean_observed_feature_columns_per_measure": (
+            float(np.mean(per_measure_available)) if per_measure_available else 0.),
         "trained_feature_columns": len(names),
         "warnings": warnings,
         "emotion_trajectory": [{"measure": i + 1,

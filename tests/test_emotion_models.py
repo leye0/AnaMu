@@ -3,10 +3,19 @@
 import unittest
 import numpy as np
 
-from anamu.emotion_models import GroupedTemporalRegressor
+from anamu.emotion_models import GroupedTemporalRegressor, causal_valence_inertia
 
 
 class GroupedTemporalTests(unittest.TestCase):
+    def test_valence_inertia_is_causal_and_keeps_arousal(self):
+        original = np.asarray([[.2, -.3], [.9, .4], [-.6, .7]])
+        smoothed = causal_valence_inertia(original, alpha=.2)
+        np.testing.assert_allclose(smoothed[:, 0], [.2, .34, .152])
+        np.testing.assert_array_equal(smoothed[:, 1], original[:, 1])
+        np.testing.assert_array_equal(original[:, 0], [.2, .9, -.6])
+        with self.assertRaises(ValueError):
+            causal_valence_inertia(original, alpha=0.)
+
     def test_different_piece_means_and_opposite_intrapiece_changes(self):
         # 4 compositions, each with a different global climate and a local
         # four-measure rise/fall. We never mark the piece identity as a feature.

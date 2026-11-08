@@ -242,6 +242,12 @@ directement sans apprendre de nouveau sur les œuvres analysées.
   alignées sur les mêmes MIDI et mesures, avec contrôles SHA-256 des sources.
   Les observations de tension, harmonie, mélodie, attentes, rythme et texture
   décrivent la composition ; elles ne démontrent aucune cause émotionnelle.
+- [Expérience sans nouvelle extraction sur 20 morceaux annotés](../reports/vgmidi-valence-memory-experiment.md)
+  : mémoire causale courte de valence, testée à paramètres fixes sur deux
+  groupes déjà inspectés. La MAE moyenne baisse légèrement dans les deux,
+  mais les intervalles bootstrap par morceau couvrent zéro ; garder cette
+  voie **expérimentale et désactivée par défaut**. Prochaine étape scientifique :
+  sélection exclusive sur validation puis nouvelles œuvres intactes.
 - La reprise contrôlée de jSymbolic à fenêtres de 30 secondes a été exécutée
   dans la run des cinq classiques. Elle n'a pas suffi pour Chopin et Beethoven :
   ces deux sorties Java demeurent **absentes puis imputées**. Le pipeline doit
@@ -250,9 +256,10 @@ directement sans apprendre de nouveau sur les œuvres analysées.
   le tempo et les notes traversant les frontières, puis rétablit les secondes
   absolues dans les fenêtres Java. Les caractéristiques globales sont exclues,
   les éventuels segments manquants ne sont pas interpolés, et les anomalies
-  d'appariement MIDI sont quantifiées. Le succès de cette **nouvelle passe
-  Java segmentée** doit être mesuré séparément : ne pas confondre son
-  implémentation avec une validation déjà obtenue.
+  d'appariement MIDI sont quantifiées. L'[audit de la run segmentée](../reports/segmented-classics-coverage-audit.md)
+  a confirmé des résultats **insuffisants** : Chopin 1/5 extraits et Beethoven
+  1/10. Un statut `ok` sur un seul extrait était trompeur ; le statut est
+  désormais `partial` et la priorité revient à l'évaluation des émotions.
 - Avec jSymbolic original, la réanalyse autonome des **136 mesures de Chrono
   Trigger** reproduit les sorties du banc académique avec une erreur numérique
   maximale inférieure à `3e-15` ; la chaîne entraînement → export → rechargement

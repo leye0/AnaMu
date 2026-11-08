@@ -96,6 +96,12 @@ La base `anamu/` comporte :
   générées par une run Java réelle sur les MIDI issus des partitions écrites.
   Les [18 mécanismes temporels confrontés aux mêmes estimations](reports/known-classics-mechanisms.json)
   sont disponibles séparément, sans faire passer une association pour une cause.
+- **[Expérience rapide sur la mémoire de valence (20 morceaux humains)](reports/vgmidi-valence-memory-experiment.md)**
+  — même MIDI, mêmes estimations existantes, simple persistance de la valence
+  d'une mesure à la suivante. Les erreurs moyennes baissent légèrement, **mais
+  l'effet n'est pas robuste sur seulement dix pièces par groupe**. Technique
+  disponible uniquement sur demande avec `analyze_known_midi
+  --valence-memory-alpha 0.2`, pas imposée par défaut.
 - `models/vgmidi-piano-ridge.json.gz` : modèle de recherche numérique calibré
   sur VGMIDI, enregistré au format JSON gzip et **directement réutilisable** ;
   `analyze_known_midi` et `analyze_known_scores` le prennent par défaut.
@@ -253,6 +259,9 @@ mesures. Ses seules fenêtres temporelles sont replacées sur le temps de la
 pièce complète ; les descripteurs globaux restent manquants (ils ne sont
 jamais recomposés artificiellement). Le rapport chiffre les segments réussis,
 les échecs et les éventuelles anomalies de couplage note-on/note-off du MIDI.
+L'[audit de la run segmentée](reports/segmented-classics-coverage-audit.md)
+montre des couvertures insuffisantes (Chopin 1/5, Beethoven 1/10) ; le moteur
+rend désormais un statut `partial`, et les essais lourds sont suspendus.
 
 ## Corpus et qualité
 

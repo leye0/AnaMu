@@ -1,0 +1,241 @@
+{
+  "status": "exploratory_already_inspected_sets_not_independent",
+  "alpha": 0.2,
+  "hypothesis": "causal_valence_persistence_not_original_farbood",
+  "datasets": [
+    {
+      "seed": 20261107,
+      "selected_baseline_model": "ridge_100",
+      "pieces": [
+        {
+          "title": "Chrono Trigger",
+          "measures": 136,
+          "raw_valence_mae": 0.34965994291760694,
+          "memory_valence_mae": 0.3474574223012282,
+          "raw_valence_temporal_correlation": 0.05719866805824987,
+          "memory_valence_temporal_correlation": 0.015205050837676037,
+          "raw_arousal_mae": 0.10068472143585419,
+          "memory_arousal_mae": 0.10068472143585419
+        },
+        {
+          "title": "Costa Del Sol",
+          "measures": 32,
+          "raw_valence_mae": 0.40046070112433285,
+          "memory_valence_mae": 0.4084046778805556,
+          "raw_valence_temporal_correlation": 0.48300613410873283,
+          "memory_valence_temporal_correlation": 0.4654245644748846,
+          "raw_arousal_mae": 0.06670366487673461,
+          "memory_arousal_mae": 0.06670366487673461
+        },
+        {
+          "title": "Tifa",
+          "measures": 55,
+          "raw_valence_mae": 0.05537439106936279,
+          "memory_valence_mae": 0.05768640267091694,
+          "raw_valence_temporal_correlation": 0.5058033050109839,
+          "memory_valence_temporal_correlation": 0.5872828341786571,
+          "raw_arousal_mae": 0.0792435239716021,
+          "memory_arousal_mae": 0.0792435239716021
+        },
+        {
+          "title": "Zeppelin",
+          "measures": 35,
+          "raw_valence_mae": 0.17197122410363566,
+          "memory_valence_mae": 0.16648973465243302,
+          "raw_valence_temporal_correlation": 0.11413861146998557,
+          "memory_valence_temporal_correlation": 0.1719992397218076,
+          "raw_arousal_mae": 0.24024007408305934,
+          "memory_arousal_mae": 0.24024007408305934
+        },
+        {
+          "title": "The Opened Way",
+          "measures": 59,
+          "raw_valence_mae": 0.35241821526322803,
+          "memory_valence_mae": 0.35073038297264547,
+          "raw_valence_temporal_correlation": 0.1099760491435862,
+          "memory_valence_temporal_correlation": 0.35477221840498474,
+          "raw_arousal_mae": 0.41945919296219636,
+          "memory_arousal_mae": 0.41945919296219636
+        },
+        {
+          "title": "Forest of Illusion",
+          "measures": 16,
+          "raw_valence_mae": 0.18253892739152983,
+          "memory_valence_mae": 0.1776236029275699,
+          "raw_valence_temporal_correlation": 0.12135011623424702,
+          "memory_valence_temporal_correlation": 0.38101881075897387,
+          "raw_arousal_mae": 0.11795966419723355,
+          "memory_arousal_mae": 0.11795966419723355
+        },
+        {
+          "title": "Cremia's Wagon Ride",
+          "measures": 18,
+          "raw_valence_mae": 0.10223799031970603,
+          "memory_valence_mae": 0.0948603135886746,
+          "raw_valence_temporal_correlation": 0.13166266341500724,
+          "memory_valence_temporal_correlation": 0.5251250892402513,
+          "raw_arousal_mae": 0.18576848188086578,
+          "memory_arousal_mae": 0.18576848188086578
+        },
+        {
+          "title": "Stone Temple Tower",
+          "measures": 30,
+          "raw_valence_mae": 0.28585853189699884,
+          "memory_valence_mae": 0.22651740284604874,
+          "raw_valence_temporal_correlation": 0.3677984179736738,
+          "memory_valence_temporal_correlation": 0.649034863883992,
+          "raw_arousal_mae": 0.16127693514054436,
+          "memory_arousal_mae": 0.16127693514054436
+        },
+        {
+          "title": "Goron City",
+          "measures": 32,
+          "raw_valence_mae": 0.21654338013361824,
+          "memory_valence_mae": 0.2198677643629628,
+          "raw_valence_temporal_correlation": 0.01529476868767595,
+          "memory_valence_temporal_correlation": -0.13612696091567264,
+          "raw_arousal_mae": 0.08495602234487727,
+          "memory_arousal_mae": 0.08495602234487727
+        },
+        {
+          "title": "Hyrule Castle Courtyard",
+          "measures": 24,
+          "raw_valence_mae": 0.5081035065001749,
+          "memory_valence_mae": 0.49680731434681863,
+          "raw_valence_temporal_correlation": 0.08293355775866236,
+          "memory_valence_temporal_correlation": -0.18526082574811314,
+          "raw_arousal_mae": 0.04136164203525049,
+          "memory_arousal_mae": 0.04136164203525049
+        }
+      ],
+      "pieces_with_positive_valence_gain": 7,
+      "valence_gain_piece_bootstrap_95_interval": [
+        -0.00045827462570062293,
+        0.020437198396665024
+      ],
+      "macro_valence_mae_raw": 0.2625166810720194,
+      "macro_valence_mae_memory": 0.2546445018549854,
+      "macro_arousal_mae_raw": 0.14976539229282182,
+      "macro_arousal_mae_memory": 0.14976539229282182,
+      "macro_temporal_valence_corr_raw": 0.19891622918608048,
+      "macro_temporal_valence_corr_memory": 0.2828474884837442
+    },
+    {
+      "seed": 20261109,
+      "selected_baseline_model": "ridge_100",
+      "pieces": [
+        {
+          "title": "Click Clock Wood",
+          "measures": 39,
+          "raw_valence_mae": 0.382354271509302,
+          "memory_valence_mae": 0.3882607925977139,
+          "raw_valence_temporal_correlation": 0.2924253553684117,
+          "memory_valence_temporal_correlation": 0.4072326151306921,
+          "raw_arousal_mae": 0.10148838785760249,
+          "memory_arousal_mae": 0.10148838785760249
+        },
+        {
+          "title": "Isle O Hags Cauldron Keep",
+          "measures": 62,
+          "raw_valence_mae": 0.04705857147762346,
+          "memory_valence_mae": 0.04647008682643697,
+          "raw_valence_temporal_correlation": 0.1726327046787332,
+          "memory_valence_temporal_correlation": 0.02002545941587903,
+          "raw_arousal_mae": 0.4314609654697412,
+          "memory_arousal_mae": 0.4314609654697412
+        },
+        {
+          "title": "Terry",
+          "measures": 38,
+          "raw_valence_mae": 0.24861221200496977,
+          "memory_valence_mae": 0.25045871531646646,
+          "raw_valence_temporal_correlation": -0.1459018506623492,
+          "memory_valence_temporal_correlation": -0.2500558576525942,
+          "raw_arousal_mae": 0.16949689444158458,
+          "memory_arousal_mae": 0.16949689444158458
+        },
+        {
+          "title": "Overworld",
+          "measures": 57,
+          "raw_valence_mae": 0.13530701351121316,
+          "memory_valence_mae": 0.13993323948779335,
+          "raw_valence_temporal_correlation": 0.09735991090590022,
+          "memory_valence_temporal_correlation": 0.20632239566627036,
+          "raw_arousal_mae": 0.06893227831504359,
+          "memory_arousal_mae": 0.06893227831504359
+        },
+        {
+          "title": "Those Chosen By the Planet",
+          "measures": 34,
+          "raw_valence_mae": 0.12693018090427263,
+          "memory_valence_mae": 0.08519011772277321,
+          "raw_valence_temporal_correlation": -0.2404626664888412,
+          "memory_valence_temporal_correlation": -0.2116360436036881,
+          "raw_arousal_mae": 0.07501473444330804,
+          "memory_arousal_mae": 0.07501473444330804
+        },
+        {
+          "title": "Trail of Blood",
+          "measures": 36,
+          "raw_valence_mae": 0.11947856487682647,
+          "memory_valence_mae": 0.08676374484889643,
+          "raw_valence_temporal_correlation": 0.3182024601716681,
+          "memory_valence_temporal_correlation": 0.6401871732522002,
+          "raw_arousal_mae": 0.24546877581350315,
+          "memory_arousal_mae": 0.24546877581350315
+        },
+        {
+          "title": "Crossing",
+          "measures": 55,
+          "raw_valence_mae": 0.21159009055250652,
+          "memory_valence_mae": 0.21514803829223395,
+          "raw_valence_temporal_correlation": 0.2786353238451054,
+          "memory_valence_temporal_correlation": 0.32564548901114304,
+          "raw_arousal_mae": 0.07745504123760033,
+          "memory_arousal_mae": 0.07745504123760033
+        },
+        {
+          "title": "Space Armada",
+          "measures": 20,
+          "raw_valence_mae": 0.2360410301691867,
+          "memory_valence_mae": 0.18115360931586363,
+          "raw_valence_temporal_correlation": 0.6629043902846303,
+          "memory_valence_temporal_correlation": 0.6739963726702578,
+          "raw_arousal_mae": 0.4554902002362784,
+          "memory_arousal_mae": 0.4554902002362784
+        },
+        {
+          "title": "Stone Tower Temple",
+          "measures": 30,
+          "raw_valence_mae": 0.1344904966206998,
+          "memory_valence_mae": 0.17248756899245202,
+          "raw_valence_temporal_correlation": 0.33866398519323876,
+          "memory_valence_temporal_correlation": 0.450289193301977,
+          "raw_arousal_mae": 0.24862099516548677,
+          "memory_arousal_mae": 0.24862099516548677
+        },
+        {
+          "title": "Temple of Time",
+          "measures": 40,
+          "raw_valence_mae": 0.12598065203358452,
+          "memory_valence_mae": 0.1274748587859767,
+          "raw_valence_temporal_correlation": -0.1535226862255896,
+          "memory_valence_temporal_correlation": -0.17445551779109247,
+          "raw_arousal_mae": 0.05424490207430849,
+          "memory_arousal_mae": 0.05424490207430849
+        }
+      ],
+      "pieces_with_positive_valence_gain": 4,
+      "valence_gain_piece_bootstrap_95_interval": [
+        -0.008587690607600722,
+        0.02403988366606044
+      ],
+      "macro_valence_mae_raw": 0.1767843083660185,
+      "macro_valence_mae_memory": 0.16933407721866067,
+      "macro_arousal_mae_raw": 0.19276731750544568,
+      "macro_arousal_mae_memory": 0.19276731750544568,
+      "macro_temporal_valence_corr_raw": 0.16209369270709076,
+      "macro_temporal_valence_corr_memory": 0.20875512794010448
+    }
+  ]
+}
