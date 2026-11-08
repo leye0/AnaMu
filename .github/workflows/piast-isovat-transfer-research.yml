@@ -1,0 +1,47 @@
+name: AnaMu - PIAST to IsoVAT MIDI tension transfer (opt-in)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/piast-isovat-transfer-research.yml'
+      - 'scripts/piast_to_isovat_tension_transfer.py'
+
+permissions:
+  contents: read
+
+jobs:
+  transfer-tense-to-listener-ranks:
+    # 1900 downloads plus external MIDI: opt-in only.
+    if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[piast-isovat-transfer-run]') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install MIDI-only dependencies
+        run: python -m pip install --quiet 'mido>=1.3,<2' 'partitura>=1.8,<2' 'music21>=9,<12' 'melody-features==1.3.3' 'scikit-learn>=1.5,<2'
+      - name: Run transfer protocol and tonal regression tests
+        run: python -m unittest discover -s tests -p 'test*isovat*.py' -v
+      - name: Download full pinned PIAST training corpus
+        run: python -m scripts.fetch_piast_at "$RUNNER_TEMP/piast" --limit 1900 --workers 6 > "$RUNNER_TEMP/piast-fetch-log.json"
+      - name: Refuse partial PIAST training cohort
+        run: |
+          python -c 'import json,os,pathlib; d=json.loads((pathlib.Path(os.environ["RUNNER_TEMP"])/"piast"/"fetch-manifest.json").read_text()); assert d["requested"] == d["downloaded_or_present"] == 1900 and not d["errors"], "Incomplete PIAST"'
+      - name: Sparse checkout author-supplied IsoVAT MIDI only
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/CalePlut/IsoVAT_Dataset.git "$RUNNER_TEMP/isovat"
+          test "$(git -C "$RUNNER_TEMP/isovat" rev-parse HEAD)" = "f62317920edd85ef4862e8f77633dc19f1a54c92"
+          git -C "$RUNNER_TEMP/isovat" sparse-checkout set MIDI/Tension
+          test -f "$RUNNER_TEMP/isovat/MIDI/Tension/T-01-H.mid"
+      - name: Train only on PIAST Tense, rank independent listener triplets
+        run: python -m scripts.piast_to_isovat_tension_transfer "$RUNNER_TEMP/piast" "$RUNNER_TEMP/isovat/MIDI/Tension" --out "$RUNNER_TEMP/tense-transfer"
+      - name: Upload scores and protocol, not third-party MIDI
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: piast-isovat-tense-transfer-derived-only
+          path: |
+            ${{ runner.temp }}/tense-transfer/*.json
+            ${{ runner.temp }}/tense-transfer/*.md
+            ${{ runner.temp }}/piast-fetch-log.json
+          retention-days: 14
