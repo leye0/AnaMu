@@ -69,10 +69,16 @@ def _ap(y: np.ndarray, prediction: np.ndarray) -> float | None:
 
 
 def evaluate_arms(records: dict[str, list[tuple]], *, folds: int = FOLDS,
-                  negative_label_control: bool = True) -> tuple[dict, dict]:
+                  negative_label_control: bool = True,
+                  arms: tuple[str, ...] = ARMS,
+                  negative_control_arm: str | None = None) -> tuple[dict, dict]:
     """Fixed models evaluated out of fold, never tuned to folds or test tags."""
-    if set(records) != set(ARMS):
+    if not arms or arms[0] != "baseline" or len(set(arms)) != len(arms) or set(records) != set(arms):
         raise ValueError("missing_arms")
+    if negative_control_arm is None:
+        negative_control_arm = "temporal" if "temporal" in arms else arms[-1]
+    if negative_control_arm not in arms:
+        raise ValueError("missing_negative_control_arm")
     reference = records["baseline"]
     identities = [(c.clip_id, c.song_group) for c, _ in reference]
     for arm, rows in records.items():
@@ -83,9 +89,9 @@ def evaluate_arms(records: dict[str, list[tuple]], *, folds: int = FOLDS,
               for m in NONCALM_MOODS}
     features = {arm: sorted({key for _, row in rows for key in row})
                 for arm, rows in records.items()}
-    matrices = {arm: make_matrix(records[arm], features[arm]) for arm in ARMS}
+    matrices = {arm: make_matrix(records[arm], features[arm]) for arm in arms}
     predictions = {arm: {label: np.full(n, np.nan) for label in NONCALM_MOODS}
-                   for arm in ARMS}
+                   for arm in arms}
     scrambled_dark = np.full(n, np.nan)
     fold_details = []
     for k, (train, test) in enumerate(source_group_folds(reference, n_splits=folds)):
@@ -97,7 +103,7 @@ def evaluate_arms(records: dict[str, list[tuple]], *, folds: int = FOLDS,
             "positives": {m: int(labels[m][test].sum()) for m in NONCALM_MOODS},
             "ap": {},
         }
-        for arm in ARMS:
+        for arm in arms:
             result["ap"][arm] = {}
             x_train, x_test = matrices[arm][train], matrices[arm][test]
             for mood in NONCALM_MOODS:
@@ -109,16 +115,16 @@ def evaluate_arms(records: dict[str, list[tuple]], *, folds: int = FOLDS,
             # are left untouched. Not a feature permutation or an easy class.
             rng = np.random.default_rng(SEED + k)
             y_scrambled = rng.permutation(labels["Dark"][train])
-            scrambled_dark[test] = _predict(matrices["temporal"][train],
-                                            matrices["temporal"][test], y_scrambled)
+            scrambled_dark[test] = _predict(matrices[negative_control_arm][train],
+                                            matrices[negative_control_arm][test], y_scrambled)
         fold_details.append(result)
         print(f"CV fold {k+1}/{folds}: {len(test)} test clips, "
               f"{result['test_groups']} independent video groups", flush=True)
     if any(np.isnan(predictions[arm][mood]).any()
-           for arm in ARMS for mood in NONCALM_MOODS):
+           for arm in arms for mood in NONCALM_MOODS):
         raise AssertionError("incomplete_oof_predictions")
     pooled = {}
-    for arm in ARMS:
+    for arm in arms:
         ap = {m: _ap(labels[m], predictions[arm][m]) for m in NONCALM_MOODS}
         if any(x is None for x in ap.values()):
             raise AssertionError("mood_has_no_positives")
@@ -142,7 +148,9 @@ def evaluate_arms(records: dict[str, list[tuple]], *, folds: int = FOLDS,
     }
 
 
-def group_bootstrap(oof: dict, *, repetitions: int = 700) -> dict:
+def group_bootstrap(oof: dict, *, repetitions: int = 700,
+                    baseline_arm: str = "baseline",
+                    arms: tuple[str, ...] = ARMS) -> dict:
     """Approximate paired OOF AP uncertainty; resample *videos*, not clips.
 
     The interval conditions on already fitted OOF models; it does not account
@@ -155,7 +163,11 @@ def group_bootstrap(oof: dict, *, repetitions: int = 700) -> dict:
     y = oof["labels"]
     p = oof["predictions"]
     out = {}
-    for candidate in ARMS[1:]:
+    if baseline_arm not in arms or any(arm not in p for arm in arms):
+        raise ValueError("unknown_bootstrap_arm")
+    for candidate in arms:
+        if candidate == baseline_arm:
+            continue
         draws = {"Dark": [], "hard5_macro": [], "noncalm14_macro": []}
         for _ in range(repetitions):
             sample_groups = rng.integers(0, len(unique_groups), size=len(unique_groups))
@@ -163,7 +175,7 @@ def group_bootstrap(oof: dict, *, repetitions: int = 700) -> dict:
             contrasts = {}
             for mood in NONCALM_MOODS:
                 a, b = _ap(y[mood][idx], p[candidate][mood][idx]), \
-                       _ap(y[mood][idx], p["baseline"][mood][idx])
+                       _ap(y[mood][idx], p[baseline_arm][mood][idx])
                 if a is not None and b is not None:
                     contrasts[mood] = a - b
             if "Dark" in contrasts:
