@@ -13,9 +13,25 @@ from anamu.tonal_motion import (
 )
 from anamu.piast_at import PIASTClip
 from scripts.piast_at_benchmark import run
+from scripts.piast_tonal_motion_experiment import validation_only_selection, ARMS
 
 
 class TonalMotionTests(unittest.TestCase):
+    def test_tonal_arm_selection_never_chooses_using_test_scores(self):
+        values = {}
+        for index, arm in enumerate(ARMS):
+            values[arm] = {
+                "validation": {"hard_five": {"ap_by_mood": {"Dark": .2 + index * .1}}},
+                "test": {"hard_five": {"ap_by_mood": {"Dark": 1. - index * .2}}},
+                "fresh_test": {"hard_five": {"ap_by_mood": {"Dark": .5}}},
+            }
+        first = validation_only_selection(values, moods=("Dark",))
+        for arm in ARMS:
+            values[arm]["test"]["hard_five"]["ap_by_mood"]["Dark"] *= 0.01
+        second = validation_only_selection(values, moods=("Dark",))
+        self.assertEqual(first["choices"]["Dark"]["arm_selected_by_validation"],
+                         second["choices"]["Dark"]["arm_selected_by_validation"])
+
     @staticmethod
     def _sequence(notes_by_window):
         notes = []

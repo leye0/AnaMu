@@ -1,0 +1,853 @@
+{
+  "study": "Tonal trajectory and key ambiguity, inspired by Xia et al. AAAI 2026",
+  "not_authors_algorithm": "NOT MoFi, no MIDIBERT nor published neural weights",
+  "inputs": "MIDI only, human expert PIAST mood labels used only for training/evaluation",
+  "cohort": "1900/1900 matched MIDI, ALL previously seen in earlier experiments",
+  "independent_new_test": false,
+  "arms": {
+    "research_cues": "H1: published mode profiles, tempo and articulation",
+    "research_tonal_motion": "H1 + temporal local-key/mode uncertainty hypothesis",
+    "research_tonal_motion_shuffled": "H1 + same local-key windows in random order"
+  },
+  "split_sizes": {
+    "train": 1331,
+    "validation": 274,
+    "test": 295
+  },
+  "old_fresh_group_split": "former 78 examples outside initial 1400, but ALREADY EXAMINED",
+  "hypothesis": "Mode/tonic/entropy movement contains emotion information beyond clip-mean mode fit",
+  "negative_control": "reorder eight tonal windows, preserving each clip's tonal distribution",
+  "priority_moods": [
+    "Mysterious",
+    "Epic",
+    "Tense",
+    "Dark",
+    "Happy"
+  ],
+  "scores": {
+    "research_cues": {
+      "validation": {
+        "hard_five": {
+          "target_labels": [
+            "Mysterious",
+            "Epic",
+            "Tense",
+            "Dark",
+            "Happy"
+          ],
+          "eligible_labels": 5,
+          "required_labels": 5,
+          "all_targets_eligible": true,
+          "mean_ap": 0.36172355400121753,
+          "mean_frequency_baseline": 0.11678832116788321,
+          "positive_counts": {
+            "Mysterious": 33,
+            "Epic": 17,
+            "Tense": 33,
+            "Dark": 34,
+            "Happy": 43
+          },
+          "ap_by_mood": {
+            "Mysterious": 0.20009847965411337,
+            "Epic": 0.2881940191544776,
+            "Tense": 0.5108049390170868,
+            "Dark": 0.4079415504534952,
+            "Happy": 0.4015787817269147
+          }
+        },
+        "noncalm_fourteen": {
+          "target_labels": [
+            "Happy",
+            "Bright",
+            "Playful",
+            "Cute",
+            "Dreamy",
+            "Mysterious",
+            "Sad",
+            "Dark",
+            "Tense",
+            "Epic",
+            "Intense/Grand",
+            "Passionate",
+            "Powerful",
+            "Upbeat/Energetic"
+          ],
+          "eligible_labels": 14,
+          "required_labels": 14,
+          "all_targets_eligible": true,
+          "mean_ap": 0.5164128599351465,
+          "mean_frequency_baseline": 0.1394681960375391,
+          "positive_counts": {
+            "Happy": 43,
+            "Bright": 67,
+            "Playful": 60,
+            "Cute": 18,
+            "Dreamy": 54,
+            "Mysterious": 33,
+            "Sad": 34,
+            "Dark": 34,
+            "Tense": 33,
+            "Epic": 17,
+            "Intense/Grand": 36,
+            "Passionate": 39,
+            "Powerful": 19,
+            "Upbeat/Energetic": 48
+          },
+          "ap_by_mood": {
+            "Happy": 0.4015787817269147,
+            "Bright": 0.6730318667831778,
+            "Playful": 0.7320977057019651,
+            "Cute": 0.6460242955109358,
+            "Dreamy": 0.3903213127437452,
+            "Mysterious": 0.20009847965411337,
+            "Sad": 0.4199006666480236,
+            "Dark": 0.4079415504534952,
+            "Tense": 0.5108049390170868,
+            "Epic": 0.2881940191544776,
+            "Intense/Grand": 0.6831071524114647,
+            "Passionate": 0.6616893362828216,
+            "Powerful": 0.5343031124222549,
+            "Upbeat/Energetic": 0.6806868205815743
+          }
+        },
+        "all_named_diagnostic": {
+          "labels": 15,
+          "mean_average_precision": 0.5366922867935285,
+          "mean_prevalence_baseline": 0.1583941605839416
+        }
+      },
+      "test": {
+        "hard_five": {
+          "target_labels": [
+            "Mysterious",
+            "Epic",
+            "Tense",
+            "Dark",
+            "Happy"
+          ],
+          "eligible_labels": 5,
+          "required_labels": 5,
+          "all_targets_eligible": true,
+          "mean_ap": 0.3522431467569054,
+          "mean_frequency_baseline": 0.1288135593220339,
+          "positive_counts": {
+            "Mysterious": 44,
+            "Epic": 25,
+            "Tense": 37,
+            "Dark": 39,
+            "Happy": 45
+          },
+          "ap_by_mood": {
+            "Mysterious": 0.4420067186992371,
+            "Epic": 0.37785158551851394,
+            "Tense": 0.2787923657627388,
+            "Dark": 0.3440497291454441,
+            "Happy": 0.31851533465859294
+          }
+        },
+        "noncalm_fourteen": {
+          "target_labels": [
+            "Happy",
+            "Bright",
+            "Playful",
+            "Cute",
+            "Dreamy",
+            "Mysterious",
+            "Sad",
+            "Dark",
+            "Tense",
+            "Epic",
+            "Intense/Grand",
+            "Passionate",
+            "Powerful",
+            "Upbeat/Energetic"
+          ],
+          "eligible_labels": 14,
+          "required_labels": 14,
+          "all_targets_eligible": true,
+          "mean_ap": 0.498015366945941,
+          "mean_frequency_baseline": 0.14261501210653754,
+          "positive_counts": {
+            "Happy": 45,
+            "Bright": 80,
+            "Playful": 50,
+            "Cute": 19,
+            "Dreamy": 66,
+            "Mysterious": 44,
+            "Sad": 28,
+            "Dark": 39,
+            "Tense": 37,
+            "Epic": 25,
+            "Intense/Grand": 36,
+            "Passionate": 43,
+            "Powerful": 25,
+            "Upbeat/Energetic": 52
+          },
+          "ap_by_mood": {
+            "Happy": 0.31851533465859294,
+            "Bright": 0.631896690763206,
+            "Playful": 0.6011581202698619,
+            "Cute": 0.29297027392700214,
+            "Dreamy": 0.4198705587509404,
+            "Mysterious": 0.4420067186992371,
+            "Sad": 0.3841956124242502,
+            "Dark": 0.3440497291454441,
+            "Tense": 0.2787923657627388,
+            "Epic": 0.37785158551851394,
+            "Intense/Grand": 0.701691544059362,
+            "Passionate": 0.7390746365233392,
+            "Powerful": 0.6913475131840615,
+            "Upbeat/Energetic": 0.7487944535566236
+          }
+        },
+        "all_named_diagnostic": {
+          "labels": 15,
+          "mean_average_precision": 0.5227982479077267,
+          "mean_prevalence_baseline": 0.16451977401129944
+        }
+      },
+      "fresh_test": {
+        "hard_five": {
+          "target_labels": [
+            "Mysterious",
+            "Epic",
+            "Tense",
+            "Dark",
+            "Happy"
+          ],
+          "eligible_labels": 5,
+          "required_labels": 5,
+          "all_targets_eligible": true,
+          "mean_ap": 0.3629500648718618,
+          "mean_frequency_baseline": 0.13076923076923078,
+          "positive_counts": {
+            "Mysterious": 13,
+            "Epic": 6,
+            "Tense": 11,
+            "Dark": 9,
+            "Happy": 12
+          },
+          "ap_by_mood": {
+            "Mysterious": 0.4027894789938503,
+            "Epic": 0.3133028182878258,
+            "Tense": 0.3297999043966786,
+            "Dark": 0.25455568005189877,
+            "Happy": 0.5143024426290556
+          }
+        },
+        "noncalm_fourteen": {
+          "target_labels": [
+            "Happy",
+            "Bright",
+            "Playful",
+            "Cute",
+            "Dreamy",
+            "Mysterious",
+            "Sad",
+            "Dark",
+            "Tense",
+            "Epic",
+            "Intense/Grand",
+            "Passionate",
+            "Powerful",
+            "Upbeat/Energetic"
+          ],
+          "eligible_labels": 14,
+          "required_labels": 14,
+          "all_targets_eligible": true,
+          "mean_ap": 0.5356489084590264,
+          "mean_frequency_baseline": 0.152014652014652,
+          "positive_counts": {
+            "Happy": 12,
+            "Bright": 21,
+            "Playful": 16,
+            "Cute": 4,
+            "Dreamy": 21,
+            "Mysterious": 13,
+            "Sad": 10,
+            "Dark": 9,
+            "Tense": 11,
+            "Epic": 6,
+            "Intense/Grand": 8,
+            "Passionate": 12,
+            "Powerful": 8,
+            "Upbeat/Energetic": 15
+          },
+          "ap_by_mood": {
+            "Happy": 0.5143024426290556,
+            "Bright": 0.6822854070340093,
+            "Playful": 0.847014681493687,
+            "Cute": 0.3354332801701223,
+            "Dreamy": 0.5948585989072837,
+            "Mysterious": 0.4027894789938503,
+            "Sad": 0.4701564201564201,
+            "Dark": 0.25455568005189877,
+            "Tense": 0.3297999043966786,
+            "Epic": 0.3133028182878258,
+            "Intense/Grand": 0.6577934507879869,
+            "Passionate": 0.6607221647955132,
+            "Powerful": 0.7616652983032293,
+            "Upbeat/Energetic": 0.6744050924188087
+          }
+        },
+        "all_named_diagnostic": {
+          "labels": 15,
+          "mean_average_precision": 0.5534819627413353,
+          "mean_prevalence_baseline": 0.1675213675213675
+        }
+      }
+    },
+    "research_tonal_motion": {
+      "validation": {
+        "hard_five": {
+          "target_labels": [
+            "Mysterious",
+            "Epic",
+            "Tense",
+            "Dark",
+            "Happy"
+          ],
+          "eligible_labels": 5,
+          "required_labels": 5,
+          "all_targets_eligible": true,
+          "mean_ap": 0.399742684287494,
+          "mean_frequency_baseline": 0.11678832116788321,
+          "positive_counts": {
+            "Mysterious": 33,
+            "Epic": 17,
+            "Tense": 33,
+            "Dark": 34,
+            "Happy": 43
+          },
+          "ap_by_mood": {
+            "Mysterious": 0.22194587347813377,
+            "Epic": 0.27273885530938835,
+            "Tense": 0.5471960060649569,
+            "Dark": 0.5415082982125083,
+            "Happy": 0.4153243883724825
+          }
+        },
+        "noncalm_fourteen": {
+          "target_labels": [
+            "Happy",
+            "Bright",
+            "Playful",
+            "Cute",
+            "Dreamy",
+            "Mysterious",
+            "Sad",
+            "Dark",
+            "Tense",
+            "Epic",
+            "Intense/Grand",
+            "Passionate",
+            "Powerful",
+            "Upbeat/Energetic"
+          ],
+          "eligible_labels": 14,
+          "required_labels": 14,
+          "all_targets_eligible": true,
+          "mean_ap": 0.532150993751533,
+          "mean_frequency_baseline": 0.1394681960375391,
+          "positive_counts": {
+            "Happy": 43,
+            "Bright": 67,
+            "Playful": 60,
+            "Cute": 18,
+            "Dreamy": 54,
+            "Mysterious": 33,
+            "Sad": 34,
+            "Dark": 34,
+            "Tense": 33,
+            "Epic": 17,
+            "Intense/Grand": 36,
+            "Passionate": 39,
+            "Powerful": 19,
+            "Upbeat/Energetic": 48
+          },
+          "ap_by_mood": {
+            "Happy": 0.4153243883724825,
+            "Bright": 0.6966893773204516,
+            "Playful": 0.7448442089522118,
+            "Cute": 0.624361856022156,
+            "Dreamy": 0.3953451040683381,
+            "Mysterious": 0.22194587347813377,
+            "Sad": 0.4317189860548088,
+            "Dark": 0.5415082982125083,
+            "Tense": 0.5471960060649569,
+            "Epic": 0.27273885530938835,
+            "Intense/Grand": 0.6772196389367435,
+            "Passionate": 0.6408656161915174,
+            "Powerful": 0.5604563781746033,
+            "Upbeat/Energetic": 0.6798993253631613
+          }
+        },
+        "all_named_diagnostic": {
+          "labels": 15,
+          "mean_average_precision": 0.5504079539862305,
+          "mean_prevalence_baseline": 0.1583941605839416
+        }
+      },
+      "test": {
+        "hard_five": {
+          "target_labels": [
+            "Mysterious",
+            "Epic",
+            "Tense",
+            "Dark",
+            "Happy"
+          ],
+          "eligible_labels": 5,
+          "required_labels": 5,
+          "all_targets_eligible": true,
+          "mean_ap": 0.36310524864084476,
+          "mean_frequency_baseline": 0.1288135593220339,
+          "positive_counts": {
+            "Mysterious": 44,
+            "Epic": 25,
+            "Tense": 37,
+            "Dark": 39,
+            "Happy": 45
+          },
+          "ap_by_mood": {
+            "Mysterious": 0.43580938478971926,
+            "Epic": 0.3674004484681125,
+            "Tense": 0.28918549218781503,
+            "Dark": 0.4554384113455888,
+            "Happy": 0.2676925064129882
+          }
+        },
+        "noncalm_fourteen": {
+          "target_labels": [
+            "Happy",
+            "Bright",
+            "Playful",
+            "Cute",
+            "Dreamy",
+            "Mysterious",
+            "Sad",
+            "Dark",
+            "Tense",
+            "Epic",
+            "Intense/Grand",
+            "Passionate",
+            "Powerful",
+            "Upbeat/Energetic"
+          ],
+          "eligible_labels": 14,
+          "required_labels": 14,
+          "all_targets_eligible": true,
+          "mean_ap": 0.48933080785712263,
+          "mean_frequency_baseline": 0.14261501210653754,
+          "positive_counts": {
+            "Happy": 45,
+            "Bright": 80,
+            "Playful": 50,
+            "Cute": 19,
+            "Dreamy": 66,
+            "Mysterious": 44,
+            "Sad": 28,
+            "Dark": 39,
+            "Tense": 37,
+            "Epic": 25,
+            "Intense/Grand": 36,
+            "Passionate": 43,
+            "Powerful": 25,
+            "Upbeat/Energetic": 52
+          },
+          "ap_by_mood": {
+            "Happy": 0.2676925064129882,
+            "Bright": 0.5862473676756775,
+            "Playful": 0.5623417751729883,
+            "Cute": 0.22371042073744252,
+            "Dreamy": 0.3907710579851055,
+            "Mysterious": 0.43580938478971926,
+            "Sad": 0.3544053604058699,
+            "Dark": 0.4554384113455888,
+            "Tense": 0.28918549218781503,
+            "Epic": 0.3674004484681125,
+            "Intense/Grand": 0.6936530663135284,
+            "Passionate": 0.7549555525294979,
+            "Powerful": 0.7469796479277021,
+            "Upbeat/Energetic": 0.7220408180476807
+          }
+        },
+        "all_named_diagnostic": {
+          "labels": 15,
+          "mean_average_precision": 0.5159503795129456,
+          "mean_prevalence_baseline": 0.16451977401129944
+        }
+      },
+      "fresh_test": {
+        "hard_five": {
+          "target_labels": [
+            "Mysterious",
+            "Epic",
+            "Tense",
+            "Dark",
+            "Happy"
+          ],
+          "eligible_labels": 5,
+          "required_labels": 5,
+          "all_targets_eligible": true,
+          "mean_ap": 0.37785875727823753,
+          "mean_frequency_baseline": 0.13076923076923078,
+          "positive_counts": {
+            "Mysterious": 13,
+            "Epic": 6,
+            "Tense": 11,
+            "Dark": 9,
+            "Happy": 12
+          },
+          "ap_by_mood": {
+            "Mysterious": 0.44571272858212524,
+            "Epic": 0.3215229215229215,
+            "Tense": 0.3759874000531328,
+            "Dark": 0.28834673834673835,
+            "Happy": 0.45772399788626966
+          }
+        },
+        "noncalm_fourteen": {
+          "target_labels": [
+            "Happy",
+            "Bright",
+            "Playful",
+            "Cute",
+            "Dreamy",
+            "Mysterious",
+            "Sad",
+            "Dark",
+            "Tense",
+            "Epic",
+            "Intense/Grand",
+            "Passionate",
+            "Powerful",
+            "Upbeat/Energetic"
+          ],
+          "eligible_labels": 14,
+          "required_labels": 14,
+          "all_targets_eligible": true,
+          "mean_ap": 0.5229062652507852,
+          "mean_frequency_baseline": 0.152014652014652,
+          "positive_counts": {
+            "Happy": 12,
+            "Bright": 21,
+            "Playful": 16,
+            "Cute": 4,
+            "Dreamy": 21,
+            "Mysterious": 13,
+            "Sad": 10,
+            "Dark": 9,
+            "Tense": 11,
+            "Epic": 6,
+            "Intense/Grand": 8,
+            "Passionate": 12,
+            "Powerful": 8,
+            "Upbeat/Energetic": 15
+          },
+          "ap_by_mood": {
+            "Happy": 0.45772399788626966,
+            "Bright": 0.7037405215206469,
+            "Playful": 0.7066890742160139,
+            "Cute": 0.19956673761021587,
+            "Dreamy": 0.5319582165699724,
+            "Mysterious": 0.44571272858212524,
+            "Sad": 0.5120413954278271,
+            "Dark": 0.28834673834673835,
+            "Tense": 0.3759874000531328,
+            "Epic": 0.3215229215229215,
+            "Intense/Grand": 0.6569120218017277,
+            "Passionate": 0.6882689319271328,
+            "Powerful": 0.769266917293233,
+            "Upbeat/Energetic": 0.6629501107530359
+          }
+        },
+        "all_named_diagnostic": {
+          "labels": 15,
+          "mean_average_precision": 0.5434586004155354,
+          "mean_prevalence_baseline": 0.1675213675213675
+        }
+      }
+    },
+    "research_tonal_motion_shuffled": {
+      "validation": {
+        "hard_five": {
+          "target_labels": [
+            "Mysterious",
+            "Epic",
+            "Tense",
+            "Dark",
+            "Happy"
+          ],
+          "eligible_labels": 5,
+          "required_labels": 5,
+          "all_targets_eligible": true,
+          "mean_ap": 0.4017168680279397,
+          "mean_frequency_baseline": 0.11678832116788321,
+          "positive_counts": {
+            "Mysterious": 33,
+            "Epic": 17,
+            "Tense": 33,
+            "Dark": 34,
+            "Happy": 43
+          },
+          "ap_by_mood": {
+            "Mysterious": 0.22109629957640656,
+            "Epic": 0.29663121099235173,
+            "Tense": 0.5466122720391564,
+            "Dark": 0.5550966951162544,
+            "Happy": 0.3891478624155296
+          }
+        },
+        "noncalm_fourteen": {
+          "target_labels": [
+            "Happy",
+            "Bright",
+            "Playful",
+            "Cute",
+            "Dreamy",
+            "Mysterious",
+            "Sad",
+            "Dark",
+            "Tense",
+            "Epic",
+            "Intense/Grand",
+            "Passionate",
+            "Powerful",
+            "Upbeat/Energetic"
+          ],
+          "eligible_labels": 14,
+          "required_labels": 14,
+          "all_targets_eligible": true,
+          "mean_ap": 0.5167154062786878,
+          "mean_frequency_baseline": 0.1394681960375391,
+          "positive_counts": {
+            "Happy": 43,
+            "Bright": 67,
+            "Playful": 60,
+            "Cute": 18,
+            "Dreamy": 54,
+            "Mysterious": 33,
+            "Sad": 34,
+            "Dark": 34,
+            "Tense": 33,
+            "Epic": 17,
+            "Intense/Grand": 36,
+            "Passionate": 39,
+            "Powerful": 19,
+            "Upbeat/Energetic": 48
+          },
+          "ap_by_mood": {
+            "Happy": 0.3891478624155296,
+            "Bright": 0.690776245487464,
+            "Playful": 0.7378576218195221,
+            "Cute": 0.512541733308854,
+            "Dreamy": 0.3973600658996713,
+            "Mysterious": 0.22109629957640656,
+            "Sad": 0.40344706508822054,
+            "Dark": 0.5550966951162544,
+            "Tense": 0.5466122720391564,
+            "Epic": 0.29663121099235173,
+            "Intense/Grand": 0.6573569910975675,
+            "Passionate": 0.6400802244832734,
+            "Powerful": 0.4746174677082896,
+            "Upbeat/Energetic": 0.7113939328690694
+          }
+        },
+        "all_named_diagnostic": {
+          "labels": 15,
+          "mean_average_precision": 0.5368652357332202,
+          "mean_prevalence_baseline": 0.1583941605839416
+        }
+      },
+      "test": {
+        "hard_five": {
+          "target_labels": [
+            "Mysterious",
+            "Epic",
+            "Tense",
+            "Dark",
+            "Happy"
+          ],
+          "eligible_labels": 5,
+          "required_labels": 5,
+          "all_targets_eligible": true,
+          "mean_ap": 0.35044664589290403,
+          "mean_frequency_baseline": 0.1288135593220339,
+          "positive_counts": {
+            "Mysterious": 44,
+            "Epic": 25,
+            "Tense": 37,
+            "Dark": 39,
+            "Happy": 45
+          },
+          "ap_by_mood": {
+            "Mysterious": 0.44587599008229584,
+            "Epic": 0.3508572599667672,
+            "Tense": 0.2732216514786064,
+            "Dark": 0.38611566469913844,
+            "Happy": 0.2961626632377123
+          }
+        },
+        "noncalm_fourteen": {
+          "target_labels": [
+            "Happy",
+            "Bright",
+            "Playful",
+            "Cute",
+            "Dreamy",
+            "Mysterious",
+            "Sad",
+            "Dark",
+            "Tense",
+            "Epic",
+            "Intense/Grand",
+            "Passionate",
+            "Powerful",
+            "Upbeat/Energetic"
+          ],
+          "eligible_labels": 14,
+          "required_labels": 14,
+          "all_targets_eligible": true,
+          "mean_ap": 0.48230376086833443,
+          "mean_frequency_baseline": 0.14261501210653754,
+          "positive_counts": {
+            "Happy": 45,
+            "Bright": 80,
+            "Playful": 50,
+            "Cute": 19,
+            "Dreamy": 66,
+            "Mysterious": 44,
+            "Sad": 28,
+            "Dark": 39,
+            "Tense": 37,
+            "Epic": 25,
+            "Intense/Grand": 36,
+            "Passionate": 43,
+            "Powerful": 25,
+            "Upbeat/Energetic": 52
+          },
+          "ap_by_mood": {
+            "Happy": 0.2961626632377123,
+            "Bright": 0.582835249527362,
+            "Playful": 0.5948542540202302,
+            "Cute": 0.2045045473237967,
+            "Dreamy": 0.40082453771969406,
+            "Mysterious": 0.44587599008229584,
+            "Sad": 0.37998028077583673,
+            "Dark": 0.38611566469913844,
+            "Tense": 0.2732216514786064,
+            "Epic": 0.3508572599667672,
+            "Intense/Grand": 0.6769543269617593,
+            "Passionate": 0.7474953197079256,
+            "Powerful": 0.6770464155508953,
+            "Upbeat/Energetic": 0.7355244911046623
+          }
+        },
+        "all_named_diagnostic": {
+          "labels": 15,
+          "mean_average_precision": 0.5083809591660015,
+          "mean_prevalence_baseline": 0.16451977401129944
+        }
+      },
+      "fresh_test": {
+        "hard_five": {
+          "target_labels": [
+            "Mysterious",
+            "Epic",
+            "Tense",
+            "Dark",
+            "Happy"
+          ],
+          "eligible_labels": 5,
+          "required_labels": 5,
+          "all_targets_eligible": true,
+          "mean_ap": 0.3903121456690081,
+          "mean_frequency_baseline": 0.13076923076923078,
+          "positive_counts": {
+            "Mysterious": 13,
+            "Epic": 6,
+            "Tense": 11,
+            "Dark": 9,
+            "Happy": 12
+          },
+          "ap_by_mood": {
+            "Mysterious": 0.4280902947560669,
+            "Epic": 0.33896011396011394,
+            "Tense": 0.37753204589875433,
+            "Dark": 0.2701776046897998,
+            "Happy": 0.5368006690403058
+          }
+        },
+        "noncalm_fourteen": {
+          "target_labels": [
+            "Happy",
+            "Bright",
+            "Playful",
+            "Cute",
+            "Dreamy",
+            "Mysterious",
+            "Sad",
+            "Dark",
+            "Tense",
+            "Epic",
+            "Intense/Grand",
+            "Passionate",
+            "Powerful",
+            "Upbeat/Energetic"
+          ],
+          "eligible_labels": 14,
+          "required_labels": 14,
+          "all_targets_eligible": true,
+          "mean_ap": 0.5484881397095721,
+          "mean_frequency_baseline": 0.152014652014652,
+          "positive_counts": {
+            "Happy": 12,
+            "Bright": 21,
+            "Playful": 16,
+            "Cute": 4,
+            "Dreamy": 21,
+            "Mysterious": 13,
+            "Sad": 10,
+            "Dark": 9,
+            "Tense": 11,
+            "Epic": 6,
+            "Intense/Grand": 8,
+            "Passionate": 12,
+            "Powerful": 8,
+            "Upbeat/Energetic": 15
+          },
+          "ap_by_mood": {
+            "Happy": 0.5368006690403058,
+            "Bright": 0.7269065660253236,
+            "Playful": 0.796566602614586,
+            "Cute": 0.35598913664951404,
+            "Dreamy": 0.5585110489906842,
+            "Mysterious": 0.4280902947560669,
+            "Sad": 0.49136523879170935,
+            "Dark": 0.2701776046897998,
+            "Tense": 0.37753204589875433,
+            "Epic": 0.33896011396011394,
+            "Intense/Grand": 0.6866071428571429,
+            "Passionate": 0.6571603819665836,
+            "Powerful": 0.7404970760233918,
+            "Upbeat/Energetic": 0.7136700336700336
+          }
+        },
+        "all_named_diagnostic": {
+          "labels": 15,
+          "mean_average_precision": 0.5657331198851915,
+          "mean_prevalence_baseline": 0.1675213675213675
+        }
+      }
+    }
+  },
+  "caveats": [
+    "Exploratory, post-existing-test; no hypothesis can be accepted as externally confirmed",
+    "Tonal key profiles based on 1982 perceptual hierarchy, not actual composer key labels",
+    "Local key entropy is a proxy from correlations, not listener uncertainty",
+    "Time division is eight equal clip windows, not scored measures or analyst voices",
+    "Negative control retains distributional tonal information and tests only temporal order",
+    "No audio is processed; labels reflect expert tag-majority, not felt emotion"
+  ]
+}

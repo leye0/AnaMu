@@ -22,6 +22,10 @@ gain robuste, **aucune intégration de cette branche au modèle principal**.
 validation imbriquée sur 48 œuvres, **79,4→80,2 %** en activation, mais
 **71,0→68,9 %** en valence ; le témoin aux labels mélangés revient vers
 le hasard. Aucun gain significatif et aucune promotion en production.
+**[Nouvelle recherche : évolution tonale sur les 1 900 PIAST](reports/piast-tonal-motion-2026-11-08.md)** :
+`Dark` AP **0,344 → 0,455** en exploration, mais la sélection par validation
+des variantes sur cinq humeurs difficiles **régresse de 0,352 à 0,346**.
+La théorie de l'évolution tonale est une **piste**, pas encore une percée.
 Les tests comparent explicitement les ordres humains de tension et les différences
 **sombre / imaginatif / dramatique** entre interprétations MIDI d'une même partition.
 Les algorithmes sont testables, mais **aucun gain sur PIAST Dark/Epic/Tense/Mysterious/Happy

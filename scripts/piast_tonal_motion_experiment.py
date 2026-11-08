@@ -22,6 +22,38 @@ ARMS = {
 }
 
 
+def validation_only_selection(scores: dict, moods: tuple[str, ...] = HARD_MOODS) -> dict:
+    """Choose each mood's arm exclusively from validation average precision.
+
+    The chosen arm may then be evaluated on test *without* touching test tags
+    during selection. Macro comparisons are reported without pooling easy Calm.
+    """
+    chosen = {}
+    for mood in moods:
+        arm = max(ARMS, key=lambda name:
+                  scores[name]["validation"]["hard_five"]["ap_by_mood"][mood])
+        chosen[mood] = {
+            "arm_selected_by_validation": arm,
+            "validation_ap": scores[arm]["validation"]["hard_five"]["ap_by_mood"][mood],
+            "test_ap": scores[arm]["test"]["hard_five"]["ap_by_mood"][mood],
+            "former_subset_ap": scores[arm]["fresh_test"]["hard_five"]["ap_by_mood"][mood],
+        }
+    return {
+        "choices": chosen,
+        "test_macro_average_precision": sum(v["test_ap"] for v in chosen.values()) / len(chosen),
+        "test_reference_macro_average_precision": sum(
+            scores["research_cues"]["test"]["hard_five"]["ap_by_mood"][m]
+            for m in moods) / len(moods),
+        "former_subset_macro_average_precision": sum(
+            v["former_subset_ap"] for v in chosen.values()) / len(chosen),
+        "former_subset_reference_macro_average_precision": sum(
+            scores["research_cues"]["fresh_test"]["hard_five"]["ap_by_mood"][m]
+            for m in moods) / len(moods),
+        "selection_does_not_use_test_labels": True,
+        "warning": "selection is unbiased per run but researcher has already examined this test in prior runs",
+    }
+
+
 def experiment(root: Path, output: Path, *, limit: int = 1900) -> dict:
     if limit != 1900:
         raise ValueError("requires_identical_1900_previously_examined_cohort")
@@ -62,6 +94,7 @@ def experiment(root: Path, output: Path, *, limit: int = 1900) -> dict:
         "negative_control": "reorder eight tonal windows, preserving each clip's tonal distribution",
         "priority_moods": list(HARD_MOODS),
         "scores": scores,
+        "validation_only_arm_selection": validation_only_selection(scores),
         "caveats": [
             "Exploratory, post-existing-test; no hypothesis can be accepted as externally confirmed",
             "Tonal key profiles based on 1982 perceptual hierarchy, not actual composer key labels",
@@ -96,7 +129,16 @@ def experiment(root: Path, output: Path, *, limit: int = 1900) -> dict:
                      ["hard_five"]["positive_counts"][mood]) + " | " + " | ".join(
                          fmt(scores[arm]["test"]["hard_five"]["ap_by_mood"][mood])
                          for arm in ARMS) + " |")
-    lines += ["", "Les résultats ne valident ni l'équation ni les modèles de l'article AAAI.",
+    selection = summary["validation_only_arm_selection"]
+    lines += ["", "## Sélection exclusivement par la validation", "",
+              "| Humeur | Variante choisie | AP sur le test |",
+              "|---|---|---:|"]
+    for mood, row in selection["choices"].items():
+        lines.append(f"| {mood} | {row['arm_selected_by_validation']} | {row['test_ap']:.3f} |")
+    lines += ["", f"**Macro cinq humeurs sur l'ancien test : référence "
+              f"{selection['test_reference_macro_average_precision']:.3f} "
+              f"→ sélection validation {selection['test_macro_average_precision']:.3f}.**",
+              "", "Les résultats ne valident ni l'équation ni les modèles de l'article AAAI.",
               "Un gain sans autre corpus ou nouvel échantillon n'est pas une découverte confirmée.", ""]
     (output / "tonal-motion-summary.md").write_text("\n".join(lines), encoding="utf-8")
     return summary
