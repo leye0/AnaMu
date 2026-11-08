@@ -77,6 +77,53 @@ exemples déjà vus. Il ne s'agit pas d'une validation dans un autre corpus.
 **Aucun de ces trois mécanismes supplémentaires n'est déclaré testé tant
 qu'un vrai score d'ablation sur les données réservées ne le confirme.**
 
+## Nouvelle expérience prédéfinie : surprise mélodique et incertitude
+
+**Origine précise :** [Egermann, Pearce, Wiggins & McAdams (2013)](https://doi.org/10.3758/s13415-013-0161-y)
+ont associé des violations des attentes mélodiques et des réponses
+psychophysiologiques en concert ; [Cheung et al. (2019)](https://doi.org/10.1016/j.cub.2019.09.067)
+étudient l'interaction surprise/incertitude dans le plaisir musical.
+Ni l'un ni l'autre ne valide une prédiction de nos 15 adjectifs d'humeur
+PIAST-AT. Le transfert à ce problème est **notre hypothèse à falsifier**.
+
+Algorithme à tester : sur le MIDI polyphonique, prendre la note la plus
+aiguë de chaque instant d'attaque comme *candidate* de mélodie, calculer les
+intervalles successifs, puis apprendre des probabilités conditionnelles par
+un petit modèle d'ordre variable jusqu'à trois intervalles précédents.
+La **surprise** est `-log2 P(intervalle | contexte)` après l'arrivée de la
+note. L'**incertitude** est l'entropie de cette distribution *avant* l'arrivée.
+Leurs moyennes, fluctuations, extrêmes et évolutions temporelles forment
+12 observations supplémentaires.
+
+Trois contrôles étaient fixés **avant de regarder les nouveaux résultats** :
+
+1. `research_cues` : H1 précédent, aucune surprise (référence).
+2. `research_surprise` : H1 + surprise, entropie et variations d'ordre 3.
+3. `research_surprise_unigram` : mêmes résumés mais probabilité d'ordre 0 ;
+   mesure le bénéfice des fréquences, *sans* ordre des notes.
+4. `research_surprise_shuffled` : probabilité d'ordre 3, mais ordre des
+   intervalles mélangé de manière stable dans chaque morceau au moment du
+   calcul ; la distribution des intervalles est préservée.
+
+**Anti-fuite :** le prior musical est appris exclusivement sur le groupe
+« entraînement », sans étiquettes d'humeur. Un exemple de cet entraînement
+reçoit ses observations de surprise par *cross-fitting* en cinq plis :
+aucune autre version du même groupe vidéo ne peut figurer dans son prior.
+Validation et test reçoivent le prior appris sur la totalité de l'entraînement.
+Tous les essais partagent la séparation groupes/labels et le classificateur
+linéaire figé. La mesure principale reste l'AP moyenne des étiquettes
+nommées, sur les morceaux précédemment inconnus.
+
+**Statut au moment de l'écriture :** algorithmes et tests anti-fuite
+implémentés ; comparaison sur 1 400 MIDI via GitHub Actions optionnelle,
+dont un test excluant les 850 premiers morceaux examinés. **Aucun score
+de ce nouvel essai ne doit être annoncé avant réception des rapports.**
+
+**Limites :** cette approximation n'est **pas** l'IDyOM original. La ligne
+mélodique supérieure peut être fausse sur piano polyphonique ; la précision
+des attaques dépend de la transcription. Le plaisir musical mesuré dans
+une étude n'est pas synonyme des adjectifs d'humeur perçue par les experts.
+
 ## Résultat observé — première hypothèse (8 novembre 2026)
 
 Après avoir fixé les trois variantes ci-dessus, nous les avons exécutées

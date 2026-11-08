@@ -29,6 +29,7 @@ from sklearn.preprocessing import StandardScaler
 
 from anamu.emotion_pipeline import extract_academic_rows, infer_measure_count
 from anamu.piast_research_cues import midi_emotion_cues
+from anamu.piast_expectation_hypothesis import add_out_of_fold_expectancy
 from anamu.piast_at import (MOOD_LABELS, assigned_split, available_annotations,
                             load_annotations, tag_popularity)
 
@@ -115,8 +116,10 @@ def score_labels(train: list[tuple], subset: list[tuple], features: list[str]) -
 
 def run(root: Path, *, feature_set: str = "basic", cache_dir: Path | None = None,
         seed: int = 20261108, limit: int = 0, fresh_after: int = 0) -> dict:
+    surprise_sets = {"research_surprise", "research_surprise_unigram",
+                     "research_surprise_shuffled"}
     if feature_set not in {"basic", "academic", "full",
-                           "research_cues", "research_interactions"}:
+                           "research_cues", "research_interactions"} | surprise_sets:
         raise ValueError("unsupported_feature_set")
     if limit < 0 or fresh_after < 0:
         raise ValueError("invalid_limit")
@@ -131,12 +134,13 @@ def run(root: Path, *, feature_set: str = "basic", cache_dir: Path | None = None
     extracted = []
     academic = feature_set in ("academic", "full")
     full_fusion = feature_set == "full"
+    base_feature_set = "research_cues" if feature_set in surprise_sets else feature_set
     start = time.monotonic()
     if cache_dir:
         cache_dir.mkdir(parents=True, exist_ok=True)
     for index, clip in enumerate(available, 1):
         path = root / "midi" / clip.midi_name
-        key = hashlib.sha256(("piast-v1|" + feature_set + "|" +
+        key = hashlib.sha256(("piast-v1|" + base_feature_set + "|" +
                               hashlib.sha256(path.read_bytes()).hexdigest()).encode()).hexdigest()
         cache_file = cache_dir / (key + ".json") if cache_dir else None
         try:
@@ -147,7 +151,7 @@ def run(root: Path, *, feature_set: str = "basic", cache_dir: Path | None = None
                 rows, _, _ = extract_academic_rows(path, n,
                                                     academic=academic, full_fusion=full_fusion)
                 features = summarize_measures(rows)
-                if feature_set in {"research_cues", "research_interactions"}:
+                if feature_set in {"research_cues", "research_interactions"} | surprise_sets:
                     features.update(midi_emotion_cues(
                         path, interactions=(feature_set == "research_interactions")))
                 if cache_file:
@@ -166,6 +170,11 @@ def run(root: Path, *, feature_set: str = "basic", cache_dir: Path | None = None
     for name, records in splits.items():
         if not records:
             raise ValueError(f"empty_{name}_split")
+    expectancy_info = None
+    if feature_set in surprise_sets:
+        expectancy_info = add_out_of_fold_expectancy(
+            splits, root, order=0 if feature_set == "research_surprise_unigram" else 3,
+            shuffle=feature_set == "research_surprise_shuffled", seed=seed)
     feature_names = sorted({key for _, row in splits["train"] for key in row})
     validation = score_labels(splits["train"], splits["validation"], feature_names)
     # No algorithm, features, threshold or hyperparameter is tuned on test.
@@ -184,6 +193,7 @@ def run(root: Path, *, feature_set: str = "basic", cache_dir: Path | None = None
         "input": "symbolic MIDI only, no recorded audio",
         "consensus": "at least two of three expert annotators",
         "feature_set": feature_set,
+        "expectancy_protocol": expectancy_info,
         "model": "fixed class-balanced logistic regression per tag (C=0.5)",
         "fixed_decision_threshold": 0.5,
         "split_policy": "deterministic source-video-disjoint 70/15/15; no label stratification",
@@ -205,6 +215,8 @@ def run(root: Path, *, feature_set: str = "basic", cache_dir: Path | None = None
             "Les MIDI de structure irrégulière peuvent être refusés ; refus et couverture sont déclarés.",
             "Le terme générique 'Emotional' est exclu de la moyenne des humeurs nommées.",
             "Validation et test restent séparés ; aucune sélection ni réglage sur les labels de test.",
+            "Les indices de surprise proviennent d'un petit n-gramme, non du logiciel IDyOM original.",
+            "L'ordre mélodique repose sur une voix supérieure estimée; les émotions ressenties ne sont pas mesurées.",
         ],
     }
 
@@ -268,7 +280,10 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("directory", type=Path)
     parser.add_argument("--feature-set", choices=("basic", "academic", "full",
-                                                   "research_cues", "research_interactions"),
+                                                   "research_cues", "research_interactions",
+                                                   "research_surprise",
+                                                   "research_surprise_unigram",
+                                                   "research_surprise_shuffled"),
                         default="basic")
     parser.add_argument("--cache-dir", type=Path)
     parser.add_argument("--seed", type=int, default=20261108)
