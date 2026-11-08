@@ -10,6 +10,9 @@ import numpy as np
 from scripts.cp_wtc_relative_benchmark import (
     FEATURES, evaluate_pairs, midi_expression, predict_out_of_fold,
 )
+from scripts.cp_wtc_pairwise_rank_benchmark import (
+    _pair_data, _permuted_labels,
+)
 from scripts.isovat_tension_benchmark import HUMAN_TENSION_ORDER, score_order
 from scripts.percepiano_hard_benchmark import (
     HARD_DIFFERENCE, evaluate, parent_work, scored_excerpt,
@@ -26,6 +29,25 @@ from anamu.score_aligned_expression import (
 
 
 class SymbolicEmotionBenchmarkTests(unittest.TestCase):
+    def test_cp_wtc_ranker_pair_augmentation_is_symmetric_and_grouped(self):
+        groups = np.repeat(np.arange(3), 3)
+        x = np.arange(18, dtype=float).reshape(9, 2)
+        y = np.array([0., 2., 3., 1., 4., 5., 0., 0.1, 0.2])
+        pairs, labels = _pair_data(x, y, groups, threshold=1.)
+        self.assertEqual(pairs.shape, (12, 2))
+        self.assertTrue(np.array_equal(pairs[0::2], -pairs[1::2]))
+        self.assertTrue(np.array_equal(labels[0::2], 1 - labels[1::2]))
+        self.assertEqual(_pair_data(x, y, groups, threshold=2.)[0].shape[0], 8)
+
+    def test_cp_wtc_label_shuffle_never_moves_a_label_between_scores(self):
+        groups = np.repeat(np.arange(4), 6)
+        human = np.arange(24, dtype=float)
+        shuffled = _permuted_labels(human, groups, 20261109)
+        for group in range(4):
+            ids = groups == group
+            self.assertEqual(sorted(human[ids]), sorted(shuffled[ids]))
+        self.assertFalse(np.array_equal(human, shuffled))
+
     def test_isovat_uses_distinct_human_listener_order_and_credits_pairs(self):
         self.assertEqual(len(HUMAN_TENSION_ORDER), 10)
         self.assertEqual(HUMAN_TENSION_ORDER[6], "LMH")

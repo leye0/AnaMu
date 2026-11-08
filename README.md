@@ -18,6 +18,10 @@ de chaque mécanisme. Les rapprochements MIDI↔audio et **Demucs sont reportés
 Un gain brut de +4,55 points sur l'axe *Dramatique* s'écroule en grande partie
 quand le choix de modèle se fait sans consulter l'œuvre test ; aucun grand
 gain robuste, **aucune intégration de cette branche au modèle principal**.
+**[Contre-épreuve : classement par paires optimisé sur CP-WTC](reports/cp-wtc-pairwise-ranking-2026-11-08.md)** :
+validation imbriquée sur 48 œuvres, **79,4→80,2 %** en activation, mais
+**71,0→68,9 %** en valence ; le témoin aux labels mélangés revient vers
+le hasard. Aucun gain significatif et aucune promotion en production.
 Les tests comparent explicitement les ordres humains de tension et les différences
 **sombre / imaginatif / dramatique** entre interprétations MIDI d'une même partition.
 Les algorithmes sont testables, mais **aucun gain sur PIAST Dark/Epic/Tense/Mysterious/Happy

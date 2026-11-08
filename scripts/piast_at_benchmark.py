@@ -29,6 +29,7 @@ from sklearn.preprocessing import StandardScaler
 
 from anamu.emotion_pipeline import extract_academic_rows, infer_measure_count
 from anamu.piast_research_cues import midi_emotion_cues
+from anamu.tonal_motion import midi_tonal_motion
 from anamu.piast_expectation_hypothesis import add_out_of_fold_expectancy
 from anamu.piast_tension_hypothesis import tension_trend_features
 from anamu.piast_at import (MOOD_LABELS, assigned_split, available_annotations,
@@ -135,8 +136,9 @@ def run(root: Path, *, feature_set: str = "basic", cache_dir: Path | None = None
                      "research_surprise_shuffled", "research_surprise_tension"}
     tension_sets = {"research_tension", "research_tension_shuffled",
                     "research_surprise_tension"}
+    tonal_sets = {"research_tonal_motion", "research_tonal_motion_shuffled"}
     if feature_set not in {"basic", "academic", "full",
-                           "research_cues", "research_interactions"} | surprise_sets | tension_sets:
+                           "research_cues", "research_interactions"} | surprise_sets | tension_sets | tonal_sets:
         raise ValueError("unsupported_feature_set")
     if limit < 0 or fresh_after < 0:
         raise ValueError("invalid_limit")
@@ -151,7 +153,8 @@ def run(root: Path, *, feature_set: str = "basic", cache_dir: Path | None = None
     extracted = []
     academic = feature_set in ("academic", "full")
     full_fusion = feature_set == "full"
-    base_feature_set = "research_cues" if feature_set in surprise_sets - tension_sets else feature_set
+    base_feature_set = ("research_cues" if feature_set in (surprise_sets - tension_sets) | tonal_sets
+                        else feature_set)
     start = time.monotonic()
     if cache_dir:
         cache_dir.mkdir(parents=True, exist_ok=True)
@@ -168,7 +171,7 @@ def run(root: Path, *, feature_set: str = "basic", cache_dir: Path | None = None
                 rows, _, _ = extract_academic_rows(path, n,
                                                     academic=academic, full_fusion=full_fusion)
                 features = summarize_measures(rows)
-                if feature_set in {"research_cues", "research_interactions"} | surprise_sets | tension_sets:
+                if feature_set in {"research_cues", "research_interactions"} | surprise_sets | tension_sets | tonal_sets:
                     features.update(midi_emotion_cues(
                         path, interactions=(feature_set == "research_interactions")))
                 if feature_set in tension_sets:
@@ -178,6 +181,12 @@ def run(root: Path, *, feature_set: str = "basic", cache_dir: Path | None = None
                 if cache_file:
                     cache_file.write_text(json.dumps(features, allow_nan=False),
                                           encoding="utf-8")
+            # Tonal features are added AFTER reading/writing the shared H1
+            # cache; otherwise a shuffled trajectory could contaminate the
+            # baseline or the other arm through the same cache file.
+            if feature_set in tonal_sets:
+                features.update(midi_tonal_motion(
+                    path, shuffle=feature_set == "research_tonal_motion_shuffled", seed=seed))
             extracted.append((clip, features))
         except (OSError, ValueError, RuntimeError, IndexError, ZeroDivisionError,
                 TypeError) as exc:
@@ -307,7 +316,8 @@ def main() -> None:
                                                    "research_surprise_unigram",
                                                    "research_surprise_shuffled",
                                                    "research_tension", "research_tension_shuffled",
-                                                   "research_surprise_tension"),
+                                                   "research_surprise_tension", "research_tonal_motion",
+                                                   "research_tonal_motion_shuffled"),
                         default="basic")
     parser.add_argument("--cache-dir", type=Path)
     parser.add_argument("--seed", type=int, default=20261108)
