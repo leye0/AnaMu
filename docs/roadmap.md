@@ -232,11 +232,21 @@ directement sans apprendre de nouveau sur les œuvres analysées.
   pas de reprises hypothétiques. Exemple vérifié : Beethoven, mouvement 3,
   représente **145 mesures écrites**, et non les 456 mesures de l'export
   initial qui développait implicitement des reprises.
-- jSymbolic original s'exécute sur Bach. Il a atteint le timeout sur Chopin ;
-  ses valeurs sont **absentes puis imputées**, sans prétendre qu'il ait réussi.
-  Pour la prochaine exécution, une **reprise contrôlée à fenêtres originales
-  plus longues** est maintenant implémentée et son changement de granularité
-  est marqué dans le résultat. Son succès réel sur Chopin reste à vérifier.
+- La première [run indépendante de la phase d'apprentissage pour cinq
+  classiques](../reports/known-classics-emotions.md) a réussi : jSymbolic
+  **original exécuté sur les deux Bach et Mozart (3/5)**, mais timeout pour
+  Chopin et Beethoven (2/5), même après une seconde tentative à fenêtres
+  plus longues. Ce n'est donc **pas encore** une couverture académique
+  complète sur ces deux œuvres ; les données manquantes sont imputées.
+- [Traces de 18 mécanismes musicaux](../reports/known-classics-mechanisms.json)
+  alignées sur les mêmes MIDI et mesures, avec contrôles SHA-256 des sources.
+  Les observations de tension, harmonie, mélodie, attentes, rythme et texture
+  décrivent la composition ; elles ne démontrent aucune cause émotionnelle.
+- La reprise contrôlée de jSymbolic à fenêtres de 30 secondes a été exécutée
+  dans la run des cinq classiques. Elle n'a pas suffi pour Chopin et Beethoven :
+  ces deux sorties Java demeurent **absentes puis imputées**. Le pipeline doit
+  maintenant travailler sur un découpage borné des longues partitions pour
+  élargir la couverture originale sans attribuer de faux résultats au moteur.
 - Avec jSymbolic original, la réanalyse autonome des **136 mesures de Chrono
   Trigger** reproduit les sorties du banc académique avec une erreur numérique
   maximale inférieure à `3e-15` ; la chaîne entraînement → export → rechargement

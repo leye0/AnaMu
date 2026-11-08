@@ -91,6 +91,11 @@ La base `anamu/` comporte :
   locales** permettant de les valider.
 - **[Bach et Chopin : trajectoires émotionnelles exécutées](reports/bach-chopin-emotions.md)**
   — courbes et scores mesure par mesure, avec provenance et couverture des moteurs.
+- **[Cinq compositions classiques : analyses et couverture par moteur](reports/known-classics-emotions.md)**
+  — les trajectoires de deux pièces de Bach, Chopin, Mozart et Beethoven,
+  générées par une run Java réelle sur les MIDI issus des partitions écrites.
+  Les [18 mécanismes temporels confrontés aux mêmes estimations](reports/known-classics-mechanisms.json)
+  sont disponibles séparément, sans faire passer une association pour une cause.
 - `models/vgmidi-piano-ridge.json.gz` : modèle de recherche numérique calibré
   sur VGMIDI, enregistré au format JSON gzip et **directement réutilisable** ;
   `analyze_known_midi` et `analyze_known_scores` le prennent par défaut.
@@ -237,6 +242,11 @@ après un timeout ; il signale explicitement cette résolution temporelle
 différente de celle de l'apprentissage, ou l'absence persistante de Java.
 La même analyse élargie est disponible via le workflow habituel avec
 `classics_analysis=true` ou `[classics-run]`, sans réapprendre VGMIDI.
+`scripts/trace_known_mechanisms.py` aligne, **mesure par mesure**, 18
+descripteurs explicites (Partitura, music21, Narmour, attentes entraînées,
+rythme, texture et répétition) sur les émotions inférées. Le MIDI source et
+le modèle doivent correspondre **par SHA-256** au rapport d'analyse. Ces
+juxtapositions montrent des mécanismes observés, **pas des causes prouvées**.
 
 ## Corpus et qualité
 
