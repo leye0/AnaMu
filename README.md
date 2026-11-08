@@ -10,6 +10,13 @@ algorithmes issus des théories musicales et psychologiques sur le **MIDI
 symbolique brut**. Déterminer ensuite le corpus nécessaire à la validation
 de chaque mécanisme. Les rapprochements MIDI↔audio et **Demucs sont reportés**.
 
+**8 novembre — nouveaux corpus réellement annotés :**
+[étude IsoVAT + CP-WTC + PercePiano sur les cas difficiles](reports/midi-human-emotion-hard-benchmarks-2026-11-08.md).
+Les tests comparent explicitement les ordres humains de tension et les différences
+**sombre / imaginatif / dramatique** entre interprétations MIDI d'une même partition.
+Les algorithmes sont testables, mais **aucun gain sur PIAST Dark/Epic/Tense/Mysterious/Happy
+n'est encore confirmé** : les taxonomies et les corpus sont distincts.
+
 - **[Feuille de route v1.1](docs/roadmap.md)** — priorités, jalons et état réel.
 - **[Théorie → algorithmes](docs/theory-to-algorithms.md)** — références
   académiques, entrées/sorties, modèles, expériences et critères de preuve.

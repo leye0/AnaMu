@@ -34,10 +34,14 @@ on:
       - 'tests/test_academic_fusion.py'
       - 'tests/test_emotion_models.py'
       - 'tests/test_emotion_pipeline.py'
+      - 'tests/test_relative_emotion_benchmarks.py'
       - 'scripts/emopia_benchmark.py'
       - 'scripts/piast_at_benchmark.py'
       - 'scripts/piast_surprise_experiment.py'
       - 'scripts/piast_tension_experiment.py'
+      - 'scripts/isovat_tension_benchmark.py'
+      - 'scripts/cp_wtc_relative_benchmark.py'
+      - 'scripts/percepiano_hard_benchmark.py'
       - 'scripts/run_original_idyom.py'
       - 'scripts/import_idyom_dat.py'
       - 'scripts/extract_tonal_tension.py'
@@ -88,6 +92,7 @@ jobs:
           python -m unittest discover -s tests -p 'test_academic_fusion.py' -v
           python -m unittest discover -s tests -p 'test_emotion_models.py' -v
           python -m unittest discover -s tests -p 'test_emotion_pipeline.py' -v
+          python -m unittest discover -s tests -p 'test_relative_emotion_benchmarks.py' -v
 
   vgmidi-human-comparison:
     # Research run on 200 copyright-sensitive third-party MIDI files, opt-in
