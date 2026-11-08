@@ -150,7 +150,8 @@ def evaluate_arms(records: dict[str, list[tuple]], *, folds: int = FOLDS,
 
 def group_bootstrap(oof: dict, *, repetitions: int = 700,
                     baseline_arm: str = "baseline",
-                    arms: tuple[str, ...] = ARMS) -> dict:
+                    arms: tuple[str, ...] = ARMS,
+                    focus_moods: tuple[str, ...] = ("Dark",)) -> dict:
     """Approximate paired OOF AP uncertainty; resample *videos*, not clips.
 
     The interval conditions on already fitted OOF models; it does not account
@@ -168,7 +169,8 @@ def group_bootstrap(oof: dict, *, repetitions: int = 700,
     for candidate in arms:
         if candidate == baseline_arm:
             continue
-        draws = {"Dark": [], "hard5_macro": [], "noncalm14_macro": []}
+        draws = {**{mood: [] for mood in focus_moods},
+                 "hard5_macro": [], "noncalm14_macro": []}
         for _ in range(repetitions):
             sample_groups = rng.integers(0, len(unique_groups), size=len(unique_groups))
             idx = np.concatenate([by_group[int(g)] for g in sample_groups])
@@ -178,8 +180,9 @@ def group_bootstrap(oof: dict, *, repetitions: int = 700,
                        _ap(y[mood][idx], p[baseline_arm][mood][idx])
                 if a is not None and b is not None:
                     contrasts[mood] = a - b
-            if "Dark" in contrasts:
-                draws["Dark"].append(contrasts["Dark"])
+            for mood in focus_moods:
+                if mood in contrasts:
+                    draws[mood].append(contrasts[mood])
             for metric, target in (("hard5_macro", HARD_MOODS),
                                    ("noncalm14_macro", NONCALM_MOODS)):
                 if all(m in contrasts for m in target):

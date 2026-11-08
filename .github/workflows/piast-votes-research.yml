@@ -1,0 +1,40 @@
+name: AnaMu - original minority expert votes for hard PIAST moods (opt-in)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/piast-votes-research.yml'
+      - 'scripts/piast_votes_experiment.py'
+
+permissions:
+  contents: read
+
+jobs:
+  expert-vote-ablation:
+    if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[piast-votes-run]') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install fixed MIDI and learning dependencies
+        run: python -m pip install --quiet 'mido>=1.3,<2' 'partitura>=1.8,<2' 'music21>=9,<12' 'melody-features==1.3.3' 'scikit-learn>=1.5,<2'
+      - name: Verify the soft-vote/binary identical-objective control
+        run: python -m unittest discover -s tests -p 'test*piast_votes*.py' -v
+      - name: Download 1900 matched PIAST MIDI with original vote-count CSV
+        run: python -m scripts.fetch_piast_at "$RUNNER_TEMP/piast" --limit 1900 --workers 6 > "$RUNNER_TEMP/piast-fetch-log.json"
+      - name: Reject incomplete pinned cohort
+        run: |
+          python -c 'import json,os,pathlib; d=json.loads((pathlib.Path(os.environ["RUNNER_TEMP"])/"piast"/"fetch-manifest.json").read_text()); assert d["requested"] == d["downloaded_or_present"] == 1900 and not d["errors"], "Incomplete MIDI cohort"'
+      - name: Compare 2-of-3 target trained as majority binary versus fractional votes
+        run: python -m scripts.piast_votes_experiment "$RUNNER_TEMP/piast" --out "$RUNNER_TEMP/votes"
+      - name: Store only aggregate diagnostics and scores, no MIDI or vote rows
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: piast-vote-ablation-derived-metrics
+          path: |
+            ${{ runner.temp }}/votes/*.json
+            ${{ runner.temp }}/votes/*.md
+            ${{ runner.temp }}/piast-fetch-log.json
+          retention-days: 14
