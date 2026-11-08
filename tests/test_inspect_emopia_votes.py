@@ -13,7 +13,7 @@ class EMOPIASchemaTests(unittest.TestCase):
         output = io.BytesIO()
         with zipfile.ZipFile(output, "w") as archive:
             archive.writestr("EMOPIA_2.2/tagging_lists/A.csv", "clip,score\na,1\n")
-            archive.writestr("EMOPIA_2.2/label.csv", "clip,quadrant\na,Q1\n")
+            archive.writestr("EMOPIA_2.2/label.csv", "ID,4Q,annotator\na,Q1,1\n")
             if add_midi:
                 archive.writestr("EMOPIA_2.2/midis/A.mid", b"MThd" + bytes(40))
         return output.getvalue()
@@ -23,6 +23,8 @@ class EMOPIASchemaTests(unittest.TestCase):
         self.assertEqual(outcome["midi_files"], 1)
         self.assertEqual(outcome["raw_tag_files"], 1)
         self.assertEqual(outcome["label_csv_files"], 1)
+        self.assertEqual(outcome["unique_clip_ids_in_label_csv"], 1)
+        self.assertEqual(outcome["max_rows_per_clip_id"], 1)
         self.assertNotIn("MThd", str(outcome))
 
     def test_reject_missing_midi(self):
