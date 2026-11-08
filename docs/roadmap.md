@@ -229,6 +229,10 @@ directement sans apprendre de nouveau sur les œuvres analysées.
   temporelles SVG et la couverture explicite des vrais moteurs.
 - jSymbolic original s'exécute sur Bach. Il a atteint le timeout sur Chopin ;
   ses valeurs sont **absentes puis imputées**, sans prétendre qu'il ait réussi.
+- Avec jSymbolic original, la réanalyse autonome des **136 mesures de Chrono
+  Trigger** reproduit les sorties du banc académique avec une erreur numérique
+  maximale inférieure à `3e-15` ; la chaîne entraînement → export → rechargement
+  → extraction du même morceau est donc cohérente.
 - Les deux œuvres classiques restent **hors validation humaine**, alors que
   [les dix pièces VGMIDI](../reports/vgmidi-temporal-ten-full.md) comparent
   réellement les annotations et les sorties du système.

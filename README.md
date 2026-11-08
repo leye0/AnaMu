@@ -215,11 +215,11 @@ adaptateurs académiques. Deux jobs GitHub Actions antérieurs ont réussi
 (tests symboliques et analyse Java originale), sur
 [l'exécution 42415633459](https://github.com/leye0/AnaMu/actions/runs/42415633459).
 
-Pour analyser une autre composition connue après récupération de
-`calibrated-model.json` dans les artefacts du job :
+Pour analyser **directement** une autre composition connue, avec le modèle
+calibré de 1 198 variables maintenant inclus dans le dépôt :
 
 ```bash
-python -m scripts.analyze_known_midi --model ./calibrated-model.json \
+python -m scripts.analyze_known_midi \
   --jsymbolic-jar /chemin/jSymbolic2.jar \
   --json-out ./emotion-par-mesure.json /chemin/oeuvre-connue.mid
 ```
@@ -227,6 +227,8 @@ python -m scripts.analyze_known_midi --model ./calibrated-model.json \
 Sans le JAR, les observations jSymbolic manquent et sont **signalées** au
 lieu d'être inventées. Le transfert d'une calibration VGMIDI à d'autres
 styles n'est pas encore prouvé.
+Pour reproduire les trajectoires Bach/Chopin déjà publiées avec leur partition
+intégrée à music21 : `python -m scripts.analyze_known_scores --out ./analyses`.
 
 ## Corpus et qualité
 
