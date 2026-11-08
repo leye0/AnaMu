@@ -10,6 +10,17 @@ algorithmes issus des théories musicales et psychologiques sur le **MIDI
 symbolique brut**. Déterminer ensuite le corpus nécessaire à la validation
 de chaque mécanisme. Les rapprochements MIDI↔audio et **Demucs sont reportés**.
 
+**Audit et relance — 8 novembre :**
+[bilan des blocages](docs/research-bottlenecks-2026-11-08.md),
+[calibration des probabilités](reports/piast-vote-calibration-2026-11-08.md),
+[comparaison réelle de capacité sur 1 900 extraits](reports/piast-model-capacity-2026-11-08.md).
+Les arbres à interactions régressent face à la logistique (Hard5 AP 0,377
+contre 0,401 sur les mêmes plis). Aucun modèle promu. Les affectations aux
+plis sont maintenant enregistrées explicitement ; les scores de cette run
+ne constituent pas un gain face aux rapports historiques aux plis différents.
+Le protocole d'annotation PIAST filtre les subtils changements d'humeur :
+ce banc global ne suffit pas à juger les mécanismes temporels d'AnaMu.
+
 **8 novembre — nouveaux corpus réellement annotés :**
 [étude IsoVAT + CP-WTC + PercePiano sur les cas difficiles](reports/midi-human-emotion-hard-benchmarks-2026-11-08.md).
 **[Suite : partition contre interprétation, 1 072 + 288 MIDI](reports/score-aligned-expression-transfer-2026-11-08.md)** :

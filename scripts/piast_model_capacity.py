@@ -12,10 +12,31 @@ from threadpoolctl import threadpool_limits
 from anamu.tonal_motion import TONAL_DISTRIBUTION_FEATURE_NAMES, TONAL_MOTION_FEATURE_NAMES
 from .piast_at_benchmark import make_matrix, run
 from .piast_tension_experiment import HARD_MOODS, NONCALM_MOODS
-from .piast_tonal_cv import SEED, _ap, group_bootstrap, source_group_folds
+from .piast_tonal_cv import SEED, _ap, group_bootstrap
 from .piast_votes_experiment import expert_vote_fraction, predict_soft_votes
 
 ARMS = ("linear_votes", "linear_unbalanced", "additive_votes", "interaction_votes")
+FOLD_MANIFEST = Path(__file__).resolve().parents[1] / "data/piast-capacity-folds-v1.json"
+
+
+def replay_folds(records, manifest):
+    """Replay exact clip assignments, independently of library tie-breaking."""
+    assignments = manifest["folds"]
+    ids = [c.clip_id for c, _ in records]
+    if len(set(ids)) != len(ids) or set(ids) != set(assignments):
+        raise ValueError("fold_manifest_cohort_mismatch")
+    folds = np.asarray([assignments[c]["fold"] for c in ids])
+    if set(folds) != set(range(1, 6)):
+        raise ValueError("invalid_fold_ids")
+    groups = {}
+    for (clip, _), fold in zip(records, folds):
+        if assignments[clip.clip_id]["group"] != clip.song_group:
+            raise ValueError("fold_manifest_group_mismatch")
+        if clip.song_group in groups and groups[clip.song_group] != fold:
+            raise ValueError("source_video_leakage")
+        groups[clip.song_group] = fold
+    for fold in range(1, 6):
+        yield np.flatnonzero(folds != fold), np.flatnonzero(folds == fold)
 
 
 def predict_tree_votes(train_x, test_x, votes, *, depth):
@@ -61,7 +82,9 @@ def experiment(root: Path, out: Path, *, bootstrap_repetitions=500):
     control = {m: np.full(len(clips), np.nan) for m in HARD_MOODS}
     fold_ids = np.full(len(clips), -1, dtype=int)
     folds = []
-    for fold, (train, test) in enumerate(source_group_folds(records), 1):
+    # Recorded from the first execution, before evaluating any subsequent model.
+    manifest = json.loads(FOLD_MANIFEST.read_text())
+    for fold, (train, test) in enumerate(replay_folds(records, manifest), 1):
         fold_ids[test] = fold
         for m in NONCALM_MOODS:
             predictions["linear_votes"][m][test] = predict_soft_votes(x[train], x[test], votes[m][train])

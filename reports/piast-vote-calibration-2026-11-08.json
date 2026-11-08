@@ -1,0 +1,811 @@
+{
+  "title": "Are class-balanced soft-vote outputs calibrated probabilities of expert agreement?",
+  "research_status": "post-hoc exploratory on previously inspected 1900 PIAST annotated MIDI",
+  "independent_new_holdout": false,
+  "corpus": "PIAST-AT 1900/1900 matched; only symbolic MIDI; 3 aggregate expert votes per mood",
+  "semantics": "per-mood Bernoulli probability of a similarly sampled expert selecting the descriptor, not mutually exclusive emotion mass",
+  "metric_definition": "E[(p-Y)^2|q]=q(1-p)^2+(1-q)p^2; q takes values 0, 1/3, 2/3 or 1; expected Bernoulli log loss also reported",
+  "prior_correction": "p*q_prior/[p*q_prior+(1-p)*(1-q_prior)], using TRAIN-fold mean vote fraction only; no fitted calibration",
+  "model": "same fixed H1+10 tonal distribution features, C=.5 logistic with median imputation and scaling",
+  "original_target": "majority >= 2 of 3 for AP; soft votes never enter MIDI features or held-out predictions",
+  "splits": "five original-source-video-disjoint GroupKFold folds",
+  "arms": [
+    "hard_balanced",
+    "soft_balanced",
+    "soft_prior_corrected",
+    "soft_unweighted",
+    "prior_null"
+  ],
+  "feature_count": 117,
+  "oof": {
+    "hard_balanced": {
+      "by_mood": {
+        "Happy": {
+          "ap_majority": 0.3229352727028356,
+          "brier_individual_vote": 0.21009521440134488,
+          "logloss_individual_vote": 0.6198968516942891,
+          "mean_predicted": 0.3890990753124926,
+          "observed_mean_vote_fraction": 0.20859649122807014,
+          "mean_majority_positive": 0.16578947368421051
+        },
+        "Bright": {
+          "ap_majority": 0.5914998527852038,
+          "brier_individual_vote": 0.20154052499125946,
+          "logloss_individual_vote": 0.6067683979281401,
+          "mean_predicted": 0.40635394754772675,
+          "observed_mean_vote_fraction": 0.2785964912280701,
+          "mean_majority_positive": 0.26105263157894737
+        },
+        "Playful": {
+          "ap_majority": 0.6034788967087689,
+          "brier_individual_vote": 0.13911940336271103,
+          "logloss_individual_vote": 0.4644199291894238,
+          "mean_predicted": 0.2965636628219447,
+          "observed_mean_vote_fraction": 0.19912280701754384,
+          "mean_majority_positive": 0.18263157894736842
+        },
+        "Cute": {
+          "ap_majority": 0.2739936070831148,
+          "brier_individual_vote": 0.1474186168599708,
+          "logloss_individual_vote": 0.479180933931575,
+          "mean_predicted": 0.24512044877817174,
+          "observed_mean_vote_fraction": 0.09087719298245614,
+          "mean_majority_positive": 0.06473684210526316
+        },
+        "Dreamy": {
+          "ap_majority": 0.38335839254809123,
+          "brier_individual_vote": 0.20344796916922514,
+          "logloss_individual_vote": 0.6020498995913839,
+          "mean_predicted": 0.39733028510080703,
+          "observed_mean_vote_fraction": 0.23438596491228067,
+          "mean_majority_positive": 0.20105263157894737
+        },
+        "Mysterious": {
+          "ap_majority": 0.3070222274895871,
+          "brier_individual_vote": 0.21132967415155277,
+          "logloss_individual_vote": 0.633541675367341,
+          "mean_predicted": 0.3753785887545608,
+          "observed_mean_vote_fraction": 0.1649122807017544,
+          "mean_majority_positive": 0.12421052631578948
+        },
+        "Sad": {
+          "ap_majority": 0.3690685684108205,
+          "brier_individual_vote": 0.16439640529450955,
+          "logloss_individual_vote": 0.5229242347452228,
+          "mean_predicted": 0.29005952165116433,
+          "observed_mean_vote_fraction": 0.13649122807017544,
+          "mean_majority_positive": 0.10526315789473684
+        },
+        "Dark": {
+          "ap_majority": 0.38972352236386926,
+          "brier_individual_vote": 0.16964817102811178,
+          "logloss_individual_vote": 0.5361372029021568,
+          "mean_predicted": 0.30898115764368544,
+          "observed_mean_vote_fraction": 0.14964912280701753,
+          "mean_majority_positive": 0.12368421052631579
+        },
+        "Tense": {
+          "ap_majority": 0.406147150472021,
+          "brier_individual_vote": 0.1676639032572521,
+          "logloss_individual_vote": 0.5342065807575221,
+          "mean_predicted": 0.3206836020432254,
+          "observed_mean_vote_fraction": 0.14175438596491227,
+          "mean_majority_positive": 0.12105263157894737
+        },
+        "Epic": {
+          "ap_majority": 0.3811944520771915,
+          "brier_individual_vote": 0.14354765528351288,
+          "logloss_individual_vote": 0.4852003020958591,
+          "mean_predicted": 0.26170156719431503,
+          "observed_mean_vote_fraction": 0.11421052631578947,
+          "mean_majority_positive": 0.09210526315789473
+        },
+        "Intense/Grand": {
+          "ap_majority": 0.6328288483722406,
+          "brier_individual_vote": 0.1280822559409605,
+          "logloss_individual_vote": 0.42024046825704603,
+          "mean_predicted": 0.26862521220713786,
+          "observed_mean_vote_fraction": 0.16157894736842104,
+          "mean_majority_positive": 0.13789473684210526
+        },
+        "Passionate": {
+          "ap_majority": 0.7202072772239337,
+          "brier_individual_vote": 0.1240806675816584,
+          "logloss_individual_vote": 0.4221362925214297,
+          "mean_predicted": 0.2733314220194581,
+          "observed_mean_vote_fraction": 0.1794736842105263,
+          "mean_majority_positive": 0.16421052631578947
+        },
+        "Powerful": {
+          "ap_majority": 0.5321229967024024,
+          "brier_individual_vote": 0.09800329013264711,
+          "logloss_individual_vote": 0.36275227141345817,
+          "mean_predicted": 0.17627104838818175,
+          "observed_mean_vote_fraction": 0.09526315789473684,
+          "mean_majority_positive": 0.08157894736842106
+        },
+        "Upbeat/Energetic": {
+          "ap_majority": 0.6597140428207419,
+          "brier_individual_vote": 0.13400150911187386,
+          "logloss_individual_vote": 0.4281766217086198,
+          "mean_predicted": 0.3054998588462014,
+          "observed_mean_vote_fraction": 0.18736842105263157,
+          "mean_majority_positive": 0.1773684210526316
+        }
+      },
+      "hard5_macro_ap": 0.3614045250211009,
+      "hard5_macro_brier": 0.1804569236243549,
+      "hard5_macro_logloss": 0.5617965225634337,
+      "noncalm14_macro_ap": 0.469521079125773,
+      "noncalm14_macro_brier": 0.16016966146904218
+    },
+    "soft_balanced": {
+      "by_mood": {
+        "Happy": {
+          "ap_majority": 0.3359091982681686,
+          "brier_individual_vote": 0.21420317187923274,
+          "logloss_individual_vote": 0.6152419759789332,
+          "mean_predicted": 0.4383280923837286,
+          "observed_mean_vote_fraction": 0.20859649122807014,
+          "mean_majority_positive": 0.16578947368421051
+        },
+        "Bright": {
+          "ap_majority": 0.6004930852662831,
+          "brier_individual_vote": 0.19993544869578583,
+          "logloss_individual_vote": 0.5861584276674894,
+          "mean_predicted": 0.44426520901643407,
+          "observed_mean_vote_fraction": 0.2785964912280701,
+          "mean_majority_positive": 0.26105263157894737
+        },
+        "Playful": {
+          "ap_majority": 0.6140742327696467,
+          "brier_individual_vote": 0.1472695173457217,
+          "logloss_individual_vote": 0.46028317034932925,
+          "mean_predicted": 0.3541043227230953,
+          "observed_mean_vote_fraction": 0.19912280701754384,
+          "mean_majority_positive": 0.18263157894736842
+        },
+        "Cute": {
+          "ap_majority": 0.33017266077383045,
+          "brier_individual_vote": 0.17536688994405122,
+          "logloss_individual_vote": 0.5196924048786368,
+          "mean_predicted": 0.3475785920347319,
+          "observed_mean_vote_fraction": 0.09087719298245614,
+          "mean_majority_positive": 0.06473684210526316
+        },
+        "Dreamy": {
+          "ap_majority": 0.39381058854300527,
+          "brier_individual_vote": 0.20613858216007877,
+          "logloss_individual_vote": 0.5988523176734485,
+          "mean_predicted": 0.4333101987050453,
+          "observed_mean_vote_fraction": 0.23438596491228067,
+          "mean_majority_positive": 0.20105263157894737
+        },
+        "Mysterious": {
+          "ap_majority": 0.30786540656716305,
+          "brier_individual_vote": 0.21836756574138075,
+          "logloss_individual_vote": 0.6303480170974929,
+          "mean_predicted": 0.4368613997816365,
+          "observed_mean_vote_fraction": 0.1649122807017544,
+          "mean_majority_positive": 0.12421052631578948
+        },
+        "Sad": {
+          "ap_majority": 0.38090939446601113,
+          "brier_individual_vote": 0.18120383515364527,
+          "logloss_individual_vote": 0.5383485986165562,
+          "mean_predicted": 0.37275955614432926,
+          "observed_mean_vote_fraction": 0.13649122807017544,
+          "mean_majority_positive": 0.10526315789473684
+        },
+        "Dark": {
+          "ap_majority": 0.4311430694250637,
+          "brier_individual_vote": 0.1799188021528083,
+          "logloss_individual_vote": 0.5389451633018362,
+          "mean_predicted": 0.3766163249509847,
+          "observed_mean_vote_fraction": 0.14964912280701753,
+          "mean_majority_positive": 0.12368421052631579
+        },
+        "Tense": {
+          "ap_majority": 0.43273534610817677,
+          "brier_individual_vote": 0.1769627995318279,
+          "logloss_individual_vote": 0.5355999594461511,
+          "mean_predicted": 0.3750938964525488,
+          "observed_mean_vote_fraction": 0.14175438596491227,
+          "mean_majority_positive": 0.12105263157894737
+        },
+        "Epic": {
+          "ap_majority": 0.42352662380228656,
+          "brier_individual_vote": 0.158939252111658,
+          "logloss_individual_vote": 0.49510176161651687,
+          "mean_predicted": 0.34093533463143033,
+          "observed_mean_vote_fraction": 0.11421052631578947,
+          "mean_majority_positive": 0.09210526315789473
+        },
+        "Intense/Grand": {
+          "ap_majority": 0.6561972545316271,
+          "brier_individual_vote": 0.1380824229435314,
+          "logloss_individual_vote": 0.434239141408685,
+          "mean_predicted": 0.3341267041932119,
+          "observed_mean_vote_fraction": 0.16157894736842104,
+          "mean_majority_positive": 0.13789473684210526
+        },
+        "Passionate": {
+          "ap_majority": 0.7335170668339855,
+          "brier_individual_vote": 0.13269070334289498,
+          "logloss_individual_vote": 0.4203465261946219,
+          "mean_predicted": 0.3360350885567389,
+          "observed_mean_vote_fraction": 0.1794736842105263,
+          "mean_majority_positive": 0.16421052631578947
+        },
+        "Powerful": {
+          "ap_majority": 0.5743973791753919,
+          "brier_individual_vote": 0.11584105098689265,
+          "logloss_individual_vote": 0.380234366569758,
+          "mean_predicted": 0.2544547705121166,
+          "observed_mean_vote_fraction": 0.09526315789473684,
+          "mean_majority_positive": 0.08157894736842106
+        },
+        "Upbeat/Energetic": {
+          "ap_majority": 0.6741136547780917,
+          "brier_individual_vote": 0.13718824159381676,
+          "logloss_individual_vote": 0.42489505764953606,
+          "mean_predicted": 0.337341459523054,
+          "observed_mean_vote_fraction": 0.18736842105263157,
+          "mean_majority_positive": 0.1773684210526316
+        }
+      },
+      "hard5_macro_ap": 0.3862359288341718,
+      "hard5_macro_brier": 0.18967831828338155,
+      "hard5_macro_logloss": 0.5630473754881861,
+      "noncalm14_macro_ap": 0.49206178295062364,
+      "noncalm14_macro_brier": 0.17015059168452326
+    },
+    "soft_prior_corrected": {
+      "by_mood": {
+        "Happy": {
+          "ap_majority": 0.3356594715308052,
+          "brier_individual_vote": 0.1519500534714774,
+          "logloss_individual_vote": 0.46857498305143064,
+          "mean_predicted": 0.21089169907572772,
+          "observed_mean_vote_fraction": 0.20859649122807014,
+          "mean_majority_positive": 0.16578947368421051
+        },
+        "Bright": {
+          "ap_majority": 0.6003843284297058,
+          "brier_individual_vote": 0.16755247096015896,
+          "logloss_individual_vote": 0.509332387076892,
+          "mean_predicted": 0.2790221783752517,
+          "observed_mean_vote_fraction": 0.2785964912280701,
+          "mean_majority_positive": 0.26105263157894737
+        },
+        "Playful": {
+          "ap_majority": 0.6132643387360116,
+          "brier_individual_vote": 0.11399711817819747,
+          "logloss_individual_vote": 0.35631963837992847,
+          "mean_predicted": 0.1997621099035798,
+          "observed_mean_vote_fraction": 0.19912280701754384,
+          "mean_majority_positive": 0.18263157894736842
+        },
+        "Cute": {
+          "ap_majority": 0.32949892698119676,
+          "brier_individual_vote": 0.07343080914410964,
+          "logloss_individual_vote": 0.2607731044929456,
+          "mean_predicted": 0.09234802260601213,
+          "observed_mean_vote_fraction": 0.09087719298245614,
+          "mean_majority_positive": 0.06473684210526316
+        },
+        "Dreamy": {
+          "ap_majority": 0.3936500049911046,
+          "brier_individual_vote": 0.1598031846736815,
+          "logloss_individual_vote": 0.4850922022441797,
+          "mean_predicted": 0.23532098767226156,
+          "observed_mean_vote_fraction": 0.23438596491228067,
+          "mean_majority_positive": 0.20105263157894737
+        },
+        "Mysterious": {
+          "ap_majority": 0.30782569509738206,
+          "brier_individual_vote": 0.13127249760477125,
+          "logloss_individual_vote": 0.4296317775505676,
+          "mean_predicted": 0.1648362385620855,
+          "observed_mean_vote_fraction": 0.1649122807017544,
+          "mean_majority_positive": 0.12421052631578948
+        },
+        "Sad": {
+          "ap_majority": 0.38121219381647675,
+          "brier_individual_vote": 0.10274143204972883,
+          "logloss_individual_vote": 0.33603468097200506,
+          "mean_predicted": 0.13982608318550047,
+          "observed_mean_vote_fraction": 0.13649122807017544,
+          "mean_majority_positive": 0.10526315789473684
+        },
+        "Dark": {
+          "ap_majority": 0.4284478931824624,
+          "brier_individual_vote": 0.10967471934317734,
+          "logloss_individual_vote": 0.3583630035538446,
+          "mean_predicted": 0.1505551850980664,
+          "observed_mean_vote_fraction": 0.14964912280701753,
+          "mean_majority_positive": 0.12368421052631579
+        },
+        "Tense": {
+          "ap_majority": 0.43211988709475196,
+          "brier_individual_vote": 0.10406442976978128,
+          "logloss_individual_vote": 0.34568596401114554,
+          "mean_predicted": 0.141982081606067,
+          "observed_mean_vote_fraction": 0.14175438596491227,
+          "mean_majority_positive": 0.12105263157894737
+        },
+        "Epic": {
+          "ap_majority": 0.42374701169743983,
+          "brier_individual_vote": 0.08494829068303292,
+          "logloss_individual_vote": 0.2883021483977425,
+          "mean_predicted": 0.11605206009972523,
+          "observed_mean_vote_fraction": 0.11421052631578947,
+          "mean_majority_positive": 0.09210526315789473
+        },
+        "Intense/Grand": {
+          "ap_majority": 0.6567067274970454,
+          "brier_individual_vote": 0.09314399634512717,
+          "logloss_individual_vote": 0.3025344235032987,
+          "mean_predicted": 0.16149463703642888,
+          "observed_mean_vote_fraction": 0.16157894736842104,
+          "mean_majority_positive": 0.13789473684210526
+        },
+        "Passionate": {
+          "ap_majority": 0.7338259922303552,
+          "brier_individual_vote": 0.09461306281237235,
+          "logloss_individual_vote": 0.3092989120775884,
+          "mean_predicted": 0.17893329762874913,
+          "observed_mean_vote_fraction": 0.1794736842105263,
+          "mean_majority_positive": 0.16421052631578947
+        },
+        "Powerful": {
+          "ap_majority": 0.5741797135655193,
+          "brier_individual_vote": 0.06226589454613917,
+          "logloss_individual_vote": 0.2164309107695436,
+          "mean_predicted": 0.09860902216225402,
+          "observed_mean_vote_fraction": 0.09526315789473684,
+          "mean_majority_positive": 0.08157894736842106
+        },
+        "Upbeat/Energetic": {
+          "ap_majority": 0.6742708480649359,
+          "brier_individual_vote": 0.10114933149879865,
+          "logloss_individual_vote": 0.3180350775527124,
+          "mean_predicted": 0.18928766449764572,
+          "observed_mean_vote_fraction": 0.18736842105263157,
+          "mean_majority_positive": 0.1773684210526316
+        }
+      },
+      "hard5_macro_ap": 0.3855599917205683,
+      "hard5_macro_brier": 0.11638199817444805,
+      "hard5_macro_logloss": 0.37811157531294615,
+      "noncalm14_macro_ap": 0.4917709309225137,
+      "noncalm14_macro_brier": 0.11075766364861098
+    },
+    "soft_unweighted": {
+      "by_mood": {
+        "Happy": {
+          "ap_majority": 0.33831826929444203,
+          "brier_individual_vote": 0.1509845201648535,
+          "logloss_individual_vote": 0.46603831992832345,
+          "mean_predicted": 0.20991622947204466,
+          "observed_mean_vote_fraction": 0.20859649122807014,
+          "mean_majority_positive": 0.16578947368421051
+        },
+        "Bright": {
+          "ap_majority": 0.6103616631231598,
+          "brier_individual_vote": 0.16690459924477702,
+          "logloss_individual_vote": 0.5076798734508421,
+          "mean_predicted": 0.2797448540681687,
+          "observed_mean_vote_fraction": 0.2785964912280701,
+          "mean_majority_positive": 0.26105263157894737
+        },
+        "Playful": {
+          "ap_majority": 0.6183697819140784,
+          "brier_individual_vote": 0.11296223683404075,
+          "logloss_individual_vote": 0.3526986845686306,
+          "mean_predicted": 0.19816462130904974,
+          "observed_mean_vote_fraction": 0.19912280701754384,
+          "mean_majority_positive": 0.18263157894736842
+        },
+        "Cute": {
+          "ap_majority": 0.3085290978575806,
+          "brier_individual_vote": 0.07248224073839092,
+          "logloss_individual_vote": 0.25621359434638274,
+          "mean_predicted": 0.09068664054084458,
+          "observed_mean_vote_fraction": 0.09087719298245614,
+          "mean_majority_positive": 0.06473684210526316
+        },
+        "Dreamy": {
+          "ap_majority": 0.40044333915503294,
+          "brier_individual_vote": 0.15883068339620657,
+          "logloss_individual_vote": 0.4824979965422699,
+          "mean_predicted": 0.23444501568051052,
+          "observed_mean_vote_fraction": 0.23438596491228067,
+          "mean_majority_positive": 0.20105263157894737
+        },
+        "Mysterious": {
+          "ap_majority": 0.3118427742140774,
+          "brier_individual_vote": 0.13071439277348498,
+          "logloss_individual_vote": 0.42806398941302487,
+          "mean_predicted": 0.16546880689013896,
+          "observed_mean_vote_fraction": 0.1649122807017544,
+          "mean_majority_positive": 0.12421052631578948
+        },
+        "Sad": {
+          "ap_majority": 0.3923854547340842,
+          "brier_individual_vote": 0.10123729319314219,
+          "logloss_individual_vote": 0.3312178204323997,
+          "mean_predicted": 0.13869927755581857,
+          "observed_mean_vote_fraction": 0.13649122807017544,
+          "mean_majority_positive": 0.10526315789473684
+        },
+        "Dark": {
+          "ap_majority": 0.4479334302143864,
+          "brier_individual_vote": 0.1077162703222878,
+          "logloss_individual_vote": 0.3522233055877864,
+          "mean_predicted": 0.15038957046930396,
+          "observed_mean_vote_fraction": 0.14964912280701753,
+          "mean_majority_positive": 0.12368421052631579
+        },
+        "Tense": {
+          "ap_majority": 0.43556906227669734,
+          "brier_individual_vote": 0.10328889968876509,
+          "logloss_individual_vote": 0.34256272366037177,
+          "mean_predicted": 0.14213585687361802,
+          "observed_mean_vote_fraction": 0.14175438596491227,
+          "mean_majority_positive": 0.12105263157894737
+        },
+        "Epic": {
+          "ap_majority": 0.4306367710096599,
+          "brier_individual_vote": 0.08331650791099342,
+          "logloss_individual_vote": 0.2832162665853656,
+          "mean_predicted": 0.11525133300422638,
+          "observed_mean_vote_fraction": 0.11421052631578947,
+          "mean_majority_positive": 0.09210526315789473
+        },
+        "Intense/Grand": {
+          "ap_majority": 0.6656081902604881,
+          "brier_individual_vote": 0.09197698689108331,
+          "logloss_individual_vote": 0.2989481993028234,
+          "mean_predicted": 0.16122469882424514,
+          "observed_mean_vote_fraction": 0.16157894736842104,
+          "mean_majority_positive": 0.13789473684210526
+        },
+        "Passionate": {
+          "ap_majority": 0.7423019647373849,
+          "brier_individual_vote": 0.09386701032467863,
+          "logloss_individual_vote": 0.3060233973709045,
+          "mean_predicted": 0.1797281230763632,
+          "observed_mean_vote_fraction": 0.1794736842105263,
+          "mean_majority_positive": 0.16421052631578947
+        },
+        "Powerful": {
+          "ap_majority": 0.5822587672206473,
+          "brier_individual_vote": 0.0606339857281759,
+          "logloss_individual_vote": 0.207307564418514,
+          "mean_predicted": 0.09658269204911783,
+          "observed_mean_vote_fraction": 0.09526315789473684,
+          "mean_majority_positive": 0.08157894736842106
+        },
+        "Upbeat/Energetic": {
+          "ap_majority": 0.6777723224005043,
+          "brier_individual_vote": 0.10074438111648329,
+          "logloss_individual_vote": 0.3156977971557571,
+          "mean_predicted": 0.1876158422244768,
+          "observed_mean_vote_fraction": 0.18736842105263157,
+          "mean_majority_positive": 0.1773684210526316
+        }
+      },
+      "hard5_macro_ap": 0.39286006140185264,
+      "hard5_macro_brier": 0.11520411817207696,
+      "hard5_macro_logloss": 0.3744209210349744,
+      "noncalm14_macro_ap": 0.4973093491723017,
+      "noncalm14_macro_brier": 0.10969000059481167
+    },
+    "prior_null": {
+      "by_mood": {
+        "Happy": {
+          "ap_majority": 0.16113338902812585,
+          "brier_individual_vote": 0.1651268274853801,
+          "logloss_individual_vote": 0.5122210397756927,
+          "mean_predicted": 0.20859649122807014,
+          "observed_mean_vote_fraction": 0.20859649122807014,
+          "mean_majority_positive": 0.16578947368421051
+        },
+        "Bright": {
+          "ap_majority": 0.24640669213355973,
+          "brier_individual_vote": 0.20110697522314558,
+          "logloss_individual_vote": 0.5919384330818207,
+          "mean_predicted": 0.2785964912280701,
+          "observed_mean_vote_fraction": 0.2785964912280701,
+          "mean_majority_positive": 0.26105263157894737
+        },
+        "Playful": {
+          "ap_majority": 0.16724518428636434,
+          "brier_individual_vote": 0.15990175823330255,
+          "logloss_individual_vote": 0.5005455714185695,
+          "mean_predicted": 0.1991228070175438,
+          "observed_mean_vote_fraction": 0.19912280701754384,
+          "mean_majority_positive": 0.18263157894736842
+        },
+        "Cute": {
+          "ap_majority": 0.06148267008985879,
+          "brier_individual_vote": 0.08266832102185288,
+          "logloss_individual_vote": 0.3048656399844261,
+          "mean_predicted": 0.09087719298245613,
+          "observed_mean_vote_fraction": 0.09087719298245614,
+          "mean_majority_positive": 0.06473684210526316
+        },
+        "Dreamy": {
+          "ap_majority": 0.19493179939377236,
+          "brier_individual_vote": 0.1795700984918436,
+          "logloss_individual_vote": 0.5448567954128467,
+          "mean_predicted": 0.2343859649122807,
+          "observed_mean_vote_fraction": 0.23438596491228067,
+          "mean_majority_positive": 0.20105263157894737
+        },
+        "Mysterious": {
+          "ap_majority": 0.11784195658638122,
+          "brier_individual_vote": 0.13777543090181593,
+          "logloss_individual_vote": 0.447941208685104,
+          "mean_predicted": 0.16491228070175437,
+          "observed_mean_vote_fraction": 0.1649122807017544,
+          "mean_majority_positive": 0.12421052631578948
+        },
+        "Sad": {
+          "ap_majority": 0.09957236842105263,
+          "brier_individual_vote": 0.11792536164973837,
+          "logloss_individual_vote": 0.3988152558524541,
+          "mean_predicted": 0.13649122807017539,
+          "observed_mean_vote_fraction": 0.13649122807017544,
+          "mean_majority_positive": 0.10526315789473684
+        },
+        "Dark": {
+          "ap_majority": 0.10949048152295633,
+          "brier_individual_vote": 0.1274905163127116,
+          "logloss_individual_vote": 0.4230244885873829,
+          "mean_predicted": 0.14964912280701756,
+          "observed_mean_vote_fraction": 0.14964912280701753,
+          "mean_majority_positive": 0.12368421052631579
+        },
+        "Tense": {
+          "ap_majority": 0.11187929061784897,
+          "brier_individual_vote": 0.12170675592489996,
+          "logloss_individual_vote": 0.4083271408297639,
+          "mean_predicted": 0.14175438596491227,
+          "observed_mean_vote_fraction": 0.14175438596491227,
+          "mean_majority_positive": 0.12105263157894737
+        },
+        "Epic": {
+          "ap_majority": 0.08640225563909773,
+          "brier_individual_vote": 0.10124290166204984,
+          "logloss_individual_vote": 0.35560877870606,
+          "mean_predicted": 0.11421052631578947,
+          "observed_mean_vote_fraction": 0.11421052631578947,
+          "mean_majority_positive": 0.09210526315789473
+        },
+        "Intense/Grand": {
+          "ap_majority": 0.13079148252310166,
+          "brier_individual_vote": 0.1356014542936288,
+          "logloss_individual_vote": 0.44275501279703405,
+          "mean_predicted": 0.16157894736842102,
+          "observed_mean_vote_fraction": 0.16157894736842104,
+          "mean_majority_positive": 0.13789473684210526
+        },
+        "Passionate": {
+          "ap_majority": 0.15691211201079622,
+          "brier_individual_vote": 0.14733015927977838,
+          "logloss_individual_vote": 0.47082232028084225,
+          "mean_predicted": 0.17947368421052629,
+          "observed_mean_vote_fraction": 0.1794736842105263,
+          "mean_majority_positive": 0.16421052631578947
+        },
+        "Powerful": {
+          "ap_majority": 0.07861912846632711,
+          "brier_individual_vote": 0.08623303324099722,
+          "logloss_individual_vote": 0.31480695634634936,
+          "mean_predicted": 0.09526315789473684,
+          "observed_mean_vote_fraction": 0.09526315789473684,
+          "mean_majority_positive": 0.08157894736842106
+        },
+        "Upbeat/Energetic": {
+          "ap_majority": 0.16527435056483938,
+          "brier_individual_vote": 0.15253497229916899,
+          "logloss_individual_vote": 0.48328187741961076,
+          "mean_predicted": 0.18736842105263157,
+          "observed_mean_vote_fraction": 0.18736842105263157,
+          "mean_majority_positive": 0.1773684210526316
+        }
+      },
+      "hard5_macro_ap": 0.11734947467888202,
+      "hard5_macro_brier": 0.13066848645737147,
+      "hard5_macro_logloss": 0.4294245313168007,
+      "noncalm14_macro_ap": 0.13485594009172017,
+      "noncalm14_macro_brier": 0.13687246900145097
+    }
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "test_clips": 380,
+      "test_video_groups": 379
+    },
+    {
+      "fold": 2,
+      "test_clips": 380,
+      "test_video_groups": 379
+    },
+    {
+      "fold": 3,
+      "test_clips": 380,
+      "test_video_groups": 379
+    },
+    {
+      "fold": 4,
+      "test_clips": 380,
+      "test_video_groups": 379
+    },
+    {
+      "fold": 5,
+      "test_clips": 380,
+      "test_video_groups": 380
+    }
+  ],
+  "paired_video_bootstrap_brier_improvement_vs_soft_balanced": {
+    "hard_balanced": {
+      "hard5_macro": {
+        "ci_95_low": 0.007079154803029725,
+        "ci_95_high": 0.011509534660917187,
+        "fraction_positive": 1.0
+      },
+      "noncalm14_macro": {
+        "ci_95_low": 0.008743758484959228,
+        "ci_95_high": 0.011059697913794297,
+        "fraction_positive": 1.0
+      },
+      "Mysterious": {
+        "ci_95_low": 0.0026865968354269137,
+        "ci_95_high": 0.011774769826697942,
+        "fraction_positive": 0.996
+      },
+      "Epic": {
+        "ci_95_low": 0.010447831687870784,
+        "ci_95_high": 0.020798876751559683,
+        "fraction_positive": 1.0
+      },
+      "Tense": {
+        "ci_95_low": 0.0050523390626413265,
+        "ci_95_high": 0.013351125060036382,
+        "fraction_positive": 1.0
+      },
+      "Dark": {
+        "ci_95_low": 0.006501055214018393,
+        "ci_95_high": 0.014375982320691072,
+        "fraction_positive": 1.0
+      },
+      "Happy": {
+        "ci_95_low": 0.00015720803160946273,
+        "ci_95_high": 0.008171289838639689,
+        "fraction_positive": 0.978
+      }
+    },
+    "soft_prior_corrected": {
+      "hard5_macro": {
+        "ci_95_low": 0.06958676133385454,
+        "ci_95_high": 0.07715257544346893,
+        "fraction_positive": 1.0
+      },
+      "noncalm14_macro": {
+        "ci_95_low": 0.05705707571731116,
+        "ci_95_high": 0.061890732457978596,
+        "fraction_positive": 1.0
+      },
+      "Mysterious": {
+        "ci_95_low": 0.07870697182439934,
+        "ci_95_high": 0.09534615972062695,
+        "fraction_positive": 1.0
+      },
+      "Epic": {
+        "ci_95_low": 0.06689293643710416,
+        "ci_95_high": 0.08173129048236294,
+        "fraction_positive": 1.0
+      },
+      "Tense": {
+        "ci_95_low": 0.06507711668011813,
+        "ci_95_high": 0.08114929911680828,
+        "fraction_positive": 1.0
+      },
+      "Dark": {
+        "ci_95_low": 0.06285949873805423,
+        "ci_95_high": 0.0783458963857159,
+        "fraction_positive": 1.0
+      },
+      "Happy": {
+        "ci_95_low": 0.05547852320293113,
+        "ci_95_high": 0.06909977744579184,
+        "fraction_positive": 1.0
+      }
+    },
+    "soft_unweighted": {
+      "hard5_macro": {
+        "ci_95_low": 0.0708118032065152,
+        "ci_95_high": 0.07825572238209254,
+        "fraction_positive": 1.0
+      },
+      "noncalm14_macro": {
+        "ci_95_low": 0.057996735936743135,
+        "ci_95_high": 0.06301824058576629,
+        "fraction_positive": 1.0
+      },
+      "Mysterious": {
+        "ci_95_low": 0.0791463172268244,
+        "ci_95_high": 0.09600816309001932,
+        "fraction_positive": 1.0
+      },
+      "Epic": {
+        "ci_95_low": 0.06837882558364387,
+        "ci_95_high": 0.0832691730270594,
+        "fraction_positive": 1.0
+      },
+      "Tense": {
+        "ci_95_low": 0.06609013058638825,
+        "ci_95_high": 0.08187468087228247,
+        "fraction_positive": 1.0
+      },
+      "Dark": {
+        "ci_95_low": 0.06502970357507692,
+        "ci_95_high": 0.08048950990055154,
+        "fraction_positive": 1.0
+      },
+      "Happy": {
+        "ci_95_low": 0.0563030253878652,
+        "ci_95_high": 0.07035446590155899,
+        "fraction_positive": 1.0
+      }
+    },
+    "prior_null": {
+      "hard5_macro": {
+        "ci_95_low": 0.05346337822556324,
+        "ci_95_high": 0.06466503113531907,
+        "fraction_positive": 1.0
+      },
+      "noncalm14_macro": {
+        "ci_95_low": 0.02963618550976634,
+        "ci_95_high": 0.03712748233212034,
+        "fraction_positive": 1.0
+      },
+      "Mysterious": {
+        "ci_95_low": 0.06926464207691961,
+        "ci_95_high": 0.09093436675806506,
+        "fraction_positive": 1.0
+      },
+      "Epic": {
+        "ci_95_low": 0.04733592340638906,
+        "ci_95_high": 0.06778364457094059,
+        "fraction_positive": 1.0
+      },
+      "Tense": {
+        "ci_95_low": 0.0451925561210999,
+        "ci_95_high": 0.06703632692446722,
+        "fraction_positive": 1.0
+      },
+      "Dark": {
+        "ci_95_low": 0.042693003853124474,
+        "ci_95_high": 0.06487694896916055,
+        "fraction_positive": 1.0
+      },
+      "Happy": {
+        "ci_95_low": 0.04006659069550492,
+        "ci_95_high": 0.0585609394734395,
+        "fraction_positive": 1.0
+      }
+    }
+  },
+  "caveats": [
+    "Empirical 3-rater fractions are noisy and rater selection is not a universal population measure.",
+    "These are descriptive expert tags, not directly felt emotion or a mutually exclusive emotion probability.",
+    "Balanced logistic scores target reweighted odds and are not calibrated by construction.",
+    "Prior odds correction is an analytic approximation, not a guarantee with penalization/misspecification.",
+    "Bootstrap conditional on fitted OOF predictions; repeated use of all 1900 labels prevents confirmatory claims."
+  ]
+}

@@ -30,3 +30,10 @@ Une hausse mesure la capacité prédictive de ces observations sur ce corpus,
 pas une preuve de mécanisme musical causal. Une absence de hausse ne prouve
 pas que le timbre est la cause : il faudrait une comparaison MIDI/audio sur
 les mêmes extraits pour l'établir. Aucune promotion automatique du candidat.
+
+## Correction de provenance après exécution
+
+Même stratégie de cinq plis, mais affectations différentes des rapports
+historiques : voir le rapport de capacité. Le manifeste des identités de
+cette run est désormais figé et rejoué ; aucun gain entre anciennes et
+nouvelles partitions ne doit être attribué au modèle.

@@ -1,0 +1,862 @@
+{
+  "status": "exploratory; previously examined cohort, no independent confirmation",
+  "matched": 1900,
+  "source_groups": 1896,
+  "feature_names": [
+    "cue_articulation_median_ratio",
+    "cue_detached_fraction",
+    "cue_dynamic_second_half_minus_first",
+    "cue_legato_fraction",
+    "cue_major_profile_fit",
+    "cue_minor_minus_major_fit",
+    "cue_minor_profile_fit",
+    "cue_mode_fit_strength",
+    "cue_performed_bpm",
+    "cue_tempo_log_variation",
+    "end_of_measure_density__last_minus_first",
+    "end_of_measure_density__max",
+    "end_of_measure_density__mean",
+    "end_of_measure_density__min",
+    "end_of_measure_density__observed_fraction",
+    "end_of_measure_density__std",
+    "fraction_high_register__last_minus_first",
+    "fraction_high_register__max",
+    "fraction_high_register__mean",
+    "fraction_high_register__min",
+    "fraction_high_register__observed_fraction",
+    "fraction_high_register__std",
+    "fraction_low_register__last_minus_first",
+    "fraction_low_register__max",
+    "fraction_low_register__mean",
+    "fraction_low_register__min",
+    "fraction_low_register__observed_fraction",
+    "fraction_low_register__std",
+    "mean_abs_melodic_leap__last_minus_first",
+    "mean_abs_melodic_leap__max",
+    "mean_abs_melodic_leap__mean",
+    "mean_abs_melodic_leap__min",
+    "mean_abs_melodic_leap__observed_fraction",
+    "mean_abs_melodic_leap__std",
+    "mean_duration_beats__last_minus_first",
+    "mean_duration_beats__max",
+    "mean_duration_beats__mean",
+    "mean_duration_beats__min",
+    "mean_duration_beats__observed_fraction",
+    "mean_duration_beats__std",
+    "mean_pitch__last_minus_first",
+    "mean_pitch__max",
+    "mean_pitch__mean",
+    "mean_pitch__min",
+    "mean_pitch__observed_fraction",
+    "mean_pitch__std",
+    "mean_polyphony__last_minus_first",
+    "mean_polyphony__max",
+    "mean_polyphony__mean",
+    "mean_polyphony__min",
+    "mean_polyphony__observed_fraction",
+    "mean_polyphony__std",
+    "mean_velocity__last_minus_first",
+    "mean_velocity__max",
+    "mean_velocity__mean",
+    "mean_velocity__min",
+    "mean_velocity__observed_fraction",
+    "mean_velocity__std",
+    "melodic_direction_bias__last_minus_first",
+    "melodic_direction_bias__max",
+    "melodic_direction_bias__mean",
+    "melodic_direction_bias__min",
+    "melodic_direction_bias__observed_fraction",
+    "melodic_direction_bias__std",
+    "n_measures",
+    "note_density__last_minus_first",
+    "note_density__max",
+    "note_density__mean",
+    "note_density__min",
+    "note_density__observed_fraction",
+    "note_density__std",
+    "onset_density__last_minus_first",
+    "onset_density__max",
+    "onset_density__mean",
+    "onset_density__min",
+    "onset_density__observed_fraction",
+    "onset_density__std",
+    "pc_entropy__last_minus_first",
+    "pc_entropy__max",
+    "pc_entropy__mean",
+    "pc_entropy__min",
+    "pc_entropy__observed_fraction",
+    "pc_entropy__std",
+    "pitch_range__last_minus_first",
+    "pitch_range__max",
+    "pitch_range__mean",
+    "pitch_range__min",
+    "pitch_range__observed_fraction",
+    "pitch_range__std",
+    "tonal_motion_chromatic_fraction_mean",
+    "tonal_motion_chromatic_fraction_peak",
+    "tonal_motion_chromatic_fraction_std",
+    "tonal_motion_confidence_mean",
+    "tonal_motion_confidence_std",
+    "tonal_motion_minor_evidence_mean",
+    "tonal_motion_minor_evidence_std",
+    "tonal_motion_minor_persistent_fraction",
+    "tonal_motion_mode_ambiguity_mean",
+    "tonal_motion_mode_ambiguity_std",
+    "velocity_variation__last_minus_first",
+    "velocity_variation__max",
+    "velocity_variation__mean",
+    "velocity_variation__min",
+    "velocity_variation__observed_fraction",
+    "velocity_variation__std",
+    "vertical_interval_clash__last_minus_first",
+    "vertical_interval_clash__max",
+    "vertical_interval_clash__mean",
+    "vertical_interval_clash__min",
+    "vertical_interval_clash__observed_fraction",
+    "vertical_interval_clash__std",
+    "weak_beat_onset_fraction__last_minus_first",
+    "weak_beat_onset_fraction__max",
+    "weak_beat_onset_fraction__mean",
+    "weak_beat_onset_fraction__min",
+    "weak_beat_onset_fraction__observed_fraction",
+    "weak_beat_onset_fraction__std"
+  ],
+  "protocol": "docs/piast-nonlinear-protocol.md",
+  "scores": {
+    "linear_votes": {
+      "by_mood": {
+        "Happy": 0.34896624073443006,
+        "Bright": 0.6095320079026195,
+        "Playful": 0.6177187295091658,
+        "Cute": 0.30617773589566594,
+        "Dreamy": 0.411631258590403,
+        "Mysterious": 0.3097152369415801,
+        "Sad": 0.3782504961534944,
+        "Dark": 0.4525838510435833,
+        "Tense": 0.43797811998970765,
+        "Epic": 0.4383337266914693,
+        "Intense/Grand": 0.6415160426167089,
+        "Passionate": 0.7196532854520967,
+        "Powerful": 0.5862504561291316,
+        "Upbeat/Energetic": 0.6717198906135848
+      },
+      "hard5_macro_ap": 0.3975154350801541,
+      "noncalm14_macro_ap": 0.49500193416168864
+    },
+    "linear_unbalanced": {
+      "by_mood": {
+        "Happy": 0.350002004694957,
+        "Bright": 0.6145781153328084,
+        "Playful": 0.6244428877009495,
+        "Cute": 0.31909918172713514,
+        "Dreamy": 0.41406375325501404,
+        "Mysterious": 0.3093107599168526,
+        "Sad": 0.39539152745022893,
+        "Dark": 0.4620231196012503,
+        "Tense": 0.437795751486984,
+        "Epic": 0.44610844084594875,
+        "Intense/Grand": 0.6488872566791133,
+        "Passionate": 0.728409505325768,
+        "Powerful": 0.5938821910124354,
+        "Upbeat/Energetic": 0.6760905959516165
+      },
+      "hard5_macro_ap": 0.40104801530919854,
+      "noncalm14_macro_ap": 0.5014346493557901
+    },
+    "additive_votes": {
+      "by_mood": {
+        "Happy": 0.3652396548771454,
+        "Bright": 0.615053898449798,
+        "Playful": 0.6196973985449873,
+        "Cute": 0.262734420001147,
+        "Dreamy": 0.43841141930652283,
+        "Mysterious": 0.28427107137482444,
+        "Sad": 0.3414524092565608,
+        "Dark": 0.39842235584733426,
+        "Tense": 0.39151647508999937,
+        "Epic": 0.3677496254432605,
+        "Intense/Grand": 0.5837292858260396,
+        "Passionate": 0.6937218469815118,
+        "Powerful": 0.5551844597908334,
+        "Upbeat/Energetic": 0.6523204891449597
+      },
+      "hard5_macro_ap": 0.3614398365265128,
+      "noncalm14_macro_ap": 0.46925034356678025
+    },
+    "interaction_votes": {
+      "by_mood": {
+        "Happy": 0.37190651462231633,
+        "Bright": 0.6273329426328907,
+        "Playful": 0.6538193331541013,
+        "Cute": 0.35829007255437806,
+        "Dreamy": 0.45190586533943755,
+        "Mysterious": 0.29120850737191667,
+        "Sad": 0.35420865907323934,
+        "Dark": 0.41712969302000424,
+        "Tense": 0.4028979177282081,
+        "Epic": 0.4040129819889899,
+        "Intense/Grand": 0.6326294250350019,
+        "Passionate": 0.724428771191539,
+        "Powerful": 0.5893833999219442,
+        "Upbeat/Energetic": 0.7004800609368
+      },
+      "hard5_macro_ap": 0.3774311229462871,
+      "noncalm14_macro_ap": 0.4985452960407691
+    }
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "train": 1520,
+      "test": 380,
+      "ap": {
+        "linear_votes": {
+          "Happy": 0.41003879608922145,
+          "Bright": 0.5928048784186526,
+          "Playful": 0.5640595382140859,
+          "Cute": 0.3722336900991565,
+          "Dreamy": 0.48404578254862907,
+          "Mysterious": 0.32907902622693763,
+          "Sad": 0.4389955144088423,
+          "Dark": 0.41464568747814523,
+          "Tense": 0.40870201401350703,
+          "Epic": 0.49998707705424894,
+          "Intense/Grand": 0.6656816183218235,
+          "Passionate": 0.7294390424450231,
+          "Powerful": 0.6670846634654296,
+          "Upbeat/Energetic": 0.6567182573156656
+        },
+        "linear_unbalanced": {
+          "Happy": 0.4177804869595731,
+          "Bright": 0.5951977942670282,
+          "Playful": 0.55368509787129,
+          "Cute": 0.3897872957134502,
+          "Dreamy": 0.4905477520811454,
+          "Mysterious": 0.3383273604081815,
+          "Sad": 0.43027728445528507,
+          "Dark": 0.4196525362956963,
+          "Tense": 0.40907739113566133,
+          "Epic": 0.5021111578216899,
+          "Intense/Grand": 0.6925106242988815,
+          "Passionate": 0.7359976435680746,
+          "Powerful": 0.72341540046289,
+          "Upbeat/Energetic": 0.6459825495674489
+        },
+        "additive_votes": {
+          "Happy": 0.4823623307222419,
+          "Bright": 0.5906895392015339,
+          "Playful": 0.6319042156613588,
+          "Cute": 0.29697418117910146,
+          "Dreamy": 0.47444139542459784,
+          "Mysterious": 0.3291887637271201,
+          "Sad": 0.4420258183002947,
+          "Dark": 0.35130240339075713,
+          "Tense": 0.40420038547527365,
+          "Epic": 0.42829537825174435,
+          "Intense/Grand": 0.6853450197710196,
+          "Passionate": 0.7528406063464237,
+          "Powerful": 0.7661058946909182,
+          "Upbeat/Energetic": 0.5980172526597869
+        },
+        "interaction_votes": {
+          "Happy": 0.46179878443574907,
+          "Bright": 0.6175279165685363,
+          "Playful": 0.6664160863314232,
+          "Cute": 0.4054255722722156,
+          "Dreamy": 0.4574581124230576,
+          "Mysterious": 0.32460707025953744,
+          "Sad": 0.4468811476573356,
+          "Dark": 0.3390456489889035,
+          "Tense": 0.4079946851614234,
+          "Epic": 0.4221972417325139,
+          "Intense/Grand": 0.7178678570045459,
+          "Passionate": 0.786914238602917,
+          "Powerful": 0.8403110535710442,
+          "Upbeat/Energetic": 0.6144024751563193
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "train": 1520,
+      "test": 380,
+      "ap": {
+        "linear_votes": {
+          "Happy": 0.3399930972013215,
+          "Bright": 0.5678420262973174,
+          "Playful": 0.5798349198881448,
+          "Cute": 0.25977743785664575,
+          "Dreamy": 0.37143219965517743,
+          "Mysterious": 0.23126848900034672,
+          "Sad": 0.4337756209197148,
+          "Dark": 0.4264631617977277,
+          "Tense": 0.35758111219404615,
+          "Epic": 0.4570246660052414,
+          "Intense/Grand": 0.5865268976542253,
+          "Passionate": 0.8240995715004984,
+          "Powerful": 0.5568374005182511,
+          "Upbeat/Energetic": 0.7256845978212239
+        },
+        "linear_unbalanced": {
+          "Happy": 0.34271028874465154,
+          "Bright": 0.5741553876267242,
+          "Playful": 0.6124640983095179,
+          "Cute": 0.25698783368667333,
+          "Dreamy": 0.38054058895110343,
+          "Mysterious": 0.22655067899678982,
+          "Sad": 0.45271207101826344,
+          "Dark": 0.4496144676518512,
+          "Tense": 0.34328298046874073,
+          "Epic": 0.46582573574225694,
+          "Intense/Grand": 0.5725452870664614,
+          "Passionate": 0.8264531778652582,
+          "Powerful": 0.5500870693216146,
+          "Upbeat/Energetic": 0.744551231115404
+        },
+        "additive_votes": {
+          "Happy": 0.352213643201463,
+          "Bright": 0.5161542073915981,
+          "Playful": 0.547454724813219,
+          "Cute": 0.28266413654478045,
+          "Dreamy": 0.4261336345101449,
+          "Mysterious": 0.1918918494850953,
+          "Sad": 0.32476833456725374,
+          "Dark": 0.41932610816299065,
+          "Tense": 0.302551204343418,
+          "Epic": 0.4180033365556157,
+          "Intense/Grand": 0.5445820598660274,
+          "Passionate": 0.7732884714655526,
+          "Powerful": 0.47661181129718966,
+          "Upbeat/Energetic": 0.7256501955211592
+        },
+        "interaction_votes": {
+          "Happy": 0.34348156755071607,
+          "Bright": 0.5402465897608776,
+          "Playful": 0.6102770999544188,
+          "Cute": 0.28238614862718825,
+          "Dreamy": 0.42747510306984676,
+          "Mysterious": 0.18064530068425375,
+          "Sad": 0.3930670044717558,
+          "Dark": 0.42610692351944024,
+          "Tense": 0.34079559627270684,
+          "Epic": 0.44145780425413444,
+          "Intense/Grand": 0.5824618222087604,
+          "Passionate": 0.8275421994393691,
+          "Powerful": 0.4876207029513339,
+          "Upbeat/Energetic": 0.7695306332367032
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "train": 1520,
+      "test": 380,
+      "ap": {
+        "linear_votes": {
+          "Happy": 0.40579073524860354,
+          "Bright": 0.6999127344152526,
+          "Playful": 0.6909526178930177,
+          "Cute": 0.3359524121283204,
+          "Dreamy": 0.43039259598569835,
+          "Mysterious": 0.3119047534918641,
+          "Sad": 0.3483385121065317,
+          "Dark": 0.4166003326575011,
+          "Tense": 0.4587603285707147,
+          "Epic": 0.5075903933101386,
+          "Intense/Grand": 0.7444270921310864,
+          "Passionate": 0.6683854768380757,
+          "Powerful": 0.566445475603959,
+          "Upbeat/Energetic": 0.6609730028373003
+        },
+        "linear_unbalanced": {
+          "Happy": 0.4073810212042718,
+          "Bright": 0.703374484379414,
+          "Playful": 0.6980419806731709,
+          "Cute": 0.34680289625935,
+          "Dreamy": 0.422831932260088,
+          "Mysterious": 0.31948089643963734,
+          "Sad": 0.3938908768365404,
+          "Dark": 0.4208897507476475,
+          "Tense": 0.46204455027178376,
+          "Epic": 0.535606520579448,
+          "Intense/Grand": 0.7548106403840764,
+          "Passionate": 0.6934392100003509,
+          "Powerful": 0.5681334277694214,
+          "Upbeat/Energetic": 0.6651172113295329
+        },
+        "additive_votes": {
+          "Happy": 0.44382160779086266,
+          "Bright": 0.7289789466540829,
+          "Playful": 0.6507105063710518,
+          "Cute": 0.22607739971778293,
+          "Dreamy": 0.4420135246295446,
+          "Mysterious": 0.26187629799153106,
+          "Sad": 0.3097198127089634,
+          "Dark": 0.3555751844761762,
+          "Tense": 0.3811637425058417,
+          "Epic": 0.41540469916188705,
+          "Intense/Grand": 0.6963165634810614,
+          "Passionate": 0.6415298033634435,
+          "Powerful": 0.5449359053440695,
+          "Upbeat/Energetic": 0.6442003258958812
+        },
+        "interaction_votes": {
+          "Happy": 0.45085575253085514,
+          "Bright": 0.7535758782192762,
+          "Playful": 0.7060934957511654,
+          "Cute": 0.2967042014534545,
+          "Dreamy": 0.48272387983420845,
+          "Mysterious": 0.2787371018253963,
+          "Sad": 0.31660574294834354,
+          "Dark": 0.379132227688501,
+          "Tense": 0.35747825490533297,
+          "Epic": 0.46129227230809966,
+          "Intense/Grand": 0.6894553949907332,
+          "Passionate": 0.6689128335804035,
+          "Powerful": 0.5661976530329472,
+          "Upbeat/Energetic": 0.6979970817927392
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "train": 1520,
+      "test": 380,
+      "ap": {
+        "linear_votes": {
+          "Happy": 0.3404433981481144,
+          "Bright": 0.6276111491003583,
+          "Playful": 0.6509097897332208,
+          "Cute": 0.3254371888051558,
+          "Dreamy": 0.410999439465504,
+          "Mysterious": 0.3223983991183496,
+          "Sad": 0.43109671767756497,
+          "Dark": 0.5819404549453064,
+          "Tense": 0.43775234773354643,
+          "Epic": 0.26674936874442573,
+          "Intense/Grand": 0.6381609467152524,
+          "Passionate": 0.6739296295665685,
+          "Powerful": 0.5553919200049241,
+          "Upbeat/Energetic": 0.6728393246160553
+        },
+        "linear_unbalanced": {
+          "Happy": 0.34197162099238,
+          "Bright": 0.6328439882218467,
+          "Playful": 0.656598620966678,
+          "Cute": 0.37993951068098414,
+          "Dreamy": 0.4191222312514806,
+          "Mysterious": 0.33397047451781103,
+          "Sad": 0.4261231918680453,
+          "Dark": 0.5698091559358718,
+          "Tense": 0.458157578038184,
+          "Epic": 0.2534728354975585,
+          "Intense/Grand": 0.6424354794259236,
+          "Passionate": 0.6751876211002673,
+          "Powerful": 0.5465406817097108,
+          "Upbeat/Energetic": 0.6783420348467383
+        },
+        "additive_votes": {
+          "Happy": 0.34606472089827467,
+          "Bright": 0.661733587757784,
+          "Playful": 0.6821664347498708,
+          "Cute": 0.47286069841618955,
+          "Dreamy": 0.4405865509462179,
+          "Mysterious": 0.3758732526644405,
+          "Sad": 0.4029859493910373,
+          "Dark": 0.4876374324651027,
+          "Tense": 0.43614082635796264,
+          "Epic": 0.25330768202043674,
+          "Intense/Grand": 0.5637467717445954,
+          "Passionate": 0.6380527790524222,
+          "Powerful": 0.5348026657082853,
+          "Upbeat/Energetic": 0.6604040133815237
+        },
+        "interaction_votes": {
+          "Happy": 0.36152364487884,
+          "Bright": 0.6724129377406373,
+          "Playful": 0.6860666519910681,
+          "Cute": 0.5896735150923235,
+          "Dreamy": 0.44251962010184653,
+          "Mysterious": 0.3776197485201978,
+          "Sad": 0.3877686839239144,
+          "Dark": 0.536820792313422,
+          "Tense": 0.5024910983932186,
+          "Epic": 0.2568100956933935,
+          "Intense/Grand": 0.6547523434838448,
+          "Passionate": 0.6888888097471038,
+          "Powerful": 0.5459587035773018,
+          "Upbeat/Energetic": 0.7028705639710631
+        }
+      }
+    },
+    {
+      "fold": 5,
+      "train": 1520,
+      "test": 380,
+      "ap": {
+        "linear_votes": {
+          "Happy": 0.3122886002100719,
+          "Bright": 0.5958043804218898,
+          "Playful": 0.6273069659916516,
+          "Cute": 0.3522834527485437,
+          "Dreamy": 0.4233620744137921,
+          "Mysterious": 0.3711804415741218,
+          "Sad": 0.38465631047659554,
+          "Dark": 0.5317036676217066,
+          "Tense": 0.5456901863698761,
+          "Epic": 0.5121195170188545,
+          "Intense/Grand": 0.6529496767000857,
+          "Passionate": 0.7433508799250295,
+          "Powerful": 0.7113485616728448,
+          "Upbeat/Energetic": 0.6805039924216382
+        },
+        "linear_unbalanced": {
+          "Happy": 0.30393513058700716,
+          "Bright": 0.6026500167218545,
+          "Playful": 0.622625017533038,
+          "Cute": 0.3584324466584513,
+          "Dreamy": 0.4311339317834898,
+          "Mysterious": 0.374201709959502,
+          "Sad": 0.3737697052000487,
+          "Dark": 0.5418715841484293,
+          "Tense": 0.5554816334634054,
+          "Epic": 0.5189707495846039,
+          "Intense/Grand": 0.6640425234533907,
+          "Passionate": 0.7539880310820748,
+          "Powerful": 0.7018597765397333,
+          "Upbeat/Energetic": 0.6908902575310083
+        },
+        "additive_votes": {
+          "Happy": 0.338977895587601,
+          "Bright": 0.5934825169467313,
+          "Playful": 0.6620592358559906,
+          "Cute": 0.22887196210394298,
+          "Dreamy": 0.4638709225537845,
+          "Mysterious": 0.31958064539235964,
+          "Sad": 0.308587708068369,
+          "Dark": 0.5525362856753612,
+          "Tense": 0.5006215041004621,
+          "Epic": 0.4866700127026813,
+          "Intense/Grand": 0.5654493678802773,
+          "Passionate": 0.7273990577805307,
+          "Powerful": 0.6543018551410196,
+          "Upbeat/Energetic": 0.6598887145126648
+        },
+        "interaction_votes": {
+          "Happy": 0.33192289878238873,
+          "Bright": 0.5884364564944977,
+          "Playful": 0.6532384560309841,
+          "Cute": 0.3206532170679224,
+          "Dreamy": 0.47980742281411837,
+          "Mysterious": 0.35188066921811884,
+          "Sad": 0.33249901491741896,
+          "Dark": 0.5589920548390648,
+          "Tense": 0.5383655023047335,
+          "Epic": 0.47656524177107784,
+          "Intense/Grand": 0.6198852431967425,
+          "Passionate": 0.74651261399629,
+          "Powerful": 0.6634203473680609,
+          "Upbeat/Energetic": 0.7154999978741596
+        }
+      }
+    }
+  ],
+  "negative_control_ap": {
+    "Mysterious": 0.12314640415996728,
+    "Epic": 0.10603480176474844,
+    "Tense": 0.14763307628748418,
+    "Dark": 0.12023464335004218,
+    "Happy": 0.1570128686201403
+  },
+  "prevalence": {
+    "Happy": 0.16578947368421051,
+    "Bright": 0.26105263157894737,
+    "Playful": 0.18263157894736842,
+    "Cute": 0.06473684210526316,
+    "Dreamy": 0.20105263157894737,
+    "Mysterious": 0.12421052631578948,
+    "Sad": 0.10526315789473684,
+    "Dark": 0.12368421052631579,
+    "Tense": 0.12105263157894737,
+    "Epic": 0.09210526315789473,
+    "Intense/Grand": 0.13789473684210526,
+    "Passionate": 0.16421052631578947,
+    "Powerful": 0.08157894736842106,
+    "Upbeat/Energetic": 0.1773684210526316
+  },
+  "paired_group_bootstrap": {
+    "linear_unbalanced": {
+      "linear_votes": {
+        "Mysterious": {
+          "valid_draws": 500,
+          "ci_95_low": -0.00840962994002086,
+          "ci_95_high": 0.008320704714482256,
+          "fraction_positive": 0.496
+        },
+        "Epic": {
+          "valid_draws": 500,
+          "ci_95_low": -0.02412208398265771,
+          "ci_95_high": 0.008335968220149526,
+          "fraction_positive": 0.174
+        },
+        "Tense": {
+          "valid_draws": 500,
+          "ci_95_low": -0.012962230977092818,
+          "ci_95_high": 0.014431793320819421,
+          "fraction_positive": 0.446
+        },
+        "Dark": {
+          "valid_draws": 500,
+          "ci_95_low": -0.021393150189676274,
+          "ci_95_high": 0.002141505435015913,
+          "fraction_positive": 0.072
+        },
+        "Happy": {
+          "valid_draws": 500,
+          "ci_95_low": -0.0073974691029916355,
+          "ci_95_high": 0.005862428440625433,
+          "fraction_positive": 0.372
+        },
+        "hard5_macro": {
+          "valid_draws": 500,
+          "ci_95_low": -0.008978624208025596,
+          "ci_95_high": 0.0014592845540730684,
+          "fraction_positive": 0.08
+        },
+        "noncalm14_macro": {
+          "valid_draws": 500,
+          "ci_95_low": -0.009756523076699256,
+          "ci_95_high": -0.0022724567824795416,
+          "fraction_positive": 0.002
+        }
+      },
+      "additive_votes": {
+        "Mysterious": {
+          "valid_draws": 500,
+          "ci_95_low": -0.07093123680189498,
+          "ci_95_high": 0.021828254236154372,
+          "fraction_positive": 0.126
+        },
+        "Epic": {
+          "valid_draws": 500,
+          "ci_95_low": -0.1303078967163316,
+          "ci_95_high": -0.02639135026597252,
+          "fraction_positive": 0.0
+        },
+        "Tense": {
+          "valid_draws": 500,
+          "ci_95_low": -0.09618333169578487,
+          "ci_95_high": 0.004104864350867619,
+          "fraction_positive": 0.034
+        },
+        "Dark": {
+          "valid_draws": 500,
+          "ci_95_low": -0.11279507658640878,
+          "ci_95_high": -0.01521101938109925,
+          "fraction_positive": 0.004
+        },
+        "Happy": {
+          "valid_draws": 500,
+          "ci_95_low": -0.015444359181419192,
+          "ci_95_high": 0.048864442136563484,
+          "fraction_positive": 0.796
+        },
+        "hard5_macro": {
+          "valid_draws": 500,
+          "ci_95_low": -0.060064789802460626,
+          "ci_95_high": -0.016883925260650013,
+          "fraction_positive": 0.0
+        },
+        "noncalm14_macro": {
+          "valid_draws": 500,
+          "ci_95_low": -0.045296971863170846,
+          "ci_95_high": -0.020565159351351666,
+          "fraction_positive": 0.0
+        }
+      },
+      "interaction_votes": {
+        "Mysterious": {
+          "valid_draws": 500,
+          "ci_95_low": -0.05754755464556045,
+          "ci_95_high": 0.021476199796878984,
+          "fraction_positive": 0.196
+        },
+        "Epic": {
+          "valid_draws": 500,
+          "ci_95_low": -0.08025882051812998,
+          "ci_95_high": -0.0002809744623878678,
+          "fraction_positive": 0.026
+        },
+        "Tense": {
+          "valid_draws": 500,
+          "ci_95_low": -0.08264147000174381,
+          "ci_95_high": 0.019065164483560715,
+          "fraction_positive": 0.108
+        },
+        "Dark": {
+          "valid_draws": 500,
+          "ci_95_low": -0.08917863010967181,
+          "ci_95_high": 0.006682537732905211,
+          "fraction_positive": 0.048
+        },
+        "Happy": {
+          "valid_draws": 500,
+          "ci_95_low": -0.009789479579057816,
+          "ci_95_high": 0.05770839904563631,
+          "fraction_positive": 0.91
+        },
+        "hard5_macro": {
+          "valid_draws": 500,
+          "ci_95_low": -0.04241064090892214,
+          "ci_95_high": -0.0023608589446468308,
+          "fraction_positive": 0.014
+        },
+        "noncalm14_macro": {
+          "valid_draws": 500,
+          "ci_95_low": -0.013069277300609606,
+          "ci_95_high": 0.009025743173353138,
+          "fraction_positive": 0.366
+        }
+      }
+    },
+    "additive_votes": {
+      "linear_votes": {
+        "Mysterious": {
+          "valid_draws": 500,
+          "ci_95_low": -0.020586847177175106,
+          "ci_95_high": 0.06701069103075935,
+          "fraction_positive": 0.848
+        },
+        "Epic": {
+          "valid_draws": 500,
+          "ci_95_low": 0.01193498048309976,
+          "ci_95_high": 0.11489010801569534,
+          "fraction_positive": 0.988
+        },
+        "Tense": {
+          "valid_draws": 500,
+          "ci_95_low": -0.007469814849033522,
+          "ci_95_high": 0.09539855288261354,
+          "fraction_positive": 0.96
+        },
+        "Dark": {
+          "valid_draws": 500,
+          "ci_95_low": 0.0030112325508309407,
+          "ci_95_high": 0.10584675378113668,
+          "fraction_positive": 0.982
+        },
+        "Happy": {
+          "valid_draws": 500,
+          "ci_95_low": -0.051643578913653884,
+          "ci_95_high": 0.017140170804705146,
+          "fraction_positive": 0.188
+        },
+        "hard5_macro": {
+          "valid_draws": 500,
+          "ci_95_low": 0.012249545803791848,
+          "ci_95_high": 0.056004154575202206,
+          "fraction_positive": 0.998
+        },
+        "noncalm14_macro": {
+          "valid_draws": 500,
+          "ci_95_low": 0.012518361495800987,
+          "ci_95_high": 0.03795401455949509,
+          "fraction_positive": 0.998
+        }
+      },
+      "linear_unbalanced": {
+        "Mysterious": {
+          "valid_draws": 500,
+          "ci_95_low": -0.02182825423615438,
+          "ci_95_high": 0.07093123680189495,
+          "fraction_positive": 0.874
+        },
+        "Epic": {
+          "valid_draws": 500,
+          "ci_95_low": 0.026391350265972505,
+          "ci_95_high": 0.13030789671633158,
+          "fraction_positive": 1.0
+        },
+        "Tense": {
+          "valid_draws": 500,
+          "ci_95_low": -0.004104864350867648,
+          "ci_95_high": 0.09618333169578487,
+          "fraction_positive": 0.966
+        },
+        "Dark": {
+          "valid_draws": 500,
+          "ci_95_low": 0.015211019381099226,
+          "ci_95_high": 0.11279507658640876,
+          "fraction_positive": 0.996
+        },
+        "Happy": {
+          "valid_draws": 500,
+          "ci_95_low": -0.048864442136563505,
+          "ci_95_high": 0.015444359181419188,
+          "fraction_positive": 0.204
+        },
+        "hard5_macro": {
+          "valid_draws": 500,
+          "ci_95_low": 0.01688392526065001,
+          "ci_95_high": 0.06006478980246062,
+          "fraction_positive": 1.0
+        },
+        "noncalm14_macro": {
+          "valid_draws": 500,
+          "ci_95_low": 0.02056515935135166,
+          "ci_95_high": 0.04529697186317084,
+          "fraction_positive": 1.0
+        }
+      },
+      "interaction_votes": {
+        "Mysterious": {
+          "valid_draws": 500,
+          "ci_95_low": -0.017767594880528564,
+          "ci_95_high": 0.031346069771067235,
+          "fraction_positive": 0.71
+        },
+        "Epic": {
+          "valid_draws": 500,
+          "ci_95_low": -0.0025121424469304564,
+          "ci_95_high": 0.06605008782177621,
+          "fraction_positive": 0.962
+        },
+        "Tense": {
+          "valid_draws": 500,
+          "ci_95_low": -0.021170510010653797,
+          "ci_95_high": 0.045813104770086606,
+          "fraction_positive": 0.73
+        },
+        "Dark": {
+          "valid_draws": 500,
+          "ci_95_low": -0.008889833899768242,
+          "ci_95_high": 0.04814369368046723,
+          "fraction_positive": 0.878
+        },
+        "Happy": {
+          "valid_draws": 500,
+          "ci_95_low": -0.016056159355945156,
+          "ci_95_high": 0.028283657604983796,
+          "fraction_positive": 0.716
+        },
+        "hard5_macro": {
+          "valid_draws": 500,
+          "ci_95_low": 0.002634190928259841,
+          "ci_95_high": 0.02929319615686437,
+          "fraction_positive": 0.992
+        },
+        "noncalm14_macro": {
+          "valid_draws": 500,
+          "ci_95_low": 0.020155049112501478,
+          "ci_95_high": 0.03734535037374404,
+          "fraction_positive": 1.0
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Bootstrap conditions on fitted OOF models; it does not account for hypothesis search.",
+    "A nonlinear gain is not evidence of a temporal or causal musical mechanism.",
+    "Missing timbre is a hypothesis, not established by a MIDI-only comparison."
+  ]
+}
