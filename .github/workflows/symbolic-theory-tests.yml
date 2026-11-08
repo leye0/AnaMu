@@ -40,6 +40,7 @@ on:
       - 'scripts/analyze_known_midi.py'
       - 'scripts/analyze_known_scores.py'
       - 'scripts/plot_known_emotions.py'
+      - 'scripts/report_known_emotions.py'
       - 'scripts/plot_vgmidi_temporal.py'
       - '.github/workflows/symbolic-theory-tests.yml'
 
@@ -116,6 +117,7 @@ jobs:
           python -m scripts.analyze_known_scores --model "$RUNNER_TEMP/anamu-vgmidi-report/calibrated-model.json" --jsymbolic-jar "$RUNNER_TEMP/jsymbolic-2.2/jSymbolic_2_2_user/jSymbolic2.jar" --out "$RUNNER_TEMP/anamu-classics"
           cp "$RUNNER_TEMP/anamu-classics/bach-chopin-emotions.json" "$RUNNER_TEMP/anamu-vgmidi-report/bach-chopin-emotions.json"
           python -m scripts.plot_known_emotions "$RUNNER_TEMP/anamu-vgmidi-report/bach-chopin-emotions.json" "$RUNNER_TEMP/anamu-vgmidi-report/bach-chopin-emotions.svg"
+          python -m scripts.report_known_emotions "$RUNNER_TEMP/anamu-vgmidi-report/bach-chopin-emotions.json" "$RUNNER_TEMP/anamu-vgmidi-report/bach-chopin-emotions.md"
       - uses: actions/upload-artifact@v4
         with:
           name: vgmidi-10-human-vs-anamu

@@ -48,7 +48,7 @@ Une corrélation ne prouve pas un mécanisme causal. La **tension**, le
 | **En cours** | **S4 — Fusion des mécanismes** | Entropie avant l'événement, surprise à l'événement, tension/résolution et interactions, ablations. | **Fusion temporelle réelle des originaux music21/Partitura/melody-features/jSymbolic, deux n-grammes de contrôle, mémoire/interaction et ablations. Extraction mutualisée et export de calibration JSON ajoutés ; IDyOM original non exécuté.** |
 | **En cours** | **S5 — Émotions humaines** | Relations calibrées aux labels et courbes **humaines** avec baselines, séparations d'œuvres et contrôles négatifs. | **20 morceaux connus comparés mesure par mesure aux humains en deux expériences : fusion de 1 203 variables de neuf familles, moteur Java original jSymbolic sur 137/141 MIDI, études de contribution par ablation. Corrélations temporelles modestes ; EMOPIA externe intact.** |
 | **Après preuve de besoin** | **S6 — Corpus ciblé** | Sélection par requirements de S0–S5, peu de MIDI fiables, couverture/erreurs/biais documentés. | Études de sources déjà réalisées ; sélection à redéfinir |
-| **Recherche appliquée** | **S7 — Bach, Chopin, puis pop** | Analyses explicables de pièces identifiées, confrontées à la théorie et aux évaluations humaines quand elles existent. | À faire |
+| **Recherche appliquée** | **S7 — Bach, Chopin, puis pop** | Analyses explicables de pièces identifiées, confrontées à la théorie et aux évaluations humaines quand elles existent. | **Premier pipeline réellement exécuté sur Bach BWV 66.6 (9 mesures) et Chopin Mazurka op. 6 no 2 (72 mesures), avec modèles calibrés sur VGMIDI. Pas de vérité affective humaine disponible sur ces deux œuvres ; transfert de style non prouvé.** |
 | **Long terme** | **S8 — Génération symbolique** | Génération + révision sous contraintes, rendus MIDI multipistes, évaluation humaine et musicale. | À faire |
 | **Ultérieur, conditionnel** | **S9 — Audio, paroles, Demucs** | Un cas d'usage démontre que l'observation audio améliore S0–S8, avec coûts et erreurs mesurés. | **Reporté explicitement** |
 
@@ -215,6 +215,23 @@ les moteurs réellement disponibles et des avertissements d'extrapolation.
 Un script applique la chaîne à Bach BWV 66.6 et Chopin Mazurka op. 6 no 2
 distribués avec music21. **Ce sont des analyses de compositions connues,
 mais pas des évaluations humaines de leurs émotions**.
+Le modèle JSON rechargé reproduit exactement les estimations sur les
+**136 mesures de *Chrono Trigger*** déjà tenues hors apprentissage : écart
+numérique maximal **0** entre l'extraction de référence et l'analyse
+autonome. Le premier pilote local du modèle sauvegardé n'avait pas les
+sorties Java jSymbolic. La run GitHub Actions complète a maintenant réussi
+et son **modèle de 1 198 variables**, comprenant jSymbolic original,
+est versionné sous `models/vgmidi-piano-ridge.json.gz` : il se recharge
+directement sans apprendre de nouveau sur les œuvres analysées.
+
+- [Analyse concrète Bach/Chopin](../reports/bach-chopin-emotions.md) : les
+  estimations pour 9 mesures de Bach et 72 mesures de Chopin, leurs séries
+  temporelles SVG et la couverture explicite des vrais moteurs.
+- jSymbolic original s'exécute sur Bach. Il a atteint le timeout sur Chopin ;
+  ses valeurs sont **absentes puis imputées**, sans prétendre qu'il ait réussi.
+- Les deux œuvres classiques restent **hors validation humaine**, alors que
+  [les dix pièces VGMIDI](../reports/vgmidi-temporal-ten-full.md) comparent
+  réellement les annotations et les sorties du système.
 
 ## 8. État du premier incrément S0/S1
 

@@ -23,8 +23,9 @@ from anamu.jsymbolic_ace import read_jsymbolic_ace
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--model", required=True, type=Path,
-                        help="safe JSON model produced by --model-out on VGMIDI")
+    parser.add_argument("--model", type=Path,
+                        default=Path("models/vgmidi-piano-ridge.json.gz"),
+                        help="safe JSON or gzip JSON model (default: models/vgmidi-piano-ridge.json.gz)")
     parser.add_argument("--json-out", required=True, type=Path)
     java_group = parser.add_mutually_exclusive_group()
     java_group.add_argument("--jsymbolic-ace", type=Path,
@@ -59,7 +60,7 @@ def main() -> None:
             except Exception as exc:
                 # A single upstream Java failure must never become a fake
                 # academic observation or block the rest of the batch.
-                error = f"original_jsymbolic_unavailable:{type(exc).__name__}:{str(exc)[:160]}"
+                error = f"original_jsymbolic_unavailable:{type(exc).__name__}"
         results.append(analyze_known_midi(
             midi, artifact, jsymbolic_record=record,
             n_measures=args.measure_count))

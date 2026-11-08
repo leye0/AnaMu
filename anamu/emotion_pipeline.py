@@ -8,6 +8,7 @@ proxies remain independently identifiable; missing engines are not fabricated.
 from __future__ import annotations
 
 import hashlib
+import gzip
 import io
 import json
 import math
@@ -176,7 +177,14 @@ def export_ridge_artifact(path: Path, model, feature_names: list[str],
 
 
 def load_ridge_artifact(path: str | Path) -> dict:
-    artifact = json.loads(Path(path).read_text(encoding="utf-8"))
+    path = Path(path)
+    # A checked-in, gzip-compressed numerical artifact avoids retraining on
+    # each analysis. Plain JSON research outputs remain supported.
+    if path.suffix == ".gz":
+        with gzip.open(path, "rt", encoding="utf-8") as stream:
+            artifact = json.load(stream)
+    else:
+        artifact = json.loads(path.read_text(encoding="utf-8"))
     if artifact.get("schema") != SCHEMA or not artifact.get("feature_names"):
         raise ValueError("unsupported_emotion_model_artifact")
     required = ("imputation_medians", "missing_indicator_indices", "scale_means",

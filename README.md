@@ -89,6 +89,13 @@ La base `anamu/` comporte :
   sur **Bach BWV 66.6** et **Chopin, Mazurka op. 6 no 2**, deux œuvres connues
   distribuées avec `music21` ; résultats inférés, **sans annotations humaines
   locales** permettant de les valider.
+- **[Bach et Chopin : trajectoires émotionnelles exécutées](reports/bach-chopin-emotions.md)**
+  — courbes et scores mesure par mesure, avec provenance et couverture des moteurs.
+- `models/vgmidi-piano-ridge.json.gz` : modèle de recherche numérique calibré
+  sur VGMIDI, enregistré au format JSON gzip et **directement réutilisable** ;
+  `analyze_known_midi` et `analyze_known_scores` le prennent par défaut.
+  Les paramètres apprennent une association dans VGMIDI, pas une loi universelle
+  des émotions ; aucune pièce du test n'est incluse dans sa calibration.
 - `melody_toolbox.py` : **bibliothèque universitaire réelle**
   [`melody-features` 1.3.3](https://dmwhyatt.github.io/melody-features/),
   qui rassemble des centaines de descripteurs de mélodie issus de théories

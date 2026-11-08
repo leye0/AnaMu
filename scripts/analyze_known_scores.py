@@ -24,7 +24,8 @@ SCORES = (
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--model", required=True, type=Path)
+    parser.add_argument("--model", type=Path,
+                        default=Path("models/vgmidi-piano-ridge.json.gz"))
     parser.add_argument("--out", required=True, type=Path)
     parser.add_argument("--jsymbolic-jar", type=Path,
                         help="run the genuine original Java engine on these two works")
@@ -59,7 +60,7 @@ def main() -> None:
                 record = execute_original_jsymbolic(midi, args.jsymbolic_jar)
             except Exception as exc:
                 # Keep the known composition, mark the original tool missing.
-                original_java_error = f"original_jsymbolic_unavailable:{type(exc).__name__}:{str(exc)[:160]}"
+                original_java_error = f"original_jsymbolic_unavailable:{type(exc).__name__}"
         analyzed = analyze_known_midi(midi, artifact, jsymbolic_record=record)
         if original_java_error:
             analyzed["warnings"].append(original_java_error)
