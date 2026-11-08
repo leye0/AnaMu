@@ -131,7 +131,8 @@ def score_labels(train: list[tuple], subset: list[tuple], features: list[str],
 
 
 def run(root: Path, *, feature_set: str = "basic", cache_dir: Path | None = None,
-        seed: int = 20261108, limit: int = 0, fresh_after: int = 0) -> dict:
+        seed: int = 20261108, limit: int = 0, fresh_after: int = 0,
+        extract_only: bool = False) -> dict:
     surprise_sets = {"research_surprise", "research_surprise_unigram",
                      "research_surprise_shuffled", "research_surprise_tension"}
     tension_sets = {"research_tension", "research_tension_shuffled",
@@ -194,6 +195,10 @@ def run(root: Path, *, feature_set: str = "basic", cache_dir: Path | None = None
         if index % 30 == 0 or index == len(available):
             print(f"PIAST extraction {index}/{len(available)}, accepted {len(extracted)}, "
                   f"rejected {len(rejected)}", flush=True)
+    if extract_only:
+        # Research-only in-memory handoff. Never JSON-serialize PIASTClip or
+        # upload copyrighted MIDI; the caller can cross-validate by video.
+        return {"records": extracted, "matched": len(available), "rejected": rejected}
     splits = {name: [(clip, row) for clip, row in extracted
                      if assigned_split(clip, seed=seed) == name]
               for name in ("train", "validation", "test")}

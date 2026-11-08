@@ -44,6 +44,28 @@ TONAL_MOTION_FEATURE_NAMES = (
     "tonal_motion_key_path_return_fraction",
 )
 
+# Predefined ablation families.  The distributional statistics are invariant
+# under permutations of the eight windows; only the second family can encode
+# temporal direction, adjacency or returns.  These partitions must stay
+# disjoint/exhaustive as feature extraction evolves.
+TONAL_DISTRIBUTION_FEATURE_NAMES = (
+    "tonal_motion_minor_evidence_mean",
+    "tonal_motion_minor_evidence_std",
+    "tonal_motion_minor_persistent_fraction",
+    "tonal_motion_confidence_mean",
+    "tonal_motion_confidence_std",
+    "tonal_motion_mode_ambiguity_mean",
+    "tonal_motion_mode_ambiguity_std",
+    "tonal_motion_chromatic_fraction_mean",
+    "tonal_motion_chromatic_fraction_std",
+    "tonal_motion_chromatic_fraction_peak",
+)
+TONAL_SEQUENCE_FEATURE_NAMES = tuple(
+    name for name in TONAL_MOTION_FEATURE_NAMES
+    if name not in TONAL_DISTRIBUTION_FEATURE_NAMES
+)
+assert len(TONAL_DISTRIBUTION_FEATURE_NAMES) + len(TONAL_SEQUENCE_FEATURE_NAMES) == len(TONAL_MOTION_FEATURE_NAMES)
+
 
 def _profiles() -> tuple[np.ndarray, np.ndarray]:
     # [24 modes, 12 chroma], mode indices 0..11 major, 12..23 minor.
