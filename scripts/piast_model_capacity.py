@@ -26,6 +26,10 @@ def predict_tree_votes(train_x, test_x, votes, *, depth):
         raise ValueError("invalid_vote_fraction")
     if depth not in (1, 3):
         raise ValueError("unregistered_depth")
+    observed = np.isfinite(train_x).any(axis=0)
+    if not observed.any():
+        return np.full(len(test_x), float(votes.mean()))
+    train_x, test_x = train_x[:, observed], test_x[:, observed]
     # Native missing-value routing and bin boundaries are fit on training only.
     # No internal random validation split can leak another clip of a test video.
     model = HistGradientBoostingRegressor(
