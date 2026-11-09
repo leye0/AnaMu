@@ -5,16 +5,22 @@ on:
     paths:
       - 'anamu/grammar_foundation.py'
       - 'anamu/grammar_relations.py'
+      - 'anamu/score_inventory.py'
       - 'scripts/orchestral_grammar_probe.py'
+      - 'scripts/score_midi_orchestration_audit.py'
       - 'tests/test_orchestral_grammar_probe.py'
+      - 'tests/test_score_inventory.py'
       - 'data/orchestral/**'
       - '.github/workflows/orchestral-grammar-probe.yml'
   pull_request:
     paths:
       - 'anamu/grammar_foundation.py'
       - 'anamu/grammar_relations.py'
+      - 'anamu/score_inventory.py'
       - 'scripts/orchestral_grammar_probe.py'
+      - 'scripts/score_midi_orchestration_audit.py'
       - 'tests/test_orchestral_grammar_probe.py'
+      - 'tests/test_score_inventory.py'
       - 'data/orchestral/**'
       - '.github/workflows/orchestral-grammar-probe.yml'
 
@@ -29,6 +35,10 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install 'mido>=1.3,<2'
       - run: python -m unittest discover -s tests -p test_orchestral_grammar_probe.py -v
+      - run: python -m unittest discover -s tests -p test_score_inventory.py -v
       - run: python scripts/orchestral_grammar_probe.py --output /tmp/orchestral-grammar-probe.json
       - name: Compare reproducible committed report
         run: cmp /tmp/orchestral-grammar-probe.json reports/orchestral-grammar-probe-2026-11-09.json
+      - run: python scripts/score_midi_orchestration_audit.py --output /tmp/orchestral-score-inventory.json
+      - name: Compare reproducible score inventory report
+        run: cmp /tmp/orchestral-score-inventory.json reports/orchestral-score-inventory-2026-11-09.json

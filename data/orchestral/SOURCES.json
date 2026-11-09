@@ -12,7 +12,14 @@
       "upstream_midi": "https://www.mutopiaproject.org/ftp/BeethovenLv/O67/Symphony5_1/Symphony5_1.mid",
       "obtained_from": "https://github.com/jtydhr88/fate-pv/blob/main/score/beethoven5-1.mid",
       "license": "Public Domain (as declared by Mutopia for its edition)",
-      "verification": "GitHub mirror provenance and upstream catalogue checked; original upstream file byte identity and score-fidelity not independently verified"
+      "verification": "GitHub mirror provenance and upstream catalogue checked; original upstream file byte identity and score-fidelity not independently verified",
+      "score_reference": {
+        "file": "data/orchestral/hauptstimme-beethoven5-movement1.mxl",
+        "sha256": "62b72bb1ab6ea50f6ed6ba4be990164722f720b85b7148e033f754a8b34906e2",
+        "source": "https://github.com/MarkGotham/Hauptstimme/blob/main/data/Beethoven%2C_Ludwig_van/Symphony_No.5%2C_Op.67/1/Beethoven_Op.67_1.mxl",
+        "license": "CC0 1.0 Universal (scores, as stated in Hauptstimme README)",
+        "relationship": "Independent edition; no note-by-note alignment or score identity asserted"
+      }
     },
     {
       "id": "beethoven7-movement2",
@@ -24,7 +31,14 @@
       "upstream_midi": "https://www.mutopiaproject.org/ftp/BeethovenLv/O92/Symphony7_2/Symphony7_2.mid",
       "obtained_from": "https://github.com/jtydhr88/fate-pv/blob/main/score/beethoven7-2/Symphony7_2.mid",
       "license": "Public Domain (as declared by Mutopia for its edition)",
-      "verification": "GitHub mirror provenance and upstream catalogue checked; original upstream file byte identity and score-fidelity not independently verified"
+      "verification": "GitHub mirror provenance and upstream catalogue checked; original upstream file byte identity and score-fidelity not independently verified",
+      "score_reference": {
+        "file": "data/orchestral/hauptstimme-beethoven7-movement2.mxl",
+        "sha256": "b96058897fc65bf40286683dbac937a2c7dcff76cca8085e44be6728648bbf18",
+        "source": "https://github.com/MarkGotham/Hauptstimme/blob/main/data/Beethoven%2C_Ludwig_van/Symphony_No.7%2C_Op.92/2/Beethoven_Op.92_2.mxl",
+        "license": "CC0 1.0 Universal (scores, as stated in Hauptstimme README)",
+        "relationship": "Independent edition; no note-by-note alignment or score identity asserted"
+      }
     }
   ]
 }
