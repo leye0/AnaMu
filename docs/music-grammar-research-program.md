@@ -109,6 +109,12 @@ Cette approche accepte des règles déclaratives académiques, des heuristiques 
 
 ## 5. Fondements académiques et contrats de validation
 
+Pour les **orchestrations complètes** et annotations de rôles instrumentaux,
+voir aussi l'[audit des corpus orchestraux S3, Hauptstimme, LOP/SOD et
+SymphonyNet](orchestral-corpus-audit.md). Ces sources sont séparées selon
+qu'elles livrent un véritable MIDI, une partition convertible en MIDI ou
+une annotation musicale vérifiée.
+
 | Référence primaire / corpus | Ce qu'elle apporte | Ce qu'elle **ne** valide **pas** |
 |---|---|---|
 | [Lerdahl & Jackendoff, *A Generative Theory of Tonal Music*](https://mitpress.mit.edu/9780262620499/a-generative-theory-of-tonal-music/) | Structure de groupement, métrique, réduction temporelle et prolongationnelle, règles de préférence | Ni toute la musique mondiale ni toute la musique populaire enregistrée |
@@ -198,6 +204,33 @@ La suite vérifiable est une représentation explicite des relations
 trois vues avec provenance et alternatives. La suite de tests dédiée se
 trouve dans `tests/test_grammar_foundation.py` et est lancée par
 `.github/workflows/grammar-g0-evidence.yml` sans téléchargement de corpus.
+
+### G1 : premier incrément relationnel déterministe (9 novembre 2026)
+
+`anamu/grammar_relations.py` implémente les **13 relations d'intervalles
+d'Allen** ([Allen 1983, CACM](https://doi.org/10.1145/182.358434)) sur des
+intervalles MIDI non ambigus et strictement positifs. Le résultat contient
+les quatre références d'événements MIDI, le hachage de source, les décalages
+exacts en ticks/temps et les intervalles de hauteur si les canaux ne sont
+pas des percussions MIDI. Une requête indexée par ID évite de construire
+automatiquement les paires quadratiques d'un grand orchestre.
+
+On peut constater **`SEQUENCE`** (notes disjointes, jointives ou non) et
+**`PARALLEL`** (durées chevauchantes), sans décider à cette étape que des
+notes superposées forment un « accord », une « voix » ou une phrase.
+Un premier **`TRANSFORM` exact** prouve transposition et facteur commun
+d'allongement/raccourcissement dans deux séquences *déjà appariées* ; il
+ne recherche pas encore les motifs, il ne les étiquette pas comme thèmes
+et refuse tout appariement de percussion en intervalles tonals. Aucune
+fonction de style, de tonalité, de dynamique, de résolution, d'alignement
+partition-performance-audio, de groupement hiérarchique (`GROUP`) ou de
+dépendance (`DEPEND`) n'est revendiquée ici. Une transformation exacte
+n'implique pas une équivalence perceptive ou fonctionnelle.
+
+Les tests énumèrent les **13 cas**, vérifient exhaustivement sur un petit
+domaine la partition et l'inversion des relations, puis l'invariance sous
+translation et dilatation temporelle. Tests et CI :
+`tests/test_grammar_relations.py`, `.github/workflows/grammar-g1-relations.yml`.
 
 **Politique de travail** : le projet traite *tous* les aspects dans la conception des données et de l'API, mais ne déclare chaque mécanisme « implémenté » qu'après une extraction conservatrice et une vérification pertinente. Les explorations historiques de « mystérieux » restent archivées comme études séparées, et ne dictent plus la structure de la grammaire.
 

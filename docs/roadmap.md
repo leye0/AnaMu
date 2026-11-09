@@ -14,6 +14,12 @@ des notes qui se chevauchent, de la vélocité, des contrôleurs et du tempo
 variable dans `anamu/grammar_foundation.py`, avec tests déterministes.
 L'alignement partition–interprétation–audio et les règles grammaticales
 restent à implémenter.
+**G1 partiel :** classification des 13 relations d'intervalles d'Allen et
+relations observées `SEQUENCE`/`PARALLEL` entre notes, plus transformateur exact
+`TRANSFORM` pour correspondances explicites (transposition, dilatation
+rythmique). `ALIGN`, `GROUP`, `DEPEND` et l'induction restent à faire.
+L'[inventaire orchestrations et annotations](orchestral-corpus-audit.md)
+priorise S3, OpenScore/Hauptstimme puis LOP/SOD.
 
 **Version : 1.1 — 7 novembre 2026.**  
 **Décision :** théorie musicale algorithmisée → mécanismes temporels → étude

@@ -1,0 +1,32 @@
+name: AnaMu - Grammar G1 temporal relations
+
+on:
+  push:
+    paths:
+      - 'anamu/grammar_foundation.py'
+      - 'anamu/grammar_relations.py'
+      - 'tests/test_grammar_foundation.py'
+      - 'tests/test_grammar_relations.py'
+      - '.github/workflows/grammar-g1-relations.yml'
+  pull_request:
+    paths:
+      - 'anamu/grammar_foundation.py'
+      - 'anamu/grammar_relations.py'
+      - 'tests/test_grammar_foundation.py'
+      - 'tests/test_grammar_relations.py'
+      - '.github/workflows/grammar-g1-relations.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  prove-temporal-relations:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install MIDI parser
+        run: python -m pip install mido
+      - name: Verify G0 source and G1 interval algebra and exact transformations
+        run: python -m unittest tests.test_grammar_foundation tests.test_grammar_relations -v

@@ -21,6 +21,20 @@ MIDI, sans vues partition/performance/audio alignées.
 Les recherches historiques sur l'attente, la tension et les émotions
 humaines sont conservées comme études spécialisées, sans définir la grammaire.
 
+**[Orchestrations complètes : audit des corpus et licences](docs/orchestral-corpus-audit.md)**
+— S3 (symphonies et annotations des rôles par instrument),
+OpenScore/Hauptstimme (mélodies principales annotées), LOP/SOD (vrais MIDI
+orchestraux), SymphonyNet (corpus volumineux à contrôler). Les partitions
+MusicXML ne sont jamais confondues avec des performances MIDI enregistrées.
+
+**G1 partiel implémenté :**
+[`anamu/grammar_relations.py`](anamu/grammar_relations.py) distingue les
+**13 relations temporelles d'Allen** (succession, simultanéité, chevauchement,
+contenance, etc.) entre notes, avec leurs événements sources. Il démontre
+également des **transpositions et augmentations rythmiques exactes** entre
+motifs dont la correspondance des notes est explicitement fournie. Aucune
+fonction harmonique, phrase ou identité de thème n'est déduite automatiquement.
+
 **[Contrats scientifiques et capacités réelles des corpus](docs/research-evidence-gates.md)**
 — registre exécutable des cibles humaines, unités indépendantes et moteurs
 académiques réellement exécutés. Les incompatibilités (PIAST sans annotations
