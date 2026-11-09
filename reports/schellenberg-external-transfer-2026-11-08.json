@@ -1,0 +1,340 @@
+{
+  "status": "external_study_exploratory_frozen_cuddy_architecture_no_schellenberg_training",
+  "primary_external_paper": "https://doi.org/10.1016/0010-0277(95)00665-6",
+  "source_training_paper": "https://doi.org/10.3758/BF03213071",
+  "reconstructed_source": "https://github.com/yiannisem/MSc-Thesis---modelling-pitch-expectation",
+  "source_commit": "e9eb23384393c83de97e1a69d00133ae4673c425",
+  "training": "cuddy_1995_8_two_note_contexts_25_probes_each_only",
+  "external_target": "schellenberg_1996_20_other_listeners_8_long_folk_fragments_15_diatonic_probes_each_published_group_means",
+  "target_votes_individual_available": false,
+  "target_labels_used_for_fitting_or_selection": false,
+  "frozen_context_window": "last_two_real_notes_of_each_long_fragment",
+  "frozen_ridge_alpha": 10.0,
+  "external_probe_order": "ascending_diatonic_pitches_reversing_thesis_original_descending_ratings",
+  "stimuli": [
+    {
+      "id": 1,
+      "key": "D",
+      "context_note_count": 19,
+      "last_two": [
+        69,
+        67
+      ],
+      "candidates": [
+        55,
+        57,
+        59,
+        61,
+        62,
+        64,
+        66,
+        67,
+        69,
+        71,
+        73,
+        74,
+        76,
+        78,
+        79
+      ]
+    },
+    {
+      "id": 2,
+      "key": "Db",
+      "context_note_count": 16,
+      "last_two": [
+        70,
+        72
+      ],
+      "candidates": [
+        60,
+        61,
+        63,
+        65,
+        66,
+        68,
+        70,
+        72,
+        73,
+        75,
+        77,
+        78,
+        80,
+        82,
+        84
+      ]
+    },
+    {
+      "id": 3,
+      "key": "G",
+      "context_note_count": 16,
+      "last_two": [
+        74,
+        71
+      ],
+      "candidates": [
+        59,
+        60,
+        62,
+        64,
+        66,
+        67,
+        69,
+        71,
+        72,
+        74,
+        76,
+        78,
+        79,
+        81,
+        83
+      ]
+    },
+    {
+      "id": 4,
+      "key": "F",
+      "context_note_count": 16,
+      "last_two": [
+        62,
+        65
+      ],
+      "candidates": [
+        53,
+        55,
+        57,
+        58,
+        60,
+        62,
+        64,
+        65,
+        67,
+        69,
+        70,
+        72,
+        74,
+        76,
+        77
+      ]
+    },
+    {
+      "id": 5,
+      "key": "Bb",
+      "context_note_count": 21,
+      "last_two": [
+        74,
+        65
+      ],
+      "candidates": [
+        53,
+        55,
+        57,
+        58,
+        60,
+        62,
+        63,
+        65,
+        67,
+        69,
+        70,
+        72,
+        74,
+        75,
+        77
+      ]
+    },
+    {
+      "id": 6,
+      "key": "C",
+      "context_note_count": 21,
+      "last_two": [
+        60,
+        69
+      ],
+      "candidates": [
+        57,
+        59,
+        60,
+        62,
+        64,
+        65,
+        67,
+        69,
+        71,
+        72,
+        74,
+        76,
+        77,
+        79,
+        81
+      ]
+    },
+    {
+      "id": 7,
+      "key": "G",
+      "context_note_count": 18,
+      "last_two": [
+        74,
+        64
+      ],
+      "candidates": [
+        52,
+        54,
+        55,
+        57,
+        59,
+        60,
+        62,
+        64,
+        66,
+        67,
+        69,
+        71,
+        72,
+        74,
+        76
+      ]
+    },
+    {
+      "id": 8,
+      "key": "F",
+      "context_note_count": 19,
+      "last_two": [
+        62,
+        72
+      ],
+      "candidates": [
+        60,
+        62,
+        64,
+        65,
+        67,
+        69,
+        70,
+        72,
+        74,
+        76,
+        77,
+        79,
+        81,
+        82,
+        84
+      ]
+    }
+  ],
+  "uncertainty_limit": "8 stimuli rated by the same 20 people; bootstrap samples stimuli not individual listeners; prior Cuddy model selected post-hoc",
+  "models": {
+    "pitch_template_only": {
+      "mean_fragment_spearman": 0.55982,
+      "per_fragment_spearman": [
+        0.71327,
+        0.60357,
+        0.67682,
+        0.56786,
+        0.71071,
+        0.36461,
+        0.71314,
+        0.12857
+      ],
+      "overall_pearson": 0.59644,
+      "overall_r2": 0.17016
+    },
+    "proximity": {
+      "mean_fragment_spearman": 0.6786,
+      "per_fragment_spearman": [
+        0.7885,
+        0.82194,
+        0.82917,
+        0.84343,
+        0.36878,
+        0.73045,
+        0.39825,
+        0.64828
+      ],
+      "overall_pearson": 0.67512,
+      "overall_r2": 0.26241
+    },
+    "narmour_contour_proxy": {
+      "mean_fragment_spearman": 0.77006,
+      "per_fragment_spearman": [
+        0.92474,
+        0.59643,
+        0.79857,
+        0.89286,
+        0.77143,
+        0.80072,
+        0.80429,
+        0.57143
+      ],
+      "overall_pearson": 0.72587,
+      "overall_r2": 0.38199
+    },
+    "contour_plus_tonal_hierarchy": {
+      "mean_fragment_spearman": 0.68824,
+      "per_fragment_spearman": [
+        0.75628,
+        0.475,
+        0.73411,
+        0.67143,
+        0.75714,
+        0.78284,
+        0.64701,
+        0.68214
+      ],
+      "overall_pearson": 0.66854,
+      "overall_r2": 0.24716
+    },
+    "tonal_context_residual": {
+      "mean_fragment_spearman": 0.65005,
+      "per_fragment_spearman": [
+        0.69534,
+        0.54286,
+        0.77171,
+        0.63214,
+        0.87857,
+        0.6756,
+        0.68275,
+        0.32143
+      ],
+      "overall_pearson": 0.67757,
+      "overall_r2": 0.22911
+    }
+  },
+  "comparisons_vs_source_fitted_template": {
+    "proximity": {
+      "mean_spearman_gain": 0.11878,
+      "fragments_improved": 6,
+      "total_fragments": 8,
+      "context_resampling_95pct_interval": [
+        -0.08366,
+        0.31024
+      ]
+    },
+    "narmour_contour_proxy": {
+      "mean_spearman_gain": 0.21024,
+      "fragments_improved": 7,
+      "total_fragments": 8,
+      "context_resampling_95pct_interval": [
+        0.10053,
+        0.32378
+      ]
+    },
+    "contour_plus_tonal_hierarchy": {
+      "mean_spearman_gain": 0.12843,
+      "fragments_improved": 6,
+      "total_fragments": 8,
+      "context_resampling_95pct_interval": [
+        -0.01025,
+        0.29115
+      ]
+    },
+    "tonal_context_residual": {
+      "mean_spearman_gain": 0.09023,
+      "fragments_improved": 5,
+      "total_fragments": 8,
+      "context_resampling_95pct_interval": [
+        0.01138,
+        0.17554
+      ]
+    }
+  }
+}

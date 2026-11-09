@@ -109,6 +109,15 @@ class ResearchEvidenceTests(unittest.TestCase):
                             "claim": "published_engine_executed"}]
         self.reject(spec, "original engine not executed")
 
+    def test_schell_external_target_matches_human_continuation_only(self):
+        spec = copy.deepcopy(self.catalog["experiments"]["schell_1996_external_transfer"])
+        check_experiment("independent_study", spec, self.catalog)
+        self.reject({**spec, "target": "named_emotion_song"},
+                    "does not expose human target")
+        self.reject({**spec, "requires_individual_votes": True},
+                    "does not expose independently usable votes")
+        self.reject({**spec, "split_group": "probe"}, "split must group by")
+
 
 if __name__ == "__main__":
     unittest.main()

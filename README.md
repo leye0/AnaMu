@@ -26,6 +26,17 @@ Contrôles d'exclusion par taille d'intervalle et direction également positifs.
 preuve d'émotion ni de généralisation indépendante ; données d'autrui non
 recopiées dans le dépôt.
 
+**[Contre-épreuve externe S1 : Schellenberg (1996), 20 autres auditeurs](docs/schellenberg-external-transfer-study.md)**
+— huit vrais fragments mélodiques × 15 continuations, **120 notes évaluées
+par des humains**. Aucun poids recalibré sur cette étude : référence de
+hauteur ρ **0,560**, correction résiduelle **0,650**, mais simple **contour
+mélodique 0,770** (+0,210 contre la référence, 7/8 fragments).
+Ce modèle de contour était moins fort sur Cuddy : la première approche
+gagnante **n'est pas celle qui transfère le mieux**. Il s'agit de la
+plausibilité de la note suivante, pas d'une mesure de « mystère » ou
+d'une validation d'émotions. Résultats exploratoires, 120 candidats recoupés
+avec le classeur d'annotation de l'étude.
+
 **Direction scientifique (v1.0, 7 novembre 2026) :** développer d'abord les
 algorithmes issus des théories musicales et psychologiques sur le **MIDI
 symbolique brut**. Déterminer ensuite le corpus nécessaire à la validation

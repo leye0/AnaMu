@@ -19,7 +19,7 @@ remplace pas la revue du papier, du code ni le calcul statistique : une
 expérience compatible peut échouer, et un score élevé ne démontre pas une
 cause psychologique.
 
-## Les neuf sources, sans convertir une cible en une autre
+## Les dix sources, sans convertir une cible en une autre
 
 | Source | Étiquette humaine réellement utilisée | Unité indépendante | Ce que cela **ne prouve pas** |
 |---|---|---|---|
@@ -32,6 +32,7 @@ cause psychologique.
 | XMIDI | Catégorie émotionnelle/genre sur morceau entier | Pièce (doublons à auditer) | Émotion humaine datée ou votes individuels accessibles |
 | DCML Distant Listening Corpus | Cadences et phrases annotées par des musicologues sur partitions symboliques | Œuvre parente (sonate/suite entière) | Émotions, ressenti de tension ou véritable timbre MIDI/audio ; pas de votes individuels par cadence |
 | Cuddy & Lunney (1995) | **Qualité perçue d'une note suivante**, 200 notes-sondes × deux moyennes de groupe | Contexte mélodique à deux notes | Émotion, anticipation en temps réel, votes individuels ; le MIDI de 2025 est reconstruit et transposé |
+| Schellenberg (1996) | **Qualité perçue d'une note suivante**, 120 moyennes humaines sur huit fragments réels | Fragment entier | Émotion, votes individuels ; 15 continuations diatoniques et MIDI reconstitués ; pas la même tâche que Cuddy |
 
 Sources primaires : [PIAST](https://aclanthology.org/2024.nlp4musa-1.2/),
 [VGMIDI](https://github.com/lucasnfe/vgmidi),
@@ -41,7 +42,8 @@ Sources primaires : [PIAST](https://aclanthology.org/2024.nlp4musa-1.2/),
 [EMOPIA](https://annahung31.github.io/EMOPIA/),
 [XMIDI](https://github.com/xmusic-project/XMIDI_Dataset),
 [DCML DLC](https://doi.org/10.1038/s41597-025-04976-z),
-[Cuddy & Lunney](https://doi.org/10.3758/BF03213071).
+[Cuddy & Lunney](https://doi.org/10.3758/BF03213071),
+[Schellenberg](https://doi.org/10.1016/0010-0277(95)00665-6).
 
 **Important sur l'instrumentation :** les commandes MIDI contiennent notes,
 temps, vélocité, programmes et parfois pédale, **pas** le timbre original,
@@ -143,10 +145,19 @@ comparaison directe de nombreuses caractéristiques harmoniques fait moins
 bien que cette simple référence ; voir le rapport et les réserves de
 validation post-hoc sur huit contextes.
 
-**Priorité :** chercher une deuxième source indépendante de **continuations
-jugées par des humains**, avec réponses réellement accessibles, fixer le
-modèle et les métriques sans regarder les nouveaux jugements, puis exécuter
-une vraie contre-épreuve. Ne pas réutiliser un benchmark de cadences ou une
-annotation valence/activation comme vérité pour cette cible. À terme,
+La [contre-épreuve externe Schellenberg](schellenberg-external-transfer-study.md)
+entraîne les mêmes modèles **uniquement sur Cuddy**, puis évalue 120
+continuations de huit vraies mélodies entendues par **20 autres auditeurs** :
+la correction contextuelle fait ρ **0,560 → 0,650**, mais la version **plus
+simple de contour** atteint **0,770**. Le précédent gagnant ne généralise
+donc pas comme meilleur modèle. Les deux expériences restent exploratoires ;
+les paramètres de Schellenberg n'ont pas servi à ajuster le moteur.
+
+**Priorité :** chercher une **troisième** source indépendante de
+**continuations jugées par des humains**, avec réponses réellement accessibles
+et idéalement votes individuels. Préenregistrer les comparaisons des modèles
+de contour, de tonalité et d'attente probabiliste, sans consulter la nouvelle
+source. Ne pas réutiliser un benchmark de cadences ou une annotation
+valence/activation comme vérité pour cette cible. À terme,
 mesurer si ce mécanisme ajoute un signal sur les émotions difficiles de
 PIAST sans prétendre que les tâches humaines sont identiques.

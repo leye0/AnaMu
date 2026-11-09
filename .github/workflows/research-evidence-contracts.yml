@@ -7,12 +7,15 @@ on:
       - 'anamu/research_contracts.py'
       - 'anamu/cadence_events.py'
       - 'anamu/human_probe_expectancy.py'
+      - 'anamu/schellenberg_expectancy.py'
       - 'scripts/validate_research_contracts.py'
       - 'scripts/dcml_cadence_benchmark.py'
       - 'scripts/cudlun_probe_benchmark.py'
+      - 'scripts/schellenberg_external_transfer.py'
       - 'tests/test_research_contracts.py'
       - 'tests/test_cadence_events.py'
       - 'tests/test_human_probe_expectancy.py'
+      - 'tests/test_schellenberg_transfer.py'
       - 'scripts/piast_tonal_motion_experiment.py'
       - 'scripts/isovat_tension_benchmark.py'
       - 'scripts/vgmidi_temporal_benchmark.py'
@@ -23,12 +26,15 @@ on:
       - 'anamu/research_contracts.py'
       - 'anamu/cadence_events.py'
       - 'anamu/human_probe_expectancy.py'
+      - 'anamu/schellenberg_expectancy.py'
       - 'scripts/validate_research_contracts.py'
       - 'scripts/dcml_cadence_benchmark.py'
       - 'scripts/cudlun_probe_benchmark.py'
+      - 'scripts/schellenberg_external_transfer.py'
       - 'tests/test_research_contracts.py'
       - 'tests/test_cadence_events.py'
       - 'tests/test_human_probe_expectancy.py'
+      - 'tests/test_schellenberg_transfer.py'
       - 'scripts/piast_tonal_motion_experiment.py'
       - 'scripts/isovat_tension_benchmark.py'
       - 'scripts/vgmidi_temporal_benchmark.py'
@@ -54,3 +60,5 @@ jobs:
         run: python -m unittest tests.test_cadence_events -v
       - name: Check human continuation contracts and held-out-context isolation
         run: python -m unittest tests.test_human_probe_expectancy -v
+      - name: Check independent source-only melodic expectation transfer
+        run: python -m unittest tests.test_schellenberg_transfer -v

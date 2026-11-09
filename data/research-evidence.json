@@ -99,6 +99,17 @@
       "independent_group": "two_note_context",
       "local_evidence": "1995 paper publishes 8 x 25 x 2 group means; 2025 thesis GitHub commit e9eb23384393c83de97e1a69d00133ae4673c425 supplies digitized cudlun95.data and eight context+placeholder MIDI files",
       "limits": "400 group-mean cells are NOT 400 independent human participants; no raw listener responses, no audio timbre, no emotion tags. Reconstructed MIDI all anchor on F#4 whereas the primary study includes C4 and F#4 contexts, so interpretation is transposition-relative and exploratory."
+    },
+    "SCHELLENBERG_1996": {
+      "primary_url": "https://doi.org/10.1016/0010-0277(95)00665-6",
+      "unit": "eight real British folk melody fragments, fifteen diatonic probes each, published mean goodness-of-continuation from twenty different listeners",
+      "human_targets": ["melodic_continuation_goodness"],
+      "temporal_human_labels": false,
+      "individual_votes_available": false,
+      "midi_origin": "2025_reconstructed_full_folk_melodies_plus_extra_placeholder_probe_not_original_audio",
+      "independent_group": "fragment",
+      "local_evidence": "Schellenberg (1996) Experiment 1 Appendix A published 120 means; 2025 thesis GitHub commit e9eb23384393c83de97e1a69d00133ae4673c425 supplies schell96.data, eight reconstructed MIDI/Kern fragments and documented descending-probe reversal",
+      "limits": "Independent listeners from Cuddy but eight fragment means only; not individual votes, not emotional labels. The source uses long melodies and 15 within-key diatonic probes rather than Cuddy's two-note contexts and 25 chromatic probes; an added final MIDI note is an artificial placeholder."
     }
   },
   "methods": {
@@ -250,6 +261,17 @@
       "requires_temporal_human_labels": false,
       "requires_individual_votes": false,
       "split_group": "two_note_context",
+      "methods": [{"id": "cuddy_narmour_proxy", "claim": "theory_inspired_proxy"}],
+      "status": "exploratory",
+      "previously_examined": true,
+      "claim_scope": "human_melodic_continuation"
+    },
+    "schell_1996_external_transfer": {
+      "source": "SCHELLENBERG_1996",
+      "target": "melodic_continuation_goodness",
+      "requires_temporal_human_labels": false,
+      "requires_individual_votes": false,
+      "split_group": "fragment",
       "methods": [{"id": "cuddy_narmour_proxy", "claim": "theory_inspired_proxy"}],
       "status": "exploratory",
       "previously_examined": true,
