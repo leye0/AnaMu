@@ -21,6 +21,7 @@ CLAIM_TARGETS = {
     "relative_performance_attributes": {"performance_perceptual_attributes"},
     "relative_performance_valence_arousal": {"performance_valence_arousal"},
     "musicological_cadence_detection": {"cadence_event"},
+    "human_melodic_continuation": {"melodic_continuation_goodness"},
 }
 
 

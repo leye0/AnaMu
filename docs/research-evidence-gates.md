@@ -19,7 +19,7 @@ remplace pas la revue du papier, du code ni le calcul statistique : une
 expérience compatible peut échouer, et un score élevé ne démontre pas une
 cause psychologique.
 
-## Les huit sources, sans convertir une cible en une autre
+## Les neuf sources, sans convertir une cible en une autre
 
 | Source | Étiquette humaine réellement utilisée | Unité indépendante | Ce que cela **ne prouve pas** |
 |---|---|---|---|
@@ -31,6 +31,7 @@ cause psychologique.
 | EMOPIA | Un quadrant par extrait | Chanson source | Quatre votes indépendants par extrait ; les quatre annotateurs ont réparti les chansons |
 | XMIDI | Catégorie émotionnelle/genre sur morceau entier | Pièce (doublons à auditer) | Émotion humaine datée ou votes individuels accessibles |
 | DCML Distant Listening Corpus | Cadences et phrases annotées par des musicologues sur partitions symboliques | Œuvre parente (sonate/suite entière) | Émotions, ressenti de tension ou véritable timbre MIDI/audio ; pas de votes individuels par cadence |
+| Cuddy & Lunney (1995) | **Qualité perçue d'une note suivante**, 200 notes-sondes × deux moyennes de groupe | Contexte mélodique à deux notes | Émotion, anticipation en temps réel, votes individuels ; le MIDI de 2025 est reconstruit et transposé |
 
 Sources primaires : [PIAST](https://aclanthology.org/2024.nlp4musa-1.2/),
 [VGMIDI](https://github.com/lucasnfe/vgmidi),
@@ -39,7 +40,8 @@ Sources primaires : [PIAST](https://aclanthology.org/2024.nlp4musa-1.2/),
 [CP-WTC](https://zenodo.org/records/21693024),
 [EMOPIA](https://annahung31.github.io/EMOPIA/),
 [XMIDI](https://github.com/xmusic-project/XMIDI_Dataset),
-[DCML DLC](https://doi.org/10.1038/s41597-025-04976-z).
+[DCML DLC](https://doi.org/10.1038/s41597-025-04976-z),
+[Cuddy & Lunney](https://doi.org/10.3758/BF03213071).
 
 **Important sur l'instrumentation :** les commandes MIDI contiennent notes,
 temps, vélocité, programmes et parfois pédale, **pas** le timbre original,
@@ -60,6 +62,7 @@ cause. Audio/Demucs restent reportés ; aucun nouvel appel audio.
 | Modulation tonale inspirée de MoFi | Proxy maison | Distribution et ordre des tonalités locales | Le contrôle réordonné annule l'argument temporel |
 | Modèle relatif inspiré de Delta-VA | Proxy maison | Différences d'interprétation MIDI | Pas reproduction du réseau original |
 | Proxy de cadences par notes MIDI-compatibles | Proxy maison exécuté | Indices rythmiques + chroma relatif à la tonalité estimée + basse et transitions | Pas l'algorithme publié DCML, pas l'analyse experte ni l'émotion humaine |
+| Proxy de continuation Cuddy/Narmour | Proxy maison exécuté | Proximité, direction/retour mélodique, profils tonals, correction résiduelle | Pas la formulation originale des auteurs ; évalué seulement sur huit contextes déjà examinés |
 
 La présence de 1 203 colonnes ou de 23 mécanismes dans l'inventaire n'est
 **pas** une validation indépendante de 23 phénomènes perceptifs.
@@ -132,11 +135,18 @@ Ne comparer les scores entre PR que lorsque les plis sont identiques.
 
 ## Prochaine expérience qui mérite d'être financée
 
-Ne pas lancer un autre balayage de 1 900 PIAST ou multiplier des centaines
-de descripteurs. Sélectionner **un mécanisme** dont la validité musicale est
-encore faible (p. ex. attente harmonique, résolution de cadence ou mémoire
-motif), créer des contrefactuels MIDI à conditions statiques comparables et
-établir sa prédiction musicale sur données indépendantes. **Ensuite**, définir
-une annotation humaine ciblée de la transformation perçue, avec protocole
-gelé avant l'écoute. Les corpus actuels restent exploratoires pour les humeurs
-difficiles. Aucun gain algorithmique n'est revendiqué avant cette épreuve.
+Le [premier test de plausibilité de continuation mélodique jugée par des
+auditeurs](cudlun-human-expectancy-study.md) déplace la question hors du
+chantier des cadences et observe un **gain exploratoire** lorsque les profils
+de hauteur généraux sont complétés par une correction contextuelle. La
+comparaison directe de nombreuses caractéristiques harmoniques fait moins
+bien que cette simple référence ; voir le rapport et les réserves de
+validation post-hoc sur huit contextes.
+
+**Priorité :** chercher une deuxième source indépendante de **continuations
+jugées par des humains**, avec réponses réellement accessibles, fixer le
+modèle et les métriques sans regarder les nouveaux jugements, puis exécuter
+une vraie contre-épreuve. Ne pas réutiliser un benchmark de cadences ou une
+annotation valence/activation comme vérité pour cette cible. À terme,
+mesurer si ce mécanisme ajoute un signal sur les émotions difficiles de
+PIAST sans prétendre que les tâches humaines sont identiques.

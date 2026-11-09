@@ -16,6 +16,16 @@ individuels) sont refusées par des tests légers, sans télécharger de MIDI.
 humaines, comparaison rythme/harmonie/témoin mélangé et transfert entre
 compositeurs. **Ce sont des cibles de structure musicale, pas des émotions.**
 
+**[Nouvelle expérience S1 : attentes de continuation de 24 auditeurs](docs/cudlun-human-expectancy-study.md)**
+— Cuddy et Lunney (1995), 8 mélodies à deux notes × 25 continuations, scores
+humains moyens publiés pour musiciens et non-musiciens. La référence de hauteur
+relative fait **ρ 0,724** ; une **correction résiduelle** fondée sur le contour
+et la hiérarchie tonale fait **0,795** (+0,071, gain sur 8/8 mélodies).
+Contrôles d'exclusion par taille d'intervalle et direction également positifs.
+**Exploratoire / modèle choisi après lecture de premiers résultats**, sans
+preuve d'émotion ni de généralisation indépendante ; données d'autrui non
+recopiées dans le dépôt.
+
 **Direction scientifique (v1.0, 7 novembre 2026) :** développer d'abord les
 algorithmes issus des théories musicales et psychologiques sur le **MIDI
 symbolique brut**. Déterminer ensuite le corpus nécessaire à la validation

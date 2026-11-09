@@ -87,6 +87,28 @@ class ResearchEvidenceTests(unittest.TestCase):
         methods = self.proposal()["methods"]
         self.reject(self.proposal(methods=methods + methods), "duplicate method")
 
+    def test_cudlun_exposes_human_note_expectancy_not_emotions(self):
+        spec = copy.deepcopy(self.catalog["experiments"]["cudlun_human_expectancy"])
+        check_experiment("expectancy", spec, self.catalog)
+        spec["target"] = "mood_tags"
+        self.reject(spec, "does not expose human target")
+
+    def test_cudlun_cannot_claim_individual_listener_votes(self):
+        spec = copy.deepcopy(self.catalog["experiments"]["cudlun_human_expectancy"])
+        spec["requires_individual_votes"] = True
+        self.reject(spec, "does not expose independently usable votes")
+
+    def test_cudlun_cannot_be_called_temporal_ground_truth(self):
+        spec = copy.deepcopy(self.catalog["experiments"]["cudlun_human_expectancy"])
+        spec["requires_temporal_human_labels"] = True
+        self.reject(spec, "no time-resolved human labels")
+
+    def test_cudlun_proxy_cannot_claim_original_narmour_implementation(self):
+        spec = copy.deepcopy(self.catalog["experiments"]["cudlun_human_expectancy"])
+        spec["methods"] = [{"id": "cuddy_narmour_proxy",
+                            "claim": "published_engine_executed"}]
+        self.reject(spec, "original engine not executed")
+
 
 if __name__ == "__main__":
     unittest.main()

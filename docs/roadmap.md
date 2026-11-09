@@ -19,8 +19,17 @@ ou de présenter un test déjà exploré comme une confirmation indépendante.
 expertisées sur 198 partitions symboliques](dcml-cadence-study.md) trouve
 un apport mesurable de l'harmonie sur le rythme seul, avec contrôle
 permuté et validation par œuvre parente et par compositeur. **Il ne valide
-aucune émotion**, et il reste exploratoire. Étendre aux cadences atypiques
-et à des compositeurs réellement inédits avant toute promotion.
+aucune émotion**, et il reste exploratoire. Le chantier des cadences est
+**mis en pause** pour ne pas recycler le même axe indéfiniment.
+
+**Progrès S1 (8 novembre 2026) :** le [test de continuation mélodique sur
+les réponses humaines de Cuddy et Lunney (1995)](cudlun-human-expectancy-study.md)
+observe, en sortie de huit contextes tenus à l'écart successivement,
+**ρ 0,724 → 0,795** lorsqu'un modèle de contour/tonalité corrige le résidu
+d'une référence relative de notes. Gain de **+0,071 sur 8/8 contextes**,
+également positif avec exclusions plus larges (direction et taille des
+intervalles). Ce modèle a été formulé après la première inspection des
+scores : **exploratoire uniquement ; confirmation externe encore à faire**.
 
 **Nouvelle règle :** chercher et intégrer systématiquement les **outils
 académiques existants**, maximiser la diversité des mécanismes non redondants
@@ -54,7 +63,7 @@ Une corrélation ne prouve pas un mécanisme causal. La **tension**, le
 | Priorité | Phase | Livrable / condition de sortie | Statut |
 |---|---|---|---|
 | **Maintenant** | **S0 — Laboratoire MIDI brut** | Lecteur conservateur, vues sans pertes, fixtures et contrats de données. Aucune extraction audio. | **Premier incrément en cours** |
-| **Maintenant** | **S1 — Attentes mélodiques** | Baseline probabiliste puis comparaison IDyOM + Narmour/Schellenberg, vraies mesures de prédiction hors entraînement. | **Baseline et Narmour (outil `melody-features` + triplets datés) actifs ; IDyOM original et validation perceptive à faire** |
+| **Maintenant** | **S1 — Attentes mélodiques** | Baseline probabiliste puis comparaison IDyOM + Narmour/Schellenberg, vraies mesures de prédiction hors entraînement. | **Première comparaison directe à des jugements humains : +0,071 ρ par correction contextuelle en 8 plis, résultat exploratoire. Réplication sur une autre source à réaliser ; IDyOM original non exécuté.** |
 | **En cours** | **S2 — Harmonie et enchaînements** | Hypothèses d'accords, progression, fonction, tonalité locale, cadences, Tonal Pitch Space, Spiral Array ; tests sur vérité musicale annotée. | **music21 + Partitura actifs ; 1 992 cadences de 198 partitions expertes testées sur notes MIDI-compatibles. Gain harmonique exploratoire, pas de score émotionnel ni validation de résolution atypique.** |
 | **En cours** | **S3 — Motifs, formes, tension** | Répétitions/transformations, structure hiérarchique, mémoire et modèles temporels Lerdahl/Farbood. | **Motifs/récurrences, cadences et mémoire multicadence en approximation calculable ; hiérarchie perceptive et modèles originaux complets à étudier.** |
 | **En cours** | **S4 — Fusion des mécanismes** | Entropie avant l'événement, surprise à l'événement, tension/résolution et interactions, ablations. | **Fusion temporelle réelle des originaux music21/Partitura/melody-features/jSymbolic, deux n-grammes de contrôle, mémoire/interaction et ablations. Extraction mutualisée et export de calibration JSON ajoutés ; IDyOM original non exécuté.** |
