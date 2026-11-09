@@ -159,6 +159,13 @@
       "observables": ["learned_melodic_expectation", "entropy", "information_content"],
       "limit": "Import/launcher exist, but no original Lisp execution is reported in AnaMu."
     },
+    "idyom_thesis_precomputed": {
+      "primary_url": "https://github.com/yiannisem/MSc-Thesis---modelling-pitch-expectation",
+      "kind": "archived_external_predictions",
+      "executed": false,
+      "observables": ["third_party_pitch_candidate_probabilities"],
+      "limit": "The 2025 thesis provides probabilities previously computed by IDyOM; AnaMu did not run it. The original .dat, corpus provenance and test overlap remain unverified; this is not an interchangeable executable predictor or an emotion label."
+    },
     "farbood_proxy": {
       "primary_url": "https://doi.org/10.1525/mp.2012.29.4.387",
       "kind": "theory_inspired_proxy",
@@ -298,6 +305,20 @@
       "status": "exploratory",
       "previously_examined": true,
       "claim_scope": "human_realized_note_surprisal"
+    },
+    "idyom_archived_schell_probe_comparison": {
+      "source": "SCHELLENBERG_1996",
+      "target": "melodic_continuation_goodness",
+      "requires_temporal_human_labels": false,
+      "requires_individual_votes": false,
+      "split_group": "fragment",
+      "methods": [
+        {"id": "cuddy_narmour_proxy", "claim": "theory_inspired_proxy"},
+        {"id": "idyom_thesis_precomputed", "claim": "third_party_archived_predictions_only"}
+      ],
+      "status": "exploratory",
+      "previously_examined": true,
+      "claim_scope": "human_melodic_continuation"
     }
   }
 }

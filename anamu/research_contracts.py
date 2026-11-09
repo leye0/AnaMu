@@ -106,6 +106,10 @@ def check_experiment(name: str, experiment: dict, catalog: dict) -> None:
         elif claimed == "theory_inspired_proxy":
             _require(method["kind"] == "theory_inspired_proxy" and method["executed"],
                      f"{name}: {method_id} is not an executed proxy")
+        elif claimed == "third_party_archived_predictions_only":
+            _require(method["kind"] == "archived_external_predictions" and
+                     not method["executed"],
+                     f"{name}: {method_id} does not represent an external archive")
         else:
             raise ResearchContractError(
                 f"{name}: unsupported provenance claim {claimed!r} for {method_id}")
@@ -135,7 +139,8 @@ def validate_catalog(catalog: dict) -> None:
         _require(isinstance(method, dict), f"{name}: invalid method")
         _require(str(method.get("primary_url", "")).startswith("https://"),
                  f"{name}: missing method source URL")
-        _require(method.get("kind") in {"published_engine", "theory_inspired_proxy"},
+        _require(method.get("kind") in {"published_engine", "theory_inspired_proxy",
+                                        "archived_external_predictions"},
                  f"{name}: invalid method kind")
         _require(isinstance(method.get("executed"), bool),
                  f"{name}: missing engine execution status")

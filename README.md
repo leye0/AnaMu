@@ -38,6 +38,8 @@ d'une validation d'émotions. Résultats exploratoires, 120 candidats recoupés
 avec le classeur d'annotation de l'étude.
 
 **[Troisième expérience S1 : Manzara (1992), paris sur les vraies notes](docs/manzara-cross-target-study.md)**
+
+**[Contrôle S1 : IDyOM précalculé vs nos proxies sur 120 attentes humaines](docs/idyom-archived-probe-comparison.md)** — référence statistique externe, original IDyOM non exécuté localement, pas de mesure d'émotion.
 — **contre-épreuve négative** sur 82 notes de deux chorales : la méthode de
 contour Cuddy/Schellenberg ne suit **pas** la surprise humaine à chaque note
 (ρ **+0,013** et **−0,094**). Les prédictions IDyOM importées d'une thèse

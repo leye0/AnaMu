@@ -63,6 +63,13 @@ class ResearchEvidenceTests(unittest.TestCase):
             "id": "idyom_original", "claim": "published_engine_executed"
         }]), "original engine not executed")
 
+    def test_archived_idyom_can_only_be_claimed_as_external_predictions(self):
+        spec = copy.deepcopy(self.catalog["experiments"]
+                             ["idyom_archived_schell_probe_comparison"])
+        check_experiment("archived_evidence", spec, self.catalog)
+        spec["methods"][1]["claim"] = "published_engine_executed"
+        self.reject(spec, "original engine not executed")
+
     def test_cannot_call_own_proxy_published_algorithm(self):
         self.reject(self.proposal(methods=[{
             "id": "tonal_motion_proxy", "claim": "published_engine_executed"
