@@ -205,6 +205,7 @@
       "contexts_total": 8
     }
   },
+  "bootstrap_interpretation": "stimulus-context resampling only; the same 24 listeners rated multiple contexts; no participant-level uncertainty estimated",
   "robustness_stricter_groupings": {
     "leave_interval_size_out": {
       "pitch_template_only": {

@@ -51,8 +51,10 @@ du synthétiseur « wood piano » utilisé dans l'expérience.
   huit contextes. Deux contrôles complémentaires excluent successivement
   un intervalle de même taille *dans ses deux directions* (quatre plis),
   puis toutes les mélodies d'une même direction (deux plis).
-- Incertitude : bootstrap apparié des **huit groupes indépendants**, pas des
-  200 lignes ou des 24 personnes dont on ne possède pas les votes.
+- Incertitude : bootstrap apparié des **huit contextes-stimuli**, pas des
+  200 lignes. **Les mêmes 24 personnes ont évalué plusieurs contextes** :
+  l'intervalle décrit la variation entre stimuli, pas une incertitude
+  interparticipants (votes individuels indisponibles).
 
 ## Mesures réellement obtenues
 
@@ -65,7 +67,9 @@ du synthétiseur « wood piano » utilisé dans l'expérience.
 | **Référence + correction contextuelle résiduelle** | **0,795** | **0,643** | **+0,071** |
 
 La correction résiduelle améliore la corrélation sur **8/8 contextes** ;
-bootstrap exploratoire apparié du gain en ρ : **[+0,041 ; +0,101]**. La
+bootstrap exploratoire **par contexte-stimulus**, sans correction pour
+la dépendance entre réponses d'un même auditeur, du gain en ρ :
+**[+0,041 ; +0,101]**. La
 corrélation moyenne atteint **0,734** chez les musiciens et **0,799** chez
 les non-musiciens, contre respectivement 0,660 et 0,736 pour la référence.
 

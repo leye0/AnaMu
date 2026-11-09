@@ -121,6 +121,7 @@ def _evaluate(contexts: list[dict]) -> dict:
                     for i in ids])), 5),
             }
     return {"models": output, "paired_context_comparison": comparison,
+            "bootstrap_interpretation": "stimulus-context resampling only; the same 24 listeners rated multiple contexts; no participant-level uncertainty estimated",
             "robustness_stricter_groupings": robustness}
 
 
