@@ -1,5 +1,15 @@
 # AnaMu — Feuille de route scientifique et technique
 
+**Mise à jour du 9 novembre 2026 :** le nouveau cap est la
+**[grammaire musicale multi-axes](music-grammar-research-program.md)**,
+fondée sur des observations de partition, interprétation et audio, des
+relations hiérarchiques explicables, des règles déclaratives et des tests
+académiques propres à chaque capacité. Les passages ci-dessous détaillent
+**l'historique du programme sur les émotions**, et non la priorité
+d'implémentation après ce changement de direction. Le noyau grammatical
+doit préserver tempo variable, nuances et instruments dès le contrat des
+données ; l'analyse audio proprement dite peut rester une étape ultérieure.
+
 **Version : 1.1 — 7 novembre 2026.**  
 **Décision :** théorie musicale algorithmisée → mécanismes temporels → étude
 des émotions humaines → corpus construit selon les besoins prouvés → analyses

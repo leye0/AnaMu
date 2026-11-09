@@ -1,9 +1,20 @@
 # AnaMu — Analyse Musicale
 
-AnaMu est un projet de recherche visant à comprendre **comment les
-enchaînements de notes, d'accords, de rythmes et de motifs produisent des
-attentes, des surprises, des tensions et des résolutions**, puis à étudier
-leur relation avec les émotions **réellement annotées par des humains**.
+**Nouvelle direction (9 novembre 2026) :** AnaMu devient un projet de
+**grammaire musicale formelle et explicable**, couvrant la partition, les
+interprétations (tempo, ralentissements, nuances, articulation) et le signal
+audio (timbres, enveloppes, volume réel). Les relations, transformations,
+groupements, voix, harmonie et formes sont des objets grammaticaux de premier
+rang. Le cœur du moteur privilégie les règles déclaratives et l'induction
+structurelle vérifiable plutôt qu'un classificateur ML d'émotions.
+
+**[Architecture musicologique universitaire — programme AnaMu Grammar](docs/music-grammar-research-program.md)**
+— ontologie de 19 dimensions, six opérateurs primitifs, trois vues de la
+musique, références académiques et critères d'évaluation par corpus. Il s'agit
+d'un **projet d'architecture**, pas d'un moteur déjà implémenté.
+
+Les recherches historiques sur l'attente, la tension et les émotions
+humaines sont conservées comme études spécialisées, sans définir la grammaire.
 
 **[Contrats scientifiques et capacités réelles des corpus](docs/research-evidence-gates.md)**
 — registre exécutable des cibles humaines, unités indépendantes et moteurs
@@ -38,8 +49,6 @@ d'une validation d'émotions. Résultats exploratoires, 120 candidats recoupés
 avec le classeur d'annotation de l'étude.
 
 **[Troisième expérience S1 : Manzara (1992), paris sur les vraies notes](docs/manzara-cross-target-study.md)**
-
-**[Contrôle S1 : IDyOM précalculé vs nos proxies sur 120 attentes humaines](docs/idyom-archived-probe-comparison.md)** — référence statistique externe, original IDyOM non exécuté localement, pas de mesure d'émotion.
 — **contre-épreuve négative** sur 82 notes de deux chorales : la méthode de
 contour Cuddy/Schellenberg ne suit **pas** la surprise humaine à chaque note
 (ρ **+0,013** et **−0,094**). Les prédictions IDyOM importées d'une thèse
@@ -47,15 +56,22 @@ obtiennent **+0,449 / +0,481**, mais leur entraînement externe n'est pas
 audité. **Bonne continuation ≠ surprise temporelle.** Les modèles, les
 preuves et les tests sont reproductibles sans redistribuer les paris.
 
+**[Contrôle S1 : IDyOM précalculé vs nos proxies sur 120 attentes humaines](docs/idyom-archived-probe-comparison.md)**
+— référence statistique externe, original IDyOM non exécuté localement,
+pas de mesure d'émotion.
+
 **[Nouvelle source audio et EEG : MEX (1er novembre 2026)](docs/mex-2026-source-audit.md)**
 — quatre tâches académiques correctement séparées (répétitions,
 segmentation humaine, accord symbolique/audio sur cinq instruments et EEG).
 **Pas de labels d'émotion** et moteurs audio non encore exécutés dans AnaMu.
 
-**Direction scientifique (v1.0, 7 novembre 2026) :** développer d'abord les
+**Ancienne direction scientifique (v1.0, 7 novembre 2026, conservée pour historique) :** développer d'abord les
 algorithmes issus des théories musicales et psychologiques sur le **MIDI
 symbolique brut**. Déterminer ensuite le corpus nécessaire à la validation
 de chaque mécanisme. Les rapprochements MIDI↔audio et **Demucs sont reportés**.
+Cette contrainte a été **remplacée** par le programme grammatical multi-vues
+du 9 novembre ; cela n'impose toutefois pas d'introduire immédiatement
+une nouvelle infrastructure audio.
 
 **8 novembre — nouveaux corpus réellement annotés :**
 [étude IsoVAT + CP-WTC + PercePiano sur les cas difficiles](reports/midi-human-emotion-hard-benchmarks-2026-11-08.md).
