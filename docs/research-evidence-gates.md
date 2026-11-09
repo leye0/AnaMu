@@ -19,7 +19,7 @@ remplace pas la revue du papier, du code ni le calcul statistique : une
 expérience compatible peut échouer, et un score élevé ne démontre pas une
 cause psychologique.
 
-## Les dix sources, sans convertir une cible en une autre
+## Les onze sources, sans convertir une cible en une autre
 
 | Source | Étiquette humaine réellement utilisée | Unité indépendante | Ce que cela **ne prouve pas** |
 |---|---|---|---|
@@ -33,6 +33,7 @@ cause psychologique.
 | DCML Distant Listening Corpus | Cadences et phrases annotées par des musicologues sur partitions symboliques | Œuvre parente (sonate/suite entière) | Émotions, ressenti de tension ou véritable timbre MIDI/audio ; pas de votes individuels par cadence |
 | Cuddy & Lunney (1995) | **Qualité perçue d'une note suivante**, 200 notes-sondes × deux moyennes de groupe | Contexte mélodique à deux notes | Émotion, anticipation en temps réel, votes individuels ; le MIDI de 2025 est reconstruit et transposé |
 | Schellenberg (1996) | **Qualité perçue d'une note suivante**, 120 moyennes humaines sur huit fragments réels | Fragment entier | Émotion, votes individuels ; 15 continuations diatoniques et MIDI reconstitués ; pas la même tâche que Cuddy |
+| Manzara, Witten & Conklin (1992) | **Bits d'information humaine par note réellement jouée**, inférés d'anticipations avec paris, 29 + 57 notes | Chorale (deux seulement) | Notes-sondes jugées de 1 à 7, valence, émotion ; la deuxième ronde ne conserve que six participants sélectionnés |
 
 Sources primaires : [PIAST](https://aclanthology.org/2024.nlp4musa-1.2/),
 [VGMIDI](https://github.com/lucasnfe/vgmidi),
@@ -43,7 +44,8 @@ Sources primaires : [PIAST](https://aclanthology.org/2024.nlp4musa-1.2/),
 [XMIDI](https://github.com/xmusic-project/XMIDI_Dataset),
 [DCML DLC](https://doi.org/10.1038/s41597-025-04976-z),
 [Cuddy & Lunney](https://doi.org/10.3758/BF03213071),
-[Schellenberg](https://doi.org/10.1016/0010-0277(95)00665-6).
+[Schellenberg](https://doi.org/10.1016/0010-0277(95)00665-6),
+[Manzara/Witten](https://researchcommons.waikato.ac.nz/items/97793e93-66e4-4354-8159-9b1dbadda2f0).
 
 **Important sur l'instrumentation :** les commandes MIDI contiennent notes,
 temps, vélocité, programmes et parfois pédale, **pas** le timbre original,
@@ -152,6 +154,15 @@ la correction contextuelle fait ρ **0,560 → 0,650**, mais la version **plus
 simple de contour** atteint **0,770**. Le précédent gagnant ne généralise
 donc pas comme meilleur modèle. Les deux expériences restent exploratoires ;
 les paramètres de Schellenberg n'ont pas servi à ajuster le moteur.
+
+**Autre archive obscure identifiée mais pas encore benchmarkée :**
+`manzetal92.data` contient **86 observations humaines temporelles** de
+*surprise de la note réellement jouée*, dérivées de paris de mélomanes sur
+deux chorales de Bach (29 + 57 notes), avec les deux MIDI de mélodie.
+Cette cible est **différente** de la qualité d'une note-sonde de Cuddy et de
+Schellenberg, comme du ressenti émotionnel. Deux chorales ne constituent pas
+86 unités d'évaluation indépendantes ; aucun gain ne doit être annoncé
+en réutilisant ces bits sans protocole spécifique.
 
 **Priorité :** chercher une **troisième** source indépendante de
 **continuations jugées par des humains**, avec réponses réellement accessibles

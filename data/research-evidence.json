@@ -110,6 +110,17 @@
       "independent_group": "fragment",
       "local_evidence": "Schellenberg (1996) Experiment 1 Appendix A published 120 means; 2025 thesis GitHub commit e9eb23384393c83de97e1a69d00133ae4673c425 supplies schell96.data, eight reconstructed MIDI/Kern fragments and documented descending-probe reversal",
       "limits": "Independent listeners from Cuddy but eight fragment means only; not individual votes, not emotional labels. The source uses long melodies and 15 within-key diatonic probes rather than Cuddy's two-note contexts and 25 chromatic probes; an added final MIDI note is an artificial placeholder."
+    },
+    "MANZARA_WITTEN_1992": {
+      "primary_url": "https://researchcommons.waikato.ac.nz/items/97793e93-66e4-4354-8159-9b1dbadda2f0",
+      "unit": "per-actual-note information-content bits derived from human anticipation bets on two Bach chorale melodies, 29 and 57 notes",
+      "human_targets": ["human_next_note_information_bits"],
+      "temporal_human_labels": true,
+      "individual_votes_available": false,
+      "midi_origin": "2025_reconstructed_monophonic_Bach_chorale_melodies",
+      "independent_group": "chorale",
+      "local_evidence": "1992 Waikato primary human gambling study and 2025 thesis commit e9eb23384393c83de97e1a69d00133ae4673c425, manzetal92.data 29+57 note rows (average/weighted/best aggregation) with corresponding chorale151.mid and chorale61.mid checked, 86 note-on events",
+      "limits": "Information content of the actually realized next note inferred from 15 listeners on chorale 151 and six selected listeners on chorale 61; NOT 86 independent subjects, NOT 25-way continuation goodness or musical emotion. Only two parent works, strong dependence between note rows, possible selection effects in second round; raw individual bets unavailable."
     }
   },
   "methods": {

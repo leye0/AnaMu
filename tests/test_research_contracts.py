@@ -118,6 +118,14 @@ class ResearchEvidenceTests(unittest.TestCase):
                     "does not expose independently usable votes")
         self.reject({**spec, "split_group": "probe"}, "split must group by")
 
+    def test_manzara_note_surprisal_is_not_probe_goodness_or_emotion(self):
+        spec = copy.deepcopy(self.catalog["experiments"]["schell_1996_external_transfer"])
+        spec["source"] = "MANZARA_WITTEN_1992"
+        spec["split_group"] = "chorale"
+        self.reject(spec, "does not expose human target")
+        spec["target"] = "human_next_note_information_bits"
+        self.reject(spec, "incompatible")
+
 
 if __name__ == "__main__":
     unittest.main()

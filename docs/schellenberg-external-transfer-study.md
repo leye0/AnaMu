@@ -127,6 +127,13 @@ les scores par fragment et les groupes effectivement évalués.
   individuelles, si légalement accessibles. Hansen et Pearce (2014) semble
   pertinent (24 contextes, 9 notes-sondes), mais les réponses brutes n'ont
   pas été localisées avec certitude.
+- **Autre cible déjà disponible :** Manzara, Witten et Conklin (1992)
+  publient des **profils d'information humaine par note réellement jouée**
+  sur deux chorales de Bach. `manzetal92.data` et ses deux MIDI (29 + 57
+  notes) sont également dans le mémoire. Ce n'est **pas** une réponse de
+  continuation par note-sonde : un transfert demanderait d'établir à
+  l'avance comment le score de continuation se transforme en surprisal,
+  puis d'évaluer **par chorale**, et non de compter 86 tests indépendants.
 - **Reproduire les vrais modèles publiés** Schellenberg/Narmour ou IDyOM
   avant d'étiqueter notre proxy « moteur universitaire ». Le `melody-features`
   original extrait des descripteurs Narmour, mais les poids calculés ici sont
