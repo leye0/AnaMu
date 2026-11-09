@@ -8,6 +8,50 @@ enveloppes, dynamique acoustique). Les scores restent des scores.
 
 ## Priorités documentées
 
+### Premier corpus réel importé — deux mouvements symphoniques (G0/G1)
+
+Les deux fichiers sources ci-dessous sont désormais **présents en binaire**
+dans `data/orchestral/`, avec provenance, URL de publication et empreinte
+SHA-256 par pièce dans `data/orchestral/SOURCES.json`. La bibliothèque Mutopia
+déclare **Public Domain** pour ces éditions :
+
+1. [Beethoven, Symphonie nº 5, mouvement I](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=941) :
+   13 pistes, 8 295 appuis de touches non ambigus, polyphonie instantanée
+   observée jusqu'à 22 touches simultanément maintenues ; **une** consigne
+   explicite de tempo et aucun message de contrôle MIDI.
+2. [Beethoven, Symphonie nº 7, mouvement II](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=595) :
+   13 pistes, 6 041 appuis non ambigus, polyphonie jusqu'à 20 ; 12 messages
+   de tempo à une valeur identique et **1 464 contrôleurs CC7** (volume MIDI).
+
+Ces MIDI ont été récupérés depuis le [miroir de fichiers de `fate-pv`](https://github.com/jtydhr88/fate-pv/blob/main/score/SOURCES.md),
+dont la déclaration de provenance pointe vers Mutopia. **Nous n'avons pas
+encore comparé octet par octet le miroir aux téléchargements originaux, ni
+validé la conformité des pistes à une partition critique.** Les noms de piste
+inclus dans les fichiers, comme `english horn`, sont des **déclarations dans
+le MIDI**, pas une identification musicologique : ils ne suffisent pas à
+confirmer les instruments employés par Beethoven.
+
+Reproduction :
+
+```bash
+python -m pip install 'mido>=1.3,<2'
+python scripts/orchestral_grammar_probe.py
+python -m unittest discover -s tests -p test_orchestral_grammar_probe.py -v
+```
+
+Le rapport déterministe est dans
+`reports/orchestral-grammar-probe-2026-11-09.json`. Il inclut inventaire des
+événements et programmes, contrôleurs, signatures tempo, pistes, notes par
+piste, simultanéités exactes et un échantillon borné de 5 000 relations G1
+entre notes adjacentes dans l'ordre des attaques. **Cet échantillon est
+biaisé vers les accords simultanés et ne doit pas être présenté comme une
+fréquence de toutes les relations possibles.** Aucune émotion, fonction
+harmonique, intention de ralentir ou volume acoustique n'est déduite.
+
+Prochain audit utile : confrontation des programmes MIDI à une partition
+MusicXML critique, identification des pupitres manquants, puis annotation
+humaine des motifs/phrases pour valider les futures couches G2/G3.
+
 | Priorité | Source primaire | Contenu vérifié | Format source | Droits/risque | Usage AnaMu |
 |---|---|---|---|---|---|
 | **A — annotations complètes** | [S3, Symbolic Symphony Set (ISMIR 2024)](https://github.com/iis-mctl/mctl-symphony-dataset) ; [notice scientifique](https://ismir2024program.ismir.net/lbd_463.html) | **4 symphonies entières, 16 mouvements**, 285 387 notes, 532 phrases et 7 290 accords, avec notes par instrument, signatures, thèmes/phrases/sections, fonctions harmoniques et couches orchestrales `mel`, `rhythm`, `harm` | **MusicXML + CSV + PDF** ; MIDI non déclaré dans le README | Dépôt MIT ; statut juridique des transcriptions et annotations à vérifier avant **redistribution** | Validation de G1/G2/G3/G6 par œuvre, rôle des instruments et relations explicables ; source prioritaire malgré format non MIDI |
