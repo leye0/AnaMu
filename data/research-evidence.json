@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "PIAST_AT": {
+      "primary_url": "https://aclanthology.org/2024.nlp4musa-1.2/",
+      "unit": "30-second piano excerpt; three expert taggers",
+      "human_targets": ["mood_tags"],
+      "temporal_human_labels": false,
+      "individual_votes_available": true,
+      "midi_origin": "automatic_audio_transcription",
+      "independent_group": "source_video",
+      "local_evidence": "1900 exact CSV/MIDI matches; already repeatedly inspected",
+      "limits": "Tagging instructions excluded subtle mood changes; labels describe excerpts, not their trajectories."
+    },
+    "VGMIDI": {
+      "primary_url": "https://github.com/lucasnfe/vgmidi",
+      "unit": "piano game-music arrangement with approximately 30 time-varying ratings",
+      "human_targets": ["valence_arousal_continuous"],
+      "temporal_human_labels": true,
+      "individual_votes_available": true,
+      "midi_origin": "symbolic_piano_arrangement",
+      "independent_group": "piece",
+      "local_evidence": "200 labeled pieces, 141/200 accepted by current temporal pipeline",
+      "limits": "Valence and arousal are not names such as Mysterious or Epic; the expanded ten-piece test was previously inspected."
+    },
+    "ISOVAT": {
+      "primary_url": "https://doi.org/10.5334/tismir.120",
+      "unit": "90 four-bar MIDI clips in ten triplets per affective dimension",
+      "human_targets": ["relative_tension", "relative_valence", "relative_arousal"],
+      "temporal_human_labels": false,
+      "individual_votes_available": false,
+      "midi_origin": "composed_symbolic",
+      "independent_group": "triplet",
+      "local_evidence": "Ten tension triplets compared against published aggregate human orders",
+      "limits": "Between-clip ranks, not within-clip tension trajectories; votes are not verified in AnaMu as per-listener training records."
+    },
+    "PERCEPIANO": {
+      "primary_url": "https://doi.org/10.1038/s41598-024-73810-0",
+      "unit": "expert-rated piano performance segment",
+      "human_targets": ["performance_perceptual_attributes"],
+      "temporal_human_labels": false,
+      "individual_votes_available": false,
+      "midi_origin": "piano_performance_midi",
+      "independent_group": "parent_work",
+      "local_evidence": "1072 usable human performances from four parent works in current AnaMu subset",
+      "limits": "Dark/imaginative/dramatic performance attributes are not the identically named PIAST clip mood tags; only four independent parent works."
+    },
+    "CP_WTC": {
+      "primary_url": "https://zenodo.org/records/21693024",
+      "unit": "first eight bars of 48 Bach pieces, each by six pianists",
+      "human_targets": ["performance_valence_arousal"],
+      "temporal_human_labels": false,
+      "individual_votes_available": true,
+      "midi_origin": "automatic_audio_transcription",
+      "independent_group": "composition",
+      "local_evidence": "288 performances, 7652 listener ratings; six grouped folds",
+      "limits": "Valence/arousal of interpretations, not a time series of named emotions; MIDI may contain transcription timing/dynamics errors."
+    },
+    "EMOPIA": {
+      "primary_url": "https://annahung31.github.io/EMOPIA/",
+      "unit": "1087 clips from 387 pop-piano songs",
+      "human_targets": ["va_quadrant"],
+      "temporal_human_labels": false,
+      "individual_votes_available": false,
+      "midi_origin": "automatic_audio_transcription",
+      "independent_group": "source_song",
+      "local_evidence": "Public release has one quadrant label per clip, not four independent votes",
+      "limits": "Four annotators participated in creation, but each song was primarily assigned to one; no PIAST-style per-item vote fractions."
+    },
+    "XMIDI": {
+      "primary_url": "https://github.com/xmusic-project/XMIDI_Dataset",
+      "unit": "108023 MIDI files with whole-piece emotion and genre classes",
+      "human_targets": ["named_emotion_song"],
+      "temporal_human_labels": false,
+      "individual_votes_available": false,
+      "midi_origin": "varied_symbolic_provenance",
+      "independent_group": "piece",
+      "local_evidence": "Metadata/name-based classes; individual annotator votes and repeated-work identities not verified locally",
+      "limits": "No time-coded emotion labels; neither genre nor predicted labels should be substituted for human temporal truth."
+    }
+  },
+  "methods": {
+    "partitura_tension": {
+      "primary_url": "https://www.dorienherremans.com/content/tension-ribbons-quantifying-and-visualising-tonal-tension",
+      "kind": "published_engine",
+      "executed": true,
+      "observables": ["tonal_cloud_diameter", "tonal_cloud_momentum", "tonal_tensile_strain"],
+      "limit": "Tonal proxies, not a measured emotion or original instrument timbre."
+    },
+    "music21_harmony": {
+      "primary_url": "https://web.mit.edu/music21/",
+      "kind": "published_engine",
+      "executed": true,
+      "observables": ["key_hypotheses", "chord_and_roman_numeral_hypotheses"],
+      "limit": "An inferred chord/function is not an annotated ground truth or human feeling."
+    },
+    "melody_features": {
+      "primary_url": "https://github.com/dmwhyatt/melody-features",
+      "kind": "published_engine",
+      "executed": true,
+      "observables": ["melodic_descriptors", "narmour_triplet_descriptors"],
+      "limit": "Published feature extraction is not validated human continuation prediction."
+    },
+    "jsymbolic": {
+      "primary_url": "https://jmir.sourceforge.net/",
+      "kind": "published_engine",
+      "executed": true,
+      "observables": ["symbolic_texture", "rhythm", "articulation", "instrument_programs"],
+      "limit": "Global/windowed MIDI descriptors, not original acoustic spectrum, envelope or timbre."
+    },
+    "idyom_original": {
+      "primary_url": "https://www.marcus-pearce.com/idyom/",
+      "kind": "published_engine",
+      "executed": false,
+      "observables": ["learned_melodic_expectation", "entropy", "information_content"],
+      "limit": "Import/launcher exist, but no original Lisp execution is reported in AnaMu."
+    },
+    "farbood_proxy": {
+      "primary_url": "https://doi.org/10.1525/mp.2012.29.4.387",
+      "kind": "theory_inspired_proxy",
+      "executed": true,
+      "observables": ["multiscale_tension_trends", "relaxation"],
+      "limit": "Not Farbood's fitted original equations or human-continuous calibration."
+    },
+    "tonal_motion_proxy": {
+      "primary_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37201",
+      "kind": "theory_inspired_proxy",
+      "executed": true,
+      "observables": ["local_key_distributions", "window_transitions"],
+      "limit": "Not MIDIBERT/MoFi; on PIAST the window order did not beat its permutation."
+    },
+    "relative_expression_model": {
+      "primary_url": "https://ismir2026program.ismir.net/poster_413.html",
+      "kind": "theory_inspired_proxy",
+      "executed": true,
+      "observables": ["midi_performance_differences", "pairwise_relative_scores"],
+      "limit": "Not an implementation of authors' complete Delta-VA/RnC model."
+    }
+  },
+  "experiments": {
+    "piast_tonal_motion": {
+      "source": "PIAST_AT",
+      "target": "mood_tags",
+      "requires_temporal_human_labels": false,
+      "requires_individual_votes": false,
+      "split_group": "source_video",
+      "methods": [{"id": "tonal_motion_proxy", "claim": "theory_inspired_proxy"}],
+      "status": "exploratory",
+      "previously_examined": true,
+      "claim_scope": "global_mood_association"
+    },
+    "vgmidi_temporal": {
+      "source": "VGMIDI",
+      "target": "valence_arousal_continuous",
+      "requires_temporal_human_labels": true,
+      "requires_individual_votes": false,
+      "split_group": "piece",
+      "methods": [
+        {"id": "partitura_tension", "claim": "published_engine_executed"},
+        {"id": "melody_features", "claim": "published_engine_executed"},
+        {"id": "jsymbolic", "claim": "published_engine_executed"}
+      ],
+      "status": "exploratory",
+      "previously_examined": true,
+      "claim_scope": "temporal_valence_arousal_association"
+    },
+    "isovat_tension": {
+      "source": "ISOVAT",
+      "target": "relative_tension",
+      "requires_temporal_human_labels": false,
+      "requires_individual_votes": false,
+      "split_group": "triplet",
+      "methods": [{"id": "partitura_tension", "claim": "published_engine_executed"}],
+      "status": "exploratory",
+      "previously_examined": true,
+      "claim_scope": "relative_perceived_tension"
+    },
+    "percepiano_hard": {
+      "source": "PERCEPIANO",
+      "target": "performance_perceptual_attributes",
+      "requires_temporal_human_labels": false,
+      "requires_individual_votes": false,
+      "split_group": "parent_work",
+      "methods": [{"id": "relative_expression_model", "claim": "theory_inspired_proxy"}],
+      "status": "exploratory",
+      "previously_examined": true,
+      "claim_scope": "relative_performance_attributes"
+    },
+    "cp_wtc_relative": {
+      "source": "CP_WTC",
+      "target": "performance_valence_arousal",
+      "requires_temporal_human_labels": false,
+      "requires_individual_votes": false,
+      "split_group": "composition",
+      "methods": [{"id": "relative_expression_model", "claim": "theory_inspired_proxy"}],
+      "status": "exploratory",
+      "previously_examined": true,
+      "claim_scope": "relative_performance_valence_arousal"
+    }
+  }
+}

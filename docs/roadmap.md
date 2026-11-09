@@ -10,6 +10,11 @@ critères de chaque algorithme se trouvent dans
 **[theory-to-algorithms.md](theory-to-algorithms.md)**. Ce document constitue
 la référence d'implémentation pour les prochaines étapes.
 
+**Garde-fou additionnel (8 novembre 2026) :** consulter les
+[contrats scientifiques exécutables](research-evidence-gates.md) avant de
+choisir un corpus, d'affirmer qu'un outil académique original a été exécuté
+ou de présenter un test déjà exploré comme une confirmation indépendante.
+
 **Nouvelle règle :** chercher et intégrer systématiquement les **outils
 académiques existants**, maximiser la diversité des mécanismes non redondants
 et mesurer chacun séparément. Voir [l'inventaire de 23 mécanismes et le banc

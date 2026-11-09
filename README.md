@@ -5,6 +5,12 @@ enchaînements de notes, d'accords, de rythmes et de motifs produisent des
 attentes, des surprises, des tensions et des résolutions**, puis à étudier
 leur relation avec les émotions **réellement annotées par des humains**.
 
+**[Contrats scientifiques et capacités réelles des corpus](docs/research-evidence-gates.md)**
+— registre exécutable des cibles humaines, unités indépendantes et moteurs
+académiques réellement exécutés. Les incompatibilités (PIAST sans annotations
+temporelles, VGMIDI sans humeur `Mysterious`, EMOPIA sans quatre votes
+individuels) sont refusées par des tests légers, sans télécharger de MIDI.
+
 **Direction scientifique (v1.0, 7 novembre 2026) :** développer d'abord les
 algorithmes issus des théories musicales et psychologiques sur le **MIDI
 symbolique brut**. Déterminer ensuite le corpus nécessaire à la validation

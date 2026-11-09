@@ -11,6 +11,8 @@ import argparse
 import json
 from pathlib import Path
 
+from anamu.research_contracts import check_registered_experiment
+
 from .piast_at_benchmark import run
 from .piast_tension_experiment import HARD_MOODS, NONCALM_MOODS, focus_stats
 
@@ -149,6 +151,7 @@ def main():
     parser.add_argument("directory", type=Path)
     parser.add_argument("--out", type=Path, required=True)
     args = parser.parse_args()
+    check_registered_experiment("piast_tonal_motion")
     result = experiment(args.directory, args.out)
     print((args.out / "tonal-motion-summary.md").read_text(), flush=True)
     print("split_sizes", result["split_sizes"], flush=True)

@@ -1,0 +1,38 @@
+name: AnaMu - scientific source and claim contracts
+
+on:
+  push:
+    paths:
+      - 'data/research-evidence.json'
+      - 'anamu/research_contracts.py'
+      - 'scripts/validate_research_contracts.py'
+      - 'tests/test_research_contracts.py'
+      - 'scripts/piast_tonal_motion_experiment.py'
+      - 'scripts/isovat_tension_benchmark.py'
+      - 'scripts/vgmidi_temporal_benchmark.py'
+      - '.github/workflows/research-evidence-contracts.yml'
+  pull_request:
+    paths:
+      - 'data/research-evidence.json'
+      - 'anamu/research_contracts.py'
+      - 'scripts/validate_research_contracts.py'
+      - 'tests/test_research_contracts.py'
+      - 'scripts/piast_tonal_motion_experiment.py'
+      - 'scripts/isovat_tension_benchmark.py'
+      - 'scripts/vgmidi_temporal_benchmark.py'
+      - '.github/workflows/research-evidence-contracts.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-scientific-claims:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate the source and method evidence registry
+        run: python -m scripts.validate_research_contracts
+      - name: Reject unsupported source/claim combinations
+        run: python -m unittest tests.test_research_contracts -v

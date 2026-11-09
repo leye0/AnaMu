@@ -28,6 +28,7 @@ from sklearn.linear_model import Ridge
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
+from anamu.research_contracts import check_registered_experiment
 from anamu.vgmidi_temporal import (enrich_published_mechanisms,
                                    extract_midi_measures, load_human_pieces,
                                    select_splits)
@@ -556,6 +557,7 @@ def main() -> None:
     parser.add_argument("--reformat-existing", action="store_true",
                         help="rebuild report/diagnostics from an already executed JSON, no re-training")
     args = parser.parse_args()
+    check_registered_experiment("vgmidi_temporal")
     report = (json.loads(args.json_out.read_text(encoding="utf-8"))
               if args.reformat_existing else run(args.root, academic=not args.no_published_engines,
                     full_fusion=not args.no_full_fusion, jsymbolic_dir=args.jsymbolic_ace,
