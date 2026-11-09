@@ -10,8 +10,13 @@ structurelle vérifiable plutôt qu'un classificateur ML d'émotions.
 
 **[Architecture musicologique universitaire — programme AnaMu Grammar](docs/music-grammar-research-program.md)**
 — ontologie de 19 dimensions, six opérateurs primitifs, trois vues de la
-musique, références académiques et critères d'évaluation par corpus. Il s'agit
-d'un **projet d'architecture**, pas d'un moteur déjà implémenté.
+musique, références académiques et critères d'évaluation par corpus.
+**Premier composant G0 implémenté :**
+[`anamu/grammar_foundation.py`](anamu/grammar_foundation.py) conserve l'original
+MIDI et ses événements, pistes, contrôleurs, notes simultanées et changements de
+tempo sans attribuer de voix, de timbre ou de volume acoustique inventés.
+La **grammaire elle-même reste à construire** : G0 n'est qu'une fondation
+MIDI, sans vues partition/performance/audio alignées.
 
 Les recherches historiques sur l'attente, la tension et les émotions
 humaines sont conservées comme études spécialisées, sans définir la grammaire.

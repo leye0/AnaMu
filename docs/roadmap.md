@@ -9,6 +9,11 @@ académiques propres à chaque capacité. Les passages ci-dessous détaillent
 d'implémentation après ce changement de direction. Le noyau grammatical
 doit préserver tempo variable, nuances et instruments dès le contrat des
 données ; l'analyse audio proprement dite peut rester une étape ultérieure.
+**G0 MIDI commencé :** conservation de l'original, des pistes/événements,
+des notes qui se chevauchent, de la vélocité, des contrôleurs et du tempo
+variable dans `anamu/grammar_foundation.py`, avec tests déterministes.
+L'alignement partition–interprétation–audio et les règles grammaticales
+restent à implémenter.
 
 **Version : 1.1 — 7 novembre 2026.**  
 **Décision :** théorie musicale algorithmisée → mécanismes temporels → étude

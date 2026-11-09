@@ -162,6 +162,43 @@ Avant toute acquisition : relever licence, disponibilité effective, structure d
 | **G5 — son/orchestration** | Vues audio optionnelles, timbre/enveloppe/volume et instruments avec preuves, corpus audio adaptés | Inventer l'enveloppe sonore d'un programme MIDI |
 | **G6 — grammaire acquise** | Induction MDL de constructions/rôles, contrôle sur répertoires exclus ; forme longue et comparaison SALAMI | Confondre capacité de compression et signification/perception universelle |
 
+### G0 : premier incrément implémenté (9 novembre 2026)
+
+`anamu/grammar_foundation.py` fournit une **fondation MIDI**, pas encore l'IR
+commun à trois vues du G0 complet. Pour les SMF de type 0/1, il conserve
+les **octets d'origine** (restitution exacte par `raw_bytes` et SHA-256),
+tous les événements décodés et leurs identifiants de piste, canaux, temps
+delta et ticks. Les notes dont les paires attaque–relâchement sont
+non ambiguës deviennent des intervalles de **touche enfoncée** avec leur
+vélocité : aucune sélection d'une mélodie unique, aucun effacement des
+accords ou des chevauchements. Les événements `set_tempo` fournissent une
+conversion temps métrique ↔ temps physique par rationnels exacts ; des
+tempos incompatibles à la même date sur plusieurs pistes signalent
+l'ambiguïté, sans ordre entre pistes inventé.
+
+Limites volontaires, explicites et testées :
+
+- La pédale (CC64), le volume de canal (CC7), l'expression (CC11) et les
+  changements de programme **restent des événements source** ; ils ne
+  déterminent ni niveau sonore mesuré, ni timbre réel, ni fin du son.
+- Un `set_tempo` n'est pas une preuve musicologique de *rubato*. Aucune
+  expression de tempo ou de nuance n'est inférée à ce stade.
+- Les réattaques de même note/canal/piste avant relâchement génèrent un
+  diagnostic : aucun appariement FIFO/LIFO non justifié n'est imposé.
+- Les SMF type 2 (séquences asynchrones) sont refusés ; les divisions SMPTE
+  restent en ticks sans conversion en beats fictifs. Le point de départ
+  500 000 µs/temps est la valeur MIDI par défaut en PPQ.
+- Les données de partition (MusicXML/MEI), les événements audio, l'alignement,
+  la séparation des voix et les **six opérateurs grammaticaux** sont encore
+  à réaliser. Le fichier MIDI n'est pas réencodé : sa fidélité est assurée
+  par la conservation des octets d'origine, non par un round-trip via Mido.
+
+La suite vérifiable est une représentation explicite des relations
+**simultanéité / succession / chevauchement**, puis l'alignement des
+trois vues avec provenance et alternatives. La suite de tests dédiée se
+trouve dans `tests/test_grammar_foundation.py` et est lancée par
+`.github/workflows/grammar-g0-evidence.yml` sans téléchargement de corpus.
+
 **Politique de travail** : le projet traite *tous* les aspects dans la conception des données et de l'API, mais ne déclare chaque mécanisme « implémenté » qu'après une extraction conservatrice et une vérification pertinente. Les explorations historiques de « mystérieux » restent archivées comme études séparées, et ne dictent plus la structure de la grammaire.
 
 ## 8. Première décision architecturale à valider
