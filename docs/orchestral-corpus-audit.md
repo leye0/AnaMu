@@ -52,6 +52,46 @@ Prochain audit utile : confrontation des programmes MIDI à une partition
 MusicXML critique, identification des pupitres manquants, puis annotation
 humaine des motifs/phrases pour valider les futures couches G2/G3.
 
+### Confrontation à deux partitions indépendantes (G0 ↔ MusicXML)
+
+Nous avons ajouté deux **partitions orchestrales complètes compressées `.mxl`**
+du corpus [Hauptstimme](https://github.com/MarkGotham/Hauptstimme). Ses auteurs
+déclarent les **partitions CC0 1.0**, les **annotations CC BY-SA** et le code
+MIT. Ici, seules les partitions CC0 sont copiées ; aucune annotation humaine
+CC BY-SA n'est distribuée. Chaque fichier a son SHA-256 et une provenance
+distincte des MIDI Mutopia dans `data/orchestral/SOURCES.json`.
+
+Le nouveau `score_midi_orchestration_audit.py` lit les listes de parties
+MusicXML et les compare aux noms d'instruments **écrits dans les MIDI** :
+
+| Mouvement | Parties de la partition Hauptstimme | Pistes MIDI actives | Familles dans la partition mais absentes des noms MIDI | Familles dans le MIDI mais absentes des parties de la partition |
+|---|---:|---:|---|---|
+| Beethoven 5/I | **18** | **12** | Cor, trompette | Cor anglais |
+| Beethoven 7/II | **19** | **12** | Cor, trompette | Cor anglais |
+
+Ce résultat **n'établit pas** que les notes des cors/trompettes sont absentes
+du MIDI : elles pourraient être regroupées ou mal étiquetées. Il établit que
+les déclarations de pupitres ne correspondent pas à celles d'une autre
+édition orchestrale, donc **pas de vérité instrumentale implicite** dans le
+MIDI. Les partitions MusicXML et les MIDI n'ont pas encore été alignés note
+par note, et le comptage des notes écrites ne déroule ni reprises, ni tenues
+liées, ni transpositions. Les timbres et intensités acoustiques restent hors
+du domaine de cette comparaison.
+
+Reproduire :
+
+```bash
+python scripts/score_midi_orchestration_audit.py
+python -m unittest discover -s tests -p test_score_inventory.py -v
+```
+
+Résultat : `reports/orchestral-score-inventory-2026-11-09.json`.
+
+**À faire pour G2 :** exploiter les annotations humaines Hauptstimme comme
+vérité indépendante (avec leurs conditions CC BY-SA), vérifier la cohérence
+des hauteurs et positions temporelles entre éditions, et construire une
+segmentation de voix/motifs mesurée avec une métrique explicite.
+
 | Priorité | Source primaire | Contenu vérifié | Format source | Droits/risque | Usage AnaMu |
 |---|---|---|---|---|---|
 | **A — annotations complètes** | [S3, Symbolic Symphony Set (ISMIR 2024)](https://github.com/iis-mctl/mctl-symphony-dataset) ; [notice scientifique](https://ismir2024program.ismir.net/lbd_463.html) | **4 symphonies entières, 16 mouvements**, 285 387 notes, 532 phrases et 7 290 accords, avec notes par instrument, signatures, thèmes/phrases/sections, fonctions harmoniques et couches orchestrales `mel`, `rhythm`, `harm` | **MusicXML + CSV + PDF** ; MIDI non déclaré dans le README | Dépôt MIT ; statut juridique des transcriptions et annotations à vérifier avant **redistribution** | Validation de G1/G2/G3/G6 par œuvre, rôle des instruments et relations explicables ; source prioritaire malgré format non MIDI |
