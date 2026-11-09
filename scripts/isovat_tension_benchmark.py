@@ -27,6 +27,7 @@ from pathlib import Path
 
 import mido
 
+from anamu.research_contracts import check_registered_experiment
 from anamu.theory_features import partitura_tension
 
 
@@ -211,6 +212,7 @@ def main() -> None:
     parser.add_argument("midi_tension_directory", type=Path)
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
+    check_registered_experiment("isovat_tension")
     results = benchmark(args.midi_tension_directory)
     summary = {name: (item["exact_orders"], item["correct_pairs"],
                       item["tie_pairs"]) for name, item in results["hypotheses"].items()}

@@ -1,0 +1,364 @@
+{
+  "claim": "expert_musicological_cadence_event_retrieval_not_emotion_prediction",
+  "status": "exploratory_previous_labels_inspected",
+  "sources": {
+    "chopin": {
+      "url": "https://github.com/DCMLab/chopin_mazurkas",
+      "git_sha": "5931135e614985023b96de2a291c74b7ef90b287"
+    },
+    "mozart": {
+      "url": "https://github.com/DCMLab/mozart_piano_sonatas",
+      "git_sha": "5337257a5318711e6302cfe85c3f1a6ade3c6271"
+    },
+    "bach": {
+      "url": "https://github.com/DCMLab/bach_en_fr_suites",
+      "git_sha": "9cd6d362ed8246ed8edfc425944862ed88ddf1a5"
+    }
+  },
+  "pieces": 198,
+  "independent_parent_works": 85,
+  "onset_candidates": 121051,
+  "expert_cadences": 1992,
+  "matched_cadences": 1992,
+  "positive_prevalence": 0.01646,
+  "skipped": [],
+  "evaluation": "5_fold_parent_work_disjoint_and_leave_one_composer_out",
+  "features": "notes_tsv_midi_pitches_durations_onsets_only; no annotated chords/keys/phrases",
+  "models": {
+    "rhythm_only": {
+      "composition_disjoint": {
+        "average_precision": 0.08881,
+        "roc_auc": 0.8754,
+        "mean_parent_work_precision_at_5": 0.16941,
+        "mean_parent_work_recall_at_5": 0.06967,
+        "mean_parent_work_average_precision": 0.16824,
+        "by_composer": {
+          "bach": {
+            "average_precision": 0.2654,
+            "roc_auc": 0.92989,
+            "mean_parent_work_precision_at_5": 0.71667,
+            "mean_parent_work_recall_at_5": 0.08681,
+            "mean_parent_work_average_precision": 0.30121
+          },
+          "chopin": {
+            "average_precision": 0.05358,
+            "roc_auc": 0.79882,
+            "mean_parent_work_precision_at_5": 0.08727,
+            "mean_parent_work_recall_at_5": 0.08914,
+            "mean_parent_work_average_precision": 0.16082
+          },
+          "mozart": {
+            "average_precision": 0.08697,
+            "roc_auc": 0.886,
+            "mean_parent_work_precision_at_5": 0.05556,
+            "mean_parent_work_recall_at_5": 0.00415,
+            "mean_parent_work_average_precision": 0.1002
+          }
+        }
+      },
+      "leave_one_composer_out": {
+        "average_precision": 0.0548,
+        "roc_auc": 0.82029,
+        "mean_parent_work_precision_at_5": 0.14353,
+        "mean_parent_work_recall_at_5": 0.0511,
+        "mean_parent_work_average_precision": 0.12555,
+        "by_composer": {
+          "bach": {
+            "average_precision": 0.23736,
+            "roc_auc": 0.92651,
+            "mean_parent_work_precision_at_5": 0.66667,
+            "mean_parent_work_recall_at_5": 0.08348,
+            "mean_parent_work_average_precision": 0.27461
+          },
+          "chopin": {
+            "average_precision": 0.03834,
+            "roc_auc": 0.76214,
+            "mean_parent_work_precision_at_5": 0.05455,
+            "mean_parent_work_recall_at_5": 0.05989,
+            "mean_parent_work_average_precision": 0.1021
+          },
+          "mozart": {
+            "average_precision": 0.07743,
+            "roc_auc": 0.84145,
+            "mean_parent_work_precision_at_5": 0.06667,
+            "mean_parent_work_recall_at_5": 0.00511,
+            "mean_parent_work_average_precision": 0.09133
+          }
+        }
+      }
+    },
+    "harmony_only": {
+      "composition_disjoint": {
+        "average_precision": 0.04468,
+        "roc_auc": 0.72111,
+        "mean_parent_work_precision_at_5": 0.08235,
+        "mean_parent_work_recall_at_5": 0.04055,
+        "mean_parent_work_average_precision": 0.10487,
+        "by_composer": {
+          "bach": {
+            "average_precision": 0.0334,
+            "roc_auc": 0.67378,
+            "mean_parent_work_precision_at_5": 0.01667,
+            "mean_parent_work_recall_at_5": 0.00253,
+            "mean_parent_work_average_precision": 0.04047
+          },
+          "chopin": {
+            "average_precision": 0.0456,
+            "roc_auc": 0.76016,
+            "mean_parent_work_precision_at_5": 0.09455,
+            "mean_parent_work_recall_at_5": 0.06142,
+            "mean_parent_work_average_precision": 0.13546
+          },
+          "mozart": {
+            "average_precision": 0.05199,
+            "roc_auc": 0.7324,
+            "mean_parent_work_precision_at_5": 0.08889,
+            "mean_parent_work_recall_at_5": 0.00794,
+            "mean_parent_work_average_precision": 0.06285
+          }
+        }
+      },
+      "leave_one_composer_out": {
+        "average_precision": 0.03792,
+        "roc_auc": 0.69774,
+        "mean_parent_work_precision_at_5": 0.07294,
+        "mean_parent_work_recall_at_5": 0.04515,
+        "mean_parent_work_average_precision": 0.09785,
+        "by_composer": {
+          "bach": {
+            "average_precision": 0.03093,
+            "roc_auc": 0.66289,
+            "mean_parent_work_precision_at_5": 0.03333,
+            "mean_parent_work_recall_at_5": 0.00615,
+            "mean_parent_work_average_precision": 0.03847
+          },
+          "chopin": {
+            "average_precision": 0.03899,
+            "roc_auc": 0.74263,
+            "mean_parent_work_precision_at_5": 0.09091,
+            "mean_parent_work_recall_at_5": 0.06921,
+            "mean_parent_work_average_precision": 0.12926
+          },
+          "mozart": {
+            "average_precision": 0.04243,
+            "roc_auc": 0.70245,
+            "mean_parent_work_precision_at_5": 0.04444,
+            "mean_parent_work_recall_at_5": 0.00431,
+            "mean_parent_work_average_precision": 0.05018
+          }
+        }
+      }
+    },
+    "rhythm_plus_harmony": {
+      "composition_disjoint": {
+        "average_precision": 0.13051,
+        "roc_auc": 0.89609,
+        "mean_parent_work_precision_at_5": 0.22118,
+        "mean_parent_work_recall_at_5": 0.09136,
+        "mean_parent_work_average_precision": 0.21293,
+        "by_composer": {
+          "bach": {
+            "average_precision": 0.27618,
+            "roc_auc": 0.9338,
+            "mean_parent_work_precision_at_5": 0.73333,
+            "mean_parent_work_recall_at_5": 0.08952,
+            "mean_parent_work_average_precision": 0.31537
+          },
+          "chopin": {
+            "average_precision": 0.09004,
+            "roc_auc": 0.84606,
+            "mean_parent_work_precision_at_5": 0.13818,
+            "mean_parent_work_recall_at_5": 0.12024,
+            "mean_parent_work_average_precision": 0.21213
+          },
+          "mozart": {
+            "average_precision": 0.12626,
+            "roc_auc": 0.90181,
+            "mean_parent_work_precision_at_5": 0.13333,
+            "mean_parent_work_recall_at_5": 0.01235,
+            "mean_parent_work_average_precision": 0.14689
+          }
+        }
+      },
+      "leave_one_composer_out": {
+        "average_precision": 0.07429,
+        "roc_auc": 0.84711,
+        "mean_parent_work_precision_at_5": 0.16941,
+        "mean_parent_work_recall_at_5": 0.07391,
+        "mean_parent_work_average_precision": 0.1601,
+        "by_composer": {
+          "bach": {
+            "average_precision": 0.245,
+            "roc_auc": 0.92522,
+            "mean_parent_work_precision_at_5": 0.58333,
+            "mean_parent_work_recall_at_5": 0.07584,
+            "mean_parent_work_average_precision": 0.28093
+          },
+          "chopin": {
+            "average_precision": 0.05285,
+            "roc_auc": 0.80695,
+            "mean_parent_work_precision_at_5": 0.09818,
+            "mean_parent_work_recall_at_5": 0.09617,
+            "mean_parent_work_average_precision": 0.14558
+          },
+          "mozart": {
+            "average_precision": 0.10073,
+            "roc_auc": 0.85562,
+            "mean_parent_work_precision_at_5": 0.11111,
+            "mean_parent_work_recall_at_5": 0.01081,
+            "mean_parent_work_average_precision": 0.11988
+          }
+        }
+      }
+    },
+    "rhythm_plus_shuffled_harmony": {
+      "composition_disjoint": {
+        "average_precision": 0.08939,
+        "roc_auc": 0.8751,
+        "mean_parent_work_precision_at_5": 0.16941,
+        "mean_parent_work_recall_at_5": 0.07581,
+        "mean_parent_work_average_precision": 0.15889,
+        "by_composer": {
+          "bach": {
+            "average_precision": 0.25489,
+            "roc_auc": 0.93034,
+            "mean_parent_work_precision_at_5": 0.61667,
+            "mean_parent_work_recall_at_5": 0.07596,
+            "mean_parent_work_average_precision": 0.28493
+          },
+          "chopin": {
+            "average_precision": 0.05364,
+            "roc_auc": 0.80605,
+            "mean_parent_work_precision_at_5": 0.11273,
+            "mean_parent_work_recall_at_5": 0.10184,
+            "mean_parent_work_average_precision": 0.15138
+          },
+          "mozart": {
+            "average_precision": 0.08643,
+            "roc_auc": 0.88094,
+            "mean_parent_work_precision_at_5": 0.04444,
+            "mean_parent_work_recall_at_5": 0.00341,
+            "mean_parent_work_average_precision": 0.0957
+          }
+        }
+      },
+      "leave_one_composer_out": {
+        "average_precision": 0.05674,
+        "roc_auc": 0.82294,
+        "mean_parent_work_precision_at_5": 0.13176,
+        "mean_parent_work_recall_at_5": 0.05381,
+        "mean_parent_work_average_precision": 0.12179,
+        "by_composer": {
+          "bach": {
+            "average_precision": 0.23061,
+            "roc_auc": 0.92656,
+            "mean_parent_work_precision_at_5": 0.56667,
+            "mean_parent_work_recall_at_5": 0.07178,
+            "mean_parent_work_average_precision": 0.26371
+          },
+          "chopin": {
+            "average_precision": 0.03928,
+            "roc_auc": 0.77462,
+            "mean_parent_work_precision_at_5": 0.06545,
+            "mean_parent_work_recall_at_5": 0.06764,
+            "mean_parent_work_average_precision": 0.10049
+          },
+          "mozart": {
+            "average_precision": 0.07578,
+            "roc_auc": 0.83431,
+            "mean_parent_work_precision_at_5": 0.04444,
+            "mean_parent_work_recall_at_5": 0.00342,
+            "mean_parent_work_average_precision": 0.08634
+          }
+        }
+      }
+    }
+  },
+  "paired_harmonic_gain": {
+    "composition_disjoint": {
+      "mean_parent_work_AP_absolute_gain": 0.04469,
+      "paired_parent_work_bootstrap_95pct_CI": [
+        0.02626,
+        0.06492
+      ],
+      "parent_works_improved": 62,
+      "parent_works_compared": 80,
+      "bootstrap_unit": "parent_work_not_movement_or_onset"
+    },
+    "leave_one_composer_out": {
+      "mean_parent_work_AP_absolute_gain": 0.03455,
+      "paired_parent_work_bootstrap_95pct_CI": [
+        0.01272,
+        0.06041
+      ],
+      "parent_works_improved": 60,
+      "parent_works_compared": 80,
+      "bootstrap_unit": "parent_work_not_movement_or_onset"
+    }
+  },
+  "barline_onset_diagnostic": {
+    "n_candidates": 16108,
+    "n_cadences": 1341,
+    "prevalence": 0.08325,
+    "composition_disjoint": {
+      "rhythm_only": {
+        "average_precision": 0.10376,
+        "roc_auc": 0.5618,
+        "mean_parent_work_precision_at_5": 0.16706,
+        "mean_parent_work_recall_at_5": 0.14297,
+        "mean_parent_work_average_precision": 0.24274
+      },
+      "harmony_only": {
+        "average_precision": 0.18215,
+        "roc_auc": 0.71208,
+        "mean_parent_work_precision_at_5": 0.19529,
+        "mean_parent_work_recall_at_5": 0.13284,
+        "mean_parent_work_average_precision": 0.2512
+      },
+      "rhythm_plus_harmony": {
+        "average_precision": 0.15928,
+        "roc_auc": 0.68233,
+        "mean_parent_work_precision_at_5": 0.21176,
+        "mean_parent_work_recall_at_5": 0.12769,
+        "mean_parent_work_average_precision": 0.28047
+      },
+      "rhythm_plus_shuffled_harmony": {
+        "average_precision": 0.10471,
+        "roc_auc": 0.56641,
+        "mean_parent_work_precision_at_5": 0.16706,
+        "mean_parent_work_recall_at_5": 0.1534,
+        "mean_parent_work_average_precision": 0.23414
+      }
+    },
+    "leave_one_composer_out": {
+      "rhythm_only": {
+        "average_precision": 0.07691,
+        "roc_auc": 0.48381,
+        "mean_parent_work_precision_at_5": 0.14118,
+        "mean_parent_work_recall_at_5": 0.08333,
+        "mean_parent_work_average_precision": 0.18074
+      },
+      "harmony_only": {
+        "average_precision": 0.16233,
+        "roc_auc": 0.6941,
+        "mean_parent_work_precision_at_5": 0.14824,
+        "mean_parent_work_recall_at_5": 0.11407,
+        "mean_parent_work_average_precision": 0.22852
+      },
+      "rhythm_plus_harmony": {
+        "average_precision": 0.10098,
+        "roc_auc": 0.59259,
+        "mean_parent_work_precision_at_5": 0.16941,
+        "mean_parent_work_recall_at_5": 0.12012,
+        "mean_parent_work_average_precision": 0.217
+      },
+      "rhythm_plus_shuffled_harmony": {
+        "average_precision": 0.07801,
+        "roc_auc": 0.49056,
+        "mean_parent_work_precision_at_5": 0.12941,
+        "mean_parent_work_recall_at_5": 0.10013,
+        "mean_parent_work_average_precision": 0.175
+      }
+    }
+  }
+}

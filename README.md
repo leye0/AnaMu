@@ -1,14 +1,96 @@
 # AnaMu — Analyse Musicale
 
-AnaMu est un projet de recherche visant à comprendre **comment les
-enchaînements de notes, d'accords, de rythmes et de motifs produisent des
-attentes, des surprises, des tensions et des résolutions**, puis à étudier
-leur relation avec les émotions **réellement annotées par des humains**.
+**Nouvelle direction (9 novembre 2026) :** AnaMu devient un projet de
+**grammaire musicale formelle et explicable**, couvrant la partition, les
+interprétations (tempo, ralentissements, nuances, articulation) et le signal
+audio (timbres, enveloppes, volume réel). Les relations, transformations,
+groupements, voix, harmonie et formes sont des objets grammaticaux de premier
+rang. Le cœur du moteur privilégie les règles déclaratives et l'induction
+structurelle vérifiable plutôt qu'un classificateur ML d'émotions.
 
-**Direction scientifique (v1.0, 7 novembre 2026) :** développer d'abord les
+**[Architecture musicologique universitaire — programme AnaMu Grammar](docs/music-grammar-research-program.md)**
+— ontologie de 19 dimensions, six opérateurs primitifs, trois vues de la
+musique, références académiques et critères d'évaluation par corpus.
+**Premier composant G0 implémenté :**
+[`anamu/grammar_foundation.py`](anamu/grammar_foundation.py) conserve l'original
+MIDI et ses événements, pistes, contrôleurs, notes simultanées et changements de
+tempo sans attribuer de voix, de timbre ou de volume acoustique inventés.
+La **grammaire elle-même reste à construire** : G0 n'est qu'une fondation
+MIDI, sans vues partition/performance/audio alignées.
+
+Les recherches historiques sur l'attente, la tension et les émotions
+humaines sont conservées comme études spécialisées, sans définir la grammaire.
+
+**[Orchestrations complètes : audit des corpus et licences](docs/orchestral-corpus-audit.md)**
+— S3 (symphonies et annotations des rôles par instrument),
+OpenScore/Hauptstimme (mélodies principales annotées), LOP/SOD (vrais MIDI
+orchestraux), SymphonyNet (corpus volumineux à contrôler). Les partitions
+MusicXML ne sont jamais confondues avec des performances MIDI enregistrées.
+
+**G1 partiel implémenté :**
+[`anamu/grammar_relations.py`](anamu/grammar_relations.py) distingue les
+**13 relations temporelles d'Allen** (succession, simultanéité, chevauchement,
+contenance, etc.) entre notes, avec leurs événements sources. Il démontre
+également des **transpositions et augmentations rythmiques exactes** entre
+motifs dont la correspondance des notes est explicitement fournie. Aucune
+fonction harmonique, phrase ou identité de thème n'est déduite automatiquement.
+
+**[Contrats scientifiques et capacités réelles des corpus](docs/research-evidence-gates.md)**
+— registre exécutable des cibles humaines, unités indépendantes et moteurs
+académiques réellement exécutés. Les incompatibilités (PIAST sans annotations
+temporelles, VGMIDI sans humeur `Mysterious`, EMOPIA sans quatre votes
+individuels) sont refusées par des tests légers, sans télécharger de MIDI.
+
+**[Nouvelle expérience : cadences annotées par des musicologues](docs/dcml-cadence-study.md)**
+— 198 partitions symboliques de Bach, Mozart et Chopin, 1 992 cadences
+humaines, comparaison rythme/harmonie/témoin mélangé et transfert entre
+compositeurs. **Ce sont des cibles de structure musicale, pas des émotions.**
+
+**[Nouvelle expérience S1 : attentes de continuation de 24 auditeurs](docs/cudlun-human-expectancy-study.md)**
+— Cuddy et Lunney (1995), 8 mélodies à deux notes × 25 continuations, scores
+humains moyens publiés pour musiciens et non-musiciens. La référence de hauteur
+relative fait **ρ 0,724** ; une **correction résiduelle** fondée sur le contour
+et la hiérarchie tonale fait **0,795** (+0,071, gain sur 8/8 mélodies).
+Contrôles d'exclusion par taille d'intervalle et direction également positifs.
+**Exploratoire / modèle choisi après lecture de premiers résultats**, sans
+preuve d'émotion ni de généralisation indépendante ; données d'autrui non
+recopiées dans le dépôt.
+
+**[Contre-épreuve externe S1 : Schellenberg (1996), 20 autres auditeurs](docs/schellenberg-external-transfer-study.md)**
+— huit vrais fragments mélodiques × 15 continuations, **120 notes évaluées
+par des humains**. Aucun poids recalibré sur cette étude : référence de
+hauteur ρ **0,560**, correction résiduelle **0,650**, mais simple **contour
+mélodique 0,770** (+0,210 contre la référence, 7/8 fragments).
+Ce modèle de contour était moins fort sur Cuddy : la première approche
+gagnante **n'est pas celle qui transfère le mieux**. Il s'agit de la
+plausibilité de la note suivante, pas d'une mesure de « mystère » ou
+d'une validation d'émotions. Résultats exploratoires, 120 candidats recoupés
+avec le classeur d'annotation de l'étude.
+
+**[Troisième expérience S1 : Manzara (1992), paris sur les vraies notes](docs/manzara-cross-target-study.md)**
+— **contre-épreuve négative** sur 82 notes de deux chorales : la méthode de
+contour Cuddy/Schellenberg ne suit **pas** la surprise humaine à chaque note
+(ρ **+0,013** et **−0,094**). Les prédictions IDyOM importées d'une thèse
+obtiennent **+0,449 / +0,481**, mais leur entraînement externe n'est pas
+audité. **Bonne continuation ≠ surprise temporelle.** Les modèles, les
+preuves et les tests sont reproductibles sans redistribuer les paris.
+
+**[Contrôle S1 : IDyOM précalculé vs nos proxies sur 120 attentes humaines](docs/idyom-archived-probe-comparison.md)**
+— référence statistique externe, original IDyOM non exécuté localement,
+pas de mesure d'émotion.
+
+**[Nouvelle source audio et EEG : MEX (1er novembre 2026)](docs/mex-2026-source-audit.md)**
+— quatre tâches académiques correctement séparées (répétitions,
+segmentation humaine, accord symbolique/audio sur cinq instruments et EEG).
+**Pas de labels d'émotion** et moteurs audio non encore exécutés dans AnaMu.
+
+**Ancienne direction scientifique (v1.0, 7 novembre 2026, conservée pour historique) :** développer d'abord les
 algorithmes issus des théories musicales et psychologiques sur le **MIDI
 symbolique brut**. Déterminer ensuite le corpus nécessaire à la validation
 de chaque mécanisme. Les rapprochements MIDI↔audio et **Demucs sont reportés**.
+Cette contrainte a été **remplacée** par le programme grammatical multi-vues
+du 9 novembre ; cela n'impose toutefois pas d'introduire immédiatement
+une nouvelle infrastructure audio.
 
 **8 novembre — nouveaux corpus réellement annotés :**
 [étude IsoVAT + CP-WTC + PercePiano sur les cas difficiles](reports/midi-human-emotion-hard-benchmarks-2026-11-08.md).

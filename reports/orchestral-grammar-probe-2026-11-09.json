@@ -1,0 +1,660 @@
+{
+  "corpus_is_annotated_ground_truth": false,
+  "method": "G0 lossless MIDI evidence; bounded adjacent-note G1 temporal relation probe",
+  "pieces": [
+    {
+      "observations": {
+        "g0": {
+          "audio_loudness": null,
+          "control_change_numbers": {},
+          "diagnostic_counts": {},
+          "diagnostics": [],
+          "distinct_explicit_tempo_values_micros_per_quarter": [
+            312500
+          ],
+          "end_tick_of_observed_events": 388992,
+          "event_count": 16668,
+          "event_types": {
+            "end_of_track": 13,
+            "instrument_name": 12,
+            "key_signature": 12,
+            "note_on": 16590,
+            "program_change": 24,
+            "set_tempo": 1,
+            "text": 2,
+            "time_signature": 1,
+            "track_name": 13
+          },
+          "explicit_set_tempo_events": 1,
+          "inferred_instrument": null,
+          "largest_simultaneous_key_span_onset": 22,
+          "max_simultaneous_key_down_spans": 22,
+          "midi_type": 1,
+          "onset_ticks_with_two_or_more_key_spans": 1165,
+          "sha256": "0ce1bca911ba8e6234fd2e474a9b6da4c968c5cfe85b0cccfe7e56505df52046",
+          "sounding_end_after_pedal": null,
+          "tempo_anchor_count": 1,
+          "ticks_per_beat": 384,
+          "timebase": "ppq",
+          "track_count": 13,
+          "track_observations": [
+            {
+              "instrument_names": [],
+              "key_spans": 0,
+              "program_changes": [],
+              "track": 0,
+              "track_names": [
+                "control track"
+              ]
+            },
+            {
+              "instrument_names": [
+                "flute"
+              ],
+              "key_spans": 659,
+              "program_changes": [
+                {
+                  "channel": 0,
+                  "program_zero_based": 73,
+                  "tick": 0
+                },
+                {
+                  "channel": 0,
+                  "program_zero_based": 73,
+                  "tick": 0
+                }
+              ],
+              "track": 1,
+              "track_names": [
+                "one:"
+              ]
+            },
+            {
+              "instrument_names": [
+                "oboe"
+              ],
+              "key_spans": 669,
+              "program_changes": [
+                {
+                  "channel": 1,
+                  "program_zero_based": 68,
+                  "tick": 0
+                },
+                {
+                  "channel": 1,
+                  "program_zero_based": 68,
+                  "tick": 0
+                }
+              ],
+              "track": 2,
+              "track_names": [
+                "two:"
+              ]
+            },
+            {
+              "instrument_names": [
+                "clarinet"
+              ],
+              "key_spans": 874,
+              "program_changes": [
+                {
+                  "channel": 2,
+                  "program_zero_based": 71,
+                  "tick": 0
+                },
+                {
+                  "channel": 2,
+                  "program_zero_based": 71,
+                  "tick": 0
+                }
+              ],
+              "track": 3,
+              "track_names": [
+                "three:"
+              ]
+            },
+            {
+              "instrument_names": [
+                "bassoon"
+              ],
+              "key_spans": 902,
+              "program_changes": [
+                {
+                  "channel": 3,
+                  "program_zero_based": 70,
+                  "tick": 0
+                },
+                {
+                  "channel": 3,
+                  "program_zero_based": 70,
+                  "tick": 0
+                }
+              ],
+              "track": 4,
+              "track_names": [
+                "four:"
+              ]
+            },
+            {
+              "instrument_names": [
+                "english horn"
+              ],
+              "key_spans": 471,
+              "program_changes": [
+                {
+                  "channel": 4,
+                  "program_zero_based": 69,
+                  "tick": 0
+                },
+                {
+                  "channel": 4,
+                  "program_zero_based": 69,
+                  "tick": 0
+                }
+              ],
+              "track": 5,
+              "track_names": [
+                "five:"
+              ]
+            },
+            {
+              "instrument_names": [
+                "english horn"
+              ],
+              "key_spans": 442,
+              "program_changes": [
+                {
+                  "channel": 5,
+                  "program_zero_based": 69,
+                  "tick": 0
+                },
+                {
+                  "channel": 5,
+                  "program_zero_based": 69,
+                  "tick": 0
+                }
+              ],
+              "track": 6,
+              "track_names": [
+                "six:"
+              ]
+            },
+            {
+              "instrument_names": [
+                "timpani"
+              ],
+              "key_spans": 239,
+              "program_changes": [
+                {
+                  "channel": 6,
+                  "program_zero_based": 47,
+                  "tick": 0
+                },
+                {
+                  "channel": 6,
+                  "program_zero_based": 47,
+                  "tick": 0
+                }
+              ],
+              "track": 7,
+              "track_names": [
+                "seven:"
+              ]
+            },
+            {
+              "instrument_names": [
+                "violin"
+              ],
+              "key_spans": 1033,
+              "program_changes": [
+                {
+                  "channel": 7,
+                  "program_zero_based": 40,
+                  "tick": 0
+                },
+                {
+                  "channel": 7,
+                  "program_zero_based": 40,
+                  "tick": 0
+                }
+              ],
+              "track": 8,
+              "track_names": [
+                "eight:"
+              ]
+            },
+            {
+              "instrument_names": [
+                "violin"
+              ],
+              "key_spans": 995,
+              "program_changes": [
+                {
+                  "channel": 8,
+                  "program_zero_based": 40,
+                  "tick": 0
+                },
+                {
+                  "channel": 8,
+                  "program_zero_based": 40,
+                  "tick": 0
+                }
+              ],
+              "track": 9,
+              "track_names": [
+                "nine:"
+              ]
+            },
+            {
+              "instrument_names": [
+                "viola"
+              ],
+              "key_spans": 845,
+              "program_changes": [
+                {
+                  "channel": 10,
+                  "program_zero_based": 41,
+                  "tick": 0
+                },
+                {
+                  "channel": 10,
+                  "program_zero_based": 41,
+                  "tick": 0
+                }
+              ],
+              "track": 10,
+              "track_names": [
+                "ten:"
+              ]
+            },
+            {
+              "instrument_names": [
+                "cello"
+              ],
+              "key_spans": 640,
+              "program_changes": [
+                {
+                  "channel": 11,
+                  "program_zero_based": 42,
+                  "tick": 0
+                },
+                {
+                  "channel": 11,
+                  "program_zero_based": 42,
+                  "tick": 0
+                }
+              ],
+              "track": 11,
+              "track_names": [
+                "eleven:"
+              ]
+            },
+            {
+              "instrument_names": [
+                "contrabass"
+              ],
+              "key_spans": 526,
+              "program_changes": [
+                {
+                  "channel": 12,
+                  "program_zero_based": 43,
+                  "tick": 0
+                },
+                {
+                  "channel": 12,
+                  "program_zero_based": 43,
+                  "tick": 0
+                }
+              ],
+              "track": 12,
+              "track_names": [
+                "twelve:"
+              ]
+            }
+          ],
+          "unambiguous_key_spans": 8295
+        },
+        "g1_adjacent_note_probe": {
+          "allen_relations": {
+            "before": 23,
+            "contains": 84,
+            "equals": 3578,
+            "finished_by": 111,
+            "meets": 771,
+            "started_by": 226,
+            "starts": 207
+          },
+          "budget": 5000,
+          "evaluated_pairs": 5000,
+          "operators": {
+            "PARALLEL": 4206,
+            "SEQUENCE": 794
+          },
+          "sampling": "first N adjacent positive-duration key spans in (onset_tick, track, onset_id) order; not all note pairs"
+        },
+        "not_inferred": [
+          "sounding_loudness",
+          "instrument_timbre",
+          "true_orchestral_instrument",
+          "human_rubato",
+          "phrase",
+          "chord_function",
+          "musical_motif",
+          "score_fidelity"
+        ]
+      },
+      "source": {
+        "composer": "Ludwig van Beethoven",
+        "file": "data/orchestral/beethoven5-movement1.mid",
+        "id": "beethoven5-movement1",
+        "license": "Public Domain (as declared by Mutopia for its edition)",
+        "obtained_from": "https://github.com/jtydhr88/fate-pv/blob/main/score/beethoven5-1.mid",
+        "sha256": "0ce1bca911ba8e6234fd2e474a9b6da4c968c5cfe85b0cccfe7e56505df52046",
+        "upstream_catalogue": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=941",
+        "upstream_midi": "https://www.mutopiaproject.org/ftp/BeethovenLv/O67/Symphony5_1/Symphony5_1.mid",
+        "verification": "GitHub mirror provenance and upstream catalogue checked; original upstream file byte identity and score-fidelity not independently verified",
+        "work": "Symphony No. 5 in C minor, Op. 67, movement I"
+      }
+    },
+    {
+      "observations": {
+        "g0": {
+          "audio_loudness": null,
+          "control_change_numbers": {
+            "7": 1464
+          },
+          "diagnostic_counts": {},
+          "diagnostics": [],
+          "distinct_explicit_tempo_values_micros_per_quarter": [
+            789473
+          ],
+          "end_tick_of_observed_events": 212928,
+          "event_count": 13668,
+          "event_types": {
+            "control_change": 1464,
+            "end_of_track": 13,
+            "instrument_name": 12,
+            "key_signature": 44,
+            "note_off": 6041,
+            "note_on": 6041,
+            "program_change": 12,
+            "set_tempo": 12,
+            "text": 4,
+            "time_signature": 12,
+            "track_name": 13
+          },
+          "explicit_set_tempo_events": 12,
+          "inferred_instrument": null,
+          "largest_simultaneous_key_span_onset": 20,
+          "max_simultaneous_key_down_spans": 20,
+          "midi_type": 1,
+          "onset_ticks_with_two_or_more_key_spans": 1077,
+          "sha256": "7cf810b4625b9a272d3a0a9153d8beb5750fa3ee64122dc9f27b7661e997b903",
+          "sounding_end_after_pedal": null,
+          "tempo_anchor_count": 1,
+          "ticks_per_beat": 384,
+          "timebase": "ppq",
+          "track_count": 13,
+          "track_observations": [
+            {
+              "instrument_names": [],
+              "key_spans": 0,
+              "program_changes": [],
+              "track": 0,
+              "track_names": [
+                "Track 0"
+              ]
+            },
+            {
+              "instrument_names": [
+                "flute"
+              ],
+              "key_spans": 400,
+              "program_changes": [
+                {
+                  "channel": 0,
+                  "program_zero_based": 73,
+                  "tick": 0
+                }
+              ],
+              "track": 1,
+              "track_names": [
+                "one"
+              ]
+            },
+            {
+              "instrument_names": [
+                "oboe"
+              ],
+              "key_spans": 416,
+              "program_changes": [
+                {
+                  "channel": 1,
+                  "program_zero_based": 68,
+                  "tick": 0
+                }
+              ],
+              "track": 2,
+              "track_names": [
+                "two"
+              ]
+            },
+            {
+              "instrument_names": [
+                "clarinet"
+              ],
+              "key_spans": 444,
+              "program_changes": [
+                {
+                  "channel": 2,
+                  "program_zero_based": 71,
+                  "tick": 0
+                }
+              ],
+              "track": 3,
+              "track_names": [
+                "three"
+              ]
+            },
+            {
+              "instrument_names": [
+                "bassoon"
+              ],
+              "key_spans": 541,
+              "program_changes": [
+                {
+                  "channel": 3,
+                  "program_zero_based": 70,
+                  "tick": 0
+                }
+              ],
+              "track": 4,
+              "track_names": [
+                "four"
+              ]
+            },
+            {
+              "instrument_names": [
+                "english horn"
+              ],
+              "key_spans": 196,
+              "program_changes": [
+                {
+                  "channel": 4,
+                  "program_zero_based": 69,
+                  "tick": 0
+                }
+              ],
+              "track": 5,
+              "track_names": [
+                "five"
+              ]
+            },
+            {
+              "instrument_names": [
+                "english horn"
+              ],
+              "key_spans": 125,
+              "program_changes": [
+                {
+                  "channel": 5,
+                  "program_zero_based": 69,
+                  "tick": 0
+                }
+              ],
+              "track": 6,
+              "track_names": [
+                "six"
+              ]
+            },
+            {
+              "instrument_names": [
+                "timpani"
+              ],
+              "key_spans": 86,
+              "program_changes": [
+                {
+                  "channel": 6,
+                  "program_zero_based": 47,
+                  "tick": 0
+                }
+              ],
+              "track": 7,
+              "track_names": [
+                "seven"
+              ]
+            },
+            {
+              "instrument_names": [
+                "violin"
+              ],
+              "key_spans": 880,
+              "program_changes": [
+                {
+                  "channel": 7,
+                  "program_zero_based": 40,
+                  "tick": 0
+                }
+              ],
+              "track": 8,
+              "track_names": [
+                "eight"
+              ]
+            },
+            {
+              "instrument_names": [
+                "violin"
+              ],
+              "key_spans": 743,
+              "program_changes": [
+                {
+                  "channel": 8,
+                  "program_zero_based": 40,
+                  "tick": 0
+                }
+              ],
+              "track": 9,
+              "track_names": [
+                "nine"
+              ]
+            },
+            {
+              "instrument_names": [
+                "viola"
+              ],
+              "key_spans": 777,
+              "program_changes": [
+                {
+                  "channel": 10,
+                  "program_zero_based": 41,
+                  "tick": 0
+                }
+              ],
+              "track": 10,
+              "track_names": [
+                "ten"
+              ]
+            },
+            {
+              "instrument_names": [
+                "cello"
+              ],
+              "key_spans": 751,
+              "program_changes": [
+                {
+                  "channel": 11,
+                  "program_zero_based": 42,
+                  "tick": 0
+                }
+              ],
+              "track": 11,
+              "track_names": [
+                "eleven"
+              ]
+            },
+            {
+              "instrument_names": [
+                "contrabass"
+              ],
+              "key_spans": 682,
+              "program_changes": [
+                {
+                  "channel": 12,
+                  "program_zero_based": 43,
+                  "tick": 0
+                }
+              ],
+              "track": 12,
+              "track_names": [
+                "twelve"
+              ]
+            }
+          ],
+          "unambiguous_key_spans": 6041
+        },
+        "g1_adjacent_note_probe": {
+          "allen_relations": {
+            "before": 21,
+            "contains": 164,
+            "equals": 2744,
+            "finished_by": 252,
+            "meets": 755,
+            "overlaps": 217,
+            "started_by": 415,
+            "starts": 432
+          },
+          "budget": 5000,
+          "evaluated_pairs": 5000,
+          "operators": {
+            "PARALLEL": 4224,
+            "SEQUENCE": 776
+          },
+          "sampling": "first N adjacent positive-duration key spans in (onset_tick, track, onset_id) order; not all note pairs"
+        },
+        "not_inferred": [
+          "sounding_loudness",
+          "instrument_timbre",
+          "true_orchestral_instrument",
+          "human_rubato",
+          "phrase",
+          "chord_function",
+          "musical_motif",
+          "score_fidelity"
+        ]
+      },
+      "source": {
+        "composer": "Ludwig van Beethoven",
+        "file": "data/orchestral/beethoven7-movement2.mid",
+        "id": "beethoven7-movement2",
+        "license": "Public Domain (as declared by Mutopia for its edition)",
+        "obtained_from": "https://github.com/jtydhr88/fate-pv/blob/main/score/beethoven7-2/Symphony7_2.mid",
+        "sha256": "7cf810b4625b9a272d3a0a9153d8beb5750fa3ee64122dc9f27b7661e997b903",
+        "upstream_catalogue": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=595",
+        "upstream_midi": "https://www.mutopiaproject.org/ftp/BeethovenLv/O92/Symphony7_2/Symphony7_2.mid",
+        "verification": "GitHub mirror provenance and upstream catalogue checked; original upstream file byte identity and score-fidelity not independently verified",
+        "work": "Symphony No. 7 in A major, Op. 92, movement II"
+      }
+    }
+  ],
+  "schema_version": 1
+}

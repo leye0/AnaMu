@@ -1,0 +1,80 @@
+name: AnaMu - scientific source and claim contracts
+
+on:
+  push:
+    paths:
+      - 'data/research-evidence.json'
+      - 'anamu/research_contracts.py'
+      - 'anamu/cadence_events.py'
+      - 'anamu/human_probe_expectancy.py'
+      - 'anamu/schellenberg_expectancy.py'
+      - 'anamu/manzara_expectancy.py'
+      - 'anamu/idyom_archive.py'
+      - 'scripts/validate_research_contracts.py'
+      - 'scripts/dcml_cadence_benchmark.py'
+      - 'scripts/cudlun_probe_benchmark.py'
+      - 'scripts/schellenberg_external_transfer.py'
+      - 'scripts/manzara_cross_target.py'
+      - 'scripts/idyom_archived_probe_comparison.py'
+      - 'tests/test_research_contracts.py'
+      - 'tests/test_cadence_events.py'
+      - 'tests/test_human_probe_expectancy.py'
+      - 'tests/test_schellenberg_transfer.py'
+      - 'tests/test_manzara_cross_target.py'
+      - 'tests/test_idyom_archive.py'
+      - 'scripts/piast_tonal_motion_experiment.py'
+      - 'scripts/isovat_tension_benchmark.py'
+      - 'scripts/vgmidi_temporal_benchmark.py'
+      - '.github/workflows/research-evidence-contracts.yml'
+  pull_request:
+    paths:
+      - 'data/research-evidence.json'
+      - 'anamu/research_contracts.py'
+      - 'anamu/cadence_events.py'
+      - 'anamu/human_probe_expectancy.py'
+      - 'anamu/schellenberg_expectancy.py'
+      - 'anamu/manzara_expectancy.py'
+      - 'anamu/idyom_archive.py'
+      - 'scripts/validate_research_contracts.py'
+      - 'scripts/dcml_cadence_benchmark.py'
+      - 'scripts/cudlun_probe_benchmark.py'
+      - 'scripts/schellenberg_external_transfer.py'
+      - 'scripts/manzara_cross_target.py'
+      - 'scripts/idyom_archived_probe_comparison.py'
+      - 'tests/test_research_contracts.py'
+      - 'tests/test_cadence_events.py'
+      - 'tests/test_human_probe_expectancy.py'
+      - 'tests/test_schellenberg_transfer.py'
+      - 'tests/test_manzara_cross_target.py'
+      - 'tests/test_idyom_archive.py'
+      - 'scripts/piast_tonal_motion_experiment.py'
+      - 'scripts/isovat_tension_benchmark.py'
+      - 'scripts/vgmidi_temporal_benchmark.py'
+      - '.github/workflows/research-evidence-contracts.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-scientific-claims:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install numeric dependencies for synthetic cadence and expectancy fixtures
+        run: python -m pip install numpy scipy scikit-learn mido
+      - name: Validate the source and method evidence registry
+        run: python -m scripts.validate_research_contracts
+      - name: Reject unsupported source/claim combinations
+        run: python -m unittest tests.test_research_contracts -v
+      - name: Check cadence annotation/feature isolation and parent-work grouping
+        run: python -m unittest tests.test_cadence_events -v
+      - name: Check human continuation contracts and held-out-context isolation
+        run: python -m unittest tests.test_human_probe_expectancy -v
+      - name: Check independent source-only melodic expectation transfer
+        run: python -m unittest tests.test_schellenberg_transfer -v
+      - name: Check human gambling surprise alignment with frozen source-only models
+        run: python -m unittest tests.test_manzara_cross_target -v
+      - name: Check third-party IDyOM archive integrity without claiming original engine execution
+        run: python -m unittest tests.test_idyom_archive -v

@@ -1,5 +1,26 @@
 # AnaMu — Feuille de route scientifique et technique
 
+**Mise à jour du 9 novembre 2026 :** le nouveau cap est la
+**[grammaire musicale multi-axes](music-grammar-research-program.md)**,
+fondée sur des observations de partition, interprétation et audio, des
+relations hiérarchiques explicables, des règles déclaratives et des tests
+académiques propres à chaque capacité. Les passages ci-dessous détaillent
+**l'historique du programme sur les émotions**, et non la priorité
+d'implémentation après ce changement de direction. Le noyau grammatical
+doit préserver tempo variable, nuances et instruments dès le contrat des
+données ; l'analyse audio proprement dite peut rester une étape ultérieure.
+**G0 MIDI commencé :** conservation de l'original, des pistes/événements,
+des notes qui se chevauchent, de la vélocité, des contrôleurs et du tempo
+variable dans `anamu/grammar_foundation.py`, avec tests déterministes.
+L'alignement partition–interprétation–audio et les règles grammaticales
+restent à implémenter.
+**G1 partiel :** classification des 13 relations d'intervalles d'Allen et
+relations observées `SEQUENCE`/`PARALLEL` entre notes, plus transformateur exact
+`TRANSFORM` pour correspondances explicites (transposition, dilatation
+rythmique). `ALIGN`, `GROUP`, `DEPEND` et l'induction restent à faire.
+L'[inventaire orchestrations et annotations](orchestral-corpus-audit.md)
+priorise S3, OpenScore/Hauptstimme puis LOP/SOD.
+
 **Version : 1.1 — 7 novembre 2026.**  
 **Décision :** théorie musicale algorithmisée → mécanismes temporels → étude
 des émotions humaines → corpus construit selon les besoins prouvés → analyses
@@ -9,6 +30,48 @@ Le programme scientifique détaillé, les références primaires et les
 critères de chaque algorithme se trouvent dans
 **[theory-to-algorithms.md](theory-to-algorithms.md)**. Ce document constitue
 la référence d'implémentation pour les prochaines étapes.
+
+**Garde-fou additionnel (8 novembre 2026) :** consulter les
+[contrats scientifiques exécutables](research-evidence-gates.md) avant de
+choisir un corpus, d'affirmer qu'un outil académique original a été exécuté
+ou de présenter un test déjà exploré comme une confirmation indépendante.
+
+**Progrès S2 (8 novembre 2026) :** un premier [test de cadences
+expertisées sur 198 partitions symboliques](dcml-cadence-study.md) trouve
+un apport mesurable de l'harmonie sur le rythme seul, avec contrôle
+permuté et validation par œuvre parente et par compositeur. **Il ne valide
+aucune émotion**, et il reste exploratoire. Le chantier des cadences est
+**mis en pause** pour ne pas recycler le même axe indéfiniment.
+
+**Progrès S1 (8 novembre 2026) :** le [test de continuation mélodique sur
+les réponses humaines de Cuddy et Lunney (1995)](cudlun-human-expectancy-study.md)
+observe, en sortie de huit contextes tenus à l'écart successivement,
+**ρ 0,724 → 0,795** lorsqu'un modèle de contour/tonalité corrige le résidu
+d'une référence relative de notes. Gain de **+0,071 sur 8/8 contextes**,
+également positif avec exclusions plus larges (direction et taille des
+intervalles). Ce modèle a été formulé après la première inspection des
+scores : **exploratoire uniquement ; contre-épreuve externe ci-dessous**.
+
+**Transfert S1 (8 novembre 2026) :** [contre-épreuve sur les 120 continuations
+de huit mélodies réelles de Schellenberg (1996)](schellenberg-external-transfer-study.md),
+notées par **20 autres auditeurs**. Le modèle fixé uniquement sur Cuddy
+apporte encore un gain contextuel (ρ **0,560 → 0,650**), mais le **contour
+seul atteint 0,770**. Ainsi le gagnant de Cuddy **n'est pas** le meilleur
+hors étude : privilégier la robustesse du contour plutôt que la complexité
+à ajuster. Données externes non utilisées pour le réentraînement ; une
+troisième étude préenregistrée demeure nécessaire.
+
+**Troisième jeu de mesures S1 (9 novembre 2026) :**
+[Manzara/Witten/Conklin (1992)](manzara-cross-target-study.md) mesure une
+**autre variable** : le nombre de bits de surprise de **chaque vraie note**
+obtenu à partir de paris humains. Sur **82 notes réparties en deux chorales**,
+le contour appris sur Cuddy ne se transfère **pas** : ρ **+0,013 / −0,094**
+par chorale, contre **+0,449 / +0,481** pour des scores IDyOM publiés dans
+une thèse (import seulement ; corpus d'apprentissage tiers non vérifié).
+Cette **limite** interdit d'appeler le 0,770 de Schellenberg « performance
+sur la surprise musicale continue ». Deux chorales ne suffisent pas à la
+validation générale. Voir aussi [l'audit du benchmark MEX 2026](mex-2026-source-audit.md)
+sur timbre audio, segmentation annotée et EEG, distincts des émotions.
 
 **Nouvelle règle :** chercher et intégrer systématiquement les **outils
 académiques existants**, maximiser la diversité des mécanismes non redondants
@@ -42,8 +105,8 @@ Une corrélation ne prouve pas un mécanisme causal. La **tension**, le
 | Priorité | Phase | Livrable / condition de sortie | Statut |
 |---|---|---|---|
 | **Maintenant** | **S0 — Laboratoire MIDI brut** | Lecteur conservateur, vues sans pertes, fixtures et contrats de données. Aucune extraction audio. | **Premier incrément en cours** |
-| **Maintenant** | **S1 — Attentes mélodiques** | Baseline probabiliste puis comparaison IDyOM + Narmour/Schellenberg, vraies mesures de prédiction hors entraînement. | **Baseline et Narmour (outil `melody-features` + triplets datés) actifs ; IDyOM original et validation perceptive à faire** |
-| **Prochain** | **S2 — Harmonie et enchaînements** | Hypothèses d'accords, progression, fonction, tonalité locale, cadences, Tonal Pitch Space, Spiral Array ; tests sur vérité musicale annotée. | **music21 + Partitura actifs sur fixtures ; vérité musicale externe à venir** |
+| **Maintenant** | **S1 — Attentes mélodiques** | Baseline probabiliste puis comparaison IDyOM + Narmour/Schellenberg, vraies mesures de prédiction hors entraînement. | **Cuddy puis Schellenberg : contour jusqu'à ρ 0,770 pour les notes candidates. Mais Manzara : contour ρ +0,013 / −0,094 pour la surprise réelle (82 notes, deux chorales). IDyOM tiers ~0,45–0,48 ; original non exécuté. Prochaine priorité : modèle statistique réellement probabiliste entraîné sur corpus distinct.** |
+| **En cours** | **S2 — Harmonie et enchaînements** | Hypothèses d'accords, progression, fonction, tonalité locale, cadences, Tonal Pitch Space, Spiral Array ; tests sur vérité musicale annotée. | **music21 + Partitura actifs ; 1 992 cadences de 198 partitions expertes testées sur notes MIDI-compatibles. Gain harmonique exploratoire, pas de score émotionnel ni validation de résolution atypique.** |
 | **En cours** | **S3 — Motifs, formes, tension** | Répétitions/transformations, structure hiérarchique, mémoire et modèles temporels Lerdahl/Farbood. | **Motifs/récurrences, cadences et mémoire multicadence en approximation calculable ; hiérarchie perceptive et modèles originaux complets à étudier.** |
 | **En cours** | **S4 — Fusion des mécanismes** | Entropie avant l'événement, surprise à l'événement, tension/résolution et interactions, ablations. | **Fusion temporelle réelle des originaux music21/Partitura/melody-features/jSymbolic, deux n-grammes de contrôle, mémoire/interaction et ablations. Extraction mutualisée et export de calibration JSON ajoutés ; IDyOM original non exécuté.** |
 | **En cours** | **S5 — Émotions humaines** | Relations calibrées aux labels et courbes **humaines** avec baselines, séparations d'œuvres et contrôles négatifs. | **20 morceaux connus comparés mesure par mesure aux humains en deux expériences : fusion de 1 203 variables de neuf familles, moteur Java original jSymbolic sur 137/141 MIDI, études de contribution par ablation. Corrélations temporelles modestes ; EMOPIA externe intact.** |

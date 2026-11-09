@@ -1,0 +1,28 @@
+name: AnaMu - Grammar G0 source evidence
+
+on:
+  push:
+    paths:
+      - 'anamu/grammar_foundation.py'
+      - 'tests/test_grammar_foundation.py'
+      - '.github/workflows/grammar-g0-evidence.yml'
+  pull_request:
+    paths:
+      - 'anamu/grammar_foundation.py'
+      - 'tests/test_grammar_foundation.py'
+      - '.github/workflows/grammar-g0-evidence.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preserve-midi-evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install the only needed external dependency
+        run: python -m pip install mido
+      - name: Verify raw evidence, polyphony, controllers and timebases
+        run: python -m unittest tests.test_grammar_foundation -v
