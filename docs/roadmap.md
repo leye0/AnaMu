@@ -15,6 +15,13 @@ la référence d'implémentation pour les prochaines étapes.
 choisir un corpus, d'affirmer qu'un outil académique original a été exécuté
 ou de présenter un test déjà exploré comme une confirmation indépendante.
 
+**Progrès S2 (8 novembre 2026) :** un premier [test de cadences
+expertisées sur 198 partitions symboliques](dcml-cadence-study.md) trouve
+un apport mesurable de l'harmonie sur le rythme seul, avec contrôle
+permuté et validation par œuvre parente et par compositeur. **Il ne valide
+aucune émotion**, et il reste exploratoire. Étendre aux cadences atypiques
+et à des compositeurs réellement inédits avant toute promotion.
+
 **Nouvelle règle :** chercher et intégrer systématiquement les **outils
 académiques existants**, maximiser la diversité des mécanismes non redondants
 et mesurer chacun séparément. Voir [l'inventaire de 23 mécanismes et le banc
@@ -48,7 +55,7 @@ Une corrélation ne prouve pas un mécanisme causal. La **tension**, le
 |---|---|---|---|
 | **Maintenant** | **S0 — Laboratoire MIDI brut** | Lecteur conservateur, vues sans pertes, fixtures et contrats de données. Aucune extraction audio. | **Premier incrément en cours** |
 | **Maintenant** | **S1 — Attentes mélodiques** | Baseline probabiliste puis comparaison IDyOM + Narmour/Schellenberg, vraies mesures de prédiction hors entraînement. | **Baseline et Narmour (outil `melody-features` + triplets datés) actifs ; IDyOM original et validation perceptive à faire** |
-| **Prochain** | **S2 — Harmonie et enchaînements** | Hypothèses d'accords, progression, fonction, tonalité locale, cadences, Tonal Pitch Space, Spiral Array ; tests sur vérité musicale annotée. | **music21 + Partitura actifs sur fixtures ; vérité musicale externe à venir** |
+| **En cours** | **S2 — Harmonie et enchaînements** | Hypothèses d'accords, progression, fonction, tonalité locale, cadences, Tonal Pitch Space, Spiral Array ; tests sur vérité musicale annotée. | **music21 + Partitura actifs ; 1 992 cadences de 198 partitions expertes testées sur notes MIDI-compatibles. Gain harmonique exploratoire, pas de score émotionnel ni validation de résolution atypique.** |
 | **En cours** | **S3 — Motifs, formes, tension** | Répétitions/transformations, structure hiérarchique, mémoire et modèles temporels Lerdahl/Farbood. | **Motifs/récurrences, cadences et mémoire multicadence en approximation calculable ; hiérarchie perceptive et modèles originaux complets à étudier.** |
 | **En cours** | **S4 — Fusion des mécanismes** | Entropie avant l'événement, surprise à l'événement, tension/résolution et interactions, ablations. | **Fusion temporelle réelle des originaux music21/Partitura/melody-features/jSymbolic, deux n-grammes de contrôle, mémoire/interaction et ablations. Extraction mutualisée et export de calibration JSON ajoutés ; IDyOM original non exécuté.** |
 | **En cours** | **S5 — Émotions humaines** | Relations calibrées aux labels et courbes **humaines** avec baselines, séparations d'œuvres et contrôles négatifs. | **20 morceaux connus comparés mesure par mesure aux humains en deux expériences : fusion de 1 203 variables de neuf familles, moteur Java original jSymbolic sur 137/141 MIDI, études de contribution par ablation. Corrélations temporelles modestes ; EMOPIA externe intact.** |

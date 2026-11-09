@@ -11,6 +11,11 @@ académiques réellement exécutés. Les incompatibilités (PIAST sans annotatio
 temporelles, VGMIDI sans humeur `Mysterious`, EMOPIA sans quatre votes
 individuels) sont refusées par des tests légers, sans télécharger de MIDI.
 
+**[Nouvelle expérience : cadences annotées par des musicologues](docs/dcml-cadence-study.md)**
+— 198 partitions symboliques de Bach, Mozart et Chopin, 1 992 cadences
+humaines, comparaison rythme/harmonie/témoin mélangé et transfert entre
+compositeurs. **Ce sont des cibles de structure musicale, pas des émotions.**
+
 **Direction scientifique (v1.0, 7 novembre 2026) :** développer d'abord les
 algorithmes issus des théories musicales et psychologiques sur le **MIDI
 symbolique brut**. Déterminer ensuite le corpus nécessaire à la validation

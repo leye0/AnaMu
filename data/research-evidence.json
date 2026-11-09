@@ -77,6 +77,17 @@
       "independent_group": "piece",
       "local_evidence": "Metadata/name-based classes; individual annotator votes and repeated-work identities not verified locally",
       "limits": "No time-coded emotion labels; neither genre nor predicted labels should be substituted for human temporal truth."
+    },
+    "DCML_DLC": {
+      "primary_url": "https://doi.org/10.1038/s41597-025-04976-z",
+      "unit": "score-time event with analyst-coded cadence in 1283 annotated compositions across DLC; three subcorpora used in first pilot",
+      "human_targets": ["cadence_event"],
+      "temporal_human_labels": true,
+      "individual_votes_available": false,
+      "midi_origin": "expert_annotated_symbolic_score_notes_midi_pitch_and_quarterbeat_equivalents",
+      "independent_group": "parent_work",
+      "local_evidence": "Chopin Mazurkas, Mozart Piano Sonatas and Bach English/French Suites notes and harmonies TSV checked out at pinned upstream SHAs; movement siblings grouped by K or BWV identifier",
+      "limits": "Analyst-annotated cadences are musicological structural judgments, NOT human emotions, tension curves, or independent ratings; the benchmark uses no expert key or chord as features. Scores are symbolic not performance MIDI. Licensed CC BY-NC-SA 4.0."
     }
   },
   "methods": {
@@ -135,6 +146,13 @@
       "executed": true,
       "observables": ["midi_performance_differences", "pairwise_relative_scores"],
       "limit": "Not an implementation of authors' complete Delta-VA/RnC model."
+    },
+    "cadential_note_context_proxy": {
+      "primary_url": "https://doi.org/10.1038/s41597-025-04976-z",
+      "kind": "theory_inspired_proxy",
+      "executed": true,
+      "observables": ["midi_pitch_class_relative_to_automatically_estimated_global_tonic", "bass_motion", "tonic_dominant_chroma_context", "metrical_onset"],
+      "limit": "AnaMu exploratory note-only classifier, not DCML's analytic annotations, an original published cadence detector, or affect prediction."
     }
   },
   "experiments": {
@@ -196,6 +214,17 @@
       "status": "exploratory",
       "previously_examined": true,
       "claim_scope": "relative_performance_valence_arousal"
+    },
+    "dcml_cadence_exploratory": {
+      "source": "DCML_DLC",
+      "target": "cadence_event",
+      "requires_temporal_human_labels": true,
+      "requires_individual_votes": false,
+      "split_group": "parent_work",
+      "methods": [{"id": "cadential_note_context_proxy", "claim": "theory_inspired_proxy"}],
+      "status": "exploratory",
+      "previously_examined": true,
+      "claim_scope": "musicological_cadence_detection"
     }
   }
 }

@@ -19,7 +19,7 @@ remplace pas la revue du papier, du code ni le calcul statistique : une
 expérience compatible peut échouer, et un score élevé ne démontre pas une
 cause psychologique.
 
-## Les sept sources, sans convertir une cible en une autre
+## Les huit sources, sans convertir une cible en une autre
 
 | Source | Étiquette humaine réellement utilisée | Unité indépendante | Ce que cela **ne prouve pas** |
 |---|---|---|---|
@@ -30,6 +30,7 @@ cause psychologique.
 | CP-WTC | Valence/activation des huit premières mesures de six interprètes, 48 compositions | Composition | Courbe de valence par mesure ; effet causal du seul interprète si groupes d'annotateurs confondus |
 | EMOPIA | Un quadrant par extrait | Chanson source | Quatre votes indépendants par extrait ; les quatre annotateurs ont réparti les chansons |
 | XMIDI | Catégorie émotionnelle/genre sur morceau entier | Pièce (doublons à auditer) | Émotion humaine datée ou votes individuels accessibles |
+| DCML Distant Listening Corpus | Cadences et phrases annotées par des musicologues sur partitions symboliques | Œuvre parente (sonate/suite entière) | Émotions, ressenti de tension ou véritable timbre MIDI/audio ; pas de votes individuels par cadence |
 
 Sources primaires : [PIAST](https://aclanthology.org/2024.nlp4musa-1.2/),
 [VGMIDI](https://github.com/lucasnfe/vgmidi),
@@ -37,7 +38,8 @@ Sources primaires : [PIAST](https://aclanthology.org/2024.nlp4musa-1.2/),
 [PercePiano](https://doi.org/10.1038/s41598-024-73810-0),
 [CP-WTC](https://zenodo.org/records/21693024),
 [EMOPIA](https://annahung31.github.io/EMOPIA/),
-[XMIDI](https://github.com/xmusic-project/XMIDI_Dataset).
+[XMIDI](https://github.com/xmusic-project/XMIDI_Dataset),
+[DCML DLC](https://doi.org/10.1038/s41597-025-04976-z).
 
 **Important sur l'instrumentation :** les commandes MIDI contiennent notes,
 temps, vélocité, programmes et parfois pédale, **pas** le timbre original,
@@ -57,6 +59,7 @@ cause. Audio/Demucs restent reportés ; aucun nouvel appel audio.
 | Farbood | Proxy temporel maison | Pentes, cumuls, relâchements | Pas les équations/poids perceptifs originaux |
 | Modulation tonale inspirée de MoFi | Proxy maison | Distribution et ordre des tonalités locales | Le contrôle réordonné annule l'argument temporel |
 | Modèle relatif inspiré de Delta-VA | Proxy maison | Différences d'interprétation MIDI | Pas reproduction du réseau original |
+| Proxy de cadences par notes MIDI-compatibles | Proxy maison exécuté | Indices rythmiques + chroma relatif à la tonalité estimée + basse et transitions | Pas l'algorithme publié DCML, pas l'analyse experte ni l'émotion humaine |
 
 La présence de 1 203 colonnes ou de 23 mécanismes dans l'inventaire n'est
 **pas** une validation indépendante de 23 phénomènes perceptifs.

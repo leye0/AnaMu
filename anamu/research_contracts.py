@@ -20,6 +20,7 @@ CLAIM_TARGETS = {
     "relative_perceived_tension": {"relative_tension"},
     "relative_performance_attributes": {"performance_perceptual_attributes"},
     "relative_performance_valence_arousal": {"performance_valence_arousal"},
+    "musicological_cadence_detection": {"cadence_event"},
 }
 
 

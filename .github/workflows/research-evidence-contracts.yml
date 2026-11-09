@@ -5,8 +5,11 @@ on:
     paths:
       - 'data/research-evidence.json'
       - 'anamu/research_contracts.py'
+      - 'anamu/cadence_events.py'
       - 'scripts/validate_research_contracts.py'
+      - 'scripts/dcml_cadence_benchmark.py'
       - 'tests/test_research_contracts.py'
+      - 'tests/test_cadence_events.py'
       - 'scripts/piast_tonal_motion_experiment.py'
       - 'scripts/isovat_tension_benchmark.py'
       - 'scripts/vgmidi_temporal_benchmark.py'
@@ -15,8 +18,11 @@ on:
     paths:
       - 'data/research-evidence.json'
       - 'anamu/research_contracts.py'
+      - 'anamu/cadence_events.py'
       - 'scripts/validate_research_contracts.py'
+      - 'scripts/dcml_cadence_benchmark.py'
       - 'tests/test_research_contracts.py'
+      - 'tests/test_cadence_events.py'
       - 'scripts/piast_tonal_motion_experiment.py'
       - 'scripts/isovat_tension_benchmark.py'
       - 'scripts/vgmidi_temporal_benchmark.py'
@@ -32,7 +38,11 @@ jobs:
     timeout-minutes: 3
     steps:
       - uses: actions/checkout@v4
+      - name: Install the lightweight numeric parser for synthetic cadence fixtures
+        run: python -m pip install numpy
       - name: Validate the source and method evidence registry
         run: python -m scripts.validate_research_contracts
       - name: Reject unsupported source/claim combinations
         run: python -m unittest tests.test_research_contracts -v
+      - name: Check cadence annotation/feature isolation and parent-work grouping
+        run: python -m unittest tests.test_cadence_events -v
