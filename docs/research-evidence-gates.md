@@ -155,14 +155,22 @@ simple de contour** atteint **0,770**. Le précédent gagnant ne généralise
 donc pas comme meilleur modèle. Les deux expériences restent exploratoires ;
 les paramètres de Schellenberg n'ont pas servi à ajuster le moteur.
 
-**Autre archive obscure identifiée mais pas encore benchmarkée :**
+**Archive obscure désormais testée (9 novembre 2026) :**
 `manzetal92.data` contient **86 observations humaines temporelles** de
 *surprise de la note réellement jouée*, dérivées de paris de mélomanes sur
 deux chorales de Bach (29 + 57 notes), avec les deux MIDI de mélodie.
 Cette cible est **différente** de la qualité d'une note-sonde de Cuddy et de
 Schellenberg, comme du ressenti émotionnel. Deux chorales ne constituent pas
-86 unités d'évaluation indépendantes ; aucun gain ne doit être annoncé
-en réutilisant ces bits sans protocole spécifique.
+86 unités d'évaluation indépendantes. La [nouvelle étude
+Manzara](manzara-cross-target-study.md) ne trouve **aucun transfert du
+contour Cuddy** vers la surprise humaine : ρ +0,013 / −0,094, contre
+les sorties **IDyOM importées** +0,449 / +0,481. Le vrai IDyOM n'a pas été
+exécuté et la source tierce peut avoir bénéficié d'un autre corpus.
+
+Une autre [suite universitaire nouvelle, MEX 2026](mex-2026-source-audit.md),
+distingue les annotations de segmentation musicale SALAMI, la concordance
+audio–IDyOM sur **cinq timbres** synthétisés, et les **réponses EEG** :
+aucune de ces données n'est une note émotionnelle `Mysterious` ou `Epic`.
 
 **Priorité :** chercher une **troisième** source indépendante de
 **continuations jugées par des humains**, avec réponses réellement accessibles

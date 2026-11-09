@@ -126,6 +126,15 @@ class ResearchEvidenceTests(unittest.TestCase):
         spec["target"] = "human_next_note_information_bits"
         self.reject(spec, "incompatible")
 
+    def test_manzara_has_distinct_temporal_surprisal_claim(self):
+        spec = copy.deepcopy(self.catalog["experiments"]["manzara_1992_cross_target"])
+        check_experiment("note_gambling", spec, self.catalog)
+        self.reject({**spec, "split_group": "note"}, "split must group by")
+        self.reject({**spec, "requires_individual_votes": True},
+                    "does not expose independently usable votes")
+        self.reject({**spec, "target": "mood_tags"},
+                    "does not expose human target")
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -287,6 +287,17 @@
       "status": "exploratory",
       "previously_examined": true,
       "claim_scope": "human_melodic_continuation"
+    },
+    "manzara_1992_cross_target": {
+      "source": "MANZARA_WITTEN_1992",
+      "target": "human_next_note_information_bits",
+      "requires_temporal_human_labels": true,
+      "requires_individual_votes": false,
+      "split_group": "chorale",
+      "methods": [{"id": "cuddy_narmour_proxy", "claim": "theory_inspired_proxy"}],
+      "status": "exploratory",
+      "previously_examined": true,
+      "claim_scope": "human_realized_note_surprisal"
     }
   }
 }

@@ -37,6 +37,19 @@ plausibilité de la note suivante, pas d'une mesure de « mystère » ou
 d'une validation d'émotions. Résultats exploratoires, 120 candidats recoupés
 avec le classeur d'annotation de l'étude.
 
+**[Troisième expérience S1 : Manzara (1992), paris sur les vraies notes](docs/manzara-cross-target-study.md)**
+— **contre-épreuve négative** sur 82 notes de deux chorales : la méthode de
+contour Cuddy/Schellenberg ne suit **pas** la surprise humaine à chaque note
+(ρ **+0,013** et **−0,094**). Les prédictions IDyOM importées d'une thèse
+obtiennent **+0,449 / +0,481**, mais leur entraînement externe n'est pas
+audité. **Bonne continuation ≠ surprise temporelle.** Les modèles, les
+preuves et les tests sont reproductibles sans redistribuer les paris.
+
+**[Nouvelle source audio et EEG : MEX (1er novembre 2026)](docs/mex-2026-source-audit.md)**
+— quatre tâches académiques correctement séparées (répétitions,
+segmentation humaine, accord symbolique/audio sur cinq instruments et EEG).
+**Pas de labels d'émotion** et moteurs audio non encore exécutés dans AnaMu.
+
 **Direction scientifique (v1.0, 7 novembre 2026) :** développer d'abord les
 algorithmes issus des théories musicales et psychologiques sur le **MIDI
 symbolique brut**. Déterminer ensuite le corpus nécessaire à la validation

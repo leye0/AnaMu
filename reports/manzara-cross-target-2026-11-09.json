@@ -1,0 +1,153 @@
+{
+  "status": "exploratory_heterogeneous_outcome_only_two_chorales_no_confirmatory_claim",
+  "primary_study": "https://researchcommons.waikato.ac.nz/items/97793e93-66e4-4354-8159-9b1dbadda2f0",
+  "digitized_reference": "https://github.com/yiannisem/MSc-Thesis---modelling-pitch-expectation",
+  "source_commit": "e9eb23384393c83de97e1a69d00133ae4673c425",
+  "model_training": "Cuddy_1995_only_8_contexts_25_group_mean_probes_each",
+  "target": "Manzara_1992_human_gambling_realized_next_note_average_information_bits",
+  "target_used_in_training_or_selection": false,
+  "source_data_previously_inspected": true,
+  "target_human_votes_individually_available": false,
+  "context_notes_used": 2,
+  "first_two_target_notes_excluded_per_chorale": true,
+  "effective_notes": 82,
+  "parent_chorales": 2,
+  "human_target_not_equivalent_to_Cuddy_probe_ratings": true,
+  "score_to_probability": "softmax_all_25_chromatic_candidates_fixed_temperature_1_rating_unit_not_human_calibrated",
+  "third_party_idyom_import": "precomputed_2025_cpitch_csv_pitch_aligned_not_original_engine_executed_by_AnaMu_training_exclusion_unverified",
+  "uncertainty_limit": "Two parent melodies only; per-note observations autocorrelated; no participant-level bets; no inferential bootstrap or p-values; circular shifts are descriptive alignment diagnostics.",
+  "models": {
+    "pitch_template_only": {
+      "per_chorale": {
+        "151": {
+          "notes_after_two_context_notes": 27,
+          "spearman_human_vs_predicted_bits": 0.16795,
+          "human_mean_bits": 2.12724,
+          "predicted_mean_bits": 3.87711,
+          "circular_shift_control_median_spearman": -0.04071,
+          "aligned_rho_exceeds_shift_median": true
+        },
+        "61": {
+          "notes_after_two_context_notes": 55,
+          "spearman_human_vs_predicted_bits": -0.14488,
+          "human_mean_bits": 1.62266,
+          "predicted_mean_bits": 3.89498,
+          "circular_shift_control_median_spearman": 0.00896,
+          "aligned_rho_exceeds_shift_median": false
+        }
+      },
+      "pooled_note_spearman_descriptive_only": -0.06893,
+      "mean_of_two_chorale_rhos_descriptive_only": 0.01153
+    },
+    "proximity": {
+      "per_chorale": {
+        "151": {
+          "notes_after_two_context_notes": 27,
+          "spearman_human_vs_predicted_bits": 0.04373,
+          "human_mean_bits": 2.12724,
+          "predicted_mean_bits": 3.74423,
+          "circular_shift_control_median_spearman": -0.00579,
+          "aligned_rho_exceeds_shift_median": true
+        },
+        "61": {
+          "notes_after_two_context_notes": 55,
+          "spearman_human_vs_predicted_bits": 0.1168,
+          "human_mean_bits": 1.62266,
+          "predicted_mean_bits": 3.78598,
+          "circular_shift_control_median_spearman": -0.00655,
+          "aligned_rho_exceeds_shift_median": true
+        }
+      },
+      "pooled_note_spearman_descriptive_only": 0.06909,
+      "mean_of_two_chorale_rhos_descriptive_only": 0.08027
+    },
+    "narmour_contour_proxy": {
+      "per_chorale": {
+        "151": {
+          "notes_after_two_context_notes": 27,
+          "spearman_human_vs_predicted_bits": 0.01348,
+          "human_mean_bits": 2.12724,
+          "predicted_mean_bits": 3.79967,
+          "circular_shift_control_median_spearman": 0.05331,
+          "aligned_rho_exceeds_shift_median": false
+        },
+        "61": {
+          "notes_after_two_context_notes": 55,
+          "spearman_human_vs_predicted_bits": -0.09406,
+          "human_mean_bits": 1.62266,
+          "predicted_mean_bits": 3.73998,
+          "circular_shift_control_median_spearman": 0.00502,
+          "aligned_rho_exceeds_shift_median": false
+        }
+      },
+      "pooled_note_spearman_descriptive_only": -0.02085,
+      "mean_of_two_chorale_rhos_descriptive_only": -0.04029
+    },
+    "contour_plus_tonal_hierarchy": {
+      "per_chorale": {
+        "151": {
+          "notes_after_two_context_notes": 27,
+          "spearman_human_vs_predicted_bits": -0.02512,
+          "human_mean_bits": 2.12724,
+          "predicted_mean_bits": 4.00324,
+          "circular_shift_control_median_spearman": 0.00643,
+          "aligned_rho_exceeds_shift_median": false
+        },
+        "61": {
+          "notes_after_two_context_notes": 55,
+          "spearman_human_vs_predicted_bits": -0.23322,
+          "human_mean_bits": 1.62266,
+          "predicted_mean_bits": 3.94614,
+          "circular_shift_control_median_spearman": 0.019,
+          "aligned_rho_exceeds_shift_median": false
+        }
+      },
+      "pooled_note_spearman_descriptive_only": -0.15885,
+      "mean_of_two_chorale_rhos_descriptive_only": -0.12917
+    },
+    "tonal_context_residual": {
+      "per_chorale": {
+        "151": {
+          "notes_after_two_context_notes": 27,
+          "spearman_human_vs_predicted_bits": 0.03248,
+          "human_mean_bits": 2.12724,
+          "predicted_mean_bits": 3.82261,
+          "circular_shift_control_median_spearman": 0.00383,
+          "aligned_rho_exceeds_shift_median": true
+        },
+        "61": {
+          "notes_after_two_context_notes": 55,
+          "spearman_human_vs_predicted_bits": -0.11495,
+          "human_mean_bits": 1.62266,
+          "predicted_mean_bits": 3.79953,
+          "circular_shift_control_median_spearman": 0.0038,
+          "aligned_rho_exceeds_shift_median": false
+        }
+      },
+      "pooled_note_spearman_descriptive_only": -0.05766,
+      "mean_of_two_chorale_rhos_descriptive_only": -0.04123
+    },
+    "third_party_idyom_cpitch_import_not_executed": {
+      "per_chorale": {
+        "151": {
+          "notes_after_two_context_notes": 27,
+          "spearman_human_vs_predicted_bits": 0.44933,
+          "human_mean_bits": 2.12724,
+          "predicted_mean_bits": 2.09926,
+          "circular_shift_control_median_spearman": -0.0525,
+          "aligned_rho_exceeds_shift_median": true
+        },
+        "61": {
+          "notes_after_two_context_notes": 55,
+          "spearman_human_vs_predicted_bits": 0.48074,
+          "human_mean_bits": 1.62266,
+          "predicted_mean_bits": 2.19154,
+          "circular_shift_control_median_spearman": -0.01064,
+          "aligned_rho_exceeds_shift_median": true
+        }
+      },
+      "pooled_note_spearman_descriptive_only": 0.44879,
+      "mean_of_two_chorale_rhos_descriptive_only": 0.46503
+    }
+  }
+}
