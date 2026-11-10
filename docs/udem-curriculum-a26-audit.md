@@ -87,10 +87,12 @@ qu'un programme « analyse symbolique MIDI » risquerait d'oublier :
 - **EMU 1310, EMU 2312** : direction d'ensemble et lecture/pratique ;
   compétences humaines à expliciter comme limites et évaluations dédiées.
 
-Ces options sont **identifiées**, non validées ; l'audit doit choisir
-les branches pertinentes **sans feindre** que tous les étudiants suivent
-toutes les variantes. Les branches absentes d'AnaMu doivent rester visibles
-au tableau de couverture.
+Ces options sont **identifiées**, non validées ; notre objectif de
+connaissance exige d'en examiner **toutes les 168**, même celles que le
+parcours diplômant ne permet pas d'accumuler. Nous intégrerons à la matrice
+chaque acquis utile (sans feindre que les étudiants suivent toutes ces
+variantes) ; toute exclusion demandera une justification précise. Les
+branches absentes d'AnaMu restent visibles au tableau de couverture.
 
 ## 4. Ce qui reste à faire pour fermer A01, A04 et A05
 

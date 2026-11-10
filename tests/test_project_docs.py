@@ -4,7 +4,9 @@ import unittest
 from pathlib import Path
 
 from scripts.validate_project_docs import (
+    berklee_grid_issues,
     broken_local_links,
+    mcgill_catalog_issues,
     university_catalog_issues,
     university_coverage_issues,
 )
@@ -41,6 +43,14 @@ class DocumentationLinkTests(unittest.TestCase):
         self.assertTrue(any("composition gate L cannot open" in issue
                             for issue in university_coverage_issues(modified)))
 
+    def test_optional_course_union_is_an_explicit_gate(self):
+        root = Path(__file__).resolve().parents[1]
+        text = (root / "docs/todo-university-coverage.md").read_text(encoding="utf-8")
+        for marker in ("A13", "A14", "A15"):
+            self.assertIn(f"- [ ] {marker}", text)
+        altered = text.replace("- [ ] A13", "- [ ] Z13", 1)
+        self.assertTrue(any("A13" in issue for issue in university_coverage_issues(altered)))
+
     def test_udem_public_catalog_census_is_complete_and_explicitly_unreviewed(self):
         root = Path(__file__).resolve().parents[1]
         catalog = json.loads((root / "docs/data/udem-composition-a26.json")
@@ -59,6 +69,51 @@ class DocumentationLinkTests(unittest.TestCase):
         catalog["courses"] = [c for c in catalog["courses"] if c["code"] != "MTE 2114"]
         self.assertTrue(any("22 courses / 63 credits" in issue
                             for issue in university_catalog_issues(catalog)))
+
+    def test_mcgill_program_credit_structure_and_named_options(self):
+        root = Path(__file__).resolve().parents[1]
+        catalog = json.loads((root / "docs/data/mcgill-composition-2026.json")
+                             .read_text(encoding="utf-8"))
+        self.assertEqual(mcgill_catalog_issues(catalog), [])
+        courses = {c["code"]: c for c in catalog["courses"]}
+        self.assertEqual(courses["MUCO 460"]["category"], "required")
+        self.assertEqual(courses["MUTH 202"]["category"], "complementary")
+        self.assertEqual(courses["MUTH 204"]["category"], "complementary")
+        self.assertEqual(courses["MUTH 528"]["category"], "recommended")
+
+    def test_mcgill_program_detects_lost_required_or_option_credit(self):
+        root = Path(__file__).resolve().parents[1]
+        catalog = json.loads((root / "docs/data/mcgill-composition-2026.json")
+                             .read_text(encoding="utf-8"))
+        catalog["requirements"]["complementary_credits"] = 12
+        self.assertTrue(any("124" in issue for issue in mcgill_catalog_issues(catalog)))
+
+    def test_berklee_current_grid_is_not_2024_sample_curriculum(self):
+        root = Path(__file__).resolve().parents[1]
+        catalog = json.loads((root / "docs/data/berklee-composition-2026f.json")
+                             .read_text(encoding="utf-8"))
+        self.assertEqual(berklee_grid_issues(catalog), [])
+        self.assertEqual(catalog["catalog_year"], "2026F")
+        self.assertIn("registrar/major-grids-search", catalog["source_index_url"])
+
+    def test_berklee_detects_missing_portfolio_and_altered_group_credit(self):
+        root = Path(__file__).resolve().parents[1]
+        catalog = json.loads((root / "docs/data/berklee-composition-2026f.json")
+                             .read_text(encoding="utf-8"))
+        catalog["groups"][0]["requirements"] = [r for r in catalog["groups"][0]["requirements"]
+                                               if r["rule"] != "required_uncredited_portfolio"]
+        self.assertTrue(any("portfolio" in issue for issue in berklee_grid_issues(catalog)))
+
+    def test_berklee_open_elective_pools_cannot_disappear(self):
+        root = Path(__file__).resolve().parents[1]
+        catalog = json.loads((root / "docs/data/berklee-composition-2026f.json")
+                             .read_text(encoding="utf-8"))
+        for group in catalog["groups"]:
+            group["requirements"] = [r for r in group["requirements"]
+                                      if r.get("rule") != "credit_pool"]
+        issues = berklee_grid_issues(catalog)
+        self.assertTrue(any("eight major elective credits" in issue for issue in issues))
+        self.assertTrue(any("seven general elective credits" in issue for issue in issues))
 
 
 if __name__ == "__main__":

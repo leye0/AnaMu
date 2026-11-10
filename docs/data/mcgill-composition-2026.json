@@ -1,0 +1,441 @@
+{
+  "schema_version": 1,
+  "program_id": "mcgill-bmus-composition-2026",
+  "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
+  "source_accessed": "2026-11-10",
+  "total_credits": 124,
+  "requirements": {
+    "foundation_credits": 32,
+    "foundation_listed_prerequisite_credits": 22,
+    "foundation_large_ensemble_credits": 4,
+    "foundation_non_music_electives_credits": 6,
+    "required_credits": 61,
+    "complementary_credits": 13,
+    "complementary_music_theory_credits": 3,
+    "complementary_music_history_credits": 6,
+    "complementary_ensemble_credits": 4,
+    "elective_credits": 18,
+    "elective_non_music_credits": 3,
+    "elective_free_credits": 15
+  },
+  "status": "public_program_requirement_list_only_syllabi_not_audited",
+  "courses": [
+    {
+      "code": "MUHL 186",
+      "title": "Western Musical Traditions",
+      "credits": 3,
+      "category": "foundation",
+      "subgroup": "Prerequisite Courses"
+    },
+    {
+      "code": "MUIN 180",
+      "title": "BMus Practical Lessons 1",
+      "credits": 3,
+      "category": "foundation",
+      "subgroup": "Prerequisite Courses"
+    },
+    {
+      "code": "MUIN 181",
+      "title": "BMus Practical Lessons 2",
+      "credits": 3,
+      "category": "foundation",
+      "subgroup": "Prerequisite Courses"
+    },
+    {
+      "code": "MUPD 135",
+      "title": "Music as a Profession 1",
+      "credits": 1,
+      "category": "foundation",
+      "subgroup": "Prerequisite Courses"
+    },
+    {
+      "code": "MUSP 140",
+      "title": "Musicianship Training 1",
+      "credits": 2,
+      "category": "foundation",
+      "subgroup": "Prerequisite Courses"
+    },
+    {
+      "code": "MUSP 141",
+      "title": "Musicianship Training 2",
+      "credits": 2,
+      "category": "foundation",
+      "subgroup": "Prerequisite Courses"
+    },
+    {
+      "code": "MUSP 170",
+      "title": "Musicianship (Keyboard) 1",
+      "credits": 1,
+      "category": "foundation",
+      "subgroup": "Prerequisite Courses"
+    },
+    {
+      "code": "MUSP 171",
+      "title": "Musicianship (Keyboard) 2",
+      "credits": 1,
+      "category": "foundation",
+      "subgroup": "Prerequisite Courses"
+    },
+    {
+      "code": "MUTH 150",
+      "title": "Theory and Analysis 1",
+      "credits": 3,
+      "category": "foundation",
+      "subgroup": "Prerequisite Courses"
+    },
+    {
+      "code": "MUTH 151",
+      "title": "Theory and Analysis 2",
+      "credits": 3,
+      "category": "foundation",
+      "subgroup": "Prerequisite Courses"
+    },
+    {
+      "code": "MUCO 241",
+      "title": "Tonal Composition 1A",
+      "credits": 3,
+      "category": "required",
+      "subgroup": "Composition"
+    },
+    {
+      "code": "MUCO 242",
+      "title": "Tonal Composition 1B",
+      "credits": 3,
+      "category": "required",
+      "subgroup": "Composition"
+    },
+    {
+      "code": "MUCO 245",
+      "title": "Composition 1A",
+      "credits": 2,
+      "category": "required",
+      "subgroup": "Composition"
+    },
+    {
+      "code": "MUCO 246",
+      "title": "Composition 1B",
+      "credits": 3,
+      "category": "required",
+      "subgroup": "Composition"
+    },
+    {
+      "code": "MUCO 261",
+      "title": "Orchestration 1",
+      "credits": 3,
+      "category": "required",
+      "subgroup": "Composition",
+      "catalog_availability": "not_currently_offered"
+    },
+    {
+      "code": "MUCO 340D1",
+      "title": "Composition 2",
+      "credits": 2,
+      "category": "required",
+      "subgroup": "Composition"
+    },
+    {
+      "code": "MUCO 340D2",
+      "title": "Composition 2",
+      "credits": 2,
+      "category": "required",
+      "subgroup": "Composition"
+    },
+    {
+      "code": "MUCO 341",
+      "title": "Digital Studio Composition 1",
+      "credits": 3,
+      "category": "required",
+      "subgroup": "Composition"
+    },
+    {
+      "code": "MUCO 342",
+      "title": "Digital Studio Composition 2",
+      "credits": 3,
+      "category": "required",
+      "subgroup": "Composition"
+    },
+    {
+      "code": "MUCO 360",
+      "title": "Orchestration 2",
+      "credits": 3,
+      "category": "required",
+      "subgroup": "Composition",
+      "catalog_availability": "not_currently_offered"
+    },
+    {
+      "code": "MUCO 440D1",
+      "title": "Composition 3",
+      "credits": 2,
+      "category": "required",
+      "subgroup": "Composition"
+    },
+    {
+      "code": "MUCO 440D2",
+      "title": "Composition 3",
+      "credits": 2,
+      "category": "required",
+      "subgroup": "Composition"
+    },
+    {
+      "code": "MUCO 460",
+      "title": "Orchestration 3",
+      "credits": 2,
+      "category": "required",
+      "subgroup": "Composition"
+    },
+    {
+      "code": "MUCO 541",
+      "title": "Advanced Digital Studio Composition 1",
+      "credits": 3,
+      "category": "required",
+      "subgroup": "Composition"
+    },
+    {
+      "code": "MUCO 575",
+      "title": "Topics in Composition",
+      "credits": 3,
+      "category": "required",
+      "subgroup": "Composition"
+    },
+    {
+      "code": "MUTH 251",
+      "title": "Theory and Analysis 4",
+      "credits": 3,
+      "category": "required",
+      "subgroup": "Theory"
+    },
+    {
+      "code": "MUTH 350",
+      "title": "Theory and Analysis 5",
+      "credits": 3,
+      "category": "required",
+      "subgroup": "Theory"
+    },
+    {
+      "code": "MUSP 240",
+      "title": "Musicianship Training 3",
+      "credits": 2,
+      "category": "required",
+      "subgroup": "Musicianship"
+    },
+    {
+      "code": "MUSP 241",
+      "title": "Musicianship Training 4",
+      "credits": 2,
+      "category": "required",
+      "subgroup": "Musicianship"
+    },
+    {
+      "code": "MUSP 346",
+      "title": "Post-Tonal Musicianship",
+      "credits": 2,
+      "category": "required",
+      "subgroup": "Musicianship"
+    },
+    {
+      "code": "MUHL 286",
+      "title": "Critical Thinking About Music",
+      "credits": 3,
+      "category": "required",
+      "subgroup": "Music History"
+    },
+    {
+      "code": "MUIN 280",
+      "title": "BMus Practical Lessons 3",
+      "credits": 2.5,
+      "category": "required",
+      "subgroup": "Performance/practical lessons"
+    },
+    {
+      "code": "MUIN 281",
+      "title": "BMus Practical Lessons 4",
+      "credits": 2.5,
+      "category": "required",
+      "subgroup": "Performance/practical lessons"
+    },
+    {
+      "code": "MUIN 283",
+      "title": "BMus Concentration Final Examination",
+      "credits": 1,
+      "category": "required",
+      "subgroup": "Performance/practical lessons",
+      "catalog_availability": "not_currently_offered"
+    },
+    {
+      "code": "MUPD 235",
+      "title": "Music as a Profession 2",
+      "credits": 1,
+      "category": "required",
+      "subgroup": "Professional Development"
+    },
+    {
+      "code": "MUTH 202",
+      "title": "Modal Counterpoint 1",
+      "credits": 3,
+      "category": "complementary",
+      "subgroup": "Music Theory"
+    },
+    {
+      "code": "MUTH 204",
+      "title": "Tonal Counterpoint 1",
+      "credits": 3,
+      "category": "complementary",
+      "subgroup": "Music Theory"
+    },
+    {
+      "code": "MUHL 385",
+      "title": "Early Twentieth-Century Music",
+      "credits": 3,
+      "category": "complementary",
+      "subgroup": "Music History",
+      "catalog_availability": "not_currently_offered"
+    },
+    {
+      "code": "MUHL 391",
+      "title": "Canadian Music",
+      "credits": 3,
+      "category": "complementary",
+      "subgroup": "Music History",
+      "catalog_availability": "not_currently_offered"
+    },
+    {
+      "code": "MUHL 392",
+      "title": "Music since 1945",
+      "credits": 3,
+      "category": "complementary",
+      "subgroup": "Music History",
+      "catalog_availability": "not_currently_offered"
+    },
+    {
+      "code": "MUEN 563",
+      "title": "Jazz Vocal Workshop",
+      "credits": 2,
+      "category": "complementary",
+      "subgroup": "Performance/ensemble"
+    },
+    {
+      "code": "MUEN 572",
+      "title": "Cappella Antica",
+      "credits": 2,
+      "category": "complementary",
+      "subgroup": "Performance/ensemble"
+    },
+    {
+      "code": "MUEN 573",
+      "title": "Baroque Orchestra",
+      "credits": 2,
+      "category": "complementary",
+      "subgroup": "Performance/ensemble"
+    },
+    {
+      "code": "MUEN 587",
+      "title": "Cappella McGill",
+      "credits": 2,
+      "category": "complementary",
+      "subgroup": "Performance/ensemble",
+      "catalog_availability": "not_currently_offered"
+    },
+    {
+      "code": "MUEN 590",
+      "title": "McGill Wind Orchestra",
+      "credits": 2,
+      "category": "complementary",
+      "subgroup": "Performance/ensemble"
+    },
+    {
+      "code": "MUEN 592",
+      "title": "Chamber Jazz Ensemble",
+      "credits": 2,
+      "category": "complementary",
+      "subgroup": "Performance/ensemble"
+    },
+    {
+      "code": "MUEN 593",
+      "title": "Choral Ensembles",
+      "credits": 2,
+      "category": "complementary",
+      "subgroup": "Performance/ensemble"
+    },
+    {
+      "code": "MUEN 594",
+      "title": "Contemporary Music Ensemble",
+      "credits": 2,
+      "category": "complementary",
+      "subgroup": "Performance/ensemble"
+    },
+    {
+      "code": "MUEN 595",
+      "title": "Jazz Ensembles",
+      "credits": 2,
+      "category": "complementary",
+      "subgroup": "Performance/ensemble"
+    },
+    {
+      "code": "MUEN 597",
+      "title": "McGill Symphony Orchestra",
+      "credits": 2,
+      "category": "complementary",
+      "subgroup": "Performance/ensemble"
+    },
+    {
+      "code": "MUCO 542",
+      "title": "Advanced Digital Studio Composition 2",
+      "credits": 3,
+      "category": "recommended",
+      "subgroup": "Elective Courses (18 credits)"
+    },
+    {
+      "code": "MUHL 388",
+      "title": "Opera After 1900",
+      "credits": 3,
+      "category": "recommended",
+      "subgroup": "Elective Courses (18 credits)"
+    },
+    {
+      "code": "MUTH 302",
+      "title": "Modal Counterpoint 2",
+      "credits": 3,
+      "category": "recommended",
+      "subgroup": "Elective Courses (18 credits)",
+      "catalog_availability": "not_currently_offered"
+    },
+    {
+      "code": "MUTH 304",
+      "title": "Tonal Counterpoint 2",
+      "credits": 3,
+      "category": "recommended",
+      "subgroup": "Elective Courses (18 credits)"
+    },
+    {
+      "code": "MUTH 322",
+      "title": "Topics in Post-Tonal Analysis",
+      "credits": 3,
+      "category": "recommended",
+      "subgroup": "Elective Courses (18 credits)",
+      "catalog_availability": "not_currently_offered"
+    },
+    {
+      "code": "MUTH 528",
+      "title": "Schenkerian Theory and Analysis",
+      "credits": 3,
+      "category": "recommended",
+      "subgroup": "Elective Courses (18 credits)",
+      "catalog_availability": "not_currently_offered"
+    },
+    {
+      "code": "MUTH 538",
+      "title": "Mathematical Models for Musical Analysis",
+      "credits": 3,
+      "category": "recommended",
+      "subgroup": "Elective Courses (18 credits)",
+      "catalog_availability": "not_currently_offered"
+    },
+    {
+      "code": "MUTH 539",
+      "title": "Advanced Writing Techniques",
+      "credits": 3,
+      "category": "recommended",
+      "subgroup": "Elective Courses (18 credits)"
+    }
+  ]
+}

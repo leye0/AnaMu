@@ -20,9 +20,13 @@
 
 **Audits de cursus en cours :**
 [UdeM Composition A26](udem-curriculum-a26-audit.md),
-avec [inventaire structuré du catalogue](data/udem-composition-a26.json).
-Le relevé des codes et crédits n'est pas un plan de cours complet et
-ne ferme aucune case du TODO.
+avec [inventaire structuré](data/udem-composition-a26.json) ;
+[McGill Composition 2026](mcgill-curriculum-2026-audit.md),
+avec [relevé de ses exigences](data/mcgill-composition-2026.json) ;
+[Berklee Composition 2026F](berklee-curriculum-2026f-audit.md),
+avec [grille officielle structurée](data/berklee-composition-2026f.json).
+Les relevés des codes/crédits ne sont pas des plans de cours complets et
+ne ferment aucune case du TODO.
 
 **Ordre de priorité en cas de contradiction :** observations vérifiées et
 tests pour le constat > `OBJECTIVES.md` pour le but > référentiel universitaire

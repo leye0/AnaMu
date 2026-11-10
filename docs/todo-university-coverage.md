@@ -2,7 +2,10 @@
 
 **Unique liste de priorités du projet.** Objectif : analyser les œuvres
 avec la profondeur d'une formation universitaire complète en composition
-et orchestration, **avant** d'engager la composition automatique.
+et orchestration, **avant** d'engager la composition automatique. Notre cible
+est **l'union des contenus instructifs**, même optionnels, recommandés ou
+issus de spécialisations alternatives ; elle ne se limite pas aux cours
+qu'un étudiant doit suivre pour obtenir son diplôme.
 Référentiel et sources : [university-curriculum.md](university-curriculum.md).
 Principe expérimental : [research-evidence-gates.md](research-evidence-gates.md).
 
@@ -36,11 +39,13 @@ publiques ne sont pas une preuve de couverture exhaustive**.
 
 ## A. Inventaire des programmes et gouvernance de la couverture
 
-**Avancement sans case cochée :** le [premier audit UdeM A26](udem-curriculum-a26-audit.md)
-a répertorié les 190 cours visibles du catalogue, dont 22 obligatoires
-totalisant 63 crédits, avec blocs et crédits. A01 reste **ouvert** : choix,
-préalables, validation institutionnelle et plans détaillés sont encore
-incomplets. Ce travail ne satisfait pas encore A04, A05 ni la porte L.
+**Avancement sans case cochée :** les trois inventaires publics sont maintenant
+consultables : [UdeM A26](udem-curriculum-a26-audit.md) (190 cours),
+[McGill](mcgill-curriculum-2026-audit.md) (58 cours nommés dans les exigences)
+et [Berklee 2026F](berklee-curriculum-2026f-audit.md) (44 lignes de grille,
+dont des choix et pools). A01–A03 restent **ouverts** : préalables, options
+effectivement admissibles, validation institutionnelle et plans détaillés
+sont incomplets. Le travail n'a pas encore satisfait A04, A05 ni la porte L.
 
 - [ ] A01 — Geler les éditions et sauvegarder l'inventaire **complet** de tous les cours du B. Mus. Composition UdeM : obligatoires, blocs, options, crédits, préalables et spécialisations.
 - [ ] A02 — Faire de même pour le B. Mus. Composition McGill : exigences de majeure, tronc commun, groupes au choix, ensembles, perfectionnement instrumental et projet final.
@@ -54,6 +59,9 @@ incomplets. Ce travail ne satisfait pas encore A04, A05 ni la porte L.
 - [ ] A10 — Établir une gouvernance de revue par au moins un orchestrateur/enseignant et un analyste indépendant ; conserver désaccords et cas impossibles.
 - [ ] A11 — Documenter les droits d'accès, les licences et la provenance des syllabus, partitions, MIDI, annotations et enregistrements.
 - [ ] A12 — Auditer périodiquement les nouvelles éditions des trois programmes et ne jamais convertir une couverture partielle en pourcentage trompeur.
+- [ ] A13 — Explorer **tous les cours à option, complémentaires, recommandés et hors majeure accessibles** dans les catalogues musicaux des trois établissements, y compris les réserves de crédits ouvertes ; conserver les candidats non encore consultés.
+- [ ] A14 — Tenir un registre **cours optionnel → apprentissages distinctifs → décision d'inclusion motivée → compétences TODO**, y compris les cours de jazz, composition à l'image, acoustique/perception, électronique, direction, étude instrumentale et traditions variées ; démontrer les vrais doublons avant de les écarter.
+- [ ] A15 — Vérifier avec des spécialistes que l'union des cours inclus ne perd **aucune matière pertinente** du fait de contraintes de choix ou de spécialisation, et étendre B–J dès qu'un nouvel enseignement manque au référentiel.
 
 ## B. Lecture de partition, théorie élémentaire et fidélité de source
 
@@ -214,14 +222,14 @@ incomplets. Ce travail ne satisfait pas encore A04, A05 ni la porte L.
 - [ ] K06 — Mesurer précision/rappel lorsque pertinent, mais aussi fidélité d'explication, couverture, calibrage d'incertitude et erreurs graves.
 - [ ] K07 — Réaliser une expertise aveugle sur les analyses entières par plusieurs musicologues/orchestrateurs, documenter leurs désaccords et corriger les lacunes.
 - [ ] K08 — Démontrer que les opérations analytiques et contrefactuelles expliquent des choix **audibles et musicalement pertinents**, pas seulement des notes qui coïncident.
-- [ ] K09 — Auditer chaque chemin programme→cours→compétence→preuve : **zéro cours pertinent oublié, zéro case validée par simple présence de code**.
+- [ ] K09 — Auditer chaque chemin programme→cours→compétence→preuve, **obligatoire ou optionnel** : zéro cours pertinent oublié, zéro case validée par simple présence de code.
 - [ ] K10 — Auditer indépendamment les capacités pratiques/articulées par les cursus et inscrire les limites qui empêchent la revendication d'exhaustivité.
 - [ ] K11 — Rejouer tests, corpus indépendants, rapports d'erreurs, licences et analyses sans dépendance à une manipulation manuelle cachée.
 - [ ] K12 — Faire approuver le rapport de **couverture exhaustive** par des experts indépendants ; tant que l'avis est réservé, la porte reste fermée.
 
 ## L. Porte de passage à la composition (verrouillée)
 
-- [ ] L01 — Toutes les matrices des trois programmes, y compris options pertinentes, sont complètes, datées et auditées.
+- [ ] L01 — Toutes les matrices des trois programmes, y compris **tous les choix et cours optionnels apportant un savoir pertinent**, même hors parcours diplômant unique, sont complètes, datées et auditées ; les exclusions sont justifiées cours par cours.
 - [ ] L02 — Toutes les compétences B–J pertinentes sont évaluées avec preuves et limites acceptées par les experts ; aucun « ça devrait marcher ».
 - [ ] L03 — L'analyse intégrée K a réussi sur des œuvres **jamais utilisées** pour ajuster les règles, avec protocole d'écoute où nécessaire.
 - [ ] L04 — Un rapport expose honnêtement les compétences humaines non représentables et explique si elles bloquent toujours l'exhaustivité demandée.
