@@ -94,8 +94,8 @@ de son syllabus ; A13–A15 demeurent ouverts.
 
 - **UdeM** — quatre cours obligatoires avec exercices d’exemption spécifiques en harmonie et contrepoint. Deux cours optionnels d’analyse ont une piste de classement générale, encore au statut catalogue.
 - **McGill** — sept cours préparatoires avec des objectifs d’exemption historiques. Chercher les sources des sections actuelles et poursuivre par les cours obligatoires de composition.
-- **Berklee** — cinq plans publics d’équivalents en ligne reliés par le registraire aux codes du campus. Chercher les plans des sections du campus et poursuivre par la composition, l’orchestration et les options.
-- **Couverture** — 332 entrées suivies, dont 5 au statut syllabus documenté, 11 au statut partiel et 316 au statut catalogue. Aucune revue de couverture exhaustive effectuée et cinq ensembles d’options restent à déplier.
+- **Berklee** — cinq plans publics d’équivalents en ligne reliés par le registraire aux codes du campus. Seize fiches de Boston rattachées au registre signalent aussi des supports parallèles en composition, arrangement, solfège et musique à l’image. Chercher les plans des sections du campus.
+- **Couverture** — 332 entrées suivies, dont 5 au statut syllabus documenté, 27 au statut partiel et 300 au statut catalogue. Aucune revue de couverture exhaustive effectuée et cinq ensembles d’options restent à déplier.
 
 ## Phases suivantes — exigences pédagogiques à documenter après la collecte
 
