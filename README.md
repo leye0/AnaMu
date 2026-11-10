@@ -1,15 +1,31 @@
-# AnaMu — grammaire musicale explicable
+# AnaMu — connaissances musicales académiques et analyse explicable
 
-AnaMu vise une **analyse musicale de niveau universitaire, vérifiable et
-largement non fondée sur le machine learning**. Son objectif est de découvrir
-et décrire les règles d'organisation d'une œuvre : notes, rythmes, harmonie,
-voix, motifs, phrases, forme, instruments, orchestration et expression.
+**Notre objectif : construire un système qui sait analyser — puis,
+éventuellement, composer — de la musique parce qu'il dispose d'une immense
+base de connaissances académiques musicales.** Cette base doit résulter de
+la **mise en commun des enseignements de plusieurs programmes universitaires
+complets de composition**, plutôt que d'une collection d'astuces MIDI ou de
+mesures mathématiques déconnectées de l'écriture musicale.
+
+AnaMu doit extraire, rapprocher et relier les savoirs de théorie, harmonie,
+contrepoint, composition, orchestration, analyse, performance, perception,
+son et styles musicaux. Le moteur devra ensuite **mobiliser cette
+connaissance pour expliquer des œuvres inconnues**, en conservant ses preuves
+et ses incertitudes. Nous privilégions des mécanismes musicaux explicables ;
+le machine learning n'est pas une fin en soi.
 
 **Nous n'avons pas encore couvert exhaustivement un cursus universitaire.**
 Avant toute composition musicale générative, le projet doit auditer le
 contenu réel des programmes de **l'Université de Montréal, de McGill et de
-Berklee**, traiter et faire valider leurs compétences applicables. Une
+Berklee**, **y compris leurs enseignements optionnels et complémentaires**,
+puis construire et faire valider la base de connaissances et les capacités
+analytiques correspondantes. Une
 preuve mathématique isolée n'est pas un substitut à une analyse musicale.
+
+**État honnête :** les catalogues sont partiellement inventoriés, quelques
+concepts sont explorés dans le code, mais la **base académique unifiée n'est
+pas encore implémentée** et aucune compétence universitaire complète n'est
+certifiée. La composition générative demeure explicitement verrouillée.
 
 Ce projet **n'est plus centré sur la prédiction de l'émotion « mystérieuse »**.
 Les anciens outils de classification émotionnelle ne définissent plus son
@@ -17,18 +33,23 @@ architecture ni ses objectifs.
 
 ## Lire le projet
 
+**Nouveau contributeur ou agent autonome : commence impérativement par
+[AGENTS.md](AGENTS.md)**, qui fixe l'ordre de lecture et les règles de preuve.
+
 1. **[Objectifs et critères de réussite](docs/OBJECTIVES.md)** — le contrat de
    recherche, les axes de musique étudiés et ce que nous refusons d'inférer.
-2. **[Cursus universitaires et exigences d'exhaustivité](docs/university-curriculum.md)**
+2. **[Base de connaissances académique](docs/knowledge-base.md)** — comment
+   réunir les cursus en concepts musicaux communs, reliés et traçables.
+3. **[Cursus universitaires et exigences d'exhaustivité](docs/university-curriculum.md)**
    — sources primaires, couverture vérifiable, interdiction de composer prématurément.
-3. **[TODO exhaustif avec cases à cocher](docs/todo-university-coverage.md)**
+4. **[TODO exhaustif avec cases à cocher](docs/todo-university-coverage.md)**
    — seule liste active de travaux, **aucune case validée à ce jour**.
-4. **[Architecture académique de la grammaire](docs/music-grammar-research-program.md)**
+5. **[Architecture académique de la grammaire](docs/music-grammar-research-program.md)**
    — ontologie, sources, opérateurs et fondements théoriques.
-5. **[État des mécanismes mesurés](docs/roadmap.md)** — ce qui existe et ses limites.
-6. **[Index documentaire](docs/README.md)** — documents actifs et études
+6. **[État des mécanismes mesurés](docs/roadmap.md)** — ce qui existe et ses limites.
+7. **[Index documentaire](docs/README.md)** — documents actifs et études
    scientifiques pertinentes à la grammaire.
-7. **[Analyse contrefactuelle et orchestration](docs/composition-grammar.md)**
+8. **[Analyse contrefactuelle et orchestration](docs/composition-grammar.md)**
    — diagnostics de règles existantes ; aucune création libre avant le verrou.
 
 ## Trois sources, trois types de vérité

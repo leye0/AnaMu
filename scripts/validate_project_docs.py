@@ -132,9 +132,27 @@ def university_coverage_issues(todo_text: str) -> list[str]:
     for course in ("MTE 2114", "MUCO 460", "CM-441"):
         if course not in todo_text:
             issues.append(f"university TODO missing curriculum anchor: {course}")
-    for code in ("A13", "A14", "A15"):
+    for code in ("A13", "A14", "A15", "A16", "A17", "A18"):
         if code not in codes:
-            issues.append(f"university TODO missing optional-knowledge audit gate: {code}")
+            issues.append(f"university TODO missing academic knowledge-base gate: {code}")
+    if "K13" not in codes:
+        issues.append("university TODO missing knowledge-to-analysis integration gate: K13")
+    return issues
+
+
+def agent_onboarding_issues(text: str) -> list[str]:
+    """Guard the standalone onboarding contract against mission drift."""
+    issues: list[str] = []
+    required_links = ("README.md", "docs/OBJECTIVES.md", "docs/knowledge-base.md",
+                      "docs/university-curriculum.md", "docs/todo-university-coverage.md",
+                      "docs/roadmap.md", "docs/research-evidence-gates.md")
+    for path in required_links:
+        if f"]({path})" not in text:
+            issues.append(f"agent onboarding missing canonical document: {path}")
+    for concept in ("base unifiée de connaissances", "programmes universitaires",
+                    "analyser", "composer", "optionnels", "L01–L05"):
+        if concept not in text:
+            issues.append(f"agent onboarding missing mission guardrail: {concept}")
     return issues
 
 
@@ -201,7 +219,8 @@ def broken_local_links(markdown_file: Path) -> list[str]:
 
 def validate(root: Path = ROOT) -> list[str]:
     errors = []
-    required = [root / "README.md", root / "docs/OBJECTIVES.md",
+    required = [root / "README.md", root / "AGENTS.md",
+                root / "docs/OBJECTIVES.md", root / "docs/knowledge-base.md",
                 root / "docs/roadmap.md", root / "docs/README.md",
                 root / "docs/university-curriculum.md",
                 root / "docs/todo-university-coverage.md",
@@ -218,6 +237,9 @@ def validate(root: Path = ROOT) -> list[str]:
             errors.append(f"missing required documentation: {path}")
     if (root / "docs/archive").exists():
         errors.append("obsolete documentation archive must not exist")
+    agents_file = root / "AGENTS.md"
+    if agents_file.is_file():
+        errors.extend(agent_onboarding_issues(agents_file.read_text(encoding="utf-8")))
     todo = root / "docs/todo-university-coverage.md"
     if todo.is_file():
         errors.extend(university_coverage_issues(todo.read_text(encoding="utf-8")))
@@ -246,7 +268,7 @@ def validate(root: Path = ROOT) -> list[str]:
                 register, todo.read_text(encoding="utf-8") if todo.is_file() else "", mcgill))
         except (json.JSONDecodeError, ValueError, TypeError) as exc:
             errors.append(f"optional knowledge register invalid: {exc}")
-    for md in [root / "README.md", *sorted((root / "docs").rglob("*.md"))]:
+    for md in [root / "README.md", root / "AGENTS.md", *sorted((root / "docs").rglob("*.md"))]:
         if md.is_file():
             errors.extend(broken_local_links(md))
     return errors

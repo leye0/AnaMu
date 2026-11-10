@@ -28,11 +28,18 @@ expériences G0–G2 demeurent documentées dans
 Les études empiriques accessibles via [l'index](README.md) restent des
 **références**, pas des validations des couches intégrées.
 
+**Absence architecturale majeure :** les catalogues universitaires sont
+inventoriés en partie, mais la [base de connaissances académiques unifiée](knowledge-base.md)
+— concepts réconciliés, prérequis, exemples et provenance multi-cursus —
+**n'est pas encore implémentée**. Les primitives G0–G3 existantes ne
+constituent pas un moteur sachant mobiliser ce patrimoine.
+
 ## Prochaine vraie priorité
 
-**A01–A12 : terminer l'inventaire vérifiable des trois programmes** avant de
-choisir un nouvel algorithme. Il faudra ensuite construire la matrice
-`cours → objectif pédagogique → compétence analysable → preuve`
+**A01–A18 : approfondir les contenus des trois programmes, toutes options
+pertinentes comprises, puis construire la connaissance commune** avant de
+choisir un nouvel algorithme. Il faudra constituer la matrice
+`cours → chapitre/objectif → concept unifié → compétence analysable → preuve`
 et traiter les lacunes en suivant le [TODO](todo-university-coverage.md).
 L'ordre des expériences dépendra des *manques du cursus*, des prérequis
 musicaux et des jeux de référence, pas de la facilité à écrire un script.
