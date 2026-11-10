@@ -94,10 +94,13 @@ de son syllabus ; A13–A15 demeurent ouverts.
 
 ### Collecte des liens — 10 novembre 2026
 
+- **Orchestration et ensembles à McGill** — [MUCO 360](courses/mcgill/MUCO-360.md) dispose d’un sujet d’orchestration et de traces d’une section 2020. Huit options d’ensemble disposent de programmes de concert ou de consignes d’audition. Les pistes vers MUCO 261 et MUCO 460 et les exemples de classement supérieur en théorie restent au statut catalogue.
+- **Sciences et sciences sociales à Berklee** — les fiches [LMSC-xxx](courses/berklee/LMSC-xxx.md) et [LSOC-xxx](courses/berklee/LSOC-xxx.md) pointent vers des plans en douze leçons, avec les conditions d’équivalence du registraire. Elles suivent des familles qui restent ouvertes.
+
 - **UdeM** — quatre cours obligatoires avec exercices d’exemption spécifiques en harmonie et contrepoint. Deux cours optionnels d’analyse ont une piste de classement générale, encore au statut catalogue.
 - **McGill** — sept cours préparatoires avec des objectifs d’exemption historiques. Chercher les sources des sections actuelles et poursuivre par les cours obligatoires de composition.
 - **Berklee** — cinq plans publics d’équivalents en ligne reliés par le registraire aux codes du campus. Seize fiches de Boston rattachées au registre signalent aussi des supports parallèles en composition, arrangement, solfège et musique à l’image. Chercher les plans des sections du campus.
-- **Couverture** — 332 entrées suivies, dont 5 au statut syllabus documenté, 27 au statut partiel et 300 au statut catalogue. Aucune revue de couverture exhaustive effectuée et cinq ensembles d’options restent à déplier.
+- **Couverture** — 332 entrées suivies, dont 5 au statut syllabus documenté, 36 au statut partiel et 291 au statut catalogue. Aucune revue de couverture exhaustive effectuée et cinq ensembles d’options restent à déplier.
 
 ## Phases suivantes — exigences pédagogiques à documenter après la collecte
 
