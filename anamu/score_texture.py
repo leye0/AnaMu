@@ -37,6 +37,9 @@ class WrittenNote:
     onset_quarters: Fraction  # within this measure, not seconds
     duration_quarters: Fraction
     written_midi_pitch: int
+    written_step: str  # diatonic notation, not inferred from MIDI pitch class
+    written_alter: int  # semitones: C-sharp vs D-flat must remain distinct
+    written_octave: int
     sounding_midi_pitch: int  # score <transpose> is applied, when present
     staff: str | None
     voice: str | None
@@ -190,12 +193,18 @@ def score_texture_from_mxl(mxl_bytes: bytes) -> ScoreTextureEvidence:
                             unpitched += 1
                         continue
                     written = _pitch_midi(pitch)
+                    written_step = _text(pitch, "step")
+                    written_alter = int(Fraction(_text(pitch, "alter") or "0"))
+                    written_octave = _required_int(_text(pitch, "octave"),
+                                                   "missing_musicxml_octave")
                     notes.append(WrittenNote(
                         source_note_id=f"{part_id}:{measure_index}:{note_index}",
                         part_id=part_id, measure_index=measure_index,
                         measure_number=measure.get("number", ""),
                         onset_quarters=onset, duration_quarters=duration,
-                        written_midi_pitch=written,
+                        written_midi_pitch=written, written_step=written_step,
+                        written_alter=written_alter,
+                        written_octave=written_octave,
                         sounding_midi_pitch=written + transposition,
                         staff=_text(element, "staff"), voice=_text(element, "voice"),
                         tied=bool(_children(element, "tie")),

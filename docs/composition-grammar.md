@@ -200,6 +200,67 @@ orthographe enharmonique ou fonction de dominante n'est inférée ;
 aucune continuité automatique des tenues entre mesures ni reprise
 dépliée ; il s'agit de **partition notée**, pas de son acoustique.
 
+## 3 quater. Passages et broderies : l'harmonie n'est pas une liste de notes fixes
+
+L'analyse contrapuntique distingue une **figure mélodique** d'une
+**note étrangère à un accord** : une ligne peut traverser les sons de
+l'harmonie, retarder une résolution ou former une dissonance intentionnelle.
+Les API de [music21, `ThreeNoteLinearSegment` et `VerticalityTriplet`](https://music21.org/music21docs/moduleReference/moduleVoiceLeading.html)
+séparent précisément la configuration linéaire de la justification
+verticale ; le **nom et l'orthographe diatonique** des notes comptent.
+
+`anamu/score_texture.py` garde maintenant le nom écrit (`C`, `D`, etc.),
+l'altération et l'octave, en plus de la hauteur MIDI et de la
+transposition sonnante. `anamu/orchestral_ornaments.py` repère des groupes
+de **trois notes conjointes**, sur la même partie, voix et portée :
+
+- `diatonic_passing_figure` : deux pas diatoniques successifs dans la même
+  direction, chacun d'un ou deux demi-tons (ex. do–ré–mi) ;
+- `diatonic_neighbor_figure` : un pas, puis retour **à la même note
+  écrite**, sans équivalence enharmonique forcée (ex. do–ré–do).
+
+Les trois attaques doivent être consécutives, leurs durées doivent
+s'enchaîner et rester dans la même mesure ; les accords simultanés dans
+la partie et les fragments liés sont exclus. Aucune analyse des
+accentuations métriques ou des notes chromatiques de passage n'est
+revendiquée.
+
+En parallèle, l'algorithme regarde **les autres parties** aux trois
+instants. Il marque un **candidat de soutien orchestral stable** seulement
+si leurs classes de hauteur ne changent pas, si elles contiennent les
+classes des deux notes extrêmes et si celle de la note centrale en est
+absente. Cela *n'établit toujours pas une harmonie fonctionnelle*.
+
+| Partition | Figures strictes | Passages | Broderies | Accompagnement inchangé | Soutien strict aux deux extrêmes |
+|---|---:|---:|---:|---:|---:|
+| Beethoven 5/I | 118 | 71 | 47 | 0 | 0 |
+| Beethoven 7/II | 753 | 638 | 115 | 69 | 9 |
+
+Exemple inspectable dans Beethoven 7/II : un pupitre écrit **si–la–sol**
+en transposant, ce qui sonne **sol♯–fa♯–mi**, tandis que les autres
+pupitres tiennent les classes **mi–sol♯–si**. L'algorithme observe une
+figure de passage avec soutien stable ; seul un analyste disposant du
+contexte peut affirmer si le fa♯ agit comme *note étrangère*.
+
+Les [conventions de DCML](https://dcmlab.github.io/standards/build/html/reference/reference.html)
+annotent notamment les retards et certaines additions, **mais pas
+systématiquement les broderies et notes de passage ordinaires**. Elles
+ne pourront donc **pas** servir de vérité positive exhaustive pour ce
+détecteur : il faudra des annotations adaptées ou une vérification
+experte indépendante. Les fenêtres de trois notes peuvent se recouvrir,
+et leur nombre ne prouve pas la qualité d'un arrangement.
+
+```bash
+python -m scripts.orchestral_ornament_probe --top 3
+python -m unittest tests.test_orchestral_ornaments -v
+```
+
+**Lien génératif recherché (pas encore réalisé) :** reconnaître un
+geste *note d'appui → note de passage → arrivée*, puis construire ou
+retirer une telle élaboration en conservant harmonie, accent, ligne,
+articulation et intention de phrase. Comparer ensuite des versions
+réellement interprétées, et non des taux de coïncidence de notes.
+
 ## 4. Ce qu'il faut encore prouver pour éviter le « AI slop »
 
 1. **Vérité orchestrale** : comparer les rôles identifiés à des annotations

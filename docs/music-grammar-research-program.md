@@ -65,6 +65,14 @@ n'est ni une fonction harmonique ni une preuve qu'une variante
 épreuve perceptive distincte. Voir
 [l'expérience mesurée](composition-grammar.md).
 
+`anamu/orchestral_ornaments.py` met ensuite les **figures linéaires de
+passage et de broderie** en relation avec la stabilité des autres
+pupitres. Ces hypothèses sont notées à partir de **pas diatoniques
+orthographiés** ; il serait incorrect de conclure qu'une note est
+harmoniquement étrangère sans connaître l'accord sous-jacent et son
+contexte. Le référentiel DCML ne couvre pas systématiquement ces
+ornements, malgré ses précieuses annotations de fonctions et de retards.
+
 ## 4. Grammaire formelle : graphe d'événements et arbres coexistants
 
 Une simple CFG sur une chaîne de notes serait inadéquate : le temps musical comporte des chevauchements, plusieurs voix et des dépendances non emboîtées. Proposer une **grammaire typée à contraintes**, produisant un **graphe temporel d'évidence** et plusieurs **arbres d'analyse** spécifiques à chaque axe.
