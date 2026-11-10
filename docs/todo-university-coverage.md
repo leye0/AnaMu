@@ -100,10 +100,12 @@ de son syllabus ; A13–A15 demeurent ouverts.
 - **UdeM** — quatre cours obligatoires avec exercices d’exemption spécifiques en harmonie et contrepoint. Deux cours optionnels d’analyse ont une piste de classement générale, encore au statut catalogue.
 - **McGill** — sept cours préparatoires avec des objectifs d’exemption historiques. Chercher les sources des sections actuelles et poursuivre par les cours obligatoires de composition.
 - **Berklee** — cinq plans publics d’équivalents en ligne reliés par le registraire aux codes du campus. Seize fiches de Boston rattachées au registre signalent aussi des supports parallèles en composition, arrangement, solfège et musique à l’image. Chercher les plans des sections du campus.
-- **Couverture** — 332 entrées suivies, dont 9 syllabus documentés, 62 au statut partiel et 261 au statut catalogue. Cinq ensembles d’options restent à déplier. Le [relevé des options de majeure Berklee](berklee-major-elective-candidates.md) donne 83 codes, dont 70 à vérifier avant intégration au registre.
+- **Couverture** — 332 entrées suivies, dont 10 syllabus documentés, 82 au statut partiel et 240 au statut catalogue. Cinq ensembles d’options restent à déplier. Le [relevé des options de majeure Berklee](berklee-major-elective-candidates.md) donne 83 codes, dont 70 à vérifier avant intégration au registre.
 - **Cours ciblés dans cette passe** — études dirigées et projet final à Berklee avec programme du concert de 2022 et accès au portfolio réservé aux membres de Berklee. Clavier, solfège et analyse classique avec plans parallèles. Acoustique et traitement du son à l’UdeM, puis orchestration, contrepoint et studio à McGill avec supports externes dont la provenance est explicitée dans chaque fiche.
 
 - **Plans UdeM** — treize fiches ajoutées. Quatre syllabus portent les sigles cibles, dont deux plans A26 et deux plans historiques. Neuf fiches conservent des plans-cadres, des documents abrégés ou des preuves ciblées dont les limites sont précisées. La [piste institutionnelle](course-material-source-trail.md#udem--plans-de-séminaires-et-éditions) donne les éditions et la prochaine source à examiner.
+
+- **Harmonie, écoute et composition** — les preuves nouvelles concernent 21 entrées auparavant au statut catalogue. Le [plan conjoint UdeM MUS 3329X / 6329X](courses/udem/MUS-3329X.md) détaille le projet et ses évaluations. Les plans d’harmonie de Berklee Online ont été distingués des sections Boston, et les descriptions McGill de travaux, lectures ou exercices ont été rattachées à leurs sigles quand l’affichage de section le permettait.
 
 ## Phases suivantes — exigences pédagogiques à documenter après la collecte
 
