@@ -34,3 +34,16 @@ Plusieurs pages du catalogue McGill n’exposaient que l’écran JavaScript ou 
 ## Berklee · options de majeure
 
 La [page officielle des exigences du B.Mus. Composition](https://college.berklee.edu/program-requirements/composition-bachelors-degree) donne les familles CM, CP, COND, MLAN et MHIS non déjà suivies dans la majeure et cite aussi CW-247, CW-257, ENCL-406, ENCL-407, ILPN-210, IN-495, PSVC-343 et SW-345. C’est une règle d’admissibilité pour déplier les options de majeure. La prochaine étape est de croiser ces familles et codes avec la grille 2026F et les [fiches du catalogue](https://college.berklee.edu/courses), puis de chercher leurs plans pédagogiques. Les réserves d’options générales et d’arts libéraux restent ouvertes.
+
+| Option nommée | Contenu annoncé dans la notice officielle |
+|---|---|
+| [CW-247](https://college.berklee.edu/courses/cw-247) | Familles des flûtes, clarinettes et anches doubles. Écoutes, transcriptions, démonstrations et écriture avec superposition sonore et improvisation. |
+| [CW-257](https://college.berklee.edu/courses/cw-257) | Orchestration de théâtre musical pour soutenir le chant, établir une époque et servir le récit. Écoutes et consultation de réductions piano et de parties. |
+| [ENCL-406](https://college.berklee.edu/courses/encl-406) | Atelier d’ensemble avec improvisation dirigée, partitions graphiques, microtons, hasard et techniques étendues. Une partition pour l’ensemble par semaine et création finale. |
+| [ENCL-407](https://college.berklee.edu/courses/encl-407) | Atelier et interprétation en grand ensemble de musique de concert contemporaine. Rôles de régie, bibliothèque et enregistrement. Écriture facultative. |
+| [ILPN-210](https://college.berklee.edu/courses/ilpn-210) | Réharmonisation gospel au clavier à partir d’approches de Cory Henry, Glenn Gibson Jr. et Michael Bereal. |
+| [IN-495](https://www.berklee.edu/courses/in-495) | Stage de 140 heures minimum sur au moins dix semaines, avec objectifs personnalisés et évaluations du superviseur. Matière variable selon le stage. |
+| [PSVC-343](https://college.berklee.edu/courses/PSVC-343) | Atelier de coaching vocal théâtral. Analyse du texte et du personnage, action dramatique, style vocal, choix de tonalité et simulations d’audition avec accompagnateur. |
+| [SW-345](https://college.berklee.edu/courses/sw-345) | Écriture collaborative de chansons de théâtre. Construction du personnage, dialogues parlés et chantés, adaptation dramatique et présentation avec interprètes. |
+
+Les huit fiches sont des notices officielles. Les plans et exercices distribués restent à localiser. Le pool demeure ouvert tant que les familles de sigles et les conditions d’admissibilité n’ont pas été dépliées pour l’édition visée.
