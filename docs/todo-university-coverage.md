@@ -36,6 +36,12 @@ publiques ne sont pas une preuve de couverture exhaustive**.
 
 ## A. Inventaire des programmes et gouvernance de la couverture
 
+**Avancement sans case cochée :** le [premier audit UdeM A26](udem-curriculum-a26-audit.md)
+a répertorié les 190 cours visibles du catalogue, dont 22 obligatoires
+totalisant 63 crédits, avec blocs et crédits. A01 reste **ouvert** : choix,
+préalables, validation institutionnelle et plans détaillés sont encore
+incomplets. Ce travail ne satisfait pas encore A04, A05 ni la porte L.
+
 - [ ] A01 — Geler les éditions et sauvegarder l'inventaire **complet** de tous les cours du B. Mus. Composition UdeM : obligatoires, blocs, options, crédits, préalables et spécialisations.
 - [ ] A02 — Faire de même pour le B. Mus. Composition McGill : exigences de majeure, tronc commun, groupes au choix, ensembles, perfectionnement instrumental et projet final.
 - [ ] A03 — Faire de même pour le B. Mus. Composition Berklee : majeure, core, liberal arts, options, projects, ensemble, conducting et senior portfolio.
