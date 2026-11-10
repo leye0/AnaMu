@@ -1,6 +1,6 @@
 # AnaMu Grammar — programme d'analyse musicologique formelle
 
-**Direction adoptée le 9 novembre 2026.** Statut : **spécification de recherche**, et non affirmation que toutes les couches sont implémentées. Le but normatif figure dans [OBJECTIVES.md](OBJECTIVES.md) et l'état mesuré dans [roadmap.md](roadmap.md). Ce document complète les expériences antérieures (émotion, tension, attente) et définit le **cœur recherché** d'AnaMu : expliquer l'organisation d'une œuvre, sa partition, sa réalisation et sa matière sonore par des relations hiérarchiques vérifiables, avec le minimum d'apprentissage statistique.
+**Direction adoptée le 9 novembre 2026.** Statut : **spécification de recherche**, et non affirmation que toutes les couches sont implémentées. Le but normatif figure dans [OBJECTIVES.md](OBJECTIVES.md) et l'état mesuré dans [roadmap.md](roadmap.md). Ce document définit le **cœur recherché** d'AnaMu : expliquer l'organisation d'une œuvre, sa partition, sa réalisation et sa matière sonore par des relations hiérarchiques vérifiables, avec le minimum d'apprentissage statistique.
 
 ## 1. Ambition et critères scientifiques
 
@@ -219,8 +219,8 @@ On peut constater **`SEQUENCE`** (notes disjointes, jointives ou non) et
 **`PARALLEL`** (durées chevauchantes), sans décider à cette étape que des
 notes superposées forment un « accord », une « voix » ou une phrase.
 Un premier **`TRANSFORM` exact** prouve transposition et facteur commun
-d'allongement/raccourcissement dans deux séquences *déjà appariées* ; il
-ne recherche pas encore les motifs, il ne les étiquette pas comme thèmes
+d'allongement/raccourcissement dans deux séquences *déjà appariées* ; pris
+seul, G1 ne recherche pas les motifs ni ne les étiquette comme thèmes
 et refuse tout appariement de percussion en intervalles tonals. Aucune
 fonction de style, de tonalité, de dynamique, de résolution, d'alignement
 partition-performance-audio, de groupement hiérarchique (`GROUP`) ou de
@@ -231,6 +231,34 @@ Les tests énumèrent les **13 cas**, vérifient exhaustivement sur un petit
 domaine la partition et l'inversion des relations, puis l'invariance sous
 translation et dilatation temporelle. Tests et CI :
 `tests/test_grammar_relations.py`, `.github/workflows/grammar-g1-relations.yml`.
+
+### G2.2 : prototype de découvertes structurales exactes (10 novembre 2026)
+
+L'étude de [Meredith, Wiggins et Lemström, *Pattern Induction and Matching in
+Polyphonic Music and Other Multidimensional Datasets*](https://titanmusic.com/papers/public/sci2001-final.pdf)
+montre une approche géométrique de la recherche de répétitions en musique
+polyphonique. **AnaMu n'implémente pas SIA ou SIATEC** et n'en reprend pas
+la revendication de complétude : son prototype examine uniquement de
+**petites fenêtres d'attaques consécutives** dans chaque couple
+`(MIDI track, MIDI channel)`.
+
+`anamu/grammar_motifs.py` construit une signature entière qui conserve
+la multiplicité des notes à une attaque, les intervalles relatifs, les
+durées de touche et les distances temporelles, modulo translation de
+hauteur, décalage temporel et facteur temporel **uniforme positif**. Il
+regroupe les occurrences avec répétition temporelle non chevauchante et
+vérifie leurs correspondances note à note par des preuves `TRANSFORM` G1
+indexées. Les sorties sont **`structural_candidate`**, jamais « thème
+confirmé ». Les pistes MIDI ne deviennent pas des voix par décret.
+
+Tests : transposition, augmentation, polyphonie, récurrence inter-pistes,
+faux positifs d'inversion et de rythme local altéré, doublon simultané,
+percussions et budgets ; plus deux mouvements orchestraux réels sans
+vérité terrain de motifs humains. L'outil
+`python -m scripts.g2_motif_probe --top 3` émet un inventaire JSON, avec
+références de provenance, **aucune métrique de justesse musicologique**.
+Les prochaines étapes restent l'alignement des partitions, les annotations
+humaines et les baselines négatives avant toute affirmation de qualité.
 
 **Politique de travail** : le projet traite *tous* les aspects dans la conception des données et de l'API, mais ne déclare chaque mécanisme « implémenté » qu'après une extraction conservatrice et une vérification pertinente. Le programme de classification de « mystérieux » est abandonné ; les études portant directement sur une cible musicale vérifiable peuvent servir de témoins indépendants, sans dicter la structure de la grammaire.
 

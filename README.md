@@ -40,11 +40,15 @@ plusieurs analyses possibles, sans inventer de certitude.
 - **G1 partiel** : relations temporelles exactes d'Allen,
   `SEQUENCE`/`PARALLEL` et transformations déterministes avec correspondances
   fournies (`anamu/grammar_relations.py`).
+- **G2 exploratoire** : repérage autonome de répétitions exactement
+  transposées et/ou dilatées dans des fenêtres d'attaques MIDI, avec
+  provenance et preuves `TRANSFORM` G1 (`anamu/grammar_motifs.py`). Les
+  groupements sont **candidats**, pas des thèmes ou phrases reconnus.
 - **Corpus orchestral** : deux mouvements de symphonies Beethoven, leurs MIDI,
   deux partitions MusicXML de référence, manifestes avec licences et SHA-256.
 - **Contrôle des sources** : comparaison des familles instrumentales déclarées
   dans les deux éditions (`anamu/score_inventory.py`).
-- **Non implémenté** : repérage autonome fiable des voix, motifs, phrases,
+- **Non implémenté** : repérage autonome **validé** des voix, motifs, phrases,
   fonctions harmoniques, formes, timbres et expressions perceptives ; couches
   partition/performance/audio alignées.
 
@@ -59,6 +63,7 @@ les partitions déclarent des cors et trompettes. Il s'agit d'un écart de
 ```bash
 python -m pip install 'mido>=1.3,<2'
 python -m unittest discover -s tests -p 'test_grammar_*.py'
+python -m scripts.g2_motif_probe --top 3
 python -m unittest discover -s tests -p test_orchestral_grammar_probe.py
 python -m unittest discover -s tests -p test_score_inventory.py
 python scripts/orchestral_grammar_probe.py

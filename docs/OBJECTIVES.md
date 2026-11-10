@@ -84,8 +84,8 @@ masquer la provenance ou remplacer l'évaluation humaine indépendante.
 | Couche | Objectif | État actuel / seuil de validation |
 |---|---|---|
 | **G0 — preuves** | Conserver MIDI, notation, performance et audio comme vues distinctes | MIDI fiable pour les messages et notes non ambiguës ; inventaire MusicXML partiel. Multi-vues et alignements encore absents |
-| **G1 — relations** | Ordre, simultanéité, alignement, transformations et dépendances explicites | Relations d'Allen et transformations exactes vérifiées ; `ALIGN`, `GROUP`, `DEPEND` non implémentés |
-| **G2 — groupements et motifs** | Détecter répétitions, variantes, voix et frontières concurrentes | À construire ; doit affronter annotations indépendantes, ablations et témoins simples |
+| **G1 — relations** | Ordre, simultanéité, alignement, transformations et dépendances explicites | Relations d'Allen et transformations exactes vérifiées ; `ALIGN`, `DEPEND` et `GROUP` hiérarchique non implémentés |
+| **G2 — groupements et motifs** | Détecter répétitions, variantes, voix et frontières concurrentes | Prototype de répétitions exactes par fenêtres MIDI, statut **candidat structurel** seulement. Voix, frontières, arbres et validation humaine indépendante manquants |
 | **G3 — harmonie et voix** | Accords, tonalité, fonctions, conduite des voix et couches orchestrales | Travaux séparés exploratoires ; pas de grammaire intégrée ou évaluée |
 | **G4 — phrases et forme** | Hiérarchies musicales, développement et reprise | Non implémenté |
 | **G5 — interprétation et son** | Tempo expressif, articulations, nuances, timbres et enveloppes | Sources et limites spécifiées ; pas d'inférence audio/partition alignée validée |
