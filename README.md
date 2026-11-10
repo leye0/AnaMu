@@ -19,6 +19,9 @@ architecture ni ses objectifs.
    manquants, prochaine expérience G2.
 4. **[Index documentaire](docs/README.md)** — documents actifs et études
    scientifiques pertinentes à la grammaire.
+5. **[Grammaire de composition et orchestration](docs/composition-grammar.md)**
+   — comment tester la valeur constructive des découvertes, jusqu'aux
+   contre-épreuves d'écoute.
 
 ## Trois sources, trois types de vérité
 
@@ -44,6 +47,10 @@ plusieurs analyses possibles, sans inventer de certitude.
   transposées et/ou dilatées dans des fenêtres d'attaques MIDI, avec
   provenance et preuves `TRANSFORM` G1 (`anamu/grammar_motifs.py`). Les
   groupements sont **candidats**, pas des thèmes ou phrases reconnus.
+- **Orchestration notée exploratoire** : lecture MusicXML des hauteurs
+  écrites/sonnantes, doublures strictes entre pupitres, et prédiction
+  contrefactuelle de notes masquées (`anamu/score_texture.py`,
+  `anamu/orchestral_counterfactual.py`). Pas encore de jugement esthétique.
 - **Corpus orchestral** : deux mouvements de symphonies Beethoven, leurs MIDI,
   deux partitions MusicXML de référence, manifestes avec licences et SHA-256.
 - **Contrôle des sources** : comparaison des familles instrumentales déclarées
@@ -64,6 +71,7 @@ les partitions déclarent des cors et trompettes. Il s'agit d'un écart de
 python -m pip install 'mido>=1.3,<2'
 python -m unittest discover -s tests -p 'test_grammar_*.py'
 python -m scripts.g2_motif_probe --top 3
+python -m scripts.orchestral_doubling_probe --top 3
 python -m unittest discover -s tests -p test_orchestral_grammar_probe.py
 python -m unittest discover -s tests -p test_score_inventory.py
 python scripts/orchestral_grammar_probe.py
