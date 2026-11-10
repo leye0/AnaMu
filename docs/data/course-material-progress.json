@@ -85,8 +85,8 @@
         "material_file": "docs/courses/udem/MUS-1300.md"
       },
       "MUS 1321": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/udem/MUS-1321.md"
       },
       "MUS 3101X": {
         "status": "catalog_only",
@@ -847,12 +847,12 @@
         "material_file": null
       },
       "MUCO 341": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/mcgill/MUCO-341.md"
       },
       "MUCO 342": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/mcgill/MUCO-342.md"
       },
       "MUCO 360": {
         "status": "partially_documented",
@@ -871,8 +871,8 @@
         "material_file": "docs/courses/mcgill/MUCO-460.md"
       },
       "MUCO 541": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/mcgill/MUCO-541.md"
       },
       "MUCO 575": {
         "status": "catalog_only",
@@ -1356,7 +1356,8 @@
       "group": "major",
       "label": "Options de majeure",
       "credits": 8,
-      "status": "course_choices_not_fully_identified"
+      "status": "course_choices_not_fully_identified",
+      "candidate_inventory": "docs/berklee-major-elective-candidates.md"
     },
     {
       "institution": "Berklee",
