@@ -1,0 +1,1211 @@
+{
+  "schema_version": 1,
+  "program_id": "udem-bmus-composition-a26",
+  "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+  "catalog_version": "10 (A26)",
+  "catalog_last_modified": "2026-11-10",
+  "total_credits": 90,
+  "mandatory_credits": 63,
+  "optional_credits": 27,
+  "status": "public_catalog_course_inventory_only_syllabi_not_audited",
+  "blocks": [
+    {
+      "code": "75A",
+      "type": "obligatoire",
+      "min_credits": 63,
+      "max_credits": 63,
+      "listed_courses": 22
+    },
+    {
+      "code": "75B",
+      "type": "option",
+      "min_credits": 6,
+      "max_credits": 9,
+      "listed_courses": 6
+    },
+    {
+      "code": "75C",
+      "type": "option_specialisation",
+      "min_credits": 6,
+      "max_credits": 6,
+      "listed_courses": 6
+    },
+    {
+      "code": "75D",
+      "type": "option",
+      "min_credits": 0,
+      "max_credits": 6,
+      "listed_courses": 21
+    },
+    {
+      "code": "75E",
+      "type": "option",
+      "min_credits": 0,
+      "max_credits": 6,
+      "listed_courses": 16
+    },
+    {
+      "code": "75F",
+      "type": "option",
+      "min_credits": 0,
+      "max_credits": 6,
+      "listed_courses": 15
+    },
+    {
+      "code": "75G",
+      "type": "option",
+      "min_credits": 0,
+      "max_credits": 3,
+      "listed_courses": 8
+    },
+    {
+      "code": "75H",
+      "type": "option",
+      "min_credits": 0,
+      "max_credits": 4,
+      "listed_courses": 96
+    }
+  ],
+  "courses": [
+    {
+      "code": "MCT 1601",
+      "title": "Composition instrumentale 1",
+      "credits": 3,
+      "block": "75A"
+    },
+    {
+      "code": "MCT 1602",
+      "title": "Composition instrumentale 2",
+      "credits": 3,
+      "block": "75A"
+    },
+    {
+      "code": "MCT 3011",
+      "title": "Composition tonale 1",
+      "credits": 3,
+      "block": "75A"
+    },
+    {
+      "code": "MCT 3012",
+      "title": "Composition tonale 2",
+      "credits": 3,
+      "block": "75A"
+    },
+    {
+      "code": "MTE 1110",
+      "title": "Contrepoint 1",
+      "credits": 3,
+      "block": "75A"
+    },
+    {
+      "code": "MTE 1111",
+      "title": "Contrepoint 2",
+      "credits": 3,
+      "block": "75A"
+    },
+    {
+      "code": "MTE 1205",
+      "title": "Analyse d'oeuvres du 20e siècle 1",
+      "credits": 3,
+      "block": "75A"
+    },
+    {
+      "code": "MTE 1206",
+      "title": "Analyse d'oeuvres du 20e siècle 2",
+      "credits": 3,
+      "block": "75A"
+    },
+    {
+      "code": "MTE 1220",
+      "title": "Harmonie 1",
+      "credits": 3,
+      "block": "75A"
+    },
+    {
+      "code": "MTE 1221",
+      "title": "Harmonie 2",
+      "credits": 3,
+      "block": "75A"
+    },
+    {
+      "code": "MTE 1403",
+      "title": "Composition contemporaine 1",
+      "credits": 3,
+      "block": "75A"
+    },
+    {
+      "code": "MTE 1404",
+      "title": "Composition contemporaine 2",
+      "credits": 3,
+      "block": "75A"
+    },
+    {
+      "code": "MTE 1503",
+      "title": "Composition électroacoustique",
+      "credits": 3,
+      "block": "75A"
+    },
+    {
+      "code": "MTE 2114",
+      "title": "Orchestration 1",
+      "credits": 3,
+      "block": "75A"
+    },
+    {
+      "code": "MTE 2115",
+      "title": "Orchestration 2",
+      "credits": 3,
+      "block": "75A"
+    },
+    {
+      "code": "MUL 1117",
+      "title": "Histoire de la musique contemporaine",
+      "credits": 3,
+      "block": "75A"
+    },
+    {
+      "code": "MUS 1300",
+      "title": "Acoustique musicale",
+      "credits": 3,
+      "block": "75A"
+    },
+    {
+      "code": "MUS 1321",
+      "title": "Analyse, synthèse et traitement des sons",
+      "credits": 3,
+      "block": "75A"
+    },
+    {
+      "code": "MUS 3101X",
+      "title": "Composition spectrale et algorithmique 1",
+      "credits": 3,
+      "block": "75A"
+    },
+    {
+      "code": "MUS 3324X",
+      "title": "Création musicale en langage graphique",
+      "credits": 3,
+      "block": "75A"
+    },
+    {
+      "code": "MUS 3411",
+      "title": "Forum de composition 1",
+      "credits": 1.5,
+      "block": "75A"
+    },
+    {
+      "code": "MUS 3412",
+      "title": "Forum de composition 2",
+      "credits": 1.5,
+      "block": "75A"
+    },
+    {
+      "code": "MUS 1011",
+      "title": "Solfège et dictée 1",
+      "credits": 1.5,
+      "block": "75B"
+    },
+    {
+      "code": "MUS 1012",
+      "title": "Solfège et dictée 2",
+      "credits": 1.5,
+      "block": "75B"
+    },
+    {
+      "code": "MUS 1013",
+      "title": "Solfège et dictée 3",
+      "credits": 1.5,
+      "block": "75B"
+    },
+    {
+      "code": "MUS 1014",
+      "title": "Solfège et dictée 4",
+      "credits": 1.5,
+      "block": "75B"
+    },
+    {
+      "code": "MUS 1015",
+      "title": "Solfège et dictée 5",
+      "credits": 1.5,
+      "block": "75B"
+    },
+    {
+      "code": "MUS 1016",
+      "title": "Solfège et dictée 6",
+      "credits": 1.5,
+      "block": "75B"
+    },
+    {
+      "code": "MCT 1603",
+      "title": "Composition instrumentale 3",
+      "credits": 3,
+      "block": "75C"
+    },
+    {
+      "code": "MCT 1604",
+      "title": "Composition instrumentale 4",
+      "credits": 3,
+      "block": "75C"
+    },
+    {
+      "code": "MCT 1701",
+      "title": "Composition mixte 1",
+      "credits": 3,
+      "block": "75C"
+    },
+    {
+      "code": "MCT 1702",
+      "title": "Composition mixte 2",
+      "credits": 3,
+      "block": "75C"
+    },
+    {
+      "code": "MCT 1801",
+      "title": "Composition pour l'image 1",
+      "credits": 3,
+      "block": "75C"
+    },
+    {
+      "code": "MCT 1802",
+      "title": "Composition pour l'image 2",
+      "credits": 3,
+      "block": "75C"
+    },
+    {
+      "code": "HAR 1200",
+      "title": "Introduction à l'art moderne",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "HAR 2195",
+      "title": "Art, culture et identité au Québec",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "HAR 3900",
+      "title": "Art et théorie",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "MUL 1105",
+      "title": "Histoire de la musique baroque",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "MUL 1106",
+      "title": "Histoire de la musique classique",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "MUL 1107",
+      "title": "Histoire de la musique romantique",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "MUL 1115",
+      "title": "Histoire de la musique du Moyen-Âge à la Renaissance",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "MUL 1116",
+      "title": "Histoire de la musique moderne",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "MUL 1134",
+      "title": "Introduction à la musicologie",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "MUL 1245",
+      "title": "Esthétique musicale",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "MUL 1246",
+      "title": "Appréciation musicale des musiques du monde",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "MUL 2115",
+      "title": "Histoire et analyse du jazz - Origines",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "MUL 2116",
+      "title": "Histoire et analyse du jazz - 1930 à 1945",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "MUL 2117",
+      "title": "Histoire et analyse du jazz - 1940 à 1959",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "MUL 2118",
+      "title": "Histoire et analyse du jazz de 1960 à aujourd'hui",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "MUL 3314",
+      "title": "Introduction à l'ethnomusicologie",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "MUL 3333X",
+      "title": "Courants historiques en musique, art et société",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "MUL 3334",
+      "title": "Introduction à la sociomusicologie",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "MUL 3344",
+      "title": "Sociomusicologie contemporaine",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "SOL 1017",
+      "title": "Théories contemporaines",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "SOL 3410",
+      "title": "Technosciences, culture et société",
+      "credits": 3,
+      "block": "75D"
+    },
+    {
+      "code": "MCT 3511X",
+      "title": "Techniques de composition pour l'image 1",
+      "credits": 3,
+      "block": "75E"
+    },
+    {
+      "code": "MCT 3512X",
+      "title": "Techniques de composition pour l'image 2",
+      "credits": 3,
+      "block": "75E"
+    },
+    {
+      "code": "MTE 12041",
+      "title": "Analyse du discours harmonique tonal 1",
+      "credits": 0,
+      "block": "75E"
+    },
+    {
+      "code": "MTE 12042",
+      "title": "Analyse du discours harmonique tonal 2",
+      "credits": 6,
+      "block": "75E"
+    },
+    {
+      "code": "MTE 1315",
+      "title": "Harmonie jazz 1",
+      "credits": 3,
+      "block": "75E"
+    },
+    {
+      "code": "MTE 1316",
+      "title": "Harmonie jazz 2",
+      "credits": 3,
+      "block": "75E"
+    },
+    {
+      "code": "MTE 2110",
+      "title": "Contrepoint 3",
+      "credits": 3,
+      "block": "75E"
+    },
+    {
+      "code": "MTE 2111",
+      "title": "Contrepoint 4",
+      "credits": 3,
+      "block": "75E"
+    },
+    {
+      "code": "MTE 2210",
+      "title": "Analyse musicale 1",
+      "credits": 3,
+      "block": "75E"
+    },
+    {
+      "code": "MTE 2211",
+      "title": "Analyse musicale 2",
+      "credits": 3,
+      "block": "75E"
+    },
+    {
+      "code": "MTE 2315",
+      "title": "Arrangement jazz 1",
+      "credits": 3,
+      "block": "75E"
+    },
+    {
+      "code": "MTE 2316",
+      "title": "Arrangement jazz 2",
+      "credits": 3,
+      "block": "75E"
+    },
+    {
+      "code": "MTE 3114",
+      "title": "Orchestration 3",
+      "credits": 3,
+      "block": "75E"
+    },
+    {
+      "code": "MTE 3115",
+      "title": "Orchestration 4",
+      "credits": 3,
+      "block": "75E"
+    },
+    {
+      "code": "MTE 3115X",
+      "title": "Orchestration 4",
+      "credits": 3,
+      "block": "75E"
+    },
+    {
+      "code": "MUS 3321",
+      "title": "Psychoacoustique musicale",
+      "credits": 3,
+      "block": "75E"
+    },
+    {
+      "code": "MTE 3300",
+      "title": "Analyse de la musique électroacoustique",
+      "credits": 3,
+      "block": "75F"
+    },
+    {
+      "code": "MUS 1217",
+      "title": "Typologie et morphologie sonores",
+      "credits": 3,
+      "block": "75F"
+    },
+    {
+      "code": "MUS 1330",
+      "title": "Enregistrement: fondements et techniques",
+      "credits": 3,
+      "block": "75F"
+    },
+    {
+      "code": "MUS 1331",
+      "title": "Enregistrement en studio et mixage",
+      "credits": 3,
+      "block": "75F"
+    },
+    {
+      "code": "MUS 2325",
+      "title": "Prise de son créative",
+      "credits": 3,
+      "block": "75F"
+    },
+    {
+      "code": "MUS 2327",
+      "title": "Création sonore jeux vidéo 1",
+      "credits": 3,
+      "block": "75F"
+    },
+    {
+      "code": "MUS 2328",
+      "title": "Création sonore jeux vidéo 2",
+      "credits": 3,
+      "block": "75F"
+    },
+    {
+      "code": "MUS 3127X",
+      "title": "Création de maquettes MIDI orchestrales",
+      "credits": 3,
+      "block": "75F"
+    },
+    {
+      "code": "MUS 3314X",
+      "title": "Musique visuelle 1",
+      "credits": 3,
+      "block": "75F"
+    },
+    {
+      "code": "MUS 3315X",
+      "title": "Musique visuelle 2",
+      "credits": 3,
+      "block": "75F"
+    },
+    {
+      "code": "MUS 3322X",
+      "title": "Acoustique des instruments de musique",
+      "credits": 3,
+      "block": "75F"
+    },
+    {
+      "code": "MUS 3323",
+      "title": "Musique de création et technologies",
+      "credits": 3,
+      "block": "75F"
+    },
+    {
+      "code": "MUS 3326X",
+      "title": "Création musicale en langage textuel",
+      "credits": 3,
+      "block": "75F"
+    },
+    {
+      "code": "MUS 3328X",
+      "title": "Lutherie numérique et systèmes interactifs",
+      "credits": 3,
+      "block": "75F"
+    },
+    {
+      "code": "MUS 3329X",
+      "title": "Projet en informatique musicale",
+      "credits": 3,
+      "block": "75F"
+    },
+    {
+      "code": "MUS 1232",
+      "title": "Introduction à la musicothérapie",
+      "credits": 3,
+      "block": "75G"
+    },
+    {
+      "code": "MUS 4101",
+      "title": "Atelier de médiation de la musique 1",
+      "credits": 1,
+      "block": "75G"
+    },
+    {
+      "code": "MUS 4102",
+      "title": "Atelier de médiation de la musique 2",
+      "credits": 1,
+      "block": "75G"
+    },
+    {
+      "code": "MUS 4103",
+      "title": "Atelier d'enregistrement audionumérique",
+      "credits": 1,
+      "block": "75G"
+    },
+    {
+      "code": "MUS 4104",
+      "title": "Atelier audiovisuel en musique",
+      "credits": 1,
+      "block": "75G"
+    },
+    {
+      "code": "MUS 4105",
+      "title": "Communications numériques en musique",
+      "credits": 1,
+      "block": "75G"
+    },
+    {
+      "code": "MUS 4106",
+      "title": "Atelier de médiation de la musique 3",
+      "credits": 1,
+      "block": "75G"
+    },
+    {
+      "code": "PLU 2800U",
+      "title": "Stage RECI en musique",
+      "credits": 3,
+      "block": "75G"
+    },
+    {
+      "code": "EMU 1310",
+      "title": "Technique de direction",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "EMU 2312",
+      "title": "Technique de direction – étude de la partition",
+      "credits": 2,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1151",
+      "title": "Atelier de musique baroque",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1152",
+      "title": "Atelier de musique baroque",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1153",
+      "title": "Atelier de musique baroque",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1161",
+      "title": "Atelier de musique contemporaine 1",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1162",
+      "title": "Atelier de musique contemporaine 2",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1171",
+      "title": "Atelier de percussion",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1172",
+      "title": "Atelier de percussion",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1173",
+      "title": "Atelier de percussion",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1191",
+      "title": "Ensemble claviers",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1192",
+      "title": "Ensemble claviers",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1193",
+      "title": "Ensemble claviers",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1211",
+      "title": "Ensemble cuivres",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1212",
+      "title": "Ensemble cuivres",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1213",
+      "title": "Ensemble cuivres",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1221",
+      "title": "Ensemble flûtes",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1222",
+      "title": "Ensemble flûtes",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1223",
+      "title": "Ensemble flûtes",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1231",
+      "title": "Ensemble guitares",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1232",
+      "title": "Ensemble guitares",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1233",
+      "title": "Ensemble guitares",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1241",
+      "title": "Ensemble musique de chambre",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1242",
+      "title": "Ensemble musique de chambre",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1243",
+      "title": "Ensemble musique de chambre",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1251",
+      "title": "Ensemble d'instruments à vent",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1252",
+      "title": "Ensemble d'instruments à vent",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1253",
+      "title": "Ensemble d'instruments à vent",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1261",
+      "title": "Ensemble",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1262",
+      "title": "Ensemble",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1263",
+      "title": "Ensemble",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1271",
+      "title": "Quatuor de saxophones",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1272",
+      "title": "Quatuor de saxophones",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1273",
+      "title": "Quatuor de saxophones",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1281",
+      "title": "Chorale",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1282",
+      "title": "Chorale",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1283",
+      "title": "Chorale",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1341",
+      "title": "Gamelan",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1342",
+      "title": "Gamelan",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1343",
+      "title": "Gamelan",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1361",
+      "title": "Chorale jazz",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1362",
+      "title": "Chorale jazz",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1363",
+      "title": "Chorale jazz",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1381",
+      "title": "Ensemble clarinettes",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1382",
+      "title": "Ensemble clarinettes",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1383",
+      "title": "Ensemble clarinettes",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1431",
+      "title": "Harmonie de concert",
+      "credits": 2,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1441",
+      "title": "Orchestre",
+      "credits": 2,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1491",
+      "title": "Atelier d'improvisation",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1492",
+      "title": "Atelier d'improvisation",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1493",
+      "title": "Atelier d'improvisation",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1531",
+      "title": "Ensemble de musique traditionnelle",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1532",
+      "title": "Ensemble de musique traditionnelle",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1571",
+      "title": "Ensemble de cors",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1572",
+      "title": "Ensemble de cors",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1573",
+      "title": "Ensemble de cors",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1621",
+      "title": "Ensemble électroacoustique 1",
+      "credits": 2,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 1622",
+      "title": "Ensemble électroacoustique 2",
+      "credits": 2,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 2351",
+      "title": "Atelier - arts performatifs 1",
+      "credits": 1,
+      "block": "75H"
+    },
+    {
+      "code": "MUE 2352",
+      "title": "Atelier - arts performatifs 2",
+      "credits": 2,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1023A",
+      "title": "Flûte baroque 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1033A",
+      "title": "Flûte à bec 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1043A",
+      "title": "Hautbois baroque 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1053A",
+      "title": "Luth 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1073A",
+      "title": "Violon baroque 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1083A",
+      "title": "Viole de gambe 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1103A",
+      "title": "Alto 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1123A",
+      "title": "Basson 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1132A",
+      "title": "Chant 1",
+      "credits": 2,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1143A",
+      "title": "Clarinette 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1153A",
+      "title": "Clavecin 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1162A",
+      "title": "Connaissance du clavier 1",
+      "credits": 2,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1173A",
+      "title": "Contrebasse 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1183A",
+      "title": "Cor 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1193A",
+      "title": "Flûte traversière 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1203A",
+      "title": "Guitare 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1213A",
+      "title": "Harpe 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1223A",
+      "title": "Hautbois 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1233A",
+      "title": "Orgue 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1243A",
+      "title": "Percussion 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1253A",
+      "title": "Piano 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1263A",
+      "title": "Saxophone 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1273A",
+      "title": "Trombone 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1283A",
+      "title": "Trompette 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1293A",
+      "title": "Tuba 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1303A",
+      "title": "Violon 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1313A",
+      "title": "Violoncelle 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1403A",
+      "title": "Basse électrique 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1413A",
+      "title": "Batterie 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1423A",
+      "title": "Chant jazz 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1453A",
+      "title": "Guitare jazz 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1463A",
+      "title": "Piano jazz 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1473A",
+      "title": "Saxophone jazz 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1483A",
+      "title": "Trompette jazz 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1523A",
+      "title": "Trombone jazz 1",
+      "credits": 3,
+      "block": "75H"
+    },
+    {
+      "code": "MUI 1533A",
+      "title": "Contrebasse jazz 1",
+      "credits": 3,
+      "block": "75H"
+    }
+  ]
+}

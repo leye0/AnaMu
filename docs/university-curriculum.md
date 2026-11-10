@@ -35,6 +35,13 @@ déclarées « faites » par assimilation à une mesure numérique.
 | [McGill, Schulich, B. Mus. Composition](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) | 124 crédits annoncés ; groupes de cours et options à réconcilier | MUTH 150/151/251/350 théorie/analyse ; MUTH 202/204 contrepoint ; MUCO 241/242 écriture tonale ; MUCO 245/246 composition XXe/XXIe ; MUCO 261/360/460 orchestration ; MUCO 341/342/541 studio numérique ; MUSP formation musicale |
 | [Berklee College of Music, B. Mus. Composition (catalogue automne 2024)](https://college.berklee.edu/composition/bachelor-of-music-in-composition) | 120 crédits ; tronc commun, majeure, options, portefeuille final | CM-221 écriture tonale ; CP-215 contrepoint ; MLAN-311/312 analyse ; CM-311/312 techniques contemporaines ; CM-231 instrumentation ; CM-441 orchestre complet ; ET-231/232 solfège ; MHIS-251/252 histoire ; projets et portfolio |
 
+**Premier audit effectif :** le [catalogue UdeM A26](udem-curriculum-a26-audit.md)
+est maintenant extrait en [190 entrées structurées](data/udem-composition-a26.json),
+dont 22 cours obligatoires / 63 crédits ; leur correspondance aux
+familles du TODO est **préliminaire**. Ni les plans de cours détaillés,
+ni les branches réellement suivies, ni les cursus McGill/Berklee ne sont
+encore inventoriés de manière équivalente.
+
 Ce tableau représente des **repères attestés dans les catalogues**,
 non la totalité de leurs cours, lectures, exercices, critères d'évaluation,
 branches optionnelles et savoirs tacites. Certains cours peuvent être

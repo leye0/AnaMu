@@ -18,6 +18,12 @@
 8. **[composition-grammar.md](composition-grammar.md)** — contre-épreuves
    analytiques d'orchestration ; résultats mesurés et critères d'écoute.
 
+**Audits de cursus en cours :**
+[UdeM Composition A26](udem-curriculum-a26-audit.md),
+avec [inventaire structuré du catalogue](data/udem-composition-a26.json).
+Le relevé des codes et crédits n'est pas un plan de cours complet et
+ne ferme aucune case du TODO.
+
 **Ordre de priorité en cas de contradiction :** observations vérifiées et
 tests pour le constat > `OBJECTIVES.md` pour le but > référentiel universitaire
 pour le périmètre > TODO pour les travaux à accomplir > `roadmap.md` pour

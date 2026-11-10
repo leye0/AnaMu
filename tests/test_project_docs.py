@@ -1,8 +1,13 @@
+import json
 import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.validate_project_docs import broken_local_links, university_coverage_issues
+from scripts.validate_project_docs import (
+    broken_local_links,
+    university_catalog_issues,
+    university_coverage_issues,
+)
 
 
 class DocumentationLinkTests(unittest.TestCase):
@@ -35,6 +40,25 @@ class DocumentationLinkTests(unittest.TestCase):
         modified = text.replace("- [ ] L05", "- [x] L05", 1)
         self.assertTrue(any("composition gate L cannot open" in issue
                             for issue in university_coverage_issues(modified)))
+
+    def test_udem_public_catalog_census_is_complete_and_explicitly_unreviewed(self):
+        root = Path(__file__).resolve().parents[1]
+        catalog = json.loads((root / "docs/data/udem-composition-a26.json")
+                             .read_text(encoding="utf-8"))
+        self.assertEqual(university_catalog_issues(catalog), [])
+        courses = {course["code"]: course for course in catalog["courses"]}
+        self.assertEqual(courses["MTE 12041"]["credits"], 0)
+        self.assertEqual(courses["MTE 2114"]["block"], "75A")
+        self.assertEqual(courses["MUS 3127X"]["block"], "75F")
+        self.assertEqual(courses["EMU 1310"]["block"], "75H")
+
+    def test_udem_catalog_cannot_lose_a_required_course(self):
+        root = Path(__file__).resolve().parents[1]
+        catalog = json.loads((root / "docs/data/udem-composition-a26.json")
+                             .read_text(encoding="utf-8"))
+        catalog["courses"] = [c for c in catalog["courses"] if c["code"] != "MTE 2114"]
+        self.assertTrue(any("22 courses / 63 credits" in issue
+                            for issue in university_catalog_issues(catalog)))
 
 
 if __name__ == "__main__":
