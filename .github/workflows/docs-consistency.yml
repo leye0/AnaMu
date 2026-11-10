@@ -3,6 +3,7 @@ name: AnaMu - documentation consistency
 on:
   push:
     paths:
+      - 'AGENTS.md'
       - 'README.md'
       - 'docs/**'
       - 'scripts/validate_project_docs.py'
@@ -10,6 +11,7 @@ on:
       - '.github/workflows/docs-consistency.yml'
   pull_request:
     paths:
+      - 'AGENTS.md'
       - 'README.md'
       - 'docs/**'
       - 'scripts/validate_project_docs.py'

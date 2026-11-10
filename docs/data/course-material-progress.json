@@ -1,0 +1,1391 @@
+{
+  "schema_version": 1,
+  "phase": "course_material_collection",
+  "last_inventory_review": "2026-11-10",
+  "definitions": {
+    "catalog_only": "Course is named in a source catalog, but its actual syllabus/topics/exercises have not been documented.",
+    "partially_documented": "A source-backed course-material note exists, but some taught topics remain unknown.",
+    "syllabus_documented": "A detailed syllabus or equivalent verified content has been examined and linked; not proof of mastery.",
+    "blocked": "Detailed course content is not accessible; reason must be recorded."
+  },
+  "source_catalogs": {
+    "udem": "docs/data/udem-composition-a26.json",
+    "mcgill": "docs/data/mcgill-composition-2026.json",
+    "berklee": "docs/data/berklee-composition-2026f.json",
+    "other_options": "docs/data/optional-knowledge-seeds-2026.json"
+  },
+  "courses": {
+    "udem": {
+      "MCT 1601": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MCT 1602": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MCT 3011": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MCT 3012": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 1110": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 1111": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 1205": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 1206": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 1220": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 1221": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 1403": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 1404": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 1503": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 2114": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 2115": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUL 1117": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 1300": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 1321": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 3101X": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 3324X": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 3411": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 3412": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 1011": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 1012": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 1013": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 1014": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 1015": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 1016": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MCT 1603": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MCT 1604": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MCT 1701": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MCT 1702": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MCT 1801": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MCT 1802": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "HAR 1200": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "HAR 2195": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "HAR 3900": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUL 1105": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUL 1106": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUL 1107": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUL 1115": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUL 1116": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUL 1134": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUL 1245": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUL 1246": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUL 2115": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUL 2116": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUL 2117": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUL 2118": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUL 3314": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUL 3333X": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUL 3334": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUL 3344": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "SOL 1017": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "SOL 3410": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MCT 3511X": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MCT 3512X": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 12041": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 12042": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 1315": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 1316": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 2110": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 2111": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 2210": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 2211": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 2315": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 2316": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 3114": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 3115": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 3115X": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 3321": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTE 3300": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 1217": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 1330": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 1331": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 2325": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 2327": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 2328": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 3127X": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 3314X": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 3315X": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 3322X": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 3323": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 3326X": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 3328X": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 3329X": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 1232": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 4101": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 4102": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 4103": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 4104": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 4105": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUS 4106": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "PLU 2800U": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "EMU 1310": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "EMU 2312": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1151": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1152": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1153": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1161": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1162": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1171": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1172": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1173": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1191": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1192": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1193": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1211": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1212": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1213": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1221": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1222": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1223": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1231": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1232": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1233": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1241": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1242": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1243": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1251": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1252": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1253": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1261": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1262": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1263": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1271": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1272": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1273": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1281": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1282": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1283": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1341": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1342": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1343": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1361": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1362": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1363": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1381": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1382": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1383": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1431": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1441": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1491": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1492": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1493": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1531": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1532": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1571": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1572": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1573": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1621": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 1622": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 2351": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUE 2352": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1023A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1033A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1043A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1053A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1073A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1083A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1103A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1123A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1132A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1143A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1153A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1162A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1173A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1183A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1193A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1203A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1213A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1223A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1233A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1243A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1253A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1263A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1273A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1283A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1293A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1303A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1313A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1403A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1413A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1423A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1453A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1463A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1473A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1483A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1523A": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUI 1533A": {
+        "status": "catalog_only",
+        "material_file": null
+      }
+    },
+    "mcgill": {
+      "MUHL 186": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUIN 180": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUIN 181": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUPD 135": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUSP 140": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUSP 141": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUSP 170": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUSP 171": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUTH 150": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUTH 151": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUCO 241": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUCO 242": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUCO 245": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUCO 246": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUCO 261": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUCO 340D1": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUCO 340D2": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUCO 341": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUCO 342": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUCO 360": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUCO 440D1": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUCO 440D2": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUCO 460": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUCO 541": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUCO 575": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUTH 251": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUTH 350": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUSP 240": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUSP 241": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUSP 346": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUHL 286": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUIN 280": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUIN 281": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUIN 283": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUPD 235": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUTH 202": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUTH 204": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUHL 385": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUHL 391": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUHL 392": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUEN 563": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUEN 572": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUEN 573": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUEN 587": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUEN 590": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUEN 592": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUEN 593": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUEN 594": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUEN 595": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUEN 597": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUCO 542": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUHL 388": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUTH 302": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUTH 304": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUTH 322": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUTH 528": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUTH 538": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MUTH 539": {
+        "status": "catalog_only",
+        "material_file": null
+      }
+    },
+    "berklee": {
+      "ISKB-211": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "ISKB-212": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CM-221": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CP-215": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CM-231": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MLAN-311": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CM-311": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CM-312": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CM-441": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MLAN-312": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CM-398": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CM-497": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CM-498": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CM-490": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "ET-231": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "ET-232": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "COND-211": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "COND-216": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "COND-212": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "COND-217": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "LMSC-xxx": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "LSOC-xxx": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "ASOC-xxx": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MHIS-251": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MHIS-252": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "Lxxx-xxx": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "Axxx-xxx": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "PIxx-111": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "PIxx-112": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "PIxx-211": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "PIxx-212": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "ILxx": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "ENxx": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "PW-111": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "AR-111": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "AR-123": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "HR-112": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "HR-114": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "HR-211": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "HR-213": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "HR-215": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "HR-212": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "HR-214": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "HR-216": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "ET-111": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "ET-112": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "ET-123": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CM-211": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CM-212": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CP-210": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTEC-111": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "MTEC-122": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "LENS-10x": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "LHUM-400": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "LENG-111": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "LENG-223": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "LHIS-xxx": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "AHIS-xxx": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "AFST-221": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "LVIS-xxx": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "LMAS-xxx": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "AMAS-xxx": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CM-103": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CM-225": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CM-227": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CM-261": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CM-280": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "AR-201": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "AR-228": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "AR-323": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "AR-331": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "AR-340": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CM-320": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CM-373": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CM-375": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "CM-385": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "FILM-200": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "FILM-205": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "FILM-207": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "FILM-343": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "FILM-351": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "FILM-405": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "FILM-407": {
+        "status": "catalog_only",
+        "material_file": null
+      },
+      "FILM-433": {
+        "status": "catalog_only",
+        "material_file": null
+      }
+    }
+  },
+  "unresolved_course_pools": [
+    {
+      "institution": "Berklee",
+      "group": "major",
+      "label": "Options de majeure",
+      "credits": 8,
+      "status": "course_choices_not_fully_identified"
+    },
+    {
+      "institution": "Berklee",
+      "group": "major_specific_core_and_liberal_arts",
+      "label": "Options de sciences humaines/Africana Studies",
+      "credits": 6,
+      "status": "course_choices_not_fully_identified"
+    },
+    {
+      "institution": "Berklee",
+      "group": "general_electives",
+      "label": "Options générales",
+      "credits": 7,
+      "status": "course_choices_not_fully_identified"
+    },
+    {
+      "institution": "McGill",
+      "group": "elective_free",
+      "label": "Open music/other elective credit choices",
+      "credits": 15,
+      "status": "course_choices_not_fully_identified"
+    },
+    {
+      "institution": "UdeM",
+      "group": "options_outside_listed_blocks",
+      "label": "Review additional eligible subjects and editions",
+      "credits": null,
+      "status": "course_choices_not_fully_identified"
+    }
+  ],
+  "policy": "Each course needs a source-cited material_file before status can progress beyond catalog_only. Unresolved pools block exhaustive coverage. Prioritize the first incomplete course; continue to the next after documenting the outcome."
+}

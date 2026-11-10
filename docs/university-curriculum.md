@@ -3,18 +3,22 @@
 **Statut : contrat de couverture à établir, pas certification d'exhaustivité.**
 Le [TODO de couverture](todo-university-coverage.md) est la seule liste à cocher
 des travaux nécessaires. Les [objectifs](OBJECTIVES.md) fixent la finalité et
-les [règles de preuve](research-evidence-gates.md) fixent les validations.
+le [protocole de collecte](course-material-collection.md) fixe les preuves
+nécessaires pour affirmer qu'un cours est réellement documenté.
+Le [registre cours par cours](data/course-material-progress.json) indique
+la prochaine matière à rechercher et les pools d'options encore ouverts.
 La [base de connaissances académiques](knowledge-base.md) définit **le produit
 à constituer à partir des cursus** : cours et syllabus sont des sources, les
 concepts musicaux réconciliés sont le patrimoine exploitable par AnaMu.
 
 ## 1. La décision fondamentale
 
-Nous faisons du **reverse engineering analytique de l'écriture musicale** :
-pour chaque savoir effectivement enseigné en composition, harmonie,
-contrepoint, orchestration, analyse et interprétation, retrouver dans les
-œuvres des observations, des relations, des hypothèses alternatives et des
-explications contrôlables. Le savoir musical prime sur les jolies statistiques.
+**Maintenant, nous reconstruisons d'abord la matière des cours.** Pour
+chaque savoir effectivement enseigné en composition, harmonie,
+contrepoint, orchestration, analyse et interprétation, recueillir les
+objectifs, chapitres, exercices et références. **Ensuite seulement**, nous
+chercherons comment reconnaître ces composants dans des œuvres MIDI
+existantes. Le savoir musical prime sur les jolies statistiques.
 
 **Le résultat central attendu n'est pas trois diplômes copiés ni trois
 collections séparées de règles : c'est une immense connaissance unifiée**,
@@ -23,10 +27,9 @@ doit pouvoir invoquer cette connaissance commune pour justifier ses
 interprétations. Une variation de tradition ou de style reste une relation
 documentée, jamais écrasée au nom de l'uniformisation.
 
-**Aucune composition originale automatisée ne sera entreprise tant que la
-couverture universitaire n'aura pas été auditée intégralement.** Les petites
-reconstructions de notes masquées déjà présentes restent des **tests
-diagnostiques** de règles analytiques, et non un chantier de création.
+**Aucun développement d'analyseur ni composition originale automatisée
+ne sera entrepris pendant la collecte intégrale du contenu des cours.**
+Le passage à une phase technique exige une décision explicite de Léon.
 
 « Exhaustif » ne veut pas dire « nous avons nommé beaucoup de sujets » :
 cela veut dire qu'un inventaire de cours **et de leur contenu réel** a été
@@ -119,68 +122,27 @@ généraux**. Il reste à explorer les catalogues complets derrière les
 réserves ouvertes : ces chiffres sont des **points de départ, pas des
 plafonds de connaissances**.
 
-## 3. Grille commune pour traduire un cours en analyse
+## 3. Travail immédiat : connaître vraiment chaque cours
 
-Pour chaque compétence `C` et chacun des programmes pertinents, établir
-d'abord une **entrée dans la base de connaissances commune** : identifiant
-stable, objectif réellement enseigné, sources multiples, prérequis, contexte,
-relations, divergences et exemples. Cette étape précède le mécanisme
-informatique. Ensuite :
+Pour chaque ligne de ces catalogues, appliquer
+[le protocole d'acquisition](course-material-collection.md) et établir :
 
-1. **Savoir enseigné :** référence précise au cours, chapitre, exercice,
-   répertoire et conventions stylistiques ; distinguer prescription
-   pédagogique et propriété descriptive d'une œuvre.
-2. **Question analytique :** que doit savoir expliquer un musicologue ou
-   un orchestrateur dans une partition *inconnue* ?
-3. **Observables requis :** notes écrites/sonnantes, voix, rythmes,
-   indications, audio, annotations et leur provenance ; ce qui manque
-   reste inconnu.
-4. **Hypothèses :** unités et relations musicales interprétables,
-   alternatives, dépendances contextuelles et désaccords expertisés.
-5. **Diagnostic :** épreuve positive, faux-ami négatif, contre-exemple
-   stylistique et ablation/contre-factuel **analytique**, pas morceau généré.
-6. **Évaluation :** corpus tenu à l'écart, référence humaine indépendante,
-   baselines, couverture, cas non résolus et erreurs par famille ; pour
-   un phénomène timbral/acoustique, preuve audio, pas MIDI seul.
-7. **Conformité :** statut `non abordé / candidat / testé / expertisé / validé`.
-   Une case TODO n'est cochée que lorsque **toutes** les preuves de cette
-   compétence sont localisées, reproductibles et approuvées.
+1. **Le contenu réellement enseigné** : syllabus, chapitres, objectifs,
+   lectures, exercices, œuvres citées et critères d'évaluation.
+2. **La source exacte** : établissement, édition, lien ou ouvrage, section
+   et droits d'utilisation. Une description publique ne remplace pas un plan.
+3. **La couverture des options** : vérifier les cours derrière les blocs
+   de choix, les recommandations, les spécialités voisines et les contenus
+   qui n'apparaissent que dans une branche du programme.
+4. **Les inconnues** : documents introuvables, contenu partiel, variantes
+   de cours et comparabilité incertaine entre éditions.
+5. **L'apport pédagogique distinctif** : ne pas fusionner deux matières
+   parce que leurs titres semblent équivalents ; relever d'abord les
+   apprentissages et exceptions de chacune.
 
-Exemple : un module repérant trois notes conjointes n'a **pas** couvert
-« les notes étrangères ». Il lui manque le contexte tonique, le statut
-harmonique, les accents, les appoggiatures, les suspensions et leurs
-résolutions, ainsi qu'une validation sur des annotations adaptées.
-
-## 4. Ce que signifie *valider le parcours*
-
-Une famille est couverte seulement lorsque :
-
-- les objectifs de **tous les cours applicables** sont inventoriés et
-  mappés à des capacités sans trous ni doublons non justifiés ;
-- les sous-compétences disposent d'exemples positifs/négatifs annotés,
-  de règles explicables, de tests indépendants et de résultats publiés ;
-- les différences de style et les pratiques historiques sont respectées :
-  une interdiction de contrepoint à espèces n'est pas une loi esthétique
-  pour Mahler, Debussy ou une partition spectrale ;
-- les contraintes d'instrument et d'audibilité sont observées dans la
-  **bonne source** ; les exercices de studio, pratique instrumentale,
-  répétition, direction et jugement artistique sont traités honnêtement ;
-- un **audit contradictoire par des musiciens compétents** contrôle un
-  échantillon aveugle de chaque domaine, y compris les contre-exemples ;
-- les compétences non couvertes sont corrigées ou documentées comme
-  **blocages** : on n'accorde pas la « certification » par moyenne pondérée.
-
-**Porte de sortie :** le [TODO](todo-university-coverage.md) a toutes ses
-cases nécessaires satisfaites, les matrices cours→compétences→preuves
-sont consultables, et les contrôles d'évaluation sont repassés sur un jeu
-indépendant. Ce n'est **pas le cas à ce jour**.
-
-## 5. Frontière recherche / création
-
-La capacité de prédire une note masquée ou d'évaluer un changement d'octave
-permet d'éprouver une **hypothèse sur l'écriture existante**. Elle ne
-permet pas de prétendre créer de la bonne musique. Un futur système de
-composition nécessiterait en plus la direction formelle, des décisions
-artistiques, un rendu sonore crédible, des contraintes d'exécutants et des
-comparaisons d'écoute aveugles. Il demeure **hors programme opérationnel**
-jusqu'à satisfaction du référentiel ci-dessus et décision explicite.
+**Un cours n'est couvert que si sa matière détaillée est effectivement
+documentée et vérifiée.** Les lacunes qui empêchent cette affirmation
+restent visibles et bloquent le passage. Les étapes ultérieures — base de
+concepts commune, conception des détecteurs MIDI, validations musicales et
+composition éventuelle — sont définies dans
+[OBJECTIVES.md](OBJECTIVES.md), mais ne sont pas ouvertes actuellement.

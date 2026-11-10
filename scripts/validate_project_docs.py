@@ -1,4 +1,4 @@
-"""Validate local Markdown links and the single active documentation entrypoint.
+"""Validate academic source inventories and the sole course-collection workflow.
 
 The scanner checks local Markdown destinations (not HTTP targets or anchors).
 It does not pretend to be a complete Markdown parser.
@@ -15,6 +15,12 @@ from urllib.parse import unquote, urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 LINK = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
 CURRICULUM_ITEM = re.compile(r"^- \[([ xX])\] ([A-L]\d{2})\b(.*)$", re.MULTILINE)
+RETIRED_DIRECTION = re.compile(r"(?i)\b(?:piast|emopia|vgmidi|mysterious|mystérieux)\b")
+RETIRED_FILES = (
+    "docs/studies", "docs/roadmap.md", "docs/research-evidence-gates.md",
+    "docs/music-grammar-research-program.md", "docs/composition-grammar.md",
+    "docs/orchestral-corpus-audit.md",
+)
 
 
 def university_catalog_issues(catalog: dict) -> list[str]:
@@ -144,15 +150,68 @@ def agent_onboarding_issues(text: str) -> list[str]:
     """Guard the standalone onboarding contract against mission drift."""
     issues: list[str] = []
     required_links = ("README.md", "docs/OBJECTIVES.md", "docs/knowledge-base.md",
-                      "docs/university-curriculum.md", "docs/todo-university-coverage.md",
-                      "docs/roadmap.md", "docs/research-evidence-gates.md")
+                      "docs/university-curriculum.md", "docs/course-material-collection.md",
+                      "docs/todo-university-coverage.md")
     for path in required_links:
         if f"]({path})" not in text:
             issues.append(f"agent onboarding missing canonical document: {path}")
     for concept in ("base unifiée de connaissances", "programmes universitaires",
-                    "analyser", "composer", "optionnels", "L01–L05"):
+                    "analyser", "composer", "optionnels", "L01–L05", "MIDI"):
         if concept not in text:
             issues.append(f"agent onboarding missing mission guardrail: {concept}")
+    return issues
+
+
+def legacy_mission_issues(root: Path) -> list[str]:
+    """Prevent retired, non-curricular experiments re-entering the active project."""
+    issues = [f"retired project path still present: {path}"
+              for path in RETIRED_FILES if (root / path).exists()]
+    for doc in (root / "README.md", root / "AGENTS.md", *((root / "docs").rglob("*.md"))):
+        if doc.is_file() and RETIRED_DIRECTION.search(doc.read_text(encoding="utf-8")):
+            issues.append(f"retired research direction mentioned in active doc: {doc}")
+    return issues
+
+
+def course_material_progress_issues(progress: dict, catalogs: dict[str, dict],
+                                    root: Path) -> list[str]:
+    """Keep the course-by-course documentation queue in sync with catalog names."""
+    issues: list[str] = []
+    if progress.get("phase") != "course_material_collection":
+        issues.append("course material tracker must remain in collection phase")
+    tracked = progress.get("courses", {})
+    expected = {
+        "udem": {c["code"] for c in catalogs["udem"]["courses"]},
+        "mcgill": {c["code"] for c in catalogs["mcgill"]["courses"]},
+        "berklee": {code for group in catalogs["berklee"]["groups"]
+                    for requirement in group["requirements"]
+                    for code in requirement.get("codes", [])},
+    }
+    for entry in catalogs["optional"]["candidates"]:
+        if entry["institution"] == "McGill":
+            expected["mcgill"].add(entry["code"])
+        elif entry["institution"] == "Berklee":
+            expected["berklee"].add(entry["code"])
+    for program, codes in expected.items():
+        rows = tracked.get(program, {})
+        missing = codes - set(rows)
+        if missing:
+            issues.append(f"{program}: {len(missing)} catalog courses not in material tracker")
+        for code, record in rows.items():
+            status = record.get("status") if isinstance(record, dict) else None
+            if status not in ("catalog_only", "partially_documented",
+                              "syllabus_documented", "blocked"):
+                issues.append(f"{program} {code}: unknown material status")
+                continue
+            relative_path = record.get("material_file")
+            if status != "catalog_only" and not relative_path:
+                issues.append(f"{program} {code}: progress without cited material file")
+            if relative_path:
+                candidate = (root / relative_path).resolve()
+                if (not candidate.is_relative_to(root.resolve()) or
+                        not candidate.is_file() or candidate.suffix != ".md"):
+                    issues.append(f"{program} {code}: missing or invalid material file")
+    if not progress.get("unresolved_course_pools"):
+        issues.append("course material tracker hides unresolved elective pools")
     return issues
 
 
@@ -221,7 +280,8 @@ def validate(root: Path = ROOT) -> list[str]:
     errors = []
     required = [root / "README.md", root / "AGENTS.md",
                 root / "docs/OBJECTIVES.md", root / "docs/knowledge-base.md",
-                root / "docs/roadmap.md", root / "docs/README.md",
+                root / "docs/course-material-collection.md", root / "docs/README.md",
+                root / "docs/data/course-material-progress.json",
                 root / "docs/university-curriculum.md",
                 root / "docs/todo-university-coverage.md",
                 root / "docs/udem-curriculum-a26-audit.md",
@@ -237,6 +297,7 @@ def validate(root: Path = ROOT) -> list[str]:
             errors.append(f"missing required documentation: {path}")
     if (root / "docs/archive").exists():
         errors.append("obsolete documentation archive must not exist")
+    errors.extend(legacy_mission_issues(root))
     agents_file = root / "AGENTS.md"
     if agents_file.is_file():
         errors.extend(agent_onboarding_issues(agents_file.read_text(encoding="utf-8")))
@@ -268,6 +329,19 @@ def validate(root: Path = ROOT) -> list[str]:
                 register, todo.read_text(encoding="utf-8") if todo.is_file() else "", mcgill))
         except (json.JSONDecodeError, ValueError, TypeError) as exc:
             errors.append(f"optional knowledge register invalid: {exc}")
+    progress_path = root / "docs/data/course-material-progress.json"
+    if progress_path.is_file():
+        try:
+            catalogs = {
+                "udem": json.loads((root / "docs/data/udem-composition-a26.json").read_text(encoding="utf-8")),
+                "mcgill": json.loads((root / "docs/data/mcgill-composition-2026.json").read_text(encoding="utf-8")),
+                "berklee": json.loads((root / "docs/data/berklee-composition-2026f.json").read_text(encoding="utf-8")),
+                "optional": json.loads(optional_path.read_text(encoding="utf-8")),
+            }
+            progress = json.loads(progress_path.read_text(encoding="utf-8"))
+            errors.extend(course_material_progress_issues(progress, catalogs, root))
+        except (json.JSONDecodeError, ValueError, TypeError, OSError) as exc:
+            errors.append(f"course material progress invalid: {exc}")
     for md in [root / "README.md", root / "AGENTS.md", *sorted((root / "docs").rglob("*.md"))]:
         if md.is_file():
             errors.extend(broken_local_links(md))

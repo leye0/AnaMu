@@ -1,178 +1,47 @@
-# AnaMu — objectifs scientifiques et contrat du projet
+# AnaMu — objectifs et ordre impératif des phases
 
-**Statut : référence normative du projet à compter du 10 novembre 2026.**
-Une modification de cet objectif doit être explicite et documentée. Les
-anciennes études sur les émotions ne constituent plus la feuille de route.
+**Référence normative.** La finalité est une compréhension de la composition et de l'arrangement fondée sur **la réunion du contenu réel de plusieurs cursus universitaires entiers**. Cette connaissance doit permettre de reconnaître et d'expliquer les mécanismes de musique existante. Une composition musicale ultérieure devra reposer sur cette compréhension et sur des jugements d'écoute, mais **aucune génération n'est autorisée maintenant**.
 
-## 1. Finalité
+## Phase 1 — recueillir la matière (SEULE PHASE ACTIVE)
 
-Construire d'abord une **immense base de connaissances académiques musicales
-unifiée**, puis un moteur capable de **mobiliser ces connaissances pour
-analyser** une composition inconnue au niveau d'un compositeur/orchestrateur
-ayant assimilé plusieurs cursus universitaires avancés. La finalité ultime,
-**après validation**, est de pouvoir également **composer de la musique qui
-s'écoute bien** parce que le système comprend et sait appliquer les principes
-musicaux ; pas parce qu'il a trouvé des corrélations entre notes.
+Trois programmes de départ : **UdeM, McGill et Berklee**, majeures Composition. Notre périmètre est l'**union des enseignements** : cours obligatoires, complémentaires, à option, recommandés et spécialités voisines pertinentes. L'admissibilité administrative d'un cours ne détermine pas la valeur de ses connaissances.
 
-Les connaissances doivent être tirées des contenus réels des programmes
-(cours obligatoires, options, recommandations, spécialités), **réconciliées
-entre établissements** en concepts versionnés et sourcés, et reliées à des
-exemples, contre-exemples, conditions de validité et mécanismes d'analyse.
-Voir la [conception de la base académique](knowledge-base.md) : les inventaires
-de cours existants **ne constituent pas encore cette base**.
+Pour chaque cours, recueillir et sourcer :
 
-Les résultats analytiques seront des objets, relations et hypothèses
-**inspectables**, sans classificateur opaque comme moteur principal.
+- Description officielle, édition, code, préalables, statut et crédits.
+- **Syllabus ou plan détaillé**, objectifs et résultats d'apprentissage.
+- Chapitres, lectures, progression, travaux, exercices et critères d'évaluation.
+- Exemples musicaux, traditions, conventions et exceptions lorsque disponibles et réutilisables.
+- Lacunes, restrictions d'accès, conflits entre éditions et incertitudes.
 
-Le moteur doit notamment comprendre comment une œuvre :
+**Un intitulé de cours n'est pas sa matière.** Il faut chercher les sources détaillées et documenter toute impossibilité plutôt qu'inventer. Voir [le protocole de collecte](course-material-collection.md) et [le périmètre universitaire](university-curriculum.md).
 
-1. organise notes et silences dans des durées et métriques ;
-2. superpose et sépare ses voix, instruments et couches ;
-3. répète, varie, transforme et développe des motifs ;
-4. construit accords, régions tonales, fonctions et conduites des voix ;
-5. forme des gestes, phrases, périodes, sections et architectures longues ;
-6. utilise tempo, ralentissements, nuances, articulation et instrumentation ;
-7. réalise ces éléments différemment selon la partition, l'interprétation et
-   l'enregistrement.
+## Phase 2 — réconcilier les connaissances (VERROUILLÉE)
 
-**Critère supplémentaire de pertinence compositionnelle :** une régularité
-ne mérite une règle de grammaire que si l'on peut formuler son rôle dans
-l'écriture et tester sa réutilisation constructive ou sa suppression.
-L'objectif final est de produire des arrangements **musicalement cohérents
-et audibles**, et non d'optimiser uniquement une représentation mathématique.
-La justesse des notes ne remplace pas une écoute indépendante.
+Après couverture du contenu des cours et décision explicite de Léon, extraire les savoirs élémentaires enseignés et les réunir dans une **base de concepts musicaux partagés**, avec définitions, prérequis, relations, provenance précise, exemples, variantes et limites stylistiques. Voir [knowledge-base.md](knowledge-base.md).
 
-**Verrou d'exhaustivité préalable :** cet objectif final n'autorise pas
-encore le développement d'un compositeur automatique. Nous devons d'abord
-inventorier intégralement le contenu réel de **trois programmes universitaires
-de composition**, puis démontrer la maîtrise analytique de chaque compétence
-applicable, sous contrôle musicologique indépendant. Le
-[référentiel universitaire](university-curriculum.md) définit cette exigence,
-et le [TODO](todo-university-coverage.md) en détaille les vérifications.
-L'inventaire doit prendre **l'union des enseignements pertinents** : cours
-obligatoires, options, recommandations et spécialités alternatives, même
-si aucun étudiant ne pourrait les cumuler dans son propre cursus. Les
-options libres exigent une recherche dans les catalogues complémentaires,
-et chaque exclusion doit être motivée par rapport aux savoirs couverts.
-Les prototypes G0–G3 ne cochent **aucune** de ces compétences exhaustives.
+## Phase 3 — choisir et développer les analyseurs MIDI (VERROUILLÉE)
 
-Cette analyse doit pouvoir dire **« inconnu »**, conserver plusieurs
-hypothèses et expliquer la preuve en faveur de chacune. Le but n'est pas de
-faire correspondre mécaniquement une musique à un adjectif d'humeur.
+**Seulement après la matière des cours :** établir pour chaque concept si l'on peut détecter son expression dans des **morceaux MIDI existants**.
 
-## 2. Couverture : tout modéliser, ne rien prétendre déjà maîtriser
+1. Relier la capacité proposée au cours et au chapitre vérifiés.
+2. Définir les observations MIDI pertinentes et les faux amis possibles.
+3. Signaler les phénomènes **non déductibles du seul MIDI**, comme le timbre acoustique réel, une nuance effectivement entendue ou une intention d'orchestration.
+4. Construire ensuite un outil explicable, montrant ses notes, relations, variantes et inconnues.
+5. Vérifier les détections sur les exemples et contre-exemples académiques, puis sur des morceaux tenus à l'écart.
 
-| Domaine | Exemples de phénomènes à représenter |
-|---|---|
-| Événements, hauteur, rythme, métrique | Notes/silences, registre, intervalles, attaques, syncope, polymétrie |
-| Tempo et mouvement | Courbes de tempo, accélération, ritardando, rubato, fermates |
-| Nuances et articulation | `p`, `f`, crescendos, accents, legato, pédales, enveloppe d'attaque |
-| Harmonie et conduite des voix | Accords candidats, fonctions, tonalités, tensions, mouvements contraires, suspensions |
-| Motifs et organisation | Imitations, transformations, répétitions, groupements, phrases, sections, forme |
-| Instrumentation et texture | Pupitres, rôles, doublures, entrée/sortie des couches, densité et registre |
-| Timbre et audio | Spectre, enveloppes, brillance, rugosité, volume acoustique, mixage |
-| Style, voix chantée et texte | Régularités de répertoire, prosodie, relation musique/paroles |
+Les outils sont la **conséquence du savoir enseigné**, pas un programme libre de recherche algorithmique.
 
-Voir les **19 familles d'observables et les sources propres à chacune** dans
-[le programme musicologique](music-grammar-research-program.md). L'exhaustivité
-est une propriété du **contrat de données**, pas du taux d'implémentation.
+## Phase 4 — composition éventuelle (VERROUILLÉE)
 
-## 3. Types de preuve
+Détecter correctement des composants musicaux n'implique pas encore savoir composer. Une éventuelle phase générative exigera la couverture universitaire, une analyse indépendante validée, des critères de cohérence musicale et d'écoute, puis l'autorisation explicite de Léon. Les portes L01–L05 du [TODO](todo-university-coverage.md) restent fermées.
 
-- **Source encodée** : une note MusicXML, un message MIDI, un changement CC7
-  ou une indication de tempo. Dire précisément ce que la source encode.
-- **Mesure** : un temps, une fréquence ou une amplitude effectivement mesurée
-  dans le signal. Conserver méthode, paramètres et limites.
-- **Annotation humaine** : phrase, rôle, harmonie, tension, etc., avec son
-  auteur, sa définition opérationnelle, sa licence et ses désaccords possibles.
-- **Hypothèse algorithmique** : accord, voix, motif, geste ou fonction inférés.
-  Fournir les observations justifiant l'hypothèse et les alternatives.
-- **Inconnu / ambigu** : résultat acceptable et requis lorsque la source ne
-  permet pas une réponse fiable.
+## Statuts à distinguer
 
-Exemples de distinctions obligatoires :
+- **Cours recensé :** présent dans une édition officielle.
+- **Matière obtenue :** documents détaillés localisés et accessibles.
+- **Matière structurée :** objectifs, notions et exercices extraits avec citations.
+- **Couverture vérifiée :** branches et lacunes évaluées indépendamment.
+- **Concept modélisé, analyseur testé, compétence validée :** futurs statuts à ne jamais déduire d'une description de catalogue.
 
-- Une valeur de **vélocité MIDI** n'est pas un niveau en décibels.
-- `set_tempo` n'établit pas l'intention d'un **ritardando expressif**.
-- Un nom d'instrument MIDI n'est pas une **preuve d'orchestration**.
-- Un accord vertical n'est pas automatiquement une **fonction harmonique**.
-- Des notes répétées ne sont pas automatiquement le **même thème perçu**.
-
-## 4. Grammaire générique et interprétations concurrentes
-
-AnaMu utilisera un graphe temporel d'événements, des relations typées et des
-arbres de groupement potentiellement concurrents. Une grammaire qui déroule
-simplement une chaîne de notes n'est pas suffisante pour la polyphonie.
-
-Primitives prévues : `SEQUENCE`, `PARALLEL`, `ALIGN`, `GROUP`, `TRANSFORM`,
-`DEPEND`. Les relations sont fondées sur des preuves, jamais sur des règles
-spéciales pour Beethoven ou sur un nom de piste supposé fiable.
-
-La préférence d'implémentation est : **règles déclaratives, contraintes,
-invariants et induction structurelle vérifiable**. ML/probabilités peuvent
-servir aux tâches réellement incertaines ou à des baselines, mais jamais
-masquer la provenance ou remplacer l'évaluation humaine indépendante.
-
-## 5. État technique et critères de sortie (pas une feuille de travaux)
-
-| Couche | Objectif | État actuel / seuil de validation |
-|---|---|---|
-| **G0 — preuves** | Conserver MIDI, notation, performance et audio comme vues distinctes | MIDI fiable ; preuves partielles de notes MusicXML, hauteurs sonnantes et métrique locale. Alignement des deux vues et audio encore absents |
-| **G1 — relations** | Ordre, simultanéité, alignement, transformations et dépendances explicites | Relations d'Allen et transformations exactes vérifiées ; `ALIGN`, `DEPEND` et `GROUP` hiérarchique non implémentés |
-| **G2 — groupements et motifs** | Détecter répétitions, variantes, voix et frontières concurrentes | Prototype de répétitions exactes MIDI et de doublures orchestrales notées ; essais de reconstruction masquée. **Candidats structuraux** seulement ; voix, frontières, arbres, contrôle humain et écoute manquants |
-| **G3 — harmonie et voix** | Accords, tonalité, fonctions, conduite des voix et couches orchestrales | Quartets entre voix **notées**, variantes d'une note, verticalités, effets harmoniques structurels et figures de passage/broderie **candidates** avec soutien des autres parties. Fonctions, vraies notes étrangères, accentuation, conduites non synchronisées et grammaire évaluée manquantes |
-| **G4 — phrases et forme** | Hiérarchies musicales, développement et reprise | Non implémenté |
-| **G5 — interprétation et son** | Tempo expressif, articulations, nuances, timbres et enveloppes | Sources et limites spécifiées ; pas d'inférence audio/partition alignée validée |
-| **G6 — synthèse analytique** | Analyses multi-axes cohérentes avec contradictions et preuves traçables | Non implémenté |
-
-Chaque couche doit livrer une API stable, des tests de conservation, des
-invariants, des cas positifs/négatifs et **des résultats par source réellement
-indépendante** avant de prétendre au niveau universitaire.
-Les étapes à entreprendre sont exclusivement ordonnées dans le
-[TODO universitaire](todo-university-coverage.md), et non par la prochaine
-expérience mathématique la plus commode.
-
-## 6. Corpus, qualité et protocole
-
-- **Ne pas confondre œuvre, mouvement, enregistrement et transposition** dans
-  les découpages d'évaluation.
-- Garder les **annotations de vérité** séparées des variables lues par le
-  mécanisme testé ; pas de fuite des étiquettes dans l'algorithme.
-- Comparer aux baselines triviales et à des témoins mélangés ; rapporter les
-  échecs et les écarts hors répertoire.
-- Préférer quelques **partitions orchestrales auditées** à des milliers de
-  MIDI aux licences ou aux instruments incertains.
-- Documenter licences de **chaque fichier**, source primaire, SHA-256,
-  transformations, sélection et reproductibilité.
-- Ne jamais présenter une étude exploratoire comme une réplication confirmée.
-
-Premier jeu réel : Beethoven 5/I et 7/II avec MIDI multipiste et partition
-MusicXML indépendante. La discordance des déclarations instrumentales montre
-pourquoi une **comparaison de parties** ne peut devenir un **alignement de
-notes** sans preuve supplémentaire. Voir
-[l'audit du corpus orchestral](orchestral-corpus-audit.md).
-
-## 7. Hors objectif immédiat
-
-1. Construire un prédicteur générique d'émotions ou du mot « mystérieux ».
-2. Entraîner un grand réseau neuronal pour remplacer la grammaire.
-3. Générer automatiquement des pièces avant d'avoir analysé les structures.
-4. Faire passer un programme MIDI pour une performance ou un audio réel.
-5. Atteindre artificiellement un volume de corpus ou un score sans vérité
-   expertisée de la capacité concernée.
-
-Chaque règle d'arrangement devra passer les contre-épreuves du
-[contrat de composition et d'orchestration](composition-grammar.md).
-
-Les publications et annotations d'attente, de rythme, d'harmonie et de
-segmentation peuvent servir de **contrôles indépendants** lorsqu'elles
-évaluent réellement une capacité grammaticale. Voir
-[l'index des documents](README.md).
-
-## 8. Décision de conception à revisiter
-
-L'ontologie demeure ouverte : nous ne savons pas à l'avance quelles règles
-de groupement seront suffisamment génériques. Pour chaque proposition,
-consigner **hypothèse, publication, algorithme, épreuve indépendante, limites
-et décision**. Si une caractéristique n'est pas observable dans le format
-disponible, améliorer la source ou laisser le résultat inconnu.
+Le [TODO universitaire](todo-university-coverage.md) est la **seule liste active**. Les familles de capacités B–L y restent des exigences futures, pas une autorisation de développer maintenant.

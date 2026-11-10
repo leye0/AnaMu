@@ -17,20 +17,34 @@ Le projet ne cherche **ni** à faire des mathématiques pour les mathématiques,
 générateur de notes MIDI. Le test ultime de chaque concept est sa valeur
 musicale explicable et démontrable, pas la seule réussite d'un algorithme.
 
+**Hiérarchie de travail impérative :**
+
+> **Programmes → cours → matière réelle → concepts unifiés → (plus tard)
+> capacités d'analyse MIDI → (bien plus tard) composition.**
+
+**Phase courante : programmes → cours → matière réelle, exclusivement.**
+Un nouvel agent doit **commencer immédiatement** cette acquisition systématique,
+sans attendre de consigne supplémentaire : choisir le prochain cours sans
+syllabus vérifié, chercher les sources, documenter ses chapitres/exercices,
+enregistrer les lacunes, puis passer au cours suivant. C'est un **travail
+documentaire approfondi**, sans développement expérimental, benchmark
+algorithmique ni test musical à cette étape.
+
 ## Ordre de lecture obligatoire
 
 1. [README.md](README.md) — mission, état réel, commandes.
 2. [docs/OBJECTIVES.md](docs/OBJECTIVES.md) — finalité, limites, règle de progression.
-3. [docs/knowledge-base.md](docs/knowledge-base.md) — **comment transformer les
-   cursus en connaissances communes**, traçables et exploitables.
-4. [docs/university-curriculum.md](docs/university-curriculum.md) — union des
+3. [docs/university-curriculum.md](docs/university-curriculum.md) — union des
    enseignements UdeM/McGill/Berklee, **y compris options et recommandations**.
-5. [docs/todo-university-coverage.md](docs/todo-university-coverage.md) — **unique
-   TODO** ; ne coche rien sans dossier de preuves complet.
-6. [docs/roadmap.md](docs/roadmap.md) et
-   [docs/research-evidence-gates.md](docs/research-evidence-gates.md) — code
-   réellement disponible, tests indépendants et seuils d'affirmation.
-7. [docs/README.md](docs/README.md) — index des audits et études spécialisés.
+4. [docs/course-material-collection.md](docs/course-material-collection.md) —
+   **procédure prioritaire pour obtenir la matière réelle de chaque cours**.
+   Utiliser aussi [le suivi cours par cours](docs/data/course-material-progress.json)
+   pour choisir l'élément suivant sans reprendre le travail accompli.
+5. [docs/knowledge-base.md](docs/knowledge-base.md) — comment, **ensuite**,
+   réconcilier les enseignements en connaissances communes et exploitables.
+6. [docs/todo-university-coverage.md](docs/todo-university-coverage.md) —
+   **unique TODO** ; les phases analytiques restent verrouillées.
+7. [docs/README.md](docs/README.md) — index des inventaires de cursus.
 
 ## Principes intangibles
 
@@ -45,41 +59,53 @@ musicale explicable et démontrable, pas la seule réussite d'un algorithme.
    exemples, contre-exemples, exceptions stylistiques et références de cours.
    Ne pas multiplier artificiellement les concepts identiques ; ne pas
    écraser des désaccords ou des règles valables dans des contextes différents.
-3. **L'analyse utilise cette connaissance.** Chaque capacité du moteur doit
-   relier une observation de partition/MIDI/audio à des concepts traçables,
-   produire des hypothèses musicales explicables et accepter `inconnu`.
-   Les tests sur données synthétiques ne prouvent pas une maîtrise académique.
+3. **Priorité absolue à la matière des cours.** Pour l'instant, recueillir
+   systématiquement les syllabus, objectifs détaillés, chapitres, lectures,
+   travaux et exemples de **tous** les cours pertinents, options incluses.
+   Une description de catalogue ne vaut pas un contenu de cours obtenu.
+   **Ne pas développer de nouvel analyseur ni lancer d'étude expérimentale**
+   avant la fin vérifiée de cette phase et une décision explicite de Léon.
+   Ensuite seulement, déterminer les capacités nécessaires pour détecter
+   dans des **MIDI existants** les composants enseignés, avec provenance,
+   hypothèses explicables et possibilité de conclure `inconnu`.
 4. **Composition interdite pour l'instant.** Aucun projet de composition
    générative autonome tant que les portes **L01–L05** du TODO n'ont pas été
-   expertisées et explicitement levées par Léon. Les reconstructions de notes
-   masquées existantes sont des diagnostics d'analyse seulement.
+   expertisées et explicitement levées par Léon. Aucun prototype de
+   composition ou d'analyse ne doit être commencé pendant la collecte.
 5. **Pas de savoir inventé.** Une page de catalogue ne vaut pas syllabus ;
    un syllabus ne vaut pas apprentissage maîtrisé ; une implémentation ne vaut
    pas validation. Consigner les contenus indisponibles et les incertitudes.
 6. **Documentation vivante.** Pas de dossier `archive` ni de documentation
-   morte : mettre à jour la source canonique et supprimer prudemment les
-   documents devenus inutiles. Préserver les données et preuves utilisées.
+   morte : remplacer la source canonique quand elle évolue et supprimer les
+   anciens essais qui ne servent pas la collecte académique. Ne pas confondre
+   une expérimentation passée et une connaissance enseignée.
 
 ## Protocole concret de travail
 
-1. Lire `main`, les derniers commits/CI, le TODO et les contrats concernés ;
+1. Lire `main`, les derniers commits, le TODO et la procédure de collecte ;
    conserver les changements d'autrui.
-2. Choisir une lacune **musicale et pédagogique** établie par un cours, pas
-   un indicateur mathématique facile à améliorer.
-3. Traiter la chaîne `programme → cours → objectif/chapitre → concept
-   académique unifié → sous-compétence → mécanisme d'analyse → preuve`.
-4. Ajouter sources, droits, variantes de contexte, exemples positifs,
-   négatifs et preuves indépendantes avant toute revendication de réussite.
-5. Mettre à jour la documentation canonique et les tests ; exécuter au moins
-   `python scripts/validate_project_docs.py` et
-   `python -m unittest discover -s tests -p 'test_*.py'`.
-6. Rapporter séparément **inventorié / modélisé / implémenté / testé /
-   validé par des experts**, les incertitudes et les travaux restants.
+2. Choisir le **prochain cours non documenté** dans
+   [le registre](docs/data/course-material-progress.json), en privilégiant
+   les obligatoires puis en couvrant **toutes** les options et les choix
+   non encore dépliés ; ne pas sauter les cours difficiles.
+3. Traiter la chaîne active `établissement → programme → cours → syllabus →
+   objectifs/chapitres/exercices/lectures → source et statut d'accès`.
+4. Répertorier la matière **sans inventer de syllabus** et sans prétendre
+   que la présence d'un intitulé de cours constitue une connaissance acquise.
+5. Créer/mettre à jour la fiche de matière, son état dans le registre et
+   le TODO. **Aucun test algorithmique n'est demandé.** Le contrôle
+   documentaire `python scripts/validate_project_docs.py` reste facultatif
+   en local et est vérifié automatiquement par la CI.
+6. Rapporter séparément **cours recensés / contenus obtenus / contenus
+   vérifiés / contenus indisponibles** et les prochains cours à traiter.
+7. **Poursuivre de cours en cours tant que des sources accessibles restent
+   à examiner** ; ne pas stopper après un seul cours pour demander quoi faire.
+   Si un cours est bloqué, conserver son état puis traiter le suivant.
 
 **En cas de conflit**, [docs/OBJECTIVES.md](docs/OBJECTIVES.md) définit le
-but ; [docs/knowledge-base.md](docs/knowledge-base.md) définit le patrimoine
-de connaissances ; [docs/university-curriculum.md](docs/university-curriculum.md)
-définit le périmètre ; [docs/todo-university-coverage.md](docs/todo-university-coverage.md)
-ordonne le travail ; les données, tests et revues expertisées déterminent ce
-qui est réellement prouvé. Demander une décision explicite avant de changer
-le but ou de franchir la porte de composition.
+but ; [docs/university-curriculum.md](docs/university-curriculum.md) définit
+le périmètre ; [docs/course-material-collection.md](docs/course-material-collection.md)
+définit la tâche actuelle ; [docs/todo-university-coverage.md](docs/todo-university-coverage.md)
+ordonne le travail ; [docs/knowledge-base.md](docs/knowledge-base.md)
+décrit la phase suivante. Demander une décision explicite avant de commencer
+les analyseurs ou de franchir la porte de composition.
