@@ -14,6 +14,8 @@ une simple liste de matières. Référentiel et sources :
 Le [registre de progression](data/course-material-progress.json) suit
 **332 codes de cours candidats** et les **5 ensembles d'options à déplier**.
 
+Au 10 novembre 2026, **16 fiches partielles** relient des cours de Berklee Boston à **11 plans pédagogiques publics distincts** de Berklee Online. Le registre suit **316 entrées au statut catalogue**, **0 syllabus du cours cible documenté** et **0 blocage d’accès confirmé pour un syllabus cible**. Les [pistes examinées et les lacunes](course-material-source-trail.md) indiquent où reprendre la collecte UdeM et McGill et listent huit options de majeure explicitement nommées par Berklee. Aucune case de couverture exhaustive n’est cochée.
+
 **VERROU DE PHASE : seuls les travaux de collecte A01–A15, A18 et de revue
 de leur couverture sont actifs.** La réconciliation de concepts A16–A17,
 les capacités analytiques B–K et la composition L ne commencent qu'avec
