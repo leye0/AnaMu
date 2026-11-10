@@ -28,6 +28,12 @@ avec [grille officielle structurée](data/berklee-composition-2026f.json).
 Les relevés des codes/crédits ne sont pas des plans de cours complets et
 ne ferment aucune case du TODO.
 
+**Élargissement du périmètre de connaissance :**
+[cours recommandés et majeures voisines](optional-knowledge-audit.md),
+avec [registre des 30 pistes et sources](data/optional-knowledge-seeds-2026.json).
+Les cours voisins ne sont pas présumés admissibles aux options du diplôme
+Composition ; leur contenu reste à auditer avant toute validation.
+
 **Ordre de priorité en cas de contradiction :** observations vérifiées et
 tests pour le constat > `OBJECTIVES.md` pour le but > référentiel universitaire
 pour le périmètre > TODO pour les travaux à accomplir > `roadmap.md` pour

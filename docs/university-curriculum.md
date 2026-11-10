@@ -44,6 +44,10 @@ déclarées « faites » par assimilation à une mesure numérique.
 Leurs correspondances aux familles du TODO sont **préliminaires**.
 Les **plans de cours détaillés** et toutes les branches réellement
 suivables ne sont pas encore inventoriés avec la même précision.
+Un [premier audit des enseignements recommandés et des majeures voisines](optional-knowledge-audit.md)
+ajoute 30 pistes de connaissance issues de descriptions publiques McGill
+et Berklee, sans assimiler ces cours à des crédits nécessairement admissibles
+dans la majeure Composition.
 
 ### Premières divergences pédagogiques qu'AnaMu doit respecter
 

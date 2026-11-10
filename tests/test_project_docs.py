@@ -7,6 +7,7 @@ from scripts.validate_project_docs import (
     berklee_grid_issues,
     broken_local_links,
     mcgill_catalog_issues,
+    optional_knowledge_issues,
     university_catalog_issues,
     university_coverage_issues,
 )
@@ -114,6 +115,26 @@ class DocumentationLinkTests(unittest.TestCase):
         issues = berklee_grid_issues(catalog)
         self.assertTrue(any("eight major elective credits" in issue for issue in issues))
         self.assertTrue(any("seven general elective credits" in issue for issue in issues))
+
+    def test_optional_knowledge_seeds_have_primary_sources_and_live_todo_targets(self):
+        root = Path(__file__).resolve().parents[1]
+        register = json.loads((root / "docs/data/optional-knowledge-seeds-2026.json")
+                              .read_text(encoding="utf-8"))
+        mcgill = json.loads((root / "docs/data/mcgill-composition-2026.json")
+                            .read_text(encoding="utf-8"))
+        todo = (root / "docs/todo-university-coverage.md").read_text(encoding="utf-8")
+        self.assertEqual(optional_knowledge_issues(register, todo, mcgill), [])
+        self.assertEqual(len(register["candidates"]), 30)
+
+    def test_optional_knowledge_does_not_assume_adjacent_major_admissibility(self):
+        root = Path(__file__).resolve().parents[1]
+        register = json.loads((root / "docs/data/optional-knowledge-seeds-2026.json")
+                              .read_text(encoding="utf-8"))
+        todo = (root / "docs/todo-university-coverage.md").read_text(encoding="utf-8")
+        entry = next(c for c in register["candidates"] if c["code"] == "FILM-205")
+        entry["relation_to_baseline"] = "required_composition_course"
+        issues = optional_knowledge_issues(register, todo)
+        self.assertTrue(any("adjacent major eligibility unverified" in issue for issue in issues))
 
 
 if __name__ == "__main__":

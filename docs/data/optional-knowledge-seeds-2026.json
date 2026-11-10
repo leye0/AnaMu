@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-10",
+  "status": "public_course_descriptions_only_not_syllabi_or_analytical_coverage",
+  "policy": "Knowledge expansion beyond required degree paths; adjacent-major course eligibility must never be inferred from subject relevance.",
+  "sources": {
+    "mcgill_recommended": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
+    "berklee_composition_department": "https://college.berklee.edu/composition/composition-courses",
+    "berklee_jazz_department": "https://college.berklee.edu/harmony-jazz-composition/harmony-and-jazz-composition-courses",
+    "berklee_screen_scoring_department": "https://college.berklee.edu/film-scoring/film-scoring-courses",
+    "berklee_jazz_degree": "https://college.berklee.edu/jazz-composition",
+    "berklee_screen_scoring_degree": "https://college.berklee.edu/film-scoring/bachelor-of-music-in-film-scoring"
+  },
+  "candidates": [
+    {
+      "institution": "McGill",
+      "code": "MUCO 542",
+      "title": "Advanced Digital Studio Composition 2",
+      "source": "mcgill_recommended",
+      "relation_to_baseline": "recommended_not_required",
+      "knowledge_increment": "Analyse/resynthèse, composition assistée, contrôleurs gestuels et performance numérique à grande échelle.",
+      "todo_ids": ["I08", "I09", "H11"]
+    },
+    {
+      "institution": "McGill",
+      "code": "MUHL 388",
+      "title": "Opera After 1900",
+      "source": "mcgill_recommended",
+      "relation_to_baseline": "recommended_not_required",
+      "knowledge_increment": "Analyse d'opéra moderne avec contextes littéraire, politique et scénique.",
+      "todo_ids": ["J01", "J02", "J04"]
+    },
+    {
+      "institution": "McGill",
+      "code": "MUTH 302",
+      "title": "Modal Counterpoint 2",
+      "source": "mcgill_recommended",
+      "relation_to_baseline": "recommended_not_required",
+      "knowledge_increment": "Contrepoint modal avancé à trois voix ou davantage et exercices écrits.",
+      "todo_ids": ["D01", "D09", "D10"]
+    },
+    {
+      "institution": "McGill",
+      "code": "MUTH 304",
+      "title": "Tonal Counterpoint 2",
+      "source": "mcgill_recommended",
+      "relation_to_baseline": "recommended_not_required",
+      "knowledge_increment": "Écriture contrapuntique libre avec accent sur les procédés fugués.",
+      "todo_ids": ["D05", "D06", "D09"]
+    },
+    {
+      "institution": "McGill",
+      "code": "MUTH 322",
+      "title": "Topics in Post-Tonal Analysis",
+      "source": "mcgill_recommended",
+      "relation_to_baseline": "recommended_not_required",
+      "knowledge_increment": "Séminaires d'analyse post-tonale avancée ; sujets précis à vérifier selon l'édition.",
+      "todo_ids": ["H02", "H12"]
+    },
+    {
+      "institution": "McGill",
+      "code": "MUTH 528",
+      "title": "Schenkerian Theory and Analysis",
+      "source": "mcgill_recommended",
+      "relation_to_baseline": "recommended_not_required",
+      "knowledge_increment": "Graphes schenkériens et prolongation tonale sur formes historiques.",
+      "todo_ids": ["C11", "C12", "E09"]
+    },
+    {
+      "institution": "McGill",
+      "code": "MUTH 538",
+      "title": "Mathematical Models for Musical Analysis",
+      "source": "mcgill_recommended",
+      "relation_to_baseline": "recommended_not_required",
+      "knowledge_increment": "Modèles transformationnels, atonaux et d'information à examiner seulement via des questions musicales concrètes.",
+      "todo_ids": ["H02", "H12", "K08"]
+    },
+    {
+      "institution": "McGill",
+      "code": "MUTH 539",
+      "title": "Advanced Writing Techniques",
+      "source": "mcgill_recommended",
+      "relation_to_baseline": "recommended_not_required",
+      "knowledge_increment": "Harmonisation avancée à quatre voix et contrepoint post-tonal.",
+      "todo_ids": ["C14", "D07", "H12"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "CM-103",
+      "title": "The Composer's Toolkit: Shaping Sound in Time",
+      "source": "berklee_composition_department",
+      "relation_to_baseline": "department_listing_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Rôle perceptif de la texture, du timbre, du bruit, du registre et de la densité dans le temps musical.",
+      "todo_ids": ["E12", "G12", "I04"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "CM-225",
+      "title": "Guitar Composition Techniques for Performers/Composers",
+      "source": "berklee_composition_department",
+      "relation_to_baseline": "department_listing_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Ergonomie et techniques avancées propres à la guitare, avec preuves de performance.",
+      "todo_ids": ["G17", "G20"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "CM-227",
+      "title": "The Art of Modulation",
+      "source": "berklee_composition_department",
+      "relation_to_baseline": "department_listing_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Modulations graduelles ou brusques entre tonalités proches et lointaines.",
+      "todo_ids": ["C08", "C09"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "CM-261",
+      "title": "Composing for Acoustic Keyboards",
+      "source": "berklee_composition_department",
+      "relation_to_baseline": "department_listing_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Figurations de clavier jouables, maintien des lignes mélodiques et contraintes de la main.",
+      "todo_ids": ["G17", "G20"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "CM-280",
+      "title": "Special Topics in Composition and Conducting 1",
+      "source": "berklee_composition_department",
+      "relation_to_baseline": "department_listing_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Contenus spéciaux variables selon la section ; programmes de section à rechercher avant classement.",
+      "todo_ids": ["A04", "G17", "J07"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "AR-201",
+      "title": "Chord Scale Voicings for Arranging",
+      "source": "berklee_jazz_department",
+      "relation_to_baseline": "adjacent_jazz_major_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Voicings à cinq ou six parties, upper structures, clusters et écriture à partir des gammes d'accords.",
+      "todo_ids": ["C15", "G08"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "AR-228",
+      "title": "Survey of Jazz Composition and Arranging",
+      "source": "berklee_jazz_department",
+      "relation_to_baseline": "adjacent_jazz_major_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Histoire des choix d'arrangement jazz et analyse comparative de partitions de grands arrangeurs.",
+      "todo_ids": ["J01", "J02", "G19"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "AR-323",
+      "title": "Arranging for the Middle, High School, and College Jazz Band",
+      "source": "berklee_jazz_department",
+      "relation_to_baseline": "adjacent_jazz_major_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Orchestration flexible selon le niveau des instrumentistes, endurance et parties facultatives.",
+      "todo_ids": ["G17", "G19"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "AR-331",
+      "title": "Big Band Arranging and Score Analysis",
+      "source": "berklee_jazz_department",
+      "relation_to_baseline": "adjacent_jazz_major_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Analyse de partitions de big band et méthodes d'orchestration des sections jazz.",
+      "todo_ids": ["G10", "G19"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "AR-340",
+      "title": "Jazz Arranging for Small Ensemble",
+      "source": "berklee_jazz_department",
+      "relation_to_baseline": "adjacent_jazz_major_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Rôle de la section rythmique, petits ensembles et voicings avancés.",
+      "todo_ids": ["C15", "G19"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "CM-320",
+      "title": "From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+      "source": "berklee_jazz_department",
+      "relation_to_baseline": "adjacent_jazz_major_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Mètres impairs, polyrythmies linéaires, modulation métrique et rythmes issus de traditions diverses.",
+      "todo_ids": ["F04", "F09", "J11"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "CM-373",
+      "title": "Jazz Composition 2",
+      "source": "berklee_jazz_department",
+      "relation_to_baseline": "adjacent_jazz_major_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Forme jazz épisodique hors forme chanson, développement motivique de longue durée.",
+      "todo_ids": ["E04", "E09"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "CM-375",
+      "title": "Jazz Composition 3",
+      "source": "berklee_jazz_department",
+      "relation_to_baseline": "adjacent_jazz_major_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Composition jazz multisection et orchestration de longue forme, avec et sans section rythmique.",
+      "todo_ids": ["E09", "G19"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "CM-385",
+      "title": "Post Bebop Harmonic Innovations",
+      "source": "berklee_jazz_department",
+      "relation_to_baseline": "adjacent_jazz_major_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Harmonies modales et langage post-bebop étudiés dans des œuvres de référence.",
+      "todo_ids": ["C14", "C15", "J01"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "FILM-200",
+      "title": "Introduction to Film and Media Scoring",
+      "source": "berklee_screen_scoring_department",
+      "relation_to_baseline": "adjacent_screen_scoring_major_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Fonctions narratives de la musique synchronisée aux images et analyse d'extraits filmiques.",
+      "todo_ids": ["E13", "J02"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "FILM-205",
+      "title": "Scoring Technology 1",
+      "source": "berklee_screen_scoring_department",
+      "relation_to_baseline": "adjacent_screen_scoring_major_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Maquette d'orchestre virtuelle, synchronisation tempo/mètre, automation et rendu d'une performance réaliste.",
+      "todo_ids": ["F09", "I11", "G16"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "FILM-207",
+      "title": "Dramatic Scoring 1",
+      "source": "berklee_screen_scoring_department",
+      "relation_to_baseline": "adjacent_screen_scoring_major_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Articulation forme, mélodie, harmonie et rythme avec le déroulement d'une scène.",
+      "todo_ids": ["E13", "E12"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "FILM-343",
+      "title": "Master Film Composers",
+      "source": "berklee_screen_scoring_department",
+      "relation_to_baseline": "adjacent_screen_scoring_major_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Comparaison approfondie des grammaires de plusieurs compositeurs pour l'écran selon la section.",
+      "todo_ids": ["E13", "J01"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "FILM-351",
+      "title": "Post-Romantic Scoring",
+      "source": "berklee_screen_scoring_department",
+      "relation_to_baseline": "adjacent_screen_scoring_major_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Structures intervalliques, polytonalité, triades indépendantes et parallélisme au service du discours filmique.",
+      "todo_ids": ["H04", "E13"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "FILM-405",
+      "title": "Scoring Technology 3",
+      "source": "berklee_screen_scoring_department",
+      "relation_to_baseline": "adjacent_screen_scoring_major_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Édition de musique synchronisée à l'image et documentation technique de postproduction.",
+      "todo_ids": ["F09", "I07"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "FILM-407",
+      "title": "Dramatic Scoring 3",
+      "source": "berklee_screen_scoring_department",
+      "relation_to_baseline": "adjacent_screen_scoring_major_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Continuité thématique et variations de motifs entre plusieurs scènes d'une même œuvre.",
+      "todo_ids": ["E13", "E04"]
+    },
+    {
+      "institution": "Berklee",
+      "code": "FILM-433",
+      "title": "A World of Scoring",
+      "source": "berklee_screen_scoring_department",
+      "relation_to_baseline": "adjacent_screen_scoring_major_degree_elective_acceptance_unverified",
+      "knowledge_increment": "Instruments, rythmes et échelles de traditions diverses et enjeux de représentation culturelle à l'écran.",
+      "todo_ids": ["J11", "J02", "G01"]
+    }
+  ]
+}
