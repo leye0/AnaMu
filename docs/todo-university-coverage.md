@@ -100,7 +100,7 @@ de son syllabus ; A13–A15 demeurent ouverts.
 - **UdeM** — quatre cours obligatoires avec exercices d’exemption spécifiques en harmonie et contrepoint. Deux cours optionnels d’analyse ont une piste de classement générale, encore au statut catalogue.
 - **McGill** — sept cours préparatoires avec des objectifs d’exemption historiques. Chercher les sources des sections actuelles et poursuivre par les cours obligatoires de composition.
 - **Berklee** — cinq plans publics d’équivalents en ligne reliés par le registraire aux codes du campus. Seize fiches de Boston rattachées au registre signalent aussi des supports parallèles en composition, arrangement, solfège et musique à l’image. Chercher les plans des sections du campus.
-- **Couverture** — 332 entrées suivies, dont 11 syllabus documentés, 136 au statut partiel et 185 au statut catalogue. Cinq ensembles d’options restent à déplier. Le [relevé des options de majeure Berklee](berklee-major-elective-candidates.md) donne 83 codes, dont 70 à vérifier avant intégration au registre.
+- **Couverture** — 332 entrées suivies, dont 11 syllabus documentés, 153 au statut partiel et 168 au statut catalogue. Cinq ensembles d’options restent à déplier. Le [relevé des options de majeure Berklee](berklee-major-elective-candidates.md) donne 83 codes, dont 70 à vérifier avant intégration au registre.
 - **Cours ciblés dans cette passe** — études dirigées et projet final à Berklee avec programme du concert de 2022 et accès au portfolio réservé aux membres de Berklee. Clavier, solfège et analyse classique avec plans parallèles. Acoustique et traitement du son à l’UdeM, puis orchestration, contrepoint et studio à McGill avec supports externes dont la provenance est explicitée dans chaque fiche.
 
 - **Plans UdeM** — treize fiches ajoutées. Quatre syllabus portent les sigles cibles, dont deux plans A26 et deux plans historiques. Neuf fiches conservent des plans-cadres, des documents abrégés ou des preuves ciblées dont les limites sont précisées. La [piste institutionnelle](course-material-source-trail.md#udem--plans-de-séminaires-et-éditions) donne les éditions et la prochaine source à examiner.
@@ -112,6 +112,8 @@ de son syllabus ; A13–A15 demeurent ouverts.
 - **Histoire, formation auditive et écriture tonale** — dix-huit nouvelles fiches partielles. Le plan de section A24 fait passer [MUL 3333X](courses/udem/MUL-3333X.md) au statut syllabus documenté, avec l’édition H27 conservée séparément dans la fiche. Les exemples de formation auditive McGill sont signalés comme exercices de classement.
 
 - **Pratique d’ensemble** — vingt fiches partielles ajoutées, dont dix-huit au bloc 75H de l’UdeM et deux à McGill. Les fiches différencient objectifs d’ensemble, répertoires annoncés, productions historiques et matériel d’audition. L’attribution aux sections et les évaluations restent à vérifier.
+
+- **Écriture, jazz et analyse** — 22 dossiers traités (19 créations, 3 compléments) et 17 passages au statut partiel, avec descriptions des supports parallèles. Cinq dossiers restent au catalogue. Les syllabus des cours cibles restent à obtenir ; [le relevé des sources](course-material-source-trail.md) conserve la discordance de datation du syllabus UNT parallèle à MUTH 528. Reprendre les ateliers MCT 1601/1602 dès qu’une source spécifique devient accessible, puis MCT 1603/1604, 1701/1702, 1801/1802 et les options encore sans matière.
 
 ## Phases suivantes — exigences pédagogiques à documenter après la collecte
 
