@@ -5,7 +5,7 @@
 
 No emulated IDyOM, no implicit download. Requires SBCL + a working IDyOM
 installation and py2lispIDyOM; upstream runtime/config may require setup.
-This experiment must NEVER use the EMOPIA held-out music in pretraining.
+Pretraining excludes test files by content hash, and optionally by filename.
 """
 
 from __future__ import annotations
@@ -29,15 +29,16 @@ def main() -> None:
     parser.add_argument("--source-viewpoints", default="cpitch,onset")
     parser.add_argument("--max-midi-files", type=int, default=500,
                         help="Per-partition bound; avoid unexpected bulk runs")
-    parser.add_argument("--allow-emopia-test", action="store_true",
-                        help="Explicit opt-in; never use EMOPIA in pretraining")
+    parser.add_argument("--exclude-pretrain-name", action="append", default=[],
+                        help="Forbid this filename in pretraining (repeatable)")
     parser.add_argument("--execute", action="store_true", help="opt in to original SBCL analysis")
     args = parser.parse_args()
     test = args.test.resolve()
     train = args.pretrain.resolve()
     try:
-        audit = audit_idyom_partitions(test, train, max_files=args.max_midi_files,
-                                       allow_emopia_test=args.allow_emopia_test)
+        audit = audit_idyom_partitions(
+            test, train, max_files=args.max_midi_files,
+            excluded_pretrain_names=tuple(args.exclude_pretrain_name))
     except ValueError as exc:
         parser.error(str(exc))
 
@@ -57,7 +58,7 @@ def main() -> None:
             "test_files": audit["test_files"],
             "pretrain_manifest_sha256": digest_manifest(audit["pretrain_sha256_by_relative_path"]),
             "test_manifest_sha256": digest_manifest(audit["test_sha256_by_relative_path"]),
-            "emopia_test_detected": audit["emopia_test_detected"],
+            "excluded_pretrain_names": audit["excluded_pretrain_names"],
         },
         "execute": args.execute,
         "warnings": audit["warnings"],

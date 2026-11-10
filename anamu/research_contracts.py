@@ -15,11 +15,6 @@ from typing import Any
 CATALOG_PATH = Path(__file__).resolve().parents[1] / "data" / "research-evidence.json"
 
 CLAIM_TARGETS = {
-    "global_mood_association": {"mood_tags", "named_emotion_song"},
-    "temporal_valence_arousal_association": {"valence_arousal_continuous"},
-    "relative_perceived_tension": {"relative_tension"},
-    "relative_performance_attributes": {"performance_perceptual_attributes"},
-    "relative_performance_valence_arousal": {"performance_valence_arousal"},
     "musicological_cadence_detection": {"cadence_event"},
     "human_melodic_continuation": {"melodic_continuation_goodness"},
     "human_realized_note_surprisal": {"human_next_note_information_bits"},
@@ -73,9 +68,6 @@ def check_experiment(name: str, experiment: dict, catalog: dict) -> None:
     _require(scope in CLAIM_TARGETS, f"{name}: unknown or unsupported claim scope {scope!r}")
     _require(target in CLAIM_TARGETS[scope],
              f"{name}: claim scope {scope!r} incompatible with {target!r}")
-    if scope == "temporal_valence_arousal_association":
-        _require(experiment["requires_temporal_human_labels"],
-                 f"{name}: temporal claim requires actual time-resolved human labels")
 
     status = experiment.get("status")
     _require(status in {"exploratory", "confirmatory"},

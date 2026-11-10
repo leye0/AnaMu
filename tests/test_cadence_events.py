@@ -52,12 +52,12 @@ class CadenceEvidenceTests(unittest.TestCase):
         self.assertEqual(first["rhythm"], changed["rhythm"])
         self.assertEqual(first["harmony"], changed["harmony"])
 
-    def test_reject_using_cadences_as_emotion_ground_truth(self):
+    def test_reject_using_cadences_as_melodic_continuation_ground_truth(self):
         catalog = load_catalog()
         entry = dict(catalog["experiments"]["dcml_cadence_exploratory"])
-        entry["claim_scope"] = "global_mood_association"
+        entry["claim_scope"] = "human_melodic_continuation"
         with self.assertRaisesRegex(ResearchContractError, "incompatible"):
-            check_experiment("not_emotion", entry, catalog)
+            check_experiment("not_continuation", entry, catalog)
 
     def test_sonata_movements_share_parent_work(self):
         mozart = Path(self.temp.name) / "mozart"
