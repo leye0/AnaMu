@@ -59,6 +59,11 @@ plusieurs analyses possibles, sans inventer de certitude.
   formes exactes de triades/septièmes et effet d'une variante de voix sur
   toute la texture (`anamu/orchestral_harmony.py`). Fonctions tonales
   et notes étrangères **non identifiées**.
+- **G3 gestes mélodiques** : orthographe des hauteurs écrites conservée,
+  figures conjointes candidates de passage et broderie, avec inspection
+  des notes d'accompagnement à chaque attaque
+  (`anamu/orchestral_ornaments.py`). Ce ne sont **pas** des étiquettes
+  de dissonance ou des jugements de qualité.
 - **Corpus orchestral** : deux mouvements de symphonies Beethoven, leurs MIDI,
   deux partitions MusicXML de référence, manifestes avec licences et SHA-256.
 - **Contrôle des sources** : comparaison des familles instrumentales déclarées
@@ -82,6 +87,7 @@ python -m scripts.g2_motif_probe --top 3
 python -m scripts.orchestral_doubling_probe --top 3
 python -m scripts.orchestral_voice_leading_probe --top 2
 python -m scripts.orchestral_harmonic_context_probe --top 3
+python -m scripts.orchestral_ornament_probe --top 3
 python -m unittest discover -s tests -p test_orchestral_grammar_probe.py
 python -m unittest discover -s tests -p test_score_inventory.py
 python scripts/orchestral_grammar_probe.py

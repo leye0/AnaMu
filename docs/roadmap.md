@@ -21,6 +21,7 @@ Les études de référence encore utiles sont rangées dans
 | **Orchestration et contre-épreuve générative** | Détection de doublures strictes entre parties à l'unisson/octave ; reconstruction de trois notes masquées après trois notes d'apprentissage, comparée à un témoin | Structure et reconstruction **dans la même œuvre**, pas qualité d'orchestration, jouabilité ou écoute |
 | **Conduite des voix notée** | Mouvements de quartets entre deux parties : contraire, parallèle, similaire, oblique, statique, croisements, quintes/octaves parallèles ; contre-proposition d'une note | Attaques strictement synchronisées et voix/portées notées constantes ; pas de fonction harmonique ni de qualité esthétique déduite |
 | **G3 verticalités et contexte d'une variante** | Notes simultanées/tenues d'une mesure, formes exactes de triades/septièmes, basse sonnante et effet harmonique structurel d'un changement d'une note | Pas de tonalité, notes étrangères, fonction, cadence, tenues entre mesures ni jugement de qualité déduits |
+| **G3 figures mélodiques sous accompagnement** | Triplets notés conjoints de passage/broderie, orthographe des notes conservée, soutien et stabilité observés dans les autres parties | Figures candidates seulement : pas de note étrangère, accent, retard, tonalité ni réduction harmonique déduits |
 | **Corpus orchestral** | Beethoven 5/I et 7/II : MIDI et scores complets, licences et SHA-256 distincts, rapports JSON | Éditions indépendantes, identité note par note non démontrée |
 | **Contrôles scientifiques** | Contrats de sources, cadences et attentes humaines comme cibles indépendantes | N'évaluent pas encore un parseur G2/G3 |
 
@@ -174,6 +175,40 @@ et notes étrangères, puis évaluer les analyses et les versions rendues
 en écoute comparative. Pas de taux de « bonne musique » fondé sur
 la simple présence de formes d'accord.
 
+### G3 — figures de passage et broderies, avec preuve d'accompagnement
+
+`anamu/orchestral_ornaments.py` identifie des **figures mélodiques**
+diatoniques strictes de trois notes consécutives, non des notes
+étrangères à un accord déjà identifié. `score_texture.py` conserve
+maintenant l'orthographe (`step`, `alter`, `octave`) distincte de la
+hauteur MIDI/sonnante. Le module inspecte toutes les autres parties
+aux trois attaques, pour décrire la stabilité et le soutien vertical.
+
+- Beethoven 5/I : **118** figures (71 passages, 47 broderies), aucune
+  ne satisfait le soutien strict sur un accompagnement inchangé.
+- Beethoven 7/II : **753** figures (638 passages, 115 broderies), dont
+  **69** sur accompagnement inchangé et **9** avec soutien strict aux
+  notes extrêmes seulement. Exemple à la mesure indexée 117 :
+  **sol♯–fa♯–mi** devant **mi–sol♯–si** stable.
+
+Les figures se recouvrent, les mesures ne sont pas des échantillons
+indépendants, et les omissions des notes chromatiques, accords et
+passages à travers les mesures sont délibérées. DCML **n'annote pas
+toutes les notes de passage et broderies**, donc ne saurait en être
+une cible d'évaluation exhaustive.
+
+```bash
+python -m scripts.orchestral_ornament_probe --top 3
+python -m unittest tests.test_orchestral_ornaments -v
+```
+
+**Prochaine étape musicale :** obtenir des analyses annotées de
+notes étrangères et de structure harmonique *réellement compatibles*
+avec les sources, puis préparer des variantes constructives
+insérant/retirant une figure dans une phrase complète. Exiger aussi
+l'alignement MIDI ↔ partition et une **écoute comparative** avant
+toute revendication de qualité d'écriture.
+
 ### G3–G6 — à consolider après les premiers mécanismes
 
 - **G3 :** approfondir la conduite des voix (premier mécanisme descriptif
@@ -206,6 +241,7 @@ python -m scripts.g2_motif_probe --top 3
 python -m scripts.orchestral_doubling_probe --top 3
 python -m scripts.orchestral_voice_leading_probe --top 2
 python -m scripts.orchestral_harmonic_context_probe --top 3
+python -m scripts.orchestral_ornament_probe --top 3
 python -m unittest discover -s tests -p test_orchestral_grammar_probe.py
 python -m unittest discover -s tests -p test_score_inventory.py
 python scripts/orchestral_grammar_probe.py
