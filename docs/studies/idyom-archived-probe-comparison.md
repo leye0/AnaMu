@@ -1,3 +1,6 @@
+> **Étude de validation à cible précise.** Ses mesures sont utiles à la
+> conception de la grammaire ; elles ne valident pas une couche G2–G6.
+
 # AnaMu S1 — contrôle externe IDyOM sur les attentes humaines
 
 **9 novembre 2026 · expérience exploratoire, résultats reproductibles.**

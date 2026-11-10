@@ -1,3 +1,6 @@
+> **Étude de validation à cible précise.** Ses mesures sont utiles à la
+> conception de la grammaire ; elles ne valident pas une couche G2–G6.
+
 # S1 — Transfert honnête vers la surprise humaine note par note (Manzara 1992)
 
 **9 novembre 2026 — résultat exploratoire négatif.**

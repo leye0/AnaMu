@@ -1,182 +1,78 @@
-# AnaMu — contrats de preuve avant chaque expérience
+# AnaMu Grammar — règles de preuve et d'évaluation
 
-**État : 8 novembre 2026.** Aucune victoire algorithmique n'est annoncée par
-ce changement. La question est d'arrêter les expériences mal alignées sur la
-source et les faux gains issus de données déjà examinées.
+**Contrat actuel (10 novembre 2026).** Ce document concerne les capacités
+grammaticales G0–G6, **pas** des classes d'humeurs ou un score unique.
 
-Le registre faisant foi est [`data/research-evidence.json`](../data/research-evidence.json).
-Il sépare :
+## Chaque affirmation appartient à un niveau
 
-1. **Sources** : ce que les humains ont effectivement annoté, unité, granularité,
-   accessibilité des votes, origine du MIDI, groupe à tenir hors entraînement ;
-2. **Méthodes** : moteur universitaire original effectivement exécuté *ou*
-   approximation AnaMu inspirée d'une théorie, sorties réellement calculables ;
-3. **Expériences** : source × cible exacte × protocole × provenance de méthode
-   × statut exploratoire/confirmatoire.
+1. **Donnée brute** : octet MIDI, événement, note MusicXML, échantillon audio.
+2. **Observation construite** : note appariée de façon non ambiguë, intervalle
+   temporel, énergie acoustique, partie déclarée.
+3. **Hypothèse grammaticale** : voix, motif, phrase, accord, rôle, fonction,
+   structure de section.
+4. **Annotation indépendante** : décision d'un analyste ou d'un auditeur
+   identifiée, avec sa tâche et sa licence.
+5. **Conclusion évaluée** : résultat du mécanisme sur une source séparée,
+   accompagné de baselines, erreurs et inconnus.
 
-Le validateur refuse les affirmations scientifiquement incompatibles. Il ne
-remplace pas la revue du papier, du code ni le calcul statistique : une
-expérience compatible peut échouer, et un score élevé ne démontre pas une
-cause psychologique.
+Une observation ne devient pas une annotation, et une hypothèse ne devient
+pas une vérité par simple répétition. Le moteur doit garder provenance,
+version, paramètres, qualité et ambiguïté.
 
-## Les onze sources, sans convertir une cible en une autre
+## Sources et vérités admissibles
 
-| Source | Étiquette humaine réellement utilisée | Unité indépendante | Ce que cela **ne prouve pas** |
-|---|---|---|---|
-| PIAST-AT | Trois choix d'experts, humeurs globales sur 30 s | Vidéo source | Dynamique locale d'une humeur ; les auteurs excluaient les changements subtils |
-| VGMIDI | Valence **et** activation continues ; ~30 auditeurs | Pièce | Présence de *Mysterious*, *Epic* ou d'une émotion discrète |
-| IsoVAT | Comparaison relative tension/valence/activation entre clips de quatre mesures | Triplet | Courbe temporelle de tension à l'intérieur du clip |
-| PercePiano | 19 attributs de performance notés par des pianistes experts | Œuvre parente | Identité avec les tags *Dark/Epic/Mysterious* de PIAST |
-| CP-WTC | Valence/activation des huit premières mesures de six interprètes, 48 compositions | Composition | Courbe de valence par mesure ; effet causal du seul interprète si groupes d'annotateurs confondus |
-| EMOPIA | Un quadrant par extrait | Chanson source | Quatre votes indépendants par extrait ; les quatre annotateurs ont réparti les chansons |
-| XMIDI | Catégorie émotionnelle/genre sur morceau entier | Pièce (doublons à auditer) | Émotion humaine datée ou votes individuels accessibles |
-| DCML Distant Listening Corpus | Cadences et phrases annotées par des musicologues sur partitions symboliques | Œuvre parente (sonate/suite entière) | Émotions, ressenti de tension ou véritable timbre MIDI/audio ; pas de votes individuels par cadence |
-| Cuddy & Lunney (1995) | **Qualité perçue d'une note suivante**, 200 notes-sondes × deux moyennes de groupe | Contexte mélodique à deux notes | Émotion, anticipation en temps réel, votes individuels ; le MIDI de 2025 est reconstruit et transposé |
-| Schellenberg (1996) | **Qualité perçue d'une note suivante**, 120 moyennes humaines sur huit fragments réels | Fragment entier | Émotion, votes individuels ; 15 continuations diatoniques et MIDI reconstitués ; pas la même tâche que Cuddy |
-| Manzara, Witten & Conklin (1992) | **Bits d'information humaine par note réellement jouée**, inférés d'anticipations avec paris, 29 + 57 notes | Chorale (deux seulement) | Notes-sondes jugées de 1 à 7, valence, émotion ; la deuxième ronde ne conserve que six participants sélectionnés |
+| Capacité évaluée | Vérité possible | Interdictions |
+|---|---|---|
+| G0 : lecture MIDI | Événements originaux et fixtures exactes | Inférer acoustique ou voix principale des pistes |
+| G1 : ordre/chevauchement | Intervalles d'événements, 13 relations d'Allen | Appeler toute simultanéité « accord » ou « motif » |
+| Instrumentation écrite | Noms et parties MusicXML | Traiter `instrument_name` MIDI comme la partition réelle |
+| G2 : voix/motifs | Annotations de rôles Hauptstimme, transformations vérifiées | Lire l'annotation de test pendant l'analyse |
+| G2/G4 : groupements et phrases | Frontières expertisées, corpus GTTM/SALAMI selon unité | Faire valider une phrase avec une étiquette de note |
+| G3 : harmonie | Analyses DCML, partition et théorie explicite | Assimiler automatiquement sonorité et fonction |
+| G5 : expression | Partition + performance alignées ; audio calibré | Confondre CC7, vélocité et décibels |
 
-Sources primaires : [PIAST](https://aclanthology.org/2024.nlp4musa-1.2/),
-[VGMIDI](https://github.com/lucasnfe/vgmidi),
-[IsoVAT](https://doi.org/10.5334/tismir.120),
-[PercePiano](https://doi.org/10.1038/s41598-024-73810-0),
-[CP-WTC](https://zenodo.org/records/21693024),
-[EMOPIA](https://annahung31.github.io/EMOPIA/),
-[XMIDI](https://github.com/xmusic-project/XMIDI_Dataset),
-[DCML DLC](https://doi.org/10.1038/s41597-025-04976-z),
-[Cuddy & Lunney](https://doi.org/10.3758/BF03213071),
-[Schellenberg](https://doi.org/10.1016/0010-0277(95)00665-6),
-[Manzara/Witten](https://researchcommons.waikato.ac.nz/items/97793e93-66e4-4354-8159-9b1dbadda2f0).
+Les tâches d'**attentes mélodiques** de Cuddy–Lunney, Schellenberg et
+Manzara sont des contrôles scientifiques distincts : continuation jugée,
+surprise de vraie note et segmentation ne sont **pas interchangeables**.
+Voir les [études utilisées](README.md).
 
-**Important sur l'instrumentation :** les commandes MIDI contiennent notes,
-temps, vélocité, programmes et parfois pédale, **pas** le timbre original,
-les résonances acoustiques ou l'enveloppe sonore entendus par les auditeurs.
-Le fait que *Mysterious* reste faible n'établit pas que le timbre en est la
-cause. Audio/Demucs restent reportés ; aucun nouvel appel audio.
+## Avant d'annoncer un gain
 
-## Les méthodes sont des observations, pas des émotions
+- Décrire **exactement** l'unité indépendante (œuvre, mouvement, performance,
+  segment) et les groupes partagés entre développement et test.
+- Fixer les cibles et la métrique avant l'analyse du jeu d'évaluation ;
+  ne pas ajuster une heuristique en regardant le test final.
+- Comparer à une **baseline triviale** : répétition, contour, note précédente,
+  densité, segmentation régulière, instrument constant selon la tâche.
+- Ajouter un **témoin négatif** : labels mélangés, notes réordonnées ou
+  association de la mauvaise partition, sans créer une tâche artificiellement
+  impossible.
+- Rapporter faux positifs, faux négatifs, cas d'ambiguïté, couverture
+  des sources, temps de calcul et variations entre œuvres.
+- Préférer une conclusion **négative** honnête à une amélioration obtenue
+  après sélection répétée sur le même petit corpus.
+- Vérifier la **licence de chaque artefact**, en distinguant code,
+  partitions, MIDI, annotations et enregistrements.
+- Garder les sources indépendantes : ne pas entraîner un détecteur de voix
+  avec la partition de référence du morceau testé.
 
-| Moteur / théorie | Statut réel dans AnaMu | Observation utilisable | Limite |
-|---|---|---|---|
-| Partitura / Herremans-Chew | Moteur exécuté | Diamètre, momentum, strain tonal | Ni tension humaine directement ni timbre |
-| music21 | Moteur exécuté | Accords et tonalités **hypothétiques** | Pas vérité d'analyse harmonique |
-| melody-features / Narmour | Moteur exécuté | Descripteurs mélodiques | Pas continuation humaine prédite et validée |
-| jSymbolic original | Java exécuté sur des lots VGMIDI | Texture, rythme, articulation symboliques | Pas enveloppe spectrale ni émission émotionnelle |
-| IDyOM original | Adaptateur/import, Lisp **non exécuté** | Aucune sortie originale confirmée | Les n-grammes maison ne sont pas IDyOM |
-| Farbood | Proxy temporel maison | Pentes, cumuls, relâchements | Pas les équations/poids perceptifs originaux |
-| Modulation tonale inspirée de MoFi | Proxy maison | Distribution et ordre des tonalités locales | Le contrôle réordonné annule l'argument temporel |
-| Modèle relatif inspiré de Delta-VA | Proxy maison | Différences d'interprétation MIDI | Pas reproduction du réseau original |
-| Proxy de cadences par notes MIDI-compatibles | Proxy maison exécuté | Indices rythmiques + chroma relatif à la tonalité estimée + basse et transitions | Pas l'algorithme publié DCML, pas l'analyse experte ni l'émotion humaine |
-| Proxy de continuation Cuddy/Narmour | Proxy maison exécuté | Proximité, direction/retour mélodique, profils tonals, correction résiduelle | Pas la formulation originale des auteurs ; évalué seulement sur huit contextes déjà examinés |
+## Contrats déjà exécutés
 
-La présence de 1 203 colonnes ou de 23 mécanismes dans l'inventaire n'est
-**pas** une validation indépendante de 23 phénomènes perceptifs.
+- Les tests G0 préservent événements et incertitudes de pairage.
+- Les tests G1 couvrent les 13 relations temporelles et transformations
+  exactes, sans classifier de thèmes.
+- Les deux MIDI Beethoven ont leurs empreintes et un audit de polyphonie.
+- Les deux partitions MusicXML indépendantes ont leur inventaire de parties ;
+  la divergence des noms d'instruments est documentée sans correction tacite.
 
-## Deux laboratoires, deux exigences
+## Ce qui reste à prouver
 
-### Laboratoire musical : M0–M4
+- L'identité et le regroupement **note par note** entre éditions.
+- Une segmentation autonome et reproductible de voix, motifs et phrases,
+  confrontée à des analystes humains indépendants.
+- Les relations harmoniques et orchestrales au-delà de l'inventaire.
+- Les correspondances partition–performance–audio avec incertitudes.
 
-- Contrôler les événements natifs, les voix, tonalités, cadences, motifs et
-  attentes sur fixtures et **vérités musicales appropriées**, avec ambiguïté.
-- Pour un mécanisme temporel, comparer l'ordre réel au même contenu mélangé
-  sans ordre et au témoin statique ; mesurer gain sur changement **interne**.
-- Un bon score d'intervalle ou de tension ne signifie jamais que le modèle
-  sait prédire *Mystérieux* ou *Épique*.
-
-### Laboratoire émotionnel : M5
-
-- PIAST : classement **global** et votes minoritaires ; mesures Hard5
-  (`Mysterious`, `Epic`, `Tense`, `Dark`, `Happy`) et 14 noncalm. La catégorie
-  Calm ne peut pas masquer les échecs difficiles.
-- VGMIDI : trajectoire valence/activation, avec corrélations **intra-pièce**
-  séparées des moyennes globales. Ne pas baptiser les deux axes « émotions ».
-- IsoVAT : ordres humains de tension entre les clips, pas courbes continues.
-- PercePiano / CP-WTC : effets relatifs entre interprétations d'une même
-  partition ; séparation par œuvre entière, pas juste par extrait.
-
-Un lien entre les laboratoires est une **hypothèse de transfert** à tester,
-pas une équivalence d'étiquettes.
-
-## Règles de passage aux conclusions
-
-1. Déclarer le phénomène, la cible humaine exacte, la source et ce qu'elle
-   **ne mesure pas** avant toute extraction.
-2. Fixer la cohorte, les groupes, le prétraitement, le modèle et la métrique ;
-   archiver les affectations exactes aux plis, pas seulement `GroupKFold`.
-3. Garder le meilleur modèle simple, les labels mélangés, les fenêtres
-   mélangées et les contrôles de variables manquantes comme références.
-4. Choisir les paramètres uniquement sur l'entraînement/validation interne.
-   Une évaluation répétée du même test reste **exploratoire**.
-5. Publier chaque humeur difficile, effectifs et intervalles, ainsi que les
-   régressions. Aucune promotion sans gain stable sur œuvre/source inédite.
-6. Séparer les affirmations : extraction exacte, prédiction musicale,
-   concordance humaine, prédiction affective, causalité. La causalité requiert
-   un protocole d'intervention et ne résulte pas d'une simple association.
-
-## Contrôle exécutable, sans dépendances lourdes
-
-```bash
-python -m scripts.validate_research_contracts
-python -m unittest tests.test_research_contracts -v
-```
-
-Pour une expérience proposée, fournir un objet JSON contenant les champs
-de l'une des entrées `experiments` du registre, puis lancer :
-
-```bash
-python -m scripts.validate_research_contracts --proposal /tmp/experience.json
-```
-
-Les scripts `piast_tonal_motion_experiment`, `isovat_tension_benchmark` et
-`vgmidi_temporal_benchmark` vérifient leur contrat enregistré **avant leur
-traitement coûteux**. Le workflow `research-evidence-contracts.yml` réalise
-les contrôles hors corpus, sur chaque modification pertinente. Un nouveau
-banc doit être enregistré et brancher le même contrôle ; **cela ne constitue
-pas encore un garde automatique sur tous les anciens scripts**.
-
-La PR de reproductibilité [PIAST #1](https://github.com/leye0/AnaMu/pull/1)
-reste distincte : elle fige les 1 900 affectations et leurs prédictions.
-Ne comparer les scores entre PR que lorsque les plis sont identiques.
-
-## Prochaine expérience qui mérite d'être financée
-
-Le [premier test de plausibilité de continuation mélodique jugée par des
-auditeurs](cudlun-human-expectancy-study.md) déplace la question hors du
-chantier des cadences et observe un **gain exploratoire** lorsque les profils
-de hauteur généraux sont complétés par une correction contextuelle. La
-comparaison directe de nombreuses caractéristiques harmoniques fait moins
-bien que cette simple référence ; voir le rapport et les réserves de
-validation post-hoc sur huit contextes.
-
-La [contre-épreuve externe Schellenberg](schellenberg-external-transfer-study.md)
-entraîne les mêmes modèles **uniquement sur Cuddy**, puis évalue 120
-continuations de huit vraies mélodies entendues par **20 autres auditeurs** :
-la correction contextuelle fait ρ **0,560 → 0,650**, mais la version **plus
-simple de contour** atteint **0,770**. Le précédent gagnant ne généralise
-donc pas comme meilleur modèle. Les deux expériences restent exploratoires ;
-les paramètres de Schellenberg n'ont pas servi à ajuster le moteur.
-
-**Archive obscure désormais testée (9 novembre 2026) :**
-`manzetal92.data` contient **86 observations humaines temporelles** de
-*surprise de la note réellement jouée*, dérivées de paris de mélomanes sur
-deux chorales de Bach (29 + 57 notes), avec les deux MIDI de mélodie.
-Cette cible est **différente** de la qualité d'une note-sonde de Cuddy et de
-Schellenberg, comme du ressenti émotionnel. Deux chorales ne constituent pas
-86 unités d'évaluation indépendantes. La [nouvelle étude
-Manzara](manzara-cross-target-study.md) ne trouve **aucun transfert du
-contour Cuddy** vers la surprise humaine : ρ +0,013 / −0,094, contre
-les sorties **IDyOM importées** +0,449 / +0,481. Le vrai IDyOM n'a pas été
-exécuté et la source tierce peut avoir bénéficié d'un autre corpus.
-
-Une autre [suite universitaire nouvelle, MEX 2026](mex-2026-source-audit.md),
-distingue les annotations de segmentation musicale SALAMI, la concordance
-audio–IDyOM sur **cinq timbres** synthétisés, et les **réponses EEG** :
-aucune de ces données n'est une note émotionnelle `Mysterious` ou `Epic`.
-
-**Priorité :** chercher une **troisième** source indépendante de
-**continuations jugées par des humains**, avec réponses réellement accessibles
-et idéalement votes individuels. Préenregistrer les comparaisons des modèles
-de contour, de tonalité et d'attente probabiliste, sans consulter la nouvelle
-source. Ne pas réutiliser un benchmark de cadences ou une annotation
-valence/activation comme vérité pour cette cible. À terme,
-mesurer si ce mécanisme ajoute un signal sur les émotions difficiles de
-PIAST sans prétendre que les tâches humaines sont identiques.
+Le protocole d'implantation et les prochaines épreuves se trouvent dans
+[roadmap.md](roadmap.md). Aucun score émotionnel ancien ne constitue une
+preuve d'une capacité G2–G6.

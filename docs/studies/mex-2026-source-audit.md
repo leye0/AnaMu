@@ -1,3 +1,6 @@
+> **Étude de validation à cible précise.** Ses mesures sont utiles à la
+> conception de la grammaire ; elles ne valident pas une couche G2–G6.
+
 # Audit des cibles — MEX, Musical Expectation Benchmark Suite (novembre 2026)
 
 **Nouvelle publication scientifique primaire :** Bjare et al.,

@@ -121,17 +121,21 @@ segmentation de voix/motifs mesurée avec une métrique explicite.
    notes, les articulations, la structure des répétitions et les nuances ;
    G0 conserve des octets MIDI, pas ces informations de partition.
 
-## Choix de première expérience
+## Prochains corpus candidats (non importés)
 
-Prendre **S3** comme banque d'annotations expertes pour les structures de
-phrases, les rôles instrumentaux et les couches orchestrales ; prendre
-**OpenScore/Hauptstimme** comme contrôle indépendant du passage du thème
-entre instruments. Utiliser **LOP/SOD** pour les véritables MIDI multipistes
-en stress test, après audit de licences et de fichiers. Les métriques seront
-**séparées par cible** : précision des couches orchestrales, frontières de
-phrases, fonctions harmoniques et stabilité des relations temporelles, avec
-baselines triviales. Ne pas confondre ces cibles avec un score émotionnel.
+Les **deux mouvements Beethoven** importés sont le premier corpus réel.
+Pour le compléter, évaluer **S3** comme banque d'annotations expertes des
+structures de phrases et des couches orchestrales, puis les annotations
+**Hauptstimme** pour les passages de mélodie entre instruments. Les droits
+des annotations doivent être respectés avant toute copie. **LOP/SOD**
+restent des candidats aux stress tests multipistes après audit des fichiers
+et des licences. Les métriques doivent rester séparées par cible :
+frontières de phrases, rôles instrumentaux, fonctions harmoniques et
+relations temporelles, avec baselines simples.
 
-**État de la récupération :** liens et descriptions officielles vérifiés ;
-archives binaires non téléchargées, partitions non converties, nombre de
-fichiers réellement parsables et licences individuelles encore à confirmer.
+**État du corpus (10 novembre 2026) :** deux MIDI Beethoven et leurs deux
+partitions MusicXML de référence sont effectivement importés, parsés,
+empreintés et testés dans GitHub Actions. Les archives **S3, LOP/SOD et
+SymphonyNet** proposées dans le tableau ci-dessus ne sont **pas** importées ;
+leurs formats, fichiers précis et droits de redistribution restent à auditer
+avant usage. Les annotations humaines Hauptstimme ne sont pas redistribuées.

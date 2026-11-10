@@ -1,3 +1,6 @@
+> **Étude de validation à cible précise.** Ses mesures sont utiles à la
+> conception de la grammaire ; elles ne valident pas une couche G2–G6.
+
 # AnaMu S1 — attentes mélodiques mesurées par des auditeurs
 
 **8 novembre 2026. Exploration ; ne constitue pas une validation indépendante.**
