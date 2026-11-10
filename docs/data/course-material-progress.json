@@ -81,8 +81,8 @@
         "material_file": null
       },
       "MUS 1300": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/udem/MUS-1300.md"
       },
       "MUS 1321": {
         "status": "catalog_only",
@@ -835,7 +835,7 @@
         "material_file": null
       },
       "MUCO 261": {
-        "status": "catalog_only",
+        "status": "partially_documented",
         "material_file": "docs/courses/mcgill/MUCO-261.md"
       },
       "MUCO 340D1": {
@@ -867,7 +867,7 @@
         "material_file": null
       },
       "MUCO 460": {
-        "status": "catalog_only",
+        "status": "partially_documented",
         "material_file": "docs/courses/mcgill/MUCO-460.md"
       },
       "MUCO 541": {
@@ -919,11 +919,11 @@
         "material_file": null
       },
       "MUTH 202": {
-        "status": "catalog_only",
+        "status": "partially_documented",
         "material_file": "docs/courses/mcgill/MUTH-202.md"
       },
       "MUTH 204": {
-        "status": "catalog_only",
+        "status": "partially_documented",
         "material_file": "docs/courses/mcgill/MUTH-204.md"
       },
       "MUHL 385": {
@@ -1013,12 +1013,12 @@
     },
     "berklee": {
       "ISKB-211": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/berklee/ISKB-211.md"
       },
       "ISKB-212": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/berklee/ISKB-212.md"
       },
       "CM-221": {
         "status": "partially_documented",
@@ -1033,8 +1033,8 @@
         "material_file": "docs/courses/berklee/CM-231.md"
       },
       "MLAN-311": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/berklee/MLAN-311.md"
       },
       "CM-311": {
         "status": "partially_documented",
@@ -1053,28 +1053,28 @@
         "material_file": null
       },
       "CM-398": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/berklee/CM-398.md"
       },
       "CM-497": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/berklee/CM-497.md"
       },
       "CM-498": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/berklee/CM-498.md"
       },
       "CM-490": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/berklee/CM-490.md"
       },
       "ET-231": {
         "status": "partially_documented",
         "material_file": "docs/courses/berklee/ET-231.md"
       },
       "ET-232": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/berklee/ET-232.md"
       },
       "COND-211": {
         "status": "catalog_only",
