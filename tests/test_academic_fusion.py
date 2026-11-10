@@ -16,7 +16,7 @@ from anamu.academic_fusion import (THEORY_REGISTRY, _flatten_numeric,
                                    add_idyom_dat, add_jsymbolic_ace, add_multiscale_motion,
                                    add_theory_observations)
 from anamu.tempo_map import MidiTempoMap
-from anamu.vgmidi_temporal import extract_midi_measures
+from anamu.midi_measure_features import extract_midi_measures
 
 
 class AcademicFusionTests(unittest.TestCase):

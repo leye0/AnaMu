@@ -65,10 +65,11 @@ python scripts/orchestral_grammar_probe.py
 python scripts/score_midi_orchestration_audit.py
 ```
 
-L'ensemble historique de tests et de scripts inclut des **dépendances de
-recherche optionnelles** ; ne pas confondre un échec d'installation de ces
-outils et un échec de la grammaire G0/G1. Les workflows GitHub exécutent aussi
-les contrôles spécifiques.
+Les composants musicologiques additionnels (analyse tonale, attente,
+extraction de caractéristiques, expression, études indépendantes) sont
+**exploratoires et réutilisables**, pas des couches G2–G6 déjà validées.
+Le workflow de tests symboliques vérifie leurs invariants séparément des
+contrôles G0/G1 et orchestraux.
 
 ## Principes de développement
 

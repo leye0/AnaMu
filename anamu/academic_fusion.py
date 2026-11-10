@@ -38,8 +38,6 @@ THEORY_REGISTRY = {
     "M19": "itpra_framework_not_directly_observable",
     "M20": "style_memory_and_local_familiarity",
     "M21": "style_descriptors_from_existing_engines",
-    "M22": "supervised_emotion_trajectory",
-    "M23": "human_annotator_variation_evaluation_only",
 }
 
 
@@ -89,10 +87,6 @@ def mechanism_execution_audit(piece_statuses: dict) -> dict:
             status = "theory_inspired_proxy_not_full_replication" if available else "unavailable"
         elif code == "M19":
             engine, available, status = "Huron ITPRA: cognitive framework, not inferred mental states", 0, "framework_only"
-        elif code == "M22":
-            engine, available, status = "supervised human-valence/arousal regression", count, "evaluated_against_humans"
-        elif code == "M23":
-            engine, available, status = "median and quartiles of real raters, evaluation side only", count, "human_labels_preserved_not_features"
         else:
             engine, available, status = "not implemented", 0, "unavailable"
         audit[code] = {"mechanism": name, "implementation": engine,

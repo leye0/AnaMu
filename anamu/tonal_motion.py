@@ -20,7 +20,7 @@ from pathlib import Path
 import mido
 import numpy as np
 
-from .piast_research_cues import MAJOR_PROFILE, MINOR_PROFILE
+from .tonal_profiles import MAJOR_PROFILE, MINOR_PROFILE
 
 
 TONAL_MOTION_FEATURE_NAMES = (

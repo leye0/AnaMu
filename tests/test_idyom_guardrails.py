@@ -21,18 +21,18 @@ class IdyomGuardrailTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "idyom_exact_content_leakage"):
                 audit_idyom_partitions(test, train)
 
-    def test_annotated_emopia_cannot_be_used_for_pretraining(self):
+    def test_explicit_exclusion_is_case_insensitive(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
             test, train = root / "test", root / "train"
             test.mkdir()
             train.mkdir()
             (test / "neutral.mid").write_bytes(b"different")
-            (train / "Q1_0vLPYiPN7qY_0.mid").write_bytes(b"emopia")
-            with self.assertRaisesRegex(ValueError, "emopia_forbidden_in_idyom_pretraining"):
-                audit_idyom_partitions(test, train)
+            (train / "Known_Leak.mid").write_bytes(b"other")
+            with self.assertRaisesRegex(ValueError, "excluded_pretrain_files"):
+                audit_idyom_partitions(test, train, excluded_pretrain_names=("known_leak.MID",))
 
-    def test_emopia_test_requires_explicit_opt_in_and_does_not_enter_training(self):
+    def test_no_dataset_specific_filename_rules(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
             test, train = root / "test", root / "train"
@@ -40,10 +40,8 @@ class IdyomGuardrailTests(unittest.TestCase):
             train.mkdir()
             (test / "Q4_0vLPYiPN7qY_9.mid").write_bytes(b"test")
             (train / "reference.mid").write_bytes(b"train")
-            with self.assertRaisesRegex(ValueError, "emopia_external_test_requires_explicit"):
-                audit_idyom_partitions(test, train)
-            audited = audit_idyom_partitions(test, train, allow_emopia_test=True)
-            self.assertTrue(audited["emopia_test_detected"])
+            audited = audit_idyom_partitions(test, train)
+            self.assertEqual(audited["excluded_pretrain_names"], [])
             self.assertEqual(audited["pretrain_files"], 1)
 
     def test_bounded_inputs_and_non_nested_dirs(self):
