@@ -20,6 +20,7 @@ Les études de référence encore utiles sont rangées dans
 | **Partition MusicXML** | Inventaire des parties, notes notées, positions métriques exactes, hauteurs écrites/sonnantes selon transposition déclarée ; voix simultanées conservées | Pas de reconstruction des reprises, des durées liées, de rôles ou d'alignement aux notes MIDI |
 | **Orchestration et contre-épreuve générative** | Détection de doublures strictes entre parties à l'unisson/octave ; reconstruction de trois notes masquées après trois notes d'apprentissage, comparée à un témoin | Structure et reconstruction **dans la même œuvre**, pas qualité d'orchestration, jouabilité ou écoute |
 | **Conduite des voix notée** | Mouvements de quartets entre deux parties : contraire, parallèle, similaire, oblique, statique, croisements, quintes/octaves parallèles ; contre-proposition d'une note | Attaques strictement synchronisées et voix/portées notées constantes ; pas de fonction harmonique ni de qualité esthétique déduite |
+| **G3 verticalités et contexte d'une variante** | Notes simultanées/tenues d'une mesure, formes exactes de triades/septièmes, basse sonnante et effet harmonique structurel d'un changement d'une note | Pas de tonalité, notes étrangères, fonction, cadence, tenues entre mesures ni jugement de qualité déduits |
 | **Corpus orchestral** | Beethoven 5/I et 7/II : MIDI et scores complets, licences et SHA-256 distincts, rapports JSON | Éditions indépendantes, identité note par note non démontrée |
 | **Contrôles scientifiques** | Contrats de sources, cadences et attentes humaines comme cibles indépendantes | N'évaluent pas encore un parseur G2/G3 |
 
@@ -140,8 +141,38 @@ les IDs de notes sources et ne transforme jamais la partition d'origine.
   la conduite à travers des rythmes différents, les résolutions
   harmoniques et l'audition ne sont **pas implémentés**.
 - Prochaine expérience : confronter la modification d'une note à un
-  contexte harmonique *annoté*, puis écouter deux versions contrôlées
+  contexte harmonique **expert annoté**, puis écouter deux versions contrôlées
   avant de préférer l'une à l'autre.
+
+### G3 — premier contexte harmonique structurel, non fonctionnel
+
+`anamu/orchestral_harmony.py` construit une verticalité notée à une
+position MusicXML, en tenant compte des notes tenues dans la mesure et
+des instruments transpositeurs. Il reconnaît seulement des **ensembles
+de classes de hauteur exactement compatibles** avec des triades ou
+septièmes courantes, sans imposer de racine aux formes symétriques.
+Un contrefactuel de conduite des voix est évalué sur **toutes** les
+notes actives à cet instant, non seulement sur les deux voix changées.
+
+- Beethoven 5/I : sur **1 932** variantes contraires→parallèles,
+  **353** perdent une forme exacte auparavant compatible, **951** ajoutent
+  une classe de hauteur et **153** changent la note la plus grave.
+- Beethoven 7/II : **977** variantes, respectivement **269**, **619**, **128**.
+
+Ces nombres sont **descriptifs**, pas une mesure du mérite de l'édition.
+Une suspension ou un accord altéré est souvent musical même si aucune
+forme exacte ne correspond. Les observations se recouvrent dans la pièce.
+
+```bash
+python -m scripts.orchestral_harmonic_context_probe --top 3
+python -m unittest tests.test_orchestral_harmony -v
+```
+
+**Prochaine étape G3 :** aligner une annotation harmonique experte
+(DCML si compatible avec l'édition), distinguer harmonie sous-jacente
+et notes étrangères, puis évaluer les analyses et les versions rendues
+en écoute comparative. Pas de taux de « bonne musique » fondé sur
+la simple présence de formes d'accord.
 
 ### G3–G6 — à consolider après les premiers mécanismes
 
@@ -174,6 +205,7 @@ python -m unittest discover -s tests -p 'test_grammar_*.py'
 python -m scripts.g2_motif_probe --top 3
 python -m scripts.orchestral_doubling_probe --top 3
 python -m scripts.orchestral_voice_leading_probe --top 2
+python -m scripts.orchestral_harmonic_context_probe --top 3
 python -m unittest discover -s tests -p test_orchestral_grammar_probe.py
 python -m unittest discover -s tests -p test_score_inventory.py
 python scripts/orchestral_grammar_probe.py

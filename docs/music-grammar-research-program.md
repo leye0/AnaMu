@@ -55,6 +55,16 @@ Chaque item porte `source_id`, `source_kind`, `span`, `timebase`, `provenance`, 
 
 **Exhaustivité contrôlée** : cette ontologie est un inventaire des domaines à traiter, **pas** l'affirmation qu'ils sont déjà implémentés. On peut enrichir les familles sans changer les opérations primitives.
 
+**Pont G3 déjà codé :** `anamu/orchestral_harmony.py` rassemble les
+hauteurs sonnantes simultanées (tenues incluses dans une mesure) et
+mesure l'effet vertical d'une variante d'une note proposée par
+`orchestral_voice_leading.py`. Une forme de triade/septième exacte
+n'est ni une fonction harmonique ni une preuve qu'une variante
+« sonne bien ». La prochaine validation exige tonalités, notes
+étrangères et résolutions **annotées humainement** (DCML), ainsi qu'une
+épreuve perceptive distincte. Voir
+[l'expérience mesurée](composition-grammar.md).
+
 ## 4. Grammaire formelle : graphe d'événements et arbres coexistants
 
 Une simple CFG sur une chaîne de notes serait inadéquate : le temps musical comporte des chevauchements, plusieurs voix et des dépendances non emboîtées. Proposer une **grammaire typée à contraintes**, produisant un **graphe temporel d'évidence** et plusieurs **arbres d'analyse** spécifiques à chaque axe.
