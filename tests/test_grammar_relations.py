@@ -10,7 +10,8 @@ import mido
 
 from anamu.grammar_foundation import midi_evidence
 from anamu.grammar_relations import (
-    AllenRelation, NoteRelationIndex, compare_note_spans, exact_pattern_transform,
+    AllenRelation, ExactPatternTransformIndex, NoteRelationIndex,
+    compare_note_spans, exact_pattern_transform,
     interval_relation,
 )
 
@@ -181,6 +182,19 @@ class MidiG1RelationsTests(unittest.TestCase):
         self.assertEqual(motif.time_scale, Fraction(2))
         self.assertEqual(motif.temporal_shift_ticks, 480)
         self.assertEqual(len(motif.source_event_ids), 8)
+
+    def test_indexed_transform_proof_equals_public_proof_and_checks_source(self):
+        evidence = self._example_motif()
+        index = ExactPatternTransformIndex(evidence)
+        self.assertEqual(index.prove(evidence.notes[:2], evidence.notes[2:]),
+                         exact_pattern_transform(evidence, evidence.notes[:2],
+                                                 evidence.notes[2:]))
+        foreign = _from_messages([
+            mido.Message("note_on", note=50),
+            mido.Message("note_off", note=50, time=60),
+        ])
+        with self.assertRaisesRegex(ValueError, "transform_span_not_present_in_evidence"):
+            index.prove((foreign.notes[0], evidence.notes[1]), evidence.notes[2:])
 
     def test_pitch_or_rhythm_change_fails_exact_transform(self):
         evidence = self._example_motif()

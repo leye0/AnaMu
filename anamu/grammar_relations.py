@@ -152,9 +152,16 @@ def exact_pattern_transform(evidence: MidiEvidence,
     durations are required; MIDI percussion is excluded from pitched claims.
     One-to-one matches with a zero temporal scale are rejected.
     """
+    return _exact_pattern_transform(evidence, source, target, frozenset(evidence.notes))
+
+
+def _exact_pattern_transform(evidence: MidiEvidence,
+                             source: Sequence[NoteSpan],
+                             target: Sequence[NoteSpan],
+                             known_notes: frozenset[NoteSpan]) -> ExactPatternTransform | None:
     if len(source) < 2 or len(source) != len(target):
         raise ValueError("transform_requires_equal_patterns_of_at_least_two_notes")
-    if any(note not in evidence.notes for note in (*source, *target)):
+    if any(note not in known_notes for note in (*source, *target)):
         raise ValueError("transform_span_not_present_in_evidence")
     if any(note.channel == 9 or note.end_tick <= note.start_tick
            for note in (*source, *target)):
@@ -185,3 +192,19 @@ def exact_pattern_transform(evidence: MidiEvidence,
         target_onset_ids=tuple(note.onset_event_id for note in target),
         transposition_semitones=semitones, time_scale=time_scale,
         temporal_shift_ticks=shift - base, source_event_ids=refs)
+
+
+class ExactPatternTransformIndex:
+    """Repeated G1 proofs using one source-membership index per MIDI file.
+
+    This is a pure performance optimization: it has the same validity
+    conditions and result as :func:`exact_pattern_transform`.
+    """
+
+    def __init__(self, evidence: MidiEvidence):
+        self.evidence = evidence
+        self._known_notes = frozenset(evidence.notes)
+
+    def prove(self, source: Sequence[NoteSpan],
+              target: Sequence[NoteSpan]) -> ExactPatternTransform | None:
+        return _exact_pattern_transform(self.evidence, source, target, self._known_notes)
