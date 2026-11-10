@@ -19,6 +19,7 @@ Les études de référence encore utiles sont rangées dans
 | **G2.2 exploratoire** | Recherche autonome de fenêtres d'attaques consécutives, répétées exactement sous transposition et changement uniforme d'échelle temporelle ; témoins `TRANSFORM` G1 | **Candidats structuraux**, pas thèmes, voix, phrases ou frontières validés ; ni SIA/SIATEC complet |
 | **Partition MusicXML** | Inventaire des parties, notes notées, positions métriques exactes, hauteurs écrites/sonnantes selon transposition déclarée ; voix simultanées conservées | Pas de reconstruction des reprises, des durées liées, de rôles ou d'alignement aux notes MIDI |
 | **Orchestration et contre-épreuve générative** | Détection de doublures strictes entre parties à l'unisson/octave ; reconstruction de trois notes masquées après trois notes d'apprentissage, comparée à un témoin | Structure et reconstruction **dans la même œuvre**, pas qualité d'orchestration, jouabilité ou écoute |
+| **Conduite des voix notée** | Mouvements de quartets entre deux parties : contraire, parallèle, similaire, oblique, statique, croisements, quintes/octaves parallèles ; contre-proposition d'une note | Attaques strictement synchronisées et voix/portées notées constantes ; pas de fonction harmonique ni de qualité esthétique déduite |
 | **Corpus orchestral** | Beethoven 5/I et 7/II : MIDI et scores complets, licences et SHA-256 distincts, rapports JSON | Éditions indépendantes, identité note par note non démontrée |
 | **Contrôles scientifiques** | Contrats de sources, cadences et attentes humaines comme cibles indépendantes | N'évaluent pas encore un parseur G2/G3 |
 
@@ -120,9 +121,32 @@ avant d'étendre ces indicateurs.
   et une **évaluation d'écoute aveugle** ; une bonne reconstruction de
   partition ne suffit jamais.
 
-### G3–G6 — à ouvrir après les contrats précédents
+### Conduite des voix — un deuxième mécanisme d'écriture
 
-- **G3 :** harmonie, tonalité, conduite des voix et fonctions d'orchestre.
+`anamu/orchestral_voice_leading.py` mesure des *quartets* de notes
+notées entre deux parties et génère un contrefactuel de mouvement
+(`parallel`, `contrary`, `oblique`) en modifiant **une seule note**.
+Le vocabulaire est celui de l'analyse contrapuntique traditionnelle,
+mais on ne déclare pas les quintes ou octaves parallèles « interdites »
+dans une orchestration. Chaque observation et contre-proposition garde
+les IDs de notes sources et ne transforme jamais la partition d'origine.
+
+- Beethoven 5/I : 24 824 quartets, dont 1 932 contraires et 73
+  croisements stricts ; Beethoven 7/II : 11 602, dont 977 contraires
+  et 174 croisements. Ce sont des **quartets corrélés**, pas autant de
+  choix d'arrangement indépendants.
+- Pour l'instant seuls les mouvements entre attaques synchronisées,
+  dans la même voix/portée notée, sont probants. Les relais de mélodie,
+  la conduite à travers des rythmes différents, les résolutions
+  harmoniques et l'audition ne sont **pas implémentés**.
+- Prochaine expérience : confronter la modification d'une note à un
+  contexte harmonique *annoté*, puis écouter deux versions contrôlées
+  avant de préférer l'une à l'autre.
+
+### G3–G6 — à consolider après les premiers mécanismes
+
+- **G3 :** approfondir la conduite des voix (premier mécanisme descriptif
+  livré), puis harmonie, tonalité et fonctions d'orchestre.
 - **G4 :** phrases, périodes, sections, développements, formes longues.
 - **G5 :** articulations, ralentissements, nuances et timbres sur les vues
   partition/performance/audio correctement alignées.
@@ -149,6 +173,7 @@ python -m pip install 'mido>=1.3,<2'
 python -m unittest discover -s tests -p 'test_grammar_*.py'
 python -m scripts.g2_motif_probe --top 3
 python -m scripts.orchestral_doubling_probe --top 3
+python -m scripts.orchestral_voice_leading_probe --top 2
 python -m unittest discover -s tests -p test_orchestral_grammar_probe.py
 python -m unittest discover -s tests -p test_score_inventory.py
 python scripts/orchestral_grammar_probe.py

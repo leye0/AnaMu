@@ -279,6 +279,16 @@ résultat fonctionnerait dans une composition nouvelle ou serait agréable
 à écouter. Les contraintes instrumentales, la hiérarchie, le phrasé, la
 forme et le jugement d'écoute seront des **épreuves de sortie obligatoires**.
 
+Une seconde opération inspecte la **conduite des voix entre parties notées** :
+quatre hauteurs sonnantes à deux positions communes permettent de constater
+un mouvement contraire, oblique, parallèle ou similaire, et de formuler
+une modification de hauteur qui changerait le mouvement. La distinction
+entre règles historiques de contrepoint et objectifs perceptifs est
+documentée par [Huron (2001), *Tone and Voice*](https://www.musanim.com/articles/Huron.ToneAndVoice.2001.pdf).
+Une **quinte parallèle n'est pas une erreur automatique** : elle peut être
+une doublure orchestrale intentionnelle. Aucun jugement de timbre,
+de cadence ou de qualité n'est attaché à cette opération.
+
 **Politique de travail** : le projet traite *tous* les aspects dans la conception des données et de l'API, mais ne déclare chaque mécanisme « implémenté » qu'après une extraction conservatrice et une vérification pertinente. Le programme de classification de « mystérieux » est abandonné ; les études portant directement sur une cible musicale vérifiable peuvent servir de témoins indépendants, sans dicter la structure de la grammaire.
 
 ## 8. Première décision architecturale à valider
