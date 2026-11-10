@@ -9,6 +9,10 @@ McGill 2026, B. Mus. Composition. Cours préparatoire du programme.
 
 Consulté le 10 novembre 2026. Source publique, résumée sans reproduction des exercices.
 
+## Activités de la section H27
+
+L’[affichage Schulich, p. 11](https://www.mcgill.ca/music/files/music/winter_2027_-_musicresearch_-_detailed_job_posting.pdf#page=11) annonce pour la section de Robert Hasegawa des cours magistraux et des groupes dirigés, avec travaux ou quiz et examens. Il demande des compétences en harmonie, conduite des voix et clavier à l’auxiliaire, sans donner les consignes.
+
 ## Lacunes et reprise
 
 Les exigences de 2017 documentent le niveau d’exemption historique. Chercher les consignes de travaux, le répertoire de cours et la progression 2026 auprès de Schulich ou dans myCourses avec accès autorisé.
