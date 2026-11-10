@@ -36,6 +36,11 @@ de composition**, puis démontrer la maîtrise analytique de chaque compétence
 applicable, sous contrôle musicologique indépendant. Le
 [référentiel universitaire](university-curriculum.md) définit cette exigence,
 et le [TODO](todo-university-coverage.md) en détaille les vérifications.
+L'inventaire doit prendre **l'union des enseignements pertinents** : cours
+obligatoires, options, recommandations et spécialités alternatives, même
+si aucun étudiant ne pourrait les cumuler dans son propre cursus. Les
+options libres exigent une recherche dans les catalogues complémentaires,
+et chaque exclusion doit être motivée par rapport aux savoirs couverts.
 Les prototypes G0–G3 ne cochent **aucune** de ces compétences exhaustives.
 
 Cette analyse doit pouvoir dire **« inconnu »**, conserver plusieurs

@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "program_id": "berklee-bmus-composition-2026f",
+  "source_url": "https://www.berklee.edu/sites/default/files/2026-05/2026f-composition-degree-grid.pdf?fv=gFJx2m0F",
+  "source_index_url": "https://www.berklee.edu/registrar/major-grids-search",
+  "catalog_year": "2026F",
+  "program_code": "BM4.COMP",
+  "total_credits": 120,
+  "status": "official_credit_grid_only_course_family_choices_and_detailed_syllabi_not_audited",
+  "caution": "The 2024 public major page and an older sample curriculum are not the canonical 2026 requirements.",
+  "groups": [
+    {
+      "code": "major",
+      "credits": 32,
+      "requirements": [
+        {
+          "label": "Clavier élémentaire 1 et 2",
+          "codes": [
+            "ISKB-211",
+            "ISKB-212"
+          ],
+          "credits": 2,
+          "rule": "all"
+        },
+        {
+          "label": "Écriture tonale",
+          "codes": [
+            "CM-221"
+          ],
+          "credits": 2,
+          "rule": "all"
+        },
+        {
+          "label": "Contrepoint 2",
+          "codes": [
+            "CP-215"
+          ],
+          "credits": 2,
+          "rule": "all"
+        },
+        {
+          "label": "Instrumentation et préparation de partition",
+          "codes": [
+            "CM-231"
+          ],
+          "credits": 2,
+          "rule": "all"
+        },
+        {
+          "label": "Analyse classique et romantique",
+          "codes": [
+            "MLAN-311"
+          ],
+          "credits": 2,
+          "rule": "all"
+        },
+        {
+          "label": "Techniques contemporaines 1 et 2",
+          "codes": [
+            "CM-311",
+            "CM-312"
+          ],
+          "credits": 4,
+          "rule": "all"
+        },
+        {
+          "label": "Orchestration pour orchestre complet",
+          "codes": [
+            "CM-441"
+          ],
+          "credits": 2,
+          "rule": "all"
+        },
+        {
+          "label": "Analyse XXe et XXIe siècles",
+          "codes": [
+            "MLAN-312"
+          ],
+          "credits": 2,
+          "rule": "all"
+        },
+        {
+          "label": "Études dirigées en composition 1–3",
+          "codes": [
+            "CM-398",
+            "CM-497",
+            "CM-498"
+          ],
+          "credits": 4,
+          "rule": "all"
+        },
+        {
+          "label": "Projets avancés de composition",
+          "codes": [
+            "CM-490"
+          ],
+          "credits": 2,
+          "rule": "all"
+        },
+        {
+          "label": "Options de majeure",
+          "codes": [],
+          "credits": 8,
+          "rule": "credit_pool"
+        },
+        {
+          "label": "Portfolio de composition",
+          "codes": [],
+          "credits": 0,
+          "rule": "required_uncredited_portfolio"
+        }
+      ]
+    },
+    {
+      "code": "major_specific_core_and_liberal_arts",
+      "credits": 22,
+      "requirements": [
+        {
+          "label": "Solfège 1",
+          "codes": [
+            "ET-231"
+          ],
+          "credits": 2,
+          "rule": "all"
+        },
+        {
+          "label": "Solfège 2",
+          "codes": [
+            "ET-232"
+          ],
+          "credits": 2,
+          "rule": "all"
+        },
+        {
+          "label": "Direction 1",
+          "codes": [
+            "COND-211",
+            "COND-216"
+          ],
+          "credits": 1,
+          "rule": "one_of"
+        },
+        {
+          "label": "Direction 2",
+          "codes": [
+            "COND-212",
+            "COND-217"
+          ],
+          "credits": 1,
+          "rule": "one_of"
+        },
+        {
+          "label": "Mathématiques/sciences naturelles",
+          "codes": [
+            "LMSC-xxx"
+          ],
+          "credits": 3,
+          "rule": "course_family"
+        },
+        {
+          "label": "Sciences sociales",
+          "codes": [
+            "LSOC-xxx",
+            "ASOC-xxx"
+          ],
+          "credits": 3,
+          "rule": "one_of_family"
+        },
+        {
+          "label": "Histoire de la musique 1",
+          "codes": [
+            "MHIS-251"
+          ],
+          "credits": 2,
+          "rule": "all"
+        },
+        {
+          "label": "Histoire de la musique 2",
+          "codes": [
+            "MHIS-252"
+          ],
+          "credits": 2,
+          "rule": "all"
+        },
+        {
+          "label": "Options de sciences humaines/Africana Studies",
+          "codes": [
+            "Lxxx-xxx",
+            "Axxx-xxx"
+          ],
+          "credits": 6,
+          "rule": "credit_pool"
+        }
+      ]
+    },
+    {
+      "code": "core_music",
+      "credits": 35,
+      "requirements": [
+        {
+          "label": "Leçons instrumentales ou vocales niveaux 1–4",
+          "codes": [
+            "PIxx-111",
+            "PIxx-112",
+            "PIxx-211",
+            "PIxx-212"
+          ],
+          "credits": 6,
+          "rule": "all"
+        },
+        {
+          "label": "Laboratoire instrumental",
+          "codes": [
+            "ILxx"
+          ],
+          "credits": 2,
+          "rule": "course_family_repeated"
+        },
+        {
+          "label": "Ensembles",
+          "codes": [
+            "ENxx"
+          ],
+          "credits": 4,
+          "rule": "course_family_repeated"
+        },
+        {
+          "label": "Théorie et application musicale",
+          "codes": [
+            "PW-111"
+          ],
+          "credits": 4,
+          "rule": "all"
+        },
+        {
+          "label": "Arrangement 1",
+          "codes": [
+            "AR-111",
+            "AR-123"
+          ],
+          "credits": 2,
+          "rule": "one_of"
+        },
+        {
+          "label": "Harmonie 2",
+          "codes": [
+            "HR-112",
+            "HR-114"
+          ],
+          "credits": 2,
+          "rule": "one_of"
+        },
+        {
+          "label": "Harmonie 3",
+          "codes": [
+            "HR-211",
+            "HR-213",
+            "HR-215"
+          ],
+          "credits": 2,
+          "rule": "one_of"
+        },
+        {
+          "label": "Harmonie 4",
+          "codes": [
+            "HR-212",
+            "HR-214",
+            "HR-216"
+          ],
+          "credits": 2,
+          "rule": "one_of"
+        },
+        {
+          "label": "Ear Training 1",
+          "codes": [
+            "ET-111"
+          ],
+          "credits": 2,
+          "rule": "all"
+        },
+        {
+          "label": "Ear Training 2",
+          "codes": [
+            "ET-112",
+            "ET-123"
+          ],
+          "credits": 2,
+          "rule": "one_of"
+        },
+        {
+          "label": "Harmonie et composition tonale 1",
+          "codes": [
+            "CM-211"
+          ],
+          "credits": 2,
+          "rule": "all"
+        },
+        {
+          "label": "Harmonie et composition tonale 2",
+          "codes": [
+            "CM-212"
+          ],
+          "credits": 2,
+          "rule": "all"
+        },
+        {
+          "label": "Art du contrepoint",
+          "codes": [
+            "CP-210"
+          ],
+          "credits": 3,
+          "rule": "all"
+        }
+      ]
+    },
+    {
+      "code": "liberal_arts_and_africana_studies",
+      "credits": 24,
+      "requirements": [
+        {
+          "label": "Technologie musicale",
+          "codes": [
+            "MTEC-111",
+            "MTEC-122"
+          ],
+          "credits": 2,
+          "rule": "one_of"
+        },
+        {
+          "label": "Séminaire d'introduction",
+          "codes": [
+            "LENS-10x"
+          ],
+          "credits": 2,
+          "rule": "course_family"
+        },
+        {
+          "label": "Développement professionnel",
+          "codes": [
+            "LHUM-400"
+          ],
+          "credits": 2,
+          "rule": "all"
+        },
+        {
+          "label": "Écriture universitaire",
+          "codes": [
+            "LENG-111"
+          ],
+          "credits": 3,
+          "rule": "all"
+        },
+        {
+          "label": "Littérature",
+          "codes": [
+            "LENG-223"
+          ],
+          "credits": 3,
+          "rule": "all"
+        },
+        {
+          "label": "Histoire",
+          "codes": [
+            "LHIS-xxx",
+            "AHIS-xxx"
+          ],
+          "credits": 3,
+          "rule": "one_of_family"
+        },
+        {
+          "label": "Musiques afro-diasporiques globales",
+          "codes": [
+            "AFST-221"
+          ],
+          "credits": 3,
+          "rule": "all"
+        },
+        {
+          "label": "Arts visuels",
+          "codes": [
+            "LVIS-xxx"
+          ],
+          "credits": 3,
+          "rule": "all"
+        },
+        {
+          "label": "Musique et société",
+          "codes": [
+            "LMAS-xxx",
+            "AMAS-xxx"
+          ],
+          "credits": 3,
+          "rule": "one_of_family"
+        }
+      ]
+    },
+    {
+      "code": "general_electives",
+      "credits": 7,
+      "requirements": [
+        {
+          "label": "Options générales",
+          "codes": [],
+          "credits": 7,
+          "rule": "credit_pool"
+        }
+      ]
+    }
+  ]
+}

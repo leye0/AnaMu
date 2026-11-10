@@ -36,6 +36,8 @@ def university_catalog_issues(catalog: dict) -> list[str]:
     mandatory = [c for c in courses if c.get("block") == "75A"]
     if len(mandatory) != 22 or sum(c.get("credits", 0) for c in mandatory) != 63:
         issues.append("UdeM mandatory inventory must contain 22 courses / 63 credits")
+    if len([c for c in courses if c.get("block") != "75A"]) != 168:
+        issues.append("UdeM 168 optional course choices must remain available for knowledge review")
     if catalog.get("mandatory_credits") != 63 or catalog.get("total_credits") != 90:
         issues.append("UdeM published credit requirements are inconsistent")
     if catalog.get("status") != "public_catalog_course_inventory_only_syllabi_not_audited":
@@ -43,6 +45,71 @@ def university_catalog_issues(catalog: dict) -> list[str]:
     if not (catalog.get("source_url") or "").startswith(
             "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/"):
         issues.append("UdeM catalog missing its official source URL")
+    return issues
+
+
+def mcgill_catalog_issues(catalog: dict) -> list[str]:
+    """Check the published 124-credit course/choice structure, not mastery."""
+    issues: list[str] = []
+    credits = catalog.get("requirements", {})
+    if sum(credits.get(k, 0) for k in
+           ("foundation_credits", "required_credits", "complementary_credits",
+            "elective_credits")) != 124 or catalog.get("total_credits") != 124:
+        issues.append("McGill program credit blocks do not sum to 124")
+    if (credits.get("foundation_listed_prerequisite_credits") != 22
+            or credits.get("foundation_large_ensemble_credits") != 4
+            or credits.get("foundation_non_music_electives_credits") != 6):
+        issues.append("McGill 32-credit foundation subgroups do not match the catalog")
+    if (credits.get("complementary_music_theory_credits") != 3
+            or credits.get("complementary_music_history_credits") != 6
+            or credits.get("complementary_ensemble_credits") != 4):
+        issues.append("McGill complementary choices do not sum to 13")
+    courses = catalog.get("courses", [])
+    if len(courses) != 58 or len({c.get("code") for c in courses}) != len(courses):
+        issues.append("McGill catalog must have 58 distinct named course choices")
+    for name, expected_count, expected_credits in (
+            ("foundation", 10, 22), ("required", 25, 61),
+            ("complementary", 15, 35), ("recommended", 8, 24)):
+        subset = [c for c in courses if c.get("category") == name]
+        if len(subset) != expected_count or sum(c.get("credits", 0) for c in subset) != expected_credits:
+            issues.append(f"McGill {name}: course count/credits differ from the catalog")
+    if not all(c.get("title") for c in courses if c.get("category") in ("complementary", "recommended")):
+        issues.append("McGill complementary and recommended learning options require course titles")
+    if catalog.get("status") != "public_program_requirement_list_only_syllabi_not_audited":
+        issues.append("McGill named-course inventory must not claim syllabus validation")
+    return issues
+
+
+def berklee_grid_issues(catalog: dict) -> list[str]:
+    """Verify the current grid's required credit buckets and alternatives."""
+    issues: list[str] = []
+    groups = catalog.get("groups", [])
+    expected = {"major": 32, "major_specific_core_and_liberal_arts": 22,
+                "core_music": 35, "liberal_arts_and_africana_studies": 24,
+                "general_electives": 7}
+    if {g.get("code"): g.get("credits") for g in groups} != expected:
+        issues.append("Berklee 2026F group credits differ from official grid")
+    if catalog.get("catalog_year") != "2026F" or catalog.get("total_credits") != 120:
+        issues.append("Berklee catalog year/total is not the 2026F 120-credit degree")
+    requirements = [r for g in groups for r in g.get("requirements", [])]
+    if len(requirements) != 44:
+        issues.append("Berklee 2026F grid should have 44 documented requirement lines")
+    for g in groups:
+        if sum(r.get("credits", 0) for r in g.get("requirements", [])) != g.get("credits"):
+            issues.append(f"Berklee {g.get('code')}: requirements do not sum to group credits")
+    if not any(r.get("rule") == "required_uncredited_portfolio" and r.get("credits") == 0
+               for r in requirements):
+        issues.append("Berklee mandatory uncredited composition portfolio missing")
+    major = next((g for g in groups if g.get("code") == "major"), {})
+    electives = next((g for g in groups if g.get("code") == "general_electives"), {})
+    if not any(r.get("rule") == "credit_pool" and r.get("credits") == 8
+               for r in major.get("requirements", [])):
+        issues.append("Berklee eight major elective credits must remain visible for further inventory")
+    if not any(r.get("rule") == "credit_pool" and r.get("credits") == 7
+               for r in electives.get("requirements", [])):
+        issues.append("Berklee seven general elective credits must remain visible for further inventory")
+    if catalog.get("status") != "official_credit_grid_only_course_family_choices_and_detailed_syllabi_not_audited":
+        issues.append("Berklee grid must not claim complete course/syllabus coverage")
     return issues
 
 
@@ -65,6 +132,9 @@ def university_coverage_issues(todo_text: str) -> list[str]:
     for course in ("MTE 2114", "MUCO 460", "CM-441"):
         if course not in todo_text:
             issues.append(f"university TODO missing curriculum anchor: {course}")
+    for code in ("A13", "A14", "A15"):
+        if code not in codes:
+            issues.append(f"university TODO missing optional-knowledge audit gate: {code}")
     return issues
 
 
@@ -89,7 +159,11 @@ def validate(root: Path = ROOT) -> list[str]:
                 root / "docs/university-curriculum.md",
                 root / "docs/todo-university-coverage.md",
                 root / "docs/udem-curriculum-a26-audit.md",
-                root / "docs/data/udem-composition-a26.json"]
+                root / "docs/data/udem-composition-a26.json",
+                root / "docs/mcgill-curriculum-2026-audit.md",
+                root / "docs/data/mcgill-composition-2026.json",
+                root / "docs/berklee-curriculum-2026f-audit.md",
+                root / "docs/data/berklee-composition-2026f.json"]
     for path in required:
         if not path.is_file():
             errors.append(f"missing required documentation: {path}")
@@ -104,6 +178,14 @@ def validate(root: Path = ROOT) -> list[str]:
             errors.extend(university_catalog_issues(json.loads(catalog.read_text(encoding="utf-8"))))
         except (json.JSONDecodeError, ValueError, TypeError) as exc:
             errors.append(f"UdeM catalog JSON invalid: {exc}")
+    for path, label, inspector in (
+            (root / "docs/data/mcgill-composition-2026.json", "McGill", mcgill_catalog_issues),
+            (root / "docs/data/berklee-composition-2026f.json", "Berklee", berklee_grid_issues)):
+        if path.is_file():
+            try:
+                errors.extend(inspector(json.loads(path.read_text(encoding="utf-8"))))
+            except (json.JSONDecodeError, ValueError, TypeError) as exc:
+                errors.append(f"{label} catalog JSON invalid: {exc}")
     for md in [root / "README.md", *sorted((root / "docs").rglob("*.md"))]:
         if md.is_file():
             errors.extend(broken_local_links(md))
