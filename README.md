@@ -30,7 +30,8 @@ développement MIDI pendant cette phase**.
 - **Options voisines :** 30 pistes de savoir supplémentaires, non validées au niveau des contenus.
 - **Suivi opérationnel :** [332 codes de cours candidats et 5 ensembles
   d'options encore à détailler](docs/data/course-material-progress.json),
-  5 avec un syllabus public officiellement équivalent, 36 avec des preuves pédagogiques partielles ou des supports parallèles. Le registre distingue aussi les pistes encore au statut catalogue.
+  5 avec un syllabus public officiellement équivalent, 53 avec des preuves pédagogiques partielles ou des supports parallèles, et 274 au statut catalogue.
+- [Options de majeure Berklee](docs/berklee-major-elective-candidates.md) — 83 codes candidats repérés dans cinq familles, dont 70 hors du registre initial.
 - [Pistes de recherche et d’accès aux supports](docs/course-material-source-trail.md) pour UdeM, McGill et les options de Berklee.
 - **Base unifiée :** non construite. **Analyseur MIDI académique :** non construit. **Composition :** verrouillée.
 
