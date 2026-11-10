@@ -7,6 +7,8 @@ from scripts.validate_project_docs import (
     agent_onboarding_issues,
     berklee_grid_issues,
     broken_local_links,
+    course_material_progress_issues,
+    legacy_mission_issues,
     mcgill_catalog_issues,
     optional_knowledge_issues,
     university_catalog_issues,
@@ -15,13 +17,48 @@ from scripts.validate_project_docs import (
 
 
 class DocumentationLinkTests(unittest.TestCase):
+    def test_course_tracker_covers_all_named_courses_but_claims_no_syllabi(self):
+        root = Path(__file__).resolve().parents[1]
+        sources = {
+            "udem": "udem-composition-a26.json",
+            "mcgill": "mcgill-composition-2026.json",
+            "berklee": "berklee-composition-2026f.json",
+            "optional": "optional-knowledge-seeds-2026.json",
+        }
+        catalogs = {key: json.loads((root / "docs/data" / filename).read_text(encoding="utf-8"))
+                    for key, filename in sources.items()}
+        progress = json.loads((root / "docs/data/course-material-progress.json")
+                              .read_text(encoding="utf-8"))
+        self.assertEqual(course_material_progress_issues(progress, catalogs, root), [])
+        self.assertEqual(sum(len(rows) for rows in progress["courses"].values()), 332)
+        self.assertTrue(all(item["status"] == "catalog_only"
+                            for rows in progress["courses"].values()
+                            for item in rows.values()))
+        missing = progress["courses"]["udem"].pop("MCT 1601")
+        self.assertTrue(any("udem" in issue for issue in
+                            course_material_progress_issues(progress, catalogs, root)))
+
+    def test_only_course_collection_is_active_and_old_campaign_docs_are_absent(self):
+        root = Path(__file__).resolve().parents[1]
+        self.assertEqual(legacy_mission_issues(root), [])
+        for relpath in ("README.md", "docs/OBJECTIVES.md", "docs/course-material-collection.md"):
+            text = (root / relpath).read_text(encoding="utf-8")
+            self.assertIn("cours", text)
+
+    def test_old_experimental_direction_is_rejected(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "README.md").write_text("PIAST mysterious", encoding="utf-8")
+            self.assertTrue(any("retired research direction" in issue
+                                for issue in legacy_mission_issues(root)))
+
     def test_fresh_agent_finds_academic_knowledge_mission_and_documents(self):
         root = Path(__file__).resolve().parents[1]
         text = (root / "AGENTS.md").read_text(encoding="utf-8")
         self.assertEqual(agent_onboarding_issues(text), [])
         knowledge = (root / "docs/knowledge-base.md").read_text(encoding="utf-8")
         self.assertIn("base de concepts réconciliés", knowledge)
-        self.assertIn("reste à construire", knowledge)
+        self.assertIn("reste à construire", " ".join(knowledge.split()))
 
     def test_fresh_agent_contract_cannot_lose_key_navigation(self):
         root = Path(__file__).resolve().parents[1]

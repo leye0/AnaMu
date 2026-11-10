@@ -4,8 +4,11 @@
 L'ambition est de posséder un patrimoine **massif, structuré, traçable et
 interrogeable de connaissances musicales** obtenu par la mise en commun de
 plusieurs programmes universitaires avancés. Ce patrimoine doit alimenter
-le [moteur d'analyse](music-grammar-research-program.md) et, **une fois les
-portes académiques levées**, un futur système de composition musicale.
+plus tard des **analyseurs de morceaux MIDI existants** et, **une fois les
+portes académiques levées**, un éventuel système de composition musicale.
+**La priorité actuelle est exclusivement la collecte de la matière des
+cours**, selon [le protocole](course-material-collection.md). La conception
+du patrimoine ci-dessous décrit la phase suivante, encore verrouillée.
 
 ## 1. L'actif central n'est pas un catalogue de cours
 
@@ -27,14 +30,15 @@ l'expliquer correctement dans une œuvre ».
 |---|---|---|
 | **1. Sources universitaires** | Programmes, éditions, cours, syllabus, chapitres, exercices, lectures, crédits et provenance | Que le moteur comprend la matière |
 | **2. Base académique unifiée** | Concepts, règles conditionnelles, exemples, relations, contre-exemples, styles et divergences | Que chaque concept est implémenté |
-| **3. Moteur d'analyse** | Hypothèses sourcées sur des partitions, performances et sons inconnus ; références aux concepts utilisés | Que les analyses sont justes sans épreuve indépendante |
+| **3. Moteur d'analyse MIDI** | Hypothèses sourcées sur des morceaux MIDI existants, références aux concepts utilisés, limites des observations | Que les analyses sont justes sans épreuve indépendante ou que MIDI contient le son acoustique |
 | **4. Évaluation / composition future** | Compétences expertisées et, plus tard, décisions génératives cohérentes évaluées à l'écoute | Qu'une métrique isolée garantit une musique agréable |
 
-**État actuel :** nous avons des inventaires de sources (couche 1
-**partielle**) et des prototypes d'analyse (couche 3 **partielle**).
-**La grande base de concepts réconciliés (couche 2) reste à construire.**
-Les résultats expérimentaux ne sont pas encore une couverture certifiée des
-cursus ; la composition générative reste fermée.
+**État actuel :** nous avons des inventaires de catalogues (couche 1
+**partielle**). La matière détaillée des cours n'a pas été collectée
+exhaustivement. **La grande base de concepts réconciliés (couche 2) reste
+à construire.** Il n'existe plus de prototype analytique dans le dépôt
+actif : les futures capacités seront décidées à partir des enseignements
+réellement obtenus. La composition reste fermée.
 
 ## 2. Unité de connaissance à construire
 
@@ -72,10 +76,11 @@ ne doit être présenté comme un moteur complet de cette base.
 5. **Relier** concepts, prérequis, opérations, styles, partitions annotées
    et sous-compétences. Rendre possible la navigation dans les deux sens :
    `cours → concepts` et `concept → cours, preuves et mécanismes`.
-6. **Exercer l'analyse sur l'inconnu** : vérifier que le moteur peut
-   reconnaître des choix musicaux, expliquer leur fonction, garder des
-   hypothèses concurrentes et détecter ses propres limites.
-7. **Évaluer** les résultats avec des œuvres hors développement, des
+6. **Après autorisation de passage à la phase MIDI**, exercer l'analyse
+   sur l'inconnu : vérifier que le moteur peut reconnaître dans un MIDI
+   des composants effectivement enseignés, expliquer leur fonction,
+   garder des hypothèses concurrentes et détecter ses propres limites.
+7. **Évaluer ensuite** les résultats avec des œuvres hors développement, des
    musiciens indépendants et de l'audio lorsque l'affirmation porte sur
    une qualité sonore. Le statut `validé` requiert le dossier probant.
 
@@ -122,12 +127,12 @@ et expertise du [TODO universitaire](todo-university-coverage.md), portes
   universitaires doivent être examinés.
 - [todo-university-coverage.md](todo-university-coverage.md) : quelles
   acquisitions, preuves et validations restent à réaliser.
-- [research-evidence-gates.md](research-evidence-gates.md) : comment
-  distinguer une observation d'un savoir confirmé.
-- [roadmap.md](roadmap.md) : ce que le code sait effectivement faire.
+- [course-material-collection.md](course-material-collection.md) : comment
+  obtenir et attester la matière de chaque cours, **maintenant**.
 
-**Prochaine implémentation structurante :** un registre versionné
-`programme → cours → chapitre/objectif → concept académique unifié →
-capacité analytique → preuve`, avec identifiants stables, provenance,
-inconnus explicites et vérification automatique des trous. Le catalogue
-actuel fournit des **entrées**, pas encore cette base de connaissances.
+**Prochaine tâche active :** obtenir un contenu pédagogique précis pour
+**chaque cours**, en notant les chapitres, lectures, exercices, exemples et
+lacunes avec leurs sources. Le futur registre versionné suivra ensuite la
+chaîne `programme → cours → chapitre/objectif → concept académique unifié →
+capacité MIDI analysable → preuve` ; il ne doit pas être rempli au hasard
+à partir des seuls intitulés du catalogue.

@@ -6,20 +6,35 @@ et orchestration, **avant** d'engager la composition automatique. Notre cible
 est **l'union des contenus instructifs**, même optionnels, recommandés ou
 issus de spécialisations alternatives ; elle ne se limite pas aux cours
 qu'un étudiant doit suivre pour obtenir son diplôme.
-Cette union doit devenir une **base de connaissances académiques unifiée**,
-consultable par un moteur d'analyse, suivant
-[knowledge-base.md](knowledge-base.md), et pas une simple liste de matières.
-Référentiel et sources : [university-curriculum.md](university-curriculum.md).
-Principe expérimental : [research-evidence-gates.md](research-evidence-gates.md).
+Cette union devra devenir, **après la collecte**, une base de connaissances
+académiques unifiée suivant [knowledge-base.md](knowledge-base.md), et pas
+une simple liste de matières. Référentiel et sources :
+[university-curriculum.md](university-curriculum.md). Protocole actif :
+[course-material-collection.md](course-material-collection.md).
+Le [registre de progression](data/course-material-progress.json) suit
+**332 codes de cours candidats** et les **5 ensembles d'options à déplier**.
+
+**VERROU DE PHASE : seuls les travaux de collecte A01–A15, A18 et de revue
+de leur couverture sont actifs.** La réconciliation de concepts A16–A17,
+les capacités analytiques B–K et la composition L ne commencent qu'avec
+l'accord explicite de Léon, après acquisition et vérification du contenu
+des cours. **Ne créer aucun nouvel analyseur MIDI à ce stade.**
 
 ## Mode d'emploi et définition de « terminé »
 
-**Aucune case ci-dessous n'est actuellement validée.** Des primitives
-existent (MIDI, relations temporelles, doublures, quartets de voix,
-verticalités, passages/broderies), mais ne satisfont pas une compétence
-universitaire entière. Les cases ne sont **pas** une estimation d'avancement.
+**Aucune case ci-dessous n'est actuellement validée.** Des catalogues
+ont été inventoriés, mais leur présence ne constitue pas une collecte
+des syllabus. Les cases ne sont **pas** une estimation d'avancement.
+La progression quotidienne se fait **cours par cours dans le registre** ;
+les cases A ne sont cochées qu'après revue exhaustive de leur périmètre.
 
-Une ligne ne peut être cochée que si elle possède simultanément :
+**Pour A01–A15 et A18 (acquisition)**, une ligne ne peut être cochée que
+si chaque cours applicable a une source vérifiable, la matière annoncée
+effectivement obtenue ou ses limites explicitement documentées, ses
+options examinées et une revue de couverture réalisée. Un catalogue seul
+ne clôt jamais un cours.
+
+**Pour A16–A17 et B–L (phases futures)**, les exigences ultérieures sont :
 
 1. une référence **précise** au cours ou au chapitre du référentiel,
    y compris la variété stylistique et les exceptions ;
@@ -33,12 +48,11 @@ Une ligne ne peut être cochée que si elle possède simultanément :
 5. une **revue musicologique contradictoire** documentée. Tout savoir
    non automatisable exige son épreuve spécifique ou reste non couvert.
 
-Chaque case devra être liée à une fiche `cours → compétence → opérateur
-→ corpus → référence experte → rapport → limites`, en précisant
-`non abordé / exploratoire / implémenté non validé / validé`. Un sujet
-présent seulement dans une table ou un script n'est **pas terminé**.
-L'audit des plans de cours devra enrichir cette liste : **les descriptions
-publiques ne sont pas une preuve de couverture exhaustive**.
+Chaque case future devra être liée à une fiche `cours → chapitre → concept
+→ mécanisme MIDI → preuve indépendante → limites`, en précisant le statut.
+**Pour le moment, la seule fiche à produire est celle de la matière des
+cours**, suivant le protocole de collecte. Les descriptions publiques ne
+sont pas une preuve de couverture exhaustive.
 
 ## A. Inventaire des programmes et gouvernance de la couverture
 
@@ -65,7 +79,7 @@ de son syllabus ; A13–A15 demeurent ouverts.
 - [ ] A06 — Définir explicitement toutes les trajectoires d'options : tronc commun exhaustif pour **trois programmes**, branches composition instrumentale/orchestrale/contemporaine ; exceptions signalées.
 - [ ] A07 — Réconcilier les divergences de vocabulaire et de tradition entre les trois programmes sans les aplatir en pseudo-règles universelles.
 - [ ] A08 — Comparer l'inventaire aux manuels universitaires de référence pour relever des lacunes de syllabus, sans traiter les manuels comme une validation logicielle.
-- [ ] A09 — Attacher à chaque sous-compétence une définition de réussite, des exemples de partition et le corpus de validation compatible.
+- [ ] A09 — Recueillir les objectifs, exercices, exemples et critères d'évaluation **enseignés** pour chaque sous-compétence, sans inventer de protocole algorithmique avant la phase MIDI.
 - [ ] A10 — Établir une gouvernance de revue par au moins un orchestrateur/enseignant et un analyste indépendant ; conserver désaccords et cas impossibles.
 - [ ] A11 — Documenter les droits d'accès, les licences et la provenance des syllabus, partitions, MIDI, annotations et enregistrements.
 - [ ] A12 — Auditer périodiquement les nouvelles éditions des trois programmes et ne jamais convertir une couverture partielle en pourcentage trompeur.
@@ -74,7 +88,15 @@ de son syllabus ; A13–A15 demeurent ouverts.
 - [ ] A15 — Vérifier avec des spécialistes que l'union des cours inclus ne perd **aucune matière pertinente** du fait de contraintes de choix ou de spécialisation, et étendre B–J dès qu'un nouvel enseignement manque au référentiel.
 - [ ] A16 — Concevoir et matérialiser un **registre versionné de connaissances musicales unifiées** (concepts, définitions, mécanismes, prérequis, contextes, exemples, exceptions, sources et provenance multi-cursus), distinct des catalogues administratifs.
 - [ ] A17 — Réconcilier les équivalences, nuances et contradictions des contenus universitaires **au niveau des concepts**, avec identifiants stables et navigation bidirectionnelle `cours ↔ concept ↔ preuve`, sans réduire plusieurs traditions à une règle universelle.
-- [ ] A18 — Démontrer que le moteur d'analyse **interroge et mobilise réellement** cette base pour expliquer des œuvres inconnues, et tracer chaque hypothèse vers le concept et la source qui la soutiennent ; ne pas assimiler des constantes cachées à une connaissance acquise.
+- [ ] A18 — Auditer **cours par cours** la complétude des syllabus et contenus réellement disponibles ; tout manque doit être explicite, attribué à sa source et traité avant de déclarer la phase de collecte achevée.
+
+## Phases suivantes — exigences pédagogiques à documenter après la collecte
+
+Les sections B–J ci-dessous sont un **cadre provisoire de compétences à
+vérifier contre la matière réelle des cours**. Elles ne remplacent pas
+les chapitres des syllabus ; elles devront être augmentées, corrigées ou
+réorganisées à partir de ces sources. **Aucun script ni benchmark ne doit
+être développé pour cocher ces cases tant que la phase 1 reste ouverte.**
 
 ## B. Lecture de partition, théorie élémentaire et fidélité de source
 
@@ -141,7 +163,7 @@ de son syllabus ; A13–A15 demeurent ouverts.
 - [ ] E09 — Analyser exposition, contrastes, reprise, récapitulation, transition, pont, climax, développement et conclusion sur la durée entière.
 - [ ] E10 — Conserver la macro-forme lorsque répétitions et codas déplacent la réalisation temporelle sans changer l'écriture imprimée.
 - [ ] E11 — Valider thèmes/phrases/formes sur éditions et répertoires tenus à l'écart avec annotations humaines et désaccords explicites.
-- [ ] E12 — Étudier les fonctions dramaturgiques (anticipation, suspension, résolution, surprise) sans les confondre avec une étiquette d'émotion.
+- [ ] E12 — Étudier les fonctions dramaturgiques (anticipation, suspension, résolution, surprise) sans les réduire à un simple adjectif subjectif.
 - [ ] E13 — Analyser la narration par musique à l'image : relations scène/forme, fonctions des thèmes et leitmotivs, reprises entre séquences, choix de silence et évolution de l'arc dramatique avec preuves audiovisuelles adaptées.
 
 ## F. Rythme, métrique, durée et expression temporelle
@@ -256,8 +278,7 @@ de son syllabus ; A13–A15 demeurent ouverts.
 - [ ] L04 — Un rapport expose honnêtement les compétences humaines non représentables et explique si elles bloquent toujours l'exhaustivité demandée.
 - [ ] L05 — Léon approuve explicitement la levée du verrou, après examen du rapport scientifique et musicologique.
 
-**Tant qu'au moins une de ces conditions échoue : poursuite de l'analyse
-et des validations seulement.** Aucune composition générative, entraînement
-pour produire des morceaux, ou promesse d'arrangements agréables. Les
-contre-épreuves internes de reconstruction restent autorisées si elles
-mesurent exclusivement la compréhension des partitions existantes.
+**Tant que la phase de collecte n'est pas clôturée et approuvée : acquisition
+des cours uniquement.** Ensuite viendront la base de connaissances et les
+analyseurs MIDI. Aucune composition générative ni promesse d'arrangements
+agréables tant que les portes L01–L05 ne sont pas levées.

@@ -1,143 +1,58 @@
-# AnaMu — connaissances musicales académiques et analyse explicable
+# AnaMu — connaissance universitaire pour analyser la musique
 
-**Notre objectif : construire un système qui sait analyser — puis,
-éventuellement, composer — de la musique parce qu'il dispose d'une immense
-base de connaissances académiques musicales.** Cette base doit résulter de
-la **mise en commun des enseignements de plusieurs programmes universitaires
-complets de composition**, plutôt que d'une collection d'astuces MIDI ou de
-mesures mathématiques déconnectées de l'écriture musicale.
+**Mission :** construire une immense base commune de connaissances musicales à partir de **toute la matière réellement enseignée** dans plusieurs programmes universitaires de composition, y compris les options, les recommandations et les spécialisations pertinentes. Ensuite, choisir les outils capables de **reconnaître et expliquer dans des morceaux MIDI existants** les composants enseignés. La composition musicale générative est une possibilité lointaine, interdite sans décision explicite de Léon.
 
-AnaMu doit extraire, rapprocher et relier les savoirs de théorie, harmonie,
-contrepoint, composition, orchestration, analyse, performance, perception,
-son et styles musicaux. Le moteur devra ensuite **mobiliser cette
-connaissance pour expliquer des œuvres inconnues**, en conservant ses preuves
-et ses incertitudes. Nous privilégions des mécanismes musicaux explicables ;
-le machine learning n'est pas une fin en soi.
+## Phase active : obtenir les cours
 
-**Nous n'avons pas encore couvert exhaustivement un cursus universitaire.**
-Avant toute composition musicale générative, le projet doit auditer le
-contenu réel des programmes de **l'Université de Montréal, de McGill et de
-Berklee**, **y compris leurs enseignements optionnels et complémentaires**,
-puis construire et faire valider la base de connaissances et les capacités
-analytiques correspondantes. Une
-preuve mathématique isolée n'est pas un substitut à une analyse musicale.
+**Aucun développement d'analyseur n'est autorisé actuellement.** L'ordre est strict :
 
-**État honnête :** les catalogues sont partiellement inventoriés, quelques
-concepts sont explorés dans le code, mais la **base académique unifiée n'est
-pas encore implémentée** et aucune compétence universitaire complète n'est
-certifiée. La composition générative demeure explicitement verrouillée.
+1. Inventorier les programmes et **tous** les cours pertinents, y compris les choix ouverts.
+2. Obtenir pour chaque cours le syllabus ou plan détaillé, les objectifs, chapitres, lectures, exercices, exemples et critères d'évaluation.
+3. Conserver les sources, versions, droits et **lacunes explicites** sans jamais inventer de matière.
+4. Après seulement, réconcilier les enseignements en concepts musicaux unifiés et sourcés.
+5. Après la connaissance, décider quels éléments sont détectables dans le MIDI existant, construire les analyseurs et vérifier leur justesse.
 
-Ce projet **n'est plus centré sur la prédiction de l'émotion « mystérieuse »**.
-Les anciens outils de classification émotionnelle ne définissent plus son
-architecture ni ses objectifs.
+Une description de catalogue n'est **pas** le contenu d'un cours. Une métrique sur un corpus n'est **pas** une compétence musicale acquise.
 
-## Lire le projet
+**Cycle autonome du prochain agent :** ouvrir
+[le registre de progression cours par cours](docs/data/course-material-progress.json),
+prendre le premier contenu non documenté, créer une fiche de matière sourcée
+selon [le protocole](docs/course-material-collection.md), mettre à jour le
+registre, puis poursuivre systématiquement. Les longues recherches et
+rédactions sont le travail principal ; **aucun test algorithmique ni
+développement MIDI pendant cette phase**.
 
-**Nouveau contributeur ou agent autonome : commence impérativement par
-[AGENTS.md](AGENTS.md)**, qui fixe l'ordre de lecture et les règles de preuve.
+## État honnête — 10 novembre 2026
 
-1. **[Objectifs et critères de réussite](docs/OBJECTIVES.md)** — le contrat de
-   recherche, les axes de musique étudiés et ce que nous refusons d'inférer.
-2. **[Base de connaissances académique](docs/knowledge-base.md)** — comment
-   réunir les cursus en concepts musicaux communs, reliés et traçables.
-3. **[Cursus universitaires et exigences d'exhaustivité](docs/university-curriculum.md)**
-   — sources primaires, couverture vérifiable, interdiction de composer prématurément.
-4. **[TODO exhaustif avec cases à cocher](docs/todo-university-coverage.md)**
-   — seule liste active de travaux, **aucune case validée à ce jour**.
-5. **[Architecture académique de la grammaire](docs/music-grammar-research-program.md)**
-   — ontologie, sources, opérateurs et fondements théoriques.
-6. **[État des mécanismes mesurés](docs/roadmap.md)** — ce qui existe et ses limites.
-7. **[Index documentaire](docs/README.md)** — documents actifs et études
-   scientifiques pertinentes à la grammaire.
-8. **[Analyse contrefactuelle et orchestration](docs/composition-grammar.md)**
-   — diagnostics de règles existantes ; aucune création libre avant le verrou.
+- **Université de Montréal :** 190 entrées de catalogue recensées, dont 168 hors tronc obligatoire ; matière détaillée non collectée exhaustivement.
+- **McGill :** 58 cours ou choix nommés recensés ; branches ouvertes et syllabi à approfondir.
+- **Berklee :** 44 lignes de grille, dont des ensembles d'options encore à détailler.
+- **Options voisines :** 30 pistes de savoir supplémentaires, non validées au niveau des contenus.
+- **Suivi opérationnel :** [332 codes de cours candidats et 5 ensembles
+  d'options encore à détailler](docs/data/course-material-progress.json),
+  tous en attente de documentation pédagogique.
+- **Base unifiée :** non construite. **Analyseur MIDI académique :** non construit. **Composition :** verrouillée.
 
-## Trois sources, trois types de vérité
+Ce sont des **inventaires administratifs**, pas des attestations de connaissance.
 
-| Source | Ce qui peut être observé | Ce qui ne peut pas être affirmé sans autre preuve |
-|---|---|---|
-| **Partition** (MusicXML/MEI) | Notation, parties, rythme, silences, indications expressives | Exécution et son acoustique réels |
-| **MIDI** | Événements, hauteurs, durées de touches, pistes, contrôleurs, tempo encodé | Timbre réel, niveau sonore perçu, instrumentation correcte par simple nom de piste |
-| **Audio** (étape ultérieure) | Forme d'onde, enveloppe, spectre et intensité mesurée | Voix/instruments/notes exacts sans analyse et incertitude |
+## Reprendre le projet de zéro
 
-Chaque résultat doit rester associé à sa **source**, son **statut**
-(*observé, noté, annoté, inféré ou inconnu*) et ses **preuves**. Nous acceptons
-plusieurs analyses possibles, sans inventer de certitude.
+Tout nouvel agent commence par [AGENTS.md](AGENTS.md).
 
-## État réellement implémenté (10 novembre 2026)
+1. [Objectifs, phases et interdictions](docs/OBJECTIVES.md)
+2. [Périmètre universitaire](docs/university-curriculum.md)
+3. [Protocole de collecte du contenu des cours](docs/course-material-collection.md)
+4. [Conception de la future base de connaissances](docs/knowledge-base.md)
+5. [TODO unique avec cases à cocher](docs/todo-university-coverage.md)
+6. [Index des inventaires académiques](docs/README.md)
 
-- **G0 MIDI** : conservation des octets, pistes, événements, notes
-  non ambiguës, tempo, contrôleurs et diagnostics
-  (`anamu/grammar_foundation.py`).
-- **G1 partiel** : relations temporelles exactes d'Allen,
-  `SEQUENCE`/`PARALLEL` et transformations déterministes avec correspondances
-  fournies (`anamu/grammar_relations.py`).
-- **G2 exploratoire** : repérage autonome de répétitions exactement
-  transposées et/ou dilatées dans des fenêtres d'attaques MIDI, avec
-  provenance et preuves `TRANSFORM` G1 (`anamu/grammar_motifs.py`). Les
-  groupements sont **candidats**, pas des thèmes ou phrases reconnus.
-- **Orchestration notée exploratoire** : lecture MusicXML des hauteurs
-  écrites/sonnantes, doublures strictes entre pupitres, et prédiction
-  contrefactuelle de notes masquées (`anamu/score_texture.py`,
-  `anamu/orchestral_counterfactual.py`). Pas encore de jugement esthétique.
-- **Conduite des voix** : mouvements exacts entre deux parties notées
-  (contraire, similaire, parallèle, oblique, statique), croisements et
-  variantes hypothétiques d'une note ; jamais de jugement automatique
-  de qualité (`anamu/orchestral_voice_leading.py`).
-- **G3 harmonique structurel** : sonorités notées locales, basses sonnantes,
-  formes exactes de triades/septièmes et effet d'une variante de voix sur
-  toute la texture (`anamu/orchestral_harmony.py`). Fonctions tonales
-  et notes étrangères **non identifiées**.
-- **G3 gestes mélodiques** : orthographe des hauteurs écrites conservée,
-  figures conjointes candidates de passage et broderie, avec inspection
-  des notes d'accompagnement à chaque attaque
-  (`anamu/orchestral_ornaments.py`). Ce ne sont **pas** des étiquettes
-  de dissonance ou des jugements de qualité.
-- **Corpus orchestral** : deux mouvements de symphonies Beethoven, leurs MIDI,
-  deux partitions MusicXML de référence, manifestes avec licences et SHA-256.
-- **Contrôle des sources** : comparaison des familles instrumentales déclarées
-  dans les deux éditions (`anamu/score_inventory.py`).
-- **Non implémenté** : repérage autonome **validé** des voix, motifs, phrases,
-  fonctions harmoniques, formes, timbres et expressions perceptives ; couches
-  partition/performance/audio alignées.
+## Vérification documentaire
 
-Un résultat actuel illustre le besoin de prudence : les partitions de
-Beethoven 5/I et 7/II contiennent **18 et 19 parties**, contre **12 pistes
-MIDI actives** chacune. Les noms MIDI mentionnent des cors anglais là où
-les partitions déclarent des cors et trompettes. Il s'agit d'un écart de
-**déclarations**, pas encore d'une preuve de notes manquantes.
+Le dépôt contient les inventaires académiques, leurs sources structurées et des contrôles de cohérence. **Il ne contient pas de bancs d'essai autonomes ni de moteur d'analyse actif.**
 
-## Reproduire les validations de la grammaire
+Exécuter :
 
-```bash
-python -m pip install 'mido>=1.3,<2'
-python -m unittest discover -s tests -p 'test_grammar_*.py'
-python -m scripts.g2_motif_probe --top 3
-python -m scripts.orchestral_doubling_probe --top 3
-python -m scripts.orchestral_voice_leading_probe --top 2
-python -m scripts.orchestral_harmonic_context_probe --top 3
-python -m scripts.orchestral_ornament_probe --top 3
-python -m unittest discover -s tests -p test_orchestral_grammar_probe.py
-python -m unittest discover -s tests -p test_score_inventory.py
-python scripts/orchestral_grammar_probe.py
-python scripts/score_midi_orchestration_audit.py
-```
+    python scripts/validate_project_docs.py
 
-Les composants musicologiques additionnels (analyse tonale, attente,
-extraction de caractéristiques, expression, études indépendantes) sont
-**exploratoires et réutilisables**, pas des couches G2–G6 déjà validées.
-Le workflow de tests symboliques vérifie leurs invariants séparément des
-contrôles G0/G1 et orchestraux.
-
-## Principes de développement
-
-- **Théorie académique identifiée → contrat vérifiable → algorithme générique
-  → témoin négatif → évaluation indépendante.**
-- Règles explicables d'abord, apprentissage statistique seulement lorsque
-  sa nécessité et ses données d'évaluation sont établies.
-- Aucun traitement spécial pour une œuvre, un compositeur ou un genre.
-- Préserver les observations brutes et les découvertes négatives.
-- Ne pas présenter des partitions MIDI comme des performances humaines.
-
-Voir les [objectifs détaillés](docs/OBJECTIVES.md) pour les critères de
-sortie de chaque couche.
+Ce contrôle facultatif vérifie la cohérence des inventaires, pas que la
+matière des cours a été obtenue ou maîtrisée. La CI l'exécute automatiquement.
