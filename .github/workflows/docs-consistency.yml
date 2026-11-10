@@ -1,0 +1,29 @@
+name: AnaMu - documentation consistency
+
+on:
+  push:
+    paths:
+      - 'README.md'
+      - 'docs/**'
+      - 'scripts/validate_project_docs.py'
+      - 'tests/test_project_docs.py'
+      - '.github/workflows/docs-consistency.yml'
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'docs/**'
+      - 'scripts/validate_project_docs.py'
+      - 'tests/test_project_docs.py'
+      - '.github/workflows/docs-consistency.yml'
+
+jobs:
+  documentation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/validate_project_docs.py
+      - run: python -m unittest discover -s tests -p test_project_docs.py -v

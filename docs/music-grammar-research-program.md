@@ -1,6 +1,6 @@
 # AnaMu Grammar — programme d'analyse musicologique formelle
 
-**Direction proposée le 9 novembre 2026.** Statut : **spécification de recherche**, pas moteur grammatical déjà implémenté ni résultat expérimental. Ce document complète les expériences antérieures (émotion, tension, attente) et définit désormais le **cœur recherché** d'AnaMu : expliquer l'organisation d'une œuvre, sa partition, sa réalisation et sa matière sonore par des relations hiérarchiques vérifiables, avec le minimum d'apprentissage statistique.
+**Direction adoptée le 9 novembre 2026.** Statut : **spécification de recherche**, et non affirmation que toutes les couches sont implémentées. Le but normatif figure dans [OBJECTIVES.md](OBJECTIVES.md) et l'état mesuré dans [roadmap.md](roadmap.md). Ce document complète les expériences antérieures (émotion, tension, attente) et définit le **cœur recherché** d'AnaMu : expliquer l'organisation d'une œuvre, sa partition, sa réalisation et sa matière sonore par des relations hiérarchiques vérifiables, avec le minimum d'apprentissage statistique.
 
 ## 1. Ambition et critères scientifiques
 
@@ -232,7 +232,7 @@ domaine la partition et l'inversion des relations, puis l'invariance sous
 translation et dilatation temporelle. Tests et CI :
 `tests/test_grammar_relations.py`, `.github/workflows/grammar-g1-relations.yml`.
 
-**Politique de travail** : le projet traite *tous* les aspects dans la conception des données et de l'API, mais ne déclare chaque mécanisme « implémenté » qu'après une extraction conservatrice et une vérification pertinente. Les explorations historiques de « mystérieux » restent archivées comme études séparées, et ne dictent plus la structure de la grammaire.
+**Politique de travail** : le projet traite *tous* les aspects dans la conception des données et de l'API, mais ne déclare chaque mécanisme « implémenté » qu'après une extraction conservatrice et une vérification pertinente. Le programme de classification de « mystérieux » est abandonné ; les études portant directement sur une cible musicale vérifiable peuvent servir de témoins indépendants, sans dicter la structure de la grammaire.
 
 ## 8. Première décision architecturale à valider
 

@@ -1,3 +1,6 @@
+> **Étude de validation à cible précise.** Ses mesures sont utiles à la
+> conception de la grammaire ; elles ne valident pas une couche G2–G6.
+
 # Des annotations rares, un test de mécanisme : cadences du DCML DLC
 
 **Étude du 8 novembre 2026 — exploratoire, non confirmatoire.**
@@ -79,7 +82,7 @@ son usage commercial demande une vérification de licence séparée.
 
 ## Résultats observés
 
-Voir [JSON reproductible](../reports/dcml-cadence-exploratory-2026-11-08.json)
+Voir [JSON reproductible](../../reports/dcml-cadence-exploratory-2026-11-08.json)
 pour les métriques et révisions exactes.
 
 | Modèle | AP, plis par œuvre | AP, compositeur inédit |

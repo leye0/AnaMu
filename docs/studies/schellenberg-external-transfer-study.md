@@ -1,3 +1,6 @@
+> **Étude de validation à cible précise.** Ses mesures sont utiles à la
+> conception de la grammaire ; elles ne valident pas une couche G2–G6.
+
 # AnaMu S1 — transfert externe des attentes mélodiques, 1995 → 1996
 
 **8 novembre 2026 · contre-épreuve exploratoire indépendante de l'étude de départ.**
