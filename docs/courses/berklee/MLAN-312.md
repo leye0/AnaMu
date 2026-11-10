@@ -8,7 +8,7 @@ Analyses individuelles, projets en petits groupes et mise en contexte stylistiqu
 
 ## Support pédagogique comparable
 
-Le cours parallèle de Jennifer Beavers publié par Timbre and Orchestration Resource organise l’analyse de répertoires depuis 1920 autour du son, de l’orchestration et des genres. La page donne accès à son syllabus. Il s’agit d’un autre cours et de son propre corpus. [Support consultable](https://timbreandorchestration.org/syllabi/20th-and-21st-century-analysis-timbre-orchestration-and-genre-since-1920).
+Le cours parallèle de Jennifer Beavers publié par Timbre and Orchestration Resource organise l’analyse de répertoires depuis 1920 autour du son, de l’orchestration et des genres. Le [PDF des leçons et des travaux](https://timbreandorchestration.org/s/Beavers_20th_C_Timbre_Weekly_Outline.pdf) couvre notamment les couches fonctionnelles en musique populaire et l’analyse audiovisuelle. Il donne les lectures et une consigne détaillée d’analyse de bande sonore. Il s’agit d’un autre cours et de son propre corpus. [Support consultable](https://timbreandorchestration.org/syllabi/20th-and-21st-century-analysis-timbre-orchestration-and-genre-since-1920).
 
 ## Lacunes
 
