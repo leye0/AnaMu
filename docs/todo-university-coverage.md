@@ -47,6 +47,13 @@ dont des choix et pools). A01–A03 restent **ouverts** : préalables, options
 effectivement admissibles, validation institutionnelle et plans détaillés
 sont incomplets. Le travail n'a pas encore satisfait A04, A05 ni la porte L.
 
+Un [premier registre vérifiable de 30 candidats de connaissance](data/optional-knowledge-seeds-2026.json)
+vient de cours **recommandés à McGill** et de cours de composition, jazz ou
+musique à l'image **décrits officiellement par Berklee**. Consulter
+[l'audit de ces possibilités](optional-knowledge-audit.md) : il ne démontre
+pas l'admissibilité de chaque cours dans la majeure Composition, ni l'examen
+de son syllabus ; A13–A15 demeurent ouverts.
+
 - [ ] A01 — Geler les éditions et sauvegarder l'inventaire **complet** de tous les cours du B. Mus. Composition UdeM : obligatoires, blocs, options, crédits, préalables et spécialisations.
 - [ ] A02 — Faire de même pour le B. Mus. Composition McGill : exigences de majeure, tronc commun, groupes au choix, ensembles, perfectionnement instrumental et projet final.
 - [ ] A03 — Faire de même pour le B. Mus. Composition Berklee : majeure, core, liberal arts, options, projects, ensemble, conducting et senior portfolio.
@@ -96,6 +103,7 @@ sont incomplets. Le travail n'a pas encore satisfait A04, A05 ni la porte L.
 - [ ] C12 — Séparer harmonie de surface et réduction structurelle ; permettre plusieurs analyses romanisées justifiables.
 - [ ] C13 — Tester harmonie sans utiliser une étiquette DCML incompatible comme vérité des notes étrangères ou de toute la texture.
 - [ ] C14 — Confronter harmonies standard, tonalité ambiguë, polytonalité, modalité et cas où l'analyse fonctionnelle n'a pas de sens.
+- [ ] C15 — Analyser l'harmonie d'arrangement jazz : voicings par gammes d'accords, upper structures, clusters, positions à cinq/six voix, voicings linéaires et logique de section ; distinguer ces pratiques de l'harmonisation classique.
 
 ## D. Contrepoint, polyphonie et indépendance des voix
 
@@ -128,6 +136,7 @@ sont incomplets. Le travail n'a pas encore satisfait A04, A05 ni la porte L.
 - [ ] E10 — Conserver la macro-forme lorsque répétitions et codas déplacent la réalisation temporelle sans changer l'écriture imprimée.
 - [ ] E11 — Valider thèmes/phrases/formes sur éditions et répertoires tenus à l'écart avec annotations humaines et désaccords explicites.
 - [ ] E12 — Étudier les fonctions dramaturgiques (anticipation, suspension, résolution, surprise) sans les confondre avec une étiquette d'émotion.
+- [ ] E13 — Analyser la narration par musique à l'image : relations scène/forme, fonctions des thèmes et leitmotivs, reprises entre séquences, choix de silence et évolution de l'arc dramatique avec preuves audiovisuelles adaptées.
 
 ## F. Rythme, métrique, durée et expression temporelle
 
@@ -141,6 +150,7 @@ sont incomplets. Le travail n'a pas encore satisfait A04, A05 ni la porte L.
 - [ ] F06 — Distinguer indication expressive, valeur MIDI `set_tempo`, microtemporisation humaine et artefact d'alignement.
 - [ ] F07 — Reconstruire les courbes de tempo avec incertitude, différentes granularités et fermates sans confondre performance et partition.
 - [ ] F08 — Relier gestuelle rythmique, phrase, cadence, orchestration et attentes de l'auditeur ; validation musicale indépendante.
+- [ ] F09 — Étudier la synchronisation image/partition/performance : changements de tempo et de mesure, points d'ancrage, montage, musique adaptative et temporalité non linéaire, sans inférer l'alignement du seul MIDI.
 
 ## G. Instrumentation, techniques et orchestration complète
 
@@ -164,6 +174,8 @@ sont incomplets. Le travail n'a pas encore satisfait A04, A05 ni la porte L.
 - [ ] G16 — Distinguer intention d'orchestration, étiquette MIDI, échantillon virtuel et performance acoustique ; garder les contradictions.
 - [ ] G17 — Vérifier jouabilité/endurance/respiration/articulation avec références instrumentales et, au besoin, musiciens réels.
 - [ ] G18 — Valider les analyses d'orchestrations sur **plusieurs compositeurs et styles**, avec jugement expert d'arrangements et contrôle d'écoute aveugle lorsqu'une propriété sonore est invoquée.
+- [ ] G19 — Analyser orchestrations et arrangements jazz (big band, petites sections, section rythmique, place de l'improvisation, écriture flexible) avec voicings, équilibre, parties et niveaux de jeu.
+- [ ] G20 — Analyser les écritures spécifiques de guitare et clavier : ergonomie, positions, doigtés, figurations, résonances, limites de main et techniques étendues, avec musiciens experts.
 
 ## H. Langages contemporains, post-tonalité et notation
 
@@ -196,6 +208,7 @@ sont incomplets. Le travail n'a pas encore satisfait A04, A05 ni la porte L.
 - [ ] I08 — Étudier électronique fixe, électroacoustique, musique mixte, interaction en temps réel et relations entre partition et technologie.
 - [ ] I09 — Aligner notes/gestes/nuances à des signaux réels avec incertitude ; disposer d'enregistrements variés licites et annotés.
 - [ ] I10 — Construire des protocoles d'écoute indépendants et reproduisibles pour les questions qu'aucune partition ni MIDI ne peuvent trancher.
+- [ ] I11 — Analyser la fabrication et les limites d'une **maquette orchestrale virtuelle** : échantillons, keyswitches/contrôleurs, articulations, transitions, automation, mixage et comparaison en aveugle avec instruments réels.
 
 ## J. Histoire, style, interprétation, écriture vocale et savoirs pratiques
 
@@ -211,6 +224,7 @@ sont incomplets. Le travail n'a pas encore satisfait A04, A05 ni la porte L.
 - [ ] J08 — Étudier la construction d'une édition critique et les variantes de partitions avant d'inférer une décision du compositeur.
 - [ ] J09 — Évaluer la transférabilité à d'autres traditions/style de composition et décrire les limites du corpus occidental choisi.
 - [ ] J10 — Confronter analyses de spécialistes des périodes, des instruments et des musiques actuelles, avec dissensus conservé.
+- [ ] J11 — Inventorier et comparer les structures musicales de traditions diverses (rythmes, modes, instruments, pratiques collectives) par leurs propres références expertes, en évitant l'appropriation simplificatrice pour un contexte filmique ou ludique.
 
 ## K. Projet intégrateur : analyses complètes et revue indépendante
 

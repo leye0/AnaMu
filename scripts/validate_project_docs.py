@@ -138,6 +138,53 @@ def university_coverage_issues(todo_text: str) -> list[str]:
     return issues
 
 
+def optional_knowledge_issues(register: dict, todo_text: str,
+                              mcgill_catalog: dict | None = None) -> list[str]:
+    """Check that optional teaching is traceable, not falsely treated as a degree or validated."""
+    issues: list[str] = []
+    if register.get("status") != "public_course_descriptions_only_not_syllabi_or_analytical_coverage":
+        issues.append("optional knowledge register must explicitly remain unvalidated")
+    source_urls = register.get("sources", {})
+    for name, url in source_urls.items():
+        if urlsplit(url).hostname not in ("www.mcgill.ca", "college.berklee.edu"):
+            issues.append(f"optional knowledge source {name} must be an official university page")
+    entries = register.get("candidates", [])
+    counts = {
+        "mcgill_recommended": 8,
+        "berklee_composition_department": 5,
+        "berklee_jazz_department": 9,
+        "berklee_screen_scoring_department": 8,
+    }
+    for source, minimum in counts.items():
+        if sum(c.get("source") == source for c in entries) < minimum:
+            issues.append(f"optional knowledge source {source}: missing discovered teaching")
+    todo_ids = {code for _, code, _ in CURRICULUM_ITEM.findall(todo_text)}
+    seen: set[tuple[str, str]] = set()
+    for entry in entries:
+        key = (entry.get("institution", ""), entry.get("code", ""))
+        if key in seen or not all(key):
+            issues.append(f"optional knowledge duplicate or unidentified course: {key}")
+        seen.add(key)
+        if (not entry.get("title") or not entry.get("knowledge_increment")
+                or entry.get("source") not in source_urls):
+            issues.append(f"optional knowledge entry {key}: missing title, source or contribution")
+        if not entry.get("todo_ids") or set(entry["todo_ids"]) - todo_ids:
+            issues.append(f"optional knowledge entry {key}: missing or unknown TODO mapping")
+        if entry.get("source") in ("berklee_jazz_department", "berklee_screen_scoring_department"):
+            if not entry.get("relation_to_baseline", "").startswith("adjacent_"):
+                issues.append(f"optional knowledge entry {key}: adjacent major eligibility unverified")
+        if entry.get("source") == "mcgill_recommended":
+            if entry.get("relation_to_baseline") != "recommended_not_required":
+                issues.append(f"optional knowledge entry {key}: McGill recommendation misclassified")
+    if mcgill_catalog is not None:
+        recommended = {c.get("code") for c in mcgill_catalog.get("courses", [])
+                       if c.get("category") == "recommended"}
+        mapped = {c.get("code") for c in entries if c.get("source") == "mcgill_recommended"}
+        if not recommended.issubset(mapped):
+            issues.append("optional knowledge register omits McGill recommended courses")
+    return issues
+
+
 def broken_local_links(markdown_file: Path) -> list[str]:
     errors = []
     text = markdown_file.read_text(encoding="utf-8")
@@ -163,7 +210,9 @@ def validate(root: Path = ROOT) -> list[str]:
                 root / "docs/mcgill-curriculum-2026-audit.md",
                 root / "docs/data/mcgill-composition-2026.json",
                 root / "docs/berklee-curriculum-2026f-audit.md",
-                root / "docs/data/berklee-composition-2026f.json"]
+                root / "docs/data/berklee-composition-2026f.json",
+                root / "docs/optional-knowledge-audit.md",
+                root / "docs/data/optional-knowledge-seeds-2026.json"]
     for path in required:
         if not path.is_file():
             errors.append(f"missing required documentation: {path}")
@@ -186,6 +235,17 @@ def validate(root: Path = ROOT) -> list[str]:
                 errors.extend(inspector(json.loads(path.read_text(encoding="utf-8"))))
             except (json.JSONDecodeError, ValueError, TypeError) as exc:
                 errors.append(f"{label} catalog JSON invalid: {exc}")
+    optional_path = root / "docs/data/optional-knowledge-seeds-2026.json"
+    if optional_path.is_file():
+        try:
+            register = json.loads(optional_path.read_text(encoding="utf-8"))
+            mcgill_path = root / "docs/data/mcgill-composition-2026.json"
+            mcgill = (json.loads(mcgill_path.read_text(encoding="utf-8"))
+                      if mcgill_path.is_file() else None)
+            errors.extend(optional_knowledge_issues(
+                register, todo.read_text(encoding="utf-8") if todo.is_file() else "", mcgill))
+        except (json.JSONDecodeError, ValueError, TypeError) as exc:
+            errors.append(f"optional knowledge register invalid: {exc}")
     for md in [root / "README.md", *sorted((root / "docs").rglob("*.md"))]:
         if md.is_file():
             errors.extend(broken_local_links(md))
