@@ -100,7 +100,8 @@ de son syllabus ; A13–A15 demeurent ouverts.
 - **UdeM** — quatre cours obligatoires avec exercices d’exemption spécifiques en harmonie et contrepoint. Deux cours optionnels d’analyse ont une piste de classement générale, encore au statut catalogue.
 - **McGill** — sept cours préparatoires avec des objectifs d’exemption historiques. Chercher les sources des sections actuelles et poursuivre par les cours obligatoires de composition.
 - **Berklee** — cinq plans publics d’équivalents en ligne reliés par le registraire aux codes du campus. Seize fiches de Boston rattachées au registre signalent aussi des supports parallèles en composition, arrangement, solfège et musique à l’image. Chercher les plans des sections du campus.
-- **Couverture** — 332 entrées suivies, dont 5 au statut syllabus documenté, 36 au statut partiel et 291 au statut catalogue. Aucune revue de couverture exhaustive effectuée et cinq ensembles d’options restent à déplier.
+- **Couverture** — 332 entrées suivies, dont 5 syllabus documentés, 53 au statut partiel et 274 au statut catalogue. Cinq ensembles d’options restent à déplier. Le [relevé des options de majeure Berklee](berklee-major-elective-candidates.md) donne 83 codes, dont 70 à vérifier avant intégration au registre.
+- **Cours ciblés dans cette passe** — études dirigées et projet final à Berklee avec programme du concert de 2022 et accès au portfolio réservé aux membres de Berklee. Clavier, solfège et analyse classique avec plans parallèles. Acoustique et traitement du son à l’UdeM, puis orchestration, contrepoint et studio à McGill avec supports externes dont la provenance est explicitée dans chaque fiche.
 
 ## Phases suivantes — exigences pédagogiques à documenter après la collecte
 
