@@ -30,7 +30,7 @@ développement MIDI pendant cette phase**.
 - **Options voisines :** 30 pistes de savoir supplémentaires, non validées au niveau des contenus.
 - **Suivi opérationnel :** [332 codes de cours candidats et 5 ensembles
   d'options encore à détailler](docs/data/course-material-progress.json),
-  tous en attente de documentation pédagogique.
+  5 avec un syllabus public officiellement équivalent, 11 avec des preuves pédagogiques partielles. Deux autres fiches signalent des ressources de classement sans attribution au cours.
 - **Base unifiée :** non construite. **Analyseur MIDI académique :** non construit. **Composition :** verrouillée.
 
 Ce sont des **inventaires administratifs**, pas des attestations de connaissance.

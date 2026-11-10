@@ -90,6 +90,13 @@ de son syllabus ; A13–A15 demeurent ouverts.
 - [ ] A17 — Réconcilier les équivalences, nuances et contradictions des contenus universitaires **au niveau des concepts**, avec identifiants stables et navigation bidirectionnelle `cours ↔ concept ↔ preuve`, sans réduire plusieurs traditions à une règle universelle.
 - [ ] A18 — Auditer **cours par cours** la complétude des syllabus et contenus réellement disponibles ; tout manque doit être explicite, attribué à sa source et traité avant de déclarer la phase de collecte achevée.
 
+### Collecte des liens — 10 novembre 2026
+
+- **UdeM** — quatre cours obligatoires avec exercices d’exemption spécifiques en harmonie et contrepoint. Deux cours optionnels d’analyse ont une piste de classement générale, encore au statut catalogue.
+- **McGill** — sept cours préparatoires avec des objectifs d’exemption historiques. Chercher les sources des sections actuelles et poursuivre par les cours obligatoires de composition.
+- **Berklee** — cinq plans publics d’équivalents en ligne reliés par le registraire aux codes du campus. Chercher les plans des sections du campus et poursuivre par la composition, l’orchestration et les options.
+- **Couverture** — 332 entrées suivies, dont 5 au statut syllabus documenté, 11 au statut partiel et 316 au statut catalogue. Aucune revue de couverture exhaustive effectuée et cinq ensembles d’options restent à déplier.
+
 ## Phases suivantes — exigences pédagogiques à documenter après la collecte
 
 Les sections B–J ci-dessous sont un **cadre provisoire de compétences à
