@@ -10,6 +10,10 @@ Obligatoire, Composition 2026. Prolongement de MUCO 341, avec production de piè
 
 L’[affichage Schulich, p. 1](https://www.mcgill.ca/music/files/music/winter_2027_-_musicresearch_-_detailed_job_posting.pdf#page=1) prévoit des démonstrations et exercices techniques parallèles à la section d’Eliot Britton. Logic Pro, enregistrement, séquençage MIDI et traitement du signal figurent parmi les compétences exigées de l’auxiliaire. Cette liste décrit l’environnement de soutien pédagogique.
 
+## Travaux présentés dans la section H24
+
+Le [programme de concert du 12 avril 2024](https://www.mcgill.ca/music/files/music/channels/attach/20240412m1430_digitalstudiocompositioncc_1.pdf) porte le sigle MUCO 342. Il recense les compositions étudiantes et les interprètes. Plusieurs pièces associent un instrument acoustique à un Karlax, notamment contrebasse, percussions et saxophone alto. Le document atteste les réalisations présentées. Les consignes, patches et critères d’évaluation restent à obtenir.
+
 ## Support parallèle consultable
 
 MIT 21M.361, modules 3 à 5. Exercices sur la collecte de sons, la superposition, le bruit et les bourdons, projet Max/MSP, puis échantillonnage, remaniement et préparation de concert. [Support et contenu](https://ocw.mit.edu/courses/21m-361-composing-with-computers-i-electronic-music-composition-spring-2008/pages/assignments/).
