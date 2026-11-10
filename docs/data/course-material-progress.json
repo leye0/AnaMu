@@ -33,12 +33,12 @@
         "material_file": null
       },
       "MTE 1110": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/udem/MTE-1110.md"
       },
       "MTE 1111": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/udem/MTE-1111.md"
       },
       "MTE 1205": {
         "status": "catalog_only",
@@ -49,12 +49,12 @@
         "material_file": null
       },
       "MTE 1220": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/udem/MTE-1220.md"
       },
       "MTE 1221": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/udem/MTE-1221.md"
       },
       "MTE 1403": {
         "status": "catalog_only",
@@ -270,11 +270,11 @@
       },
       "MTE 2210": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": "docs/courses/udem/MTE-2210.md"
       },
       "MTE 2211": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": "docs/courses/udem/MTE-2211.md"
       },
       "MTE 2315": {
         "status": "catalog_only",
@@ -779,8 +779,8 @@
     },
     "mcgill": {
       "MUHL 186": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/mcgill/MUHL-186.md"
       },
       "MUIN 180": {
         "status": "catalog_only",
@@ -795,28 +795,28 @@
         "material_file": null
       },
       "MUSP 140": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/mcgill/MUSP-140.md"
       },
       "MUSP 141": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/mcgill/MUSP-141.md"
       },
       "MUSP 170": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/mcgill/MUSP-170.md"
       },
       "MUSP 171": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/mcgill/MUSP-171.md"
       },
       "MUTH 150": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/mcgill/MUTH-150.md"
       },
       "MUTH 151": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/mcgill/MUTH-151.md"
       },
       "MUCO 241": {
         "status": "catalog_only",
@@ -1157,8 +1157,8 @@
         "material_file": null
       },
       "HR-112": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "syllabus_documented",
+        "material_file": "docs/courses/berklee/HR-112.md"
       },
       "HR-114": {
         "status": "catalog_only",
@@ -1213,8 +1213,8 @@
         "material_file": "docs/courses/berklee/CP-210.md"
       },
       "MTEC-111": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "syllabus_documented",
+        "material_file": "docs/courses/berklee/MTEC-111.md"
       },
       "MTEC-122": {
         "status": "catalog_only",
@@ -1225,16 +1225,16 @@
         "material_file": null
       },
       "LHUM-400": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "syllabus_documented",
+        "material_file": "docs/courses/berklee/LHUM-400.md"
       },
       "LENG-111": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "syllabus_documented",
+        "material_file": "docs/courses/berklee/LENG-111.md"
       },
       "LENG-223": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "syllabus_documented",
+        "material_file": "docs/courses/berklee/LENG-223.md"
       },
       "LHIS-xxx": {
         "status": "catalog_only",

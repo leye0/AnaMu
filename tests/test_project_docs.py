@@ -17,7 +17,7 @@ from scripts.validate_project_docs import (
 
 
 class DocumentationLinkTests(unittest.TestCase):
-    def test_course_tracker_covers_all_named_courses_but_claims_no_syllabi(self):
+    def test_course_tracker_covers_all_named_courses_and_links_material(self):
         root = Path(__file__).resolve().parents[1]
         sources = {
             "udem": "udem-composition-a26.json",
@@ -31,10 +31,7 @@ class DocumentationLinkTests(unittest.TestCase):
                               .read_text(encoding="utf-8"))
         self.assertEqual(course_material_progress_issues(progress, catalogs, root), [])
         self.assertEqual(sum(len(rows) for rows in progress["courses"].values()), 332)
-        self.assertTrue(all(item["status"] == "catalog_only"
-                            for rows in progress["courses"].values()
-                            for item in rows.values()))
-        missing = progress["courses"]["udem"].pop("MCT 1601")
+        progress["courses"]["udem"].pop("MCT 1601")
         self.assertTrue(any("udem" in issue for issue in
                             course_material_progress_issues(progress, catalogs, root)))
 
