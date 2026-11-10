@@ -109,6 +109,52 @@ python -m scripts.orchestral_doubling_probe --top 3
 python -m unittest tests.test_score_texture tests.test_orchestral_counterfactual -v
 ```
 
+## 3 bis. Conduite des voix : mouvement et alternatives composables
+
+Dans [*Tone and Voice* (Huron, 2001)](https://www.musanim.com/articles/Huron.ToneAndVoice.2001.pdf),
+les règles de conduite des voix sont étudiées comme moyens de répondre
+à des objectifs **perceptifs**, notamment l'identité des flux auditifs,
+et non comme des lois abstraites auxquelles toute œuvre doit obéir.
+La [bibliothèque music21](https://music21.org/music21docs/moduleReference/moduleVoiceLeading.html)
+propose également la représentation classique des mouvements contraires,
+obliques, similaires et parallèles sur des quartets de notes.
+
+`anamu/orchestral_voice_leading.py` examine quatre notes de deux **parties
+notées** aux deux mêmes positions de partition : A0, A1, B0, B1. Les
+attaques doivent être consécutives dans chaque partie, leur portée et
+voix notées demeurer identiques, sans accords ni fragments liés ; on
+ne relie pas artificiellement deux attaques séparées par plusieurs
+mesures vides. On conserve les quatre IDs de source et mesure :
+
+- mouvements **contraires, obliques, parallèles, similaires** ou **statiques** ;
+- intervalles avant/après, croisements stricts de registre ;
+- présence d'intervalles parallèles de quinte ou d'octave/unisson,
+  comme **faits** et jamais comme infractions automatiques ;
+- prise en compte des hauteurs sonnantes des instruments transpositeurs.
+
+| Partition | Quartets exacts | Contraires | Parallèles | Croisements |
+|---|---:|---:|---:|---:|
+| Beethoven 5/I | 24 824 | 1 932 | 5 763 | 73 |
+| Beethoven 7/II | 11 602 | 977 | 4 668 | 174 |
+
+Ce sont des **comptages de quartets recouvrants**, non des scores de
+contrepoint. En particulier, les octaves parallèles peuvent résulter
+d'une doublure délibérée et souhaitable dans un orchestre.
+
+Le module propose ensuite une **modification contrefactuelle unique** :
+pour A0→A1 et B0 déjà observés, calculer un nouveau B1 qui produirait
+un mouvement parallèle, contraire ou oblique. Il conserve le reste du
+passage, refuse les hauteurs hors MIDI et renvoie les implications
+structurales (nouvel intervalle, quinte/octave parallèle, croisement).
+Ce n'est **pas** un conseil d'harmonisation ni de jouabilité ; la
+compatibilité avec l'accord, le style, le rôle du pupitre et l'audition
+reste à vérifier.
+
+```bash
+python -m scripts.orchestral_voice_leading_probe --top 2
+python -m unittest tests.test_orchestral_voice_leading -v
+```
+
 ## 4. Ce qu'il faut encore prouver pour éviter le « AI slop »
 
 1. **Vérité orchestrale** : comparer les rôles identifiés à des annotations
@@ -116,7 +162,7 @@ python -m unittest tests.test_score_texture tests.test_orchestral_counterfactual
 2. **Généralité** : prédire un pupitre d'une œuvre et d'un compositeur
    **entièrement tenus à l'écart**, contre baselines fortes (copie à
    l'unisson, règle de voix la plus proche, etc.).
-3. **Règles de composition** : au-delà des doublures exactes, reconstruire
+3. **Règles de composition** : au-delà des doublures et mouvements exacts,
    les transitions de texture, les contrechants, les relais de mélodie,
    la conduite harmonique et la grande forme.
 4. **Réalisation réaliste** : différencier MIDI noté, interprétation MIDI
