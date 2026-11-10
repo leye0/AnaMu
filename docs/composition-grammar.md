@@ -1,0 +1,132 @@
+# AnaMu — grammaire de composition et orchestration : test génératif
+
+**Contrat actif, 10 novembre 2026.** Ce document complète les
+[objectifs normatifs](OBJECTIVES.md) et la [feuille de route](roadmap.md).
+AnaMu doit pouvoir **expliquer des choix d'écriture** et, à terme,
+**produire une variation audible et cohérente** sous les mêmes contraintes.
+La simple détection de régularités mathématiques ou la compression des
+notes ne répond pas à cette exigence.
+
+## 1. Le vrai problème : reconstruire les décisions d'un orchestrateur
+
+La question de chaque mécanisme est : **« Si je retire ou modifie ce choix
+d'arrangement, que devient la musique ? »** Une preuve structurelle n'est
+pas encore une preuve d'impact esthétique.
+
+| Axe d'écriture de niveau avancé | Questions musicales à apprendre à résoudre | Contre-épreuve constructive envisagée |
+|---|---|---|
+| Conception motivique | Où le motif est-il posé, varié, fragmenté, préparé puis repris ? | Continuer un développement sans répétition mécanique |
+| Harmonie et conduite des voix | Quel accord est soutenu, à quelle inversion, avec quelles tensions, notes étrangères et résolutions ? | Réharmoniser un segment en préservant ses voix et sa direction |
+| Distribution orchestrale | Quels pupitres portent la ligne, la doublent, la colorent ou lui répondent ? | Retirer, redistribuer et réintroduire un rôle avec registre jouable |
+| Texture et contrepoint | Quelles strates sont actives et indépendantes : basse, contrechant, figuration, pédale, soutien harmonique ? | Modifier la densité tout en gardant les couches intelligibles |
+| Registre et équilibre | Où se concentrent les hauteurs, les doublures, les espaces entre voix ? | Transposer/doubler sans écraser la ligne principale ou créer de trous involontaires |
+| Forme et dramaturgie | Comment sont organisés attente, cadence, contraste, transition et point culminant ? | Générer une section qui va quelque part et conclut clairement |
+| Écriture instrumentale | Tessiture, doigtés/archets, souffle, endurance, transposition, articulations, couleurs et mélanges | Réorchestrer sans exiger l'impossible à des exécutants |
+| Expression interprétée | Comment nuances, crescendos, ralentissements, accents et phrasé travaillent-ils ensemble ? | Réaliser la phrase en MIDI/audio expressif, pas juste aligner les hauteurs |
+
+**Rôle ≠ instrument.** Un violoncelle peut porter la basse, un thème,
+un contrechant ou un ostinato selon le passage. Une « fonction orchestrale »
+est une hypothèse **locale, relationnelle et révisable**, pas une étiquette
+statique attachée à `cello`, à une piste MIDI ou à son programme GM.
+
+## 2. Contrat d'une règle vraiment générative
+
+Toute règle qui prétend représenter un savoir d'arrangement devra préciser :
+
+1. **Contexte d'emploi** : tonalité, métrique, niveau formel, fonction de
+   phrase, pupitres et registres, densité, niveau dynamique et style couvert.
+2. **Indices de partition** : notes, voix, silences, articulations, textes,
+   indications de tempo et d'instrumentation, avec identifiants de source.
+3. **Opération constructive** : `DOUBLE_LINE`, `HANDOFF_MELODY`,
+   `ADD_COUNTERLINE`, `DISTRIBUTE_HARMONY`, `THIN_TEXTURE`,
+   `PREPARE_CADENCE`, etc. Ce sont des **opérations proposées**, non des
+   capacités déjà implémentées.
+4. **Invariants à préserver** : continuité mélodique, conduite des voix,
+   rythme/métrique, placement de la basse, intention formelle, etc.
+5. **Contraintes physiques et perceptives** : tessitures, durées
+   respirables/jouables, timbres, balance, présence acoustique ; distinguer
+   ce que la partition **encode** de ce que le son **prouve**.
+6. **Contrefactuels** : même passage sans cette opération, avec un autre
+   pupitre ou une autre octave, et avec une règle triviale concurrente.
+7. **Tests** : reconstruction de mesures masquées, œuvres tenues à l'écart,
+   comparaisons à des arrangements humains et **écoutes aveugles** si l'on
+   affirme une amélioration esthétique.
+
+Une règle n'est pas « bonne » parce qu'elle réduit le nombre de bits
+nécessaires pour encoder un morceau. La description minimale peut être un
+outil de sélection, **jamais le critère ultime de qualité musicale**.
+
+## 3. Premier essai mesuré : les doublures instrumentales
+
+La [MusicXML 4.0 (W3C)](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/note/)
+définit les notes et les positions métriques ; sa
+[transposition écrite → sonnante](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/transpose/)
+évite de comparer deux instruments sur des hauteurs incompatibles. La
+construction historique d'une texture par doublures, registres et
+distribution harmonique est discutée par
+[Rimsky-Korsakov, *Principles of Orchestration*](https://www.gutenberg.org/ebooks/33900).
+**Ses préférences stylistiques ne sont pas des lois universelles.**
+
+`anamu/score_texture.py` lit des partitions MusicXML `.mxl` auditées :
+
+- noms et identifiants des parties ; position au sein de chaque mesure,
+  divisions et voix multiples via `backup`/`forward`, accords via `chord` ;
+- hauteurs écrites **et** hauteurs sonnantes avec `transpose` explicite ;
+- durées de notation, fragments liés signalés, ornements et petites notes
+  de renvoi exclus du modèle strict ; mesure imprimée distincte de son index ;
+- preuve exacte d'au moins trois attaques **successives dans chaque partie**
+  à l'unisson, à une octave ou deux octaves, avec durées identiques.
+
+L'analyse renvoie des **candidats de doublure notée**, non « mélodie
+renforcée avec succès ». Une ligne peut doubler la basse, une voix
+intérieure ou simplement partager des notes avec une autre partie.
+
+`anamu/orchestral_counterfactual.py` réalise une **micro-épreuve
+générative falsifiable** : trois notes concordantes de deux pupitres
+établissent une transposition fixe ; la suite du second pupitre est
+masquée ; le programme génère trois notes à partir du premier pupitre,
+puis seulement compare à la partition originale. Deux baselines : répéter
+la dernière hauteur du second pupitre et copier le premier pupitre
+**à l'unisson** sans apprendre d'intervalle.
+
+| Corpus noté | Candidats de doublure | Notes prédites | Succès exacts | Hauteur constante | Copie à l'unisson |
+|---|---:|---:|---:|---:|---:|
+| Beethoven 5/I | 1 767 | 6 294 | 4 816 (76,5 %) | 1 885 (30,0 %) | 1 583 (25,2 %) |
+| Beethoven 7/II | 441 | 6 303 | 5 625 (89,2 %) | 1 968 (31,2 %) | 1 573 (25,0 %) |
+
+**Interprétation rigoureuse :** épreuves locales de reconstruction, **non**
+échantillons indépendants. Les fenêtres d'un même couple de pupitres ne
+se recouvrent pas, mais un même passage peut être représenté dans de
+nombreux couples d'instruments. Les portions candidates ont été
+sélectionnées par des préfixes concordants. Aucun compositeur, mouvement,
+style ou public auditeur n'a été tenu à l'écart ; les notes exactes
+reconstruites ne prouvent ni qualité d'orchestration ni musicalité nouvelle.
+
+Reproduction sans téléchargement ni service payant :
+
+```bash
+python -m scripts.orchestral_doubling_probe --top 3
+python -m unittest tests.test_score_texture tests.test_orchestral_counterfactual -v
+```
+
+## 4. Ce qu'il faut encore prouver pour éviter le « AI slop »
+
+1. **Vérité orchestrale** : comparer les rôles identifiés à des annotations
+   humaines, et mesurer précisément les faux positifs (simples notes communes).
+2. **Généralité** : prédire un pupitre d'une œuvre et d'un compositeur
+   **entièrement tenus à l'écart**, contre baselines fortes (copie à
+   l'unisson, règle de voix la plus proche, etc.).
+3. **Règles de composition** : au-delà des doublures exactes, reconstruire
+   les transitions de texture, les contrechants, les relais de mélodie,
+   la conduite harmonique et la grande forme.
+4. **Réalisation réaliste** : différencier MIDI noté, interprétation MIDI
+   et audio ; ne pas inférer timbre, enveloppe, volume ou expressivité
+   acoustique à partir du seul `program_change`.
+5. **Audition** : synthétiser des versions contrôlées d'un même passage,
+   auditer la jouabilité et mener une écoute comparative aveugle avec
+   des musiciens (cohérence, tension, clarté, variété, intérêt, naturel).
+
+**Interdiction méthodologique :** un bon score sur une transformation exacte
+ne deviendra jamais à lui seul « 89 % de bonne musique ». La qualité d'une
+composition est une **question musicale et perceptive**, dont l'analyse
+symbolique ne fournit qu'une partie des conditions nécessaires.

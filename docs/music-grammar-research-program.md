@@ -260,6 +260,25 @@ références de provenance, **aucune métrique de justesse musicologique**.
 Les prochaines étapes restent l'alignement des partitions, les annotations
 humaines et les baselines négatives avant toute affirmation de qualité.
 
+### Orchestration comme grammaire de composition — contrôle constructif
+
+Un mécanisme utile doit expliquer les choix d'**écriture** (répartition
+harmonique, voix, doublure, contraste, rôle local, développement, technique
+instrumentale) et démontrer qu'une opération inverse peut reconstruire
+du matériau **hors de son exemple d'apprentissage**. Les partitions
+MusicXML fournissent une première vue indépendante : hauteurs écrites et
+sonnantes, durées/attaques, voix, pupitres ; elles ne fournissent ni timbre
+acoustique ni interprétation effective.
+
+Le détecteur de [doublures orchestrales et son test de prédiction
+masquée](composition-grammar.md) réalise cette première boucle : une règle
+exacte de transposition apprise sur un préfixe compose une courte suite
+de notes hypothétiques d'un autre pupitre. Cette preuve est limitée à
+une **continuation dans la même œuvre** ; elle ne prouve pas que le
+résultat fonctionnerait dans une composition nouvelle ou serait agréable
+à écouter. Les contraintes instrumentales, la hiérarchie, le phrasé, la
+forme et le jugement d'écoute seront des **épreuves de sortie obligatoires**.
+
 **Politique de travail** : le projet traite *tous* les aspects dans la conception des données et de l'API, mais ne déclare chaque mécanisme « implémenté » qu'après une extraction conservatrice et une vérification pertinente. Le programme de classification de « mystérieux » est abandonné ; les études portant directement sur une cible musicale vérifiable peuvent servir de témoins indépendants, sans dicter la structure de la grammaire.
 
 ## 8. Première décision architecturale à valider

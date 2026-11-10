@@ -22,6 +22,13 @@ Le moteur doit notamment comprendre comment une œuvre :
 7. réalise ces éléments différemment selon la partition, l'interprétation et
    l'enregistrement.
 
+**Critère supplémentaire de pertinence compositionnelle :** une régularité
+ne mérite une règle de grammaire que si l'on peut formuler son rôle dans
+l'écriture et tester sa réutilisation constructive ou sa suppression.
+L'objectif final est de produire des arrangements **musicalement cohérents
+et audibles**, et non d'optimiser uniquement une représentation mathématique.
+La justesse des notes ne remplace pas une écoute indépendante.
+
 Cette analyse doit pouvoir dire **« inconnu »**, conserver plusieurs
 hypothèses et expliquer la preuve en faveur de chacune. Le but n'est pas de
 faire correspondre mécaniquement une musique à un adjectif d'humeur.
@@ -83,9 +90,9 @@ masquer la provenance ou remplacer l'évaluation humaine indépendante.
 
 | Couche | Objectif | État actuel / seuil de validation |
 |---|---|---|
-| **G0 — preuves** | Conserver MIDI, notation, performance et audio comme vues distinctes | MIDI fiable pour les messages et notes non ambiguës ; inventaire MusicXML partiel. Multi-vues et alignements encore absents |
+| **G0 — preuves** | Conserver MIDI, notation, performance et audio comme vues distinctes | MIDI fiable ; preuves partielles de notes MusicXML, hauteurs sonnantes et métrique locale. Alignement des deux vues et audio encore absents |
 | **G1 — relations** | Ordre, simultanéité, alignement, transformations et dépendances explicites | Relations d'Allen et transformations exactes vérifiées ; `ALIGN`, `DEPEND` et `GROUP` hiérarchique non implémentés |
-| **G2 — groupements et motifs** | Détecter répétitions, variantes, voix et frontières concurrentes | Prototype de répétitions exactes par fenêtres MIDI, statut **candidat structurel** seulement. Voix, frontières, arbres et validation humaine indépendante manquants |
+| **G2 — groupements et motifs** | Détecter répétitions, variantes, voix et frontières concurrentes | Prototype de répétitions exactes MIDI et de doublures orchestrales notées ; essais de reconstruction masquée. **Candidats structuraux** seulement ; voix, frontières, arbres, contrôle humain et écoute manquants |
 | **G3 — harmonie et voix** | Accords, tonalité, fonctions, conduite des voix et couches orchestrales | Travaux séparés exploratoires ; pas de grammaire intégrée ou évaluée |
 | **G4 — phrases et forme** | Hiérarchies musicales, développement et reprise | Non implémenté |
 | **G5 — interprétation et son** | Tempo expressif, articulations, nuances, timbres et enveloppes | Sources et limites spécifiées ; pas d'inférence audio/partition alignée validée |
@@ -123,6 +130,9 @@ notes** sans preuve supplémentaire. Voir
 4. Faire passer un programme MIDI pour une performance ou un audio réel.
 5. Atteindre artificiellement un volume de corpus ou un score sans vérité
    expertisée de la capacité concernée.
+
+Chaque règle d'arrangement devra passer les contre-épreuves du
+[contrat de composition et d'orchestration](composition-grammar.md).
 
 Les publications et annotations d'attente, de rythme, d'harmonie et de
 segmentation peuvent servir de **contrôles indépendants** lorsqu'elles

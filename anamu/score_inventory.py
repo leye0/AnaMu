@@ -49,12 +49,8 @@ def instrument_family(label: str | None) -> str:
     return "unknown"
 
 
-def score_part_inventory(mxl_bytes: bytes) -> dict:
-    """Read compressed MusicXML's score-part declarations; do not unfold repeats.
-
-    Score pitched-note elements are notation occurrences, not sounding events:
-    ties, grace notes, transposition and repetition are not reconstructed.
-    """
+def musicxml_root_from_mxl(mxl_bytes: bytes) -> ElementTree.Element:
+    """Read one bounded, partwise MusicXML root from a compressed score."""
     if not zipfile.is_zipfile(io.BytesIO(mxl_bytes)):
         raise ValueError("not_a_compressed_musicxml_zip")
     with zipfile.ZipFile(io.BytesIO(mxl_bytes)) as archive:
@@ -66,6 +62,16 @@ def score_part_inventory(mxl_bytes: bytes) -> dict:
         root = ElementTree.fromstring(archive.read(xml_members[0]))
     if _tag(root.tag) != "score-partwise":
         raise ValueError("unsupported_musicxml_score_type")
+    return root
+
+
+def score_part_inventory(mxl_bytes: bytes) -> dict:
+    """Read compressed MusicXML's score-part declarations; do not unfold repeats.
+
+    Score pitched-note elements are notation occurrences, not sounding events:
+    ties, grace notes, transposition and repetition are not reconstructed.
+    """
+    root = musicxml_root_from_mxl(mxl_bytes)
     part_list = _child(root, "part-list")
     if part_list is None:
         raise ValueError("missing_musicxml_part_list")

@@ -11,6 +11,8 @@
    provenance, licences, discordances MIDI ↔ MusicXML.
 5. **[research-evidence-gates.md](research-evidence-gates.md)** — contrats
    scientifiques et impossibilités de certaines cibles de recherche.
+6. **[composition-grammar.md](composition-grammar.md)** — contrat de
+   composition, orchestration, contrefactuels génératifs et critères d'écoute.
 
 **Ordre de priorité en cas de contradiction :** observations vérifiées et
 tests > `OBJECTIVES.md` pour le but > `roadmap.md` pour le statut > spécification
