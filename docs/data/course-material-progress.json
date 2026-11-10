@@ -229,12 +229,12 @@
         "material_file": null
       },
       "SOL 1017": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/udem/SOL-1017.md"
       },
       "SOL 3410": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": "docs/courses/udem/SOL-3410.md"
       },
       "MCT 3511X": {
         "status": "partially_documented",
@@ -341,12 +341,12 @@
         "material_file": "docs/courses/udem/MUS-3315X.md"
       },
       "MUS 3322X": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/udem/MUS-3322X.md"
       },
       "MUS 3323": {
-        "status": "catalog_only",
-        "material_file": null
+        "status": "partially_documented",
+        "material_file": "docs/courses/udem/MUS-3323.md"
       },
       "MUS 3326X": {
         "status": "syllabus_documented",
