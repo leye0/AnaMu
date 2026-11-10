@@ -5,6 +5,12 @@ largement non fondée sur le machine learning**. Son objectif est de découvrir
 et décrire les règles d'organisation d'une œuvre : notes, rythmes, harmonie,
 voix, motifs, phrases, forme, instruments, orchestration et expression.
 
+**Nous n'avons pas encore couvert exhaustivement un cursus universitaire.**
+Avant toute composition musicale générative, le projet doit auditer le
+contenu réel des programmes de **l'Université de Montréal, de McGill et de
+Berklee**, traiter et faire valider leurs compétences applicables. Une
+preuve mathématique isolée n'est pas un substitut à une analyse musicale.
+
 Ce projet **n'est plus centré sur la prédiction de l'émotion « mystérieuse »**.
 Les anciens outils de classification émotionnelle ne définissent plus son
 architecture ni ses objectifs.
@@ -13,15 +19,17 @@ architecture ni ses objectifs.
 
 1. **[Objectifs et critères de réussite](docs/OBJECTIVES.md)** — le contrat de
    recherche, les axes de musique étudiés et ce que nous refusons d'inférer.
-2. **[Architecture académique de la grammaire](docs/music-grammar-research-program.md)**
+2. **[Cursus universitaires et exigences d'exhaustivité](docs/university-curriculum.md)**
+   — sources primaires, couverture vérifiable, interdiction de composer prématurément.
+3. **[TODO exhaustif avec cases à cocher](docs/todo-university-coverage.md)**
+   — seule liste active de travaux, **aucune case validée à ce jour**.
+4. **[Architecture académique de la grammaire](docs/music-grammar-research-program.md)**
    — ontologie, sources, opérateurs et fondements théoriques.
-3. **[Feuille de route actuelle](docs/roadmap.md)** — acquis mesurés, travaux
-   manquants, prochaine expérience G2.
-4. **[Index documentaire](docs/README.md)** — documents actifs et études
+5. **[État des mécanismes mesurés](docs/roadmap.md)** — ce qui existe et ses limites.
+6. **[Index documentaire](docs/README.md)** — documents actifs et études
    scientifiques pertinentes à la grammaire.
-5. **[Grammaire de composition et orchestration](docs/composition-grammar.md)**
-   — comment tester la valeur constructive des découvertes, jusqu'aux
-   contre-épreuves d'écoute.
+7. **[Analyse contrefactuelle et orchestration](docs/composition-grammar.md)**
+   — diagnostics de règles existantes ; aucune création libre avant le verrou.
 
 ## Trois sources, trois types de vérité
 

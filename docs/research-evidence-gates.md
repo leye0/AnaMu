@@ -2,6 +2,11 @@
 
 **Contrat actuel (10 novembre 2026).** Ce document concerne les capacités
 grammaticales G0–G6, **pas** des classes d'humeurs ou un score unique.
+Le niveau « universitaire exhaustif » est un **deuxième verrou** : chacun des
+cours et contenus applicables doit être cartographié au
+[référentiel universitaire](university-curriculum.md), puis aux preuves et
+cases du [TODO](todo-university-coverage.md). Réussir des tests unitaires
+n'autorise pas à déclarer une compétence d'orchestration acquise.
 
 ## Chaque affirmation appartient à un niveau
 
@@ -73,6 +78,7 @@ Voir les [études utilisées](README.md).
 - Les relations harmoniques et orchestrales au-delà de l'inventaire.
 - Les correspondances partition–performance–audio avec incertitudes.
 
-Le protocole d'implantation et les prochaines épreuves se trouvent dans
-[roadmap.md](roadmap.md). Aucun score émotionnel ancien ne constitue une
-preuve d'une capacité G2–G6.
+Les épreuves prioritaires sont dans le
+[TODO de couverture](todo-university-coverage.md) ; [roadmap.md](roadmap.md)
+conserve seulement les acquis vérifiés. Aucun score émotionnel ancien ne
+constitue une preuve d'une capacité G2–G6.

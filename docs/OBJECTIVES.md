@@ -29,6 +29,15 @@ L'objectif final est de produire des arrangements **musicalement cohérents
 et audibles**, et non d'optimiser uniquement une représentation mathématique.
 La justesse des notes ne remplace pas une écoute indépendante.
 
+**Verrou d'exhaustivité préalable :** cet objectif final n'autorise pas
+encore le développement d'un compositeur automatique. Nous devons d'abord
+inventorier intégralement le contenu réel de **trois programmes universitaires
+de composition**, puis démontrer la maîtrise analytique de chaque compétence
+applicable, sous contrôle musicologique indépendant. Le
+[référentiel universitaire](university-curriculum.md) définit cette exigence,
+et le [TODO](todo-university-coverage.md) en détaille les vérifications.
+Les prototypes G0–G3 ne cochent **aucune** de ces compétences exhaustives.
+
 Cette analyse doit pouvoir dire **« inconnu »**, conserver plusieurs
 hypothèses et expliquer la preuve en faveur de chacune. Le but n'est pas de
 faire correspondre mécaniquement une musique à un adjectif d'humeur.
@@ -86,7 +95,7 @@ invariants et induction structurelle vérifiable**. ML/probabilités peuvent
 servir aux tâches réellement incertaines ou à des baselines, mais jamais
 masquer la provenance ou remplacer l'évaluation humaine indépendante.
 
-## 5. Feuille de développement et critères de sortie
+## 5. État technique et critères de sortie (pas une feuille de travaux)
 
 | Couche | Objectif | État actuel / seuil de validation |
 |---|---|---|
@@ -101,6 +110,9 @@ masquer la provenance ou remplacer l'évaluation humaine indépendante.
 Chaque couche doit livrer une API stable, des tests de conservation, des
 invariants, des cas positifs/négatifs et **des résultats par source réellement
 indépendante** avant de prétendre au niveau universitaire.
+Les étapes à entreprendre sont exclusivement ordonnées dans le
+[TODO universitaire](todo-university-coverage.md), et non par la prochaine
+expérience mathématique la plus commode.
 
 ## 6. Corpus, qualité et protocole
 
