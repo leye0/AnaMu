@@ -55,6 +55,10 @@ plusieurs analyses possibles, sans inventer de certitude.
   (contraire, similaire, parallèle, oblique, statique), croisements et
   variantes hypothétiques d'une note ; jamais de jugement automatique
   de qualité (`anamu/orchestral_voice_leading.py`).
+- **G3 harmonique structurel** : sonorités notées locales, basses sonnantes,
+  formes exactes de triades/septièmes et effet d'une variante de voix sur
+  toute la texture (`anamu/orchestral_harmony.py`). Fonctions tonales
+  et notes étrangères **non identifiées**.
 - **Corpus orchestral** : deux mouvements de symphonies Beethoven, leurs MIDI,
   deux partitions MusicXML de référence, manifestes avec licences et SHA-256.
 - **Contrôle des sources** : comparaison des familles instrumentales déclarées
@@ -77,6 +81,7 @@ python -m unittest discover -s tests -p 'test_grammar_*.py'
 python -m scripts.g2_motif_probe --top 3
 python -m scripts.orchestral_doubling_probe --top 3
 python -m scripts.orchestral_voice_leading_probe --top 2
+python -m scripts.orchestral_harmonic_context_probe --top 3
 python -m unittest discover -s tests -p test_orchestral_grammar_probe.py
 python -m unittest discover -s tests -p test_score_inventory.py
 python scripts/orchestral_grammar_probe.py

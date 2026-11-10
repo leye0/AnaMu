@@ -155,6 +155,51 @@ python -m scripts.orchestral_voice_leading_probe --top 2
 python -m unittest tests.test_orchestral_voice_leading -v
 ```
 
+## 3 ter. Une variante de voix modifie aussi la matière harmonique
+
+**Premier pont structurel G3 :** `anamu/orchestral_harmony.py` rassemble
+les notes **sonnantes** à un instant exact d'une partition, en incluant
+les notes déjà attaquées et encore tenues dans la **même mesure**. Il
+conserve les IDs de source, les hauteurs et la note la plus grave. Il
+peut reconnaître une **forme verticale exacte** (classes de hauteur
+d'une triade ou d'un accord de septième) ; les racines ambiguës des
+accords symétriques sont toutes préservées.
+
+Pour un changement hypothétique de **B1 seulement** proposé par la
+conduite des voix, le module reconstruit les deux verticalités sur
+**tous les pupitres simultanément** sans modifier la source MusicXML.
+Il rapporte les classes de hauteur ajoutées/retirées, les formes
+strictement compatibles et le changement éventuel de basse.
+
+| Partition | Mouvements contraires modifiables | Forme exacte avant | Forme exacte perdue après | Classe de hauteur ajoutée | Note la plus grave changée |
+|---|---:|---:|---:|---:|---:|
+| Beethoven 5/I | 1 932 | 1 243 | 353 | 951 | 153 |
+| Beethoven 7/II | 977 | 587 | 269 | 619 | 128 |
+
+Ces observations sont **corrélées au sein des œuvres** et les colonnes
+peuvent se recouper. Une forme d'accord qui disparaît peut correspondre
+à une **suspension, une tension ou une note étrangère artistiquement
+voulue** : ce n'est aucunement un score de qualité ou une interdiction.
+
+La [syntaxe hiérarchique de l'harmonie tonale de Rohrmeier (2011)](https://doi.org/10.1080/17459737.2011.573676)
+est beaucoup plus riche qu'un ensemble de notes. Les
+[conventions analytiques DCML](https://dcmlab.github.io/standards/build/html/reference/reference.html)
+distinguent tonalité, accords et cadences ; la
+[documentation music21 des accords](https://music21.org/music21docs/moduleReference/moduleChord.html)
+est un témoin pour les formes verticales, pas un substitut à l'analyse
+experte. Notre prochaine expérience est d'aligner des fonctions
+**annotées indépendamment**, puis de comparer des réalisations audibles.
+
+```bash
+python -m scripts.orchestral_harmonic_context_probe --top 3
+python -m unittest tests.test_orchestral_harmony -v
+```
+
+**Limites :** aucune tonalité locale, note étrangère, résolution,
+orthographe enharmonique ou fonction de dominante n'est inférée ;
+aucune continuité automatique des tenues entre mesures ni reprise
+dépliée ; il s'agit de **partition notée**, pas de son acoustique.
+
 ## 4. Ce qu'il faut encore prouver pour éviter le « AI slop »
 
 1. **Vérité orchestrale** : comparer les rôles identifiés à des annotations
