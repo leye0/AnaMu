@@ -2,20 +2,27 @@
 
 ## Sources normatives (projet actuel)
 
+**Si vous êtes un nouvel agent**, commencez par le
+[contrat de reprise à la racine](../AGENTS.md). Le résultat voulu est une
+**base de connaissances musicales académiques commune** qui alimente
+une analyse experte ; composer ne viendra qu'ensuite.
+
 1. **[OBJECTIVES.md](OBJECTIVES.md)** — objectif, périmètre, garanties,
    types de preuve et critères de sortie G0–G6.
-2. **[university-curriculum.md](university-curriculum.md)** — trois cursus
+2. **[knowledge-base.md](knowledge-base.md)** — **patrimoine académique
+   unifié** et contrat de passage des cours aux concepts puis à l'analyse.
+3. **[university-curriculum.md](university-curriculum.md)** — trois cursus
    officiels, méthode de revue cours par cours et verrou avant composition.
-3. **[todo-university-coverage.md](todo-university-coverage.md)** — **unique
+4. **[todo-university-coverage.md](todo-university-coverage.md)** — **unique
    liste de priorités à cocher**, sans compétences déclarées achevées.
-4. **[roadmap.md](roadmap.md)** — acquis mesurés et limites, sans deuxième TODO.
-5. **[music-grammar-research-program.md](music-grammar-research-program.md)**
+5. **[roadmap.md](roadmap.md)** — acquis mesurés et limites, sans deuxième TODO.
+6. **[music-grammar-research-program.md](music-grammar-research-program.md)**
    — ontologie académique, théories, opérateurs, choix de représentation.
-6. **[orchestral-corpus-audit.md](orchestral-corpus-audit.md)** — corpus,
+7. **[orchestral-corpus-audit.md](orchestral-corpus-audit.md)** — corpus,
    provenance, licences, discordances MIDI ↔ MusicXML.
-7. **[research-evidence-gates.md](research-evidence-gates.md)** — contrats
+8. **[research-evidence-gates.md](research-evidence-gates.md)** — contrats
    scientifiques et impossibilités de certaines cibles de recherche.
-8. **[composition-grammar.md](composition-grammar.md)** — contre-épreuves
+9. **[composition-grammar.md](composition-grammar.md)** — contre-épreuves
    analytiques d'orchestration ; résultats mesurés et critères d'écoute.
 
 **Audits de cursus en cours :**
@@ -35,8 +42,9 @@ Les cours voisins ne sont pas présumés admissibles aux options du diplôme
 Composition ; leur contenu reste à auditer avant toute validation.
 
 **Ordre de priorité en cas de contradiction :** observations vérifiées et
-tests pour le constat > `OBJECTIVES.md` pour le but > référentiel universitaire
-pour le périmètre > TODO pour les travaux à accomplir > `roadmap.md` pour
+tests pour le constat > `OBJECTIVES.md` pour le but > `knowledge-base.md`
+pour le patrimoine attendu > référentiel universitaire pour le périmètre >
+TODO pour les travaux à accomplir > `roadmap.md` pour
 l'état des prototypes > spécifications pour les hypothèses. Aucun essai
 historique ne modifie silencieusement le cap.
 

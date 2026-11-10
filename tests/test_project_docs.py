@@ -4,6 +4,7 @@ import unittest
 from pathlib import Path
 
 from scripts.validate_project_docs import (
+    agent_onboarding_issues,
     berklee_grid_issues,
     broken_local_links,
     mcgill_catalog_issues,
@@ -14,6 +15,21 @@ from scripts.validate_project_docs import (
 
 
 class DocumentationLinkTests(unittest.TestCase):
+    def test_fresh_agent_finds_academic_knowledge_mission_and_documents(self):
+        root = Path(__file__).resolve().parents[1]
+        text = (root / "AGENTS.md").read_text(encoding="utf-8")
+        self.assertEqual(agent_onboarding_issues(text), [])
+        knowledge = (root / "docs/knowledge-base.md").read_text(encoding="utf-8")
+        self.assertIn("base de concepts réconciliés", knowledge)
+        self.assertIn("reste à construire", knowledge)
+
+    def test_fresh_agent_contract_cannot_lose_key_navigation(self):
+        root = Path(__file__).resolve().parents[1]
+        text = (root / "AGENTS.md").read_text(encoding="utf-8")
+        altered = text.replace("](docs/knowledge-base.md)", "](somewhere-else.md)")
+        self.assertTrue(any("docs/knowledge-base.md" in issue
+                            for issue in agent_onboarding_issues(altered)))
+
     def test_local_links_are_checked_but_external_links_are_not(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -47,7 +63,7 @@ class DocumentationLinkTests(unittest.TestCase):
     def test_optional_course_union_is_an_explicit_gate(self):
         root = Path(__file__).resolve().parents[1]
         text = (root / "docs/todo-university-coverage.md").read_text(encoding="utf-8")
-        for marker in ("A13", "A14", "A15"):
+        for marker in ("A13", "A14", "A15", "A16", "A17", "A18"):
             self.assertIn(f"- [ ] {marker}", text)
         altered = text.replace("- [ ] A13", "- [ ] Z13", 1)
         self.assertTrue(any("A13" in issue for issue in university_coverage_issues(altered)))

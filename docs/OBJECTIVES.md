@@ -6,10 +6,23 @@ anciennes études sur les émotions ne constituent plus la feuille de route.
 
 ## 1. Finalité
 
-Construire un moteur capable d'analyser une composition musicale inconnue
-avec le soin d'un **cours universitaire d'analyse musicale**, en produisant
-des objets, relations et hypothèses **inspectables**, sans classificateur
-opaque comme moteur principal.
+Construire d'abord une **immense base de connaissances académiques musicales
+unifiée**, puis un moteur capable de **mobiliser ces connaissances pour
+analyser** une composition inconnue au niveau d'un compositeur/orchestrateur
+ayant assimilé plusieurs cursus universitaires avancés. La finalité ultime,
+**après validation**, est de pouvoir également **composer de la musique qui
+s'écoute bien** parce que le système comprend et sait appliquer les principes
+musicaux ; pas parce qu'il a trouvé des corrélations entre notes.
+
+Les connaissances doivent être tirées des contenus réels des programmes
+(cours obligatoires, options, recommandations, spécialités), **réconciliées
+entre établissements** en concepts versionnés et sourcés, et reliées à des
+exemples, contre-exemples, conditions de validité et mécanismes d'analyse.
+Voir la [conception de la base académique](knowledge-base.md) : les inventaires
+de cours existants **ne constituent pas encore cette base**.
+
+Les résultats analytiques seront des objets, relations et hypothèses
+**inspectables**, sans classificateur opaque comme moteur principal.
 
 Le moteur doit notamment comprendre comment une œuvre :
 

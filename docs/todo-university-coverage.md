@@ -6,6 +6,9 @@ et orchestration, **avant** d'engager la composition automatique. Notre cible
 est **l'union des contenus instructifs**, même optionnels, recommandés ou
 issus de spécialisations alternatives ; elle ne se limite pas aux cours
 qu'un étudiant doit suivre pour obtenir son diplôme.
+Cette union doit devenir une **base de connaissances académiques unifiée**,
+consultable par un moteur d'analyse, suivant
+[knowledge-base.md](knowledge-base.md), et pas une simple liste de matières.
 Référentiel et sources : [university-curriculum.md](university-curriculum.md).
 Principe expérimental : [research-evidence-gates.md](research-evidence-gates.md).
 
@@ -69,6 +72,9 @@ de son syllabus ; A13–A15 demeurent ouverts.
 - [ ] A13 — Explorer **tous les cours à option, complémentaires, recommandés et hors majeure accessibles** dans les catalogues musicaux des trois établissements, y compris les réserves de crédits ouvertes ; conserver les candidats non encore consultés.
 - [ ] A14 — Tenir un registre **cours optionnel → apprentissages distinctifs → décision d'inclusion motivée → compétences TODO**, y compris les cours de jazz, composition à l'image, acoustique/perception, électronique, direction, étude instrumentale et traditions variées ; démontrer les vrais doublons avant de les écarter.
 - [ ] A15 — Vérifier avec des spécialistes que l'union des cours inclus ne perd **aucune matière pertinente** du fait de contraintes de choix ou de spécialisation, et étendre B–J dès qu'un nouvel enseignement manque au référentiel.
+- [ ] A16 — Concevoir et matérialiser un **registre versionné de connaissances musicales unifiées** (concepts, définitions, mécanismes, prérequis, contextes, exemples, exceptions, sources et provenance multi-cursus), distinct des catalogues administratifs.
+- [ ] A17 — Réconcilier les équivalences, nuances et contradictions des contenus universitaires **au niveau des concepts**, avec identifiants stables et navigation bidirectionnelle `cours ↔ concept ↔ preuve`, sans réduire plusieurs traditions à une règle universelle.
+- [ ] A18 — Démontrer que le moteur d'analyse **interroge et mobilise réellement** cette base pour expliquer des œuvres inconnues, et tracer chaque hypothèse vers le concept et la source qui la soutiennent ; ne pas assimiler des constantes cachées à une connaissance acquise.
 
 ## B. Lecture de partition, théorie élémentaire et fidélité de source
 
@@ -240,11 +246,12 @@ de son syllabus ; A13–A15 demeurent ouverts.
 - [ ] K10 — Auditer indépendamment les capacités pratiques/articulées par les cursus et inscrire les limites qui empêchent la revendication d'exhaustivité.
 - [ ] K11 — Rejouer tests, corpus indépendants, rapports d'erreurs, licences et analyses sans dépendance à une manipulation manuelle cachée.
 - [ ] K12 — Faire approuver le rapport de **couverture exhaustive** par des experts indépendants ; tant que l'avis est réservé, la porte reste fermée.
+- [ ] K13 — Auditer l'intégration **base de connaissances → mécanismes d'analyse → explications musicales** sur des œuvres indépendantes, y compris l'apport unique des cours optionnels et les contradictions stylistiques.
 
 ## L. Porte de passage à la composition (verrouillée)
 
 - [ ] L01 — Toutes les matrices des trois programmes, y compris **tous les choix et cours optionnels apportant un savoir pertinent**, même hors parcours diplômant unique, sont complètes, datées et auditées ; les exclusions sont justifiées cours par cours.
-- [ ] L02 — Toutes les compétences B–J pertinentes sont évaluées avec preuves et limites acceptées par les experts ; aucun « ça devrait marcher ».
+- [ ] L02 — La base de connaissances unifiée est effectivement constituée et exploitée par l'analyse ; toutes les compétences B–J pertinentes sont évaluées avec preuves et limites acceptées par les experts ; aucun « ça devrait marcher ».
 - [ ] L03 — L'analyse intégrée K a réussi sur des œuvres **jamais utilisées** pour ajuster les règles, avec protocole d'écoute où nécessaire.
 - [ ] L04 — Un rapport expose honnêtement les compétences humaines non représentables et explique si elles bloquent toujours l'exhaustivité demandée.
 - [ ] L05 — Léon approuve explicitement la levée du verrou, après examen du rapport scientifique et musicologique.

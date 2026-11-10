@@ -4,6 +4,9 @@
 Le [TODO de couverture](todo-university-coverage.md) est la seule liste à cocher
 des travaux nécessaires. Les [objectifs](OBJECTIVES.md) fixent la finalité et
 les [règles de preuve](research-evidence-gates.md) fixent les validations.
+La [base de connaissances académiques](knowledge-base.md) définit **le produit
+à constituer à partir des cursus** : cours et syllabus sont des sources, les
+concepts musicaux réconciliés sont le patrimoine exploitable par AnaMu.
 
 ## 1. La décision fondamentale
 
@@ -12,6 +15,13 @@ pour chaque savoir effectivement enseigné en composition, harmonie,
 contrepoint, orchestration, analyse et interprétation, retrouver dans les
 œuvres des observations, des relations, des hypothèses alternatives et des
 explications contrôlables. Le savoir musical prime sur les jolies statistiques.
+
+**Le résultat central attendu n'est pas trois diplômes copiés ni trois
+collections séparées de règles : c'est une immense connaissance unifiée**,
+enrichie par les particularités de chacun des cursus. Le moteur d'analyse
+doit pouvoir invoquer cette connaissance commune pour justifier ses
+interprétations. Une variation de tradition ou de style reste une relation
+documentée, jamais écrasée au nom de l'uniformisation.
 
 **Aucune composition originale automatisée ne sera entreprise tant que la
 couverture universitaire n'aura pas été auditée intégralement.** Les petites
@@ -111,7 +121,11 @@ plafonds de connaissances**.
 
 ## 3. Grille commune pour traduire un cours en analyse
 
-Pour chaque compétence `C` et chacun des programmes pertinents :
+Pour chaque compétence `C` et chacun des programmes pertinents, établir
+d'abord une **entrée dans la base de connaissances commune** : identifiant
+stable, objectif réellement enseigné, sources multiples, prérequis, contexte,
+relations, divergences et exemples. Cette étape précède le mécanisme
+informatique. Ensuite :
 
 1. **Savoir enseigné :** référence précise au cours, chapitre, exercice,
    répertoire et conventions stylistiques ; distinguer prescription
