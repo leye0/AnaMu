@@ -1,11 +1,17 @@
-# AnaMu — grammaire de composition et orchestration : test génératif
+# AnaMu — analyse des choix d'orchestration et diagnostics contrefactuels
 
-**Contrat actif, 10 novembre 2026.** Ce document complète les
-[objectifs normatifs](OBJECTIVES.md) et la [feuille de route](roadmap.md).
+**Contrat d'expériences existantes, 10 novembre 2026.** Ce document complète les
+[objectifs normatifs](OBJECTIVES.md) et l'[état des prototypes](roadmap.md).
 AnaMu doit pouvoir **expliquer des choix d'écriture** et, à terme,
 **produire une variation audible et cohérente** sous les mêmes contraintes.
 La simple détection de régularités mathématiques ou la compression des
 notes ne répond pas à cette exigence.
+
+**Attention : aucun générateur libre n'est au programme actuel.** Les
+prédictions masquées et les modifications d'une note décrites ici sont
+uniquement des **épreuves diagnostiques** sur des partitions existantes.
+Toute création originale attend l'audit exhaustif des cursus et la porte
+L01–L05 du [TODO universitaire](todo-university-coverage.md).
 
 ## 1. Le vrai problème : reconstruire les décisions d'un orchestrateur
 
@@ -29,7 +35,7 @@ un contrechant ou un ostinato selon le passage. Une « fonction orchestrale »
 est une hypothèse **locale, relationnelle et révisable**, pas une étiquette
 statique attachée à `cello`, à une piste MIDI ou à son programme GM.
 
-## 2. Contrat d'une règle vraiment générative
+## 2. Contrat analytique d'une règle réutilisable
 
 Toute règle qui prétend représenter un savoir d'arrangement devra préciser :
 

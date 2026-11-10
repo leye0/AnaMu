@@ -4,20 +4,25 @@
 
 1. **[OBJECTIVES.md](OBJECTIVES.md)** — objectif, périmètre, garanties,
    types de preuve et critères de sortie G0–G6.
-2. **[roadmap.md](roadmap.md)** — statut constaté et prochaines tâches.
-3. **[music-grammar-research-program.md](music-grammar-research-program.md)**
+2. **[university-curriculum.md](university-curriculum.md)** — trois cursus
+   officiels, méthode de revue cours par cours et verrou avant composition.
+3. **[todo-university-coverage.md](todo-university-coverage.md)** — **unique
+   liste de priorités à cocher**, sans compétences déclarées achevées.
+4. **[roadmap.md](roadmap.md)** — acquis mesurés et limites, sans deuxième TODO.
+5. **[music-grammar-research-program.md](music-grammar-research-program.md)**
    — ontologie académique, théories, opérateurs, choix de représentation.
-4. **[orchestral-corpus-audit.md](orchestral-corpus-audit.md)** — corpus,
+6. **[orchestral-corpus-audit.md](orchestral-corpus-audit.md)** — corpus,
    provenance, licences, discordances MIDI ↔ MusicXML.
-5. **[research-evidence-gates.md](research-evidence-gates.md)** — contrats
+7. **[research-evidence-gates.md](research-evidence-gates.md)** — contrats
    scientifiques et impossibilités de certaines cibles de recherche.
-6. **[composition-grammar.md](composition-grammar.md)** — contrat de
-   composition, orchestration, contrefactuels génératifs et critères d'écoute.
+8. **[composition-grammar.md](composition-grammar.md)** — contre-épreuves
+   analytiques d'orchestration ; résultats mesurés et critères d'écoute.
 
 **Ordre de priorité en cas de contradiction :** observations vérifiées et
-tests > `OBJECTIVES.md` pour le but > `roadmap.md` pour le statut > spécification
-de recherche pour les propositions non encore implémentées. Une étude
-historique ne modifie jamais silencieusement le cap.
+tests pour le constat > `OBJECTIVES.md` pour le but > référentiel universitaire
+pour le périmètre > TODO pour les travaux à accomplir > `roadmap.md` pour
+l'état des prototypes > spécifications pour les hypothèses. Aucun essai
+historique ne modifie silencieusement le cap.
 
 ## Études empiriques utiles à la grammaire (`studies/`)
 

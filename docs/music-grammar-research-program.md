@@ -1,6 +1,6 @@
 # AnaMu Grammar — programme d'analyse musicologique formelle
 
-**Direction adoptée le 9 novembre 2026.** Statut : **spécification de recherche**, et non affirmation que toutes les couches sont implémentées. Le but normatif figure dans [OBJECTIVES.md](OBJECTIVES.md) et l'état mesuré dans [roadmap.md](roadmap.md). Ce document définit le **cœur recherché** d'AnaMu : expliquer l'organisation d'une œuvre, sa partition, sa réalisation et sa matière sonore par des relations hiérarchiques vérifiables, avec le minimum d'apprentissage statistique.
+**Direction adoptée le 9 novembre 2026.** Statut : **spécification de recherche**, et non affirmation que toutes les couches sont implémentées. Le but normatif figure dans [OBJECTIVES.md](OBJECTIVES.md), les programmes à couvrir dans [university-curriculum.md](university-curriculum.md), les compétences et validations manquantes dans l'[unique TODO](todo-university-coverage.md), et l'état mesuré dans [roadmap.md](roadmap.md). Ce document définit le **cœur recherché** d'AnaMu : expliquer l'organisation d'une œuvre, sa partition, sa réalisation et sa matière sonore par des relations hiérarchiques vérifiables, avec le minimum d'apprentissage statistique. La grille G0–G6 ci-dessous ne remplace **ni** l'inventaire intégral des cours **ni** la validation de leurs compétences.
 
 ## 1. Ambition et critères scientifiques
 
