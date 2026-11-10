@@ -10,7 +10,8 @@ Un agent commence par [AGENTS.md](../AGENTS.md). **La tâche active consiste à 
 4. [knowledge-base.md](knowledge-base.md) — architecture de la base de concepts à construire **après** la collecte.
 5. [todo-university-coverage.md](todo-university-coverage.md) — unique liste à cocher.
    [Registre de progression cours par cours](data/course-material-progress.json)
-   — 332 cours candidats à documenter, et cinq pools de choix à explorer.
+   — 332 entrées, dont 5 syllabus documentés, 27 fiches partielles et cinq pools de choix à explorer.
+   [Pistes de recherche et d’accès aux supports](course-material-source-trail.md).
 6. [udem-curriculum-a26-audit.md](udem-curriculum-a26-audit.md) — [inventaire UdeM](data/udem-composition-a26.json).
 7. [mcgill-curriculum-2026-audit.md](mcgill-curriculum-2026-audit.md) — [inventaire McGill](data/mcgill-composition-2026.json).
 8. [berklee-curriculum-2026f-audit.md](berklee-curriculum-2026f-audit.md) — [grille Berklee](data/berklee-composition-2026f.json).
