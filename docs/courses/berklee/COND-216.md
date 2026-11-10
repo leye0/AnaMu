@@ -8,7 +8,7 @@ Variante de COND-211. Les étudiants jouent les parties instrumentales sur clavi
 
 ## Support pédagogique comparable
 
-Le plan M-SK 0991 du Boston Conservatory, A23, décrit une classe qui sert d’ensemble aux chefs étudiants, avec instruments ou clavier selon les participants. Ses activités portent aussi sur battues, subdivisions, départs, fins de geste et indépendance des mains. L’effectif et le déroulement exact de COND-216 restent propres à Boston College. [Support consultable](https://apolyakov.com/wp-content/uploads/2023/09/APu_Handout-Conducting-1-syllabus-2023.docx-1-1-1.pdf).
+Le plan M-SK 0991 du Boston Conservatory, A23, décrit une classe qui sert d’ensemble aux chefs étudiants, avec instruments ou clavier selon les participants. Ses activités portent aussi sur battues, subdivisions, départs, fins de geste et indépendance des mains. L’effectif et le déroulement exact de COND-216 restent propres au Berklee College of Music. [Support consultable](https://apolyakov.com/wp-content/uploads/2023/09/APu_Handout-Conducting-1-syllabus-2023.docx-1-1-1.pdf).
 
 ## Lacunes
 
