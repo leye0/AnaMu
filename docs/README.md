@@ -15,6 +15,7 @@ Un agent commence par [AGENTS.md](../AGENTS.md). **Objectif prioritaire : cartog
    [Deuxième grand lot UdeM : 30 cours](raw-batches/2026-11-10-udem-30-more-topic-outlines.md) ; [deuxième lot McGill : 16 cours](raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md) — descriptions officielles, variantes et limites.
    [Cartographie UdeM : 88 ensembles, ateliers et cours instrumentaux](raw-batches/2026-11-10-udem-88-ensembles-instruments.md) — limites des enseignements à programme variable.
    [Berklee Boston : lot de 68 cours composition/harmonie/production](raw-batches/2026-11-10-berklee-68-program-courses.md) — cartes de matière et liens du campus.
+   [Berklee Boston : 59 dernières entrées, vrais cours et familles à déplier](raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md) — aucune fausse équivalence entre un code générique et un syllabus.
    [Registre de progression cours par cours](data/course-material-progress.json)
    — 402 entrées, dont 13 syllabus documentés, 195 fiches partielles, 194 fiches au catalogue et cinq pools de choix à explorer.
    [Inventaire des options de majeure Berklee](berklee-major-elective-candidates.md).

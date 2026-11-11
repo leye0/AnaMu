@@ -2971,15 +2971,36 @@
       },
       "LMSC-xxx": {
         "status": "catalog_only",
-        "material_file": "docs/courses/berklee/LMSC-xxx.md"
+        "material_file": "docs/courses/berklee/LMSC-xxx.md",
+        "topic_outline": {
+          "state": "unresolved_pool",
+          "source_kind": "official_program_code_family",
+          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "LSOC-xxx": {
         "status": "catalog_only",
-        "material_file": "docs/courses/berklee/LSOC-xxx.md"
+        "material_file": "docs/courses/berklee/LSOC-xxx.md",
+        "topic_outline": {
+          "state": "unresolved_pool",
+          "source_kind": "official_program_code_family",
+          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "ASOC-xxx": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "unresolved_pool",
+          "source_kind": "official_program_code_family",
+          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MHIS-251": {
         "status": "partially_documented",
@@ -3005,35 +3026,91 @@
       },
       "Lxxx-xxx": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "unresolved_pool",
+          "source_kind": "official_program_code_family",
+          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "Axxx-xxx": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "unresolved_pool",
+          "source_kind": "official_program_code_family",
+          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "PIxx-111": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "unresolved_pool",
+          "source_kind": "official_program_code_family",
+          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "PIxx-112": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "unresolved_pool",
+          "source_kind": "official_program_code_family",
+          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "PIxx-211": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "unresolved_pool",
+          "source_kind": "official_program_code_family",
+          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "PIxx-212": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "unresolved_pool",
+          "source_kind": "official_program_code_family",
+          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "ILxx": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "unresolved_pool",
+          "source_kind": "official_program_code_family",
+          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "ENxx": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "unresolved_pool",
+          "source_kind": "official_program_code_family",
+          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "PW-111": {
         "status": "partially_documented",
@@ -3246,43 +3323,113 @@
       },
       "LENS-10x": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "unresolved_pool",
+          "source_kind": "official_program_code_family",
+          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "LHUM-400": {
         "status": "syllabus_documented",
-        "material_file": "docs/courses/berklee/LHUM-400.md"
+        "material_file": "docs/courses/berklee/LHUM-400.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/lhum-400",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "LENG-111": {
         "status": "syllabus_documented",
-        "material_file": "docs/courses/berklee/LENG-111.md"
+        "material_file": "docs/courses/berklee/LENG-111.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/leng-111",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "LENG-223": {
         "status": "syllabus_documented",
-        "material_file": "docs/courses/berklee/LENG-223.md"
+        "material_file": "docs/courses/berklee/LENG-223.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/leng-223",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "LHIS-xxx": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "unresolved_pool",
+          "source_kind": "official_program_code_family",
+          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "AHIS-xxx": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "unresolved_pool",
+          "source_kind": "official_program_code_family",
+          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "AFST-221": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/afst-221",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "LVIS-xxx": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "unresolved_pool",
+          "source_kind": "official_program_code_family",
+          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "LMAS-xxx": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "unresolved_pool",
+          "source_kind": "official_program_code_family",
+          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "AMAS-xxx": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "unresolved_pool",
+          "source_kind": "official_program_code_family",
+          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-103": {
         "status": "partially_documented",
@@ -3297,7 +3444,14 @@
       },
       "CM-225": {
         "status": "catalog_only",
-        "material_file": "docs/courses/berklee/CM-225.md"
+        "material_file": "docs/courses/berklee/CM-225.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cm-225",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-227": {
         "status": "partially_documented",
@@ -3323,7 +3477,14 @@
       },
       "CM-280": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cm-280",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "AR-201": {
         "status": "partially_documented",
@@ -3338,11 +3499,25 @@
       },
       "AR-228": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/ar-228",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "AR-323": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/ar-323",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "AR-331": {
         "status": "partially_documented",
@@ -3379,11 +3554,25 @@
       },
       "CM-373": {
         "status": "catalog_only",
-        "material_file": "docs/courses/berklee/CM-373.md"
+        "material_file": "docs/courses/berklee/CM-373.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cm-373",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-375": {
         "status": "catalog_only",
-        "material_file": "docs/courses/berklee/CM-375.md"
+        "material_file": "docs/courses/berklee/CM-375.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cm-375",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-385": {
         "status": "partially_documented",
@@ -3431,7 +3620,14 @@
       },
       "FILM-343": {
         "status": "catalog_only",
-        "material_file": "docs/courses/berklee/FILM-343.md"
+        "material_file": "docs/courses/berklee/FILM-343.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/film-343",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "FILM-351": {
         "status": "partially_documented",
@@ -3512,11 +3708,25 @@
       },
       "CM-318": {
         "status": "catalog_only",
-        "material_file": "docs/courses/berklee/CM-318.md"
+        "material_file": "docs/courses/berklee/CM-318.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cm-318",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-333": {
         "status": "catalog_only",
-        "material_file": "docs/courses/berklee/CM-333.md"
+        "material_file": "docs/courses/berklee/CM-333.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cm-333",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-341": {
         "status": "partially_documented",
@@ -3542,15 +3752,36 @@
       },
       "CM-343": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cm-343",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-351": {
         "status": "catalog_only",
-        "material_file": "docs/courses/berklee/CM-351.md"
+        "material_file": "docs/courses/berklee/CM-351.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cm-351",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-355": {
         "status": "catalog_only",
-        "material_file": "docs/courses/berklee/CM-355.md"
+        "material_file": "docs/courses/berklee/CM-355.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cm-355",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-357": {
         "status": "partially_documented",
@@ -3576,31 +3807,80 @@
       },
       "CM-360": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cm-360",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-361": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cm-361",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-371": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cm-371",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-399": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cm-399",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-470": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cm-470",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-495": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cm-495",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-499": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cm-499",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MHIS-201": {
         "status": "partially_documented",
@@ -3769,67 +4049,179 @@
       },
       "COND-221": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cond-221",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "COND-222": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cond-222",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "COND-311": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cond-311",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "COND-321": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cond-321",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "COND-322": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cond-322",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "COND-331": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cond-331",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "COND-332": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cond-332",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "COND-334": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cond-334",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "COND-341": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cond-341",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "COND-351": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cond-351",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "COND-355": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cond-355",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "COND-361": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cond-361",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "COND-391": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cond-391",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "COND-421": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cond-421",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "COND-498": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/cond-498",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MLAN-233": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/mlan-233",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MLAN-241": {
         "status": "catalog_only",
@@ -3954,11 +4346,25 @@
       },
       "MLAN-352": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/mlan-352",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MLAN-353": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/mlan-353",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MLAN-371": {
         "status": "catalog_only",
@@ -4006,7 +4412,14 @@
       },
       "MLAN-411": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_course_catalogue",
+          "source_url": "https://college.berklee.edu/courses/mlan-411",
+          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CP-311": {
         "status": "partially_documented",

@@ -64,6 +64,8 @@ La suite vise les cours restants, par lots, sans fiche littéraire ni tests.
 
 **Lot Berklee Boston après UdeM, 10 novembre 2026 :** [68 cours de composition, théorie, harmonie, contrepoint, production et musique de film](raw-batches/2026-11-10-berklee-68-program-courses.md) cartographiés depuis les notices du campus. **36 utilisables**, **32 partielles**, sans attribuer les syllabus Berklee Online au campus. Suivi global : **157 utilisables et 186 partiels**, soit **343/402**. Ne pas confondre cartographie et syllabus complet.
 
+**Fin du premier ratissage des 402 entrées (10 novembre 2026) :** [59 dernières entrées Berklee](raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md). **29 cartes exploitables, 13 partielles, 17 codes génériques qui ne désignent aucun cours réel unique.** Total désormais **186 descriptions thématiques exploitables, 199 partielles, 17 familles à déplier** ; le suivi 402/402 est **un inventaire de couverture 1A**, pas la clôture de la phase ni l'assurance que 402 vrais syllabus sont documentés. Les prochaines cibles sont les 199 contenus trop généraux et les 17 catégories à convertir en cours précis, puis seulement la documentation académique sujet par sujet.
+
 ## Mode d'emploi et définition de « terminé »
 
 **Aucune case ci-dessous n'est actuellement validée.** Des catalogues
