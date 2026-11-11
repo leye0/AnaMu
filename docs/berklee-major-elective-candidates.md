@@ -19,13 +19,13 @@ Les liens de catalogue mènent à la page source contenant le code, le titre et 
 | CM-318 | [New Music Composition and Performance Workshop](https://college.berklee.edu/courses?field_course_number_value=cm&page=1&title=) | Recensé · catalogue |
 | CM-320 | [From Brubeck to Tigran: Complex Rhythm in Contemporary Composition](https://college.berklee.edu/courses?field_course_number_value=cm&page=1&title=) | Déjà recensé |
 | CM-333 | [Composing New Music for Dance](https://college.berklee.edu/courses?field_course_number_value=cm&page=1&title=) | Recensé · catalogue |
-| CM-341 | [Scoring for Strings](https://college.berklee.edu/courses?field_course_number_value=cm&page=1&title=) | Recensé · catalogue |
-| CM-342 | [Digital Score Preparation for Composers](https://college.berklee.edu/courses?field_course_number_value=cm&page=1&title=) | Recensé · catalogue |
+| CM-341 | [Scoring for Strings](https://college.berklee.edu/courses/cm-341) | [Matière documentée](courses/berklee/CM-341.md) |
+| CM-342 | [Digital Score Preparation for Composers](https://college.berklee.edu/courses/cm-342) | [Matière documentée](courses/berklee/CM-342.md) |
 | CM-343 | [Writing for Classical Percussion](https://college.berklee.edu/courses?field_course_number_value=cm&page=1&title=) | Recensé · catalogue |
 | CM-351 | [Choral Composition](https://college.berklee.edu/courses?field_course_number_value=cm&page=1&title=) | Recensé · catalogue |
 | CM-355 | [Principles and Techniques of Writing for the Voice](https://college.berklee.edu/courses?field_course_number_value=cm&page=1&title=) | Recensé · catalogue |
-| CM-357 | [Introduction to Electroacoustic Music for Composers](https://college.berklee.edu/courses?field_course_number_value=cm&page=1&title=) | Recensé · catalogue |
-| CM-358 | [Composing Electroacoustic Music](https://college.berklee.edu/courses?field_course_number_value=cm&page=1&title=) | Recensé · catalogue |
+| CM-357 | [Introduction to Electroacoustic Music for Composers](https://college.berklee.edu/courses/cm-357) | [Matière documentée](courses/berklee/CM-357.md) |
+| CM-358 | [Composing Electroacoustic Music](https://college.berklee.edu/courses/cm-358) | [Matière documentée](courses/berklee/CM-358.md) |
 | CM-360 | [Special Topics in Composition and Conducting 2](https://college.berklee.edu/courses?field_course_number_value=cm&page=2&title=) | Recensé · catalogue |
 | CM-361 | [World Music Resources in Composition](https://college.berklee.edu/courses?field_course_number_value=cm&page=2&title=) | Recensé · catalogue |
 | CM-371 | [Jazz Composition 1](https://college.berklee.edu/courses?field_course_number_value=cm&page=2&title=) | Recensé · catalogue |
@@ -112,4 +112,4 @@ Les liens de catalogue mènent à la page source contenant le code, le titre et 
 | CP-311 | [Advanced Counterpoint](https://college.berklee.edu/courses/cp-311) | [Matière documentée](courses/berklee/CP-311.md) |
 | CP-350 | [20th- and 21st-Century Counterpoint](https://college.berklee.edu/courses/cp-350) | [Matière documentée](courses/berklee/CP-350.md) |
 
-Total du relevé : **83 codes, désormais tous inscrits au registre** (13 antérieurs, 70 intégrés le 11 novembre 2026). Parmi les 70 ajouts, **9 disposent d'une note avec matière pédagogique externe identifiée et 61 restent au stade « catalogue seulement »**. Les notices CM-251/252 indiquent **« Electable By: MUED majors »** et MHIS-201 indique **« All except COMP and MUED majors »** : ces trois cours sont des *candidats du catalogue* et ne doivent pas être présumés admissibles à la majeure Composition. Les choix alternatifs du tronc demeurent visibles pour vérifier leur admissibilité lorsqu’ils n’ont pas été suivis. Pour CP, le catalogue filtré n'a pas fourni une liste complète exploitable ; ce relevé n'est donc **pas une preuve d'exhaustivité des options CP**. Les huit options hors familles et les réserves de crédits restent à vérifier.
+Total du relevé : **83 codes, désormais tous inscrits au registre** (13 antérieurs, 70 intégrés le 11 novembre 2026). Parmi les 70 ajouts, **13 disposent d'une note avec matière pédagogique externe identifiée et 57 restent au stade « catalogue seulement »**. Les notices CM-251/252 indiquent **« Electable By: MUED majors »** et MHIS-201 indique **« All except COMP and MUED majors »** : ces trois cours sont des *candidats du catalogue* et ne doivent pas être présumés admissibles à la majeure Composition. Les choix alternatifs du tronc demeurent visibles pour vérifier leur admissibilité lorsqu’ils n’ont pas été suivis. Pour CP, le catalogue filtré n'a pas fourni une liste complète exploitable ; ce relevé n'est donc **pas une preuve d'exhaustivité des options CP**. Les huit options hors familles et les réserves de crédits restent à vérifier.
