@@ -10,3 +10,7 @@ B. Mus. Composition McGill, édition 2026. Option de théorie. Sources publiques
 ## Lacunes et reprise
 
 Le document est un exercice de classement aux cycles supérieurs. Vérifier le plan de ce cours et les chapitres effectivement prescrits.
+
+## Syllabus comparateur (10 novembre 2026)
+
+Le [plan complet de progression publique d'OCOMP-250](../berklee-online/OCOMP-250.md) décrit une méthode tonale/interstylistique avec espèces, canons, ostinatos et invention de Bach. **Il ne représente pas le cours MUTH 202**, qui annonce une pratique modale Renaissance : le risque de confusion des systèmes contrapuntiques est explicitement conservé. Le plan McGill et son corpus restent à obtenir.

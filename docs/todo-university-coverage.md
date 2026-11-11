@@ -20,6 +20,8 @@ La collecte du 11 novembre 2026 complète [trois syllabus Berklee Online en comp
 
 La collecte du 10 novembre 2026 ajoute **16 fiches partielles** pour des cours de Berklee Boston, reliées à **12 plans pédagogiques publics distincts** de Berklee Online. Ces plans parallèles complètent les preuves déjà recensées. Les [pistes examinées et les lacunes](course-material-source-trail.md) indiquent où reprendre la collecte UdeM et McGill et détaillent les huit options de majeure explicitement nommées par Berklee.
 
+La collecte du 10 novembre 2026 a également détaillé [quatre cours de contrepoint et formation auditive Berklee Online](berklee-online-counterpoint-eartraining-source-trail.md) : **48 leçons et exercices publiquement décrits**, dont les manuels prescrits pour OCOMP-250 et OEART-119/120 ; les [options Boston CM-225](courses/berklee/CM-225.md) et [CM-318](courses/berklee/CM-318.md) ont une fiche de recherche, sans syllabus trouvé. Aucun changement de statut des 402 entrées : leurs plans particuliers manquent toujours.
+
 **VERROU DE PHASE : seuls les travaux de collecte A01–A15, A18 et de revue
 de leur couverture sont actifs.** La réconciliation de concepts A16–A17,
 les capacités analytiques B–K et la composition L ne commencent qu'avec

@@ -10,3 +10,7 @@ B. Mus. Composition McGill, édition 2026. Option de théorie. Sources publiques
 ## Lacunes et reprise
 
 Le document est un exercice de classement aux cycles supérieurs. Vérifier le plan de ce cours et les chapitres effectivement prescrits.
+
+## Syllabus comparateur (10 novembre 2026)
+
+Le [cours Berklee Online OCOMP-250](../berklee-online/OCOMP-250.md) organise l'imitation, les canons et inventions de Bach. Il ne fixe **ni exposition de fugue ni programme de MUTH 204** ; le sujet de fugue dans le document McGill provient d'un examen de placement supérieur et ne doit pas être attribué comme devoir de ce cours.
