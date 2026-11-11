@@ -30,6 +30,30 @@ enregistrer les lacunes, puis passer au cours suivant. C'est un **travail
 documentaire approfondi**, sans développement expérimental, benchmark
 algorithmique ni test musical à cette étape.
 
+## INTERDICTION EXPLICITE — tests et maintenance logicielle pendant la collecte
+
+**Consigne prioritaire et non négociable pour tous les agents : NE PAS FAIRE DE
+TESTS UNITAIRES pendant cette phase documentaire.** Il s'agit de recueillir
+les connaissances enseignées, **pas d'écrire ou d'entretenir de la logique
+logicielle**.
+
+- **Ne pas créer, écrire, modifier, exécuter ou réparer de tests unitaires**,
+  d'intégration, de non-régression ou de suites automatisées.
+- **Ne pas modifier** les fichiers sous `tests/`, les scripts de validation,
+  la configuration de CI ou les workflows GitHub Actions pour satisfaire des
+  tests ou faire passer un pipeline au vert.
+- **Ne pas lancer de tests ni entreprendre de débogage de CI**, même lorsqu'un
+  contrôle existant échoue à cause du registre documentaire qui s'agrandit.
+  Une CI rouge n'est **pas** un motif pour interrompre l'acquisition des cours.
+- Le travail attendu est uniquement : **chercher des sources universitaires,
+  lire les syllabus, extraire les chapitres, exercices, lectures et exemples,
+  puis actualiser les fiches et le registre**. Vérifier manuellement les
+  informations et les références utilisées, sans transformer cette
+  vérification documentaire en développement de tests.
+- Une exception exige une **demande explicite de Léon** visant spécifiquement
+  des tests ou de la maintenance logicielle. Un simple « continue » ou
+  « vérifie » **n'autorise pas** les tests.
+
 ## Ordre de lecture obligatoire
 
 1. [README.md](README.md) — mission, état réel, commandes.
@@ -93,9 +117,9 @@ algorithmique ni test musical à cette étape.
 4. Répertorier la matière **sans inventer de syllabus** et sans prétendre
    que la présence d'un intitulé de cours constitue une connaissance acquise.
 5. Créer/mettre à jour la fiche de matière, son état dans le registre et
-   le TODO. **Aucun test algorithmique n'est demandé.** Le contrôle
-   documentaire `python scripts/validate_project_docs.py` reste facultatif
-   en local et est vérifié automatiquement par la CI.
+   le TODO. **Ne pas écrire, modifier ou exécuter de tests et ne pas intervenir
+   sur la CI** : voir l'interdiction explicite ci-dessus. La vérification
+   des sources et la cohérence des fiches se font directement par lecture.
 6. Rapporter séparément **cours recensés / contenus obtenus / contenus
    vérifiés / contenus indisponibles** et les prochains cours à traiter.
 7. **Poursuivre de cours en cours tant que des sources accessibles restent
