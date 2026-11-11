@@ -319,6 +319,14 @@
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Cours année 2 automne dans le cheminement 2026, pas de progression réelle de section.",
             "limits": "Le plan de cheminement ne fournit pas les séances, œuvres, lectures ou exercices du cours; statut partiel inchangé."
+          },
+          "exact_section_posting_2026_11_11": {
+            "document": "docs/raw-batches/2026-11-11-udem-2025-26-exact-section-postings-music.md",
+            "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/Offre_d_emploi/H100U_Affichage_10.05_A2026_cdec.pdf",
+            "source_kind": "official_section_staffing_posting_not_syllabus",
+            "reviewed_on": "2026-11-11",
+            "evidence_scope": "Affichage A26: section A, 45 h prévues, vendredi 09h–12h, qualification de composition électroacoustique et expérience en création; aucun syllabus ni logiciel attesté.",
+            "limits": "Affichage prospectif de poste/groupe avec horaire, sans preuve que séance, œuvre ou exercice exact a été enseigné; aucune promotion."
           }
         }
       },
@@ -404,7 +412,15 @@
           "source_kind": "official_program_and_existing_course_notes",
           "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
           "document": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
-          "reviewed_on": "2026-11-10"
+          "reviewed_on": "2026-11-10",
+          "exact_section_posting_2026_11_11": {
+            "document": "docs/raw-batches/2026-11-11-udem-2025-26-exact-section-postings-music.md",
+            "source_url": "https://musique.umontreal.ca/fileadmin/musique/H0100U_Affichage_10.05_Hiver_2025_cdec__modifi%C3%A9_.pdf",
+            "source_kind": "official_section_staffing_posting_not_syllabus",
+            "reviewed_on": "2026-11-11",
+            "evidence_scope": "Affichage H25: qualification du professeur en Csound et DSP et synthèse musicale, sans affirmer que Csound est imposé dans chaque section.",
+            "limits": "Affichage prospectif de poste/groupe avec horaire, sans preuve que séance, œuvre ou exercice exact a été enseigné; aucune promotion."
+          }
         }
       },
       "MUS 3101X": {
@@ -1296,7 +1312,15 @@
           "refinement_caveat": "Author's model explicitly associated with these course codes; no exact division of chapters between semesters, and no A26/H27 syllabus obtained",
           "p0_primary_review_document": "docs/raw-batches/2026-11-11-p0-12-courses-content-and-evidence-audit.md",
           "p0_primary_reviewed_on": "2026-11-11",
-          "p0_evidence_hurdle": "Répartition des 11 axes entre les deux volets, œuvres et évaluations par section"
+          "p0_evidence_hurdle": "Répartition des 11 axes entre les deux volets, œuvres et évaluations par section",
+          "exact_section_posting_2026_11_11": {
+            "document": "docs/raw-batches/2026-11-11-udem-2025-26-exact-section-postings-music.md",
+            "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/Offre_d_emploi/H100U_Affichage_10.05_A2026_cdec.pdf",
+            "source_kind": "official_section_staffing_posting_not_syllabus",
+            "reviewed_on": "2026-11-11",
+            "evidence_scope": "Affichage A26: 45 h prévues, maîtrise du modèle Beaudet Bach–Wagner requise; 12041/12042 ne partagent pas nécessairement les mêmes chapitres.",
+            "limits": "Affichage prospectif de poste/groupe avec horaire, sans preuve que séance, œuvre ou exercice exact a été enseigné; aucune promotion."
+          }
         }
       },
       "MTE 12042": {
@@ -1324,7 +1348,15 @@
           "refinement_caveat": "Author's model explicitly associated with these course codes; no exact division of chapters between semesters, and no A26/H27 syllabus obtained",
           "p0_primary_review_document": "docs/raw-batches/2026-11-11-p0-12-courses-content-and-evidence-audit.md",
           "p0_primary_reviewed_on": "2026-11-11",
-          "p0_evidence_hurdle": "Calendrier et chapitres de deuxième semestre inconnus"
+          "p0_evidence_hurdle": "Calendrier et chapitres de deuxième semestre inconnus",
+          "exact_section_posting_2026_11_11": {
+            "document": "docs/raw-batches/2026-11-11-udem-2025-26-exact-section-postings-music.md",
+            "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/Offre_d_emploi/H100U_Affichage_10.05_H2026_cdec__V2_.pdf",
+            "source_kind": "official_section_staffing_posting_not_syllabus",
+            "reviewed_on": "2026-11-11",
+            "evidence_scope": "Affichage H26: 45 h prévues, maîtrise du modèle Beaudet Bach–Wagner requise; répartition de la matière non garantie.",
+            "limits": "Affichage prospectif de poste/groupe avec horaire, sans preuve que séance, œuvre ou exercice exact a été enseigné; aucune promotion."
+          }
         }
       },
       "MTE 1315": {
@@ -1483,7 +1515,15 @@
           "source_kind": "official_program_and_existing_course_notes",
           "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
           "document": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
-          "reviewed_on": "2026-11-10"
+          "reviewed_on": "2026-11-10",
+          "exact_section_posting_2026_11_11": {
+            "document": "docs/raw-batches/2026-11-11-udem-2025-26-exact-section-postings-music.md",
+            "source_url": "https://musique.umontreal.ca/fileadmin/musique/H0100U_Affichage_10.05_Hiver_2025_cdec__modifi%C3%A9_.pdf",
+            "source_kind": "official_section_staffing_posting_not_syllabus",
+            "reviewed_on": "2026-11-11",
+            "evidence_scope": "Affichage H25: qualification du professeur en typologie-morphologie schaefférienne et écriture électroacoustique; compétence d'enseignant, pas plan hebdomadaire.",
+            "limits": "Affichage prospectif de poste/groupe avec horaire, sans preuve que séance, œuvre ou exercice exact a été enseigné; aucune promotion."
+          }
         }
       },
       "MUS 1330": {
@@ -2121,7 +2161,15 @@
           "next_research_priority": "P2",
           "next_research_kind": "ensemble_variable",
           "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
-          "next_research_reviewed_on": "2026-11-11"
+          "next_research_reviewed_on": "2026-11-11",
+          "exact_section_posting_2026_11_11": {
+            "document": "docs/raw-batches/2026-11-11-udem-2025-26-exact-section-postings-music.md",
+            "source_url": "https://musique.umontreal.ca/fileadmin/musique/H0100U_Affichage_10.05_Hiver_2025_cdec__modifi%C3%A9_.pdf",
+            "source_kind": "official_section_staffing_posting_not_syllabus",
+            "reviewed_on": "2026-11-11",
+            "evidence_scope": "Affichage H25: section A, 15 h prévues, enseignant pianiste, expérience de deux pianos souhaitable; ce n'est pas preuve des pièces jouées.",
+            "limits": "Affichage prospectif de poste/groupe avec horaire, sans preuve que séance, œuvre ou exercice exact a été enseigné; aucune promotion."
+          }
         }
       },
       "MUE 1192": {
@@ -2445,7 +2493,15 @@
           "next_research_priority": "P2",
           "next_research_kind": "ensemble_variable",
           "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
-          "next_research_reviewed_on": "2026-11-11"
+          "next_research_reviewed_on": "2026-11-11",
+          "exact_section_posting_2026_11_11": {
+            "document": "docs/raw-batches/2026-11-11-udem-2025-26-exact-section-postings-music.md",
+            "source_url": "https://musique.umontreal.ca/fileadmin/musique/H0100U_Affichage_10.05_Hiver_2025_cdec__modifi%C3%A9_.pdf",
+            "source_kind": "official_section_staffing_posting_not_syllabus",
+            "reviewed_on": "2026-11-11",
+            "evidence_scope": "Affichage H25: section A, ensemble d'instruments à vent, 37h30 prévues, qualification de chef d'ensemble; instruments mentionnés comme qualifications, pas effectif garanti.",
+            "limits": "Affichage prospectif de poste/groupe avec horaire, sans preuve que séance, œuvre ou exercice exact a été enseigné; aucune promotion."
+          }
         }
       },
       "MUE 1252": {
@@ -2637,7 +2693,15 @@
           "next_research_priority": "P2",
           "next_research_kind": "ensemble_variable",
           "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
-          "next_research_reviewed_on": "2026-11-11"
+          "next_research_reviewed_on": "2026-11-11",
+          "exact_section_posting_2026_11_11": {
+            "document": "docs/raw-batches/2026-11-11-udem-2025-26-exact-section-postings-music.md",
+            "source_url": "https://musique.umontreal.ca/fileadmin/musique/H0100U_Affichage_10.05_Hiver_2025_cdec__modifi%C3%A9_.pdf",
+            "source_kind": "official_section_staffing_posting_not_syllabus",
+            "reviewed_on": "2026-11-11",
+            "evidence_scope": "Affichage H25: section A de quatuor de saxophones, 15 h prévues, enseignant saxophoniste souhaité, aucune partition répertoriée.",
+            "limits": "Affichage prospectif de poste/groupe avec horaire, sans preuve que séance, œuvre ou exercice exact a été enseigné; aucune promotion."
+          }
         }
       },
       "MUE 1281": {
@@ -2979,7 +3043,15 @@
           "next_research_priority": "P2",
           "next_research_kind": "ensemble_variable",
           "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
-          "next_research_reviewed_on": "2026-11-11"
+          "next_research_reviewed_on": "2026-11-11",
+          "exact_section_posting_2026_11_11": {
+            "document": "docs/raw-batches/2026-11-11-udem-2025-26-exact-section-postings-music.md",
+            "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/Offre_d_emploi/H100U_Affichage_10.05_H2026_cdec__V2_.pdf",
+            "source_kind": "official_section_staffing_posting_not_syllabus",
+            "reviewed_on": "2026-11-11",
+            "evidence_scope": "Affichages H25/H26, atelier d'improvisation section A; 15 h H25 versus 22h30 H26, technique/genre non précisés.",
+            "limits": "Affichage prospectif de poste/groupe avec horaire, sans preuve que séance, œuvre ou exercice exact a été enseigné; aucune promotion."
+          }
         }
       },
       "MUE 1492": {
