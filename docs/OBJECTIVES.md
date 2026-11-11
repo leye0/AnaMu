@@ -28,6 +28,13 @@ Le champ `topic_outline` dans le registre décrit désormais les deux
 séparément. Une description riche au catalogue peut être utilisable en phase
 1A, sans devenir artificiellement un syllabus.
 
+**Mesure d'état au 10 novembre 2026 :** 402 entrées auditées
+superficiellement, 186 cartes de sujets utilisables, 199 incomplètes,
+17 catégories de choix à déplier. Il reste à combler les descriptions
+thématiques insuffisantes. [État détaillé](topic-outline-coverage-status.md).
+Ne jamais conclure « tous les cours décrits en détail » du seul indicateur
+« toutes les entrées examinées ».
+
 ## Phase 1B — documentation académique par SUJET (DIFFÉRÉE)
 
 Quand les contenus des ~402 cours auront été cartographiés, rechercher dans

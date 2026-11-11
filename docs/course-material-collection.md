@@ -56,6 +56,17 @@ déplier : ce sont des *points de départ*, pas une liste close.
 
 Une source inaccessible reste **inconnue**. Ne jamais inférer un syllabus du seul titre du cours ni confondre une liste de manuels avec les séances enseignées.
 
+### Statut `unresolved_pool` — catégorie, pas cours réel
+
+Les 17 codes génériques encore inscrits dans les 402 entrées
+(`PIxx-111`, `ENxx`, `LMSC-xxx`, etc.) doivent être **dépliés en
+cours concrets** ou laissés comme branches de choix sans carte de matière.
+Ils ne sauraient recevoir le statut `usable_first_pass` par simple
+description de leur catégorie disciplinaire. [Tableau de couverture
+actuel](topic-outline-coverage-status.md) : 186 cartes exploitables,
+199 partielles, 17 catégories. **La cible reste une description détaillée
+des sujets de cours**, pas l'extraction de copies d'examens ou de barèmes.
+
 ## Ingestion en lots plutôt que fiches longues pendant la recherche
 
 **Nouvelle règle de cadence :** traiter 10 à 30 cours/sources par passe dans

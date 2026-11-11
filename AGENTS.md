@@ -68,6 +68,23 @@ de chapitres, lectures, devoirs et barèmes exacts avant de considérer la
 provenance, n'autorise ni code ni tests, et ne prétend pas qu'un catalogue
 détaillé soit un syllabus officiel.
 
+### Après le ratissage initial des 402 entrées (10 novembre 2026)
+
+**Le suivi `topic_outline` couvre désormais toutes les entrées**, mais
+cela **NE ferme PAS** la phase 1A : **186 cartes utilisables**, **199
+partielles** et **17 `unresolved_pool`**, familles de choix Berklee
+qui ne représentent aucun cours unique. L'inventaire contient donc
+**385 codes concrets + 17 placeholders**, ainsi que cinq pools
+administratifs distincts à explorer. Se reporter à
+[docs/topic-outline-coverage-status.md](docs/topic-outline-coverage-status.md).
+
+**Prochaine action sans pause :** enrichir en lots les 199 descriptions
+partielles sur leurs véritables sujets et déplier les 17 codes/familles ;
+pour ensembles et cours privés, documenter variantes par famille instrumentale
+sans inventer de syllabus universel. Le comptage « 402/402 passé en revue »
+ne signifie pas « 402 syllabus obtenus » ni « 402 cours terminés ».
+Conserver `unresolved_pool` distinct de `partial` dans toute statistique.
+
 ## INTERDICTION EXPLICITE — tests et maintenance logicielle pendant la collecte
 
 **Consigne prioritaire et non négociable pour tous les agents : NE PAS FAIRE DE
