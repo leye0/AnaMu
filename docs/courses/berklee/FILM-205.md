@@ -13,3 +13,7 @@ Travaux sur les gabarits de session, les bibliothèques orchestrales, les maquet
 ## Lacunes
 
 Le programme en ligne a son propre syllabus. Les séances, lectures, consignes et barèmes du cours de Boston restent à obtenir.
+
+## Renvoi précis vers le syllabus en ligne (édition consultée le 10 novembre 2026)
+
+La [fiche OCWPR-300](../berklee-online/OCWPR-300.md) détaille **12 leçons avec tâches repérables**, dont gabarit MIDI (2), maquette orchestrale (4), timecode et points de synchronisation (5), sonorités hybrides (6), cue d'action programmé (7), mixage compatible avec le dialogue (10) et livraison en stems (12). Les familles de matière sont voisines de la notice officielle FILM-205 ; **aucune de ces semaines ni consignes n'est attribuée au cours Boston**. Le syllabus Boston de FILM-205 reste à chercher auprès de sa section.

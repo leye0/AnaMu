@@ -13,6 +13,7 @@ Un agent commence par [AGENTS.md](../AGENTS.md). **La tâche active consiste à 
    — 402 entrées, dont 13 syllabus documentés, 193 fiches partielles, 196 fiches au catalogue et cinq pools de choix à explorer.
    [Inventaire des options de majeure Berklee](berklee-major-elective-candidates.md).
    [Pistes de recherche et d’accès aux supports](course-material-source-trail.md).
+   [Berklee Online — musique à l'image, sources parallèles](berklee-online-scoring-source-trail.md) : 3 fiches de syllabus public de 12 leçons, **hors du décompte des cours Boston**.
 6. [udem-curriculum-a26-audit.md](udem-curriculum-a26-audit.md) — [inventaire UdeM](data/udem-composition-a26.json).
 7. [mcgill-curriculum-2026-audit.md](mcgill-curriculum-2026-audit.md) — [inventaire McGill](data/mcgill-composition-2026.json).
 8. [berklee-curriculum-2026f-audit.md](berklee-curriculum-2026f-audit.md) — [grille Berklee](data/berklee-composition-2026f.json).

@@ -11,3 +11,7 @@ Berklee College of Music, candidat de spécialité voisine dans l’inventaire 2
 ## Limites et reprise
 
 Le niveau introductif et le projet orchestral ne prouvent pas la progression avancée de FILM-407. Chercher le film, les scènes, les thèmes attendus, le retour du réalisateur et le barème des projets dirigés. Les supports Berklee Online concernent des cours distincts. Les plans sont publics, mais ni leçons intégrales ni corrections ne sont obtenues. Résumé original et liens ; aucune redistribution des extraits de films, partitions ou enregistrements.
+
+## Second rapprochement documentaire : continuité thématique dans un cours distinct
+
+La [fiche de Berklee Online OCOMP-491](../berklee-online/OCOMP-491.md) expose 12 leçons, dont les leçons **9–12** sur les métiers de la création audiovisuelle, la forme longue et les thèmes repris dans *Atlantis* et *Back to the Future*. Le parallèle éclaire des pistes pour chercher les travaux de film entier de FILM-407, **sans remplacer** ses exigences de Boston, ses projets avec instrumentistes ni ses évaluations. Manuel *Music Composition for Film and Television* (Lalo Schifrin, 2011) attribué au cours en ligne, pas à FILM-407.
