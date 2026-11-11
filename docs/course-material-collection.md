@@ -14,7 +14,7 @@ nommé et chaque option encore ouverte doit avoir une fiche indiquant :
 nommée d'après le code du cours (espaces remplacés par des traits d'union).
 Le registre fait autorité pour le statut et indique le chemin dans le champ
 **material_file** dès que la première fiche sourcée existe. Il contient
-actuellement **332 codes de cours candidats** et **5 pools de choix** à
+actuellement **402 codes de cours candidats** et **5 pools de choix** à
 déplier : ce sont des *points de départ*, pas une liste close.
 
 | Champ | Information indispensable |

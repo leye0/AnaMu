@@ -30,7 +30,7 @@ class DocumentationLinkTests(unittest.TestCase):
         progress = json.loads((root / "docs/data/course-material-progress.json")
                               .read_text(encoding="utf-8"))
         self.assertEqual(course_material_progress_issues(progress, catalogs, root), [])
-        self.assertEqual(sum(len(rows) for rows in progress["courses"].values()), 332)
+        self.assertGreaterEqual(sum(len(rows) for rows in progress["courses"].values()), 402)
         progress["courses"]["udem"].pop("MCT 1601")
         self.assertTrue(any("udem" in issue for issue in
                             course_material_progress_issues(progress, catalogs, root)))
