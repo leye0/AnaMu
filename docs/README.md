@@ -17,6 +17,7 @@ Un agent commence par [AGENTS.md](../AGENTS.md). **Objectif prioritaire : cartog
    [Berklee Boston : lot de 68 cours composition/harmonie/production](raw-batches/2026-11-10-berklee-68-program-courses.md) — cartes de matière et liens du campus.
    [Berklee Boston : 59 dernières entrées, vrais cours et familles à déplier](raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md) — aucune fausse équivalence entre un code générique et un syllabus.
    [Bilan 1A du ratissage des 402 entrées](topic-outline-coverage-status.md) : 186 exploitables, 199 à préciser, 17 catégories de cours à déplier.
+   [Berklee — 17 cartes relues sur notices détaillées](raw-batches/2026-11-10-berklee-17-verified-refinements.md), dont 14 enrichies jusqu'au seuil exploitable.
    [Registre de progression cours par cours](data/course-material-progress.json)
    — 402 entrées, dont 13 syllabus documentés, 195 fiches partielles, 194 fiches au catalogue et cinq pools de choix à explorer.
    [Inventaire des options de majeure Berklee](berklee-major-elective-candidates.md).

@@ -66,6 +66,8 @@ La suite vise les cours restants, par lots, sans fiche littéraire ni tests.
 
 **Fin du premier ratissage des 402 entrées (10 novembre 2026) :** [59 dernières entrées Berklee](raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md). **29 cartes exploitables, 13 partielles, 17 codes génériques qui ne désignent aucun cours réel unique.** Total désormais **186 descriptions thématiques exploitables, 199 partielles, 17 familles à déplier** ; le suivi 402/402 est **un inventaire de couverture 1A**, pas la clôture de la phase ni l'assurance que 402 vrais syllabus sont documentés. Les prochaines cibles sont les 199 contenus trop généraux et les 17 catégories à convertir en cours précis, puis seulement la documentation académique sujet par sujet.
 
+**Amélioration 1A, 10 novembre 2026 :** [17 cartes Berklee vérifiées directement](raw-batches/2026-11-10-berklee-17-verified-refinements.md), **14 promotions** `partial → usable_first_pass`, trois autres gardées partielles faute de détail. Le registre des syllabus reste inchangé ; le compteur des cartes est maintenant **200 / 185 / 17**.
+
 ## Mode d'emploi et définition de « terminé »
 
 **Aucune case ci-dessous n'est actuellement validée.** Des catalogues

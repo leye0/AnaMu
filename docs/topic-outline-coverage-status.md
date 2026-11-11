@@ -6,14 +6,14 @@
 |---|---:|---:|---:|---:|
 | UdeM | 190 | 70 | 120 | 0 |
 | McGill | 58 | 34 | 24 | 0 |
-| Berklee Boston | 154 | 82 | 55 | 17 |
-| **TOTAL** | **402** | **186** | **199** | **17** |
+| Berklee Boston | 154 | 96 | 41 | 17 |
+| **TOTAL** | **402** | **200** | **185** | **17** |
 
 ## Attention : 402 entrées ne signifient pas 402 cours distincts
 
 - **17 codes Berklee** sont des *familles de choix* (`LMSC-xxx`, `PIxx-111`, `ENxx`, etc.). Ils n'ont pas de syllabus unique ; les cours concrets choisis parmi eux restent à déplier. Il y a donc au plus **385 codes propres** dans les 402 entrées actuelles, sans préjuger du nombre de cours qui découleront des choix. Le registre contient également **5 pools de choix distincts** à examiner.
-- **186 cartes utilisables** signifient une description initiale assez détaillée des **sujets** pour guider une recherche bibliographique future, et **non** la maîtrise de ces sujets, la récupération d'un vrai syllabus ou la preuve d'exhaustivité.
-- **199 cartes partielles** manquent de précision. Beaucoup sont des leçons privées ou ensembles de pratiques à programme variable, des séminaires de section variable ou des notices à peine plus riches qu'un titre. L'enjeu n'est pas d'obtenir chaque devoir : il est d'obtenir suffisamment de **sujets réels** pour la cartographie.
+- **200 cartes utilisables** signifient une description initiale assez détaillée des **sujets** pour guider une recherche bibliographique future, et **non** la maîtrise de ces sujets, la récupération d'un vrai syllabus ou la preuve d'exhaustivité.
+- **185 cartes partielles** manquent de précision. Beaucoup sont des leçons privées ou ensembles de pratiques à programme variable, des séminaires de section variable ou des notices à peine plus riches qu'un titre. L'enjeu n'est pas d'obtenir chaque devoir : il est d'obtenir suffisamment de **sujets réels** pour la cartographie.
 - **Les anciens statuts** `catalog_only` / `partially_documented` / `syllabus_documented` restent indépendants de la couverture thématique 1A et n'ont pas été artificiellement modifiés.
 
 ## Lots créés pendant cette reprise
