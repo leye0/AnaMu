@@ -22,6 +22,8 @@ La collecte du 10 novembre 2026 ajoute **16 fiches partielles** pour des cours d
 
 La collecte du 10 novembre 2026 a également détaillé [quatre cours de contrepoint et formation auditive Berklee Online](berklee-online-counterpoint-eartraining-source-trail.md) : **48 leçons et exercices publiquement décrits**, dont les manuels prescrits pour OCOMP-250 et OEART-119/120 ; les [options Boston CM-225](courses/berklee/CM-225.md) et [CM-318](courses/berklee/CM-318.md) ont une fiche de recherche, sans syllabus trouvé. Aucun changement de statut des 402 entrées : leurs plans particuliers manquent toujours.
 
+Le 10 novembre 2026, la collecte approfondie des sources d'écriture sonore a ajouté [MIT OCW 21M.361, printemps 2008](courses/mit/21M-361.md), cours **extérieur aux trois programmes suivis**, avec **treize énoncés d'exercices réels**, cinq modules, tâches de montage/composition/convolution/feedback et barème de session. Le relevé identifie séparément [Berklee CM-333](courses/berklee/CM-333.md) et [McGill MUTH 539](courses/mcgill/MUTH-539.md) au seul stade **catalogue**, avec lacunes de syllabus explicites. Aucun chiffre de couverture n'est promu par des cours voisins.
+
 **VERROU DE PHASE : seuls les travaux de collecte A01–A15, A18 et de revue
 de leur couverture sont actifs.** La réconciliation de concepts A16–A17,
 les capacités analytiques B–K et la composition L ne commencent qu'avec

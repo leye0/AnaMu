@@ -13,6 +13,7 @@ Un agent commence par [AGENTS.md](../AGENTS.md). **La tâche active consiste à 
    — 402 entrées, dont 13 syllabus documentés, 195 fiches partielles, 194 fiches au catalogue et cinq pools de choix à explorer.
    [Inventaire des options de majeure Berklee](berklee-major-elective-candidates.md).
    [Pistes de recherche et d’accès aux supports](course-material-source-trail.md).
+   [MIT OCW 21M.361 — 13 consignes de composition électroacoustique](courses/mit/21M-361.md) : syllabus, devoirs et pondération réels de 2008, uniquement comme matière universitaire complémentaire.
    [Berklee Online — musique à l'image, orchestration et voix](berklee-online-scoring-source-trail.md) : 6 syllabus publics structurés sur 12 leçons, **hors du décompte des cours Boston**.
    [Berklee Online — contrepoint et formation auditive](berklee-online-counterpoint-eartraining-source-trail.md) : quatre syllabus publics et 48 leçons structurées, distincts des niveaux UdeM/McGill.
    [Berklee Online — créativité et composition contemporaine](berklee-online-contemporary-source-trail.md) : 3 autres syllabus de 12 leçons ; recoupements vérifiables avec CM-103, CM-311/312 et MTE 1403/1404, sans assimilation des cours.

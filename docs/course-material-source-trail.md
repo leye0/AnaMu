@@ -203,3 +203,9 @@ Les exigences spécialisées ont été résumées directement dans la [fiche MUI
 ## Berklee Boston — options chorales et vocales (10 novembre 2026)
 
 Les fiches [CM-351](courses/berklee/CM-351.md) et [CM-355](courses/berklee/CM-355.md) disposent maintenant de notes de collecte distinguant les preuves **du catalogue Boston** (composition chorale finale traditionnelle pour CM-351 ; passages composés sur textes et lectures dramatiques pour CM-355) du syllabus **[OCWPR-334](courses/berklee-online/OCWPR-334.md)** d'arrangement vocal populaire/jazz. Les syllabus propres aux sections Boston demeurent absents. Le registre conserve en conséquence les deux codes au statut `catalog_only`.
+
+## Sources de devoirs détaillés en électroacoustique : MIT 21M.361 (printemps 2008)
+
+La [fiche complémentaire MIT 21M.361](courses/mit/21M-361.md) synthétise **treize consignes originales d'exercices**, réparties en cinq modules et documentées par liens vers les pages d'assignments OpenCourseWare. À la différence d'un catalogue, cette ressource fournit les matériaux, durées et contraintes, et la [politique d'évaluation originale](https://ocw.mit.edu/courses/21m-361-composing-with-computers-i-electronic-music-composition-spring-2008/pages/syllabus/) (**55 % participation, 45 % travaux**). Le semestre et le professeur sont identifiés. Les fiches [MTE 1503](courses/udem/MTE-1503.md), [MUS 1321](courses/udem/MUS-1321.md) et [CM-358](courses/berklee/CM-358.md) reçoivent un lien de comparaison ; **aucun ne se voit attribuer les devoirs du MIT comme programme propre**.
+
+Les cours [CM-333, Berklee Boston](courses/berklee/CM-333.md) et [MUTH 539, McGill](courses/mcgill/MUTH-539.md) ont désormais des fiches de recherche avec tâches ou thèmes **de catalogue seulement**. Le catalogue McGill annonce MUTH 539 à l'automne 2026 ; sa description historique 2024–2025 ne prouve pas le syllabus 2026. Les deux restent sans syllabus attesté.
