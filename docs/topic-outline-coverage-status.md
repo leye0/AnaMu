@@ -1,12 +1,16 @@
-# État courant de couverture musicale (10 novembre 2026)
+# Couverture musicale — suivi après approfondissements du 10 novembre 2026
 
-Après filtre : **386 entrées musicales**, **203 exploitables**, **175 partielles**, **8 familles de pratiques musicales à déplier** (378 cours concrets). Les 402 entrées historiques incluaient 16 entrées non musicales supprimées.
+**Périmètre inchangé : 386 entrées musicales**, après exclusion de l'art visuel et de la culture générale non musicale.
 
-| Établissement | Actives | Exploitables | Partielles | Familles |
+| Université | Entrées | Cartes exploitables | Cartes partielles | Familles de pratique |
 |---|---:|---:|---:|---:|
 | UdeM | 185 | 74 | 111 | 0 |
-| McGill | 58 | 34 | 24 | 0 |
-| Berklee | 143 | 95 | 40 | 8 |
-| **TOTAL** | **386** | **203** | **175** | **8** |
+| McGill | 58 | 41 | 17 | 0 |
+| Berklee Boston | 143 | 104 | 31 | 8 |
+| **TOTAL** | **386** | **219** | **159** | **8** |
 
-[Politique et codes éliminés](music-only-scope.md) ; [25 candidats musicaux Berklee](data/berklee-open-elective-candidates-2026.json) hors registre. Les grilles officielles originales demeurent complètes et sont des sources, non notre scope. Objectif : préciser les 175 cartes partielles, déplier les huit familles musicales. Aucun test ni CI.
+## Nouveau lot vérifié
+
+[16 cartes thématiques précises](raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md) : direction de concerto, d'aria et de film, arrangements, contrepoint, écriture pour percussion, traditions de composition non occidentales, ensembles baroque/choral/contemporain/jazz et orchestres. Des pages officielles donnent des pratiques réellement distinctes.
+
+**Toujours à faire :** 159 cartes partielles à enrichir, huit familles musicales non dépliées. Les cartes *exploitables* restent des descriptions thématiques, non des syllabus intégraux. [Périmètre musical](music-only-scope.md). [25 candidats Berklee hors registre](data/berklee-open-elective-candidates-2026.json). Aucun test ni CI.

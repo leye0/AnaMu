@@ -18,10 +18,11 @@ Un agent commence par [AGENTS.md](../AGENTS.md). **Objectif prioritaire : cartog
    [Cartographie UdeM : 88 ensembles, ateliers et cours instrumentaux](raw-batches/2026-11-10-udem-88-ensembles-instruments.md) — limites des enseignements à programme variable.
    [Berklee Boston : lot de 68 cours composition/harmonie/production](raw-batches/2026-11-10-berklee-68-program-courses.md) — cartes de matière et liens du campus.
    [Berklee Boston : 48 entrées musicales conservées, vrais cours et familles à déplier](raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md) — aucune fausse équivalence entre un code générique et un syllabus.
-   [Bilan 1A du ratissage des 386 entrées musicales](topic-outline-coverage-status.md) : 203 exploitables, 175 à préciser, 8 familles musicales à déplier.
+   [Bilan 1A du ratissage des 386 entrées musicales](topic-outline-coverage-status.md) : 219 exploitables, 159 à préciser, 8 familles musicales à déplier.
    [Berklee — 17 cartes relues sur notices détaillées](raw-batches/2026-11-10-berklee-17-verified-refinements.md), dont 14 enrichies jusqu'au seuil exploitable.
    [Berklee : 25 cours musicaux concrets trouvés dans les options](raw-batches/2026-11-10-berklee-36-real-open-electives.md) et [registre candidat structuré](data/berklee-open-elective-candidates-2026.json).
    [UdeM — 22 codes d'ensembles avec matière spécifique sourcée](raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md).
+   [16 cartes enrichies sur sources institutionnelles Berklee/McGill](raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md) : direction, contrepoint et sept ensembles, 16 passages au seuil exploitable.
    [Registre de progression cours par cours](data/course-material-progress.json)
    — 386 entrées musicales, dont 11 syllabus documentés, 194 fiches partielles, 181 fiches au catalogue et quatre pools administratifs musicaux à examiner.
    [Inventaire des options de majeure Berklee](berklee-major-elective-candidates.md).

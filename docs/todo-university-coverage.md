@@ -1,5 +1,7 @@
 # AnaMu — TODO de couverture universitaire exhaustive
 
+**NOUVEAU LOT :** [16 cours/ensembles Berklee et McGill approfondis sur sources officielles](raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md), **16 cartes passent de partielle à exploitable**. Suivi en cours : **219 exploitables / 159 partielles / 8 familles** ; aucune modification du statut des syllabus.
+
 **FILTRAGE EFFECTIF : 386 entrées musicales, et non 402**. Les anciennes statistiques plus bas sont historiques. [16 codes principaux et 11 candidats éliminés](music-only-scope.md). [État actuel](topic-outline-coverage-status.md). Aucun cours de culture générale ou d'arts visuels non musicaux à poursuivre.
 
 **Unique liste de priorités du projet.** Objectif : analyser les œuvres
