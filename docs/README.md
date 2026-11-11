@@ -23,6 +23,7 @@ Un agent commence par [AGENTS.md](../AGENTS.md). **Objectif prioritaire : cartog
    [Berklee : 25 cours musicaux concrets trouvés dans les options](raw-batches/2026-11-10-berklee-36-real-open-electives.md) et [registre candidat structuré](data/berklee-open-elective-candidates-2026.json).
    [UdeM — 22 codes d'ensembles avec matière spécifique sourcée](raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md).
    [16 cartes enrichies sur sources institutionnelles Berklee/McGill](raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md) : direction, contrepoint et sept ensembles, 16 passages au seuil exploitable.
+   [UdeM — 36 cours individuels MUI contextualisés par discipline](raw-batches/2026-11-10-udem-36-individual-instrument-context.md), avec distinction des prérequis d'audition, répertoires et véritables syllabus de cours.
    [Registre de progression cours par cours](data/course-material-progress.json)
    — 386 entrées musicales, dont 11 syllabus documentés, 194 fiches partielles, 181 fiches au catalogue et quatre pools administratifs musicaux à examiner.
    [Inventaire des options de majeure Berklee](berklee-major-elective-candidates.md).
