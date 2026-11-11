@@ -33,6 +33,20 @@ déplier : ce sont des *points de départ*, pas une liste close.
 
 Une source inaccessible reste **inconnue**. Ne jamais inférer un syllabus du seul titre du cours ni confondre une liste de manuels avec les séances enseignées.
 
+## Ingestion en lots plutôt que fiches longues pendant la recherche
+
+**Nouvelle règle de cadence :** traiter 10 à 30 cours/sources par passe dans
+une seule table docs/raw-batches. Les fiches individuelles sont la destination
+finale après l'ingestion, pas un obstacle à l'exploration. Chaque ligne donne
+le code, l'édition, le lien, la qualité de la source et la matière réellement
+enseignée. Conserver les inconnues et les contradictions.
+
+Priorité : d'abord les 402 cours suivis (notamment catalog_only), puis les
+options à déplier, puis les autres cours académiques complémentaires. Un
+plan-cadre externe ne promeut aucun cours au statut syllabus obtenu.
+Les chiffres de PDF, de cours distincts et de vrais syllabus restent
+séparés. Aucun test ni travail sur la CI.
+
 ## Procédure, cours par cours
 
 1. **Fixer l'édition officielle** et explorer toutes les branches obligatoires, optionnelles, recommandées et complémentaires pertinentes.

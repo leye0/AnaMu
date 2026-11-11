@@ -54,6 +54,33 @@ logicielle**.
   des tests ou de la maintenance logicielle. Un simple « continue » ou
   « vérifie » **n'autorise pas** les tests.
 
+## Cadence obligatoire de collecte brute par lots (demande du 10 novembre 2026)
+
+Léon privilégie la **vitesse et la matière brute** aux fiches longues et polies.
+**Traiter 10 à 30 cours ou sources par passe**, avec la priorité absolue
+aux 402 codes déjà inventoriés, particulièrement les 194 au stade catalogue.
+
+- Consigner dans docs/raw-batches un tableau court : code exact, édition,
+  URL institutionnelle, type de preuve, matière/lecture/exercice identifié,
+  et limite de la source. Un document brut par lot suffit.
+- Ne pas réécrire des pages de présentation, faire de la mise en forme
+  sophistiquée, ni créer une fiche longue pour chaque résultat immédiatement.
+  Conserver les documents originaux via leurs liens; noter sans spéculation.
+- Quand aucune matière réelle propre au cours n'est accessible, noter
+  « catalogue seulement », passer au cours suivant et ne pas combler le
+  vide par le syllabus d'une université voisine.
+- Réserver la répartition ultérieure dans des fiches individuelles à une
+  passe groupée d'intégration. Les raw-batches sont des travaux actifs,
+  pas des archives. Modifier le registre uniquement si la source concerne
+  vraiment le cours visé.
+- **Chiffrer séparément PDF, codes abordés, vrais syllabus et statuts
+  promus.** Ne pas confondre variantes linguistiques et cours distincts.
+- Ne pas exécuter ni modifier de tests, CI ou logique logicielle.
+
+Cette cadence supplante l'obligation de rédaction immédiate d'une fiche
+par cours pendant la chasse aux sources; la traçabilité et l'exactitude
+restent non négociables.
+
 ## Ordre de lecture obligatoire
 
 1. [README.md](README.md) — mission, état réel, commandes.

@@ -26,6 +26,8 @@ Le 10 novembre 2026, la collecte approfondie des sources d'écriture sonore a aj
 
 Collecte approfondie du 10 novembre 2026 : [MUS 3326X](courses/udem/MUS-3326X.md) est désormais décomposé depuis son **syllabus UdeM A26 de neuf pages**, avec séances, bibliographie et barèmes ; [MUS 3127X](courses/udem/MUS-3127X.md) et [MCT 3512X](courses/udem/MCT-3512X.md) disposent de descriptions précises des **travaux et critères** propres à leurs plans-cadres. Deux cours voisins réels sur [la musique ancienne](courses/udem-supplementary/MUL-3335X.md) et [l'opéra *Lulu*](courses/udem-supplementary/MUL-6257.md) sont documentés sans les ajouter aux codes admissibles du programme de Composition. Les 402 statuts restent inchangés : il s'agit d'approfondissement, pas d'une déclaration de couverture nouvelle non démontrée.
 
+**Mode rapide/raw, décision du 10 novembre 2026 :** [19 PDF officiels UdeM en un seul lot brut](raw-batches/2026-11-10-udem-19-plans.md), la plupart hors des 402 codes de Composition. Des travaux et évaluations concrets sont répertoriés, mais aucun statut du registre n'est gonflé. **Prochaine cible : 194 cours du registre encore au stade catalogue**, en lots de 10 à 30, sans fiches littéraires ni tests.
+
 **VERROU DE PHASE : seuls les travaux de collecte A01–A15, A18 et de revue
 de leur couverture sont actifs.** La réconciliation de concepts A16–A17,
 les capacités analytiques B–K et la composition L ne commencent qu'avec
