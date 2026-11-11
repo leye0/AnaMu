@@ -1,0 +1,637 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-11",
+  "academic_year": "2025-2026",
+  "source": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+  "group_count": 35,
+  "baseline_registry_unchanged": 386,
+  "topic_state": "official_detailed_course_notices_not_syllabi",
+  "groups": [
+    {
+      "codes": "MUL 6261",
+      "title": "Musique, diplomatie et propagande",
+      "term": "A25",
+      "category": "musicology",
+      "topics": [
+        "Études de cas de diplomatie musicale",
+        "Musique comme instrument de propagande",
+        "Rapports entre création, circulation, institutions et fonctions politiques du son",
+        "Cas historiques ou contemporains choisis en séminaire"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUS 6602",
+      "title": "Composer et interpréter la musique à l'image",
+      "term": "A25",
+      "category": "screen_composition",
+      "topics": [
+        "Techniques professionnelles de studio pour musique à l'image",
+        "Interactions compositeur et interprète",
+        "Studio comme outil de composition et d'expérimentation",
+        "Développement de méthodes d'enregistrement collaboratif"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUL 6270",
+      "title": "Musicologie de la performance",
+      "term": "A25",
+      "category": "performance_analysis",
+      "topics": [
+        "Performance comme comportement observé",
+        "Expérience subjective de l'interprète",
+        "Théories et méthodes d'étude de la performance musicale",
+        "Démarches quantitatives et qualitatives en recherche d'interprétation"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MCT 6302",
+      "title": "Composition jazz 2",
+      "term": "A25",
+      "category": "jazz_composition",
+      "topics": [
+        "Analyse de techniques de composition de jazz",
+        "Études d'œuvres de plusieurs esthétiques jazz",
+        "Application à de nouveaux projets de composition",
+        "Comparaison des courants par leurs stratégies d'écriture"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUS 2327 / MCT 6513",
+      "title": "Création sonore et musicale pour le jeu vidéo 1",
+      "term": "A25",
+      "category": "game_audio",
+      "topics": [
+        "Histoire et industrie de la création sonore vidéoludique",
+        "Modèles et modes de production audio pour jeux",
+        "Outils et organisation de la création musicale interactive",
+        "Analyse de jeux et démonstration de situations pratiques"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [
+        "MUS 2327"
+      ],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MIN 7383",
+      "title": "Outils de direction",
+      "term": "A25",
+      "category": "conducting",
+      "topics": [
+        "Lecture à vue en direction",
+        "Étude et préparation de partitions",
+        "Développement des capacités auditives utiles à la direction",
+        "Travail rythmique du chef"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUS 3127X / 6127X",
+      "title": "Création de maquettes MIDI orchestrales",
+      "term": "A25",
+      "category": "orchestral_production",
+      "topics": [
+        "Programmation MIDI avancée dans séquenceurs et échantillonneurs",
+        "Simulation d'instruments et d'effectifs orchestraux",
+        "Contrôle de paramètres expressifs pour interprétation virtuelle",
+        "Mixage, espace et effets au service de la maquette"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [
+        "MUS 3127X"
+      ],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUS 3314X / 6314X",
+      "title": "Musique visuelle 1",
+      "term": "A25",
+      "category": "audiovisual_music",
+      "topics": [
+        "Création audiovisuelle musicale sur support fixe",
+        "Étude des rapports entre image et son",
+        "Application de concepts de composition audiovisuelle",
+        "Création dirigée dans un cadre de musique visuelle"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [
+        "MUS 3314X"
+      ],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUS 3324X / 6324X",
+      "title": "Création musicale en langage graphique",
+      "term": "A25",
+      "category": "music_programming",
+      "topics": [
+        "Structuration du contrôle musical en temps réel",
+        "Interprétation de contrôles de performance sonore",
+        "Programmation graphique et résolution de problèmes",
+        "Exploration des traitements de signal"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [
+        "MUS 3324X"
+      ],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUS 3326X / 6326X",
+      "title": "Création musicale en langage textuel",
+      "term": "A25",
+      "category": "music_programming",
+      "topics": [
+        "Formalisation musicale en programmation textuelle",
+        "Composition d'œuvres au moyen de programmes",
+        "Conception de processus musicaux structurés",
+        "Développement d'algorithmes de synthèse sonore"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [
+        "MUS 3326X"
+      ],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MIN 6852 / 6860 / 7852 / 7854",
+      "title": "Atelier d'airs d'opéra",
+      "term": "A25",
+      "category": "vocal_performance",
+      "topics": [
+        "Analyse des livrets d'opéra pour interprétation vocale",
+        "Préparation des airs et du répertoire d'audition",
+        "Présence scénique et jeu dramatique",
+        "Articulation des éléments musicaux avec les intentions scéniques"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUL 6260",
+      "title": "Ravel : musique, humanités et sciences",
+      "term": "A25",
+      "category": "historical_analysis",
+      "topics": [
+        "Rapports entre tradition, exotisme et modernité chez Ravel",
+        "Étude des œuvres de Ravel dans la pluralité musicale de son époque",
+        "Modernité musicale française vers 1890–1940",
+        "Mise en relation de sa création avec transformations sociales et culturelles"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MIN 6950",
+      "title": "Quatuors de Beethoven",
+      "term": "A25",
+      "category": "chamber_analysis",
+      "topics": [
+        "Étude du cycle des quatuors à cordes de Beethoven",
+        "Écoutes comparées notamment intégrale du Quatuor Amadeus",
+        "Analyses musicales et discussions de partitions",
+        "Présentations individuelles sur styles et modernité des œuvres"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUS 6301",
+      "title": "Pratiques contemporaines du jazz",
+      "term": "A25",
+      "category": "jazz_performance",
+      "topics": [
+        "Concepts théoriques des pratiques du jazz contemporain",
+        "Étude d'œuvres représentatives des courants récents",
+        "Applications en atelier pratique",
+        "Comparaison entre analyse d'œuvre et démarche d'interprétation"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUS 6600",
+      "title": "Son, écologie et environnement",
+      "term": "A25",
+      "category": "sound_ecology",
+      "topics": [
+        "Pratiques sonores en relation avec l'écologie",
+        "Promenades d'écoute et marches sonores",
+        "Projets collaboratifs de terrain en plein air",
+        "Recherche-création sonore en contexte environnemental"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUS 3101X / 6101X",
+      "title": "Composition spectrale et algorithmique 1",
+      "term": "H26",
+      "category": "spectral_composition",
+      "topics": [
+        "Outils de composition assistée par ordinateur",
+        "Démarches de composition spectrale instrumentale et mixte",
+        "Musiques génératives comme pratiques d'écriture",
+        "Composition interactive au moyen de travaux pratiques"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [
+        "MUS 3101X"
+      ],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MIN 6954 / 6955 / 7042",
+      "title": "Accompagnement vocal et instrumental",
+      "term": "H26",
+      "category": "collaborative_piano",
+      "topics": [
+        "Coaching vocal par le piano",
+        "Réalisation de basse chiffrée",
+        "Transposition et lecture à vue",
+        "Réduction de partitions d'orchestre au clavier",
+        "Réflexion sur la pratique professionnelle du pianiste accompagnateur"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MIN 6951",
+      "title": "Notation en performance sonore",
+      "term": "H26",
+      "category": "experimental_notation",
+      "topics": [
+        "Notation du son, des gestes et du timbre",
+        "Composition expérimentale pour synthétiseurs analogiques",
+        "Création d'une œuvre interprétée par d'autres étudiants",
+        "Recherche et analyse des effets de la notation sur l'interprétation"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUL 6216",
+      "title": "Séminaire de recherche en musicologie",
+      "term": "H26",
+      "category": "musicology",
+      "topics": [
+        "Historiographie, périodisation et constitution d'un canon musical",
+        "Sémiologie et modèles linguistiques pour la musique",
+        "Musicologie féministe et approches culturelles",
+        "Études des esquisses et de l'interprétation",
+        "Évaluation critique des musiques populaires"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MCT 6301",
+      "title": "Composition jazz 1",
+      "term": "H26",
+      "category": "jazz_composition",
+      "topics": [
+        "Techniques compositionnelles issues des principaux courants jazz",
+        "Analyse d'œuvres du répertoire",
+        "Transformation de l'analyse en exercices de création",
+        "Pratiques stylistiques de composition jazz"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUS 3315X / 6315X",
+      "title": "Musique visuelle 2",
+      "term": "H26",
+      "category": "audiovisual_music",
+      "topics": [
+        "Création audiovisuelle musicale en contexte performatif",
+        "Composition sonore et visuelle avec exécution en temps réel",
+        "Relations son/image en performance",
+        "Projets d'œuvres dirigées"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [
+        "MUS 3315X"
+      ],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUS 3321 / 6321",
+      "title": "Psychoacoustique musicale",
+      "term": "H26",
+      "category": "psychoacoustics",
+      "topics": [
+        "Perception des intensités sonores et hauteurs",
+        "Consonance et dissonance des intervalles",
+        "Perception et reconnaissance des timbres",
+        "Localisation spatiale des sources",
+        "Cognition et compréhension musicales"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [
+        "MUS 3321"
+      ],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUS 3323 / 6323",
+      "title": "Musique de création et technologies",
+      "term": "H26",
+      "category": "music_technology",
+      "topics": [
+        "Conception d'œuvres électroacoustiques, instrumentales et mixtes",
+        "Lutherie audiomusicale et hyper-instruments",
+        "Interfaces de geste musical",
+        "Installations sonores et orchestres de haut-parleurs",
+        "Production des œuvres en concert"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [
+        "MUS 3323"
+      ],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUS 3328X / 6328X",
+      "title": "Lutherie numérique et systèmes interactifs",
+      "term": "H26",
+      "category": "musical_instruments",
+      "topics": [
+        "Conception d'instruments audionumériques interactifs",
+        "Intégration de capteurs, actionneurs et microcontrôleurs",
+        "Installations musicales interactives",
+        "Fabrication d'un prototype fonctionnel lié à une œuvre"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [
+        "MUS 3328X"
+      ],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUS 3329X / 6329X",
+      "title": "Projet en informatique musicale",
+      "term": "H26",
+      "category": "music_project",
+      "topics": [
+        "Planification d'un projet musical informatisé",
+        "Développement d'une composition ou création sonore personnelle",
+        "Organisation du travail de la conception à la réalisation",
+        "Diffusion du projet final"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [
+        "MUS 3329X"
+      ],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUL 6259",
+      "title": "Théories musicales françaises, humanités et sciences 1850–1950",
+      "term": "H26",
+      "category": "music_history",
+      "topics": [
+        "Influences de la philosophie et de l'esthétique sur des théories musicales",
+        "Relations entre physique, mathématiques et techniques de composition historiques",
+        "Physiologie et psychologie dans le discours théorique musical",
+        "Études de compositeurs français entre les milieux des XIXe et XXe siècles"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUS 2328 / MCT 6514",
+      "title": "Création sonore et musicale pour jeux vidéo 2",
+      "term": "H26",
+      "category": "game_audio",
+      "topics": [
+        "Production d'un environnement musical dynamique de jeu",
+        "Utilisation du middleware audio Wwise",
+        "Sonorisation d'une cinématique",
+        "Préparation d'un portfolio de création sonore pour jeux",
+        "Présentation d'un extrait du projet vidéoludique"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [
+        "MUS 2328"
+      ],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUL 6258",
+      "title": "Femmes à l'opéra : représentation et réception",
+      "term": "H26",
+      "category": "opera_musicology",
+      "topics": [
+        "Étude de la représentation des femmes sur scène depuis le baroque",
+        "Analyse des rapports entre dramaturgie, voix et pouvoir",
+        "Étude de l'agentivité des chanteuses et compositrices",
+        "Réception sociale et discours autour de l'opéra"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUL 6331 / 6332 / 7231 / 7232",
+      "title": "Laboratoire de médiation de la musique",
+      "term": "H26",
+      "category": "musical_mediation",
+      "topics": [
+        "Intégration de la médiation dans la création musicale",
+        "Engagement actif des publics au cours de projets artistiques",
+        "Pratique communautaire en dialogue avec des enjeux sociaux",
+        "Organisation et conduite de projets interdisciplinaires"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUS 6317",
+      "title": "Musique visuelle immersive",
+      "term": "H26",
+      "category": "immersive_audiovisual",
+      "topics": [
+        "Théorie des œuvres musicales audiovisuelles immersives",
+        "Dimensions sonores, visuelles, haptiques et sensorielles",
+        "Création collective en environnement spatial",
+        "Approches de recherche artistique immersive"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUE 2101 / 2102 / 2103 / 2104",
+      "title": "Atelier de lied et mélodie",
+      "term": "H26",
+      "category": "vocal_chamber",
+      "topics": [
+        "Pratique collaborative chanteur et pianiste",
+        "Communication des intentions musicales dans le lied",
+        "Accompagnement au piano de mélodies",
+        "Coordination des parties et coaching réciproque"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUL 7221",
+      "title": "Le geste musicien",
+      "term": "H26",
+      "category": "gesture_research",
+      "topics": [
+        "Production et perception du geste musical",
+        "Acoustique des gestes de performance",
+        "Psychoacoustique et musicologie numérique",
+        "Études présentées en colloquium de performance"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "PLU 6125",
+      "title": "Création d'opéra : atelier",
+      "term": "E26",
+      "category": "opera_composition",
+      "topics": [
+        "Atelier pratique autour d'opéras écrits par les étudiants",
+        "Révision de livrets et musiques",
+        "Coopération librettistes et compositeurs",
+        "Préparation à une éventuelle représentation sur scène"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUS 4105",
+      "title": "Communication numérique en musique",
+      "term": "E26",
+      "category": "music_profession",
+      "topics": [
+        "Présence web de l'artiste-musicien",
+        "Documentation audiovisuelle d'œuvres et de concerts",
+        "Design et présentation du travail artistique",
+        "Marketing et publications musicales"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [
+        "MUS 4105"
+      ],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    },
+    {
+      "codes": "MUL 2450 / 6107",
+      "title": "Historiographie musicale et analyse",
+      "term": "H26",
+      "category": "music_historiography",
+      "topics": [
+        "Fondements et méthodes de l'histoire de la musique",
+        "Analyse de textes fondateurs en historiographie musicale",
+        "Différence entre histoire de l'histoire et théorie de l'histoire musicale",
+        "Exposés et discussions de lectures critiques"
+      ],
+      "source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf",
+      "source_kind": "official_faculty_2025_26_seminar_listing_detailed_notice",
+      "baseline_existing_codes": [],
+      "admissibility": "supplementary_music_only_not_degree_requirement",
+      "caveat": "Detailed course notice for a specific 2025-26 session, not a section syllabus or proof of credit applicability."
+    }
+  ]
+}
