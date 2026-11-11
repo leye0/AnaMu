@@ -25,10 +25,48 @@ musicale explicable et démontrable, pas la seule réussite d'un algorithme.
 **Phase courante : programmes → cours → matière réelle, exclusivement.**
 Un nouvel agent doit **commencer immédiatement** cette acquisition systématique,
 sans attendre de consigne supplémentaire : choisir le prochain cours sans
-syllabus vérifié, chercher les sources, documenter ses chapitres/exercices,
-enregistrer les lacunes, puis passer au cours suivant. C'est un **travail
+carte thématique exploitable, chercher plans et descriptions détaillées,
+noter ses thèmes et limites, puis passer au cours suivant. C'est un **travail
 documentaire approfondi**, sans développement expérimental, benchmark
 algorithmique ni test musical à cette étape.
+
+## DÉCISION PRIORITAIRE — objectif réel de la première passe (10 novembre 2026)
+
+**Le livrable attendu pour CHACUN des environ 402 cours est une DESCRIPTION
+DÉTAILLÉE DES SUJETS ENSEIGNÉS**, et non la collection exhaustive de tout
+le matériel exact utilisé par le professeur.
+
+**Phase 1A — ACTIVE : cartographie des contenus**, par lots massifs :
+- Pour chaque cours, récupérer en priorité un **syllabus, plan détaillé,
+  plan-cadre, description institutionnelle suffisamment précise**.
+- En extraire un **aperçu thématique exploitable**, idéalement 4–12 axes :
+  notions, mécanismes musicaux, techniques, pratiques, exemples de styles
+  ou œuvres **explicitement cités**, variantes, niveau et progression si elle
+  existe. Une page avec des unités ou des objectifs détaillés suffit pour
+  cette cartographie ; les simples intitulés restent insuffisants.
+- **Ne PAS chercher systématiquement** la lecture exacte, le manuel prescrit,
+  la partition de chaque exercice, son corrigé, le barème de l'évaluation,
+  les feuilles distribuées ni le matériel sous accès privé. Les prendre
+  uniquement lorsqu'ils sont fournis immédiatement, sans enquête longue.
+- Une notice officielle assez riche peut alimenter la **carte thématique**
+  même si **le statut historique syllabus reste `catalog_only`** : noter
+  honnêtement `source_kind=official_catalogue`, jamais « syllabus ».
+- Si la source est trop vague, produire quelques axes sûrs et marquer
+  `partial` ; ne pas inventer de séances ni forcer de l'exhaustivité.
+- Conserver une trace séparée de la **couverture thématique 1A**
+  (`topic_outline` dans le registre), indépendante de l'ancien indicateur
+  d'obtention d'un syllabus. Les `raw-batches` peuvent être la source
+  canonique de dizaines de descriptions à la fois, sans fiches séparées.
+
+**Phase 1B — DIFFÉRÉE :** lorsque la carte de tous les cours sera en place,
+rechercher **la documentation académique sur chaque sujet recensé**, puis
+construire plus tard les concepts partagés. Ce n'est **pas** la tâche actuelle.
+
+Ce contrat **prime** sur toute ancienne instruction imposant la récupération
+de chapitres, lectures, devoirs et barèmes exacts avant de considérer la
+**cartographie 1A** utile. Il ne supprime pas les règles d'exactitude et de
+provenance, n'autorise ni code ni tests, et ne prétend pas qu'un catalogue
+détaillé soit un syllabus officiel.
 
 ## INTERDICTION EXPLICITE — tests et maintenance logicielle pendant la collecte
 
@@ -46,8 +84,9 @@ logicielle**.
   contrôle existant échoue à cause du registre documentaire qui s'agrandit.
   Une CI rouge n'est **pas** un motif pour interrompre l'acquisition des cours.
 - Le travail attendu est uniquement : **chercher des sources universitaires,
-  lire les syllabus, extraire les chapitres, exercices, lectures et exemples,
-  puis actualiser les fiches et le registre**. Vérifier manuellement les
+  recueillir une carte détaillée des sujets par cours, puis actualiser les
+  lots bruts et le registre**. Les exercices/lectures précis ne sont
+  récupérés que si immédiatement disponibles. Vérifier manuellement les
   informations et les références utilisées, sans transformer cette
   vérification documentaire en développement de tests.
 - Une exception exige une **demande explicite de Léon** visant spécifiquement

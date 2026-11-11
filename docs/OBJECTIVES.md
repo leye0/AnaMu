@@ -2,19 +2,39 @@
 
 **Référence normative.** La finalité est une compréhension de la composition et de l'arrangement fondée sur **la réunion du contenu réel de plusieurs cursus universitaires entiers**. Cette connaissance doit permettre de reconnaître et d'expliquer les mécanismes de musique existante. Une composition musicale ultérieure devra reposer sur cette compréhension et sur des jugements d'écoute, mais **aucune génération n'est autorisée maintenant**.
 
-## Phase 1 — recueillir la matière (SEULE PHASE ACTIVE)
+## Phase 1A — carte détaillée des sujets de TOUS les cours (SEULE PHASE ACTIVE)
 
-Trois programmes de départ : **UdeM, McGill et Berklee**, majeures Composition. Notre périmètre est l'**union des enseignements** : cours obligatoires, complémentaires, à option, recommandés et spécialités voisines pertinentes. L'admissibilité administrative d'un cours ne détermine pas la valeur de ses connaissances.
+Périmètre : **402 cours candidats recensés** dans les programmes UdeM, McGill,
+Berklee, incluant options, recommandations et connaissances de majeures voisines.
+Objectif immédiat : **pour chaque cours**, écrire une **description suffisamment
+détaillée des contenus** (principaux sujets, notions, techniques, styles,
+applications et, si publiés, exemples et progression).
 
-Pour chaque cours, recueillir et sourcer :
+Sources privilégiées : **syllabus ou plan détaillé** propre au cours ; à défaut,
+**description institutionnelle suffisamment riche pour cerner les sujets**,
+avec honnêteté sur sa portée. Un simple titre ou une description vide ne suffit
+pas. Cibler environ **4–12 axes thématiques** quand les documents le permettent,
+sans fabriquer de structure hebdomadaire. Recueillir par lots de 10 à 30 cours.
 
-- Description officielle, édition, code, préalables, statut et crédits.
-- **Syllabus ou plan détaillé**, objectifs et résultats d'apprentissage.
-- Chapitres, lectures, progression, travaux, exercices et critères d'évaluation.
-- Exemples musicaux, traditions, conventions et exceptions lorsque disponibles et réutilisables.
-- Lacunes, restrictions d'accès, conflits entre éditions et incertitudes.
+**Ce qui N'EST PAS requis pour terminer la cartographie 1A :** les livres exacts
+de chaque professeur, les chapitres prescrits, les consignes complètes de
+tous les exercices, les corrigés, partitions, barèmes, accès aux cours fermés
+ou une validation indépendante de chaque technique. Ils ne seront notés
+qu'incidemment, s'ils se trouvent déjà dans une source accessible.
 
-**Un intitulé de cours n'est pas sa matière.** Il faut chercher les sources détaillées et documenter toute impossibilité plutôt qu'inventer. Voir [le protocole de collecte](course-material-collection.md) et [le périmètre universitaire](university-curriculum.md).
+L'ancien indicateur de `syllabus_documented` / `catalog_only` indique la
+**qualité de la provenance du cours**, pas son **avancement thématique**.
+Le champ `topic_outline` dans le registre décrit désormais les deux
+séparément. Une description riche au catalogue peut être utilisable en phase
+1A, sans devenir artificiellement un syllabus.
+
+## Phase 1B — documentation académique par SUJET (DIFFÉRÉE)
+
+Quand les contenus des ~402 cours auront été cartographiés, rechercher dans
+une passe distincte la littérature académique, les traités, exemples,
+enregistrements, exercices et objections **sur chacun des sujets identifiés**,
+pas cours après cours pour obtenir le matériel exact des enseignants.
+Cette phase n'est pas activée actuellement.
 
 ## Phase 2 — réconcilier les connaissances (VERROUILLÉE)
 
@@ -39,6 +59,7 @@ Détecter correctement des composants musicaux n'implique pas encore savoir comp
 ## Statuts à distinguer
 
 - **Cours recensé :** présent dans une édition officielle.
+- **Carte thématique 1A :** utilisable / partielle / non encore traitée, avec source de cours et degré de précision indépendant du syllabus.
 - **Matière obtenue :** documents détaillés localisés et accessibles.
 - **Matière structurée :** objectifs, notions et exercices extraits avec citations.
 - **Couverture vérifiée :** branches et lacunes évaluées indépendamment.

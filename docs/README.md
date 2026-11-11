@@ -1,6 +1,6 @@
 # Documentation AnaMu — entrée académique
 
-Un agent commence par [AGENTS.md](../AGENTS.md). **La tâche active consiste à obtenir la matière réelle des cours universitaires.** Aucun programme d'expériences algorithmiques n'est actif.
+Un agent commence par [AGENTS.md](../AGENTS.md). **Objectif prioritaire : cartographier par descriptions détaillées les thèmes des ~402 cours, puis seulement rechercher de la documentation académique par sujet.** Aucun développement algorithmique ni recherche des devoirs exacts n'est actif.
 
 ## Sources et consignes courantes
 
@@ -9,6 +9,7 @@ Un agent commence par [AGENTS.md](../AGENTS.md). **La tâche active consiste à 
 3. [course-material-collection.md](course-material-collection.md) — méthode obligatoire pour acquérir syllabus, objectifs, chapitres, exercices et lectures.
 4. [knowledge-base.md](knowledge-base.md) — architecture de la base de concepts à construire **après** la collecte.
 5. [todo-university-coverage.md](todo-university-coverage.md) — unique liste à cocher.
+   [Premier lot de 27 descriptions thématiques Berklee](raw-batches/2026-11-10-berklee-27-topic-outlines.md) : 17 utilisables, 10 encore partielles, sources officielles avec provenance honnête.
    [Registre de progression cours par cours](data/course-material-progress.json)
    — 402 entrées, dont 13 syllabus documentés, 195 fiches partielles, 194 fiches au catalogue et cinq pools de choix à explorer.
    [Inventaire des options de majeure Berklee](berklee-major-elective-candidates.md).

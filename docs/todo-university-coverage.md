@@ -36,6 +36,24 @@ les capacités analytiques B–K et la composition L ne commencent qu'avec
 l'accord explicite de Léon, après acquisition et vérification du contenu
 des cours. **Ne créer aucun nouvel analyseur MIDI à ce stade.**
 
+## NOUVELLE CIBLE OPÉRATIONNELLE : 402 descriptions détaillées AVANT les sources par sujet
+
+**Consigne du 10 novembre 2026 :** on ne cherche **plus le matériel exact de
+chaque enseignant** pour cette première passe. Pour chaque code du registre,
+décrire **en profondeur raisonnable les thèmes enseignés** depuis un syllabus,
+un plan détaillé, ou à défaut une notice institutionnelle très informative.
+Ne pas fabriquer des leçons et distinguer « description riche de catalogue »
+de « vrai syllabus ». **Plus tard seulement**, chercher des documents académiques
+sur **chacun des sujets contenus dans les ~402 cours**.
+
+**Premier lot traité avec ce critère :** [27 descriptions thématiques
+Berklee Boston](raw-batches/2026-11-10-berklee-27-topic-outlines.md),
+dont **17 utilisables à titre de première carte** et **10
+partielles**. **0 vrai syllabus obtenu**, et les 27 statuts historiques
+ne changent pas. **Mesurer dorénavant l'avancement 1A via
+`topic_outline.state`**, non via le compteur « syllabus obtenu ».
+La suite vise les cours restants, par lots, sans fiche littéraire ni tests.
+
 ## Mode d'emploi et définition de « terminé »
 
 **Aucune case ci-dessous n'est actuellement validée.** Des catalogues

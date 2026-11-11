@@ -11,6 +11,17 @@ La [base de connaissances académiques](knowledge-base.md) définit **le produit
 à constituer à partir des cursus** : cours et syllabus sont des sources, les
 concepts musicaux réconciliés sont le patrimoine exploitable par AnaMu.
 
+## Priorité opérationnelle actuelle : couverture thématique, avant recherche bibliographique
+
+**Pour les ~402 cours, produire d'abord une description détaillée des sujets
+et techniques enseignés**, à partir des plans/syllabi accessibles et, si
+suffisamment riches, des descriptions officielles. Les lectures, exercices,
+partitions, barèmes et références approfondies seront cherchés **par sujet
+dans une deuxième passe**, après couverture initiale du référentiel.
+Ne pas demander le matériel exact de chaque section pour avancer.
+L'indicateur `topic_outline` suit cette cartographie indépendamment du
+statut historique de disponibilité d'un syllabus.
+
 ## 1. La décision fondamentale
 
 **Maintenant, nous reconstruisons d'abord la matière des cours.** Pour

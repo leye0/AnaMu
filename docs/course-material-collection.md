@@ -2,6 +2,29 @@
 
 **Phase active unique d'AnaMu.** Ce contrat garantit qu'un catalogue ou une description sommaire ne soit jamais pris pour le **contenu musical réellement enseigné**.
 
+## RÈGLE DE CADENCE 1A — contenu, pas dossiers administratifs
+
+**Décision du 10 novembre 2026 :** compléter **une description détaillée des
+sujets de chaque cours du registre** à partir de syllabus, plans-cadres, plans
+détaillés ou descriptions officielles riches. **Ne pas poursuivre les
+matériaux exacts d'un professeur** (manuel, barème, copies, études, examens
+et feuilles de travaux) ; ils sont destinés à une **deuxième passe de
+recherche académique sur chaque sujet**. Une description en 4–12 axes
+suffit pour la carte initiale, sous réserve de provenance honnête.
+
+`topic_outline.state=usable_first_pass` = assez de thèmes précis pour
+orienter la phase 1B, **pas une certification de syllabus intégral** ;
+`partial` = matière trop vague ou section variable. Ne jamais inventer des
+chapitres, semaines, exemples ou œuvres que les sources ne nomment pas.
+`topic_outline.source_kind=official_catalogue` reste un catalogue même
+si la carte est utilisable; garder le champ historique `status` tel quel.
+Les tableaux sous `docs/raw-batches` comptent comme descriptions dans
+la passe 1A et évitent une fiche individuelle par cours.
+
+**Les colonnes détaillées et la porte à la base de concepts plus bas sont
+les cibles de la phase 1B / réconciliation, pas des exigences à imposer aux
+402 cours dans la passe 1A.** Aucun test ni travail de CI.
+
 ## Unité : un cours dans une édition donnée
 
 Partir des [inventaires officiels](university-curriculum.md), des JSON de
