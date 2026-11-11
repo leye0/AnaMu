@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-2027",
+  "current_as_of": "2026-11-11",
+  "main_registry_unchanged": 386,
+  "source_policy": "https://www.mcgill.ca/music/ensembles/ensemble-policy",
+  "notes": "Course-specific descriptions, not password-protected section syllabi. Neighbors not automatically eligible for BMus Composition.",
+  "records": [
+    {
+      "code": "MUEN 563",
+      "title": "Jazz Vocal Workshop",
+      "topics": [
+        "24 voix SATB",
+        "A cappella et accompagnement par section rythmique",
+        "Standards de jazz, jazz contemporain, pop et musiques du monde",
+        "Préparation d'arrangements vocaux et deux concerts annuels"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/large_ensemble_options_2026-2027.pdf",
+      "source_pages": "0",
+      "baseline_course": true
+    },
+    {
+      "code": "MUEN 572",
+      "title": "Cappella Antica",
+      "topics": [
+        "Ensemble vocal de 12 à 14 chanteurs",
+        "Répertoire des XVIe et XVIIe siècles",
+        "Œuvres Renaissance et baroques moins connues",
+        "Concerts communs avec l'Orchestre baroque et diffusion en tournée"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/large_ensemble_options_2026-2027.pdf",
+      "source_pages": "1",
+      "baseline_course": true
+    },
+    {
+      "code": "MUEN 573",
+      "title": "Baroque Orchestra",
+      "topics": [
+        "Exécution sur instruments d'époque",
+        "Répertoire baroque et premier classicisme",
+        "Environ quatre concerts annuels"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/large_ensemble_options_2026-2027.pdf",
+      "source_pages": "2",
+      "baseline_course": true
+    },
+    {
+      "code": "MUEN 590",
+      "title": "McGill Wind Orchestra",
+      "topics": [
+        "Bois, cuivres et percussions",
+        "Contrebasse, piano et harpe ponctuels",
+        "Répertoire traditionnel et contemporain pour vents",
+        "Environ cinq concerts annuels"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/large_ensemble_options_2026-2027.pdf",
+      "source_pages": "2",
+      "baseline_course": true
+    },
+    {
+      "code": "MUEN 592",
+      "title": "Chamber Jazz Ensemble",
+      "topics": [
+        "Petite formation de jazz de 9 à 13 instruments",
+        "Répertoire étendu de petit orchestre",
+        "Places privilégiées pour instruments jazz dont piano, guitare, basse, batterie, cuivres, voix et vibraphone"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/large_ensemble_options_2026-2027.pdf",
+      "source_pages": "2",
+      "baseline_course": true
+    },
+    {
+      "code": "MUEN 593",
+      "title": "Choral Ensembles",
+      "topics": [
+        "Section 001 : Schulich Singers, environ 24 voix, Renaissance à XXIe siècle",
+        "Section 002 : Concert Choir, environ 15 voix",
+        "Section 003 : University Chorus, environ 80 chanteurs, répertoire traditionnel et contemporain",
+        "Les contenus ne sont PAS interchangeables entre sections"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/large_ensemble_options_2026-2027.pdf",
+      "source_pages": "2-3",
+      "baseline_course": true
+    },
+    {
+      "code": "MUEN 594",
+      "title": "Contemporary Music Ensemble",
+      "topics": [
+        "Grand ensemble instrumental",
+        "Interprétation de répertoire contemporain",
+        "Sélection d'étudiants instrumentistes avancés"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/large_ensemble_options_2026-2027.pdf",
+      "source_pages": "3",
+      "baseline_course": true
+    },
+    {
+      "code": "MUEN 595",
+      "title": "Jazz Orchestra",
+      "topics": [
+        "Section 001 : grand orchestre de jazz avec cuivres et saxophones, piano, guitare, basse, batterie ou voix",
+        "Section 002 : second orchestre de jazz et effectifs variables",
+        "Sections 003/004 : formations de jazz de chambre de 9 à 13 musiciens",
+        "Variations d'effectifs selon le concert"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/large_ensemble_options_2026-2027.pdf",
+      "source_pages": "3",
+      "baseline_course": true
+    },
+    {
+      "code": "MUEN 597",
+      "title": "McGill Symphony Orchestra",
+      "topics": [
+        "Pratique d'orchestre symphonique instrumental",
+        "Placement selon audition et effectifs nécessaires",
+        "Répertoire exact non publié dans le tableau"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/large_ensemble_options_2026-2027.pdf",
+      "source_pages": "3",
+      "baseline_course": true
+    },
+    {
+      "code": "MUEN 556",
+      "title": "Intro to Collaborative Piano 1",
+      "topics": [
+        "Accompagnement vocal",
+        "Duos de piano et instrumentaux",
+        "Lecture de partition et analyse d'interprétation"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf",
+      "source_pages": "0",
+      "baseline_course": false
+    },
+    {
+      "code": "MUEN 557",
+      "title": "Intro to Collaborative Piano 2",
+      "topics": [
+        "Coaching par masterclass",
+        "Duos et musique de chambre",
+        "Lecture et analyse de l'interprétation plus avancées"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf",
+      "source_pages": "0",
+      "baseline_course": false
+    },
+    {
+      "code": "MUEN 560",
+      "title": "Chamber Music Ensemble",
+      "topics": [
+        "Musique de chambre multi-instruments",
+        "Sections et répertoire dépendant de l'effectif"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf",
+      "source_pages": "0",
+      "baseline_course": false
+    },
+    {
+      "code": "MUEN 562",
+      "title": "Guitar Ensemble",
+      "topics": [
+        "Répertoire d'ensemble de guitares",
+        "Transcriptions de différentes époques",
+        "Genres multiples"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf",
+      "source_pages": "0",
+      "baseline_course": false
+    },
+    {
+      "code": "MUEN 567",
+      "title": "Beethoven Orchestra",
+      "topics": [
+        "Orchestre de lecture",
+        "Atelier de direction d'orchestre",
+        "Accès à des instrumentistes d'orchestre"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf",
+      "source_pages": "0",
+      "baseline_course": false
+    },
+    {
+      "code": "MUEN 568",
+      "title": "Drum Set Foundation / Viola for Violinist",
+      "topics": [
+        "Section 197 : bases de batterie pour jazz associées à MUEN 588",
+        "Section 358 : alto pour violonistes",
+        "Un même code recouvre ici des sections à contenus distincts"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf",
+      "source_pages": "1",
+      "baseline_course": false
+    },
+    {
+      "code": "MUEN 588",
+      "title": "Drum Set Foundation 2",
+      "topics": [
+        "Étude de batterie jazz fondamentale avec MUEN 568 section 197",
+        "Inscription simultanée requise pour le crédit de grand ensemble"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf",
+      "source_pages": "1",
+      "baseline_course": false
+    },
+    {
+      "code": "MUEN 569",
+      "title": "Tabla Ensemble",
+      "topics": [
+        "Pratique et interprétation du tabla de l'Inde du Nord",
+        "Atelier instrumental"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf",
+      "source_pages": "1",
+      "baseline_course": false
+    },
+    {
+      "code": "MUEN 570",
+      "title": "Jazz Combo",
+      "topics": [
+        "Improvisation jazz en groupe d'environ 4 à 9 musiciens",
+        "Constitution et coaching de combos"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf",
+      "source_pages": "1",
+      "baseline_course": false
+    },
+    {
+      "code": "MUEN 571",
+      "title": "Jazz Combo Project",
+      "topics": [
+        "Improvisation jazz en groupe d'environ 4 à 9 musiciens",
+        "Projet réservé à un cheminement précis"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf",
+      "source_pages": "1",
+      "baseline_course": false
+    },
+    {
+      "code": "MUEN 574",
+      "title": "Afro-Cuban/Brazilian Jazz Combo",
+      "topics": [
+        "Musiques populaires afro-cubaines et brésiliennes",
+        "Origines du jazz latino",
+        "Motifs rythmiques et grooves nationaux"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf",
+      "source_pages": "1",
+      "baseline_course": false
+    },
+    {
+      "code": "MUEN 578",
+      "title": "Song Interpretation 1",
+      "topics": [
+        "Duos chanteur-pianiste",
+        "Étude du répertoire vocal accompagné",
+        "Masterclass",
+        "Récital de fin de trimestre"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf",
+      "source_pages": "1-2",
+      "baseline_course": false
+    },
+    {
+      "code": "MUEN 579",
+      "title": "Song Interpretation 2",
+      "topics": [
+        "Duos chanteur-pianiste",
+        "Étude du répertoire vocal accompagné",
+        "Masterclass",
+        "Récital de fin de trimestre"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf",
+      "source_pages": "1-2",
+      "baseline_course": false
+    },
+    {
+      "code": "MUEN 580",
+      "title": "Early Music Ensemble",
+      "topics": [
+        "Petit ensemble de 4 à 6 voix et instruments",
+        "Répertoires médiéval, Renaissance et baroque"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf",
+      "source_pages": "2",
+      "baseline_course": false
+    },
+    {
+      "code": "MUEN 581",
+      "title": "Intro to Ensemble Playing for Pianists",
+      "topics": [
+        "Interprétation du quatre-mains",
+        "Répertoire pour deux pianos",
+        "Entrée dans la pratique d'ensemble pianistique"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf",
+      "source_pages": "2",
+      "baseline_course": false
+    },
+    {
+      "code": "MUEN 582",
+      "title": "Piano Ensembles",
+      "topics": [
+        "Répertoire pour deux pianos",
+        "Répertoire de piano à quatre mains",
+        "Jeu collectif"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf",
+      "source_pages": "2",
+      "baseline_course": false
+    },
+    {
+      "code": "MUEN 585",
+      "title": "Sonata Masterclass",
+      "topics": [
+        "Sonates pour piano et instrument",
+        "Préparation d'ensemble",
+        "Interprétation en masterclass"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf",
+      "source_pages": "2",
+      "baseline_course": false
+    },
+    {
+      "code": "MUEN 598",
+      "title": "Percussion Ensemble",
+      "topics": [
+        "Jeu collectif sur instruments de percussion",
+        "Contenu instrumental de section variable"
+      ],
+      "source_url": "https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf",
+      "source_pages": "2",
+      "baseline_course": false
+    }
+  ]
+}

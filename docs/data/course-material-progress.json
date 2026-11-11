@@ -3000,13 +3000,18 @@
         "status": "partially_documented",
         "material_file": "docs/courses/mcgill/MUEN-563.md",
         "topic_outline": {
-          "state": "partial",
-          "source_kind": "official_program_catalogue",
+          "state": "usable_first_pass",
+          "source_kind": "official_program_and_2026_27_ensemble_course_description",
           "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
           "document": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://coursecatalogue.mcgill.ca/courses/muen-563/index.html",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "refinement_document": "docs/raw-batches/2026-11-11-mcgill-2026-27-ensemble-specific-material.md",
+          "refinement_source_url": "https://www.mcgill.ca/music/files/music/large_ensemble_options_2026-2027.pdf",
+          "refinement_reviewed_on": "2026-11-11",
+          "refinement_note": "Official 2026-27 ensemble options specify section instrumentation and repertoire; no private ensemble syllabus obtained",
+          "refinement_audition_url": "https://www.mcgill.ca/music/ensembles/auditions/jazz-ensembles-auditions"
         }
       },
       "MUEN 572": {
@@ -3019,7 +3024,11 @@
           "document": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
           "reviewed_on": "2026-11-10",
           "expanded_on": "2026-11-10",
-          "scope": "course_description_or_ensemble_profile_not_section_syllabus"
+          "scope": "course_description_or_ensemble_profile_not_section_syllabus",
+          "refinement_document": "docs/raw-batches/2026-11-11-mcgill-2026-27-ensemble-specific-material.md",
+          "refinement_source_url": "https://www.mcgill.ca/music/files/music/large_ensemble_options_2026-2027.pdf",
+          "refinement_reviewed_on": "2026-11-11",
+          "refinement_note": "Official 2026-27 ensemble options specify section instrumentation and repertoire; no private ensemble syllabus obtained"
         }
       },
       "MUEN 573": {
@@ -3032,7 +3041,11 @@
           "document": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
           "reviewed_on": "2026-11-10",
           "expanded_on": "2026-11-10",
-          "scope": "course_description_or_ensemble_profile_not_section_syllabus"
+          "scope": "course_description_or_ensemble_profile_not_section_syllabus",
+          "refinement_document": "docs/raw-batches/2026-11-11-mcgill-2026-27-ensemble-specific-material.md",
+          "refinement_source_url": "https://www.mcgill.ca/music/files/music/large_ensemble_options_2026-2027.pdf",
+          "refinement_reviewed_on": "2026-11-11",
+          "refinement_note": "Official 2026-27 ensemble options specify section instrumentation and repertoire; no private ensemble syllabus obtained"
         }
       },
       "MUEN 587": {
@@ -3056,7 +3069,11 @@
           "document": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
           "reviewed_on": "2026-11-10",
           "expanded_on": "2026-11-10",
-          "scope": "course_description_or_ensemble_profile_not_section_syllabus"
+          "scope": "course_description_or_ensemble_profile_not_section_syllabus",
+          "refinement_document": "docs/raw-batches/2026-11-11-mcgill-2026-27-ensemble-specific-material.md",
+          "refinement_source_url": "https://www.mcgill.ca/music/files/music/large_ensemble_options_2026-2027.pdf",
+          "refinement_reviewed_on": "2026-11-11",
+          "refinement_note": "Official 2026-27 ensemble options specify section instrumentation and repertoire; no private ensemble syllabus obtained"
         }
       },
       "MUEN 592": {
@@ -3069,7 +3086,11 @@
           "document": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://coursecatalogue.mcgill.ca/courses/muen-592/index.html",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "refinement_document": "docs/raw-batches/2026-11-11-mcgill-2026-27-ensemble-specific-material.md",
+          "refinement_source_url": "https://www.mcgill.ca/music/files/music/large_ensemble_options_2026-2027.pdf",
+          "refinement_reviewed_on": "2026-11-11",
+          "refinement_note": "Official 2026-27 ensemble options specify section instrumentation and repertoire; no private ensemble syllabus obtained"
         }
       },
       "MUEN 593": {
@@ -3082,7 +3103,11 @@
           "document": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
           "reviewed_on": "2026-11-10",
           "expanded_on": "2026-11-10",
-          "scope": "course_description_or_ensemble_profile_not_section_syllabus"
+          "scope": "course_description_or_ensemble_profile_not_section_syllabus",
+          "refinement_document": "docs/raw-batches/2026-11-11-mcgill-2026-27-ensemble-specific-material.md",
+          "refinement_source_url": "https://www.mcgill.ca/music/files/music/large_ensemble_options_2026-2027.pdf",
+          "refinement_reviewed_on": "2026-11-11",
+          "refinement_note": "Official 2026-27 ensemble options specify section instrumentation and repertoire; no private ensemble syllabus obtained"
         }
       },
       "MUEN 594": {
@@ -3095,7 +3120,11 @@
           "document": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
           "reviewed_on": "2026-11-10",
           "expanded_on": "2026-11-10",
-          "scope": "course_description_or_ensemble_profile_not_section_syllabus"
+          "scope": "course_description_or_ensemble_profile_not_section_syllabus",
+          "refinement_document": "docs/raw-batches/2026-11-11-mcgill-2026-27-ensemble-specific-material.md",
+          "refinement_source_url": "https://www.mcgill.ca/music/files/music/large_ensemble_options_2026-2027.pdf",
+          "refinement_reviewed_on": "2026-11-11",
+          "refinement_note": "Official 2026-27 ensemble options specify section instrumentation and repertoire; no private ensemble syllabus obtained"
         }
       },
       "MUEN 595": {
@@ -3108,7 +3137,11 @@
           "document": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
           "reviewed_on": "2026-11-10",
           "expanded_on": "2026-11-10",
-          "scope": "course_description_or_ensemble_profile_not_section_syllabus"
+          "scope": "course_description_or_ensemble_profile_not_section_syllabus",
+          "refinement_document": "docs/raw-batches/2026-11-11-mcgill-2026-27-ensemble-specific-material.md",
+          "refinement_source_url": "https://www.mcgill.ca/music/files/music/large_ensemble_options_2026-2027.pdf",
+          "refinement_reviewed_on": "2026-11-11",
+          "refinement_note": "Official 2026-27 ensemble options specify section instrumentation and repertoire; no private ensemble syllabus obtained"
         }
       },
       "MUEN 597": {
@@ -3121,7 +3154,11 @@
           "document": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
           "reviewed_on": "2026-11-10",
           "expanded_on": "2026-11-10",
-          "scope": "course_description_or_ensemble_profile_not_section_syllabus"
+          "scope": "course_description_or_ensemble_profile_not_section_syllabus",
+          "refinement_document": "docs/raw-batches/2026-11-11-mcgill-2026-27-ensemble-specific-material.md",
+          "refinement_source_url": "https://www.mcgill.ca/music/files/music/large_ensemble_options_2026-2027.pdf",
+          "refinement_reviewed_on": "2026-11-11",
+          "refinement_note": "Official 2026-27 ensemble options specify section instrumentation and repertoire; no private ensemble syllabus obtained"
         }
       },
       "MUCO 542": {
