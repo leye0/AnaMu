@@ -976,11 +976,25 @@
       },
       "MUS 4101": {
         "status": "catalog_only",
-        "material_file": "docs/courses/udem/MUS-4101.md"
+        "material_file": "docs/courses/udem/MUS-4101.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUS 4102": {
         "status": "catalog_only",
-        "material_file": "docs/courses/udem/MUS-4102.md"
+        "material_file": "docs/courses/udem/MUS-4102.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUS 4103": {
         "status": "partially_documented",
@@ -1028,7 +1042,14 @@
       },
       "PLU 2800U": {
         "status": "catalog_only",
-        "material_file": "docs/courses/udem/PLU-2800U.md"
+        "material_file": "docs/courses/udem/PLU-2800U.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "EMU 1310": {
         "status": "partially_documented",
@@ -1054,15 +1075,36 @@
       },
       "MUE 1151": {
         "status": "partially_documented",
-        "material_file": "docs/courses/udem/MUE-1151.md"
+        "material_file": "docs/courses/udem/MUE-1151.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1152": {
         "status": "partially_documented",
-        "material_file": "docs/courses/udem/MUE-1152.md"
+        "material_file": "docs/courses/udem/MUE-1152.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1153": {
         "status": "partially_documented",
-        "material_file": "docs/courses/udem/MUE-1153.md"
+        "material_file": "docs/courses/udem/MUE-1153.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1161": {
         "status": "catalog_only",
@@ -1088,167 +1130,454 @@
       },
       "MUE 1171": {
         "status": "partially_documented",
-        "material_file": "docs/courses/udem/MUE-1171.md"
+        "material_file": "docs/courses/udem/MUE-1171.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1172": {
         "status": "partially_documented",
-        "material_file": "docs/courses/udem/MUE-1172.md"
+        "material_file": "docs/courses/udem/MUE-1172.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1173": {
         "status": "partially_documented",
-        "material_file": "docs/courses/udem/MUE-1173.md"
+        "material_file": "docs/courses/udem/MUE-1173.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1191": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1192": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1193": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1211": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-de-cuivres/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1212": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-de-cuivres/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1213": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-de-cuivres/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1221": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1222": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1223": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1231": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1232": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1233": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1241": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1242": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1243": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1251": {
         "status": "partially_documented",
-        "material_file": "docs/courses/udem/MUE-1251.md"
+        "material_file": "docs/courses/udem/MUE-1251.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1252": {
         "status": "partially_documented",
-        "material_file": "docs/courses/udem/MUE-1252.md"
+        "material_file": "docs/courses/udem/MUE-1252.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1253": {
         "status": "partially_documented",
-        "material_file": "docs/courses/udem/MUE-1253.md"
+        "material_file": "docs/courses/udem/MUE-1253.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1261": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1262": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1263": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1271": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1272": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1273": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1281": {
         "status": "partially_documented",
-        "material_file": "docs/courses/udem/MUE-1281.md"
+        "material_file": "docs/courses/udem/MUE-1281.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1282": {
         "status": "partially_documented",
-        "material_file": "docs/courses/udem/MUE-1282.md"
+        "material_file": "docs/courses/udem/MUE-1282.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1283": {
         "status": "partially_documented",
-        "material_file": "docs/courses/udem/MUE-1283.md"
+        "material_file": "docs/courses/udem/MUE-1283.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1341": {
         "status": "partially_documented",
-        "material_file": "docs/courses/udem/MUE-1341.md"
+        "material_file": "docs/courses/udem/MUE-1341.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1342": {
         "status": "partially_documented",
-        "material_file": "docs/courses/udem/MUE-1342.md"
+        "material_file": "docs/courses/udem/MUE-1342.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1343": {
         "status": "partially_documented",
-        "material_file": "docs/courses/udem/MUE-1343.md"
+        "material_file": "docs/courses/udem/MUE-1343.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1361": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1362": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1363": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1381": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1382": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1383": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1431": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1441": {
         "status": "partially_documented",
-        "material_file": "docs/courses/udem/MUE-1441.md"
+        "material_file": "docs/courses/udem/MUE-1441.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1491": {
         "status": "catalog_only",
@@ -1307,23 +1636,58 @@
       },
       "MUE 1571": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1572": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1573": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1621": {
         "status": "partially_documented",
-        "material_file": "docs/courses/udem/MUE-1621.md"
+        "material_file": "docs/courses/udem/MUE-1621.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 1622": {
         "status": "partially_documented",
-        "material_file": "docs/courses/udem/MUE-1622.md"
+        "material_file": "docs/courses/udem/MUE-1622.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUE 2351": {
         "status": "catalog_only",
@@ -1349,147 +1713,399 @@
       },
       "MUI 1023A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1023a/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1033A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1043A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1053A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1073A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1073a/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1083A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1103A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1123A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1132A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1143A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1153A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1162A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1173A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1183A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1193A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1203A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1213A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1223A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1233A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1243A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1253A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1263A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1273A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1283A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1293A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1303A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1313A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1403A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1413A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1423A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1453A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1463A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1473A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1483A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1523A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUI 1533A": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_program_catalogue",
+          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
+          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
+          "reviewed_on": "2026-11-10"
+        }
       }
     },
     "mcgill": {

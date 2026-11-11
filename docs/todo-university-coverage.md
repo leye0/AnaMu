@@ -60,6 +60,8 @@ La suite vise les cours restants, par lots, sans fiche littéraire ni tests.
 
 **Deuxième paquet de la même longue passe du 10 novembre 2026 :** [30 autres cours UdeM](raw-batches/2026-11-10-udem-30-more-topic-outlines.md) et [16 autres McGill](raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md), dont **18 descriptions 1A utilisables et 28 partielles**. Au total pour cette reprise, **148 nouveaux cours traités**. Suivi global : **121 utilisables, 66 partiels, 187 traités** sur 402. Attention aux leçons individuelles et ensembles, qui n'ont pas de programmes standardisés.
 
+**Lot UdeM supplémentaire :** [88 codes d'ensembles, instruments et stages/ateliers](raw-batches/2026-11-10-udem-88-ensembles-instruments.md) cartographiés prudemment, **88 partiels** car sujets variables, sans inventer de progression. La couverture UdeM atteint **190/190 codes avec `topic_outline`**; ce sont des contours, pas la prétention que la profondeur de ces cours est atteinte. Compteur total : 121 utilisables, 154 partiels, 275/402 traités.
+
 ## Mode d'emploi et définition de « terminé »
 
 **Aucune case ci-dessous n'est actuellement validée.** Des catalogues
