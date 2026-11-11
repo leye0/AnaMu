@@ -32,6 +32,7 @@ Un agent commence par [AGENTS.md](../AGENTS.md). **Objectif prioritaire : cartog
    [McGill — 16 notices d'histoire et d'écoute musicale](raw-batches/2026-11-11-mcgill-16-music-history-courses.md) : 13 nouveaux cours voisins, trois codes déjà présents et quatre restrictions formelles d'admissibilité aux B.Mus./L.Mus.
    [McGill — 14 cours de théorie et analyse](raw-batches/2026-11-11-mcgill-14-music-theory-analysis.md) : quatre voisins nouveaux et dix codes historiques approfondis sur l'écriture musicale.
    [McGill — 17 cours de solfège, oreille et musicienship](raw-batches/2026-11-11-mcgill-17-musicianship-ear-training.md) : dix voisins nouveaux et sept codes historiques recoupés en progression tonale/post-tonale.
+   [McGill — 13 cours de techniques instrumentales et pédagogie musicale](raw-batches/2026-11-11-mcgill-13-music-pedagogy-techniques.md) : cordes, vents, percussion, guitare, chant, direction et transmission de la musique.
    [Berklee Boston — 31 notices directes relues](raw-batches/2026-11-11-berklee-31-direct-course-notices.md) : 21 cartes enrichies, dix conservées partielles ; sources de catalogue, non syllabus.
    [Berklee — 17 cartes relues sur notices détaillées](raw-batches/2026-11-10-berklee-17-verified-refinements.md), dont 14 enrichies jusqu'au seuil exploitable.
    [Berklee : 25 cours musicaux concrets trouvés dans les options](raw-batches/2026-11-10-berklee-36-real-open-electives.md) et [registre candidat structuré](data/berklee-open-elective-candidates-2026.json).
