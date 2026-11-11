@@ -1,5 +1,11 @@
 # Acquisition exhaustive de la matière des cours
 
+## Clôture de recherche publique — distincte de la connaissance du cours
+
+**Décision du 11 novembre 2026 :** s'il n'existe dans les sources ouvertes revues aucun plan de section attribuable au code, ou si l'enseignement est adapté à l'étudiant/la répétition/le stage, **la recherche peut être marquée terminée en meilleur effort**. C'est un statut d'effort, pas de contenu. Le registre conserve `topic_outline.state=partial`, les lacunes et le `status` historique; il ajoute `topic_outline.public_research.state=completed_best_effort`, sa date, les sources, le motif et une condition de réouverture. Un résultat négatif est **borné aux sources examinées**, jamais la preuve qu'aucun document n'existe ailleurs.
+
+[Audit de 87 cours clôturés sans fausse promotion](raw-batches/2026-11-11-public-search-closure-87-partial-courses.md) et [28 recherches actives parmi 115 matières partielles](remaining-115-course-evidence-queue-2026-11-11.md). **Ne pas rechercher à nouveau systématiquement les 87** lors du prochain passage, sauf si une preuve plus précise surgit. Les huit familles musicales à déplier demeurent actives. Aucun test ni travail sur la CI.
+
 **Phase active unique d'AnaMu.** Ce contrat garantit qu'un catalogue ou une description sommaire ne soit jamais pris pour le **contenu musical réellement enseigné**.
 
 **Avant toute recherche :** [appliquer le filtre musical](music-only-scope.md). Les anciens nombres 402 et 17 désignent un registre pré-filtrage et ne sont plus des cibles.
