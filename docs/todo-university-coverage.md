@@ -14,7 +14,7 @@ une simple liste de matières. Référentiel et sources :
 Le [registre de progression](data/course-material-progress.json) suit
 **402 codes de cours candidats** et les **5 ensembles d'options à déplier**.
 
-La collecte du 10 novembre 2026 ajoute **16 fiches partielles** pour des cours de Berklee Boston, reliées à **12 plans pédagogiques publics distincts** de Berklee Online. Ces plans parallèles complètent les preuves déjà recensées. Les [pistes examinées et les lacunes](course-material-source-trail.md) indiquent où reprendre la collecte UdeM et McGill et détaillent les huit options de majeure explicitement nommées par Berklee.
+La collecte du 11 novembre 2026 complète [trois syllabus Berklee Online en composition contemporaine et créativité](berklee-online-contemporary-source-trail.md) (douze leçons chacun), documente les [exigences de l'examen instrumental MUIN 283](courses/mcgill/MUIN-283.md) et établit un lien de provenance vers [CM-103](courses/berklee/CM-103.md). Le registre passe à **195 fiches partielles**, 13 syllabus documentés et 194 cours encore au seul stade catalogue ; les contenus Boston et UdeM ne sont pas assimilés aux cours en ligne.\n\nLa collecte du 10 novembre 2026 ajoute **16 fiches partielles** pour des cours de Berklee Boston, reliées à **12 plans pédagogiques publics distincts** de Berklee Online. Ces plans parallèles complètent les preuves déjà recensées. Les [pistes examinées et les lacunes](course-material-source-trail.md) indiquent où reprendre la collecte UdeM et McGill et détaillent les huit options de majeure explicitement nommées par Berklee.
 
 **VERROU DE PHASE : seuls les travaux de collecte A01–A15, A18 et de revue
 de leur couverture sont actifs.** La réconciliation de concepts A16–A17,
