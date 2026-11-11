@@ -1,6 +1,8 @@
 # AnaMu — TODO de couverture universitaire exhaustive
 
-**Branche voisine McGill pédagogie et instruments (11 novembre) :** [13 notices musicales MUCT/MUGT/MUIT](raw-batches/2026-11-11-mcgill-13-music-pedagogy-techniques.md), distinctes des études générales non musicales : voix, cordes, vents, percussion, guitare, direction et pédagogie musicale. **Total : 140 cours musicaux voisins distincts documentés** en neuf lots (18 + 29 + 22 + 15 + 16 + 13 + 4 + 10 + 13), en conservant séparément les 386 entrées historiques.
+**Fondations Berklee Boston (11 novembre) :** [28 notices directes de théorie, écoute, histoire, direction et arrangement](raw-batches/2026-11-11-berklee-28-foundation-harmony-ear-arranging.md), dont quatre cours voisins et **24 sources de cours déjà dans les 386** (évite le double comptage). **Total actuel : 144 cours musicaux voisins distincts documentés** en dix lots (18 + 29 + 22 + 15 + 16 + 13 + 4 + 10 + 13 + 4), et 52 recoupements individuels, en conservant séparément les 386 entrées historiques.
+
+**Branche voisine McGill pédagogie et instruments (11 novembre) :** [13 notices musicales MUCT/MUGT/MUIT](raw-batches/2026-11-11-mcgill-13-music-pedagogy-techniques.md), distinctes des études générales non musicales : voix, cordes, vents, percussion, guitare, direction et pédagogie musicale.
 
 **Branche voisine McGill oreille et solfège (11 novembre) :** [17 descriptions MUSP](raw-batches/2026-11-11-mcgill-17-musicianship-ear-training.md), dont dix cours nouveaux et sept codes historiques précisés ; progression de dictée, rythme, lecture à vue et chant mensural.
 
