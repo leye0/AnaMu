@@ -3,6 +3,19 @@
 **Lis ce fichier avant de modifier le projet.** Il résume les décisions
 fondamentales ; les liens ci-dessous désignent les documents normatifs.
 
+## FILTRE MUSICAL OBLIGATOIRE — DÉCISION DU 10 NOVEMBRE 2026
+
+**NE PLUS collecter de cours sans objet musical explicite.** Art visuel,
+culture générale, littérature, sociologie, psychologie ou santé générales
+sont exclus de la recherche musicale même s'ils font partie du diplôme.
+Seules les matières traitant de musique (y compris son acoustique,
+cognition, histoire, pratiques, production, industrie du musicien) sont
+admissibles. [Liste des 16 entrées et 11 candidats supprimés](docs/music-only-scope.md).
+**Périmètre courant : 386 entrées**, dont 203 exploitables, 175 partielles,
+8 familles musicales. Le chiffre historique 402 n'est PLUS le scope.
+Les grilles officielles originales restent des sources, pas des listes
+de travail imposant tous les cours non musicaux.
+
 ## La mission, en une phrase
 
 Construire une **très vaste base unifiée de connaissances académiques sur la
@@ -32,7 +45,7 @@ algorithmique ni test musical à cette étape.
 
 ## DÉCISION PRIORITAIRE — objectif réel de la première passe (10 novembre 2026)
 
-**Le livrable attendu pour CHACUN des environ 402 cours est une DESCRIPTION
+**Le livrable attendu pour CHACUN des 386 entrées musicales est une DESCRIPTION
 DÉTAILLÉE DES SUJETS ENSEIGNÉS**, et non la collection exhaustive de tout
 le matériel exact utilisé par le professeur.
 
@@ -114,7 +127,7 @@ logicielle**.
 
 Léon privilégie la **vitesse et la matière brute** aux fiches longues et polies.
 **Traiter 10 à 30 cours ou sources par passe**, avec la priorité absolue
-aux 402 codes déjà inventoriés, particulièrement les 194 au stade catalogue.
+aux codes musicaux déjà inventoriés, particulièrement les 194 au stade catalogue.
 
 - Consigner dans docs/raw-batches un tableau court : code exact, édition,
   URL institutionnelle, type de preuve, matière/lecture/exercice identifié,

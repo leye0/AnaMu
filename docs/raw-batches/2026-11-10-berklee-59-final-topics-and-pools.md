@@ -1,8 +1,10 @@
-# Berklee Boston — 59 entrées restantes : sujets et codes de choix génériques
+# Berklee Boston — 48 entrées musicales : sujets et codes de choix génériques
 
-**Date : 10 novembre 2026.** Ce lot épuise les 59 dernières entrées non triées du registre de 402, mais **17 ne sont pas des cours uniques** : ce sont des familles de codes représentant un choix de disciplines, d'instruments ou de section. Une famille a `topic_outline.state=unresolved_pool`, distinct de `partial` (un vrai cours avec faible profondeur) et de `usable_first_pass` (sujets suffisamment précis dans les notices).
+**LENG-111, LENG-223 et neuf familles généralistes ont été supprimés.**
 
-**Bilan de ce lot :** 29 descriptions thématiques exploitables, 13 partielles, 17 familles de cours non dépliées. Les cours concrets ont pour source des **notices officielles Berklee Boston**, pas un syllabus inventé. Le [programme de majeure](https://college.berklee.edu/program-requirements/composition-bachelors-degree) établit les familles; certains cours sont d'autres majeures et restent dans l'union des savoirs mais **pas automatiquement admissibles** aux crédits Composition.
+**Date : 10 novembre 2026.** Ce lot épuise les 48 entrées musicales du dernier lot initial, mais **8 ne sont pas des cours uniques** : ce sont des familles de codes représentant un choix de disciplines, d'instruments ou de section. Une famille a `topic_outline.state=unresolved_pool`, distinct de `partial` (un vrai cours avec faible profondeur) et de `usable_first_pass` (sujets suffisamment précis dans les notices).
+
+**Bilan de ce lot :** 28 descriptions thématiques exploitables, 12 partielles, 8 familles de cours non dépliées. Les cours concrets ont pour source des **notices officielles Berklee Boston**, pas un syllabus inventé. Le [programme de majeure](https://college.berklee.edu/program-requirements/composition-bachelors-degree) établit les familles; certains cours sont d'autres majeures et restent dans l'union des savoirs mais **pas automatiquement admissibles** aux crédits Composition.
 
 ## LHUM-400 — Professional Development Seminar
 
@@ -13,26 +15,6 @@
 - relations de travail et réseautage
 - recherche d'opportunités et portfolio
 - plan d'avancement professionnel
-
-## LENG-111 — Introduction to College Writing
-
-**État 1A : carte thématique exploitable.** [Source institutionnelle](https://college.berklee.edu/courses/leng-111) · [Fiche ancienne](../courses/berklee/LENG-111.md).
-
-- Lecture analytique et réponse critique
-- narration personnelle
-- argumentation et formulation de thèse
-- évaluation des sources
-- rédaction, révision et essai final
-
-## LENG-223 — Literature Topics
-
-**État 1A : carte partielle / contenu variable.** [Source institutionnelle](https://college.berklee.edu/courses/leng-223) · [Fiche ancienne](../courses/berklee/LENG-223.md).
-
-- Lecture de fiction, non-fiction, poésie et théâtre
-- point de vue, cadre et personnage
-- formes narratives
-- écriture créative et révision
-- analyse critique du lien entre musique et littérature
 
 ## AFST-221 — Global Afrodiasporic Musics
 
@@ -423,47 +405,6 @@
 - lauréats Pulitzer et Grawemeyer
 - œuvres renouvelées selon l'actualité de la création
 
-## LMSC-xxx — Mathématiques et sciences au choix
-
-**État 1A : FAMILLE À DÉPLIER (pas un cours).** [Source institutionnelle](https://college.berklee.edu/program-requirements/composition-bachelors-degree) · [Fiche ancienne](../courses/berklee/LMSC-xxx.md).
-
-- Famille de choix en mathématiques/sciences
-- cours de niveau au moins 200 dans la grille
-- les sujets exacts dépendent du cours effectivement sélectionné
-- aucun syllabus unique pour ce code générique
-
-## LSOC-xxx — Sciences sociales au choix
-
-**État 1A : FAMILLE À DÉPLIER (pas un cours).** [Source institutionnelle](https://college.berklee.edu/program-requirements/composition-bachelors-degree) · [Fiche ancienne](../courses/berklee/LSOC-xxx.md).
-
-- Catégorie de cours de sciences sociales
-- disciplines et notions dépendant du choix individuel
-- impossible de déduire une progression de cette simple famille de codes
-
-## ASOC-xxx — Sciences sociales et études africaines au choix
-
-**État 1A : FAMILLE À DÉPLIER (pas un cours).** [Source institutionnelle](https://college.berklee.edu/program-requirements/composition-bachelors-degree).
-
-- Alternative de cours en sciences sociales Africana Studies
-- contenu historique, sociologique ou politique selon le cours retenu
-- code factice sans syllabus
-
-## Lxxx-xxx — Option générale liberal arts
-
-**État 1A : FAMILLE À DÉPLIER (pas un cours).** [Source institutionnelle](https://college.berklee.edu/program-requirements/composition-bachelors-degree).
-
-- Choix parmi différentes familles de formation générale
-- le code ne désigne aucun cours institutionnel concret
-- aucune notion commune ne peut être déclarée
-
-## Axxx-xxx — Option générale Africana Studies
-
-**État 1A : FAMILLE À DÉPLIER (pas un cours).** [Source institutionnelle](https://college.berklee.edu/program-requirements/composition-bachelors-degree).
-
-- Choix libre dans la famille Africana Studies
-- l'étudiant choisit une classe réelle
-- pas de syllabus ou matière universelle attaché à ce modèle
-
 ## PIxx-111 — Private Instruction 1
 
 **État 1A : FAMILLE À DÉPLIER (pas un cours).** [Source institutionnelle](https://college.berklee.edu/program-requirements/composition-bachelors-degree).
@@ -512,38 +453,6 @@
 - pratiques collectives et répétitions
 - effectif, tradition et pièces dépendent de la formation exacte
 
-## LENS-10x — Entering Student Seminar
-
-**État 1A : FAMILLE À DÉPLIER (pas un cours).** [Source institutionnelle](https://college.berklee.edu/program-requirements/composition-bachelors-degree).
-
-- Séminaire pour nouveaux étudiants, code variable
-- orientation et intégration aux études
-- programme de section et thèmes non définis par le code générique
-
-## LHIS-xxx — History Elective
-
-**État 1A : FAMILLE À DÉPLIER (pas un cours).** [Source institutionnelle](https://college.berklee.edu/program-requirements/composition-bachelors-degree).
-
-- Choix en histoire
-- périodes et objets historiques propres au cours choisi
-- pas de progression musicale commune à cette famille
-
-## AHIS-xxx — Africana History Elective
-
-**État 1A : FAMILLE À DÉPLIER (pas un cours).** [Source institutionnelle](https://college.berklee.edu/program-requirements/composition-bachelors-degree).
-
-- Choix en histoire dans Africana Studies
-- domaines historiques variés
-- aucun thème musical garanti dans tous les cours
-
-## LVIS-xxx — Visual Studies
-
-**État 1A : FAMILLE À DÉPLIER (pas un cours).** [Source institutionnelle](https://college.berklee.edu/program-requirements/composition-bachelors-degree).
-
-- Famille des études visuelles
-- arts, images, médias et méthodes selon cours choisi
-- pas d'enseignement spécifique fixe sous ce seul code
-
 ## LMAS-xxx — Music and Society
 
 **État 1A : FAMILLE À DÉPLIER (pas un cours).** [Source institutionnelle](https://college.berklee.edu/program-requirements/composition-bachelors-degree).
@@ -562,4 +471,4 @@
 
 ## Portée du compteur
 
-**Tous les 402 items ont à présent une carte ou une marque de non-résolution explicite.** Toutefois les **17 familles** de ce lot ne sont **pas** 17 cours détaillés. Les cours individuels à contenu variable et les premiers niveaux de pratique restent souvent partiels. Le vrai objectif de terminer la carte 1A exige de **déplier les familles en codes concrets**, et de renforcer les cartes partielles où le catalogue ne détaille pas assez les contenus. L'ancien indicateur `catalog_only` n'est pas promu automatiquement.
+**Les 386 items musicaux ont à présent une carte ou une marque de non-résolution explicite.** Toutefois les **8 familles** de ce lot ne sont **pas** 17 cours détaillés. Les cours individuels à contenu variable et les premiers niveaux de pratique restent souvent partiels. Le vrai objectif de terminer la carte 1A exige de **déplier les familles en codes concrets**, et de renforcer les cartes partielles où le catalogue ne détaille pas assez les contenus. L'ancien indicateur `catalog_only` n'est pas promu automatiquement.

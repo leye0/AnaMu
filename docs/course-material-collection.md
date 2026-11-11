@@ -2,6 +2,8 @@
 
 **Phase active unique d'AnaMu.** Ce contrat garantit qu'un catalogue ou une description sommaire ne soit jamais pris pour le **contenu musical réellement enseigné**.
 
+**Avant toute recherche :** [appliquer le filtre musical](music-only-scope.md). Les anciens nombres 402 et 17 désignent un registre pré-filtrage et ne sont plus des cibles.
+
 ## RÈGLE DE CADENCE 1A — contenu, pas dossiers administratifs
 
 **Décision du 10 novembre 2026 :** compléter **une description détaillée des
@@ -23,7 +25,7 @@ la passe 1A et évitent une fiche individuelle par cours.
 
 **Les colonnes détaillées et la porte à la base de concepts plus bas sont
 les cibles de la phase 1B / réconciliation, pas des exigences à imposer aux
-402 cours dans la passe 1A.** Aucun test ni travail de CI.
+386 entrées musicales dans la passe 1A.** Aucun test ni travail de CI.
 
 ## Unité : un cours dans une édition donnée
 
@@ -75,7 +77,7 @@ finale après l'ingestion, pas un obstacle à l'exploration. Chaque ligne donne
 le code, l'édition, le lien, la qualité de la source et la matière réellement
 enseignée. Conserver les inconnues et les contradictions.
 
-Priorité : d'abord les 402 cours suivis (notamment catalog_only), puis les
+Priorité : d'abord les 386 entrées musicales suivis (notamment catalog_only), puis les
 options à déplier, puis les autres cours académiques complémentaires. Un
 plan-cadre externe ne promeut aucun cours au statut syllabus obtenu.
 Les chiffres de PDF, de cours distincts et de vrais syllabus restent

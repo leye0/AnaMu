@@ -1207,5 +1207,16 @@
       "credits": 3,
       "block": "75H"
     }
-  ]
+  ],
+  "music_scope_filter": {
+    "research_only": true,
+    "excluded_codes": [
+      "HAR 1200",
+      "HAR 2195",
+      "HAR 3900",
+      "SOL 1017",
+      "SOL 3410"
+    ],
+    "official_source_preserved": true
+  }
 }

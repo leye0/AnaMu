@@ -1,6 +1,8 @@
 # Documentation AnaMu — entrée académique
 
-Un agent commence par [AGENTS.md](../AGENTS.md). **Objectif prioritaire : cartographier par descriptions détaillées les thèmes des ~402 cours, puis seulement rechercher de la documentation académique par sujet.** Aucun développement algorithmique ni recherche des devoirs exacts n'est actif.
+Un agent commence par [AGENTS.md](../AGENTS.md). **Objectif prioritaire : cartographier par descriptions détaillées les thèmes des 386 entrées musicales, puis seulement rechercher de la documentation académique par sujet.** Aucun développement algorithmique ni recherche des devoirs exacts n'est actif.
+
+**Périmètre filtré :** [cours exclusivement musicaux](music-only-scope.md). 16 entrées principales et 11 candidats hors musique supprimés. [Bilan courant](topic-outline-coverage-status.md).
 
 ## Sources et consignes courantes
 
@@ -16,12 +18,12 @@ Un agent commence par [AGENTS.md](../AGENTS.md). **Objectif prioritaire : cartog
    [Cartographie UdeM : 88 ensembles, ateliers et cours instrumentaux](raw-batches/2026-11-10-udem-88-ensembles-instruments.md) — limites des enseignements à programme variable.
    [Berklee Boston : lot de 68 cours composition/harmonie/production](raw-batches/2026-11-10-berklee-68-program-courses.md) — cartes de matière et liens du campus.
    [Berklee Boston : 59 dernières entrées, vrais cours et familles à déplier](raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md) — aucune fausse équivalence entre un code générique et un syllabus.
-   [Bilan 1A du ratissage des 402 entrées](topic-outline-coverage-status.md) : 186 exploitables, 199 à préciser, 17 catégories de cours à déplier.
+   [Bilan 1A du ratissage des 386 entrées musicales](topic-outline-coverage-status.md) : 186 exploitables, 199 à préciser, 17 catégories de cours à déplier.
    [Berklee — 17 cartes relues sur notices détaillées](raw-batches/2026-11-10-berklee-17-verified-refinements.md), dont 14 enrichies jusqu'au seuil exploitable.
-   [Berklee : 36 cours concrets trouvés dans les options](raw-batches/2026-11-10-berklee-36-real-open-electives.md) et [registre candidat structuré](data/berklee-open-elective-candidates-2026.json).
+   [Berklee : 25 cours musicaux concrets trouvés dans les options](raw-batches/2026-11-10-berklee-36-real-open-electives.md) et [registre candidat structuré](data/berklee-open-elective-candidates-2026.json).
    [UdeM — 22 codes d'ensembles avec matière spécifique sourcée](raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md).
    [Registre de progression cours par cours](data/course-material-progress.json)
-   — 402 entrées, dont 13 syllabus documentés, 195 fiches partielles, 194 fiches au catalogue et cinq pools de choix à explorer.
+   — 386 entrées musicales, dont 13 syllabus documentés, 195 fiches partielles, 194 fiches au catalogue et cinq pools de choix à explorer.
    [Inventaire des options de majeure Berklee](berklee-major-elective-candidates.md).
    [Pistes de recherche et d’accès aux supports](course-material-source-trail.md).
    [Collecte RAW UdeM : 19 PDF officiels](raw-batches/2026-11-10-udem-19-plans.md) : notes courtes, consignes et pondérations par cours, doublons repérés.

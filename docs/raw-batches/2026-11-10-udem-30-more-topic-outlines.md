@@ -1,4 +1,6 @@
-# Passe 1A — 30 autres cours UdeM (10 novembre 2026)
+# Passe 1A — 26 autres cours musicaux UdeM (10 novembre 2026)
+
+**Les trois HAR et SOL 3410 ont été supprimés.**
 
 **Périmètre :** cartographie des sujets annoncés officiellement dans le [programme](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/). 12 descriptions exploitables, 18 partielles. Les pratiques individualisées/ensembles n'ont **pas de cursus uniforme publié** ; la source ne doit pas être gonflée en prétendu syllabus. Les cours UdeM de ce lot comprennent des enseignements catalog_only auparavant sans fiche individuelle.
 
@@ -128,35 +130,6 @@
 - second niveau de spécialisation
 - projet narratif et outils particuliers non indiqués
 
-## HAR 1200 — Introduction à l'art moderne
-
-**Carte 1A : usable_first_pass.** [Notice officielle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [ancienne fiche](../courses/udem/HAR-1200.md).
-
-- Modernité artistique de Manet à aujourd'hui
-- tensions imitation et expression
-- avant-gardes et accélération des courants
-- fonction critique de l'art
-- critique des institutions artistiques
-
-## HAR 2195 — Art, culture et identité au Québec
-
-**Carte 1A : usable_first_pass.** [Notice officielle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [ancienne fiche](../courses/udem/HAR-2195.md).
-
-- Histoire des arts du Québec aux XIXe et XXe siècles
-- approches de l'identité culturelle
-- liens politiques et sociaux
-- transformations des pratiques artistiques et des représentations
-
-## HAR 3900 — Art et théorie
-
-**Carte 1A : usable_first_pass.** [Notice officielle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [ancienne fiche](../courses/udem/HAR-3900.md).
-
-- Philosophie et discours sur l'art
-- structuralisme et poststructuralisme
-- psychanalyse et féminisme
-- études visuelles et culturelles
-- perspective postcoloniale autour d'une problématique choisie
-
 ## MUL 1134 — Introduction à la musicologie
 
 **Carte 1A : usable_first_pass.** [Notice officielle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [ancienne fiche](../courses/udem/MUL-1134.md).
@@ -183,16 +156,6 @@
 - évolutions de la sociologie de la musique
 - relations entre analyse musicologique et sciences sociales
 - conceptualisations contemporaines des phénomènes musicaux
-
-## SOL 3410 — Technosciences, culture et société
-
-**Carte 1A : usable_first_pass.** [Notice officielle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [ancienne fiche](../courses/udem/SOL-3410.md).
-
-- Transformations sociales liées aux technosciences
-- Internet et technologies de l'information
-- biotechnologies
-- génie génétique et clonage
-- conséquences culturelles et sociétales
 
 ## MUE 1161 — Atelier de musique contemporaine 1
 

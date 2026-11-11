@@ -1,5 +1,7 @@
 # AnaMu — TODO de couverture universitaire exhaustive
 
+**FILTRAGE EFFECTIF : 386 entrées musicales, et non 402**. Les anciennes statistiques plus bas sont historiques. [16 codes principaux et 11 candidats éliminés](music-only-scope.md). [État actuel](topic-outline-coverage-status.md). Aucun cours de culture générale ou d'arts visuels non musicaux à poursuivre.
+
 **Unique liste de priorités du projet.** Objectif : analyser les œuvres
 avec la profondeur d'une formation universitaire complète en composition
 et orchestration, **avant** d'engager la composition automatique. Notre cible

@@ -10,7 +10,7 @@
   "candidates": [
     {
       "code": "LMSC-207",
-      "candidate_for_pool": "LMSC-xxx",
+      "candidate_for_pool": null,
       "title": "Applied Acoustics for the Writer/Producer",
       "topics": [
         "Ondes sonores et vibrations",
@@ -21,11 +21,12 @@
       "source_url": "https://college.berklee.edu/courses/lmsc-207",
       "source_kind": "berklee_boston_official_course_catalogue",
       "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
+      "admissibility": "candidate_open_elective_not_enrollment_confirmation",
+      "historical_family": "LMSC-xxx"
     },
     {
       "code": "LMSC-208",
-      "candidate_for_pool": "LMSC-xxx",
+      "candidate_for_pool": null,
       "title": "Music Acoustics",
       "topics": [
         "Propagation et vibration",
@@ -36,11 +37,12 @@
       "source_url": "https://college.berklee.edu/courses/lmsc-208",
       "source_kind": "berklee_boston_official_course_catalogue",
       "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
+      "admissibility": "candidate_open_elective_not_enrollment_confirmation",
+      "historical_family": "LMSC-xxx"
     },
     {
       "code": "LMSC-209",
-      "candidate_for_pool": "LMSC-xxx",
+      "candidate_for_pool": null,
       "title": "Architectural Acoustics",
       "topics": [
         "Sources vibrantes et ondes",
@@ -52,11 +54,12 @@
       "source_url": "https://college.berklee.edu/courses/lmsc-209",
       "source_kind": "berklee_boston_official_course_catalogue",
       "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
+      "admissibility": "candidate_open_elective_not_enrollment_confirmation",
+      "historical_family": "LMSC-xxx"
     },
     {
       "code": "LMSC-210",
-      "candidate_for_pool": "LMSC-xxx",
+      "candidate_for_pool": null,
       "title": "Principles of Audio Electronics",
       "topics": [
         "Circuits de base en courant continu et alternatif",
@@ -68,11 +71,12 @@
       "source_url": "https://college.berklee.edu/courses/lmsc-210",
       "source_kind": "berklee_boston_official_course_catalogue",
       "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
+      "admissibility": "candidate_open_elective_not_enrollment_confirmation",
+      "historical_family": "LMSC-xxx"
     },
     {
       "code": "LMSC-211",
-      "candidate_for_pool": "LMSC-xxx",
+      "candidate_for_pool": null,
       "title": "Technology of Acoustic Instruments",
       "topics": [
         "Construction et évolution des instruments acoustiques",
@@ -84,26 +88,12 @@
       "source_url": "https://college.berklee.edu/courses/lmsc-211",
       "source_kind": "berklee_boston_official_course_catalogue",
       "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
-    },
-    {
-      "code": "LMSC-221",
-      "candidate_for_pool": "LMSC-xxx",
-      "title": "The Science of Health",
-      "topics": [
-        "Physiologie de la santé",
-        "nutrition et activité physique",
-        "stress et santé",
-        "environnement physique et comportements de santé"
-      ],
-      "source_url": "https://college.berklee.edu/courses/lmsc-221",
-      "source_kind": "berklee_boston_official_course_catalogue",
-      "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
+      "admissibility": "candidate_open_elective_not_enrollment_confirmation",
+      "historical_family": "LMSC-xxx"
     },
     {
       "code": "LMSC-307",
-      "candidate_for_pool": "LMSC-xxx",
+      "candidate_for_pool": null,
       "title": "Introduction to Psychoacoustics",
       "topics": [
         "Trajet auditif du tympan au cortex",
@@ -115,27 +105,12 @@
       "source_url": "https://college.berklee.edu/courses/lmsc-307",
       "source_kind": "berklee_boston_official_course_catalogue",
       "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
-    },
-    {
-      "code": "LSOC-211",
-      "candidate_for_pool": "LSOC-xxx",
-      "title": "General Psychology",
-      "topics": [
-        "Bases biologiques du comportement",
-        "apprentissage et mémoire",
-        "développement humain",
-        "santé mentale et interactions sociales",
-        "évaluation de la recherche"
-      ],
-      "source_url": "https://college.berklee.edu/courses/lsoc-211",
-      "source_kind": "berklee_boston_official_course_catalogue",
-      "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
+      "admissibility": "candidate_open_elective_not_enrollment_confirmation",
+      "historical_family": "LMSC-xxx"
     },
     {
       "code": "LSOC-212",
-      "candidate_for_pool": "LSOC-xxx",
+      "candidate_for_pool": null,
       "title": "Psychology of Music",
       "topics": [
         "Perception et cognition musicales",
@@ -146,58 +121,12 @@
       "source_url": "https://college.berklee.edu/courses/lsoc-212",
       "source_kind": "berklee_boston_official_course_catalogue",
       "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
-    },
-    {
-      "code": "LSOC-214",
-      "candidate_for_pool": "LSOC-xxx",
-      "title": "Positive Psychology",
-      "topics": [
-        "Forces et bien-être des individus et communautés",
-        "preuves scientifiques et méthodes de psychologie",
-        "émotions positives",
-        "sens, liens sociaux et satisfaction"
-      ],
-      "source_url": "https://college.berklee.edu/courses/lsoc-214",
-      "source_kind": "berklee_boston_official_course_catalogue",
-      "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
-    },
-    {
-      "code": "LSOC-215",
-      "candidate_for_pool": "LSOC-xxx",
-      "title": "Social Psychology",
-      "topics": [
-        "Conformisme et obéissance",
-        "biais implicites et explicites",
-        "normes de groupe",
-        "identité, motivation et relations",
-        "influence d'autrui sur jugement"
-      ],
-      "source_url": "https://college.berklee.edu/courses/lsoc-215",
-      "source_kind": "berklee_boston_official_course_catalogue",
-      "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
-    },
-    {
-      "code": "LSOC-216",
-      "candidate_for_pool": "LSOC-xxx",
-      "title": "Cognitive Psychology",
-      "topics": [
-        "Attention et perception",
-        "mémoire",
-        "décision et intuitions erronées",
-        "organisation de connaissances",
-        "effets de la musique sur concentration"
-      ],
-      "source_url": "https://college.berklee.edu/courses/lsoc-216",
-      "source_kind": "berklee_boston_official_course_catalogue",
-      "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
+      "admissibility": "candidate_open_elective_not_enrollment_confirmation",
+      "historical_family": "LSOC-xxx"
     },
     {
       "code": "LSOC-307",
-      "candidate_for_pool": "LSOC-xxx",
+      "candidate_for_pool": null,
       "title": "Music Cognition",
       "topics": [
         "Représentations cérébrales de structures musicales",
@@ -209,22 +138,8 @@
       "source_url": "https://college.berklee.edu/courses/lsoc-307",
       "source_kind": "berklee_boston_official_course_catalogue",
       "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
-    },
-    {
-      "code": "LSOC-318",
-      "candidate_for_pool": "LSOC-xxx",
-      "title": "Introduction to Neuroscience",
-      "topics": [
-        "Neuroanatomie et neurophysiologie",
-        "sensation, perception et action",
-        "apprentissage, mémoire et décision",
-        "mécanismes des comportements dirigés"
-      ],
-      "source_url": "https://college.berklee.edu/courses/lsoc-318",
-      "source_kind": "berklee_boston_official_course_catalogue",
-      "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
+      "admissibility": "candidate_open_elective_not_enrollment_confirmation",
+      "historical_family": "LSOC-xxx"
     },
     {
       "code": "LMAS-213",
@@ -398,85 +313,8 @@
       "admissibility": "candidate_open_elective_not_enrollment_confirmation"
     },
     {
-      "code": "AHIS-301",
-      "candidate_for_pool": "AHIS-xxx",
-      "title": "Women in Africa and African Diasporic Cultures",
-      "topics": [
-        "Histoire sociale des femmes africaines et diasporiques",
-        "représentations médiatiques",
-        "mouvements féministes",
-        "interactions de genre et colonialité",
-        "sources artistiques militantes et scientifiques"
-      ],
-      "source_url": "https://college.berklee.edu/courses/ahis-301",
-      "source_kind": "berklee_boston_official_course_catalogue",
-      "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
-    },
-    {
-      "code": "LVIS-231",
-      "candidate_for_pool": "LVIS-xxx",
-      "title": "The Ancient and Medieval Worlds",
-      "topics": [
-        "Arts de la préhistoire au gothique",
-        "peinture sculpture et architecture",
-        "Égypte Grèce Rome et Byzance",
-        "arts romans et gothiques",
-        "visites et analyse de collections"
-      ],
-      "source_url": "https://college.berklee.edu/courses/lvis-231",
-      "source_kind": "berklee_boston_official_course_catalogue",
-      "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
-    },
-    {
-      "code": "LVIS-232",
-      "candidate_for_pool": "LVIS-xxx",
-      "title": "The Renaissance to the Present",
-      "topics": [
-        "Histoire des arts de la Renaissance au XXe siècle",
-        "maniérisme baroque rococo et néoclassicisme",
-        "romantisme réalisme et impressionnisme",
-        "art américain et débuts de l'abstraction"
-      ],
-      "source_url": "https://college.berklee.edu/courses/lvis-232",
-      "source_kind": "berklee_boston_official_course_catalogue",
-      "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
-    },
-    {
-      "code": "LVIS-239",
-      "candidate_for_pool": "LVIS-xxx",
-      "title": "History of Indian Cinema and Culture",
-      "topics": [
-        "Cinéma indien classique populaire/Bollywood et diasporique",
-        "postcolonialité et modernité",
-        "danse et musique au cinéma",
-        "symboles récits représentations et identités"
-      ],
-      "source_url": "https://college.berklee.edu/courses/lvis-239",
-      "source_kind": "berklee_boston_official_course_catalogue",
-      "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
-    },
-    {
-      "code": "LVIS-333",
-      "candidate_for_pool": "LVIS-xxx",
-      "title": "Approaches to Visual Culture",
-      "topics": [
-        "Culture visuelle et théories de l'image",
-        "arts de galerie et médias populaires",
-        "publicité cinéma télévision et nouvelles technologies",
-        "analyse et collage comme pratiques critiques"
-      ],
-      "source_url": "https://college.berklee.edu/courses/lvis-333",
-      "source_kind": "berklee_boston_official_course_catalogue",
-      "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
-    },
-    {
       "code": "LHIS-321",
-      "candidate_for_pool": "LHIS-xxx",
+      "candidate_for_pool": null,
       "title": "America From the Jazz Age to the MTV Age",
       "topics": [
         "Histoire culturelle des États-Unis entre les années 1920 et 1960",
@@ -487,11 +325,12 @@
       "source_url": "https://college.berklee.edu/courses/lhis-321",
       "source_kind": "berklee_boston_official_course_catalogue",
       "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
+      "admissibility": "candidate_open_elective_not_enrollment_confirmation",
+      "historical_family": "LHIS-xxx"
     },
     {
       "code": "AFST-308",
-      "candidate_for_pool": "Axxx-xxx",
+      "candidate_for_pool": null,
       "title": "Exploring Hip-Hop Culture from the Inside/Out",
       "topics": [
         "Émergence du hip-hop à Boston et aux États-Unis",
@@ -502,11 +341,12 @@
       "source_url": "https://college.berklee.edu/courses/afst-308",
       "source_kind": "berklee_boston_official_course_catalogue",
       "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
+      "admissibility": "candidate_open_elective_not_enrollment_confirmation",
+      "historical_family": "Axxx-xxx"
     },
     {
       "code": "AFST-321",
-      "candidate_for_pool": "Axxx-xxx",
+      "candidate_for_pool": null,
       "title": "Music of the African Continent",
       "topics": [
         "Traditions musicales régionales africaines",
@@ -517,11 +357,12 @@
       "source_url": "https://college.berklee.edu/courses/afst-321",
       "source_kind": "berklee_boston_official_course_catalogue",
       "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
+      "admissibility": "candidate_open_elective_not_enrollment_confirmation",
+      "historical_family": "Axxx-xxx"
     },
     {
       "code": "AFST-324",
-      "candidate_for_pool": "Axxx-xxx",
+      "candidate_for_pool": null,
       "title": "Black Music of the Caribbean and the African Diaspora",
       "topics": [
         "Rémanences et transformations esthétiques afro-caribéennes",
@@ -532,11 +373,12 @@
       "source_url": "https://college.berklee.edu/courses/afst-324",
       "source_kind": "berklee_boston_official_course_catalogue",
       "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
+      "admissibility": "candidate_open_elective_not_enrollment_confirmation",
+      "historical_family": "Axxx-xxx"
     },
     {
       "code": "AFST-325",
-      "candidate_for_pool": "Axxx-xxx",
+      "candidate_for_pool": null,
       "title": "Black Music of Central and South America",
       "topics": [
         "Racines africaines des genres latino-américains",
@@ -547,11 +389,12 @@
       "source_url": "https://college.berklee.edu/courses/afst-325",
       "source_kind": "berklee_boston_official_course_catalogue",
       "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
+      "admissibility": "candidate_open_elective_not_enrollment_confirmation",
+      "historical_family": "Axxx-xxx"
     },
     {
       "code": "AFST-326",
-      "candidate_for_pool": "Axxx-xxx",
+      "candidate_for_pool": null,
       "title": "Black Music in the United States",
       "topics": [
         "De la musique des esclaves aux spirituals blues gospel jazz et R&B",
@@ -562,7 +405,14 @@
       "source_url": "https://college.berklee.edu/courses/afst-326",
       "source_kind": "berklee_boston_official_course_catalogue",
       "topic_state": "usable_first_pass",
-      "admissibility": "candidate_open_elective_not_enrollment_confirmation"
+      "admissibility": "candidate_open_elective_not_enrollment_confirmation",
+      "historical_family": "Axxx-xxx"
     }
-  ]
+  ],
+  "music_scope": {
+    "policy_document": "docs/music-only-scope.md",
+    "previous_total": 36,
+    "excluded_count": 11,
+    "retained_count": 25
+  }
 }

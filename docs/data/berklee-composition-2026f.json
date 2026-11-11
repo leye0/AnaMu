@@ -406,5 +406,22 @@
         }
       ]
     }
-  ]
+  ],
+  "music_scope_filter": {
+    "research_only": true,
+    "excluded_codes": [
+      "LENG-111",
+      "LENG-223",
+      "LMSC-xxx",
+      "LSOC-xxx",
+      "ASOC-xxx",
+      "Lxxx-xxx",
+      "Axxx-xxx",
+      "LENS-10x",
+      "LHIS-xxx",
+      "AHIS-xxx",
+      "LVIS-xxx"
+    ],
+    "official_source_preserved": true
+  }
 }

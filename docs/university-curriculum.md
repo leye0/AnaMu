@@ -11,9 +11,13 @@ La [base de connaissances académiques](knowledge-base.md) définit **le produit
 à constituer à partir des cursus** : cours et syllabus sont des sources, les
 concepts musicaux réconciliés sont le patrimoine exploitable par AnaMu.
 
+## Distinction entre diplôme et périmètre musical
+
+Les cursus originaux comportent de la culture générale ; leurs exports officiels restent fidèles, mais les contenus sans lien musical sont exclus du registre AnaMu. [Filtre](music-only-scope.md) : 386 entrées actives et huit familles musicales.
+
 ## Priorité opérationnelle actuelle : couverture thématique, avant recherche bibliographique
 
-**Pour les ~402 cours, produire d'abord une description détaillée des sujets
+**Pour les 386 entrées musicales, produire d'abord une description détaillée des sujets
 et techniques enseignés**, à partir des plans/syllabi accessibles et, si
 suffisamment riches, des descriptions officielles. Les lectures, exercices,
 partitions, barèmes et références approfondies seront cherchés **par sujet

@@ -1,8 +1,10 @@
-# AnaMu — UdeM : description thématique de 72 cours (passe 1A)
+# AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)
+
+**Cours SOL 1017 hors musique retiré.**
 
 **Collecte groupée du 10 novembre 2026, centrée sur les sujets et non les supports exacts.** Référentiel officiel : [programme institutionnel](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/). Les fiches déjà présentes dans AnaMu ont servi à préciser les éléments sans attribuer à ces cours les syllabus d'autres établissements.
 
-**58 cartes utilisables, 14 partielles.** « Utilisable » signifie qu'il existe assez d'axes pour guider la future recherche **par thème**, et non que l'ensemble des séances a été retrouvé. « Partiel » désigne une source vague ou un contenu dépendant de la section. Aucun exercice détaillé ni barème n'est requis dans cette passe.
+**57 cartes utilisables, 14 partielles.** « Utilisable » signifie qu'il existe assez d'axes pour guider la future recherche **par thème**, et non que l'ensemble des séances a été retrouvé. « Partiel » désigne une source vague ou un contenu dépendant de la section. Aucun exercice détaillé ni barème n'est requis dans cette passe.
 
 ## MCT 3011 — Composition tonale 1
 
@@ -350,17 +352,6 @@
 - relations entre phénomènes musicaux et société
 - objets de sociomusicologie
 - méthodes précises à distinguer selon le plan disponible
-
-
-## SOL 1017 — Théories contemporaines
-
-**Bloc 75D · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/SOL-1017.md).
-
-- Théories sociologiques depuis les années 1960
-- modernité
-- modernité avancée
-- postmodernité
-- confrontation d'auteurs et de grands thèmes sociaux
 
 
 ## MCT 3511X — Techniques de composition pour l'image 1

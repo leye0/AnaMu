@@ -2,9 +2,11 @@
 
 **Référence normative.** La finalité est une compréhension de la composition et de l'arrangement fondée sur **la réunion du contenu réel de plusieurs cursus universitaires entiers**. Cette connaissance doit permettre de reconnaître et d'expliquer les mécanismes de musique existante. Une composition musicale ultérieure devra reposer sur cette compréhension et sur des jugements d'écoute, mais **aucune génération n'est autorisée maintenant**.
 
+**Périmètre obligatoire :** [matières musicales uniquement](music-only-scope.md). Les cours de culture générale et d'arts visuels sans musique ont été éliminés.
+
 ## Phase 1A — carte détaillée des sujets de TOUS les cours (SEULE PHASE ACTIVE)
 
-Périmètre : **402 cours candidats recensés** dans les programmes UdeM, McGill,
+Périmètre : **386 entrées musicales retenues** dans les programmes UdeM, McGill,
 Berklee, incluant options, recommandations et connaissances de majeures voisines.
 Objectif immédiat : **pour chaque cours**, écrire une **description suffisamment
 détaillée des contenus** (principaux sujets, notions, techniques, styles,
@@ -37,7 +39,7 @@ Ne jamais conclure « tous les cours décrits en détail » du seul indicateur
 
 ## Phase 1B — documentation académique par SUJET (DIFFÉRÉE)
 
-Quand les contenus des ~402 cours auront été cartographiés, rechercher dans
+Quand les contenus des 386 entrées musicales auront été cartographiés, rechercher dans
 une passe distincte la littérature académique, les traités, exemples,
 enregistrements, exercices et objections **sur chacun des sujets identifiés**,
 pas cours après cours pour obtenir le matériel exact des enseignants.

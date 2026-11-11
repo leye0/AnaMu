@@ -391,39 +391,6 @@
           "reviewed_on": "2026-11-10"
         }
       },
-      "HAR 1200": {
-        "status": "catalog_only",
-        "material_file": "docs/courses/udem/HAR-1200.md",
-        "topic_outline": {
-          "state": "usable_first_pass",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-          "document": "docs/raw-batches/2026-11-10-udem-30-more-topic-outlines.md",
-          "reviewed_on": "2026-11-10"
-        }
-      },
-      "HAR 2195": {
-        "status": "catalog_only",
-        "material_file": "docs/courses/udem/HAR-2195.md",
-        "topic_outline": {
-          "state": "usable_first_pass",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-          "document": "docs/raw-batches/2026-11-10-udem-30-more-topic-outlines.md",
-          "reviewed_on": "2026-11-10"
-        }
-      },
-      "HAR 3900": {
-        "status": "catalog_only",
-        "material_file": "docs/courses/udem/HAR-3900.md",
-        "topic_outline": {
-          "state": "usable_first_pass",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-          "document": "docs/raw-batches/2026-11-10-udem-30-more-topic-outlines.md",
-          "reviewed_on": "2026-11-10"
-        }
-      },
       "MUL 1105": {
         "status": "partially_documented",
         "material_file": "docs/courses/udem/MUL-1105.md",
@@ -592,28 +559,6 @@
       "MUL 3344": {
         "status": "catalog_only",
         "material_file": "docs/courses/udem/MUL-3344.md",
-        "topic_outline": {
-          "state": "usable_first_pass",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-          "document": "docs/raw-batches/2026-11-10-udem-30-more-topic-outlines.md",
-          "reviewed_on": "2026-11-10"
-        }
-      },
-      "SOL 1017": {
-        "status": "partially_documented",
-        "material_file": "docs/courses/udem/SOL-1017.md",
-        "topic_outline": {
-          "state": "usable_first_pass",
-          "source_kind": "official_program_and_existing_course_notes",
-          "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-          "document": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
-          "reviewed_on": "2026-11-10"
-        }
-      },
-      "SOL 3410": {
-        "status": "catalog_only",
-        "material_file": "docs/courses/udem/SOL-3410.md",
         "topic_outline": {
           "state": "usable_first_pass",
           "source_kind": "official_program_catalogue",
@@ -3013,61 +2958,6 @@
           "reviewed_on": "2026-11-10"
         }
       },
-      "LMSC-xxx": {
-        "status": "catalog_only",
-        "material_file": "docs/courses/berklee/LMSC-xxx.md",
-        "topic_outline": {
-          "state": "unresolved_pool",
-          "source_kind": "official_program_code_family",
-          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
-          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
-          "reviewed_on": "2026-11-10",
-          "known_concrete_candidates": [
-            "LMSC-207",
-            "LMSC-208",
-            "LMSC-209",
-            "LMSC-210",
-            "LMSC-211",
-            "LMSC-221",
-            "LMSC-307"
-          ],
-          "candidate_document": "docs/raw-batches/2026-11-10-berklee-36-real-open-electives.md",
-          "last_candidates_reviewed": "2026-11-10"
-        }
-      },
-      "LSOC-xxx": {
-        "status": "catalog_only",
-        "material_file": "docs/courses/berklee/LSOC-xxx.md",
-        "topic_outline": {
-          "state": "unresolved_pool",
-          "source_kind": "official_program_code_family",
-          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
-          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
-          "reviewed_on": "2026-11-10",
-          "known_concrete_candidates": [
-            "LSOC-211",
-            "LSOC-212",
-            "LSOC-214",
-            "LSOC-215",
-            "LSOC-216",
-            "LSOC-307",
-            "LSOC-318"
-          ],
-          "candidate_document": "docs/raw-batches/2026-11-10-berklee-36-real-open-electives.md",
-          "last_candidates_reviewed": "2026-11-10"
-        }
-      },
-      "ASOC-xxx": {
-        "status": "catalog_only",
-        "material_file": null,
-        "topic_outline": {
-          "state": "unresolved_pool",
-          "source_kind": "official_program_code_family",
-          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
-          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
-          "reviewed_on": "2026-11-10"
-        }
-      },
       "MHIS-251": {
         "status": "partially_documented",
         "material_file": "docs/courses/berklee/MHIS-251.md",
@@ -3088,37 +2978,6 @@
           "source_url": "https://college.berklee.edu/courses/mhis-252",
           "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
           "reviewed_on": "2026-11-10"
-        }
-      },
-      "Lxxx-xxx": {
-        "status": "catalog_only",
-        "material_file": null,
-        "topic_outline": {
-          "state": "unresolved_pool",
-          "source_kind": "official_program_code_family",
-          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
-          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
-          "reviewed_on": "2026-11-10"
-        }
-      },
-      "Axxx-xxx": {
-        "status": "catalog_only",
-        "material_file": null,
-        "topic_outline": {
-          "state": "unresolved_pool",
-          "source_kind": "official_program_code_family",
-          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
-          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
-          "reviewed_on": "2026-11-10",
-          "known_concrete_candidates": [
-            "AFST-308",
-            "AFST-321",
-            "AFST-324",
-            "AFST-325",
-            "AFST-326"
-          ],
-          "candidate_document": "docs/raw-batches/2026-11-10-berklee-36-real-open-electives.md",
-          "last_candidates_reviewed": "2026-11-10"
         }
       },
       "PIxx-111": {
@@ -3396,17 +3255,6 @@
           "reviewed_on": "2026-11-10"
         }
       },
-      "LENS-10x": {
-        "status": "catalog_only",
-        "material_file": null,
-        "topic_outline": {
-          "state": "unresolved_pool",
-          "source_kind": "official_program_code_family",
-          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
-          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
-          "reviewed_on": "2026-11-10"
-        }
-      },
       "LHUM-400": {
         "status": "syllabus_documented",
         "material_file": "docs/courses/berklee/LHUM-400.md",
@@ -3418,60 +3266,6 @@
           "reviewed_on": "2026-11-10"
         }
       },
-      "LENG-111": {
-        "status": "syllabus_documented",
-        "material_file": "docs/courses/berklee/LENG-111.md",
-        "topic_outline": {
-          "state": "usable_first_pass",
-          "source_kind": "official_berklee_course_catalogue",
-          "source_url": "https://college.berklee.edu/courses/leng-111",
-          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
-          "reviewed_on": "2026-11-10"
-        }
-      },
-      "LENG-223": {
-        "status": "syllabus_documented",
-        "material_file": "docs/courses/berklee/LENG-223.md",
-        "topic_outline": {
-          "state": "partial",
-          "source_kind": "official_berklee_course_catalogue",
-          "source_url": "https://college.berklee.edu/courses/leng-223",
-          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
-          "reviewed_on": "2026-11-10"
-        }
-      },
-      "LHIS-xxx": {
-        "status": "catalog_only",
-        "material_file": null,
-        "topic_outline": {
-          "state": "unresolved_pool",
-          "source_kind": "official_program_code_family",
-          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
-          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
-          "reviewed_on": "2026-11-10",
-          "known_concrete_candidates": [
-            "LHIS-321"
-          ],
-          "candidate_document": "docs/raw-batches/2026-11-10-berklee-36-real-open-electives.md",
-          "last_candidates_reviewed": "2026-11-10"
-        }
-      },
-      "AHIS-xxx": {
-        "status": "catalog_only",
-        "material_file": null,
-        "topic_outline": {
-          "state": "unresolved_pool",
-          "source_kind": "official_program_code_family",
-          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
-          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
-          "reviewed_on": "2026-11-10",
-          "known_concrete_candidates": [
-            "AHIS-301"
-          ],
-          "candidate_document": "docs/raw-batches/2026-11-10-berklee-36-real-open-electives.md",
-          "last_candidates_reviewed": "2026-11-10"
-        }
-      },
       "AFST-221": {
         "status": "catalog_only",
         "material_file": null,
@@ -3481,25 +3275,6 @@
           "source_url": "https://college.berklee.edu/courses/afst-221",
           "document": "docs/raw-batches/2026-11-10-berklee-17-verified-refinements.md",
           "reviewed_on": "2026-11-10"
-        }
-      },
-      "LVIS-xxx": {
-        "status": "catalog_only",
-        "material_file": null,
-        "topic_outline": {
-          "state": "unresolved_pool",
-          "source_kind": "official_program_code_family",
-          "source_url": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
-          "document": "docs/raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md",
-          "reviewed_on": "2026-11-10",
-          "known_concrete_candidates": [
-            "LVIS-231",
-            "LVIS-232",
-            "LVIS-239",
-            "LVIS-333"
-          ],
-          "candidate_document": "docs/raw-batches/2026-11-10-berklee-36-real-open-electives.md",
-          "last_candidates_reviewed": "2026-11-10"
         }
       },
       "LMAS-xxx": {
@@ -4564,36 +4339,39 @@
       "label": "Options de majeure",
       "credits": 8,
       "status": "course_choices_not_fully_identified",
-      "candidate_inventory": "docs/berklee-major-elective-candidates.md"
+      "candidate_inventory": "docs/berklee-major-elective-candidates.md",
+      "music_related_only": true
     },
     {
       "institution": "Berklee",
       "group": "major_specific_core_and_liberal_arts",
       "label": "Options de sciences humaines/Africana Studies",
       "credits": 6,
-      "status": "course_choices_not_fully_identified"
-    },
-    {
-      "institution": "Berklee",
-      "group": "general_electives",
-      "label": "Options générales",
-      "credits": 7,
-      "status": "course_choices_not_fully_identified"
+      "status": "course_choices_not_fully_identified",
+      "music_related_only": true
     },
     {
       "institution": "McGill",
       "group": "elective_free",
       "label": "Open music/other elective credit choices",
       "credits": 15,
-      "status": "course_choices_not_fully_identified"
+      "status": "course_choices_not_fully_identified",
+      "music_related_only": true
     },
     {
       "institution": "UdeM",
       "group": "options_outside_listed_blocks",
       "label": "Review additional eligible subjects and editions",
       "credits": null,
-      "status": "course_choices_not_fully_identified"
+      "status": "course_choices_not_fully_identified",
+      "music_related_only": true
     }
   ],
-  "policy": "Each course needs a source-cited material_file before status can progress beyond catalog_only. Unresolved pools block exhaustive coverage. Prioritize the first incomplete course; continue to the next after documenting the outcome."
+  "policy": "Each course needs a source-cited material_file before status can progress beyond catalog_only. Unresolved pools block exhaustive coverage. Prioritize the first incomplete course; continue to the next after documenting the outcome.",
+  "music_scope": {
+    "policy_document": "docs/music-only-scope.md",
+    "previous_total": 402,
+    "excluded_count": 16,
+    "reviewed_on": "2026-11-10"
+  }
 }
