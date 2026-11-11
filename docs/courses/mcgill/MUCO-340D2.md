@@ -13,3 +13,14 @@ Le [programme du concert de la classe de composition du 22 mars 2025](https://ww
 ## Lacunes
 
 Chercher des consignes de tutorat, des critères et des exemples attribués à ce niveau.
+
+## Notice 2026–2027 : pédagogie de l'ensemble annuel MUCO 340D1/D2
+
+La [grille de Composition B.Mus. 2026–2027](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) publie pour **MUCO 340D1**, dont **MUCO 340D2 reprend explicitement la description** :
+
+- Un tutorat individuel **hebdomadaire d'une heure**.
+- Une œuvre achevée d'au moins **cinq minutes pour chacun des deux trimestres**, ou une réalisation équivalente comme une **œuvre de dix minutes** menée sur l'année.
+- Instrumentation **acoustique et/ou vocale**, avec ou sans électronique.
+- Objectifs possibles : développement de techniques compositionnelles, étude de répertoire pertinent, élaboration du style personnel.
+
+Ces éléments s'appliquent à **l'année 340D1/D2**, non à une liste de séances propres à l'hiver; la promotion 1A de cette carte ne prétend pas à un syllabus individuel. Le concert de classe antérieur reste une preuve d'activité étudiante sans attribution à ce code. [Registre du lot](../../raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md).

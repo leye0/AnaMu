@@ -3034,7 +3034,12 @@
           "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://coursecatalogue.mcgill.ca/courses/muin-180/index.html",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "sparse_depth_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "sparse_depth_reviewed_on": "2026-11-11",
+          "sparse_depth_source_url": "https://coursecatalogue.mcgill.ca/en/undergraduate/music/practical-instruction/",
+          "sparse_depth_source_kind": "institutional_instrument_practical_policy",
+          "sparse_depth_limit": "La politique et le parcours ne donnent ni répertoire fixe ni exercices du semestre MUIN 180. Les auditions d'entrée sont une autre évaluation."
         }
       },
       "MUIN 181": {
@@ -3047,7 +3052,12 @@
           "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://coursecatalogue.mcgill.ca/courses/muin-181/index.html",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "sparse_depth_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "sparse_depth_reviewed_on": "2026-11-11",
+          "sparse_depth_source_url": "https://coursecatalogue.mcgill.ca/en/undergraduate/music/practical-instruction/",
+          "sparse_depth_source_kind": "official_practical_policy_plus_catalogue_anomaly",
+          "sparse_depth_limit": "L'entrée en ligne de MUIN 181 comporte une description anormalement spécifique; aucune preuve qu'un enseignement de clarinette serait universel pour le cursus."
         }
       },
       "MUPD 135": {
@@ -3197,13 +3207,20 @@
         "status": "partially_documented",
         "material_file": "docs/courses/mcgill/MUCO-340D2.md",
         "topic_outline": {
-          "state": "partial",
-          "source_kind": "official_program_and_existing_course_notes",
+          "state": "usable_first_pass",
+          "source_kind": "official_2026_27_course_description_inherits_MUCO_340D1",
           "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
           "document": "docs/raw-batches/2026-11-10-mcgill-30-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://coursecatalogue.mcgill.ca/courses/muco-340d2/index.html",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "sparse_depth_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "sparse_depth_reviewed_on": "2026-11-11",
+          "sparse_depth_source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
+          "sparse_depth_source_kind": "official_2026_27_course_description_inherits_MUCO_340D1",
+          "sparse_depth_limit": "Les durées sont des minima du cycle annuel MUCO 340D1/D2. Les œuvres exécutées dans les concerts de classe ne sont pas assignées à ce code. Aucun syllabus de professeur n'est obtenu.",
+          "refinement_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "refinement_source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements"
         }
       },
       "MUCO 341": {
@@ -3249,7 +3266,12 @@
           "document": "docs/raw-batches/2026-11-10-mcgill-30-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://coursecatalogue.mcgill.ca/courses/muco-440d1/index.html",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "sparse_depth_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "sparse_depth_reviewed_on": "2026-11-11",
+          "sparse_depth_source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
+          "sparse_depth_source_kind": "official_2026_27_course_description",
+          "sparse_depth_limit": "La notice ne renouvelle ni les minima de durée 5+5 minutes du niveau 340 ni un répertoire ou livrable particulier pour 440. Contenu individualisé."
         }
       },
       "MUCO 440D2": {
@@ -3262,7 +3284,12 @@
           "document": "docs/raw-batches/2026-11-10-mcgill-30-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://coursecatalogue.mcgill.ca/courses/muco-440d2/index.html",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "sparse_depth_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "sparse_depth_reviewed_on": "2026-11-11",
+          "sparse_depth_source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
+          "sparse_depth_source_kind": "official_2026_27_course_description_refers_to_MUCO_440D1",
+          "sparse_depth_limit": "Aucun calendrier, pièce ni durée minimale propre à MUCO 440D2. Ne pas copier les critères du cycle MUCO 340D1/D2."
         }
       },
       "MUCO 460": {
@@ -3297,7 +3324,12 @@
           "document": "docs/raw-batches/2026-11-10-mcgill-30-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://coursecatalogue.mcgill.ca/courses/muco-575/index.html",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "sparse_depth_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "sparse_depth_reviewed_on": "2026-11-11",
+          "sparse_depth_source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
+          "sparse_depth_source_kind": "official_2026_27_topic_variable_catalogue",
+          "sparse_depth_limit": "Ni œuvre, système de hauteurs précis ni sujet de section 2027 n'est publiquement identifié. Le syllabus Berklee Online voisin est distinct."
         }
       },
       "MUTH 251": {
@@ -3376,7 +3408,12 @@
           "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://coursecatalogue.mcgill.ca/courses/muin-280/index.html",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "sparse_depth_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "sparse_depth_reviewed_on": "2026-11-11",
+          "sparse_depth_source_url": "https://coursecatalogue.mcgill.ca/en/undergraduate/music/practical-instruction/",
+          "sparse_depth_source_kind": "institutional_instrument_practical_policy",
+          "sparse_depth_limit": "Aucun corpus d'études ou de techniques attestées propre au niveau 3; ne pas copier un programme d'audition."
         }
       },
       "MUIN 281": {
@@ -3389,7 +3426,12 @@
           "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://coursecatalogue.mcgill.ca/courses/muin-281/index.html",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "sparse_depth_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "sparse_depth_reviewed_on": "2026-11-11",
+          "sparse_depth_source_url": "https://coursecatalogue.mcgill.ca/en/undergraduate/music/practical-instruction/",
+          "sparse_depth_source_kind": "institutional_instrument_practical_policy",
+          "sparse_depth_limit": "L'examen MUIN 283 permet de situer la progression globale, pas de lister les œuvres étudiées dans MUIN 281."
         }
       },
       "MUIN 283": {
@@ -3413,7 +3455,12 @@
           "document": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://coursecatalogue.mcgill.ca/courses/mupd-235/index.html",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "sparse_depth_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "sparse_depth_reviewed_on": "2026-11-11",
+          "sparse_depth_source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
+          "sparse_depth_source_kind": "official_2026_27_catalogue",
+          "sparse_depth_limit": "La notice ne fournit ni contrats étudiés, ni méthodologie commerciale, ni exercices, ni études de cas."
         }
       },
       "MUTH 202": {
@@ -3567,7 +3614,12 @@
           "refinement_document": "docs/raw-batches/2026-11-11-mcgill-2026-27-ensemble-specific-material.md",
           "refinement_source_url": "https://www.mcgill.ca/music/files/music/large_ensemble_options_2026-2027.pdf",
           "refinement_reviewed_on": "2026-11-11",
-          "refinement_note": "Official 2026-27 ensemble options specify section instrumentation and repertoire; no private ensemble syllabus obtained"
+          "refinement_note": "Official 2026-27 ensemble options specify section instrumentation and repertoire; no private ensemble syllabus obtained",
+          "sparse_depth_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "sparse_depth_reviewed_on": "2026-11-11",
+          "sparse_depth_source_url": "https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf",
+          "sparse_depth_source_kind": "official_ensemble_options_2026_27",
+          "sparse_depth_limit": "Le tableau donne la formation et le répertoire général, mais pas les techniques d'improvisation, arrangements ni œuvres imposées au groupe cette session."
         }
       },
       "MUEN 593": {
@@ -3693,7 +3745,12 @@
           "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://coursecatalogue.mcgill.ca/courses/muth-322/index.html",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "sparse_depth_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "sparse_depth_reviewed_on": "2026-11-11",
+          "sparse_depth_source_url": "https://www.mcgill.ca/study/2024-2025/courses/muth-322",
+          "sparse_depth_source_kind": "official_historical_catalogue_and_diagnostic_comparator",
+          "sparse_depth_limit": "Cours non actuellement offert selon les exigences courantes; aucune session actuelle, plan ou corpus spécifique. Ne pas attribuer au cours les chapitres du test."
         }
       },
       "MUTH 528": {
@@ -3971,7 +4028,12 @@
           "document": "docs/raw-batches/2026-11-11-berklee-31-direct-course-notices.md",
           "reviewed_on": "2026-11-11",
           "direct_notice_url": "https://college.berklee.edu/courses/mhis-251",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "sparse_depth_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "sparse_depth_reviewed_on": "2026-11-11",
+          "sparse_depth_source_url": "https://college.berklee.edu/courses/mhis-251",
+          "sparse_depth_source_kind": "official_catalogue",
+          "sparse_depth_limit": "La notice ne cite aucune œuvre, aucun compositeur, aucun plan de séance ni concept analytique particulier; reste partielle."
         }
       },
       "MHIS-252": {
@@ -3984,7 +4046,12 @@
           "document": "docs/raw-batches/2026-11-11-berklee-31-direct-course-notices.md",
           "reviewed_on": "2026-11-11",
           "direct_notice_url": "https://college.berklee.edu/courses/mhis-252",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "sparse_depth_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "sparse_depth_reviewed_on": "2026-11-11",
+          "sparse_depth_source_url": "https://college.berklee.edu/courses/mhis-252",
+          "sparse_depth_source_kind": "official_catalogue",
+          "sparse_depth_limit": "Aucun répertoire ou aire géographique spécifique répertorié dans cette notice; l'ampleur chronologique ne prouve pas la profondeur."
         }
       },
       "PIxx-111": {
@@ -4480,7 +4547,12 @@
           "document": "docs/raw-batches/2026-11-11-berklee-31-direct-course-notices.md",
           "reviewed_on": "2026-11-11",
           "direct_notice_url": "https://college.berklee.edu/courses/cm-280",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "sparse_depth_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "sparse_depth_reviewed_on": "2026-11-11",
+          "sparse_depth_source_url": "https://college.berklee.edu/courses/cm-280",
+          "sparse_depth_source_kind": "official_variable_topic_catalogue",
+          "sparse_depth_limit": "Rubriques alternatives, pas syllabus cumulatif; aucune garantie que toutes seront enseignées dans une même section."
         }
       },
       "AR-201": {
@@ -4814,7 +4886,12 @@
           "document": "docs/raw-batches/2026-11-11-berklee-31-direct-course-notices.md",
           "reviewed_on": "2026-11-11",
           "direct_notice_url": "https://college.berklee.edu/courses/cm-360",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "sparse_depth_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "sparse_depth_reviewed_on": "2026-11-11",
+          "sparse_depth_source_url": "https://college.berklee.edu/courses/cm-360",
+          "sparse_depth_source_kind": "official_variable_topic_catalogue",
+          "sparse_depth_limit": "La notice du cours avancé ne fixe aucun sujet de section; les thèmes ne peuvent pas être transformés en quatre modules obligatoires."
         }
       },
       "CM-361": {
@@ -4873,7 +4950,12 @@
           "document": "docs/raw-batches/2026-11-11-berklee-31-direct-course-notices.md",
           "reviewed_on": "2026-11-11",
           "direct_notice_url": "https://college.berklee.edu/courses/cm-495",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "sparse_depth_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "sparse_depth_reviewed_on": "2026-11-11",
+          "sparse_depth_source_url": "https://college.berklee.edu/courses/cm-495",
+          "sparse_depth_source_kind": "official_individual_internship_catalogue",
+          "sparse_depth_limit": "Aucune liste commune d'œuvres, compétences de production ou réalisation garantie; contenu propre au lieu de stage."
         }
       },
       "CM-499": {
@@ -4886,7 +4968,13 @@
           "document": "docs/raw-batches/2026-11-11-berklee-31-direct-course-notices.md",
           "reviewed_on": "2026-11-11",
           "direct_notice_url": "https://college.berklee.edu/courses/cm-499",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "sparse_depth_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "sparse_depth_reviewed_on": "2026-11-11",
+          "sparse_depth_source_url": "https://college.berklee.edu/courses/cm-499",
+          "sparse_depth_source_kind": "official_majors_restriction_and_capstone_catalogue",
+          "sparse_depth_limit": "Le cours est requis et éligible pour Jazz Composition (JCMP), PAS automatiquement pour la majeure Composition (COMP). Ne pas l'assimiler à CM-490.",
+          "restriction_note": "JCMP majors only; not automatically eligible to COMP major"
         }
       },
       "MHIS-201": {
@@ -5086,7 +5174,12 @@
           "document": "docs/raw-batches/2026-11-11-berklee-31-direct-course-notices.md",
           "reviewed_on": "2026-11-11",
           "direct_notice_url": "https://college.berklee.edu/courses/cond-311",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "sparse_depth_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "sparse_depth_reviewed_on": "2026-11-11",
+          "sparse_depth_source_url": "https://college.berklee.edu/courses/cond-311",
+          "sparse_depth_source_kind": "official_conducting_catalogue",
+          "sparse_depth_limit": "Aucune partition ou geste technique précis imposé à l'ensemble n'est publié."
         }
       },
       "COND-321": {
@@ -5409,7 +5502,12 @@
           "document": "docs/raw-batches/2026-11-11-berklee-31-direct-course-notices.md",
           "reviewed_on": "2026-11-11",
           "direct_notice_url": "https://college.berklee.edu/courses/mlan-375",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "sparse_depth_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "sparse_depth_reviewed_on": "2026-11-11",
+          "sparse_depth_source_url": "https://college.berklee.edu/courses/mlan-375",
+          "sparse_depth_source_kind": "official_music_analysis_catalogue",
+          "sparse_depth_limit": "Aucune œuvre nommée ni méthode d'analyse explicitement fixée dans la notice; ne pas inventer Le Sacre du printemps comme œuvre obligatoire."
         }
       },
       "MLAN-381": {
@@ -5422,7 +5520,12 @@
           "document": "docs/raw-batches/2026-11-11-berklee-31-direct-course-notices.md",
           "reviewed_on": "2026-11-11",
           "direct_notice_url": "https://college.berklee.edu/courses/mlan-381",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "sparse_depth_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "sparse_depth_reviewed_on": "2026-11-11",
+          "sparse_depth_source_url": "https://college.berklee.edu/courses/mlan-381",
+          "sparse_depth_source_kind": "official_single_composer_per_semester_catalogue",
+          "sparse_depth_limit": "Les compositeurs sont des EXEMPLES alternatifs: ils ne constituent pas un programme de sept auteurs pour une même section."
         }
       },
       "MLAN-411": {
