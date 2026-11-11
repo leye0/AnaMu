@@ -17,6 +17,8 @@ Un agent commence par [AGENTS.md](../AGENTS.md). **La tâche active consiste à 
    [Berklee Online — musique à l'image, orchestration et voix](berklee-online-scoring-source-trail.md) : 6 syllabus publics structurés sur 12 leçons, **hors du décompte des cours Boston**.
    [Berklee Online — contrepoint et formation auditive](berklee-online-counterpoint-eartraining-source-trail.md) : quatre syllabus publics et 48 leçons structurées, distincts des niveaux UdeM/McGill.
    [Berklee Online — créativité et composition contemporaine](berklee-online-contemporary-source-trail.md) : 3 autres syllabus de 12 leçons ; recoupements vérifiables avec CM-103, CM-311/312 et MTE 1403/1404, sans assimilation des cours.
+   [UdeM — syllabus complet MUS 3326X](courses/udem/MUS-3326X.md) : calendrier A26, 12 unités, travaux, barèmes et bibliographie complémentaire.
+   [UdeM — séminaires complémentaires, musique ancienne](courses/udem-supplementary/MUL-3335X.md) et [opéra *Lulu*](courses/udem-supplementary/MUL-6257.md) : plans-cadres réels hors des 402 codes recensés.
    [McGill — MUIN 283](courses/mcgill/MUIN-283.md) : exigences instrumentales et répertoires réels (piano, orgue et jazz) selon leurs éditions.
 6. [udem-curriculum-a26-audit.md](udem-curriculum-a26-audit.md) — [inventaire UdeM](data/udem-composition-a26.json).
 7. [mcgill-curriculum-2026-audit.md](mcgill-curriculum-2026-audit.md) — [inventaire McGill](data/mcgill-composition-2026.json).

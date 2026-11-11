@@ -24,6 +24,8 @@ La collecte du 10 novembre 2026 a également détaillé [quatre cours de contrep
 
 Le 10 novembre 2026, la collecte approfondie des sources d'écriture sonore a ajouté [MIT OCW 21M.361, printemps 2008](courses/mit/21M-361.md), cours **extérieur aux trois programmes suivis**, avec **treize énoncés d'exercices réels**, cinq modules, tâches de montage/composition/convolution/feedback et barème de session. Le relevé identifie séparément [Berklee CM-333](courses/berklee/CM-333.md) et [McGill MUTH 539](courses/mcgill/MUTH-539.md) au seul stade **catalogue**, avec lacunes de syllabus explicites. Aucun chiffre de couverture n'est promu par des cours voisins.
 
+Collecte approfondie du 10 novembre 2026 : [MUS 3326X](courses/udem/MUS-3326X.md) est désormais décomposé depuis son **syllabus UdeM A26 de neuf pages**, avec séances, bibliographie et barèmes ; [MUS 3127X](courses/udem/MUS-3127X.md) et [MCT 3512X](courses/udem/MCT-3512X.md) disposent de descriptions précises des **travaux et critères** propres à leurs plans-cadres. Deux cours voisins réels sur [la musique ancienne](courses/udem-supplementary/MUL-3335X.md) et [l'opéra *Lulu*](courses/udem-supplementary/MUL-6257.md) sont documentés sans les ajouter aux codes admissibles du programme de Composition. Les 402 statuts restent inchangés : il s'agit d'approfondissement, pas d'une déclaration de couverture nouvelle non démontrée.
+
 **VERROU DE PHASE : seuls les travaux de collecte A01–A15, A18 et de revue
 de leur couverture sont actifs.** La réconciliation de concepts A16–A17,
 les capacités analytiques B–K et la composition L ne commencent qu'avec
