@@ -14,6 +14,14 @@
 | Cours avancé — Composing the Orchestral Film Score | https://online.berklee.edu/courses/composing-the-orchestral-film-score | Cartographie des tempos et changements dramatiques ; contrechants ; écriture modale et harmonie parallèle ; orchestration cordes/cuivres/bois/percussions/chœur ; projet de cue enregistré | Modalités d'accès aux supports, autres leçons et évaluations |
 | Cours avancé — Orchestrating the Film Score with Live Sessions | https://online.berklee.edu/courses/orchestrating-the-film-score-with-live-sessions | Esquisse et maquette MIDI ; équilibre des cordes et plans sonores ; préparation de partitions et parties ; environnement d'enregistrement | Documents complets des séances et barèmes |
 
+## Nouveaux syllabus parallèles : voix, orchestre et réalisation audio (10 novembre 2026)
+
+| Code et dossier | Source primaire | Résultat documentaire |
+|---|---|---|
+| [OCWPR-334 — Contemporary Vocal Arranging](courses/berklee-online/OCWPR-334.md) | [Plan Berklee Online](https://online.berklee.edu/courses/contemporary-vocal-arranging#syllabus) | 12 leçons, harmonisation à 2–4 voix, prosodie, voix accompagnées/a cappella et projet final enregistré ; sujets apparentés aux options Boston CM-351 et CM-355, **différence de style et d'objectif maintenue** |
+| [OCWPR-366 — Orchestration 2](courses/berklee-online/OCWPR-366.md) | [Plan Berklee Online](https://online.berklee.edu/courses/orchestration-2-writing-techniques-for-full-orchestra#syllabus) | 12 leçons, couleur et couches orchestrales, thèmes dramatiques, étude de partitions ; rapprochement [CM-441](courses/berklee/CM-441.md) sans identité de syllabus |
+| [OCOMP-507 — Orchestral Mockups](courses/berklee-online/OCOMP-507.md) | [Plan Berklee Online](https://online.berklee.edu/courses/orchestral-mockups-in-film-scoring#syllabus) | 12 leçons, **11 devoirs nommés**, travaux sur articulations, latence, contrôleurs, réverbération, stems ; niveau maîtrise, distinct de [FILM-205](courses/berklee/FILM-205.md) |
+
 ## Divergence de versions à préserver
 
 La grille actuelle du diplôme en ligne https://online.berklee.edu/music-degrees/undergraduate/music-composition-for-film-tv-and-games cite notamment **OCOMP-300**, **OCOMP-367** et **OCWPR-300**. Des guides d'articulation plus anciens mentionnent plutôt **OCOMP-285** et **OCOMP-385** : https://assets.online.berklee.edu/transfer-credits/CCP_to_berklee_online_transfer_guide2.pdf . **Ne pas déclarer ces codes équivalents sans confirmation institutionnelle.** Les guides de transfert sont datés et ne remplacent pas les exigences du programme actuel.
