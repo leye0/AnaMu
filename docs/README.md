@@ -1,5 +1,7 @@
 # Documentation AnaMu — entrée académique
 
+**Reprise du 11 novembre :** [15 cours concrets LMAS/AMAS](raw-batches/2026-11-11-berklee-15-music-society-candidates.md) (14 descriptifs riches, LMAS-223 variable), avec [registre structuré](data/berklee-music-society-candidates-2026.json). Les pages AMAS et les exigences récentes AFST demandent réconciliation, sans équivalence supposée. [MTEC-122](raw-batches/2026-11-11-berklee-mtec-122-accelerated-core.md) devient exploitable en 1A par la notice du cours et les objectifs du tronc commun, non par un syllabus. **256 exploitables / 122 partielles / 8 familles.**
+
 Un agent commence par [AGENTS.md](../AGENTS.md). **Objectif prioritaire : cartographier par descriptions détaillées les thèmes des 386 entrées musicales, puis seulement rechercher de la documentation académique par sujet.** Aucun développement algorithmique ni recherche des devoirs exacts n'est actif.
 
 **Périmètre filtré :** [cours exclusivement musicaux](music-only-scope.md). 16 entrées principales et 11 candidats hors musique supprimés. [Bilan courant](topic-outline-coverage-status.md).
@@ -18,7 +20,7 @@ Un agent commence par [AGENTS.md](../AGENTS.md). **Objectif prioritaire : cartog
    [Cartographie UdeM : 88 ensembles, ateliers et cours instrumentaux](raw-batches/2026-11-10-udem-88-ensembles-instruments.md) — limites des enseignements à programme variable.
    [Berklee Boston : lot de 68 cours composition/harmonie/production](raw-batches/2026-11-10-berklee-68-program-courses.md) — cartes de matière et liens du campus.
    [Berklee Boston : 48 entrées musicales conservées, vrais cours et familles à déplier](raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md) — aucune fausse équivalence entre un code générique et un syllabus.
-   [Bilan 1A actualisé des 386 entrées musicales](topic-outline-coverage-status.md) : 255 exploitables, 123 à préciser, 8 familles musicales à déplier.
+   [Bilan 1A actualisé des 386 entrées musicales](topic-outline-coverage-status.md) : 256 exploitables, 122 à préciser, 8 familles musicales à déplier.
    [UdeM — 111 notices directes des cours partiels](raw-batches/2026-11-11-udem-111-direct-notices.md) : contenu, limites et 10 enrichissements.
    [UdeM — 74 autres notices directes](raw-batches/2026-11-11-udem-74-exact-source-links.md) : sources propres au code pour les cartes déjà exploitables.
    [McGill — 17 notices de la grille 2026–2027](raw-batches/2026-11-11-mcgill-17-current-requirements.md) : cinq cartes enrichies.

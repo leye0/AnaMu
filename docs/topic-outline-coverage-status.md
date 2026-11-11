@@ -1,13 +1,15 @@
 # Couverture musicale — suivi après approfondissements du 11 novembre 2026
 
+**Reprise du 11 novembre :** [15 cours concrets LMAS/AMAS](raw-batches/2026-11-11-berklee-15-music-society-candidates.md) (14 descriptifs riches, LMAS-223 variable), avec [registre structuré](data/berklee-music-society-candidates-2026.json). Les pages AMAS et les exigences récentes AFST demandent réconciliation, sans équivalence supposée. [MTEC-122](raw-batches/2026-11-11-berklee-mtec-122-accelerated-core.md) devient exploitable en 1A par la notice du cours et les objectifs du tronc commun, non par un syllabus. **256 exploitables / 122 partielles / 8 familles.** Les **122 fiches partielles** ont maintenant un champ de notice individuelle vérifiée dans le registre, avec provenance initiale conservée.
+
 **Périmètre inchangé : 386 entrées musicales**, après exclusion de l'art visuel et de la culture générale non musicale.
 
 | Université | Entrées | Cartes exploitables | Cartes partielles | Familles de pratique |
 |---|---:|---:|---:|---:|
 | UdeM | 185 | 84 | 101 | 0 |
 | McGill | 58 | 46 | 12 | 0 |
-| Berklee Boston | 143 | 125 | 10 | 8 |
-| **TOTAL** | **386** | **255** | **123** | **8** |
+| Berklee Boston | 143 | 126 | 9 | 8 |
+| **TOTAL** | **386** | **256** | **122** | **8** |
 
 ## Grand balayage du 11 novembre — 202 notices UdeM/McGill
 
@@ -47,8 +49,8 @@ Le balayage complémentaire de [104 cours Berklee](raw-batches/2026-11-11-berkle
 
 [16 cartes thématiques précises](raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md) : direction de concerto, d'aria et de film, arrangements, contrepoint, écriture pour percussion, traditions de composition non occidentales, ensembles baroque/choral/contemporain/jazz et orchestres. Des pages officielles donnent des pratiques réellement distinctes.
 
-**Toujours à faire :** 123 cartes partielles à enrichir, huit familles musicales non dépliées. Les cartes *exploitables* restent des descriptions thématiques, non des syllabus intégraux. [Périmètre musical](music-only-scope.md). [25 candidats Berklee hors registre](data/berklee-open-elective-candidates-2026.json). Aucun test ni CI.
+**Toujours à faire :** 122 cartes partielles à enrichir, huit familles musicales non dépliées. Les cartes *exploitables* restent des descriptions thématiques, non des syllabus intégraux. [Périmètre musical](music-only-scope.md). [25 candidats Berklee hors registre](data/berklee-open-elective-candidates-2026.json). Aucun test ni CI.
 
 ## Codes Berklee supplémentaires retrouvés dans les options de performance
 
-[44 codes musicaux (PI, EN et IL)](raw-batches/2026-11-10-berklee-44-ensemble-private-labs.md) : 28 enseignements instrumentaux (7 familles × 4 niveaux), 12 ensembles précis et 4 laboratoires. Registre complémentaire [JSON](data/berklee-performance-course-candidates-2026.json). **Attention : aucun n'est une neuvième famille générique ni une promotion du compteur principal**, qui reste à 386 entrées et 8 familles (255 cartes exploitables / 123 partielles après ce balayage). Les huit catégories sont maintenues ouvertes pour la sélection de leur périmètre effectif.
+[44 codes musicaux (PI, EN et IL)](raw-batches/2026-11-10-berklee-44-ensemble-private-labs.md) : 28 enseignements instrumentaux (7 familles × 4 niveaux), 12 ensembles précis et 4 laboratoires. Registre complémentaire [JSON](data/berklee-performance-course-candidates-2026.json). **Attention : aucun n'est une neuvième famille générique ni une promotion du compteur principal**, qui reste à 386 entrées et 8 familles (256 cartes exploitables / 122 partielles après ce balayage). Les huit catégories sont maintenues ouvertes pour la sélection de leur périmètre effectif.

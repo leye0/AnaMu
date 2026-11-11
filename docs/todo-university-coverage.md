@@ -1,5 +1,7 @@
 # AnaMu — TODO de couverture universitaire exhaustive
 
+**Reprise du 11 novembre :** [15 cours concrets LMAS/AMAS](raw-batches/2026-11-11-berklee-15-music-society-candidates.md) (14 descriptifs riches, LMAS-223 variable), avec [registre structuré](data/berklee-music-society-candidates-2026.json). Les pages AMAS et les exigences récentes AFST demandent réconciliation, sans équivalence supposée. [MTEC-122](raw-batches/2026-11-11-berklee-mtec-122-accelerated-core.md) devient exploitable en 1A par la notice du cours et les objectifs du tronc commun, non par un syllabus. **256 exploitables / 122 partielles / 8 familles.**
+
 **Fondations Berklee Boston (11 novembre) :** [28 notices directes de théorie, écoute, histoire, direction et arrangement](raw-batches/2026-11-11-berklee-28-foundation-harmony-ear-arranging.md), dont quatre cours voisins et **24 sources de cours déjà dans les 386** (évite le double comptage). **Total actuel : 144 cours musicaux voisins distincts documentés** en dix lots (18 + 29 + 22 + 15 + 16 + 13 + 4 + 10 + 13 + 4), et 52 recoupements individuels, en conservant séparément les 386 entrées historiques.
 
 **Branche voisine McGill pédagogie et instruments (11 novembre) :** [13 notices musicales MUCT/MUGT/MUIT](raw-batches/2026-11-11-mcgill-13-music-pedagogy-techniques.md), distinctes des études générales non musicales : voix, cordes, vents, percussion, guitare, direction et pédagogie musicale.

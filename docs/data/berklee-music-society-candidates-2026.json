@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-11",
+  "baseline_registry_total_unchanged": 386,
+  "source_grid": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
+  "current_liberal_arts_requirements": "https://college.berklee.edu/liberal-arts/liberal-arts-and-sciences-requirements",
+  "admissibility_note": "AMAS/AFST code alignment needs manual current-grid verification",
+  "records": [
+    {
+      "code": "LMAS-213",
+      "title": "Music and Peace",
+      "placeholder": "LMAS-xxx",
+      "source_url": "https://college.berklee.edu/courses/lmas-213",
+      "source_kind": "official_boston_catalogue",
+      "topics": [
+        "Musique et pacification",
+        "Recherche sur le rôle social des artistes",
+        "Activisme musical",
+        "Projet individuel ou collectif"
+      ],
+      "topic_state": "usable_first_pass",
+      "reviewed_on": "2026-11-11",
+      "admissibility": "candidate_only_not_degree_confirmation"
+    },
+    {
+      "code": "LMAS-223",
+      "title": "Music and Society Topics",
+      "placeholder": "LMAS-xxx",
+      "source_url": "https://college.berklee.edu/courses/lmas-223",
+      "source_kind": "official_boston_catalogue",
+      "topics": [
+        "Identités collectives et musicales",
+        "Terminologie de genre et des études globales",
+        "Thème propre à chaque session"
+      ],
+      "topic_state": "partial_variable",
+      "reviewed_on": "2026-11-11",
+      "admissibility": "candidate_only_not_degree_confirmation"
+    },
+    {
+      "code": "LMAS-224",
+      "title": "A Vision of Music's Future",
+      "placeholder": "LMAS-xxx",
+      "source_url": "https://college.berklee.edu/courses/lmas-224",
+      "source_kind": "official_boston_catalogue",
+      "topics": [
+        "Musique comme produit culturel",
+        "Construction sociale des normes musicales",
+        "Transmission historique",
+        "Philosophie et sociologie musicales"
+      ],
+      "topic_state": "usable_first_pass",
+      "reviewed_on": "2026-11-11",
+      "admissibility": "candidate_only_not_degree_confirmation"
+    },
+    {
+      "code": "LMAS-240",
+      "title": "The Beatles",
+      "placeholder": "LMAS-xxx",
+      "source_url": "https://college.berklee.edu/courses/lmas-240",
+      "source_kind": "official_boston_catalogue",
+      "topics": [
+        "Analyse d'enregistrements et vidéos",
+        "Beatlemania",
+        "Psychédélisme et culture populaire",
+        "Technologies d'enregistrement"
+      ],
+      "topic_state": "usable_first_pass",
+      "reviewed_on": "2026-11-11",
+      "admissibility": "candidate_only_not_degree_confirmation"
+    },
+    {
+      "code": "LMAS-250",
+      "title": "Sound and Society",
+      "placeholder": "LMAS-xxx",
+      "source_url": "https://college.berklee.edu/courses/lmas-250",
+      "source_kind": "official_boston_catalogue",
+      "topics": [
+        "Méthodes d'ethnomusicologie",
+        "Écoutes Hindipop et hip-hop",
+        "Culture des jeunes",
+        "Hybridité et mondialisation"
+      ],
+      "topic_state": "usable_first_pass",
+      "reviewed_on": "2026-11-11",
+      "admissibility": "candidate_only_not_degree_confirmation"
+    },
+    {
+      "code": "LMAS-251",
+      "title": "DJ Cultures and American Social Dance",
+      "placeholder": "LMAS-xxx",
+      "source_url": "https://college.berklee.edu/courses/lmas-251",
+      "source_kind": "official_boston_catalogue",
+      "topics": [
+        "R&B, disco, reggae, cumbia, hip-hop, house, techno",
+        "Juke joints, discothèques et raves",
+        "Danse et rapports de race, genre, nationalité",
+        "Histoire des danses sur enregistrements"
+      ],
+      "topic_state": "usable_first_pass",
+      "reviewed_on": "2026-11-11",
+      "admissibility": "candidate_only_not_degree_confirmation"
+    },
+    {
+      "code": "LMAS-254",
+      "title": "Music Technologies and Culture",
+      "placeholder": "LMAS-xxx",
+      "source_url": "https://college.berklee.edu/courses/lmas-254",
+      "source_kind": "official_boston_catalogue",
+      "topics": [
+        "Histoire des technologies musicales",
+        "Enregistrement domestique et naissance du hip-hop/punk",
+        "Rapports de propriété musicale",
+        "Perspectives interculturelles"
+      ],
+      "topic_state": "usable_first_pass",
+      "reviewed_on": "2026-11-11",
+      "admissibility": "candidate_only_not_degree_confirmation"
+    },
+    {
+      "code": "LMAS-259",
+      "title": "Spanish Music, Culture, and Society",
+      "placeholder": "LMAS-xxx",
+      "source_url": "https://college.berklee.edu/courses/lmas-259",
+      "source_kind": "official_boston_catalogue",
+      "topics": [
+        "Musiques espagnoles historiques",
+        "Flamenco, musiques populaires et folk",
+        "Connexions méditerranéennes",
+        "Musique et société"
+      ],
+      "topic_state": "usable_first_pass",
+      "reviewed_on": "2026-11-11",
+      "admissibility": "candidate_only_not_degree_confirmation"
+    },
+    {
+      "code": "LMAS-260",
+      "title": "Cuban Music, Culture, and Society",
+      "placeholder": "LMAS-xxx",
+      "source_url": "https://college.berklee.edu/courses/lmas-260",
+      "source_kind": "official_boston_catalogue",
+      "topics": [
+        "Traditions bembé, abakuá et palo",
+        "Contradanza, son, son montuno, comparsa, rumba",
+        "Influences sur la timba",
+        "Circulations afro-cubaines XVIIIe-XXIe siècles"
+      ],
+      "topic_state": "usable_first_pass",
+      "reviewed_on": "2026-11-11",
+      "admissibility": "candidate_only_not_degree_confirmation"
+    },
+    {
+      "code": "LMAS-280",
+      "title": "Music, Spirit, and Transformation",
+      "placeholder": "LMAS-xxx",
+      "source_url": "https://college.berklee.edu/courses/lmas-280",
+      "source_kind": "official_boston_catalogue",
+      "topics": [
+        "Musique et spiritualité",
+        "Traditions sacrées et profanes",
+        "Écoutes mondiales comparatives",
+        "Transformation et expériences musicales"
+      ],
+      "topic_state": "usable_first_pass",
+      "reviewed_on": "2026-11-11",
+      "admissibility": "candidate_only_not_degree_confirmation"
+    },
+    {
+      "code": "LMAS-375",
+      "title": "Blues and Southern Culture",
+      "placeholder": "LMAS-xxx",
+      "source_url": "https://college.berklee.edu/courses/lmas-375",
+      "source_kind": "official_boston_catalogue",
+      "topics": [
+        "Blues et culture du Sud des États-Unis",
+        "Traditions chantées et transformations sociales",
+        "Biographies et ethnographies",
+        "Musique et expression des conflits"
+      ],
+      "topic_state": "usable_first_pass",
+      "reviewed_on": "2026-11-11",
+      "admissibility": "candidate_only_not_degree_confirmation"
+    },
+    {
+      "code": "AMAS-302",
+      "title": "Black Liberation Music",
+      "placeholder": "AMAS-xxx",
+      "source_url": "https://college.berklee.edu/courses/amas-302",
+      "source_kind": "official_boston_catalogue",
+      "topics": [
+        "Musique et libération noire",
+        "Chants de travail et spirituals",
+        "Traditions blues, jazz, rock, rap et trap",
+        "Périodes de l'esclavage et transformations des percussions"
+      ],
+      "topic_state": "usable_first_pass",
+      "reviewed_on": "2026-11-11",
+      "admissibility": "candidate_only_not_degree_confirmation"
+    },
+    {
+      "code": "AMAS-303",
+      "title": "Hip-Hop Roots and Routes",
+      "placeholder": "AMAS-xxx",
+      "source_url": "https://college.berklee.edu/courses/amas-303",
+      "source_kind": "official_boston_catalogue",
+      "topics": [
+        "Diaspora et histoire du hip-hop",
+        "DJ, rap, danse et graffiti",
+        "Diffusion internationale",
+        "Expression politique et résistance"
+      ],
+      "topic_state": "usable_first_pass",
+      "reviewed_on": "2026-11-11",
+      "admissibility": "candidate_only_not_degree_confirmation"
+    },
+    {
+      "code": "AMAS-304",
+      "title": "The Sugar Road",
+      "placeholder": "AMAS-xxx",
+      "source_url": "https://college.berklee.edu/courses/amas-304",
+      "source_kind": "official_boston_catalogue",
+      "topics": [
+        "Esclavage et économie du sucre",
+        "Musiques afro-latines et afro-américaines",
+        "Musique et héritages coloniaux",
+        "Transformation culturelle des Amériques"
+      ],
+      "topic_state": "usable_first_pass",
+      "reviewed_on": "2026-11-11",
+      "admissibility": "candidate_only_not_degree_confirmation"
+    },
+    {
+      "code": "AMAS-305",
+      "title": "African Diasporic Music, History, and Culture",
+      "placeholder": "AMAS-xxx",
+      "source_url": "https://college.berklee.edu/courses/amas-305",
+      "source_kind": "official_boston_catalogue",
+      "topics": [
+        "Analyse des pièces et enregistrements",
+        "Cultures d'Afrique, d'Amérique et des Caraïbes",
+        "Identité, classe et genre",
+        "Études comparées de pratiques musicales"
+      ],
+      "topic_state": "usable_first_pass",
+      "reviewed_on": "2026-11-11",
+      "admissibility": "candidate_only_not_degree_confirmation"
+    }
+  ]
+}

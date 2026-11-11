@@ -11,7 +11,7 @@ sont exclus de la recherche musicale même s'ils font partie du diplôme.
 Seules les matières traitant de musique (y compris son acoustique,
 cognition, histoire, pratiques, production, industrie du musicien) sont
 admissibles. [Liste des 16 entrées et 11 candidats supprimés](docs/music-only-scope.md).
-**Périmètre courant : 386 entrées**, dont 255 exploitables, 123 partielles,
+**Périmètre courant : 386 entrées**, dont 256 exploitables, 122 partielles,
 8 familles musicales. Le chiffre historique 402 n'est PLUS le scope.
 Les grilles officielles originales restent des sources, pas des listes
 de travail imposant tous les cours non musicaux.
@@ -84,13 +84,13 @@ détaillé soit un syllabus officiel.
 ### État actuel du registre musical filtré — 11 novembre 2026
 
 **386 entrées**, dont **378 cours identifiables et huit familles musicales** à
-déplier. **255 cartes initiales exploitables** et **123 descriptions
+déplier. **256 cartes initiales exploitables** et **122 descriptions
 partielles** restent dans la phase 1A. Le précédent inventaire académique
 de 402 entrées, dont les familles d'options générales, est un historique
 et **ne doit pas être restauré**. Voir
 [docs/topic-outline-coverage-status.md](docs/topic-outline-coverage-status.md).
 
-**Prochaine action :** améliorer les 123 descriptions musicales partielles
+**Prochaine action :** améliorer les 122 descriptions musicales partielles
 et identifier de vrais cours de pratique musicale derrière les huit familles
 non dépliées. Les sources des cours non musicaux, arts visuels, littérature,
 sciences sociales et santé générales ne font plus partie du registre.
