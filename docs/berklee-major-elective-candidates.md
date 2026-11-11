@@ -41,9 +41,9 @@ Les liens de catalogue mènent à la page source contenant le code, le titre et 
 
 | Code | Cours et notice | Suivi |
 |---|---|---|
-| MHIS-201 | [History of Music in the European Tradition: Topics](https://college.berklee.edu/courses?field_course_number_value=mhis&title=) | Recensé · catalogue |
-| MHIS-202 | [History of Music in the European Tradition: Iconic Works](https://college.berklee.edu/courses?field_course_number_value=mhis&title=) | Recensé · catalogue |
-| MHIS-203 | [History of Music in the European Tradition: Chronology](https://college.berklee.edu/courses?field_course_number_value=mhis&title=) | Recensé · catalogue |
+| MHIS-201 | [History of Music in the European Tradition: Topics](https://college.berklee.edu/courses/mhis-201) | [Matière documentée ; COMP exclu selon la fiche](courses/berklee/MHIS-201.md) |
+| MHIS-202 | [History of Music in the European Tradition: Iconic Works](https://college.berklee.edu/courses/mhis-202) | [Matière documentée](courses/berklee/MHIS-202.md) |
+| MHIS-203 | [History of Music in the European Tradition: Chronology](https://college.berklee.edu/courses/mhis-203) | [Matière documentée](courses/berklee/MHIS-203.md) |
 | MHIS-317 | [19th Century Program Music](https://college.berklee.edu/courses?field_course_number_value=mhis&title=) | Recensé · catalogue |
 | MHIS-319 | [History of Jazz](https://college.berklee.edu/courses?field_course_number_value=mhis&title=) | Recensé · catalogue |
 | MHIS-322 | [History of Rock Music](https://college.berklee.edu/courses?field_course_number_value=mhis&title=) | Recensé · catalogue |
@@ -92,7 +92,7 @@ Les liens de catalogue mènent à la page source contenant le code, le titre et 
 | MLAN-288 | [Music of Olivier Messiaen](https://www.berklee.edu/online-registration-manual/course-descriptions/music-literature-and-analysis) | Recensé · catalogue |
 | MLAN-314 | [In the Mix: Contemporary Composition Approaches in Discussion on Form, Aesthetic, and Style](https://www.berklee.edu/online-registration-manual/course-descriptions/music-literature-and-analysis) | Recensé · catalogue |
 | MLAN-315 | [Traditional Composition Forms in the 20th Century 1](https://www.berklee.edu/online-registration-manual/course-descriptions/music-literature-and-analysis) | Recensé · catalogue |
-| MLAN-320 | [The Music of John Cage and Morton Feldman: Sound–Time–Process](https://www.berklee.edu/online-registration-manual/course-descriptions/music-literature-and-analysis) | Recensé · catalogue |
+| MLAN-320 | [The Music of John Cage and Morton Feldman: Sound–Time–Process](https://college.berklee.edu/courses/mlan-320) | [Matière documentée](courses/berklee/MLAN-320.md) |
 | MLAN-331 | [The Bop Masters](https://www.berklee.edu/online-registration-manual/course-descriptions/music-literature-and-analysis) | Recensé · catalogue |
 | MLAN-335 | [Analysis of Progressive Rock Music](https://www.berklee.edu/online-registration-manual/course-descriptions/music-literature-and-analysis) | Recensé · catalogue |
 | MLAN-340 | [Sounding Oliveros: The Life and Work of Pauline Oliveros](https://www.berklee.edu/online-registration-manual/course-descriptions/music-literature-and-analysis?page=1) | Recensé · catalogue |
@@ -112,4 +112,4 @@ Les liens de catalogue mènent à la page source contenant le code, le titre et 
 | CP-311 | [Advanced Counterpoint](https://college.berklee.edu/courses/cp-311) | [Matière documentée](courses/berklee/CP-311.md) |
 | CP-350 | [20th- and 21st-Century Counterpoint](https://college.berklee.edu/courses/cp-350) | [Matière documentée](courses/berklee/CP-350.md) |
 
-Total du relevé : **83 codes, désormais tous inscrits au registre** (13 antérieurs, 70 intégrés le 11 novembre 2026). Parmi les 70 ajouts, **5 disposent d'une note avec matière pédagogique externe identifiée et 65 restent au stade « catalogue seulement »**. Les notes CM-251 et CM-252 soulignent une **restriction « Electable By: MUED majors »** dans les fiches officielles : ces deux cours sont des *candidats du catalogue*, et leur accessibilité en option de majeure Composition ne doit pas être présumée. Les choix alternatifs du tronc demeurent visibles pour vérifier leur admissibilité lorsqu’ils n’ont pas été suivis. Pour CP, le catalogue filtré n'a pas fourni une liste complète exploitable ; ce relevé n'est donc **pas une preuve d'exhaustivité des options CP**. Les huit options hors familles et les réserves de crédits restent à vérifier.
+Total du relevé : **83 codes, désormais tous inscrits au registre** (13 antérieurs, 70 intégrés le 11 novembre 2026). Parmi les 70 ajouts, **9 disposent d'une note avec matière pédagogique externe identifiée et 61 restent au stade « catalogue seulement »**. Les notices CM-251/252 indiquent **« Electable By: MUED majors »** et MHIS-201 indique **« All except COMP and MUED majors »** : ces trois cours sont des *candidats du catalogue* et ne doivent pas être présumés admissibles à la majeure Composition. Les choix alternatifs du tronc demeurent visibles pour vérifier leur admissibilité lorsqu’ils n’ont pas été suivis. Pour CP, le catalogue filtré n'a pas fourni une liste complète exploitable ; ce relevé n'est donc **pas une preuve d'exhaustivité des options CP**. Les huit options hors familles et les réserves de crédits restent à vérifier.
