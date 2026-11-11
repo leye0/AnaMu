@@ -1,5 +1,11 @@
 # AnaMu — contrat de reprise pour tout agent
 
+## NOUVELLE RÈGLE — clôturer une recherche bloquée sans prétendre connaître la matière (11 novembre 2026)
+
+**Distinguer deux axes.** `topic_outline.state` mesure les sujets réellement documentés (`usable_first_pass` ou `partial`). Un nouveau champ **`topic_outline.public_research.state`** mesure **uniquement la progression de recherche sur les sources publiques**. Quand le catalogue et les recherches ciblées n'offrent plus de plan/relevé de section attribuable au cours, surtout pour un instrument individuel, un ensemble à répertoire variable ou un tutorat/stage personnalisé, enregistrer **`completed_best_effort`** : la recherche en sources publiques est **terminée pour cette passe**. Conserver `topic_outline.state="partial"` et l'ancien `status` sans promotion. Préciser le motif et les sources, et réouvrir si une source plus précise apparaît.
+
+**Audit daté du 11 novembre 2026 :** [87 recherches publiques clôturées (matière toujours partielle)](docs/raw-batches/2026-11-11-public-search-closure-87-partial-courses.md), [28 recherches actives sur les 115 cours partiels](docs/remaining-115-course-evidence-queue-2026-11-11.md), **8 familles encore ouvertes**. La collecte doit désormais privilégier les 28 actifs et le dépliage des familles au lieu de reconsulter indéfiniment les 87 notices pauvres. **Ne jamais lire « terminé » comme une certification de couverture, de syllabus ou de savoir acquis.**
+
 **Lis ce fichier avant de modifier le projet.** Il résume les décisions
 fondamentales ; les liens ci-dessous désignent les documents normatifs.
 
