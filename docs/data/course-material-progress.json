@@ -1133,10 +1133,12 @@
         "material_file": "docs/courses/udem/MUE-1171.md",
         "topic_outline": {
           "state": "partial",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "source_kind": "official_faculty_ensemble_description_and_program",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/atelier-de-percussion/",
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1172": {
@@ -1144,10 +1146,12 @@
         "material_file": "docs/courses/udem/MUE-1172.md",
         "topic_outline": {
           "state": "partial",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "source_kind": "official_faculty_ensemble_description_and_program",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/atelier-de-percussion/",
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1173": {
@@ -1155,10 +1159,12 @@
         "material_file": "docs/courses/udem/MUE-1173.md",
         "topic_outline": {
           "state": "partial",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "source_kind": "official_faculty_ensemble_description_and_program",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/atelier-de-percussion/",
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1191": {
@@ -1166,10 +1172,12 @@
         "material_file": null,
         "topic_outline": {
           "state": "partial",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "source_kind": "official_faculty_ensemble_description_and_program",
+          "source_url": "https://musique.umontreal.ca/en/study/faculty-ensembles/keyboard-ensemble/",
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1192": {
@@ -1177,10 +1185,12 @@
         "material_file": null,
         "topic_outline": {
           "state": "partial",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "source_kind": "official_faculty_ensemble_description_and_program",
+          "source_url": "https://musique.umontreal.ca/en/study/faculty-ensembles/keyboard-ensemble/",
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1193": {
@@ -1188,43 +1198,51 @@
         "material_file": null,
         "topic_outline": {
           "state": "partial",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "source_kind": "official_faculty_ensemble_description_and_program",
+          "source_url": "https://musique.umontreal.ca/en/study/faculty-ensembles/keyboard-ensemble/",
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1211": {
         "status": "catalog_only",
         "material_file": null,
         "topic_outline": {
-          "state": "partial",
-          "source_kind": "official_program_catalogue",
+          "state": "usable_first_pass",
+          "source_kind": "official_faculty_ensemble_description_and_program",
           "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-de-cuivres/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1212": {
         "status": "catalog_only",
         "material_file": null,
         "topic_outline": {
-          "state": "partial",
-          "source_kind": "official_program_catalogue",
+          "state": "usable_first_pass",
+          "source_kind": "official_faculty_ensemble_description_and_program",
           "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-de-cuivres/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1213": {
         "status": "catalog_only",
         "material_file": null,
         "topic_outline": {
-          "state": "partial",
-          "source_kind": "official_program_catalogue",
+          "state": "usable_first_pass",
+          "source_kind": "official_faculty_ensemble_description_and_program",
           "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-de-cuivres/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1221": {
@@ -1297,33 +1315,39 @@
         "status": "catalog_only",
         "material_file": null,
         "topic_outline": {
-          "state": "partial",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "state": "usable_first_pass",
+          "source_kind": "official_faculty_ensemble_description_and_program",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensembles-de-musique-de-chambre/",
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1242": {
         "status": "catalog_only",
         "material_file": null,
         "topic_outline": {
-          "state": "partial",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "state": "usable_first_pass",
+          "source_kind": "official_faculty_ensemble_description_and_program",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensembles-de-musique-de-chambre/",
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1243": {
         "status": "catalog_only",
         "material_file": null,
         "topic_outline": {
-          "state": "partial",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "state": "usable_first_pass",
+          "source_kind": "official_faculty_ensemble_description_and_program",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensembles-de-musique-de-chambre/",
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1251": {
@@ -1331,10 +1355,12 @@
         "material_file": "docs/courses/udem/MUE-1251.md",
         "topic_outline": {
           "state": "partial",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "source_kind": "official_faculty_ensemble_description_and_program",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-dinstruments-a-vent/",
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1252": {
@@ -1342,10 +1368,12 @@
         "material_file": "docs/courses/udem/MUE-1252.md",
         "topic_outline": {
           "state": "partial",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "source_kind": "official_faculty_ensemble_description_and_program",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-dinstruments-a-vent/",
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1253": {
@@ -1353,10 +1381,12 @@
         "material_file": "docs/courses/udem/MUE-1253.md",
         "topic_outline": {
           "state": "partial",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "source_kind": "official_faculty_ensemble_description_and_program",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-dinstruments-a-vent/",
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1261": {
@@ -1429,33 +1459,39 @@
         "status": "partially_documented",
         "material_file": "docs/courses/udem/MUE-1281.md",
         "topic_outline": {
-          "state": "partial",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "state": "usable_first_pass",
+          "source_kind": "official_faculty_ensemble_description_and_program",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/chorale-de-luniversite-de-montreal/",
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1282": {
         "status": "partially_documented",
         "material_file": "docs/courses/udem/MUE-1282.md",
         "topic_outline": {
-          "state": "partial",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "state": "usable_first_pass",
+          "source_kind": "official_faculty_ensemble_description_and_program",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/chorale-de-luniversite-de-montreal/",
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1283": {
         "status": "partially_documented",
         "material_file": "docs/courses/udem/MUE-1283.md",
         "topic_outline": {
-          "state": "partial",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "state": "usable_first_pass",
+          "source_kind": "official_faculty_ensemble_description_and_program",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/chorale-de-luniversite-de-montreal/",
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1341": {
@@ -1463,10 +1499,12 @@
         "material_file": "docs/courses/udem/MUE-1341.md",
         "topic_outline": {
           "state": "partial",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "source_kind": "official_faculty_ensemble_description_and_program",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/atelier-de-gamelan/",
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1342": {
@@ -1474,10 +1512,12 @@
         "material_file": "docs/courses/udem/MUE-1342.md",
         "topic_outline": {
           "state": "partial",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "source_kind": "official_faculty_ensemble_description_and_program",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/atelier-de-gamelan/",
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1343": {
@@ -1485,10 +1525,12 @@
         "material_file": "docs/courses/udem/MUE-1343.md",
         "topic_outline": {
           "state": "partial",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "source_kind": "official_faculty_ensemble_description_and_program",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/atelier-de-gamelan/",
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1361": {
@@ -1573,10 +1615,12 @@
         "material_file": "docs/courses/udem/MUE-1441.md",
         "topic_outline": {
           "state": "partial",
-          "source_kind": "official_program_catalogue",
-          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-          "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "source_kind": "official_faculty_ensemble_description_and_program",
+          "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/orchestre-de-luniversite-de-montreal/",
+          "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "reviewed_on": "2026-11-10",
+          "expanded_on": "2026-11-10",
+          "level_variants_not_documented": true
         }
       },
       "MUE 1491": {

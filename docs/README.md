@@ -19,6 +19,7 @@ Un agent commence par [AGENTS.md](../AGENTS.md). **Objectif prioritaire : cartog
    [Bilan 1A du ratissage des 402 entrées](topic-outline-coverage-status.md) : 186 exploitables, 199 à préciser, 17 catégories de cours à déplier.
    [Berklee — 17 cartes relues sur notices détaillées](raw-batches/2026-11-10-berklee-17-verified-refinements.md), dont 14 enrichies jusqu'au seuil exploitable.
    [Berklee : 36 cours concrets trouvés dans les options](raw-batches/2026-11-10-berklee-36-real-open-electives.md) et [registre candidat structuré](data/berklee-open-elective-candidates-2026.json).
+   [UdeM — 22 codes d'ensembles avec matière spécifique sourcée](raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md).
    [Registre de progression cours par cours](data/course-material-progress.json)
    — 402 entrées, dont 13 syllabus documentés, 195 fiches partielles, 194 fiches au catalogue et cinq pools de choix à explorer.
    [Inventaire des options de majeure Berklee](berklee-major-elective-candidates.md).

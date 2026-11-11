@@ -4,10 +4,10 @@
 
 | Établissement | Codes / entrées | Descriptions thématiques utilisables | Descriptions encore partielles | Catégories à déplier |
 |---|---:|---:|---:|---:|
-| UdeM | 190 | 70 | 120 | 0 |
+| UdeM | 190 | 79 | 111 | 0 |
 | McGill | 58 | 34 | 24 | 0 |
 | Berklee Boston | 154 | 96 | 41 | 17 |
-| **TOTAL** | **402** | **200** | **185** | **17** |
+| **TOTAL** | **402** | **209** | **176** | **17** |
 
 ## Attention : 402 entrées ne signifient pas 402 cours distincts
 
@@ -34,3 +34,7 @@
 ## Exploration des réserves de crédits (10 novembre 2026)
 
 [36 cours Berklee réels, codés et sourcés](raw-batches/2026-11-10-berklee-36-real-open-electives.md) ont été identifiés dans huit familles d'options. **Ils sont distincts des 402 entrées historiques** et n'en ferment aucune automatiquement. Parmi eux : acoustique, psychoacoustique, cognition musicale, économie sociale de la musique, traditions afro-diasporiques, cinéma et arts visuels. Leurs axes sont dans [un registre complémentaire JSON](data/berklee-open-elective-candidates-2026.json). Le travail restant sur les catégories de choix doit désormais partir de codes concrets, pas se limiter aux placeholders.
+
+## Enrichissement spécifique des ensembles UdeM (10 novembre 2026)
+
+[22 codes avec huit sources pédagogiques de formation](raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md) : interprétation collective, gamelan, cuivres, orchestre, chorale, chambre, percussions et ensemble à vents. Neuf cartes désormais utilisables au niveau du contenu **commun de l'ensemble** ; l'absence de progression distincte des sigles 1/2/3 reste explicitement signalée.

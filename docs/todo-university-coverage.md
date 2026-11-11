@@ -70,6 +70,8 @@ La suite vise les cours restants, par lots, sans fiche littéraire ni tests.
 
 **Options Berklee :** [36 vrais cours candidats identifiés dans 8 familles](raw-batches/2026-11-10-berklee-36-real-open-electives.md) ; code, thèmes et notice officielle, détaillés aussi dans [la table structurée](data/berklee-open-elective-candidates-2026.json). **Ces 36 candidats ne sont pas intégrés aux 402 entrées de base**, et la grille de crédits n'est pas supposée autoriser chaque combinaison. Il reste 17 familles non résolues dans la grille, dont 8 au moins ont des exemples concrets. Compteur 402 inchangé : 200 utilisables, 185 partielles, 17 familles.
 
+**Approfondissement de 22 codes d'ensembles UdeM :** [formation, pédagogie et répertoire indicatif](raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md), dont **9 cartes désormais utilisables** ; aucune progression fictive niveau 1/2/3. Nouveau total : **209 cartes utilisables, 176 partielles, 17 catégories à déplier**.
+
 ## Mode d'emploi et définition de « terminé »
 
 **Aucune case ci-dessous n'est actuellement validée.** Des catalogues
