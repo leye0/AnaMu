@@ -1,0 +1,113 @@
+# Berklee Boston — 104 notices supplémentaires vérifiées par code
+
+**11 novembre 2026 · contrôle de provenance documentaire 1A.** Les 104 liens officiels ci-dessous correspondent chacun à un code déjà inventorié (hors huit familles non dépliées) ; ils viennent compléter les [31 notices relues en profondeur](2026-11-11-berklee-31-direct-course-notices.md) pour couvrir les **135 cours concrets Berklee** du périmètre historique. Les très courts fragments servent **uniquement d'indice pour orienter la lecture**; les cartes thématiques rédigées dans les lots précédents restent la documentation du contenu. **Aucune promotion ni nouveau syllabus** n'est revendiqué dans cet index.
+
+| Code et notice institutionnelle | Indice de description officielle (extrait très court) |
+|---|---|
+| [ISKB-211](https://college.berklee.edu/courses/iskb-211) | For non-piano principals. Comping, harmonic continuity. Triads, seventh chords, melody, and accompaniment. Standard song forms, blues.… |
+| [ISKB-212](https://college.berklee.edu/courses/iskb-212) | Continuation of ISKB-211. Advanced comping, voicings, additional melody with accompaniment.… |
+| [CM-221](https://college.berklee.edu/courses/cm-221) | This course introduces repertoire in the Romantic and post-Romantic styles, with an introduction to Impressionist and… |
+| [CP-215](https://college.berklee.edu/courses/cp-215) | This course is the continuation of CP-210 Art of Counterpoint 1 and focuses on two-part invention… |
+| [CM-231](https://college.berklee.edu/courses/cm-231) | This course provides students with foundational knowledge for professionally orchestrating and notating chamber and orchestral scores.… |
+| [CM-311](https://college.berklee.edu/courses/cm-311) | Through a lecture-workshop format, this course focuses on composing music with selected techniques of 20th century… |
+| [CM-312](https://college.berklee.edu/courses/cm-312) | Through a lecture-workshop format, this course focuses on composing music with selected techniques of the second… |
+| [CM-441](https://college.berklee.edu/courses/cm-441) | This course will prepare students to effectively score music for full symphony orchestra. A detailed study… |
+| [ET-231](https://college.berklee.edu/courses/et-231) | This course develops students' sight-singing skills using the traditional movable "do" method through drills in rhythm,… |
+| [ET-232](https://college.berklee.edu/courses/et-232) | Students continue their study of sight-singing and harmonic studies in all major and minor keys, as… |
+| [COND-211](https://college.berklee.edu/courses/cond-211) | This course provides students with beginning conducting skills, incorporating in-class conducting experience and in-depth score study,… |
+| [COND-216](https://college.berklee.edu/courses/cond-216) | This course provides students with beginning conducting skills, incorporating in-class conducting experience and in-depth score study,… |
+| [COND-212](https://college.berklee.edu/courses/cond-212) | This course assumes basic conducting technique from COND-211 Conducting 1 and covers three new topics and… |
+| [COND-217](https://college.berklee.edu/courses/cond-217) | This course assumes basic conducting technique and covers four areas: 1) Symphonic conducting with an instrumental… |
+| [PW-111](https://college.berklee.edu/courses/pw-111) | This course is a study of popular music. This study begins with the aural analysis of… |
+| [AR-111](https://college.berklee.edu/courses/ar-111) | In this practical course students work on the musical concepts of melody, rhythm, harmony and form… |
+| [AR-123](https://college.berklee.edu/courses/ar-123) | In this practical course students work on the musical concepts of melody, rhythm, harmony and form… |
+| [HR-112](https://college.berklee.edu/courses/hr-112) | This course is a continued exploration of major key harmony, particularly secondary and extended dominant relationships.… |
+| [HR-114](https://college.berklee.edu/courses/hr-114) | This course is open only to students who qualify for provisional advanced placement through the ESPA.… |
+| [HR-211](https://college.berklee.edu/courses/hr-211) | Students continue their analysis and application of major and minor key harmony; elaboration of subdominant minor… |
+| [HR-213](https://college.berklee.edu/courses/hr-213) | Open only to students who qualify for provisional advanced placement through the ESPA. This course is… |
+| [HR-215](https://college.berklee.edu/courses/hr-215) | This course is open to those students who have earned a grade of at least a… |
+| [HR-212](https://college.berklee.edu/courses/hr-212) | This course provides continued study of principles of modern chord progression, particularly deceptive resolutions of secondary… |
+| [HR-214](https://college.berklee.edu/courses/hr-214) | Open only to students who qualify for provisional advanced placement through the ESPA. This course is… |
+| [HR-216](https://college.berklee.edu/courses/hr-216) | This course is open to those students who have earned a grade of at least a… |
+| [ET-112](https://college.berklee.edu/courses/et-112) | Students further develop basic ear training skills through performance and dictation and study melodies, intervals, harmony,… |
+| [ET-123](https://college.berklee.edu/courses/et-123) | Ear Training 2 – Entering is an advanced placement course that covers the content of Ear… |
+| [CM-211](https://college.berklee.edu/courses/cm-211) | This course provides students with a fundamental understanding of harmonic analysis, melody writing and harmonization within… |
+| [CM-212](https://college.berklee.edu/courses/cm-212) | CM-212 is a continuation of Tonal Harmony and Composition 1 (CM-211), with an emphasis on chromatic… |
+| [CP-210](https://college.berklee.edu/courses/cp-210) | This course will instruct students in the fundamental principles of free counterpoint—composition with melodic lines—with an… |
+| [MTEC-111](https://college.berklee.edu/courses/mtec-111) | This course introduces students to the fundamentals of music technology geared toward the needs of today’s… |
+| [LHUM-400](https://college.berklee.edu/courses/lhum-400) | The Professional Development Seminar provides an opportunity for students in their sixth semester to reflect upon… |
+| [AFST-221](https://college.berklee.edu/courses/afst-221) | This course is an in-depth examination of the history and influence of music of the African… |
+| [CM-103](https://college.berklee.edu/courses/cm-103) | This course will introduce students to fundamental elements of compositional thought and structure. In a series… |
+| [CM-225](https://college.berklee.edu/courses/cm-225) | Intermediate and advanced approach to guitar composition techniques. The course is designed for performers/composers and provides… |
+| [CM-227](https://college.berklee.edu/courses/cm-227) | During this course the students will explore and master the technique of modulation to the keys… |
+| [CM-261](https://college.berklee.edu/courses/cm-261) | An introduction for the non-pianist to the fundamentals of composing music that is suited to acoustic… |
+| [AR-201](https://college.berklee.edu/courses/ar-201) | Five- and six-part writing for instruments. Application of voicings in seconds, thirds, and fourths. Upper-structure triads,… |
+| [AR-228](https://college.berklee.edu/courses/ar-228) | This course is a comprehensive study of the evolution of jazz composition and arranging from its… |
+| [AR-323](https://college.berklee.edu/courses/ar-323) | This course covers considerations an arranger must give to issues of tessitura, range, and technique, as… |
+| [AR-331](https://college.berklee.edu/courses/ar-331) | Methodology of big band arranging. Analysis of scores by classic and contemporary big band arrangers. Library… |
+| [AR-340](https://college.berklee.edu/courses/ar-340) | Jazz arranging techniques for the rhythm section and various small-group instrumental combinations of up to three… |
+| [CM-320](https://college.berklee.edu/courses/cm-320) | A cross-genre composition class that will explore complex rhythmic concepts such as odd meter and linear… |
+| [CM-373](https://college.berklee.edu/courses/cm-373) | Composition of non-song-form jazz pieces based on motivic development. Discussion of form and content as it… |
+| [CM-375](https://college.berklee.edu/courses/cm-375) | Composition of multisection extended jazz compositions. Discussion of form and orchestration as it applies to extended… |
+| [CM-385](https://college.berklee.edu/courses/cm-385) | Survey and analysis of music growing out of the bebop jazz era. Extensive study of John… |
+| [FILM-200](https://college.berklee.edu/courses/film-200) | This introduction is intended for prospective film and media scoring majors, minors, and other students looking… |
+| [FILM-205](https://college.berklee.edu/courses/film-205) | As a continuation of SCRN-202 and SCRN-240, composers will strengthen their use of MIDI/audio sequencing in… |
+| [FILM-207](https://college.berklee.edu/courses/film-207) | This course continues a focus on the analysis and composition techniques necessary for composing music for… |
+| [FILM-351](https://college.berklee.edu/courses/film-351) | Study of specific techniques of post-romantic composition commonly found in film underscores. Techniques studied include intervallic… |
+| [FILM-405](https://college.berklee.edu/courses/film-405) | A technical course designed to give composers practical experience in the area of music editing for… |
+| [FILM-407](https://college.berklee.edu/courses/film-407) | This course will provide opportunities for scoring scenes that use the same thematic material for one… |
+| [FILM-433](https://college.berklee.edu/courses/film-433) | This course explores the ways in which music from diverse cultures can be used to enrich… |
+| [CM-201](https://college.berklee.edu/courses/cm-201) | This is a foundational course for potential composition majors and other interested students which introduces composition… |
+| [CM-251](https://college.berklee.edu/courses/cm-251) | This course introduces students to diatonic harmonic analysis in various musical textures, melody writing, and harmonization… |
+| [CM-252](https://college.berklee.edu/courses/cm-252) | This course is a continuation of CM-251. Students explore more in-depth concepts, including advanced traditional harmony… |
+| [CM-318](https://college.berklee.edu/courses/cm-318) | The workshop provides opportunities for student composers to hear performances of their own work, and for… |
+| [CM-333](https://college.berklee.edu/courses/cm-333) | Composing New Music for Dance is an advanced class for composers to learn pedagogue of collaboration… |
+| [CM-341](https://college.berklee.edu/courses/cm-341) | Discussion of string instruments, their special effects, and proper notation. Principles of string orchestration and voicing… |
+| [CM-342](https://college.berklee.edu/courses/cm-342) | The course will focus on the acquisition of skills with technological tools for the creation of… |
+| [CM-343](https://college.berklee.edu/courses/cm-343) | This course will cover the capabilities and notation for all percussion instruments typically found in a… |
+| [CM-355](https://college.berklee.edu/courses/cm-355) | Examination of representative solo vocal works from the 19th and 20th centuries (including works requiring nontraditional… |
+| [CM-357](https://college.berklee.edu/courses/cm-357) | Introduction to Electroacoustic Music for Composers is a survey course in electronic and computer music composition.… |
+| [CM-358](https://college.berklee.edu/courses/cm-358) | This is an intermediate course for composition majors and other interested students which introduces composing with… |
+| [CM-361](https://college.berklee.edu/courses/cm-361) | Approaches to composition using ideas and aesthetic principles from a variety of non-Western musical traditions. Explorations… |
+| [CM-371](https://college.berklee.edu/courses/cm-371) | A systematic approach to the art of composing in the jazz idiom. Exploration of melodic, harmonic,… |
+| [CM-399](https://college.berklee.edu/courses/cm-399) | This course will give interested students, particularly Composition majors, the opportunity to pursue individual interests in… |
+| [CM-470](https://college.berklee.edu/courses/cm-470) | The objective of the course is to play, direct, and perform original compositions along with published… |
+| [MHIS-319](https://college.berklee.edu/courses/mhis-319) | This course examines the history of jazz, from its African roots and 19th-century precursors to today.… |
+| [MHIS-325](https://college.berklee.edu/courses/mhis-325) | This survey course presents students with an overview of the history of musical theater in the… |
+| [MHIS-327](https://college.berklee.edu/courses/mhis-327) | This course offers a survey of country music as a cultural and commercial phenomenon. The first… |
+| [MHIS-341](https://college.berklee.edu/courses/mhis-341) | This course focuses on the indelible impact the African musical and cultural aesthetic has had on… |
+| [MHIS-342](https://college.berklee.edu/courses/mhis-342) | This course looks at the development of indigenous music from Trinidad, Jamaica, Barbados—to name a few… |
+| [MHIS-343](https://college.berklee.edu/courses/mhis-343) | This course is a survey focusing on stylistic analysis and a contextualizing cultural exploration of the… |
+| [MHIS-347](https://college.berklee.edu/courses/mhis-347) | A seminar course on the female contribution to various musical traditions from antiquity to the present.… |
+| [MHIS-353](https://college.berklee.edu/courses/mhis-353) | This course will discuss the contributions that African American composers have made to classical music from… |
+| [MHIS-361](https://college.berklee.edu/courses/mhis-361) | A survey course offering an overview of musical trends that have dominated concert music since World… |
+| [COND-221](https://college.berklee.edu/courses/cond-221) | This course introduces fundamental beat patterns, basic conducting technique, phrasing and articulation, and problems of tempo.… |
+| [COND-222](https://college.berklee.edu/courses/cond-222) | This course introduces students to fundamental beat patterns, basic conducting technique, phrasing, articulation, and problems of… |
+| [COND-321](https://college.berklee.edu/courses/cond-321) | This course is designed to prepare students to effectively design, lead, and assess choral rehearsals. It… |
+| [COND-322](https://college.berklee.edu/courses/cond-322) | This course examines a variety of rehearsal strategies and teaching techniques for use with K-12 instrumental… |
+| [COND-331](https://college.berklee.edu/courses/cond-331) | This is a hands-on, lab-style course, focused on skills particular and unique to theater conducting. Students… |
+| [COND-332](https://college.berklee.edu/courses/cond-332) | This lecture/discussion class addresses the multifaceted job of the Broadway music director (except for conducting skills,… |
+| [COND-334](https://college.berklee.edu/courses/cond-334) | This class is centered around the techniques of conducting instrumental music with dance. Students will have… |
+| [COND-341](https://college.berklee.edu/courses/cond-341) | The ability to analyze and dissect musical scores is an essential skill for the instrumental music… |
+| [COND-351](https://college.berklee.edu/courses/cond-351) | A practical, introductory course for conductors and music directors in preparation, organization, rehearsal, and recording under… |
+| [COND-355](https://college.berklee.edu/courses/cond-355) | This course is designed to give students practical experience in conducting rehearsals of small instrumental groups.… |
+| [COND-361](https://college.berklee.edu/courses/cond-361) | Rehearsing and recording to picture with live performers under studio conditions. Focus on preparation, efficiency, and… |
+| [COND-391](https://college.berklee.edu/courses/cond-391) | Presentation and discussion on the topics of what it takes to succeed as a professional conductor… |
+| [COND-421](https://college.berklee.edu/courses/cond-421) | An advanced course for conductors in the development of effective technical, musical, and psychological skills, including… |
+| [MLAN-233](https://college.berklee.edu/courses/mlan-233) | An in-depth look at some of rock's most influential guitar players. The importance of their contributions… |
+| [MLAN-241](https://college.berklee.edu/courses/mlan-241) | This course provides a study of China’s music from ancient times through major dynasties to the… |
+| [MLAN-243](https://college.berklee.edu/courses/mlan-243) | A study of Japan's musical history and life, including: music of Shinto and Buddhism; music of… |
+| [MLAN-250](https://college.berklee.edu/courses/mlan-250) | This course surveys the life and music of Maurice Ravel, one of the most important and… |
+| [MLAN-288](https://college.berklee.edu/courses/mlan-288) | An exploration of Messiaen’s unique ideas, philosophy, and music. Topics include his concepts for pitch design… |
+| [MLAN-314](https://college.berklee.edu/courses/mlan-314) | This course draws from a wide variety of classical and contemporary compositional forms, styles, and concepts.… |
+| [MLAN-315](https://college.berklee.edu/courses/mlan-315) | A comprehensive survey of the forms that originated in the Renaissance, baroque, and classical periods, and… |
+| [MLAN-335](https://college.berklee.edu/courses/mlan-335) | Analysis of progressive rock music from 1967—present. The influence of compositional and orchestral techniques and use… |
+| [MLAN-340](https://college.berklee.edu/courses/mlan-340) | This course will delve into a history and analysis of the life and work of Pauline… |
+| [MLAN-351](https://college.berklee.edu/courses/mlan-351) | A course tracing the development of the music of Miles Davis. Examination and discussion of the… |
+| [MLAN-352](https://college.berklee.edu/courses/mlan-352) | A chronological investigation of the music of Duke Ellington and the development of the Ellington Orchestra.… |
+| [MLAN-411](https://college.berklee.edu/courses/mlan-411) | Students will study orchestral compositions by the most recognized 21st-century concert music composers. Each week a… |
+| [CP-311](https://college.berklee.edu/courses/cp-311) | The course focuses on analysis and writing of three- and four-voice imitative counterpoint based on traditional… |
+| [CP-350](https://college.berklee.edu/courses/cp-350) | The course is based on the examination of different realms of 20th-century counterpoint through the detailed… |
+
+**Bilan : 104 URL de cours de plus retrouvées et identifiées au code exact ; avec les 31 du lot précédent, 135/135 cours Berklee concrets ont une page institutionnelle directe vérifiée.** Les huit entrées `unresolved_pool` ne doivent pas être présentées comme des cours individuels et ne sont pas incluses. Aucun PDF téléchargé, aucun véritable syllabus supplémentaire.
+

@@ -18,7 +18,12 @@ Un agent commence par [AGENTS.md](../AGENTS.md). **Objectif prioritaire : cartog
    [Cartographie UdeM : 88 ensembles, ateliers et cours instrumentaux](raw-batches/2026-11-10-udem-88-ensembles-instruments.md) — limites des enseignements à programme variable.
    [Berklee Boston : lot de 68 cours composition/harmonie/production](raw-batches/2026-11-10-berklee-68-program-courses.md) — cartes de matière et liens du campus.
    [Berklee Boston : 48 entrées musicales conservées, vrais cours et familles à déplier](raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md) — aucune fausse équivalence entre un code générique et un syllabus.
-   [Bilan 1A actualisé des 386 entrées musicales](topic-outline-coverage-status.md) : 240 exploitables, 138 à préciser, 8 familles musicales à déplier.
+   [Bilan 1A actualisé des 386 entrées musicales](topic-outline-coverage-status.md) : 255 exploitables, 123 à préciser, 8 familles musicales à déplier.
+   [UdeM — 111 notices directes des cours partiels](raw-batches/2026-11-11-udem-111-direct-notices.md) : contenu, limites et 10 enrichissements.
+   [UdeM — 74 autres notices directes](raw-batches/2026-11-11-udem-74-exact-source-links.md) : sources propres au code pour les cartes déjà exploitables.
+   [McGill — 17 notices de la grille 2026–2027](raw-batches/2026-11-11-mcgill-17-current-requirements.md) : cinq cartes enrichies.
+   [Berklee — 104 autres URL de cours vérifiées](raw-batches/2026-11-11-berklee-104-direct-source-index.md) : avec les 31 déjà relues, 135/135 vrais codes Berklee du registre.
+   [McGill — 58 pages de cours directes](raw-batches/2026-11-11-mcgill-58-direct-course-index.md) : toutes les notices individuelles des cours identifiables du registre.
    [Berklee Boston — 31 notices directes relues](raw-batches/2026-11-11-berklee-31-direct-course-notices.md) : 21 cartes enrichies, dix conservées partielles ; sources de catalogue, non syllabus.
    [Berklee — 17 cartes relues sur notices détaillées](raw-batches/2026-11-10-berklee-17-verified-refinements.md), dont 14 enrichies jusqu'au seuil exploitable.
    [Berklee : 25 cours musicaux concrets trouvés dans les options](raw-batches/2026-11-10-berklee-36-real-open-electives.md) et [registre candidat structuré](data/berklee-open-elective-candidates-2026.json).

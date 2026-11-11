@@ -54,11 +54,13 @@
         "status": "partially_documented",
         "material_file": "docs/courses/udem/MCT-3012.md",
         "topic_outline": {
-          "state": "partial",
+          "state": "usable_first_pass",
           "source_kind": "official_program_and_existing_course_notes",
           "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
           "document": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
-          "reviewed_on": "2026-11-10"
+          "reviewed_on": "2026-11-11",
+          "refinement_document": "docs/raw-batches/2026-11-11-udem-111-direct-notices.md",
+          "refinement_source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mct-3012/"
         }
       },
       "MTE 1110": {
@@ -1443,39 +1445,45 @@
         "status": "partially_documented",
         "material_file": "docs/courses/udem/MUE-1341.md",
         "topic_outline": {
-          "state": "partial",
+          "state": "usable_first_pass",
           "source_kind": "official_faculty_ensemble_description_and_program",
           "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/atelier-de-gamelan/",
           "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
-          "reviewed_on": "2026-11-10",
+          "reviewed_on": "2026-11-11",
           "expanded_on": "2026-11-10",
-          "level_variants_not_documented": true
+          "level_variants_not_documented": true,
+          "refinement_document": "docs/raw-batches/2026-11-11-udem-111-direct-notices.md",
+          "refinement_source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1341/"
         }
       },
       "MUE 1342": {
         "status": "partially_documented",
         "material_file": "docs/courses/udem/MUE-1342.md",
         "topic_outline": {
-          "state": "partial",
+          "state": "usable_first_pass",
           "source_kind": "official_faculty_ensemble_description_and_program",
           "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/atelier-de-gamelan/",
           "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
-          "reviewed_on": "2026-11-10",
+          "reviewed_on": "2026-11-11",
           "expanded_on": "2026-11-10",
-          "level_variants_not_documented": true
+          "level_variants_not_documented": true,
+          "refinement_document": "docs/raw-batches/2026-11-11-udem-111-direct-notices.md",
+          "refinement_source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1342/"
         }
       },
       "MUE 1343": {
         "status": "partially_documented",
         "material_file": "docs/courses/udem/MUE-1343.md",
         "topic_outline": {
-          "state": "partial",
+          "state": "usable_first_pass",
           "source_kind": "official_faculty_ensemble_description_and_program",
           "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/atelier-de-gamelan/",
           "document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
-          "reviewed_on": "2026-11-10",
+          "reviewed_on": "2026-11-11",
           "expanded_on": "2026-11-10",
-          "level_variants_not_documented": true
+          "level_variants_not_documented": true,
+          "refinement_document": "docs/raw-batches/2026-11-11-udem-111-direct-notices.md",
+          "refinement_source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1343/"
         }
       },
       "MUE 1361": {
@@ -1627,55 +1635,65 @@
         "status": "catalog_only",
         "material_file": null,
         "topic_outline": {
-          "state": "partial",
+          "state": "usable_first_pass",
           "source_kind": "official_program_catalogue",
           "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
           "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "reviewed_on": "2026-11-11",
+          "refinement_document": "docs/raw-batches/2026-11-11-udem-111-direct-notices.md",
+          "refinement_source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1571/"
         }
       },
       "MUE 1572": {
         "status": "catalog_only",
         "material_file": null,
         "topic_outline": {
-          "state": "partial",
+          "state": "usable_first_pass",
           "source_kind": "official_program_catalogue",
           "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
           "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "reviewed_on": "2026-11-11",
+          "refinement_document": "docs/raw-batches/2026-11-11-udem-111-direct-notices.md",
+          "refinement_source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1572/"
         }
       },
       "MUE 1573": {
         "status": "catalog_only",
         "material_file": null,
         "topic_outline": {
-          "state": "partial",
+          "state": "usable_first_pass",
           "source_kind": "official_program_catalogue",
           "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
           "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "reviewed_on": "2026-11-11",
+          "refinement_document": "docs/raw-batches/2026-11-11-udem-111-direct-notices.md",
+          "refinement_source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1573/"
         }
       },
       "MUE 1621": {
         "status": "partially_documented",
         "material_file": "docs/courses/udem/MUE-1621.md",
         "topic_outline": {
-          "state": "partial",
+          "state": "usable_first_pass",
           "source_kind": "official_program_catalogue",
           "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
           "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "reviewed_on": "2026-11-11",
+          "refinement_document": "docs/raw-batches/2026-11-11-udem-111-direct-notices.md",
+          "refinement_source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1621/"
         }
       },
       "MUE 1622": {
         "status": "partially_documented",
         "material_file": "docs/courses/udem/MUE-1622.md",
         "topic_outline": {
-          "state": "partial",
+          "state": "usable_first_pass",
           "source_kind": "official_program_catalogue",
           "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
           "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10"
+          "reviewed_on": "2026-11-11",
+          "refinement_document": "docs/raw-batches/2026-11-11-udem-111-direct-notices.md",
+          "refinement_source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1622/"
         }
       },
       "MUE 2351": {
@@ -1891,17 +1909,19 @@
         "status": "catalog_only",
         "material_file": null,
         "topic_outline": {
-          "state": "partial",
+          "state": "usable_first_pass",
           "source_kind": "official_program_catalogue",
           "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
           "document": "docs/raw-batches/2026-11-10-udem-88-ensembles-instruments.md",
-          "reviewed_on": "2026-11-10",
+          "reviewed_on": "2026-11-11",
           "context_source_kind": "official_faculty_instrument_discipline_not_course_syllabus",
           "context_source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
           "context_document": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
           "context_reviewed_on": "2026-11-10",
           "individualized_course": true,
-          "needs": "specific first-level instrumental learning outcomes and repertoire, not admissions exam"
+          "needs": "specific first-level instrumental learning outcomes and repertoire, not admissions exam",
+          "refinement_document": "docs/raw-batches/2026-11-11-udem-111-direct-notices.md",
+          "refinement_source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1162a/"
         }
       },
       "MUI 1173A": {
@@ -2725,22 +2745,24 @@
         "status": "catalog_only",
         "material_file": null,
         "topic_outline": {
-          "state": "partial",
+          "state": "usable_first_pass",
           "source_kind": "official_catalogue_historical",
           "source_url": "https://www.mcgill.ca/study/2024-2025/courses/muhl-385",
           "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
-          "reviewed_on": "2026-11-10"
+          "reviewed_on": "2026-11-11",
+          "refinement_document": "docs/raw-batches/2026-11-11-mcgill-17-current-requirements.md"
         }
       },
       "MUHL 391": {
         "status": "catalog_only",
         "material_file": null,
         "topic_outline": {
-          "state": "partial",
+          "state": "usable_first_pass",
           "source_kind": "official_catalogue_historical",
           "source_url": "https://www.mcgill.ca/study/2024-2025/courses/muhl-391",
           "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
-          "reviewed_on": "2026-11-10"
+          "reviewed_on": "2026-11-11",
+          "refinement_document": "docs/raw-batches/2026-11-11-mcgill-17-current-requirements.md"
         }
       },
       "MUHL 392": {
@@ -2904,11 +2926,12 @@
         "status": "catalog_only",
         "material_file": "docs/courses/mcgill/MUTH-302.md",
         "topic_outline": {
-          "state": "partial",
+          "state": "usable_first_pass",
           "source_kind": "official_catalogue_historical",
           "source_url": "https://www.mcgill.ca/study/2024-2025/courses/muth-302",
           "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
-          "reviewed_on": "2026-11-10"
+          "reviewed_on": "2026-11-11",
+          "refinement_document": "docs/raw-batches/2026-11-11-mcgill-17-current-requirements.md"
         }
       },
       "MUTH 304": {
@@ -2948,22 +2971,24 @@
         "status": "catalog_only",
         "material_file": "docs/courses/mcgill/MUTH-538.md",
         "topic_outline": {
-          "state": "partial",
+          "state": "usable_first_pass",
           "source_kind": "official_catalogue",
           "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
           "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
-          "reviewed_on": "2026-11-10"
+          "reviewed_on": "2026-11-11",
+          "refinement_document": "docs/raw-batches/2026-11-11-mcgill-17-current-requirements.md"
         }
       },
       "MUTH 539": {
         "status": "catalog_only",
         "material_file": "docs/courses/mcgill/MUTH-539.md",
         "topic_outline": {
-          "state": "partial",
+          "state": "usable_first_pass",
           "source_kind": "official_catalogue",
           "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
           "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
-          "reviewed_on": "2026-11-10"
+          "reviewed_on": "2026-11-11",
+          "refinement_document": "docs/raw-batches/2026-11-11-mcgill-17-current-requirements.md"
         }
       }
     },
