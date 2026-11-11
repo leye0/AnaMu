@@ -68,6 +68,8 @@ La suite vise les cours restants, par lots, sans fiche littéraire ni tests.
 
 **Amélioration 1A, 10 novembre 2026 :** [17 cartes Berklee vérifiées directement](raw-batches/2026-11-10-berklee-17-verified-refinements.md), **14 promotions** `partial → usable_first_pass`, trois autres gardées partielles faute de détail. Le registre des syllabus reste inchangé ; le compteur des cartes est maintenant **200 / 185 / 17**.
 
+**Options Berklee :** [36 vrais cours candidats identifiés dans 8 familles](raw-batches/2026-11-10-berklee-36-real-open-electives.md) ; code, thèmes et notice officielle, détaillés aussi dans [la table structurée](data/berklee-open-elective-candidates-2026.json). **Ces 36 candidats ne sont pas intégrés aux 402 entrées de base**, et la grille de crédits n'est pas supposée autoriser chaque combinaison. Il reste 17 familles non résolues dans la grille, dont 8 au moins ont des exemples concrets. Compteur 402 inchangé : 200 utilisables, 185 partielles, 17 familles.
+
 ## Mode d'emploi et définition de « terminé »
 
 **Aucune case ci-dessous n'est actuellement validée.** Des catalogues

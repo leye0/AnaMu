@@ -30,3 +30,7 @@
 4. Une fois les sujets définis de manière suffisamment précise sur le périmètre réel, **phase 1B** : recherche académique par **sujet** (traités, manuels, articles, partitions, contre-exemples), pas reconstitution administrative des cours.
 
 **Verrou actif :** pas de concepts réconciliés en base ni de développement de logiciels, analyseurs, composition, tests ou CI avant décision explicite.
+
+## Exploration des réserves de crédits (10 novembre 2026)
+
+[36 cours Berklee réels, codés et sourcés](raw-batches/2026-11-10-berklee-36-real-open-electives.md) ont été identifiés dans huit familles d'options. **Ils sont distincts des 402 entrées historiques** et n'en ferment aucune automatiquement. Parmi eux : acoustique, psychoacoustique, cognition musicale, économie sociale de la musique, traditions afro-diasporiques, cinéma et arts visuels. Leurs axes sont dans [un registre complémentaire JSON](data/berklee-open-elective-candidates-2026.json). Le travail restant sur les catégories de choix doit désormais partir de codes concrets, pas se limiter aux placeholders.
