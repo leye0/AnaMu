@@ -1,4 +1,4 @@
-# UdeM — 27 cours d'ensembles reliés à leurs pratiques et au répertoire réellement programmé
+# UdeM — 25 cours d'ensembles reliés à leurs pratiques et au répertoire réellement programmé
 
 **11 novembre 2026, phase 1A.** Source : pages officielles des ensembles de la Faculté de musique, [auditions A26](https://musique.umontreal.ca/etudier/espace-etudiant/auditions-et-rencontres-prealables-a-la-participation-aux-ensembles/), [programme PDF de l'OUM saison 2026–2027](https://musique.umontreal.ca/fileadmin/musique/documents/OUM/programme_OUM_26-27.pdf). Les groupes à niveaux 1/2/3 ne reçoivent pas artificiellement trois syllabus identiques. Les œuvres antérieures et critères d'audition ne sont pas assimilés à des unités de cours.
 
@@ -109,4 +109,4 @@ Le [PDF officiel sur deux pages](https://musique.umontreal.ca/fileadmin/musique/
 - [Ensemble de guitare jazz](https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-de-guitares-jazz/) n'est pas assimilé à `MUE 1231/1232/1233` (ensemble de guitares sans qualificatif jazz). Il reste une piste distincte.
 - [Ensemble de musique contemporaine](https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-de-musique-contemporaine/) : 15–25 solistes, mentorat NEM, création musicale et collaboration avec composition, mais pas de correspondance MUE certaine dans le présent lot.
 
-**Bilan : 27 codes principaux enrichis documentairement, dont 1 changement de statut, 12+ pages/sections institutionnelles complémentaires consultées, et des cas d'équivalence explicitement laissés en suspens. Aucun test, aucune CI, aucun générateur.**
+**Bilan : 25 codes principaux enrichis documentairement, dont 1 changement de statut, 12+ pages/sections institutionnelles complémentaires consultées, et des cas d'équivalence explicitement laissés en suspens. Aucun test, aucune CI, aucun générateur.**
