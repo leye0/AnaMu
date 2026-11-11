@@ -1,6 +1,12 @@
 # AnaMu — TODO de couverture universitaire exhaustive
 
-**Branche voisine Berklee film/production (11 novembre) :** [24 notices de composition à l'image et production](raw-batches/2026-11-11-berklee-24-film-production-composition.md), dont 16 nouveaux cours musicaux complémentaires et huit codes musicaux déjà inclus dans le registre principal — ceux-ci ne sont pas recomptés. **100 cours voisins** distincts documentés aujourd'hui (18 + 29 + 22 + 15 + 16).
+**Branche voisine McGill oreille et solfège (11 novembre) :** [17 descriptions MUSP](raw-batches/2026-11-11-mcgill-17-musicianship-ear-training.md), dont dix cours nouveaux et sept codes historiques précisés ; progression de dictée, rythme, lecture à vue et chant mensural. **Total : 127 cours musicaux voisins distincts** documentés en huit lots (18 + 29 + 22 + 15 + 16 + 13 + 4 + 10), en conservant séparément les 386 entrées historiques.
+
+**Branche voisine McGill théorie (11 novembre) :** [14 notices MUTH](raw-batches/2026-11-11-mcgill-14-music-theory-analysis.md), quatre nouveaux codes et dix approfondissements historiques.
+
+**Branche voisine McGill histoire musicale (11 novembre) :** [16 notices individuelles d'histoire, écoute et ethnomusicologie](raw-batches/2026-11-11-mcgill-16-music-history-courses.md), dont 13 nouveaux codes musicaux et trois déjà historiques. Quatre cours sont expressément réservés aux étudiants hors B.Mus./L.Mus.
+
+**Branche voisine Berklee film/production (11 novembre) :** [24 notices de composition à l'image et production](raw-batches/2026-11-11-berklee-24-film-production-composition.md), dont 16 nouveaux cours musicaux complémentaires et huit codes musicaux déjà inclus dans le registre principal — ceux-ci ne sont pas recomptés.
 
 **Branche voisine Berklee GAIM/SCRN (11 novembre) :** [15 autres cours de musique interactive, orchestration et scoring](raw-batches/2026-11-11-berklee-15-game-screen-scoring.md) avec descriptions individuelles détaillées, hors compteur historique.
 

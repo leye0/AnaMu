@@ -29,6 +29,9 @@ Un agent commence par [AGENTS.md](../AGENTS.md). **Objectif prioritaire : cartog
    [McGill — 22 cours voisins de jazz](raw-batches/2026-11-11-mcgill-22-jazz-neighbor-courses.md) : harmonie, clavier, improvisation vocale/instrumentale, arrangements et composition.
    [Berklee — 15 cours voisins de composition interactive et musique à l'image](raw-batches/2026-11-11-berklee-15-game-screen-scoring.md) : thèmes, orchestration, ambiances, mixage adaptatif, intégration et métiers du scoring.
    [Berklee — 24 notices film, orchestration et production](raw-batches/2026-11-11-berklee-24-film-production-composition.md) : 16 nouveaux cours musicaux voisins et huit codes déjà présents renforcés.
+   [McGill — 16 notices d'histoire et d'écoute musicale](raw-batches/2026-11-11-mcgill-16-music-history-courses.md) : 13 nouveaux cours voisins, trois codes déjà présents et quatre restrictions formelles d'admissibilité aux B.Mus./L.Mus.
+   [McGill — 14 cours de théorie et analyse](raw-batches/2026-11-11-mcgill-14-music-theory-analysis.md) : quatre voisins nouveaux et dix codes historiques approfondis sur l'écriture musicale.
+   [McGill — 17 cours de solfège, oreille et musicienship](raw-batches/2026-11-11-mcgill-17-musicianship-ear-training.md) : dix voisins nouveaux et sept codes historiques recoupés en progression tonale/post-tonale.
    [Berklee Boston — 31 notices directes relues](raw-batches/2026-11-11-berklee-31-direct-course-notices.md) : 21 cartes enrichies, dix conservées partielles ; sources de catalogue, non syllabus.
    [Berklee — 17 cartes relues sur notices détaillées](raw-batches/2026-11-10-berklee-17-verified-refinements.md), dont 14 enrichies jusqu'au seuil exploitable.
    [Berklee : 25 cours musicaux concrets trouvés dans les options](raw-batches/2026-11-10-berklee-36-real-open-electives.md) et [registre candidat structuré](data/berklee-open-elective-candidates-2026.json).
