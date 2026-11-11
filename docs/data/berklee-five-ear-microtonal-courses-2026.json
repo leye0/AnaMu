@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-11",
+  "institution": "Berklee College of Music Boston",
+  "source_kind": "individual_official_course_catalogue",
+  "baseline_total_unchanged": 386,
+  "records": [
+    {
+      "code": "ET-321",
+      "title": "World Music Ear Training",
+      "url": "https://college.berklee.edu/ear-training/ear-training-courses",
+      "kind": "official_course_catalogue",
+      "topics": [
+        "Reconnaissance et exécution de motifs rythmiques à travers les traditions",
+        "Étude d'ostinatos de percussion dans les contextes africains, caribéens et sud-américains",
+        "Écoute et transcription d'exemples vocaux et instrumentaux de l'Inde du Sud",
+        "Métriques et répertoires des Balkans et musiques du Moyen-Orient",
+        "Vocalisation et externalisation corporelle des rythmes",
+        "Analyse auditive de plusieurs plans d'une texture polyrythmique",
+        "Cognition musicale et formation des représentations culturelles",
+        "Étude des ambiguïtés de segmentation dans la perception rythmique"
+      ],
+      "limits": "Description du cours ET-321 Berklee, non les exercices ni les niveaux MUS1011-1016 UdeM; durée et liste de pièces non précisées.",
+      "topic_state": "usable_first_pass",
+      "is_baseline_main": false
+    },
+    {
+      "code": "ET-399",
+      "title": "Microtonal Ear Training and Composition",
+      "url": "https://college.berklee.edu/courses/et-399",
+      "kind": "official_course_catalogue",
+      "topics": [
+        "Reconnaissance et chant/jeu des quarts de ton",
+        "Exercices de sixièmes de ton",
+        "Exploration de douzièmes de ton si la progression le permet",
+        "Écoute comparée de traditions du Moyen-Orient, d'Asie, d'Afrique, du jazz/blues et de musique contemporaine",
+        "Identification et transcription de fragments microtonaux",
+        "Allers-retours entre exercices perceptifs et petites compositions",
+        "Projet final de composition/performance collective",
+        "Utilisation des sons naturels (partiels, oiseaux, klaxons) comme exemples de micro-intervalles"
+      ],
+      "limits": "L'étude des douzièmes de ton est conditionnelle à la disponibilité de temps; ce n'est pas un module obligatoire garanti ni le programme de l'UdeM.",
+      "topic_state": "usable_first_pass",
+      "is_baseline_main": false
+    },
+    {
+      "code": "ET-421",
+      "title": "Atonal Solfege 1",
+      "url": "https://college.berklee.edu/courses/et-421",
+      "kind": "official_course_catalogue_low_specificity",
+      "topics": [
+        "Lecture chantée de musique atonale",
+        "Méthode explicitement sans syllabes traditionnelles du sol-fa",
+        "Exigence d'aisance dans la solmisation des intervalles non tonals",
+        "Suite des niveaux ET-212 ou ET-232, avec continuation en solfège avancé"
+      ],
+      "limits": "Notice très courte : aucune méthode précise d'intervalle, collection, exercice ou œuvre démontrée; il s'agit d'une carte partielle complémentaire, pas d'un plan riche.",
+      "topic_state": "partial",
+      "is_baseline_main": false
+    },
+    {
+      "code": "PSHR-270",
+      "title": "Traditional Microtonal Theory and Application",
+      "url": "https://college.berklee.edu/courses/pshr-270",
+      "kind": "official_course_catalogue",
+      "topics": [
+        "Systèmes musicaux de la Méditerranée orientale et de l'Afrique du Nord",
+        "Théorie des maqâm et relations entre modes",
+        "Pratique de modulation des maqâms",
+        "Schémas et procédés d'improvisation",
+        "Modes rythmiques iqa associés aux formes du maqâm",
+        "Écoute d'extraits et analyse théorique",
+        "Interprétation vocale et instrumentale appliquée en classe"
+      ],
+      "limits": "Cours d'une unité de Berklee Boston, pas une preuve du contenu des classes instrumentales UdeM ni d'un cours de composition à lui seul.",
+      "topic_state": "usable_first_pass",
+      "is_baseline_main": false
+    },
+    {
+      "code": "ENGB-401",
+      "title": "Microtonal Grooves",
+      "url": "https://college.berklee.edu/courses/engb-401",
+      "kind": "official_course_catalogue_detailed",
+      "topics": [
+        "Système de notation de l'octave divisée en 72 parts égales (Joe Maneri)",
+        "Interprétation d'arrangements microtonaux de classique occidental, jazz, fusion et musique proche-orientale",
+        "Écriture microtonale et intonation des intervalles de quarts de ton",
+        "Improvisation solo et accompagnement comping dans un cadre accords-gammes microtonal",
+        "Travail sur les quatuors à quarts de ton de Carrillo et études de Hába",
+        "Exemples de Charles Mingus, David Fiuczynski et mélodies arabes/turques/chinoises",
+        "Production de grooves dancehall, drum and bass, reggaeton, house, 2-step et hip-hop",
+        "Expérimentation de séquences de hi-hat en triples croches et de nouveaux beats en ensemble"
+      ],
+      "limits": "Œuvres et grooves sont des exemples de travail indiqués dans la notice; l'effectif, les arrangements effectivement joués et les sections changent. Pas de syllabus hebdomadaire.",
+      "topic_state": "usable_first_pass",
+      "is_baseline_main": false
+    }
+  ]
+}
