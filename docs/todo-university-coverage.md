@@ -1,5 +1,7 @@
 # AnaMu — TODO de couverture universitaire exhaustive
 
+**Passe active du 11 novembre 2026 :** [31 notices propres aux cours Berklee Boston relues](raw-batches/2026-11-11-berklee-31-direct-course-notices.md), dont **21 cartes promues à `usable_first_pass`**, dix conservées partielles pour manque de détails ou variation de section. **Bilan à jour : 386 entrées, 240 cartes exploitables, 138 partielles, huit familles non dépliées**. Aucun nouveau syllabus et aucun travail logiciel. **Prochaine cible : les 111 cartes partielles UdeM, puis les 17 McGill et dix Berklee restantes ; étudier en parallèle les huit familles ouvertes.** Les chiffres datés plus bas représentent des instantanés historiques.
+
 **Autre lot du 10 novembre 2026 :** [36 cours MUI contextualisés par instrument](raw-batches/2026-11-10-udem-36-individual-instrument-context.md) sur sources officielles UdeM ; **36 enrichissements documentaires**, mais **aucune fausse promotion** de leur état `partial`, les leçons individuelles étant variables.
 
 **Familles de pratiques Berklee :** [44 cours réels désormais identifiés](raw-batches/2026-11-10-berklee-44-ensemble-private-labs.md), dont 28 leçons d'instruments, 12 ensembles et quatre labs. 13 descriptions initiales exploitables dans ce registre **complémentaire**, 31 partielles. Les 386 entrées principales restent inchangées ; aucune équivalence diplôme/syllabus universel inventée.

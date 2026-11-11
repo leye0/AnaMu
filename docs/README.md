@@ -18,7 +18,8 @@ Un agent commence par [AGENTS.md](../AGENTS.md). **Objectif prioritaire : cartog
    [Cartographie UdeM : 88 ensembles, ateliers et cours instrumentaux](raw-batches/2026-11-10-udem-88-ensembles-instruments.md) — limites des enseignements à programme variable.
    [Berklee Boston : lot de 68 cours composition/harmonie/production](raw-batches/2026-11-10-berklee-68-program-courses.md) — cartes de matière et liens du campus.
    [Berklee Boston : 48 entrées musicales conservées, vrais cours et familles à déplier](raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md) — aucune fausse équivalence entre un code générique et un syllabus.
-   [Bilan 1A du ratissage des 386 entrées musicales](topic-outline-coverage-status.md) : 219 exploitables, 159 à préciser, 8 familles musicales à déplier.
+   [Bilan 1A actualisé des 386 entrées musicales](topic-outline-coverage-status.md) : 240 exploitables, 138 à préciser, 8 familles musicales à déplier.
+   [Berklee Boston — 31 notices directes relues](raw-batches/2026-11-11-berklee-31-direct-course-notices.md) : 21 cartes enrichies, dix conservées partielles ; sources de catalogue, non syllabus.
    [Berklee — 17 cartes relues sur notices détaillées](raw-batches/2026-11-10-berklee-17-verified-refinements.md), dont 14 enrichies jusqu'au seuil exploitable.
    [Berklee : 25 cours musicaux concrets trouvés dans les options](raw-batches/2026-11-10-berklee-36-real-open-electives.md) et [registre candidat structuré](data/berklee-open-elective-candidates-2026.json).
    [UdeM — 22 codes d'ensembles avec matière spécifique sourcée](raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md).
