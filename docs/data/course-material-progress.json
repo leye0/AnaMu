@@ -5061,12 +5061,26 @@
             "ILGT-119",
             "ILPN-335",
             "ILPN-337",
-            "ILPN-381"
+            "ILPN-381",
+            "ILST-111",
+            "ILST-112",
+            "ILST-240",
+            "ILST-250",
+            "ILGT-213",
+            "ILGT-217",
+            "ILGT-261",
+            "ILVC-111",
+            "ILVC-211",
+            "ILPN-339"
           ],
           "candidate_document": "docs/raw-batches/2026-11-10-berklee-44-ensemble-private-labs.md",
           "instrument_or_ensemble_catalogue_source": "https://college.berklee.edu/ensemble/ensemble-courses",
           "placeholder_still_unresolved": true,
-          "last_candidates_reviewed": "2026-11-10"
+          "last_candidates_reviewed": "2026-11-10",
+          "candidate_enrichment_document": "docs/raw-batches/2026-11-11-berklee-10-instrumental-lab-course-candidates.md",
+          "candidate_enrichment_registry": "docs/data/berklee-10-instrumental-lab-candidates-2026.json",
+          "candidate_enrichment_reviewed_on": "2026-11-11",
+          "candidate_limit": "The student's principal instrument/section determines which real lab is eligible; 14 examples are not 14 requirements."
         }
       },
       "ENxx": {

@@ -1,5 +1,7 @@
 # Documentation AnaMu — entrée académique
 
+**Berklee ILxx :** [10 labs instrumentaux réels supplémentaires](raw-batches/2026-11-11-berklee-10-instrumental-lab-course-candidates.md) ([registre structuré](data/berklee-10-instrumental-lab-candidates-2026.json)), chacun avec ses axes attestés : lecture à vue vocale/cordes, 5/7/9/11 à la guitare, harmonie modale, amplifications et sessions de studio. **La famille ILxx passe de 4 à 14 codes candidats identifiés**, sans devenir 14 crédits obligatoires ou un lab déterminé pour un étudiant donné. **386 entrées principales inchangées.**
+
 **Berklee Boston :** [quatre fiches individuelles](courses/berklee/COND-421.md) créées à partir des notices officielles, dont [COND-311](courses/berklee/COND-311.md), [MLAN-375 Stravinsky](courses/berklee/MLAN-375.md) et [MLAN-381 compositeur variable](courses/berklee/MLAN-381.md) auparavant sans dossier individuel; 9 axes vérifiés de répétition avancée pour COND-421. Les trois P1 restent partiels, sans fausse liste d'œuvres ni syllabus inventé.
 
 **P1 formation auditive :** [5 vrais cours Berklee Boston](raw-batches/2026-11-11-berklee-five-ear-microtonal-courses.md) détaillés à partir de leur notice propre (modes et ostinatos mondiaux, quarts/sixièmes/douzièmes de ton, maqâm, iqa, système 72-EDO, rythmes et transcription), [données par code](data/berklee-five-ear-microtonal-courses-2026.json). Les six niveaux **UdeM MUS 1011–1016** ont des références comparatives désormais structurées mais restent `partial`, car leur programme par niveau n'est pas public. **263 / 115 / 8.**

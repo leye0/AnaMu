@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "program_page": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
+  "placeholder": "ILxx",
+  "prior_explicit_examples": 4,
+  "new_verified_examples": 10,
+  "current_total_explicit_examples": 14,
+  "scope": "Musical subject descriptions of individual official course catalog entries; not complete semester syllabi",
+  "records": [
+    {
+      "code": "ILST-111",
+      "title": "String Reading Lab",
+      "topics": [
+        "Lire hauteurs, rythmes et formes notées",
+        "Reconnaître motif mélodique, phrase parallèle ou contrastée",
+        "Interpréter reprises, da capo, coda et parcours de la partition",
+        "Interpréter dynamiques, articulations et phrasés",
+        "Développer l'audition intérieure par entraînement auditif",
+        "Lire différents styles dans un contexte instrumental de cordes"
+      ],
+      "source_url": "https://college.berklee.edu/courses/ilst-111",
+      "principal_instrument": "cordes",
+      "main_registry_member": false,
+      "caveat": "Individual lab eligibility and offering vary by instrument and academic semester"
+    },
+    {
+      "code": "ILST-112",
+      "title": "Advanced String Reading Lab",
+      "topics": [
+        "Prolonger la lecture instrumentale de ILST-111",
+        "Appliquer les acquis à des styles musicaux plus complexes",
+        "Cours avancé ayant ILST-111 comme préalable"
+      ],
+      "source_url": "https://college.berklee.edu/courses/ilst-112",
+      "principal_instrument": "cordes",
+      "main_registry_member": false,
+      "caveat": "Individual lab eligibility and offering vary by instrument and academic semester"
+    },
+    {
+      "code": "ILST-240",
+      "title": "Sound Reinforcement Techniques for Strings",
+      "topics": [
+        "Choisir micros et capteurs de cordes",
+        "Jouer et amplifier des instruments électriques",
+        "Comparer amplificateurs et effets de scène",
+        "Organiser monitoring de scène et console de mixage",
+        "Enregistrer un instrument acoustique ou électrique",
+        "Entretenir un instrument acoustique utilisé en situation amplifiée"
+      ],
+      "source_url": "https://college.berklee.edu/courses/ilst-240",
+      "principal_instrument": "cordes",
+      "main_registry_member": false,
+      "caveat": "Individual lab eligibility and offering vary by instrument and academic semester"
+    },
+    {
+      "code": "ILST-250",
+      "title": "Recording Techniques for String Players",
+      "topics": [
+        "Répétitions et prise de son en studio d'enregistrement",
+        "Collaboration cordes, écriture/composition et ingénierie du son",
+        "Trois à quatre unités de trois semaines prévues",
+        "Dans chaque unité, enregistrer une ou plusieurs œuvres écrites pour cordes par un étudiant compositeur",
+        "Possibilité de travailler avec des pistes déjà enregistrées"
+      ],
+      "source_url": "https://college.berklee.edu/courses/ilst-250",
+      "principal_instrument": "cordes",
+      "main_registry_member": false,
+      "caveat": "Individual lab eligibility and offering vary by instrument and academic semester"
+    },
+    {
+      "code": "ILGT-213",
+      "title": "Guitar Comping and Soloing in Odd Meters",
+      "topics": [
+        "Jeu de guitare dans les métriques composées/impaires",
+        "Groupements rythmiques de 5, 7, 9 et 11",
+        "Exercices progressifs et études instrumentales",
+        "Accompagnement (comping) dans ces mesures",
+        "Improvisation sur changements d'accords",
+        "Démonstrations et participation en groupe"
+      ],
+      "source_url": "https://college.berklee.edu/courses/ilgt-213",
+      "principal_instrument": "guitare",
+      "main_registry_member": false,
+      "caveat": "Individual lab eligibility and offering vary by instrument and academic semester"
+    },
+    {
+      "code": "ILGT-217",
+      "title": "Creative Applications for Proficiency Materials",
+      "topics": [
+        "Improvisation et accompagnement en contextes non jazz",
+        "Utilisation de pédales modales à base de triades et de drones",
+        "Pratique des modes dérivés des mineurs mélodiques, harmoniques et de majeur harmonique",
+        "Improvisation sur harmonie fonctionnelle et non fonctionnelle",
+        "Conduite de voix et création de positions d'accords",
+        "Exploration de la composition dans un cadre guitaristique"
+      ],
+      "source_url": "https://college.berklee.edu/courses/ilgt-217",
+      "principal_instrument": "guitare",
+      "main_registry_member": false,
+      "caveat": "Individual lab eligibility and offering vary by instrument and academic semester"
+    },
+    {
+      "code": "ILGT-261",
+      "title": "Guitar Lab: Developmental Arpeggios",
+      "topics": [
+        "Arpèges à deux octaves",
+        "Parcours de guitare sur trois et quatre parties/voix",
+        "Travail des arpèges sur l'ensemble du manche",
+        "Études et exercices instrumentaux hebdomadaires"
+      ],
+      "source_url": "https://college.berklee.edu/courses/ilgt-261",
+      "principal_instrument": "guitare",
+      "main_registry_member": false,
+      "caveat": "Individual lab eligibility and offering vary by instrument and academic semester"
+    },
+    {
+      "code": "ILVC-111",
+      "title": "Vocal Sight-Reading Techniques 1",
+      "topics": [
+        "Chant de notes et paroles simultanément à vue",
+        "Lecture de leadsheets, partitions et arrangements vocaux",
+        "Reconnaissance d'intervalles et changements d'accords",
+        "Application des patterns rythmiques à la prosodie",
+        "Développement des sensations de groove et time-feel",
+        "Écoute active pour appuyer le déchiffrage chanté"
+      ],
+      "source_url": "https://college.berklee.edu/courses/ilvc-111",
+      "principal_instrument": "voix",
+      "main_registry_member": false,
+      "caveat": "Individual lab eligibility and offering vary by instrument and academic semester"
+    },
+    {
+      "code": "ILVC-211",
+      "title": "Vocal Sight-Reading Techniques 2",
+      "topics": [
+        "Progression du déchiffrage vocal acquis dans ILVC-111",
+        "Chant des notes d'accords et des septièmes en lisant les paroles",
+        "Chant sur accords mineurs et modes",
+        "Exécution dans divers time-feels et grooves",
+        "Préalable obligatoire ILVC-111"
+      ],
+      "source_url": "https://college.berklee.edu/courses/ilvc-211",
+      "principal_instrument": "voix",
+      "main_registry_member": false,
+      "caveat": "Individual lab eligibility and offering vary by instrument and academic semester"
+    },
+    {
+      "code": "ILPN-339",
+      "title": "Rock Styles Lab: Hammond Organ",
+      "topics": [
+        "Techniques du Hammond dans les styles rock",
+        "Étude de performances enregistrées",
+        "Transcription de passages de musiciens influents",
+        "Enregistrements réalisés en classe",
+        "Exigences préalables ILPN-122 ou ensemble rating 3"
+      ],
+      "source_url": "https://college.berklee.edu/courses/ilpn-339",
+      "principal_instrument": "clavier",
+      "main_registry_member": false,
+      "caveat": "Individual lab eligibility and offering vary by instrument and academic semester"
+    }
+  ]
+}
