@@ -34,7 +34,11 @@
           "low_information_source_urls": [
             "https://musique.umontreal.ca/etudier/nos-disciplines/composition-instrumentale/"
           ],
-          "low_information_limit": "Activités annoncées pour le PARCOURS, pas programme garanti par niveau; méthodes, travaux, instrumentation et corpus propres à chacun des quatre cours inconnus."
+          "low_information_limit": "Activités annoncées pour le PARCOURS, pas programme garanti par niveau; méthodes, travaux, instrumentation et corpus propres à chacun des quatre cours inconnus.",
+          "next_research_priority": "P1",
+          "next_research_kind": "composition_tutorial",
+          "next_evidence_target": "Plan de tutorat daté, œuvres et techniques de section, éviter de transférer le cours concomitant",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MCT 1602": {
@@ -54,7 +58,11 @@
           "low_information_source_urls": [
             "https://musique.umontreal.ca/etudier/nos-disciplines/composition-instrumentale/"
           ],
-          "low_information_limit": "Activités annoncées pour le PARCOURS, pas programme garanti par niveau; méthodes, travaux, instrumentation et corpus propres à chacun des quatre cours inconnus."
+          "low_information_limit": "Activités annoncées pour le PARCOURS, pas programme garanti par niveau; méthodes, travaux, instrumentation et corpus propres à chacun des quatre cours inconnus.",
+          "next_research_priority": "P1",
+          "next_research_kind": "composition_tutorial",
+          "next_evidence_target": "Plan de tutorat daté, œuvres et techniques de section, éviter de transférer le cours concomitant",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MCT 3011": {
@@ -120,7 +128,11 @@
           "low_information_source_urls": [
             "https://admission.umontreal.ca/cours-et-horaires/cours/mte-1205/"
           ],
-          "low_information_limit": "La notice ne spécifie pas les méthodes analytiques et œuvres, ni la progression; reste partielle."
+          "low_information_limit": "La notice ne spécifie pas les méthodes analytiques et œuvres, ni la progression; reste partielle.",
+          "next_research_priority": "P0",
+          "next_research_kind": "theory_analysis_or_history",
+          "next_evidence_target": "Syllabus de section ou plan-cadre avec objets d'analyse et techniques musicales précises",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MTE 1206": {
@@ -208,7 +220,11 @@
             "https://musique.umontreal.ca/etudier/nos-disciplines/musiques-numeriques/",
             "https://musique.umontreal.ca/a-propos/nos-espaces/laboratoires-et-studios/"
           ],
-          "low_information_limit": "Ces techniques sont du cursus et des studios UdeM, pas prouvées comme tâches imposées dans MTE 1503; référence MIT 21M.361 déjà distinguée du cours."
+          "low_information_limit": "Ces techniques sont du cursus et des studios UdeM, pas prouvées comme tâches imposées dans MTE 1503; référence MIT 21M.361 déjà distinguée du cours.",
+          "next_research_priority": "P0",
+          "next_research_kind": "theory_analysis_or_history",
+          "next_evidence_target": "Syllabus de section ou plan-cadre avec objets d'analyse et techniques musicales précises",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MTE 2114": {
@@ -251,7 +267,11 @@
             "https://admission.umontreal.ca/cours-et-horaires/cours/mul-1116/",
             "https://admission.umontreal.ca/cours-et-horaires/cours/mul-1117/"
           ],
-          "low_information_limit": "Aucun compositeur ni œuvre supplémentaire attribué à ces cours précis; comparaison conservée séparée."
+          "low_information_limit": "Aucun compositeur ni œuvre supplémentaire attribué à ces cours précis; comparaison conservée séparée.",
+          "next_research_priority": "P0",
+          "next_research_kind": "theory_analysis_or_history",
+          "next_evidence_target": "Syllabus de section ou plan-cadre avec objets d'analyse et techniques musicales précises",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUS 1300": {
@@ -317,7 +337,11 @@
             "https://admission.umontreal.ca/cours-et-horaires/cours/mus-3411/",
             "https://admission.umontreal.ca/cours-et-horaires/cours/mus-3412/"
           ],
-          "low_information_limit": "Finalités attestées du forum; calendrier, invités, œuvres, techniques étudiées et distinction précise entre les deux trimestres toujours inconnus."
+          "low_information_limit": "Finalités attestées du forum; calendrier, invités, œuvres, techniques étudiées et distinction précise entre les deux trimestres toujours inconnus.",
+          "next_research_priority": "P2",
+          "next_research_kind": "composition_forum",
+          "next_evidence_target": "Programme effectif 2026–2027 : conférences, sujets et œuvres",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUS 3412": {
@@ -339,7 +363,11 @@
             "https://admission.umontreal.ca/cours-et-horaires/cours/mus-3411/",
             "https://admission.umontreal.ca/cours-et-horaires/cours/mus-3412/"
           ],
-          "low_information_limit": "Finalités attestées du forum; calendrier, invités, œuvres, techniques étudiées et distinction précise entre les deux trimestres toujours inconnus."
+          "low_information_limit": "Finalités attestées du forum; calendrier, invités, œuvres, techniques étudiées et distinction précise entre les deux trimestres toujours inconnus.",
+          "next_research_priority": "P2",
+          "next_research_kind": "composition_forum",
+          "next_evidence_target": "Programme effectif 2026–2027 : conférences, sujets et œuvres",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUS 1011": {
@@ -360,7 +388,11 @@
             "https://musique.umontreal.ca/fileadmin/musique/documents/admissions/Tests_sofege_dictee_exemples.pdf",
             "https://musique.umontreal.ca/etudier/espace-etudiant/tests-de-classement-et-dexemption/"
           ],
-          "low_information_limit": "ÉPREUVES DE CLASSEMENT 2011, NON exercices des six cours A26/H27. Impossible de répartir ces exercices entre les niveaux 1–6, donc six états conservés partiels."
+          "low_information_limit": "ÉPREUVES DE CLASSEMENT 2011, NON exercices des six cours A26/H27. Impossible de répartir ces exercices entre les niveaux 1–6, donc six états conservés partiels.",
+          "next_research_priority": "P1",
+          "next_research_kind": "ear_training_level",
+          "next_evidence_target": "Plan propre au niveau, répartition des intervalles, rythmes, modes de dictée, lectures chantées",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUS 1012": {
@@ -381,7 +413,11 @@
             "https://musique.umontreal.ca/fileadmin/musique/documents/admissions/Tests_sofege_dictee_exemples.pdf",
             "https://musique.umontreal.ca/etudier/espace-etudiant/tests-de-classement-et-dexemption/"
           ],
-          "low_information_limit": "ÉPREUVES DE CLASSEMENT 2011, NON exercices des six cours A26/H27. Impossible de répartir ces exercices entre les niveaux 1–6, donc six états conservés partiels."
+          "low_information_limit": "ÉPREUVES DE CLASSEMENT 2011, NON exercices des six cours A26/H27. Impossible de répartir ces exercices entre les niveaux 1–6, donc six états conservés partiels.",
+          "next_research_priority": "P1",
+          "next_research_kind": "ear_training_level",
+          "next_evidence_target": "Plan propre au niveau, répartition des intervalles, rythmes, modes de dictée, lectures chantées",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUS 1013": {
@@ -402,7 +438,11 @@
             "https://musique.umontreal.ca/fileadmin/musique/documents/admissions/Tests_sofege_dictee_exemples.pdf",
             "https://musique.umontreal.ca/etudier/espace-etudiant/tests-de-classement-et-dexemption/"
           ],
-          "low_information_limit": "ÉPREUVES DE CLASSEMENT 2011, NON exercices des six cours A26/H27. Impossible de répartir ces exercices entre les niveaux 1–6, donc six états conservés partiels."
+          "low_information_limit": "ÉPREUVES DE CLASSEMENT 2011, NON exercices des six cours A26/H27. Impossible de répartir ces exercices entre les niveaux 1–6, donc six états conservés partiels.",
+          "next_research_priority": "P1",
+          "next_research_kind": "ear_training_level",
+          "next_evidence_target": "Plan propre au niveau, répartition des intervalles, rythmes, modes de dictée, lectures chantées",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUS 1014": {
@@ -423,7 +463,11 @@
             "https://musique.umontreal.ca/fileadmin/musique/documents/admissions/Tests_sofege_dictee_exemples.pdf",
             "https://musique.umontreal.ca/etudier/espace-etudiant/tests-de-classement-et-dexemption/"
           ],
-          "low_information_limit": "ÉPREUVES DE CLASSEMENT 2011, NON exercices des six cours A26/H27. Impossible de répartir ces exercices entre les niveaux 1–6, donc six états conservés partiels."
+          "low_information_limit": "ÉPREUVES DE CLASSEMENT 2011, NON exercices des six cours A26/H27. Impossible de répartir ces exercices entre les niveaux 1–6, donc six états conservés partiels.",
+          "next_research_priority": "P1",
+          "next_research_kind": "ear_training_level",
+          "next_evidence_target": "Plan propre au niveau, répartition des intervalles, rythmes, modes de dictée, lectures chantées",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUS 1015": {
@@ -444,7 +488,11 @@
             "https://musique.umontreal.ca/fileadmin/musique/documents/admissions/Tests_sofege_dictee_exemples.pdf",
             "https://musique.umontreal.ca/etudier/espace-etudiant/tests-de-classement-et-dexemption/"
           ],
-          "low_information_limit": "ÉPREUVES DE CLASSEMENT 2011, NON exercices des six cours A26/H27. Impossible de répartir ces exercices entre les niveaux 1–6, donc six états conservés partiels."
+          "low_information_limit": "ÉPREUVES DE CLASSEMENT 2011, NON exercices des six cours A26/H27. Impossible de répartir ces exercices entre les niveaux 1–6, donc six états conservés partiels.",
+          "next_research_priority": "P1",
+          "next_research_kind": "ear_training_level",
+          "next_evidence_target": "Plan propre au niveau, répartition des intervalles, rythmes, modes de dictée, lectures chantées",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUS 1016": {
@@ -465,7 +513,11 @@
             "https://musique.umontreal.ca/fileadmin/musique/documents/admissions/Tests_sofege_dictee_exemples.pdf",
             "https://musique.umontreal.ca/etudier/espace-etudiant/tests-de-classement-et-dexemption/"
           ],
-          "low_information_limit": "ÉPREUVES DE CLASSEMENT 2011, NON exercices des six cours A26/H27. Impossible de répartir ces exercices entre les niveaux 1–6, donc six états conservés partiels."
+          "low_information_limit": "ÉPREUVES DE CLASSEMENT 2011, NON exercices des six cours A26/H27. Impossible de répartir ces exercices entre les niveaux 1–6, donc six états conservés partiels.",
+          "next_research_priority": "P1",
+          "next_research_kind": "ear_training_level",
+          "next_evidence_target": "Plan propre au niveau, répartition des intervalles, rythmes, modes de dictée, lectures chantées",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MCT 1603": {
@@ -485,7 +537,11 @@
           "low_information_source_urls": [
             "https://musique.umontreal.ca/etudier/nos-disciplines/composition-instrumentale/"
           ],
-          "low_information_limit": "Activités annoncées pour le PARCOURS, pas programme garanti par niveau; méthodes, travaux, instrumentation et corpus propres à chacun des quatre cours inconnus."
+          "low_information_limit": "Activités annoncées pour le PARCOURS, pas programme garanti par niveau; méthodes, travaux, instrumentation et corpus propres à chacun des quatre cours inconnus.",
+          "next_research_priority": "P1",
+          "next_research_kind": "composition_tutorial",
+          "next_evidence_target": "Plan de tutorat daté, œuvres et techniques de section, éviter de transférer le cours concomitant",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MCT 1604": {
@@ -505,7 +561,11 @@
           "low_information_source_urls": [
             "https://musique.umontreal.ca/etudier/nos-disciplines/composition-instrumentale/"
           ],
-          "low_information_limit": "Activités annoncées pour le PARCOURS, pas programme garanti par niveau; méthodes, travaux, instrumentation et corpus propres à chacun des quatre cours inconnus."
+          "low_information_limit": "Activités annoncées pour le PARCOURS, pas programme garanti par niveau; méthodes, travaux, instrumentation et corpus propres à chacun des quatre cours inconnus.",
+          "next_research_priority": "P1",
+          "next_research_kind": "composition_tutorial",
+          "next_evidence_target": "Plan de tutorat daté, œuvres et techniques de section, éviter de transférer le cours concomitant",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MCT 1701": {
@@ -526,7 +586,11 @@
             "https://musique.umontreal.ca/etudier/nos-disciplines/composition-mixte/",
             "https://musique.umontreal.ca/a-propos/nos-espaces/laboratoires-et-studios/"
           ],
-          "low_information_limit": "Le descriptif concerne la DISCIPLINE et le matériel de la Faculté; ce ne sont ni des modules ni des techniques obligatoires attestés de MCT 1701/1702."
+          "low_information_limit": "Le descriptif concerne la DISCIPLINE et le matériel de la Faculté; ce ne sont ni des modules ni des techniques obligatoires attestés de MCT 1701/1702.",
+          "next_research_priority": "P1",
+          "next_research_kind": "composition_tutorial",
+          "next_evidence_target": "Plan de tutorat daté, œuvres et techniques de section, éviter de transférer le cours concomitant",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MCT 1702": {
@@ -547,7 +611,11 @@
             "https://musique.umontreal.ca/etudier/nos-disciplines/composition-mixte/",
             "https://musique.umontreal.ca/a-propos/nos-espaces/laboratoires-et-studios/"
           ],
-          "low_information_limit": "Le descriptif concerne la DISCIPLINE et le matériel de la Faculté; ce ne sont ni des modules ni des techniques obligatoires attestés de MCT 1701/1702."
+          "low_information_limit": "Le descriptif concerne la DISCIPLINE et le matériel de la Faculté; ce ne sont ni des modules ni des techniques obligatoires attestés de MCT 1701/1702.",
+          "next_research_priority": "P1",
+          "next_research_kind": "composition_tutorial",
+          "next_evidence_target": "Plan de tutorat daté, œuvres et techniques de section, éviter de transférer le cours concomitant",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MCT 1801": {
@@ -571,7 +639,11 @@
             "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1801/",
             "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1802/"
           ],
-          "low_information_limit": "Les détails sont clairement attribués aux COURS CONCOMITANTS MCT 3511X/3512X, non à un syllabus propre à MCT 1801/1802; restent partiels."
+          "low_information_limit": "Les détails sont clairement attribués aux COURS CONCOMITANTS MCT 3511X/3512X, non à un syllabus propre à MCT 1801/1802; restent partiels.",
+          "next_research_priority": "P1",
+          "next_research_kind": "composition_tutorial",
+          "next_evidence_target": "Plan de tutorat daté, œuvres et techniques de section, éviter de transférer le cours concomitant",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MCT 1802": {
@@ -595,7 +667,11 @@
             "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1801/",
             "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1802/"
           ],
-          "low_information_limit": "Les détails sont clairement attribués aux COURS CONCOMITANTS MCT 3511X/3512X, non à un syllabus propre à MCT 1801/1802; restent partiels."
+          "low_information_limit": "Les détails sont clairement attribués aux COURS CONCOMITANTS MCT 3511X/3512X, non à un syllabus propre à MCT 1801/1802; restent partiels.",
+          "next_research_priority": "P1",
+          "next_research_kind": "composition_tutorial",
+          "next_evidence_target": "Plan de tutorat daté, œuvres et techniques de section, éviter de transférer le cours concomitant",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUL 1105": {
@@ -660,7 +736,11 @@
             "https://admission.umontreal.ca/cours-et-horaires/cours/mul-1116/",
             "https://admission.umontreal.ca/cours-et-horaires/cours/mul-1117/"
           ],
-          "low_information_limit": "Aucun compositeur ni œuvre supplémentaire attribué à ces cours précis; comparaison conservée séparée."
+          "low_information_limit": "Aucun compositeur ni œuvre supplémentaire attribué à ces cours précis; comparaison conservée séparée.",
+          "next_research_priority": "P0",
+          "next_research_kind": "theory_analysis_or_history",
+          "next_evidence_target": "Syllabus de section ou plan-cadre avec objets d'analyse et techniques musicales précises",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUL 1134": {
@@ -831,7 +911,11 @@
           "curriculum_depth_review_document": "docs/raw-batches/2026-11-11-udem-8-low-detail-theory-mediation-conducting.md",
           "curriculum_depth_reviewed_on": "2026-11-11",
           "curriculum_depth_source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mte-12041/",
-          "curriculum_depth_specific_limit": "Aucun plan distribuant Bach, Mozart, Beethoven, Brahms ou Wagner en semaines; ce sont les bornes de la période, pas un corpus prescrit. L'entrée indique 0 crédit pour la première moitié."
+          "curriculum_depth_specific_limit": "Aucun plan distribuant Bach, Mozart, Beethoven, Brahms ou Wagner en semaines; ce sont les bornes de la période, pas un corpus prescrit. L'entrée indique 0 crédit pour la première moitié.",
+          "next_research_priority": "P0",
+          "next_research_kind": "theory_analysis_or_history",
+          "next_evidence_target": "Syllabus de section ou plan-cadre avec objets d'analyse et techniques musicales précises",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MTE 12042": {
@@ -848,7 +932,11 @@
           "curriculum_depth_review_document": "docs/raw-batches/2026-11-11-udem-8-low-detail-theory-mediation-conducting.md",
           "curriculum_depth_reviewed_on": "2026-11-11",
           "curriculum_depth_source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mte-12042/",
-          "curriculum_depth_specific_limit": "Le second volet reprend la même description de catalogue, sans liste de sujets ou partitions différents. Ne pas inventer une histoire harmonique plus chromatique pour MTE 12042 sans syllabus."
+          "curriculum_depth_specific_limit": "Le second volet reprend la même description de catalogue, sans liste de sujets ou partitions différents. Ne pas inventer une histoire harmonique plus chromatique pour MTE 12042 sans syllabus.",
+          "next_research_priority": "P0",
+          "next_research_kind": "theory_analysis_or_history",
+          "next_evidence_target": "Syllabus de section ou plan-cadre avec objets d'analyse et techniques musicales précises",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MTE 1315": {
@@ -1165,7 +1253,11 @@
           "curriculum_depth_specific_limit": "Le catalogue et l'horaire nomment le domaine et l'enseignante, mais pas les techniques d'intervention, modèles cliniques ni projets. MUS 6601 est un code supérieur de l'affichage, pas un syllabus du baccalauréat.",
           "curriculum_comparator_source_urls": [
             "https://musique.umontreal.ca/etudier/nos-programmes-detudes/seminaires/"
-          ]
+          ],
+          "next_research_priority": "P1",
+          "next_research_kind": "music_therapy",
+          "next_evidence_target": "Plan H27, objectifs et techniques d'intervention musicale; séance réelle",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUS 4101": {
@@ -1182,7 +1274,11 @@
           "curriculum_depth_review_document": "docs/raw-batches/2026-11-11-udem-8-low-detail-theory-mediation-conducting.md",
           "curriculum_depth_reviewed_on": "2026-11-11",
           "curriculum_depth_source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-4101/",
-          "curriculum_depth_specific_limit": "Livrable et public cible directement attestés, mais pas le répertoire, les outils de médiation ni les critères de présentation."
+          "curriculum_depth_specific_limit": "Livrable et public cible directement attestés, mais pas le répertoire, les outils de médiation ni les critères de présentation.",
+          "next_research_priority": "P1",
+          "next_research_kind": "mediation",
+          "next_evidence_target": "Protocole réel de concert-conférence, activités, techniques d'adaptation et répertoire",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUS 4102": {
@@ -1199,7 +1295,11 @@
           "curriculum_depth_review_document": "docs/raw-batches/2026-11-11-udem-8-low-detail-theory-mediation-conducting.md",
           "curriculum_depth_reviewed_on": "2026-11-11",
           "curriculum_depth_source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-4102/",
-          "curriculum_depth_specific_limit": "La destination du projet est précise, mais ni lieu clinique, ni techniques d'accessibilité, ni œuvres n'apparaissent dans la notice."
+          "curriculum_depth_specific_limit": "La destination du projet est précise, mais ni lieu clinique, ni techniques d'accessibilité, ni œuvres n'apparaissent dans la notice.",
+          "next_research_priority": "P1",
+          "next_research_kind": "mediation",
+          "next_evidence_target": "Protocole réel de concert-conférence, activités, techniques d'adaptation et répertoire",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUS 4103": {
@@ -1260,7 +1360,11 @@
           "curriculum_depth_review_document": "docs/raw-batches/2026-11-11-udem-8-low-detail-theory-mediation-conducting.md",
           "curriculum_depth_reviewed_on": "2026-11-11",
           "curriculum_depth_source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/plu-2800u/",
-          "curriculum_depth_specific_limit": "Ce sont des catégories de missions alternatives, non un programme musical commun; le projet effectif et le répertoire dépendent du lieu de stage."
+          "curriculum_depth_specific_limit": "Ce sont des catégories de missions alternatives, non un programme musical commun; le projet effectif et le répertoire dépendent du lieu de stage.",
+          "next_research_priority": "P3",
+          "next_research_kind": "internship_variable",
+          "next_evidence_target": "Convention de stage datée et objectifs individuels du projet musical",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "EMU 1310": {
@@ -1280,7 +1384,11 @@
           "curriculum_depth_specific_limit": "Le document riche est celui de codes diplômants SUPÉRIEURS EMU 6310/7310 : ni ses exercices ni ses lectures ne doivent être attribués à EMU 1310. Source comparative only.",
           "curriculum_comparator_source_urls": [
             "https://musique.umontreal.ca/fileadmin/musique/documents/guide-etudiant/EMU6310__EMU7310_Technique_de_direction.pdf"
-          ]
+          ],
+          "next_research_priority": "P0",
+          "next_research_kind": "conducting",
+          "next_evidence_target": "Plan de premier cycle exact: gestes, partitions, exercices et répertoire; NE PAS attribuer EMU 6310/7310",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "EMU 2312": {
@@ -1300,7 +1408,11 @@
           "curriculum_depth_specific_limit": "La liste de lecture et les devoirs du plan supérieur EMU 6310/7310 ne sont pas ceux de EMU 2312; fiche partielle tant qu'aucun plan de premier cycle n'est obtenu.",
           "curriculum_comparator_source_urls": [
             "https://musique.umontreal.ca/fileadmin/musique/documents/guide-etudiant/EMU6310__EMU7310_Technique_de_direction.pdf"
-          ]
+          ],
+          "next_research_priority": "P0",
+          "next_research_kind": "conducting",
+          "next_evidence_target": "Plan de premier cycle exact: gestes, partitions, exercices et répertoire; NE PAS attribuer EMU 6310/7310",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1151": {
@@ -1320,7 +1432,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/nos-disciplines/instruments-anciens/"
           ],
-          "missing_specificity": "Seule la discipline commune et le mode de formation sont décrits; pas de liste de gestes, œuvres baroques ou instruments obligatoires par code."
+          "missing_specificity": "Seule la discipline commune et le mode de formation sont décrits; pas de liste de gestes, œuvres baroques ou instruments obligatoires par code.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1152": {
@@ -1340,7 +1456,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/nos-disciplines/instruments-anciens/"
           ],
-          "missing_specificity": "Seule la discipline commune et le mode de formation sont décrits; pas de liste de gestes, œuvres baroques ou instruments obligatoires par code."
+          "missing_specificity": "Seule la discipline commune et le mode de formation sont décrits; pas de liste de gestes, œuvres baroques ou instruments obligatoires par code.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1153": {
@@ -1360,7 +1480,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/nos-disciplines/instruments-anciens/"
           ],
-          "missing_specificity": "Seule la discipline commune et le mode de formation sont décrits; pas de liste de gestes, œuvres baroques ou instruments obligatoires par code."
+          "missing_specificity": "Seule la discipline commune et le mode de formation sont décrits; pas de liste de gestes, œuvres baroques ou instruments obligatoires par code.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1161": {
@@ -1391,7 +1515,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-de-musique-contemporaine/"
           ],
-          "missing_specificity": "La correspondance administrative de MUE 1162 avec l'Ensemble de musique contemporaine n'est pas prouvée; le curriculum précis du laboratoire n'est pas donné."
+          "missing_specificity": "La correspondance administrative de MUE 1162 avec l'Ensemble de musique contemporaine n'est pas prouvée; le curriculum précis du laboratoire n'est pas donné.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1171": {
@@ -1411,7 +1539,11 @@
           "refinement_source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/atelier-de-percussion/",
           "refinement_source_kind": "official_faculty_ensemble_page_or_2026_27_repertoire",
           "refinement_reviewed_on": "2026-11-11",
-          "refinement_caveat": "Réalisations historiques, non liste des œuvres garanties au niveau 1/2/3"
+          "refinement_caveat": "Réalisations historiques, non liste des œuvres garanties au niveau 1/2/3",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1172": {
@@ -1431,7 +1563,11 @@
           "refinement_source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/atelier-de-percussion/",
           "refinement_source_kind": "official_faculty_ensemble_page_or_2026_27_repertoire",
           "refinement_reviewed_on": "2026-11-11",
-          "refinement_caveat": "Réalisations historiques, non liste des œuvres garanties au niveau 1/2/3"
+          "refinement_caveat": "Réalisations historiques, non liste des œuvres garanties au niveau 1/2/3",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1173": {
@@ -1451,7 +1587,11 @@
           "refinement_source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/atelier-de-percussion/",
           "refinement_source_kind": "official_faculty_ensemble_page_or_2026_27_repertoire",
           "refinement_reviewed_on": "2026-11-11",
-          "refinement_caveat": "Réalisations historiques, non liste des œuvres garanties au niveau 1/2/3"
+          "refinement_caveat": "Réalisations historiques, non liste des œuvres garanties au niveau 1/2/3",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1191": {
@@ -1471,7 +1611,11 @@
           "refinement_source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-de-claviers/",
           "refinement_source_kind": "official_faculty_ensemble_page_or_2026_27_repertoire",
           "refinement_reviewed_on": "2026-11-11",
-          "refinement_caveat": "Aucune liste de techniques ou progression spécifique à chaque code"
+          "refinement_caveat": "Aucune liste de techniques ou progression spécifique à chaque code",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1192": {
@@ -1491,7 +1635,11 @@
           "refinement_source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-de-claviers/",
           "refinement_source_kind": "official_faculty_ensemble_page_or_2026_27_repertoire",
           "refinement_reviewed_on": "2026-11-11",
-          "refinement_caveat": "Aucune liste de techniques ou progression spécifique à chaque code"
+          "refinement_caveat": "Aucune liste de techniques ou progression spécifique à chaque code",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1193": {
@@ -1511,7 +1659,11 @@
           "refinement_source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-de-claviers/",
           "refinement_source_kind": "official_faculty_ensemble_page_or_2026_27_repertoire",
           "refinement_reviewed_on": "2026-11-11",
-          "refinement_caveat": "Aucune liste de techniques ou progression spécifique à chaque code"
+          "refinement_caveat": "Aucune liste de techniques ou progression spécifique à chaque code",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1211": {
@@ -1585,7 +1737,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/nos-disciplines/vents/"
           ],
-          "missing_specificity": "La formation n'a pas de page de projet spécifique ni de liste d'œuvres, de techniques d'ensemble ou de progression selon le trimestre."
+          "missing_specificity": "La formation n'a pas de page de projet spécifique ni de liste d'œuvres, de techniques d'ensemble ou de progression selon le trimestre.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1222": {
@@ -1605,7 +1761,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/nos-disciplines/vents/"
           ],
-          "missing_specificity": "La formation n'a pas de page de projet spécifique ni de liste d'œuvres, de techniques d'ensemble ou de progression selon le trimestre."
+          "missing_specificity": "La formation n'a pas de page de projet spécifique ni de liste d'œuvres, de techniques d'ensemble ou de progression selon le trimestre.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1223": {
@@ -1625,7 +1785,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/nos-disciplines/vents/"
           ],
-          "missing_specificity": "La formation n'a pas de page de projet spécifique ni de liste d'œuvres, de techniques d'ensemble ou de progression selon le trimestre."
+          "missing_specificity": "La formation n'a pas de page de projet spécifique ni de liste d'œuvres, de techniques d'ensemble ou de progression selon le trimestre.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1231": {
@@ -1645,7 +1809,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-de-guitares-jazz/"
           ],
-          "missing_specificity": "Ne PAS importer le répertoire et la technique des cours MUE 1501/1502 de guitares jazz dans MUE 1231–1233; source secondaire comparative uniquement."
+          "missing_specificity": "Ne PAS importer le répertoire et la technique des cours MUE 1501/1502 de guitares jazz dans MUE 1231–1233; source secondaire comparative uniquement.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1232": {
@@ -1665,7 +1833,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-de-guitares-jazz/"
           ],
-          "missing_specificity": "Ne PAS importer le répertoire et la technique des cours MUE 1501/1502 de guitares jazz dans MUE 1231–1233; source secondaire comparative uniquement."
+          "missing_specificity": "Ne PAS importer le répertoire et la technique des cours MUE 1501/1502 de guitares jazz dans MUE 1231–1233; source secondaire comparative uniquement.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1233": {
@@ -1685,7 +1857,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-de-guitares-jazz/"
           ],
-          "missing_specificity": "Ne PAS importer le répertoire et la technique des cours MUE 1501/1502 de guitares jazz dans MUE 1231–1233; source secondaire comparative uniquement."
+          "missing_specificity": "Ne PAS importer le répertoire et la technique des cours MUE 1501/1502 de guitares jazz dans MUE 1231–1233; source secondaire comparative uniquement.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1241": {
@@ -1759,7 +1935,11 @@
           "refinement_source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-dinstruments-a-vent/",
           "refinement_source_kind": "official_faculty_ensemble_page_or_2026_27_repertoire",
           "refinement_reviewed_on": "2026-11-11",
-          "refinement_caveat": "Sans titres d'œuvres ou techniques précises par code ; niveaux restent partiels"
+          "refinement_caveat": "Sans titres d'œuvres ou techniques précises par code ; niveaux restent partiels",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1252": {
@@ -1779,7 +1959,11 @@
           "refinement_source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-dinstruments-a-vent/",
           "refinement_source_kind": "official_faculty_ensemble_page_or_2026_27_repertoire",
           "refinement_reviewed_on": "2026-11-11",
-          "refinement_caveat": "Sans titres d'œuvres ou techniques précises par code ; niveaux restent partiels"
+          "refinement_caveat": "Sans titres d'œuvres ou techniques précises par code ; niveaux restent partiels",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1253": {
@@ -1799,7 +1983,11 @@
           "refinement_source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-dinstruments-a-vent/",
           "refinement_source_kind": "official_faculty_ensemble_page_or_2026_27_repertoire",
           "refinement_reviewed_on": "2026-11-11",
-          "refinement_caveat": "Sans titres d'œuvres ou techniques précises par code ; niveaux restent partiels"
+          "refinement_caveat": "Sans titres d'œuvres ou techniques précises par code ; niveaux restent partiels",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1261": {
@@ -1819,7 +2007,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/ensembles-facultaires/"
           ],
-          "missing_specificity": "L'étiquette ne nomme ni instrument, ni style, ni compétences techniques; impossible de spécifier un plan de cours générique stable."
+          "missing_specificity": "L'étiquette ne nomme ni instrument, ni style, ni compétences techniques; impossible de spécifier un plan de cours générique stable.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1262": {
@@ -1839,7 +2031,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/ensembles-facultaires/"
           ],
-          "missing_specificity": "L'étiquette ne nomme ni instrument, ni style, ni compétences techniques; impossible de spécifier un plan de cours générique stable."
+          "missing_specificity": "L'étiquette ne nomme ni instrument, ni style, ni compétences techniques; impossible de spécifier un plan de cours générique stable.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1263": {
@@ -1859,7 +2055,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/ensembles-facultaires/"
           ],
-          "missing_specificity": "L'étiquette ne nomme ni instrument, ni style, ni compétences techniques; impossible de spécifier un plan de cours générique stable."
+          "missing_specificity": "L'étiquette ne nomme ni instrument, ni style, ni compétences techniques; impossible de spécifier un plan de cours générique stable.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1271": {
@@ -1879,7 +2079,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/nos-disciplines/vents/"
           ],
-          "missing_specificity": "Aucun catalogue d'œuvres de quatuor ou techniques de phrasé, accord, articulation n'est publié pour ces trois codes : ne pas extrapoler à partir de pratiques universelles."
+          "missing_specificity": "Aucun catalogue d'œuvres de quatuor ou techniques de phrasé, accord, articulation n'est publié pour ces trois codes : ne pas extrapoler à partir de pratiques universelles.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1272": {
@@ -1899,7 +2103,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/nos-disciplines/vents/"
           ],
-          "missing_specificity": "Aucun catalogue d'œuvres de quatuor ou techniques de phrasé, accord, articulation n'est publié pour ces trois codes : ne pas extrapoler à partir de pratiques universelles."
+          "missing_specificity": "Aucun catalogue d'œuvres de quatuor ou techniques de phrasé, accord, articulation n'est publié pour ces trois codes : ne pas extrapoler à partir de pratiques universelles.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1273": {
@@ -1919,7 +2127,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/nos-disciplines/vents/"
           ],
-          "missing_specificity": "Aucun catalogue d'œuvres de quatuor ou techniques de phrasé, accord, articulation n'est publié pour ces trois codes : ne pas extrapoler à partir de pratiques universelles."
+          "missing_specificity": "Aucun catalogue d'œuvres de quatuor ou techniques de phrasé, accord, articulation n'est publié pour ces trois codes : ne pas extrapoler à partir de pratiques universelles.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1281": {
@@ -2052,7 +2264,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-vocal-jazz/"
           ],
-          "missing_specificity": "Une page « ensemble vocal jazz » n'établit pas l'identité administrative avec les cours « chorale jazz » MUE 136*. Ne pas transférer sa partition pédagogique."
+          "missing_specificity": "Une page « ensemble vocal jazz » n'établit pas l'identité administrative avec les cours « chorale jazz » MUE 136*. Ne pas transférer sa partition pédagogique.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1362": {
@@ -2077,7 +2293,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-vocal-jazz/"
           ],
-          "missing_specificity": "Une page « ensemble vocal jazz » n'établit pas l'identité administrative avec les cours « chorale jazz » MUE 136*. Ne pas transférer sa partition pédagogique."
+          "missing_specificity": "Une page « ensemble vocal jazz » n'établit pas l'identité administrative avec les cours « chorale jazz » MUE 136*. Ne pas transférer sa partition pédagogique.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1363": {
@@ -2102,7 +2322,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-vocal-jazz/"
           ],
-          "missing_specificity": "Une page « ensemble vocal jazz » n'établit pas l'identité administrative avec les cours « chorale jazz » MUE 136*. Ne pas transférer sa partition pédagogique."
+          "missing_specificity": "Une page « ensemble vocal jazz » n'établit pas l'identité administrative avec les cours « chorale jazz » MUE 136*. Ne pas transférer sa partition pédagogique.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1381": {
@@ -2122,7 +2346,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/nos-disciplines/vents/"
           ],
-          "missing_specificity": "Aucune pièce, instrument (clarinette basse, soprano) ni exercice de section attesté par code."
+          "missing_specificity": "Aucune pièce, instrument (clarinette basse, soprano) ni exercice de section attesté par code.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1382": {
@@ -2142,7 +2370,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/nos-disciplines/vents/"
           ],
-          "missing_specificity": "Aucune pièce, instrument (clarinette basse, soprano) ni exercice de section attesté par code."
+          "missing_specificity": "Aucune pièce, instrument (clarinette basse, soprano) ni exercice de section attesté par code.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1383": {
@@ -2162,7 +2394,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/nos-disciplines/vents/"
           ],
-          "missing_specificity": "Aucune pièce, instrument (clarinette basse, soprano) ni exercice de section attesté par code."
+          "missing_specificity": "Aucune pièce, instrument (clarinette basse, soprano) ni exercice de section attesté par code.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1431": {
@@ -2182,7 +2418,11 @@
           "verified_program_comparison_urls": [
             "https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-dinstruments-a-vent/"
           ],
-          "missing_specificity": "Le groupe OVNI pourrait être apparenté, mais une identité formelle MUE 1431 = OVNI n'est pas établie; ne pas attribuer son effectif de soixante musiciens au cours."
+          "missing_specificity": "Le groupe OVNI pourrait être apparenté, mais une identité formelle MUE 1431 = OVNI n'est pas établie; ne pas attribuer son effectif de soixante musiciens au cours.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1441": {
@@ -2221,7 +2461,11 @@
           "variable_ensemble_reviewed_on": "2026-11-11",
           "verified_primary_curriculum_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
           "verified_program_comparison_urls": [],
-          "missing_specificity": "Aucun mode d'improvisation, grille harmonique, improvisation libre ou conduite d'atelier précis n'est nommé par la source; ne pas projeter des pratiques jazz particulières."
+          "missing_specificity": "Aucun mode d'improvisation, grille harmonique, improvisation libre ou conduite d'atelier précis n'est nommé par la source; ne pas projeter des pratiques jazz particulières.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1492": {
@@ -2239,7 +2483,11 @@
           "variable_ensemble_reviewed_on": "2026-11-11",
           "verified_primary_curriculum_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
           "verified_program_comparison_urls": [],
-          "missing_specificity": "Aucun mode d'improvisation, grille harmonique, improvisation libre ou conduite d'atelier précis n'est nommé par la source; ne pas projeter des pratiques jazz particulières."
+          "missing_specificity": "Aucun mode d'improvisation, grille harmonique, improvisation libre ou conduite d'atelier précis n'est nommé par la source; ne pas projeter des pratiques jazz particulières.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1493": {
@@ -2257,7 +2505,11 @@
           "variable_ensemble_reviewed_on": "2026-11-11",
           "verified_primary_curriculum_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
           "verified_program_comparison_urls": [],
-          "missing_specificity": "Aucun mode d'improvisation, grille harmonique, improvisation libre ou conduite d'atelier précis n'est nommé par la source; ne pas projeter des pratiques jazz particulières."
+          "missing_specificity": "Aucun mode d'improvisation, grille harmonique, improvisation libre ou conduite d'atelier précis n'est nommé par la source; ne pas projeter des pratiques jazz particulières.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Répertoire et objectifs d'une section datée, correspondance ensemble/sigle, plan de répétition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUE 1531": {
@@ -2390,7 +2642,11 @@
           "audition_evidence_type": "general_faculty_instrument_historical_context",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/nos-disciplines/instruments-anciens/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "La page d'audition ne donne pas de programme spécifique à cet instrument ancien ; aucun niveau de MUI n'est déduit du cadre collectif."
+          "audition_evidence_warning": "La page d'audition ne donne pas de programme spécifique à cet instrument ancien ; aucun niveau de MUI n'est déduit du cadre collectif.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1033A": {
@@ -2414,7 +2670,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Exigence d'audition, non pièces garanties du cours MUI 1033A."
+          "audition_evidence_warning": "Exigence d'audition, non pièces garanties du cours MUI 1033A.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1043A": {
@@ -2438,7 +2698,11 @@
           "audition_evidence_type": "general_faculty_instrument_historical_context",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/nos-disciplines/instruments-anciens/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "La page d'audition ne donne pas de programme spécifique à cet instrument ancien ; aucun niveau de MUI n'est déduit du cadre collectif."
+          "audition_evidence_warning": "La page d'audition ne donne pas de programme spécifique à cet instrument ancien ; aucun niveau de MUI n'est déduit du cadre collectif.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1053A": {
@@ -2462,7 +2726,11 @@
           "audition_evidence_type": "general_faculty_instrument_historical_context",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/nos-disciplines/instruments-anciens/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "La page d'audition ne donne pas de programme spécifique à cet instrument ancien ; aucun niveau de MUI n'est déduit du cadre collectif."
+          "audition_evidence_warning": "La page d'audition ne donne pas de programme spécifique à cet instrument ancien ; aucun niveau de MUI n'est déduit du cadre collectif.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1073A": {
@@ -2486,7 +2754,11 @@
           "audition_evidence_type": "general_faculty_instrument_historical_context",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/nos-disciplines/instruments-anciens/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "La page d'audition ne donne pas de programme spécifique à cet instrument ancien ; aucun niveau de MUI n'est déduit du cadre collectif."
+          "audition_evidence_warning": "La page d'audition ne donne pas de programme spécifique à cet instrument ancien ; aucun niveau de MUI n'est déduit du cadre collectif.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1083A": {
@@ -2510,7 +2782,11 @@
           "audition_evidence_type": "general_faculty_instrument_historical_context",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/nos-disciplines/instruments-anciens/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "La page d'audition ne donne pas de programme spécifique à cet instrument ancien ; aucun niveau de MUI n'est déduit du cadre collectif."
+          "audition_evidence_warning": "La page d'audition ne donne pas de programme spécifique à cet instrument ancien ; aucun niveau de MUI n'est déduit du cadre collectif.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1103A": {
@@ -2534,7 +2810,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Répertoire d'audition de la famille cordes, non plan individuel ni exercice imposé dans les leçons MUI."
+          "audition_evidence_warning": "Répertoire d'audition de la famille cordes, non plan individuel ni exercice imposé dans les leçons MUI.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1123A": {
@@ -2558,7 +2838,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Critères d'audition des bois/vents; ni syllabus de ce cours ni progression des techniques par semestre. Les gammes publiées visent les bois, pas tous les cuivres."
+          "audition_evidence_warning": "Critères d'audition des bois/vents; ni syllabus de ce cours ni progression des techniques par semestre. Les gammes publiées visent les bois, pas tous les cuivres.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1132A": {
@@ -2582,7 +2866,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Répertoire d'entrée en chant classique, non œuvres/techniques obligatoires de MUI 1132A."
+          "audition_evidence_warning": "Répertoire d'entrée en chant classique, non œuvres/techniques obligatoires de MUI 1132A.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1143A": {
@@ -2606,7 +2894,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Critères d'audition des bois/vents; ni syllabus de ce cours ni progression des techniques par semestre. Les gammes publiées visent les bois, pas tous les cuivres."
+          "audition_evidence_warning": "Critères d'audition des bois/vents; ni syllabus de ce cours ni progression des techniques par semestre. Les gammes publiées visent les bois, pas tous les cuivres.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1153A": {
@@ -2630,7 +2922,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Audition institutionnelle de clavecin; ce n'est pas une liste de morceaux travaillés dans MUI 1153A."
+          "audition_evidence_warning": "Audition institutionnelle de clavecin; ce n'est pas une liste de morceaux travaillés dans MUI 1153A.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1162A": {
@@ -2673,7 +2969,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Répertoire d'audition de la famille cordes, non plan individuel ni exercice imposé dans les leçons MUI."
+          "audition_evidence_warning": "Répertoire d'audition de la famille cordes, non plan individuel ni exercice imposé dans les leçons MUI.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1183A": {
@@ -2697,7 +2997,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Conditions d'admission aux cuivres. La liste de gammes/arpèges exigées explicitement seulement pour les bois n'est pas transférée aux cuivres."
+          "audition_evidence_warning": "Conditions d'admission aux cuivres. La liste de gammes/arpèges exigées explicitement seulement pour les bois n'est pas transférée aux cuivres.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1193A": {
@@ -2721,7 +3025,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Critères d'audition des bois/vents; ni syllabus de ce cours ni progression des techniques par semestre. Les gammes publiées visent les bois, pas tous les cuivres."
+          "audition_evidence_warning": "Critères d'audition des bois/vents; ni syllabus de ce cours ni progression des techniques par semestre. Les gammes publiées visent les bois, pas tous les cuivres.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1203A": {
@@ -2745,7 +3053,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Exigence de sélection; aucune étude, technique ou œuvre n'est attribuée au cours MUI 1203A."
+          "audition_evidence_warning": "Exigence de sélection; aucune étude, technique ou œuvre n'est attribuée au cours MUI 1203A.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1213A": {
@@ -2769,7 +3081,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Examen d'entrée en harpe, non programme du cours MUI 1213A."
+          "audition_evidence_warning": "Examen d'entrée en harpe, non programme du cours MUI 1213A.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1223A": {
@@ -2793,7 +3109,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Critères d'audition des bois/vents; ni syllabus de ce cours ni progression des techniques par semestre. Les gammes publiées visent les bois, pas tous les cuivres."
+          "audition_evidence_warning": "Critères d'audition des bois/vents; ni syllabus de ce cours ni progression des techniques par semestre. Les gammes publiées visent les bois, pas tous les cuivres.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1233A": {
@@ -2817,7 +3137,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Programme d'admission d'orgue; aucune répartition historique en séances MUI n'est prouvée."
+          "audition_evidence_warning": "Programme d'admission d'orgue; aucune répartition historique en séances MUI n'est prouvée.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1243A": {
@@ -2841,7 +3165,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Attendus explicites de l'audition des percussionnistes classiques, pas les objectifs MUI 1243A évalués en cours."
+          "audition_evidence_warning": "Attendus explicites de l'audition des percussionnistes classiques, pas les objectifs MUI 1243A évalués en cours.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1253A": {
@@ -2865,7 +3193,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Critères du concours d'entrée, non progression ou devoirs de MUI 1253A."
+          "audition_evidence_warning": "Critères du concours d'entrée, non progression ou devoirs de MUI 1253A.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1263A": {
@@ -2889,7 +3221,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Critères d'audition des bois/vents; ni syllabus de ce cours ni progression des techniques par semestre. Les gammes publiées visent les bois, pas tous les cuivres."
+          "audition_evidence_warning": "Critères d'audition des bois/vents; ni syllabus de ce cours ni progression des techniques par semestre. Les gammes publiées visent les bois, pas tous les cuivres.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1273A": {
@@ -2913,7 +3249,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Conditions d'admission aux cuivres. La liste de gammes/arpèges exigées explicitement seulement pour les bois n'est pas transférée aux cuivres."
+          "audition_evidence_warning": "Conditions d'admission aux cuivres. La liste de gammes/arpèges exigées explicitement seulement pour les bois n'est pas transférée aux cuivres.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1283A": {
@@ -2937,7 +3277,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Conditions d'admission aux cuivres. La liste de gammes/arpèges exigées explicitement seulement pour les bois n'est pas transférée aux cuivres."
+          "audition_evidence_warning": "Conditions d'admission aux cuivres. La liste de gammes/arpèges exigées explicitement seulement pour les bois n'est pas transférée aux cuivres.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1293A": {
@@ -2961,7 +3305,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Conditions d'admission aux cuivres. La liste de gammes/arpèges exigées explicitement seulement pour les bois n'est pas transférée aux cuivres."
+          "audition_evidence_warning": "Conditions d'admission aux cuivres. La liste de gammes/arpèges exigées explicitement seulement pour les bois n'est pas transférée aux cuivres.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1303A": {
@@ -2985,7 +3333,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Répertoire d'audition de la famille cordes, non plan individuel ni exercice imposé dans les leçons MUI."
+          "audition_evidence_warning": "Répertoire d'audition de la famille cordes, non plan individuel ni exercice imposé dans les leçons MUI.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1313A": {
@@ -3009,7 +3361,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Répertoire d'audition de la famille cordes, non plan individuel ni exercice imposé dans les leçons MUI."
+          "audition_evidence_warning": "Répertoire d'audition de la famille cordes, non plan individuel ni exercice imposé dans les leçons MUI.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1403A": {
@@ -3033,7 +3389,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Audition de basse électrique/contrebasse jazz; walking bass ou dorien à l'archet n'est pas le curriculum MUI individualisé."
+          "audition_evidence_warning": "Audition de basse électrique/contrebasse jazz; walking bass ou dorien à l'archet n'est pas le curriculum MUI individualisé.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1413A": {
@@ -3057,7 +3417,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Matière attendue à l'audition de batterie/percussions jazz, pas la séquence enseignée MUI 1413A."
+          "audition_evidence_warning": "Matière attendue à l'audition de batterie/percussions jazz, pas la séquence enseignée MUI 1413A.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1423A": {
@@ -3081,7 +3445,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Critères précis d'entrée, non matières imposées en cours MUI 1423A."
+          "audition_evidence_warning": "Critères précis d'entrée, non matières imposées en cours MUI 1423A.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1453A": {
@@ -3105,7 +3473,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Référentiel d'audition pour guitare jazz; tempos, études et solo transcrit ne sont PAS des travaux annoncés pour le cours MUI 1453A."
+          "audition_evidence_warning": "Référentiel d'audition pour guitare jazz; tempos, études et solo transcrit ne sont PAS des travaux annoncés pour le cours MUI 1453A.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1463A": {
@@ -3129,7 +3501,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Programme d'audition de piano jazz; le syllabus spécifique à MUI 1463A reste inconnu."
+          "audition_evidence_warning": "Programme d'audition de piano jazz; le syllabus spécifique à MUI 1463A reste inconnu.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1473A": {
@@ -3153,7 +3529,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Entrée en saxophone/clarinette jazz, non syllabus de MUI 1473A."
+          "audition_evidence_warning": "Entrée en saxophone/clarinette jazz, non syllabus de MUI 1473A.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1483A": {
@@ -3177,7 +3557,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Répertoire et moyens techniques d'audition, non syllabus MUI 1483A."
+          "audition_evidence_warning": "Répertoire et moyens techniques d'audition, non syllabus MUI 1483A.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1523A": {
@@ -3201,7 +3585,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Référentiel instrumental d'audition, non programme propre à MUI 1523A."
+          "audition_evidence_warning": "Référentiel instrumental d'audition, non programme propre à MUI 1523A.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUI 1533A": {
@@ -3225,7 +3613,11 @@
           "audition_evidence_type": "instrument_specific_admission_audition_not_course_syllabus",
           "audition_evidence_source_url": "https://musique.umontreal.ca/etudier/admissions-et-auditions/admissions-1er-cycle/auditions-1er-cycle/",
           "audition_evidence_reviewed_on": "2026-11-11",
-          "audition_evidence_warning": "Audition de basse électrique/contrebasse jazz; walking bass ou dorien à l'archet n'est pas le curriculum MUI individualisé."
+          "audition_evidence_warning": "Audition de basse électrique/contrebasse jazz; walking bass ou dorien à l'archet n'est pas le curriculum MUI individualisé.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée",
+          "next_research_reviewed_on": "2026-11-11"
         }
       }
     },
@@ -3256,7 +3648,11 @@
           "sparse_depth_reviewed_on": "2026-11-11",
           "sparse_depth_source_url": "https://coursecatalogue.mcgill.ca/en/undergraduate/music/practical-instruction/",
           "sparse_depth_source_kind": "institutional_instrument_practical_policy",
-          "sparse_depth_limit": "La politique et le parcours ne donnent ni répertoire fixe ni exercices du semestre MUIN 180. Les auditions d'entrée sont une autre évaluation."
+          "sparse_depth_limit": "La politique et le parcours ne donnent ni répertoire fixe ni exercices du semestre MUIN 180. Les auditions d'entrée sont une autre évaluation.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de leçon par instrument/niveau, distinctions de MUIN 180/181/280/281 et examen 283",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUIN 181": {
@@ -3274,7 +3670,11 @@
           "sparse_depth_reviewed_on": "2026-11-11",
           "sparse_depth_source_url": "https://coursecatalogue.mcgill.ca/en/undergraduate/music/practical-instruction/",
           "sparse_depth_source_kind": "official_practical_policy_plus_catalogue_anomaly",
-          "sparse_depth_limit": "L'entrée en ligne de MUIN 181 comporte une description anormalement spécifique; aucune preuve qu'un enseignement de clarinette serait universel pour le cursus."
+          "sparse_depth_limit": "L'entrée en ligne de MUIN 181 comporte une description anormalement spécifique; aucune preuve qu'un enseignement de clarinette serait universel pour le cursus.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de leçon par instrument/niveau, distinctions de MUIN 180/181/280/281 et examen 283",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUPD 135": {
@@ -3488,7 +3888,11 @@
           "sparse_depth_reviewed_on": "2026-11-11",
           "sparse_depth_source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
           "sparse_depth_source_kind": "official_2026_27_course_description",
-          "sparse_depth_limit": "La notice ne renouvelle ni les minima de durée 5+5 minutes du niveau 340 ni un répertoire ou livrable particulier pour 440. Contenu individualisé."
+          "sparse_depth_limit": "La notice ne renouvelle ni les minima de durée 5+5 minutes du niveau 340 ni un répertoire ou livrable particulier pour 440. Contenu individualisé.",
+          "next_research_priority": "P1",
+          "next_research_kind": "composition_tutorial",
+          "next_evidence_target": "Objectifs annuels de MUCO 440D1/D2, livrables spécifiques sans importer le minimum de MUCO 340",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUCO 440D2": {
@@ -3506,7 +3910,11 @@
           "sparse_depth_reviewed_on": "2026-11-11",
           "sparse_depth_source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
           "sparse_depth_source_kind": "official_2026_27_course_description_refers_to_MUCO_440D1",
-          "sparse_depth_limit": "Aucun calendrier, pièce ni durée minimale propre à MUCO 440D2. Ne pas copier les critères du cycle MUCO 340D1/D2."
+          "sparse_depth_limit": "Aucun calendrier, pièce ni durée minimale propre à MUCO 440D2. Ne pas copier les critères du cycle MUCO 340D1/D2.",
+          "next_research_priority": "P1",
+          "next_research_kind": "composition_tutorial",
+          "next_evidence_target": "Objectifs annuels de MUCO 440D1/D2, livrables spécifiques sans importer le minimum de MUCO 340",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUCO 460": {
@@ -3546,7 +3954,11 @@
           "sparse_depth_reviewed_on": "2026-11-11",
           "sparse_depth_source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
           "sparse_depth_source_kind": "official_2026_27_topic_variable_catalogue",
-          "sparse_depth_limit": "Ni œuvre, système de hauteurs précis ni sujet de section 2027 n'est publiquement identifié. Le syllabus Berklee Online voisin est distinct."
+          "sparse_depth_limit": "Ni œuvre, système de hauteurs précis ni sujet de section 2027 n'est publiquement identifié. Le syllabus Berklee Online voisin est distinct.",
+          "next_research_priority": "P0",
+          "next_research_kind": "theory_analysis_or_history",
+          "next_evidence_target": "Thème exact de la section, corpus et mécanismes post-tonals décrits",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUTH 251": {
@@ -3630,7 +4042,11 @@
           "sparse_depth_reviewed_on": "2026-11-11",
           "sparse_depth_source_url": "https://coursecatalogue.mcgill.ca/en/undergraduate/music/practical-instruction/",
           "sparse_depth_source_kind": "institutional_instrument_practical_policy",
-          "sparse_depth_limit": "Aucun corpus d'études ou de techniques attestées propre au niveau 3; ne pas copier un programme d'audition."
+          "sparse_depth_limit": "Aucun corpus d'études ou de techniques attestées propre au niveau 3; ne pas copier un programme d'audition.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de leçon par instrument/niveau, distinctions de MUIN 180/181/280/281 et examen 283",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUIN 281": {
@@ -3648,7 +4064,11 @@
           "sparse_depth_reviewed_on": "2026-11-11",
           "sparse_depth_source_url": "https://coursecatalogue.mcgill.ca/en/undergraduate/music/practical-instruction/",
           "sparse_depth_source_kind": "institutional_instrument_practical_policy",
-          "sparse_depth_limit": "L'examen MUIN 283 permet de situer la progression globale, pas de lister les œuvres étudiées dans MUIN 281."
+          "sparse_depth_limit": "L'examen MUIN 283 permet de situer la progression globale, pas de lister les œuvres étudiées dans MUIN 281.",
+          "next_research_priority": "P2",
+          "next_research_kind": "personal_instrument",
+          "next_evidence_target": "Plan de leçon par instrument/niveau, distinctions de MUIN 180/181/280/281 et examen 283",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUIN 283": {
@@ -3677,7 +4097,11 @@
           "sparse_depth_reviewed_on": "2026-11-11",
           "sparse_depth_source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
           "sparse_depth_source_kind": "official_2026_27_catalogue",
-          "sparse_depth_limit": "La notice ne fournit ni contrats étudiés, ni méthodologie commerciale, ni exercices, ni études de cas."
+          "sparse_depth_limit": "La notice ne fournit ni contrats étudiés, ni méthodologie commerciale, ni exercices, ni études de cas.",
+          "next_research_priority": "P1",
+          "next_research_kind": "professional_music",
+          "next_evidence_target": "Syllabus avec études de cas, outils et objectifs professionnels explicitement attribués",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUTH 202": {
@@ -3836,7 +4260,11 @@
           "sparse_depth_reviewed_on": "2026-11-11",
           "sparse_depth_source_url": "https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf",
           "sparse_depth_source_kind": "official_ensemble_options_2026_27",
-          "sparse_depth_limit": "Le tableau donne la formation et le répertoire général, mais pas les techniques d'improvisation, arrangements ni œuvres imposées au groupe cette session."
+          "sparse_depth_limit": "Le tableau donne la formation et le répertoire général, mais pas les techniques d'improvisation, arrangements ni œuvres imposées au groupe cette session.",
+          "next_research_priority": "P2",
+          "next_research_kind": "ensemble_variable",
+          "next_evidence_target": "Programme et séances du groupe MUEN 592, petits arrangements et jeux collectifs réellement documentés",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUEN 593": {
@@ -3967,7 +4395,11 @@
           "sparse_depth_reviewed_on": "2026-11-11",
           "sparse_depth_source_url": "https://www.mcgill.ca/study/2024-2025/courses/muth-322",
           "sparse_depth_source_kind": "official_historical_catalogue_and_diagnostic_comparator",
-          "sparse_depth_limit": "Cours non actuellement offert selon les exigences courantes; aucune session actuelle, plan ou corpus spécifique. Ne pas attribuer au cours les chapitres du test."
+          "sparse_depth_limit": "Cours non actuellement offert selon les exigences courantes; aucune session actuelle, plan ou corpus spécifique. Ne pas attribuer au cours les chapitres du test.",
+          "next_research_priority": "P0",
+          "next_research_kind": "theory_analysis_or_history",
+          "next_evidence_target": "Thème exact de la section, corpus et mécanismes post-tonals décrits",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MUTH 528": {
@@ -4250,7 +4682,11 @@
           "sparse_depth_reviewed_on": "2026-11-11",
           "sparse_depth_source_url": "https://college.berklee.edu/courses/mhis-251",
           "sparse_depth_source_kind": "official_catalogue",
-          "sparse_depth_limit": "La notice ne cite aucune œuvre, aucun compositeur, aucun plan de séance ni concept analytique particulier; reste partielle."
+          "sparse_depth_limit": "La notice ne cite aucune œuvre, aucun compositeur, aucun plan de séance ni concept analytique particulier; reste partielle.",
+          "next_research_priority": "P0",
+          "next_research_kind": "music_history",
+          "next_evidence_target": "Programme chronologique détaillé, œuvres/compositeurs et méthodes d'écoute attestés",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MHIS-252": {
@@ -4268,7 +4704,11 @@
           "sparse_depth_reviewed_on": "2026-11-11",
           "sparse_depth_source_url": "https://college.berklee.edu/courses/mhis-252",
           "sparse_depth_source_kind": "official_catalogue",
-          "sparse_depth_limit": "Aucun répertoire ou aire géographique spécifique répertorié dans cette notice; l'ampleur chronologique ne prouve pas la profondeur."
+          "sparse_depth_limit": "Aucun répertoire ou aire géographique spécifique répertorié dans cette notice; l'ampleur chronologique ne prouve pas la profondeur.",
+          "next_research_priority": "P0",
+          "next_research_kind": "music_history",
+          "next_evidence_target": "Programme chronologique détaillé, œuvres/compositeurs et méthodes d'écoute attestés",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "PIxx-111": {
@@ -4769,7 +5209,11 @@
           "sparse_depth_reviewed_on": "2026-11-11",
           "sparse_depth_source_url": "https://college.berklee.edu/courses/cm-280",
           "sparse_depth_source_kind": "official_variable_topic_catalogue",
-          "sparse_depth_limit": "Rubriques alternatives, pas syllabus cumulatif; aucune garantie que toutes seront enseignées dans une même section."
+          "sparse_depth_limit": "Rubriques alternatives, pas syllabus cumulatif; aucune garantie que toutes seront enseignées dans une même section.",
+          "next_research_priority": "P2",
+          "next_research_kind": "special_topics_variable",
+          "next_evidence_target": "Thème de session et plan de section (CM-280/CM-360), non catalogue générique",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "AR-201": {
@@ -5108,7 +5552,11 @@
           "sparse_depth_reviewed_on": "2026-11-11",
           "sparse_depth_source_url": "https://college.berklee.edu/courses/cm-360",
           "sparse_depth_source_kind": "official_variable_topic_catalogue",
-          "sparse_depth_limit": "La notice du cours avancé ne fixe aucun sujet de section; les thèmes ne peuvent pas être transformés en quatre modules obligatoires."
+          "sparse_depth_limit": "La notice du cours avancé ne fixe aucun sujet de section; les thèmes ne peuvent pas être transformés en quatre modules obligatoires.",
+          "next_research_priority": "P2",
+          "next_research_kind": "special_topics_variable",
+          "next_evidence_target": "Thème de session et plan de section (CM-280/CM-360), non catalogue générique",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "CM-361": {
@@ -5172,7 +5620,11 @@
           "sparse_depth_reviewed_on": "2026-11-11",
           "sparse_depth_source_url": "https://college.berklee.edu/courses/cm-495",
           "sparse_depth_source_kind": "official_individual_internship_catalogue",
-          "sparse_depth_limit": "Aucune liste commune d'œuvres, compétences de production ou réalisation garantie; contenu propre au lieu de stage."
+          "sparse_depth_limit": "Aucune liste commune d'œuvres, compétences de production ou réalisation garantie; contenu propre au lieu de stage.",
+          "next_research_priority": "P3",
+          "next_research_kind": "internship_variable",
+          "next_evidence_target": "Convention et résultats individuels du stage de composition",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "CM-499": {
@@ -5191,7 +5643,11 @@
           "sparse_depth_source_url": "https://college.berklee.edu/courses/cm-499",
           "sparse_depth_source_kind": "official_majors_restriction_and_capstone_catalogue",
           "sparse_depth_limit": "Le cours est requis et éligible pour Jazz Composition (JCMP), PAS automatiquement pour la majeure Composition (COMP). Ne pas l'assimiler à CM-490.",
-          "restriction_note": "JCMP majors only; not automatically eligible to COMP major"
+          "restriction_note": "JCMP majors only; not automatically eligible to COMP major",
+          "next_research_priority": "P3",
+          "next_research_kind": "major_restricted",
+          "next_evidence_target": "Plan individuel JCMP si pertinent; ne pas déclarer admissible à COMP",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MHIS-201": {
@@ -5396,7 +5852,11 @@
           "sparse_depth_reviewed_on": "2026-11-11",
           "sparse_depth_source_url": "https://college.berklee.edu/courses/cond-311",
           "sparse_depth_source_kind": "official_conducting_catalogue",
-          "sparse_depth_limit": "Aucune partition ou geste technique précis imposé à l'ensemble n'est publié."
+          "sparse_depth_limit": "Aucune partition ou geste technique précis imposé à l'ensemble n'est publié.",
+          "next_research_priority": "P1",
+          "next_research_kind": "conducting",
+          "next_evidence_target": "Partitions/rehearsal syllabus du cours spécifique, gestes et techniques plutôt que titre générique",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "COND-321": {
@@ -5724,7 +6184,11 @@
           "sparse_depth_reviewed_on": "2026-11-11",
           "sparse_depth_source_url": "https://college.berklee.edu/courses/mlan-375",
           "sparse_depth_source_kind": "official_music_analysis_catalogue",
-          "sparse_depth_limit": "Aucune œuvre nommée ni méthode d'analyse explicitement fixée dans la notice; ne pas inventer Le Sacre du printemps comme œuvre obligatoire."
+          "sparse_depth_limit": "Aucune œuvre nommée ni méthode d'analyse explicitement fixée dans la notice; ne pas inventer Le Sacre du printemps comme œuvre obligatoire.",
+          "next_research_priority": "P1",
+          "next_research_kind": "analysis_variable",
+          "next_evidence_target": "Programme de section et œuvres étudiées; composer-specific document",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MLAN-381": {
@@ -5742,7 +6206,11 @@
           "sparse_depth_reviewed_on": "2026-11-11",
           "sparse_depth_source_url": "https://college.berklee.edu/courses/mlan-381",
           "sparse_depth_source_kind": "official_single_composer_per_semester_catalogue",
-          "sparse_depth_limit": "Les compositeurs sont des EXEMPLES alternatifs: ils ne constituent pas un programme de sept auteurs pour une même section."
+          "sparse_depth_limit": "Les compositeurs sont des EXEMPLES alternatifs: ils ne constituent pas un programme de sept auteurs pour une même section.",
+          "next_research_priority": "P1",
+          "next_research_kind": "analysis_variable",
+          "next_evidence_target": "Programme de section et œuvres étudiées; composer-specific document",
+          "next_research_reviewed_on": "2026-11-11"
         }
       },
       "MLAN-411": {
