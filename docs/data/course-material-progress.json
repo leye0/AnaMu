@@ -901,8 +901,8 @@
         "status": "partially_documented",
         "material_file": "docs/courses/udem/MTE-12041.md",
         "topic_outline": {
-          "state": "partial",
-          "source_kind": "official_program_and_existing_course_notes",
+          "state": "usable_first_pass",
+          "source_kind": "original_course_related_public_theory_model",
           "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
           "document": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
           "reviewed_on": "2026-11-10",
@@ -912,18 +912,22 @@
           "curriculum_depth_reviewed_on": "2026-11-11",
           "curriculum_depth_source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mte-12041/",
           "curriculum_depth_specific_limit": "Aucun plan distribuant Bach, Mozart, Beethoven, Brahms ou Wagner en semaines; ce sont les bornes de la période, pas un corpus prescrit. L'entrée indique 0 crédit pour la première moitié.",
-          "next_research_priority": "P0",
+          "next_research_priority": "P1",
           "next_research_kind": "theory_analysis_or_history",
-          "next_evidence_target": "Syllabus de section ou plan-cadre avec objets d'analyse et techniques musicales précises",
-          "next_research_reviewed_on": "2026-11-11"
+          "next_evidence_target": "Find per-term taught sections and artworks; 1A model already mapped",
+          "next_research_reviewed_on": "2026-11-11",
+          "refinement_document": "docs/raw-batches/2026-11-11-udem-beaudet-tonal-analysis-primary-model.md",
+          "refinement_source_url": "https://bw.musique.umontreal.ca/nm/",
+          "refinement_reviewed_on": "2026-11-11",
+          "refinement_caveat": "Author's model explicitly associated with these course codes; no exact division of chapters between semesters, and no A26/H27 syllabus obtained"
         }
       },
       "MTE 12042": {
         "status": "partially_documented",
         "material_file": "docs/courses/udem/MTE-12042.md",
         "topic_outline": {
-          "state": "partial",
-          "source_kind": "official_program_and_existing_course_notes",
+          "state": "usable_first_pass",
+          "source_kind": "original_course_related_public_theory_model",
           "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
           "document": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
           "reviewed_on": "2026-11-10",
@@ -933,10 +937,14 @@
           "curriculum_depth_reviewed_on": "2026-11-11",
           "curriculum_depth_source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mte-12042/",
           "curriculum_depth_specific_limit": "Le second volet reprend la même description de catalogue, sans liste de sujets ou partitions différents. Ne pas inventer une histoire harmonique plus chromatique pour MTE 12042 sans syllabus.",
-          "next_research_priority": "P0",
+          "next_research_priority": "P1",
           "next_research_kind": "theory_analysis_or_history",
-          "next_evidence_target": "Syllabus de section ou plan-cadre avec objets d'analyse et techniques musicales précises",
-          "next_research_reviewed_on": "2026-11-11"
+          "next_evidence_target": "Find per-term taught sections and artworks; 1A model already mapped",
+          "next_research_reviewed_on": "2026-11-11",
+          "refinement_document": "docs/raw-batches/2026-11-11-udem-beaudet-tonal-analysis-primary-model.md",
+          "refinement_source_url": "https://bw.musique.umontreal.ca/nm/",
+          "refinement_reviewed_on": "2026-11-11",
+          "refinement_caveat": "Author's model explicitly associated with these course codes; no exact division of chapters between semesters, and no A26/H27 syllabus obtained"
         }
       },
       "MTE 1315": {

@@ -1,5 +1,7 @@
 # Couverture musicale — suivi après approfondissements du 11 novembre 2026
 
+**Source primaire retrouvée (11 novembre) :** [modèle harmonique de Luce Beaudet](raw-batches/2026-11-11-udem-beaudet-tonal-analysis-primary-model.md) avec 11 axes et exemples, explicitement rattaché à la matière de MTE 12041/12042; deux cartes promues, répartition par semestre encore inconnue. **263 exploitables / 115 partielles / 8 familles.**
+
 **Triage complet des restes (11 novembre) :** [les 117 fiches encore partielles classées individuellement](remaining-117-course-evidence-queue-2026-11-11.md), avec [file JSON](data/remaining-117-course-evidence-queue-2026.json) : source, stade réel, pièce précise manquante et priorité P0–P3. **90 restent historiquement `catalog_only`, 27 `partially_documented`, zéro `syllabus_documented`** parmi les partielles; aucun statut artificiellement promu. **Bilan 261 / 117 / 8.**
 
 **Lot ciblé théorie/direction/médiation :** [8 cours UdeM recadrés](raw-batches/2026-11-11-udem-8-low-detail-theory-mediation-conducting.md) (MTE 12041/12042, MUS 1232, MUS 4101/4102, PLU 2800U, EMU 1310/2312). [Vrai plan supérieur de direction EMU 6310/7310](courses/udem-supplementary/EMU-6310-7310.md) acquis avec gestes, études de partition, évaluation et bibliographie, **sans le transférer abusivement aux cours de premier cycle**. Compteur inchangé : 261 / 117 / 8.
@@ -22,10 +24,10 @@
 
 | Université | Entrées | Cartes exploitables | Cartes partielles | Familles de pratique |
 |---|---:|---:|---:|---:|
-| UdeM | 185 | 87 | 98 | 0 |
+| UdeM | 185 | 89 | 96 | 0 |
 | McGill | 58 | 48 | 10 | 0 |
 | Berklee Boston | 143 | 126 | 9 | 8 |
-| **TOTAL** | **386** | **261** | **117** | **8** |
+| **TOTAL** | **386** | **263** | **115** | **8** |
 
 ## Grand balayage du 11 novembre — 202 notices UdeM/McGill
 
@@ -65,7 +67,7 @@ Le balayage complémentaire de [104 cours Berklee](raw-batches/2026-11-11-berkle
 
 [16 cartes thématiques précises](raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md) : direction de concerto, d'aria et de film, arrangements, contrepoint, écriture pour percussion, traditions de composition non occidentales, ensembles baroque/choral/contemporain/jazz et orchestres. Des pages officielles donnent des pratiques réellement distinctes.
 
-**Toujours à faire :** 117 cartes partielles à enrichir, huit familles musicales non dépliées. Les cartes *exploitables* restent des descriptions thématiques, non des syllabus intégraux. [Périmètre musical](music-only-scope.md). [25 candidats Berklee hors registre](data/berklee-open-elective-candidates-2026.json). Aucun test ni CI.
+**Toujours à faire :** 115 cartes partielles à enrichir, huit familles musicales non dépliées. Les cartes *exploitables* restent des descriptions thématiques, non des syllabus intégraux. [Périmètre musical](music-only-scope.md). [25 candidats Berklee hors registre](data/berklee-open-elective-candidates-2026.json). Aucun test ni CI.
 
 ## Codes Berklee supplémentaires retrouvés dans les options de performance
 
