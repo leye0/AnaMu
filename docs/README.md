@@ -9,6 +9,7 @@ Un agent commence par [AGENTS.md](../AGENTS.md). **Objectif prioritaire : cartog
 3. [course-material-collection.md](course-material-collection.md) — méthode obligatoire pour acquérir syllabus, objectifs, chapitres, exercices et lectures.
 4. [knowledge-base.md](knowledge-base.md) — architecture de la base de concepts à construire **après** la collecte.
 5. [todo-university-coverage.md](todo-university-coverage.md) — unique liste à cocher.
+   [Lot McGill : 12 descriptions thématiques](raw-batches/2026-11-10-mcgill-12-topic-outlines.md) : deux utilisables, dix partielles dont les leçons privées à variantes.
    [Premier lot de 27 descriptions thématiques Berklee](raw-batches/2026-11-10-berklee-27-topic-outlines.md) : 17 utilisables, 10 encore partielles, sources officielles avec provenance honnête.
    [Registre de progression cours par cours](data/course-material-progress.json)
    — 402 entrées, dont 13 syllabus documentés, 195 fiches partielles, 194 fiches au catalogue et cinq pools de choix à explorer.

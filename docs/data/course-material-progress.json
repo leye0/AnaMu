@@ -785,11 +785,25 @@
       },
       "MUIN 180": {
         "status": "catalog_only",
-        "material_file": "docs/courses/mcgill/MUIN-180.md"
+        "material_file": "docs/courses/mcgill/MUIN-180.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_catalogue",
+          "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
+          "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUIN 181": {
         "status": "catalog_only",
-        "material_file": "docs/courses/mcgill/MUIN-181.md"
+        "material_file": "docs/courses/mcgill/MUIN-181.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_catalogue",
+          "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
+          "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUPD 135": {
         "status": "partially_documented",
@@ -905,11 +919,25 @@
       },
       "MUIN 280": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_catalogue",
+          "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
+          "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUIN 281": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_catalogue",
+          "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
+          "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUIN 283": {
         "status": "partially_documented",
@@ -929,15 +957,36 @@
       },
       "MUHL 385": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_catalogue_historical",
+          "source_url": "https://www.mcgill.ca/study/2024-2025/courses/muhl-385",
+          "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUHL 391": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_catalogue_historical",
+          "source_url": "https://www.mcgill.ca/study/2024-2025/courses/muhl-391",
+          "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUHL 392": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_catalogue_historical",
+          "source_url": "https://www.mcgill.ca/study/2024-2025/courses/muhl-392",
+          "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUEN 563": {
         "status": "partially_documented",
@@ -985,11 +1034,25 @@
       },
       "MUHL 388": {
         "status": "catalog_only",
-        "material_file": null
+        "material_file": null,
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_catalogue",
+          "source_url": "https://www.mcgill.ca/music/programs/bmus/voice/requirements",
+          "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUTH 302": {
         "status": "catalog_only",
-        "material_file": "docs/courses/mcgill/MUTH-302.md"
+        "material_file": "docs/courses/mcgill/MUTH-302.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_catalogue_historical",
+          "source_url": "https://www.mcgill.ca/study/2024-2025/courses/muth-302",
+          "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUTH 304": {
         "status": "partially_documented",
@@ -997,7 +1060,14 @@
       },
       "MUTH 322": {
         "status": "catalog_only",
-        "material_file": "docs/courses/mcgill/MUTH-322.md"
+        "material_file": "docs/courses/mcgill/MUTH-322.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_catalogue_historical",
+          "source_url": "https://www.mcgill.ca/study/2024-2025/courses/muth-322",
+          "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUTH 528": {
         "status": "partially_documented",
@@ -1005,11 +1075,25 @@
       },
       "MUTH 538": {
         "status": "catalog_only",
-        "material_file": "docs/courses/mcgill/MUTH-538.md"
+        "material_file": "docs/courses/mcgill/MUTH-538.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_catalogue",
+          "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
+          "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MUTH 539": {
         "status": "catalog_only",
-        "material_file": "docs/courses/mcgill/MUTH-539.md"
+        "material_file": "docs/courses/mcgill/MUTH-539.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_catalogue",
+          "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
+          "document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "reviewed_on": "2026-11-10"
+        }
       }
     },
     "berklee": {
