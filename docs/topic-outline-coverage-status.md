@@ -1,5 +1,7 @@
 # Couverture musicale — suivi après approfondissements du 11 novembre 2026
 
+**Bilan exhaustif des douze P0 (11 novembre) :** [dossier des douze codes, sources, matière obtenue et preuve exacte manquante](raw-batches/2026-11-11-p0-12-courses-content-and-evidence-audit.md) ; **deux promotions Beaudet et dix cours encore partiels**. Nouvel ensemble documentaire : **60 leçons réelles Berklee Online (5 cours)**, un plan UdeM d'histoire électroacoustique et une épreuve McGill de six pages. La [file de 115 restantes](remaining-115-course-evidence-queue-2026-11-11.md) est à jour; les syllabus Boston et de sections variables restent à obtenir. **263 / 115 / 8.**
+
 **Reprise P0 du 11 novembre :** [modèle primaire Beaudet](raw-batches/2026-11-11-udem-beaudet-tonal-analysis-primary-model.md) retrouvé pour MTE 12041/12042 (**2 promotions**). [24 leçons Berklee Online](courses/berklee-online/OLART-233.md) et [OLART-234](courses/berklee-online/OLART-234.md), et [plan UdeM MUL 3208X/6208X](courses/udem-supplementary/MUL-3208X-6208X.md) acquis comme **cours distincts documentés**, non comme syllabus des codes P0 voisins. [File actualisée : 115 partielles](remaining-115-course-evidence-queue-2026-11-11.md). **263 / 115 / 8.**
 
 **Source primaire retrouvée (11 novembre) :** [modèle harmonique de Luce Beaudet](raw-batches/2026-11-11-udem-beaudet-tonal-analysis-primary-model.md) avec 11 axes et exemples, explicitement rattaché à la matière de MTE 12041/12042; deux cartes promues, répartition par semestre encore inconnue. **263 exploitables / 115 partielles / 8 familles.**
