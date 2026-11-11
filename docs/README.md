@@ -1,5 +1,7 @@
 # Documentation AnaMu — entrée académique
 
+**Priorité aux cours les plus vides, 11 novembre :** [22 cours UdeM repris](raw-batches/2026-11-11-udem-22-empty-course-enrichment.md) : 8 ateliers MCT, 6 niveaux de solfège, 2 forums, 6 autres cours de théorie/histoire/électroacoustique. Sources distinctes par niveau de preuve (syllabus, épreuve exacte, programme ou simple voisinage). **MUL 3334** a un vrai syllabus H23 déjà présent : la carte 1A passe à exploitable; **MTE 1221** est désormais cartographié depuis son exercice officiel d'exemption (pas un syllabus). **20 restent partiels**, sans faux contenu. **260 exploitables / 118 partielles / 8 familles.**
+
 **UdeM, 11 novembre :** [25 cours d'ensembles sourcés](raw-batches/2026-11-11-udem-25-ensemble-2026-27-specific-material.md) sur pages officielles, auditions A26 et [programme de l'OUM 2026–2027](https://musique.umontreal.ca/fileadmin/musique/documents/OUM/programme_OUM_26-27.pdf) avec œuvres nommées de Franck, Ravel, Gipps, Prokofiev, Sibelius, Mozart, Clyne, Elgar et Tchaïkovski. **MUE 1441** devient exploitable pour le répertoire documenté de cette saison, non un syllabus permanent. Les niveaux 1/2/3 restent différenciés par leurs limites. **258 exploitables / 120 partielles / 8 familles**.
 
 **Approfondissement McGill 2026–2027 :** [9 codes d'ensembles du registre et 18 codes voisins](raw-batches/2026-11-11-mcgill-2026-27-ensemble-specific-material.md) appuyés par deux tableaux PDF officiels par code/section, [candidats structurés](data/mcgill-ensemble-course-candidates-2026-27.json). **MUEN 563** gagne une carte 1A exploitable sur répertoire vocal SATB et arrangements jazz/pop/monde; **MUEN 592** demeure partiel. Les sources sont des descriptions de sections, non les syllabus privés. **257 exploitables / 121 partielles / 8 familles.**
@@ -24,7 +26,7 @@ Un agent commence par [AGENTS.md](../AGENTS.md). **Objectif prioritaire : cartog
    [Cartographie UdeM : 88 ensembles, ateliers et cours instrumentaux](raw-batches/2026-11-10-udem-88-ensembles-instruments.md) — limites des enseignements à programme variable.
    [Berklee Boston : lot de 68 cours composition/harmonie/production](raw-batches/2026-11-10-berklee-68-program-courses.md) — cartes de matière et liens du campus.
    [Berklee Boston : 48 entrées musicales conservées, vrais cours et familles à déplier](raw-batches/2026-11-10-berklee-59-final-topics-and-pools.md) — aucune fausse équivalence entre un code générique et un syllabus.
-   [Bilan 1A actualisé des 386 entrées musicales](topic-outline-coverage-status.md) : 258 exploitables, 120 à préciser, 8 familles musicales à déplier.
+   [Bilan 1A actualisé des 386 entrées musicales](topic-outline-coverage-status.md) : 260 exploitables, 118 à préciser, 8 familles musicales à déplier.
    [UdeM — 111 notices directes des cours partiels](raw-batches/2026-11-11-udem-111-direct-notices.md) : contenu, limites et 10 enrichissements.
    [UdeM — 74 autres notices directes](raw-batches/2026-11-11-udem-74-exact-source-links.md) : sources propres au code pour les cartes déjà exploitables.
    [McGill — 17 notices de la grille 2026–2027](raw-batches/2026-11-11-mcgill-17-current-requirements.md) : cinq cartes enrichies.

@@ -27,7 +27,14 @@
           "document": "docs/raw-batches/2026-11-10-udem-30-more-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1601/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "faculty_program_discipline_context",
+          "low_information_source_urls": [
+            "https://musique.umontreal.ca/etudier/nos-disciplines/composition-instrumentale/"
+          ],
+          "low_information_limit": "Activités annoncées pour le PARCOURS, pas programme garanti par niveau; méthodes, travaux, instrumentation et corpus propres à chacun des quatre cours inconnus."
         }
       },
       "MCT 1602": {
@@ -40,7 +47,14 @@
           "document": "docs/raw-batches/2026-11-10-udem-30-more-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1602/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "faculty_program_discipline_context",
+          "low_information_source_urls": [
+            "https://musique.umontreal.ca/etudier/nos-disciplines/composition-instrumentale/"
+          ],
+          "low_information_limit": "Activités annoncées pour le PARCOURS, pas programme garanti par niveau; méthodes, travaux, instrumentation et corpus propres à chacun des quatre cours inconnus."
         }
       },
       "MCT 3011": {
@@ -99,7 +113,14 @@
           "document": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mte-1205/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "individual_course_notice",
+          "low_information_source_urls": [
+            "https://admission.umontreal.ca/cours-et-horaires/cours/mte-1205/"
+          ],
+          "low_information_limit": "La notice ne spécifie pas les méthodes analytiques et œuvres, ni la progression; reste partielle."
         }
       },
       "MTE 1206": {
@@ -128,13 +149,23 @@
         "status": "partially_documented",
         "material_file": "docs/courses/udem/MTE-1221.md",
         "topic_outline": {
-          "state": "partial",
-          "source_kind": "official_program_and_existing_course_notes",
+          "state": "usable_first_pass",
+          "source_kind": "named_course_official_exemption_sample",
           "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
           "document": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mte-1221/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "named_course_official_exemption_sample",
+          "low_information_source_urls": [
+            "https://musique.umontreal.ca/fileadmin/musique/documents/admissions/TEST_Harmonie.pdf",
+            "https://musique.umontreal.ca/etudier/espace-etudiant/tests-de-classement-et-dexemption/"
+          ],
+          "low_information_limit": "Ce sont des ressources musicalement précises nommées par l'épreuve facultaire MTE 1221; ce n'est pas son syllabus hebdomadaire. État historique conservé.",
+          "refinement_source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/admissions/TEST_Harmonie.pdf",
+          "refinement_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md"
         }
       },
       "MTE 1403": {
@@ -169,7 +200,15 @@
           "document": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mte-1503/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "adjacent_program_and_studio_context",
+          "low_information_source_urls": [
+            "https://musique.umontreal.ca/etudier/nos-disciplines/musiques-numeriques/",
+            "https://musique.umontreal.ca/a-propos/nos-espaces/laboratoires-et-studios/"
+          ],
+          "low_information_limit": "Ces techniques sont du cursus et des studios UdeM, pas prouvées comme tâches imposées dans MTE 1503; référence MIT 21M.361 déjà distinguée du cours."
         }
       },
       "MTE 2114": {
@@ -204,7 +243,15 @@
           "document": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mul-1117/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "individual_course_notices",
+          "low_information_source_urls": [
+            "https://admission.umontreal.ca/cours-et-horaires/cours/mul-1116/",
+            "https://admission.umontreal.ca/cours-et-horaires/cours/mul-1117/"
+          ],
+          "low_information_limit": "Aucun compositeur ni œuvre supplémentaire attribué à ces cours précis; comparaison conservée séparée."
         }
       },
       "MUS 1300": {
@@ -261,7 +308,16 @@
           "document": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-3411/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "faculty_announcement_plus_course_notices",
+          "low_information_source_urls": [
+            "https://musique.umontreal.ca/nouvelles-evenements/une-nouvelle/news/detail/News/un-baccalaureat-en-composition-qui-ouvre-toutes-les-portes/",
+            "https://admission.umontreal.ca/cours-et-horaires/cours/mus-3411/",
+            "https://admission.umontreal.ca/cours-et-horaires/cours/mus-3412/"
+          ],
+          "low_information_limit": "Finalités attestées du forum; calendrier, invités, œuvres, techniques étudiées et distinction précise entre les deux trimestres toujours inconnus."
         }
       },
       "MUS 3412": {
@@ -274,7 +330,16 @@
           "document": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-3412/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "faculty_announcement_plus_course_notices",
+          "low_information_source_urls": [
+            "https://musique.umontreal.ca/nouvelles-evenements/une-nouvelle/news/detail/News/un-baccalaureat-en-composition-qui-ouvre-toutes-les-portes/",
+            "https://admission.umontreal.ca/cours-et-horaires/cours/mus-3411/",
+            "https://admission.umontreal.ca/cours-et-horaires/cours/mus-3412/"
+          ],
+          "low_information_limit": "Finalités attestées du forum; calendrier, invités, œuvres, techniques étudiées et distinction précise entre les deux trimestres toujours inconnus."
         }
       },
       "MUS 1011": {
@@ -287,7 +352,15 @@
           "document": "docs/raw-batches/2026-11-10-udem-30-more-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-1011/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "faculty_historical_placement_examples_2011",
+          "low_information_source_urls": [
+            "https://musique.umontreal.ca/fileadmin/musique/documents/admissions/Tests_sofege_dictee_exemples.pdf",
+            "https://musique.umontreal.ca/etudier/espace-etudiant/tests-de-classement-et-dexemption/"
+          ],
+          "low_information_limit": "ÉPREUVES DE CLASSEMENT 2011, NON exercices des six cours A26/H27. Impossible de répartir ces exercices entre les niveaux 1–6, donc six états conservés partiels."
         }
       },
       "MUS 1012": {
@@ -300,7 +373,15 @@
           "document": "docs/raw-batches/2026-11-10-udem-30-more-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-1012/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "faculty_historical_placement_examples_2011",
+          "low_information_source_urls": [
+            "https://musique.umontreal.ca/fileadmin/musique/documents/admissions/Tests_sofege_dictee_exemples.pdf",
+            "https://musique.umontreal.ca/etudier/espace-etudiant/tests-de-classement-et-dexemption/"
+          ],
+          "low_information_limit": "ÉPREUVES DE CLASSEMENT 2011, NON exercices des six cours A26/H27. Impossible de répartir ces exercices entre les niveaux 1–6, donc six états conservés partiels."
         }
       },
       "MUS 1013": {
@@ -313,7 +394,15 @@
           "document": "docs/raw-batches/2026-11-10-udem-30-more-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-1013/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "faculty_historical_placement_examples_2011",
+          "low_information_source_urls": [
+            "https://musique.umontreal.ca/fileadmin/musique/documents/admissions/Tests_sofege_dictee_exemples.pdf",
+            "https://musique.umontreal.ca/etudier/espace-etudiant/tests-de-classement-et-dexemption/"
+          ],
+          "low_information_limit": "ÉPREUVES DE CLASSEMENT 2011, NON exercices des six cours A26/H27. Impossible de répartir ces exercices entre les niveaux 1–6, donc six états conservés partiels."
         }
       },
       "MUS 1014": {
@@ -326,7 +415,15 @@
           "document": "docs/raw-batches/2026-11-10-udem-30-more-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-1014/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "faculty_historical_placement_examples_2011",
+          "low_information_source_urls": [
+            "https://musique.umontreal.ca/fileadmin/musique/documents/admissions/Tests_sofege_dictee_exemples.pdf",
+            "https://musique.umontreal.ca/etudier/espace-etudiant/tests-de-classement-et-dexemption/"
+          ],
+          "low_information_limit": "ÉPREUVES DE CLASSEMENT 2011, NON exercices des six cours A26/H27. Impossible de répartir ces exercices entre les niveaux 1–6, donc six états conservés partiels."
         }
       },
       "MUS 1015": {
@@ -339,7 +436,15 @@
           "document": "docs/raw-batches/2026-11-10-udem-30-more-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-1015/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "faculty_historical_placement_examples_2011",
+          "low_information_source_urls": [
+            "https://musique.umontreal.ca/fileadmin/musique/documents/admissions/Tests_sofege_dictee_exemples.pdf",
+            "https://musique.umontreal.ca/etudier/espace-etudiant/tests-de-classement-et-dexemption/"
+          ],
+          "low_information_limit": "ÉPREUVES DE CLASSEMENT 2011, NON exercices des six cours A26/H27. Impossible de répartir ces exercices entre les niveaux 1–6, donc six états conservés partiels."
         }
       },
       "MUS 1016": {
@@ -352,7 +457,15 @@
           "document": "docs/raw-batches/2026-11-10-udem-30-more-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-1016/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "faculty_historical_placement_examples_2011",
+          "low_information_source_urls": [
+            "https://musique.umontreal.ca/fileadmin/musique/documents/admissions/Tests_sofege_dictee_exemples.pdf",
+            "https://musique.umontreal.ca/etudier/espace-etudiant/tests-de-classement-et-dexemption/"
+          ],
+          "low_information_limit": "ÉPREUVES DE CLASSEMENT 2011, NON exercices des six cours A26/H27. Impossible de répartir ces exercices entre les niveaux 1–6, donc six états conservés partiels."
         }
       },
       "MCT 1603": {
@@ -365,7 +478,14 @@
           "document": "docs/raw-batches/2026-11-10-udem-30-more-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1603/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "faculty_program_discipline_context",
+          "low_information_source_urls": [
+            "https://musique.umontreal.ca/etudier/nos-disciplines/composition-instrumentale/"
+          ],
+          "low_information_limit": "Activités annoncées pour le PARCOURS, pas programme garanti par niveau; méthodes, travaux, instrumentation et corpus propres à chacun des quatre cours inconnus."
         }
       },
       "MCT 1604": {
@@ -378,7 +498,14 @@
           "document": "docs/raw-batches/2026-11-10-udem-30-more-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1604/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "faculty_program_discipline_context",
+          "low_information_source_urls": [
+            "https://musique.umontreal.ca/etudier/nos-disciplines/composition-instrumentale/"
+          ],
+          "low_information_limit": "Activités annoncées pour le PARCOURS, pas programme garanti par niveau; méthodes, travaux, instrumentation et corpus propres à chacun des quatre cours inconnus."
         }
       },
       "MCT 1701": {
@@ -391,7 +518,15 @@
           "document": "docs/raw-batches/2026-11-10-udem-30-more-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1701/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "faculty_discipline_and_facility_context",
+          "low_information_source_urls": [
+            "https://musique.umontreal.ca/etudier/nos-disciplines/composition-mixte/",
+            "https://musique.umontreal.ca/a-propos/nos-espaces/laboratoires-et-studios/"
+          ],
+          "low_information_limit": "Le descriptif concerne la DISCIPLINE et le matériel de la Faculté; ce ne sont ni des modules ni des techniques obligatoires attestés de MCT 1701/1702."
         }
       },
       "MCT 1702": {
@@ -404,7 +539,15 @@
           "document": "docs/raw-batches/2026-11-10-udem-30-more-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1702/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "faculty_discipline_and_facility_context",
+          "low_information_source_urls": [
+            "https://musique.umontreal.ca/etudier/nos-disciplines/composition-mixte/",
+            "https://musique.umontreal.ca/a-propos/nos-espaces/laboratoires-et-studios/"
+          ],
+          "low_information_limit": "Le descriptif concerne la DISCIPLINE et le matériel de la Faculté; ce ne sont ni des modules ni des techniques obligatoires attestés de MCT 1701/1702."
         }
       },
       "MCT 1801": {
@@ -417,7 +560,18 @@
           "document": "docs/raw-batches/2026-11-10-udem-30-more-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1801/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "direct_course_plus_concomitant_courses",
+          "low_information_source_urls": [
+            "https://musique.umontreal.ca/etudier/nos-disciplines/composition-pour-lecran-et-la-scene/",
+            "https://admission.umontreal.ca/cours-et-horaires/cours/mct-3511x/",
+            "https://admission.umontreal.ca/cours-et-horaires/cours/mct-3512x/",
+            "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1801/",
+            "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1802/"
+          ],
+          "low_information_limit": "Les détails sont clairement attribués aux COURS CONCOMITANTS MCT 3511X/3512X, non à un syllabus propre à MCT 1801/1802; restent partiels."
         }
       },
       "MCT 1802": {
@@ -430,7 +584,18 @@
           "document": "docs/raw-batches/2026-11-10-udem-30-more-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1802/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "direct_course_plus_concomitant_courses",
+          "low_information_source_urls": [
+            "https://musique.umontreal.ca/etudier/nos-disciplines/composition-pour-lecran-et-la-scene/",
+            "https://admission.umontreal.ca/cours-et-horaires/cours/mct-3511x/",
+            "https://admission.umontreal.ca/cours-et-horaires/cours/mct-3512x/",
+            "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1801/",
+            "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1802/"
+          ],
+          "low_information_limit": "Les détails sont clairement attribués aux COURS CONCOMITANTS MCT 3511X/3512X, non à un syllabus propre à MCT 1801/1802; restent partiels."
         }
       },
       "MUL 1105": {
@@ -487,7 +652,15 @@
           "document": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mul-1116/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "individual_course_notices",
+          "low_information_source_urls": [
+            "https://admission.umontreal.ca/cours-et-horaires/cours/mul-1116/",
+            "https://admission.umontreal.ca/cours-et-horaires/cours/mul-1117/"
+          ],
+          "low_information_limit": "Aucun compositeur ni œuvre supplémentaire attribué à ces cours précis; comparaison conservée séparée."
         }
       },
       "MUL 1134": {
@@ -593,13 +766,22 @@
         "status": "syllabus_documented",
         "material_file": "docs/courses/udem/MUL-3334.md",
         "topic_outline": {
-          "state": "partial",
-          "source_kind": "official_program_and_verified_course_syllabus",
+          "state": "usable_first_pass",
+          "source_kind": "actual_course_syllabus_H23",
           "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
           "document": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
           "reviewed_on": "2026-11-10",
           "direct_notice_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mul-3334/",
-          "direct_notice_reviewed_on": "2026-11-11"
+          "direct_notice_reviewed_on": "2026-11-11",
+          "low_information_review_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "low_information_reviewed_on": "2026-11-11",
+          "low_information_source_kind": "actual_course_syllabus_H23",
+          "low_information_source_urls": [
+            "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/MUL3334_Introduction_%C3%A0_la_sociomusicoligie_H23.pdf"
+          ],
+          "low_information_limit": "Syllabus H23 de section réelle, pas preuve de continuité de contenu en 2026–27; plusieurs dates internes héritées d'années précédentes; annexes StudiUM non acquises.",
+          "refinement_source_url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/MUL3334_Introduction_%C3%A0_la_sociomusicoligie_H23.pdf",
+          "refinement_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md"
         }
       },
       "MUL 3344": {
