@@ -1,0 +1,137 @@
+# UdeM — audit de fond des 26 cours d'ensembles encore lacunaires
+
+**11 novembre 2026, phase 1A.** Relecture de la [grille officielle Composition A26](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) et de [l'inventaire des ensembles facultaires](https://musique.umontreal.ca/etudier/ensembles-facultaires/). Les dix familles ci-dessous regroupent 26 sigles réellement nommés par la grille. Pour chaque code nous conservons les preuves du type d'ensemble, les éventuelles descriptions d'un groupe voisin et la raison précise pour laquelle **aucun syllabus individuel n'est établi**. Tous demeurent partiels; le travail fournit une base explicite pour rechercher des plans de répétition ou des programmes de session plutôt que réécrire des intitulés.
+
+## Atelier de musique baroque (3 niveaux) — MUE 1151 / MUE 1152 / MUE 1153
+
+**Sources :** [institutionnelle 1](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [institutionnelle 2](https://musique.umontreal.ca/etudier/nos-disciplines/instruments-anciens/).
+
+- Ensembles instrumentaux ou vocaux déterminés par les besoins de l'année.
+- Pratique d'interprétation des musiques anciennes dans le domaine de l'instrument historique.
+- L'ensemble baroque peut réunir des instrumentistes et chanteurs.
+- Cours à trois inscriptions successives; aucune progression musicale de premier à troisième niveau détaillée.
+
+**Limite de preuve :** Seule la discipline commune et le mode de formation sont décrits; pas de liste de gestes, œuvres baroques ou instruments obligatoires par code.
+
+**Identification :** [MUE 1151](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1151/) · [MUE 1152](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1152/) · [MUE 1153](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1153/). **Statut :** `partial` pour chaque inscription.
+
+## Atelier de musique contemporaine 2 — MUE 1162
+
+**Sources :** [institutionnelle 1](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [institutionnelle 2](https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-de-musique-contemporaine/).
+
+- La notice propre de MUE 1162 le définit comme LABORATOIRE DE CRÉATION d'œuvres musicales.
+- MUE 1161, cours distinct et préalable thématique, cible les œuvres postérieures à 1950, le déchiffrage et l'interprétation.
+- Le collectif facultaire de musique contemporaine développe des pratiques d'ensemble avec des musiciens spécialistes.
+
+**Limite de preuve :** La correspondance administrative de MUE 1162 avec l'Ensemble de musique contemporaine n'est pas prouvée; le curriculum précis du laboratoire n'est pas donné.
+
+**Identification :** [MUE 1162](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1162/). **Statut :** `partial` pour chaque inscription.
+
+## Ensemble de flûtes (3 inscriptions) — MUE 1221 / MUE 1222 / MUE 1223
+
+**Sources :** [institutionnelle 1](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [institutionnelle 2](https://musique.umontreal.ca/etudier/nos-disciplines/vents/).
+
+- Formation collective de flûtistes attestée par chaque code de la grille.
+- Place des bois dans l'activité d'ensemble de la faculté.
+- Séances et répertoire adaptés à l'effectif et aux exigences des saisons.
+- Lien éventuel avec discipline de vents et musique de chambre, pas un programme fixe.
+
+**Limite de preuve :** La formation n'a pas de page de projet spécifique ni de liste d'œuvres, de techniques d'ensemble ou de progression selon le trimestre.
+
+**Identification :** [MUE 1221](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1221/) · [MUE 1222](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1222/) · [MUE 1223](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1223/). **Statut :** `partial` pour chaque inscription.
+
+## Ensemble de guitares classique (3 inscriptions) — MUE 1231 / MUE 1232 / MUE 1233
+
+**Sources :** [institutionnelle 1](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [institutionnelle 2](https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-de-guitares-jazz/).
+
+- La grille de Composition indique « Ensemble guitares » sans qualificatif jazz.
+- Le groupe facultaire de guitares jazz constitue un AUTRE ensemble à effectif guitare, basse et batterie.
+- L'ensemble de guitares jazz public est lié à lecture d'arrangements et prestations, sans correspondance démontrée avec MUE 123*.
+
+**Limite de preuve :** Ne PAS importer le répertoire et la technique des cours MUE 1501/1502 de guitares jazz dans MUE 1231–1233; source secondaire comparative uniquement.
+
+**Identification :** [MUE 1231](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1231/) · [MUE 1232](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1232/) · [MUE 1233](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1233/). **Statut :** `partial` pour chaque inscription.
+
+## Ensemble générique (3 inscriptions) — MUE 1261 / MUE 1262 / MUE 1263
+
+**Sources :** [institutionnelle 1](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [institutionnelle 2](https://musique.umontreal.ca/etudier/ensembles-facultaires/).
+
+- Participation à une formation instrumentale ou vocale de la faculté.
+- Formations décidées chaque année selon besoins et possibilités.
+- Séquence de trois trimestres administratifs sans instrument ni partition fixe.
+- Plusieurs véritables ensembles coexistent, sans rattachement de code automatique.
+
+**Limite de preuve :** L'étiquette ne nomme ni instrument, ni style, ni compétences techniques; impossible de spécifier un plan de cours générique stable.
+
+**Identification :** [MUE 1261](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1261/) · [MUE 1262](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1262/) · [MUE 1263](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1263/). **Statut :** `partial` pour chaque inscription.
+
+## Quatuor de saxophones (3 inscriptions) — MUE 1271 / MUE 1272 / MUE 1273
+
+**Sources :** [institutionnelle 1](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [institutionnelle 2](https://musique.umontreal.ca/etudier/nos-disciplines/vents/).
+
+- Format de quatuor de saxophones explicitement donné dans la grille.
+- Pratique de musique d'ensemble des instruments à vent.
+- Cursus de trois inscriptions administrativement identifiées.
+- Parties et répertoire selon la formation réellement constituée.
+
+**Limite de preuve :** Aucun catalogue d'œuvres de quatuor ou techniques de phrasé, accord, articulation n'est publié pour ces trois codes : ne pas extrapoler à partir de pratiques universelles.
+
+**Identification :** [MUE 1271](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1271/) · [MUE 1272](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1272/) · [MUE 1273](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1273/). **Statut :** `partial` pour chaque inscription.
+
+## Chorale jazz (3 inscriptions) — MUE 1361 / MUE 1362 / MUE 1363
+
+**Sources :** [institutionnelle 1](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [institutionnelle 2](https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-vocal-jazz/).
+
+- Ensemble vocal collectif lié au jazz et inscription contingentée.
+- Section à la formation variable selon besoins de la faculté.
+- La page d'Ensemble vocal jazz décrit d'autres activités de chant de standards et présence scénique.
+
+**Limite de preuve :** Une page « ensemble vocal jazz » n'établit pas l'identité administrative avec les cours « chorale jazz » MUE 136*. Ne pas transférer sa partition pédagogique.
+
+**Identification :** [MUE 1361](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1361/) · [MUE 1362](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1362/) · [MUE 1363](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1363/). **Statut :** `partial` pour chaque inscription.
+
+## Ensemble de clarinettes (3 inscriptions) — MUE 1381 / MUE 1382 / MUE 1383
+
+**Sources :** [institutionnelle 1](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [institutionnelle 2](https://musique.umontreal.ca/etudier/nos-disciplines/vents/).
+
+- Formation explicitement de clarinettistes.
+- Pratique instrumentale d'ensemble et liens à la discipline des vents.
+- Trois niveaux d'inscription selon premier, deuxième et troisième trimestre.
+
+**Limite de preuve :** Aucune pièce, instrument (clarinette basse, soprano) ni exercice de section attesté par code.
+
+**Identification :** [MUE 1381](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1381/) · [MUE 1382](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1382/) · [MUE 1383](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1383/). **Statut :** `partial` pour chaque inscription.
+
+## Harmonie de concert — MUE 1431
+
+**Sources :** [institutionnelle 1](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [institutionnelle 2](https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-dinstruments-a-vent/).
+
+- Formation appelée harmonie de concert, 2 crédits dans la grille.
+- Un ensemble à vents public et actif existe dans la faculté.
+- Le contexte facultaire mentionne répétitions et concerts pour orchestre à vents.
+
+**Limite de preuve :** Le groupe OVNI pourrait être apparenté, mais une identité formelle MUE 1431 = OVNI n'est pas établie; ne pas attribuer son effectif de soixante musiciens au cours.
+
+**Identification :** [MUE 1431](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1431/). **Statut :** `partial` pour chaque inscription.
+
+## Atelier d'improvisation (3 inscriptions) — MUE 1491 / MUE 1492 / MUE 1493
+
+**Sources :** [institutionnelle 1](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/).
+
+- Développer les capacités d'improvisation des instrumentistes classiques ET jazz.
+- Transversalité voulue entre traditions d'interprétation classique et jazz.
+- Chaque code vaut un crédit de pratique musicale.
+- Le descriptif est identique aux trois inscriptions, sans subdivision de notions annoncées.
+
+**Limite de preuve :** Aucun mode d'improvisation, grille harmonique, improvisation libre ou conduite d'atelier précis n'est nommé par la source; ne pas projeter des pratiques jazz particulières.
+
+**Identification :** [MUE 1491](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1491/) · [MUE 1492](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1492/) · [MUE 1493](https://admission.umontreal.ca/cours-et-horaires/cours/mue-1493/). **Statut :** `partial` pour chaque inscription.
+
+## Lacunes de collecte prioritaires
+
+- Obtenir une correspondance code ↔ ensemble ↔ session (2026–2027) pour MUE 123*, 136* et 1431, plutôt que deviner une identité à partir de pages voisines.
+- Identifier les répertoires préparés et les objectifs de répétition effectifs pour les quatuors (saxophones), ensembles de flûtes/clarinettes et musique baroque.
+- Pour MUE 1162 et 1491–1493 : rechercher un plan de laboratoire avec les dispositifs et les techniques d'improvisation réellement utilisés.
+- Pour MUE 1261–1263 : rechercher la formation d'affectation de l'année, car le code ne nomme même pas l'instrumentation.
+
+**Aucune promotion forcée de cartes : 26 enrichissements de documentation et d'audit, 26 statuts encore partiels.** Aucun test ni CI.
