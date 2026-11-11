@@ -24,6 +24,11 @@ Un agent commence par [AGENTS.md](../AGENTS.md). **Objectif prioritaire : cartog
    [McGill — 17 notices de la grille 2026–2027](raw-batches/2026-11-11-mcgill-17-current-requirements.md) : cinq cartes enrichies.
    [Berklee — 104 autres URL de cours vérifiées](raw-batches/2026-11-11-berklee-104-direct-source-index.md) : avec les 31 déjà relues, 135/135 vrais codes Berklee du registre.
    [McGill — 58 pages de cours directes](raw-batches/2026-11-11-mcgill-58-direct-course-index.md) : toutes les notices individuelles des cours identifiables du registre.
+   [McGill — 18 cours voisins de sciences/technologies musicales](raw-batches/2026-11-11-mcgill-18-related-music-technology-courses.md) : descriptions et liens officiels, candidats complémentaires hors des 386, sans présumer leur admissibilité.
+   [Berklee — 29 cours voisins en synthèse, production électronique et audio interactif](raw-batches/2026-11-11-berklee-29-electronic-game-audio-courses.md) : 30 notices vérifiées et un cours de game design non musical écarté.
+   [McGill — 22 cours voisins de jazz](raw-batches/2026-11-11-mcgill-22-jazz-neighbor-courses.md) : harmonie, clavier, improvisation vocale/instrumentale, arrangements et composition.
+   [Berklee — 15 cours voisins de composition interactive et musique à l'image](raw-batches/2026-11-11-berklee-15-game-screen-scoring.md) : thèmes, orchestration, ambiances, mixage adaptatif, intégration et métiers du scoring.
+   [Berklee — 24 notices film, orchestration et production](raw-batches/2026-11-11-berklee-24-film-production-composition.md) : 16 nouveaux cours musicaux voisins et huit codes déjà présents renforcés.
    [Berklee Boston — 31 notices directes relues](raw-batches/2026-11-11-berklee-31-direct-course-notices.md) : 21 cartes enrichies, dix conservées partielles ; sources de catalogue, non syllabus.
    [Berklee — 17 cartes relues sur notices détaillées](raw-batches/2026-11-10-berklee-17-verified-refinements.md), dont 14 enrichies jusqu'au seuil exploitable.
    [Berklee : 25 cours musicaux concrets trouvés dans les options](raw-batches/2026-11-10-berklee-36-real-open-electives.md) et [registre candidat structuré](data/berklee-open-elective-candidates-2026.json).

@@ -17,6 +17,16 @@
 
 Ces 202 notices sont des **sources de catalogue** (185 + 17), pas 202 syllabus de section ni 202 PDF obtenus.
 
+**Complément hors registre :** [18 cours McGill de technologie musicale, acoustique, cognition et production](raw-batches/2026-11-11-mcgill-18-related-music-technology-courses.md) avec leurs pages individuelles vérifiées, sans les confondre avec des options administrativement confirmées de Composition.
+
+**Autre complément hors registre :** [29 cours Berklee](raw-batches/2026-11-11-berklee-29-electronic-game-audio-courses.md) en synthèse, production électronique, design sonore et audio pour jeux ; trente notices lues dont une exclue faute d'objet musical. Ces deux extensions représentent **47 cours musicaux candidats** supplémentaires documentés à part, sans toucher aux 386 entrées historiques.
+
+**Extension jazz McGill :** [22 codes MUJZ](raw-batches/2026-11-11-mcgill-22-jazz-neighbor-courses.md) traitent de théorie et harmonie jazz, improvisation, arrangements et composition. Total des trois nouveaux lots hors registre : **69 cours musicaux complémentaires** documentés (18 + 29 + 22), sans gonfler le périmètre historique de 386.
+
+**Extension GAIM/SCRN Berklee :** [15 autres cours de musique et son interactifs](raw-batches/2026-11-11-berklee-15-game-screen-scoring.md), couvrant écriture pour genres de jeux, leitmotiv, orchestration, création d'ambiances, enregistrement, mixage dynamique, pratique et carrières. **Cumul : 84 cours musicaux complémentaires** en quatre lots (18 + 29 + 22 + 15), documentés en plus des 386 entrées historiques.
+
+**Extension FILM/MP Berklee :** [24 pages de films, prise de son et composition](raw-batches/2026-11-11-berklee-24-film-production-composition.md) consultées : **16 nouveaux cours musicaux voisins** et huit cours déjà présents dans le registre (sans double comptage). **Cumul : 100 cours musicaux voisins distincts** dans les cinq lots d'aujourd'hui, en plus des 386 entrées du registre historique. Leur inscription administrative dans la majeure Composition n'est pas présumée.
+
 ## Index direct des 378 cours identifiables — trois établissements
 
 Le balayage complémentaire de [104 cours Berklee](raw-batches/2026-11-11-berklee-104-direct-source-index.md) complète les [31 notices Berklee](raw-batches/2026-11-11-berklee-31-direct-course-notices.md) : **135/135 cours concrets Berklee** ont une page de code retrouvée. L'[index de 58 codes McGill](raw-batches/2026-11-11-mcgill-58-direct-course-index.md) rattache également chaque entrée à sa notice individuelle officielle. Avec les 185 UdeM : **378/378 entrées identifiables** du registre historique ont maintenant, dans ces lots, un lien direct de cours vérifié. Les **8 familles** restent à déplier et ne sont pas comptées parmi les cours individuels. Cet index est une amélioration de provenance, **pas une preuve que 378 syllabus ont été acquis**.
