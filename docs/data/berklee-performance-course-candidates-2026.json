@@ -1,0 +1,710 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-10",
+  "purpose": "music-only concrete candidates behind performance code families; not automatically degree requirements",
+  "baseline_registry_total_unchanged": 386,
+  "core_not_mutated": true,
+  "source_notes": "docs/raw-batches/2026-11-10-berklee-44-ensemble-private-labs.md",
+  "records": [
+    {
+      "code": "PIGT-111",
+      "title": "Private Instruction 1 – Guitare",
+      "family": "private_instruction",
+      "placeholder": "PIxx-111",
+      "source_url": "https://college.berklee.edu/courses/pigt-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Gammes, accords et dispositions d'accords (*voicings*)",
+        "Lecture et lecture à vue, improvisation, interprétation et répertoire standard",
+        "Approche multi-styles et affirmation d'une identité instrumentale",
+        "Évolution vers la maîtrise des problèmes techniques du jeu professionnel"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIGT-112",
+      "title": "Private Instruction 2 – Guitare",
+      "family": "private_instruction",
+      "placeholder": "PIxx-112",
+      "source_url": "https://college.berklee.edu/courses/pigt-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Gammes, accords et dispositions d'accords (*voicings*)",
+        "Lecture et lecture à vue, improvisation, interprétation et répertoire standard",
+        "Approche multi-styles et affirmation d'une identité instrumentale",
+        "Évolution vers la maîtrise des problèmes techniques du jeu professionnel"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIGT-211",
+      "title": "Private Instruction 3 – Guitare",
+      "family": "private_instruction",
+      "placeholder": "PIxx-211",
+      "source_url": "https://college.berklee.edu/courses/pigt-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Gammes, accords et dispositions d'accords (*voicings*)",
+        "Lecture et lecture à vue, improvisation, interprétation et répertoire standard",
+        "Approche multi-styles et affirmation d'une identité instrumentale",
+        "Évolution vers la maîtrise des problèmes techniques du jeu professionnel"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIGT-212",
+      "title": "Private Instruction 4 – Guitare",
+      "family": "private_instruction",
+      "placeholder": "PIxx-212",
+      "source_url": "https://college.berklee.edu/courses/pigt-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Gammes, accords et dispositions d'accords (*voicings*)",
+        "Lecture et lecture à vue, improvisation, interprétation et répertoire standard",
+        "Approche multi-styles et affirmation d'une identité instrumentale",
+        "Évolution vers la maîtrise des problèmes techniques du jeu professionnel"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIPN-111",
+      "title": "Private Instruction 1 – Piano",
+      "family": "private_instruction",
+      "placeholder": "PIxx-111",
+      "source_url": "https://college.berklee.edu/courses/pipn-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Gammes et arpèges; méthodes/études de Hanon, Czerny et Pischna évoquées dans la page de famille",
+        "Lecture à vue, chiffrage et dispositions d'accords",
+        "Styles classique, jazz, pop et rock abordés dans l'enseignement du piano",
+        "Posture, technique et régularité de la pratique individuelle"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIPN-112",
+      "title": "Private Instruction 2 – Piano",
+      "family": "private_instruction",
+      "placeholder": "PIxx-112",
+      "source_url": "https://college.berklee.edu/courses/pipn-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Gammes et arpèges; méthodes/études de Hanon, Czerny et Pischna évoquées dans la page de famille",
+        "Lecture à vue, chiffrage et dispositions d'accords",
+        "Styles classique, jazz, pop et rock abordés dans l'enseignement du piano",
+        "Posture, technique et régularité de la pratique individuelle"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIPN-211",
+      "title": "Private Instruction 3 – Piano",
+      "family": "private_instruction",
+      "placeholder": "PIxx-211",
+      "source_url": "https://college.berklee.edu/courses/pipn-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Gammes et arpèges; méthodes/études de Hanon, Czerny et Pischna évoquées dans la page de famille",
+        "Lecture à vue, chiffrage et dispositions d'accords",
+        "Styles classique, jazz, pop et rock abordés dans l'enseignement du piano",
+        "Posture, technique et régularité de la pratique individuelle"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIPN-212",
+      "title": "Private Instruction 4 – Piano",
+      "family": "private_instruction",
+      "placeholder": "PIxx-212",
+      "source_url": "https://college.berklee.edu/courses/pipn-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Gammes et arpèges; méthodes/études de Hanon, Czerny et Pischna évoquées dans la page de famille",
+        "Lecture à vue, chiffrage et dispositions d'accords",
+        "Styles classique, jazz, pop et rock abordés dans l'enseignement du piano",
+        "Posture, technique et régularité de la pratique individuelle"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIPC-111",
+      "title": "Private Instruction 1 – Percussion",
+      "family": "private_instruction",
+      "placeholder": "PIxx-111",
+      "source_url": "https://college.berklee.edu/courses/pipc-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Technique et production sonore des percussions",
+        "Lecture à vue, répertoire, accompagnement et improvisation",
+        "Gammes pour instruments de percussion accordés",
+        "Développement de la voix personnelle du percussionniste dans plusieurs genres"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIPC-112",
+      "title": "Private Instruction 2 – Percussion",
+      "family": "private_instruction",
+      "placeholder": "PIxx-112",
+      "source_url": "https://college.berklee.edu/courses/pipc-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Technique et production sonore des percussions",
+        "Lecture à vue, répertoire, accompagnement et improvisation",
+        "Gammes pour instruments de percussion accordés",
+        "Développement de la voix personnelle du percussionniste dans plusieurs genres"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIPC-211",
+      "title": "Private Instruction 3 – Percussion",
+      "family": "private_instruction",
+      "placeholder": "PIxx-211",
+      "source_url": "https://college.berklee.edu/courses/pipc-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Technique et production sonore des percussions",
+        "Lecture à vue, répertoire, accompagnement et improvisation",
+        "Gammes pour instruments de percussion accordés",
+        "Développement de la voix personnelle du percussionniste dans plusieurs genres"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIPC-212",
+      "title": "Private Instruction 4 – Percussion",
+      "family": "private_instruction",
+      "placeholder": "PIxx-212",
+      "source_url": "https://college.berklee.edu/courses/pipc-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Technique et production sonore des percussions",
+        "Lecture à vue, répertoire, accompagnement et improvisation",
+        "Gammes pour instruments de percussion accordés",
+        "Développement de la voix personnelle du percussionniste dans plusieurs genres"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIVC-111",
+      "title": "Private Instruction 1 – Voix",
+      "family": "private_instruction",
+      "placeholder": "PIxx-111",
+      "source_url": "https://college.berklee.edu/courses/pivc-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Étendue vocale, identification du registre et de l'identité stylistique",
+        "Lecture, déchiffrage, répertoire et interprétation chantée",
+        "Improvisation et interprétation dans différents genres",
+        "Santé vocale et technique de voix pour une pratique durable"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIVC-112",
+      "title": "Private Instruction 2 – Voix",
+      "family": "private_instruction",
+      "placeholder": "PIxx-112",
+      "source_url": "https://college.berklee.edu/courses/pivc-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Étendue vocale, identification du registre et de l'identité stylistique",
+        "Lecture, déchiffrage, répertoire et interprétation chantée",
+        "Improvisation et interprétation dans différents genres",
+        "Santé vocale et technique de voix pour une pratique durable"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIVC-211",
+      "title": "Private Instruction 3 – Voix",
+      "family": "private_instruction",
+      "placeholder": "PIxx-211",
+      "source_url": "https://college.berklee.edu/courses/pivc-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Étendue vocale, identification du registre et de l'identité stylistique",
+        "Lecture, déchiffrage, répertoire et interprétation chantée",
+        "Improvisation et interprétation dans différents genres",
+        "Santé vocale et technique de voix pour une pratique durable"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIVC-212",
+      "title": "Private Instruction 4 – Voix",
+      "family": "private_instruction",
+      "placeholder": "PIxx-212",
+      "source_url": "https://college.berklee.edu/courses/pivc-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Étendue vocale, identification du registre et de l'identité stylistique",
+        "Lecture, déchiffrage, répertoire et interprétation chantée",
+        "Improvisation et interprétation dans différents genres",
+        "Santé vocale et technique de voix pour une pratique durable"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIBR-111",
+      "title": "Private Instruction 1 – Cuivres",
+      "family": "private_instruction",
+      "placeholder": "PIxx-111",
+      "source_url": "https://college.berklee.edu/courses/pibr-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Respiration, embouchure et articulation",
+        "Technique de pistons ou coulisse selon le cuivre étudié",
+        "Gammes, accords, arpèges et répertoire",
+        "Polyvalence de genres et langage instrumental personnel"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIBR-112",
+      "title": "Private Instruction 2 – Cuivres",
+      "family": "private_instruction",
+      "placeholder": "PIxx-112",
+      "source_url": "https://college.berklee.edu/courses/pibr-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Respiration, embouchure et articulation",
+        "Technique de pistons ou coulisse selon le cuivre étudié",
+        "Gammes, accords, arpèges et répertoire",
+        "Polyvalence de genres et langage instrumental personnel"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIBR-211",
+      "title": "Private Instruction 3 – Cuivres",
+      "family": "private_instruction",
+      "placeholder": "PIxx-211",
+      "source_url": "https://college.berklee.edu/courses/pibr-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Respiration, embouchure et articulation",
+        "Technique de pistons ou coulisse selon le cuivre étudié",
+        "Gammes, accords, arpèges et répertoire",
+        "Polyvalence de genres et langage instrumental personnel"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIBR-212",
+      "title": "Private Instruction 4 – Cuivres",
+      "family": "private_instruction",
+      "placeholder": "PIxx-212",
+      "source_url": "https://college.berklee.edu/courses/pibr-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Respiration, embouchure et articulation",
+        "Technique de pistons ou coulisse selon le cuivre étudié",
+        "Gammes, accords, arpèges et répertoire",
+        "Polyvalence de genres et langage instrumental personnel"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIWD-111",
+      "title": "Private Instruction 1 – Bois",
+      "family": "private_instruction",
+      "placeholder": "PIxx-111",
+      "source_url": "https://college.berklee.edu/courses/piwd-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Respiration, embouchure et articulation",
+        "Gammes, accords, arpèges et répertoire instrumental",
+        "Improvisation, interprétation et styles avancés",
+        "Construction de la maîtrise instrumentale par technique et pratique"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIWD-112",
+      "title": "Private Instruction 2 – Bois",
+      "family": "private_instruction",
+      "placeholder": "PIxx-112",
+      "source_url": "https://college.berklee.edu/courses/piwd-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Respiration, embouchure et articulation",
+        "Gammes, accords, arpèges et répertoire instrumental",
+        "Improvisation, interprétation et styles avancés",
+        "Construction de la maîtrise instrumentale par technique et pratique"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIWD-211",
+      "title": "Private Instruction 3 – Bois",
+      "family": "private_instruction",
+      "placeholder": "PIxx-211",
+      "source_url": "https://college.berklee.edu/courses/piwd-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Respiration, embouchure et articulation",
+        "Gammes, accords, arpèges et répertoire instrumental",
+        "Improvisation, interprétation et styles avancés",
+        "Construction de la maîtrise instrumentale par technique et pratique"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIWD-212",
+      "title": "Private Instruction 4 – Bois",
+      "family": "private_instruction",
+      "placeholder": "PIxx-212",
+      "source_url": "https://college.berklee.edu/courses/piwd-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Respiration, embouchure et articulation",
+        "Gammes, accords, arpèges et répertoire instrumental",
+        "Improvisation, interprétation et styles avancés",
+        "Construction de la maîtrise instrumentale par technique et pratique"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIST-111",
+      "title": "Private Instruction 1 – Cordes",
+      "family": "private_instruction",
+      "placeholder": "PIxx-111",
+      "source_url": "https://college.berklee.edu/courses/pist-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Gammes et études de cordes",
+        "Matériaux harmoniques et gammes contemporaines",
+        "Motifs d'arpèges et exercices dans les douze tonalités",
+        "Interprétation dans plusieurs genres et développement d'une technique personnelle"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIST-112",
+      "title": "Private Instruction 2 – Cordes",
+      "family": "private_instruction",
+      "placeholder": "PIxx-112",
+      "source_url": "https://college.berklee.edu/courses/pist-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Gammes et études de cordes",
+        "Matériaux harmoniques et gammes contemporaines",
+        "Motifs d'arpèges et exercices dans les douze tonalités",
+        "Interprétation dans plusieurs genres et développement d'une technique personnelle"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIST-211",
+      "title": "Private Instruction 3 – Cordes",
+      "family": "private_instruction",
+      "placeholder": "PIxx-211",
+      "source_url": "https://college.berklee.edu/courses/pist-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Gammes et études de cordes",
+        "Matériaux harmoniques et gammes contemporaines",
+        "Motifs d'arpèges et exercices dans les douze tonalités",
+        "Interprétation dans plusieurs genres et développement d'une technique personnelle"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "PIST-212",
+      "title": "Private Instruction 4 – Cordes",
+      "family": "private_instruction",
+      "placeholder": "PIxx-212",
+      "source_url": "https://college.berklee.edu/courses/pist-xxx",
+      "source_kind": "official_Berklee_private_instrument_family_page_lists_code",
+      "topic_state": "partial_variable",
+      "topics": [
+        "Gammes et études de cordes",
+        "Matériaux harmoniques et gammes contemporaines",
+        "Motifs d'arpèges et exercices dans les douze tonalités",
+        "Interprétation dans plusieurs genres et développement d'une technique personnelle"
+      ],
+      "caveat": "La page source décrit toute la famille et les codes de niveau 1 à 4; aucune différence de contenus par semestre n'est attestée."
+    },
+    {
+      "code": "ENCF-100",
+      "title": "Core Foundations in Ensemble Playing",
+      "family": "ensemble",
+      "placeholder": "ENxx",
+      "source_url": "https://college.berklee.edu/courses/encf-100",
+      "source_kind": "official_Berklee_ensemble_course_description",
+      "topic_state": "usable_first_pass",
+      "topics": [
+        "Reconnaissance des rôles instrumentaux et de la structure/harmonie des morceaux",
+        "Écoute collaborative et réaction en temps réel entre interprètes",
+        "Répertoires roots, R&B, jazz et rock pour le travail de forme et de feel",
+        "Performance collective finale"
+      ],
+      "caveat": "La notice est propre à ce code, pas un syllabus de section."
+    },
+    {
+      "code": "ENCF-121",
+      "title": "Core Foundations in American Roots",
+      "family": "ensemble",
+      "placeholder": "ENxx",
+      "source_url": "https://college.berklee.edu/courses/encf-121",
+      "source_kind": "official_Berklee_ensemble_course_description",
+      "topic_state": "usable_first_pass",
+      "topics": [
+        "Blues, folk, gospel et country comme traditions américaines roots",
+        "Transformation du *time-feel*, de l'harmonie et de la forme chanson",
+        "Écoute, répétition, communication d'ensemble et authenticité stylistique",
+        "Jeu en public sur les répertoires abordés"
+      ],
+      "caveat": "La notice est propre à ce code, pas un syllabus de section."
+    },
+    {
+      "code": "ENCF-122",
+      "title": "Core Foundations in Rhythm and Blues",
+      "family": "ensemble",
+      "placeholder": "ENxx",
+      "source_url": "https://college.berklee.edu/courses/encf-122",
+      "source_kind": "official_Berklee_ensemble_course_description",
+      "topic_state": "usable_first_pass",
+      "topics": [
+        "Grooves R&B anciens et contemporains, textures vocales et cadres harmoniques",
+        "Mètres et *time-feels* 12/8 et 4/4",
+        "Phrasés en appel-réponse, dynamique et modulation",
+        "Interprétation collective, équilibre et élaboration du groove"
+      ],
+      "caveat": "La notice est propre à ce code, pas un syllabus de section."
+    },
+    {
+      "code": "ENCF-123",
+      "title": "Core Foundations in Rock",
+      "family": "ensemble",
+      "placeholder": "ENxx",
+      "source_url": "https://college.berklee.edu/courses/encf-123",
+      "source_kind": "official_Berklee_ensemble_course_description",
+      "topic_state": "usable_first_pass",
+      "topics": [
+        "Rock ancien, British rock, pop-rock contemporain et fusion",
+        "Riffs, accords de puissance et constructions de forme par riffs",
+        "Superposition rythmique entre section rythmique et mélodie",
+        "Articulations, nuances, précision et communication collective"
+      ],
+      "caveat": "La notice est propre à ce code, pas un syllabus de section."
+    },
+    {
+      "code": "ENCF-124",
+      "title": "Core Foundations in Jazz",
+      "family": "ensemble",
+      "placeholder": "ENxx",
+      "source_url": "https://college.berklee.edu/courses/encf-124",
+      "source_kind": "official_Berklee_ensemble_course_description",
+      "topic_state": "usable_first_pass",
+      "topics": [
+        "Swing et langage harmonique du jazz",
+        "Blues de douze mesures, II–V–I et *rhythm changes*",
+        "Jeu modal, improvisation, phrasé et gestion de l'espace",
+        "Écoute collective, sens du groove et performance"
+      ],
+      "caveat": "La notice est propre à ce code, pas un syllabus de section."
+    },
+    {
+      "code": "ENCF-125",
+      "title": "Core Foundations in Latin Music Styles",
+      "family": "ensemble",
+      "placeholder": "ENxx",
+      "source_url": "https://college.berklee.edu/courses/encf-125",
+      "source_kind": "official_Berklee_ensemble_course_description",
+      "topic_state": "usable_first_pass",
+      "topics": [
+        "Répertoires afro-cubain, brésilien et pop latine",
+        "Structure fondée sur la clave, motifs son, rumba et samba",
+        "Interprétation de lead sheets dans plusieurs *time-feels*",
+        "Interactions de pupitres, articulations et grooves latin/afro-latin"
+      ],
+      "caveat": "La notice est propre à ce code, pas un syllabus de section."
+    },
+    {
+      "code": "ENCF-126",
+      "title": "Core Foundations in Global Music 1 — Africa and the Middle East",
+      "family": "ensemble",
+      "placeholder": "ENxx",
+      "source_url": "https://college.berklee.edu/courses/encf-126",
+      "source_kind": "official_Berklee_ensemble_course_description",
+      "topic_state": "usable_first_pass",
+      "topics": [
+        "Cycles rythmiques et systèmes tonals de traditions ouest-africaines, nord-africaines, arabes et méditerranéennes",
+        "Polyrhythmie, call-and-response et groove",
+        "Écoute, performance et communication interculturelle",
+        "Contextualisation culturelle des pratiques sans les homogénéiser"
+      ],
+      "caveat": "La notice est propre à ce code, pas un syllabus de section."
+    },
+    {
+      "code": "ENCF-127",
+      "title": "Core Foundations in Global Music 2 — Asia and Europe",
+      "family": "ensemble",
+      "placeholder": "ENxx",
+      "source_url": "https://college.berklee.edu/courses/encf-127",
+      "source_kind": "official_Berklee_ensemble_course_description",
+      "topic_state": "usable_first_pass",
+      "topics": [
+        "Musique d'Asie du Sud et de l'Est, Balkans, Grèce et Europe orientale",
+        "Gammes et systèmes tonals non occidentaux et mesures mixtes",
+        "Précision rythmique, styles et contexte culturel",
+        "Performance de répertoires en groupe à partir de l'écoute guidée"
+      ],
+      "caveat": "La notice est propre à ce code, pas un syllabus de section."
+    },
+    {
+      "code": "ENCL-202",
+      "title": "Symphonic Winds Ensemble",
+      "family": "ensemble",
+      "placeholder": "ENxx",
+      "source_url": "https://college.berklee.edu/courses/encl-202",
+      "source_kind": "official_Berklee_ensemble_course_description",
+      "topic_state": "partial",
+      "topics": [
+        "Répertoire traditionnel d'orchestre d'harmonie à bois/cuivres/percussions",
+        "Compositions contemporaines pour orchestre à vent",
+        "Transcriptions de musique populaire et classique pour cet effectif",
+        "Sections instrumentales et niveaux variables selon les musiciens"
+      ],
+      "caveat": "Effectif et œuvres exacts propres au groupe/semestre."
+    },
+    {
+      "code": "ENCL-220",
+      "title": "Film Scoring Studio Orchestra",
+      "family": "ensemble",
+      "placeholder": "ENxx",
+      "source_url": "https://college.berklee.edu/courses/encl-220",
+      "source_kind": "official_Berklee_ensemble_course_description",
+      "topic_state": "usable_first_pass",
+      "topics": [
+        "Orchestre d'enregistrement de 37 musiciens dans une salle de scoring cinématographique",
+        "Lecture à vue, précision au *click track*, rythme, articulation et justesse",
+        "Interprétation de musique écrite par compositeurs professionnels et étudiants en scoring",
+        "Pratique de séances hebdomadaires enregistrées, écoute et interaction avec l'équipe de production"
+      ],
+      "caveat": "Effectif et œuvres exacts propres au groupe/semestre."
+    },
+    {
+      "code": "ENCL-234",
+      "title": "Improvisation for Classical Musicians",
+      "family": "ensemble",
+      "placeholder": "ENxx",
+      "source_url": "https://college.berklee.edu/courses/encl-234",
+      "source_kind": "official_Berklee_ensemble_course_description",
+      "topic_state": "usable_first_pass",
+      "topics": [
+        "Improvisation introduite dans le cadre du répertoire traditionnel de musique de chambre",
+        "Précision harmonique, rythmique et mélodique dans l'expression spontanée",
+        "Écoute mutuelle et intégrité stylistique des interventions",
+        "Répétitions hebdomadaires et prestation finale"
+      ],
+      "caveat": "Effectif et œuvres exacts propres au groupe/semestre."
+    },
+    {
+      "code": "ENCL-400",
+      "title": "Contemporary Orchestra",
+      "family": "ensemble",
+      "placeholder": "ENxx",
+      "source_url": "https://college.berklee.edu/courses/encl-400",
+      "source_kind": "official_Berklee_ensemble_course_description",
+      "topic_state": "usable_first_pass",
+      "topics": [
+        "Œuvres orchestrales majeures du XXe siècle et musique de compositeurs étudiants/enseignants",
+        "Orchestre intégrant formes multimédias, scoring et répertoire standard",
+        "Expérience d'audition et possibilités de jeu soliste",
+        "Deux rencontres hebdomadaires, dont une dédiée aux ateliers"
+      ],
+      "caveat": "Effectif et œuvres exacts propres au groupe/semestre."
+    },
+    {
+      "code": "ILGT-119",
+      "title": "Guitar Styles Skills Labs",
+      "family": "instrumental_lab",
+      "placeholder": "ILxx",
+      "source_url": "https://college.berklee.edu/courses/ilgt-119",
+      "source_kind": "official_Berklee_instrumental_lab_description",
+      "topic_state": "partial",
+      "topics": [
+        "Sections jazz, rock, funk, fusion, blues, classique, fingerstyle, improvisation moderne et roots",
+        "Travail de performance spécifique à la section stylistique choisie",
+        "Une même identité de code regroupe plusieurs sections très différentes"
+      ],
+      "caveat": "Le laboratoire dépend de l'instrument et parfois de la section; aucun syllabus de session n'est présumé."
+    },
+    {
+      "code": "ILPN-335",
+      "title": "Hammond Organ Techniques",
+      "family": "instrumental_lab",
+      "placeholder": "ILxx",
+      "source_url": "https://college.berklee.edu/courses/ilpn-335",
+      "source_kind": "official_Berklee_instrumental_lab_description",
+      "topic_state": "usable_first_pass",
+      "topics": [
+        "Technique de l'orgue Hammond et styles jazz, R&B, blues, rock et funk",
+        "Étude et transcription d'enregistrements de musiciens influents",
+        "Application au jeu de clavier-orgue en répertoire actuel"
+      ],
+      "caveat": "Le laboratoire dépend de l'instrument et parfois de la section; aucun syllabus de session n'est présumé."
+    },
+    {
+      "code": "ILPN-337",
+      "title": "Blues Styles for Hammond Organ",
+      "family": "instrumental_lab",
+      "placeholder": "ILxx",
+      "source_url": "https://college.berklee.edu/courses/ilpn-337",
+      "source_kind": "official_Berklee_instrumental_lab_description",
+      "topic_state": "usable_first_pass",
+      "topics": [
+        "Technique de Hammond B3 dans le blues",
+        "Étude de styles gospel, blues jazz et soul",
+        "Analyse et interprétation d'extraits de répertoire"
+      ],
+      "caveat": "Le laboratoire dépend de l'instrument et parfois de la section; aucun syllabus de session n'est présumé."
+    },
+    {
+      "code": "ILPN-381",
+      "title": "Classical Repertory for Two Pianos",
+      "family": "instrumental_lab",
+      "placeholder": "ILxx",
+      "source_url": "https://college.berklee.edu/courses/ilpn-381",
+      "source_kind": "official_Berklee_instrumental_lab_description",
+      "topic_state": "partial",
+      "topics": [
+        "Répertoire traditionnel et du XXe siècle pour deux pianos, quatre mains",
+        "Coordination instrumentale et interprétation collective",
+        "Notices peu détaillées : corpus et exigences de niveau manquants"
+      ],
+      "caveat": "Le laboratoire dépend de l'instrument et parfois de la section; aucun syllabus de session n'est présumé."
+    }
+  ]
+}

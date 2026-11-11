@@ -2,6 +2,8 @@
 
 **Autre lot du 10 novembre 2026 :** [36 cours MUI contextualisés par instrument](raw-batches/2026-11-10-udem-36-individual-instrument-context.md) sur sources officielles UdeM ; **36 enrichissements documentaires**, mais **aucune fausse promotion** de leur état `partial`, les leçons individuelles étant variables.
 
+**Familles de pratiques Berklee :** [44 cours réels désormais identifiés](raw-batches/2026-11-10-berklee-44-ensemble-private-labs.md), dont 28 leçons d'instruments, 12 ensembles et quatre labs. 13 descriptions initiales exploitables dans ce registre **complémentaire**, 31 partielles. Les 386 entrées principales restent inchangées ; aucune équivalence diplôme/syllabus universel inventée.
+
 **NOUVEAU LOT :** [16 cours/ensembles Berklee et McGill approfondis sur sources officielles](raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md), **16 cartes passent de partielle à exploitable**. Suivi en cours : **219 exploitables / 159 partielles / 8 familles** ; aucune modification du statut des syllabus.
 
 **FILTRAGE EFFECTIF : 386 entrées musicales, et non 402**. Les anciennes statistiques plus bas sont historiques. [16 codes principaux et 11 candidats éliminés](music-only-scope.md). [État actuel](topic-outline-coverage-status.md). Aucun cours de culture générale ou d'arts visuels non musicaux à poursuivre.
