@@ -15,6 +15,7 @@ Un agent commence par [AGENTS.md](../AGENTS.md). **La tâche active consiste à 
    [Pistes de recherche et d’accès aux supports](course-material-source-trail.md).
    [Collecte RAW UdeM : 19 PDF officiels](raw-batches/2026-11-10-udem-19-plans.md) : notes courtes, consignes et pondérations par cours, doublons repérés.
    [MIT OCW 21M.361 — 13 consignes de composition électroacoustique](courses/mit/21M-361.md) : syllabus, devoirs et pondération réels de 2008, uniquement comme matière universitaire complémentaire.
+   [Passe RAW Berklee Boston : 18 codes de cours au catalogue](raw-batches/2026-11-10-berklee-18-catalogue.md) : enseignements distincts, devoirs annoncés, restrictions et blocages de syllabus.
    [Berklee Online — musique à l'image, orchestration et voix](berklee-online-scoring-source-trail.md) : 6 syllabus publics structurés sur 12 leçons, **hors du décompte des cours Boston**.
    [Berklee Online — contrepoint et formation auditive](berklee-online-counterpoint-eartraining-source-trail.md) : quatre syllabus publics et 48 leçons structurées, distincts des niveaux UdeM/McGill.
    [Berklee Online — créativité et composition contemporaine](berklee-online-contemporary-source-trail.md) : 3 autres syllabus de 12 leçons ; recoupements vérifiables avec CM-103, CM-311/312 et MTE 1403/1404, sans assimilation des cours.

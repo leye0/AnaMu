@@ -28,6 +28,8 @@ Collecte approfondie du 10 novembre 2026 : [MUS 3326X](courses/udem/MUS-3326X.md
 
 **Mode rapide/raw, décision du 10 novembre 2026 :** [19 PDF officiels UdeM en un seul lot brut](raw-batches/2026-11-10-udem-19-plans.md), la plupart hors des 402 codes de Composition. Des travaux et évaluations concrets sont répertoriés, mais aucun statut du registre n'est gonflé. **Prochaine cible : 194 cours du registre encore au stade catalogue**, en lots de 10 à 30, sans fiches littéraires ni tests.
 
+**Deuxième paquet RAW du 10 novembre 2026 :** [18 codes du registre Berklee Boston examinés par leurs notices institutionnelles](raw-batches/2026-11-10-berklee-18-catalogue.md). Certains mentionnent œuvres, études, concerts et compositions ; **aucun syllabus de session obtenu** et **aucun statut promu**. CM-499 et COND-321 sont réservés à d'autres majeures selon leur notice. Ne pas refaire leurs seules pages de catalogue sans nouvelle piste.
+
 **VERROU DE PHASE : seuls les travaux de collecte A01–A15, A18 et de revue
 de leur couverture sont actifs.** La réconciliation de concepts A16–A17,
 les capacités analytiques B–K et la composition L ne commencent qu'avec
