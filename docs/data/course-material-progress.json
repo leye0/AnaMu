@@ -2751,83 +2751,223 @@
     "berklee": {
       "ISKB-211": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/ISKB-211.md"
+        "material_file": "docs/courses/berklee/ISKB-211.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/iskb-211",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "ISKB-212": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/ISKB-212.md"
+        "material_file": "docs/courses/berklee/ISKB-212.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/iskb-212",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-221": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-221.md"
+        "material_file": "docs/courses/berklee/CM-221.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-221",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CP-215": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CP-215.md"
+        "material_file": "docs/courses/berklee/CP-215.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cp-215",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-231": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-231.md"
+        "material_file": "docs/courses/berklee/CM-231.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-231",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MLAN-311": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/MLAN-311.md"
+        "material_file": "docs/courses/berklee/MLAN-311.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/mlan-311",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-311": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-311.md"
+        "material_file": "docs/courses/berklee/CM-311.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-311",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-312": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-312.md"
+        "material_file": "docs/courses/berklee/CM-312.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-312",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-441": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-441.md"
+        "material_file": "docs/courses/berklee/CM-441.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-441",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MLAN-312": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/MLAN-312.md"
+        "material_file": "docs/courses/berklee/MLAN-312.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/mlan-312",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-398": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-398.md"
+        "material_file": "docs/courses/berklee/CM-398.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-398",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-497": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-497.md"
+        "material_file": "docs/courses/berklee/CM-497.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-497",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-498": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-498.md"
+        "material_file": "docs/courses/berklee/CM-498.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-498",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-490": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-490.md"
+        "material_file": "docs/courses/berklee/CM-490.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-490",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "ET-231": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/ET-231.md"
+        "material_file": "docs/courses/berklee/ET-231.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/et-231",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "ET-232": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/ET-232.md"
+        "material_file": "docs/courses/berklee/ET-232.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/et-232",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "COND-211": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/COND-211.md"
+        "material_file": "docs/courses/berklee/COND-211.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cond-211",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "COND-216": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/COND-216.md"
+        "material_file": "docs/courses/berklee/COND-216.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cond-216",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "COND-212": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/COND-212.md"
+        "material_file": "docs/courses/berklee/COND-212.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cond-212",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "COND-217": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/COND-217.md"
+        "material_file": "docs/courses/berklee/COND-217.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cond-217",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "LMSC-xxx": {
         "status": "catalog_only",
@@ -2843,11 +2983,25 @@
       },
       "MHIS-251": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/MHIS-251.md"
+        "material_file": "docs/courses/berklee/MHIS-251.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/mhis-251",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MHIS-252": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/MHIS-252.md"
+        "material_file": "docs/courses/berklee/MHIS-252.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/mhis-252",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "Lxxx-xxx": {
         "status": "catalog_only",
@@ -2883,79 +3037,212 @@
       },
       "PW-111": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/PW-111.md"
+        "material_file": "docs/courses/berklee/PW-111.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/pw-111",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "AR-111": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/AR-111.md"
+        "material_file": "docs/courses/berklee/AR-111.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/ar-111",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "AR-123": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/AR-123.md"
+        "material_file": "docs/courses/berklee/AR-123.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/ar-123",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "HR-112": {
         "status": "syllabus_documented",
-        "material_file": "docs/courses/berklee/HR-112.md"
+        "material_file": "docs/courses/berklee/HR-112.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/hr-112",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "HR-114": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/HR-114.md"
+        "material_file": "docs/courses/berklee/HR-114.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/hr-114",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "HR-211": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/HR-211.md"
+        "material_file": "docs/courses/berklee/HR-211.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/hr-211",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "HR-213": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/HR-213.md"
+        "material_file": "docs/courses/berklee/HR-213.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/hr-213",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "HR-215": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/HR-215.md"
+        "material_file": "docs/courses/berklee/HR-215.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/hr-215",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "HR-212": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/HR-212.md"
+        "material_file": "docs/courses/berklee/HR-212.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/hr-212",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "HR-214": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/HR-214.md"
+        "material_file": "docs/courses/berklee/HR-214.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/hr-214",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "HR-216": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/HR-216.md"
+        "material_file": "docs/courses/berklee/HR-216.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/hr-216",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "ET-111": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/ET-111.md"
+        "material_file": "docs/courses/berklee/ET-111.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/et-111",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "ET-112": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/ET-112.md"
+        "material_file": "docs/courses/berklee/ET-112.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/et-112",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "ET-123": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/ET-123.md"
+        "material_file": "docs/courses/berklee/ET-123.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/et-123",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-211": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-211.md"
+        "material_file": "docs/courses/berklee/CM-211.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-211",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-212": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-212.md"
+        "material_file": "docs/courses/berklee/CM-212.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-212",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CP-210": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CP-210.md"
+        "material_file": "docs/courses/berklee/CP-210.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cp-210",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MTEC-111": {
         "status": "syllabus_documented",
-        "material_file": "docs/courses/berklee/MTEC-111.md"
+        "material_file": "docs/courses/berklee/MTEC-111.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/mtec-111",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MTEC-122": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/MTEC-122.md"
+        "material_file": "docs/courses/berklee/MTEC-122.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/mtec-122",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "LENS-10x": {
         "status": "catalog_only",
@@ -2999,7 +3286,14 @@
       },
       "CM-103": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-103.md"
+        "material_file": "docs/courses/berklee/CM-103.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-103",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-225": {
         "status": "catalog_only",
@@ -3007,11 +3301,25 @@
       },
       "CM-227": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-227.md"
+        "material_file": "docs/courses/berklee/CM-227.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-227",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-261": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-261.md"
+        "material_file": "docs/courses/berklee/CM-261.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-261",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-280": {
         "status": "catalog_only",
@@ -3019,7 +3327,14 @@
       },
       "AR-201": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/AR-201.md"
+        "material_file": "docs/courses/berklee/AR-201.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/ar-201",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "AR-228": {
         "status": "catalog_only",
@@ -3031,15 +3346,36 @@
       },
       "AR-331": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/AR-331.md"
+        "material_file": "docs/courses/berklee/AR-331.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/ar-331",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "AR-340": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/AR-340.md"
+        "material_file": "docs/courses/berklee/AR-340.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/ar-340",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-320": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-320.md"
+        "material_file": "docs/courses/berklee/CM-320.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-320",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-373": {
         "status": "catalog_only",
@@ -3051,19 +3387,47 @@
       },
       "CM-385": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-385.md"
+        "material_file": "docs/courses/berklee/CM-385.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-385",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "FILM-200": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/FILM-200.md"
+        "material_file": "docs/courses/berklee/FILM-200.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/film-200",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "FILM-205": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/FILM-205.md"
+        "material_file": "docs/courses/berklee/FILM-205.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/film-205",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "FILM-207": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/FILM-207.md"
+        "material_file": "docs/courses/berklee/FILM-207.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/film-207",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "FILM-343": {
         "status": "catalog_only",
@@ -3071,31 +3435,80 @@
       },
       "FILM-351": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/FILM-351.md"
+        "material_file": "docs/courses/berklee/FILM-351.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/film-351",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "FILM-405": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/FILM-405.md"
+        "material_file": "docs/courses/berklee/FILM-405.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/film-405",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "FILM-407": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/FILM-407.md"
+        "material_file": "docs/courses/berklee/FILM-407.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/film-407",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "FILM-433": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/FILM-433.md"
+        "material_file": "docs/courses/berklee/FILM-433.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/film-433",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-201": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-201.md"
+        "material_file": "docs/courses/berklee/CM-201.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-201",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-251": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-251.md"
+        "material_file": "docs/courses/berklee/CM-251.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-251",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-252": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-252.md"
+        "material_file": "docs/courses/berklee/CM-252.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-252",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-318": {
         "status": "catalog_only",
@@ -3107,11 +3520,25 @@
       },
       "CM-341": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-341.md"
+        "material_file": "docs/courses/berklee/CM-341.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-341",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-342": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-342.md"
+        "material_file": "docs/courses/berklee/CM-342.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-342",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-343": {
         "status": "catalog_only",
@@ -3127,11 +3554,25 @@
       },
       "CM-357": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-357.md"
+        "material_file": "docs/courses/berklee/CM-357.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-357",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-358": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CM-358.md"
+        "material_file": "docs/courses/berklee/CM-358.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cm-358",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CM-360": {
         "status": "catalog_only",
@@ -3163,15 +3604,36 @@
       },
       "MHIS-201": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/MHIS-201.md"
+        "material_file": "docs/courses/berklee/MHIS-201.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/mhis-201",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MHIS-202": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/MHIS-202.md"
+        "material_file": "docs/courses/berklee/MHIS-202.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/mhis-202",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MHIS-203": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/MHIS-203.md"
+        "material_file": "docs/courses/berklee/MHIS-203.md",
+        "topic_outline": {
+          "state": "partial",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/mhis-203",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "MHIS-317": {
         "status": "catalog_only",
@@ -3548,11 +4010,25 @@
       },
       "CP-311": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CP-311.md"
+        "material_file": "docs/courses/berklee/CP-311.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cp-311",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       },
       "CP-350": {
         "status": "partially_documented",
-        "material_file": "docs/courses/berklee/CP-350.md"
+        "material_file": "docs/courses/berklee/CP-350.md",
+        "topic_outline": {
+          "state": "usable_first_pass",
+          "source_kind": "official_berklee_boston_catalogue_and_course_notes",
+          "source_url": "https://college.berklee.edu/courses/cp-350",
+          "document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "reviewed_on": "2026-11-10"
+        }
       }
     }
   },

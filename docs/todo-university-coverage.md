@@ -62,6 +62,8 @@ La suite vise les cours restants, par lots, sans fiche littéraire ni tests.
 
 **Lot UdeM supplémentaire :** [88 codes d'ensembles, instruments et stages/ateliers](raw-batches/2026-11-10-udem-88-ensembles-instruments.md) cartographiés prudemment, **88 partiels** car sujets variables, sans inventer de progression. La couverture UdeM atteint **190/190 codes avec `topic_outline`**; ce sont des contours, pas la prétention que la profondeur de ces cours est atteinte. Compteur total : 121 utilisables, 154 partiels, 275/402 traités.
 
+**Lot Berklee Boston après UdeM, 10 novembre 2026 :** [68 cours de composition, théorie, harmonie, contrepoint, production et musique de film](raw-batches/2026-11-10-berklee-68-program-courses.md) cartographiés depuis les notices du campus. **36 utilisables**, **32 partielles**, sans attribuer les syllabus Berklee Online au campus. Suivi global : **157 utilisables et 186 partiels**, soit **343/402**. Ne pas confondre cartographie et syllabus complet.
+
 ## Mode d'emploi et définition de « terminé »
 
 **Aucune case ci-dessous n'est actuellement validée.** Des catalogues
