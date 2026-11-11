@@ -1,5 +1,7 @@
 # AnaMu — TODO de couverture universitaire exhaustive
 
+**Lot ciblé théorie/direction/médiation :** [8 cours UdeM recadrés](raw-batches/2026-11-11-udem-8-low-detail-theory-mediation-conducting.md) (MTE 12041/12042, MUS 1232, MUS 4101/4102, PLU 2800U, EMU 1310/2312). [Vrai plan supérieur de direction EMU 6310/7310](courses/udem-supplementary/EMU-6310-7310.md) acquis avec gestes, études de partition, évaluation et bibliographie, **sans le transférer abusivement aux cours de premier cycle**. Compteur inchangé : 261 / 117 / 8.
+
 **Ensembles UdeM les plus lacunaires :** [26 fiches revues et lacunes codifiées](raw-batches/2026-11-11-udem-26-variable-ensembles-gap-analysis.md) sur sources officielles A26. Dix familles distinguées (baroque, contemporaine, flûtes, guitares, ensemble générique, saxophones, chorale jazz, clarinettes, harmonie, improvisation). Les groupes voisins ne sont pas présentés comme des équivalents de code; aucune promotion fictive. **261 exploitables / 117 partielles / 8 familles**.
 
 **Poursuite intensive du 11 novembre :** [20 fiches McGill/Berklee encore partielles analysées](raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md), avec thèmes propres, restrictions et limites de section. **MUCO 340D2** devient exploitable grâce à la référence explicite de sa notice aux objectifs du tutorat annuel 340D1 (une heure individuelle/semaine et composition de 5 minutes par session ou 10 minutes sur l'année). **CM-499** est réservé à Jazz Composition (JCMP). 19 restent partielles. **261 exploitables / 117 partielles / 8 familles.**
