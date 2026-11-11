@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-11",
+  "academic_year": "A26_H27",
+  "source_catalogue": "https://musique.umontreal.ca/etudier/nos-programmes-detudes/seminaires/",
+  "baseline_total_unchanged": 386,
+  "documented_courses": [
+    {
+      "code": "MIN 6961",
+      "slug": "MIN-6961-A26",
+      "title": "Analyse des paramètres de mouvement de la musique",
+      "session": "A26",
+      "url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Plan_de_cours_S%C3%A9min_Analyse_param%C3%A8tres_mouvement_de_la_musique_-_V2-06-2026.pdf",
+      "kind": "plan_de_cours_abrege_une_page",
+      "topics": [
+        "Observation-analyse du mouvement (OAM) : cadre de Harbonnier et Dussault",
+        "Paramètres de mouvement : direction, effort et énergie",
+        "Relation entre mouvement perçu, expression musicale et interprétation",
+        "Comparaison des paramètres de la partition, de l'exécution et de l'écoute",
+        "Lien entre sémantique expressive et mouvement corporel",
+        "Analyse comparée d'enregistrements et perception des gestes",
+        "Ateliers d'exploration physique, intervenants danse/musique et lectures"
+      ],
+      "assessment": "Études comparatives d'extraits musicaux mobilisant l'OAM; pondération non publiée",
+      "limitation": "Plan d'une page, sans progression par semaine; cursus supérieur, pas un module de direction EMU1310 ou 2312.",
+      "path": "docs/courses/udem-supplementary/MIN-6961-A26.md",
+      "is_full_weekly_syllabus": false
+    },
+    {
+      "code": "MUL 6228",
+      "slug": "MUL-6228-A26",
+      "title": "Analyse musicale et interprétation",
+      "session": "A26",
+      "url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Plan_cadre_MUL_6228_Analyse_musicale_et_interpretation.pdf",
+      "kind": "plan_cadre_officiel",
+      "topics": [
+        "Préparer une interprétation analytiquement informée d'une œuvre choisie",
+        "Comparer méthodes d'analyse utiles à l'interprète",
+        "Mettre en relation traits de partition et choix expressifs observés",
+        "Comparer des enregistrements d'une même œuvre",
+        "Analyse des accents selon Parncutt, Bisesi et Friberg",
+        "Extraire visualisations et mesures d'enregistrements avec Sonic Visualiser (le document écrit Socin Visualiser)",
+        "Interpréter données et stratégies interprétatives en contexte"
+      ],
+      "assessment": "Pondération indicative : travaux 65 %, exposé 25 %, participation 10 %",
+      "limitation": "Plan-cadre d'une page : ni corpus d'œuvres ni modalités exactes des travaux de section ne sont donnés.",
+      "path": "docs/courses/udem-supplementary/MUL-6228-A26.md",
+      "is_full_weekly_syllabus": false
+    },
+    {
+      "code": "MUS 6603",
+      "slug": "MUS-6603-A26",
+      "title": "FORUM international du NEM — leadership sonore",
+      "session": "A26",
+      "url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Plan_de_cours_Se%CC%81min_FORUM_du_NEM.pdf",
+      "kind": "plan_de_seminaire_intensif_A26",
+      "topics": [
+        "Pratiques de répétition professionnelle et création contemporaine du NEM",
+        "Leadership sonore, observation critique des prises de décision musicales",
+        "Rôle de la direction artistique dans la coordination des instrumentistes",
+        "Relations et négociations entre compositeurs, interprètes et direction",
+        "Méthodologie de prise de notes sur répétitions et préparation d'un journal critique",
+        "Neuf heures préparatoires réparties sur trois séances",
+        "Immersion de 36 heures auprès du Nouvel Ensemble Moderne (19–24 octobre 2026)",
+        "Synthèse personnelle d'observations sur la création collective"
+      ],
+      "assessment": "Séances préparatoires 30 %, journal d'observation 30 %, analyse finale individuelle 40 %",
+      "limitation": "Cours des cycles supérieurs, limité à 15 places; pas équivalent aux cours MUS 3411/3412 « Forum de composition » du premier cycle.",
+      "path": "docs/courses/udem-supplementary/MUS-6603-A26.md",
+      "is_full_weekly_syllabus": false
+    },
+    {
+      "code": "MUL 3335X / 6335X",
+      "slug": "MUL-3335X-6335X-H27",
+      "title": "Théories et contextes de la musique ancienne",
+      "session": "H27",
+      "url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Plan_cadre_MUL_3335X_6335X_Theories_et_contextes_de_la_musique_ancienne.pdf",
+      "kind": "plan_cadre_officiel",
+      "topics": [
+        "Théories et pratiques musicales de 1300 à 1700",
+        "Rapports entre théories musicales et courants intellectuels de leur époque",
+        "Analyse de sources historiques dans leur contexte culturel",
+        "Influence de lieux et usages sur la performance",
+        "Lecture critique des sources anciennes",
+        "Culture matérielle et visuelle employée comme méthode pour comprendre la musique d'époque",
+        "Mise en contexte de l'interprétation historiquement informée"
+      ],
+      "assessment": "Pondération indicative premier cycle : travaux 70 %, exposé 10 %, examen 20 %; cycles supérieurs : travaux 80 %, exposé 20 %",
+      "limitation": "Le plan-cadre ne nomme pas d'œuvre ou de traité individuel ni la progression par cours; distinct du séminaire MIN6956 A21 déjà collecté.",
+      "path": "docs/courses/udem-supplementary/MUL-3335X-6335X-H27.md",
+      "is_full_weekly_syllabus": false
+    },
+    {
+      "code": "MUL 6251",
+      "slug": "MUL-6251-H27",
+      "title": "Spectacle musical à Paris, 1900–1935",
+      "session": "H27",
+      "url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Plan_de_cours_Se%CC%81min_Spectacles_musicaux_Paris.pdf",
+      "kind": "plan_seminaire_trois_pages",
+      "topics": [
+        "Vie musicale parisienne et sociétés de concert entre 1900 et 1935",
+        "Genres d'opéra : opérette, comédie musicale, opéra-ballet et ballet",
+        "Œuvres et spectacles associés à Debussy, Ravel et Stravinsky / Ballets russes",
+        "Interactions avec théâtre d'ombres, marionnettes, pantomime, tableau vivant",
+        "Symbolisme, réalisme, exotisme, orientalisme, dadaïsme, régionalisme et néoclassicisme dans le spectacle musical",
+        "Guerre mondiale, Révolution russe et leur contexte pour le théâtre et la musique",
+        "Contributions d'Ida Rubinstein, Loïe Fuller, Isadora Duncan et mécénats de Polignac/Misia Sert",
+        "Réception dans la presse et histoire des institutions musicales"
+      ],
+      "assessment": "Projet individuel 80 % (préparation 10 %, exposé 20 minutes 30 %, écrit 40 %) et participation 20 % (discussion 10 %, courte présentation 10 %); bibliographie de 20 ouvrages environ",
+      "limitation": "Le document annonce H27 mais conserve une échéance finale « 13 décembre » discordante; signaler sans corriger par hypothèse. Les titres de livres sont références, pas chapitres lus.",
+      "path": "docs/courses/udem-supplementary/MUL-6251-H27.md",
+      "is_full_weekly_syllabus": false
+    },
+    {
+      "code": "MUL 6257",
+      "slug": "MUL-6257-H27",
+      "title": "Alban Berg, Lulu : analyse musicale et dramaturgique",
+      "session": "H27",
+      "url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Plan_de_cours_S%C3%A9min_Alban_Berg__Lulu_mus.__dramaturgie_et_regards_sc%C3%A9niques.pdf",
+      "kind": "plan_cadre_deux_pages",
+      "topics": [
+        "Analyse approfondie de Lulu, opéra d'Alban Berg en trois actes incluant orchestration de Cerha",
+        "Sources dramatiques chez Frank Wedekind et genèse du livret",
+        "Texte, personnages, relations de pouvoir et dynamique dramaturgique",
+        "Structure musicale de l'opéra, formules et liens entre musique et action",
+        "Écriture pour voix et fonctions dramatiques des lignes vocales",
+        "Comparaison de mises en scène contemporaines et réception critique",
+        "Écoute analytique et lecture de la partition en séminaire"
+      ],
+      "assessment": "Indication de plan-cadre : participation 20 %, présentation orale 30 %, travail écrit d'analyse 50 %",
+      "limitation": "Il s'agit d'un plan-cadre et non d'un programme séance par séance; les œuvres étudiées se concentrent sur cet opéra unique. Source de musicologie, pas un cours d'art visuel général.",
+      "path": "docs/courses/udem-supplementary/MUL-6257-H27.md",
+      "is_full_weekly_syllabus": false
+    },
+    {
+      "code": "MUL 6262",
+      "slug": "MUL-6262-H27",
+      "title": "Tango du Río de la Plata : interprétation, analyse, composition",
+      "session": "H27",
+      "url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Plan_de_cours_Se%CC%81min_Le_tango_Interp._analyse_et_compo.pdf",
+      "kind": "plan_de_seminaire_deux_pages",
+      "topics": [
+        "Tango de Buenos Aires et Montevideo : histoire, dimensions culturelles et esthétiques",
+        "Articulation du tango dans différentes familles d'instruments",
+        "Phrasé mélodique et rôle des accompagnements traditionnels",
+        "Codes stylistiques intégrés à un arrangement ou composition personnelle",
+        "Analyse de différentes interprétations d'une même pièce",
+        "Ateliers de jeu musical appliqué, pour instruments classiques et jazz",
+        "Application différenciée aux interprètes, compositeurs et musicologues",
+        "Répertoire et auteurs mentionnés dans la bibliographie : Troilo, Discépolo, Plisson, Borges, Parkhurst, Luker, Fain, Peralta"
+      ],
+      "assessment": "Travaux en cours 75 % ; final 25 % (écrit 10 %, présentation 15 %). Interprètes : 1–2 pièces et analyse; compositeurs : arrangement + pièce originale + texte; musicologues : présentation ~20 min + travail écrit",
+      "limitation": "La page facultaire mentionne enseignant « à confirmer » : ne pas attribuer le plan à un professeur particulier. Un plan de séminaire n'est pas une liste de semaines.",
+      "path": "docs/courses/udem-supplementary/MUL-6262-H27.md",
+      "is_full_weekly_syllabus": false
+    },
+    {
+      "code": "MUL 6255",
+      "slug": "MUL-6255-H27",
+      "title": "L'opéra et les arts de la scène",
+      "session": "H27",
+      "url": "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Plan_de_cours_Se%CC%81min_L_op%C3%A9ra_et_les_arts_de_la_sce%CC%80ne.pdf",
+      "kind": "plan_cadre_une_page",
+      "topics": [
+        "Conventions de dramaturgie proprement opératique",
+        "Rapports entre partition, interprétation, scénographie et scène musicale",
+        "Approches interdisciplinaires de l'opéra impliquant voix et autres arts vivants",
+        "Création de formes opératiques non conventionnelles",
+        "Relation entre spectacle musical, technologies et société",
+        "Écoute dirigée d'extraits audiovisuels d'opéras",
+        "Débats sur la production et l'interprétation contemporaine"
+      ],
+      "assessment": "Pondération indicative : participation/préparation 60 %, travaux écrits 40 %",
+      "limitation": "Le cours parle des autres arts dans leur relation précise à l'opéra, et non d'un cours autonome d'arts visuels; aucune œuvre ou mise en scène précise dans la page.",
+      "path": "docs/courses/udem-supplementary/MUL-6255-H27.md",
+      "is_full_weekly_syllabus": false
+    }
+  ]
+}
