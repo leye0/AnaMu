@@ -56,6 +56,8 @@ La suite vise les cours restants, par lots, sans fiche littéraire ni tests.
 
 **Deuxième lot suivant le nouveau critère :** [12 cartes McGill](raw-batches/2026-11-10-mcgill-12-topic-outlines.md) avec **2 utilisables et 10 partielles** (dont 4 leçons privées individualisées). Depuis le changement de méthode, **39 cours** possèdent désormais un `topic_outline` explicite : **19 descriptions utilisables + 20 partielles**. Les anciens états de syllabus restent séparés. Ne plus chercher systématiquement le matériel exact des professeurs.
 
+**Grand lot de 102 cours, 10 novembre 2026 :** [72 descriptions de contenu UdeM](raw-batches/2026-11-10-udem-72-topic-outlines.md) et [30 descriptions McGill](raw-batches/2026-11-10-mcgill-30-topic-outlines.md), chaque cours avec axes musicaux, provenance officielle et marqueur de qualité. Bilan de cette seule passe : **84 utilisables et 18 partielles** ; nouveau suivi global **103 utilisables / 38 partielles / 141 traités** sur 402. Aucune modification des anciens états de syllabus, aucune chasse aux supports d'enseignant, aucun test ni CI.
+
 ## Mode d'emploi et définition de « terminé »
 
 **Aucune case ci-dessous n'est actuellement validée.** Des catalogues
