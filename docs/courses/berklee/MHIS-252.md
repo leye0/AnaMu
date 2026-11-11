@@ -13,3 +13,7 @@ Le cours parallèle porte sur l’histoire occidentale, avec le classicisme vien
 ## Lacunes
 
 Chercher le plan de section, les exercices, les lectures et les évaluations attribuables au cours cible.
+
+## Syllabus en ligne complémentaire structuré (édition du 11 novembre 2026)
+
+Les douze leçons **réellement publiées pour OLART-234** (Berklee Online) sont désormais décrites en [fiche indépendante](../berklee-online/OLART-234.md) : formes classiques, opéra romantique, atonalité/sérialisme, Ives, textures, minimalisme; exercices publiquement nommés. Le cours Boston **MHIS-252** annonce aussi des musiques non occidentales qui ne sont **pas** couvertes par le plan en ligne occidental. MHIS-252 reste `partial`.

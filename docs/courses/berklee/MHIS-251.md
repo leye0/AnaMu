@@ -13,3 +13,7 @@ Douze leçons de Berklee Online, du chant et de la polyphonie médiévale à la 
 ## Lacunes
 
 Chercher le plan de section, les exercices, les lectures et les évaluations attribuables au cours cible.
+
+## Syllabus en ligne complémentaire structuré (édition du 11 novembre 2026)
+
+Les douze leçons **réellement publiées pour OLART-233** (Berklee Online) sont désormais reconstituées en [fiche indépendante](../berklee-online/OLART-233.md) : chant, poésie profane, polyphonie, Ars antiqua/nova, Renaissance et périodes baroques jusqu'à Bach; manuel indiqué et objectifs. Le cours cible **MHIS-251** est Boston, 2 crédits et contenu de section non publié. **Ne pas copier les leçons OLART-233 dans un syllabus MHIS-251.**
