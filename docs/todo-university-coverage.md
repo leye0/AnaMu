@@ -58,6 +58,8 @@ La suite vise les cours restants, par lots, sans fiche littéraire ni tests.
 
 **Grand lot de 102 cours, 10 novembre 2026 :** [72 descriptions de contenu UdeM](raw-batches/2026-11-10-udem-72-topic-outlines.md) et [30 descriptions McGill](raw-batches/2026-11-10-mcgill-30-topic-outlines.md), chaque cours avec axes musicaux, provenance officielle et marqueur de qualité. Bilan de cette seule passe : **84 utilisables et 18 partielles** ; nouveau suivi global **103 utilisables / 38 partielles / 141 traités** sur 402. Aucune modification des anciens états de syllabus, aucune chasse aux supports d'enseignant, aucun test ni CI.
 
+**Deuxième paquet de la même longue passe du 10 novembre 2026 :** [30 autres cours UdeM](raw-batches/2026-11-10-udem-30-more-topic-outlines.md) et [16 autres McGill](raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md), dont **18 descriptions 1A utilisables et 28 partielles**. Au total pour cette reprise, **148 nouveaux cours traités**. Suivi global : **121 utilisables, 66 partiels, 187 traités** sur 402. Attention aux leçons individuelles et ensembles, qui n'ont pas de programmes standardisés.
+
 ## Mode d'emploi et définition de « terminé »
 
 **Aucune case ci-dessous n'est actuellement validée.** Des catalogues
