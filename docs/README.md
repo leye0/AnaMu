@@ -1,5 +1,7 @@
 # Documentation AnaMu — entrée académique
 
+**Acquisition P0 McGill :** [épreuve officielle de classement Composition, révision mars 2026, six pages](raw-batches/2026-11-11-mcgill-composition-placement-exam-2026-six-pages.md), avec de vrais problèmes d'analyse d'Ives, contrepoint, orchestration, œuvres et bibliographie. Documentation de discipline, **non** syllabus MUTH 322/MUCO 575, dont les cartes demeurent partielles. **263 / 115 / 8.**
+
 **Reprise P0 du 11 novembre :** [modèle primaire Beaudet](raw-batches/2026-11-11-udem-beaudet-tonal-analysis-primary-model.md) retrouvé pour MTE 12041/12042 (**2 promotions**). [24 leçons Berklee Online](courses/berklee-online/OLART-233.md) et [OLART-234](courses/berklee-online/OLART-234.md), et [plan UdeM MUL 3208X/6208X](courses/udem-supplementary/MUL-3208X-6208X.md) acquis comme **cours distincts documentés**, non comme syllabus des codes P0 voisins. [File actualisée : 115 partielles](remaining-115-course-evidence-queue-2026-11-11.md). **263 / 115 / 8.**
 
 **Triage complet des restes (11 novembre) :** [les 117 fiches encore partielles classées individuellement](remaining-115-course-evidence-queue-2026-11-11.md), avec [file JSON](data/remaining-115-course-evidence-queue-2026.json) : source, stade réel, pièce précise manquante et priorité P0–P3. **90 restent historiquement `catalog_only`, 27 `partially_documented`, zéro `syllabus_documented`** parmi les partielles; aucun statut artificiellement promu. **Bilan 261 / 117 / 8.**
