@@ -2,7 +2,7 @@
 
 **Les trois HAR et SOL 3410 ont été supprimés.**
 
-**Périmètre :** cartographie des sujets annoncés officiellement dans le [programme](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/). 12 descriptions exploitables, 18 partielles. Les pratiques individualisées/ensembles n'ont **pas de cursus uniforme publié** ; la source ne doit pas être gonflée en prétendu syllabus. Les cours UdeM de ce lot comprennent des enseignements catalog_only auparavant sans fiche individuelle.
+**Périmètre :** cartographie des sujets annoncés officiellement dans le [programme](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/). 8 descriptions exploitables, 18 partielles. Les pratiques individualisées/ensembles n'ont **pas de cursus uniforme publié** ; la source ne doit pas être gonflée en prétendu syllabus. Les cours UdeM de ce lot comprennent des enseignements catalog_only auparavant sans fiche individuelle.
 
 ## MCT 1601 — Composition instrumentale 1
 

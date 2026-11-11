@@ -30,12 +30,12 @@ Le champ `topic_outline` dans le registre décrit désormais les deux
 séparément. Une description riche au catalogue peut être utilisable en phase
 1A, sans devenir artificiellement un syllabus.
 
-**Mesure d'état au 10 novembre 2026 :** 402 entrées auditées
-superficiellement, 186 cartes de sujets utilisables, 199 incomplètes,
-17 catégories de choix à déplier. Il reste à combler les descriptions
-thématiques insuffisantes. [État détaillé](topic-outline-coverage-status.md).
-Ne jamais conclure « tous les cours décrits en détail » du seul indicateur
-« toutes les entrées examinées ».
+**État actuel après filtrage du 10 novembre 2026 :** 386 entrées
+musicales suivies, dont **203 cartes utilisables, 175 partielles et huit
+familles de pratique musicale non dépliées**. Les 402 entrées de la
+grille historique incluaient des cours extra-musicaux et ne sont plus
+notre périmètre. [État détaillé](topic-outline-coverage-status.md).
+Le balayage initial n'est pas la documentation approfondie de tous les sujets.
 
 ## Phase 1B — documentation académique par SUJET (DIFFÉRÉE)
 

@@ -39,7 +39,7 @@ nommé et chaque option encore ouverte doit avoir une fiche indiquant :
 nommée d'après le code du cours (espaces remplacés par des traits d'union).
 Le registre fait autorité pour le statut et indique le chemin dans le champ
 **material_file** dès que la première fiche sourcée existe. Il contient
-actuellement **402 codes de cours candidats** et **5 pools de choix** à
+actuellement **386 entrées musicales** et **4 pools administratifs de choix restreints à la musique** à
 déplier : ce sont des *points de départ*, pas une liste close.
 
 | Champ | Information indispensable |
@@ -58,16 +58,15 @@ déplier : ce sont des *points de départ*, pas une liste close.
 
 Une source inaccessible reste **inconnue**. Ne jamais inférer un syllabus du seul titre du cours ni confondre une liste de manuels avec les séances enseignées.
 
-### Statut `unresolved_pool` — catégorie, pas cours réel
+### Statut `unresolved_pool` — uniquement familles musicales
 
-Les 17 codes génériques encore inscrits dans les 402 entrées
-(`PIxx-111`, `ENxx`, `LMSC-xxx`, etc.) doivent être **dépliés en
-cours concrets** ou laissés comme branches de choix sans carte de matière.
-Ils ne sauraient recevoir le statut `usable_first_pass` par simple
-description de leur catégorie disciplinaire. [Tableau de couverture
-actuel](topic-outline-coverage-status.md) : 186 cartes exploitables,
-199 partielles, 17 catégories. **La cible reste une description détaillée
-des sujets de cours**, pas l'extraction de copies d'examens ou de barèmes.
+**Huit familles musicales** subsistent dans le registre, dont quatre niveaux
+de leçons privées (`PIxx`), les laboratoires instrumentaux (`ILxx`),
+les ensembles (`ENxx`) et les options de musique et société
+(`LMAS-xxx`, `AMAS-xxx`). Ne **pas** réintroduire les anciens codes
+génériques de sciences, d'histoire, de culture générale ou d'arts visuels.
+Le suivi courant est **203 cartes exploitables / 175 partielles /
+8 familles** sur 386 entrées. [Bilan](topic-outline-coverage-status.md).
 
 ## Ingestion en lots plutôt que fiches longues pendant la recherche
 

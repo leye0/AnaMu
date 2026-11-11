@@ -81,22 +81,20 @@ de chapitres, lectures, devoirs et barèmes exacts avant de considérer la
 provenance, n'autorise ni code ni tests, et ne prétend pas qu'un catalogue
 détaillé soit un syllabus officiel.
 
-### Après le ratissage initial des 402 entrées (10 novembre 2026)
+### État actuel du registre musical filtré — 10 novembre 2026
 
-**Le suivi `topic_outline` couvre désormais toutes les entrées**, mais
-cela **NE ferme PAS** la phase 1A : **186 cartes utilisables**, **199
-partielles** et **17 `unresolved_pool`**, familles de choix Berklee
-qui ne représentent aucun cours unique. L'inventaire contient donc
-**385 codes concrets + 17 placeholders**, ainsi que cinq pools
-administratifs distincts à explorer. Se reporter à
+**386 entrées**, dont **378 cours identifiables et huit familles musicales** à
+déplier. **203 cartes initiales exploitables** et **175 descriptions
+partielles** restent dans la phase 1A. Le précédent inventaire académique
+de 402 entrées, dont les familles d'options générales, est un historique
+et **ne doit pas être restauré**. Voir
 [docs/topic-outline-coverage-status.md](docs/topic-outline-coverage-status.md).
 
-**Prochaine action sans pause :** enrichir en lots les 199 descriptions
-partielles sur leurs véritables sujets et déplier les 17 codes/familles ;
-pour ensembles et cours privés, documenter variantes par famille instrumentale
-sans inventer de syllabus universel. Le comptage « 402/402 passé en revue »
-ne signifie pas « 402 syllabus obtenus » ni « 402 cours terminés ».
-Conserver `unresolved_pool` distinct de `partial` dans toute statistique.
+**Prochaine action :** améliorer les 175 descriptions musicales partielles
+et identifier de vrais cours de pratique musicale derrière les huit familles
+non dépliées. Les sources des cours non musicaux, arts visuels, littérature,
+sciences sociales et santé générales ne font plus partie du registre.
+Aucune recherche de devoirs exacts, aucun test ni CI.
 
 ## INTERDICTION EXPLICITE — tests et maintenance logicielle pendant la collecte
 
@@ -127,7 +125,7 @@ logicielle**.
 
 Léon privilégie la **vitesse et la matière brute** aux fiches longues et polies.
 **Traiter 10 à 30 cours ou sources par passe**, avec la priorité absolue
-aux codes musicaux déjà inventoriés, particulièrement les 194 au stade catalogue.
+aux codes musicaux déjà inventoriés, particulièrement les 181 au stade catalogue.
 
 - Consigner dans docs/raw-batches un tableau court : code exact, édition,
   URL institutionnelle, type de preuve, matière/lecture/exercice identifié,
