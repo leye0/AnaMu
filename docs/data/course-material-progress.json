@@ -5104,12 +5104,23 @@
             "ENCL-202",
             "ENCL-220",
             "ENCL-234",
-            "ENCL-400"
+            "ENCL-400",
+            "ENCL-406",
+            "ENCL-407",
+            "ENCL-404",
+            "ENGB-400",
+            "ENGB-403",
+            "ENGB-407",
+            "ENGB-401"
           ],
           "candidate_document": "docs/raw-batches/2026-11-10-berklee-44-ensemble-private-labs.md",
           "instrument_or_ensemble_catalogue_source": "https://college.berklee.edu/ensemble/ensemble-courses",
           "placeholder_still_unresolved": true,
-          "last_candidates_reviewed": "2026-11-10"
+          "last_candidates_reviewed": "2026-11-10",
+          "specific_ensemble_candidate_document": "docs/raw-batches/2026-11-11-berklee-seven-ensemble-specific-music-subjects.md",
+          "specific_ensemble_candidate_registry": "docs/data/berklee-seven-ensemble-candidates-2026.json",
+          "specific_ensemble_reviewed_on": "2026-11-11",
+          "ensemble_eligibility_caveat": "Choice and auditions matter; these are option examples, not the full college ensemble catalogue or required EN courses"
         }
       },
       "PW-111": {

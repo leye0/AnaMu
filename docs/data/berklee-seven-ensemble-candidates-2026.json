@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-11",
+  "source_degree": "https://college.berklee.edu/program-requirements/composition-bachelors-degree",
+  "source_ensemble_catalogue": "https://college.berklee.edu/ensemble/ensemble-courses",
+  "family": "ENxx",
+  "before": 12,
+  "added": 7,
+  "after": 19,
+  "records": [
+    {
+      "code": "ENCL-406",
+      "title": "The Neither/Nor Composer Ensemble",
+      "genre": "composition_collective",
+      "topics": [
+        "Composer chaque semaine une partition originale pour l'effectif de classe",
+        "Jouer les nouvelles œuvres de ses collègues et les répéter",
+        "Pratiquer techniques instrumentales étendues et microtonalité",
+        "Utiliser improvisation guidée et partitions graphiques pour générer du matériau",
+        "Explorer procédures de hasard et notation non conventionnelle",
+        "Transformer des expérimentations en œuvres entièrement notées",
+        "Réaliser une pièce finale exécutée par l'ensemble"
+      ],
+      "source_url": "https://college.berklee.edu/courses/encl-406",
+      "eligible_only_if_approved": true,
+      "is_specific_course_syllabus": false
+    },
+    {
+      "code": "ENCL-407",
+      "title": "Composer Sinfonietta",
+      "genre": "composer_orchestra",
+      "topics": [
+        "Écrire, répéter et interpréter de la musique contemporaine de concert",
+        "Participer comme interprète à l'ensemble dirigé",
+        "Répartir les rôles : gestion d'orchestre, bibliothécaire et ingénieur d'enregistrement",
+        "Effectif : vents, cuivres, cordes, percussions, piano",
+        "Possibilité de composer pour la formation (non obligation)",
+        "Processus d'admission par audition"
+      ],
+      "source_url": "https://college.berklee.edu/courses/encl-407",
+      "eligible_only_if_approved": true,
+      "is_specific_course_syllabus": false
+    },
+    {
+      "code": "ENCL-404",
+      "title": "Musical Theater Orchestra",
+      "genre": "theatre_orchestra",
+      "topics": [
+        "Interprétation de musiques de spectacles de Broadway",
+        "Répétitions hebdomadaires supervisées",
+        "Adaptation du jeu aux différents styles des comédies musicales",
+        "Écoute et restitution d'intentions stylistiques",
+        "Précision mélodique, harmonique et rythmique de l'ensemble"
+      ],
+      "source_url": "https://college.berklee.edu/courses/encl-404",
+      "eligible_only_if_approved": true,
+      "is_specific_course_syllabus": false
+    },
+    {
+      "code": "ENGB-400",
+      "title": "Middle Eastern Fusion",
+      "genre": "middle_eastern_fusion",
+      "topics": [
+        "Traditions proche-orientales et nord-africaines, balkaniques et méditerranéennes",
+        "Répertoires libanais, égyptien, turc, algérien et bulgare",
+        "Formes citées : muwashshah, sama'i, kopanitsa",
+        "Métriques irrégulières et cycles traditionnels 7/8 et 10/8",
+        "Modes arabes et utilisation en composition contemporaine",
+        "Écoutes de Fairuz, Umm Kulthum, Selim Sesler et artistes de fusion",
+        "Improvisation dans les traditions étudiées et leurs hybridations"
+      ],
+      "source_url": "https://college.berklee.edu/courses/engb-400",
+      "eligible_only_if_approved": true,
+      "is_specific_course_syllabus": false
+    },
+    {
+      "code": "ENGB-403",
+      "title": "South Asian Ensemble",
+      "genre": "south_asian",
+      "topics": [
+        "Étudier et interpréter musiques actuelles de l'Asie du Sud",
+        "Répéter chaque semaine sous supervision",
+        "Jouer et improviser en formation orientée groove",
+        "Respecter les exigences stylistiques des traditions étudiées",
+        "Reproduire avec exactitude les motifs mélodiques et rythmiques",
+        "Contexte Hindoustani/Carnatique et hybridations mentionné par l'institut Berklee India Exchange"
+      ],
+      "source_url": "https://college.berklee.edu/courses/engb-403",
+      "eligible_only_if_approved": true,
+      "is_specific_course_syllabus": false
+    },
+    {
+      "code": "ENGB-407",
+      "title": "Contemporary Balkan Ensemble",
+      "genre": "balkan",
+      "topics": [
+        "Interprétation des styles instrumentaux et vocaux balkaniques traditionnels et actuels",
+        "Transcription et écoute active des pièces",
+        "Apprentissage des métriques irrégulières",
+        "Modes, échelles et ornementations caractéristiques",
+        "Improvisation stylistique",
+        "Arrangement et composition de nouvelles pièces en fusion de styles"
+      ],
+      "source_url": "https://college.berklee.edu/courses/engb-407",
+      "eligible_only_if_approved": true,
+      "is_specific_course_syllabus": false
+    },
+    {
+      "code": "ENGB-401",
+      "title": "Microtonal Grooves",
+      "genre": "microtonal_performance",
+      "topics": [
+        "Notation microtonale 72 divisions égales par octave, modèle Joe Maneri",
+        "Lecture et performance de quarts de ton, solo et accompagnement",
+        "Études d'œuvres citées de Mingus, Carrillo, Hába et David Fiuczynski",
+        "Melodies arabes, turques ou chinoises dans des arrangements de fusion",
+        "Grooves dancehall, reggaeton, house, drum'n'bass et hip-hop",
+        "Expérimentations collectives de nouveaux beats"
+      ],
+      "source_url": "https://college.berklee.edu/courses/engb-401",
+      "eligible_only_if_approved": true,
+      "is_specific_course_syllabus": false
+    }
+  ]
+}
