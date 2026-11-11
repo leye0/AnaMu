@@ -1,5 +1,7 @@
 # AnaMu — TODO de couverture universitaire exhaustive
 
+**Médiation musicale :** [deux plans UdeM H22/A23](raw-batches/2026-11-11-udem-mediation-publics-2-real-plans.md) avec **21 sujets attestés** (dispositifs participatifs, cocréation, publics, expériences d'écoute, enquêtes et évaluations), conservés comme vrais cours distincts de **MUS 4101/4102**, encore partiels. Sans transfert artificiel de syllabus.
+
 **Bilan exhaustif des douze P0 (11 novembre) :** [dossier des douze codes, sources, matière obtenue et preuve exacte manquante](raw-batches/2026-11-11-p0-12-courses-content-and-evidence-audit.md) ; **deux promotions Beaudet et dix cours encore partiels**. Nouvel ensemble documentaire : **60 leçons réelles Berklee Online (5 cours)**, un plan UdeM d'histoire électroacoustique et une épreuve McGill de six pages. La [file de 115 restantes](remaining-115-course-evidence-queue-2026-11-11.md) est à jour; les syllabus Boston et de sections variables restent à obtenir. **263 / 115 / 8.**
 
 **Acquisition P0 McGill :** [épreuve officielle de classement Composition, révision mars 2026, six pages](raw-batches/2026-11-11-mcgill-composition-placement-exam-2026-six-pages.md), avec de vrais problèmes d'analyse d'Ives, contrepoint, orchestration, œuvres et bibliographie. Documentation de discipline, **non** syllabus MUTH 322/MUCO 575, dont les cartes demeurent partielles. **263 / 115 / 8.**
