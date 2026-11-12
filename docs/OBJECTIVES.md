@@ -1,5 +1,7 @@
 # AnaMu — objectifs et ordre impératif des phases
 
+**ÉTAT COURANT DES COURS :** [registre](data/course-algorithmic-assessments.json) : **48 premières analyses de cours et 48 MIDI originaux**, **8 évaluations limitées sans MIDI**, **322 cours en attente**, **8 familles de choix**. 18 nouvelles démonstrations et 2 cours audio intégrés dans le dernier lot. Ce bilan remplace les nombres historiques plus bas; ne pas reprendre la recherche cyclique de syllabus ni le chantier isolé des 44 mécanismes. Les fiches des cours sont la source de vérité et alimentent Pages.
+
 **Progrès vérifié 11 novembre 2026 sur la tâche de chaque cours :** [registre des 386 entrées](data/course-algorithmic-assessments.json) = **30 premiers cours avec procédure d'analyse + procédure de composition + vrai MIDI original**, **6 cours évalués sans MIDI pertinent**, **342 cours à examiner**, **8 placeholders**. Tous les exemples MIDI sont dans les sous-dossiers des cours, pas dans une banque générique de « mécanismes ». [Gabarit](COURSE_ANALYSIS_TEMPLATE.md). La phase de génération de MIDI de **démonstration pédagogique** est autorisée explicitement, sans développement d'analyseur ni tests. Ne pas annoncer un syllabus couvert lorsqu'une seule compétence est illustrée.
 
 ## DÉCISION ACTUELLE — évaluer CHAQUE cours pour analyse et création

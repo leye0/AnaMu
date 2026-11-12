@@ -1,5 +1,7 @@
 # AnaMu — connaissance universitaire pour analyser la musique
 
+**Analyses de cours — bilan actuel :** [386 entrées](docs/data/course-algorithmic-assessments.json), dont **48 analysées avec MIDI original, 8 évaluées sans MIDI pertinent, 322 non encore évaluées et 8 familles de choix**. Le site GitHub Pages contient les fiches de cours et les fichiers MIDI à écouter; il est reconstruit automatiquement avec Actions. 18 nouveaux MIDI et deux évaluations audio ont été ajoutés dans ce lot. Les chiffres 30/6/342 et 19/5/354 apparaissant plus bas sont historiques. [Gabarit](docs/COURSE_ANALYSIS_TEMPLATE.md) · [Site et déploiement](site/README.md).
+
 **Bilan courant de la tâche par cours :** [index des 386 entrées](docs/data/course-algorithmic-assessments.json) : **30 dossiers de cours avec analyse/création expliquée et vrai MIDI original**, **6 évaluations sans MIDI pertinent**, **342 cours restants**, **8 familles de choix**. [Gabarit](docs/COURSE_ANALYSIS_TEMPLATE.md). Les procédures sont dans les fiches de cours existantes; les MIDI ont leur propre dossier `docs/courses/<établissement>/<code>/`. Les statuts historiques du syllabus et la collection des 44 mécanismes restent distincts. Ne pas déclarer toute la matière du cours couverte parce qu'un exemple existe.
 
 ## Nouvelle étape active — appliquer les savoirs de chaque cours (11 novembre 2026)
