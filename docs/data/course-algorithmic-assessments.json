@@ -11,8 +11,8 @@
   },
   "summary": {
     "detailed_with_midi": 108,
-    "reviewed_with_limitation_no_midi": 97,
-    "not_yet_assessed": 173,
+    "reviewed_with_limitation_no_midi": 109,
+    "not_yet_assessed": 161,
     "choice_placeholders": 8,
     "non_algorithmic_true": 8
   },
@@ -329,16 +329,21 @@
       "material_file": "docs/courses/udem/MUL-1117.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mul-1117/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe pour la lecture historique, indirecte pour composer",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUL-1117.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir la matière détaillée et les supports adaptés avant de prétendre à une démonstration spécifique au cours",
+      "limit_note": "Les œuvres, techniques et exercices propres à MUL 1117 manquent; un MIDI isolé n'est pas une preuve historique."
     },
     {
       "institution": "udem",
@@ -453,16 +458,21 @@
       "material_file": "docs/courses/udem/MUS-3412.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-3412/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "indirecte : échanges et critique en composition",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "NOT_MUSIC_ALGORITHM",
+        "UNKNOWN"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUS-3412.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir la matière détaillée et les supports adaptés avant de prétendre à une démonstration spécifique au cours",
+      "limit_note": "Pas d'exemple MIDI de cours : l'apprentissage attesté est l'échange critique, pas une technique musicale déterminée."
     },
     {
       "institution": "udem",
@@ -470,16 +480,21 @@
       "material_file": "docs/courses/udem/MUS-1011.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-1011/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe pour la lecture et l'audition musicales, objectifs de niveau inconnus",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "AUDIO_REQUIRED",
+        "UNKNOWN"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUS-1011.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir la matière détaillée et les supports adaptés avant de prétendre à une démonstration spécifique au cours",
+      "limit_note": "Aucun MIDI spécifiquement attaché à ce niveau : la source ne distingue ni progression ni exercices des six codes. Une miniature générique serait attribuable indistinctement aux six et n'apporterait pas d'information de section."
     },
     {
       "institution": "udem",
@@ -487,16 +502,21 @@
       "material_file": "docs/courses/udem/MUS-1012.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-1012/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe pour la lecture et l'audition musicales, objectifs de niveau inconnus",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "AUDIO_REQUIRED",
+        "UNKNOWN"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUS-1012.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir la matière détaillée et les supports adaptés avant de prétendre à une démonstration spécifique au cours",
+      "limit_note": "Aucun MIDI spécifiquement attaché à ce niveau : la source ne distingue ni progression ni exercices des six codes. Une miniature générique serait attribuable indistinctement aux six et n'apporterait pas d'information de section."
     },
     {
       "institution": "udem",
@@ -504,16 +524,21 @@
       "material_file": "docs/courses/udem/MUS-1013.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-1013/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe pour la lecture et l'audition musicales, objectifs de niveau inconnus",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "AUDIO_REQUIRED",
+        "UNKNOWN"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUS-1013.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir la matière détaillée et les supports adaptés avant de prétendre à une démonstration spécifique au cours",
+      "limit_note": "Aucun MIDI spécifiquement attaché à ce niveau : la source ne distingue ni progression ni exercices des six codes. Une miniature générique serait attribuable indistinctement aux six et n'apporterait pas d'information de section."
     },
     {
       "institution": "udem",
@@ -521,16 +546,21 @@
       "material_file": "docs/courses/udem/MUS-1014.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-1014/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe pour la lecture et l'audition musicales, objectifs de niveau inconnus",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "AUDIO_REQUIRED",
+        "UNKNOWN"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUS-1014.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir la matière détaillée et les supports adaptés avant de prétendre à une démonstration spécifique au cours",
+      "limit_note": "Aucun MIDI spécifiquement attaché à ce niveau : la source ne distingue ni progression ni exercices des six codes. Une miniature générique serait attribuable indistinctement aux six et n'apporterait pas d'information de section."
     },
     {
       "institution": "udem",
@@ -538,16 +568,21 @@
       "material_file": "docs/courses/udem/MUS-1015.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-1015/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe pour la lecture et l'audition musicales, objectifs de niveau inconnus",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "AUDIO_REQUIRED",
+        "UNKNOWN"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUS-1015.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir la matière détaillée et les supports adaptés avant de prétendre à une démonstration spécifique au cours",
+      "limit_note": "Aucun MIDI spécifiquement attaché à ce niveau : la source ne distingue ni progression ni exercices des six codes. Une miniature générique serait attribuable indistinctement aux six et n'apporterait pas d'information de section."
     },
     {
       "institution": "udem",
@@ -555,16 +590,21 @@
       "material_file": "docs/courses/udem/MUS-1016.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-1016/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe pour la lecture et l'audition musicales, objectifs de niveau inconnus",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "AUDIO_REQUIRED",
+        "UNKNOWN"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUS-1016.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir la matière détaillée et les supports adaptés avant de prétendre à une démonstration spécifique au cours",
+      "limit_note": "Aucun MIDI spécifiquement attaché à ce niveau : la source ne distingue ni progression ni exercices des six codes. Une miniature générique serait attribuable indistinctement aux six et n'apporterait pas d'information de section."
     },
     {
       "institution": "udem",
@@ -762,16 +802,21 @@
       "material_file": "docs/courses/udem/MUL-1116.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mul-1116/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe pour la lecture historique, indirecte pour composer",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUL-1116.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir la matière détaillée et les supports adaptés avant de prétendre à une démonstration spécifique au cours",
+      "limit_note": "Aucune œuvre ni technique spécifique du cours n'étant attestée, un MIDI de « modernisme » serait artificiel."
     },
     {
       "institution": "udem",
@@ -2847,16 +2892,21 @@
       "material_file": "docs/courses/udem/MUE-1622.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe pour la création électroacoustique",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/udem/MUE-1622.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir la matière détaillée et les supports adaptés avant de prétendre à une démonstration spécifique au cours",
+      "limit_note": "Requiert un fichier audio ou un patch de synthèse validé, non des notes General MIDI spéculatives."
     },
     {
       "institution": "udem",
@@ -4495,16 +4545,21 @@
       "material_file": "docs/courses/mcgill/MUEN-595.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/ensembles/jazz",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe pour l'exécution collective",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/mcgill/MUEN-595.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir la matière détaillée et les supports adaptés avant de prétendre à une démonstration spécifique au cours",
+      "limit_note": "Pas de MIDI attribuable au cours : chaque combo ou orchestre change de composition et de répertoire."
     },
     {
       "institution": "mcgill",
@@ -4512,16 +4567,21 @@
       "material_file": "docs/courses/mcgill/MUEN-597.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/ensembles/orchestras/mgso",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe pour l'orchestration et l'exécution",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/mcgill/MUEN-597.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir la matière détaillée et les supports adaptés avant de prétendre à une démonstration spécifique au cours",
+      "limit_note": "Un MIDI générique de tutti ne démontre pas la pratique orchestrale spécifique ou la prestation citée."
     },
     {
       "institution": "mcgill",
