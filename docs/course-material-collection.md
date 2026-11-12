@@ -1,5 +1,7 @@
 # Acquisition exhaustive de la matière des cours
 
+**Reprise effective du 11 novembre 2026 :** [28 recherches revues, six clôturées par indisponibilité de preuve de section](raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md), **93 recherches publiques terminées et 22 actives**, toujours **115 contenus `partial` et huit familles non dépliées**. [Quatre codes individuels PIBS Berklee](raw-batches/2026-11-11-berklee-pibs-four-concrete-private-bass-levels.md) ajoutés aux candidats, sans prétendre à des plans de niveaux. Le registre fait autorité pour les états actuels et la [file des 115](remaining-115-course-evidence-queue-2026-11-11.md) indique les 22 recherches actives. Ne jamais relancer systématiquement les 93 clôturées sans source nouvelle.
+
 ## Clôture de recherche publique — distincte de la connaissance du cours
 
 **Décision du 11 novembre 2026 :** s'il n'existe dans les sources ouvertes revues aucun plan de section attribuable au code, ou si l'enseignement est adapté à l'étudiant/la répétition/le stage, **la recherche peut être marquée terminée en meilleur effort**. C'est un statut d'effort, pas de contenu. Le registre conserve `topic_outline.state=partial`, les lacunes et le `status` historique; il ajoute `topic_outline.public_research.state=completed_best_effort`, sa date, les sources, le motif et une condition de réouverture. Un résultat négatif est **borné aux sources examinées**, jamais la preuve qu'aucun document n'existe ailleurs.
