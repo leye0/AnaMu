@@ -174,7 +174,7 @@
 
 ## Couverture de ce premier lot, distincte des cours
 
-- **14 mécanismes/objets documentés** depuis **9 chapitres/pages pédagogiques** : contrepoint (2), harmonie et modulation (2), forme (2), modes/collections (4), ensembles de classes/dodécaphonisme (2), rythme et groupement (2).
+- **14 mécanismes/objets documentés** depuis **10 chapitres/pages pédagogiques** : contrepoint (2), harmonie et modulation (2), forme (2), modes/collections (4), ensembles de classes/dodécaphonisme (2), rythme et groupement (2).
 - **0 cours promu** par ce lot, **0 syllabus attribué** à une autre université et **0 compétence du moteur MIDI déclarée acquise**.
 - La suite peut approfondir les sujets distincts à partir d'autres traités, œuvres et méthodes, et ajouter contradicteurs/variantes selon style **sans attendre** des documents de section non publics.
 
