@@ -1,6 +1,6 @@
 # AnaMu — bibliothèque web des cours
 
-Site statique en français permettant de parcourir **les 386 entrées actuelles**, lire les **descriptions exactes des fiches du dépôt**, consulter les procédures **Analyse & création**, et jouer/télécharger les **30 exemples MIDI originaux** déjà réalisés. Les nouveaux cours et fichiers seront intégrés à chaque nouvelle publication.
+Site statique francophone construit à partir de **386 entrées universitaires**, des descriptions des fiches existantes et du [registre de suivi](../docs/data/course-algorithmic-assessments.json). Il permet de consulter **63 exemples MIDI originaux écoutables**, **18 fiches évaluées sans MIDI**, **297 cours à analyser** et **8 familles d'options**. Les contenus sont reconstruits automatiquement par GitHub Actions après chaque modification des fiches et du registre : pas de deuxième base de données à tenir.
 
 ## Publication sur GitHub Pages (source : Actions)
 
