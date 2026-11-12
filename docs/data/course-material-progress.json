@@ -213,6 +213,14 @@
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Cours année 3 automne, préalable MTE1221 ou MTE2211, pas de sujets/œuvres attestés.",
             "limits": "Le plan de cheminement ne fournit pas les séances, œuvres, lectures ou exercices du cours; statut partiel inchangé."
+          },
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mte-1205/",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "A26, cours sur la première moitié du XXe et analyse des principaux courants, œuvre et technique exacte non attribuable.",
+            "no_syllabus_promotion": true
           }
         }
       },
@@ -349,6 +357,14 @@
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Affichage A26: section A, 45 h prévues, vendredi 09h–12h, qualification de composition électroacoustique et expérience en création; aucun syllabus ni logiciel attesté.",
             "limits": "Affichage prospectif de poste/groupe avec horaire, sans preuve que séance, œuvre ou exercice exact a été enseigné; aucune promotion."
+          },
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mte-1503/",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "A26 A/B et H27 A/B, séances dirigées électroacoustiques; ni outils ni plan de section public trouvés.",
+            "no_syllabus_promotion": true
           }
         }
       },
@@ -412,6 +428,14 @@
             "source_kind": "official_historical_curriculum_path_not_syllabus",
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Cours placé en année 3 automne dans le cheminement historique version 01, pas plan de section contemporain."
+          },
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://admission.umontreal.ca/programmes/mineure-en-musiques-histoire-et-societes/",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Programme détaille seconde moitié XXe et XXIe siècles; aucun syllabus, auteur ou corpus.",
+            "no_syllabus_promotion": true
           }
         }
       },
@@ -512,6 +536,24 @@
             "source_kind": "official_historical_curriculum_path_not_syllabus",
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Forum de composition année 3 automne dans le cheminement historique version 01; intervenants et matières inconnus."
+          },
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-3411/",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Conférences facultaires de composition, A26 jeudis 12h–13h29; pas de liste d'invités directement attribuable.",
+            "no_syllabus_promotion": true
+          },
+          "public_research": {
+            "state": "completed_best_effort",
+            "completed_on": "2026-11-11",
+            "scope": "public_indexed_course_specific_syllabus_section_search",
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "exact_course_source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-3411/",
+            "reason": "Matière de section / programme / répertoire explicitement variable et document précis non accessible parmi les sources publiques et les recherches ciblées, recherche arrêtée pour cette passe sans inférer de syllabus.",
+            "preserves_topic_outline_state": "partial",
+            "reopen_if": "Programme daté spécifique, syllabus de section, liste d'invités/œuvres propre au code ou nouveau document officiel accessible."
           }
         }
       },
@@ -550,6 +592,24 @@
             "source_kind": "official_historical_curriculum_path_not_syllabus",
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Forum de composition année 3 hiver dans le cheminement historique version 01; intervenants et matières inconnus."
+          },
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-3412/",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Conférences facultaires de composition, H26 jeudis 12h–13h29; pas de sujets directement attribuables.",
+            "no_syllabus_promotion": true
+          },
+          "public_research": {
+            "state": "completed_best_effort",
+            "completed_on": "2026-11-11",
+            "scope": "public_indexed_course_specific_syllabus_section_search",
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "exact_course_source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-3412/",
+            "reason": "Matière de section / programme / répertoire explicitement variable et document précis non accessible parmi les sources publiques et les recherches ciblées, recherche arrêtée pour cette passe sans inférer de syllabus.",
+            "preserves_topic_outline_state": "partial",
+            "reopen_if": "Programme daté spécifique, syllabus de section, liste d'invités/œuvres propre au code ou nouveau document officiel accessible."
           }
         }
       },
@@ -601,6 +661,14 @@
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Inscription aux six niveaux conditionnée par prescription du classement, pas progression de ce niveau.",
             "limits": "Le plan de cheminement ne fournit pas les séances, œuvres, lectures ou exercices du cours; statut partiel inchangé."
+          },
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-1011/",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Trois sections A/B/C A26, lecture/audition tonales; programme du niveau 1 introuvable.",
+            "no_syllabus_promotion": true
           }
         }
       },
@@ -652,6 +720,14 @@
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Inscription aux six niveaux conditionnée par prescription du classement, pas progression de ce niveau.",
             "limits": "Le plan de cheminement ne fournit pas les séances, œuvres, lectures ou exercices du cours; statut partiel inchangé."
+          },
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-1012/",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Lecture/audition tonales, aucun plan de niveau 2.",
+            "no_syllabus_promotion": true
           }
         }
       },
@@ -703,6 +779,14 @@
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Inscription aux six niveaux conditionnée par prescription du classement, pas progression de ce niveau.",
             "limits": "Le plan de cheminement ne fournit pas les séances, œuvres, lectures ou exercices du cours; statut partiel inchangé."
+          },
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-1013/",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Lecture/audition tonales, aucun plan de niveau 3.",
+            "no_syllabus_promotion": true
           }
         }
       },
@@ -754,6 +838,14 @@
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Inscription aux six niveaux conditionnée par prescription du classement, pas progression de ce niveau.",
             "limits": "Le plan de cheminement ne fournit pas les séances, œuvres, lectures ou exercices du cours; statut partiel inchangé."
+          },
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-1014/",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Lecture/audition tonales, aucun plan de niveau 4.",
+            "no_syllabus_promotion": true
           }
         }
       },
@@ -805,6 +897,14 @@
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Inscription aux six niveaux conditionnée par prescription du classement, pas progression de ce niveau.",
             "limits": "Le plan de cheminement ne fournit pas les séances, œuvres, lectures ou exercices du cours; statut partiel inchangé."
+          },
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-1015/",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Lecture/audition tonales, aucun plan de niveau 5.",
+            "no_syllabus_promotion": true
           }
         }
       },
@@ -856,6 +956,14 @@
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Inscription aux six niveaux conditionnée par prescription du classement, pas progression de ce niveau.",
             "limits": "Le plan de cheminement ne fournit pas les séances, œuvres, lectures ou exercices du cours; statut partiel inchangé."
+          },
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-1016/",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Lecture/audition tonales, préalable MUS1015, aucun plan de niveau 6.",
+            "no_syllabus_promotion": true
           }
         }
       },
@@ -1218,7 +1326,15 @@
             "docs/courses/udem-supplementary/MUL-6257-H27.md"
           ],
           "comparative_2026_27_provenance": "Different exact university course codes with music content; no direct syllabus equivalence; keep target course partial",
-          "comparative_2026_27_reviewed_on": "2026-11-11"
+          "comparative_2026_27_reviewed_on": "2026-11-11",
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mul-1116/",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "A26, première moitié du XXe, histoire/contexte; aucune liste d'œuvres ni syllabus repéré.",
+            "no_syllabus_promotion": true
+          }
         }
       },
       "MUL 1134": {
@@ -1827,7 +1943,15 @@
           "next_research_priority": "P1",
           "next_research_kind": "music_therapy",
           "next_evidence_target": "Plan H27, objectifs et techniques d'intervention musicale; séance réelle",
-          "next_research_reviewed_on": "2026-11-11"
+          "next_research_reviewed_on": "2026-11-11",
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://musique.umontreal.ca/etudier/nos-programmes-detudes/seminaires/",
+            "source_kind": "institutional_named_section_listing",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "H27 section MUS1232/MUS6601 avec Méliane Laurier-Cromp, lundis 9h–12h, pas de syllabus de séances.",
+            "no_syllabus_promotion": true
+          }
         }
       },
       "MUS 4101": {
@@ -1856,7 +1980,15 @@
             "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf"
           ],
           "comparative_music_mediation_warning": "Plans MUL6265/6266 are different upper-cycle courses; no transferable section syllabus for the target",
-          "comparative_music_mediation_reviewed_on": "2026-11-11"
+          "comparative_music_mediation_reviewed_on": "2026-11-11",
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-4101/",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "A26 section A avec journées Oct17, Oct26, Nov3, Nov14; concert-conférence jeune public, pas de programme.",
+            "no_syllabus_promotion": true
+          }
         }
       },
       "MUS 4102": {
@@ -1885,7 +2017,15 @@
             "https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Liste_des_s%C3%A9minaires_2025-2026_V9_Avec_ens..pdf"
           ],
           "comparative_music_mediation_warning": "Plans MUL6265/6266 are different upper-cycle courses; no transferable section syllabus for the target",
-          "comparative_music_mediation_reviewed_on": "2026-11-11"
+          "comparative_music_mediation_reviewed_on": "2026-11-11",
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-4102/",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Concert-conférence pour publics empêchés, pas de plan de session ni répertoire.",
+            "no_syllabus_promotion": true
+          }
         }
       },
       "MUS 4103": {
@@ -2008,6 +2148,14 @@
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Direction d'ensembles vocaux/instrumentaux signalée historiquement; pas progression de gestes ni œuvres.",
             "no_promotion": true
+          },
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/emu-1310/",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Introduction à la direction instrumentale/vocale 1cr; aucun programme de gestuelle ou œuvres de section.",
+            "no_syllabus_promotion": true
           }
         }
       },
@@ -2042,7 +2190,15 @@
             "docs/courses/udem-supplementary/MUS-6603-A26.md"
           ],
           "comparative_2026_27_provenance": "Different exact university course codes with music content; no direct syllabus equivalence; keep target course partial",
-          "comparative_2026_27_reviewed_on": "2026-11-11"
+          "comparative_2026_27_reviewed_on": "2026-11-11",
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/emu-2312/",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Direction et étude de partition 2cr, applications pratiques; exercices de premier cycle inconnus.",
+            "no_syllabus_promotion": true
+          }
         }
       },
       "MUE 1151": {
@@ -5596,6 +5752,14 @@
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Winter 2025, enseignant Christopher Harman; système de hauteurs et méthodes variables, sujet précis toujours inconnu.",
             "no_promotion": true
+          },
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/study-plan",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Winter 2027 annoncé, systèmes de hauteurs fin XIXe au présent; sujet précis de section non repéré.",
+            "no_syllabus_promotion": true
           }
         }
       },
@@ -5769,6 +5933,14 @@
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Winter 2025, enseignant Juanita Marchand; aucune étude de cas propre au cours retrouvée.",
             "no_promotion": true
+          },
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://www.mcgill.ca/music/files/music/music_research_mcliu_postings_winter_2026.pdf",
+            "source_kind": "institutional_instructor_posting_not_syllabus",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Nouveau PDF d'affichage section H26 MUPD235-001: qualification enseignant marketing, publicité, promotion/distribution, tournées, conférenciers, dossiers études/bourses; ne prouve pas chaque axe enseigné.",
+            "no_syllabus_promotion": true
           }
         }
       },
@@ -5932,7 +6104,25 @@
           "next_research_priority": "P2",
           "next_research_kind": "ensemble_variable",
           "next_evidence_target": "Programme et séances du groupe MUEN 592, petits arrangements et jeux collectifs réellement documentés",
-          "next_research_reviewed_on": "2026-11-11"
+          "next_research_reviewed_on": "2026-11-11",
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://www.mcgill.ca/study/2024-2025/courses/muen-592",
+            "source_kind": "official_historical_course_instructor_listing",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Fall2024 Jonathan Lindhorst; Winter2025 John Hollenbeck; petit orchestre jazz 9–13; répertoire de session absent.",
+            "no_syllabus_promotion": true
+          },
+          "public_research": {
+            "state": "completed_best_effort",
+            "completed_on": "2026-11-11",
+            "scope": "public_indexed_course_specific_syllabus_section_search",
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "exact_course_source_url": "https://www.mcgill.ca/study/2024-2025/courses/muen-592",
+            "reason": "Matière de section / programme / répertoire explicitement variable et document précis non accessible parmi les sources publiques et les recherches ciblées, recherche arrêtée pour cette passe sans inférer de syllabus.",
+            "preserves_topic_outline_state": "partial",
+            "reopen_if": "Programme daté spécifique, syllabus de section, liste d'invités/œuvres propre au code ou nouveau document officiel accessible."
+          }
         }
       },
       "MUEN 593": {
@@ -6078,6 +6268,14 @@
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Cours effectivement offert Fall 2024, enseignant Christoph Neidhöfer; sujet variable et syllabus de section toujours inconnus.",
             "no_promotion": true
+          },
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://www.mcgill.ca/study/2024-2025/courses/muth-322",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Fall 2024 avec Christoph Neidhöfer; non offert 2026–27, ni thème spécifique ni syllabus historique trouvé.",
+            "no_syllabus_promotion": true
           }
         }
       },
@@ -6376,6 +6574,14 @@
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Enseignant répertorié Dennis Leclaire et période occidentale 600–Baroque; pas d'œuvres ni plan Boston.",
             "no_promotion": true
+          },
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://college.berklee.edu/courses/mhis-251",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Boston, 600–baroque, Dennis Leclaire annoncé, aucune œuvre de section.",
+            "no_syllabus_promotion": true
           }
         }
       },
@@ -6409,6 +6615,14 @@
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Période depuis classicisme, Occident et autres traditions; aucun syllabus de section Boston.",
             "no_promotion": true
+          },
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://college.berklee.edu/courses/mhis-252",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Boston, classicisme–présent, Occident et non-Occident; aucune tradition ou œuvre détaillée de section.",
+            "no_syllabus_promotion": true
           }
         }
       },
@@ -6939,7 +7153,25 @@
           "next_research_priority": "P2",
           "next_research_kind": "special_topics_variable",
           "next_evidence_target": "Thème de session et plan de section (CM-280/CM-360), non catalogue générique",
-          "next_research_reviewed_on": "2026-11-11"
+          "next_research_reviewed_on": "2026-11-11",
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://college.berklee.edu/courses/cm-280",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Classe-projet d'un crédit, thèmes selon section, site dit de consulter descriptif spécifique, non public.",
+            "no_syllabus_promotion": true
+          },
+          "public_research": {
+            "state": "completed_best_effort",
+            "completed_on": "2026-11-11",
+            "scope": "public_indexed_course_specific_syllabus_section_search",
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "exact_course_source_url": "https://college.berklee.edu/courses/cm-280",
+            "reason": "Matière de section / programme / répertoire explicitement variable et document précis non accessible parmi les sources publiques et les recherches ciblées, recherche arrêtée pour cette passe sans inférer de syllabus.",
+            "preserves_topic_outline_state": "partial",
+            "reopen_if": "Programme daté spécifique, syllabus de section, liste d'invités/œuvres propre au code ou nouveau document officiel accessible."
+          }
         }
       },
       "AR-201": {
@@ -7282,7 +7514,25 @@
           "next_research_priority": "P2",
           "next_research_kind": "special_topics_variable",
           "next_evidence_target": "Thème de session et plan de section (CM-280/CM-360), non catalogue générique",
-          "next_research_reviewed_on": "2026-11-11"
+          "next_research_reviewed_on": "2026-11-11",
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://college.berklee.edu/courses/cm-360",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Classe-projet avancée deux crédits, sujets et travaux changeants, document de section non public.",
+            "no_syllabus_promotion": true
+          },
+          "public_research": {
+            "state": "completed_best_effort",
+            "completed_on": "2026-11-11",
+            "scope": "public_indexed_course_specific_syllabus_section_search",
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "exact_course_source_url": "https://college.berklee.edu/courses/cm-360",
+            "reason": "Matière de section / programme / répertoire explicitement variable et document précis non accessible parmi les sources publiques et les recherches ciblées, recherche arrêtée pour cette passe sans inférer de syllabus.",
+            "preserves_topic_outline_state": "partial",
+            "reopen_if": "Programme daté spécifique, syllabus de section, liste d'invités/œuvres propre au code ou nouveau document officiel accessible."
+          }
         }
       },
       "CM-361": {
@@ -7615,6 +7865,14 @@
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Direction en répétition d'orchestre de chambre; Orlando Cela/Tiffany Chang dans notice; aucune partition donnée.",
             "no_promotion": true
+          },
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://college.berklee.edu/courses/cond-311",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Orchestre de chambre vivant, répétition/interprétation avancées; aucun programme de partitions par section.",
+            "no_syllabus_promotion": true
           }
         }
       },
@@ -7961,6 +8219,14 @@
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Cours d'analyse Stravinsky, enseignant Dennis Leclaire identifié; œuvres exactes inconnues.",
             "no_promotion": true
+          },
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://college.berklee.edu/courses/mlan-375",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Analyse/écoute d'œuvres de Stravinsky sur l'ensemble de sa production; aucune liste de pièces.",
+            "no_syllabus_promotion": true
           }
         }
       },
@@ -7994,6 +8260,24 @@
             "reviewed_on": "2026-11-11",
             "evidence_scope": "Compositeur changeant par section; exemples de catalogue non assimilables au programme contemporain.",
             "no_promotion": true
+          },
+          "targeted_research_2026_11_11": {
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "source_url": "https://college.berklee.edu/courses/mlan-381",
+            "source_kind": "official_course_or_program_notice",
+            "reviewed_on": "2026-11-11",
+            "finding_and_limits": "Un compositeur différent par semestre; sélection annoncée dans les babillards étudiants et le département, sans syllabus public.",
+            "no_syllabus_promotion": true
+          },
+          "public_research": {
+            "state": "completed_best_effort",
+            "completed_on": "2026-11-11",
+            "scope": "public_indexed_course_specific_syllabus_section_search",
+            "audit_document": "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md",
+            "exact_course_source_url": "https://college.berklee.edu/courses/mlan-381",
+            "reason": "Matière de section / programme / répertoire explicitement variable et document précis non accessible parmi les sources publiques et les recherches ciblées, recherche arrêtée pour cette passe sans inférer de syllabus.",
+            "preserves_topic_outline_state": "partial",
+            "reopen_if": "Programme daté spécifique, syllabus de section, liste d'invités/œuvres propre au code ou nouveau document officiel accessible."
           }
         }
       },
