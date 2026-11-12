@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#10172b">
+  <meta name="description" content="Explorer les cours de musique AnaMu, leurs descriptions, leurs applications à l'analyse et à la composition, et écouter les exemples MIDI originaux.">
+  <title>AnaMu — Bibliothèque musicale</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brandmark" aria-hidden="true">𝄞</span>
+      <div class="brand-label">
+        <strong>AnaMu<span class="brand-dot">.</span></strong>
+        <span>Bibliothèque musicale</span>
+      </div>
+    </div>
+    <div class="topbar-end">
+      <span class="edition-label"><span class="online-dot"></span>Documentation vivante</span>
+      <a class="repository-link" href="https://github.com/leye0/AnaMu" target="_blank" rel="noopener noreferrer">Voir le dépôt <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar" aria-label="Catalogue des cours">
+      <div class="sidebar-intro">
+        <div class="eyebrow light">EXPLORER LES CONNAISSANCES</div>
+        <h1>La musique,<br><em>cours par cours.</em></h1>
+        <p>Des programmes universitaires aux mécanismes musicaux — avec des exemples que tu peux écouter.</p>
+        <div class="metrics">
+          <div><strong id="metricCourses">—</strong><span>entrées</span></div>
+          <div><strong id="metricMidi">—</strong><span>MIDI à écouter</span></div>
+          <div><strong id="metricReviewed">—</strong><span>évaluations</span></div>
+        </div>
+      </div>
+      <div class="catalog-controls">
+        <label class="searchbox" for="search">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="search" type="search" autocomplete="off" placeholder="Rechercher un cours, un sujet…" aria-label="Rechercher un cours">
+          <kbd>/</kbd>
+        </label>
+        <div class="filter-row">
+          <label class="sr-only" for="school">Université</label>
+          <select id="school">
+            <option value="all">Toutes les écoles</option>
+            <option value="udem">Université de Montréal</option>
+            <option value="mcgill">McGill</option>
+            <option value="berklee">Berklee</option>
+          </select>
+          <label class="sr-only" for="status">Avancement</label>
+          <select id="status">
+            <option value="all">Tous les états</option>
+            <option value="midi">Avec MIDI</option>
+            <option value="reviewed">Évalués sans MIDI</option>
+            <option value="pending">À analyser</option>
+            <option value="families">Familles d'options</option>
+          </select>
+        </div>
+        <div class="catalog-caption"><span id="resultCount">Chargement du catalogue…</span><span id="filterNote">↕</span></div>
+      </div>
+      <div id="courseList" class="course-list" aria-label="Cours disponibles" aria-live="polite"></div>
+      <div class="sidebar-foot">Sources institutionnelles et exemples originaux. Le MIDI est une représentation, pas un enregistrement acoustique.</div>
+    </aside>
+
+    <section class="workspace" aria-label="Détails du cours">
+      <div id="message" class="message" hidden></div>
+
+      <div id="emptyState" class="empty-state" hidden>
+        <div class="empty-glyph">♫</div>
+        <h2>Aucun cours trouvé</h2>
+        <p>Modifie la recherche ou les filtres pour afficher les cours disponibles.</p>
+        <button id="resetFilters" class="outline-button">Effacer les filtres</button>
+      </div>
+
+      <article id="detail" class="detail" hidden>
+        <div class="detail-head">
+          <div class="detail-breadcrumb">
+            <span id="courseInstitution" class="crumb-school">Université</span>
+            <span class="crumb-separator">/</span>
+            <span id="courseCode">Code</span>
+          </div>
+          <h2 id="courseTitle" class="course-title"></h2>
+          <p id="courseExcerpt" class="course-excerpt"></p>
+          <div id="courseTags" class="course-tags"></div>
+          <div class="course-links">
+            <a id="sourceRepo" href="#" target="_blank" rel="noopener noreferrer">Consulter la fiche sur GitHub ↗</a>
+            <a id="sourceOfficial" href="#" target="_blank" rel="noopener noreferrer">Source universitaire ↗</a>
+          </div>
+        </div>
+
+        <section id="playerSection" class="player-section">
+          <div class="player-header">
+            <div>
+              <div class="eyebrow">EXEMPLE ORIGINAL</div>
+              <h3>Écouter le MIDI <span class="wave-symbol" aria-hidden="true">〰</span></h3>
+              <p>Lecture synthétisée directement dans le navigateur.</p>
+            </div>
+            <span id="playerTag" class="player-pill">Fichier MIDI</span>
+          </div>
+          <div id="playerAvailable">
+            <div class="roll-wrap">
+              <canvas id="pianoRoll" height="188" aria-label="Visualisation des notes du MIDI" role="img"></canvas>
+              <span class="roll-caption">PIANO ROLL · PISTES MIDI</span>
+            </div>
+            <div class="transport">
+              <button id="playBtn" class="play-button" aria-label="Jouer le MIDI"><span id="playIcon" aria-hidden="true">▶</span></button>
+              <button id="stopBtn" class="stop-button" aria-label="Arrêter le MIDI">■</button>
+              <div class="time-control">
+                <input type="range" id="seek" min="0" max="1000" value="0" aria-label="Position de lecture">
+                <div class="timing"><span id="currentTime">0:00</span><span id="totalTime">0:00</span></div>
+              </div>
+              <label class="speed-control">Vitesse
+                <select id="speed" aria-label="Vitesse de lecture">
+                  <option value="0.75">0,75×</option>
+                  <option value="1" selected>1×</option>
+                  <option value="1.25">1,25×</option>
+                  <option value="1.5">1,5×</option>
+                </select>
+              </label>
+              <label class="volume-control" title="Volume du synthétiseur">
+                <span aria-hidden="true">◖))</span>
+                <input id="volume" type="range" min="0" max="100" value="75" aria-label="Volume">
+              </label>
+            </div>
+            <div class="player-foot">
+              <span id="midiInfo">Exemple MIDI original</span>
+              <a id="downloadMidi" class="download-link" href="#" download>Télécharger le MIDI ↓</a>
+            </div>
+          </div>
+          <div id="playerUnavailable" class="no-midi" hidden>
+            <span class="no-midi-icon" aria-hidden="true">♩</span>
+            <div><strong>Pas d'exemple MIDI pour ce cours.</strong><p id="noMidiReason">La matière n'a pas encore été illustrée, ou le MIDI ne permet pas de représenter le phénomène de façon honnête.</p></div>
+          </div>
+        </section>
+
+        <section class="documentation" aria-labelledby="docHeading">
+          <div class="documentation-header">
+            <div>
+              <div class="eyebrow">DOCUMENTATION</div>
+              <h3 id="docHeading">Description &amp; applications</h3>
+            </div>
+            <div class="doc-tabs" role="tablist" aria-label="Type de documentation">
+              <button id="tabDescription" class="tab active" role="tab" aria-controls="descriptionContent" aria-selected="true">Description du cours</button>
+              <button id="tabApplication" class="tab" role="tab" aria-controls="applicationContent" aria-selected="false">Analyse &amp; création</button>
+            </div>
+          </div>
+          <div id="descriptionContent" class="doc-content" role="tabpanel" aria-labelledby="tabDescription"></div>
+          <div id="applicationContent" class="doc-content" role="tabpanel" aria-labelledby="tabApplication" hidden></div>
+        </section>
+        <footer class="detail-footer">
+          <span>Les sources du cours et les ressources comparatives restent distinguées. Les exemples MIDI ont été créés pour AnaMu.</span>
+          <span id="coursePosition"></span>
+        </footer>
+      </article>
+    </section>
+  </main>
+
+  <div class="mobile-hint">AnaMu · Documentation et écoute musicale</div>
+</body>
+</html>
