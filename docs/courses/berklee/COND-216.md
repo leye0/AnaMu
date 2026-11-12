@@ -21,7 +21,7 @@ Le support comparable a sa propre provenance. Le plan de section, le répertoire
 
 ### Apprentissage ou domaine 1 — Évaluer le suivi d'une battue par plusieurs claviéristes
 
-**Provenance :** apprentissage annoncé ou procédure adaptée au domaine, sans consigne de section attribuée. **Catégorie :** `VIDEO_REQUIRED / MIDI_PROXY / AUDIO_REQUIRED` (`VIDEO_REQUIRED` est une précision de format associée à `CONTEXT_REQUIRED`).
+**Provenance :** apprentissage annoncé ou procédure adaptée au domaine, sans consigne de section attribuée. **Catégorie :** `CONTEXT_REQUIRED / MIDI_PROXY / AUDIO_REQUIRED` (la vidéo requise est explicitée dans la procédure).
 
 **Méthode pour analyser :** 1. Lire le conducteur et collecter les événements Note On de chaque clavier **si les claviers ont réellement produit ces événements**, plus la vidéo du chef. 2. Localiser ictus et attaques par temps, mesurer délais et dispersion des entrées entre musiciens. 3. Séparer les notes réellement jouées de la partition idéale; le MIDI d'un seul séquenceur ne démontre pas le suivi d'un chef réel.
 
@@ -31,7 +31,7 @@ Le support comparable a sa propre provenance. Le plan de section, le répertoire
 
 ### Apprentissage ou domaine 2 — Coordination des nuances et des fins de phrase
 
-**Provenance :** apprentissage annoncé ou procédure adaptée au domaine, sans consigne de section attribuée. **Catégorie :** `VIDEO_REQUIRED / AUDIO_REQUIRED / CONTEXT_REQUIRED` (`VIDEO_REQUIRED` est une précision de format associée à `CONTEXT_REQUIRED`).
+**Provenance :** apprentissage annoncé ou procédure adaptée au domaine, sans consigne de section attribuée. **Catégorie :** `AUDIO_REQUIRED / CONTEXT_REQUIRED` (la vidéo requise est explicitée dans la procédure).
 
 **Méthode pour analyser :** 1. Aligner les gestes de préparation/arrêt sur les queues de sons de chaque clavier. 2. Mesurer leur synchronisation et vérifier perceptivement la cohérence de l'ensemble; un Note Off quantifié ne démontre pas une conduite expressive.
 
