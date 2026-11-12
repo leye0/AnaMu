@@ -1,5 +1,9 @@
 # AnaMu — connaissance universitaire pour analyser la musique
 
+## Nouvelle étape active — appliquer les savoirs de chaque cours (11 novembre 2026)
+
+Le projet procède maintenant **cours par cours**, depuis la fiche `docs/courses/<établissement>/<cours>.md`, à l'aide du [gabarit d'analyse/création](docs/COURSE_ANALYSIS_TEMPLATE.md). Pour chaque apprentissage réellement attesté, documenter une procédure de lecture de musique existante, une procédure d'intégration en composition, et créer un **exemple MIDI original dans le dossier du cours** quand les notes et événements MIDI peuvent vraiment montrer le phénomène. Sinon préciser `AUDIO_REQUIRED`, `CONTEXT_REQUIRED`, `NOT_MUSIC_ALGORITHM` ou `UNKNOWN` sans inventer. [Suivi des 386 entrées](docs/data/course-algorithmic-assessments.json) : 19 exemples analysés et MIDI, 5 évaluations de limites, 354 cours encore à traiter, 8 familles de choix. **Aucun moteur ni suite de tests n'a été créé.** Ceci remplace les anciennes directives « phase 1A seule »/« 1B seulement » qui apparaissent plus bas à titre historique. Voir [STATUS.md](docs/STATUS.md).
+
 **Mission :** construire une immense base commune de connaissances musicales à partir de **toute la matière réellement enseignée** dans plusieurs programmes universitaires de composition, y compris les options, les recommandations et les spécialisations pertinentes. Ensuite, choisir les outils capables de **reconnaître et expliquer dans des morceaux MIDI existants** les composants enseignés. La composition musicale générative est une possibilité lointaine, interdite sans décision explicite de Léon.
 
 ## Phase active : obtenir les cours
