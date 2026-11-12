@@ -1,5 +1,9 @@
 # AnaMu — objectifs et ordre impératif des phases
 
+## DÉCISION ACTIVE — 11 novembre 2026 : arrêt de la boucle 1A et début du travail documentaire 1B
+
+**Voir [STATUS.md](STATUS.md) pour le bilan actuel : 263 cartes utilisables, 115 cartes partielles, huit familles de choix; 93 recherches publiques terminées en meilleur effort, 22 bloquées faute de preuve externe, zéro recherche cyclique active.** Une vingtaine de passages sur les mêmes sources n'a pas livré les plans/œuvres spécifiques : il faut **conserver les inconnus, pas les rechercher sans fin**. La phase 1A de collecte **publique** est donc **arrêtée en meilleur effort** (NON couverte exhaustivement). **La phase 1B de documentation des sujets musicaux attestés est désormais ACTIVE**, même si certains cours restent partiels. Premier lot : [14 mécanismes musicaux décrits et sourcés](subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md). Le verrou de la phase 2, du MIDI, des tests et de la composition demeure entier. Les sections rédigées ci-dessous présentant 1A comme la seule phase active sont des **règles historiques antérieures remplacées par la présente décision**.
+
 **Référence normative.** La finalité est une compréhension de la composition et de l'arrangement fondée sur **la réunion du contenu réel de plusieurs cursus universitaires entiers**. Cette connaissance doit permettre de reconnaître et d'expliquer les mécanismes de musique existante. Une composition musicale ultérieure devra reposer sur cette compréhension et sur des jugements d'écoute, mais **aucune génération n'est autorisée maintenant**.
 
 **Périmètre obligatoire :** [matières musicales uniquement](music-only-scope.md). Les cours de culture générale et d'arts visuels sans musique ont été éliminés.
