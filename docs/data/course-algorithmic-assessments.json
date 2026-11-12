@@ -11,8 +11,8 @@
   },
   "summary": {
     "detailed_with_midi": 108,
-    "reviewed_with_limitation_no_midi": 109,
-    "not_yet_assessed": 161,
+    "reviewed_with_limitation_no_midi": 124,
+    "not_yet_assessed": 146,
     "choice_placeholders": 8,
     "non_algorithmic_true": 8
   },
@@ -612,16 +612,21 @@
       "material_file": "docs/courses/udem/MCT-1603.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1603/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "musicale, analyse MIDI seule insuffisante ou technique exacte inconnue",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED",
+        "UNKNOWN"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MCT-1603.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les pièces propres à la section, une partition, le dispositif ou le matériau audiovisuel avant de générer un exemple ciblé",
+      "limit_note": "Pas de MIDI spécifique : l'effectif, le style, le matériau et les consignes du niveau 3 ne sont pas publiés."
     },
     {
       "institution": "udem",
@@ -629,16 +634,21 @@
       "material_file": "docs/courses/udem/MCT-1604.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1604/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "musicale, analyse MIDI seule insuffisante ou technique exacte inconnue",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED",
+        "UNKNOWN"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MCT-1604.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les pièces propres à la section, une partition, le dispositif ou le matériau audiovisuel avant de générer un exemple ciblé",
+      "limit_note": "Pas de MIDI original présenté comme exemple du niveau : aucune technique ni distribution ne sont attestées."
     },
     {
       "institution": "udem",
@@ -646,16 +656,22 @@
       "material_file": "docs/courses/udem/MCT-1701.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1701/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "musicale, analyse MIDI seule insuffisante ou technique exacte inconnue",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED",
+        "UNKNOWN"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MCT-1701.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les pièces propres à la section, une partition, le dispositif ou le matériau audiovisuel avant de générer un exemple ciblé",
+      "limit_note": "Pas de MIDI probant : la musique mixte réclame au minimum une captation et la description du dispositif, absentes pour ce niveau."
     },
     {
       "institution": "udem",
@@ -663,16 +679,22 @@
       "material_file": "docs/courses/udem/MCT-1702.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1702/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "musicale, analyse MIDI seule insuffisante ou technique exacte inconnue",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED",
+        "UNKNOWN"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MCT-1702.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les pièces propres à la section, une partition, le dispositif ou le matériau audiovisuel avant de générer un exemple ciblé",
+      "limit_note": "Ni MIDI de niveau 2 ni algorithme spécifique ne sont démontrables depuis la notice seule."
     },
     {
       "institution": "udem",
@@ -680,16 +702,22 @@
       "material_file": "docs/courses/udem/MCT-1801.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1801/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "musicale, analyse MIDI seule insuffisante ou technique exacte inconnue",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED",
+        "UNKNOWN"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MCT-1801.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les pièces propres à la section, une partition, le dispositif ou le matériau audiovisuel avant de générer un exemple ciblé",
+      "limit_note": "Pas de MIDI attribuable au niveau : les images, scènes et consignes individuelles ne sont pas connues."
     },
     {
       "institution": "udem",
@@ -697,16 +725,22 @@
       "material_file": "docs/courses/udem/MCT-1802.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1802/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "musicale, analyse MIDI seule insuffisante ou technique exacte inconnue",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED",
+        "UNKNOWN"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MCT-1802.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les pièces propres à la section, une partition, le dispositif ou le matériau audiovisuel avant de générer un exemple ciblé",
+      "limit_note": "MIDI seul insuffisant et progression entre niveaux non publiée."
     },
     {
       "institution": "udem",
@@ -1859,16 +1893,20 @@
       "material_file": "docs/courses/udem/PLU-2800U.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/plu-2800u/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "non déterminable selon convention de stage",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/PLU-2800U.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les pièces propres à la section, une partition, le dispositif ou le matériau audiovisuel avant de générer un exemple ciblé",
+      "limit_note": "Aucun MIDI : le type précis de stage, son contrat et ses apprentissages ne sont pas publics."
     },
     {
       "institution": "udem",
@@ -1876,16 +1914,21 @@
       "material_file": "docs/courses/udem/EMU-1310.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/emu-1310/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "musicale, analyse MIDI seule insuffisante ou technique exacte inconnue",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/EMU-1310.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les pièces propres à la section, une partition, le dispositif ou le matériau audiovisuel avant de générer un exemple ciblé",
+      "limit_note": "Un MIDI peut documenter des repères métriques mais ne capture ni les gestes ni la réponse du groupe; aucun fichier n'est créé."
     },
     {
       "institution": "udem",
@@ -1893,16 +1936,21 @@
       "material_file": "docs/courses/udem/EMU-2312.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/emu-2312/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "musicale, analyse MIDI seule insuffisante ou technique exacte inconnue",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/EMU-2312.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les pièces propres à la section, une partition, le dispositif ou le matériau audiovisuel avant de générer un exemple ciblé",
+      "limit_note": "Le conducteur, les gestes et le retour audio/vidéo sont nécessaires; pas de MIDI de section attesté."
     },
     {
       "institution": "udem",
@@ -1932,16 +1980,21 @@
       "material_file": "docs/courses/udem/MUE-1152.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1152/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "musicale, analyse MIDI seule insuffisante ou technique exacte inconnue",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1152.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les pièces propres à la section, une partition, le dispositif ou le matériau audiovisuel avant de générer un exemple ciblé",
+      "limit_note": "Pas de MIDI prétendument tiré du programme : les parties et l'affectation à MUE 1152 manquent."
     },
     {
       "institution": "udem",
@@ -1949,16 +2002,21 @@
       "material_file": "docs/courses/udem/MUE-1153.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1153/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "musicale, analyse MIDI seule insuffisante ou technique exacte inconnue",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1153.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les pièces propres à la section, une partition, le dispositif ou le matériau audiovisuel avant de générer un exemple ciblé",
+      "limit_note": "MIDI non représentatif du dispositif théâtral ni d'une progression propre à 1153."
     },
     {
       "institution": "udem",
@@ -2022,16 +2080,21 @@
       "material_file": "docs/courses/udem/MUE-1172.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1172/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "musicale, analyse MIDI seule insuffisante ou technique exacte inconnue",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1172.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les pièces propres à la section, une partition, le dispositif ou le matériau audiovisuel avant de générer un exemple ciblé",
+      "limit_note": "Un MIDI de batterie seul ne représente ni contrôleurs ni textes; parties de la section non publiées."
     },
     {
       "institution": "udem",
@@ -2039,16 +2102,21 @@
       "material_file": "docs/courses/udem/MUE-1173.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1173/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "musicale, analyse MIDI seule insuffisante ou technique exacte inconnue",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1173.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les pièces propres à la section, une partition, le dispositif ou le matériau audiovisuel avant de générer un exemple ciblé",
+      "limit_note": "Pas de MIDI supplémentaire : aucune partie attribuable au code MUE 1173."
     },
     {
       "institution": "udem",
@@ -2311,16 +2379,20 @@
       "material_file": "docs/courses/udem/MUE-1251.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1251/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "musicale, analyse MIDI seule insuffisante ou technique exacte inconnue",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1251.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les pièces propres à la section, une partition, le dispositif ou le matériau audiovisuel avant de générer un exemple ciblé",
+      "limit_note": "Exemple MIDI absent : instrumentation, registre et répertoire réels du code non déterminés."
     },
     {
       "institution": "udem",
@@ -2328,16 +2400,20 @@
       "material_file": "docs/courses/udem/MUE-1252.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1252/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "musicale, analyse MIDI seule insuffisante ou technique exacte inconnue",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1252.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les pièces propres à la section, une partition, le dispositif ou le matériau audiovisuel avant de générer un exemple ciblé",
+      "limit_note": "Aucune composition MIDI au titre de niveau 2 sans savoir quel ensemble et quelle matière sont étudiés."
     },
     {
       "institution": "udem",
