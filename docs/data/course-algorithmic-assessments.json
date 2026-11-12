@@ -11,8 +11,8 @@
   },
   "summary": {
     "detailed_with_midi": 122,
-    "reviewed_with_limitation_no_midi": 218,
-    "not_yet_assessed": 38,
+    "reviewed_with_limitation_no_midi": 254,
+    "not_yet_assessed": 2,
     "choice_placeholders": 8,
     "non_algorithmic_true": 9
   },
@@ -3235,16 +3235,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1023a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1023A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Flûte baroque 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3252,16 +3258,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1033a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1033A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Flûte à bec 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3269,16 +3281,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1043a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1043A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Hautbois baroque 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3286,16 +3304,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1053a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1053A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Luth 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3303,16 +3327,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1073a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1073A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Violon baroque 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3320,16 +3350,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1083a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1083A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Viole de gambe 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3337,16 +3373,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1103a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1103A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Alto 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3354,16 +3396,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1123a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1123A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Basson 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3371,16 +3419,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1132a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1132A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Chant 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3388,16 +3442,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1143a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1143A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Clarinette 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3405,16 +3465,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1153a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1153A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Clavecin 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3422,16 +3488,22 @@
       "material_file": null,
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/udem/MUI-1162A.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Connaissance du clavier 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3439,16 +3511,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1173a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1173A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Contrebasse 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3456,16 +3534,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1183a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1183A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Cor 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3473,16 +3557,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1193a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1193A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Flûte traversière 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3490,16 +3580,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1203a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1203A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Guitare 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3507,16 +3603,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1213a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1213A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Harpe 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3524,16 +3626,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1223a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1223A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Hautbois 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3541,16 +3649,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1233a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1233A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Orgue 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3558,16 +3672,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1243a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1243A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Percussion 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3575,16 +3695,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1253a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1253A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Piano 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3592,16 +3718,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1263a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1263A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Saxophone 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3609,16 +3741,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1273a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1273A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Trombone 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3626,16 +3764,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1283a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1283A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Trompette 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3643,16 +3787,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1293a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1293A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Tuba 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3660,16 +3810,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1303a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1303A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Violon 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3677,16 +3833,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1313a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1313A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Violoncelle 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3694,16 +3856,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1403a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1403A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Basse électrique 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3711,16 +3879,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1413a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1413A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Batterie 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3728,16 +3902,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1423a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1423A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Chant jazz 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3745,16 +3925,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1453a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1453A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Guitare jazz 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3762,16 +3948,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1463a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1463A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Piano jazz 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3779,16 +3971,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1473a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1473A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Saxophone jazz 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3796,16 +3994,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1483a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1483A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Trompette jazz 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3813,16 +4017,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1523a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1523A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Trombone jazz 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "udem",
@@ -3830,16 +4040,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mui-1533a/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "objet instrumental connu, technique de la section non documentée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUI-1533A.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquérir syllabus, études et enregistrements de cette leçon avant de détailler des apprentissages",
+      "limit_note": "L'instrument Contrebasse jazz 1 est attesté, pas la méthode ni les exercices; sans MIDI arbitraire."
     },
     {
       "institution": "mcgill",
