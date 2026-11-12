@@ -43,3 +43,57 @@ Obtenir les exercices précis de triades indépendantes et les techniques interv
 - **Drapeau :** `non_algorithmique=false`.
 - **Exemple :** [vrai MIDI original](./FILM-351/exemple.mid); interprétation et fiabilité limitées aux points explicitement documentés.
 - **Lacunes :** œuvres, devoirs, modalités de notation et critères exacts non vérifiés; le statut universitaire du cours ne change pas.
+
+## Deuxième passe qualitative — preuve, méthode et réfutation (12 novembre 2026)
+
+**Source directe :** [FILM-351 — Post-Romantic Scoring](https://college.berklee.edu/courses/film-351). **Provenance :** Notice de cours Boston : structures intervalliques, polytonalité, triades indépendantes et parallélisme/structure constante; analyse de conducteurs et projets de musique à l'image. Les leçons de Berklee Online restent des cours distincts. Ces applications sont des **protocoles AnaMu**, non des exercices ou des critères publiés pour une section particulière.
+
+### Q1 — Parallélisme de triades et invariance de structure
+
+**Apprentissage attesté et périmètre.** La notice nomme explicitement le parallélisme et les structures constantes comme techniques.
+
+**Données nécessaires.** [MIDI original FILM-351](./FILM-351/exemple.mid), piste de cordes, segmentation de huit mesures; partitions transposées si les instruments réels sont différents.
+
+**Analyse structurée de musique existante.** Pour chaque mesure, isoler les trois hauteurs simultanées de la piste de cordes, normaliser l'octave et ordonner la triade par fondamentale supposée. Mesures 1–4 : relever successivement C, F, D, C majeurs; vérifier que la structure intervallique reste tierce majeure + tierce mineure, **sans** affirmer que les racines avancent d'un intervalle constant. Distinguer une même qualité d'accord en déplacements variés d'une transposition stricte répétée.
+
+**Résultat vérifiable et hypothèses alternatives.** Liste de triades, intervalles internes et différences de fondamentale d'une mesure à l'autre; l'identité du type majeur est vérifiable même lorsque le mouvement des racines n'est pas uniforme.
+
+**Réemploi dans une composition originale.** Écrire huit accords originaux où la qualité majeure est conservée et les fondamentales parcourent un chemin non constant. Composer une variante à fondamentale plus régulière, comparer à l'écoute ce qui devient prévisible et comment la mélodie reste reliée à chaque harmonie.
+
+**Contre-exemple, critère et limite.** Une triade majeure isolée ou un parallélisme de notes à unisson n'établissent pas un langage postromantique; vérification sur plusieurs accords et une vraie réalisation orchestrale.
+
+**Catégorie(s) :** `MIDI_DIRECT` / `MIDI_PROXY` / `AUDIO_REQUIRED`.
+
+### Q2 — Triades superposées : intervalle constant et centres tonals distincts
+
+**Apprentissage attesté et périmètre.** Triades indépendantes et polytonalité explicitement listées par Berklee.
+
+**Données nécessaires.** MIDI original : cordes et cor séparés; dans les mesures 5–8, comparer les classes de hauteurs des deux couches, puis écouter leur autonomie avec une réalisation audio.
+
+**Analyse structurée de musique existante.** Pour chaque accord de cordes, transposer ses classes de hauteurs de deux demi-tons et comparer au cor : les mesures 5–8 présentent les paires C/D, F/G, D/E, C/D. Le décalage constant des triades est prouvable, mais **deux centres tonals indépendants** ne le sont pas : chercher prolongation, cadence, stabilité de chaque strate et autonomie de ses motifs avant d'utiliser le mot polytonalité.
+
+**Résultat vérifiable et hypothèses alternatives.** Deux résultats séparés : fait mécanique de transposition à +2 et hypothèse (non encore établie) de polytonalité perceptive.
+
+**Réemploi dans une composition originale.** À partir d'une courte progression originale, doubler la ligne harmonique à +2 demi-tons, puis produire une deuxième variante où chaque couche possède son propre motif et une cadence identifiable; comparer les deux par écoute et justification harmonique.
+
+**Contre-exemple, critère et limite.** Deux accords dissonants simultanés ne suffisent pas à attester deux tonalités; les hauteurs MIDI ne contiennent pas la fonction tonale reconnue par l'auditeur.
+
+**Catégorie(s) :** `MIDI_DIRECT` / `MIDI_PROXY` / `CONTEXT_REQUIRED`.
+
+### Q3 — Structures intervalliques et scène dramatique : distinguer tension calculée et effet
+
+**Apprentissage attesté et périmètre.** Le cours lie les techniques de composition postromantiques à des projets de scoring et à l'analyse d'images.
+
+**Données nécessaires.** Hauteurs/registre/orchestration du MIDI, rendu sonore, scène et points de dialogue sous licence/autorisation, notes d'intention.
+
+**Analyse structurée de musique existante.** Pour chaque fenêtre de scène, dénombrer superpositions, changements d'intervalles et dureté de frottement candidat; superposer aux événements visuels. Produire deux tableaux indépendants : paramètres musicaux vérifiables et interprétations de leur fonction dramatique par écoute/visionnage.
+
+**Résultat vérifiable et hypothèses alternatives.** Carte des instants où le mécanisme intervallique change et compte rendu prudent de la fonction perçue (confort, étrangeté, conflit) avec incertitude et contre-exemples.
+
+**Réemploi dans une composition originale.** Orchestrer une scène originale avec une version monoharmonique et une version en couches de triades, égaliser les niveaux et demander à plusieurs auditeurs si la relation à l'image change comme voulu.
+
+**Contre-exemple, critère et limite.** Aucun film ni bande sonore dramatique n'est inclus dans le MIDI AnaMu. Un score de dissonance n'est pas un score de suspense.
+
+**Catégorie(s) :** `MIDI_PROXY` / `AUDIO_REQUIRED` / `CONTEXT_REQUIRED`.
+
+**Portée de cette deuxième passe.** 3 axes supplémentaires. Ne déclare pas un syllabus complet, un cue attribuable à Berklee, un contrat type ou une validation des œuvres. Le statut académique et les indicateurs de premier audit restent inchangés.

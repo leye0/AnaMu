@@ -43,3 +43,57 @@ Obtenir les modèles de documents, sessions de laboratoire et critères de livra
 - **Drapeau :** `non_algorithmique=false`; inconnu (`null`) lorsque l'objectif de section varie.
 - **MIDI original :** aucun; formats d'exemples réellement nécessaires précisés ci-dessus.
 - **Lacunes :** corpus, exercices, enseignants et évaluations propres à la section, qui restent à documenter.
+
+## Deuxième passe qualitative — preuve, méthode et réfutation (12 novembre 2026)
+
+**Source directe :** [FILM-405 — Scoring Technology 3](https://college.berklee.edu/courses/film-405). **Provenance :** Notice officielle : montage de musique originale et temporaire sur image dans une station audio, synchronisation, préparation de documents de postproduction et laboratoire privé hebdomadaire. Le syllabus Online de postproduction ne prouve pas les tâches de FILM-405. Ces applications sont des **protocoles AnaMu**, non des exercices ou des critères publiés pour une section particulière.
+
+### Q1 — Montage musical : localiser un splice, un fondu et le hit visuel
+
+**Apprentissage attesté et périmètre.** Montage et synchronisation audio sur image expressément attribués à FILM-405.
+
+**Données nécessaires.** Session DAW avec offset et cadence du film, piste temp ou musique originale, rendus WAV, vidéo de référence, éventuel EDL ou feuille de montage.
+
+**Analyse structurée de musique existante.** Aligner le temps de référence de l'image, le timecode de la session et les échantillons audio. Pour chaque coupe, relever l'intervalle où les extraits sont mélangés, la courbe de fondu (linéaire, égale puissance ou personnalisée) et les attaques à proximité; confronter coupure et continuité musicale par écoute. Relever la différence entre collage temporel et changement de phrase.
+
+**Résultat vérifiable et hypothèses alternatives.** Table de points de montage : timecode source, début/fin des régions, longueur du fondu, crossfade audiblement correct et effet sur la forme musicale.
+
+**Réemploi dans une composition originale.** Monter deux versions originales d'une transition avec mêmes matériaux : coupe franche et recouvrement avec fondu; vérifier clics, réverbération résiduelle et clarté de la prochaine scène avant de choisir la version.
+
+**Contre-exemple, critère et limite.** Une transition sans pic de zéro-croisement ne garantit pas une coupe musicalement cohérente; un MIDI de notes ne décrit pas les régions audio ni les fondus.
+
+**Catégorie(s) :** `AUDIO_REQUIRED` / `CONTEXT_REQUIRED` / `MIDI_PROXY`.
+
+### Q2 — Tempo/montage : distinguer recalage audio, modification de tempo et changement de durée
+
+**Apprentissage attesté et périmètre.** La synchronisation au montage fait partie de la notice, mais les fonctions avancées précises du logiciel ne sont pas énumérées comme devoirs.
+
+**Données nécessaires.** Audio du cue, vidéo et timecode, carte de tempo DAW, note de point de synchronisation et méthode éventuelle de time-stretch.
+
+**Analyse structurée de musique existante.** Comparer trois opérations : déplacer le début d'une région (offset), changer la vitesse de lecture/tempo d'un matériau MIDI, ou étirer un enregistrement audio. Pour chaque cas, mesurer l'erreur du hit, sa durée en secondes et les conséquences de timbre/attaque à l'écoute; contrôler les effets de transitoires lors du time-stretch.
+
+**Résultat vérifiable et hypothèses alternatives.** Diagnostic « quel paramètre a bougé ? » et tableau de nouveaux offsets, tempo, durée, erreur au hit et coût sonore, sans traiter ces opérations comme équivalentes.
+
+**Réemploi dans une composition originale.** Composer une phrase originale qui tombe à 1,5 seconde d'une scène; l'ajuster une fois par déplacement et une autre fois par variation de tempo, puis écouter laquelle préserve le phrasé avant d'exporter.
+
+**Contre-exemple, critère et limite.** Une correspondance exacte à l'image peut masquer des artefacts audio, une perte de phrase ou une incohérence musicale; la précision du hit n'est pas le seul critère.
+
+**Catégorie(s) :** `MIDI_DIRECT` / `MIDI_PROXY` / `AUDIO_REQUIRED` / `CONTEXT_REQUIRED`.
+
+### Q3 — Documents de postproduction et livraison reproductible
+
+**Apprentissage attesté et périmètre.** Préparation de documents de postproduction explicitement nommée; aucune nomenclature ou format exact n'est publié par la section.
+
+**Données nécessaires.** Cue sheet ou feuille de version réelle, frame rate, start TC, DAW session, exports audio avec fréquence d'échantillonnage, profondeur de bits, canaux et durée.
+
+**Analyse structurée de musique existante.** Construire un inventaire des sorties reçues, comparer les débuts absolus des fichiers, leur longueur, la somme éventuelle des stems et les noms de version; noter les métadonnées prouvées et les absences. Réimporter les fichiers dans une session neuve pour vérifier leur alignement et leur contenu.
+
+**Résultat vérifiable et hypothèses alternatives.** Matrice de conformité par livrable avec provenance, version, TC origine, canaux, fréquence, début/fin et anomalies constatées.
+
+**Réemploi dans une composition originale.** Préparer un dossier de livraison de scène personnelle contenant cue, audio mixé, stems seulement si nécessaires, feuille de synchronisation et note de versions; faire réimporter par une autre personne pour confirmer la compatibilité.
+
+**Contre-exemple, critère et limite.** Ne pas inventer des spécifications de diffuseur ou de cours. Le respect d'un nom de fichier ne prouve pas le contenu sonore, et un stem réexporté avec traitement de bus non linéaire ne se somme pas forcément au mix.
+
+**Catégorie(s) :** `AUDIO_REQUIRED` / `CONTEXT_REQUIRED` / `NOT_MUSIC_ALGORITHM`.
+
+**Portée de cette deuxième passe.** 3 axes supplémentaires. Ne déclare pas un syllabus complet, un cue attribuable à Berklee, un contrat type ou une validation des œuvres. Le statut académique et les indicateurs de premier audit restent inchangés.
