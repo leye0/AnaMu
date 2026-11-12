@@ -120,7 +120,7 @@ async function showCourse(id, historyUpdate) {
   $("courseCode").textContent = entry.code;
   $("courseTitle").textContent = entry.title;
   $("courseExcerpt").textContent = entry.excerpt;
-  $("coursePosition").textContent = "Une entrée sur " + catalog.length;
+  $("coursePosition").textContent = (catalog.findIndex((r) => r.id === entry.id) + 1) + " / " + catalog.length + " entrées";
   $("courseTags").replaceChildren();
   setTag(statusLabel(entry),entry.midi?"midi":entry.review_state==="first_scope_assessed_without_midi"?"alert":"");
   setTag(entry.coverage==="usable_first_pass"?"Contenu recensé":entry.coverage==="partial"?"Contenu partiel":"Choix à préciser","violet");
@@ -525,8 +525,7 @@ async function boot() {
     });
     drawCourses();
     const wanted=new URLSearchParams(window.location.search).get("cours");
-    const initial=catalog.some(c=>c.id===wanted)?wanted:catalog.some(c=>c.id==="udem:MTE 1220")?"udem:MTE 1220":catalog[0]?.id;
-    if (initial) showCourse(initial,false);
+    if (wanted && catalog.some((c) => c.id === wanted)) showCourse(wanted,false);
   } catch (error) {
     $("resultCount").textContent="Catalogue indisponible";
     $("detail").hidden=true;
