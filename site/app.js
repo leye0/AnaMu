@@ -67,7 +67,7 @@ function drawCourses() {
     const inst = document.createElement("span"); inst.className="item-inst"; inst.textContent=SHORT[r.institution] || r.institution;
     top.append(code, inst);
     const title = document.createElement("span"); title.className="item-title";
-    const name = r.title.replace(new RegExp("^" + r.code.replace(/[.*+?^$|()[\]{}\\]/g,"\\$&") + "\\s*[—-]\\s*"),"");
+    const name = r.title.startsWith(r.code + " — ") ? r.title.slice(r.code.length + 3) : r.title;
     title.textContent = name || r.title;
     const meta = document.createElement("div"); meta.className="item-meta";
     const dot = document.createElement("span"); dot.className="item-dot " + (STATES[r.review_state] || STATES.not_yet_assessed)[1];
@@ -81,7 +81,7 @@ function drawCourses() {
   if (!filtered.length) {
     $("detail").hidden = true;
     stopPlayback();
-  } else if (!current || !filtered.some((r) => r.id === current.id)) {
+  } else if ($("detail").hidden || !current || !filtered.some((r) => r.id === current.id)) {
     showCourse(filtered[0].id, false);
   }
 }
@@ -106,7 +106,7 @@ function switchTab(tab) {
 async function showCourse(id, historyUpdate) {
   const entry = catalog.find((c) => c.id === id);
   if (!entry) return;
-  if (current && current.id !== entry.id) stopPlayback();
+  if (playback.playing || playback.position || (current && current.id !== entry.id)) stopPlayback();
   current = entry;
   const seq = ++docSequence;
   if (historyUpdate) {
@@ -467,7 +467,8 @@ function drawRoll() {
   const canvas=$("pianoRoll"),rect=canvas.getBoundingClientRect();
   if (!rect.width || !rect.height) return;
   const dpr=Math.min(window.devicePixelRatio||1,2),w=rect.width,h=rect.height;
-  canvas.width=Math.round(w*dpr);canvas.height=Math.round(h*dpr);
+  const pixelWidth=Math.round(w*dpr),pixelHeight=Math.round(h*dpr);
+  if (canvas.width!==pixelWidth || canvas.height!==pixelHeight) {canvas.width=pixelWidth;canvas.height=pixelHeight;}
   const c=canvas.getContext("2d");c.setTransform(dpr,0,0,dpr,0,0);
   c.fillStyle="#151e34";c.fillRect(0,0,w,h);
   const left=18,right=w-16,top=29,bottom=h-19;
