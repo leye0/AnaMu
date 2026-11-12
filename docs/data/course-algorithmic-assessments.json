@@ -11,8 +11,8 @@
   },
   "summary": {
     "detailed_with_midi": 122,
-    "reviewed_with_limitation_no_midi": 254,
-    "not_yet_assessed": 2,
+    "reviewed_with_limitation_no_midi": 256,
+    "not_yet_assessed": 0,
     "choice_placeholders": 8,
     "non_algorithmic_true": 9
   },
@@ -4730,16 +4730,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://coursecatalogue.mcgill.ca/courses/muin-280/index.html",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "instrument/voix et parcours attestés; objectifs techniques particuliers inconnus",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/mcgill/MUIN-280.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le syllabus instrumental et les œuvres propres à ce niveau pour déclencher des apprentissages démontrables",
+      "limit_note": "Instrument, professeur, étude et critères de niveau inconnus; aucune démonstration MIDI valide."
     },
     {
       "institution": "mcgill",
@@ -4747,16 +4753,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://coursecatalogue.mcgill.ca/courses/muin-281/index.html",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "instrument/voix et parcours attestés; objectifs techniques particuliers inconnus",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/mcgill/MUIN-281.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le syllabus instrumental et les œuvres propres à ce niveau pour déclencher des apprentissages démontrables",
+      "limit_note": "Instrument, professeur, étude et critères de niveau inconnus; aucune démonstration MIDI valide."
     },
     {
       "institution": "mcgill",
