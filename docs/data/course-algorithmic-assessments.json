@@ -10,9 +10,9 @@
     "course_choice_placeholder": "Program choice family, not one course; choose a concrete code"
   },
   "summary": {
-    "detailed_with_midi": 30,
-    "reviewed_with_limitation_no_midi": 6,
-    "not_yet_assessed": 342,
+    "detailed_with_midi": 48,
+    "reviewed_with_limitation_no_midi": 8,
+    "not_yet_assessed": 322,
     "choice_placeholders": 8,
     "non_algorithmic_true": 2
   },
@@ -201,16 +201,21 @@
       "material_file": "docs/courses/udem/MTE-1403.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "multiple_attested_topic_families_first_pass_not_full_syllabus",
+      "example_midi": "docs/courses/udem/MTE-1403/exemple.mid",
+      "explanation_location": "docs/courses/udem/MTE-1403.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Review remaining subskills using specific course evidence; do not imply full syllabus or MIDI representation of non-MIDI phenomena."
     },
     {
       "institution": "udem",
@@ -218,16 +223,20 @@
       "material_file": "docs/courses/udem/MTE-1404.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "multiple_attested_topic_families_first_pass_not_full_syllabus",
+      "example_midi": "docs/courses/udem/MTE-1404/exemple.mid",
+      "explanation_location": "docs/courses/udem/MTE-1404.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Review remaining subskills using specific course evidence; do not imply full syllabus or MIDI representation of non-MIDI phenomena."
     },
     {
       "institution": "udem",
@@ -326,16 +335,21 @@
       "material_file": "docs/courses/udem/MUS-1321.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe (audio)",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "several_evidenced_audio_topics_first_pass_not_full_syllabus",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUS-1321.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "If an example is authorized, provide original WAV plus parameters/notes rather than inventing a MIDI representation.",
+      "limit_note": "Fourier, synthèse, traitement, spatialisation et dynamique exigent un signal audio, pas seulement des notes MIDI."
     },
     {
       "institution": "udem",
@@ -955,16 +969,19 @@
       "material_file": "docs/courses/udem/MTE-1315.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "multiple_attested_topic_families_first_pass_not_full_syllabus",
+      "example_midi": "docs/courses/udem/MTE-1315/exemple.mid",
+      "explanation_location": "docs/courses/udem/MTE-1315.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Review remaining subskills using specific course evidence; do not imply full syllabus or MIDI representation of non-MIDI phenomena."
     },
     {
       "institution": "udem",
@@ -972,16 +989,20 @@
       "material_file": "docs/courses/udem/MTE-1316.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "multiple_attested_topic_families_first_pass_not_full_syllabus",
+      "example_midi": "docs/courses/udem/MTE-1316/exemple.mid",
+      "explanation_location": "docs/courses/udem/MTE-1316.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Review remaining subskills using specific course evidence; do not imply full syllabus or MIDI representation of non-MIDI phenomena."
     },
     {
       "institution": "udem",
@@ -1063,16 +1084,20 @@
       "material_file": "docs/courses/udem/MTE-2315.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "multiple_attested_topic_families_first_pass_not_full_syllabus",
+      "example_midi": "docs/courses/udem/MTE-2315/exemple.mid",
+      "explanation_location": "docs/courses/udem/MTE-2315.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Review remaining subskills using specific course evidence; do not imply full syllabus or MIDI representation of non-MIDI phenomena."
     },
     {
       "institution": "udem",
@@ -1080,16 +1105,20 @@
       "material_file": "docs/courses/udem/MTE-2316.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "multiple_attested_topic_families_first_pass_not_full_syllabus",
+      "example_midi": "docs/courses/udem/MTE-2316/exemple.mid",
+      "explanation_location": "docs/courses/udem/MTE-2316.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Review remaining subskills using specific course evidence; do not imply full syllabus or MIDI representation of non-MIDI phenomena."
     },
     {
       "institution": "udem",
@@ -1237,16 +1266,20 @@
       "material_file": "docs/courses/udem/MUS-2325.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe (audio)",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "several_evidenced_audio_topics_first_pass_not_full_syllabus",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUS-2325.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "If an example is authorized, provide original WAV plus parameters/notes rather than inventing a MIDI representation.",
+      "limit_note": "Prise de son de corps sonores et miniatures sur enregistrement : le MIDI ne contient pas les sons captés ni leurs transformations."
     },
     {
       "institution": "udem",
@@ -3339,16 +3372,19 @@
       "material_file": "docs/courses/mcgill/MUTH-150.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "multiple_attested_topic_families_first_pass_not_full_syllabus",
+      "example_midi": "docs/courses/mcgill/MUTH-150/exemple.mid",
+      "explanation_location": "docs/courses/mcgill/MUTH-150.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Review remaining subskills using specific course evidence; do not imply full syllabus or MIDI representation of non-MIDI phenomena."
     },
     {
       "institution": "mcgill",
@@ -3356,16 +3392,20 @@
       "material_file": "docs/courses/mcgill/MUTH-151.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "multiple_attested_topic_families_first_pass_not_full_syllabus",
+      "example_midi": "docs/courses/mcgill/MUTH-151/exemple.mid",
+      "explanation_location": "docs/courses/mcgill/MUTH-151.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Review remaining subskills using specific course evidence; do not imply full syllabus or MIDI representation of non-MIDI phenomena."
     },
     {
       "institution": "mcgill",
@@ -3373,16 +3413,19 @@
       "material_file": "docs/courses/mcgill/MUCO-241.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "multiple_attested_topic_families_first_pass_not_full_syllabus",
+      "example_midi": "docs/courses/mcgill/MUCO-241/exemple.mid",
+      "explanation_location": "docs/courses/mcgill/MUCO-241.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Review remaining subskills using specific course evidence; do not imply full syllabus or MIDI representation of non-MIDI phenomena."
     },
     {
       "institution": "mcgill",
@@ -3390,16 +3433,19 @@
       "material_file": "docs/courses/mcgill/MUCO-242.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "multiple_attested_topic_families_first_pass_not_full_syllabus",
+      "example_midi": "docs/courses/mcgill/MUCO-242/exemple.mid",
+      "explanation_location": "docs/courses/mcgill/MUCO-242.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Review remaining subskills using specific course evidence; do not imply full syllabus or MIDI representation of non-MIDI phenomena."
     },
     {
       "institution": "mcgill",
@@ -3427,16 +3473,20 @@
       "material_file": "docs/courses/mcgill/MUCO-246.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "multiple_attested_topic_families_first_pass_not_full_syllabus",
+      "example_midi": "docs/courses/mcgill/MUCO-246/exemple.mid",
+      "explanation_location": "docs/courses/mcgill/MUCO-246.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Review remaining subskills using specific course evidence; do not imply full syllabus or MIDI representation of non-MIDI phenomena."
     },
     {
       "institution": "mcgill",
@@ -3495,16 +3545,20 @@
       "material_file": "docs/courses/mcgill/MUCO-341.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "multiple_attested_topic_families_first_pass_not_full_syllabus",
+      "example_midi": "docs/courses/mcgill/MUCO-341/exemple.mid",
+      "explanation_location": "docs/courses/mcgill/MUCO-341.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Review remaining subskills using specific course evidence; do not imply full syllabus or MIDI representation of non-MIDI phenomena."
     },
     {
       "institution": "mcgill",
@@ -3634,16 +3688,20 @@
       "material_file": "docs/courses/mcgill/MUTH-251.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "multiple_attested_topic_families_first_pass_not_full_syllabus",
+      "example_midi": "docs/courses/mcgill/MUTH-251/exemple.mid",
+      "explanation_location": "docs/courses/mcgill/MUTH-251.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Review remaining subskills using specific course evidence; do not imply full syllabus or MIDI representation of non-MIDI phenomena."
     },
     {
       "institution": "mcgill",
@@ -3651,16 +3709,20 @@
       "material_file": "docs/courses/mcgill/MUTH-350.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "multiple_attested_topic_families_first_pass_not_full_syllabus",
+      "example_midi": "docs/courses/mcgill/MUTH-350/exemple.mid",
+      "explanation_location": "docs/courses/mcgill/MUTH-350.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Review remaining subskills using specific course evidence; do not imply full syllabus or MIDI representation of non-MIDI phenomena."
     },
     {
       "institution": "mcgill",
@@ -4100,16 +4162,19 @@
       "material_file": "docs/courses/mcgill/MUTH-302.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/study/2024-2025/courses/muth-302",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "multiple_attested_topic_families_first_pass_not_full_syllabus",
+      "example_midi": "docs/courses/mcgill/MUTH-302/exemple.mid",
+      "explanation_location": "docs/courses/mcgill/MUTH-302.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Review remaining subskills using specific course evidence; do not imply full syllabus or MIDI representation of non-MIDI phenomena."
     },
     {
       "institution": "mcgill",
@@ -4787,16 +4852,19 @@
       "material_file": "docs/courses/berklee/HR-211.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/hr-211",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "multiple_attested_topic_families_first_pass_not_full_syllabus",
+      "example_midi": "docs/courses/berklee/HR-211/exemple.mid",
+      "explanation_location": "docs/courses/berklee/HR-211.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Review remaining subskills using specific course evidence; do not imply full syllabus or MIDI representation of non-MIDI phenomena."
     },
     {
       "institution": "berklee",
@@ -5122,16 +5190,20 @@
       "material_file": "docs/courses/berklee/CM-225.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cm-225",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "multiple_attested_topic_families_first_pass_not_full_syllabus",
+      "example_midi": "docs/courses/berklee/CM-225/exemple.mid",
+      "explanation_location": "docs/courses/berklee/CM-225.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Review remaining subskills using specific course evidence; do not imply full syllabus or MIDI representation of non-MIDI phenomena."
     },
     {
       "institution": "berklee",
@@ -5158,16 +5230,20 @@
       "material_file": "docs/courses/berklee/CM-261.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cm-261",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "multiple_attested_topic_families_first_pass_not_full_syllabus",
+      "example_midi": "docs/courses/berklee/CM-261/exemple.mid",
+      "explanation_location": "docs/courses/berklee/CM-261.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Review remaining subskills using specific course evidence; do not imply full syllabus or MIDI representation of non-MIDI phenomena."
     },
     {
       "institution": "berklee",
