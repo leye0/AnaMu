@@ -10,11 +10,11 @@
     "course_choice_placeholder": "Program choice family, not one course; choose a concrete code"
   },
   "summary": {
-    "detailed_with_midi": 92,
-    "reviewed_with_limitation_no_midi": 52,
-    "not_yet_assessed": 234,
+    "detailed_with_midi": 99,
+    "reviewed_with_limitation_no_midi": 68,
+    "not_yet_assessed": 211,
     "choice_placeholders": 8,
-    "non_algorithmic_true": 2
+    "non_algorithmic_true": 3
   },
   "assessments": [
     {
@@ -389,16 +389,21 @@
       "material_file": "docs/courses/udem/MUS-3101X.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, média autre que MIDI requis",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUS-3101X.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire the course-specific evidence or adequate media before demonstrating an algorithm",
+      "limit_note": "La preuve de la compétence exige un document, un projet, une partition, une vidéo ou du signal audio réel"
     },
     {
       "institution": "udem",
@@ -926,16 +931,21 @@
       "material_file": "docs/courses/udem/MUL-3314.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "non déterminable pour une technique précise",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "NOT_MUSIC_ALGORITHM",
+        "UNKNOWN"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUL-3314.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire the course-specific evidence or adequate media before demonstrating an algorithm",
+      "limit_note": "Compétences musicales précises de la section non obtenues : éviter de construire un MIDI arbitraire"
     },
     {
       "institution": "udem",
@@ -943,16 +953,21 @@
       "material_file": "docs/courses/udem/MUL-3333X.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, média autre que MIDI requis",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUL-3333X.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire the course-specific evidence or adequate media before demonstrating an algorithm",
+      "limit_note": "La preuve de la compétence exige un document, un projet, une partition, une vidéo ou du signal audio réel"
     },
     {
       "institution": "udem",
@@ -960,16 +975,20 @@
       "material_file": "docs/courses/udem/MUL-3334.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mul-3334/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "aucune technique musicale algorithmique attestée",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "NOT_MUSIC_ALGORITHM"
+      ],
+      "non_algorithmic": true,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUL-3334.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire the course-specific evidence or adequate media before demonstrating an algorithm",
+      "limit_note": "Syllabus sociologique : pas de règle attestée de détection de notes ou de composition, malgré un champ de recherche quantifiable"
     },
     {
       "institution": "udem",
@@ -977,16 +996,20 @@
       "material_file": "docs/courses/udem/MUL-3344.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "non déterminable pour une technique précise",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "UNKNOWN"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUL-3344.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire the course-specific evidence or adequate media before demonstrating an algorithm",
+      "limit_note": "Compétences musicales précises de la section non obtenues : éviter de construire un MIDI arbitraire"
     },
     {
       "institution": "udem",
@@ -1543,16 +1566,21 @@
       "material_file": "docs/courses/udem/MUS-3323.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, média autre que MIDI requis",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUS-3323.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire the course-specific evidence or adequate media before demonstrating an algorithm",
+      "limit_note": "La preuve de la compétence exige un document, un projet, une partition, une vidéo ou du signal audio réel"
     },
     {
       "institution": "udem",
@@ -1560,16 +1588,20 @@
       "material_file": "docs/courses/udem/MUS-3326X.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/udem/MUS-3326X/exemple.mid",
+      "explanation_location": "docs/courses/udem/MUS-3326X.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Analyze remaining evidenced learnings; original MIDI shows only measurable facets, not actual interpretation or full syllabus"
     },
     {
       "institution": "udem",
@@ -1597,16 +1629,21 @@
       "material_file": "docs/courses/udem/MUS-3329X.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, média autre que MIDI requis",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUS-3329X.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire the course-specific evidence or adequate media before demonstrating an algorithm",
+      "limit_note": "La preuve de la compétence exige un document, un projet, une partition, une vidéo ou du signal audio réel"
     },
     {
       "institution": "udem",
@@ -2336,16 +2373,20 @@
       "material_file": "docs/courses/udem/MUE-1281.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/chorale-de-luniversite-de-montreal/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/udem/MUE-1281/exemple.mid",
+      "explanation_location": "docs/courses/udem/MUE-1281.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Analyze remaining evidenced learnings; original MIDI shows only measurable facets, not actual interpretation or full syllabus"
     },
     {
       "institution": "udem",
@@ -2387,16 +2428,21 @@
       "material_file": "docs/courses/udem/MUE-1341.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/atelier-de-gamelan/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "non déterminable pour une technique précise",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED",
+        "UNKNOWN"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1341.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire the course-specific evidence or adequate media before demonstrating an algorithm",
+      "limit_note": "Compétences musicales précises de la section non obtenues : éviter de construire un MIDI arbitraire"
     },
     {
       "institution": "udem",
@@ -2557,16 +2603,20 @@
       "material_file": "docs/courses/udem/MUE-1441.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1441/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/udem/MUE-1441/exemple.mid",
+      "explanation_location": "docs/courses/udem/MUE-1441.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Analyze remaining evidenced learnings; original MIDI shows only measurable facets, not actual interpretation or full syllabus"
     },
     {
       "institution": "udem",
@@ -3844,16 +3894,21 @@
       "material_file": "docs/courses/mcgill/MUCO-575.md",
       "course_coverage": "partial",
       "source_url": "https://coursecatalogue.mcgill.ca/courses/muco-575/index.html",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "non déterminable pour une technique précise",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "UNKNOWN",
+        "MIDI_DIRECT"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/mcgill/MUCO-575.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire the course-specific evidence or adequate media before demonstrating an algorithm",
+      "limit_note": "Compétences musicales précises de la section non obtenues : éviter de construire un MIDI arbitraire"
     },
     {
       "institution": "mcgill",
@@ -4134,16 +4189,20 @@
       "material_file": "docs/courses/mcgill/MUEN-563.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://coursecatalogue.mcgill.ca/courses/muen-563/index.html",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/mcgill/MUEN-563/exemple.mid",
+      "explanation_location": "docs/courses/mcgill/MUEN-563.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Analyze remaining evidenced learnings; original MIDI shows only measurable facets, not actual interpretation or full syllabus"
     },
     {
       "institution": "mcgill",
@@ -4151,16 +4210,21 @@
       "material_file": "docs/courses/mcgill/MUEN-572.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/ensembles/choral/cappella-antica",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, média autre que MIDI requis",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/mcgill/MUEN-572.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire the course-specific evidence or adequate media before demonstrating an algorithm",
+      "limit_note": "La preuve de la compétence exige un document, un projet, une partition, une vidéo ou du signal audio réel"
     },
     {
       "institution": "mcgill",
@@ -4202,16 +4266,20 @@
       "material_file": "docs/courses/mcgill/MUEN-590.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/ensembles/orchestras/wind",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/mcgill/MUEN-590/exemple.mid",
+      "explanation_location": "docs/courses/mcgill/MUEN-590.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Analyze remaining evidenced learnings; original MIDI shows only measurable facets, not actual interpretation or full syllabus"
     },
     {
       "institution": "mcgill",
@@ -4304,16 +4372,21 @@
       "material_file": "docs/courses/mcgill/MUCO-542.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, média autre que MIDI requis",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/mcgill/MUCO-542.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire the course-specific evidence or adequate media before demonstrating an algorithm",
+      "limit_note": "La preuve de la compétence exige un document, un projet, une partition, une vidéo ou du signal audio réel"
     },
     {
       "institution": "mcgill",
@@ -4378,16 +4451,21 @@
       "material_file": "docs/courses/mcgill/MUTH-322.md",
       "course_coverage": "partial",
       "source_url": "https://coursecatalogue.mcgill.ca/courses/muth-322/index.html",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "non déterminable pour une technique précise",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED",
+        "UNKNOWN"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/mcgill/MUTH-322.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire the course-specific evidence or adequate media before demonstrating an algorithm",
+      "limit_note": "Compétences musicales précises de la section non obtenues : éviter de construire un MIDI arbitraire"
     },
     {
       "institution": "mcgill",
@@ -4557,16 +4635,20 @@
       "material_file": "docs/courses/berklee/MLAN-311.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/mlan-311",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, média autre que MIDI requis",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/berklee/MLAN-311.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire the course-specific evidence or adequate media before demonstrating an algorithm",
+      "limit_note": "La preuve de la compétence exige un document, un projet, une partition, une vidéo ou du signal audio réel"
     },
     {
       "institution": "berklee",
@@ -4636,16 +4718,21 @@
       "material_file": "docs/courses/berklee/MLAN-312.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/mlan-312",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, média autre que MIDI requis",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/berklee/MLAN-312.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire the course-specific evidence or adequate media before demonstrating an algorithm",
+      "limit_note": "La preuve de la compétence exige un document, un projet, une partition, une vidéo ou du signal audio réel"
     },
     {
       "institution": "berklee",
@@ -4819,16 +4906,20 @@
       "material_file": "docs/courses/berklee/COND-212.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cond-212",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/COND-212/exemple.mid",
+      "explanation_location": "docs/courses/berklee/COND-212.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Analyze remaining evidenced learnings; original MIDI shows only measurable facets, not actual interpretation or full syllabus"
     },
     {
       "institution": "berklee",
@@ -4836,16 +4927,20 @@
       "material_file": "docs/courses/berklee/COND-217.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cond-217",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/COND-217/exemple.mid",
+      "explanation_location": "docs/courses/berklee/COND-217.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Analyze remaining evidenced learnings; original MIDI shows only measurable facets, not actual interpretation or full syllabus"
     },
     {
       "institution": "berklee",
@@ -5872,16 +5967,21 @@
       "material_file": "docs/courses/berklee/FILM-433.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/film-433",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, média autre que MIDI requis",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/berklee/FILM-433.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire the course-specific evidence or adequate media before demonstrating an algorithm",
+      "limit_note": "La preuve de la compétence exige un document, un projet, une partition, une vidéo ou du signal audio réel"
     },
     {
       "institution": "berklee",
@@ -6728,16 +6828,21 @@
       "material_file": "docs/courses/berklee/COND-421.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cond-421",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, média autre que MIDI requis",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/berklee/COND-421.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire the course-specific evidence or adequate media before demonstrating an algorithm",
+      "limit_note": "La preuve de la compétence exige un document, un projet, une partition, une vidéo ou du signal audio réel"
     },
     {
       "institution": "berklee",
