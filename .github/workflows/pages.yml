@@ -1,0 +1,52 @@
+name: AnaMu - publier la bibliothèque de cours
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - 'scripts/build_course_site.py'
+      - 'docs/data/course-algorithmic-assessments.json'
+      - 'docs/courses/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    name: Générer et publier AnaMu
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Récupérer les cours et MIDI du dépôt
+        uses: actions/checkout@v4
+
+      - name: Python (stdlib seulement)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Construire les pages et copier les MIDI
+        run: python scripts/build_course_site.py --output _site
+
+      - name: Configurer GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Déposer le site statique
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Publier le site
+        id: deployment
+        uses: actions/deploy-pages@v4
