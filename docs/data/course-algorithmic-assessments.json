@@ -10,9 +10,9 @@
     "course_choice_placeholder": "Program choice family, not one course; choose a concrete code"
   },
   "summary": {
-    "detailed_with_midi": 73,
-    "reviewed_with_limitation_no_midi": 33,
-    "not_yet_assessed": 272,
+    "detailed_with_midi": 92,
+    "reviewed_with_limitation_no_midi": 52,
+    "not_yet_assessed": 234,
     "choice_placeholders": 8,
     "non_algorithmic_true": 2
   },
@@ -23,16 +23,20 @@
       "material_file": "docs/courses/udem/MCT-1601.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1601/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "non déterminable au niveau d'un apprentissage technique précis",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MCT-1601.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain course-specific works, score, audio/video or project details before making a faithful demonstration",
+      "limit_note": "Projet instrumental individualisé, technique précise non attribuable sans consigne et partition de section"
     },
     {
       "institution": "udem",
@@ -40,16 +44,20 @@
       "material_file": "docs/courses/udem/MCT-1602.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mct-1602/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "non déterminable au niveau d'un apprentissage technique précis",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MCT-1602.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain course-specific works, score, audio/video or project details before making a faithful demonstration",
+      "limit_note": "Second projet instrumental variable, aucun savoir technique commun spécifié dans la notice"
     },
     {
       "institution": "udem",
@@ -57,16 +65,19 @@
       "material_file": "docs/courses/udem/MCT-3011.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/udem/MCT-3011/exemple.mid",
+      "explanation_location": "docs/courses/udem/MCT-3011.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue source-attributed course learning analysis; this original MIDI example does not cover the whole syllabus"
     },
     {
       "institution": "udem",
@@ -74,16 +85,19 @@
       "material_file": "docs/courses/udem/MCT-3012.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/udem/MCT-3012/exemple.mid",
+      "explanation_location": "docs/courses/udem/MCT-3012.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue source-attributed course learning analysis; this original MIDI example does not cover the whole syllabus"
     },
     {
       "institution": "udem",
@@ -392,16 +406,19 @@
       "material_file": "docs/courses/udem/MUS-3324X.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/udem/MUS-3324X/exemple.mid",
+      "explanation_location": "docs/courses/udem/MUS-3324X.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue source-attributed course learning analysis; this original MIDI example does not cover the whole syllabus"
     },
     {
       "institution": "udem",
@@ -652,16 +669,21 @@
       "material_file": "docs/courses/udem/MUL-1105.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, mais exemple probant hors MIDI isolé",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUL-1105.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain course-specific works, score, audio/video or project details before making a faithful demonstration",
+      "limit_note": "Histoire du baroque : œuvres, éditions et interprétations réelles nécessaires à une analyse fiable"
     },
     {
       "institution": "udem",
@@ -669,16 +691,21 @@
       "material_file": "docs/courses/udem/MUL-1106.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, mais exemple probant hors MIDI isolé",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUL-1106.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain course-specific works, score, audio/video or project details before making a faithful demonstration",
+      "limit_note": "Histoire du classicisme : corpus de partitions et contexte sociohistorique non spécifiés"
     },
     {
       "institution": "udem",
@@ -686,16 +713,21 @@
       "material_file": "docs/courses/udem/MUL-1107.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, mais exemple probant hors MIDI isolé",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUL-1107.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain course-specific works, score, audio/video or project details before making a faithful demonstration",
+      "limit_note": "Histoire du romantisme : techniques historiques dépendantes d'œuvres et partitions attestées"
     },
     {
       "institution": "udem",
@@ -703,16 +735,21 @@
       "material_file": "docs/courses/udem/MUL-1115.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, mais exemple probant hors MIDI isolé",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUL-1115.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain course-specific works, score, audio/video or project details before making a faithful demonstration",
+      "limit_note": "Histoire médiévale et renaissante : sources et conventions de notation primaires indispensables"
     },
     {
       "institution": "udem",
@@ -737,16 +774,20 @@
       "material_file": "docs/courses/udem/MUL-1134.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "non déterminable au niveau d'un apprentissage technique précis",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUL-1134.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain course-specific works, score, audio/video or project details before making a faithful demonstration",
+      "limit_note": "Introduction aux méthodes de musicologie : aucun exercice de technique de composition précis connu"
     },
     {
       "institution": "udem",
@@ -754,16 +795,20 @@
       "material_file": "docs/courses/udem/MUL-1245.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "non déterminable au niveau d'un apprentissage technique précis",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUL-1245.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain course-specific works, score, audio/video or project details before making a faithful demonstration",
+      "limit_note": "Esthétique musicale : textes, auteurs et questions de section non connus; une valeur nulle ne signifie pas aucune analyse possible"
     },
     {
       "institution": "udem",
@@ -771,16 +816,21 @@
       "material_file": "docs/courses/udem/MUL-1246.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, mais exemple probant hors MIDI isolé",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUL-1246.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain course-specific works, score, audio/video or project details before making a faithful demonstration",
+      "limit_note": "Traditions et esthétique musicales exigent enregistrement authentifié, contexte et références ethnomusicologiques"
     },
     {
       "institution": "udem",
@@ -788,16 +838,21 @@
       "material_file": "docs/courses/udem/MUL-2115.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, mais exemple probant hors MIDI isolé",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUL-2115.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain course-specific works, score, audio/video or project details before making a faithful demonstration",
+      "limit_note": "Jazz des origines : enregistrements historiques authentifiés et corpus de section nécessaires"
     },
     {
       "institution": "udem",
@@ -805,16 +860,21 @@
       "material_file": "docs/courses/udem/MUL-2116.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, mais exemple probant hors MIDI isolé",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUL-2116.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain course-specific works, score, audio/video or project details before making a faithful demonstration",
+      "limit_note": "Swing et big band 1930-1945 : analyse d'enregistrements et de conducteurs réels nécessaire"
     },
     {
       "institution": "udem",
@@ -822,16 +882,21 @@
       "material_file": "docs/courses/udem/MUL-2117.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, mais exemple probant hors MIDI isolé",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUL-2117.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain course-specific works, score, audio/video or project details before making a faithful demonstration",
+      "limit_note": "Bebop 1940-1959 : références audio et transcriptions nécessaires, sans inventer de style historique"
     },
     {
       "institution": "udem",
@@ -839,16 +904,21 @@
       "material_file": "docs/courses/udem/MUL-2118.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, mais exemple probant hors MIDI isolé",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUL-2118.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain course-specific works, score, audio/video or project details before making a faithful demonstration",
+      "limit_note": "Jazz depuis 1960 : corpus 2000-2026 ambigu et sources audio de section indisponibles"
     },
     {
       "institution": "udem",
@@ -924,16 +994,21 @@
       "material_file": "docs/courses/udem/MCT-3511X.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, mais exemple probant hors MIDI isolé",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MCT-3511X.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain course-specific works, score, audio/video or project details before making a faithful demonstration",
+      "limit_note": "Composition sur image : besoin de scène vidéo, spotting, audio et consignes de production réelles"
     },
     {
       "institution": "udem",
@@ -941,16 +1016,19 @@
       "material_file": "docs/courses/udem/MCT-3512X.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/udem/MCT-3512X/exemple.mid",
+      "explanation_location": "docs/courses/udem/MCT-3512X.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue source-attributed course learning analysis; this original MIDI example does not cover the whole syllabus"
     },
     {
       "institution": "udem",
@@ -4380,16 +4458,19 @@
       "material_file": "docs/courses/berklee/ISKB-211.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/iskb-211",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/ISKB-211/exemple.mid",
+      "explanation_location": "docs/courses/berklee/ISKB-211.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue source-attributed course learning analysis; this original MIDI example does not cover the whole syllabus"
     },
     {
       "institution": "berklee",
@@ -4397,16 +4478,19 @@
       "material_file": "docs/courses/berklee/ISKB-212.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/iskb-212",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/ISKB-212/exemple.mid",
+      "explanation_location": "docs/courses/berklee/ISKB-212.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue source-attributed course learning analysis; this original MIDI example does not cover the whole syllabus"
     },
     {
       "institution": "berklee",
@@ -4433,16 +4517,19 @@
       "material_file": "docs/courses/berklee/CP-215.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cp-215",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/CP-215/exemple.mid",
+      "explanation_location": "docs/courses/berklee/CP-215.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue source-attributed course learning analysis; this original MIDI example does not cover the whole syllabus"
     },
     {
       "institution": "berklee",
@@ -4648,16 +4735,19 @@
       "material_file": "docs/courses/berklee/ET-231.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/et-231",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/ET-231/exemple.mid",
+      "explanation_location": "docs/courses/berklee/ET-231.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue source-attributed course learning analysis; this original MIDI example does not cover the whole syllabus"
     },
     {
       "institution": "berklee",
@@ -4665,16 +4755,19 @@
       "material_file": "docs/courses/berklee/ET-232.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/et-232",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/ET-232/exemple.mid",
+      "explanation_location": "docs/courses/berklee/ET-232.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue source-attributed course learning analysis; this original MIDI example does not cover the whole syllabus"
     },
     {
       "institution": "berklee",
@@ -4682,16 +4775,21 @@
       "material_file": "docs/courses/berklee/COND-211.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cond-211",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, mais exemple probant hors MIDI isolé",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/berklee/COND-211.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain course-specific works, score, audio/video or project details before making a faithful demonstration",
+      "limit_note": "Direction : geste, performance et synchronisation audio/vidéo nécessaires"
     },
     {
       "institution": "berklee",
@@ -4699,16 +4797,21 @@
       "material_file": "docs/courses/berklee/COND-216.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cond-216",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, mais exemple probant hors MIDI isolé",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/berklee/COND-216.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain course-specific works, score, audio/video or project details before making a faithful demonstration",
+      "limit_note": "Direction d'ensemble de claviers : geste et réponses humaines synchronisées nécessaires"
     },
     {
       "institution": "berklee",
@@ -4898,16 +5001,19 @@
       "material_file": "docs/courses/berklee/PW-111.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/pw-111",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/PW-111/exemple.mid",
+      "explanation_location": "docs/courses/berklee/PW-111.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue source-attributed course learning analysis; this original MIDI example does not cover the whole syllabus"
     },
     {
       "institution": "berklee",
@@ -5113,16 +5219,19 @@
       "material_file": "docs/courses/berklee/ET-111.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/et-111",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/ET-111/exemple.mid",
+      "explanation_location": "docs/courses/berklee/ET-111.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue source-attributed course learning analysis; this original MIDI example does not cover the whole syllabus"
     },
     {
       "institution": "berklee",
@@ -5130,16 +5239,19 @@
       "material_file": "docs/courses/berklee/ET-112.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/et-112",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/ET-112/exemple.mid",
+      "explanation_location": "docs/courses/berklee/ET-112.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue source-attributed course learning analysis; this original MIDI example does not cover the whole syllabus"
     },
     {
       "institution": "berklee",
@@ -5147,16 +5259,19 @@
       "material_file": "docs/courses/berklee/ET-123.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/et-123",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/ET-123/exemple.mid",
+      "explanation_location": "docs/courses/berklee/ET-123.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue source-attributed course learning analysis; this original MIDI example does not cover the whole syllabus"
     },
     {
       "institution": "berklee",
@@ -5202,16 +5317,19 @@
       "material_file": "docs/courses/berklee/CP-210.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cp-210",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/CP-210/exemple.mid",
+      "explanation_location": "docs/courses/berklee/CP-210.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue source-attributed course learning analysis; this original MIDI example does not cover the whole syllabus"
     },
     {
       "institution": "berklee",
@@ -5608,16 +5726,21 @@
       "material_file": "docs/courses/berklee/FILM-200.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/film-200",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, mais exemple probant hors MIDI isolé",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/berklee/FILM-200.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain course-specific works, score, audio/video or project details before making a faithful demonstration",
+      "limit_note": "Film scoring : analyse narrative et cues demandent vidéo, timecodes et rendu audio"
     },
     {
       "institution": "berklee",
@@ -5646,16 +5769,19 @@
       "material_file": "docs/courses/berklee/FILM-207.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/film-207",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/FILM-207/exemple.mid",
+      "explanation_location": "docs/courses/berklee/FILM-207.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue source-attributed course learning analysis; this original MIDI example does not cover the whole syllabus"
     },
     {
       "institution": "berklee",
@@ -5663,16 +5789,20 @@
       "material_file": "docs/courses/berklee/FILM-343.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/film-343",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "non déterminable au niveau d'un apprentissage technique précis",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/berklee/FILM-343.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain course-specific works, score, audio/video or project details before making a faithful demonstration",
+      "limit_note": "Un compositeur variable selon la session, non identifié par la notice de cours"
     },
     {
       "institution": "berklee",
@@ -5680,16 +5810,19 @@
       "material_file": "docs/courses/berklee/FILM-351.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/film-351",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/FILM-351/exemple.mid",
+      "explanation_location": "docs/courses/berklee/FILM-351.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue source-attributed course learning analysis; this original MIDI example does not cover the whole syllabus"
     },
     {
       "institution": "berklee",
@@ -5697,16 +5830,21 @@
       "material_file": "docs/courses/berklee/FILM-405.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/film-405",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, mais exemple probant hors MIDI isolé",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/berklee/FILM-405.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain course-specific works, score, audio/video or project details before making a faithful demonstration",
+      "limit_note": "Postproduction musique-film : montage, timecode, stems et projet DAW non représentables dans MIDI seul"
     },
     {
       "institution": "berklee",
@@ -5714,16 +5852,19 @@
       "material_file": "docs/courses/berklee/FILM-407.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/film-407",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/FILM-407/exemple.mid",
+      "explanation_location": "docs/courses/berklee/FILM-407.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue source-attributed course learning analysis; this original MIDI example does not cover the whole syllabus"
     },
     {
       "institution": "berklee",
@@ -6948,16 +7089,19 @@
       "material_file": "docs/courses/berklee/CP-311.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cp-311",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/CP-311/exemple.mid",
+      "explanation_location": "docs/courses/berklee/CP-311.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue source-attributed course learning analysis; this original MIDI example does not cover the whole syllabus"
     },
     {
       "institution": "berklee",
@@ -6965,16 +7109,19 @@
       "material_file": "docs/courses/berklee/CP-350.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cp-350",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/CP-350/exemple.mid",
+      "explanation_location": "docs/courses/berklee/CP-350.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue source-attributed course learning analysis; this original MIDI example does not cover the whole syllabus"
     }
   ],
   "last_updated": "2026-11-12",
