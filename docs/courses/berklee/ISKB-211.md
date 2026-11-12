@@ -33,7 +33,7 @@ Le support parallèle appartient à une autre formation. L’usage de son conten
 
 **Attestation :** notion nommée par la source officielle, progression réelle de section non attestée. **Applicabilité :** `MIDI_DIRECT / CONTEXT_REQUIRED`.
 
-**Détection — procédure :** 1. Comparer les mesures 1 et 5 (C puis Cmaj7), 2 et 6 (F puis Fmaj7 en position C–F–A–C), 3 et 7 (G puis G7) et 4 et 8 (C puis Cmaj7). 2. Compter les classes de hauteurs par accord et relever les septièmes ajoutées, puis vérifier ce que les voix réellement jouées conservent.
+**Détection — procédure :** 1. Comparer les mesures 1 et 5 (C puis Cmaj7), 2 et 6 (F puis Fmaj7, avec les notes do–mi–fa–la au clavier droit et fa à la basse), 3 et 7 (G puis G7) et 4 et 8 (C puis Cmaj7). 2. Compter les classes de hauteurs par accord et relever les septièmes ajoutées, puis vérifier ce que les voix réellement jouées conservent.
 
 **Composition — procédure :** 1. Réécrire une première boucle de triades en ajoutant les septièmes dans la deuxième boucle, tout en gardant les mêmes basses fondamentales. 2. Contrôler les extensions et comparer les deux textures.
 
