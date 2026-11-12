@@ -10,9 +10,9 @@
     "course_choice_placeholder": "Program choice family, not one course; choose a concrete code"
   },
   "summary": {
-    "detailed_with_midi": 63,
-    "reviewed_with_limitation_no_midi": 18,
-    "not_yet_assessed": 297,
+    "detailed_with_midi": 71,
+    "reviewed_with_limitation_no_midi": 24,
+    "not_yet_assessed": 283,
     "choice_placeholders": 8,
     "non_algorithmic_true": 2
   },
@@ -404,16 +404,21 @@
       "material_file": "docs/courses/udem/MUS-3411.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-3411/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "non déterminable pour une compétence précise",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "NOT_MUSIC_ALGORITHM",
+        "UNKNOWN"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUS-3411.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain source-specific objectives or appropriate audio/score/project inputs; do not invent a MIDI exercise",
+      "limit_note": "Forum à présentations variables : sans thème, œuvres et supports de séance, aucun savoir musical stable ne peut être illustré honnêtement par un MIDI."
     },
     {
       "institution": "udem",
@@ -1203,16 +1208,20 @@
       "material_file": "docs/courses/udem/MUS-3321.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe mais exige audio et/ou contexte",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUS-3321.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain source-specific objectives or appropriate audio/score/project inputs; do not invent a MIDI exercise",
+      "limit_note": "Psychoacoustique musicale : perception, masquage et localisation exigent des signaux audio et des observations; les notes MIDI ne montrent pas la perception."
     },
     {
       "institution": "udem",
@@ -3680,16 +3689,21 @@
       "material_file": "docs/courses/mcgill/MUCO-460.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "non déterminable pour une compétence précise",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/mcgill/MUCO-460.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain source-specific objectives or appropriate audio/score/project inputs; do not invent a MIDI exercise",
+      "limit_note": "Orchestration 3 : l'existence et le titre sont confirmés, pas les compétences précises de la section."
     },
     {
       "institution": "mcgill",
@@ -3697,16 +3711,21 @@
       "material_file": "docs/courses/mcgill/MUCO-541.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe mais exige audio et/ou contexte",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/mcgill/MUCO-541.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain source-specific objectives or appropriate audio/score/project inputs; do not invent a MIDI exercise",
+      "limit_note": "Studio électroacoustique avancé : synthèse, traitement et composition demandent signal, paramètres et audio final."
     },
     {
       "institution": "mcgill",
@@ -4464,16 +4483,20 @@
       "material_file": "docs/courses/berklee/CM-441.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cm-441",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/CM-441/exemple.mid",
+      "explanation_location": "docs/courses/berklee/CM-441.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Complete other evidenced learning outcomes without claiming syllabus completion"
     },
     {
       "institution": "berklee",
@@ -4498,16 +4521,20 @@
       "material_file": "docs/courses/berklee/CM-398.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cm-398",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/CM-398/exemple.mid",
+      "explanation_location": "docs/courses/berklee/CM-398.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Complete other evidenced learning outcomes without claiming syllabus completion"
     },
     {
       "institution": "berklee",
@@ -4515,16 +4542,21 @@
       "material_file": "docs/courses/berklee/CM-497.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cm-497",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "non déterminable pour une compétence précise",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "CONTEXT_REQUIRED",
+        "MIDI_PROXY"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/berklee/CM-497.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain source-specific objectives or appropriate audio/score/project inputs; do not invent a MIDI exercise",
+      "limit_note": "Étude dirigée 2 : objectifs individualisés, styles et œuvres non fixés publiquement."
     },
     {
       "institution": "berklee",
@@ -4549,16 +4581,21 @@
       "material_file": "docs/courses/berklee/CM-490.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cm-490",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "non déterminable pour une compétence précise",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/berklee/CM-490.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtain source-specific objectives or appropriate audio/score/project inputs; do not invent a MIDI exercise",
+      "limit_note": "Projet avancé personnalisé : effectif et électronique variables, aucune technique fixe attribuée."
     },
     {
       "institution": "berklee",
@@ -4971,16 +5008,19 @@
       "material_file": "docs/courses/berklee/HR-212.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/hr-212",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/HR-212/exemple.mid",
+      "explanation_location": "docs/courses/berklee/HR-212.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Complete other evidenced learning outcomes without claiming syllabus completion"
     },
     {
       "institution": "berklee",
@@ -4988,16 +5028,19 @@
       "material_file": "docs/courses/berklee/HR-214.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/hr-214",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/HR-214/exemple.mid",
+      "explanation_location": "docs/courses/berklee/HR-214.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Complete other evidenced learning outcomes without claiming syllabus completion"
     },
     {
       "institution": "berklee",
@@ -5005,16 +5048,19 @@
       "material_file": "docs/courses/berklee/HR-216.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/hr-216",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/HR-216/exemple.mid",
+      "explanation_location": "docs/courses/berklee/HR-216.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Complete other evidenced learning outcomes without claiming syllabus completion"
     },
     {
       "institution": "berklee",
@@ -5128,16 +5174,19 @@
       "material_file": "docs/courses/berklee/MTEC-111.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/mtec-111",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/MTEC-111/exemple.mid",
+      "explanation_location": "docs/courses/berklee/MTEC-111.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Complete other evidenced learning outcomes without claiming syllabus completion"
     },
     {
       "institution": "berklee",
@@ -5145,16 +5194,19 @@
       "material_file": "docs/courses/berklee/MTEC-122.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/mtec-122",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/MTEC-122/exemple.mid",
+      "explanation_location": "docs/courses/berklee/MTEC-122.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Complete other evidenced learning outcomes without claiming syllabus completion"
     },
     {
       "institution": "berklee",
@@ -5491,16 +5543,19 @@
       "material_file": "docs/courses/berklee/CM-385.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cm-385",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/CM-385/exemple.mid",
+      "explanation_location": "docs/courses/berklee/CM-385.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Complete other evidenced learning outcomes without claiming syllabus completion"
     },
     {
       "institution": "berklee",
@@ -6872,6 +6927,6 @@
       "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
     }
   ],
-  "last_updated": "2026-11-11",
+  "last_updated": "2026-11-12",
   "review_scope_note": "An analyzed course has at least one sourced learning discussed; it does not imply full syllabus completion. Non-MIDI assessments do not imply no algorithms are possible."
 }
