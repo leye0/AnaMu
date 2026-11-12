@@ -1,5 +1,7 @@
 # AnaMu — TODO de couverture universitaire exhaustive
 
+**Avancement concret de la phase 1B (11 novembre 2026) :** [30 nouveaux mécanismes musicaux documentés](subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md), [index structuré](data/subject-research-batch-02-30-mechanisms-2026-11-11.json), **44 mécanismes cumulés** avec le lot initial de 14. Ce travail est séparé des 386 cours/options (263 exploitables, 115 partiels, huit familles) et ne relance pas les 22 recherches de syllabus officiellement bloquées. Prochaine passe : autres sources et autres mécanismes, sans moteur ni tests.
+
 ## DÉCISION ET PROCHAINE ACTION — 11 novembre 2026
 
 **[STATUS.md](STATUS.md) est la seule source de l'état d'action courant.** **93 recherches closes en meilleur effort, 22 officiellement bloquées faute de source externe, zéro recherche de syllabus automatiquement active; huit familles Berklee sont des choix de programme.** Les **115 contenus partiels demeurent partiels**, donc 263 utilisables / 115 partiels / huit choix. **STOP** aux vingt itérations des mêmes lacunes. **Phase 1B activée : collecter 10–30 sujets/mécanismes musicaux par lot**, en commençant par [14 mécanismes déjà sourcés](subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md). Ne pas déclarer la matière d'une université couverte par un traité externe. Les anciens TODO ci-dessous sont historiques et ne rouvrent pas les recherches bloquées sans nouveau document précis.
