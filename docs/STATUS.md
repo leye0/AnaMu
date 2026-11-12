@@ -1,5 +1,7 @@
 # AnaMu — état opérationnel de référence (11 novembre 2026)
 
+**Progrès 1B, second lot du 11 novembre 2026 :** [30 nouveaux mécanismes avec source, fonction, exemple et limites](subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md), [index exploitable de 30 objets](data/subject-research-batch-02-30-mechanisms-2026-11-11.json). **44 sujets/mécanismes documentés au total** (14 premier lot + 30 deuxième), provenant de **15 chapitres externes distincts dans le lot 2**. Domaines : 8 contrepoint, 5 orchestration, 9 jazz, 6 rythme, 2 harmonie chromatique. Ce bilan de 1B est INDEPENDANT des 386 entrées universitaires; aucune matière universitaire spécifique n'a été inventée ni promue. **22 blocages, 93 recherches closes et zéro syllabus en recherche active demeurent inchangés.**
+
 **Ce document est la source de vérité COURANTE pour décider de la prochaine action. Les anciens TODO et comptes datés conservés dans les notes sont historiques, non des instructions de recherche actives.** En cas de chiffres contradictoires, relire [le registre par cours](data/course-material-progress.json), puis ce bilan. Ne pas recopier des états périmés comme 87/28 ou 93/22 actifs dans de nouvelles consignes.
 
 ## Périmètre académique et connaissances (NE PAS GONFLER)
