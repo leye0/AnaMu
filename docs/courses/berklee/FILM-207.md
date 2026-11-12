@@ -50,3 +50,57 @@ La [fiche OCOMP-490](../berklee-online/OCOMP-490.md) conserve les **12 leçons p
 - **Drapeau :** `non_algorithmique=false`.
 - **Exemple :** [vrai MIDI original](./FILM-207/exemple.mid); interprétation et fiabilité limitées aux points explicitement documentés.
 - **Lacunes :** œuvres, devoirs, modalités de notation et critères exacts non vérifiés; le statut universitaire du cours ne change pas.
+
+## Deuxième passe qualitative — preuve, méthode et réfutation (12 novembre 2026)
+
+**Lien direct au cours :** [FILM-207 — Dramatic Scoring 1](https://college.berklee.edu/courses/film-207). **Portée de la preuve :** Notice Boston : rôle narratif, courts travaux de composition, mélodie, harmonie, rythme, forme et critiques entre étudiants. Les leçons thématiques d'amour, horreur ou action dans OCOMP-490 appartiennent au cours en ligne distinct. L'analyse suivante complète la première passe; les exercices ci-dessous sont des protocoles de travail AnaMu, pas un syllabus ni une commande universitaire.
+
+### Q1 — Décrire objectivement une transformation de densité et d'harmonie
+
+**Élément attesté par la notice.** Rythme, harmonie et motifs narratifs attestés dans la notice; le MIDI original AnaMu offre un exemple contrôlable.
+
+**Entrées et supports minimaux.** [MIDI original FILM-207](./FILM-207/exemple.mid) avec pistes flûte, cordes et basse, 480 ticks/noire et tempo de 120 BPM, plus vidéo optionnelle pour attribuer une fonction dramatique.
+
+**Détection / analyse ordonnée.** Segmenter les mesures 1–4 et 5–8. Sur la flûte, compter quatre attaques par mesure au début puis huit à partir de la mesure 5; mesurer la réduction d'intervalle entre attaques de 480 à 240 ticks et comparer les accords de do majeur à ceux de la mineur dans les cordes. Distinguer densité doublée, changement de centre harmonique local et caractère affectif imaginé.
+
+**Résultat falsifiable.** Contraste mesurable : deux sections A/B de quatre mesures, fréquence d'attaque multipliée par deux sur la ligne mélodique, accord majeur→mineur sur les fondations; aucun diagnostic fiable de tristesse/peur sans scène.
+
+**Application à une création originale.** Construire deux états du même thème original avec courbe de tension différente : A en valeurs de noires, B en croches, accompagnement contrastant; écouter sans image pour vérifier la transformation, puis essayer sur montage autorisé.
+
+**Critère de réussite, contre-exemple et limite.** Une tonalité mineure ne prouve pas une émotion ou un genre de scène; une densité accrue ne garantit pas une tension perçue.
+
+**Applicabilité :** `MIDI_DIRECT` / `AUDIO_REQUIRED` / `CONTEXT_REQUIRED`.
+
+### Q2 — Conserver l'identité motivique lors de la variation
+
+**Élément attesté par la notice.** Écriture mélodique, harmonique et formelle mentionnée par la notice, mais aucune transformation précise n'est imposée.
+
+**Entrées et supports minimaux.** Phrases MIDI ou partitions annotées, marqueurs de sections, mesure et durée en unités de noires; vidéo seulement pour la fonction dramaturgique.
+
+**Détection / analyse ordonnée.** Extraire la succession d'intervalles, le contour et le placement métrique de deux versions; neutraliser les transpositions globales et tester si les noyaux se correspondent. Comparer l'hypothèse de variation à celle de deux idées distinctes, surtout lorsque les valeurs rythmiques changent.
+
+**Résultat falsifiable.** Rapport motivique explicite (noyau retenu, notes ajoutées/supprimées, facteur d'augmentation/diminution rythmique), avec confiance limitée par l'étendue de la phrase.
+
+**Application à une création originale.** Composer un thème de quatre sons, en garder trois comme noyau et essayer une transformation par augmentation des intervalles ou diminution des durées; écouter si le retour reste reconnaissable malgré un changement harmonique.
+
+**Critère de réussite, contre-exemple et limite.** Une ressemblance statistique n'est pas une identité dramaturgique; l'auditeur doit encore reconnaître l'idée dans le contexte.
+
+**Applicabilité :** `MIDI_DIRECT` / `AUDIO_REQUIRED` / `CONTEXT_REQUIRED`.
+
+### Q3 — Transformer une critique d'écoute en révision musicale documentée
+
+**Élément attesté par la notice.** La notice indique des retours entre étudiants sur les courts travaux, pas un protocole d'évaluation chiffrée particulier.
+
+**Entrées et supports minimaux.** Versions datées d'une même esquisse, commentaires de pairs consentis, audio et partition/MIDI de chaque version, intention communiquée par le compositeur.
+
+**Détection / analyse ordonnée.** Relier chaque retour concret à un endroit musical (mesure, passage de dialogue, transition), préciser s'il vise une propriété mesurable (retard, densité) ou une interprétation (caractère, émotion), puis examiner les différences entre versions.
+
+**Résultat falsifiable.** Journal « observation → mesure/repère → hypothèse → révision → écoute de contrôle » qui ne transforme pas les jugements des pairs en vérité objective.
+
+**Application à une création originale.** Présenter deux maquettes originales aux auditeurs à volume équivalent, recueillir des commentaires formulés en fonction musicale, améliorer une seule variable à la fois et demander si le problème ciblé a disparu.
+
+**Critère de réussite, contre-exemple et limite.** Aucun avis individuel ou barème de classe n'est publié; ce protocole est une proposition AnaMu, non une tâche attestée dans la section.
+
+**Applicabilité :** `AUDIO_REQUIRED` / `CONTEXT_REQUIRED` / `MIDI_PROXY`.
+
+**Portée après approfondissement.** Trois axes explicités par la deuxième passe; ces procédures n'ajoutent pas de nouvelles œuvres attribuées à la section et ne transforment pas un MIDI sans image en preuve de synchronisation réelle. Les statuts de syllabus, de recherche et de première évaluation du registre ne changent pas.
