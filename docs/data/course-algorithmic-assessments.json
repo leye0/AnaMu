@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": "course_by_course_analysis_and_composition_applicability",
-  "as_of": "2026-11-11",
+  "as_of": "2026-11-12",
   "template": "docs/COURSE_ANALYSIS_TEMPLATE.md",
   "definitions": {
     "first_learning_analyzed_with_midi": "At least one learning evidenced by this course has an original MIDI example and written analysis/composition procedure, NOT full syllabus coverage",
@@ -10,11 +10,11 @@
     "course_choice_placeholder": "Program choice family, not one course; choose a concrete code"
   },
   "summary": {
-    "detailed_with_midi": 99,
-    "reviewed_with_limitation_no_midi": 68,
-    "not_yet_assessed": 211,
+    "detailed_with_midi": 101,
+    "reviewed_with_limitation_no_midi": 77,
+    "not_yet_assessed": 200,
     "choice_placeholders": 8,
-    "non_algorithmic_true": 3
+    "non_algorithmic_true": 6
   },
   "assessments": [
     {
@@ -1498,16 +1498,20 @@
       "material_file": "docs/courses/udem/MUS-3127X.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/udem/MUS-3127X/exemple.mid",
+      "explanation_location": "docs/courses/udem/MUS-3127X.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Développer d'autres apprentissages sourcés et tester auditivement ce proxy MIDI",
+      "limit_note": "MIDI original modèle, sans preuve de réalisme musical ni couverture du cours"
     },
     {
       "institution": "udem",
@@ -1515,16 +1519,20 @@
       "material_file": "docs/courses/udem/MUS-3314X.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "indirecte",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/udem/MUS-3314X.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les supports de section (audio, vidéo, partition, consignes) avant tout MIDI spéculatif",
+      "limit_note": "Les relations son–image, textures et mouvements requièrent une vidéo synchronisée et une piste audio; un MIDI isolé ne montre pas les images."
     },
     {
       "institution": "udem",
@@ -1532,16 +1540,21 @@
       "material_file": "docs/courses/udem/MUS-3315X.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/udem/MUS-3315X.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les supports de section (audio, vidéo, partition, consignes) avant tout MIDI spéculatif",
+      "limit_note": "Un SMF peut porter des notes ou contrôleurs MIDI mais ne représente ni les messages OSC, ni l'éclairage DMX, ni les mappings visuels ni la performance; démo nécessairement multimédia."
     },
     {
       "institution": "udem",
@@ -1549,16 +1562,20 @@
       "material_file": "docs/courses/udem/MUS-3322X.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/udem/MUS-3322X.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les supports de section (audio, vidéo, partition, consignes) avant tout MIDI spéculatif",
+      "limit_note": "Les résonances, impédances, formants et couplages instrument–interprète sont des phénomènes acoustiques; le seul MIDI ne contient aucune mesure spectrale."
     },
     {
       "institution": "udem",
@@ -1693,16 +1710,20 @@
       "material_file": "docs/courses/udem/MUS-4102.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mus-4102/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "indirecte",
+      "algorithmic_tags": [
+        "NOT_MUSIC_ALGORITHM",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": true,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUS-4102.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les supports de section (audio, vidéo, partition, consignes) avant tout MIDI spéculatif",
+      "limit_note": "L'adaptation d'un concert-conférence aux contraintes d'un public est une pratique de médiation et d'accessibilité, sans règle de notes attestée."
     },
     {
       "institution": "udem",
@@ -1710,16 +1731,19 @@
       "material_file": "docs/courses/udem/MUS-4103.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/udem/MUS-4103.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les supports de section (audio, vidéo, partition, consignes) avant tout MIDI spéculatif",
+      "limit_note": "Le placement de microphone, le bruit, les conversions et le mixage ne sont pas observables depuis une suite de notes MIDI."
     },
     {
       "institution": "udem",
@@ -1727,16 +1751,20 @@
       "material_file": "docs/courses/udem/MUS-4104.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "indirecte",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/udem/MUS-4104.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les supports de section (audio, vidéo, partition, consignes) avant tout MIDI spéculatif",
+      "limit_note": "Cadre, lumière, caméra, tournage et montage exigent plans vidéo, lumière et son, pas une séquence MIDI."
     },
     {
       "institution": "udem",
@@ -1744,16 +1772,20 @@
       "material_file": "docs/courses/udem/MUS-4105.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "indirecte",
+      "algorithmic_tags": [
+        "NOT_MUSIC_ALGORITHM",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": true,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/udem/MUS-4105.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les supports de section (audio, vidéo, partition, consignes) avant tout MIDI spéculatif",
+      "limit_note": "La présence Web d'artiste, la documentation et les publications relèvent de la communication professionnelle, pas d'un mécanisme musical que l'on puisse jouer en MIDI."
     },
     {
       "institution": "udem",
@@ -1761,16 +1793,20 @@
       "material_file": "docs/courses/udem/MUS-4106.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "indirecte",
+      "algorithmic_tags": [
+        "NOT_MUSIC_ALGORITHM",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": true,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/udem/MUS-4106.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les supports de section (audio, vidéo, partition, consignes) avant tout MIDI spéculatif",
+      "limit_note": "La médiation auprès de publics réels et la rétroaction sur intervention ne peuvent être validées par la musique seule ni par un MIDI."
     },
     {
       "institution": "udem",
@@ -2394,16 +2430,21 @@
       "material_file": "docs/courses/udem/MUE-1282.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/chorale-de-luniversite-de-montreal/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/udem/MUE-1282/exemple.mid",
+      "explanation_location": "docs/courses/udem/MUE-1282.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Développer d'autres apprentissages sourcés et tester auditivement ce proxy MIDI",
+      "limit_note": "MIDI original modèle, sans preuve de réalisme musical ni couverture du cours"
     },
     {
       "institution": "udem",
@@ -2411,16 +2452,21 @@
       "material_file": "docs/courses/udem/MUE-1283.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/chorale-de-luniversite-de-montreal/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/udem/MUE-1283.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir les supports de section (audio, vidéo, partition, consignes) avant tout MIDI spéculatif",
+      "limit_note": "La même description publique décrit l'ensemble, mais ne distingue aucun apprentissage propre au niveau MUE 1283; répéter artificiellement le MIDI du niveau 1282 suggérerait une progression non attestée."
     },
     {
       "institution": "udem",
