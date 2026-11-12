@@ -1,6 +1,6 @@
 # AnaMu — bibliothèque web des cours
 
-La bibliothèque AnaMu est reconstruite automatiquement depuis **386 entrées**, les fiches Markdown de cours et le [registre canonique](../docs/data/course-algorithmic-assessments.json). État au **12 novembre 2026** : **99 MIDI originaux écoutables**, **68 cours évalués sans MIDI**, **211 cours non évalués**, **8 familles d'options**. Dernier lot : 7 MIDI et 16 évaluations contextualisées; pas de deuxième banque de contenu à maintenir. Un cours avec MIDI n'est pas nécessairement entièrement analysé.
+La bibliothèque AnaMu est reconstruite automatiquement depuis **386 entrées**, les fiches Markdown de cours et le [registre canonique](../docs/data/course-algorithmic-assessments.json). État au **12 novembre 2026** : **103 MIDI originaux écoutables**, **89 cours évalués sans MIDI pertinent**, **186 cours non évalués**, **8 familles d'options**. Deux derniers lots : 25 évaluations supplémentaires, 4 MIDI. Les cours dont l'apprentissage est audio, visuel, social ou contextuel ne reçoivent pas de MIDI factice; une première fiche analysée n'est pas un syllabus terminé.
 
 ## Publication sur GitHub Pages (source : Actions)
 
