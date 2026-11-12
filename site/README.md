@@ -1,6 +1,6 @@
 # AnaMu — bibliothèque web des cours
 
-La bibliothèque AnaMu est générée depuis les **386 entrées universitaires**, les fiches et le [registre](../docs/data/course-algorithmic-assessments.json). État au **12 novembre 2026** : **71 MIDI originaux à écouter**, **24 cours évalués sans MIDI**, **283 non évalués**, **8 familles de choix**. GitHub Actions republie automatiquement les changements de fiches et de registre, sans saisie parallèle des matières. Ce sont des premières passes documentées, pas une couverture intégrale des syllabi.
+La bibliothèque AnaMu s'appuie directement sur **386 entrées**, leurs fiches Markdown et le [registre des analyses](../docs/data/course-algorithmic-assessments.json). État au **12 novembre 2026** : **73 MIDI originaux écoutables**, **33 évaluations sans MIDI**, **272 cours non évalués** et **8 familles d'options**. Les changements du registre et des fiches sont publiés par GitHub Actions, sans seconde base de connaissances.
 
 ## Publication sur GitHub Pages (source : Actions)
 
