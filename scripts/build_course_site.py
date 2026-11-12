@@ -142,7 +142,7 @@ def markdown_html(md: str, source_path: str) -> str:
         if heading:
             flush_paragraph()
             flush_list()
-            level = min(stripped.index(" ") + 1, 5)
+            level = min(len(stripped) - len(stripped.lstrip("#")), 5)
             out.append("<h" + str(level) + ">" + inline(heading.group(1), source_path) + "</h" + str(level) + ">")
             continue
         bullet = re.match(r"^[-*]\s+(.+)$", stripped)
@@ -247,6 +247,8 @@ def main() -> None:
             "note": row.get("limit_note") or "",
         }
         target = destination / description_url
+        if target.exists():
+            raise ValueError("Two course codes map to the same site URL: " + description_url)
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(json.dumps(details, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         metadata.append({
