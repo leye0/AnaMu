@@ -1,5 +1,7 @@
 # AnaMu — architecture de la base de connaissances musicales académiques
 
+**DÉCISION DE PHASE (11 novembre 2026) :** [État courant](STATUS.md). La collecte publique de plans par cours (1A) est arrêtée en meilleur effort : **115 cours restent partiels, dont 22 bloqués en attente de source extérieure, mais aucun n'est une recherche active sans nouvelle preuve**. La **documentation académique des sujets identifiés (1B) est maintenant ACTIVE**; [14 mécanismes sourcés](subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md) sont acquis comme documentation *des sujets*, pas comme syllabus. Les développements de la base de concepts unifiés / phase 2 restent verrouillés. Les assertions plus bas disant « seule collecte par cours active » sont des instantanés historiques.
+
 **Document de conception normatif, pas une implémentation achevée.**
 L'ambition est de posséder un patrimoine **massif, structuré, traçable et
 interrogeable de connaissances musicales** obtenu par la mise en commun de
