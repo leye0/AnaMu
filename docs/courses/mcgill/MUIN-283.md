@@ -95,3 +95,39 @@ Le guide renvoie au *Jazz Voice Handbook* pour le corpus de vocalese et la liste
 - Les documents prouvent **des exigences réelles d'examens par instrument**, sans préciser systématiquement **ce qui fut enseigné dans chacune des quatre leçons privées MUIN 180/181/280/281**.
 - Les autres instruments non encore approfondis (dont cordes modernes et guitare), le répertoire effectivement choisi par chaque étudiant, les versions 2026–2027 de plusieurs guides historiques et les partitions d'évaluation restent à rechercher.
 - Les pages de PDF et notes ci-dessus sont **résumées sans redistribution des partitions** ; les divergences de date et de spécialité sont maintenues.
+
+## Application à l'analyse et à la création — première évaluation (12 novembre 2026)
+
+**Périmètre :** matière publiquement attribuable au cours uniquement; aucune assimilation aux plans voisins cités, ni garantie de syllabus complet. **Apport :** directe. Les procédures ci-dessous sont proposées par AnaMu, non des consignes universitaires.
+
+### Apprentissage 1 — Cadences II–V–I et improvisation dans l'option jazz
+
+**Preuve :** Guide officiel jazz McGill 2025 attaché à l'examen de concentration : cycles de dominantes, II–V–I majeurs/mineurs, gammes et improvisations; applicable à l'option jazz, PAS aux jurys piano classique ou orgue.
+
+**Analyse — entrées, opérations, indices et limites :** À partir de pistes MIDI, estimer accords par regroupement temporel des hauteurs et basse, reconnaître ii7–V7–Imaj7 (ici Dm7–G7–Cmaj7 en do), compter mesures et analyser les notes de mélodie par rapport aux accords. Les notes de passage, renversements et substitutions rendent le diagnostic probabiliste.
+
+**Création — procédure et évaluation musicale :** Dans une tonalité déclarée, harmoniser deux mesures de ii7, deux mesures V7 puis quatre mesures Imaj7; écrire une ligne improvisée qui cible des notes d'accord et résout vers la tonique; contrôler à l'écoute la conduite des voix et les tensions.
+
+**Exemple/format et portée :** Mesures 1–2 : Dm7; 3–4 : G7; 5–8 : Cmaj7 avec basse et mélodie originale; l'exemple ne correspond à aucune transcription imposée.
+
+### Apprentissage 2 — Variété des modes et exigences d'interprétation
+
+**Preuve :** Même guide jazz 2025 : gammes, modes, études, transcriptions jouées de mémoire et répertoire; les autres instruments ont des guides distincts.
+
+**Analyse — entrées, opérations, indices et limites :** Comparer les collections de hauteurs effectivement jouées aux accords, mais ne jamais inférer « joué de mémoire », virtuosité ou appartenance au répertoire sur un simple SMF.
+
+**Création — procédure et évaluation musicale :** Préparer plusieurs versions du solo sur la même grille et demander une interprétation audio; évaluer justesse, articulation et cohérence harmonique à l'écoute plutôt que sur l'étiquette des modes.
+
+**Exemple/format et portée :** Le MIDI teste uniquement une partie de la théorie; la mémorisation et la prestation requièrent des personnes et audio.
+
+### Verdict du cours
+
+| Champ | Valeur |
+|---|---|
+| Apport analyse/création | directe |
+| Apprentissages analysés | 2 attesté(s), non exhaustifs |
+| Tags algorithmiques | `MIDI_DIRECT`, `AUDIO_REQUIRED`, `CONTEXT_REQUIRED` |
+| `non_algorithmique` | false |
+| Couverture | Première analyse sur preuves disponibles; ne promeut pas `topic_outline.state` |
+| Exemple original | [MIDI AnaMu](./MUIN-283/exemple.mid) — illustration créée ici, jamais exercice du professeur |
+| Lacune prioritaire | Consignes/répertoire propre à la section et sources audio/vidéo/partition quand nécessaires |

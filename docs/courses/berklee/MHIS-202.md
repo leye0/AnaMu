@@ -11,3 +11,29 @@ Berklee College of Music (Boston), recherche du 11 novembre 2026. **Documentatio
 ## Lacunes
 
 Liste réelle des œuvres centrales du professeur MHIS-202 et liens vers leurs partitions, annotations, écoutes évaluées, textes et examens. La sélection du MIT ne doit pas être confondue avec celle de Berklee Boston.
+
+## Application à l'analyse et à la création — première évaluation (12 novembre 2026)
+
+**Périmètre :** matière publiquement attribuable au cours uniquement; aucune assimilation aux plans voisins cités, ni garantie de syllabus complet. **Apport :** indirecte. Les procédures ci-dessous sont proposées par AnaMu, non des consignes universitaires.
+
+### Apprentissage 1 — Comprendre l'évolution des œuvres et pratiques historiques
+
+**Preuve :** Notice Berklee MHIS-202 : compositeurs/œuvres représentatifs, contrepoint, opéra, pratiques post-tonales et styles du XXIe; sélections concrètes inconnues.
+
+**Analyse — entrées, opérations, indices et limites :** Pour des œuvres dont les références sont authentifiées, confronter extraits audio et partitions, décrire la texture, transformations thématiques, harmonie et contexte de réception; garder ouvertes les interprétations concurrentes.
+
+**Création — procédure et évaluation musicale :** Construire une courte étude à partir d'une technique historique dont la source est citée, puis comparer son effet à la pièce source; la provenance est plus importante que le seul ressemblance de notes.
+
+**Exemple/format et portée :** Nécessite un corpus de section ou un sujet de travail documenté; pas de MIDI attesté à reproduire.
+
+### Verdict du cours
+
+| Champ | Valeur |
+|---|---|
+| Apport analyse/création | indirecte |
+| Apprentissages analysés | 1 attesté(s), non exhaustifs |
+| Tags algorithmiques | `MIDI_PROXY`, `AUDIO_REQUIRED`, `CONTEXT_REQUIRED` |
+| `non_algorithmique` | false |
+| Couverture | Première analyse sur preuves disponibles; ne promeut pas `topic_outline.state` |
+| Exemple original | Aucun MIDI : Les « œuvres iconiques » ne sont pas nommées par la section MHIS-202; les œuvres du MIT appartiennent à un autre cours et ne doivent pas servir d'exemple attribué à Berklee. |
+| Lacune prioritaire | Consignes/répertoire propre à la section et sources audio/vidéo/partition quand nécessaires |

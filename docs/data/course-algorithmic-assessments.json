@@ -10,11 +10,11 @@
     "course_choice_placeholder": "Program choice family, not one course; choose a concrete code"
   },
   "summary": {
-    "detailed_with_midi": 101,
-    "reviewed_with_limitation_no_midi": 77,
-    "not_yet_assessed": 200,
+    "detailed_with_midi": 103,
+    "reviewed_with_limitation_no_midi": 89,
+    "not_yet_assessed": 186,
     "choice_placeholders": 8,
-    "non_algorithmic_true": 6
+    "non_algorithmic_true": 8
   },
   "assessments": [
     {
@@ -1865,16 +1865,21 @@
       "material_file": "docs/courses/udem/MUE-1151.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1151/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1151.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir consignes et corpus de section avant toute démonstration MIDI attribuable",
+      "limit_note": "Les œuvres documentées sont des productions de l'atelier, mais sans partition ou parties attribuées au niveau 1151; fabriquer leur motif de toccata ou ritournelle en MIDI serait une attribution abusive."
     },
     {
       "institution": "udem",
@@ -1950,16 +1955,21 @@
       "material_file": "docs/courses/udem/MUE-1171.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1171/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1171.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir consignes et corpus de section avant toute démonstration MIDI attribuable",
+      "limit_note": "L'atelier est documenté par des créations de percussion et contrôleurs de mouvement, sans partie notée ni protocole de commande correspondant au code 1171."
     },
     {
       "institution": "udem",
@@ -2496,16 +2506,21 @@
       "material_file": "docs/courses/udem/MUE-1342.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/atelier-de-gamelan/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/udem/MUE-1342.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir consignes et corpus de section avant toute démonstration MIDI attribuable",
+      "limit_note": "Un MIDI à tempérament général serait trompeur sans accordages, répartition des parties et pièces effectivement jouées; le contexte balinais, la pulsation et le timbre demandent audio/partition et expertise."
     },
     {
       "institution": "udem",
@@ -2513,16 +2528,21 @@
       "material_file": "docs/courses/udem/MUE-1343.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/atelier-de-gamelan/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/udem/MUE-1343.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir consignes et corpus de section avant toute démonstration MIDI attribuable",
+      "limit_note": "La page d'atelier ne documente ni répertoire, ni progression distincte pour 1343; un autre MIDI « de gamelan » inventerait des règles et des hauteurs."
     },
     {
       "institution": "udem",
@@ -2806,16 +2826,20 @@
       "material_file": "docs/courses/udem/MUE-1621.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/udem/MUE-1621.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir consignes et corpus de section avant toute démonstration MIDI attribuable",
+      "limit_note": "L'Ensemble d'oscillateurs et ses concerts sont attestés, pas leurs signaux, patchs ou notes; un MIDI ne rend pas leurs spectres ni leur dispositif."
     },
     {
       "institution": "udem",
@@ -3486,16 +3510,21 @@
       "material_file": "docs/courses/mcgill/MUHL-186.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "indirecte",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/mcgill/MUHL-186.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir consignes et corpus de section avant toute démonstration MIDI attribuable",
+      "limit_note": "La reconnaissance historique de genres et d'époques depuis extraits d'écoute ne se démontre pas par une mélodie MIDI inventée; les œuvres testées ne sont pas publiées."
     },
     {
       "institution": "mcgill",
@@ -3537,16 +3566,20 @@
       "material_file": "docs/courses/mcgill/MUPD-135.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "indirecte",
+      "algorithmic_tags": [
+        "NOT_MUSIC_ALGORITHM",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": true,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/mcgill/MUPD-135.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir consignes et corpus de section avant toute démonstration MIDI attribuable",
+      "limit_note": "Le bien-être et les compétences professionnelles des musiciens ne sont pas des propriétés d'un flux de notes MIDI."
     },
     {
       "institution": "mcgill",
@@ -3554,16 +3587,20 @@
       "material_file": "docs/courses/mcgill/MUSP-140.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/mcgill/MUSP-140/exemple.mid",
+      "explanation_location": "docs/courses/mcgill/MUSP-140.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Compléter autres apprentissages du cours et confronter le MIDI à une réalisation audio",
+      "limit_note": "MIDI original illustratif, pas une prestation universitaire"
     },
     {
       "institution": "mcgill",
@@ -3571,16 +3608,20 @@
       "material_file": "docs/courses/mcgill/MUSP-141.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/mcgill/MUSP-141.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir consignes et corpus de section avant toute démonstration MIDI attribuable",
+      "limit_note": "Le guide d'exemption donne les mêmes familles de dictée pour 140 et 141 sans affecter une difficulté au niveau 141; dupliquer ou « complexifier » un exemple serait spéculatif."
     },
     {
       "institution": "mcgill",
@@ -4106,16 +4147,21 @@
       "material_file": "docs/courses/mcgill/MUIN-283.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/mcgill/MUIN-283/exemple.mid",
+      "explanation_location": "docs/courses/mcgill/MUIN-283.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Compléter autres apprentissages du cours et confronter le MIDI à une réalisation audio",
+      "limit_note": "MIDI original illustratif, pas une prestation universitaire"
     },
     {
       "institution": "mcgill",
@@ -4829,16 +4875,20 @@
       "material_file": "docs/courses/berklee/CM-498.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cm-498",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe, techniques précises indéterminées",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/berklee/CM-498.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir consignes et corpus de section avant toute démonstration MIDI attribuable",
+      "limit_note": "Tutorat d'œuvre de grand ensemble documenté, mais aucun procédé compositionnel particulier n'est attribuable à CM-498; imposer une technique ou une orchestration dans un MIDI serait arbitraire."
     },
     {
       "institution": "berklee",
@@ -5518,16 +5568,20 @@
       "material_file": "docs/courses/berklee/LHUM-400.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/lhum-400",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "indirecte",
+      "algorithmic_tags": [
+        "NOT_MUSIC_ALGORITHM",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": true,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/berklee/LHUM-400.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir consignes et corpus de section avant toute démonstration MIDI attribuable",
+      "limit_note": "Le développement de carrière, le réseau et la proposition de valeur n'enseignent pas un procédé de composition ou d'analyse de musique."
     },
     {
       "institution": "berklee",
@@ -6398,16 +6452,21 @@
       "material_file": "docs/courses/berklee/MHIS-201.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/mhis-201",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "indirecte",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/berklee/MHIS-201.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir consignes et corpus de section avant toute démonstration MIDI attribuable",
+      "limit_note": "Périodes, traditions et styles sont abordés, mais les thèmes changent selon section et aucune œuvre du cours n'est identifiée; un MIDI inventé serait une caricature historique."
     },
     {
       "institution": "berklee",
@@ -6415,16 +6474,21 @@
       "material_file": "docs/courses/berklee/MHIS-202.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/mhis-202",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "indirecte",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/berklee/MHIS-202.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir consignes et corpus de section avant toute démonstration MIDI attribuable",
+      "limit_note": "Les « œuvres iconiques » ne sont pas nommées par la section MHIS-202; les œuvres du MIT appartiennent à un autre cours et ne doivent pas servir d'exemple attribué à Berklee."
     },
     {
       "institution": "berklee",
