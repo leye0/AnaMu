@@ -5,14 +5,14 @@
   "template": "docs/COURSE_ANALYSIS_TEMPLATE.md",
   "definitions": {
     "first_learning_analyzed_with_midi": "At least one learning evidenced by this course has an original MIDI example and written analysis/composition procedure, NOT full syllabus coverage",
-    "first_scope_assessed_without_midi": "A real learning was assessed but generating MIDI would be misleading or irrelevant",
+    "first_scope_assessed_without_midi": "A real learning was assessed but generating MIDI would be misleading or irrelevant; could be audio/score/clinical/context or explicitly non music algorithm",
     "not_yet_assessed": "Not analyzed; no algorithmic relevance inferred",
     "course_choice_placeholder": "Program choice family, not one course; choose a concrete code"
   },
   "summary": {
-    "detailed_with_midi": 19,
-    "reviewed_with_limitation_no_midi": 5,
-    "not_yet_assessed": 354,
+    "detailed_with_midi": 30,
+    "reviewed_with_limitation_no_midi": 6,
+    "not_yet_assessed": 342,
     "choice_placeholders": 8,
     "non_algorithmic_true": 2
   },
@@ -4239,16 +4239,18 @@
       "material_file": "docs/courses/berklee/CM-221.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cm-221",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/CM-221/exemple.mid",
+      "explanation_location": "docs/courses/berklee/CM-221.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Continue analyzing every other evidenced learning without claiming full-syllabus coverage"
     },
     {
       "institution": "berklee",
@@ -4273,16 +4275,19 @@
       "material_file": "docs/courses/berklee/CM-231.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cm-231",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/CM-231/exemple.mid",
+      "explanation_location": "docs/courses/berklee/CM-231.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Continue analyzing every other evidenced learning without claiming full-syllabus coverage"
     },
     {
       "institution": "berklee",
@@ -4710,16 +4715,18 @@
       "material_file": "docs/courses/berklee/AR-111.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/ar-111",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/AR-111/exemple.mid",
+      "explanation_location": "docs/courses/berklee/AR-111.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Continue analyzing every other evidenced learning without claiming full-syllabus coverage"
     },
     {
       "institution": "berklee",
@@ -4727,16 +4734,18 @@
       "material_file": "docs/courses/berklee/AR-123.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/ar-123",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/AR-123/exemple.mid",
+      "explanation_location": "docs/courses/berklee/AR-123.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Continue analyzing every other evidenced learning without claiming full-syllabus coverage"
     },
     {
       "institution": "berklee",
@@ -4931,16 +4940,18 @@
       "material_file": "docs/courses/berklee/CM-211.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cm-211",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/CM-211/exemple.mid",
+      "explanation_location": "docs/courses/berklee/CM-211.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Continue analyzing every other evidenced learning without claiming full-syllabus coverage"
     },
     {
       "institution": "berklee",
@@ -4948,16 +4959,18 @@
       "material_file": "docs/courses/berklee/CM-212.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cm-212",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/CM-212/exemple.mid",
+      "explanation_location": "docs/courses/berklee/CM-212.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Continue analyzing every other evidenced learning without claiming full-syllabus coverage"
     },
     {
       "institution": "berklee",
@@ -5088,16 +5101,20 @@
       "material_file": "docs/courses/berklee/CM-103.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cm-103",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/CM-103/exemple.mid",
+      "explanation_location": "docs/courses/berklee/CM-103.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Continue analyzing every other evidenced learning without claiming full-syllabus coverage"
     },
     {
       "institution": "berklee",
@@ -5122,16 +5139,18 @@
       "material_file": "docs/courses/berklee/CM-227.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cm-227",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/CM-227/exemple.mid",
+      "explanation_location": "docs/courses/berklee/CM-227.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Continue analyzing every other evidenced learning without claiming full-syllabus coverage"
     },
     {
       "institution": "berklee",
@@ -5472,16 +5491,18 @@
       "material_file": "docs/courses/berklee/CM-201.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cm-201",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/CM-201/exemple.mid",
+      "explanation_location": "docs/courses/berklee/CM-201.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Continue analyzing every other evidenced learning without claiming full-syllabus coverage"
     },
     {
       "institution": "berklee",
@@ -5562,16 +5583,19 @@
       "material_file": "docs/courses/berklee/CM-341.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cm-341",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/CM-341/exemple.mid",
+      "explanation_location": "docs/courses/berklee/CM-341.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Continue analyzing every other evidenced learning without claiming full-syllabus coverage"
     },
     {
       "institution": "berklee",
@@ -5579,16 +5603,20 @@
       "material_file": "docs/courses/berklee/CM-342.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cm-342",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/berklee/CM-342.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Use MusicXML/PDF for future original notation demonstration; a MIDI file is not sufficient",
+      "limit_note": "La gravure de parties demande MusicXML/PDF; MIDI n'encode pas la mise en page, la notation non standard ni les parties."
     },
     {
       "institution": "berklee",
@@ -5613,16 +5641,19 @@
       "material_file": "docs/courses/berklee/CM-351.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cm-351",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/CM-351/exemple.mid",
+      "explanation_location": "docs/courses/berklee/CM-351.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-11",
+      "next_action": "Continue analyzing every other evidenced learning without claiming full-syllabus coverage"
     },
     {
       "institution": "berklee",
