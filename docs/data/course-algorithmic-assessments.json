@@ -10,9 +10,9 @@
     "course_choice_placeholder": "Program choice family, not one course; choose a concrete code"
   },
   "summary": {
-    "detailed_with_midi": 119,
-    "reviewed_with_limitation_no_midi": 187,
-    "not_yet_assessed": 72,
+    "detailed_with_midi": 122,
+    "reviewed_with_limitation_no_midi": 218,
+    "not_yet_assessed": 38,
     "choice_placeholders": 8,
     "non_algorithmic_true": 9
   },
@@ -2024,16 +2024,22 @@
       "material_file": null,
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "matière de groupe/section encore indéterminée",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED",
+        "UNKNOWN"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/udem/MUE-1161.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Chaque code conserve son objet propre (lecture contemporaine ou création collective), sans progression inventée. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2041,16 +2047,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1162/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "matière de groupe/section encore indéterminée",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED",
+        "UNKNOWN"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1162.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Chaque code conserve son objet propre (lecture contemporaine ou création collective), sans progression inventée. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2124,16 +2136,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1191/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/udem/MUE-1191/exemple.mid",
+      "explanation_location": "docs/courses/udem/MUE-1191.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Aucune difficulté par niveau ou distribution d'étudiants 1191/1192/1193 n'est publiée. MIDI original AnaMu sans attribution au cours."
     },
     {
       "institution": "udem",
@@ -2141,16 +2158,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1192/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1192.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Aucune difficulté par niveau ou distribution d'étudiants 1191/1192/1193 n'est publiée. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2158,16 +2180,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1193/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1193.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Aucune difficulté par niveau ou distribution d'étudiants 1191/1192/1193 n'est publiée. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2242,16 +2269,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1221/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1221.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Le catalogue n'indique ni nombre de flûtes, ni pièces étudiées, ni différence technique des trois codes. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2259,16 +2291,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1222/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1222.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Le catalogue n'indique ni nombre de flûtes, ni pièces étudiées, ni différence technique des trois codes. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2276,16 +2313,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1223/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1223.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Le catalogue n'indique ni nombre de flûtes, ni pièces étudiées, ni différence technique des trois codes. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2293,16 +2335,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1231/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1231.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Aucun niveau 1–3 ne fixe l'effectif, la technique de main droite ni une pièce de répertoire. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2310,16 +2357,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1232/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1232.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Aucun niveau 1–3 ne fixe l'effectif, la technique de main droite ni une pièce de répertoire. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2327,16 +2379,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1233/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1233.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Aucun niveau 1–3 ne fixe l'effectif, la technique de main droite ni une pièce de répertoire. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2475,16 +2532,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1261/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "matière de groupe/section encore indéterminée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "CONTEXT_REQUIRED",
+        "MIDI_PROXY"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1261.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Les suffixes 1–3 ne disent rien d'un répertoire ni d'une progression technique déterminée. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2492,16 +2554,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1262/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "matière de groupe/section encore indéterminée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "CONTEXT_REQUIRED",
+        "MIDI_PROXY"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1262.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Les suffixes 1–3 ne disent rien d'un répertoire ni d'une progression technique déterminée. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2509,16 +2576,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1263/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "matière de groupe/section encore indéterminée",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "CONTEXT_REQUIRED",
+        "MIDI_PROXY"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1263.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Les suffixes 1–3 ne disent rien d'un répertoire ni d'une progression technique déterminée. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2526,16 +2598,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1271/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/udem/MUE-1271/exemple.mid",
+      "explanation_location": "docs/courses/udem/MUE-1271.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Le nombre de parties est attesté, mais les modèles de saxophone, œuvres et difficultés des niveaux 1–3 ne le sont pas. MIDI original AnaMu sans attribution au cours."
     },
     {
       "institution": "udem",
@@ -2543,16 +2620,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1272/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1272.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Le nombre de parties est attesté, mais les modèles de saxophone, œuvres et difficultés des niveaux 1–3 ne le sont pas. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2560,16 +2642,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1273/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1273.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Le nombre de parties est attesté, mais les modèles de saxophone, œuvres et difficultés des niveaux 1–3 ne le sont pas. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2708,16 +2795,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1361/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1361.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Aucune grille, œuvre ou difficulté particulière n'est garantie par les niveaux 1361–1363. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2725,16 +2817,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1362/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1362.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Aucune grille, œuvre ou difficulté particulière n'est garantie par les niveaux 1361–1363. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2742,16 +2839,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1363/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1363.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Aucune grille, œuvre ou difficulté particulière n'est garantie par les niveaux 1361–1363. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2759,16 +2861,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1381/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1381.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Aucun objectif technique ni instrumentarium propre à 1381/1382/1383 n'est publié. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2776,16 +2883,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1382/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1382.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Aucun objectif technique ni instrumentarium propre à 1381/1382/1383 n'est publié. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2793,16 +2905,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1383/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1383.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Aucun objectif technique ni instrumentarium propre à 1381/1382/1383 n'est publié. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2810,16 +2927,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1431/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1431.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Le titre ne démontre ni liste exacte d'instruments, ni modèle de concert imposé. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2848,16 +2970,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1491/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1491.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Les trois niveaux existent, mais ni les jeux imposés ni leur progression n'ont été documentés. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2865,16 +2992,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1492/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1492.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Les trois niveaux existent, mais ni les jeux imposés ni leur progression n'ont été documentés. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2882,16 +3014,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mue-1493/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUE-1493.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Les trois niveaux existent, mais ni les jeux imposés ni leur progression n'ont été documentés. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2899,16 +3036,22 @@
       "material_file": null,
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/udem/MUE-1531/exemple.mid",
+      "explanation_location": "docs/courses/udem/MUE-1531.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "La notice ne donne ni les airs, ni les versions, ni une progression musicale entre 1531 et 1532. MIDI original AnaMu sans attribution au cours."
     },
     {
       "institution": "udem",
@@ -2916,16 +3059,22 @@
       "material_file": null,
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/udem/MUE-1532.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "La notice ne donne ni les airs, ni les versions, ni une progression musicale entre 1531 et 1532. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2933,16 +3082,21 @@
       "material_file": null,
       "course_coverage": "usable_first_pass",
       "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/udem/MUE-1571.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Les codes 1571–1573 sont des options de cursus, pas une preuve de difficulté ou de pièce assignée. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2950,16 +3104,21 @@
       "material_file": null,
       "course_coverage": "usable_first_pass",
       "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/udem/MUE-1572.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Les codes 1571–1573 sont des options de cursus, pas une preuve de difficulté ou de pièce assignée. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -2967,16 +3126,21 @@
       "material_file": null,
       "course_coverage": "usable_first_pass",
       "source_url": "https://musique.umontreal.ca/etudier/ensembles-facultaires/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse et création musicales adaptées à la pratique d'ensemble attestée",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/udem/MUE-1573.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "Les codes 1571–1573 sont des options de cursus, pas une preuve de difficulté ou de pièce assignée. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -3027,16 +3191,21 @@
       "material_file": null,
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "matière de groupe/section encore indéterminée",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED",
+        "UNKNOWN"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/udem/MUE-2351.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "L'atelier ne fournit ni instrumentation commune, ni protocole spécifique au niveau 1 ou 2. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
@@ -3044,16 +3213,21 @@
       "material_file": null,
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "matière de groupe/section encore indéterminée",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED",
+        "UNKNOWN"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/udem/MUE-2352.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir le programme d'ensemble et les parties propres à la section avant de dépasser ce premier domaine",
+      "limit_note": "L'atelier ne fournit ni instrumentation commune, ni protocole spécifique au niveau 1 ou 2. Aucun MIDI représentatif du répertoire non publié."
     },
     {
       "institution": "udem",
