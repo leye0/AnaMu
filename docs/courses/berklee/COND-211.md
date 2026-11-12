@@ -21,7 +21,7 @@ Le support comparable a sa propre provenance. Le plan de section, le répertoire
 
 ### Apprentissage ou domaine 1 — Battue et gestes préparatoires
 
-**Provenance :** apprentissage annoncé ou procédure adaptée au domaine, sans consigne de section attribuée. **Catégorie :** `VIDEO_REQUIRED / CONTEXT_REQUIRED / MIDI_PROXY` (`VIDEO_REQUIRED` est une précision de format associée à `CONTEXT_REQUIRED`).
+**Provenance :** apprentissage annoncé ou procédure adaptée au domaine, sans consigne de section attribuée. **Catégorie :** `CONTEXT_REQUIRED / MIDI_PROXY` (la vidéo requise est explicitée dans la procédure).
 
 **Méthode pour analyser :** 1. Obtenir une captation de direction et un conducteur avec tempo et signatures. 2. Suivre la position et le mouvement de la main/baguette, détecter les points d'ictus et aligner leurs dates avec les attaques acoustiques. 3. Mesurer anticipations et réponses en contexte d'ensemble, puis demander une validation humaine. 4. Le MIDI peut servir de grille temporelle **mais ne contient ni posture, ni trajectoire des mains**.
 
@@ -31,7 +31,7 @@ Le support comparable a sa propre provenance. Le plan de section, le répertoire
 
 ### Apprentissage ou domaine 2 — Nuances, articulations et direction d'ensemble
 
-**Provenance :** apprentissage annoncé ou procédure adaptée au domaine, sans consigne de section attribuée. **Catégorie :** `VIDEO_REQUIRED / AUDIO_REQUIRED / CONTEXT_REQUIRED` (`VIDEO_REQUIRED` est une précision de format associée à `CONTEXT_REQUIRED`).
+**Provenance :** apprentissage annoncé ou procédure adaptée au domaine, sans consigne de section attribuée. **Catégorie :** `AUDIO_REQUIRED / CONTEXT_REQUIRED` (la vidéo requise est explicitée dans la procédure).
 
 **Méthode pour analyser :** 1. Relever indications du conducteur et gestes correspondants, puis analyser la réponse réelle des instrumentistes dans l'audio. 2. Distinguer intention gestuelle de son résultat sonore; les vélocités d'un MIDI ne sont pas un retour d'orchestre.
 
