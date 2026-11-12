@@ -1,4 +1,6 @@
-# AnaMu — 115 cours à contenu partiel : 87 recherches terminées, 28 actives
+# AnaMu — 115 cours à contenu partiel : 93 recherches terminées, 22 actives
+
+**NOUVELLE PASSE — 11 novembre 2026, suite :** [les 28 recherches encore actives ont été revues et sourcées à nouveau](raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md), puis **6 recherches à matière variable** ont été clôturées **en meilleur effort**, sans changer leur couverture `partial` : **Berklee CM-280, CM-360, MLAN-381; UdeM MUS 3411, MUS 3412; McGill MUEN 592**. Le registre contient maintenant **93 recherches publiques terminées / 22 actives / 8 familles à déplier**. Nouvelles preuves de section : [MUPD235 McGill hiver 2026 (PDF d'affichage enseignant)](https://www.mcgill.ca/music/files/music/music_research_mcliu_postings_winter_2026.pdf), [MUS1232/MUS6601 UdeM hiver 2027 (enseigne Méliane Laurier-Cromp)](https://musique.umontreal.ca/etudier/nos-programmes-detudes/seminaires/), [MUEN592 2024–2025 avec deux responsables identifiés](https://www.mcgill.ca/study/2024-2025/courses/muen-592). Aucun de ces documents ne vaut syllabus de cours complet; **263 utilisables / 115 partielles / 8 familles** inchangé.
 
 **NOUVEL ÉTAT DE RECHERCHE — 11 novembre 2026 :** sur les **115 contenus partiels**, **87 recherches publiques sont clôturées en meilleur effort**, et **28 restent actives**. Les **115 cartes demeurent `partial`** et les statuts historiques du syllabus ne changent pas. [Justifications cours par cours et critères de réouverture](raw-batches/2026-11-11-public-search-closure-87-partial-courses.md). Le champ `topic_outline.public_research.state` du [registre](data/course-material-progress.json) est la source d'autorité pour éviter de refaire les mêmes recherches. Une recherche close se **réouvre** en présence d'un vrai plan daté, de nouvelles sources pertinentes ou d'une instruction explicite. Les huit familles non dépliées restent ouvertes.
 
@@ -15,8 +17,8 @@
 | Priorité | Actifs | Recherche publique terminée | Cible |
 |---|---:|---:|---|
 | P0 | 10 | 0 | Théorie, histoire, analyse, direction : trouver des plans de section ou modèles propres au cours |
-| P1 | 13 | 10 | Tutorat, médiation, solfège : détails par niveau ou section |
-| P2 | 5 | 74 | Instruments, ensembles, cours à sujet variable |
+| P1 | 12 | 11 | Tutorat, médiation, solfège : détails par niveau ou section |
+| P2 | 0 | 79 | Instruments, ensembles, cours à sujet variable |
 | P3 | 0 | 3 | Stages, majeure restreinte, projets individuels |
 
 ## P0
@@ -40,7 +42,7 @@
 |---|---|---|
 | berklee : [COND-311](https://college.berklee.edu/courses/cond-311) | Partitions/rehearsal syllabus du cours spécifique, gestes et techniques plutôt que titre générique | [Lot précédent](raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md) |
 | berklee : [MLAN-375](https://college.berklee.edu/courses/mlan-375) | Programme de section et œuvres étudiées; composer-specific document | [Lot précédent](raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md) |
-| berklee : [MLAN-381](https://college.berklee.edu/courses/mlan-381) | Programme de section et œuvres étudiées; composer-specific document | [Lot précédent](raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md) |
+| berklee : [MLAN-381](https://college.berklee.edu/courses/mlan-381) | Programme de section et œuvres étudiées; composer-specific document | [Lot précédent](raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md) — **terminé : recherche publique (matière partielle)** |
 | mcgill : [MUCO 440D1](https://coursecatalogue.mcgill.ca/courses/muco-440d1/index.html) | Objectifs annuels de MUCO 440D1/D2, livrables spécifiques sans importer le minimum de MUCO 340 | [Lot précédent](raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md) — **terminé : recherche publique (matière partielle)** |
 | mcgill : [MUCO 440D2](https://coursecatalogue.mcgill.ca/courses/muco-440d2/index.html) | Objectifs annuels de MUCO 440D1/D2, livrables spécifiques sans importer le minimum de MUCO 340 | [Lot précédent](raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md) — **terminé : recherche publique (matière partielle)** |
 | mcgill : [MUPD 235](https://coursecatalogue.mcgill.ca/courses/mupd-235/index.html) | Syllabus avec études de cas, outils et objectifs professionnels explicitement attribués | [Lot précédent](raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md) |
@@ -66,9 +68,9 @@
 
 | Université / cours | Pièce recherchée | Dernier travail |
 |---|---|---|
-| berklee : [CM-280](https://college.berklee.edu/courses/cm-280) | Thème de session et plan de section (CM-280/CM-360), non catalogue générique | [Lot précédent](raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md) |
-| berklee : [CM-360](https://college.berklee.edu/courses/cm-360) | Thème de session et plan de section (CM-280/CM-360), non catalogue générique | [Lot précédent](raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md) |
-| mcgill : [MUEN 592](https://coursecatalogue.mcgill.ca/courses/muen-592/index.html) | Programme et séances du groupe MUEN 592, petits arrangements et jeux collectifs réellement documentés | [Lot précédent](raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md) |
+| berklee : [CM-280](https://college.berklee.edu/courses/cm-280) | Thème de session et plan de section (CM-280/CM-360), non catalogue générique | [Lot précédent](raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md) — **terminé : recherche publique (matière partielle)** |
+| berklee : [CM-360](https://college.berklee.edu/courses/cm-360) | Thème de session et plan de section (CM-280/CM-360), non catalogue générique | [Lot précédent](raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md) — **terminé : recherche publique (matière partielle)** |
+| mcgill : [MUEN 592](https://coursecatalogue.mcgill.ca/courses/muen-592/index.html) | Programme et séances du groupe MUEN 592, petits arrangements et jeux collectifs réellement documentés | [Lot précédent](raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md) — **terminé : recherche publique (matière partielle)** |
 | mcgill : [MUIN 180](https://coursecatalogue.mcgill.ca/courses/muin-180/index.html) | Plan de leçon par instrument/niveau, distinctions de MUIN 180/181/280/281 et examen 283 | [Lot précédent](raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md) — **terminé : recherche publique (matière partielle)** |
 | mcgill : [MUIN 181](https://coursecatalogue.mcgill.ca/courses/muin-181/index.html) | Plan de leçon par instrument/niveau, distinctions de MUIN 180/181/280/281 et examen 283 | [Lot précédent](raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md) — **terminé : recherche publique (matière partielle)** |
 | mcgill : [MUIN 280](https://coursecatalogue.mcgill.ca/courses/muin-280/index.html) | Plan de leçon par instrument/niveau, distinctions de MUIN 180/181/280/281 et examen 283 | [Lot précédent](raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md) — **terminé : recherche publique (matière partielle)** |
@@ -143,8 +145,8 @@
 | udem : [MUI 1483A](https://admission.umontreal.ca/cours-et-horaires/cours/mui-1483a/) | Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée | [Lot précédent](raw-batches/2026-11-11-udem-35-mui-audition-skill-evidence.md) — **terminé : recherche publique (matière partielle)** |
 | udem : [MUI 1523A](https://admission.umontreal.ca/cours-et-horaires/cours/mui-1523a/) | Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée | [Lot précédent](raw-batches/2026-11-11-udem-35-mui-audition-skill-evidence.md) — **terminé : recherche publique (matière partielle)** |
 | udem : [MUI 1533A](https://admission.umontreal.ca/cours-et-horaires/cours/mui-1533a/) | Plan de cours individuel instrument/voix, exercices et progression réellement suivis; distinguer audition d'entrée | [Lot précédent](raw-batches/2026-11-11-udem-35-mui-audition-skill-evidence.md) — **terminé : recherche publique (matière partielle)** |
-| udem : [MUS 3411](https://admission.umontreal.ca/cours-et-horaires/cours/mus-3411/) | Programme effectif 2026–2027 : conférences, sujets et œuvres | [Lot précédent](raw-batches/2026-11-11-udem-22-empty-course-enrichment.md) |
-| udem : [MUS 3412](https://admission.umontreal.ca/cours-et-horaires/cours/mus-3412/) | Programme effectif 2026–2027 : conférences, sujets et œuvres | [Lot précédent](raw-batches/2026-11-11-udem-22-empty-course-enrichment.md) |
+| udem : [MUS 3411](https://admission.umontreal.ca/cours-et-horaires/cours/mus-3411/) | Programme effectif 2026–2027 : conférences, sujets et œuvres | [Lot précédent](raw-batches/2026-11-11-udem-22-empty-course-enrichment.md) — **terminé : recherche publique (matière partielle)** |
+| udem : [MUS 3412](https://admission.umontreal.ca/cours-et-horaires/cours/mus-3412/) | Programme effectif 2026–2027 : conférences, sujets et œuvres | [Lot précédent](raw-batches/2026-11-11-udem-22-empty-course-enrichment.md) — **terminé : recherche publique (matière partielle)** |
 
 ## P3
 
