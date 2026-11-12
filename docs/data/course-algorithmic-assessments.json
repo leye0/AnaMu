@@ -10,11 +10,11 @@
     "course_choice_placeholder": "Program choice family, not one course; choose a concrete code"
   },
   "summary": {
-    "detailed_with_midi": 117,
-    "reviewed_with_limitation_no_midi": 161,
-    "not_yet_assessed": 100,
+    "detailed_with_midi": 119,
+    "reviewed_with_limitation_no_midi": 174,
+    "not_yet_assessed": 85,
     "choice_placeholders": 8,
-    "non_algorithmic_true": 8
+    "non_algorithmic_true": 9
   },
   "assessments": [
     {
@@ -6019,16 +6019,20 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://college.berklee.edu/courses/cm-280",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "indéterminé par projet de section",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/berklee/CM-280.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir sujet, répertoire et critères du projet ou de la section pour déterminer l'applicabilité musicale",
+      "limit_note": "**Pas de MIDI de cours** : l'objet publié exige des documents de section, audio/vidéo ou un cas professionnel réel."
     },
     {
       "institution": "berklee",
@@ -6643,16 +6647,20 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://college.berklee.edu/courses/cm-360",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "indéterminé par projet de section",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/berklee/CM-360.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir sujet, répertoire et critères du projet ou de la section pour déterminer l'applicabilité musicale",
+      "limit_note": "**Pas de MIDI de cours** : l'objet publié exige des documents de section, audio/vidéo ou un cas professionnel réel."
     },
     {
       "institution": "berklee",
@@ -6749,16 +6757,21 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://college.berklee.edu/courses/cm-495",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "indéterminé par projet de section",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "CONTEXT_REQUIRED",
+        "NOT_MUSIC_ALGORITHM"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/berklee/CM-495.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir sujet, répertoire et critères du projet ou de la section pour déterminer l'applicabilité musicale",
+      "limit_note": "**Pas de MIDI de cours** : l'objet publié exige des documents de section, audio/vidéo ou un cas professionnel réel."
     },
     {
       "institution": "berklee",
@@ -6766,16 +6779,22 @@
       "material_file": null,
       "course_coverage": "partial",
       "source_url": "https://college.berklee.edu/courses/cm-499",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "indéterminé par projet de section",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/berklee/CM-499.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir sujet, répertoire et critères du projet ou de la section pour déterminer l'applicabilité musicale",
+      "limit_note": "**Pas de MIDI de cours** : l'objet publié exige des documents de section, audio/vidéo ou un cas professionnel réel."
     },
     {
       "institution": "berklee",
@@ -7119,16 +7138,21 @@
       "material_file": null,
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cond-321",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse musicale directe ou réinvestissement contextualisé",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/berklee/COND-321.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Confronter la procédure aux matériaux et médias réels de la section",
+      "limit_note": "**Pas de MIDI de cours** : l'objet publié exige des documents de section, audio/vidéo ou un cas professionnel réel."
     },
     {
       "institution": "berklee",
@@ -7136,16 +7160,21 @@
       "material_file": null,
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cond-322",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse musicale directe ou réinvestissement contextualisé",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/berklee/COND-322.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Confronter la procédure aux matériaux et médias réels de la section",
+      "limit_note": "**Pas de MIDI de cours** : l'objet publié exige des documents de section, audio/vidéo ou un cas professionnel réel."
     },
     {
       "institution": "berklee",
@@ -7153,16 +7182,22 @@
       "material_file": null,
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cond-331",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "analyse musicale directe ou réinvestissement contextualisé",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/COND-331/exemple.mid",
+      "explanation_location": "docs/courses/berklee/COND-331.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Confronter la procédure aux matériaux et médias réels de la section",
+      "limit_note": "**MIDI original** : mesures 1–4 groove à 128 bpm, 5–7 ralentissement (110, 96, 80 bpm), 8 retour à 114 bpm; la direction humaine reste à évaluer en vidéo."
     },
     {
       "institution": "berklee",
@@ -7170,16 +7205,22 @@
       "material_file": null,
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cond-332",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "indéterminé par projet de section",
+      "algorithmic_tags": [
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED",
+        "NOT_MUSIC_ALGORITHM",
+        "UNKNOWN"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/berklee/COND-332.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir sujet, répertoire et critères du projet ou de la section pour déterminer l'applicabilité musicale",
+      "limit_note": "**Pas de MIDI de cours** : l'objet publié exige des documents de section, audio/vidéo ou un cas professionnel réel."
     },
     {
       "institution": "berklee",
@@ -7187,16 +7228,21 @@
       "material_file": null,
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cond-334",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse musicale directe ou réinvestissement contextualisé",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/berklee/COND-334.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Confronter la procédure aux matériaux et médias réels de la section",
+      "limit_note": "**Pas de MIDI de cours** : l'objet publié exige des documents de section, audio/vidéo ou un cas professionnel réel."
     },
     {
       "institution": "berklee",
@@ -7204,16 +7250,21 @@
       "material_file": null,
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cond-341",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse musicale directe ou réinvestissement contextualisé",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/berklee/COND-341.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Confronter la procédure aux matériaux et médias réels de la section",
+      "limit_note": "**Pas de MIDI de cours** : l'objet publié exige des documents de section, audio/vidéo ou un cas professionnel réel."
     },
     {
       "institution": "berklee",
@@ -7221,16 +7272,21 @@
       "material_file": null,
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cond-351",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse musicale directe ou réinvestissement contextualisé",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/berklee/COND-351.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Confronter la procédure aux matériaux et médias réels de la section",
+      "limit_note": "**Pas de MIDI de cours** : l'objet publié exige des documents de section, audio/vidéo ou un cas professionnel réel."
     },
     {
       "institution": "berklee",
@@ -7238,16 +7294,22 @@
       "material_file": null,
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cond-355",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "analyse musicale directe ou réinvestissement contextualisé",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/berklee/COND-355/exemple.mid",
+      "explanation_location": "docs/courses/berklee/COND-355.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Confronter la procédure aux matériaux et médias réels de la section",
+      "limit_note": "**MIDI original** : réduction clavier et parties de vents sur huit mesures; la réduction est indicative et non une partie de conducteur officiel."
     },
     {
       "institution": "berklee",
@@ -7255,16 +7317,21 @@
       "material_file": null,
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cond-361",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "analyse musicale directe ou réinvestissement contextualisé",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/berklee/COND-361.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Confronter la procédure aux matériaux et médias réels de la section",
+      "limit_note": "**Pas de MIDI de cours** : l'objet publié exige des documents de section, audio/vidéo ou un cas professionnel réel."
     },
     {
       "institution": "berklee",
@@ -7272,16 +7339,20 @@
       "material_file": null,
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cond-391",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "aucun algorithme de musique sur matière attestée",
+      "algorithmic_tags": [
+        "NOT_MUSIC_ALGORITHM",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": true,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/berklee/COND-391.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Confronter la procédure aux matériaux et médias réels de la section",
+      "limit_note": "**Pas de MIDI de cours** : l'objet publié exige des documents de section, audio/vidéo ou un cas professionnel réel."
     },
     {
       "institution": "berklee",
@@ -7311,16 +7382,22 @@
       "material_file": null,
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cond-498",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "indéterminé par projet de section",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
-      "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "explanation_location": "docs/courses/berklee/COND-498.md",
+      "unresolved_content": true,
+      "last_reviewed": "2026-11-12",
+      "next_action": "Obtenir sujet, répertoire et critères du projet ou de la section pour déterminer l'applicabilité musicale",
+      "limit_note": "**Pas de MIDI de cours** : l'objet publié exige des documents de section, audio/vidéo ou un cas professionnel réel."
     },
     {
       "institution": "berklee",
