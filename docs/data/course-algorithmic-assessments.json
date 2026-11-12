@@ -10,9 +10,9 @@
     "course_choice_placeholder": "Program choice family, not one course; choose a concrete code"
   },
   "summary": {
-    "detailed_with_midi": 71,
-    "reviewed_with_limitation_no_midi": 24,
-    "not_yet_assessed": 283,
+    "detailed_with_midi": 73,
+    "reviewed_with_limitation_no_midi": 33,
+    "not_yet_assessed": 272,
     "choice_placeholders": 8,
     "non_algorithmic_true": 2
   },
@@ -129,16 +129,21 @@
       "material_file": "docs/courses/udem/MTE-1205.md",
       "course_coverage": "partial",
       "source_url": "https://admission.umontreal.ca/cours-et-horaires/cours/mte-1205/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "non déterminable sans contenu de section",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "CONTEXT_REQUIRED",
+        "MIDI_PROXY"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MTE-1205.md",
       "unresolved_content": true,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire real course-specific media, score or syllabus before generating a faithful musical demonstration",
+      "limit_note": "Œuvres et méthodes de la première moitié du XXe siècle non publiées pour la section; ne pas attribuer une technique spécifique sans preuve."
     },
     {
       "institution": "udem",
@@ -1157,16 +1162,20 @@
       "material_file": "docs/courses/udem/MTE-3114.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/udem/MTE-3114/exemple.mid",
+      "explanation_location": "docs/courses/udem/MTE-3114.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue documenting other evidenced course outcomes; original example does not mean complete syllabus"
     },
     {
       "institution": "udem",
@@ -1174,16 +1183,21 @@
       "material_file": "docs/courses/udem/MTE-3115.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, média autre que MIDI requis",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MTE-3115.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire real course-specific media, score or syllabus before generating a faithful musical demonstration",
+      "limit_note": "L'orchestration historique et les conventions de notation exigent une partition datée, des transpositions et audio; un MIDI de style inventé serait trompeur."
     },
     {
       "institution": "udem",
@@ -1191,16 +1205,21 @@
       "material_file": "docs/courses/udem/MTE-3115X.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, média autre que MIDI requis",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MTE-3115X.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire real course-specific media, score or syllabus before generating a faithful musical demonstration",
+      "limit_note": "La pratique stylistique change selon l'époque et l'effectif; les œuvres de section et le syllabus ne sont pas connus."
     },
     {
       "institution": "udem",
@@ -1250,16 +1269,20 @@
       "material_file": "docs/courses/udem/MUS-1217.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, média autre que MIDI requis",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUS-1217.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire real course-specific media, score or syllabus before generating a faithful musical demonstration",
+      "limit_note": "La typomorphologie de l'objet sonore et le paysage sonore se démontrent par audio, spectre et écoute, pas par notes seules."
     },
     {
       "institution": "udem",
@@ -1330,16 +1353,21 @@
       "material_file": "docs/courses/udem/MUS-2327.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, média autre que MIDI requis",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUS-2327.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire real course-specific media, score or syllabus before generating a faithful musical demonstration",
+      "limit_note": "Histoire et techniques d'audio pour jeux demandent exemples de gameplay et d'événements; interactivité précise non documentée dans ce cours 1."
     },
     {
       "institution": "udem",
@@ -1347,16 +1375,21 @@
       "material_file": "docs/courses/udem/MUS-2328.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, média autre que MIDI requis",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "CONTEXT_REQUIRED",
+        "MIDI_PROXY"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/udem/MUS-2328.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire real course-specific media, score or syllabus before generating a faithful musical demonstration",
+      "limit_note": "Musiques interactives Wwise et cinématiques demandent projets, machine d'états et audio multi-branches; un MIDI linéaire serait insuffisant."
     },
     {
       "institution": "udem",
@@ -4284,16 +4317,20 @@
       "material_file": "docs/courses/mcgill/MUTH-528.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, média autre que MIDI requis",
+      "algorithmic_tags": [
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/mcgill/MUTH-528.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire real course-specific media, score or syllabus before generating a faithful musical demonstration",
+      "limit_note": "Les graphes et prolongations schenkeriens demandent notation à niveaux et justification analytique."
     },
     {
       "institution": "mcgill",
@@ -4301,16 +4338,21 @@
       "material_file": "docs/courses/mcgill/MUTH-538.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "non déterminable sans contenu de section",
+      "algorithmic_tags": [
+        "UNKNOWN",
+        "CONTEXT_REQUIRED",
+        "MIDI_DIRECT"
+      ],
       "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/mcgill/MUTH-538.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire real course-specific media, score or syllabus before generating a faithful musical demonstration",
+      "limit_note": "Liste variable de modèles mathématiques possibles, sans sujet de section réellement confirmé pour cette année."
     },
     {
       "institution": "mcgill",
@@ -4318,16 +4360,19 @@
       "material_file": "docs/courses/mcgill/MUTH-539.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://www.mcgill.ca/music/programs/bmus/music-composition/requirements",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
-      "example_midi": null,
-      "explanation_location": null,
+      "review_state": "first_learning_analyzed_with_midi",
+      "contribution": "directe",
+      "algorithmic_tags": [
+        "MIDI_DIRECT",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "one_or_more_attested_learning_examples_only",
+      "example_midi": "docs/courses/mcgill/MUTH-539/exemple.mid",
+      "explanation_location": "docs/courses/mcgill/MUTH-539.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Continue documenting other evidenced course outcomes; original example does not mean complete syllabus"
     },
     {
       "institution": "berklee",
@@ -5905,16 +5950,21 @@
       "material_file": "docs/courses/berklee/CM-357.md",
       "course_coverage": "usable_first_pass",
       "source_url": "https://college.berklee.edu/courses/cm-357",
-      "review_state": "not_yet_assessed",
-      "contribution": null,
-      "algorithmic_tags": [],
-      "non_algorithmic": null,
-      "learning_scope": "not_yet_evaluated",
+      "review_state": "first_scope_assessed_without_midi",
+      "contribution": "directe ou indirecte, média autre que MIDI requis",
+      "algorithmic_tags": [
+        "AUDIO_REQUIRED",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED"
+      ],
+      "non_algorithmic": false,
+      "learning_scope": "limited_to_available_course_evidence",
       "example_midi": null,
-      "explanation_location": null,
+      "explanation_location": "docs/courses/berklee/CM-357.md",
       "unresolved_content": false,
-      "last_reviewed": null,
-      "next_action": "Apply docs/COURSE_ANALYSIS_TEMPLATE.md to the actual course sheet, citing its specific official topics"
+      "last_reviewed": "2026-11-12",
+      "next_action": "Acquire real course-specific media, score or syllabus before generating a faithful musical demonstration",
+      "limit_note": "Les techniques de composition électronique et mixte demandent signaux audio/patches et documentation du dispositif."
     },
     {
       "institution": "berklee",
