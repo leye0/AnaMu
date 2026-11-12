@@ -11,3 +11,18 @@ B. Mus. Composition McGill, édition 2026. Cours obligatoire recensé. Sources p
 ## Lacunes et reprise
 
 Obtenir le plan complet de la section et les sujets de travaux autres que Debussy. Les captures d’une vraie section et la maquette illustrative ont des niveaux de preuve distincts.
+
+
+## Application à l'analyse et à la création — première passe (11 novembre 2026)
+
+**Contribution : directe à l'analyse et à la création.** [Source institutionnelle pour ce cours](https://www.mcgill.ca/music/files/music/orchestration_placement_exam.pdf) et documentation préexistante dans cette fiche. [MIDI original de démonstration](./MUCO-360/exemple.mid), **pas un exercice officiel de la section**.
+
+### Apprentissage traité : Répartir un thème, ses harmonies et la basse par registres orchestraux
+
+**Analyser un morceau (procédure) :** 1. Lire notes et programmes des canaux. 2. Chercher la ligne mélodique continue et le support par accords tenus. 3. Évaluer chevauchements de registres, changements de densité, doublures et dynamiques MIDI. 4. Soumettre les hypothèses de crescendo, équilibre et articulation à une écoute d'échantillons ou d'instruments réels.
+
+**Introduire ce savoir dans une composition (procédure) :** 1. Choisir un thème original. 2. Confier la mélodie à la flûte, les accords soutenus aux cordes et la basse au violoncelle. 3. Définir les transitions de densité. 4. Ajuster la conduite des voix et les couches sonores, sans prétendre reproduire l'extrait de Debussy de l'examen.
+
+**Exemple / limites :** La source est une épreuve d'orchestration/placement; l'exemple MIDI est une mélodie originale, pas le Passepied de Debussy ni une réalisation de MUCO360.
+
+**Applicabilité :** `MIDI_PROXY, AUDIO_REQUIRED` ; `non_algorithmique=false`. Les autres apprentissages du cours restent à examiner, sans inventer leur programme précis.
