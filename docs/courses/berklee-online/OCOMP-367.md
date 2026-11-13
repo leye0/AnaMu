@@ -79,3 +79,23 @@ Les partitions citées explicitement incluent *Voiles*, *La Cathédrale englouti
 **Analyse.** Marquer trois frontières candidates indépendantes : changement de collection, changement d’allure, retour d’un motif précis. Les m. 42 et 48 sont pertinentes pour les collections. Pour un retour motivique, m. 58 peut être plus informatif que m. 48. L’existence de notes et de motifs communs ne supprime pas le contraste de section. Inversement, un seul changement de collection ne prouve pas une rupture de tous les paramètres. Comparer avec [MUTH-350](../mcgill/MUTH-350.md) pour la distinction entre collection et centre à l’ouverture.
 
 **Création.** Écrire deux blocs originaux avec une figure de basse commune. Modifier la collection du second bloc sans changer sa vitesse, puis modifier uniquement la vitesse dans une autre version. Réintroduire enfin le motif initial après le rétablissement de sa collection. Relever les frontières qui changent et celles qui restent distinctes. Aucun MIDI ajouté pour cette lecture de partition. La proposition sur papier n’est pas présentée comme une observation d’auditeurs.
+
+## Application à l'analyse et à la création — changer de relation n'est pas toujours changer de tonalité (13 novembre 2026)
+
+**Preuve du cours.** Le [plan OCOMP-367](https://online.berklee.edu/courses/contemporary-techniques-in-music-composition-1#syllabus) cite *The Cage* de Charles Ives à la leçon 5 (harmonie quartale), puis traite de direction harmonique et de dispositifs cadentiels à la leçon 6. Le passage et la lecture ci-dessous sont ceux d'AnaMu et de la source d'analyse citée, pas une correction Berklee.
+
+**Cas de répertoire.** Au premier départ du chant, le fa♯ coïncide avec la classe de hauteur du membre central du premier empilement quartal de piano sous la voix. Quand le chant revient à fa♯ au deuxième accord de ce passage, la même classe de hauteur se trouve cette fois à une quarte sous le sommet de l'empilement. Le ré vocal coïncide ensuite avec la note supérieure du troisième accord. Suivre ces trois positions (milieu, un degré quartal plus haut, sommet) dans l'[édition de *The Cage*](https://imslp.org/wiki/114_Songs_%28Ives%2C_Charles_Edward%29#LXIV._The_Cage) et l'[analyse de Scott Murphy, p. 185](https://doi.org/10.1017/S1478572209990041). La direction relative existe même quand le chant revient à la même note. Elle ne constitue pas une preuve de changement de tonique.
+
+**Analyser et réinvestir.** Relever séparément la hauteur du chant et sa position dans l'accord de piano ramené à une pile de quartes. Comparer avec une version originale où le chant et la pile se transposent ensemble. Dans cette variante, les hauteurs changent mais la position relative ne change pas. Ce sont des relations symboliques, distinctes de leur perception ou d'une interprétation du texte.
+
+### MIDI original — même arrivée en sol, deux suites
+
+**Rôle du témoin tonal.** La [démonstration AnaMu](./OCOMP-367/exemple.mid) sert de contraste pour la leçon 6. Elle n'imite pas Ives et n'est pas un exercice officiel. À l'inverse d'une direction mesurée à l'intérieur d'un empilement, le centre en jeu ici s'évalue à l'échelle de la phrase et de sa continuation.
+
+| Mesures | Harmonie | Lecture à vérifier |
+|---|---|---|
+| 1–6 et 11–16 | C–F–G7–C–D7–G | Ouverture en do, puis arrivée locale sur sol. Les 30 attaques de chaque ouverture sont identiques à la position relative près. Le chant arrive sur si au-dessus de sol. |
+| 7–10 | G7–C–G7–C | Sol devient dominante de do dès la mes. 7. La fin en do sur si–do au chant confirme le détour local. |
+| 17–20 | Am–D7–G–G | La mineur devient ii, ré7 prépare la cadence en sol (fa♯–sol au chant, ré–sol à la basse) et la dernière mesure prolonge le nouvel appui. |
+
+**Contrôle.** Deux blocs de 10 mesures à 4/4, noire = 92, même instrumentation et même grille de 5 attaques par mesure (basse, trois notes d'harmonie et chant). Le MIDI contient 100 attaques. Comparer d'abord les deux ouvertures arrêtées sur sol, puis les deux blocs entiers. Seules les hauteurs des suites changent. Il n'y a aucun changement d'armure encodé, ni de seuil en nombre de mesures qui transformerait automatiquement une tonicisation en modulation. `MIDI_DIRECT / CONTEXT_REQUIRED`.

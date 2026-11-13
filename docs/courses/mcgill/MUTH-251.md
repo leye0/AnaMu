@@ -106,3 +106,15 @@ Chercher le plan de section, les exercices, les lectures et les évaluations att
 **Analyse.** Conserver séparément les hauteurs, la graphie et les notes proposées par la réduction. On peut retenir la correspondance enharmonique comme fait, privilégier une explication linéaire pour ce passage, et laisser explicite le désaccord sur l’harmonie sous-entendue. Aucun décompte de demi-tons ne tranche à lui seul entre ces niveaux.
 
 **Création.** Composer deux passages originaux qui partagent une même simultanéité. En conserver les registres et faire varier seulement les lignes qui en sortent, vers deux destinations distinctes. Noter ensuite chaque graphie en fonction de sa conduite de voix. Comparer la réduction des lignes avant de comparer les noms d’accord. Aucun MIDI ajouté à cette fiche. Le MIDI existant ne conserve pas à lui seul l’orthographe ni la réduction.
+
+## Application à l'analyse et à la création — changer la fonction d'un accord sans réécrire ses notes (13 novembre 2026)
+
+**Preuve du cours.** L'harmonie chromatique attestée pour MUTH 251 motive ce comparateur. Il ne s'agit ni d'une œuvre attribuée à une section ni d'un ajout aux consignes McGill.
+
+**Cas de répertoire.** Dans la Valse op. 39 no 14 de Brahms, [Bryn Hughes, exemple 7](https://viva.pressbooks.pub/openmusictheory/chapter/reinterpreting-augmented-sixth-chords/), analyse un passage de la **région locale** de sol majeur vers mi majeur. La triade diminuée **fa♯–la–do**, avec la à la basse, se lit **vii°6 de sol** ou **ii°6 emprunté à mi mineur** dans la nouvelle région majeure. Les notes et la fondamentale de cette triade restent les mêmes. Ce qui change, c'est le **degré** et la **fonction** de l'accord. Le cas ne demande ni la symétrie d'une septième diminuée ni un changement d'orthographe comme dans [*Widmung*](../berklee/CM-212.md).
+
+**Analyser.** Distinguer la basse réelle (la), la fondamentale (fa♯) et le degré par rapport à chaque tonique. Tester la suite de l'extrait. Un fa♯ traité comme sensible de sol soutiendrait une lecture locale en sol. Une préparation de si, dominante de mi, fait préférer la lecture prédominante. La triade seule est compatible avec les deux.
+
+**Créer.** Préparer fa♯°/la en sol. Écrire une résolution vers sol, puis une variante vers si7–mi qui garde l'orthographe de fa♯°/la. Comparer ce qui change dans les trajectoires des voix, notamment si fa♯ monte à sol ou peut rester présent dans si7.
+
+**Limite.** On peut retrouver les classes de hauteurs et la basse dans un MIDI. Déterminer le degré suppose d'évaluer les régions avant et après le pivot. `MIDI_DIRECT / CONTEXT_REQUIRED`.
