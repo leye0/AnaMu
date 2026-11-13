@@ -53,3 +53,35 @@ Le document est un exercice de classement aux cycles supérieurs. Vérifier le p
 - **Drapeau :** `non_algorithmique=false`.
 - **Exemple MIDI :** [étude originale](./MUTH-302/exemple.mid) ; seules les observations explicitement décrites ci-dessus sont revendiquées.
 - **Reste à documenter :** corpus, méthodes et évaluations véritables de la section; aucune promotion de `topic_outline.state`.
+
+## Deuxième passe qualitative — préparation et conséquence en polyphonie modale (12 novembre 2026)
+
+**Attestation et statut.** Les [exigences McGill 2026–2027](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) décrivent **MUTH 302** comme la poursuite du contrepoint modal Renaissance par analyse et exercices écrits en **trois voix ou davantage**. **Le cours est indiqué comme non offert actuellement**. L'ancien diagnostic de classement aux cycles supérieurs reste un **comparateur**, non un exercice d'une section 2026. Les trois démarches sont **AnaMu** et ne prétendent ni rétablir un syllabus absent ni énoncer un traité historique universel. Le [MIDI initial](./MUTH-302/exemple.mid) montre trois lignes modales, **pas une imitation stricte avérée**.
+
+### Q1 — Une entrée imitée : préparation thématique ou ressemblance due à une échelle commune ?
+
+**Analyser.** Sur une partition polyphonique Renaissance **identifiée**, extraire chaque voix comme séquence d'intervalles ordonnés et durées relatives; relever l'idée de départ et les nouvelles entrées candidates avec leur retard. Exiger plus qu'un contour ascendant générique : comparer rythme, taille des intervalles, articulation et relation au début d'une nouvelle phrase. Tester deux hypothèses : entrée préparée par mémoire du motif versus simple mouvement conjoint partagé dans la collection modale; consigner des cas négatifs dans l'œuvre.
+
+**Composer et comparer.** Écrire un motif modal original distinctif; produire A avec trois entrées différées conservant ses intervalles, B avec les mêmes degrés mais sans identité rythmique reconnaissable, en gardant durée et tessitures comparables. Écouter si les entrées de A semblent répondre à la première; contrôler les rencontres simultanées selon le système déclaré.
+
+**Faux positifs / supports.** La similarité de profils courts ne prouve ni procédé imitatif historique ni intention du compositeur. Le MIDI présent **n'établit pas** les entrées strictes des expériences A/B. `MIDI_DIRECT / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+### Q2 — Dissonance et résolution : vérifier la chaîne de préparation plutôt qu'une succession d'intervalles
+
+**Analyser.** Pour chaque dissonance candidate, reconstruire les notes **réellement tenues et attaquées** dans plusieurs voix avant, pendant et après l'événement; annoter l'accent, l'approche de chaque ligne, puis la sortie. Comparer « suspension préparée qui devient dissonante par changement d'une autre voix » et « dissonance non préparée ou note de passage » selon un cadre modal historiquement justifié. La dissonance ne « cause » pas mécaniquement sa résolution : c'est une **relation fonctionnelle interprétée dans une syntaxe donnée**.
+
+**Composer et comparer.** Concevoir deux voix consonantes, maintenir une note pendant que l'autre change puis la faire résoudre par degré conjoint; comparer à une version qui attaque directement la même hauteur dissonante sans préparation. Ajouter une troisième voix au repos ou en ligne complémentaire et contrôler si son insertion change réellement le statut vertical.
+
+**Faux positifs / supports.** Un intervalle dissonant suivi d'un consonant ne suffit pas à définir une suspension; les règles des styles historiques et les fins de phrases diffèrent. `MIDI_DIRECT / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+### Q3 — Une cadence collective : conséquence de plusieurs lignes, pas juste de leur arrêt simultané
+
+**Analyser.** Cartographier les fins locales, relais d'entrées, tenues et directions de chaque voix. Vérifier si les deux voix cadentielles font effectivement un mouvement de clôture pendant qu'une troisième prolonge la texture, ou si l'ensemble interrompt simplement son activité. Comparer le diagnostic fondé sur une seule ligne à celui fondé sur les trois et établir les endroits où l'une des lectures échoue.
+
+**Composer et comparer.** Produire une courte conclusion à trois voix avec arrivée coordonnée, puis une variante où une voix poursuit le motif pendant que les deux autres se reposent; conserver le même matériau cadentiel pour tester si l'absence de fermeture collective transforme la fonction perçue. Contrôler les inflexions et voix tenues sur partition avant écoute.
+
+**Faux positifs / supports.** Trois notes longues finales ne constituent pas nécessairement une cadence Renaissance; le registre ou le silence seul n'identifie pas le centre modal. Le MIDI initial ne certifie pas la correction d'un modèle historique. `MIDI_DIRECT / MIDI_PROXY / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+**Passerelles analytiques, non cours commun :** [MUTH-202](./MUTH-202.md) documente les exercices modaux à deux et trois voix; [MUTH-304](./MUTH-304.md) étudie **un autre** cadre tonal fugué, [CP-215](../berklee/CP-215.md) la récurrence thématique et [CM-103](../berklee/CM-103.md) l'isolement expérimental.
+
+**Bilan :** trois protocoles dissociant parenté thématique, relation de dissonance et articulation collective; `non_algorithmique=false`, statut académique non offert et premier MIDI inchangés.

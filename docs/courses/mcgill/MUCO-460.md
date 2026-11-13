@@ -33,3 +33,37 @@ Demander le plan et les projets de la section à Schulich. Le support d’atelie
 - **Applicabilité :** `non_algorithmique=null` (une valeur nulle signifie preuve insuffisante).
 - **MIDI :** aucun; documenter audio, partition ou matière réelle avant une démonstration.
 - **Lacunes :** contenu exact de section et supports d'évaluation; les statuts académiques de la fiche restent inchangés.
+
+## Mise à jour de provenance institutionnelle — notice 2026–2027 (12 novembre 2026)
+
+La [grille officielle du B.Mus. Composition 2026–2027 de McGill](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) apporte une **description de contenu propre au code MUCO 460**, plus précise que l'état des recherches noté en tête de fiche : cours **Orchestration 3** offert **automne 2026**, **analyse de techniques d'orchestration avancées**, examen de théories et pratiques de compositeurs **notamment du XXe siècle**, avec **étude de techniques étendues**. La première évaluation, qui ne connaissait que l'intitulé « Orchestration 3 » et enregistrait `non_algorithmique=null`, est un **bilan historique de source insuffisante**. Cette notice actuelle permet désormais de définir des **domaines musicaux avérés**, mais **ne publie ni syllabus de section, ni œuvres, ni techniques précises prescrites, ni travaux évalués**. Les trois protocoles ci-dessous sont donc proposés par **AnaMu** et ne remplacent pas le plan de cours absent. **Aucun MIDI de cours n'est créé**; le statut du registre d'audit reste inchangé dans ce lot documentaire.
+
+## Deuxième passe qualitative — mécanismes et contre-épreuves d'orchestration avancée (12 novembre 2026)
+
+### Q1 — La même matière change-t-elle de rôle lorsque l'orchestration change ?
+
+**Analyser une œuvre.** Disposer d'un conducteur et d'une captation sourcés. Construire une réduction **en hauteurs de concert** de la mélodie, de la basse et des accords puis repérer sa distribution réelle : doublures d'octave, relais, contrechants, pédales, attaques simultanées ou complémentaires. Distinguer la comparaison « même matière, effectifs différents » de « matières différentes jouées par effectifs différents »; si les deux changent, ne pas attribuer le contraste à l'orchestration seule.
+
+**Composer et comparer.** Réaliser une miniature originale de huit mesures avec notes structurelles fixes; produire A en petit effectif transparent et B avec redistribution des mêmes voix entre plusieurs familles. Si possible garder les mêmes dynamiques et le même tempo, en notant que la sonorité propre des instruments reste une variable indissociable de leur choix. Comparer intelligibilité du thème et équilibre acoustique en enregistrement ou maquette réaliste.
+
+**Faux positifs / catégorie.** Ajouter des pistes GM peut augmenter le nombre de canaux sans produire un changement perceptuel cohérent; le MIDI seul ne démontre ni balance ni timbre instrumental réel. `MIDI_DIRECT / MIDI_PROXY / AUDIO_REQUIRED / CONTEXT_REQUIRED`.
+
+### Q2 — Techniques étendues : relier notation, geste et résultat plutôt qu'inférer le son
+
+**Analyser.** Pour un passage de technique étendue **explicitement notée et identifié**, réunir partition, légende, instrument, geste observable ou description du musicien et audio. Établir une chaîne d'évidence : **instruction écrite → action instrumentale → phénomène acoustique**, en notant où elle n'est pas vérifiée. Confronter une lecture par hauteur abstraite à la forme d'attaque, bruit résiduel, composantes spectrales et durée réellement audibles; tester l'hypothèse alternative d'un mode de jeu normal qui produirait une texture analogue.
+
+**Composer et comparer.** Choisir avec un interprète une technique étendue **possible pour son instrument précis**; noter clairement le geste et préparer une version conventionnelle de même durée et hauteur approximative, puis enregistrer les deux. Confronter lisibilité, reproductibilité et rôle expressif, et modifier la notation si le résultat attendu n'apparaît pas.
+
+**Faux positifs / catégorie.** Une note MIDI avec pitch bend, vélocité extrême ou programme spécial ne prouve pas glissando réel, multifonique, souffle ou bruit de clé; aucune de ces techniques **particulières** n'est annoncée comme devoir de MUCO 460. `AUDIO_REQUIRED / MIDI_PROXY / CONTEXT_REQUIRED`.
+
+### Q3 — Préparer une arrivée par relais et masquage : tester les alternatives orchestrales
+
+**Analyser.** Sur plusieurs sections d'une pièce sourcée, aligner entrées de pupitres, hauteurs structurelles, densité, registre, nuances notées et spectre audio. Vérifier si un relais instrumental rend la ligne **plus identifiable** avant une arrivée, ou si une autre couche masque l'élément censé préparer la reprise. Tester deux lectures : « progression harmonique décisive » versus « redistribution orchestrale décisive » en décrivant les indices soutenant chacune.
+
+**Composer et comparer.** Garder une progression mélodico-harmonique originale fixe et écrire trois orchestrations : A relais préparant l'arrivée du thème, B doublures épaisses qui risquent de le masquer, C effectif stable avec changement de dynamique seul. Enregistrer ou rendre les trois de manière comparable et demander si la préparation est effectivement perceptible.
+
+**Faux positifs / catégorie.** Un pic de niveau, un tutti ou le passage d'un thème au cuivre ne « causent » pas automatiquement une résolution; l'acoustique, les gestes, l'écoute et l'histoire de la phrase comptent. Ces expériences ne sont **pas des travaux confirmés** du cours. `MIDI_PROXY / AUDIO_REQUIRED / CONTEXT_REQUIRED`.
+
+**Passerelles conceptuelles sans équivalence pédagogique :** [MUCO-360](./MUCO-360.md) documente réduction et transcription pour orchestre; [CM-441](../berklee/CM-441.md) traite orchestration et rôle instrumental; [CM-103](../berklee/CM-103.md) explicite le test par variation contrôlée; [CM-497](../berklee/CM-497.md) pose la relation entre préparation et section suivante.
+
+**Bilan :** source officielle 2026 nouvelle signalée, trois protocoles attribuables au **domaine** d'orchestration avancée mais non à un programme de section. La fiche devient plus exacte sans faire passer une expérience AnaMu pour une leçon réellement donnée. Drapeau historique `non_algorithmique=null` et comptes du registre préservés, **sans prétendre que les compétences d'orchestration avancée ne seraient pas algorithmisables**.
