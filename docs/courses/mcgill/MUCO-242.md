@@ -56,3 +56,35 @@ Le niveau de transfert de ces outils à la section MUCO 242 et le répertoire de
 - **Drapeau :** `non_algorithmique=false` (au moins une compétence traduisible en méthode de détection/composition).
 - **Exemple :** [MIDI original](./MUCO-242/exemple.mid), non attribué à McGill.
 - **Données manquantes :** plan de section, partitions et évaluations réelles, sans changement du statut académique du cours.
+
+## Deuxième passe qualitative — continuité, économie et formes développées (12 novembre 2026)
+
+**Preuve propre au code.** [McGill MUCO 242, Tonal Composition 1B](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) poursuit à un niveau avancé la structure de phrase, le profil mélodique, le rythme, la continuité, l'économie des moyens, les procédés contrapuntiques et l'analyse de formes classiques à tardoromantiques. Cela **n'établit pas les œuvres, sections de sonate ni exercices précis**; l'examen de placement mentionné plus haut ne constitue pas le syllabus de MUCO 242. Les procédures AnaMu ci-dessous sont des propositions de travail. L'[exemple MIDI existant](./MUCO-242/exemple.mid) démontre une cellule et une réponse, non une composition de longue durée.
+
+### Q1 — Continuité formelle : de la phrase à une région plus vaste
+
+**Analyser.** Dans une partition identifiée, annoter petites cellules, phrases, cadences, tonalités locales et changements de texture; comparer les récurrences motiviques aux frontières harmoniques pour proposer des sections de niveau supérieur. Tester les hypothèses de développement continu, de juxtaposition ou de retour transformé, en exigeant des indices sur plusieurs passages. Séparer « changement de thème » et « changement de fonction formelle ».
+
+**Créer et vérifier.** Partir de deux phrases apparentées, insérer une région de développement utilisant des fragments et préparer un retour conclusif; dessiner un plan de 24 à 32 mesures **comme exercice AnaMu facultatif**, sans le présenter comme prescription universitaire. Évaluer les transitions et les objectifs cadentiels par lecture et écoute.
+
+**Faux positifs et catégorie.** Une subdivision graphique n'est pas une section musicale certaine; aucune forme-sonate obligatoire n'est déduite de la notice. `MIDI_PROXY / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+### Q2 — Économie des moyens : matériau commun, fonctions contrastées
+
+**Analyser.** Relever un noyau intervallique suffisamment spécifique, puis ses transpositions, fragments, changements de rythme et réharmonisations. Pour chaque occurrence, documenter le rôle (présentation, prolongation, préparation, climax, retour) et les changements de basse, registre et contrechant. Tester si la ressemblance motive réellement la forme ou résulte de profils trop banals.
+
+**Créer et vérifier.** Réemployer une cellule originale de quatre notes dans trois fonctions contrastées : ouverture stable, transition instable et retour cadentiel, en changeant harmonisation et texture mais en gardant un élément identifiant. Comparer à une version avec trois idées sans liens pour juger l'unité perceptible.
+
+**Faux positifs et catégorie.** Le MIDI préexistant illustre une transformation locale, non l'ensemble de ce plan; une répétition constante ne suffit pas à prouver l'économie de moyens à l'échelle d'une pièce. `MIDI_DIRECT / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+### Q3 — Contrepoint et cadence : transformer une continuité linéaire en direction formelle
+
+**Analyser.** Séparer mélodie, basse et contrechants, suivre les entrées imitatives candidates, les retards, les changements de registre et les résolutions de dissonances en contexte harmonique. Étudier si les voix préparent les arrivées ou créent des attentes contradictoires; comparer à une texture d'accords homorythmique présentant les mêmes fonctions. Signaler les lectures ambiguës plutôt que qualifier automatiquement une partie répondante de fugue.
+
+**Créer et vérifier.** Écrire une phrase qui contient une réponse motivique dans une deuxième voix, puis une continuation où les voix coopèrent pour préparer une cadence; modifier la version en changeant l'entrée ou le registre du contrechant pour comparer la fonction expressive, pas seulement la densité.
+
+**Faux positifs et catégorie.** L'existence d'une seconde ligne n'atteste pas un contre-sujet ni un système historique strict; l'effet de tension nécessite écoute et modèle stylistique explicite. `MIDI_DIRECT / MIDI_PROXY / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+**Passerelles transversales, sans fusion de programmes.** [MUCO-241](./MUCO-241.md) établit les objectifs communs du premier niveau; [CM-221](../berklee/CM-221.md) compare variation motivique et fonctions harmoniques, [CP-215](../berklee/CP-215.md) explicite la vérification d'imitation à plusieurs voix, et [CM-441](../berklee/CM-441.md) illustre une **application ultérieure possible** de réduction vers orchestre. **Aucun enseignement d'orchestration n'est attribué à MUCO 242 par ces liens.**
+
+**Bilan :** trois protocoles articulant phrase, harmonie, rythme et lignes sans surinterpréter une description de cours ni l'exemple MIDI. Drapeau `non_algorithmique=false`, statut de matière et comptes inchangés.
