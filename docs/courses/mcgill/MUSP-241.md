@@ -37,3 +37,11 @@ Chercher le plan de section, les exercices, les lectures et les évaluations att
 | MIDI / format adapté | [MIDI original AnaMu](./MUSP-241/exemple.mid) — démonstration pédagogique, non document du cours |
 | Éléments manquants | Progression/syllabus et consignes propres à la section, œuvres ou matériels autorisés selon le cours |
 | Statut de couverture académique | Inchangé : cette analyse n'établit pas un syllabus complet |
+
+## Cas sur réduction annotée — distinguer barre écrite et battue proposée (13 novembre 2026)
+
+**Ancrage.** La [notice MUSP 241](https://www.mcgill.ca/music/programs/bmus/music-composition/study-plan) atteste les mesures changeantes. La *Danse sacrale* du *Sacre du printemps* est un comparateur AnaMu. Les repères suivent l’édition analysée par Pieter van den Toorn, et non une renumérotation de la révision de 1943.
+
+**Cas : Stravinsky, *Danse sacrale*, repères 142–145.** Dans l’exemple 36, Van den Toorn aligne quatre occurrences d’un matériau comprenant son motif b7. Les repères 142 et 143 donnent le placement de référence. Il lit à 144 + 4 un déplacement d’une croche sur la battue qu’il propose, puis à 145 + 4 une opposition entre placement sur le temps et hors temps. Les mesures irrégulières sont écrites. La grille régulière sous-jacente et la sensation de déplacement sont des lectures à comparer, pas des indications imprimées du même statut. [Van den Toorn, ex. 36 et commentaire, p. 94–96](https://publishing.cdlib.org/ucpressebooks/public/book/stravinsky-and-the-rite-of-spring.html).
+
+**Analyse et réemploi.** Dresser une grille des doubles croches, inscrire les barres, puis aligner séparément les retours du motif par rythme et contour. Évaluer deux prédictions : la lecture littérale identifie les premiers temps écrits, et une battue maintenue prédit où l’occurrence suivante se déplace. Créer une phrase à mesures alternées, répéter une cellule sans changer ses intervalles ni ses durées internes, puis avancer son retour d’une subdivision. Battre un tactus constant pendant les deux versions et écouter si le décalage reste repérable sans métronome. Une carte MIDI de signatures établit les barres encodées, pas la battue perçue. **Preuve :** `MIDI_DIRECT / MIDI_PROXY / AUDIO_REQUIRED`.

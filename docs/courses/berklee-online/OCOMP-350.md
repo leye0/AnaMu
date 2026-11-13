@@ -36,7 +36,7 @@
 
 La [fiche Boston CM-103](../berklee/CM-103.md) couvre elle aussi les contraintes timbrales et temporelles ; **Richard Carrick dirige le département pour CM-103 et est l'auteur d'OCOMP-350**, ce qui constitue un lien pédagogique documenté, **pas une équivalence de crédits ou de syllabus**. Obtenir le véritable plan de section de CM-103 avant d'y attribuer les devoirs ci-dessus.
 
-**À rechercher :** matériel de cours, rubriques d'évaluation, textes/partitions complets des exemples, variantes d'une section datée. Ce fichier expose la matière **du cours en ligne uniquement** ; aucune analyse MIDI, composition ou test logiciel n'a été effectuée.
+**À rechercher :** matériel de cours, rubriques d'évaluation, textes/partitions complets des exemples, variantes d'une section datée. La matière de Berklee Online reste distincte des applications et de l'étude MIDI originales ajoutées ci-dessous.
 
 ## Deuxième passe qualitative — contrainte, esquisse et révision comme relations vérifiables (12 novembre 2026)
 
@@ -46,7 +46,7 @@ La [fiche Boston CM-103](../berklee/CM-103.md) couvre elle aussi les contraintes
 
 **Analyser.** Sur une étude dont la contrainte est attestée (une hauteur, un accord ou une famille de sons), vérifier d'abord les invariants disponibles : nombre de classes de hauteurs, stabilité du centre, présence d'un seul accord noté. Observer ensuite **ce qui organise réellement le temps malgré la restriction** : articulation, rythme, registre, timbre, pauses et transformations d'intensité. Comparer « la contrainte explique l'unité du matériau » à « le dessin temporel explique la forme »; ne pas déduire la deuxième relation de la première.
 
-**Composer et vérifier.** Écrire trois versions originales avec **la même unique note** et durée totale : A changes de rythme, B change d'articulation et de silences, C combine les deux. Dans une étude à un accord, conserver l'ensemble de hauteurs et varier le voicing ou le timbre en maintenant les autres paramètres aussi comparables que possible. Vérifier les contraintes sur partition et les différences perceptives à l'écoute.
+**Composer et vérifier.** Écrire trois versions originales avec **la même unique note** et durée totale : A change de rythme, B change d'articulation et de silences, C combine les deux. Dans une étude à un accord, conserver l'ensemble de hauteurs et varier le voicing ou le timbre en maintenant les autres paramètres aussi comparables que possible. Vérifier les contraintes sur partition et les différences perceptives à l'écoute.
 
 **Réfutation et formats.** Une seule note MIDI n'établit ni le résultat esthétique ni la continuité expressive, et le timbre réel n'est pas une propriété de pitch-class. `MIDI_DIRECT / MIDI_PROXY / AUDIO_REQUIRED / CONTEXT_REQUIRED`.
 
@@ -68,4 +68,20 @@ La [fiche Boston CM-103](../berklee/CM-103.md) couvre elle aussi les contraintes
 
 **Ponts comparatifs, non transferts de syllabus :** [CM-103 Boston](../berklee/CM-103.md) (variables de flux), [CM-318 Boston](../berklee/CM-318.md) (lecture et révision en atelier), [MUTH-538](../mcgill/MUTH-538.md) (formalisation conditionnelle des similarités). Malgré le lien pédagogique, OCOMP-350 n'est pas CM-103.
 
-**Apport à AnaMu :** trois relations **contrainte→espace de possibilités**, **esquisse→révision documentée**, **instruction→réalisations**. Les documents de cours exacts sont plus riches que les catalogues, sans prouver l'effet psychologique des exemples. Aucun MIDI nouveau ni statut académique promu.
+**Apport à AnaMu :** trois relations **contrainte→espace de possibilités**, **esquisse→révision documentée**, **instruction→réalisations**. Les documents de cours exacts sont plus riches que les catalogues, sans prouver l'effet psychologique des exemples. Cette passe n'ajoute pas de MIDI et ne change pas le statut académique. L’étude suivante en ajoute un pour le travail rythmique de la leçon 2.
+
+## Cas et MIDI — déplacer les accents sans changer la pulsation de référence (13 novembre 2026)
+
+**Ancrage.** La [leçon 2 d’OCOMP-350](https://online.berklee.edu/courses/developing-your-creativity-as-a-composer#syllabus) annonce explicitement une composition à une seule note et du travail de mesure. Le cas de Brahms est un comparateur. Le MIDI est une étude originale AnaMu, non une remise du cours.
+
+**Cas : Brahms, Intermezzo op. 119 no 3, m. 1–3.** Adam Ricci montre comment trois occurrences de la même cellule mélodique commencent et finissent à des positions différentes par rapport à la battue du 6/8. La première va du fort au faible et la troisième du faible au fort. La durée de la dernière note de la cellule varie aussi : on ne peut pas attribuer l’organisation de la phrase au seul déplacement des attaques. Cette différence motive la maquette ci-dessous, qui contrôle les durées. [Adam Ricci, ex. 3 et § 8–9](https://mtosmt.org/issues/mto.07.13.3/mto.07.13.3.ricci.html).
+
+**Étude : [MIDI original](./OCOMP-350/exemple.mid), 12 mesures en 4/4 à 96 noires/minute.** Le piano ne joue qu’une hauteur (do4), à raison de huit croches par mesure. Le charleston fermé donne quatre repères de battue par mesure. Les attaques, hauteurs, durées, programmes et tempo ne changent jamais. Seule la position des quatre vélocités fortes du piano change au milieu.
+
+| Mesures | Croches accentuées du piano | Coïncidences accent–charleston par mesure |
+|---|---|---:|
+| 1–4 | 1, 3, 5, 7 | 4 |
+| 5–8 | 2, 4, 6, 8 | 0 |
+| 9–12 | 1, 3, 5, 7 | 4 |
+
+**Analyse et réemploi.** Calculer séparément l’espacement des accents (une noire dans les trois blocs) et leur position dans la grille de référence (alignée, puis décalée d’une croche). Le milieu ne ralentit pas et ne crée pas un cycle d’une nouvelle longueur. Écouter en battant avec le charleston, puis rendre une copie sans charleston pour vérifier si l’ancrage reste perceptible. Un auditeur peut réinterpréter les accents comme la battue lorsque le repère disparaît. **Preuve :** `MIDI_DIRECT` pour la position des vélocités et les 144 attaques, `AUDIO_REQUIRED` pour l’accent et la battue perçus.

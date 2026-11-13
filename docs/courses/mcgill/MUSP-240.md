@@ -37,3 +37,11 @@ Chercher le plan de section, les exercices, les lectures et les évaluations att
 | MIDI / format adapté | [MIDI original AnaMu](./MUSP-240/exemple.mid) — démonstration pédagogique, non document du cours |
 | Éléments manquants | Progression/syllabus et consignes propres à la section, œuvres ou matériels autorisés selon le cours |
 | Statut de couverture académique | Inchangé : cette analyse n'établit pas un syllabus complet |
+
+## Cas sur partition — divisions simultanées, barres communes (13 novembre 2026)
+
+**Ancrage.** La [notice MUSP 240](https://www.mcgill.ca/music/programs/bmus/music-composition/study-plan) associe divisions mixtes et travail à deux parties. La Variation Goldberg no 26 est un comparateur externe, pas un exercice de placement ou de section.
+
+**Cas : Bach, BWV 988, Variation 26, m. 1–4.** Au début, la figuration en 18/16 est en haut et les appuis de sarabande en 3/4 en bas. Les barres coïncident : sur une mesure commune, les trois temps peuvent recevoir six divisions rapides chacun dans la partie figurée. On ne doit pas additionner 18 doubles croches ordinaires et trois noires en leur donnant la même valeur absolue. La figuration apparaît en bas avant m. 5 : le rôle de chaque plan ne se déduit donc pas de la main. [Partition Open Goldberg Variations, p. 47 du PDF](https://upload.wikimedia.org/wikipedia/commons/6/6d/Goldberg_Variations_complete_score.pdf#page=47) et [Ruta Bloomfield, notes sur la Variation 26](https://rutabloomfield.com/site/wp-content/uploads/2016/01/Goldberg_Variations_Program_Notes_Bloomfield.pdf).
+
+**Analyse et réemploi.** Aligner d’abord les débuts de mesure et les trois temps communs. Comparer ensuite les densités locales par voix sur chaque temps, même lorsque la figuration traverse les mains. Écrire une basse de danse à trois appuis et, au-dessus, des sextolets sur chacun d’eux. Échanger les rôles à mi-phrase sans changer la pulsation ni l’alignement des barres. Vérifier par battue à trois puis par lecture séparée des parties. Un SMF peut encoder les ratios et l’alignement des attaques, mais sa carte de mesure globale ne restitue pas à elle seule les deux signatures par portée. **Preuve :** `MIDI_DIRECT` pour le ratio, partition pour la double notation, `AUDIO_REQUIRED` pour la battue suivie.
