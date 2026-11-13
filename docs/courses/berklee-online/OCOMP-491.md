@@ -38,3 +38,35 @@
 - **Cours de Boston potentiellement apparenté :** [FILM-407](../berklee/FILM-407.md), analogies sur les variations et le récit multi-scènes seulement.
 
 **Règle de preuve :** le syllabus **de ce cours en ligne** est publiquement décrit ; ces données ne modifient ni le statut ni l'admissibilité administrative d'aucun cours Boston du registre principal. Ne pas prendre un titre de devoir pour son cahier de consignes ; ni une maquette MIDI pour une orchestration instrumentale exécutée.
+
+## Deuxième passe qualitative — réponse dramatique, variation et continuité inter-scènes (12 novembre 2026)
+
+**Fondement académique direct.** Le [syllabus Berklee Online OCOMP-491 — Music Composition for Film and TV 2](https://online.berklee.edu/courses/music-composition-for-film-and-tv-2#syllabus) inclut **vamp et ostinato de comédie/infiltration (leçons 2–4), héros/antagonistes et thèmes d'aventure (5–8), métiers d'esquisse/orchestration/montage (9), forme longue et thèmes récurrents (10), puis analyses de reprises dans *Atlantis* et *Back to the Future* (11–12)**. Les occurrences citées sont **des exemples effectivement identifiés par ce cours Online**, mais leurs fichiers, partitions, timecodes et corrections ne sont pas disponibles ici. Les méthodes AnaMu suivantes ne reconstituent aucune scène ni cue protégé; elles peuvent être appliquées à des œuvres autorisées ou à des compositions originales.
+
+### Q1 — Retour thématique : identité du personnage ou simple répétition de quelques notes ?
+
+**Analyser.** Sur une œuvre audiovisuelle **identifiée et accessible légalement**, construire deux chronologies séparées : scènes/narration d'un côté, intervalles/rythmes du thème, orchestration, harmonie et points de départ de l'autre. Chercher les occurrences assez longues pour soutenir la parenté et décrire ce qui **reste invariant** sous variation. Vérifier si les retours coïncident réellement avec le personnage ou un concept narratif, puis rechercher des **contre-exemples** : personnage sans thème, thème sans personnage, nouvelle scène utilisant le même matériau dans une autre fonction.
+
+**Composer et vérifier.** Créer une courte histoire originale en trois scènes, un motif inédit de cinq notes et trois versions : présentation neutre, transformation harmonique et retour orchestré autrement. Faire correspondre un plan narratif écrit et les deux lignes de timecodes; comparer à une version sans rappel thématique, tout en gardant scène et durée identiques.
+
+**Faux positifs / catégorie.** Une cellule partagée dans deux cues ne prouve ni leitmotiv ni identité dramatique; la répétition peut être contingente, et l'intention requiert des sources de production. `MIDI_DIRECT / MIDI_PROXY / AUDIO_REQUIRED / CONTEXT_REQUIRED`.
+
+### Q2 — Réponse musicale à l'action : le rôle change selon le point d'arrivée
+
+**Analyser.** Aligner ostinatos, ruptures de rythme, appels de cuivres, changements de cadence et silences sur le montage réel. Tester si une figure sert **préparation** (modification avant la coupe), **réponse** (nouvelle figure après le geste), **prolongation** (ostinato maintenant une même situation) ou **résolution** (retour à un état déjà installé). Documenter ce qui changerait l'étiquette, par exemple un autre montage de la même scène ou une fin coupée plus tôt.
+
+**Composer et vérifier.** Sur une suite de plans autorisés, écrire une figure d'action originale puis trois montages musicaux de même longueur : anticiper le mouvement, entrer après, poursuivre sans changer. Garder notes de base et instrument principal stables si possible, puis comparer clarté dramatique et synchronisation à l'audio final.
+
+**Faux positifs / catégorie.** L'alignement seul ne prouve ni qu'un geste « a provoqué » le cue ni qu'une perception est universelle; les raisons de montage/composition exigent des traces de production. `AUDIO_REQUIRED / CONTEXT_REQUIRED / MIDI_PROXY`.
+
+### Q3 — Esquisse → orchestration → montage : identifier des relations de production documentées
+
+**Analyser.** Avec les **versions datées** d'un cue et ses fichiers de travail, distinguer les éléments issus d'une esquisse du compositeur (mélodie, basse, rythme) et ceux ajoutés par orchestration, préparation de parties, enregistrement ou montage. Comparer le cue long au cue monté sur image pour repérer coupures, répétitions et transitions; relier chaque différence à une source documentaire ou à une hypothèse de rôle, **sans attribuer automatiquement chaque ajout à l'orchestrateur**.
+
+**Composer et vérifier.** Produire un cue original pour une vidéo libre de droits, avec (1) esquisse structurée, (2) conducteur orchestré, (3) rendu audio, (4) version montée contre une modification de durée du plan. Conserver fichiers, versions et décisions, puis mesurer quels passages ont été **réellement transformés** et lesquels ont seulement été déplacés ou recoupés.
+
+**Faux positifs / catégorie.** L'existence de deux partitions ne prouve pas leur ordre de fabrication ni l'auteur de chaque modification; il faut dates, crédits et traces d'édition. Les leçons du film ne prouvent pas une chaîne de production unique. `MIDI_DIRECT / MIDI_PROXY / AUDIO_REQUIRED / CONTEXT_REQUIRED`.
+
+**Passerelles sans équivalence :** [OCOMP-490](./OCOMP-490.md) travaille les fonctions à l'échelle d'une scène; [FILM-407 Boston](../berklee/FILM-407.md) partage la question des thèmes mais **pas le syllabus**; [CM-497 Boston](../berklee/CM-497.md) aborde la révision des formes longues, mais sans contenu de film attesté.
+
+**Apport à AnaMu :** trois relations à statuts de preuve distincts **motif→retour dramatique**, **événement→réponse/contextualisation**, **version→transformation de production**. Il faut séparer l'identité motivique (mesurable), le rôle narratif (interprétatif) et la chaîne de production (documentaire). Aucun nouveau MIDI ni droit de reproduction supposé.

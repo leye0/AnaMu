@@ -33,3 +33,35 @@ Les partitions citées explicitement incluent *Voiles*, *La Cathédrale englouti
 **Limites :** les « quatre projets plus substantiels » sont signalés par la description, mais ni leurs consignes ni leurs échéances précises ne doivent être imaginées. Les titres des leçons 6–12 ne constituent pas en soi des exercices détaillés.
 
 **Cours recoupant des thèmes, jamais des crédits ou plans identiques :** [Berklee Boston CM-311](../berklee/CM-311.md) (Marti Epstein figure aussi parmi ses enseignants possibles) et [UdeM MTE 1403](../udem/MTE-1403.md). Les syllabus de ces deux derniers cours ne sont pas acquis.
+
+## Deuxième passe qualitative — direction harmonique, stase et segmentation de forme (12 novembre 2026)
+
+**Fondement directement publié.** Le [syllabus Berklee Online OCOMP-367](https://online.berklee.edu/courses/contemporary-techniques-in-music-composition-1#syllabus) traite les **échelles nouvelles (leçon 1), ensembles d'intervalles (3), superpositions de triades et conduite de voix (4), quartes/quintes/clusters (5), parallélisme/stase/dispositifs cadentiels (6), rythmes mixtes (7), formes mosaïque et moment (8)**. Les exercices précis de certaines leçons (1, 3–5) sont nommés, mais pas les consignes intégrales et barèmes; on ne peut pas inventer une « cadence contemporaine » unique. Trois procédures **AnaMu** suivent, sans MIDI nouveau ni attribution à Boston.
+
+### Q1 — Une suite de sonorités n'implique pas une progression fonctionnelle
+
+**Analyser.** Sur une partition contenant triades non fonctionnelles, accords quartaux ou clusters, décrire l'enchaînement par intervalles, basses, registres et transformations de voicing; tester **deux explications concurrentes** : (a) direction syntaxique fondée sur notes de tension/résolution et contexte tonal, (b) parallélisme ou stase fondée sur le maintien d'une structure d'intervalles qui se déplace. Vérifier les répétitions et la présence réelle d'une cadence avant d'imposer des degrés romains.
+
+**Composer et vérifier.** Inventer un motif de quatre accords quartaux. Version A : déplacer le même voicing par transposition constante tout en conservant le rythme; version B : modifier la conduite des voix et préparer une arrivée identifiée par basse et registre. Faire écouter des versions de même durée et effectif puis demander si la direction est perçue; ne pas confondre mathématique des déplacements et cause historique.
+
+**Faux positifs / catégorie.** Une montée uniforme de fondamentale ou de registre peut simplement être un déplacement parallèle sans dominante; une triade reconnaissable n'a pas nécessairement une fonction tonale. `MIDI_DIRECT / MIDI_PROXY / AUDIO_REQUIRED / CONTEXT_REQUIRED`.
+
+### Q2 — Collection de hauteurs → mélodie : distinguer règle de génération et force des notes
+
+**Analyser.** Pour une œuvre annotée, extraire notes et silences et tester l'appartenance à une collection réellement définie (pentatonique, octatonique, inventée). Vérifier ensuite si deux mélodies utilisant **exactement la même collection** diffèrent par accents, contours, répétitions et fins de phrase. L'appartenance à une gamme est une propriété mesurable; elle ne détermine ni le parcours ni la résolution des motifs.
+
+**Composer et vérifier.** Définir une collection originale de sept classes de hauteurs et deux lignes de même longueur : A répète une cellule distinctive et y revient, B parcourt les mêmes classes sans reprise reconnaissable. Conserver instrument et tempo; comparer la cohérence motivique. Dans une troisième variante, garder le motif de A mais changer la collection et évaluer les conséquences.
+
+**Faux positifs / catégorie.** Une collection partagée ne prouve pas influence ou tradition culturelle; l'analyse d'extraits publiés au syllabus ne peut pas être reconstituée en supposant que tous exploitent le même système. `MIDI_DIRECT / AUDIO_REQUIRED / CONTEXT_REQUIRED`.
+
+### Q3 — Forme mosaïque / moment : tester une autre fonction que préparation→résolution
+
+**Analyser.** Dans une œuvre et partition sourcées, segmenter événements, blocs, silences, changements de texture et reprises. Comparer deux descriptions : progression téléologique A→B→climax, versus présentation de moments possédant leur identité sans devoir « résoudre » le précédent. Chercher si les relations de hauteurs/rythmes sont hiérarchisées ou non par des cadences, et citer les passages qui contredisent chaque carte.
+
+**Composer et vérifier.** Écrire quatre blocs originaux avec signatures propres de rythme, densité et registre. Version A : les organiser en montée progressive vers une fin; version B : conserver leurs contenus mais changer l'ordre et insérer des silences qui leur donnent un statut de moments séparés. Examiner si l'ordre seul modifie la perception de préparation et de destination.
+
+**Faux positifs / catégorie.** « Forme-moment » n'est pas synonyme de hasard, absence de structure ou incapacité d'un auditeur à percevoir des liens. Un graphe d'événements ne certifie pas l'intention du compositeur. `MIDI_DIRECT / MIDI_PROXY / AUDIO_REQUIRED / CONTEXT_REQUIRED`.
+
+**Passerelles sans équivalence :** [OCOMP-485](./OCOMP-485.md) examine les processus qui développent ou non une suite; [MUTH-350](../mcgill/MUTH-350.md) distingue transformation des hauteurs et texture; [CM-103](../berklee/CM-103.md) relie variables isolées et perception du temps. Le syllabus OCOMP-367 n'est pas celui de CM-311 Boston.
+
+**Apport à AnaMu :** trois cas où **succession≠fonction tonale**, **appartenance à une collection≠phrase**, **ordre des moments≠nécessité cadentielle**. Les domaines sont sourcés au syllabus précis, les comparaisons sont des études originales AnaMu.
