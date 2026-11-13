@@ -45,3 +45,11 @@ Le support parallèle appartient à une autre formation. L’usage de son conten
 - **Portée :** 2 domaines évalués sans affirmer une couverture de syllabus.
 - **MIDI :** aucun produit pour ne pas inventer une œuvre, un contexte ou une technique enseignée.
 - **À obtenir :** œuvres, exercices, enregistrements et critères de section.
+
+## Cas comparatif — une cadence peut être abandonnée avant sa dominante (13 novembre 2026)
+
+**Ancrage.** La [notice MLAN-311](https://college.berklee.edu/courses/mlan-311) atteste l’analyse de répertoire classique et romantique. La sonate et les lectures ci-dessous sont des ressources comparatives.
+
+**Cas : Mozart, Sonate K. 333, I, m. 5–10.** Goldenberg cite ce passage comme une cadence abandonnée : le cheminement suggère une cadence authentique, mais la dominante cadentielle à l’état fondamental n’est pas réalisée dans la trajectoire envisagée. Cela ne veut pas dire que le mouvement ne contient aucun accord de dominante, ni qu’une dominante cadentielle est arrivée et a simplement résolu ailleurs. La partition annotée de Samarotto permet de situer le passage dans l’exposition. [Goldenberg, note 28](https://mtosmt.org/issues/mto.06.12.2/mto.06.12.2.goldenberg_notes.html) et [Samarotto, ex. 1](https://mtosmt.org/issues/mto.04.10.3/samarotto_examples.pdf).
+
+**Analyse et réemploi.** Comparer deux points de bifurcation. Si V cadentiel sonne et aboutit à une autre cible, documenter la résolution observée et évaluer si le contexte permet une lecture de cadence rompue. Si la trajectoire se dérobe avant ce V, repérer ce qui permettait de le prévoir et l’événement réel qui en détourne. Garder « fonction cadentielle incertaine » si la préparation est trop faible pour départager les lectures. Écrire deux versions d’un même départ de phrase, l’une menée à V–I et l’autre déviée avant V. Ne pas présenter un accord absent comme une observation de partition. **Preuve :** `MIDI_PROXY` pour la trajectoire, `CONTEXT_REQUIRED` pour la terminologie analytique choisie.

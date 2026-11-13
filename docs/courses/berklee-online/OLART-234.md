@@ -56,3 +56,19 @@ Le cours demande de situer les compositeurs et les genres dans leurs sociétés 
 | m. 13 et 58, repères de l'analyse SFCM | Le groupe secondaire se présente en sol majeur à l’exposition et en do majeur à la reprise. | Le parcours du groupe secondaire et de la clôture appuie rétrospectivement la lecture de m. 42 comme début de réexposition. |
 
 **Lecture concurrente.** À m. 42 seulement, l'hypothèse d'un rappel thématique au sein du développement ne peut pas être écartée sur la seule tonalité d'entrée. Elle perd du poids quand le parcours du groupe secondaire et de la clôture rejoint celui de l'exposition tout en revenant à la tonalité principale. L'argument ne requiert pas d'adopter le même terme pour la jointure de m. 12–13 dans les deux analyses. **Transfert créatif :** dans deux versions d'une miniature, garder le même retour hors tonique et comparer un raccord qui poursuit le développement à un autre qui ramène le groupe secondaire à la tonique. Pas de MIDI ajouté ici. Une réduction du seul retour initial ne montrerait pas la preuve décisive.
+
+## Cas et MIDI — résoudre le chant ne suffit pas à conclure (13 novembre 2026)
+
+**Ancrage.** Le [plan OLART-234, leçon 2](https://online.berklee.edu/courses/music-history-of-the-western-world-2-classical-romantic-and-modern#syllabus) situe la sonate et Mozart dans le classicisme. La fenêtre retenue et le MIDI original sont des applications AnaMu, pas des devoirs attestés.
+
+**Cas : Mozart, Sonate en ré majeur K. 576, I, m. 42–58.** Dans le second thème secondaire, Caplin distingue une demi-cadence à m. 45, un conséquent qui commence à m. 46 et une progression cadentielle élargie aux m. 48–53. Elle passe par une tonique locale en premier renversement, la sous-dominante et une dominante étendue avec six-quatre cadentiel. La tonique à m. 53 marque la cadence authentique parfaite, puis les codettes suivent. Une résolution trompeuse de dominante appliquée à l’intérieur de la préparation ne constitue donc pas la cadence qui ferme le thème. [Caplin, *The Expanded Cadential Progression*, ex. 2c](https://williamcaplin.com/download/caplin-ecp.pdf).
+
+**Étude originale : [MIDI](./OLART-234/exemple.mid).** Trois blocs de quatre mesures en do majeur, au piano, à 96 noires/minute. Les blocs répètent I–ii6–V7 puis une arrivée au même instant et avec la même mélodie si–do. Les deux voix intérieures de l’accord d’arrivée gardent do–mi. Une seule note de basse change entre les deux réalisations.
+
+| Mesures | Basse finale | Accord entendu à l’arrivée | Mélodie finale |
+|---|---|---|---|
+| 1–4 | do3 | I, quinte omise | si4–do5 |
+| 5–8 | la2 | vi | si4–do5 |
+| 9–12 | do3 | Retour à I | si4–do5 |
+
+**Analyse et réemploi.** Comparer le dernier temps de V7 et le début de la mesure suivante. Écouter d’abord la mélodie seule, puis le passage entier. La démo ne transpose pas K. 576 et n’illustre pas son expansion cadentielle. Elle isole la cible de basse pour montrer pourquoi une fin mélodique identique ne garantit pas la même arrivée harmonique. Composer ensuite une version qui reprend l’idée de fin après vi et réserve la clôture sur I à la reprise. **Preuve :** `MIDI_DIRECT` pour la différence d’une note de basse et les 57 attaques, `MIDI_PROXY` pour la lecture cadentielle, `AUDIO_REQUIRED` pour la clôture ressentie.
