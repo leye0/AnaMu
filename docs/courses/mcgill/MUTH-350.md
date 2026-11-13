@@ -57,3 +57,35 @@ Identifier le thème de la section et vérifier le plan. L’examen supérieur n
 - **Drapeau :** `non_algorithmique=false`.
 - **Exemple MIDI :** [étude originale](./MUTH-350/exemple.mid) ; seules les observations explicitement décrites ci-dessus sont revendiquées.
 - **Reste à documenter :** corpus, méthodes et évaluations véritables de la section; aucune promotion de `topic_outline.state`.
+
+## Deuxième passe qualitative — analyse post-tonale multi-paramètres (12 novembre 2026)
+
+**Source propre au code :** [McGill MUTH 350, Theory and Analysis 5](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) : organisations des **hauteurs, rythmes et timbres** des XXe et XXIe siècles, analyse et interprétation de techniques/esthétiques du répertoire. Le diagnostic de cycles supérieurs mentionné ci-dessus et les références préparatoires à Roig-Francolí ne sont **pas le syllabus de la section**; aucun système sériel particulier ne doit être attribué au professeur. Les trois outils sont des protocoles **AnaMu**. L'[exemple MIDI original](./MUTH-350/exemple.mid) démontre quelques transpositions de classes de hauteurs et rythmes, pas la couleur acoustique d'une œuvre.
+
+### Q1 — Classes de hauteurs : relation mathématique versus fonction musicale
+
+**Analyser.** Extraire les classes modulo douze des motifs notés ou MIDI et comparer les occurrences suffisamment longues. Pour la collection {0,1,4}, vérifier sa transposition `T2={2,3,6}`; pour une inversion candidate, calculer `I0(x)=−x mod 12`, donc `I0({0,1,4})={0,11,8}`, puis contrôler si la suite *ordonnée*, les durées et le registre de la pièce soutiennent cette lecture. Distinguer équivalence de collections et reconnaissance perceptive du même matériau.
+
+**Créer et contrôler.** Composer une cellule originale [0,1,4], la transposer puis l'inverser avec un rythme reconnaissable; présenter les trois versions dans des registres contrastés et annoter explicitement les transformations. Écouter lesquelles demeurent identifiables.
+
+**Faux positifs / catégorie.** Une similarité de pitch-class set ne prouve ni une série dodécaphonique ni l'intention de l'auteur; la mesure 4 du MIDI joint n'est **pas une inversion attestée**. `MIDI_DIRECT / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+### Q2 — Rythme et registre : préserver les invariants tout en changeant la forme perçue
+
+**Analyser.** Séparer événements de hauteurs, intervalles entre attaques, durées, silences et étendues de registre. Chercher, sur deux régions, un motif intervallique conservé mais déplacé en tempo interne ou densité; comparer cette hypothèse à celle d'un nouveau matériau. Examiner comment les sauts de registre et l'agencement des voix transforment la segmentation formelle sans imposer une grammaire tonale.
+
+**Créer et contrôler.** Garder la même cellule de classes mais l'exposer d'abord par attaques espacées, ensuite par figures serrées et registre élargi; préserver un point de repère perceptible. Vérifier mathématiquement les hauteurs et rythmes, puis écouter le changement de caractère.
+
+**Faux positifs / catégorie.** Plus de notes par seconde ne prouvent pas une transformation motivique, et les données de registre ne décrivent pas la fusion acoustique. `MIDI_DIRECT / MIDI_PROXY / AUDIO_REQUIRED`.
+
+### Q3 — Timbre, texture et esthétique : ne pas déduire le son des programmes MIDI
+
+**Analyser.** Aligner partition, audio et descriptions de dispositif. Mesurer attaques, enveloppes, régions spectrales, densité de couches et relais entre instruments; identifier ce qui varie indépendamment de la hauteur. Proposer une lecture de la forme par changements de timbre et de texture, puis l'opposer à une lecture par cellules de hauteurs. Justifier toute attribution esthétique par sources du répertoire, pas par une simple sonorité de synthèse.
+
+**Créer et contrôler.** Composer deux versions du même matériau de notes : l'une redistribuée entre sources contrastées, l'autre enrichie de couches acoustiques et de silences structurants. Comparer les trajectoires timbrales à l'écoute avec des enregistrements réels ou rendus dont les paramètres sont documentés.
+
+**Faux positifs / catégorie.** Un changement de programme General MIDI n'est ni une preuve de spectralisme ni de texture historique; la fidélité demande des sources sonores et le contexte d'œuvre. `AUDIO_REQUIRED / MIDI_PROXY / CONTEXT_REQUIRED`.
+
+**Passerelles conceptuelles, sans fusion d'enseignements :** [MUTH-251](./MUTH-251.md) distingue chromatisme tonal et symétrie, [CP-350](../berklee/CP-350.md) compare les organisations contrapuntiques modernes, [CM-312](../berklee/CM-312.md) traite des objets sonores exigeant audio, et [CM-441](../berklee/CM-441.md) permet de comparer répartition orchestrale et rôle de la texture. Ces liens ne documentent **aucun cours commun**.
+
+**Bilan :** trois protocoles qui séparent la preuve mathématique, les paramètres de partition et l'écoute/contextualisation. Pas de nouveau MIDI, pas de modification du drapeau `non_algorithmique=false`.

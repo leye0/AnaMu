@@ -56,3 +56,35 @@ Chercher le plan de section, les exercices, les lectures et les évaluations att
 - **Drapeau :** `non_algorithmique=false`.
 - **MIDI :** [fichier original](./MUTH-251/exemple.mid) avec limitations explicites par apprentissage.
 - **Lacunes :** programme exact, méthodes et œuvres de section non obtenus; les statuts académiques restent inchangés.
+
+## Deuxième passe qualitative — harmonie chromatique et structures imbriquées (12 novembre 2026)
+
+**Provenance :** [McGill, MUTH 251 Theory and Analysis 4](https://www.mcgill.ca/music/programs/bmus/music-theory/requirements), consacré aux ressources harmoniques élargies du XIXe siècle, aux réinterprétations enharmoniques, divisions symétriques et relations entre formes locales et globales. Le cours Berklee Online OCOMP-330 cité plus haut est un **comparateur**, pas le syllabus McGill. Les trois méthodes sont **AnaMu**, non des travaux attestés de cette section. L'[exemple MIDI](./MUTH-251/exemple.mid) est une étude de cinq mesures illustrant deux accords symétriques, **pas** une analyse d'une œuvre complète du XIXe siècle.
+
+### Q1 — Symétrie de l'accord et fonction dans la phrase : deux niveaux distincts
+
+**Analyser.** Isoler les classes de hauteurs et vérifier les intervalles modulo 12 : {do, mi, sol♯} donne {0,4,8}, invariant comme ensemble sous transposition de quatre demi-tons. Contrôler la basse et les prolongations, puis regarder les accords avant/après et la résolution pour établir si la sonorité fait office de tension, de transition ou de couleur autonome. Tester plusieurs désignations enharmoniques et considérer si la symétrie affaiblit la perception d'une fondamentale unique.
+
+**Créer et vérifier.** Composer deux courtes phrases avec le même accord augmenté {0,4,8} : dans l'une, résoudre vers un centre tonal stable, dans l'autre, faire circuler les voix vers une région harmonique contrastée; annoter les voix qui bougent d'un demi-ton et comparer les effets à l'écoute.
+
+**Faux positifs / catégorie.** L'invariance sous T4 n'établit ni une tonalité ni un procédé historique précis; le MIDI ne conserve pas la graphie et l'accord isolé ne détermine pas sa fonction. `MIDI_DIRECT / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+### Q2 — Réinterprétation enharmonique : même sonorité, nouvelles tendances de voix
+
+**Analyser.** Lire une **partition orthographiée** et identifier, par exemple, les classes de si–ré–fa–la♭ (B°7), identiques acoustiquement en tempérament égal à sol♯–si–ré–fa (G♯°7). Comparer les fonctions proposées, les notes sensibles visées et les résolutions effectives; ne pas appeler toute septième diminuée modulation, et examiner l'ambiguïté d'accords incomplets. Expliquer le changement de lecture avec l'orthographe, la basse et les cadences.
+
+**Créer et vérifier.** Écrire une sonorité de septième diminuée dans deux contextes différents, dont l'un résout vers do et l'autre vers la mineur, et noter les altérations correctes pour chaque mouvement. Contrôler les lignes plutôt que compter uniquement les demi-tons communs.
+
+**Faux positifs / catégorie.** B°7 et G♯°7 sont équivalents par classes sous tempérament égal, **pas identiques dans leur écriture fonctionnelle**; un fichier MIDI nu n'atteste aucun changement de graphie. `MIDI_PROXY / CONTEXT_REQUIRED`.
+
+### Q3 — Hiérarchie locale/globale : une cadence peut prolonger une tension plus vaste
+
+**Analyser.** Construire deux chronologies d'une œuvre complète : accords/cadences par phrase et régions tonales/reprises à plus grande échelle. Relever les événements où une résolution locale demeure instable dans le projet formel (cadence imparfaite, changement de centre, prolongation). Comparer plusieurs cartes de forme pour vérifier si la symétrie ou le chromatisme servent un rôle dramatique global plutôt qu'une simple succession d'effets isolés.
+
+**Créer et vérifier.** Écrire une section originale qui aboutit à une demi-cadence, la prolonger avec passage chromatique puis organiser une réapparition transformée du thème sur cadence forte; comparer la perception de fermeture à celle d'une version sans prolongation. Tracer les décisions « fonction locale → rôle formel ».
+
+**Faux positifs / catégorie.** L'exemple de cinq mesures est trop court pour démontrer une grande forme; aucune forme précise ni œuvre du professeur n'est attribuée au cours. `MIDI_PROXY / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+**Passerelles conceptuelles, sans fusion pédagogique :** [CM-211](../berklee/CM-211.md) établit les fonctions et l'harmonisation tonale; [CM-212](../berklee/CM-212.md) travaille chromatisme et modulation; [MUTH-304](./MUTH-304.md) peut servir de comparateur pour relier conduite des voix et trajectoire cadentielle; [CM-441](../berklee/CM-441.md) distingue la fonction harmonique de sa réalisation orchestrale. **Ces liens ne sont pas la liste des cours ou des œuvres enseignés dans MUTH 251.**
+
+**Bilan :** trois axes différenciant symétrie, réinterprétation fonctionnelle et échelles formelles; `non_algorithmique=false`, statuts de recherche et compte MIDI inchangés.

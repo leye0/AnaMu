@@ -33,3 +33,35 @@ Le chapitre ouvert détaille un procédé d’écriture ; le diagnostic fournit 
 **Exemple / limites :** MIDI original = esquisse d'une exposition à deux voix, pas une fugue complète et pas la consigne de l'examen supérieur McGill.
 
 **Applicabilité :** `MIDI_DIRECT, CONTEXT_REQUIRED` ; `non_algorithmique=false`. Les autres apprentissages du cours restent à examiner, sans inventer leur programme précis.
+
+## Deuxième passe qualitative — fugue : relations entre voix, épisodes et forme (12 novembre 2026)
+
+**Provenance du cours.** [McGill, MUTH 304, Tonal Counterpoint 2](https://www.mcgill.ca/music/programs/bmus/music-theory/requirements) : analyses et exercices d'écriture avec accent sur les **techniques fuguées en style libre**. Le diagnostic d'entrée aux cycles supérieurs et le chapitre externe Open Music Theory cités dans cette fiche sont **des références comparatives**, pas des devoirs attestés de MUTH 304. Les méthodes ci-dessous sont conçues pour AnaMu. L'[étude MIDI existante](./MUTH-304/exemple.mid) ne contient qu'une entrée de sujet et sa réponse à deux voix, **pas une fugue accomplie**.
+
+### Q1 — Réponse réelle ou tonale : comparer les relations du sujet, pas seulement son contour
+
+**Analyser.** Sur une partition à voix distinctes, extraire le sujet en intervalles et valeurs rythmiques puis la première réponse, avec son retard et sa nouvelle position tonale. Tester une transposition **constante** pour la réponse réelle, puis repérer, si les fonctions tonique/dominante l'exigent et que la partition le confirme, les intervalles ajustés d'une réponse tonale. Noter la différence entre similarité motivique et conduite fonctionnelle, puis vérifier la continuation de la première voix.
+
+**Créer et contrôler.** Écrire un sujet original avec relation claire entre degrés 1 et 5, essayer une réponse à la quinte parfaitement transposée puis une réponse adaptée pour conserver la fonction tonale. Faire entendre les deux avec une basse et une continuation originales et comparer les tensions.
+
+**Faux positifs / catégorie.** Une réponse à la quinte n'est pas automatiquement une réponse réelle stylistiquement correcte; le MIDI AnaMu actuel illustre l'imitation de base, **pas** la différence entre réelle et tonale. `MIDI_DIRECT / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+### Q2 — Contre-sujet et contrepoint renversable : exiger la récurrence effective
+
+**Analyser.** Identifier la ligne qui accompagne le sujet après l'entrée de la réponse, puis la chercher sous d'autres retours du sujet. Comparer intervalles verticaux et mouvements lorsque le contre-sujet passe au-dessus et au-dessous, si ces réalisations existent; ne qualifier de contrepoint renversable que ce qui est effectivement vérifié dans les contextes harmoniques pertinents.
+
+**Créer et contrôler.** Écrire une cellule accompagnatrice distincte, la combiner une première fois sous le sujet puis une autre au-dessus en inversant les registres. Vérifier les nouveaux intervalles, dissonances et résolutions, modifier les parties qui empêchent une lecture musicale.
+
+**Faux positifs / catégorie.** Une continuation unique de la première voix n'est ni un contre-sujet obligatoire ni un cas attesté de contrepoint renversable; l'exemple MIDI joint ne démontre pas ces conditions. `MIDI_DIRECT / MIDI_PROXY / CONTEXT_REQUIRED`.
+
+### Q3 — Fonction des épisodes et des entrées rapprochées dans l'architecture fuguée
+
+**Analyser.** Construire une carte des entrées du sujet, des passages sans sujet complet, des fragments développés et des changements de centre tonal. Distinguer épisode de simple silence d'une voix; repérer un stretto **seulement si** un sujet complet ou suffisamment identifiable entre dans une autre voix avant la fin de la précédente présentation. Comparer densification et véritable chevauchement de sujets.
+
+**Créer et contrôler.** Après une exposition de trois entrées, rédiger un épisode bref fondé sur un fragment rythmique du sujet puis préparer une entrée médiane; essayer une version avec entrées rapprochées et l'autre espacée. Vérifier les rôles harmoniques et la clarté des motifs dans chaque version.
+
+**Faux positifs / catégorie.** Plusieurs attaques serrées ou beaucoup de notes ne prouvent pas un stretto. Ni l'exposition à trois voix ni l'épisode n'existent comme démonstration complète dans le **MIDI actuellement joint**; ce sont des démarches proposées à partir du domaine fugué attesté. `MIDI_DIRECT / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+**Passerelles analytiques, non équivalences de syllabus :** [CP-215](../berklee/CP-215.md) vérifie les imitations à deux et trois voix, [CP-311](../berklee/CP-311.md) les différences sujet/réponse et stretto/épisode; [MUTH-251](./MUTH-251.md) relie fonctions chromatiques et niveaux formels. Les exercices externes mentionnés plus haut ne deviennent pas ceux de MUTH-304.
+
+**Bilan :** trois protocoles fugués avec conditions falsifiables, sans inventer œuvres ou évaluation de section. Aucun MIDI nouveau; `non_algorithmique=false` inchangé.
