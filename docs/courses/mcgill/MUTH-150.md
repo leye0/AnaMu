@@ -87,3 +87,17 @@ Les exigences de 2017 documentent le niveau d’exemption historique. Chercher l
 **Passerelles analytiques sans équivalence de cursus :** [MUTH-151](./MUTH-151.md) traite les formes de phrase et la modulation, [CM-211](../berklee/CM-211.md) la basse chiffrée, [MUTH-528](./MUTH-528.md) la prolongation à plusieurs niveaux. La notion d'attente décrite ici est **fonctionnelle et conditionnée au style**, non un score psychologique mesuré.
 
 **Bilan :** trois axes documentant résolution de voix, hiérarchie des cadences et embellissement; `non_algorithmique=false`, MIDI et statut académique inchangés.
+
+## Cas comparatif sur partition — arrêt, dominante et cadence chez Beethoven (13 novembre 2026)
+
+**Ancrage du cours.** Les [exigences McGill](https://www.mcgill.ca/music/programs/bmus/music-theory/requirements) attestent les cadences et le cadre des voix extrêmes pour MUTH 150. L’op. 7 de Beethoven est un comparateur AnaMu. Voir William E. Caplin, [*The Classical Cadence*, ex. 15, p. 104–106](https://williamcaplin.com/download/caplin-classical-cadence%20%281%29.pdf), qui donne la partition et discute la lecture de Leonard Ratner.
+
+| Fenêtre du deuxième mouvement, en do majeur | Fait ou repère | Ce qu’il permet de conclure |
+|---|---|---|
+| m. 1–3 | Pauses marquées et réitération du geste de départ. | Ponctuation audible, pas nécessairement fin de phrase. |
+| m. 4 | Arrivée sur la dominante, suivie d’un changement de disposition et de l’ajout de sa septième. | Ratner entend une demi-cadence dont la ponctuation est faible. Caplin conteste la demi-cadence par le traitement harmonique **et** le rôle de présentation de m. 1–4. |
+| m. 5–8 | Fragmentation puis progression cadentielle. L’ex. 15 place une cadence authentique parfaite à m. 8. | À cette échelle, la continuation et sa destination donnent une raison indépendante de ne pas confondre l’arrêt antérieur avec la clôture du thème. |
+
+**Analyse.** Sur un autre passage, relever d’abord séparément les pauses, les accords avec leur basse, et les retours d’idée. Pour chaque fin candidate, indiquer l’unité supposée close. Élargir jusqu’à l’arrivée suivante et vérifier si le matériau suivant ouvre une autre unité ou continue la première. Dans le cas présent, retenir « ponctuation, fin de présentation » comme lecture préférée dans le cadre de Caplin, et conserver la demi-cadence de Ratner comme lecture publiée concurrente. Une inversion isolée n’est pas un argument universel hors du style et du cadre théorique retenus.
+
+**Création.** Sur huit mesures originales, conserver la même progression et allonger seulement les silences du début. Dans une autre comparaison, garder le phrasé rythmique fixe et remplacer la dominante inversée par une dominante à l’état fondamental. Examiner si l’on a modifié la ponctuation, le contenu harmonique ou réellement la fonction formelle. Aucun MIDI ajouté à cette fiche. Son exemple existant illustre un enchaînement tonal, pas le débat d’analyse de l’op. 7.

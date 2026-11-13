@@ -88,3 +88,21 @@ Chercher le plan de section, les exercices, les lectures et les évaluations att
 **Passerelles conceptuelles, sans fusion pédagogique :** [CM-211](../berklee/CM-211.md) établit les fonctions et l'harmonisation tonale; [CM-212](../berklee/CM-212.md) travaille chromatisme et modulation; [MUTH-304](./MUTH-304.md) peut servir de comparateur pour relier conduite des voix et trajectoire cadentielle; [CM-441](../berklee/CM-441.md) distingue la fonction harmonique de sa réalisation orchestrale. **Ces liens ne sont pas la liste des cours ou des œuvres enseignés dans MUTH 251.**
 
 **Bilan :** trois axes différenciant symétrie, réinterprétation fonctionnelle et échelles formelles; `non_algorithmique=false`, statuts de recherche et compte MIDI inchangés.
+
+## Cas comparatif sur partition — mêmes touches, autre lecture dans *Tristan* (13 novembre 2026)
+
+**Ancrage du cours.** La [notice McGill](https://www.mcgill.ca/music/programs/bmus/music-theory/requirements) atteste le chromatisme, la réinterprétation enharmonique et les niveaux de structure pour MUTH 251. Les trois premières mesures du prélude de *Tristan und Isolde* sont un comparateur, pas un exemple de cours attesté. Voir [John Rothgeb, § 6–16](https://mtosmt.org/issues/mto.95.1.1/mto.95.1.1.rothgeb.pdf) et [William Rothstein, § 1–3](https://mtosmt.org/issues/mto.95.1.3/mto.95.1.3.rothstein.tlk.html).
+
+**Relevé.** À m. 2, la première simultanéité s’écrit fa–si–ré♯–sol♯. Sur un clavier tempéré, elle donne les mêmes hauteurs que fa–do♭–mi♭–la♭ à registres égaux. Le relevé de m. 2–3 montre aussi sol♯–la–la♯–si à l’aigu et fa puis mi à la basse. Les deux descriptions, verticale et linéaire, portent sur les mêmes notes mais ne répondent pas à la même question.
+
+| Lecture | Ce qui la soutient | Ce qui reste à expliquer |
+|---|---|---|
+| Sonorité équivalente à une septième de fa demi-diminuée | Les mêmes hauteurs tempérées. | Le choix de graphie, la ligne ascendante et l’arrivée sur mi. L’équivalence ne décide pas de la fonction. |
+| Sol♯ comme appoggiature de la | Le pas ascendant immédiat sol♯ → la. | Le phrasé se poursuit par la♯ jusqu’à si et le la n’est pas forcément l’arrivée structurelle. |
+| Sol♯ intégré à une ligne qui anticipe la dominante, selon Rothgeb | L’ensemble du geste chromatique et la dominante à m. 3 expliquent la note comme liée à l’arrivée suivante. | Le la sous-entendu par la réduction n’est pas une note jouée. Rothstein reprend cette lecture de sol♯ mais diverge sur le support entendu au début. |
+
+**Contrôle externe.** Rothgeb (§ 8–10) compare cette sonorité à Beethoven, Sonate op. 31 no 3, m. 36 : le la♭ du dessus, enharmonique de sol♯, et la suspension 7–6 à l’intérieur des voix y appuient une autre lecture. Ne pas conclure à un emprunt historique à partir de l’identité des hauteurs.
+
+**Analyse.** Conserver séparément les hauteurs, la graphie et les notes proposées par la réduction. On peut retenir la correspondance enharmonique comme fait, privilégier une explication linéaire pour ce passage, et laisser explicite le désaccord sur l’harmonie sous-entendue. Aucun décompte de demi-tons ne tranche à lui seul entre ces niveaux.
+
+**Création.** Composer deux passages originaux qui partagent une même simultanéité. En conserver les registres et faire varier seulement les lignes qui en sortent, vers deux destinations distinctes. Noter ensuite chaque graphie en fonction de sa conduite de voix. Comparer la réduction des lignes avant de comparer les noms d’accord. Aucun MIDI ajouté à cette fiche. Le MIDI existant ne conserve pas à lui seul l’orthographe ni la réduction.

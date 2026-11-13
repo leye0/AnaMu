@@ -64,3 +64,24 @@ Liens de recherche, sans identité de syllabus : [CM-312 Boston](../berklee/CM-3
 **Passerelles conceptuelles, non équivalences :** [OCOMP-367](./OCOMP-367.md) distingue progression fonctionnelle et forme-moment; [MUCO-541](../mcgill/MUCO-541.md) documente les preuves d'une évolution sonore; [MUTH-538](../mcgill/MUTH-538.md) étudie **conditionnellement** les relations transformationnelles. Les exercices de ces autres codes ne sont pas attribués à OCOMP-485.
 
 **Apport à AnaMu :** trois hypothèses vérifiables **règle de répétition→variation**, **subdivision→nouveau tactus**, **procédé→trajectoire acoustique**; les deux premières ont des invariants notationnels, la troisième demande audio et paramètres de production. Registre principal et exemples MIDI inchangés.
+
+## Cas vérifié et étude MIDI — distinguer une rotation d’une dérive (13 novembre 2026)
+
+**Ancrage du cours.** Le [plan OCOMP-485](https://online.berklee.edu/courses/contemporary-techniques-in-music-composition-2#syllabus) atteste les techniques minimalistes (leçon 6) et le travail métrique (7). *Clapping Music* de Steve Reich est ici un comparateur externe. La [notice du compositeur reproduite par Boosey & Hawkes](https://www.boosey.com/pages/cr/catalogue/cat_detail?=&langid=1&musicid=102358) distingue des changements par paliers de la dérive graduelle. [Étude publiée dans *PLOS ONE*, fig. 1–3](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205847) documentent la grille de douze subdivisions, la rotation par une croche et le retour à l’unisson.
+
+**Analyse du cas.** Aligner les deux parties sur une même subdivision. Dans chaque état, conserver le cycle complet, silences compris, puis comparer plusieurs répétitions. Une rotation par palier conserve les écarts cycliques entre attaques et garde un décalage constant au sein d’un état. Une dérive graduelle fait varier la relation entre attaques correspondantes de cycle en cycle. Une attaque retardée par l’interprétation ne prouve ni une rotation structurelle ni une dérive. Sans parties séparées, l’alignement de deux claquements peut masquer un événement.
+
+**Démonstration originale.** L’[exemple MIDI AnaMu](./OCOMP-485/exemple.mid) ne reproduit ni la cellule ni la durée de Reich. Il utilise un cycle original de **sept** positions et deux pistes de percussion, avec un son distinct pour chaque partie. Les positions sont numérotées de 0 à 6. À chaque état, la piste fixe garde `{0,1,4}` et la piste mobile répète trois fois sa rotation vers la gauche de `k` positions modulo 7.
+
+| Mesures | Décalage `k` | Attaques de la piste mobile | Coïncidences avec la fixe par cycle |
+|---|---:|---|---:|
+| 1–3 | 0 | 0, 1, 4 | 3 |
+| 4–6 | 1 | 0, 3, 6 | 1 |
+| 7–9 | 2 | 2, 5, 6 | 0 |
+| 10–12 | 3 | 1, 4, 5 | 2 |
+| 13–15 | 4 | 0, 3, 4 | 2 |
+| 16–18 | 5 | 2, 3, 6 | 0 |
+| 19–21 | 6 | 1, 2, 5 | 1 |
+| 22–24 | 7 ≡ 0 | 0, 1, 4 | 3 |
+
+**Création.** Pour isoler le mécanisme de changement, concevoir une version où la seconde piste avance par petites fractions de subdivision à chaque cycle plutôt que par sauts, en conservant le motif et la piste fixe. Cette variante est une consigne, pas un second fichier. Dans le MIDI fourni, la densité de chaque piste reste constante tandis que les coïncidences varient. **Preuve :** `MIDI_DIRECT` pour rotations et coïncidences, `AUDIO_REQUIRED` pour la saillance des nouvelles figures. Le 7/8 du fichier donne une grille de lecture, pas une affirmation sur la métrique de la pièce de Reich.

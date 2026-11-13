@@ -65,3 +65,17 @@ Les partitions citées explicitement incluent *Voiles*, *La Cathédrale englouti
 **Passerelles sans équivalence :** [OCOMP-485](./OCOMP-485.md) examine les processus qui développent ou non une suite; [MUTH-350](../mcgill/MUTH-350.md) distingue transformation des hauteurs et texture; [CM-103](../berklee/CM-103.md) relie variables isolées et perception du temps. Le syllabus OCOMP-367 n'est pas celui de CM-311 Boston.
 
 **Apport à AnaMu :** trois cas où **succession≠fonction tonale**, **appartenance à une collection≠phrase**, **ordre des moments≠nécessité cadentielle**. Les domaines sont sourcés au syllabus précis, les comparaisons sont des études originales AnaMu.
+
+## Cas comparatif sur partition — changer de collection sans repartir de zéro (13 novembre 2026)
+
+**Ancrage du cours.** Le [plan OCOMP-367](https://online.berklee.edu/courses/contemporary-techniques-in-music-composition-1#syllabus) atteste les collections par tons et pentatoniques (leçon 1) ainsi que les formes non conventionnelles (8). Le cas ci-dessous est un comparateur sur la segmentation. Il ne classe pas *Voiles* comme forme-moment et ne fait pas de la pièce un devoir attesté. Voir le [relevé illustré de teoría](https://www.teoria.com/en/articles/2020/debussy-preludes/02/index.php) et, pour l’ouverture, [Stephen C. Brown, ex. 2](https://www.mtosmt.org/issues/mto.14.20.1/mto.14.20.1.brown.php).
+
+| Fenêtre | Contraste | Continuité à vérifier |
+|---|---|---|
+| m. 38–41 | Le relevé situe une transition vers l’épisode central. | La préparation s’évalue sur la trajectoire des motifs, pas sur la présence anticipée de toutes les nouvelles hauteurs. |
+| m. 42–47 | Épisode pentatonique et accélération indiquée dans le relevé. | Les collections ont trois classes de hauteurs en commun. Une figure de basse est commune aux deux sections selon le relevé. Une cellule du passage précédent est aussi reprise dans l’aigu. |
+| dès m. 48 | Retour à la collection par tons. | La collection revient avant le retour du premier motif, que le relevé situe à m. 58. |
+
+**Analyse.** Marquer trois frontières candidates indépendantes : changement de collection, changement d’allure, retour d’un motif précis. Les m. 42 et 48 sont pertinentes pour les collections. Pour un retour motivique, m. 58 peut être plus informatif que m. 48. L’existence de notes et de motifs communs ne supprime pas le contraste de section. Inversement, un seul changement de collection ne prouve pas une rupture de tous les paramètres. Comparer avec [MUTH-350](../mcgill/MUTH-350.md) pour la distinction entre collection et centre à l’ouverture.
+
+**Création.** Écrire deux blocs originaux avec une figure de basse commune. Modifier la collection du second bloc sans changer sa vitesse, puis modifier uniquement la vitesse dans une autre version. Réintroduire enfin le motif initial après le rétablissement de sa collection. Relever les frontières qui changent et celles qui restent distinctes. Aucun MIDI ajouté pour cette lecture de partition. La proposition sur papier n’est pas présentée comme une observation d’auditeurs.
