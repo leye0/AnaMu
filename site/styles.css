@@ -11,6 +11,7 @@
 button,input,select{font:inherit}button,a{-webkit-tap-highlight-color:transparent}button{cursor:pointer}a{color:#515bca;text-decoration:none}
 a:hover{text-decoration:underline}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #9e95ff;outline-offset:3px}
 [hidden]{display:none!important}
+.play-button:disabled{opacity:.6;cursor:wait}
 .topbar{min-height:76px;background:var(--deep);border-bottom:1px solid rgba(255,255,255,.11);display:flex;align-items:center;justify-content:space-between;padding:12px clamp(20px,3vw,48px);gap:20px;position:relative;z-index:3}
 .brand{display:flex;align-items:center;gap:12px}.brandmark{display:grid;place-items:center;width:48px;height:48px;border-radius:13px;background:linear-gradient(145deg,#968dff,#5f67c9);color:#fff;font-size:31px;line-height:1;box-shadow:0 6px 20px #6e69ed30}
 .brand-label{display:flex;flex-direction:column;line-height:1.11}.brand-label strong{color:#fff;font-family:'Outfit',sans-serif;font-size:24px;letter-spacing:-.8px}.brand-dot{color:var(--mint)}.brand-label>span{margin-top:4px;color:#a8b2cc;font-size:11px;letter-spacing:.09em;text-transform:uppercase;font-weight:700}

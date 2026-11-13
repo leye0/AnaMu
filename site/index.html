@@ -49,6 +49,7 @@
             <option value="udem">Université de Montréal</option>
             <option value="mcgill">McGill</option>
             <option value="berklee">Berklee</option>
+            <option value="berklee-online">Berklee Online</option>
           </select>
           <label class="sr-only" for="status">Avancement</label>
           <select id="status">
@@ -96,7 +97,7 @@
             <div>
               <div class="eyebrow">EXEMPLE ORIGINAL</div>
               <h3>Écouter le MIDI <span class="wave-symbol" aria-hidden="true">〰</span></h3>
-              <p>Lecture synthétisée directement dans le navigateur.</p>
+              <p id="audioStatus" role="status">Sons General MIDI chargés à la première écoute.</p>
             </div>
             <span id="playerTag" class="player-pill">Fichier MIDI</span>
           </div>
@@ -106,7 +107,7 @@
               <span class="roll-caption">PIANO ROLL · PISTES MIDI</span>
             </div>
             <div class="transport">
-              <button id="playBtn" class="play-button" aria-label="Jouer le MIDI"><span id="playIcon" aria-hidden="true">▶</span></button>
+              <button id="playBtn" class="play-button" aria-label="Jouer le MIDI" disabled><span id="playIcon" aria-hidden="true">▶</span></button>
               <button id="stopBtn" class="stop-button" aria-label="Arrêter le MIDI">■</button>
               <div class="time-control">
                 <input type="range" id="seek" min="0" max="1000" value="0" aria-label="Position de lecture">
@@ -120,7 +121,7 @@
                   <option value="1.5">1,5×</option>
                 </select>
               </label>
-              <label class="volume-control" title="Volume du synthétiseur">
+              <label class="volume-control" title="Volume de lecture">
                 <span aria-hidden="true">◖))</span>
                 <input id="volume" type="range" min="0" max="100" value="75" aria-label="Volume">
               </label>

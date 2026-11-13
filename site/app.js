@@ -1,10 +1,11 @@
-/* AnaMu Pages — standalone MIDI browser player, no library or service required. */
+/* AnaMu Pages — course catalogue, piano roll, and browser MIDI transport. */
 "use strict";
 
 const $ = (id) => document.getElementById(id);
-const SCHOOLS = {udem:"Université de Montréal",mcgill:"McGill",berklee:"Berklee"};
-const SHORT = {udem:"UdeM",mcgill:"McGill",berklee:"Berklee"};
+const SCHOOLS = {udem:"Université de Montréal",mcgill:"McGill",berklee:"Berklee","berklee-online":"Berklee Online"};
+const SHORT = {udem:"UdeM",mcgill:"McGill",berklee:"Berklee","berklee-online":"Berklee Online"};
 const STATES = {
+  online_demo:["Exemple hors registre","midi"],
   first_learning_analyzed_with_midi:["Écouter un MIDI","midi"],
   first_scope_assessed_without_midi:["Évalué · sans MIDI","assessed"],
   not_yet_assessed:["À analyser","pending"],
@@ -19,10 +20,9 @@ const detailCache = new Map();
 const midiCache = new Map();
 let currentMidi = null;
 const playback = {
-  context: null, master: null, compressor: null, noise: null,
-  playing: false, timer: null, raf: null,
-  position: 0, originSong: 0, originAudio: 0, next: 0,
-  rate: 1, voices: [], activeUrl: ""
+  context: null, master: null, engine: null, enginePromise: null,
+  playing: false, loading: false, request: 0, raf: null,
+  position: 0, needsSeek: true
 };
 
 function normalize(text) {
@@ -106,7 +106,7 @@ function switchTab(tab) {
 async function showCourse(id, historyUpdate) {
   const entry = catalog.find((c) => c.id === id);
   if (!entry) return;
-  if (playback.playing || playback.position || (current && current.id !== entry.id)) stopPlayback();
+  stopPlayback();
   current = entry;
   const seq = ++docSequence;
   if (historyUpdate) {
@@ -123,7 +123,9 @@ async function showCourse(id, historyUpdate) {
   $("coursePosition").textContent = (catalog.findIndex((r) => r.id === entry.id) + 1) + " / " + catalog.length + " entrées";
   $("courseTags").replaceChildren();
   setTag(statusLabel(entry),entry.midi?"midi":entry.review_state==="first_scope_assessed_without_midi"?"alert":"");
-  setTag(entry.coverage==="usable_first_pass"?"Contenu recensé":entry.coverage==="partial"?"Contenu partiel":"Choix à préciser","violet");
+  if (entry.review_state!=="online_demo") {
+    setTag(entry.coverage==="usable_first_pass"?"Contenu recensé":entry.coverage==="partial"?"Contenu partiel":"Choix à préciser","violet");
+  }
   if (entry.non_algorithmic===true) setTag("Non algorithmique (musique)","alert");
   else if (entry.non_algorithmic===false) setTag("Application algorithmique possible","midi");
   for (const t of entry.algorithmic_tags.slice(0,4)) setTag(t.replace(/_/g," "),"");
@@ -133,6 +135,7 @@ async function showCourse(id, historyUpdate) {
   $("playerUnavailable").hidden = !!entry.midi;
   $("playerTag").textContent = entry.midi ? "MIDI original" : "Pas de MIDI";
   $("midiInfo").textContent = "Chargement…";
+  $("playBtn").disabled = true;
   $("noMidiReason").textContent = entry.review_state==="not_yet_assessed"
     ? "Cette fiche n'a pas encore été analysée avec le gabarit."
     : entry.review_state==="course_choice_placeholder"
@@ -283,13 +286,15 @@ async function loadMidi(url,sequence) {
     if (!song) {
       const res=await fetch("./"+url);
       if (!res.ok) throw Error("MIDI introuvable ("+res.status+")");
-      song=parseMidi(await res.arrayBuffer());
+      const buffer=await res.arrayBuffer();
+      song={...parseMidi(buffer),buffer};
       midiCache.set(url,song);
     }
     if (sequence!==docSequence) return;
     currentMidi=song;
-    playback.activeUrl=url;
     playback.position=0;
+    playback.needsSeek=true;
+    $("playBtn").disabled=false;
     $("midiInfo").textContent=song.notes.length+" notes · "+song.channels+" partie"+(song.channels>1?"s":"")+" · MIDI format "+song.format;
     $("totalTime").textContent=formatTime(song.duration);
     $("currentTime").textContent="0:00";
@@ -314,94 +319,59 @@ function initializeAudio() {
   const master=context.createGain();
   master.gain.value=Number($("volume").value)/100;
   master.connect(compressor);compressor.connect(context.destination);
-  const sample=context.createBuffer(1,context.sampleRate,context.sampleRate);
-  const channel=sample.getChannelData(0);
-  for (let i=0;i<channel.length;i++) channel[i]=(Math.random()*2)-1;
-  playback.context=context;playback.master=master;playback.compressor=compressor;playback.noise=sample;
+  playback.context=context;
+  playback.master=master;
 }
 
-function voice(note,when,duration) {
-  const ctx=playback.context;
-  if (!ctx || duration<=0) return;
-  const channel=note.channel,program=note.program;
-  const amp=Math.max(.02,(note.velocity/127)*.115);
-  if (channel===9) {
-    const gain=ctx.createGain();gain.connect(playback.master);
-    const isKick=note.pitch===35||note.pitch===36;
-    const isHat=note.pitch===42||note.pitch===44||note.pitch===46;
-    const length=Math.min(duration,isHat?.095:.18);
-    if (isKick) {
-      const osc=ctx.createOscillator();osc.type="sine";
-      osc.frequency.setValueAtTime(125,when);
-      osc.frequency.exponentialRampToValueAtTime(47,when+Math.max(.06,length));
-      gain.gain.setValueAtTime(amp*1.4,when);
-      gain.gain.exponentialRampToValueAtTime(.0001,when+length+.03);
-      osc.connect(gain);osc.start(when);osc.stop(when+length+.05);
-      playback.voices.push(osc);
-    } else {
-      const noise=ctx.createBufferSource();noise.buffer=playback.noise;
-      const filter=ctx.createBiquadFilter();
-      filter.type=isHat?"highpass":"bandpass";filter.frequency.value=isHat?6000:1650;
-      gain.gain.setValueAtTime(amp,when);
-      gain.gain.exponentialRampToValueAtTime(.0001,when+length+.03);
-      noise.connect(filter);filter.connect(gain);
-      noise.start(when);noise.stop(when+length+.05);
-      playback.voices.push(noise);
-    }
-    return;
+function getGMPlayer() {
+  if (!playback.enginePromise) {
+    playback.enginePromise=import("./gm-player.js")
+      .then(({createGMPlayer})=>createGMPlayer(playback.context,playback.master,finishPlayback))
+      .then(engine=>playback.engine=engine)
+      .catch(error=>{playback.enginePromise=null;throw error;});
   }
-  const isPiano=program<=7 || program===11;
-  const isStrings=(program>=40 && program<=51)||program===52;
-  const isWind=program>=64&&program<=79;
-  const isBass=program>=32&&program<=39;
-  const isSynth=program>=80;
-  const osc=ctx.createOscillator();
-  osc.type=isStrings?"sawtooth":isWind?"sine":isSynth?"square":isBass?"sine":isPiano?"triangle":"triangle";
-  osc.frequency.value=440*Math.pow(2,(note.pitch-69)/12);
-  const filter=ctx.createBiquadFilter();
-  filter.type="lowpass";filter.frequency.value=isStrings?2600:isSynth?1850:isPiano?4400:6200;
-  const gain=ctx.createGain();
-  const start=Math.max(when,ctx.currentTime);
-  const attack=Math.min(isStrings?.065:isWind?.026:.007,Math.max(.003,duration/4));
-  const release=isStrings?.19:isPiano?.17:.1;
-  const end=start+duration;
-  gain.gain.setValueAtTime(.0001,start);
-  gain.gain.exponentialRampToValueAtTime(amp,start+attack);
-  if (isPiano) gain.gain.setTargetAtTime(amp*.42,start+attack,Math.max(.08,duration*.28));
-  else gain.gain.setTargetAtTime(amp*.78,start+attack,.11);
-  gain.gain.setTargetAtTime(.0001,end,Math.max(.025,release/4));
-  osc.connect(filter);filter.connect(gain);gain.connect(playback.master);
-  osc.start(start);osc.stop(end+release);
-  playback.voices.push(osc);
+  return playback.enginePromise;
 }
 function currentPosition() {
   if (!currentMidi) return 0;
-  if (!playback.playing) return playback.position;
-  return Math.min(currentMidi.duration, Math.max(0,playback.originSong+
-    (playback.context.currentTime-playback.originAudio)*playback.rate));
+  const position=playback.playing ? playback.engine.position : playback.position;
+  return Math.max(0,Math.min(currentMidi.duration,position));
 }
-function stopSources() {
-  for (const source of playback.voices) {
-    try { source.stop(); } catch (_err) { /* already stopped */ }
-  }
-  playback.voices=[];
+function setTransport() {
+  $("playBtn").disabled=!currentMidi || playback.loading;
+  $("playIcon").textContent=playback.playing ? "Ⅱ" : playback.loading ? "…" : "▶";
+  $("playBtn").setAttribute("aria-label",playback.playing ? "Mettre en pause le MIDI" :
+    playback.loading ? "Chargement des sons General MIDI" : "Jouer le MIDI");
+  $("audioStatus").textContent=playback.loading ? "Préparation de la lecture…" :
+    playback.engine ? "GeneralUser GS · instruments échantillonnés" : "Sons General MIDI chargés à la première écoute.";
 }
 function pausePlayback() {
-  if (!playback.playing) return;
-  playback.position=currentPosition();
-  playback.playing=false;
-  clearInterval(playback.timer);playback.timer=null;
-  cancelAnimationFrame(playback.raf);playback.raf=null;
-  stopSources();
-  $("playIcon").textContent="▶";
-  $("playBtn").setAttribute("aria-label","Jouer le MIDI");
+  ++playback.request; // Invalidate any pending Play (Stop, course change, or backgrounding).
+  playback.loading=false;
+  if (playback.playing) {
+    playback.position=currentPosition();
+    playback.playing=false;
+    cancelAnimationFrame(playback.raf);
+    playback.raf=null;
+  }
+  playback.engine?.pause();
+  setTransport();
   updateTime();
 }
 function stopPlayback() {
   pausePlayback();
   playback.position=0;
-  playback.activeUrl="";
-  $("playIcon").textContent="▶";
+  playback.needsSeek=true;
+  updateTime();
+}
+function finishPlayback() {
+  if (!playback.playing || !currentMidi) return;
+  playback.playing=false;
+  playback.position=currentMidi.duration;
+  playback.needsSeek=true;
+  cancelAnimationFrame(playback.raf);
+  playback.raf=null;
+  setTransport();
   updateTime();
 }
 function updateTime() {
@@ -411,57 +381,59 @@ function updateTime() {
   $("seek").value=duration?String(Math.max(0,Math.min(1000,Math.round(position/duration*1000)))):"0";
   drawRoll();
 }
-function scheduleAhead() {
-  if (!currentMidi || !playback.playing) return;
-  const now=playback.context.currentTime;
-  const until=now+.24;
-  const maxSong=playback.originSong+(until-playback.originAudio)*playback.rate;
-  while (playback.next<currentMidi.notes.length && currentMidi.notes[playback.next].start<=maxSong) {
-    const note=currentMidi.notes[playback.next++];
-    if (note.end<=playback.originSong) continue;
-    const effectiveStart=Math.max(note.start,playback.originSong);
-    const at=playback.originAudio+(effectiveStart-playback.originSong)/playback.rate;
-    const duration=(note.end-effectiveStart)/playback.rate;
-    voice(note,at,duration);
-  }
-  if (currentPosition()>=currentMidi.duration) {
-    pausePlayback();
-    playback.position=currentMidi.duration;
-    updateTime();
-  }
-}
 function animation() {
   if (!playback.playing) return;
   updateTime();
   playback.raf=requestAnimationFrame(animation);
 }
 async function startPlayback() {
-  if (!currentMidi || playback.playing) return;
+  const song=currentMidi;
+  if (!song || playback.playing || playback.loading) return;
+  const request=++playback.request;
+  playback.loading=true;
+  setTransport();
+  notice("");
   try {
-    initializeAudio(); // Must happen in the user's click handler for iOS audio.
+    initializeAudio();
+    // Resume in the click handler, before awaiting the SoundFont or the worklet (iOS).
     await playback.context.resume();
-    if (playback.position>=currentMidi.duration) playback.position=0;
-    playback.rate=Number($("speed").value)||1;
-    playback.originSong=playback.position;
-    playback.originAudio=playback.context.currentTime+.085;
-    playback.next=currentMidi.notes.findIndex(n=>n.end>playback.position);
-    if (playback.next<0) playback.next=currentMidi.notes.length;
+    if (request!==playback.request) return;
+    const engine=await getGMPlayer();
+    if (request!==playback.request) return;
+    await engine.load(song);
+    if (request!==playback.request) return;
+    if (playback.position>=song.duration) {
+      playback.position=0;
+      playback.needsSeek=true;
+    }
+    engine.speed(Number($("speed").value)||1);
+    engine.play(playback.needsSeek ? playback.position : undefined);
+    playback.needsSeek=false;
     playback.playing=true;
-    $("playIcon").textContent="Ⅱ";
-    $("playBtn").setAttribute("aria-label","Mettre en pause le MIDI");
-    scheduleAhead();
-    playback.timer=setInterval(scheduleAhead,55);
     playback.raf=requestAnimationFrame(animation);
-  } catch(err) {
-    notice("Impossible d'activer le synthétiseur du navigateur : "+err.message);
+  } catch (error) {
+    if (request===playback.request) notice("Impossible de charger le son General MIDI : "+error.message+" Tu peux réessayer ou télécharger le fichier MIDI.");
+  } finally {
+    if (request===playback.request) {
+      playback.loading=false;
+      setTransport();
+    }
   }
 }
 function seekTo(position) {
-  const resume=playback.playing;
-  pausePlayback();
-  playback.position=Math.max(0,Math.min(currentMidi?currentMidi.duration:0,position));
+  if (!currentMidi) return;
+  playback.position=Math.max(0,Math.min(currentMidi.duration,position));
+  if (playback.playing && playback.position<currentMidi.duration) {
+    playback.engine.seek(playback.position);
+    return; // The worklet reports the new position asynchronously.
+  } else if (playback.playing) {
+    pausePlayback();
+    playback.position=currentMidi.duration;
+    playback.needsSeek=true;
+  } else {
+    playback.needsSeek=true;
+  }
   updateTime();
-  if (resume) startPlayback();
 }
 function drawRoll() {
   const canvas=$("pianoRoll"),rect=canvas.getBoundingClientRect();
@@ -543,7 +515,7 @@ $("playBtn").addEventListener("click",()=>playback.playing?pausePlayback():start
 $("stopBtn").addEventListener("click",stopPlayback);
 $("seek").addEventListener("change",e=>seekTo(Number(e.target.value)/1000*(currentMidi?currentMidi.duration:0)));
 $("volume").addEventListener("input",e=>{if (playback.master) playback.master.gain.value=Number(e.target.value)/100;});
-$("speed").addEventListener("change",()=>{const was=playback.playing;pausePlayback();playback.rate=Number($("speed").value)||1;if(was)startPlayback();});
+$("speed").addEventListener("change",()=>{if(playback.engine)playback.engine.speed(Number($("speed").value)||1);});
 window.addEventListener("resize",drawRoll);
 document.addEventListener("visibilitychange",()=>{if(document.hidden)pausePlayback();});
 document.addEventListener("keydown",e=>{

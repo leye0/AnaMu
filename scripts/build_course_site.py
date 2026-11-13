@@ -205,13 +205,26 @@ def main() -> None:
     if destination.exists():
         shutil.rmtree(destination)
     destination.mkdir(parents=True)
-    for asset in ("index.html", "app.js", "styles.css"):
+    for asset in ("index.html", "app.js", "styles.css", "gm-player.js"):
         shutil.copyfile(STATIC / asset, destination / asset)
     (destination / ".nojekyll").write_text("", encoding="utf-8")
 
     inventory = json.loads(ASSESSMENTS.read_text(encoding="utf-8"))
     metadata = []
-    for row in inventory["assessments"]:
+    # The online demos are independent of the assessment registry and its totals.
+    online_root = ROOT / "docs/courses/berklee-online"
+    online_demos = []
+    for example in sorted(online_root.glob("*/exemple.mid")):
+        code = example.parent.name
+        source = online_root / (code + ".md")
+        if source.is_file():
+            online_demos.append({
+                "institution": "berklee-online", "code": code,
+                "material_file": source.relative_to(ROOT).as_posix(),
+                "example_midi": example.relative_to(ROOT).as_posix(),
+                "review_state": "online_demo",
+            })
+    for row in [*inventory["assessments"], *online_demos]:
         school, code = row["institution"], row["code"]
         slug = re.sub(r"[^a-zA-Z0-9-]+", "-", code).strip("-")
         identifier = school + ":" + code
@@ -265,7 +278,8 @@ def main() -> None:
     (destination / "catalog.json").write_text(
         json.dumps(catalog, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
     )
-    print("Built AnaMu Pages: " + str(len(metadata)) + " entries; "
+    print("Built AnaMu Pages: " + str(len(metadata)) + " entries (including "
+          + str(len(online_demos)) + " online demos outside the registry); "
           + str(sum(bool(x["midi"]) for x in metadata)) + " original MIDI examples, "
           + str(sum(x["review_state"] == "course_choice_placeholder" for x in metadata))
           + " choice families")
