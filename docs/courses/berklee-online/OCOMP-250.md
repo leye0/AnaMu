@@ -64,3 +64,19 @@
 **Ponts conceptuels, sans équivalence de syllabus :** [MUTH-204](../mcgill/MUTH-204.md) (contrepoint tonal), [MUTH-304](../mcgill/MUTH-304.md) (fugue), [CM-103](../berklee/CM-103.md) (comparaison à paramètres contrôlés). L'exercice en ligne n'est pas une preuve de contenu McGill ou Boston.
 
 **Apport à AnaMu :** trois relations candidates **suspension préparée→résolution**, **sujet→entrée imitative** et **ostinato→continuité**, chacune avec conditions d'observation et exemple contredisant l'interprétation. Statut source, registre principal et exemples MIDI inchangés.
+
+## Cas et MIDI — imiter en mouvement direct ou contraire (13 novembre 2026)
+
+**Source du cours.** Le [plan OCOMP-250, leçon 8](https://online.berklee.edu/courses/counterpoint#syllabus) nomme la Variation Goldberg no 12 de Bach dans son travail sur le canon en mouvement contraire. La fenêtre et l’étude MIDI ci-dessous sont des choix AnaMu, pas une correction de Berklee.
+
+**Cas : Bach, BWV 988, Variation 12, m. 1–3.** La réponse entre à la deuxième mesure, à la quarte selon l’intitulé du canon. Elle reprend la conduite mélodique en inversant le sens des intervalles. La basse accompagnante n’est pas une troisième entrée canonique. Relever séparément le délai, l’écart entre les notes initiales et les directions d’intervalles à l’intérieur de chaque voix. Une quarte entre deux notes simultanées n’établit pas un canon à la quarte. Vérifier les intervalles diatoniques et leurs éventuels ajustements avant de supposer un miroir chromatique exact. [Partition Open Goldberg Variations, p. 21 du PDF](https://upload.wikimedia.org/wikipedia/commons/6/6d/Goldberg_Variations_complete_score.pdf#page=21) et [relevé de la Variation 12](https://musictheoryprint.com/works/johann-sebastian-bach/goldberg-variations).
+
+**Étude originale : [MIDI](./OCOMP-250/exemple.mid).** Douze mesures en 4/4 à 96 noires/minute. Dans chaque bloc de quatre mesures, la flûte expose la même phrase de huit notes et la clarinette répond une mesure plus tard, depuis le même do, une octave plus bas. Les attaques, durées, vélocités et instruments sont identiques entre blocs. Seules certaines hauteurs de la réponse changent au milieu.
+
+| Mesures | Réponse | Relation des intervalles mélodiques | Écart entre les deux voix aux quatre attaques communes |
+|---|---|---|---|
+| 1–4 | Directe | Même signe et même taille | 15, 15, 19, 12 demi-tons |
+| 5–8 | Contraire | Signe opposé, même taille | 15, 9, 9, 12 demi-tons |
+| 9–12 | Directe | Retour à la première version | 15, 15, 19, 12 demi-tons |
+
+**Analyse et réemploi.** Aligner les voix avec une mesure de délai avant de comparer leurs intervalles successifs. Écouter ensuite la mesure de recouvrement dans chaque bloc : le rythme commun reste identique, mais les hauteurs simultanées changent. Écrire une autre phrase en contrôlant à la fois les intervalles mélodiques de la réponse et ses consonances au contact du modèle. Le MIDI démontre un miroir chromatique strict à partir du premier do de la réponse, pas le système tonal du canon de Bach ni le contrepoint renversable à l’octave. **Preuve :** `MIDI_DIRECT` pour le délai, les 48 attaques et les intervalles, `AUDIO_REQUIRED` pour la reconnaissance à l’écoute.
