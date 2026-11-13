@@ -54,3 +54,35 @@ Ce support externe documente les sujets indiqués dans la fiche, avec sa propre 
 - **Drapeau :** `non_algorithmique=false` : `null` indique un manque de preuve, pas une exclusion arbitraire du cours.
 - **Exemple MIDI :** aucun, pour les raisons propres à chaque apprentissage ci-dessus; preuve appropriée précisée dans les procédures.
 - **Lacunes :** les œuvres, exercices de section, échantillons et évaluations réels restent inconnus.
+
+## Deuxième passe qualitative — forme électroacoustique, dynamique et contrôle (12 novembre 2026)
+
+**Attestation et provenance.** Les [exigences McGill 2026–2027](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) décrivent **MUCO 342** comme la composition numérique avancée avec MIDI, enregistrement audio, traitement du signal et **création d'œuvres électroacoustiques complètes**. Les exemples de concert H24 prouvent l'existence d'œuvres étudiantes, **pas** leurs consignes ni les capteurs requis; l'affichage d'auxiliariat H27 documente un environnement technique, pas un syllabus. Les trois protocoles sont **proposés par AnaMu**. Aucun MIDI isolé ne prouverait la dynamique acoustique ou la qualité d'une forme électroacoustique.
+
+### Q1 — Tension par transformations d'un matériau enregistré
+
+**Analyser — entrées et protocole.** Obtenir l'œuvre audio, les sons sources et, si possible, les étapes de traitement. Repérer attaques, enveloppes, énergie par bandes de fréquence et récurrences de gestes sonores; confronter une source initiale à ses transformations candidates en tenant compte des variations de vitesse et de hauteur. Tester deux hypothèses (« même source transformée » versus « timbre distinct de morphologie analogue ») et consigner la preuve au lieu d'identifier un plugin imaginaire.
+
+**Composer — étude contrôlée.** Enregistrer un son original, produire trois transformations dont les paramètres sont documentés (filtrage, enveloppe, étirement contrôlé, par exemple), et créer une progression de durée/densité vers une rupture puis une réapparition. Exporter le montage et comparer les états en audio.
+
+**Faux positifs / support.** Une augmentation de l'énergie aiguë n'est pas nécessairement un crescendo ou une tension perçue; les programmes General MIDI ne décrivent aucun signal acoustique traité. `AUDIO_REQUIRED / CONTEXT_REQUIRED / MIDI_PROXY`.
+
+### Q2 — Instrument et électronique : mesurer interaction réelle et retard
+
+**Analyser.** Pour une pièce mixte effectivement documentée, aligner une prise micro de l'instrument, la sortie électronique et une chronologie de contrôles. Mesurer les décalages d'attaque, la latence, les recouvrements et la correspondance d'un événement à un son produit; distinguer électronique **fixée**, déclenchement manuel et **réponse interactive** avec mapping vérifié. Comparer l'intention de la partition ou du patch au résultat entendu.
+
+**Composer — étude contrôlée.** Écrire une phrase instrumentale brève avec deux réponses électroniques conçues différemment (l'une fixe, l'autre réellement déclenchée). Capturer audio et événements, corriger les délais et ajuster la place de la réponse pour préparer ou interrompre une phrase musicale.
+
+**Faux positifs / support.** Le programme H24 atteste notamment des œuvres avec Karlax, **mais ne rend ni Karlax ni un mapping particulier obligatoire pour MUCO 342**. Un événement CC peut être ignoré par le patch. `AUDIO_REQUIRED / CONTEXT_REQUIRED / MIDI_PROXY`.
+
+### Q3 — Parcours de pièce complète : rythme de densité, respiration et conclusion
+
+**Analyser.** Sur la durée entière d'une œuvre, cartographier sections sonores par changement de texture, silences, énergie RMS, timbre, densité d'attaques et transitions; confronter ces mesures à l'écoute et à l'acoustique de diffusion. Vérifier si une montée locale prépare une arrivée formelle ou si une forte crête n'est qu'un transitoire isolé. Examiner la conclusion : raréfaction, reprise transformée, coupure ou stabilisation, **sans présupposer qu'une résolution cadentielle tonale doit exister**.
+
+**Composer — étude contrôlée.** Dessiner un parcours A–transition–B–retour modifié–fin, constituer des matériaux audio originaux et deux versions du climax (densité accrue versus allègement brusque). Écouter les versions à niveau comparable, puis consigner les décisions de montage qui créent une fonction formelle.
+
+**Faux positifs / support.** Un RMS élevé ou un segment long ne signifie pas objectivement « tension » ou « résolution ». Le syllabus n'impose aucune forme A–B : celle-ci est un atelier AnaMu, non une consigne McGill. `AUDIO_REQUIRED / CONTEXT_REQUIRED`.
+
+**Passerelles conceptuelles sans transfert de syllabus :** [MUCO-341](./MUCO-341.md) prépare les petites études de studio, [MUCO-541](./MUCO-541.md) approfondit l'analyse esthétique/audio, [CM-358](../berklee/CM-358.md) sépare automation MIDI et traitement effectif.
+
+**Bilan :** trois méthodes séparant matériau, interaction et grande forme audio. Aucun nouveau MIDI; `non_algorithmique=false` et statut documentaire inchangés.

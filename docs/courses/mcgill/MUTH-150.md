@@ -55,3 +55,35 @@ Les exigences de 2017 documentent le niveau d’exemption historique. Chercher l
 - **Drapeau :** `non_algorithmique=false`.
 - **MIDI :** [fichier original](./MUTH-150/exemple.mid) avec limitations explicites par apprentissage.
 - **Lacunes :** programme exact, méthodes et œuvres de section non obtenus; les statuts académiques restent inchangés.
+
+## Deuxième passe qualitative — tension tonale de l'accord à la cadence (12 novembre 2026)
+
+**Périmètre attesté.** Les [exigences McGill 2026–2027](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) attribuent à **MUTH 150** les accords/progressions diatoniques, le cadre des **voix extrêmes**, les cadences, les broderies et autres embellissements, l'aisance harmonique et les accords appliqués. Le document d'exemption 2017 cité en tête est une **épreuve historique de niveau**, non le syllabus H26. Les trois expériences ci-dessous sont des **procédures originales AnaMu**, sans prétention de reproduire les devoirs de section. L'[exemple MIDI initial](./MUTH-150/exemple.mid) montre I–IV–V7–I en quatre voix mais ne prouve pas chaque sous-technique.
+
+### Q1 — Attente créée par les voix extrêmes : sensible et septième de dominante
+
+**Analyser — données et tests.** Disposer de la partition ou de pistes réellement séparées. Établir le centre tonal **à partir du contexte**; dans un passage en do, suivre sol–do à la basse et si–do (sensible) / fa–mi (septième de G7) dans des voix identifiées. Mesurer positions métriques, tenues, direction des résolutions et possibles transferts de voix. Opposer une lecture V7–I à une lecture de simple sonorité de passage lorsque les basses et cadences ne confirment pas la tonalité.
+
+**Composer — transfert contrôlé.** Écrire une phrase originale avec une dominante claire, puis deux réalisations qui conservent les mêmes accords : l'une fait entendre si→do et fa→mi aux voix concernées, l'autre diffère une résolution en préparant une note tenue. Comparer la lisibilité de chaque conduite et la perception de clôture à tempo identique.
+
+**Faux positifs / représentation.** Une note si suivie de do n'est pas toujours une sensible; G7 en MIDI ne fixe pas à lui seul l'analyse du passage. `MIDI_DIRECT / CONTEXT_REQUIRED / AUDIO_REQUIRED`. La démo existante peut illustrer ces deux mouvements localement, **pas toute attente tonale de l'œuvre**.
+
+### Q2 — Force cadentielle : distinguer repos, demi-cadence et cadence authentique
+
+**Analyser — données et tests.** Cartographier fins de phrases avec basse, accords, mélodie supérieure, accents, silences et degré du dernier accord. Comparer un arrêt sur V à une résolution V–I et, pour une **cadence authentique parfaite** dans la pratique tonale commune, vérifier notamment V et I en position fondamentale et une arrivée de la tonique au soprano; si l'un des critères manque, éviter l'étiquette « parfaite ». Tester la lecture concurrente « mouvement harmonique interne » lorsque la phrase continue immédiatement.
+
+**Composer — transfert contrôlé.** Écrire deux phrases liées par un même motif : la première se termine sur V, la seconde sur I avec tonique au soprano. Produire une variante dont la deuxième fin tombe sur une inversion de I ou sur un autre degré mélodique et comparer précisément le poids conclusif.
+
+**Faux positifs / représentation.** La barre de mesure, une note longue ou un accord de I ne prouvent pas à eux seuls une cadence; la classification dépend aussi du contexte formel. `MIDI_DIRECT / MIDI_PROXY / CONTEXT_REQUIRED`. Le MIDI de quatre mesures **ne démontre pas** un système complet de cadences comparées.
+
+### Q3 — Embellissement local : tension de note étrangère sans changement d'harmonie
+
+**Analyser — données et tests.** Aligner basse, accord prolongé et ligne mélodique. Pour une note candidate étrangère à l'accord, relever temps fort/faible, durée, préparation éventuelle, approche et résolution par degré conjoint. Comparer lecture « note de passage », « broderie », « retard » et « véritable changement d'accord »; ne pas décider sur la seule classe de hauteur. Contrôler si l'ornement prolonge une fonction locale ou prépare la cadence de phrase.
+
+**Composer — transfert contrôlé.** Partir d'un I–V7–I à quatre voix; ajouter d'abord une note de passage faible dans la mélodie, puis un retard préparé/résolu dans une autre voix. Noter les dissonances et leurs appuis métriques, puis comparer version ornée et version dépouillée en conservant les accords structurels.
+
+**Faux positifs / représentation.** Le MIDI original **ne contient pas une démonstration distincte de passage**, comme déjà précisé en première passe; ne pas déclarer l'ornement prouvé par ce fichier. `MIDI_DIRECT / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+**Passerelles analytiques sans équivalence de cursus :** [MUTH-151](./MUTH-151.md) traite les formes de phrase et la modulation, [CM-211](../berklee/CM-211.md) la basse chiffrée, [MUTH-528](./MUTH-528.md) la prolongation à plusieurs niveaux. La notion d'attente décrite ici est **fonctionnelle et conditionnée au style**, non un score psychologique mesuré.
+
+**Bilan :** trois axes documentant résolution de voix, hiérarchie des cadences et embellissement; `non_algorithmique=false`, MIDI et statut académique inchangés.

@@ -57,3 +57,35 @@ Demander ou trouver le plan autorisé de **MUTH 539 Fall 2026**, le répertoire 
 - **Drapeau :** `non_algorithmique=false`.
 - **MIDI :** [fichier original dans le dossier du cours](./MUTH-539/exemple.mid).
 - **Manques :** consignes de section, œuvres prescrites et critères d'exécution/correction; statut universitaire inchangé.
+
+## Deuxième passe qualitative — tensions harmoniques avancées et contrepoint post-tonal (12 novembre 2026)
+
+**Périmètre de preuve.** Les [exigences McGill 2026–2027](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) annoncent **MUTH 539, automne 2026** avec harmonisation intensive à quatre voix, vocabulaire/syntaxe harmonique avancés et contrepoint post-tonal. **Le poids relatif des contenus, les œuvres et consignes de section ne sont pas publics**. Les trois méthodes sont des expériences **AnaMu** à partir de ces domaines officiels, sans reconstituer une progression hebdomadaire. Le [MIDI initial](./MUTH-539/exemple.mid) contient **I–IV–V7–I** sur quatre mesures puis des **cellules [0,1,4] successives**, qui **ne démontrent pas** une écriture post-tonale simultanée à plusieurs voix.
+
+### Q1 — Plusieurs niveaux de résolution : verticale, linéaire et cadentielle
+
+**Analyser — entrées et décision.** Dans une véritable partition à quatre voix, relever l'identité de chaque partie, les dissonances au temps fort, les résolutions de sensibles et de septièmes, la progression de basse et le type de cadence. Distinguer trois verdicts : une **note** qui résout, un **accord** qui acquiert une fonction et une **phrase** qui atteint une fin. Vérifier si fa→mi au-dessus de G7→C coïncide réellement avec une cadence, ou seulement une résolution de note dans un mouvement encore ouvert.
+
+**Composer — étude contrôlée.** Écrire un I–IV–V7–I original à quatre voix avec deux variantes : résolution immédiate de sensible/septième puis résolution retardée dans une ligne, en conservant le même cadre harmonique. Annoter les attentes propres à chaque voix et comparer l'effet local et celui de la phrase complète.
+
+**Faux positifs et catégorie.** Une résolution chromatique ponctuelle ne démontre pas une cadence globale; les conventions d'harmonisation dépendent du style choisi. Le MIDI joint illustre seulement un schéma simple, **pas l'ensemble des tensions avancées**. `MIDI_DIRECT / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+### Q2 — Syntaxe chromatique : transition fonctionnelle ou collection nouvelle
+
+**Analyser.** Segmenter chaque accord chromatique selon les basses, les graphies et les mouvements de résolution, puis tester les hypothèses de dominante secondaire, emprunt, tonicisation et modulation durable. Confronter ces fonctions à l'éventuelle récurrence d'un ensemble de classes de hauteurs dans plusieurs régions. La question structurante est de savoir si le chromatisme **sert une direction tonale** ou appartient à une organisation sans tonique manifeste, sans présupposer qu'un même système explique les deux.
+
+**Composer — étude contrôlée.** Construire deux épisodes à partir d'une même cellule : une version en langage tonal avec une dominante appliquée réellement résolue, une autre avec une collection post-tonale définie et des retours intervalliques. Comparer le rôle des hauteurs communes et des repères de clôture, en indiquant les règles réellement suivies.
+
+**Faux positifs et catégorie.** Un accord chromatique isolé ne prouve pas un système post-tonal; les cellules [0,1,4] du MIDI n'attestent aucune *syntaxe harmonique avancée* de la section. `MIDI_DIRECT / MIDI_PROXY / CONTEXT_REQUIRED`.
+
+### Q3 — Contrepoint post-tonal : tension d'interaction sans imposer V–I
+
+**Analyser.** Sur des voix post-tonales effectivement simultanées, comparer profils intervalliques, décalages d'entrées, densité des attaques, registres, éventuelles transformations et évolution des intervalles verticaux. Décrire les moments où les voix convergent, se dispersent, se répondent ou créent une masse; tester les interprétations « intensification par chevauchement » et « réorganisation de matériaux » au lieu de mesurer une tension via les seules dissonances tonales.
+
+**Composer — étude contrôlée.** Écrire deux lignes originales partageant une cellule de quatre notes mais présentant des temporalités distinctes; rapprocher leurs entrées pour créer un recouvrement puis les séparer en registres différents. Écouter la variation de texture et vérifier que l'autonomie des voix survit à la superposition.
+
+**Faux positifs et catégorie.** Les trois cellules **successives** des mesures 5–7 du MIDI joint ne prouvent pas un contrepoint post-tonal polyphonique; et une densité supérieure n'implique pas une tension émotionnelle. `MIDI_DIRECT / AUDIO_REQUIRED / CONTEXT_REQUIRED`.
+
+**Passerelles conceptuelles, non équivalences de cours :** [MUTH-150](./MUTH-150.md) formalise cadences et résolutions de voix, [MUTH-350](./MUTH-350.md) documente les classes de hauteurs et changements de registre, [CP-350](../berklee/CP-350.md) propose des comparaisons de textures post-tonales, [MUTH-322](./MUTH-322.md) reste une option à thème variable **non offerte actuellement**.
+
+**Bilan :** trois axes avec des verdicts indépendants pour tension tonale, langage chromatique et interaction post-tonale. Aucun MIDI nouveau, `non_algorithmique=false` et statut académique inchangés.

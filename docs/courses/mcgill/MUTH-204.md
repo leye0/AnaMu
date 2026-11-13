@@ -47,3 +47,35 @@ Le [cours Berklee Online OCOMP-250](../berklee-online/OCOMP-250.md) organise l'i
 - **Algorithme musical :** `non_algorithmique=false` sur la matière attestée.
 - **Exemple :** [fichier MIDI original](./MUTH-204/exemple.mid), dont les limites sont détaillées ci-dessus.
 - **Lacunes :** progression réelle de section, corpus, critères et travaux précis non attribuables sans nouvelle preuve; les statuts de matière universitaire demeurent inchangés.
+
+## Deuxième passe qualitative — contrepoint baroque, tensions linéaires et cadences (12 novembre 2026)
+
+**Périmètre attesté.** Les [exigences McGill 2026–2027](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) précisent pour **MUTH 204** l'analyse technique des œuvres baroques et des **exercices écrits en style strict**. Cela **ne dit pas** qu'une exposition fuguée entière, un épisode ou un stretto fait partie des devoirs de cette section; le diagnostic supérieur cité ailleurs est une référence séparée. Les méthodes sont des propositions **AnaMu** pour l'analyse et l'écriture contrapuntiques. L'[étude MIDI jointe](./MUTH-204/exemple.mid) montre motif à la dominante et soutien tonal, **pas une fugue complète**.
+
+### Q1 — Une entrée imitée n'est pas une résolution : maintenir une question en suspens
+
+**Analyser.** Séparer les voix de la partition, définir la cellule par intervalles ordonnés et valeurs relatives; relever retard et transposition de chaque reprise candidate. Pendant une nouvelle entrée, observer si la voix précédente ferme sa phrase, prolonge sa ligne ou crée un contrechant indépendant. Confronter la carte des entrées aux points cadentiels : une entrée peut intensifier le dialogue sans résoudre l'harmonie. Contrôler la qualité de l'imitation sur plus de deux notes communes.
+
+**Composer.** Écrire une cellule tonale de quatre à huit notes, sa réponse différée et deux continuations possibles de la première voix : l'une conclut rapidement, l'autre entretient la tension en rejoignant une cadence plus tard. Garder les mêmes hauteurs de réponse et comparer la différence de direction formelle produite par la continuation.
+
+**Faux positifs / catégorie.** Une réponse à +7 demi-tons n'atteste ni une *réponse tonale* adaptée ni le statut de sujet de fugue; le MIDI ne prouve pas l'attente ressentie. `MIDI_DIRECT / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+### Q2 — Dissonances contrôlées : préparation, temps fort et mouvement de sortie
+
+**Analyser.** Sur deux voix attestées par une partition, relever pour chaque frottement l'intervalle vertical, l'accent métrique, la provenance d'une note tenue et sa résolution. Une suspension *4–3 au-dessus d'une basse de sol* peut, **dans une réalisation stylistiquement adéquate**, faire entendre do tenu puis si; vérifier préparation dans l'harmonie précédente avant de la qualifier de suspension. Comparer à une simple appoggiature ou à un passage non accentué et annoter les cas non tranchables.
+
+**Composer.** Construire deux voix avec une cadence en do, d'abord sans retard, puis avec une note préparée qui devient dissonante lorsque la basse change et se résout par degré conjoint. Relire tous les intervalles, puis vérifier avec les contraintes de style strict **explicitement choisies pour l'étude**, sans inventer le barème du professeur.
+
+**Faux positifs / catégorie.** Tout intervalle de quarte n'est pas une suspension, et les règles d'une espèce abstraite ne s'appliquent pas mécaniquement à chaque œuvre baroque. L'exemple MIDI existant n'est **pas validé comme étude de suspensions**. `MIDI_DIRECT / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+### Q3 — Tension à l'échelle de la texture : indépendance des voix et arrivée commune
+
+**Analyser.** Mesurer, par phrase, recouvrement des lignes, densité d'attaques, ambitus et mouvements contraire/oblique; repérer quand les voix suivent des trajectoires différentes puis convergent vers une cadence commune. Opposer « davantage de notes simultanées » à « forte direction contrapuntique » : la densité ne prouve pas un climax ni une résolution. Vérifier la basse et le soprano pour distinguer fermeture réelle de simple amincissement de texture.
+
+**Composer.** Réaliser une phrase à deux voix avec entrées décalées et rythme complémentaire, puis préparer une cadence conjointe; créer une variante où une voix continue malgré la fin de l'autre. Comparer l'effet de clôture et la liberté des lignes, en conservant la même grammaire harmonique.
+
+**Faux positifs / catégorie.** Une texture homorythmique peut être expressive et une texture dense peu tendue; aucun seuil de « tension » chiffré n'est établi par la notice. `MIDI_DIRECT / MIDI_PROXY / AUDIO_REQUIRED / CONTEXT_REQUIRED`.
+
+**Passerelles conceptuelles, pas syllabus commun :** [MUTH-150](./MUTH-150.md) précise attentes cadentielles; [MUTH-304](./MUTH-304.md) se concentre explicitement sur les techniques fuguées **en style libre**; [CP-210](../berklee/CP-210.md) distingue imitation et conduite des lignes. **MUTH 204 (style strict) et MUTH 304 (style libre fugué) ne sont pas interchangeables.**
+
+**Bilan :** trois axes où la dissonance, la reprise motivique et la texture ont des conditions distinctes de résolution. Pas de MIDI fictif; `non_algorithmique=false` et première évaluation inchangés.
