@@ -91,3 +91,16 @@ Les exigences de 2017 documentent le niveau d’exemption historique. Chercher l
 **Passerelles analytiques, non transferts de syllabus :** [MUCO-241](./MUCO-241.md) étudie structure de phrase et continuité; [CM-227](../berklee/CM-227.md) précise modulation et accord pivot; [MUTH-204](./MUTH-204.md) sert de comparateur tonal; [MUTH-528](./MUTH-528.md) distingue clôtures locales et prolongation globale.
 
 **Bilan :** trois apprentissages nommés dans la notice actuelle, avec hypothèses alternatives et réemploi musical. `non_algorithmique=false`, nombre de MIDI et état du syllabus inchangés.
+
+## Cas vérifié sur partition — Beethoven, op. 2 no 1, I, m. 1–8 (13 novembre 2026)
+
+**Ancrage.** Les [exigences McGill](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) nomment l’analyse des types thématiques pour MUTH 151. La [partition annotée par Robert Hutchinson, University of Puget Sound](https://musictheory.pugetsound.edu/mt21c/SentenceStructure.html), fig. 13.2.2, est un **comparateur AnaMu**, pas une œuvre assignée par McGill.
+
+| Mesures | Observation | Fonction retenue |
+|---|---|---|
+| 1–2 | Idée de deux mesures avec départ arpégé et petit geste terminal. | Idée initiale. |
+| 3–4 | Profil repris, mais intervalles adaptés à l’harmonie de dominante. | Réponse interne à la présentation, pas preuve d'une fin d’antécédent. |
+| 5–6 | Le petit geste terminal revient en unités plus courtes que l’idée entière. | Fragmentation dans la continuation. |
+| 7–8 | Le passage converge vers une demi-cadence. | Clôture de la *sentence*, même si cette clôture reste ouverte harmoniquement. |
+
+**Lecture concurrente.** Le plan 4+4 et la présence de la dominante aux m. 3–4 pourraient faire proposer une période. Le meilleur argument contre cette lecture dans cet extrait est la combinaison suivante : pas de cadence d’antécédent établie à m. 4, pas de reprise complète du début à m. 5 et fragmentation qui mène à m. 8. L'étiquette dépend de ces relations, pas du seul compte de mesures. **Transfert créatif :** sur une idée originale de deux mesures, opposer une continuation par fragmentation à un conséquent qui reprend le début après une première cadence. Examiner la place des deux cadences avant de nommer la forme. Le MIDI préexistant est inchangé et ne représente pas ce passage.

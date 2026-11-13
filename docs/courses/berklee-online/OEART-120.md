@@ -32,3 +32,19 @@
 - **Reste à obtenir :** cahier des consignes, supports d'écoute et partitions, corrigés, devoirs soumis, barèmes et édition spécifique d'une section. Les intitulés de tâches du site ne doivent pas être pris pour les énoncés intégraux.
 
 **Réserve de phase :** cette fiche archive une **source pédagogique académique**, sans implémentation d'analyse musicale et sans création de tests logiciels.
+
+## Application à l’analyse et à la création — regroupement métrique et notes variables du mineur (13 novembre 2026)
+
+**Preuve du cours.** Le [plan public OEART-120](https://online.berklee.edu/courses/ear-training-2#syllabus) juxtapose mineur mélodique jazz et 6/8 (leçon 2), mineur harmonique et swing (4), mineur naturel et direction du 6/8 (7–8), puis mineur mélodique traditionnel et phrases comparées (9–10). Les études sont des adaptations AnaMu.
+
+### Q1 — Six croches ne disent pas s’il y a deux ou trois appuis
+
+**Analyse.** Dans l'[exemple MIDI original](./OEART-120/exemple.mid), comparer A, m. 1–2 en 6/8, et B, m. 3–4 en 3/4. Chaque mesure dure 1,5 s et les hauteurs, positions d’attaque relatives et durées se répètent à l’identique dans B. En A, les vélocités favorisent les croches 1 et 4, en B les croches 1, 3 et 5. Vérifier d'abord la grille de six attaques, puis les regroupements 3+3 et 2+2+2. Le fichier encode un regroupement via **deux indices** (signature et vélocité), pas une preuve qu’une vélocité particulière produit toujours un accent audible. L'appui imprimé par la hauteur reste un indice concurrent.
+
+**Création.** Comparer les deux variantes en masquant l’indication de mesure à l’écoute. Une troisième version avec vélocités uniformes isolerait mieux le rôle des hauteurs, mais n'est pas incluse. **Preuve :** `MIDI_DIRECT` pour grille et vélocités, `AUDIO_REQUIRED` pour juger la pulsation réellement entendue.
+
+### Q2 — Le sixième et le septième degrés variables se lisent en contexte
+
+**Analyse.** En la mineur, distinguer fa → mi d'une montée fa♯–sol♯–la, puis relever la basse et la destination. Dans une phrase contenant les deux, un passage local peut avoir une inflexion mélodique ou un appui de dominante sans changement de tonalité. La collection cumulée des notes du passage ne décrit ni l'ordre ni la fonction. Un fragment incomplet sans sixte ou septième significative ne tranche pas entre les formes du mineur.
+
+**Création.** Écrire trois fins de phrase avec même mètre, registre et arrivée sur la. Varier seulement les degrés 6 et 7 dans la mélodie et laisser le même support neutre sur la–mi. Ajouter ensuite une basse mi → la pour une écoute séparée. La comparaison des formes du mineur est **textuelle, non encodée dans le MIDI joint**, qui porte sur Q1. **Preuve :** `MIDI_PROXY` pour les inflexions et leur fonction.

@@ -32,3 +32,19 @@
 - **Reste à obtenir :** cahier des consignes, supports d'écoute et partitions, corrigés, devoirs soumis, barèmes et édition spécifique d'une section. Les intitulés de tâches du site ne doivent pas être pris pour les énoncés intégraux.
 
 **Réserve de phase :** cette fiche archive une **source pédagogique académique**, sans implémentation d'analyse musicale et sans création de tests logiciels.
+
+## Application à l’analyse et à la création — résolution indirecte et accent de phrase (13 novembre 2026)
+
+**Preuve du cours.** Le [plan public OEART-119](https://online.berklee.edu/courses/ear-training-1#syllabus) traite les degrés attractifs du majeur (leçon 4), puis syncope en croches et résolutions indirectes (7–8). Le plan cite ces matières séparément. Leur combinaison à l'échelle d'une phrase est une proposition AnaMu.
+
+### Q1 — Intercaler une note sans déplacer l’arrivée harmonique
+
+**Analyse.** Dans l'[exemple MIDI original](./OEART-119/exemple.mid), comparer m. 1–4 et m. 5–8. À m. 2 et m. 6, la voix aiguë attaque si au troisième temps sur un support sol–ré–sol. Dans A, si se maintient jusqu'au do sur le premier temps de m. 3. Dans B, ré s’intercale au quatrième temps avant le même do, m. 7. L’appui sol → do arrive au même moment. A montre une succession si → do contiguë, B un geste si–ré–do. Décrire B comme une résolution **indirecte candidate** à l'échelle de la ligne, pas comme un déplacement de la cadence ni une obligation de réduire tout passage si–ré–do à si → do.
+
+**Création.** Modifier seulement la ligne aiguë en gardant début du si, instant d’arrivée et accompagnement. Si l'on change aussi l'arrivée de la basse, on ne peut plus distinguer détour mélodique et report harmonique. **Preuve :** `MIDI_DIRECT` pour la différence d'événements, `AUDIO_REQUIRED` pour la force d’attraction perçue.
+
+### Q2 — Une attaque anticipée ne déplace pas forcément le temps fort
+
+**Analyse.** Noter les attaques faibles qui se prolongent au-dessus d'un temps fort. Les comparer aux appuis de basse et à la subdivision stable sur les deux mesures voisines. Si le temps fort reste repérable et la note accentuée a commencé avant lui, lire une syncope relative à ce cadre. Si les parties se décalent ensemble ou si le cadre lui-même change durablement, considérer un autre placement métrique. Une attaque isolée hors grille ne suffit pas à établir une syncope.
+
+**Création.** Réutiliser A sur papier et avancer seulement le do mélodique d'une croche, en le tenant au travers du premier temps de m. 3. La basse entre toujours sur ce temps. Comparer cette version à celle où basse et mélodie anticipent ensemble. Cette variante métrique **n'est pas encodée dans le MIDI joint**. **Preuve :** `MIDI_PROXY` pour la syncope si le mètre est établi, audio pour le placement ressenti.

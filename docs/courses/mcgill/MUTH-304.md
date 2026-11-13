@@ -65,3 +65,15 @@ Le chapitre ouvert détaille un procédé d’écriture ; le diagnostic fournit 
 **Passerelles analytiques, non équivalences de syllabus :** [CP-215](../berklee/CP-215.md) vérifie les imitations à deux et trois voix, [CP-311](../berklee/CP-311.md) les différences sujet/réponse et stretto/épisode; [MUTH-251](./MUTH-251.md) relie fonctions chromatiques et niveaux formels. Les exercices externes mentionnés plus haut ne deviennent pas ceux de MUTH-304.
 
 **Bilan :** trois protocoles fugués avec conditions falsifiables, sans inventer œuvres ou évaluation de section. Aucun MIDI nouveau; `non_algorithmique=false` inchangé.
+
+## Cas vérifié sur partition — Bach, fugue BWV 847, m. 1–9 (13 novembre 2026)
+
+**Ancrage.** Les [exigences McGill](https://www.mcgill.ca/music/programs/bmus/music-theory/requirements) attestent la fugue en style libre pour MUTH 304. La [partition annotée de l’American Guild of Organists](https://old.agohq.org/wp-content/uploads/2023/04/Fugue-Episode-and-Modulation.pdf#page=12) est externe au cours. Elle fournit trois repères successifs qu’on peut vérifier voix par voix. La [fig. 30.8.1 de Robert Hutchinson, University of Puget Sound](https://musictheory.pugetsound.edu/mt21c/FugueAnalysis.html) recoupe la répartition du premier contre-sujet et distingue ce pont du premier épisode après l’exposition.
+
+| Repère | Observation | Fonction |
+|---|---|---|
+| m. 1 et 3 | Sujet à l’alto, réponse tonale au soprano. L’alto prend un contre-sujet sous la réponse. | Le transfert du sujet et la continuité de la voix qui le quitte sont deux relations simultanées. |
+| m. 5–6 | Entre la réponse et l'entrée grave, la partition montre un raccord qui réoriente l'harmonie de sol mineur vers do mineur selon l'annotation AGO. Hutchinson y relève un fragment de la tête du sujet. | Transition interne à l'exposition retenue ici. L'absence momentanée de sujet complet n’oblige pas à déclarer l’exposition terminée. |
+| m. 7–9 | Le sujet revient à la basse et le premier contre-sujet est confié au soprano. | L'identité du rôle survit à la redistribution des voix. L'entrée de la troisième voix complète la succession attendue dans cette exposition. |
+
+**Lecture concurrente.** Un analyste peut appeler le raccord un bref épisode interne. La divergence terminologique n’autorise pas à supprimer la préparation de l’entrée grave ni à assimiler une cellule dérivée au sujet entier. **Transfert créatif :** garder sujet, réponse et entrée de basse, puis comparer un raccord qui réemploie un fragment à un autre qui insère du matériel étranger. Comparer indépendamment la cohérence motivique et le retour à la tonalité de l’entrée suivante. Le MIDI à deux voix existant n’a pas été remplacé. Il ne démontre ni le raccord ni la troisième entrée.
