@@ -46,3 +46,35 @@ Syllabus public ; liens et résumé original, sans redistribution du manuel ni d
 - **Drapeau :** `non_algorithmique=false` ; une valeur `null` désigne l'absence de preuve de section, pas une absence d'algorithmique.
 - **Fichier MIDI :** aucun, pour les raisons expliquées; média mieux adapté indiqué ci-dessus.
 - **Manques :** corpus de section, exercices exacts et critères.
+
+## Deuxième passe qualitative — hiérarchie tonale, prolongation et horizons de résolution (12 novembre 2026)
+
+**Provenance.** La [notice McGill MUTH 528](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) décrit **principes et graphes de l'analyse schenkerienne** d'œuvres tonales des années 1700–1900, **prolongations et rapports avec les types formels**. Le cours est **signalé comme non offert actuellement** dans le programme consulté en novembre 2026; cela n'annule pas sa pertinence conceptuelle mais **aucun enseignement 2026 ni syllabus de section n'est attesté**. Le syllabus UNT décrit plus haut est celui **d'une autre université**. Les trois applications sont proposées par AnaMu. **Aucun MIDI n'est créé : une preuve fidèle demande partition et graphes analytiques.**
+
+### Q1 — Surface et niveaux de structure : ne pas confondre durée et importance
+
+**Analyser une œuvre.** Obtenir une partition tonale complète et identifier les voix, la basse, les cadences et les notes réellement prolongées. Proposer un premier niveau de réduction où les notes de passage et broderies sont reliées aux notes qui les gouvernent; étendre l'hypothèse à un niveau intermédiaire puis à une ligne structurelle possible en indiquant **chaque relation d'élaboration**. Confronter deux réductions concurrentes aux progressions de basse, registres, reprises et points de repos; conserver les endroits ambigus.
+
+**Composer et vérifier.** Concevoir un squelette de basse et de ligne supérieure sur une phrase originale, puis réaliser deux surfaces contrastées (ornementation légère et prolifération de notes) conservant la même trajectoire structurelle. Produire **notation et deux graphes annotés**, comparer la lisibilité de la progression à l'écoute.
+
+**Faux positifs / format.** Une note longue ou grave n'est pas automatiquement « structurelle »; un calcul de durées MIDI ne suffit pas à choisir une lecture schenkerienne. `MIDI_PROXY / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+### Q2 — Cadence locale et prolongation globale : attentes à plusieurs échelles
+
+**Analyser.** Dessiner séparément la carte des fins de phrases et celle des prolongations harmoniques entre sections. Tester si une cadence locale ferme une sous-phrase sans résoudre la trajectoire globale, en relevant les retours du même degré, les prolongations dominantes/toniques et les préparations à plus long terme. Construire une lecture alternative plus locale et expliquer quelles relations de voix la hiérarchie proposée rend visibles.
+
+**Composer et vérifier.** Écrire deux phrases avec une arrivée intermédiaire réelle mais non finale au niveau de la pièce; reprendre la trajectoire mélodique pour parvenir à une résolution plus forte à la fin. Contraster avec une version où les deux phrases clôturent définitivement et observer la différence d'élan formel.
+
+**Faux positifs / format.** Une interprétation de « tension prolongée » est un jugement théorique soutenu par le contexte, non un événement MIDI directement observable; la théorie ne doit pas être imposée à des œuvres pour lesquelles elle n'est pas adaptée. `MIDI_PROXY / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+### Q3 — Transfert de registre, voix échangées et continuité sous changement de texture
+
+**Analyser.** Dans une œuvre tonale avec notation complète, suivre une même ligne au-delà de changements d'octave ou de pupitre, en vérifiant sa place dans la conduite des voix et non seulement la hauteur absolue. Si deux voix échangent effectivement leurs notes structurelles, examiner un échange de voix candidat; comparer cette hypothèse à un simple doublage ou à une réorchestration sans continuité structurelle.
+
+**Composer et vérifier.** Écrire une cellule tonale à deux parties, déplacer l'un de ses segments d'une octave ou dans un autre instrument tout en gardant la fonction harmonique, puis écrire une variante qui échange les mouvements des deux voix; annoter les graphes et contrôler la conduite effective.
+
+**Faux positifs / format.** La présence de mêmes classes de hauteurs à deux octaves ne démontre ni transfert de registre, ni échange de voix structurel; le syllabus UNT ne devient pas une preuve de devoir McGill. `MIDI_PROXY / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+**Passerelles conceptuelles, sans transferts de programme :** [MUTH-151](./MUTH-151.md) documente les formes thématiques *sentence/period* et leurs cadences; [MUTH-251](./MUTH-251.md) examine l'interaction des niveaux formels et de l'harmonie chromatique; [MUCO-242](./MUCO-242.md) relie continuité motivique et composition tonale. Ces rapprochements ne prouvent pas une lecture imposée en MUTH 528.
+
+**Bilan :** trois procédures pour distinguer événements de surface, continuité structurelle et hypothèses de résolution. Statut `partial`, `non_algorithmique=false` et absence de MIDI inchangés.

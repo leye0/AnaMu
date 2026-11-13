@@ -46,3 +46,35 @@ Ce support externe documente les sujets indiqués dans la fiche, avec sa propre 
 - **Drapeau :** `non_algorithmique=false` (valeur nulle = matière de section trop variable ou inconnue, et non absence d'algorithmique possible).
 - **MIDI :** non produit, pour ne pas inventer d'apprentissage spécifique; supports mieux adaptés indiqués ci-dessus.
 - **Lacunes :** projets de section, œuvres et critères réels, statuts académiques inchangés.
+
+## Deuxième passe qualitative — forme électroacoustique, transformations et attentes audibles (12 novembre 2026)
+
+**Provenance du code.** Les [exigences McGill 2026–2027](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) décrivent **MUCO 541 — Advanced Digital Studio Composition 1** : esthétique et poétique électroacoustiques, analyse de ce répertoire, synthèse et traitement numérique, **réalisation de pièces complètes** avec éventuelle composante de performance live. Les exercices MIT cités dans la fiche relèvent d'un **cours différent**, et les œuvres, outils exacts et travaux d'une section MUCO 541 ne sont pas publiés. Les protocoles ci-dessous sont des **applications AnaMu**, non des séances attestées. Les preuves attendues sont principalement **audio et paramètres de production**, et non MIDI.
+
+### Q1 — Reconnaître un retour sonore malgré une transformation timbrale
+
+**Analyser une œuvre existante.** Obtenir le fichier audio et, si possible, les sources/paramètres de production. Segmenter les événements en comparant attaques, enveloppes, durée, contour spectral, répétition de grains ou figures rythmiques; aligner les ressemblances dans le temps et tester si un matériau retourne sous filtrage, étirement temporel ou changement d'espace sonore. Préserver plusieurs lectures possibles (même source transformée, source différente mais similaire) tant qu'aucun projet de studio ne les départage.
+
+**Créer et contrôler.** Fabriquer trois occurrences d'un matériau audio original : première présentation, version transformée mais reconnaissable et version fortement contrastée. Les disposer dans une forme simple à retour, écouter si les relations survivent et conserver audio de départ, traitements et rendu final comme preuves.
+
+**Faux positifs / catégorie.** Une proximité de centroides spectraux ou d'enveloppes ne prouve pas une même source; un motif de notes MIDI identique peut produire des sons très différents. `AUDIO_REQUIRED / CONTEXT_REQUIRED / MIDI_PROXY`.
+
+### Q2 — Transition, continuité et rupture : segmenter avec des indices indépendants
+
+**Analyser.** Suivre sur l'audio l'énergie RMS, la densité d'attaques, l'évolution spectrale, les silences et la répartition spatiale lorsque des canaux multivoies existent. Comparer les frontières proposées par ces mesures à l'écoute des changements de geste et de texture. Vérifier si une transition est progressive (morphing, fondu, déplacement d'énergie) ou une rupture (coupure, silence, attaque contrastée) et si la perception dépend du niveau de diffusion.
+
+**Créer et contrôler.** Écrire une courte pièce où A mène à B par transformation progressive, puis fabriquer une seconde version reliant les mêmes matériaux par coupure franche; conserver des niveaux de lecture comparables et comparer l'orientation perceptive de l'auditeur à chaque jonction.
+
+**Faux positifs / catégorie.** Une hausse RMS ne prouve ni un climax ni une émotion; une variation du centre de gravité spectral dépend du matériau et du dispositif. Les logiciels et méthodes de segmentation sont **suggestions AnaMu**, pas des exercices confirmés. `AUDIO_REQUIRED / CONTEXT_REQUIRED`.
+
+### Q3 — Attente dans une forme sonore complète : régularité locale puis écart motivé
+
+**Analyser.** Sur plusieurs épisodes, relever un schéma reproductible (fréquence d'apparition d'une attaque, durée des silences, retour d'une texture ou d'un contraste de registres), puis formuler une prédiction **datée avant l'événement suivant**. Contrôler si le retour prévu survient, est retardé ou transformé; distinguer la surprise définie par ce schéma local de toute attente psychologique universelle. Lire les déclarations d'intention disponibles comme **contexte** et non comme mesure acoustique.
+
+**Créer et contrôler.** Construire une séquence audio originale A–B–A–B établissant une récurrence; produire une version poursuivant le schéma et une autre qui réoriente progressivement la fin vers C. Faire écouter les deux versions et noter si les transitions sont perçues comme conséquence des matériaux, sans assigner de score esthétique automatique.
+
+**Faux positifs / catégorie.** Une périodicité de segments n'est pas une intention formelle démontrée; l'attente est conditionnée par l'expérience d'écoute et la diffusion. Aucun fichier MIDI ne pourrait prouver les interactions spectrales demandées. `AUDIO_REQUIRED / CONTEXT_REQUIRED`.
+
+**Passerelles analytiques, non programme partagé :** [MUTH-538](./MUTH-538.md) offre des modèles de similarité/attente seulement **conditionnels au thème d'une section**; [CM-357](../berklee/CM-357.md) décrit l'introduction à la morphologie électroacoustique; [CM-358](../berklee/CM-358.md) sépare gestes de contrôle et rendu spectral. Les enseignements et projets de ces cours ne sont pas transférés à MUCO 541.
+
+**Bilan.** Trois protocoles fondés sur une musique réellement sonore, avec variantes et critères de falsification; aucun nouvel exemple MIDI, `non_algorithmique=false` et statuts de première évaluation inchangés.

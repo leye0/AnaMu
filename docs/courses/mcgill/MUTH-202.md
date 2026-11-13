@@ -29,3 +29,35 @@ Le [plan complet de progression publique d'OCOMP-250](../berklee-online/OCOMP-25
 **Exemple / limites :** Le MIDI démontre imitation et collection dorienne, sans certifier un contrepoint de style Renaissance historiquement correct; l'examen supérieur McGill mentionné ailleurs n'est pas le syllabus du cours.
 
 **Applicabilité :** `MIDI_DIRECT, CONTEXT_REQUIRED` ; `non_algorithmique=false`. Les autres apprentissages du cours restent à examiner, sans inventer leur programme précis.
+
+## Deuxième passe qualitative — imitation Renaissance, mode et articulations polyphoniques (12 novembre 2026)
+
+**Attestation exacte.** Les [exigences McGill 2026–2027](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) décrivent **MUTH 202** comme l'étude de techniques polyphoniques de la Renaissance par analyse d'œuvres de Palestrina et d'autres compositeurs, avec **exercices écrits à deux ou trois voix**. Ni les œuvres précises ni les techniques demandées à une séance ne sont accessibles. L'épreuve supérieure et le cours Berklee Online comparatif cités plus haut **ne sont pas** des travaux de MUTH 202. Les protocoles AnaMu suivants exploitent le domaine attesté, sans importer des règles tonales de fugue baroque. Le [MIDI joint](./MUTH-202/exemple.mid) est une étude de collection dorienne et d'entrées imitatives, **pas** un motet historiquement conforme.
+
+### Q1 — Retour d'une idée par imitation : degré de parenté et fonction de texture
+
+**Analyser une musique existante.** Sur une **partition Renaissance identifiée**, isoler deux ou trois lignes et comparer leurs motifs par intervalles ordonnés, profils rythmiques, décalages et ajustements éventuels. Chercher si la nouvelle entrée conserve une identité reconnaissable alors que les voix préexistantes poursuivent un contrepoint différent. Décrire aussi le rôle de la réapparition (début de phrase, nouvelle zone, densification), sans l'appeler automatiquement « sujet de fugue ».
+
+**Composer et vérifier.** Créer un motif bref compatible avec un cadre modal déclaré; écrire deux voix avec entrée décalée, puis une variante à trois voix où la dernière entrée ajoute de la densité mais laisse les contours audibles. Vérifier la conduite individuelle et les rencontres dissonantes au regard d'un style explicitement choisi.
+
+**Faux positifs / catégorie.** Une montée conjointe courante n'est pas une preuve d'imitation intentionnelle; une réponse à la quinte n'établit pas le genre fugue ou la conformité historique. `MIDI_DIRECT / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+### Q2 — Centre modal, finales et inflexions : éviter la lecture fonctionnelle automatique
+
+**Analyser.** Utiliser les phrases notées, voix, clefs, altérations et arrêts cadentiels, non seulement l'ensemble des classes de hauteurs. Repérer finales possibles, notes récurrentes de repos, ambitus et inflexions occasionnelles près des cadences; confronter ces hypothèses au contexte historique et aux conventions notationnelles de la source. Comparer une analyse modale à la tentative de lire toutes les arrivées comme V–I : documenter ce que la seconde lecture explique et ce qu'elle déforme.
+
+**Composer et vérifier.** Choisir un cadre modal documenté **comme exercice autonome AnaMu**, écrire deux phrases dont les fins créent une hiérarchie de repos sans reproduire automatiquement une dominante moderne; annoter le choix des inflexions de cadence et contrôler la réalisation par lecture et écoute.
+
+**Faux positifs / catégorie.** Une collection ré dorien, même avec si naturel, ne prouve ni une origine Renaissance ni un mode historique déterminé; la présence d'une sensible accidentelle ne transforme pas toute la pièce en tonalité fonctionnelle. `MIDI_PROXY / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+### Q3 — Cadences et articulation collective : les voix n'arrêtent pas toujours ensemble
+
+**Analyser.** Relever pour chaque voix attaques, tenues, respirations notées et entrées; rechercher les points où deux lignes approchent conjointement d'une fin de phrase pendant qu'une troisième maintient une continuation. Cartographier les articulations locales et la progression de la densité, puis comparer une carte fondée sur une seule mélodie à celle de la texture entière.
+
+**Composer et vérifier.** Composer une phrase polyphonique où deux voix s'approchent d'un repos tandis que la troisième prépare la zone suivante; faire ensuite une variante avec repos simultané des trois voix et comparer les effets de continuité formelle.
+
+**Faux positifs / catégorie.** Une simultanéité des fins MIDI ne prouve pas une cadence historique; les valeurs longues ne codent pas forcément le souffle ou l'articulation voulus. `MIDI_DIRECT / MIDI_PROXY / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+**Passerelles documentaires (pas de syllabus commun) :** [MUTH-204](./MUTH-204.md) contraste avec la syntaxe baroque tonale; [CP-210](../berklee/CP-210.md) aide à mesurer mouvements et imitation à deux voix; [MUTH-528](./MUTH-528.md) est un outil de prolongation tonale **non transférable automatiquement** aux œuvres modales Renaissance.
+
+**Bilan :** trois protocoles appliqués à l'analyse de polyphonie modale, sans revendiquer de morceau ou de devoir absent des sources; `non_algorithmique=false` et MIDI initial conservés.

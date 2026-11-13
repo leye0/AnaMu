@@ -45,3 +45,35 @@ Chercher un plan autorisé, les références exactes, les œuvres analysées, le
 - **Drapeau :** `non_algorithmique=null` ; une valeur `null` désigne l'absence de preuve de section, pas une absence d'algorithmique.
 - **Fichier MIDI :** aucun, pour les raisons expliquées; média mieux adapté indiqué ci-dessus.
 - **Manques :** corpus de section, exercices exacts et critères.
+
+## Deuxième passe qualitative — modèles de similarité, transformations et attentes (12 novembre 2026)
+
+**Portée du catalogue, à ne pas surinterpréter.** Les [exigences McGill pour MUTH 538](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) énumèrent des **sujets parmi lesquels une section peut choisir** : mesures de similarité, réseaux transformationnels, groupes, géométrie de conduite des voix, théorie de l'information, entre autres. **Le cours est indiqué comme non offert actuellement**, et aucune sélection effective de thèmes ou travaux 2026 n'est connue. Les trois axes sont donc des **modèles AnaMu conditionnels correspondant à des familles citées**, **pas trois acquis officiellement évalués dans une session**. Le drapeau `non_algorithmique=null` et l'absence de MIDI sont conservés.
+
+### Q1 — Similarité motivique : définir la mesure avant de déclarer un retour
+
+**Analyser — protocole conditionnel.** Si des mesures de similarité sont réellement retenues dans un corpus, choisir une représentation déclarée (intervalles ordonnés, contours ou rapports de durées), la normalisation pertinente (transposition oui/non, rythme augmenté oui/non) et une distance (d) explicite. Comparer plusieurs occurrences candidates et des paires non apparentées, signaler le seuil retenu et les confusions, puis vérifier la pertinence formelle des correspondances par partition et écoute. Documenter le résultat comme « ressemblance selon (d) » et non « retour voulu par l'auteur ».
+
+**Créer et contrôler.** Composer une cellule originale de cinq attaques, une variante transposée conservant les intervalles, une variante rythmique et une cellule de contour opposé; comparer leurs distances selon deux métriques distinctes et évaluer si la hiérarchie calculée concorde avec les relations entendues.
+
+**Faux positifs / format.** Un motif court récurrent peut coïncider par hasard; le choix de distance et de seuil dépend de la tâche et du style. Une identité statistique ne certifie pas une intention, et le catalogue ne prouve **aucune** métrique particulière enseignée. `MIDI_DIRECT / CONTEXT_REQUIRED / UNKNOWN`.
+
+### Q2 — Réseau transformationnel : une structure de relations n'est pas une histoire causale
+
+**Analyser — protocole conditionnel.** Si les réseaux transformationnels sont au programme, représenter les occurrences par sommets et associer aux arêtes une **opération effectivement vérifiée** sur les classes de hauteurs, intervalles ou autres objets nommés. Par exemple, relier {0,1,4} à {2,3,6} par transposition T2, en distinguant collection et ordre des notes. Construire plusieurs chemins possibles, vérifier composition des opérations et constater si les liens reproduisent les sections de l'œuvre; laisser les arêtes non justifiées absentes.
+
+**Créer et contrôler.** Choisir trois collections originales, définir deux transformations contrôlées, construire une forme A–B–A′ dont le graphe rend explicites les relations de hauteur, puis comparer à un ordre alternatif où le même réseau est conservé mais la trajectoire perçue change.
+
+**Faux positifs / format.** Un graphe mathématiquement correct ne prouve ni une influence ni une intention compositionnelle; les chemins transformationnels ne remplacent pas rythme, texture et contexte. `MIDI_DIRECT / MIDI_PROXY / CONTEXT_REQUIRED / UNKNOWN`.
+
+### Q3 — Information et attente : la surprise dépend d'un modèle de contexte
+
+**Analyser — protocole conditionnel.** **Si** l'information musicale est réellement étudiée, définir ce qui constitue un événement (intervalle suivant, cadence, retour de motif), son contexte (style, position dans la phrase, histoire locale) et la source des probabilités. Un modèle probabiliste **déclaré** peut mesurer la surprise d'un événement (e) par (-\log_2 P(e\mid c)) bits, lorsque (P(e\mid c)>0). Comparer la prédiction à des événements observés, faire une validation sur des exemples distincts des données utilisées pour fixer le modèle et garder des hypothèses alternatives. Ne jamais confondre « surprise selon un corpus » et émotion ou attente psychologique d'un auditeur donné.
+
+**Créer et contrôler.** Définir un motif et des règles de transition explicites dans **une étude originale**; placer d'abord un retour fortement attendu, puis un événement improbable selon ce modèle en conservant une fonction musicale compréhensible. Comparer les deux versions par écoute et journal de décisions, sans prétendre qu'une valeur de bits mesure le plaisir ou la tension vécue.
+
+**Faux positifs / format.** Sans corpus, lissage des événements rares, modèle probabiliste et auditeur/contexte adéquats, le calcul ne démontre rien; le catalogue liste « information theory » parmi **plusieurs options**. `MIDI_PROXY / CONTEXT_REQUIRED / UNKNOWN`. Pas de MIDI artificiel ni de prétention à un modèle validé.
+
+**Passerelles conditionnelles, sans équivalences de cours :** [MUTH-151](./MUTH-151.md) fournit des objets formels à segmenter; [MUTH-528](./MUTH-528.md) illustre des niveaux d'interprétation non réductibles à des distances numériques; [MUTH-350](./MUTH-350.md) relève des transformations post-tonales; [CM-373](../berklee/CM-373.md) fournit des questions sur le retour motivique et la grande forme. Ces liens sont des **questions transversales proposées**, pas le syllabus de MUTH 538.
+
+**Bilan :** trois protocoles mathématiques conditionnels particulièrement pertinents pour les attentes et retours, sans promotion du statut du cours ni attribution d'une session inexistante; `non_algorithmique=null` conservé.

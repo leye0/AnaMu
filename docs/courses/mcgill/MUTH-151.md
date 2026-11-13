@@ -59,3 +59,35 @@ Les exigences de 2017 documentent le niveau d’exemption historique. Chercher l
 - **Drapeau :** `non_algorithmique=false`.
 - **MIDI :** [fichier original](./MUTH-151/exemple.mid) avec limitations explicites par apprentissage.
 - **Lacunes :** programme exact, méthodes et œuvres de section non obtenus; les statuts académiques restent inchangés.
+
+## Deuxième passe qualitative — attentes de phrase, séquences et entrées imitatives (12 novembre 2026)
+
+**Source et frontière de preuve.** Les [exigences McGill 2026–2027](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) attribuent explicitement à **MUTH 151** les **séquences et modulations, le vocabulaire chromatique, l'analyse des types thématiques simples (*sentence*, *period*, hybrides) et des techniques fuguées**. Le guide d'exemption 2017 documenté plus haut demeure un **diagnostic historique**, pas le syllabus H27; ni le corpus ni les devoirs précis de la section ne sont connus. Les trois protocoles suivants sont des **propositions AnaMu** pour des apprentissages explicitement nommés. Le [MIDI actuel](./MUTH-151/exemple.mid) démontre N6, dominante secondaire et esquisses harmoniques, **pas** une *sentence*, une *period* ou une fugue complète.
+
+### Q1 — *Sentence* ou *period* : identifier le rôle des cadences dans la répétition
+
+**Analyser une musique existante.** Obtenir partition notée, mélodie, basse et cadences. Comparer deux modèles **candidats**, sans forcer les phrases à huit mesures : *sentence* typique = idée de base, répétition/variation, continuation avec fragmentation et mouvement vers la cadence (souvent 2 + 2 + 4); *period* typique = antécédent et conséquent apparentés, dont les fins ont un poids cadentiel contrasté (souvent faible puis plus fort). Noter les indices indépendants : relation motivique, début du conséquent, augmentation de densité, progression et clôture harmonique. Conserver « hybride / indéterminé » si la pièce mélange ces indices.
+
+**Composer et vérifier.** Écrire une idée originale de deux mesures, puis (a) une version de huit mesures avec présentation répétée et continuation fragmentée, (b) une version avec antécédent et conséquent à cadences différenciées. Aligner les points de repos et faire écouter les deux variantes sans montrer les étiquettes formelles.
+
+**Faux positifs / catégorie.** La seule division 2+2+4 ou la répétition d'une idée ne suffit pas à prouver une *sentence*; une cadence forte ne suffit pas seule à identifier une *period*. Le fichier MIDI existant **ne démontre aucune de ces constructions**. `MIDI_DIRECT / MIDI_PROXY / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+### Q2 — Séquence, chromatisme et modulation : quand un mouvement local prépare un nouveau centre
+
+**Analyser.** Segmenter les cellules répétées et leurs déplacements intervalliques, distinguer une séquence transposée d'une reprise identique, puis comparer la basse, les accords et les notes sensibles. Vérifier les tonalités candidates au fil des cadences et opposer « intensification par séquence », « tonicisation passagère » et « modulation stabilisée ». Consigner les moments où la relation motivique reste constante tandis que la fonction harmonique change.
+
+**Composer et vérifier.** Créer deux phrases partageant le même motif : dans la première, une séquence chromatique culmine puis retourne à la tonique; dans la seconde, la séquence prépare une cadence dans une tonalité proche. Contrôler les accords pivots, l'orthographe des altérations, la tenue de la nouvelle région et la continuité des voix.
+
+**Faux positifs / catégorie.** Le seul fa♯ de D7 ou la simple transposition d'un motif n'établit pas une modulation; le MIDI ne porte pas toujours l'orthographe fonctionnelle. `MIDI_DIRECT / CONTEXT_REQUIRED / AUDIO_REQUIRED`.
+
+### Q3 — Techniques fuguées : entrée thématique, continuité contrapuntique et attente de retour
+
+**Analyser.** Extraire le motif initial comme séquence **ordonnée** d'intervalles et de durées; chercher ses réapparitions différées dans les voix distinctes, puis relever ce que fait chaque voix déjà active pendant une nouvelle entrée. Cartographier la distribution du sujet et ses absences, en opposant « imitation » à « exposition fuguée » et « silence » à « épisode fondé sur une transformation motivique ».
+
+**Composer et vérifier.** Écrire une cellule originale de quatre à huit notes, la faire entrer dans une seconde voix avec retard, poursuivre la première en contrepoint libre et construire une transition qui rend un retour reconnaissable. Vérifier superpositions et cohérence tonale; réserver le terme « fugue » à une construction qui en fournit davantage de preuves.
+
+**Faux positifs / catégorie.** Les techniques fuguées figurent dans la description 2026, mais **aucune fugue, ordre d'entrées ou épreuve spécifique** n'est annoncée; le MIDI joint ne les certifie pas. `MIDI_DIRECT / MIDI_PROXY / CONTEXT_REQUIRED`.
+
+**Passerelles analytiques, non transferts de syllabus :** [MUCO-241](./MUCO-241.md) étudie structure de phrase et continuité; [CM-227](../berklee/CM-227.md) précise modulation et accord pivot; [MUTH-204](./MUTH-204.md) sert de comparateur tonal; [MUTH-528](./MUTH-528.md) distingue clôtures locales et prolongation globale.
+
+**Bilan :** trois apprentissages nommés dans la notice actuelle, avec hypothèses alternatives et réemploi musical. `non_algorithmique=false`, nombre de MIDI et état du syllabus inchangés.
