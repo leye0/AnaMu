@@ -38,3 +38,25 @@
 - **Cours de Boston potentiellement apparenté :** [FILM-205](../berklee/FILM-205.md), avec comparaison de thèmes seulement.
 
 **Règle de preuve :** le syllabus **de ce cours en ligne** est publiquement décrit ; ces données ne modifient ni le statut ni l'admissibilité administrative d'aucun cours Boston du registre principal. Ne pas prendre un titre de devoir pour son cahier de consignes ; ni une maquette MIDI pour une orchestration instrumentale exécutée.
+
+## Application à l'analyse et à la création — assembler les fonctions d'un cue (13 novembre 2026)
+
+**Preuve du cours.** Le [plan public OCWPR-300](https://online.berklee.edu/courses/scoring-technology#syllabus) nomme les points de synchro et la carte de tempo (leçon 5), les boucles et variations d'action (7), le mixage musique/bruitages/dialogue et les automations (10), puis les stems et versions de livraison (12). Les exemples de procédure ci-dessous ne reproduisent pas les devoirs du cours.
+
+### Q1 — Plusieurs points de synchro peuvent avoir des fonctions différentes dans une seule phrase
+
+**Analyse.** Aligner image, marqueurs, tempo et audio sur la même origine et vérifier la cadence d'image. Pour trois repères successifs, distinguer celui qui déclenche la préparation, celui qui reçoit une ponctuation et celui après lequel le cue change de fonction. Noter l'attaque musicale audible et l'intervalle par rapport à chaque repère. Comparer avec l'hypothèse d'un alignement dû aux accents récurrents du groove, surtout si plusieurs marqueurs voisins sont possibles. Sans notes de spotting, l'alignement ne dit pas quel repère a guidé la composition.
+
+**Création.** Fixer trois repères sur une vidéo originale. Choisir une arrivée musicale principale et aménager les deux autres sans accent obligatoire. Comparer à une version qui ponctue les trois, à tempo global et durée similaires. Évaluer le phrasé autant que l'erreur de synchro. **Preuve :** `CONTEXT_REQUIRED` pour l'image et la carte de repères, `AUDIO_REQUIRED` pour les attaques audibles.
+
+### Q2 — La variation de boucle peut relier des groupes ou seulement décorer une répétition
+
+**Analyse.** Aligner la boucle, les pistes de variation et les repères de scène. Séparer les variations récurrentes en fin de cycle de celles dont la suite change : retrait du grave, ajout persistant d'une couche, déplacement d'un appui ou interruption. Comparer si une variation prépare la section suivante parce qu'elle en introduit un élément distinctif, ou si elle ne se distingue pas des autres fins de cycle. Une coupure vidéo sans conséquence durable sur le cue peut rester une ponctuation locale.
+
+**Création.** Écrire quatre cycles identiques puis deux versions de la dernière variation. Dans une seule, reprendre au cycle suivant un élément qu'elle introduit. Garder les marqueurs d'image et les niveaux comparables pour isoler la relation entre cycles. **Preuve :** `MIDI_PROXY` pour les motifs séquencés et `AUDIO_REQUIRED` lorsque les boucles ou traitements sont des fichiers audio.
+
+### Q3 — Une section peut changer de rôle parce que le mix cède la place au dialogue
+
+**Analyse.** Comparer la musique seule, les stems disponibles et le mix à l'image. Vérifier si le retrait audible suit une réécriture de la musique, un changement de balance, ou un masquage par le dialogue et les effets. Si la même phrase se poursuit dans le stem musique, annoter la continuité musicale et le changement de premier plan audiovisuel séparément. Sans session ni comparaison valable entre versions, ne pas attribuer le changement à une automation déterminée.
+
+**Création.** Garder la composition intacte. Comparer un mix où la musique reste au premier plan avec un autre où elle libère de la place à une réplique et retrouve son rôle au repère suivant. Évaluer l'intelligibilité de la réplique et la continuité du cue. **Preuve :** `AUDIO_REQUIRED` et `CONTEXT_REQUIRED` pour le mix et la scène. Aucun MIDI ajouté : il manquerait les pistes et le montage qui déterminent la lecture.

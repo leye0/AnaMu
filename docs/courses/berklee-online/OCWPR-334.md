@@ -32,3 +32,25 @@
 - **Matériel absent :** fichiers d'enregistrement, partitions d'étude intégrales, contenu vidéo, consignes détaillées, corrections, critères de notes, copies d'étudiants et confirmation de chaque session. Le programme rendu public en ligne n'atteste pas la même progression pour un cours homonyme du campus Boston.
 
 **Nature de la preuve :** syllabus public consulté et structuré pour **OCWPR-334** uniquement. Aucune analyse MIDI, écriture de logique ou test logiciel n'a été réalisé.
+
+## Application à l'analyse et à la création — texte, pulsation et relais dans la forme vocale (13 novembre 2026)
+
+**Preuve du cours.** Le [plan public OCWPR-334](https://online.berklee.edu/courses/contemporary-vocal-arranging#syllabus) traite la mise en musique du texte (leçon 2), l'appel-réponse à trois parties (4), les notes-guides (5), l'alternance texte/sons et la répartition rythmique a cappella (7–8), puis l'arrangement et sa révision (9–11). Les interventions ci-dessous sont propres à AnaMu.
+
+### Q1 — Distinguer une réponse à un appel d'une ponctuation entre deux lignes de texte
+
+**Analyse.** Aligner paroles, voix et enregistrement. Pour chaque appel, noter ce que la réponse reprend ou complète : fragment verbal, contour, rythme ou proposition harmonique. Vérifier si le couple appel/réponse forme une unité récurrente et si la dernière réponse change ce fonctionnement, par exemple en réunissant les voix. Deux entrées alternées sur des phonèmes neutres peuvent aussi être de simples remplissages sans dépendance à un appel.
+
+**Création.** Garder le texte principal et la durée des réponses. Comparer des réponses dérivées des appels à des ponctuations toutes identiques. Écouter si la réunion finale paraît conclure un échange déjà établi ou simplement changer la texture. **Preuve :** `MIDI_PROXY` pour contour et rythme, `AUDIO_REQUIRED` pour diction et articulation, `CONTEXT_REQUIRED` pour le sens du texte.
+
+### Q2 — Le groove peut se poursuivre quand la voix qui le porte change
+
+**Analyse.** Cartographier par phrase les syllabes accentuées, les attaques de basse vocale et les indices de subdivision. À un changement de rôle, comparer la phase du cycle avant et après et vérifier qu'une autre voix reprend assez de ses repères. Une voix soliste peut assouplir son débit au-dessus d'une pulsation conservée. Une variation commune des espacements peut plutôt signaler un rubato de l'ensemble. Le gabarit métrique de la partition ne suffit pas à trancher.
+
+**Création.** Transférer la subdivision d'une voix à une autre au moment où le texte principal change de chanteur. Comparer une version qui conserve l'emplacement des appuis et une qui réamorce le cycle. Évaluer continuité de pulsation et intelligibilité du mot d'arrivée séparément. **Preuve :** `AUDIO_REQUIRED` avec parties séparées si disponibles.
+
+### Q3 — Résoudre les voix internes ne règle pas nécessairement la fin du texte
+
+**Analyse.** Suivre les notes-guides à travers les accords et noter séparément la fin de la proposition verbale, la respiration et le départ suivant. Tester si une résolution des voix internes clôt la section ou fournit un appui au milieu d'une phrase dont le sens et le mouvement continuent. Une coupure à la respiration peut être locale si les notes-guides poursuivent leur trajectoire sur le segment suivant.
+
+**Création.** Garder les mêmes mots et le même dernier accord, puis déplacer une résolution interne d'avant à après le dernier mot accentué. Noter si le centre d'attention et le sentiment de clôture coïncident mieux. **Preuve :** `MIDI_PROXY` pour la conduite de voix, `AUDIO_REQUIRED` et texte pour la fin chantée. Aucun MIDI ajouté : une réduction de hauteurs omettrait précisément les syllabes, les respirations et le partage du groove.
