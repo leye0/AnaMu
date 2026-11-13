@@ -56,3 +56,27 @@ Le détail du niveau avancé de McGill, les consignes et les œuvres ne sont pas
 - **Drapeau :** `non_algorithmique=false` (au moins une compétence traduisible en méthode de détection/composition).
 - **Exemple :** [MIDI original](./MUCO-246/exemple.mid), non attribué à McGill.
 - **Données manquantes :** plan de section, partitions et évaluations réelles, sans changement du statut académique du cours.
+
+## Deuxième passe qualitative — développement contemporain à plusieurs niveaux (12 novembre 2026)
+
+**Source.** [McGill, MUCO 246](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) annonce la poursuite **plus avancée** des interactions hauteur–rythme–timbre, de la notation, de l'analyse et de l'écriture soliste/ensemble. Elle **ne nomme pas** de technique nouvelle obligatoire. L'[exemple MIDI AnaMu](./MUCO-246/exemple.mid) illustre un ensemble simple, pas la maîtrise du niveau avancé. Les procédures sont des études proposées par AnaMu.
+
+### Q1 — Développer une cellule du motif à la section
+
+**Analyser.** Extraire contours intervalliques et intervalles d'attaque des courts motifs, puis comparer les régions de la pièce par densité, longueur des silences, instrumentation, transposition et organisation formelle. Tester l'hypothèse de développement continu contre celle de la juxtaposition de thèmes différents.
+
+**Créer et contrôler.** Partir d'un noyau de quatre notes, produire une section qui l'expose et une autre qui change durée, registre et effectif tout en préservant un lien identifiable. Vérifier les invariants et écouter les transitions. **Limites :** la notice n'impose aucune transformation précise; une corrélation n'est pas une intention démontrée. `MIDI_DIRECT / MIDI_PROXY / CONTEXT_REQUIRED`.
+
+### Q2 — Contrechant et autonomie des parties dans le petit ensemble
+
+**Analyser.** Identifier attaques indépendantes, silences, mouvements parallèles, imitations et croisements; distinguer réponses motiviques réellement décalées, doublure d'octave et simple accompagnement harmonique. Vérifier verticalement les conflits de registre et de dissonance selon le style analysé.
+
+**Créer et contrôler.** Écrire huit mesures pour flûte, violon et clavier : thème, réponse différée, puis soutien rythmique complémentaire. Comparer la version à un doublage strict pour isoler l'apport du contrechant. **Limites :** l'exemple existant renseigne des rôles, pas un contrepoint stylistique certifié ni une jouabilité garantie. `MIDI_DIRECT / MIDI_PROXY / AUDIO_REQUIRED`.
+
+### Q3 — Révision par la partition et la lecture musicale
+
+**Analyser.** Comparer deux états de partition et leurs captations; distinguer les changements de notes, d'articulation, de souffle, de densité et de phrasé, puis relier les décisions au résultat audible. Ne pas traiter toutes les différences de performance comme des erreurs.
+
+**Créer et contrôler.** Écrire une pièce courte, la faire lire, relever deux difficultés observables et modifier les parties; comparer une nouvelle prise à la première en conservant le carnet de révision. **Limites :** la notice atteste notation et pratique d'exécution, pas une consigne de révision particulière; audio et interprète nécessaires. `AUDIO_REQUIRED / CONTEXT_REQUIRED / MIDI_PROXY`.
+
+**Bilan :** trois méthodes de profondeur, sans attribuer sérialisme, spectralisme ou gestes particuliers à MUCO 246 sans preuve.

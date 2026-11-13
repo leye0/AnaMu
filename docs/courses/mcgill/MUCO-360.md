@@ -26,3 +26,27 @@ Obtenir le plan complet de la section et les sujets de travaux autres que Debuss
 **Exemple / limites :** La source est une épreuve d'orchestration/placement; l'exemple MIDI est une mélodie originale, pas le Passepied de Debussy ni une réalisation de MUCO360.
 
 **Applicabilité :** `MIDI_PROXY, AUDIO_REQUIRED` ; `non_algorithmique=false`. Les autres apprentissages du cours restent à examiner, sans inventer leur programme précis.
+
+## Deuxième passe qualitative — orchestration et conducteur (12 novembre 2026)
+
+**Provenance.** [Exigences McGill](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) : MUCO 360 est « Orchestration 2 ». L'[épreuve institutionnelle d'orchestration](https://www.mcgill.ca/music/files/music/orchestration_placement_exam.pdf) propose d'orchestrer un extrait du *Passepied* de Debussy en tenant compte du phrasé, des doublures, de la pédale, du crescendo et du contraste de densité. **Il s'agit d'une épreuve de placement, non d'un devoir attesté de MUCO 360.** Les supports CIRMMT concernent une démonstration liée au cours, sans livrer son syllabus. Les protocoles ci-dessous sont **des applications AnaMu**, non des leçons reconstruites. L'[exemple MIDI existant](./MUCO-360/exemple.mid) est original et simplifié.
+
+### Q1 — De la réduction au conducteur : conserver les fonctions musicales
+
+**Analyser.** Disposer de la réduction et du conducteur alignés par mesure. Identifier thème, basse, contrechant, accords et notes résonantes; relier chaque rôle à son nouveau pupitre en tenant compte des octaves, durées, changements de timbre et relais. Vérifier par écoute si la ligne structurelle reste reconnaissable. **Comparer des fonctions, pas seulement l'égalité note à note.**
+
+**Créer et contrôler.** Écrire huit mesures de réduction originale, orchestrer thème, basse et harmonie en deux familles puis revoir les doublures sur conducteur. Écouter et corriger les pertes de continuité. **Limites :** la pédale acoustique et les résonances ne sont pas équivalentes aux simples durées MIDI. `MIDI_PROXY / AUDIO_REQUIRED / CONTEXT_REQUIRED`. Le MIDI joint n'est pas le *Passepied*.
+
+### Q2 — Crescendo par nuances et par accumulation
+
+**Analyser.** Pour chaque mesure, relever nuance écrite, nouvelles entrées, doublures, registre et instruments actifs; distinguer crescendo d'exécution, croissance de texture et déplacement de couleur. Confronter au niveau et à l'équilibre **d'un même enregistrement**, en observant la place du thème.
+
+**Créer et contrôler.** Réaliser deux versions d'une même montée : effectif stable avec nuances croissantes, puis effectif progressif à dynamique voisine. Comparer la clarté du thème et l'intensité ressentie. **Limites :** une vélocité MIDI n'est pas un décibel; davantage de canaux ne signifie pas davantage de puissance acoustique. `MIDI_PROXY / AUDIO_REQUIRED`. Aucun crescendo de la section universitaire n'est documenté ici.
+
+### Q3 — Texture légère et tutti : économie des pupitres
+
+**Analyser.** Sur conducteur et audio, isoler passages légers, intermédiaires et tutti; relever instruments, registres superposés, attaques communes et doublures. Déterminer si chaque instrument assure thème, appui, couleur ou renforcement; tester d'autres interprétations avant de qualifier une couche de « superflue ».
+
+**Créer et contrôler.** Présenter un motif en trois états de densité, réserver un climax aux pupitres utiles et réorchestrer la reprise plus transparente. Réviser selon masquage et équilibre d'ensemble. **Limites :** les sons GM ne valident ni la jouabilité ni l'effet acoustique d'un orchestre réel. `MIDI_PROXY / AUDIO_REQUIRED / CONTEXT_REQUIRED`.
+
+**Bilan :** trois procédures de lecture et de création; l'épreuve de placement ne devient pas artificiellement le syllabus de MUCO 360. Aucun MIDI nouveau nécessaire.
