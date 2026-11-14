@@ -1,5 +1,7 @@
 # AnaMu — état opérationnel de référence (11 novembre 2026)
 
+**ORIENTATION ET COMPLÉTUDE DU SUJET.** [MUTH-304, BWV 851](courses/mcgill/MUTH-304.md#transfert--inversion-et-fins-modifiées-dans-bwv-851) retrouve neuf des dix-sept entrées annotées avec la règle précédente. Le relevé diagnostique cinq inversions, deux fins directes modifiées et une jointure interne déformée. Les 17 départs restent classés selon la portée de la correspondance. Aucun changement au moteur.
+
 **VARIATIONS AUX BORDS DU SUJET.** [MUTH-304, BWV 848](courses/mcgill/MUTH-304.md#transfert--le-sujet-change-à-ses-extrémités-dans-bwv-848) retrouve sept des douze départs annotés avec la règle inchangée de BWV 847. Le corps chromatique et rythmique reste entier dans les cinq passages manqués. Des variantes circonscrites à l'amorce ou à la dernière note ramènent le relevé à 12/12, sans modifier les comptes de BWV 846 et 847. Aucun changement au moteur.
 
 **TRANSFERT DE LA RÈGLE FUGUÉE.** [MUTH-304, BWV 847](courses/mcgill/MUTH-304.md#transfert--une-réponse-tonale-dans-bwv-847) compare la règle de BWV 846 à un relevé indépendant. Elle retrouve cinq entrées sur huit sans modification. Un patron distinct pour la réponse tonale et le regroupement des attaques simultanées rétablissent les huit entrées sans ajout. Aucun changement au moteur.
