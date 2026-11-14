@@ -123,3 +123,25 @@ Dans les **27 mesures** de la fugue en do majeur du *Clavier bien tempéré*, le
 **Écoute A–B–A originale.** À 0:00 et 0:14, la deuxième voix donne huit notes à l'octave. À 0:07, elle entre au même endroit, trois temps après la première, et ne donne que les cinq premières. La première voix et les cinq attaques communes sont identiques dans les trois blocs. On peut donc écouter ce qui reste reconnaissable sans confondre une fin retirée avec une entrée déplacée. Ce témoin isole la troncation et n'imite ni les harmonies ni le piano de Bach. [Écouter la réponse complète puis tronquée](https://raw.githubusercontent.com/leye0/AnaMu/main/docs/courses/mcgill/MUTH-304/sujet-complet-ou-amorce.mp3) · [Télécharger le MIDI A–B–A](https://raw.githubusercontent.com/leye0/AnaMu/main/docs/courses/mcgill/MUTH-304/sujet-complet-ou-amorce.mid).
 
 **Pour l'analyse et la composition.** Garder séparés le patron strict, les variantes complètes, les fragments et le chevauchement. Pour vérifier une variante, suivre aussi la fonction harmonique et la conduite de la voix qui l'entoure. En composition, conserver l'instant de réponse et retrancher sa fin. Si l'on veut ensuite tester l'effet d'un retard d'entrée, repartir de la version complète et ne changer que ce retard.
+
+
+## Transfert — une réponse tonale dans BWV 847
+
+**Résultat de la règle inchangée.** Dans les 31 mesures de la fugue en do mineur, le balayage des trois voix retrouve **5 des 8 entrées** du relevé de Siglind Bruhn, sans faux positif par rapport à ce relevé. On change seulement le sujet de référence. Celui-ci va du do initial de l'alto jusqu'au mi♭ du premier temps de m. 3, soit 20 notes. Avec le [`**kern` à trois voix de David Huron](https://github.com/humdrum-tools/bach-wtc-fugues/blob/master/kern/wtc1f02.krn), cela donne 697 fenêtres de 20 notes consécutives. La règle diatonique et la tolérance limitée à l'allongement de la première note restent celles de BWV 846. [Carter-Ényì et Rabinovitch, *Music Theory Online*, §4 et ex. 1, 4, 8–9](https://mtosmt.org/issues/mto.21.27.4/mto.21.27.4.carterenyi-rabinovitch.html). [Hermann Keller, analyse des entrées médianes et finales](https://www.hermann-keller.org/assets/downloads/547e2aeb/bwv847.pdf).
+
+| Départ | Voix | Règle BWV 846 | Ce que l'analyse doit reconnaître |
+|---|---|---|---|
+| m. 1, 1 et demi | Alto | Oui | Sujet de référence en do mineur. |
+| m. 3, 1 et demi | Soprano | Non | Première réponse tonale en sol mineur. |
+| m. 7, 1 et demi | Basse | Oui | Sujet transposé d'une octave vers le grave. |
+| m. 11, 1 et demi | Soprano | Oui | Même trajet diatonique en mi♭ majeur. |
+| m. 15, 1 et demi | Alto | Non | Même réponse tonale qu'à m. 3, une octave plus bas. |
+| m. 20, 1 et demi | Soprano | Oui | Retour du sujet en do mineur. |
+| m. 26, 3 et demi | Basse | Oui | Retour en do mineur, décalé dans la mesure. |
+| m. 29, 3 et demi | Soprano | Non | Le ré du sujet et un si sont attaqués ensemble à m. 30. Le sujet termine sur mi naturel, tierce picarde, à m. 31. |
+
+**Deux corrections à distinguer.** Dans le sujet, la troisième note descend de do à sol, une quarte. Dans la réponse, elle descend de sol à do, une quinte. La quatrième note reste la seule à changer de position diatonique relativement au départ, et les 19 écarts rythmiques sont les mêmes. On peut donc prendre la première réponse de l'exposition comme deuxième patron complet, puis chercher ses retours dans toutes les voix. À la fin, c'est un problème de représentation. Réunir les notes simultanées d'une même partie en une seule position d'attaque permet au ré de poursuivre le trajet sans traiter le si comme une note supplémentaire du sujet. Le mi naturel final est déjà couvert par la comparaison diatonique.
+
+**Recomptage sur la même partition.** Regrouper les simultanéités seul donne 6/8. Ajouter seulement le patron de réponse donne 7/8, dont la réponse fournie comme référence et sa réapparition à m. 15. Avec les deux changements, on retrouve **8/8, sans départ supplémentaire**. Le même regroupement, avec le seul patron initial de BWV 846, conserve ses 22 entrées. À m. 5 de BWV 847, le raccord reprend la tête du sujet, mais diverge dès le premier saut descendant et ne passe ni le patron du sujet ni celui de la réponse. [Open Music Theory, exposition et raccord de BWV 847](https://viva.pressbooks.pub/openmusictheory/chapter/high-baroque-fugal-exposition/).
+
+**Ce que cette vérification ne démontre pas.** Le sujet et la première réponse sont fournis, pas découverts automatiquement. On ne conclut ni qu'une quarte peut toujours être remplacée par une quinte, ni que la note la plus aiguë appartient toujours au thème. Pour transférer la procédure, identifier les patrons de l'exposition, suivre le dessin et le rythme jusqu'au bout, et vérifier les notes simultanées dans la partition. Pour l'écriture, comparer une réponse réelle et une réponse tonale à rythme identique dans le même contexte harmonique, puis faire revenir la réponse retenue dans un autre registre.
