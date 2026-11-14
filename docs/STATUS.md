@@ -1,5 +1,7 @@
 # AnaMu — état opérationnel de référence (11 novembre 2026)
 
+**RETOUR DU THÈME ET RETOUR TONAL DISSOCIÉS.** [OLART-234](courses/berklee-online/OLART-234.md#quand-commence-vraiment-la-réexposition-du-k-545-) distingue dans Mozart K. 545, I le retour intégral du thème à m. 42, le raccord retrouvé à m. 54–57 et le retour du groupe secondaire à m. 58–59. Le relevé de partition expose deux lectures formelles défendables. Un comparateur MIDI et MP3 garde le retour en fa et le raccord identiques et ne varie que la destination du groupe secondaire. Aucun changement au moteur ni au registre.
+
 **PAUSE SUR V OU DEMI-CADENCE.** [MUTH-151](courses/mcgill/MUTH-151.md#une-dominante-suivie-dun-silence-fait-elle-une-demi-cadence-) compare les ouvertures de Mozart K. 525, II et Beethoven op. 15, I. Même arrivée de ré sur sol, mais descente achevée chez Mozart et montée qui se poursuit chez Beethoven. Un comparateur MIDI et MP3 conserve toute la basse, tous les rythmes et l'accord de V final, en faisant varier quatre hauteurs du chant. Aucun changement au registre ni au moteur.
 
 **MÊME ACCORD, DEUX ARRIVÉES.** [MUTH-251](courses/mcgill/MUTH-251.md#à-lécoute--le-même-accord-mène-à-deux-tonalités) lit le pivot enharmonique de l'op. 110 et le compare au concerto op. 61. Le nouveau MIDI et son MP3 gardent les mêmes 17 attaques de préparation pour deux suites, la♭ majeur ou sol mineur. La direction de la basse et de la note supérieure distingue les lectures avant la confirmation de la tonalité. Aucun changement au registre des cours ni au moteur.
