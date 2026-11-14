@@ -101,7 +101,7 @@ function drawCourses() {
 
 async function getDetail(entry) {
   if (detailCache.has(entry.id)) return detailCache.get(entry.id);
-  const response = await fetch("./" + entry.detail);
+  const response = await fetch("./" + entry.detail, {cache:"no-cache"});
   if (!response.ok) throw Error("Fiche introuvable (" + response.status + ")");
   const data = await response.json();
   detailCache.set(entry.id,data);
@@ -115,6 +115,35 @@ function switchTab(tab) {
   $("tabDescription").setAttribute("aria-selected",String(!application));
   $("applicationContent").hidden = !application;
   $("descriptionContent").hidden = application;
+}
+function showAudioTracks(tracks) {
+  const list = $("audioTracks");
+  for (const audio of list.querySelectorAll("audio")) audio.pause();
+  list.replaceChildren();
+  $("audioSection").hidden = !tracks.length;
+  for (const track of tracks) {
+    const row = document.createElement("div");
+    const title = document.createElement("strong");
+    title.textContent = track.title;
+    const audio = document.createElement("audio");
+    audio.controls = true;
+    audio.preload = "none";
+    audio.src = "./" + track.url;
+    audio.setAttribute("aria-label",track.title);
+    audio.addEventListener("play",() => {
+      for (const other of list.querySelectorAll("audio")) {
+        if (other !== audio) other.pause();
+      }
+    });
+    const download = document.createElement("a");
+    download.className = "download-link";
+    download.href = audio.src;
+    download.download = "";
+    download.textContent = "Télécharger le MP3 ↓";
+    download.setAttribute("aria-label","Télécharger le MP3 — " + track.title);
+    row.append(title,audio,download);
+    list.append(row);
+  }
 }
 async function showCourse(id, historyUpdate) {
   const entry = catalog.find((c) => c.id === id);
@@ -144,6 +173,8 @@ async function showCourse(id, historyUpdate) {
   for (const t of entry.algorithmic_tags.slice(0,4)) setTag(t.replace(/_/g," "),"");
   $("descriptionContent").innerHTML = '<p class="missing-description">Chargement de la description…</p>';
   $("applicationContent").innerHTML = '<p class="missing-description">Chargement de l’analyse…</p>';
+  showAudioTracks([]);
+  $("playerSection").hidden = false;
   $("playerAvailable").hidden = !entry.midi;
   $("playerUnavailable").hidden = !!entry.midi;
   $("playerTag").textContent = entry.midi ? "MIDI original" : "Pas de MIDI";
@@ -162,6 +193,9 @@ async function showCourse(id, historyUpdate) {
   try {
     const detail = await getDetail(entry);
     if (seq!==docSequence) return;
+    const tracks = detail.audio || [];
+    showAudioTracks(tracks);
+    $("playerSection").hidden = !entry.midi && tracks.length > 0;
     $("descriptionContent").innerHTML = detail.overview_html || '<p class="missing-description">Aucune fiche individuelle disponible. Consulter la source officielle et le registre.</p>';
     $("applicationContent").innerHTML = detail.application_html || '<p class="missing-description">L’analyse et la méthode de composition de ce cours restent à documenter. Cette absence ne signifie pas que le cours est dépourvu de contenu musical.</p>';
     $("sourceRepo").hidden = !detail.source_repo; if (detail.source_repo) $("sourceRepo").href=detail.source_repo;

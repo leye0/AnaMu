@@ -57,6 +57,9 @@ a:hover{text-decoration:underline}button:focus-visible,a:focus-visible,input:foc
 .speed-control select{border:1px solid #e3e6ee;background:white;border-radius:8px;color:#65708a;padding:7px 5px;font-size:11px;font-weight:750}.volume-control{display:flex;align-items:center;gap:7px;color:#9fa6b6;font-size:12px}.volume-control input{width:65px;accent-color:#7070d5;cursor:pointer}
 .player-foot{margin:0 26px;padding:11px 0 18px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;border-top:1px solid #eef0f5;color:#8d96aa;font-size:11px}.download-link{font-weight:750;color:#6868c6}
 .no-midi{margin:0 26px 24px;display:flex;align-items:flex-start;gap:13px;background:#f7f8fb;border:1px dashed #dce2ec;padding:20px;border-radius:12px}.no-midi-icon{font-size:26px;color:#a2a6c5}.no-midi strong{font-size:13px;color:#4e5a72}.no-midi p{font-size:12px;color:#8993a5;line-height:1.55;margin:6px 0 0}
+.audio-tracks{padding:0 clamp(20px,3vw,26px) 22px;display:grid;gap:14px}
+.audio-tracks>div{padding:14px;border:1px solid #e8eaf0;border-radius:12px;background:#f8f9fc;display:grid;gap:8px;min-width:0}
+.audio-tracks strong{font-size:13px;color:#25314a}.audio-tracks audio{display:block;width:100%;max-width:460px}.audio-tracks .download-link{justify-self:start;font-size:12px}
 .documentation-header{display:flex;align-items:end;justify-content:space-between;gap:12px;padding:22px 26px;border-bottom:1px solid #edf0f5;flex-wrap:wrap}
 .doc-tabs{display:flex;background:#f3f4f8;padding:4px;border-radius:10px;gap:2px}.tab{background:transparent;border:0;border-radius:7px;padding:9px 13px;color:#8992a8;font-size:11px;font-weight:750}.tab.active{background:#fff;color:#514fbb;box-shadow:0 2px 7px #2337580e}
 .doc-content{padding:22px 29px 31px;max-width:1030px;color:#4b566e;font-size:13px;line-height:1.8;overflow-wrap:anywhere}

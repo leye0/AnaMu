@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build the dependency-free static AnaMu course library for GitHub Pages.
 
-Reads the real per-course Markdown, the assessment registry and MIDI binaries.
+Reads the real per-course Markdown, the assessment registry and audio examples.
 Does not alter university materials, statuses, source files or tests.
 """
 from __future__ import annotations
@@ -17,6 +17,7 @@ from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 REPO_URL = "https://github.com/leye0/AnaMu/blob/main/"
+RAW_URL = "https://raw.githubusercontent.com/leye0/AnaMu/main/"
 ASSESSMENTS = ROOT / "docs/data/course-algorithmic-assessments.json"
 STATIC = ROOT / "site"
 HEADINGS = re.compile(r"^#{1,6}\s+(.+)$")
@@ -193,6 +194,31 @@ def extract(md: str) -> tuple[str, str, str, str]:
     return heading, introduction, application, snippet
 
 
+def course_audio(source: Path | None, markdown: str, destination: Path, school: str, slug: str) -> list[dict[str, str]]:
+    """Publish linked MP3s from this course's own folder, never external sources."""
+    if source is None or not markdown:
+        return []
+    aliases = {}
+    for file in source.with_suffix("").glob("*.mp3"):
+        if not file.is_file() or not re.fullmatch(r"[a-zA-Z0-9_-]+\.mp3", file.name):
+            continue
+        aliases[file.relative_to(source.parent).as_posix()] = file
+        aliases[RAW_URL + file.relative_to(ROOT).as_posix()] = file
+    tracks = []
+    seen = set()
+    for label, href_value in LINK.findall(markdown):
+        file = aliases.get(href_value)
+        if file is None or file in seen:
+            continue
+        seen.add(file)
+        url = f"audio/{school}/{slug}/{file.name}"
+        output = destination / url
+        output.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(file, output)
+        tracks.append({"title": clean(label), "url": url})
+    return tracks
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", default="_site", help="Output folder (relative to repository)")
@@ -254,6 +280,7 @@ def main() -> None:
             "source_course": row.get("source_url") or "",
             "coverage": row.get("course_coverage"),
             "midi": midi_url,
+            "audio": course_audio(source, markdown, destination, school, slug),
             "non_algorithmic": row.get("non_algorithmic"),
             "algorithmic_tags": row.get("algorithmic_tags") or [],
             "review_state": row["review_state"],

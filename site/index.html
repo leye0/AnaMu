@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#10172b">
   <meta name="description" content="Explorer les cours de musique AnaMu, leurs descriptions, leurs applications à l'analyse et à la composition, et écouter les exemples MIDI originaux.">
   <title>AnaMu — Bibliothèque musicale</title>
-  <link rel="stylesheet" href="./styles.css">
-  <script src="./app.js?v=course-links-1" defer></script>
+  <link rel="stylesheet" href="./styles.css?v=course-audio-1">
+  <script src="./app.js?v=course-audio-1" defer></script>
 </head>
 <body>
   <header class="topbar">
@@ -91,6 +91,17 @@
             <a id="sourceOfficial" href="#" target="_blank" rel="noopener noreferrer">Source universitaire ↗</a>
           </div>
         </div>
+
+        <section id="audioSection" class="player-section" aria-labelledby="audioHeading" hidden>
+          <div class="player-header">
+            <div>
+              <div class="eyebrow">EXEMPLES SONORES</div>
+              <h3 id="audioHeading">Écouter les exemples audio</h3>
+            </div>
+            <span class="player-pill">MP3</span>
+          </div>
+          <div id="audioTracks" class="audio-tracks"></div>
+        </section>
 
         <section id="playerSection" class="player-section">
           <div class="player-header">
