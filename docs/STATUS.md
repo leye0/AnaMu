@@ -1,5 +1,7 @@
 # AnaMu — état opérationnel de référence (11 novembre 2026)
 
+**LE SEUIL DE TROIS QUARTS NE DÉFINIT PAS UNE ENTRÉE.** [MUTH-304, BWV 850 et 855](courses/mcgill/MUTH-304.md#vérification-hors-échantillon--le-seuil-des-trois-quarts-dans-bwv-850-et-bwv-855) retrouve 11 et 8 correspondances intégrales, sans faux départ par rapport aux deux relevés. Le seuil partiel repère un fragment de BWV 850 (10/13) et manque un fragment annoté de BWV 855 (13/25). Aucun changement au moteur.
+
 **ORIENTATION ET COMPLÉTUDE DU SUJET.** [MUTH-304, BWV 851](courses/mcgill/MUTH-304.md#transfert--inversion-et-fins-modifiées-dans-bwv-851) retrouve neuf des dix-sept entrées annotées avec la règle précédente. Le relevé diagnostique cinq inversions, deux fins directes modifiées et une jointure interne déformée. Les 17 départs restent classés selon la portée de la correspondance. Aucun changement au moteur.
 
 **VARIATIONS AUX BORDS DU SUJET.** [MUTH-304, BWV 848](courses/mcgill/MUTH-304.md#transfert--le-sujet-change-à-ses-extrémités-dans-bwv-848) retrouve sept des douze départs annotés avec la règle inchangée de BWV 847. Le corps chromatique et rythmique reste entier dans les cinq passages manqués. Des variantes circonscrites à l'amorce ou à la dernière note ramènent le relevé à 12/12, sans modifier les comptes de BWV 846 et 847. Aucun changement au moteur.
