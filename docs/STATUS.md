@@ -1,5 +1,7 @@
 # AnaMu — état opérationnel de référence (11 novembre 2026)
 
+**RETOUR THÉMATIQUE ET CLÔTURE HORS DE BACH.** [MUTH-304, Beethoven op. 110, finale](courses/mcgill/MUTH-304.md#hors-de-bach--le-sujet-revient-avant-que-la-fugue-se-ferme) distingue l'inversion adaptée, la strette à deux vitesses et le retour intégral du sujet en la♭. Le retour au grave précède la résolution finale de 35 mesures. Les deux grands arpèges ont des fonctions différentes, selon ce que la basse et l'harmonie font ensuite. Documentation seulement, sans nouveau MIDI ni changement au moteur.
+
 **FONCTION DES FRAGMENTS.** [MUTH-304](courses/mcgill/MUTH-304.md#approfondissement-fonctionnel--ce-que-le-fragment-fait-à-la-suite) confronte le faux départ, la strette incomplète, la circulation d'une cellule et le rappel cadentiel dans BWV 846, 850 et 855. Le relevé sépare le délai entre départs du chevauchement effectivement écrit et suit les autres voix jusqu'à la prochaine entrée ou à la cadence. Le contrôle interne de BWV 855 compare deux textures resserrées qui débouchent sur des suites différentes. Documentation seulement, aucun moteur ni MIDI modifié.
 
 **RÉCUPÉRATION DES FRAGMENTS INTERNES.** [MUTH-304](courses/mcgill/MUTH-304.md#améliorer-la-récupération--chercher-aussi-à-lintérieur-du-sujet) compare les portions internes du sujet et de la réponse à part des entrées complètes. Les trois citations de la coda de BWV 855 ressortent, contre aucune au seuil de tête de 75 %. BWV 857 sert de contrôle sur les dix entrées complètes. Aucun changement au moteur.
