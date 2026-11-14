@@ -80,3 +80,25 @@
 | 9–12 | Directe | Retour à la première version | 15, 15, 19, 12 demi-tons |
 
 **Analyse et réemploi.** Aligner les voix avec une mesure de délai avant de comparer leurs intervalles successifs. Écouter ensuite la mesure de recouvrement dans chaque bloc : le rythme commun reste identique, mais les hauteurs simultanées changent. Écrire une autre phrase en contrôlant à la fois les intervalles mélodiques de la réponse et ses consonances au contact du modèle. Le MIDI démontre un miroir chromatique strict à partir du premier do de la réponse, pas le système tonal du canon de Bach ni le contrepoint renversable à l’octave. **Preuve :** `MIDI_DIRECT` pour le délai, les 48 attaques et les intervalles, `AUDIO_REQUIRED` pour la reconnaissance à l’écoute.
+
+## Retard et appoggiature sur une même dissonance
+
+La [leçon 3 du syllabus OCOMP-250](https://online.berklee.edu/courses/counterpoint#syllabus) nomme les deux ornements. Les œuvres ci-dessous sont des exemples documentaires choisis par AnaMu. Rien n'indique que Berklee les utilise dans cette leçon.
+
+| Passage | Avant la dissonance | À l'appui | Résolution |
+|---|---|---|---|
+| Samuel Barber, *Adagio for Strings*, m. 1–2, premiers violons | Le si♭ sonne déjà comme quinte au-dessus de la basse mi♭ en m. 1. | Le même si♭ se prolonge quand la basse arrive sur fa au début de m. 2. Il devient une quarte. | Le dessus descend si♭–la♮ sur la basse fa. C'est un **retard 4–3**. |
+| W. A. Mozart, *Sinfonia concertante* K. 364/320d, I, m. 281–282 selon la réduction de Philip Tagg, violon solo | Le fa de fin de m. 281 précède le la♭. | Le violon **attaque** le la♭ par saut ascendant de tierce mineure sur l'appui de mi♭ en m. 282. Il forme une quarte. | Le violon descend la♭–sol sur l'appui de mi♭. C'est une **appoggiature 4–3**. |
+
+**Sources des passages.** [Barber, partition, première page](https://thecellist.ru/wp-content/uploads/2020/11/barber-s.-adagio-for-strings.pdf#page=1) et [réduction annotée, fig. 10.9.3, Robert Hutchinson](https://musictheory.pugetsound.edu/mt21c/Suspension.html). [Mozart, réduction de Philip Tagg, ex. 67, p. 125](https://www.tagg.org/bookxtrax/Fernando/Frn04-MusemAnal2.pdf#page=3). La légende de Tagg imprime K362 par erreur. Le [catalogue Köchel du Mozarteum](https://kv.mozarteum.at/en/work/sinfonia-concertante-in-e-flat-for-violin-viola-and-orchestra-4297) donne bien K. 364/320d. Les chiffres 4–3 ramènent les intervalles verticaux à l'octave.
+
+**Étude originale A/B.** [Télécharger le MIDI comparatif](https://raw.githubusercontent.com/leye0/AnaMu/main/docs/courses/berklee-online/OCOMP-250/retard-appoggiature.mid). Deux blocs de deux mesures en 4/4, à 90 noires/minute. La basse et la voix intérieure sont identiques. Aux débuts de m. 2 et m. 4, les mêmes hauteurs sonnent (do–sol–fa), puis le même mi remplace le fa au deuxième temps. Seule la façon dont le dessus arrive sur le fa change.
+
+| Bloc | Dessus avant l'appui | Premier temps de la seconde mesure | Deuxième temps |
+|---|---|---|---|
+| A, m. 1–2 | Do aigu, puis fa consonant sur la basse fa. | Le fa tenu devient une quarte quand la basse passe à do. Aucune nouvelle attaque du dessus. | Fa–mi sur do. |
+| B, m. 3–4 | Même do aigu, puis do plus grave, consonant sur la basse fa. | Ce do saute au fa, nouvellement attaqué quand la basse passe à do. | Le même fa–mi sur do. |
+
+**Quand ne pas trancher.** Un relevé qui commence à l'appui et ne garde que les hauteurs simultanées donne le même 4–3 dans A et B. Revenir avant l'appui et suivre la même voix, sa préparation et son mouvement. Une nouvelle attaque sur temps fort suivie d'un pas ne suffit pas à nommer une appoggiature. Une approche conjointe invite aussi à vérifier la note de passage accentuée ou la broderie accentuée. À l'inverse, une note préparée puis réarticulée peut relever d'un retard dans certaines conventions. La liaison est probante pour le modèle tenu, pas une obligation universelle. [Hutchinson, retard, fig. 10.9.1](https://musictheory.pugetsound.edu/mt21c/Suspension.html) et [appoggiature](https://musictheory.pugetsound.edu/mt21c/Appoggiatura.html).
+
+**Portée du support.** Dans le fichier témoin, les pistes isolent les voix et le début des mesures est connu. Dans un MIDI tiers, des voix fusionnées, des chevauchements sur la même hauteur, la pédale, des attaques mal quantifiées ou une fenêtre tronquée peuvent rendre cette histoire incertaine. Dans ce cas, décrire le 4–3 sans décider du type de note étrangère, ou revenir à la partition. `MIDI_DIRECT` pour les événements du témoin, `CONTEXT_REQUIRED` pour l'étiquette dans un autre passage. Ni le MIDI ni les deux cas choisis ne mesurent une différence perceptive.
