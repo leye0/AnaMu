@@ -28,6 +28,19 @@ const playback = {
 function normalize(text) {
   return String(text || "").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
 }
+function courseFromLink(id) {
+  if (!id) return null;
+  const exact = catalog.find((entry) => entry.id === id);
+  if (exact) return exact;
+  // Shared links may use a hyphen where the catalogue uses a space in the code.
+  const colon = id.indexOf(":");
+  if (colon < 1) return null;
+  const institution = id.slice(0,colon).trim().toLowerCase();
+  const linkCode = (code) => code.trim().toLowerCase().replace(/[\s-]+/g,"-");
+  const code = linkCode(id.slice(colon+1));
+  const matches = catalog.filter((entry) => entry.institution === institution && linkCode(entry.code) === code);
+  return matches.length === 1 ? matches[0] : null;
+}
 function formatTime(seconds) {
   const value = Math.max(0, Math.floor(Number(seconds) || 0));
   return Math.floor(value/60) + ":" + String(value%60).padStart(2,"0");
@@ -495,9 +508,29 @@ async function boot() {
       const priority=(r)=>r.midi?0:r.review_state==="first_scope_assessed_without_midi"?1:r.review_state==="not_yet_assessed"?2:3;
       return priority(a)-priority(b) || a.institution.localeCompare(b.institution) || a.code.localeCompare(b.code,undefined,{numeric:true});
     });
+    const wanted=courseFromLink(new URLSearchParams(window.location.search).get("cours"));
+    if (wanted) {
+      // A browser can restore filter fields on reload. The direct link wins.
+      $("search").value="";
+      $("school").value="all";
+      $("status").value="all";
+      showCourse(wanted.id,false);
+    }
     drawCourses();
-    const wanted=new URLSearchParams(window.location.search).get("cours");
-    if (wanted && catalog.some((c) => c.id === wanted)) showCourse(wanted,false);
+    if (wanted) {
+      requestAnimationFrame(() => {
+        if (current?.id !== wanted.id) return;
+        const list = $("courseList");
+        const selected = list.querySelector('[aria-current="true"]');
+        if (!selected) return;
+        if (window.matchMedia("(max-width: 740px)").matches) {
+          list.scrollLeft += selected.getBoundingClientRect().left - list.getBoundingClientRect().left;
+          $("detail").scrollIntoView({block:"start",behavior:"instant"});
+        } else {
+          list.scrollTop += selected.getBoundingClientRect().top - list.getBoundingClientRect().top;
+        }
+      });
+    }
   } catch (error) {
     $("resultCount").textContent="Catalogue indisponible";
     $("detail").hidden=true;
