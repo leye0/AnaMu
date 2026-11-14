@@ -1,5 +1,7 @@
 # AnaMu — état opérationnel de référence (11 novembre 2026)
 
+**RÉCUPÉRATION DES FRAGMENTS INTERNES.** [MUTH-304](courses/mcgill/MUTH-304.md#améliorer-la-récupération--chercher-aussi-à-lintérieur-du-sujet) compare les portions internes du sujet et de la réponse à part des entrées complètes. Les trois citations de la coda de BWV 855 ressortent, contre aucune au seuil de tête de 75 %. BWV 857 sert de contrôle sur les dix entrées complètes. Aucun changement au moteur.
+
 **LE SEUIL DE TROIS QUARTS NE DÉFINIT PAS UNE ENTRÉE.** [MUTH-304, BWV 850 et 855](courses/mcgill/MUTH-304.md#vérification-hors-échantillon--le-seuil-des-trois-quarts-dans-bwv-850-et-bwv-855) retrouve 11 et 8 correspondances intégrales, sans faux départ par rapport aux deux relevés. Le seuil partiel repère un fragment de BWV 850 (10/13) et manque un fragment annoté de BWV 855 (13/25). Aucun changement au moteur.
 
 **ORIENTATION ET COMPLÉTUDE DU SUJET.** [MUTH-304, BWV 851](courses/mcgill/MUTH-304.md#transfert--inversion-et-fins-modifiées-dans-bwv-851) retrouve neuf des dix-sept entrées annotées avec la règle précédente. Le relevé diagnostique cinq inversions, deux fins directes modifiées et une jointure interne déformée. Les 17 départs restent classés selon la portée de la correspondance. Aucun changement au moteur.
