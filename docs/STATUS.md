@@ -1,5 +1,7 @@
 # AnaMu — état opérationnel de référence (11 novembre 2026)
 
+**VARIATIONS AUX BORDS DU SUJET.** [MUTH-304, BWV 848](courses/mcgill/MUTH-304.md#transfert--le-sujet-change-à-ses-extrémités-dans-bwv-848) retrouve sept des douze départs annotés avec la règle inchangée de BWV 847. Le corps chromatique et rythmique reste entier dans les cinq passages manqués. Des variantes circonscrites à l'amorce ou à la dernière note ramènent le relevé à 12/12, sans modifier les comptes de BWV 846 et 847. Aucun changement au moteur.
+
 **TRANSFERT DE LA RÈGLE FUGUÉE.** [MUTH-304, BWV 847](courses/mcgill/MUTH-304.md#transfert--une-réponse-tonale-dans-bwv-847) compare la règle de BWV 846 à un relevé indépendant. Elle retrouve cinq entrées sur huit sans modification. Un patron distinct pour la réponse tonale et le regroupement des attaques simultanées rétablissent les huit entrées sans ajout. Aucun changement au moteur.
 
 **TRANSFERT À LA FUGUE ENTIÈRE.** [MUTH-304, la fugue BWV 846 entière](courses/mcgill/MUTH-304.md#cas-intégrateur--le-sujet-entier-et-ses-fragments-dans-bwv-846) suit les 27 mesures sur quatre voix écrites, le MIDI à deux pistes de notes et la prise Ishizaka. Un balayage des quatre voix retrouve les 22 entrées complètes d'Alvira, soit 15 transpositions strictes, six variantes diatoniques à rythme exact et une variante à première note allongée. Les fragments sont exclus. Un témoin original MIDI et MP3 distingue la troncation du chevauchement. Le bilan reste à **21/21** sans changement au moteur.
