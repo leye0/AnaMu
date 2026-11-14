@@ -1,5 +1,7 @@
 # AnaMu — état opérationnel de référence (11 novembre 2026)
 
+**PAUSE SUR V OU DEMI-CADENCE.** [MUTH-151](courses/mcgill/MUTH-151.md#une-dominante-suivie-dun-silence-fait-elle-une-demi-cadence-) compare les ouvertures de Mozart K. 525, II et Beethoven op. 15, I. Même arrivée de ré sur sol, mais descente achevée chez Mozart et montée qui se poursuit chez Beethoven. Un comparateur MIDI et MP3 conserve toute la basse, tous les rythmes et l'accord de V final, en faisant varier quatre hauteurs du chant. Aucun changement au registre ni au moteur.
+
 **MÊME ACCORD, DEUX ARRIVÉES.** [MUTH-251](courses/mcgill/MUTH-251.md#à-lécoute--le-même-accord-mène-à-deux-tonalités) lit le pivot enharmonique de l'op. 110 et le compare au concerto op. 61. Le nouveau MIDI et son MP3 gardent les mêmes 17 attaques de préparation pour deux suites, la♭ majeur ou sol mineur. La direction de la basse et de la note supérieure distingue les lectures avant la confirmation de la tonalité. Aucun changement au registre des cours ni au moteur.
 
 **RETOUR THÉMATIQUE ET CLÔTURE HORS DE BACH.** [MUTH-304, Beethoven op. 110, finale](courses/mcgill/MUTH-304.md#hors-de-bach--le-sujet-revient-avant-que-la-fugue-se-ferme) distingue l'inversion adaptée, la strette à deux vitesses et le retour intégral du sujet en la♭. Le retour au grave précède la résolution finale de 35 mesures. Les deux grands arpèges ont des fonctions différentes, selon ce que la basse et l'harmonie font ensuite. Documentation seulement, sans nouveau MIDI ni changement au moteur.
