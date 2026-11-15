@@ -1,5 +1,7 @@
 # AnaMu — état opérationnel de référence (11 novembre 2026)
 
+**UNE ARRIVÉE, DEUX FONCTIONS.** [OLART-233, Haendel](courses/berklee-online/OLART-233.md#une-arrivée-deux-fonctions--haendel) distingue dans HWV 310 le relais sur un sol commun à m. 3 et les cadences imbriquées aux m. 7 et 9. À la différence du Purcell précédent, l'arrivée de la basse et le départ suivant occupent le même temps. Un comparateur MIDI et MP3 scinde uniquement la note de basse à la jointure. Aucun changement au moteur ou au registre.
+
 **LA BASSE REPART, LA PHRASE CONTINUE.** [OLART-233, Purcell](courses/berklee-online/OLART-233.md#application-à-lanalyse-et-à-la-création--la-basse-repart-la-phrase-continue-chez-purcell) distingue dans le lamento de Didon fin du cycle, nouveau départ et cadence du dessus. Le même ré–sol grave aux m. 59 et 64 ne ferme la phrase des cordes que la deuxième fois. Un MIDI et son MP3 décalent uniquement la première phrase au-dessus du même accompagnement. Aucun changement au moteur ni au registre.
 
 **LE DESSIN RÉCURRENT CHANGE DE FONCTION.** [OLART-234](courses/berklee-online/OLART-234.md#quand-la-même-ligne-devient-la-basse--brahms-symphonie-no-4) suit dans le finale de Brahms op. 98 le thème aux flûtes, son déplacement sur le deuxième temps aux violons, son rôle d'appui grave à m. 33 et son retour littéral au-dessus à m. 129. Un MIDI et son MP3 permutent les voix extrêmes avec les mêmes 47 attaques par version. Aucun changement au moteur ni au registre.
