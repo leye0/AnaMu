@@ -57,3 +57,22 @@ Chercher le plan de section, les exercices, les lectures et les évaluations att
 **Créer.** En mi♭, orienter un court segment vers fa mineur par do7–fa mineur, puis traiter fa mineur comme iv de do mineur et finir par sol7–do mineur. Dans une variante, poursuivre plutôt en fa mineur et y donner une fin de phrase distincte. Faire repérer le centre visé à mi-parcours et celui qui finit par s'imposer.
 
 **Limite.** La présence d'une sensible, même répétée, n'équivaut pas à une clôture. Le [MIDI comparatif OCOMP-367](../berklee-online/OCOMP-367.md) montre un cas original et plus court, non une transcription de Bologne. `MIDI_DIRECT / CONTEXT_REQUIRED`.
+
+## Accélérer quoi ? Quatre écoutes avec la même phrase
+
+**Ancrage.** [MUSP-240](https://www.mcgill.ca/music/programs/bmus/music-composition/study-plan) annonce les divisions rythmiques mixtes. Ce témoin original à trois parties n’est ni un exercice McGill ni une transcription de Beethoven. La [lecture de l’Arietta](../berklee-online/OLART-234.md#accélérer-la-cellule-sans-accélérer-toute-la-musique--beethoven-arietta) distingue la diminution locale de la durée de mesure. Ici, deux commandes indépendantes permettent de comparer les causes.
+
+[Télécharger le témoin MIDI](https://raw.githubusercontent.com/leye0/AnaMu/main/docs/courses/mcgill/MUSP-240/accelerer-quoi.mid) · [Écouter les quatre versions](MUSP-240/accelerer-quoi.mp3).
+
+| Version | Écoute | Tempo en noires/min | Cellules long–bref de harpe par noire | Durée approximative d’un temps |
+|---|---:|---:|---:|---:|
+| A | 0:00 | 66 | 1 | 0,91 s |
+| B | 0:19 | 66 | 2 | 0,91 s |
+| C | 0:38 | 132 | 1 | 0,45 s |
+| D | 0:48 | 132 | 2 | 0,45 s |
+
+**Qu’est-ce qui a été gardé ?** Six mesures de 3/4 par version et une mesure de respiration. Dans les quatre versions, le chant au piano a **21 attaques** et le grave au violoncelle **12**. Les hauteurs, positions en temps, durées en temps et vélocités de ces deux pistes sont identiques, jusqu’à l’arrivée commune sur mi au troisième temps de la sixième mesure. En A et C, la harpe joue à `0` et `2/3` d’un temps. En B et D, elle joue à `0`, `1/3`, `1/2` et `5/6`. On conserve un rapport **2:1 entre intervalles d’attaque successifs**, pas une égalité de durées MIDI tenues. Le dernier temps n’est pas subdivisé : les trois notes de harpe y attaquent ensemble dans les quatre cas. Comptage relu dans le MIDI : 37 attaques de harpe en A/C, 71 en B/D.
+
+**Piège utile — B contre C.** Les attaques de leurs cellules de harpe coïncident en secondes depuis le début de chaque bloc sur leurs **34 premières positions** (durant les 17 premiers temps de C). La cadence de C interrompt ensuite cette grille commune. Deux cellules par temps à 66 donnent la même période qu’une à 132, soit **environ 0,45 s par cellule**. Sur deux temps de C et un temps de B, les quatre attaques de harpe arrivent à environ **0,00 / 0,30 / 0,45 / 0,76 s**. Cela ne rend pas les pistes identiques : la harpe change de paire à chaque temps, et les appuis du chant et du grave sont deux fois plus rapprochés en C. Une estimation sur le seul rythme d’attaque des arpèges peut donc choisir la même « vitesse » pour les deux.
+
+**Écouter et réemployer.** Garder une battue à trois à partir du premier appui du grave, puis écouter la harpe sans changer volontairement de niveau de battue. Le grave ne réattaque pas à chaque temps. A → B ou C → D isole la densification par temps. A → C ou B → D isole le tempo global. B → C est le test de sélection : si une pièce doit garder sa longueur et gagner en mouvement, préférer le premier type de geste. Si elle doit changer de battue ou finir plus tôt, la figuration seule ne suffit pas. Si le nouveau plan attire toutes les oreilles, comparer ses attaques et son registre avec ceux du chant avant de conclure que la battue a changé. L’accord final est un repère écrit, pas une garantie de saillance ni un avis d’écoute mesuré. `MIDI_DIRECT` pour les égalités encodées, `MIDI_PROXY` pour les indices de battue et `AUDIO_REQUIRED` pour la battue réellement suivie.
