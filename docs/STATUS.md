@@ -1,5 +1,7 @@
 # AnaMu — état opérationnel de référence (11 novembre 2026)
 
+**ANALYSE → SYNTHÈSE → CRÉATION.** [OLART-233, Buxtehude BuxWV 161](courses/berklee-online/OLART-233.md#le-dessin-passe-dans-une-autre-tonalité--buxtehude-buxwv-161) vérifie les quatre premières entrées de région. La pédale conserve le porteur et le rythme, mais adapte un intervalle en fa majeur. La [conception de la base](knowledge-base.md#deux-modules-une-connaissance-commune) distingue le relevé de l’œuvre, l’accès transversal aux savoirs et les choix d’écriture dictés par une intention. Scénario sur papier seulement. Aucun moteur, changement au registre ou passage en phase de composition.
+
 **MÊME MOTIF, NOUVELLE BASSE.** [OLART-233, Bach BWV 78](courses/berklee-online/OLART-233.md#même-motif-nouvelle-basse--bach-bwv-78) suit la descente chromatique du continuo au hautbois, à l’alto puis de nouveau au continuo, distinct de l’entrée du choral au soprano. Un MIDI et son MP3 comparent une permutation de deux voix puis la réécriture du grave sous le même dessus. Aucun changement au moteur ni au registre.
 
 **MÊME DÉPART, AUTRE TONALITÉ.** [OLART-233, Bach BWV 1016](courses/berklee-online/OLART-233.md#même-départ-autre-tonalité--bach-bwv-1016) vérifie les dix premières attaques identiques de la basse et sépare le pivot de m. 11, la bifurcation de m. 12 et la cadence en mi à m. 13. Le comparateur MIDI et MP3 garde le même dessus pour deux destinations. Aucun changement au moteur ni au registre.

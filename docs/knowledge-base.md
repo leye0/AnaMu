@@ -122,6 +122,22 @@ Cette étape demeure **hors de portée opérationnelle** jusqu'à couverture
 et expertise du [TODO universitaire](todo-university-coverage.md), portes
 **L01–L05**, et accord explicite de Léon.
 
+### Deux modules, une connaissance commune
+
+**Décision du 15 novembre 2026.** L’analyse et la création sont deux modules différents. La création dépend d’une analyse richement documentée et de la synthèse des savoirs transversaux. Ce n’est pas une inversion de l’analyse. Reconnaître un procédé ne dit pas quand le choisir, ni dans quel but. Les fiches de cours restent les sources de connaissance. La synthèse relie les preuves et leurs limites sans les remplacer.
+
+| Responsabilité | Entrée | Sortie attendue |
+|---|---|---|
+| **Analyse** | Œuvre, passage, partition/MIDI/audio disponibles et question musicale | Observations localisées, hypothèses distinctes, raisonnement, explications concurrentes et inconnues. Une note notée, une identité de motif et une fonction tonale n’ont pas le même statut. |
+| **Synthèse transversale** | Résultats d’analyse et enseignements documentés de plusieurs cours | Relations entre concepts, contextes d’application, contre-exemples et limites. Distinguer ce qui revient ensemble dans un exemple de ce qui peut varier indépendamment. Conserver les liens jusqu’au passage qui justifie chaque distinction. |
+| **Création** | Intention explicite, forme/style/formation visés, contraintes du passage et connaissances pertinentes | Choix motivés et alternatives. Pour chaque choix, préciser ce qui doit rester reconnaissable, ce qui peut changer, ce qui pourrait contredire une autre contrainte et ce que l’écoute devra encore trancher. L’analyse peut vérifier le résultat, pas décider seule de sa valeur artistique. |
+
+**Exemple de requête à la synthèse.** « Faire entendre une nouvelle région tonale sans perdre le motif et sans changer de porteur. » Consulter conjointement l’identité du dessin (contour, intervalles, rythme), le rôle et la conduite des voix, la confirmation tonale et l’échelle de la frontière. Si les sources ne soutiennent pas une relation dans le style visé, la laisser inconnue au lieu de généraliser. Le [relevé Buxtehude dans OLART-233](courses/berklee-online/OLART-233.md#le-dessin-passe-dans-une-autre-tonalité--buxtehude-buxwv-161) relie ces quatre axes et distingue le constat du scénario d’écriture. Sa transposition exacte et son adaptation modale sont deux options de composition, pas deux ordres à appliquer automatiquement. Le transfert du dessin à un autre porteur chez Bach sert de contraste, pas de consigne de réorchestration.
+
+**Principe de sélection.** Partir du résultat musical voulu, pas d’un nom d’œuvre ou d’une liste de motifs voisins. Dans la requête ci-dessus, MTE-1221 aide à évaluer si la destination est installée, OLART-233 à choisir ce qui rend le dessin reconnaissable, et la comparaison BWV 78 à écarter un transfert de voix si le porteur doit rester fixe. Si la consigne exige les intervalles exacts, la variante modale devient inadmissible, même si le cas Buxtehude la documente. Si la consigne demande seulement une autre couleur sans quitter le centre, la réharmonisation ou la tonicisation redeviennent des options et la modulation n’est plus le résultat à chercher. L’accès transversal sert à **choisir quelles connaissances consulter, puis à expliquer quels gestes sont compatibles**, pas à cumuler les procédés.
+
+C’est un **contrat documentaire** pour les échanges futurs, pas un schéma de données, une API ou une mise en production. Cette passe ne lève aucune porte L01–L05 et n’ajoute ni moteur ni générateur.
+
 ## 6. Source de vérité et prochaine construction
 
 - [OBJECTIVES.md](OBJECTIVES.md) : pourquoi le système existe.
