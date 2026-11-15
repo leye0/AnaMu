@@ -1,5 +1,7 @@
 # AnaMu — état opérationnel de référence (11 novembre 2026)
 
+**MÊME BASSE, AUTRE FIN.** [OLART-233, Pachelbel](courses/berklee-online/OLART-233.md#même-basse-autre-fin--pachelbel) oppose la demi-cadence à m. 4 de la Chaconne P. 43 au sixte-et-quarte de m. 8 résolu à m. 9, sur le même cycle de pédale. Le comparateur MIDI et MP3 ne modifie que les voix au-dessus de la deuxième dominante candidate. Aucun changement au moteur ni au registre.
+
 **UNE ARRIVÉE, DEUX FONCTIONS.** [OLART-233, Haendel](courses/berklee-online/OLART-233.md#une-arrivée-deux-fonctions--haendel) distingue dans HWV 310 le relais sur un sol commun à m. 3 et les cadences imbriquées aux m. 7 et 9. À la différence du Purcell précédent, l'arrivée de la basse et le départ suivant occupent le même temps. Un comparateur MIDI et MP3 scinde uniquement la note de basse à la jointure. Aucun changement au moteur ou au registre.
 
 **LA BASSE REPART, LA PHRASE CONTINUE.** [OLART-233, Purcell](courses/berklee-online/OLART-233.md#application-à-lanalyse-et-à-la-création--la-basse-repart-la-phrase-continue-chez-purcell) distingue dans le lamento de Didon fin du cycle, nouveau départ et cadence du dessus. Le même ré–sol grave aux m. 59 et 64 ne ferme la phrase des cordes que la deuxième fois. Un MIDI et son MP3 décalent uniquement la première phrase au-dessus du même accompagnement. Aucun changement au moteur ni au registre.
