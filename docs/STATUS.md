@@ -1,5 +1,7 @@
 # AnaMu — état opérationnel de référence (11 novembre 2026)
 
+**MÊME MOTIF, NOUVELLE BASSE.** [OLART-233, Bach BWV 78](courses/berklee-online/OLART-233.md#même-motif-nouvelle-basse--bach-bwv-78) suit la descente chromatique du continuo au hautbois, à l’alto puis de nouveau au continuo, distinct de l’entrée du choral au soprano. Un MIDI et son MP3 comparent une permutation de deux voix puis la réécriture du grave sous le même dessus. Aucun changement au moteur ni au registre.
+
 **MÊME DÉPART, AUTRE TONALITÉ.** [OLART-233, Bach BWV 1016](courses/berklee-online/OLART-233.md#même-départ-autre-tonalité--bach-bwv-1016) vérifie les dix premières attaques identiques de la basse et sépare le pivot de m. 11, la bifurcation de m. 12 et la cadence en mi à m. 13. Le comparateur MIDI et MP3 garde le même dessus pour deux destinations. Aucun changement au moteur ni au registre.
 
 **MÊME BASSE, AUTRE FIN.** [OLART-233, Pachelbel](courses/berklee-online/OLART-233.md#même-basse-autre-fin--pachelbel) oppose la demi-cadence à m. 4 de la Chaconne P. 43 au sixte-et-quarte de m. 8 résolu à m. 9, sur le même cycle de pédale. Le comparateur MIDI et MP3 ne modifie que les voix au-dessus de la deuxième dominante candidate. Aucun changement au moteur ni au registre.
