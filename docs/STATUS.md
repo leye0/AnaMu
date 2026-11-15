@@ -1,5 +1,7 @@
 # AnaMu — état opérationnel de référence (11 novembre 2026)
 
+**UN PUPITRE REVIENT AVANT L'ORCHESTRE.** [OLART-234](courses/berklee-online/OLART-234.md#quand-un-pupitre-annonce-le-retour-avant-les-autres) compare le cor de l'« Héroïque » (m. 394–395 sur dominante, reprise m. 398) au cor de la Symphonie no 6 de Haydn (m. 85–86, retour à la flûte m. 87). Le comparateur original décale seulement l'appel de cor de trois mesures sur un accompagnement inchangé. Aucun changement au moteur ni au registre.
+
 **THÈME ET TONIQUE PEUVENT REVENIR TROP TÔT.** [OLART-234, Haydn op. 17 no 1](courses/berklee-online/OLART-234.md#haydn--quand-le-thème-et-la-tonique-reviennent-trop-tôt) oppose deux entrées en mi majeur qui reprennent les mêmes 14 attaques. À m. 63 la dernière croche lance une séquence, tandis qu'à m. 76 elle retrouve le parcours du début. Un MIDI et son MP3 isolent l'identité de l'entrée et le contraste des suites. Aucun changement au moteur ni au registre.
 
 **RETOUR DU THÈME ET RETOUR TONAL DISSOCIÉS.** [OLART-234](courses/berklee-online/OLART-234.md#quand-commence-vraiment-la-réexposition-du-k-545-) distingue dans Mozart K. 545, I le retour intégral du thème à m. 42, le raccord retrouvé à m. 54–57 et le retour du groupe secondaire à m. 58–59. Le relevé de partition expose deux lectures formelles défendables. Un comparateur MIDI et MP3 garde le retour en fa et le raccord identiques et ne varie que la destination du groupe secondaire. Aucun changement au moteur ni au registre.
