@@ -1,5 +1,7 @@
 # AnaMu — état opérationnel de référence (11 novembre 2026)
 
+**CADENCE LOCALE ET CLÔTURE DE LA REPRISE.** [OLART-234](courses/berklee-online/OLART-234.md#cadencer-sans-conclure--mozart-k-173-et-beethoven-egmont) compare le quatuor K. 173, où la reprise cadence en ré mineur avant de finir en do mineur, à l'ouverture d'« Egmont », où le groupe secondaire et la clôture de reprise restent en ré♭. Les deux codas rétablissent le centre global. Un MIDI et son MP3 comparent deux destinations après la même première cadence. Aucun changement au moteur ni au registre.
+
 **LE GROUPE SECONDAIRE REVIENT LE PREMIER.** [OLART-234, Mozart K. 311](courses/berklee-online/OLART-234.md#mozart-k-311--le-thème-secondaire-revient-le-premier) distingue le raccord commun, l'entrée du groupe secondaire en ré à m. 78–79 et le retour du thème principal à m. 99. Un comparateur MIDI et MP3 permute les mêmes blocs en ré pour isoler l'ordre de retour. Aucun changement au moteur ni au registre.
 
 **UN PUPITRE REVIENT AVANT L'ORCHESTRE.** [OLART-234](courses/berklee-online/OLART-234.md#quand-un-pupitre-annonce-le-retour-avant-les-autres) compare le cor de l'« Héroïque » (m. 394–395 sur dominante, reprise m. 398) au cor de la Symphonie no 6 de Haydn (m. 85–86, retour à la flûte m. 87). Le comparateur original décale seulement l'appel de cor de trois mesures sur un accompagnement inchangé. Aucun changement au moteur ni au registre.
