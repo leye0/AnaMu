@@ -107,7 +107,7 @@ De m. 1 à m. 7, les 18 noires prennent **25,74 s** chez Ishizaka et **28,29 s**
 
 ## Avant ou après la même attaque
 
-**Quatre sens de « marquer cette note ».** [Dodson, § 3.5](https://www.mtosmt.org/issues/mto.02.8.1/mto.02.8.1.dodson.html) distingue l’allongement de l’intervalle **après** un appui de celui de l’intervalle **avant**. Dans [Sloboda, 1983](https://doi.org/10.1080/14640748308402140), les consignes de notation changent le placement des appuis proposés aux pianistes. Le comparateur AnaMu travaille à l’inverse sur des événements explicites et ne réplique pas des comportements de pianistes. Il isole aussi la durée de tenue de la note, qui n’est pas interchangeable avec l’intervalle entre deux débuts.
+**Quatre sens de « marquer cette note ».** [Dodson, § 3.5](https://www.mtosmt.org/issues/mto.02.8.1/mto.02.8.1.dodson.html) distingue l’allongement de l’intervalle **après** un appui de celui de l’intervalle **avant**. Chez Sloboda (1983), dont Dodson résume le protocole et les résultats aux § 3.4–3.5, les consignes de notation changent le placement des appuis proposés aux pianistes. Le comparateur AnaMu travaille à l’inverse sur des événements explicites et ne réplique pas des comportements de pianistes. Il isole aussi la durée de tenue de la note, qui n’est pas interchangeable avec l’intervalle entre deux débuts.
 
 [Écouter « Avant ou après la même attaque »](COND-217/avant-apres-la-meme-attaque.mp3) · [Télécharger le MIDI](https://raw.githubusercontent.com/leye0/AnaMu/main/docs/courses/berklee/COND-217/avant-apres-la-meme-attaque.mid)
 
