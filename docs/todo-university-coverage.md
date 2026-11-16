@@ -304,6 +304,17 @@ Ces dossiers s’ajoutent à l’échantillon ci-dessus sans changer ses 21 lign
 | F01, F04, G06, G13 | Le même rythme répété a-t-il toujours le même porteur ? | [*Mars*](courses/berklee/CM-320.md#holst--garder-le-moteur-en-changeant-qui-le-joue) garde les positions de la cellule dans la section en 5/4 alors que le pupitre qui la porte change au retour. Les figures du repère XII en gardent une parenté sans répéter le cycle entier. |
 | F09, G13–14, I03 | À niveau global comparable, le retour laisse-t-il la même place au thème et permet-il les mêmes entrées ? | [Atelier MUCO-360](courses/mcgill/MUCO-360.md#grandir-sans-courir) pour les événements et [MUS-3322X](courses/udem/MUS-3322X.md#égaliser-le-total-sans-régler-la-place-du-thème) pour les deux mesures de niveau. La [phase de boucle](courses/udem/MUS-2328.md#intensifier-sans-remettre-la-boucle-à-zéro) est une application manuelle. Il manque une écoute indépendante et une captation interactive pour juger la réaction en situation réelle. |
 
+### Prolongement — quelle couche change vraiment au retour ?
+
+Les quatre questions ci-dessous renvoient aux dossiers ajoutés. Elles ne changent ni les 21 questions de l’échantillon ni les cases des phases suivantes.
+
+| Repères | Question à poser | Preuve à aller chercher et limite |
+|---|---|---|
+| C01, C03, E02–04 | Le motif a-t-il bougé ou seulement ses appuis ? | [Debussy m. 4–5](courses/berklee-online/OCOMP-367.md#le-même-pas-ne-ramène-pas-au-même-endroit) garde le pas pendant que la collection et son soutien changent. [*So What*](courses/berklee/CM-385.md#le-même-mode-sur-un-autre-centre--miles-davis) transpose le dessin au pont sans changer de type de mode. Le [témoin de basse et de couleur](courses/udem/MTE-2316.md#sous-les-mêmes-notes-un-autre-sol) dissocie ces deux indices, sans décider du centre entendu. |
+| C02–04, E01, E07 | Est-ce un nouvel accord, une étape dans des lignes ou une fermeture ? | [Chopin m. 1–5](courses/mcgill/MUTH-251.md#chopin--les-voix-ne-descendent-pas-en-même-temps) vérifie le décalage des descentes. [MTE-1221](courses/udem/MTE-1221.md#chopin--larrêt-ne-dit-pas-sur-quel-accord-on-sarrête) oppose pause, nouvelle attaque de phrase et accord de clôture dans trois prises. Les positions écrites ne garantissent pas des secondes identiques. |
+| E04, E07, I02, I04 | La couche revient-elle, ou devient-elle perceptible après avoir continué ? | [Ravel](courses/berklee-online/OCOMP-485.md#la-cloche-réapparaît-sans-avoir-disparu) pour le si♭ continu. [MUS-3322X](courses/udem/MUS-3322X.md#la-cloche-na-pas-repris) garde la même piste dans A/B et supprime 18 attaques dans C/D. Un partiel commun n’identifie pas le porteur. Aucun seuil de perception n’a été mesuré. |
+| C03, E07, I01, I04 | Une commutation rapide respecte-t-elle la relation entre l’appui et la note qui le suit ? | [Woodtick et le témoin MUS-2328](courses/udem/MUS-2328.md#une-seconde-pour-changer-dassise) distinguent fenêtre de raccord, changement de couleur sur l’ancienne basse, et coexistence des deux notes. Les délais sont ceux des cas repérés, pas ceux d’un moteur validé. |
+
 ## Phases suivantes — exigences pédagogiques à documenter après la collecte
 
 Les sections B–J ci-dessous sont un **cadre provisoire de compétences à
