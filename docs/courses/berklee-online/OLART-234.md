@@ -177,7 +177,7 @@ Les chiffres ci-dessous sont des durées **par mesure**, pas des BPM perçus. L�
 |---|---:|---:|
 | Thème, m. 1 → 7 | ≈ 0:04 · 4,9 s/mesure | ≈ 0:03 · 5,2 s/mesure |
 | Variation I, m. 19 → 25 | ≈ 2:50 · 3,4 s/mesure | ≈ 2:53 · 3,4 s/mesure |
-| Variation II, m. 37 → 43 | ≈ 4:50 · 2,9 s/mesure | ≈ 4:49 · 2,9 s/mesure |
+| Variation II, m. 37 → 43 | ≈ 4:50 · 2,8 s/mesure | ≈ 4:49 · 2,9 s/mesure |
 | Variation III, m. 55 → 61 | ≈ 6:32 · 3,6 s/mesure | ≈ 6:32 · 3,4 s/mesure |
 
 **Repères de recoupement (secondes depuis le début du fichier).** Pour II, m. 37 à 43 : O’Doan `289,65 / 292,79 / 295,63 / 298,43 / 301,28 / 303,97 / 307,00`, Schnabel `289,44 / 292,37 / 295,00 / 297,79 / 300,84 / 303,55 / 306,61`. Pour III, m. 55 à 61 : O’Doan `392,49 / 396,31 / 400,09 / 403,74 / 407,28 / 410,86 / 414,46`, Schnabel `391,50 / 395,02 / 398,49 / 402,03 / 405,37 / 408,63 / 411,83`. Les centièmes servent à reproduire le calcul, pas à garantir la précision de la mesure.
