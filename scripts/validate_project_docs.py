@@ -174,7 +174,7 @@ def legacy_mission_issues(root: Path) -> list[str]:
 
 def course_material_progress_issues(progress: dict, catalogs: dict[str, dict],
                                     root: Path) -> list[str]:
-    """Keep the course-by-course documentation queue in sync with catalog names."""
+    """Check the active musical queue without changing official catalog coverage."""
     issues: list[str] = []
     if progress.get("phase") != "course_material_collection":
         issues.append("course material tracker must remain in collection phase")
@@ -186,6 +186,28 @@ def course_material_progress_issues(progress: dict, catalogs: dict[str, dict],
                     for requirement in group["requirements"]
                     for code in requirement.get("codes", [])},
     }
+    excluded: dict[str, set[str]] = {program: set() for program in expected}
+    for program, official_codes in expected.items():
+        catalog = catalogs[program]
+        if "music_scope_filter" not in catalog:
+            continue
+        scope = catalog["music_scope_filter"]
+        if (not isinstance(scope, dict) or scope.get("research_only") is not True
+                or scope.get("official_source_preserved") is not True):
+            issues.append(f"{program}: invalid musical research scope filter")
+            continue
+        codes = scope.get("excluded_codes")
+        if not isinstance(codes, list) or not all(
+                isinstance(code, str) and code and code == code.strip() for code in codes):
+            issues.append(f"{program}: invalid musical research exclusion list")
+            continue
+        declared = set(codes)
+        if len(declared) != len(codes):
+            issues.append(f"{program}: duplicate musical research exclusions")
+        unknown = declared - official_codes
+        if unknown:
+            issues.append(f"{program}: exclusions not in official catalog: {', '.join(sorted(unknown))}")
+        excluded[program] = declared & official_codes
     for entry in catalogs["optional"]["candidates"]:
         if entry["institution"] == "McGill":
             expected["mcgill"].add(entry["code"])
@@ -193,9 +215,13 @@ def course_material_progress_issues(progress: dict, catalogs: dict[str, dict],
             expected["berklee"].add(entry["code"])
     for program, codes in expected.items():
         rows = tracked.get(program, {})
-        missing = codes - set(rows)
+        tracked_codes = set(rows)
+        missing = codes - excluded[program] - tracked_codes
         if missing:
-            issues.append(f"{program}: {len(missing)} catalog courses not in material tracker")
+            issues.append(f"{program}: in-scope codes missing from material tracker: {', '.join(sorted(missing))}")
+        reintroduced = excluded[program] & tracked_codes
+        if reintroduced:
+            issues.append(f"{program}: excluded codes in material tracker: {', '.join(sorted(reintroduced))}")
         for code, record in rows.items():
             status = record.get("status") if isinstance(record, dict) else None
             if status not in ("catalog_only", "partially_documented",

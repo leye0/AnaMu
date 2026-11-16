@@ -49,3 +49,5 @@
 | **Total** | **386** | **203** | **175** | **8** |
 
 Il reste **378 cours identifiables**, huit familles musicales, et 25 candidats musicaux concrets hors registre. Les **exports complets des cursus officiels restent intacts** (leurs exclusions de recherche sont signalées), car les diplômes réels continuent d'imposer certaines matières générales. Ne pas réintroduire celles-ci dans la recherche musicale.
+
+Le contrôle documentaire vérifie les cursus complets séparément du registre musical. Seuls les codes listés dans `music_scope_filter.excluded_codes` des [données UdeM](data/udem-composition-a26.json) et [Berklee](data/berklee-composition-2026f.json) sont retranchés du périmètre attendu dans le registre. Un code non exclu qui manque, un code exclu réintroduit dans le registre ou une exclusion absente du catalogue restent des erreurs.

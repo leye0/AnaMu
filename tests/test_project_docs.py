@@ -17,7 +17,7 @@ from scripts.validate_project_docs import (
 
 
 class DocumentationLinkTests(unittest.TestCase):
-    def test_course_tracker_covers_all_named_courses_and_links_material(self):
+    def _course_tracker_and_catalogs(self):
         root = Path(__file__).resolve().parents[1]
         sources = {
             "udem": "udem-composition-a26.json",
@@ -29,11 +29,53 @@ class DocumentationLinkTests(unittest.TestCase):
                     for key, filename in sources.items()}
         progress = json.loads((root / "docs/data/course-material-progress.json")
                               .read_text(encoding="utf-8"))
+        return root, progress, catalogs
+
+    def test_course_tracker_covers_musical_catalog_codes_and_links_material(self):
+        root, progress, catalogs = self._course_tracker_and_catalogs()
         self.assertEqual(course_material_progress_issues(progress, catalogs, root), [])
-        self.assertGreaterEqual(sum(len(rows) for rows in progress["courses"].values()), 402)
+        self.assertIn("HAR 1200", {row["code"] for row in catalogs["udem"]["courses"]})
+        self.assertNotIn("HAR 1200", progress["courses"]["udem"])
+        self.assertIn("LMSC-xxx", {code for group in catalogs["berklee"]["groups"]
+                                  for row in group["requirements"] for code in row.get("codes", [])})
+        self.assertNotIn("LMSC-xxx", progress["courses"]["berklee"])
+
+    def test_course_tracker_and_assessments_cover_same_active_codes(self):
+        root, progress, _ = self._course_tracker_and_catalogs()
+        assessed = json.loads((root / "docs/data/course-algorithmic-assessments.json")
+                              .read_text(encoding="utf-8"))["assessments"]
+        self.assertCountEqual([(row["institution"], row["code"]) for row in assessed],
+                              [(program, code) for program, rows in progress["courses"].items()
+                               for code in rows])
+
+    def test_course_tracker_rejects_missing_in_scope_codes_even_near_exclusions(self):
+        root, progress, catalogs = self._course_tracker_and_catalogs()
         progress["courses"]["udem"].pop("MCT 1601")
-        self.assertTrue(any("udem" in issue for issue in
-                            course_material_progress_issues(progress, catalogs, root)))
+        catalogs["optional"]["candidates"].append({"institution": "Berklee", "code": "LMSC-307"})
+        progress["courses"]["berklee"].pop("LMSC-307", None)
+        issues = course_material_progress_issues(progress, catalogs, root)
+        self.assertIn("udem: in-scope codes missing from material tracker: MCT 1601", issues)
+        self.assertIn("berklee: in-scope codes missing from material tracker: LMSC-307", issues)
+
+    def test_course_tracker_rejects_excluded_codes_reintroduced_into_the_queue(self):
+        root, progress, catalogs = self._course_tracker_and_catalogs()
+        progress["courses"]["berklee"]["LMSC-xxx"] = {"status": "catalog_only"}
+        self.assertIn("berklee: excluded codes in material tracker: LMSC-xxx",
+                      course_material_progress_issues(progress, catalogs, root))
+
+    def test_course_tracker_rejects_unknown_or_duplicate_exclusion_codes(self):
+        root, progress, catalogs = self._course_tracker_and_catalogs()
+        catalogs["udem"]["music_scope_filter"]["excluded_codes"].extend(["HAR 1200", "UNKNOWN"])
+        issues = course_material_progress_issues(progress, catalogs, root)
+        self.assertIn("udem: duplicate musical research exclusions", issues)
+        self.assertIn("udem: exclusions not in official catalog: UNKNOWN", issues)
+
+    def test_course_tracker_does_not_apply_a_filter_with_invalid_policy(self):
+        root, progress, catalogs = self._course_tracker_and_catalogs()
+        catalogs["udem"]["music_scope_filter"]["research_only"] = False
+        issues = course_material_progress_issues(progress, catalogs, root)
+        self.assertIn("udem: invalid musical research scope filter", issues)
+        self.assertTrue(any("missing from material tracker: HAR 1200" in issue for issue in issues))
 
     def test_only_course_collection_is_active_and_old_campaign_docs_are_absent(self):
         root = Path(__file__).resolve().parents[1]

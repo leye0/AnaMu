@@ -229,7 +229,7 @@ de son syllabus ; A13–A15 demeurent ouverts.
 ### Collecte des liens — 10 novembre 2026
 
 - **Orchestration et ensembles à McGill** — [MUCO 360](courses/mcgill/MUCO-360.md) dispose d’un sujet d’orchestration et de traces d’une section 2020. Huit options d’ensemble disposent de programmes de concert ou de consignes d’audition. Les pistes vers MUCO 261 et MUCO 460 et les exemples de classement supérieur en théorie restent au statut catalogue.
-- **Sciences et sciences sociales à Berklee** — les fiches [LMSC-xxx](courses/berklee/LMSC-xxx.md) et [LSOC-xxx](courses/berklee/LSOC-xxx.md) pointent vers des plans en douze leçons, avec les conditions d’équivalence du registraire. Elles suivent des familles qui restent ouvertes.
+- **Sciences et sciences sociales à Berklee** — `LMSC-xxx` et `LSOC-xxx` restent dans la grille officielle, mais ces familles génériques sont hors du registre musical. Le [filtre de pertinence](music-only-scope.md) distingue ces exclusions des cours précis à contenu musical, qui restent admissibles à la recherche.
 
 - **UdeM** — quatre cours obligatoires avec exercices d’exemption spécifiques en harmonie et contrepoint. Deux cours optionnels d’analyse ont une piste de classement générale, encore au statut catalogue.
 - **McGill** — sept cours préparatoires avec des objectifs d’exemption historiques. Chercher les sources des sections actuelles et poursuivre par les cours obligatoires de composition.
