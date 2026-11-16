@@ -1,5 +1,7 @@
 # AnaMu — état opérationnel de référence (11 novembre 2026)
 
+**SYNCHRONISATION À DEUX REPÈRES.** [FILM-205](courses/berklee/FILM-205.md#caler-deux-coupes-sans-confondre-tempo-et-niveau) applique l’atelier MUCO-360 à deux coupes fictives. Une accélération compensée rétablit les deux bornes mais avance un repère intermédiaire de dix images. Le calcul et l’écoute du mix restent deux vérifications distinctes.
+
 **ENTRER ALORS QUE LA PREMIÈRE NOTE EST PARTIE.** [MUS-2328](courses/udem/MUS-2328.md#la-note-est-déjà-partie) ajoute 104 s d’écoute et un MIDI marqué sur quatre réactions à une alerte, dont trois à phase tardive identique. Le témoin oppose dévoilement de la note, saut vers l’attaque suivante et attente du prochain tour. Les notes de la base restent identiques. La [synthèse](knowledge-base.md#choisir-selon-la-contrainte-musicale) précise quand délai et conservation de l’incipit deviennent incompatibles. Aucun moteur interactif n’a été modifié ou exécuté.
 
 **RECOUPER LA MONTÉE DANS PLUSIEURS PRISES.** [CM-231](courses/berklee/CM-231.md#deux-interprétations-deux-profils-de-montée) retrouve le resserrement de la battue de Grieg chez Musopen et Van Otterloo, mais pas le même profil de niveau. [OCWPR-366](courses/berklee-online/OCWPR-366.md#pulsation-stable-dans-une-prise-resserrée-dans-une-autre) oppose la hausse de niveau sans raccourcissement systématique dans le transfert Lamoureux à la battue qui se resserre dans le transfert attribué à Fricsay. Les fenêtres et méthodes sont explicites. Aucun niveau en dBFS n’est attribué à la performance seule.
