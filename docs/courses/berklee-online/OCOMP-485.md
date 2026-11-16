@@ -119,7 +119,7 @@ Liens de recherche, sans identité de syllabus : [CM-312 Boston](../berklee/CM-3
 
 ## La cloche réapparaît sans avoir disparu
 
-**Ancrage.** La leçon 5 d’OCOMP-485 atteste la stratification des textures. La récurrence par processus de la leçon 6 fournit le contraste, non une attribution stylistique. *Le Gibet* de Ravel est un comparateur AnaMu, pas un exemple nommé dans ces leçons. [Partition Durand 1909, p. imprimées 17–20](https://renewohlhauser.com/files/1441_ravel_gaspard_de_la_nuit_nr_2_le_gibet.pdf#page=3) · [Histoire et notice de la première édition](https://www.themorgan.org/music-manuscripts-and-printed-music/71100).
+**Ancrage.** La leçon 5 d’OCOMP-485 atteste la stratification des textures. La récurrence par processus de la leçon 6 fournit le contraste, non une attribution stylistique. *Le Gibet* de Ravel est un comparateur AnaMu, pas un exemple nommé dans ces leçons. [Partition Durand 1909, p. imprimées 17–20](https://renewohlhauser.com/files/1441_ravel_gaspard_de_la_nuit_nr_2_le_gibet.pdf#page=3) · [Notice et scans de la première édition](https://imslp.org/wiki/Gaspard_de_la_nuit_%28Ravel%2C_Maurice%29).
 
 | Fenêtre | Événements écrits | Ce que le retour ne veut pas dire |
 |---|---|---|
