@@ -294,6 +294,16 @@ de son syllabus ; A13–A15 demeurent ouverts.
 
 Ce tri conduit à **21 questions étayées, aucune partielle ni au statut « À monter »** dans cet échantillon. Il ne justifie pas un pourcentage de maîtrise du projet. Les lacunes de preuve de cours restent gérées séparément, et l'ordre ci-dessus ne requiert pas de rouvrir les 22 recherches de syllabus bloquées.
 
+### Prolongement — reprendre plus fort, plus vite ou autrement
+
+Ces dossiers s’ajoutent à l’échantillon ci-dessus sans changer ses 21 lignes ni les cases du TODO. La [synthèse pour les choix de création](knowledge-base.md#choisir-selon-la-contrainte-musicale) s’appuie sur eux sans remplacer les procédures d’analyse des fiches.
+
+| Repères | Question précise | Preuves localisées et limite |
+|---|---|---|
+| F03, F05–07, G05, G13 | L’élan augmente-t-il parce que la battue se resserre ou parce que la texture change ? | [Grieg](courses/berklee/CM-231.md#grieg--le-crescendo-et-laccélération-sont-deux-consignes) donne une consigne conjointe et une mesure sur une prise. Dans [*Boléro*](courses/berklee-online/OCWPR-366.md#ravel--le-thème-change-de-porteur-avant-de-grossir), les durées des segments comparables restent voisines pendant l’épaississement. Les repères de segments ne reconstruisent pas la courbe de chaque battue. |
+| F01, F04, G06, G13 | Le même rythme répété a-t-il toujours le même porteur ? | [*Mars*](courses/berklee/CM-320.md#holst--garder-le-moteur-en-changeant-qui-le-joue) garde les positions de la cellule dans la section en 5/4 alors que le pupitre qui la porte change au retour. Les figures du repère XII en gardent une parenté sans répéter le cycle entier. |
+| F09, G13–14, I03 | À niveau global comparable, le retour laisse-t-il la même place au thème et permet-il les mêmes entrées ? | [Atelier MUCO-360](courses/mcgill/MUCO-360.md#grandir-sans-courir) pour les événements et [MUS-3322X](courses/udem/MUS-3322X.md#égaliser-le-total-sans-régler-la-place-du-thème) pour les deux mesures de niveau. La [phase de boucle](courses/udem/MUS-2328.md#intensifier-sans-remettre-la-boucle-à-zéro) est une application manuelle. Il manque une écoute indépendante et une captation interactive pour juger la réaction en situation réelle. |
+
 ## Phases suivantes — exigences pédagogiques à documenter après la collecte
 
 Les sections B–J ci-dessous sont un **cadre provisoire de compétences à
