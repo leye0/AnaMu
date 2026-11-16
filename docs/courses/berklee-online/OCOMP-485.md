@@ -146,6 +146,8 @@ Liens de recherche, sans identité de syllabus : [CM-312 Boston](../berklee/CM-3
 
 [Écouter « Trois mesures ou quatre »](OCOMP-485/trois-mesures-ou-quatre.mp3) · [Télécharger le MIDI](https://raw.githubusercontent.com/leye0/AnaMu/main/docs/courses/berklee-online/OCOMP-485/trois-mesures-ou-quatre.mid)
 
+**Rendu révisé.** La timbale est au premier plan. La clarinette garde les mêmes départs et durées, mais elle joue plus bas dans le mix et quatre hauteurs par bloc ont été ajustées pour supprimer ses frottements de demi-ton avec l’accompagnement. Les attaques de timbale et leurs horaires n’ont pas changé.
+
 **Comparateur original.** En quatre blocs de 21 s, les mesures de 3/4 durent toutes **1 s**. Une même phrase commence par quatre mesures d’établissement, réserve m. 5–16 au contraste et retrouve la même arrivée à m. 17. Piano, cordes et clarinette sont strictement les mêmes dans les quatre blocs. Le grave conserve ses hauteurs, durées et départs. Ses vélocités ne changent que dans D. Les timbales ont la même hauteur, durée et vélocité à chaque signal de la fenêtre.
 
 | Bloc / fenêtre | Mesures des frappes dans la fenêtre | Ce qui varie |
