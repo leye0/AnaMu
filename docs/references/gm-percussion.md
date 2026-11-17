@@ -170,3 +170,18 @@ En complément des dix grooves déjà documentés, le [manifeste des onze essais
 
 **Deux mises en garde :** la note de percussion GM75 utilisée comme clic de pratique dans un exercice est **Claves en GM1**, et **non le Metronome Click GM2 (note 33)**. Une suite de cinq coups 3+2 ou 2+3 avec GM76 ne certifie **aucune clave culturelle**; l'analyse des traditions réclame de véritables sources musicales et une performance attestée. [Lina S. Tabak, 2026](https://www.mtosmt.org/issues/mto.26.32.2/mto.26.32.2.tabak.php) éclaire cette séparation de la culture et d'une simple géométrie de coups.
 
+
+
+## Les numéros GM ne contiennent ni doigtés, ni effectif, ni extinction acoustique
+
+Le [corpus comparatif de quatorze études de percussion et de gestes](../data/percussion-performance-gesture-studies-2026-11-17.json) donne des **MIDI réellement inspectables** avec des situations contrôlées : deux notes sur une **même main annotée**, deux pédales sur un **même pied annoté**, flams approximés par **deux Note On**, doigtés **RLRL/RRLL**, trio de surfaces simultanées, affectation à un ou deux joueurs, passages de station et contrôleur CC64 de vibraphone. Les **14 études ont 1 270 Note On**; les trois lots documentaires récents de groove/rythme/pratique comprennent **35 études / 3 944 frappes**, distinctes des quatre fichiers GM1/GM2 de référence.
+
+| Distinction | Valeurs MIDI exactes | Ce qui manque |
+|---|---|---|
+| **Canal percussion, note et membre humain** | GM38 caisse, GM42 charleston, GM36 kick, GM44 pedal hat, sur **canal 10 humain** | Une main ou un pied **n'est pas normalisé par un nom de piste MIDI**. |
+| **Sons de triangle** | GM80 **Mute Triangle**, GM81 **Open Triangle** | Geste d'étouffement, durée acoustique et personne qui tient le triangle. |
+| **Vibraphone chromatique** | **PC11 affiché programme 12** sur canal **mélodique 1**, contrôleur **CC64** pour sustain | Pedal réel, demi-pédale, amortissement d'une lame par mailloche, couplage mécanique et samples. |
+| **Durée MIDI / durée acoustique** | Note Off de caisse à **45 ou 380 ticks** après Note On, sans changement des attaques | Un sample one-shot peut ignorer ces durées; la queue audible est **inconnue**. |
+| **Décalage dans un beat** | Caisse **+16 ticks**, kick **+16 ticks**, ou tout le kit **+16 ticks** | Centre perceptif de l'attaque (**P-center**) et sens du groove; pas d'écoute à ce stade. |
+
+**Références externes non curriculaires :** [PAS International Drum Rudiments](https://pas.org/rudiments/), [PAS Part Assignment and Setup](https://pas.org/publication-articles/systematic-part-assignment-and-setup-of-the-percussion-section/), [Yamaha Vibraphone Pedagogy](https://hub.yamaha.com/music-educators/instruments/perc/vibraphone-pedagogy/), [ISFEE Percussion Scoring](https://timbreandorchestration.org/isfee/extreme-orchestration/percussion/scoring), et [Danielsen et al., P-center de sons composites, 2026](https://doi.org/10.1111/nyas.70306). Leur rôle est d'**éviter les inférences trompeuses**, pas de transformer une banque GM en performance mesurée.
