@@ -40,3 +40,62 @@ Le **paradiddle** est usuellement une alternance de coups **R L R R / L R L L**,
 **Création et analyse.** Faire trois interprétations sur les mêmes temps : (1) simples coups accentués; (2) strokes avec indication de main sur partition; (3) flam écrit comme geste et représenté **approximativement** par deux dates de note-on. Les fonctions analytiques doivent conserver **niveau perceptif**, **geste noté** et **événements MIDI** comme trois objets. Ne pas prétendre qu'un déclenchement GM de double-stroke reproduit un rebond naturel.
 
 **Applicabilité :** MIDI_DIRECT pour attaques, dynamique numérique, offsets et durée de mesure; MIDI_PROXY pour accent perçu, geste, roulement ou identité d'interprète; AUDIO_REQUIRED pour son et cohésion du groove; CONTEXT_REQUIRED pour notation, main, coordination et style. [Comparer CM-343](../berklee/CM-343.md), [CM-320](../berklee/CM-320.md) et [la carte GM1/GM2](../../references/gm-percussion.md). Aucun exemple repris d'un disque commercial ou d'une partition protégée.
+
+## Dix témoins techniques en percussion — les cinq attachés à OPERC-160 (17 novembre 2026)
+
+**Cadre du vrai cours.** Le [syllabus de Yoron Israel](https://online.berklee.edu/courses/drum-set-performance-101#syllabus) atteste *Table of Time and Ghost Notes* (leçon 3), *Single Stroke Roll* (4), *Double Stroke Open Roll* (5), *Half-Time Shuffle* (7), les métriques composées (8), *Jazz Shuffle* (10) et *Swinging* (11). Il propose **coordination physique et lectures en performances**, pas seulement programmation de séquenceurs. Les cinq fichiers originaux ci-dessous ont été **fabriqués par AnaMu** pour analyser des variables, **non extraits des leçons, des reprises ni du cours payant**. Ils sont audités **sans écoute**. Les cinq autres études connexes se trouvent dans [OMPRD-386](OMPRD-386.md#quantification-groove-fills-et-interaction-de-la-section-rythmique--cinq-midi-originaux-17-novembre-2026).
+
+### Témoin OP-1 — ghost notes : augmenter la densité sans déplacer le backbeat
+
+[MIDI original A/B, 8 mesures](./OPERC-160/ghost-notes-ab.mid) — **100 BPM, quatre mesures A + quatre mesures B**, canal GM1 10 (zéro-indexé 9), **112 note-on** : **48** en A, **64** en B. Les deux blocs conservent **exactement** les mêmes frappes de grosse caisse (GM36), les mêmes croches de charleston (GM42), et les mêmes caisses claires **accentuées** (GM38 aux temps 2 et 4). Le bloc B ajoute **16** frappes de GM38 à vélocités **26–34**, quatre par mesure, contre **105–106** pour les backbeats. Le fait que le nombre de notes passe de 48 à 64 **ne déplace pas la grille** ni les accents principaux.
+
+**Analyse :** il faut compter **les événements de caisse claire par classe de vélocité**, pas simplement la densité brute de percussion. L'[article de Eric C. Hughes à la Percussive Arts Society, *Ghost Note Funk* (2022)](https://pas.org/pas-blog/groove-of-the-month-ghost-note-funk/) distingue précisément les notes légères des coups accentués sur 2/4. La publication de PAS est un **comparateur externe** et ses propres figures **ne sont pas transcrites** dans le MIDI. Les ghost notes peuvent être produites à des intensités très diverses : vélocité 26 ne garantit ni un dB, ni un bruit réaliste de caisse, ni un équilibre musical correct sur le kit choisi.
+
+**Réemploi :** écrire une partie de deux mesures sans ghost notes; ajouter une voix de caisse légère dans une seconde version tout en gelant gros temps, haut de cymbale, métrique et tempo. Exiger une **vérification d'écart relatif** de dynamique, puis seulement plus tard une validation auditive/physique. Les gestes de rebond et les mains d'un batteur restent **CONTEXT_REQUIRED**.
+
+### Témoin OP-2 — ouverture et fermeture du charleston : attaque et pédale ne sont pas synonymes
+
+[MIDI original A/B, 8 mesures](./OPERC-160/hihat-ouvert-pedale-ab.mid) — **110 BPM**, 96 attaques : **48** dans chacun des deux blocs, avec **kick et snare identiques** aux mêmes dates et vélocités. A emploie GM42 *Closed Hi-Hat* aux croches; B remplace **trois attaques** au « et » de 4 par GM46 *Open Hi-Hat*, puis **trois attaques suivantes** sur le premier temps par GM44 *Pedal Hi-Hat*. Il n'y a pas de nouvelle attaque ajoutée par cette substitution : les **dates et le nombre de frappes** de la charleston restent les mêmes.
+
+La [carte GM1](../../references/gm-percussion.md) contient exactement les labels **42/44/46**. Le [MIDI Field Guide](https://midi.community/docs/general-midi/) décrit un groupe d'exclusion de ces notes par lequel une attaque fermée/à la pédale peut **couper l'échantillon ouvert** dans un lecteur GM. C'est une **convention de restitution**, pas une preuve de **mouvement de pied** enregistré ni d'un *choke* acoustique universel. Le [cours Zildjian sur la technique de pied](https://ae.zildjian.com/education/beginner-drum-set-lessons/zildjian-drum-set-method-lesson-08/) concerne un **vrai batteur** et ne doit pas être fondu avec une cartographie de samples.
+
+**Analyse :** distinguer l'**attaque d'une sonorité ouverte**, le **message de fermeture**, la **fin de note MIDI**, et la **fin acoustique éventuellement audible**. Si le sample de charleston conserve sa queue malgré GM44, l'enseignement rythmique « ouverture puis fermeture suivante » reste un **objectif de score**, pas un effet validé dans cette SoundFont. Le dernier segment de B se referme à l'intérieur des huit mesures; il n'exige pas d'ajouter une neuvième mesure pour prouver la fermeture.
+
+### Témoin OP-3 — trois rapports de croches, sans imposer un « ratio de swing correct »
+
+[MIDI original, 12 mesures en trois sections](./OPERC-160/swing-croches-trois-rapports.mid) : **144 notes** au total, 48 par section de quatre mesures, **120 BPM** et signature **4/4** constantes. Grosse caisse 36 sur 1/3 et caisse 38 sur 2/4 restent **inchangées**. Le ride GM51 marque deux attaques par noire; les couples d'intervalles **en ticks** sont :
+
+| Modèle original | Intervalle long | Court | Rapport long/court |
+|---|---:|---:|---:|
+| A, deux croches égales | **240** | **240** | **1:1** |
+| B, deux tiers / un tiers | **320** | **160** | **2:1** |
+| C, trois cinquièmes / deux cinquièmes | **288** | **192** | **3:2** |
+
+Le rapport calculé est celui de **deux inter-onsets au sein d'un temps de 480 ticks**, pas la durée des samples. Il ne décrit ni la variabilité d'une prestation ni les frappes fantômes. **Deux recherches académiques indépendantes** empêchent de sacraliser 2:1 : [Friberg et Sundström, *Music Perception* 19(3), 2002](https://online.ucpress.edu/mp/article-abstract/19/3/333/61900/Swing-Ratios-and-Ensemble-Timing-in-Jazz), et [*Microtiming Deviations and Swing Feel in Jazz*, *Scientific Reports*, 2019](https://www.nature.com/articles/s41598-019-55981-3). Ces recherches portent sur des performances et la **perception**, pas sur des devoirs OPERC-160. Elles montrent notamment que les relations temporelles varient avec le tempo, l'interprète et le contexte. Ici les **trois rapports sont des variables contrôlées**, non une transcription du jazz.
+
+**Réemploi :** garder vitesse, phrase, basse et backbeat invariants; varier **seulement** le second coup du ride dans chaque paire de croches. Une impression swing, shuffle ou « laid-back » ne s'obtient pas mécaniquement du nombre 320 : elle exige phrasé, musique entière et une preuve à l'écoute.
+
+### Témoin OP-4 — paradiddle : la main droite et la gauche ont une identité, mais GM ne la préserve pas seul
+
+[MIDI original, 8 mesures](./OPERC-160/paradiddle-orchestration-mains.mid) : **108 BPM, 144 notes**, réparties sur **quatre pistes** (métadonnées, **main droite**, **main gauche**, **pied de grosse caisse**). Les trois pistes de frappe partagent volontairement le **canal GM de percussion**, avec GM42 pour la main droite, GM38 pour la gauche et GM36 pour le pied. Chaque section de quatre mesures compte **72 notes**, dont **64 coups de mains** (16 doubles-croches par mesure) et huit coups de grosse caisse. Les deux réalisations partagent **les mêmes instants de mains** et **les mêmes appuis temporels**, mais leur affectation diffère :
+
+| Section | Doigté de main par groupe de huit doubles-croches | Résultat documentaire |
+|---|---|---|
+| A | **R L R L R L R L** | Alternance stricte, accent aux indices 4/12; aux temps 2 et 4, c'est la **main droite sur charleston** qui reçoit l'accent. |
+| B | **R L R R L R L L** | Paradiddle classique; aux indices 4/12, c'est la **main gauche sur caisse claire** qui reçoit l'accent, donnant des backbeats nominaux de caisse. |
+
+L'[étude de Rick Mattingly à la Percussive Arts Society, *Paradiddle Grooves* (2020)](https://pas.org/pas-blog/hot-licks-throwback-paradiddle-grooves/) démontre comment le **doigté** peut être redistribué entre charleston, caisse claire, pied et accents; ses **partitions et enregistrements ne sont pas reproduits** ici. **Point de méthode important :** les noms de pistes « main droite / main gauche » constituent une **annotation expérimentale originale**, pas un champ standard GM garantissant les mains. Une DAW qui fusionne les pistes sur le canal 10 peut **perdre l'attribution du geste** tout en conservant toutes les notes.
+
+**Créer :** décider d'abord la **répartition main–surface**, puis distinguer la contrainte de sticking du résultat de timbre. Ne pas traiter les deux sections comme « strictement identiques sauf la technique » : la **surface frappée et le placement de la caisse forte** changent en conséquence de la répartition, tandis que la **grille globale de 16 frappes** reste identique.
+
+### Témoin OP-5 — déplacer le backbeat sans changer de tempo ni ajouter de notes
+
+[MIDI original A/B de huit mesures](./OPERC-160/deplacement-backbeat-ab.mid) — **112 BPM, 96 notes on**, 48 par bloc; grosses caisses aux **temps 1 et 3** et croches de charleston GM42 **strictement identiques** en A/B. La caisse GM38 joue deux coups par mesure : A sur **2 et 4** (ticks locaux 480 et 1440); B sur **1 et 3** (0 et 960). **La métrique reste 4/4**, le tempo et le nombre de frappes ne changent pas. Le contraste est celui de **l'emplacement des appuis** de caisse claire, pas un quadruplement de la densité.
+
+[Zachary Cairns, *Switching the Backbeat*, *Music Theory Online* 28(1), 2022](https://mtosmt.org/issues/mto.22.28.1/mto.22.28.1.cairns.html) étudie **des repositionnements de backbeat comme phénomènes métriques** dans un corpus rock. Son article n'est pas le support universitaire OPERC-160. Notre témoin n'est **pas** un extrait d'un morceau cité. Il n'autorise pas à affirmer qu'un auditeur entendra nécessairement un renversement de mesure : la basse, les autres instruments et la mémoire des quatre mesures initiales peuvent soutenir plusieurs lectures. Il est également **différent** d'une modulation métrique, car aucune valeur de temps n'a changé.
+
+### Protocole d'audit commun et verdict
+
+**Audit effectué sur les octets réellement publiés dans GitHub :** les cinq fichiers sont Standard MIDI File type 1 à **480 ticks/noire**, contiennent un reset **GM1 On**, des marqueurs de variantes, des notes on **toutes appariées** à des fins de notes, aucune piste non terminée, et les données d'instrument prévues. Les dénombrements **112 / 96 / 144 / 144 / 96** sont tirés de cette lecture, pas des impressions d'écoute.
+
+**Les cinq critères à ne pas fusionner :** (1) date de note-on, (2) rôle du coup dans l'appui, (3) vélocité, (4) identité de surface/membre, (5) durée acoustique perçue. Le MIDI vérifie principalement les trois premiers, parfois la surface nominale. Il **ne valide pas** le réglage des rebonds du batteur, les contraintes d'une vraie pédale, la qualité d'écoute ou l'authenticité du répertoire. Ces études sont des **protocoles originaux appliqués à de véritables thèmes de cours**, sans promotion du registre d'enseignement. Classification : **MIDI_DIRECT / MIDI_PROXY / CONTEXT_REQUIRED / AUDIO_REQUIRED** selon l'objet.

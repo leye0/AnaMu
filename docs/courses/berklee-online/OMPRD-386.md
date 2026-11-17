@@ -42,3 +42,69 @@ Le livre *Producing Drum Beats: Writing and Mixing Killer Drum Grooves* (Erik Ha
 **Vérifier le caractère GM.** Une banque General MIDI permet de représenter le kick (36), le snare (38), les charlestons (42/44/46), toms (41–50), cymbales et accessoires. Le [référentiel technique GM](../../references/gm-percussion.md) précise que ce ne sont pas 47 instrumentistes et qu'**un canal mélodique de basse** ne se lit pas dans la map de batterie. Les fichiers pédagogiques d'AnaMu sont **des preuves de commandes MIDI et de structure écrite**, pas de réalisme sonore ou de réussite de mix.
 
 **Applicabilité :** MIDI_DIRECT pour date/velocité/canal/tempo/structure représentée; MIDI_PROXY pour groove entendu, coordination, fill et rôle; AUDIO_REQUIRED pour timbre/mix/sample attack/relation auditive basse-batterie; CONTEXT_REQUIRED pour style, DAW, instrumentistes, notation et rôle formel. [Cours de technique instrumentale OPERC-160](OPERC-160.md), [complexité rythmique CM-320](../berklee/CM-320.md) et [écriture CM-343](../berklee/CM-343.md). Aucun mixage, moteur ou modèle de groove prétendument calibré.
+
+## Quantification, groove, fills et interaction de la section rythmique — cinq MIDI originaux (17 novembre 2026)
+
+**Ce que le syllabus officiel établit vraiment :** la [page OMPRD-386, auteur Erik Hawkins](https://online.berklee.edu/courses/programming-and-producing-drum-beats#syllabus) annonce **l'enregistrement MIDI et la quantification** (leçon 2), l'anatomie du drum kit (3), les percussions (5), les boucles (7), **groove quantize** (8), l'interaction de la section rythmique (10), les **fills et la structure de chanson** (11), puis le **mixage** (12). Aucune de ces leçons ne prescrit les fichiers ci-dessous : ce sont **cinq témoins originaux d'AnaMu**, créés sans reprise d'un hit commercial. **Le rendu audio ni la qualité stylistique ne sont vérifiés ici.**
+
+### Témoin PR-1 — même nombre de notes, quatre variables différentes
+
+[MIDI original de 16 mesures en quatre blocs de quatre](./OMPRD-386/quantization-groove-quatre-variables.mid). **192 notes sur canal GM1 10**, soit **48 par variante**, 120 BPM, PPQ 480, 4/4 constant; kick GM36 (1 et 3), snare GM38 (2 et 4), charleston GM42 (8 croches par mesure).
+
+| Bloc | Changement réellement encodé | Invariants démontrés par les événements |
+|---|---|---|
+| A — grille stricte | Coups de charleston espacés de 240 ticks, sans décalage | Référence des dates et vélocités. |
+| B — dynamique seulement | **Vélocités de la charleston** alternées sur temps/contretemps | Les **dates, nombres et identités** de notes restent égales à A. |
+| C — microtiming de charleston | Seules les croches de charleston **en contretemps** sont retardées de **24 ticks** (25 ms à 120 BPM) | Kick et snare restent **au tick près** les mêmes qu'en A; les autres croches de charleston restent stables. |
+| D — microtiming de caisse claire | Snare sur 2 et 4 retardée de **14 ticks** (environ 14,58 ms à 120 BPM) | Kick et charleston sont inchangés par rapport à A; pas de changement de vélocité ou de tempo. |
+
+**L'[étude *Mapping timing and intensity strategies in drum-kit performance*, *Journal of New Music Research* (2022)](https://doi.org/10.1080/09298215.2022.2150649) est une référence académique externe**, sur des performances et l'évolution des coups selon le ressenti. Elle ne donne ni les **24/14 ticks** choisis ici ni un bon décalage universel. Dans un vrai enregistrement, la latence des échantillons, l'attaque du son et l'ensemble des autres instrumentistes peuvent changer l'impression. **Ne pas baptiser automatiquement C « swing » ni D « laid-back »** : ce sont des candidats de contrôle temporel, pas des jugements déjà obtenus à l'écoute.
+
+**Procédure :** extraire les **grilles par instrument**, comparer dates et vélocités séparément, conserver des hypothèses de retard/avance plutôt que quantifier d'emblée. Une vraie groove quantize peut aussi déplacer des parties selon un **gabarit d'exécution enregistré**, qui n'est **pas présent** dans ces fichiers. La forme audio produite par DAW demeure inconnue.
+
+### Témoin PR-2 — une arrivée fixe, trois préparations différentes
+
+[MIDI original, 24 mesures](./OMPRD-386/fills-meme-arrivee-trois-versions.mid) : trois blocs de **huit mesures** à **104 BPM** avec mêmes grosse caisse, caisse et charleston en accompagnement. Les blocs contiennent **97 / 100 / 97 notes on** respectivement, soit **294 au total**. A ne place **aucun fill** en mesure 4. B réorchestre la **seconde moitié** de cette mesure avec des toms et une caisse à densité plus élevée. C écrit une succession de **12 frappes** jusqu'au tick local **7 080**, puis un **silence d'événements MIDI** avant l'attaque de la mesure 5 au tick local **7 680**. L'extinction de la dernière note du fill de C est encodée au tick local **7 124**, donnant un repos de **556 ticks sans note active** avant l'arrivée (un peu moins de **0,67 s** à 104 BPM).
+
+**Contrôle capital :** **les mesures 5 à 8 sont exactement identiques dans les trois blocs** (49 notes après l'arrivée, mêmes dates relatives, hauteurs et vélocités). Elles commencent toutes par la **même crash GM49 et le même coup de grosse caisse GM36**. Seule la **préparation avant la frontière** change : ce n'est pas un « meilleur fill » garanti, ni une métrique nouvelle. Le cas C introduit **un vrai espace d'événements**; la réverbération d'un sample peut néanmoins continuer et le rendre **non silencieux acoustiquement**.
+
+**Analyser / composer.** Relever **densité par segment**, moments d'arrivée, silence structurel avant la phrase, déplacements entre toms, et possibilités humaines réelles. Garder arrivée et harmonie constantes pour discuter la **fonction formelle** du fill, non son nombre de coups seul. La [leçon 11 du syllabus OMPRD-386](https://online.berklee.edu/courses/programming-and-producing-drum-beats#syllabus) prouve l'étude des fills dans la structure, mais **pas ces trois arrangements spécifiques**.
+
+### Témoin PR-3 — linéarité versus superposition : même calendrier, nombre de coups différent
+
+[MIDI original A/B, huit mesures](./OMPRD-386/lineaire-versus-superpose.mid), 120 BPM. Dans chacune des quatre mesures de A, huit coups de charleston se superposent à **deux grosses caisses** et **deux caisses claires**, soit **12 événements par mesure**, **48 par bloc**. B attribue **exactement une frappe** à chaque position de croche, huit par mesure (**32 par bloc**), en **remplaçant** les coups de charleston aux temps de kick et de snare. Les deux blocs ont **32 instants distincts** chacun en quatre mesures, et conservent la **même grille de dates d'attaque**.
+
+**Ce qui est préservé :** les huit positions d'attaque possibles par mesure, la mesure, la période, la dynamique nominative des accents principaux. **Ce qui change :** nombre d'événements simultanés, densité de timbre en chaque instant et mise à contribution des membres. Il serait faux de conclure qu'A et B ont le **même nombre de coups**, et tout aussi faux de prétendre que B contient une **véritable superposition de deux parties** simplement parce que sa succession suggère plusieurs timbres. Le caractère **linéaire** de B est vérifié par l'absence de doubles attaques dans la même partie MIDI, non par la perception certaine d'un groupe.
+
+### Témoin PR-4 — grosse caisse identique, basse syncopée : un décalage n'est pas une erreur de quantification
+
+[MIDI original, douze mesures](./OMPRD-386/basse-kick-alignement-anticipation-retard.mid), 120 BPM. Trois blocs de **quatre mesures**, chacun **56 notes**, total **168 attaques**, dont **144 GM percussion canal 10** et **24 notes d'une basse mélodique** sur canal 1, **Program Change 33** (programme affiché GM1 **34 — Electric Bass (finger)**). Les événements de batterie **restent parfaitement identiques** dans les trois blocs, et le motif de hauteur de la basse reste identique. Le premier coup de basse de chaque mesure est toujours au temps 1; seule la seconde note se décale relativement au **kick du temps 3** :
+
+| Bloc | Kick au temps 3 | Deuxième attaque de basse | Différence absolue à 120 BPM |
+|---|---:|---:|---|
+| A — attaque commune | tick local **960** | **960** | **0 ms** |
+| B — anticipation | **960** | **840** | **–125 ms** |
+| C — retard | **960** | **1020** | **+62,5 ms** |
+
+**Interprétation disciplinée.** Les 125/62,5 ms sont des **valeurs de montage intentionnelles**, **pas** les écarts mesurés chez des musiciens ou un timing à imiter universellement. Un contexte de phrasé, les attaques des échantillons de basse, le style, et les notes longues peuvent rendre l'une des versions plus ou moins intelligible. L'activité de la **section rythmique** est inscrite au syllabus (leçon 10); la banque GM prouve uniquement que les deux parties **ont des programmes et canaux distincts**, pas qu'elles « verrouillent » ensemble le groove à l'écoute.
+
+**Réinvestissement :** commencer par de vraies parties distinctes de basse et de batterie, comparer coïncidences, anticipation, retard et note tenue. Ne **jamais** traiter la note basse MIDI 36 comme une grosse caisse simplement parce qu'elle partage le nombre 36 avec GM Drum 36 : les **canaux et programmes diffèrent**.
+
+### Témoin PR-5 — changer la percussion sans changer les attaques ni la dynamique numérique
+
+[MIDI original, 16 mesures](./OMPRD-386/percussion-timbres-grille-invariante.mid) : **quatre variantes de quatre mesures**, **48 notes chacune**, soit **192** attaques sur canal 10 à 100 BPM. Grosse caisse GM36 et caisse GM38 **strictement identiques** sur les quatre variantes; huit attaques égales du plan de percussion par mesure, et **mêmes vélocités et instants** dans toutes les variantes. Seule **l'identité nominale du son** qui marque la subdivision est remplacée :
+
+| Bloc | Son de subdivision (GM1) | Ce que cela modifie |
+|---|---|---|
+| A | **42 Closed Hi-Hat** | Surface de cymbale, attaque plutôt brève dans les banques typiques. |
+| B | **70 Maracas** | Source normalement secouée, résonance et phrasé différents; en MIDI, une **substitution de sample**. |
+| C | **75 Claves** | Timbre de bois à attaques sèches, identité différente sans nouveau motif. |
+| D | **76 Hi Wood Block** | Autre timbre de bois, autre éventuel spectre. |
+
+Ceci **ne représente pas** quatre grooves issus de traditions différentes. Un jeu de maracas de **huit déclenchements fixes par mesure** est un prototype de maquette, pas une preuve de **mouvement de secouement réaliste** ni d'authenticité stylistique. De même, remplacer une charleston par des claves peut demander une **nouvelle organisation des mains et des instruments** si l'on veut l'écrire pour des personnes. La norme GM définit le **nom** du déclencheur, mais pas son enveloppe ni son mixage. [Référence GM1](../../references/gm-percussion.md).
+
+### Ce que les cinq fichiers prouvent et n'évaluent pas
+
+**Relecture technique post-publication :** les cinq fichiers contiennent **192 / 294 / 80 / 168 / 192 notes**, respectivement, soit **926 attaques** en tout sur **deux ou trois pistes** selon l'exercice. Toutes les notes ont un note-off apparié; les changements de sections sont marqués dans la piste méta et toutes les études utilisent PPQ **480**. Les critères de comparaison ont été confrontés **sur les octets GitHub eux-mêmes**, notamment identités de kick/snare, rapports temporels, notes de basses et arrival de quatre mesures.
+
+**Niveau de preuve :** la comparabilité des **dates** est MIDI_DIRECT; la fonction de groove et les timbres voulus sont **MIDI_PROXY**; la performance des coups et les styles sont **CONTEXT_REQUIRED**; l'acoustique, le mixage, l'impression de swing et le groove sont **AUDIO_REQUIRED**. Les cinq dossiers sont **du savoir de composition/production contextualisé**, non une banque de sons validée, une simulation humaine ni un moteur automatique.
