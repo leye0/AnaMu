@@ -214,6 +214,10 @@ La base peut donc répondre avec une **hypothèse locale**, les **contraintes pr
 
 L’analyse fournit ici les positions, les parties et les alternatives plausibles. La création choisit une réalisation, écarte les variantes incompatibles et fait écouter le reste. Ne pas déduire un appui entendu d’une vélocité ni une intention de direction d’un pic d’amplitude isolé.
 
+**Cas de décision — préciser l’horloge qui doit survivre.** Une mesure de trois temps de 500 ms dure 1,50 s. Si on veut quatre temps **dans le même espace**, la nouvelle noire vaut 375 ms. Si on veut **garder le pas de 500 ms** avec quatre temps, la nouvelle mesure dure 2,00 s. À nombre de temps modifié, on ne peut pas garder simultanément la même battue (avec la même unité comptée) et la même durée de mesure. Si l’exigence porte plutôt sur **la plus petite subdivision**, relever le nombre de subdivisions par temps de part et d’autre, comme chez [Carter](courses/berklee-online/OCOMP-485.md#une-subdivision-prépare-la-nouvelle-battue). L’égalité de petite durée ne garantit pas l’égalité de battue ou de mesure. Les mots « le même tempo » ne lèvent aucune de ces ambiguïtés si l’unité n’est pas précisée.
+
+Dans [le témoin CM-320](courses/berklee/CM-320.md#quatre-temps-deux-horloges), une fin commune revient après 6 s de contraste, soit quatre mesures de 1,50 s ou trois de 2,00 s. Cela ne garde ni les mêmes coupes intermédiaires ni le prochain repère disponible à la réception d’une alerte. Prendre [les images 180 et 204](courses/berklee/FILM-205.md#la-battue-ou-la-barre-sur-la-coupe) pour l’opposition barre/temps, et [les délais de MUS-2328](courses/udem/MUS-2328.md#choisir-quel-prochain-repère-attendre) pour le contre-cas où une grille plus rapide fait attendre plus longtemps. Il reste à juger si le changement est perceptible et si la couche de signal convient au mix.
+
 C’est un **contrat documentaire** pour les échanges futurs, pas un schéma de données, une API ou une mise en production. Cette passe ne lève aucune porte L01–L05 et n’ajoute ni moteur ni générateur.
 
 ## 6. Source de vérité et prochaine construction
