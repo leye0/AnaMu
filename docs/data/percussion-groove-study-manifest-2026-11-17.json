@@ -1,0 +1,331 @@
+{
+  "title": "AnaMu — dix comparaisons de percussion et groove à variables contrôlées",
+  "created": "2026-11-17",
+  "method": "Standard MIDI File relu directement depuis les blobs publiés sur GitHub; vérification de notes on/off, méta-marqueurs, sections, contrôles de dates et affectations par canal/piste. Aucune analyse audio.",
+  "relation_to_academic_courses": "deux vrais cours Berklee Online publiés (OPERC-160, OMPRD-386), dossier de comparaison hors 378 cours du registre; les MIDI sont des créations AnaMu, pas des devoirs des universités.",
+  "sources": [
+    "https://online.berklee.edu/courses/drum-set-performance-101#syllabus",
+    "https://online.berklee.edu/courses/programming-and-producing-drum-beats#syllabus",
+    "https://pas.org/pas-blog/groove-of-the-month-ghost-note-funk/",
+    "https://pas.org/pas-blog/hot-licks-throwback-paradiddle-grooves/",
+    "https://mtosmt.org/issues/mto.22.28.1/mto.22.28.1.cairns.html",
+    "https://online.ucpress.edu/mp/article-abstract/19/3/333/61900/Swing-Ratios-and-Ensemble-Timing-in-Jazz",
+    "https://doi.org/10.1080/09298215.2022.2150649"
+  ],
+  "total_files": 10,
+  "total_note_on_events": 1518,
+  "drum_channel_zero_based": 9,
+  "melodic_bass_comparison": {
+    "id": "kick-bass-phase",
+    "channel_zero_based": 0,
+    "program_change_wire": 33,
+    "program_display": 34,
+    "program_name": "Electric Bass (finger)"
+  },
+  "caveats": [
+    "La validité des octets MIDI n'établit pas la qualité musicale, l'authenticité culturelle ni la bonne sonorité d'une banque.",
+    "Les valeurs choisies de vélocité et de microtiming sont des variables de comparaison originales, pas des seuils musicaux universels.",
+    "Les noms de pistes droite/gauche/pied sont des annotations de recherche; les fichiers MIDI les conservent comme texte mais non comme geste humain certifié.",
+    "Les sons de charleston 42/44/46 expriment des intentions nominales; leur extinction effective varie selon le synthétiseur.",
+    "Le nombre d'événements et le nombre d'instants distincts doivent être calculés séparément; une note note-off ne marque pas nécessairement la fin acoustique."
+  ],
+  "studies": [
+    {
+      "id": "ghost-ab",
+      "course_file": "docs/courses/berklee-online/OPERC-160.md",
+      "midi_path": "docs/courses/berklee-online/OPERC-160/ghost-notes-ab.mid",
+      "github_blob_sha": "e8b7e4e44f1a5077a636b226f53dd7376696178d",
+      "standard": "GM1",
+      "smf_format": 1,
+      "ppq": 480,
+      "bpm": 100,
+      "time_signature": "4/4",
+      "bar_count": 8,
+      "track_count": 2,
+      "section_note_on_counts": [
+        48,
+        64
+      ],
+      "note_on_total": 112,
+      "controlled_change": "ajout de seize caisses claires de faible vélocité",
+      "invariant_verified": "grosse caisse, charleston et backbeats forts identiques",
+      "audio_listened": false,
+      "acoustic_realism_verified": false,
+      "human_performability_verified": false,
+      "evidence_classes": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED"
+      ]
+    },
+    {
+      "id": "hihat-ab",
+      "course_file": "docs/courses/berklee-online/OPERC-160.md",
+      "midi_path": "docs/courses/berklee-online/OPERC-160/hihat-ouvert-pedale-ab.mid",
+      "github_blob_sha": "1dbbc48e8fa6c3e70e088d969b36cebb6f31cd09",
+      "standard": "GM1",
+      "smf_format": 1,
+      "ppq": 480,
+      "bpm": 110,
+      "time_signature": "4/4",
+      "bar_count": 8,
+      "track_count": 2,
+      "section_note_on_counts": [
+        48,
+        48
+      ],
+      "note_on_total": 96,
+      "controlled_change": "trois 42 remplacés par 46, trois 42 par 44",
+      "invariant_verified": "mêmes positions de chapeau; kicks et snares identiques",
+      "audio_listened": false,
+      "acoustic_realism_verified": false,
+      "human_performability_verified": false,
+      "evidence_classes": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED"
+      ]
+    },
+    {
+      "id": "timing-factorial",
+      "course_file": "docs/courses/berklee-online/OMPRD-386.md",
+      "midi_path": "docs/courses/berklee-online/OMPRD-386/quantization-groove-quatre-variables.mid",
+      "github_blob_sha": "2ac876c592f2f32d02d883c4fdd84f34d80c5881",
+      "standard": "GM1",
+      "smf_format": 1,
+      "ppq": 480,
+      "bpm": 120,
+      "time_signature": "4/4",
+      "bar_count": 16,
+      "track_count": 2,
+      "section_note_on_counts": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "note_on_total": 192,
+      "controlled_change": "A dates strictes, B vélocités seules, C chapeau +24 ticks, D caisse +14 ticks",
+      "invariant_verified": "quatre blocs de 48 notes; dates et autres instruments gelés selon le contrôle",
+      "audio_listened": false,
+      "acoustic_realism_verified": false,
+      "human_performability_verified": false,
+      "evidence_classes": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED"
+      ]
+    },
+    {
+      "id": "swing-ratios",
+      "course_file": "docs/courses/berklee-online/OPERC-160.md",
+      "midi_path": "docs/courses/berklee-online/OPERC-160/swing-croches-trois-rapports.mid",
+      "github_blob_sha": "b4bd47ad05cbdd1ad0bb96725c674274349c4479",
+      "standard": "GM1",
+      "smf_format": 1,
+      "ppq": 480,
+      "bpm": 120,
+      "time_signature": "4/4",
+      "bar_count": 12,
+      "track_count": 2,
+      "section_note_on_counts": [
+        48,
+        48,
+        48
+      ],
+      "note_on_total": 144,
+      "controlled_change": "trois rapports de croches: 240:240, 320:160, 288:192",
+      "invariant_verified": "kick et backbeat identiques; 48 notes par bloc",
+      "audio_listened": false,
+      "acoustic_realism_verified": false,
+      "human_performability_verified": false,
+      "evidence_classes": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED"
+      ]
+    },
+    {
+      "id": "fill-arrival",
+      "course_file": "docs/courses/berklee-online/OMPRD-386.md",
+      "midi_path": "docs/courses/berklee-online/OMPRD-386/fills-meme-arrivee-trois-versions.mid",
+      "github_blob_sha": "fb408642f0afca9f83b9c31eb30147421af5e20d",
+      "standard": "GM1",
+      "smf_format": 1,
+      "ppq": 480,
+      "bpm": 104,
+      "time_signature": "4/4",
+      "bar_count": 24,
+      "track_count": 2,
+      "section_note_on_counts": [
+        97,
+        100,
+        97
+      ],
+      "note_on_total": 294,
+      "controlled_change": "aucun fill, fill sur deux temps, fill long et silence écrit",
+      "invariant_verified": "mesures 5–8 identiques (49 notes par bloc), crash et kick au même point d'arrivée",
+      "audio_listened": false,
+      "acoustic_realism_verified": false,
+      "human_performability_verified": false,
+      "evidence_classes": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED"
+      ]
+    },
+    {
+      "id": "linear-layered",
+      "course_file": "docs/courses/berklee-online/OMPRD-386.md",
+      "midi_path": "docs/courses/berklee-online/OMPRD-386/lineaire-versus-superpose.mid",
+      "github_blob_sha": "8d3a234d7c8a82ff72c6aa952f64ac731a05379c",
+      "standard": "GM1",
+      "smf_format": 1,
+      "ppq": 480,
+      "bpm": 120,
+      "time_signature": "4/4",
+      "bar_count": 8,
+      "track_count": 2,
+      "section_note_on_counts": [
+        48,
+        32
+      ],
+      "note_on_total": 80,
+      "controlled_change": "superposition de plusieurs frappes contre coups répartis linéairement",
+      "invariant_verified": "32 instants distincts par bloc, mêmes dates d'attaque",
+      "audio_listened": false,
+      "acoustic_realism_verified": false,
+      "human_performability_verified": false,
+      "evidence_classes": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED"
+      ]
+    },
+    {
+      "id": "paradiddle-sticking",
+      "course_file": "docs/courses/berklee-online/OPERC-160.md",
+      "midi_path": "docs/courses/berklee-online/OPERC-160/paradiddle-orchestration-mains.mid",
+      "github_blob_sha": "9a670290ee58aed50f85f5be7c2e3206b93396ba",
+      "standard": "GM1",
+      "smf_format": 1,
+      "ppq": 480,
+      "bpm": 108,
+      "time_signature": "4/4",
+      "bar_count": 8,
+      "track_count": 4,
+      "section_note_on_counts": [
+        72,
+        72
+      ],
+      "note_on_total": 144,
+      "controlled_change": "alternance RLRL et doigté RLRR-LRLL, par piste droite/gauche/pied",
+      "invariant_verified": "mêmes 16 subdivisions par mesure et même grosse caisse; 72 notes par bloc",
+      "audio_listened": false,
+      "acoustic_realism_verified": false,
+      "human_performability_verified": false,
+      "evidence_classes": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED"
+      ]
+    },
+    {
+      "id": "kick-bass-phase",
+      "course_file": "docs/courses/berklee-online/OMPRD-386.md",
+      "midi_path": "docs/courses/berklee-online/OMPRD-386/basse-kick-alignement-anticipation-retard.mid",
+      "github_blob_sha": "374e0efeff1b6571dd17320e49117cee98abc97d",
+      "standard": "GM1",
+      "smf_format": 1,
+      "ppq": 480,
+      "bpm": 120,
+      "time_signature": "4/4",
+      "bar_count": 12,
+      "track_count": 3,
+      "section_note_on_counts": [
+        56,
+        56,
+        56
+      ],
+      "note_on_total": 168,
+      "controlled_change": "deuxième note de basse: temps 3 / –120 ticks / +60 ticks",
+      "invariant_verified": "toute la batterie identique, mêmes notes de basse; PC=33 canal 0 mélodique",
+      "audio_listened": false,
+      "acoustic_realism_verified": false,
+      "human_performability_verified": false,
+      "evidence_classes": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED"
+      ]
+    },
+    {
+      "id": "backbeat-switch",
+      "course_file": "docs/courses/berklee-online/OPERC-160.md",
+      "midi_path": "docs/courses/berklee-online/OPERC-160/deplacement-backbeat-ab.mid",
+      "github_blob_sha": "2deef33c48226c17993760c72f6a7eb5e7356460",
+      "standard": "GM1",
+      "smf_format": 1,
+      "ppq": 480,
+      "bpm": 112,
+      "time_signature": "4/4",
+      "bar_count": 8,
+      "track_count": 2,
+      "section_note_on_counts": [
+        48,
+        48
+      ],
+      "note_on_total": 96,
+      "controlled_change": "snare 2 et 4 contre 1 et 3, positions locales 480/1440 contre 0/960",
+      "invariant_verified": "kick et chapeau, tempo et nombre de notes identiques",
+      "audio_listened": false,
+      "acoustic_realism_verified": false,
+      "human_performability_verified": false,
+      "evidence_classes": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED"
+      ]
+    },
+    {
+      "id": "timbre-swap",
+      "course_file": "docs/courses/berklee-online/OMPRD-386.md",
+      "midi_path": "docs/courses/berklee-online/OMPRD-386/percussion-timbres-grille-invariante.mid",
+      "github_blob_sha": "d024809ad01f7d99fa6ed5c21eac6f5267c9785e",
+      "standard": "GM1",
+      "smf_format": 1,
+      "ppq": 480,
+      "bpm": 100,
+      "time_signature": "4/4",
+      "bar_count": 16,
+      "track_count": 2,
+      "section_note_on_counts": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "note_on_total": 192,
+      "controlled_change": "substitution du plan de croches GM 42 puis 70, 75, 76",
+      "invariant_verified": "kicks, snares, dates, nombre et vélocités identiques",
+      "audio_listened": false,
+      "acoustic_realism_verified": false,
+      "human_performability_verified": false,
+      "evidence_classes": [
+        "MIDI_DIRECT",
+        "MIDI_PROXY",
+        "CONTEXT_REQUIRED",
+        "AUDIO_REQUIRED"
+      ]
+    }
+  ]
+}
