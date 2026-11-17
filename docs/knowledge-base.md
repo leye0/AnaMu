@@ -218,6 +218,8 @@ L’analyse fournit ici les positions, les parties et les alternatives plausible
 
 Dans [le témoin CM-320](courses/berklee/CM-320.md#quatre-temps-deux-horloges), une fin commune revient après 6 s de contraste, soit quatre mesures de 1,50 s ou trois de 2,00 s. Cela ne garde ni les mêmes coupes intermédiaires ni le prochain repère disponible à la réception d’une alerte. Prendre [les images 180 et 204](courses/berklee/FILM-205.md#la-battue-ou-la-barre-sur-la-coupe) pour l’opposition barre/temps, et [les délais de MUS-2328](courses/udem/MUS-2328.md#choisir-quel-prochain-repère-attendre) pour le contre-cas où une grille plus rapide fait attendre plus longtemps. Il reste à juger si le changement est perceptible et si la couche de signal convient au mix.
 
+**Cas limite, aucune horloge unique imposée.** Dans [*The Unanswered Question* et *Central Park in the Dark*](courses/berklee-online/OCOMP-485.md#deux-couches-sans-une-seule-barre-commune--ives), Ives conserve le temps des cordes tout en laissant un autre ensemble accélérer, avec des jonctions finales spécifiées par l’ordre ou le signal plutôt que par une superposition exacte de barres. Une réduction en mesures simultanées trahirait cette instruction. La future connaissance commune doit donc représenter aussi « ce repère peut varier dans cet intervalle » ou « cette entrée attend la fin de telle couche ». Une carte MIDI unique n’exprime qu’une des réalisations possibles, pas la prescription complète.
+
 C’est un **contrat documentaire** pour les échanges futurs, pas un schéma de données, une API ou une mise en production. Cette passe ne lève aucune porte L01–L05 et n’ajoute ni moteur ni générateur.
 
 ## 6. Source de vérité et prochaine construction
