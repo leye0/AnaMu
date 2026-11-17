@@ -19,7 +19,9 @@
     "Une composition 7/8 peut conserver ses sept dates et changer les groupements accentuels sans changer le mètre.",
     "Le retour exact du backbeat initial est identifiable sur événements MIDI; l'évolution perceptive de tension/détente ne l'est pas.",
     "Le clic de pratique peut devenir rare ou absent alors que la batterie continue; absence de clic de guidage n'atteste pas une pulsation intérieure fiable.",
-    "Les cinq accents 3+2 et 2+3 ne sont pas une transcription d'une clave de tradition donnée; ce sont des formes originales."
+    "Les cinq accents 3+2 et 2+3 ne sont pas une transcription d'une clave de tradition donnée; ce sont des formes originales.",
+    "9/8, 5/4 : la signature peut demeurer exactement la même alors que les accents changent, sans modifier le nombre ni les instants des notes.",
+    "Un cycle de trois noires superposé à des barres 4/4 produit des accents de frontière commune tous les douze temps, sans prouver une polymétrie ressentie."
   ],
   "files": [
     {
@@ -195,10 +197,75 @@
       "listening_performed": false,
       "perceptual_metre_validated": false,
       "performance_proven": false
+    },
+    {
+      "id": "nine-eight-accents",
+      "course_path": "docs/courses/berklee-online/OCMUS-105.md",
+      "midi_path": "docs/courses/berklee-online/OCMUS-105/neuf-huit-trois-hierarchies.mid",
+      "github_blob_sha": "bffaa01474b79184620353e7d4b6d1e96718fa30",
+      "gm": "GM1",
+      "midi_format": 1,
+      "ppq": 480,
+      "tempo_quarter_bpm": 120,
+      "bars": 12,
+      "note_on_total": 108,
+      "note_on_per_section": [
+        36,
+        36,
+        36
+      ],
+      "controlled_changes": "9/8 3+3+3, 2+2+2+3, 3+2+2+2; note-on grid unchanged",
+      "verified_invariants": "Read directly from published GitHub MIDI; note-ons and note-offs balanced, time signatures and bar-wise comparisons checked",
+      "listening_performed": false,
+      "perceptual_metre_validated": false,
+      "performance_proven": false
+    },
+    {
+      "id": "five-four-accents",
+      "course_path": "docs/courses/berklee-online/OPERC-160.md",
+      "midi_path": "docs/courses/berklee-online/OPERC-160/cinq-quatre-deux-hierarchies-et-neutre.mid",
+      "github_blob_sha": "aeb07ba50dea003cdafd598b97386ee9b99831dd",
+      "gm": "GM1",
+      "midi_format": 1,
+      "ppq": 480,
+      "tempo_quarter_bpm": 120,
+      "bars": 12,
+      "note_on_total": 60,
+      "note_on_per_section": [
+        20,
+        20,
+        20
+      ],
+      "controlled_changes": "5/4 groups 3+2, 2+3 and all equal; five quarter notes per measure",
+      "verified_invariants": "Read directly from published GitHub MIDI; note-ons and note-offs balanced, time signatures and bar-wise comparisons checked",
+      "listening_performed": false,
+      "perceptual_metre_validated": false,
+      "performance_proven": false
+    },
+    {
+      "id": "four-vs-three-bar-cycle",
+      "course_path": "docs/courses/berklee-online/OCMUS-105.md",
+      "midi_path": "docs/courses/berklee-online/OCMUS-105/quatre-quarts-contre-cycle-trois-temps.mid",
+      "github_blob_sha": "e46bb45374694d076a10cee0f20dba5e5fe0022d",
+      "gm": "GM1",
+      "midi_format": 1,
+      "ppq": 480,
+      "tempo_quarter_bpm": 120,
+      "bars": 12,
+      "note_on_total": 68,
+      "note_on_per_section": [
+        30,
+        38
+      ],
+      "controlled_changes": "4/4 bar accent every four quarters, new three-quarter cycle in second section; coincidence every twelve quarters; polymetric hearing not certified",
+      "verified_invariants": "Read directly from published GitHub MIDI; note-ons and note-offs balanced, time signatures and bar-wise comparisons checked",
+      "listening_performed": false,
+      "perceptual_metre_validated": false,
+      "performance_proven": false
     }
   ],
-  "total_files": 8,
-  "total_note_ons": 920,
+  "total_files": 11,
+  "total_note_ons": 1156,
   "scope_limits": {
     "no_new_engine": true,
     "no_test_suite_changes": true,
