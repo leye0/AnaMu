@@ -220,6 +220,8 @@ Dans [le témoin CM-320](courses/berklee/CM-320.md#quatre-temps-deux-horloges), 
 
 **Cas limite, aucune horloge unique imposée.** Dans [*The Unanswered Question* et *Central Park in the Dark*](courses/berklee-online/OCOMP-485.md#deux-couches-sans-une-seule-barre-commune--ives), Ives conserve le temps des cordes tout en laissant un autre ensemble accélérer, avec des jonctions finales spécifiées par l’ordre ou le signal plutôt que par une superposition exacte de barres. Une réduction en mesures simultanées trahirait cette instruction. La future connaissance commune doit donc représenter aussi « ce repère peut varier dans cet intervalle » ou « cette entrée attend la fin de telle couche ». Une carte MIDI unique n’exprime qu’une des réalisations possibles, pas la prescription complète.
 
+**Asynchronie ne signifie pas harmonie abandonnée.** Dans le [Quatuor de Lutosławski, CP-350](courses/berklee/CP-350.md#des-voix-libres-mais-une-harmonie-contrôlée--lutosławski), des attaques indépendantes coexistent avec un ensemble de cellules, d'intervalles et de transitions volontairement contrôlé. Les rencontres verticales varient, mais ne sont pas des choix illimités. Une connaissance AnaMu doit pouvoir distinguer **matériau obligatoire**, **décalage admissible**, **ensemble des rencontres permises** et **signal de fin**. Le MIDI chronométré d’une prise donne une trajectoire à analyser, pas toutes les trajectoires prescrites.
+
 **Cas de liaison — qu’est-ce qui traverse le seuil ?** Dans [Mendelssohn op. 64](courses/berklee/CM-497.md#un-basson-empêche-le-silence-sans-annoncer-le-nouveau-thème), la note tenue de basson entre I et II conserve une présence sonore, tandis que le mouvement suivant met quelques mesures à s’installer. Le même concerto ouvre III par une préparation de violon et cordes, avant le tempo vif. Comparer avec [Mozart K. 457](courses/berklee-online/OLART-234.md#une-attaque-peut-finir-une-phrase-et-en-lancer-une-autre), où une **attaque** résout une phrase et lance la transition, et [Beethoven V](courses/berklee/CM-231.md#préparer-le-finale-sans-retarder-le-changement-de-mouvement), où une **pulsation** et plusieurs pupitres préparent longuement l’arrivée. Trois continuités réelles, trois invariants distincts. Une tenue entre mouvements ne suffit pas à parler d’élision, et un point d’orgue ne fournit pas une durée absolue pour le montage.
 
 **La continuité n’est pas toujours le but.** Dans [Mahler I, III → IV](courses/berklee/CM-497.md#attacca-sans-liaison-sonore--mahler-symphonie-no-1), le dernier mouvement doit suivre immédiatement le précédent mais débute par un choc délibéré, après l’extinction de la marche funèbre. Le même conducteur demande une vraie pause entre II et III. Une entrée `attacca` ne commande donc ni une note-pont ni une texture fusionnée. Pour une scène, noter séparément « pas de pause de représentation », « pas de silence acoustique » et « même motif à la jointure ». Ces trois demandes peuvent conduire à des écritures différentes.
@@ -236,9 +238,14 @@ C’est un **contrat documentaire** pour les échanges futurs, pas un schéma de
 - [course-material-collection.md](course-material-collection.md) : comment
   obtenir et attester la matière de chaque cours, **maintenant**.
 
-**Prochaine tâche active :** obtenir un contenu pédagogique précis pour
-**chaque cours**, en notant les chapitres, lectures, exercices, exemples et
-lacunes avec leurs sources. Le futur registre versionné suivra ensuite la
-chaîne `programme → cours → chapitre/objectif → concept académique unifié →
-capacité MIDI analysable → preuve` ; il ne doit pas être rempli au hasard
-à partir des seuls intitulés du catalogue.
+**Prochaine tâche active, état du 17 novembre 2026 :** approfondir les
+apprentissages réellement attestés dans les fiches de cours, par
+recoupement de partitions, prises et sources spécialisées. Les **378 cours
+identifiables** du registre ont reçu une première évaluation, mais pas
+une certification de leur syllabus complet; les **8 familles de choix**
+restent non dépliées et **115 cartes thématiques** demeurent partielles.
+Les **22 recherches publiques clôturées faute de matière** ne sont pas
+relancées sans preuve nouvelle. La chaîne future
+`programme → cours → apprentissage attesté → concept commun →
+capacité d'analyse → preuve` reste une architecture documentaire, sans
+création de moteur ni levée des portes L01–L05.
