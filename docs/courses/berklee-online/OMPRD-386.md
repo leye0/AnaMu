@@ -108,3 +108,38 @@ Ceci **ne représente pas** quatre grooves issus de traditions différentes. Un 
 **Relecture technique post-publication :** les cinq fichiers contiennent **192 / 294 / 80 / 168 / 192 notes**, respectivement, soit **926 attaques** en tout sur **deux ou trois pistes** selon l'exercice. Toutes les notes ont un note-off apparié; les changements de sections sont marqués dans la piste méta et toutes les études utilisent PPQ **480**. Les critères de comparaison ont été confrontés **sur les octets GitHub eux-mêmes**, notamment identités de kick/snare, rapports temporels, notes de basses et arrival de quatre mesures.
 
 **Niveau de preuve :** la comparabilité des **dates** est MIDI_DIRECT; la fonction de groove et les timbres voulus sont **MIDI_PROXY**; la performance des coups et les styles sont **CONTEXT_REQUIRED**; l'acoustique, le mixage, l'impression de swing et le groove sont **AUDIO_REQUIRED**. Les cinq dossiers sont **du savoir de composition/production contextualisé**, non une banque de sons validée, une simulation humaine ni un moteur automatique.
+
+
+## Dissonance de déplacement, timeline sur deux mesures et retour — 17 novembre 2026
+
+**Sources et attribution.** Le [cours réel *Programming and Producing Drum Beats*, Erik Hawkins](https://online.berklee.edu/courses/programming-and-producing-drum-beats#syllabus) aborde la quantification, **le groove et groove quantize (leçon 8)**, **l'interaction dans la section rythmique (10)** et **la forme et les fills (11)**. Les deux créations AnaMu ci-dessous sont **des exercices de composition contrôlée**, jamais des transcriptions du manuel, des grooves culturels ou des évaluations de Berklee. Le contexte scientifique de [Nicole Biamonte, *Formal Functions of Metric Dissonance in Rock Music*, 2014](https://mtosmt.org/issues/mto.14.20.2/mto.14.20.2.biamonte.html) permet de distinguer **décalage d'un groupe** et **changement de groupe**, mais son analyse d'œuvres réelles n'est **pas** transférée mécaniquement à ce jeu MIDI.
+
+### P-6 — retarder la caisse claire, puis revenir exactement au point de départ
+
+[MIDI original, 16 mesures en quatre sections](./OMPRD-386/backbeat-deplacement-tension-retour.mid). 120 BPM, PPQ 480, 4/4 stable, **48 notes par section** et **192 en tout**. La grosse caisse GM36 (temps 1 et 3) et la charleston GM42 (croches) sont **strictement identiques** dans les quatre blocs, avec les mêmes vélocités. Seule la date des caisses GM38 est modifiée :
+
+| Section | Positions de caisse locale à chaque mesure, ticks | Variante métrique voulue |
+|---|---|---|
+| A | **480, 1 440** | Backbeat sur 2 et 4 |
+| B | **720, 1 680** | Caisse **+240 ticks**, sur les « et » suivant 2 et 4 |
+| C | **600, 1 560** | Caisse **+120 ticks**, double-croche après 2 et 4 |
+| D | **480, 1 440** | **Retour exact** à la section A |
+
+Le retour **A = D a été vérifié sur les événements MIDI** (mêmes dates locales, pitches et vélocités), comme la stabilité du kick et de la charleston. Ces chiffres ne suffisent **pas** pour dire « B est tendu », « C groove mieux », ni « D est une résolution audible » : on a conçu une **hypothèse de tension et de retour**, pas mesuré son impact sur un auditeur. Par ailleurs **le mètre noté demeure 4/4**; une dissonance de placement n'est pas une modulation métrique.
+
+**Analyse réutilisable.** Trouver d'abord une assise de subdivision autonome, puis les déplacements d'une couche qui porte habituellement un appui. Évaluer **l'amplitude et la répétition** du décalage, **la persistance des autres voix** et **le retour** à un ancien motif. Un drum fill peut résoudre ce décalage à une frontière de phrase, mais cette hypothèse demande une vraie étude de forme et d'écoute, pas un juge purement fondé sur les ticks.
+
+### P-7 — cinq coups par deux mesures : 3+2 ou 2+3 ne nomme pas un genre
+
+[MIDI original, 16 mesures en deux grandes variantes](./OMPRD-386/cinq-accents-3-2-vers-2-3-sans-style.mid). Une ligne GM42 déroule toujours **huit croches par mesure** pendant seize mesures, au tempo **116 BPM**, 4/4. Une seconde ligne GM76 (woodblock aigu) frappe **cinq fois sur chaque phrase de deux mesures**. Les huit premières mesures répètent une phrase **trois coups dans la première mesure, deux dans la deuxième**; les huit dernières inversent le rapport vers **deux puis trois**. Dans les deux blocs de huit mesures, **84 notes on**, soit **168 au total**; les 64 attaques de charleston par bloc sont **strictement identiques**.
+
+| Variante, ticks relatifs à une phrase de deux mesures (3 840 ticks) | Première mesure | Deuxième mesure |
+|---|---|---|
+| A, trois puis deux | **0, 720, 1 440** | **480, 1 200** (ticks absolus de phrase **2 400, 3 120**) |
+| B, deux puis trois | **0, 960** | **0, 720, 1 440** (ticks absolus de phrase **1 920, 2 640, 3 360**) |
+
+**Ne pas appeler ces lignes « la clave traditionnelle 3-2 » ou « 2-3 ».** On ne possède ni la relation aux repères de la danse, ni la clave précise et les accentuations authentifiées, ni un corpus de performance. Le protocole illustre seulement **la direction d'une phrase à cinq événements** et les tensions possibles entre repères sur deux mesures. Le nom GM76 n'établit **ni technique, ni origine culturelle**. Une séquence cinq notes sur deux mesures peut aussi être un simple motif personnel. Pour l'orchestrateur, vérifier **l'emplacement du début de phrase**, sa répétition, le sens du passage vers la deuxième mesure et l'interaction avec la basse/les accords.
+
+**Nuance théorique.** Le déplacement d'appuis sur un cycle régulier ne peut être correctement qualifié qu'en distinguant niveau de mètre, rythme de surface, groupements et **interprétation perceptive**. [Biamonte, 2014](https://mtosmt.org/issues/mto.14.20.2/mto.14.20.2.biamonte.html) justifie de garder distinctes les **dissonances de déplacement** et **de regroupement**. [Tabak, 2026](https://www.mtosmt.org/issues/mto.26.32.2/mto.26.32.2.tabak.php) rappelle en outre que les représentations métriques peuvent dépendre de l'enculturation, notamment pour les musiques du Pacifique colombien. Ces sources ne doivent **pas** servir à inventer un accompagnement de currulao depuis un simple GM76.
+
+**Verdict de cette deuxième passe sur OMPRD-386 :** **deux fichiers, 360 notes on** (192 + 168), aucun nouveau code de production, aucun audio écouté ni performance instrumentale. La distinction tempo / grille / accent / phase / fonction formelle se lit dans la description; la preuve directe concerne **les octets MIDI**, et l'évaluation esthétique reste **AUDIO_REQUIRED**. [Inventaire complet](../../data/percussion-compound-meter-studies-2026-11-17.json).

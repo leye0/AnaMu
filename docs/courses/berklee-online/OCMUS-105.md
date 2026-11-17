@@ -67,3 +67,66 @@ En 7/8, les cellules d'accent **3+2+2**, **2+3+2** et **2+2+3** conservent la m�
 **Deux contrepoints supplémentaires.** Les [trois rapports de croches 1:1, 2:1, 3:2](OPERC-160/swing-croches-trois-rapports.mid) changent les **intervalles de subdivision**, pas le tempo ou le mètre. Le [déplacement de backbeat 2/4 vers 1/3](OPERC-160/deplacement-backbeat-ab.mid) change la **répartition des accents**, pas le nombre de temps ou la durée de mesure. Tous deux sont réalisés dans [OPERC-160, dossier comparatif indépendant](OPERC-160.md); ces transformations fournissent des supports de réflexion sur battue/notée/ressentie, **pas un examen réel d'OCMUS-105**.
 
 **Limites :** aucun de ces témoins n'a été auditionné avec un métronome par une personne; l'intériorisation de la pulsation, la coordination et la correction d'une dictée restent **AUDIO_REQUIRED / CONTEXT_REQUIRED**. Dates, onsets et coïncidences sont **MIDI_DIRECT**; relief métrique est **MIDI_PROXY**.
+
+
+## Mètres composés, trois contre deux et pulsation sans clic — huit témoins de la deuxième passe (17 novembre 2026)
+
+**Preuve du syllabus et frontière.** Le [plan public officiel de *Time and Rhythm 1*, Matt Sharrock](https://online.berklee.edu/courses/time-and-rhythm-1#syllabus) distingue **les pulsations duelles/triples/quadruples et le mètre simple/composé (leçons 1–2)**, les **hémioles 2:3, 3:2, 3:4 et 4:3 (leçon 3)**, la syncope (4), les **mètres 5/7/9 (5)**, la notation du composé (8), les **clics décalés ou espacés du métronome (8–9)** et les changements de mesure (12). Ce sont des **apprentissages réellement annoncés**, mais aucun des **cinq MIDI ci-dessous n'est un exercice fourni par le Boston Conservatory** : les modèles sont **entièrement nouveaux dans AnaMu**. Chaque contrôle a été refait sur les **octets publiés sur GitHub**, sans écouter ni pratiquer.
+
+### Contrôle C-1 — mêmes six croches, deux organisations du temps : 6/8 / 3/4
+
+[Témoin MIDI original, 8 mesures](./OCMUS-105/six-croches-6-8-vers-3-4.mid) · [Registre d'audit](../../data/percussion-compound-meter-studies-2026-11-17.json).
+
+**Fait musical construit :** 4 mesures de **6/8**, puis 4 de **3/4**, chacune contenant **six croches** de woodblock/claves GM75 à **0, 240, 480, 720, 960, 1 200 ticks** locaux; **24 événements par section, 48 en tout**. Dans la section 6/8, la vélocité de **0 et 720** est accentuée, donnant **3+3**; dans la section 3/4, ce sont les positions **0, 480, 960**, soit **2+2+2**. Une **vraie Time Signature meta-event** passe de 6/8 à 3/4 au tick **5 760**. Les six instants, la carte GM et le tempo de noire **120 BPM** restent parfaitement égaux, mais **le niveau de battue proposé ne l'est pas** : en lecture classique, le 6/8 suggère deux noires pointées (80/min ici) et le 3/4 suggère trois noires (120/min). Il serait trompeur de dire que le **métronome musical perçu** ne change pas simplement parce que le tempo MIDI en noires n'a pas été modifié.
+
+**Analyse :** séparer (a) subdivision physique constante, (b) la hiérarchie de vélocité, (c) le chiffrage de mesure **effectivement encodé**, (d) la métrique **ressentie** non testée. Deux sources d'accent sont modifiées ensemble (vélocité et chiffrage) pour **mettre en accord notation et relief** : cela ne constitue **pas** un test isolant le seul symbole de mesure. La [leçon 2 du vrai syllabus](https://online.berklee.edu/courses/time-and-rhythm-1#syllabus) parle précisément de **comparer simple et composé**. La notation et la grille de coups peuvent être exactes sans que l'oreille d'un élève reconnaisse les battues.
+
+### Contrôle C-2 — cinq notes, quatre instants : 3:2 simultané puis linéarisé
+
+[Deux pistes de percussion, 8 mesures en 6/8](./OCMUS-105/contre-rythme-3-contre-2-linearise.mid) : un **flux de deux** (GM67, ticks **0/720**) et un **flux de trois** (GM68, **0/480/960**) s'entrecroisent sur un cycle de **1 440 ticks**. Le flux 3 frappe en même temps que le flux 2 à **0**. Par mesure, il y a donc **5 Note On mais seulement 4 instants distincts** (**0, 480, 720, 960**).
+
+| Section de 4 mesures | GM67, deux coups | GM68, autre ligne | Notes on | Instants distincts |
+|---|---|---|---:|---:|
+| A — voix superposées | **0, 720** | **0, 480, 960** | **20** | **16** |
+| B — voix linéarisées | **0, 720** | **480, 960** | **16** | **16** |
+
+Le protocole B **retire réellement une frappe du flux de trois** à la première coïncidence; il **ne préserve donc pas le flux 3 complet**. Cette perte doit être annoncée : B représente la **réduction de l'union des instants**, pas « la même polyrythmie jouée par une seule main ». Les deux pistes relèvent du **même canal GM1 10**, ce qui identifie deux **flux documentaires**, pas deux instrumentistes. La [leçon 3, 2:3 et 3:2](https://online.berklee.edu/courses/time-and-rhythm-1#syllabus) autorise cette comparaison de mécanismes, pas la revendication d'une technique de mains déjà démontrée.
+
+### Contrôle C-3 — trois phases du même 3:2 : coïncidence au début, au milieu, aucune
+
+[Témoin original, 12 mesures en 6/8](./OCMUS-105/contre-rythme-3-2-trois-phases.mid) : **108 BPM**, toujours cinq notes par mesure (deux coups GM76 et trois GM77), soit **20 par bloc de quatre mesures**, **60 au total**. Le flux de deux reste **0 / 720**. Les trois variantes du flux de trois sont :
+
+| Phase du flux 3 (ticks dans une mesure de 1 440) | Coïncidence exacte avec le flux 2 | Instants distincts / quatre mesures |
+|---|---|---:|
+| **0, 480, 960** | **0** | **16** |
+| **240, 720, 1 200** | **720** | **16** |
+| **120, 600, 1 080** | **aucune** | **20** |
+
+Ces résultats ont été **relus dans le fichier GitHub** en reconstruisant les deux flux indépendamment. La troisième variante préserve bien **les cinq notes**, contrairement à la linéarisation C-2. **Le décalage de phase ne prouve pas trois mètres différents.** Distinguer rythme de surface, accent, attentes de la pulsation et preuve perceptuelle; le [réexamen de la polymétrie par Luis Tabak, *Music Theory Online* 32(2), 2026](https://www.mtosmt.org/issues/mto.26.32.2/mto.26.32.2.tabak.php) insiste sur la nécessité de flux de battue différenciables et sur le rôle de l'expertise de l'auditeur. Aucun des trois motifs n'est une transcription du **currulao colombien** étudié dans l'article : **géométrie 3:2 ≠ identité culturelle**.
+
+### Contrôle C-4 — 7/8 maintenu, trois accents sans une seule note supplémentaire
+
+[Témoin original, 12 mesures en 7/8](./OCMUS-105/sept-huit-trois-groupements-identiques.mid) : 120 BPM, **84 notes GM42**, soit 28 par bloc de quatre mesures. Chaque mesure contient toujours exactement **sept croches** aux ticks locaux **0, 240, 480, 720, 960, 1 200, 1 440**; les notes, instants, durées, nombre, signature et tempo **ne changent pas**.
+
+- **3+2+2 :** croches accentuées **0, 3, 5**, autrement dit ticks locaux **0, 720, 1 200**;
+- **2+3+2 :** croches **0, 2, 5**, soit **0, 480, 1 200**;
+- **2+2+3 :** croches **0, 2, 4**, soit **0, 480, 960**.
+
+Le **marqueur 7/8 reste inchangé**. Ces groupements sont des **propositions de relief** encodées en vélocités (98 contre 41), **pas trois signatures** différentes, ni des sensations auditives mesurées. Cet essai applique concrètement les leçons **5 et 11** sur les mètres complexes; un futur jugement d'écoute devrait vérifier si la banque de sons et la respiration de la phrase rendent bien le groupement.
+
+### Contrôle C-5 — ôter le clic sans ôter le temps
+
+[Quatre méthodes de métronome, 16 mesures](./OCMUS-105/clic-muet-et-contretemps-pratique.mid), **105 BPM**, PPQ 480, 4/4, total **236 messages Note On**. La batterie **GM36/38/42 reste strictement identique** dans les quatre blocs. Une seconde piste GM75 simule des **signaux de clic** (GM1 GM75 = Claves, **pas le Metronome Click GM2 note 33**) :
+
+| Bloc, quatre mesures | Attaques du signal par mesure | Total de clics | Total notes avec batterie |
+|---|---|---:|---:|
+| A | noires 1, 2, 3, 4 | **16** | **64** |
+| B | quatre « et » de chaque temps | **16** | **64** |
+| C | temps 1 et 3 | **8** | **56** |
+| D | quatre noires de la **première** mesure, puis **trois mesures de clics absents** | **4** | **52** |
+
+**Un clic absent ne démontre pas une pulsation intérieure.** Ici la batterie continue, ce qui fournit encore une référence métrique audible potentielle; un vrai test de tenue du temps devrait **masquer la piste d'accompagnement ou mesurer une performance humaine** puis vérifier la phase au retour du clic. Le cours prescrit effectivement des usages avancés du métronome; il ne contient pas ces messages GM75 comme ressources authentifiées de l'enseignement.
+
+### Verdict de la passe composée
+
+**Cinq MIDI originaux de cette fiche, contrôlés sur GitHub :** **48 + 36 + 60 + 84 + 236 = 464 attaques**, signatures exactes, fins appariées, marqueurs de chaque variante et **aucune écoute**. Les trois autres études de ce lot sont reliées à [OPERC-160](OPERC-160.md#jeux-composés--douze-croches-constant-dune-mesure-à-lautre-17-novembre-2026) et [OMPRD-386](OMPRD-386.md#dissonance-de-déplacement-timeline-sur-deux-mesures-et-retour--17-novembre-2026). **MIDI_DIRECT** : données et fractions; **MIDI_PROXY** : rôle des accents, tension, découpage supposé; **CONTEXT_REQUIRED** : notation, genre, gestes et cultures; **AUDIO_REQUIRED** : sensation de tempo, dictée, performance, polymétrie ou stabilité de pulsation éprouvées.
