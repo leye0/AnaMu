@@ -281,3 +281,19 @@ relancées sans preuve nouvelle. La chaîne future
 `programme → cours → apprentissage attesté → concept commun →
 capacité d'analyse → preuve` reste une architecture documentaire, sans
 création de moteur ni levée des portes L01–L05.
+
+### Le conducteur qui sonne juste peut donner des parties fausses
+
+**Contrat documentaire du 17 novembre 2026.** Trois objets doivent rester séparés : **hauteurs réellement sonores**, **fonctions musicales de pupitre**, **parties réalisables pour les musiciens disponibles**. Le [MIT 21M.342, syllabus et devoirs publics de 2008](courses/mit/21M-342.md) fournit des tâches universitaires réelles **hors registre**, tandis que le [WDR Big Band](https://www1.wdr.de/orchester-und-chor/bigband/band/wbb-arrangement-134.html) fournit un cahier de préparation professionnel ciblé. Aucun des deux n'est promu en syllabus Berklee.
+
+| Demande de vérification | Point de départ fiable | Ce qu'on refuse d'inférer |
+|---|---|---|
+| « La mélodie semble à l'octave dans deux parties » | [CM-231](courses/berklee/CM-231.md#conduire-deux-représentations-de-hauteur-sans-transposer-deux-fois) : convention écrit/concert, transposition réelle **y compris octave**, conversion inverse. | Unisson graphique = unisson sonore, ou MIDI concert à transposer deux fois. |
+| « Le sax joue une note hors symbole » | [AR-201](courses/berklee/AR-201.md#le-symbole-daccord-nest-pas-la-liste-des-notes-de-lorchestre) : grille, basse, extensions, notes d'approche, accords de passage et durée des tenues. | Toute note hors symbole est dissonance accidentelle. |
+| « Cette section est-elle un contrechant ? » | [AR-331](courses/berklee/AR-331.md#du-devoir-danalyse-au-conducteur-livrable--comparaison-mit-et-wdr) : mouvements indépendants, rôle du thème, bloc harmonisé, soutien et doublure. | Plus de canaux MIDI = plus de mélodies autonomes. |
+| « Peut-on supprimer la partie facultative ? » | [AR-323](courses/berklee/AR-323.md#une-partie-facultative-nest-pas-une-fonction-facultative) : tester le retrait **des fonctions**, pas seulement des notes. | Un libellé facultatif garantit que la musique reste viable. |
+| « Le conducteur est-il prêt à jouer ? » | [Dossier MIT et consignes WDR](courses/mit/21M-342.md#compétence-3--des-notes-correctes-ne-sont-pas-des-parties-livrables) : instrumentistes réels, doubles, respirations, cues, reprises et pages. | Une séquence MIDI correcte certifie la gravure et la jouabilité. |
+
+**Exemple de vérification sans audio.** Le do4 sonore devient ré4 écrit pour trompette en si♭, ré5 écrit pour saxophone ténor en si♭ et la5 écrit pour saxophone baryton en mi♭. Ces trois graphies sont compatibles avec le **même do4 de concert**, sans promettre que ce registre sera musicalement approprié pour chacun. Les mêmes événements peuvent donc posséder plusieurs écritures, et la même écriture plusieurs résultats sonores selon l'instrument. Les erreurs de pagination, de reprises ou de changements de sourdine ne se révèlent pas par les pitch classes.
+
+**Provenance et phase.** Matière du cours, étude externe, convention de notation, événements sonores et perception sont des niveaux distincts. Aucune écoute requise, aucun MIDI/MP3, moteur, registre, test ou porte L01–L05 modifié.
