@@ -482,6 +482,17 @@ Pour une pièce où la dissonance est **volontaire** ou où l'organisation des h
 
 C’est un **contrat documentaire** pour les échanges futurs, pas un schéma de données, une API ou une mise en production. Cette passe ne lève aucune porte L01–L05 et n’ajoute ni moteur ni générateur.
 
+#### Charleston : le rôle rythmique ne se lit ni dans le CC4 ni dans la fin de note
+
+[Manifeste des six études](data/percussion-hihat-state-studies-2026-11-17.json) · [Application à la batterie](courses/berklee-online/OPERC-160.md#charleston--destination-de-phrase-appuis-et-coordination-avec-la-caisse) · [Application à la programmation](courses/berklee-online/OMPRD-386.md#charleston--note-off-état-de-pédale-et-ordre-des-événements) · [Référence technique](references/gm-percussion.md#charleston--quatre-signaux-qui-ne-sont-pas-interchangeables).
+
+- **Une couleur dépend aussi de sa destination.** Un même couple ouvert → pédale peut annoncer l'entrée soulignée par une crash ou colorer une mesure intérieure. Les mêmes 49 attaques et la même grille ne donnent pas le même rapport à la phrase (HH-1). L'ouverture de charleston ne suffit pas à prouver une anacrouse sans un repère de forme indépendant.
+- **Compter les dates et les notes séparément.** La pédale peut se superposer à la ride sur 2/4 ou 1/3 : mêmes décomptes, autre phase. En la déplaçant sur des contretemps hors des dates de ride, on crée huit dates d'attaque sans ajouter une note par bloc (HH-5). Avec une caisse fixe, avancer ou retarder la pédale nominale change son rapport au backbeat, pas le backbeat lui-même (HH-6).
+- **Un événement de fermeture et un état sont deux objets.** Note Off, nouvelle attaque GM42/44 et CC4 sont observables séparément. Un preset et une convention matérielle sont nécessaires pour relier une partie de ces objets à l'extinction ou à l'ouverture. HH-2 fournit deux contrôles de sons isolés pour une future comparaison de rendu; HH-3 garde les notes identiques mais change uniquement le flux de contrôle.
+- **Équivalence partielle.** HH-4 a les mêmes événements non ordonnés et les mêmes ticks dans les deux variantes, mais pas le même ordre CC4/frappe. Dans une seule piste, l'ordre des messages distingue directement les deux scénarios. Entre pistes, ne pas inventer d'ordre de traitement sans convention documentée. Le fichier ne prouve pas que le lecteur respecte cet ordre ni qu'une différence sera audible.
+
+**Sortie d'analyse recommandée.** Consigner le fait MIDI et le contexte de forme, puis séparer la prédiction **conditionnelle** (« si la banque associe 42 et 46 à la même classe d'exclusion… ») de la perception. Garder *inconnu* pour le fonctionnement physique et le rendu tant que la banque, le module ou l'audio ne sont pas disponibles. Le [cours de batterie](https://online.berklee.edu/courses/drum-set-performance-101#syllabus), le [cours de production](https://online.berklee.edu/courses/programming-and-producing-drum-beats#syllabus) et le [manuel du TD-27](https://static.roland.com/assets/media/pdf/TD-27_MIDI_Imple_eng04_W.pdf) documentent trois niveaux distincts; aucune règle spécifique d'appareil n'est attribuée à Berklee.
+
 ## 6. Source de vérité et prochaine construction
 
 - [OBJECTIVES.md](OBJECTIVES.md) : pourquoi le système existe.

@@ -146,13 +146,13 @@ Le [vrai syllabus de Yoron Israel pour *Drum Set Performance 101*](https://onlin
 
 [Quatre pistes de responsabilité, huit mesures en 4/4](./OPERC-160/coordination-quatre-membres-et-conflit-une-main.mid), **104 BPM**, deux sections de quatre mesures, **56 Note On par section**. Les numéros GM1 : **42** charleston, **38** caisse claire, **36** grosse caisse, **44** charleston à la pédale. Les pistes descriptives indiquent **main droite, main gauche, pied droit, pied gauche**. A : main droite frappe huit croches de charleston et gauche les caisses fortes de 2/4. B : les frappes GM42 exactement **aux temps 2 et 4** sont transférées à la piste **main gauche**, déjà chargée de la caisse GM38 à ces mêmes instants.
 
-**Invariant relu après publication :** mêmes 112 événements sonores sur la totalité du fichier, et **exactement les mêmes 56 événements relatifs, dates et vélocités** entre A et B, si l'on ignore la piste d'attribution. **Mais** en B, à chacun des temps 2 et 4, deux surfaces distinctes sont attribuées à **un seul membre** au même instant. Sur une batterie ordinaire **avec une seule baguette dans cette main**, ce doigté explicite exige une révision. Il n'est pas pour autant impossible d'obtenir ce **résultat sonore** : l'autre main peut prendre une frappe, deux surfaces peuvent être atteintes par un dispositif particulier, ou les parties peuvent être redistribuées.
+**Invariant relu après publication :** 112 événements Note On au total, et **exactement les mêmes 56 événements relatifs, dates et vélocités** entre A et B, si l'on ignore la piste d'attribution. **Mais** en B, à chacun des temps 2 et 4, deux surfaces distinctes sont attribuées à **un seul membre** au même instant. Sur une batterie ordinaire **avec une seule baguette dans cette main**, ce doigté explicite exige une révision. Il n'est pas pour autant impossible d'obtenir ce **résultat sonore** : l'autre main peut prendre une frappe, deux surfaces peuvent être atteintes par un dispositif particulier, ou les parties peuvent être redistribuées.
 
 **Règle pour AnaMu :** une piste qui s'appelle « LEFT HAND » est une **annotation humaine non normalisée par General MIDI**, pas un membre déterminé automatiquement par le son GM38. Les pistes A/B constituent un **contre-exemple construit** : mêmes notes ne signifient pas mêmes mouvements ni même faisabilité. [PAS, *Paradiddles: The Whole Story in a Nutshell*](https://pas.org/pas-blog/paradiddles-the-whole-story-in-a-nutshell/) montre que les choix de main changent effectivement la technique; ce texte externe n'est pas un devoir de Berklee.
 
 ### G2 — deux pédales sur deux pieds, puis deux obligations sur le même
 
-[MIDI original, huit mesures](./OPERC-160/pedales-deux-pieds-ou-un-seul.mid), **108 BPM**, 52 Note On par bloc. GM36 et GM44 sont frappés **ensemble au début de chaque mesure**. En A, la piste **pied droit** commande la grosse caisse et la piste **pied gauche** la pédale de charleston. En B, les mêmes coups de GM44 sont annotés sur la **piste du pied droit**, qui joue déjà GM36 à la même date. Le résultat sonore GM **reste rigoureusement identique A/B** : ce sont les obligations corporelles indiquées qui changent.
+[MIDI original, huit mesures](./OPERC-160/pedales-deux-pieds-ou-un-seul.mid), **108 BPM**, 52 Note On par bloc. GM36 et GM44 sont frappés **ensemble au début de chaque mesure**. En A, la piste **pied droit** commande la grosse caisse et la piste **pied gauche** la pédale de charleston. En B, les mêmes coups de GM44 sont annotés sur la **piste du pied droit**, qui joue déjà GM36 à la même date. Les événements de percussion (canal, notes, vélocités et dates) **restent identiques A/B** : ce sont les obligations corporelles indiquées qui changent. Aucun rendu A/B n’a été comparé.
 
 **Analyse :** vérifier **identité du membre**, **pédale attendue**, **instant de collision** et **matériel réellement monté**. La convention GM 44 n'encode ni la chaussure ni la position de pédale. Une technique spéciale ou une machinerie distincte peut changer les contraintes. Sans connaître les gestes et le kit, le MIDI donne **un indice de problème de répartition**, pas un verdict automatique d'impossibilité.
 
@@ -185,3 +185,39 @@ La [Percussive Arts Society classe les flams parmi les 40 rudiments](https://pas
 ### Verdict académique et musical de ce lot
 
 **Six nouveaux fichiers de cette fiche : 112 + 104 + 80 + 128 + 168 + 144 = 736 Note On**, relus directement sur les blobs GitHub, notes équilibrées avec note-offs, marqueurs de section présents, métriques 4/4 et PPQ 480. Des collisions d'obligations de membres sont **documentées dans les noms de pistes**, pas extraites automatiquement de la norme GM1. Une vraie évaluation de performance demanderait vidéo, partition de doigtés, kit explicitement monté et écoute. **Pas d'exécution humaine, pas de jugement sur les styles et aucune modification du cursus.**
+
+## Charleston : destination de phrase, appuis et coordination avec la caisse
+
+**Provenance.** Le [plan de Yoron Israel](https://online.berklee.edu/courses/drum-set-performance-101#syllabus) atteste l'étude de l'indépendance mains–pieds, du toucher et des grooves, notamment du *Jazz Shuffle* à la leçon 10. Les trois témoins ci-dessous sont des exercices d'AnaMu, pas des exercices du cours ni des transcriptions. Ils prolongent [OP-2](#témoin-op-2--ouverture-et-fermeture-du-charleston--attaque-et-pédale-ne-sont-pas-synonymes), qui comparait déjà les trois numéros GM sur la même grille.
+
+### HH-1 — Une ouverture ne prépare pas n'importe quelle arrivée
+
+[Ouverture intérieure ou anacrouse](OPERC-160/charleston-ouverture-interieure-ou-anacrouse.mid). Trois blocs de quatre mesures, **49 attaques et 32 dates distinctes par bloc**, à 120 BPM. On conserve 8 croches de charleston par mesure, la grosse caisse sur 1 et 3, la caisse sur 2 et 4 et **la crash sur le premier temps de la mesure 3**.
+
+| Variante | Où agit le couple GM46 → GM44 ? | Relation à la crash |
+|---|---|---|
+| A | Nulle part : toutes les croches sont GM42. | L'arrivée à la mesure 3 a déjà un repère distinct. |
+| B | Sur le « et » de 4 de la mesure 1, puis sur le premier temps de la mesure 2. | Ouverture intérieure, une mesure avant ce repère. |
+| C | Sur le « et » de 4 de la mesure 2, puis sur le premier temps de la mesure 3. | Ouverture avant le repère; GM44, kick et crash coïncident à l'arrivée. |
+
+Dans B et C, la paire est espacée de **240 ticks (250 ms)** et remplace deux GM42, sans modifier les dates, vélocités ou gates. **Analyse :** relever d'abord la frontière candidate à partir de la phrase et de ses autres voix, puis mesurer où tombe la paire. **Réemploi :** préférer C pour demander un geste de préparation vers une arrivée déjà établie, ou B pour placer une articulation dans la phrase sans charger l'arrivée. Cela décrit une intention, ni un résultat d'écoute ni une preuve que toute ouverture en contretemps sert d'anacrouse.
+
+### HH-5 — La pédale peut doubler la ride ou répondre entre ses coups
+
+[Ride fixe, trois positions de la pédale](OPERC-160/ride-fixe-pedale-charleston-trois-appuis.mid). La ride GM51 conserve six coups par mesure aux ticks **0, 480, 800, 960, 1 440, 1 760**. On replace les deux GM44 par mesure, sans toucher à leurs vélocités ni à la ride.
+
+| Placement du pied | Ticks locaux par mesure | Attaques / instants distincts par bloc |
+|---|---|---|
+| A — sur 2 et 4 | 480 et 1 440 | 32 / 24 |
+| B — sur 1 et 3 | 0 et 960 | 32 / 24 |
+| C — sur les « et » de 2 et 4 | 720 et 1 680 | 32 / 32 |
+
+**Analyse :** A et B ont les mêmes décomptes et les mêmes intervalles internes de pédale, mais une phase différente par rapport à la mesure. En C, la pédale tombe entre des frappes de ride distinctes : les huit dates supplémentaires ne sont pas huit notes supplémentaires. **Réemploi :** conserver la ride pour faire varier la fonction du pied, du renfort à une réponse, sans densifier la partie écrite. La [PAS sur Jo Jones](https://pas.org/jo-jones/) situe la fermeture sur 2 et 4 dans une pratique historique; son [portrait de Tony Williams](https://pas.org/tony-williams/) documente un usage de la pédale moins assujetti à ces temps. [John Riley, extraits publics à la PAS](https://pas.org/publication-articles/three-voice-warm-ups/), sépare également ride stable et voix indépendantes. Le motif AnaMu ne reproduit ni une prestation de ces musiciens ni la totalité de l'exercice de Riley.
+
+### HH-6 — Fermer avant, avec ou après la caisse
+
+[Fermeture nominale autour du backbeat](OPERC-160/charleston-pedale-avant-avec-apres-backbeat.mid). L'ouverture nominale GM46 est au tick **240**, la caisse claire forte au tick **480**. Le seul changement est la date de GM44 : **360 / 480 / 600**, donc **−125 / 0 / +125 ms** relativement à la caisse à 120 BPM. Les autres coups, les vélocités et les gates sont invariants. Chaque bloc garde **24 attaques**; les nombres d'instants distincts sont **24 / 20 / 24**. Les **120 / 240 / 360 ticks** entre les deux attaques de charleston ne sont pas les durées de résonance du son ouvert, dont le Note Off reste au tick 780.
+
+**Analyse :** décrire séparément le rapport à la caisse et toute hypothèse de durée audible. **Réemploi :** essayer une articulation anticipée, groupée avec la caisse ou retardée sans déplacer le backbeat. La coïncidence en B ne dit pas si les deux timbres seront perçus comme une seule attaque. La [leçon de technique de pied de Zildjian](https://ae.zildjian.com/education/beginner-drum-set-lessons/zildjian-drum-set-method-lesson-08/) est une source externe sur le geste, pas une preuve que ces réglages encodent une vraie pédale.
+
+[Manifeste des six études HH, marqueurs, empreintes et invariants](../../data/percussion-hihat-state-studies-2026-11-17.json) · [Études complémentaires de programmation](OMPRD-386.md#charleston--note-off-état-de-pédale-et-ordre-des-événements).

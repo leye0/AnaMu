@@ -185,3 +185,14 @@ Le [corpus comparatif de quatorze études de percussion et de gestes](../data/pe
 | **Décalage dans un beat** | Caisse **+16 ticks**, kick **+16 ticks**, ou tout le kit **+16 ticks** | Centre perceptif de l'attaque (**P-center**) et sens du groove; pas d'écoute à ce stade. |
 
 **Références externes non curriculaires :** [PAS International Drum Rudiments](https://pas.org/rudiments/), [PAS Part Assignment and Setup](https://pas.org/publication-articles/systematic-part-assignment-and-setup-of-the-percussion-section/), [Yamaha Vibraphone Pedagogy](https://hub.yamaha.com/music-educators/instruments/perc/vibraphone-pedagogy/), [ISFEE Percussion Scoring](https://timbreandorchestration.org/isfee/extreme-orchestration/percussion/scoring), et [Danielsen et al., P-center de sons composites, 2026](https://doi.org/10.1111/nyas.70306). Leur rôle est d'**éviter les inférences trompeuses**, pas de transformer une banque GM en performance mesurée.
+
+## Charleston : quatre signaux qui ne sont pas interchangeables
+
+| Signal observé | Lecture sûre | Information encore nécessaire |
+|---|---|---|
+| Note On 42 / 44 / 46, canal 10 sous GM1 | Son nominal fermé / pédale / ouvert. | Banque, chaîne sonore et, pour parler de geste, contexte ou source de performance. |
+| Note Off du 46 | Fin écrite de la note MIDI. | Règle de lecture des percussions, enveloppe et sample pour une durée audible. |
+| Note On 42 ou 44 après 46 | Autre attaque, avec un intervalle temporel calculable. | Profil du lecteur et exclusion éventuelle; dans SoundFont, voir le [générateur 57, exclusiveClass](https://www.synthfont.com/sfspec24.pdf). |
+| CC4 | *Foot Controller* MIDI 1.0, valeur 0–127 sur le canal déclaré. | L'interprétation comme ouverture dépend du module et de son mappage. Exemple spécifique et configurable : [Roland TD-27, CC4](https://static.roland.com/assets/media/pdf/TD-27_MIDI_Imple_eng04_W.pdf). |
+
+La [carte GM1 archivée à Carnegie Mellon](https://www.cs.cmu.edu/~music/cmp/archives/cmsip/readings/GMSpecs_PercMap.htm) fixe les trois **noms**, pas la demi-ouverture ni la courbe de fermeture d'un kit. Un **GM44** est ici un Note On, pas une valeur CC4. Un **CC4 au tick d'un Note On** ne dit pas qu'il était déjà applicable à l'attaque : garder l'ordre intra-piste, ainsi que le canal, avant d'arrondir, fusionner ou exporter. Voir la [comparaison à ticks identiques](../courses/berklee-online/OMPRD-386.md#hh-4--une-égalité-de-ticks-nest-pas-une-égalité-dordre) et la [fiche d'audit du lot HH](../data/percussion-hihat-state-studies-2026-11-17.json). Aucun lecteur n'a été mesuré pour ces études.

@@ -173,3 +173,36 @@ Le retour **A = D a été vérifié sur les événements MIDI** (mêmes dates lo
 5. Pour une composition, protéger **les relations qui portent le groove** avant d'appliquer une humanization; un décalage global peut être volontaire et **ne nécessite pas d'ajouter des erreurs aléatoires à chaque membre**.
 
 **Limites de preuve.** MIDI_DIRECT : 192 notes, marqueurs, +16 ticks, égalité des vélocités, relation intra-batterie. MIDI_PROXY : tension, laid-back/pushed, équilibre. AUDIO_REQUIRED : P-center, fusion, groove et qualités du sample. CONTEXT_REQUIRED : référence de performance, configuration et style. L'étude est documentée dans le [manifeste de cette passe](../../data/percussion-performance-gesture-studies-2026-11-17.json). **Aucun échantillon n'a été rendu ou écouté, aucun moteur de groove ni logiciel de quantification n'a été développé.**
+
+## Charleston : Note Off, état de pédale et ordre des événements
+
+**Provenance.** Le [syllabus d'Erik Hawkins](https://online.berklee.edu/courses/programming-and-producing-drum-beats#syllabus) atteste la programmation MIDI, les échantillons de batterie et le traitement des grooves (leçons 2, 6 et 8). Les comparaisons ci-dessous sont des applications AnaMu. Les annexes MIDI et le manuel Roland sont des **sources techniques indépendantes**, pas des éléments attribués au syllabus de Berklee.
+
+### HH-2 — Est-ce la fin de note ou la frappe suivante qui change la queue ?
+
+[Six variantes avec contrôles isolés](OMPRD-386/charleston-gate-fermeture-et-controles-isoles.mid), **32 attaques**. Chacun des six blocs répète le même essai quatre fois, une fois par mesure. Le GM46, lorsqu'il existe, attaque au premier temps à vélocité 89. Les deux sons de fermeture nominale, lorsqu'ils existent, sont déclenchés à **+240 ticks**, à vélocité 70, avec un gate de 90 ticks.
+
+| Bloc | GM46 ouvert | Son ajouté au tick +240 | Ce que le bloc contrôle |
+|---|---|---|---|
+| A | Gate de 720 ticks | Aucun | Référence GM46 isolée. |
+| B | Gate de 240 ticks | Aucun | Effet éventuel d'un Note Off avancé sans nouvelle frappe. |
+| C | Gate de 720 ticks | GM42 fermé | Effet éventuel d'une frappe fermée sans avance du Note Off. |
+| D | Gate de 720 ticks | GM44 pédale | Effet éventuel du déclencheur de pédale sur la même ouverture. |
+| E | Aucun | GM42 fermé | Frappe fermée seule. |
+| F | Aucun | GM44 pédale | Frappe de pédale seule. |
+
+La [spécification SoundFont, générateur 57](https://www.synthfont.com/sfspec24.pdf) prévoit que des zones d'un même preset peuvent partager une classe d'exclusion. Cela donne un mécanisme possible de coupure; ni les octets de C/D ni la présence de GM42/44 ne documentent la configuration d'un preset particulier. **Futur relevé sans imposer une écoute** : à banque et lecteur identifiés, comparer A/B pour la sensibilité au gate, C/D avec E/F pour ne pas prendre le transitoire ajouté pour la queue du GM46. Choisir une fenêtre où A contient encore un signal, fixer le gain, désactiver les effets si possible et relever la queue avant/après. Ne pas déduire un groupe d'exclusion d'une simple différence de mix. Comparer des sorties par voix, si disponibles, ou vérifier d'abord précisément la banque. **Aucun de ces rendus n'a été réalisé dans cette passe.**
+
+### HH-3 — Un contrôle peut varier sans changer une seule note
+
+[Trois séries de CC4 sur le même GM46](OMPRD-386/charleston-gm46-cc4-trois-trajectoires.mid). Chaque bloc a **8 Note On et 9 CC4**. Toute note (date, canal, pitch, vélocité et durée) est identique d'un bloc à l'autre. Un CC4 précède chaque Note On d'un tick. Les valeurs sont **0** en A, **127** en B et **0, 18, 36, 54, 72, 90, 108, 127** en C, puis le fichier réécrit 0 à la fin de chaque bloc. Ce retour explicite n'est pas une réinitialisation universelle de la banque ou de l'équipement.
+
+La [MIDI Association](https://midi.org/midi-1-0-control-change-messages) définit le n°4 comme *Foot Controller*. Le [manuel d'implémentation du Roland TD-27, réception et émission CC4](https://static.roland.com/assets/media/pdf/TD-27_MIDI_Imple_eng04_W.pdf) précise un usage **configurable**, sur le canal de l'assignation de la surface du hi-hat, où 0→127 correspond à ouvert→fermé. Il couvre aussi d'autres assignations de contrôleur et de position de frappe. On ne peut donc pas rebaptiser *tout* CC4 « ouverture de charleston », ni transformer les valeurs en millimètres ou en niveaux acoustiques. **Décision AnaMu :** si le mapping n'est pas connu, décrire les messages bruts et noter *position physique inconnue*.
+
+### HH-4 — Une égalité de ticks n'est pas une égalité d'ordre
+
+[CC4 avant/après le Note On au même tick](OMPRD-386/charleston-cc4-ordre-meme-tick.mid). Dans chaque essai, CC4=0 est écrit au début, **CC4=127 et GM46 au tick 480**, retour CC4=0 au tick 960. **16 notes, 48 CC4**, en séquence A/B/B/A. Dans A, le CC4=127 précède le Note On dans l'unique piste SMF 0; dans B, il le suit. Le nombre d'événements, leurs valeurs et leurs ticks sont identiques **même si l'ordre des deux messages ne l'est pas**. Le Roland documente notamment un envoi de la position de pédale avant le Note On lorsque configuré ainsi. Notre contre-exemple B ne prétend pas émuler ce comportement à l'émission.
+
+**Analyse :** garder l'ordre écrit des événements à delta zéro dans la piste avant toute fusion/normalisation. Pour une description conditionnelle sous un profil échantillonnant l'état à l'attaque, le dernier CC4 qui précède le Note On est 127 dans A, 0 dans B. Une réexportation ou un lecteur peut réordonner, échantillonner sur un autre cycle, suivre un changement après l'attaque, ou ignorer complètement CC4. **Réemploi :** si un profil cible garantit seulement « état avant frappe », exprimer l'antériorité avec un delta positif si le contexte l'autorise; vérifier l'ordre après réexportation. Un délai d'un tick n'est ni une recommandation de jeu ni une garantie de compatibilité.
+
+[Manifeste et signatures des six études](../../data/percussion-hihat-state-studies-2026-11-17.json) · [Rôles de jeu et de groove](OPERC-160.md#charleston--destination-de-phrase-appuis-et-coordination-avec-la-caisse).

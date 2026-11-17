@@ -1,0 +1,376 @@
+{
+  "title": "Six études MIDI sur le charleston : articulation, fermeture, état et rôle rythmique",
+  "date": "2026-11-17",
+  "scope": "MIDI documentaire original sans écoute ni rendu, pas un moteur ni une évaluation de pédale réelle.",
+  "section_convention": "Ticks absolus, départ inclus, fin exclue. Les instants d'attaque comptent uniquement les ticks distincts de Note On positifs.",
+  "sources": {
+    "operc160": "https://online.berklee.edu/courses/drum-set-performance-101#syllabus",
+    "omprd386": "https://online.berklee.edu/courses/programming-and-producing-drum-beats#syllabus",
+    "gm1": "https://midi.org/general-midi-level-1",
+    "gm1_keys": "https://www.cs.cmu.edu/~music/cmp/archives/cmsip/readings/GMSpecs_PercMap.htm",
+    "smf": "https://midi.org/standard-midi-files",
+    "cc": "https://midi.org/midi-1-0-control-change-messages",
+    "td27": "https://static.roland.com/assets/media/pdf/TD-27_MIDI_Imple_eng04_W.pdf",
+    "soundfont": "https://www.synthfont.com/sfspec24.pdf",
+    "jones": "https://pas.org/jo-jones/",
+    "williams": "https://pas.org/tony-williams/",
+    "riley": "https://pas.org/publication-articles/three-voice-warm-ups/",
+    "foot": "https://ae.zildjian.com/education/beginner-drum-set-lessons/zildjian-drum-set-method-lesson-08/"
+  },
+  "studies": [
+    {
+      "id": "HH-1",
+      "path": "docs/courses/berklee-online/OPERC-160/charleston-ouverture-interieure-ou-anacrouse.mid",
+      "course": "OPERC-160",
+      "title": "Ouverture intérieure ou anacrouse",
+      "variable": "B/C : position, dans la même phrase de quatre mesures, de la paire GM46 puis GM44. A garde GM42 à ces endroits.",
+      "invariants": "48 événements de batterie + une crash par bloc; calendrier intégral, vélocités et gates inchangés; crash au premier temps de la mesure 3.",
+      "limits": "C prépare par hypothèse une entrée déjà soulignée par la crash; ni résolution perçue ni étouffement garantis.",
+      "source_ids": [
+        "operc160",
+        "gm1_keys",
+        "foot"
+      ],
+      "size_bytes": 1445,
+      "git_blob_sha1": "af375949904762acb7eb4872849ac6c07c408cd1",
+      "file_sha256": "c64b9909c11ac84e170020d6ca571dc81c583d40b1c79ec7f2b774f972e3c171",
+      "format": 0,
+      "track_count": 1,
+      "ppq": 480,
+      "tempo_us_per_quarter": 500000,
+      "time_signature": "4/4",
+      "channel": 10,
+      "end_tick": 23040,
+      "sections": [
+        {
+          "marker": "A closed reference",
+          "start_tick": 0,
+          "end_tick_exclusive": 7680,
+          "expected_note_on": 49,
+          "expected_attack_ticks": 32,
+          "expected_cc4": 0
+        },
+        {
+          "marker": "B opening before bar 2",
+          "start_tick": 7680,
+          "end_tick_exclusive": 15360,
+          "expected_note_on": 49,
+          "expected_attack_ticks": 32,
+          "expected_cc4": 0
+        },
+        {
+          "marker": "C opening before bar 3",
+          "start_tick": 15360,
+          "end_tick_exclusive": 23040,
+          "expected_note_on": 49,
+          "expected_attack_ticks": 32,
+          "expected_cc4": 0
+        }
+      ],
+      "note_on_total": 147,
+      "cc4_total": 0
+    },
+    {
+      "id": "HH-2",
+      "path": "docs/courses/berklee-online/OMPRD-386/charleston-gate-fermeture-et-controles-isoles.mid",
+      "course": "OMPRD-386",
+      "title": "Note Off, frappe fermée ou coup de pédale",
+      "variable": "A/B : gate GM46 720/240 ticks; C/D : ajout de GM42/44 au tick +240, gate GM46 inchangé; E/F : fermetures nominales isolées.",
+      "invariants": "Quatre essais espacés d'une mesure par bloc. Même GM46 à vélocité 89 à chaque début d'essai A–D. GM42/44 à vélocité 70, gate 90.",
+      "limits": "Les contrôles isolés aident à distinguer la frappe ajoutée de la queue du GM46 lors d'un rendu futur; une différence de mix ne démontre pas à elle seule un groupe d'exclusion.",
+      "source_ids": [
+        "omprd386",
+        "gm1",
+        "gm1_keys",
+        "soundfont"
+      ],
+      "size_bytes": 520,
+      "git_blob_sha1": "e494cfb89141d271d531452d6bb5886a7a66294f",
+      "file_sha256": "3dfbf91bb7f0516cdaa906b6a45e393128a17bd9b16d08799cc2041b169990e8",
+      "format": 0,
+      "track_count": 1,
+      "ppq": 480,
+      "tempo_us_per_quarter": 500000,
+      "time_signature": "4/4",
+      "channel": 10,
+      "end_tick": 46080,
+      "sections": [
+        {
+          "marker": "A GM46 long gate",
+          "start_tick": 0,
+          "end_tick_exclusive": 7680,
+          "expected_note_on": 4,
+          "expected_attack_ticks": 4,
+          "expected_cc4": 0
+        },
+        {
+          "marker": "B GM46 short gate",
+          "start_tick": 7680,
+          "end_tick_exclusive": 15360,
+          "expected_note_on": 4,
+          "expected_attack_ticks": 4,
+          "expected_cc4": 0
+        },
+        {
+          "marker": "C GM46 plus GM42",
+          "start_tick": 15360,
+          "end_tick_exclusive": 23040,
+          "expected_note_on": 8,
+          "expected_attack_ticks": 8,
+          "expected_cc4": 0
+        },
+        {
+          "marker": "D GM46 plus GM44",
+          "start_tick": 23040,
+          "end_tick_exclusive": 30720,
+          "expected_note_on": 8,
+          "expected_attack_ticks": 8,
+          "expected_cc4": 0
+        },
+        {
+          "marker": "E GM42 only",
+          "start_tick": 30720,
+          "end_tick_exclusive": 38400,
+          "expected_note_on": 4,
+          "expected_attack_ticks": 4,
+          "expected_cc4": 0
+        },
+        {
+          "marker": "F GM44 only",
+          "start_tick": 38400,
+          "end_tick_exclusive": 46080,
+          "expected_note_on": 4,
+          "expected_attack_ticks": 4,
+          "expected_cc4": 0
+        }
+      ],
+      "note_on_total": 32,
+      "cc4_total": 0
+    },
+    {
+      "id": "HH-3",
+      "path": "docs/courses/berklee-online/OMPRD-386/charleston-gm46-cc4-trois-trajectoires.mid",
+      "course": "OMPRD-386",
+      "title": "Même flux de notes, trois séries CC4",
+      "variable": "CC4=0 avant toutes les notes, CC4=127 avant toutes, ou CC4=0/18/36/54/72/90/108/127 avant les notes successives.",
+      "invariants": "Huit GM46 par bloc, mêmes dates, gates et vélocités; une commande à -1 tick par attaque, remise écrite à 0 après chaque bloc.",
+      "limits": "CC4 est Foot Controller. Position de pédale ouverte→fermée seulement avec un profil explicite tel que TD-27 configuré; aucun rendu ou matériel n'a été vérifié.",
+      "source_ids": [
+        "omprd386",
+        "smf",
+        "cc",
+        "td27"
+      ],
+      "size_bytes": 465,
+      "git_blob_sha1": "4a940e5c8d8e00ced2d0ab01243a36e42405fac9",
+      "file_sha256": "be947db3da9c31e1aae8b9bdfba3383f0471a7ec77e44a889f5ff3acc5c459ea",
+      "format": 0,
+      "track_count": 1,
+      "ppq": 480,
+      "tempo_us_per_quarter": 500000,
+      "time_signature": "4/4",
+      "channel": 10,
+      "end_tick": 23040,
+      "sections": [
+        {
+          "marker": "A CC4 zero",
+          "start_tick": 0,
+          "end_tick_exclusive": 7680,
+          "expected_note_on": 8,
+          "expected_attack_ticks": 8,
+          "expected_cc4": 9
+        },
+        {
+          "marker": "B CC4 max",
+          "start_tick": 7680,
+          "end_tick_exclusive": 15360,
+          "expected_note_on": 8,
+          "expected_attack_ticks": 8,
+          "expected_cc4": 9
+        },
+        {
+          "marker": "C CC4 sweep",
+          "start_tick": 15360,
+          "end_tick_exclusive": 23040,
+          "expected_note_on": 8,
+          "expected_attack_ticks": 8,
+          "expected_cc4": 9
+        }
+      ],
+      "note_on_total": 24,
+      "cc4_total": 27
+    },
+    {
+      "id": "HH-4",
+      "path": "docs/courses/berklee-online/OMPRD-386/charleston-cc4-ordre-meme-tick.mid",
+      "course": "OMPRD-386",
+      "title": "CC4 avant ou après la frappe au même tick",
+      "variable": "Ordre dans la même piste du CC4=127 et du Note On GM46 écrits au même tick.",
+      "invariants": "Mêmes ticks, nombres, valeurs, vélocités et durées. CC4=0 au début de chaque essai et au temps 3; blocs A/B/B/A.",
+      "limits": "L'ordre est prouvé dans ce fichier. Ni le maintien de cet ordre dans une DAW ni un effet sonore du changement après déclenchement ne sont garantis.",
+      "source_ids": [
+        "omprd386",
+        "smf",
+        "cc",
+        "td27"
+      ],
+      "size_bytes": 558,
+      "git_blob_sha1": "3043da2352eb6be0c531dfe35bdbd4c9ef33fcda",
+      "file_sha256": "f7810f71bfb36685ef3b5458647c1de78c708688b8d82ba0833cc5b4dd113afd",
+      "format": 0,
+      "track_count": 1,
+      "ppq": 480,
+      "tempo_us_per_quarter": 500000,
+      "time_signature": "4/4",
+      "channel": 10,
+      "end_tick": 30720,
+      "sections": [
+        {
+          "marker": "A CC4 then Note On",
+          "start_tick": 0,
+          "end_tick_exclusive": 7680,
+          "expected_note_on": 4,
+          "expected_attack_ticks": 4,
+          "expected_cc4": 12
+        },
+        {
+          "marker": "B Note On then CC4",
+          "start_tick": 7680,
+          "end_tick_exclusive": 15360,
+          "expected_note_on": 4,
+          "expected_attack_ticks": 4,
+          "expected_cc4": 12
+        },
+        {
+          "marker": "B repeat Note On then CC4",
+          "start_tick": 15360,
+          "end_tick_exclusive": 23040,
+          "expected_note_on": 4,
+          "expected_attack_ticks": 4,
+          "expected_cc4": 12
+        },
+        {
+          "marker": "A repeat CC4 then Note On",
+          "start_tick": 23040,
+          "end_tick_exclusive": 30720,
+          "expected_note_on": 4,
+          "expected_attack_ticks": 4,
+          "expected_cc4": 12
+        }
+      ],
+      "note_on_total": 16,
+      "cc4_total": 48
+    },
+    {
+      "id": "HH-5",
+      "path": "docs/courses/berklee-online/OPERC-160/ride-fixe-pedale-charleston-trois-appuis.mid",
+      "course": "OPERC-160",
+      "title": "Ride fixe, déplacement du pied",
+      "variable": "Déplacer les deux GM44 par mesure : 2/4 → 1/3 → les et de 2/4.",
+      "invariants": "Six GM51 identiques par mesure, dont quatre noires et deux notes intermédiaires; deux coups de pédale et mêmes vélocités par mesure.",
+      "limits": "La place de la pédale change le réseau des coïncidences. Le 2 et le 4 sont ici une convention historiquement située, pas une règle du jazz ni un exercice transcrit.",
+      "source_ids": [
+        "operc160",
+        "jones",
+        "williams",
+        "riley",
+        "gm1_keys"
+      ],
+      "size_bytes": 1007,
+      "git_blob_sha1": "5e0c752b822f5a43385378fa5eacacf2071cc7a2",
+      "file_sha256": "433a77a69b2941ace9cb3cf79db21070ced35a45c5936e266dbe4727790c46ec",
+      "format": 0,
+      "track_count": 1,
+      "ppq": 480,
+      "tempo_us_per_quarter": 500000,
+      "time_signature": "4/4",
+      "channel": 10,
+      "end_tick": 23040,
+      "sections": [
+        {
+          "marker": "A pedal on beats 2 and 4",
+          "start_tick": 0,
+          "end_tick_exclusive": 7680,
+          "expected_note_on": 32,
+          "expected_attack_ticks": 24,
+          "expected_cc4": 0
+        },
+        {
+          "marker": "B pedal on beats 1 and 3",
+          "start_tick": 7680,
+          "end_tick_exclusive": 15360,
+          "expected_note_on": 32,
+          "expected_attack_ticks": 24,
+          "expected_cc4": 0
+        },
+        {
+          "marker": "C pedal on offbeats after 2 and 4",
+          "start_tick": 15360,
+          "end_tick_exclusive": 23040,
+          "expected_note_on": 32,
+          "expected_attack_ticks": 32,
+          "expected_cc4": 0
+        }
+      ],
+      "note_on_total": 96,
+      "cc4_total": 0
+    },
+    {
+      "id": "HH-6",
+      "path": "docs/courses/berklee-online/OPERC-160/charleston-pedale-avant-avec-apres-backbeat.mid",
+      "course": "OPERC-160",
+      "title": "Fermeture nominale autour du backbeat",
+      "variable": "GM44 au tick 360/480/600 de chaque mesure : 120 ticks avant, avec, ou 120 ticks après la caisse fixe au temps 2.",
+      "invariants": "Ouverture GM46 au tick 240, gate 540; kick et caisse à dates fixes, toutes les vélocités et tous les gates inchangés.",
+      "limits": "Les intervalles ouverture→GM44 de 120/240/360 ticks ne sont pas des durées de résonance, et une coïncidence MIDI ne garantit pas une attaque perçue unique.",
+      "source_ids": [
+        "operc160",
+        "gm1_keys",
+        "foot"
+      ],
+      "size_bytes": 830,
+      "git_blob_sha1": "c16fdb15d37ab3e768486b1455783a9cec3805d4",
+      "file_sha256": "40aae1a7bd016e22ad84a845b0123d8085135b29521093d5230ec3686e2f9e26",
+      "format": 0,
+      "track_count": 1,
+      "ppq": 480,
+      "tempo_us_per_quarter": 500000,
+      "time_signature": "4/4",
+      "channel": 10,
+      "end_tick": 23040,
+      "sections": [
+        {
+          "marker": "A pedal 120 ticks before snare",
+          "start_tick": 0,
+          "end_tick_exclusive": 7680,
+          "expected_note_on": 24,
+          "expected_attack_ticks": 24,
+          "expected_cc4": 0
+        },
+        {
+          "marker": "B pedal with snare",
+          "start_tick": 7680,
+          "end_tick_exclusive": 15360,
+          "expected_note_on": 24,
+          "expected_attack_ticks": 20,
+          "expected_cc4": 0
+        },
+        {
+          "marker": "C pedal 120 ticks after snare",
+          "start_tick": 15360,
+          "end_tick_exclusive": 23040,
+          "expected_note_on": 24,
+          "expected_attack_ticks": 24,
+          "expected_cc4": 0
+        }
+      ],
+      "note_on_total": 72,
+      "cc4_total": 0
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "note_on": 387,
+    "cc4": 75
+  }
+}
