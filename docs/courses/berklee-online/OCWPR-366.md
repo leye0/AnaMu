@@ -153,7 +153,7 @@ Comparer deux fichiers Ogg publics identifiés. Le [fichier Lamoureux de 1930](h
 
 ## Déclin de cymbale et contrôle de résonance : le silence des messages ne fait pas le silence de la pièce (17 novembre 2026)
 
-**Portée réelle.** [OCWPR-366, Writing and Producing for Orchestra](https://online.berklee.edu/courses/writing-and-producing-for-orchestra#syllabus) développe les techniques d'écriture orchestrale et de production; le parcours documenté dans cette fiche traite déjà de l'impact des **résonances de percussion** dans une transition formelle. Les études GM qui suivent sont **des ressources comparatives externes AnaMu** issues de [CM-343](../berklee/CM-343.md), non des devoirs attribués à OCWPR-366.
+**Portée réelle.** [OCWPR-366, Orchestration 2: Writing Techniques for Full Orchestra](https://online.berklee.edu/courses/orchestration-2-writing-techniques-for-full-orchestra#syllabus) développe les techniques d'écriture orchestrale et de production; le parcours documenté dans cette fiche traite déjà de l'impact des **résonances de percussion** dans une transition formelle. Les études GM qui suivent sont **des ressources comparatives externes AnaMu** issues de [CM-343](../berklee/CM-343.md), non des devoirs attribués à OCWPR-366.
 
 **Trois situations distinctes :**
 
