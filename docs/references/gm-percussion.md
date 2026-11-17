@@ -162,3 +162,11 @@ Le [manifeste des dix études de groove, leurs invariants et les SHA des blobs G
 
 **Ce n'est pas une liste de « grooves sonnant bien » :** les octets MIDI permettent de constater **1 518 Note On** et leurs invariants, pas la qualité esthétique ou le réalisme d'un instrumentiste. Aucun nouveau kit GM2 n'a été inventé; ces dix essais relèvent **strictement de GM1**, avec un canal mélodique de basse explicitement identifié dans l'un d'eux. Une vraie comparaison de banques exige l'usage des [quatre témoins GM1/GM2 précédents](#quatre-témoins-standard-midi-file-originaux--couverture-contrôlée-sans-écoute) et la connaissance du rendu de chaque synthétiseur.
 
+
+
+## Comparaisons supplémentaires : onze études de métrique et de contre-rythme
+
+En complément des dix grooves déjà documentés, le [manifeste des onze essais originaux sur 6/8, 3/4, 12/8, 6/4, 5/4, 7/8, 9/8 et les cycles 3:2](../data/percussion-compound-meter-studies-2026-11-17.json) fournit **1 156 Note On** et la provenance des fichiers. Les instruments restent des **sons GM1 nominaux**; les exemples portent sur les rapports de temps, pas sur la performance physique d'un instrument particulier.
+
+**Deux mises en garde :** la note de percussion GM75 utilisée comme clic de pratique dans un exercice est **Claves en GM1**, et **non le Metronome Click GM2 (note 33)**. Une suite de cinq coups 3+2 ou 2+3 avec GM76 ne certifie **aucune clave culturelle**; l'analyse des traditions réclame de véritables sources musicales et une performance attestée. [Lina S. Tabak, 2026](https://www.mtosmt.org/issues/mto.26.32.2/mto.26.32.2.tabak.php) éclaire cette séparation de la culture et d'une simple géométrie de coups.
+
