@@ -119,3 +119,20 @@ Les **12 dates** sont identiques au tick près dans les deux sections; **le nomb
 **Cas voisins :** [six croches de 6/8 vers 3/4](OCMUS-105/six-croches-6-8-vers-3-4.mid) et [7/8 avec trois accentuations sans changement de signature](OCMUS-105/sept-huit-trois-groupements-identiques.mid) sont documentés dans [OCMUS-105](OCMUS-105.md#mètres-composés-trois-contre-deux-et-pulsation-sans-clic--huit-témoins-de-la-deuxième-passe-17-novembre-2026). On ne doit **pas** déduire du nom d'un mètre une origine culturelle, ni présenter GM76 comme **bombo, guasá ou cununo réel**. À titre de mise en garde ethnomusicologique, le [currulao étudié par Luis Tabak, 2026](https://www.mtosmt.org/issues/mto.26.32.2/mto.26.32.2.tabak.php) possède des instruments, voix, traditions, danse et schémas de perception explicitement situés, qui **ne sauraient se réduire à douze clics GM**.
 
 **Classement :** MIDI_DIRECT pour notes, durations et signatures; MIDI_PROXY pour hiérarchie et fonction du groove; CONTEXT_REQUIRED pour tradition et technique; AUDIO_REQUIRED pour battue entendue et qualité musicale. La présence de la leçon sur les métriques composées n'est **pas** la preuve que ce fichier est un exercice officiel de Berklee.
+
+
+## 5/4 : cinq noires constantes, deux groupements et une version neutre (17 novembre 2026)
+
+Le [vrai syllabus de Yoron Israel pour *Drum Set Performance 101*](https://online.berklee.edu/courses/drum-set-performance-101#syllabus) atteste la lecture et la coordination en **5/4**, **6/8**, **9/8** et **12/8**. Il ne donne **pas** les notes de cette nouvelle étude d'AnaMu; l'apprentissage de la coordination chez un batteur est toujours **une pratique exécutée**.
+
+[MIDI original 5/4, douze mesures](./OPERC-160/cinq-quatre-deux-hierarchies-et-neutre.mid) : **60 Note On**, vingt par section de quatre mesures. Chaque mesure contient **cinq noires** GM56 aux ticks locaux **0, 480, 960, 1 440, 1 920**, total **2 400 ticks**. Signature 5/4 et tempo de noire 120 **inchangés**. Seule la force des coups varie (98 contre 42) :
+
+| Section | Indices accentués | Groupement proposé |
+|---|---|---|
+| A | **0, 3** | **3+2** |
+| B | **0, 2** | **2+3** |
+| C | **0, 1, 2, 3, 4** | Cinq attaques égales, **aucun regroupement différentiel encodé** |
+
+**L'égalité des vélocités de C n'implique pas absence de mètre perçu.** Le 5/4 écrit, les autres instruments et les frontières de phrase peuvent encore imposer un centre d'accent. Le même principe existe en [9/8 avec trois groupements](OCMUS-105/neuf-huit-trois-hierarchies.mid), mais il s'agit alors de **neuf croches**, pas de cinq noires. Et le [12/8 contre 6/4](OPERC-160/douze-pulsations-12-8-vers-6-4.mid) démontre qu'une même quantité de croches peut être projetée en battues de durée différente. La coordination mains/pieds, le phrasé et l'interprétation des accents **ne sont jamais validés par un seul GM56**.
+
+**Classification :** MIDI_DIRECT pour les 60 attaques, périodes, vélocités et signatures; MIDI_PROXY pour groupement et fonction de l'accent; CONTEXT_REQUIRED pour doigté et cadre de cours; AUDIO_REQUIRED pour battue ressentie. [Inventaire des 11 études](../../data/percussion-compound-meter-studies-2026-11-17.json). L'étude demeure **hors syllabus original**.

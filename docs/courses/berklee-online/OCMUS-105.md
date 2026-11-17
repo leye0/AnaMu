@@ -130,3 +130,28 @@ Le **marqueur 7/8 reste inchangé**. Ces groupements sont des **propositions de 
 ### Verdict de la passe composée
 
 **Cinq MIDI originaux de cette fiche, contrôlés sur GitHub :** **48 + 36 + 60 + 84 + 236 = 464 attaques**, signatures exactes, fins appariées, marqueurs de chaque variante et **aucune écoute**. Les trois autres études de ce lot sont reliées à [OPERC-160](OPERC-160.md#jeux-composés--douze-croches-constant-dune-mesure-à-lautre-17-novembre-2026) et [OMPRD-386](OMPRD-386.md#dissonance-de-déplacement-timeline-sur-deux-mesures-et-retour--17-novembre-2026). **MIDI_DIRECT** : données et fractions; **MIDI_PROXY** : rôle des accents, tension, découpage supposé; **CONTEXT_REQUIRED** : notation, genre, gestes et cultures; **AUDIO_REQUIRED** : sensation de tempo, dictée, performance, polymétrie ou stabilité de pulsation éprouvées.
+
+
+## 9/8 et cycles 4 contre 3 : ce que les accents prouvent et ne prouvent pas (17 novembre 2026)
+
+**Ancrage.** Le [syllabus de Matt Sharrock](https://online.berklee.edu/courses/time-and-rhythm-1#syllabus) atteste les mètres complexes **5, 7, 9** (leçon 5), les **hémioles** (3), le simple/composé (2, 8), et les changements de signatures (12). Les deux MIDI ci-dessous sont **originaux d'AnaMu** et ne reproduisent aucun devoir officiel.
+
+### C-6 — trois manières de lire neuf croches en 9/8
+
+[MIDI original, 12 mesures](./OCMUS-105/neuf-huit-trois-hierarchies.mid) : **108 Note On**, soit 36 dans chaque bloc de quatre mesures, toujours **neuf croches GM42 par mesure**, au même **9/8** et tempo de noire 120. Les **dates, numéros de notes et nombre de frappes sont identiques** entre blocs; seules les vélocités fortes (99 contre 43) passent de :
+
+| Section | Grouper les neuf croches | Indices accentués (de 0 à 8) |
+|---|---|---|
+| A | **3+3+3** | **0, 3, 6** |
+| B | **2+2+2+3** | **0, 2, 4, 6** |
+| C | **3+2+2+2** | **0, 3, 5, 7** |
+
+La mesure fait **2 160 ticks**, toujours neuf unités de 240 ticks. **Trois appuis contre quatre** ne sont pas trois métriques écrites : la Time Signature reste 9/8. Il faut encore une partition avec ligatures, des accents notés ou une écoute pour juger de **l'organisation effectivement suivie**. Rien n'autorise à associer ces trois arrangements GM42 à une tradition particulière.
+
+### C-7 — un 4/4 explicitement noté avec un cycle concurrent de trois noires
+
+[MIDI original, 12 mesures](./OCMUS-105/quatre-quarts-contre-cycle-trois-temps.mid) : **68 notes on**, soit **30** dans les six premières mesures, **38** dans les six suivantes. Les 30 coups de base (quatre noires GM42 par mesure, appui GM56 à la barre) sont **identiques au tick et à la vélocité près** dans les deux blocs. Dans le second, **huit GM75** supplémentaires marquent un **cycle de trois noires**, à intervalles de **1 440 ticks**, tandis que les barres 4/4 reviennent tous les **1 920 ticks**. Les deux appuis coïncident au **tick 0 puis au tick 5 760** relativement au deuxième bloc — **trois mesures de 4/4** contre **quatre périodes de trois noires**. Le **seul méta-événement de signature est 4/4**, donc le fichier ne contient **pas deux signatures simultanées**.
+
+Ces intervalles prouvent un **désaccord de frontières cycliques**, mais ne prouvent **pas** que l'auditeur entend deux mètres autonomes. Les battues élémentaires restent même **sur la même grille de noires**, ce qui peut favoriser un seul mètre perçu et des accents déplacés plutôt qu'une vraie polymétrie. [Luis Tabak, *Revisiting Polymeter*, *Music Theory Online* 32(2), 2026](https://www.mtosmt.org/issues/mto.26.32.2/mto.26.32.2.tabak.php) examine précisément le rôle des **flux différenciés, de la projection métrique, de l'attente et de l'enculturation**, sans que son corpus de currulao soit copié ici. [Nicole Biamonte, 2014](https://mtosmt.org/issues/mto.14.20.2/mto.14.20.2.biamonte.html) distingue **dissonances de déplacement et de groupement**. Ces modèles académiques encadrent une **hypothèse** sur ce MIDI, pas un résultat d'écoute.
+
+**Protocole de réemploi :** séparer les pistes GM56 et GM75, marquer leurs accents et coïncidences, puis seulement après demander ce qui serait entendu avec ou sans le guide GM42, dans une orchestration équilibrée. Un auditeur pourrait suivre le 4/4, le 3/4 projeté ou simplement un motif composite. Les résultats de cette épreuve sont **AUDIO_REQUIRED** et non acquis. Avec les cinq études précédentes, les **sept MIDI originaux de cette fiche totalisent 640 attaques**. [Manifeste des onze études](../../data/percussion-compound-meter-studies-2026-11-17.json).
