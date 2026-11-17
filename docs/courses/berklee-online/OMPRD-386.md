@@ -143,3 +143,33 @@ Le retour **A = D a été vérifié sur les événements MIDI** (mêmes dates lo
 **Nuance théorique.** Le déplacement d'appuis sur un cycle régulier ne peut être correctement qualifié qu'en distinguant niveau de mètre, rythme de surface, groupements et **interprétation perceptive**. [Biamonte, 2014](https://mtosmt.org/issues/mto.14.20.2/mto.14.20.2.biamonte.html) justifie de garder distinctes les **dissonances de déplacement** et **de regroupement**. [Tabak, 2026](https://www.mtosmt.org/issues/mto.26.32.2/mto.26.32.2.tabak.php) rappelle en outre que les représentations métriques peuvent dépendre de l'enculturation, notamment pour les musiques du Pacifique colombien. Ces sources ne doivent **pas** servir à inventer un accompagnement de currulao depuis un simple GM76.
 
 **Verdict de cette deuxième passe sur OMPRD-386 :** **deux fichiers, 360 notes on** (192 + 168), aucun nouveau code de production, aucun audio écouté ni performance instrumentale. La distinction tempo / grille / accent / phase / fonction formelle se lit dans la description; la preuve directe concerne **les octets MIDI**, et l'évaluation esthétique reste **AUDIO_REQUIRED**. [Inventaire complet](../../data/percussion-compound-meter-studies-2026-11-17.json).
+
+
+## La batterie tout entière peut être en retard sans que ses membres soient désynchronisés — 17 novembre 2026
+
+**Source du cours et comparaison expérimentale.** Le [syllabus de Programming and Producing Drum Beats, Erik Hawkins](https://online.berklee.edu/courses/programming-and-producing-drum-beats#syllabus) traite bien d'enregistrement MIDI en temps réel (leçon 2), de mécanique du kit et de programmation réaliste (3), de **Groove Quantize (8)**, d'amélioration de batterie captée (9), d'interaction en section rythmique (10) et de mix (12). Il ne publie **aucun preset de « humanization » à +16 ticks** ni l'expérience suivante : les chiffres appartiennent exclusivement à une **étude AnaMu originale**.
+
+[**Fichier MIDI — quatre choix de référence temporelle**](./OMPRD-386/microtiming-snare-kick-tous-instruments.mid). **105 BPM, PPQ 480**, quatre blocs de quatre mesures, **48 notes par bloc, 192 en tout**. Le son nominal et la vélocité de chaque coup restent les mêmes entre les quatre blocs : GM42 charleston, GM38 caisse, GM36 grosse caisse. Voici les variations **relevées des événements directement depuis GitHub** :
+
+| Bloc | Charleston | Caisse claire | Grosse caisse | Sens de la manipulation |
+|---|---:|---:|---:|---|
+| A | 0 tick | 0 tick | 0 tick | Référence sur la grille. |
+| B | 0 | **+16** | 0 | Caisse claire **en retard relativement** aux autres couches. |
+| C | 0 | 0 | **+16** | Grosse caisse **en retard relativement** aux autres couches. |
+| D | **+16** | **+16** | **+16** | Toute la batterie **translatée ensemble** : les écarts entre coups restent les mêmes qu'en A. |
+
+À **105 BPM**, 16 ticks correspondent à environ **19,05 millisecondes**. **En B et C**, ce sont les **rapports temporels entre instruments** qui changent. **En D**, la batterie complète est décalée d'autant **par rapport à la grille théorique**, mais ses relations internes sont conservées. Selon la présence d'une **basse, d'un métronome ou d'un autre groupe**, l'interprétation d'une translation globale sera différente de celle d'une caisse seule en retard.
+
+**Les sources empiriques rendent le modèle plus exigeant.** [*Mapping timing and intensity strategies in drum-kit performance of a simple back-beat pattern*, *Journal of New Music Research* 51 (2022)](https://doi.org/10.1080/09298215.2022.2150649) compare les asynchronies inter-instruments et les stratégies de timing/intensité : **plusieurs batteurs peuvent choisir des combinaisons différentes**. [*Timing Is Everything…Or Is It?*, *Music Perception* 38(1), 2020](https://online.ucpress.edu/mp/article-abstract/38/1/1/111733/Timing-Is-Everything-Or-Is-It-Effects-of) a fait jouer **22 batteurs professionnels** sur différents patterns et références. Ces publications **n'établissent pas** que +16 ticks soit bon, mauvais, ou le timing de ces artistes.
+
+**Encore plus important : son de l'attaque ≠ perception de la battue.** [Anne Danielsen, Justin London, Martin Torvik Langerød et Guilherme Schmidt Câmara, *All About That Bass Drum?*, *Annals of the New York Academy of Sciences*, 16 juin 2026](https://doi.org/10.1111/nyas.70306) étudient le **centre perceptif (P-center)** de sons musicaux combinés. La nature de l'attaque, notamment celle du kick, participe au moment où un événement est perçu. Un échantillon à attaque lente peut donner un **centre perçu** après son Note On MIDI; il ne suffit donc pas d'observer deux timestamps égaux pour affirmer que deux sons semblent jouer précisément ensemble.
+
+**Procédure d'analyse musicale sérieuse :**
+
+1. Connaître l'origine de **la grille de référence** : métronome, accompagnement, prise humaine, MIDI quantifié ou reconstruction hypothétique.
+2. Comparer **les écarts inter-instruments** indépendamment des écarts **globaux à la grille** : la différence kick–snare–hat n'est pas la moyenne des retards de tout le groupe.
+3. Comparer **les vélocités par instrument** et non la vélocité totale; si plusieurs pistes changent de dynamique ensemble, ne pas conclure à un décalage temporel.
+4. En présence d'audio, mesurer séparément **l'attaque acoustique, l'enveloppe**, la résonance, les chevauchements et la possible position du P-center; il n'existe **pas** de conversion universelle d'un contrôleur GM en timing perçu.
+5. Pour une composition, protéger **les relations qui portent le groove** avant d'appliquer une humanization; un décalage global peut être volontaire et **ne nécessite pas d'ajouter des erreurs aléatoires à chaque membre**.
+
+**Limites de preuve.** MIDI_DIRECT : 192 notes, marqueurs, +16 ticks, égalité des vélocités, relation intra-batterie. MIDI_PROXY : tension, laid-back/pushed, équilibre. AUDIO_REQUIRED : P-center, fusion, groove et qualités du sample. CONTEXT_REQUIRED : référence de performance, configuration et style. L'étude est documentée dans le [manifeste de cette passe](../../data/percussion-performance-gesture-studies-2026-11-17.json). **Aucun échantillon n'a été rendu ou écouté, aucun moteur de groove ni logiciel de quantification n'a été développé.**

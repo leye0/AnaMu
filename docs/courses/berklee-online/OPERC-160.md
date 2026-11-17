@@ -136,3 +136,52 @@ Le [vrai syllabus de Yoron Israel pour *Drum Set Performance 101*](https://onlin
 **L'égalité des vélocités de C n'implique pas absence de mètre perçu.** Le 5/4 écrit, les autres instruments et les frontières de phrase peuvent encore imposer un centre d'accent. Le même principe existe en [9/8 avec trois groupements](OCMUS-105/neuf-huit-trois-hierarchies.mid), mais il s'agit alors de **neuf croches**, pas de cinq noires. Et le [12/8 contre 6/4](OPERC-160/douze-pulsations-12-8-vers-6-4.mid) démontre qu'une même quantité de croches peut être projetée en battues de durée différente. La coordination mains/pieds, le phrasé et l'interprétation des accents **ne sont jamais validés par un seul GM56**.
 
 **Classification :** MIDI_DIRECT pour les 60 attaques, périodes, vélocités et signatures; MIDI_PROXY pour groupement et fonction de l'accent; CONTEXT_REQUIRED pour doigté et cadre de cours; AUDIO_REQUIRED pour battue ressentie. [Inventaire des 11 études](../../data/percussion-compound-meter-studies-2026-11-17.json). L'étude demeure **hors syllabus original**.
+
+
+## Du déclencheur MIDI au batteur : six contrôles du geste et du toucher — 17 novembre 2026
+
+**Portée du cours réellement attestée.** Le [syllabus officiel de Drum Set Performance 101, Yoron Israel](https://online.berklee.edu/courses/drum-set-performance-101#syllabus) développe la tenue des baguettes, l'égalité des mains, la lecture, la coordination à **deux, trois et quatre membres**, les rudiments, la dynamique, le toucher et le répertoire : leçons **3 : ghost notes**, **4 : single stroke roll et triples croches**, **5 : double-stroke open roll**, **7 : half-time shuffle**, et les leçons de mesure composée. Les six études nouvelles qui suivent sont **des expériences originales AnaMu**, pas des exercices publiés ni une captation des performances d'étudiants. Le [référentiel de 14 études, relues dans les octets GitHub](../../data/percussion-performance-gesture-studies-2026-11-17.json) conserve les preuves et limites. **MIDI_DIRECT** pour l'événement, mais la technique réelle n'est pas déjà prouvée.
+
+### G1 — les mêmes 112 notes peuvent imposer un conflit de main
+
+[Quatre pistes de responsabilité, huit mesures en 4/4](./OPERC-160/coordination-quatre-membres-et-conflit-une-main.mid), **104 BPM**, deux sections de quatre mesures, **56 Note On par section**. Les numéros GM1 : **42** charleston, **38** caisse claire, **36** grosse caisse, **44** charleston à la pédale. Les pistes descriptives indiquent **main droite, main gauche, pied droit, pied gauche**. A : main droite frappe huit croches de charleston et gauche les caisses fortes de 2/4. B : les frappes GM42 exactement **aux temps 2 et 4** sont transférées à la piste **main gauche**, déjà chargée de la caisse GM38 à ces mêmes instants.
+
+**Invariant relu après publication :** mêmes 112 événements sonores sur la totalité du fichier, et **exactement les mêmes 56 événements relatifs, dates et vélocités** entre A et B, si l'on ignore la piste d'attribution. **Mais** en B, à chacun des temps 2 et 4, deux surfaces distinctes sont attribuées à **un seul membre** au même instant. Sur une batterie ordinaire **avec une seule baguette dans cette main**, ce doigté explicite exige une révision. Il n'est pas pour autant impossible d'obtenir ce **résultat sonore** : l'autre main peut prendre une frappe, deux surfaces peuvent être atteintes par un dispositif particulier, ou les parties peuvent être redistribuées.
+
+**Règle pour AnaMu :** une piste qui s'appelle « LEFT HAND » est une **annotation humaine non normalisée par General MIDI**, pas un membre déterminé automatiquement par le son GM38. Les pistes A/B constituent un **contre-exemple construit** : mêmes notes ne signifient pas mêmes mouvements ni même faisabilité. [PAS, *Paradiddles: The Whole Story in a Nutshell*](https://pas.org/pas-blog/paradiddles-the-whole-story-in-a-nutshell/) montre que les choix de main changent effectivement la technique; ce texte externe n'est pas un devoir de Berklee.
+
+### G2 — deux pédales sur deux pieds, puis deux obligations sur le même
+
+[MIDI original, huit mesures](./OPERC-160/pedales-deux-pieds-ou-un-seul.mid), **108 BPM**, 52 Note On par bloc. GM36 et GM44 sont frappés **ensemble au début de chaque mesure**. En A, la piste **pied droit** commande la grosse caisse et la piste **pied gauche** la pédale de charleston. En B, les mêmes coups de GM44 sont annotés sur la **piste du pied droit**, qui joue déjà GM36 à la même date. Le résultat sonore GM **reste rigoureusement identique A/B** : ce sont les obligations corporelles indiquées qui changent.
+
+**Analyse :** vérifier **identité du membre**, **pédale attendue**, **instant de collision** et **matériel réellement monté**. La convention GM 44 n'encode ni la chaussure ni la position de pédale. Une technique spéciale ou une machinerie distincte peut changer les contraintes. Sans connaître les gestes et le kit, le MIDI donne **un indice de problème de répartition**, pas un verdict automatique d'impossibilité.
+
+### G3 — flam : un coup d'ornement est un événement, pas encore un geste
+
+[Flam à trois séparations, douze mesures](./OPERC-160/flam-grace-gap-0-24-48-ticks.mid), **100 BPM** (une noire de 480 ticks = 600 ms). A : **16 coups principaux** de caisse claire dans quatre mesures. B : les mêmes 16 frappes principales plus **16 petites frappes GM38** à vélocité 34 exactement **24 ticks = 30 ms avant**. C : mêmes frappes principales plus 16 ornementations **48 ticks = 60 ms avant**. **80 Note On** en tout, en blocs **16 / 32 / 32**. Les principales conservent **les mêmes dates et vélocités**.
+
+La [Percussive Arts Society classe les flams parmi les 40 rudiments](https://pas.org/rudiments/). Le cours **OPERC-160** les enseigne réellement. Mais aucun de ces deux faits ne transforme les paires de messages GM38 en **flams bien exécutés** : il faudrait indiquer quelle main joue le coup faible, le coup fort, l'écart spatial, la hauteur de baguette, le son composite, l'articulation et l'éventuelle vitesse de passage. Les valeurs 30/60 ms sont **choisies comme contrastes quantifiés**, pas recommandées comme seuils esthétiques ou pédagogiques universels.
+
+**Réinvestissement :** garder la phrase et la partie principale fixes, ajouter une grâce faible, puis demander au percussionniste de contrôler les deux mains et la différence entre **deux frappes reconnaissables** et **un seul effet de flam**. Cette dernière évaluation est AUDIO_REQUIRED et CONTEXT_REQUIRED.
+
+### G4 — coups simples contre coups doubles : la répartition de la main est l'inconnue musicale
+
+[Étude des RLRL contre RRLL](./OPERC-160/roulement-simple-et-double-doigte.mid), **92 BPM**, **128 frappes de caisse GM38**, 64 dans chacune des deux séries de quatre mesures, **16 doubles-croches par mesure**, aux **mêmes dates et mêmes vélocités**. Une piste se nomme main droite, une autre main gauche. A : alternance **RLRL**. B : groupes **RRLL**. Les coups sont enregistrés en notes GM38 et les responsabilités en **noms de pistes** uniquement.
+
+**Ce qui est attesté par une source professionnelle :** [la liste des 40 rudiments PAS](https://pas.org/rudiments/) sépare single-stroke, double-stroke, paradiddles, flams et drags; [Joel Rothman, PAS, 2021](https://pas.org/pas-blog/paradiddles-the-whole-story-in-a-nutshell/) précise comment le paradiddle mêle coups simples et doubles et expose des inversions. **Ce qui reste inconnu** : le rebond réel, la continuité du poignet, la sonorité d'un double, la fatigue, les accents résultants. **Un Note On par double-croche ne code pas le rebond de la baguette.**
+
+### G5 — ghost notes : même rythme, contraste dynamique variable
+
+[Étude de contraste faible/moyen/faible](./OPERC-160/ghost-note-contraste-faible-moyen-backbeat.mid), **109 BPM**, **168 notes au total**, trois blocs **56 / 56 / 56**. Même grosse caisse, même charleston et mêmes coups de caisse claire forte sur 2/4, vélocité **101**. Deux frappes supplémentaires de caisse à vélocité **26**, puis **58**, puis **26**, aux mêmes positions de doubles-croches par mesure (ticks locaux **360 et 1 320**). Les événements et dates sont **tous inchangés**, seule la valeur des deux faibles notes change.
+
+**Ce que cette manipulation mesure :** une **hiérarchie numérique** de vélocité au sein d'un instrument. Elle n'établit **ni le rapport de volume en dB**, ni si les deux notes restent « ghost » dans une banque utilisant des couches de samples distinctes. Le syllabus enseigne explicitement les ghost notes à la leçon 3; le [dossier PAS sur *Ghost Note Funk*](https://pas.org/pas-blog/groove-of-the-month-ghost-note-funk/) offre un contexte professionnel différent. Une vraie interprétation dépend de la surface, du toucher, de l'équilibre des membres et de l'oreille.
+
+### G6 — subdivisions droites, shuffle et demi-temps : deux transformations successives
+
+[Étude 12 mesures en trois blocs](./OPERC-160/shuffle-droit-inegal-demi-temps.mid), **112 BPM**, **144 notes** divisées en **48 / 48 / 48**. A : paires de charleston **240/240 ticks**, caisse claire accentuée sur 2 et 4. B : on passe aux intervalles **320/160 ticks** en laissant **caisse et grosse caisse strictement identiques**. C : les croches inégales restent identiques à B, mais la caisse forte est placée au **temps 3** (tick 960) et une faible note de caisse au **temps 2** (tick 480, vélocité 34).
+
+**Contrôles séparés :** A→B modifie la **subdivision de charleston**, pas la grosse caisse ni le backbeat. B→C modifie le **rôle et la force de caisse**, pas le rapport de charleston ni le kick. Le tempo de noire et le nombre de frappes restent identiques tout au long. La leçon 7 de Berklee mentionne vraiment *Half-Time Shuffle*, mais cette étude **n'est pas une transcription de « Rosanna »** ni une garantie de feel ou de style.
+
+### Verdict académique et musical de ce lot
+
+**Six nouveaux fichiers de cette fiche : 112 + 104 + 80 + 128 + 168 + 144 = 736 Note On**, relus directement sur les blobs GitHub, notes équilibrées avec note-offs, marqueurs de section présents, métriques 4/4 et PPQ 480. Des collisions d'obligations de membres sont **documentées dans les noms de pistes**, pas extraites automatiquement de la norme GM1. Une vraie évaluation de performance demanderait vidéo, partition de doigtés, kit explicitement monté et écoute. **Pas d'exécution humaine, pas de jugement sur les styles et aucune modification du cursus.**
