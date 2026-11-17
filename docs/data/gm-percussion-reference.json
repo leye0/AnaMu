@@ -1,0 +1,483 @@
+{
+  "title": "Référentiel factuel GM1 / GM2 des percussions pour les analyses documentaires AnaMu",
+  "status": "référence de lecture (aucun moteur, aucun syllabus de cours, aucune garantie de rendu)",
+  "last_reviewed": "2026-11-17",
+  "source_urls": [
+    "https://midi.org/general-midi-level-1",
+    "https://midi.org/general-midi-2",
+    "https://www.cs.cmu.edu/~music/cmp/archives/cmsip/readings/GMSpecs_PercMap.htm",
+    "https://www.cs.cmu.edu/~music/cmp/archives/cmsip/readings/GMSpecs_Patches.htm",
+    "https://midi.community/docs/general-midi/"
+  ],
+  "conventions": {
+    "midi_channel_on_wire": 9,
+    "human_channel": 10,
+    "all_midi_notes_0_to_127": true,
+    "drum_note_range_gm1": [
+      35,
+      81
+    ],
+    "drum_note_range_gm2": [
+      27,
+      87
+    ],
+    "program_changes_wire_zero_based": true,
+    "gm1_program_change_does_not_select_standardized_drums": true,
+    "gm2_rhythm_bank_cc0_msb": 120,
+    "gm2_rhythm_bank_cc32_lsb": 0,
+    "non_gm_drums_needs_context": true
+  },
+  "gm1_drum_notes": [
+    {
+      "note": 35,
+      "name": "Acoustic Bass Drum",
+      "family": "grosse_caisse"
+    },
+    {
+      "note": 36,
+      "name": "Bass Drum 1",
+      "family": "grosse_caisse"
+    },
+    {
+      "note": 37,
+      "name": "Side Stick",
+      "family": "caisse_claire"
+    },
+    {
+      "note": 38,
+      "name": "Acoustic Snare",
+      "family": "caisse_claire"
+    },
+    {
+      "note": 39,
+      "name": "Hand Clap",
+      "family": "clap"
+    },
+    {
+      "note": 40,
+      "name": "Electric Snare",
+      "family": "caisse_claire"
+    },
+    {
+      "note": 41,
+      "name": "Low Floor Tom",
+      "family": "toms"
+    },
+    {
+      "note": 42,
+      "name": "Closed Hi-Hat",
+      "family": "charleston"
+    },
+    {
+      "note": 43,
+      "name": "High Floor Tom",
+      "family": "toms"
+    },
+    {
+      "note": 44,
+      "name": "Pedal Hi-Hat",
+      "family": "charleston"
+    },
+    {
+      "note": 45,
+      "name": "Low Tom",
+      "family": "toms"
+    },
+    {
+      "note": 46,
+      "name": "Open Hi-Hat",
+      "family": "charleston"
+    },
+    {
+      "note": 47,
+      "name": "Low-Mid Tom",
+      "family": "toms"
+    },
+    {
+      "note": 48,
+      "name": "Hi-Mid Tom",
+      "family": "toms"
+    },
+    {
+      "note": 49,
+      "name": "Crash Cymbal 1",
+      "family": "cymbales"
+    },
+    {
+      "note": 50,
+      "name": "High Tom",
+      "family": "toms"
+    },
+    {
+      "note": 51,
+      "name": "Ride Cymbal 1",
+      "family": "cymbales"
+    },
+    {
+      "note": 52,
+      "name": "Chinese Cymbal",
+      "family": "cymbales"
+    },
+    {
+      "note": 53,
+      "name": "Ride Bell",
+      "family": "cymbales"
+    },
+    {
+      "note": 54,
+      "name": "Tambourine",
+      "family": "idiophones"
+    },
+    {
+      "note": 55,
+      "name": "Splash Cymbal",
+      "family": "cymbales"
+    },
+    {
+      "note": 56,
+      "name": "Cowbell",
+      "family": "idiophones"
+    },
+    {
+      "note": 57,
+      "name": "Crash Cymbal 2",
+      "family": "cymbales"
+    },
+    {
+      "note": 58,
+      "name": "Vibraslap",
+      "family": "idiophones"
+    },
+    {
+      "note": 59,
+      "name": "Ride Cymbal 2",
+      "family": "cymbales"
+    },
+    {
+      "note": 60,
+      "name": "Hi Bongo",
+      "family": "peaux"
+    },
+    {
+      "note": 61,
+      "name": "Low Bongo",
+      "family": "peaux"
+    },
+    {
+      "note": 62,
+      "name": "Mute Hi Conga",
+      "family": "peaux"
+    },
+    {
+      "note": 63,
+      "name": "Open Hi Conga",
+      "family": "peaux"
+    },
+    {
+      "note": 64,
+      "name": "Low Conga",
+      "family": "peaux"
+    },
+    {
+      "note": 65,
+      "name": "High Timbale",
+      "family": "peaux"
+    },
+    {
+      "note": 66,
+      "name": "Low Timbale",
+      "family": "peaux"
+    },
+    {
+      "note": 67,
+      "name": "High Agogo",
+      "family": "idiophones"
+    },
+    {
+      "note": 68,
+      "name": "Low Agogo",
+      "family": "idiophones"
+    },
+    {
+      "note": 69,
+      "name": "Cabasa",
+      "family": "idiophones"
+    },
+    {
+      "note": 70,
+      "name": "Maracas",
+      "family": "idiophones"
+    },
+    {
+      "note": 71,
+      "name": "Short Whistle",
+      "family": "effets"
+    },
+    {
+      "note": 72,
+      "name": "Long Whistle",
+      "family": "effets"
+    },
+    {
+      "note": 73,
+      "name": "Short Guiro",
+      "family": "idiophones"
+    },
+    {
+      "note": 74,
+      "name": "Long Guiro",
+      "family": "idiophones"
+    },
+    {
+      "note": 75,
+      "name": "Claves",
+      "family": "idiophones"
+    },
+    {
+      "note": 76,
+      "name": "Hi Wood Block",
+      "family": "idiophones"
+    },
+    {
+      "note": 77,
+      "name": "Low Wood Block",
+      "family": "idiophones"
+    },
+    {
+      "note": 78,
+      "name": "Mute Cuica",
+      "family": "peaux"
+    },
+    {
+      "note": 79,
+      "name": "Open Cuica",
+      "family": "peaux"
+    },
+    {
+      "note": 80,
+      "name": "Mute Triangle",
+      "family": "idiophones"
+    },
+    {
+      "note": 81,
+      "name": "Open Triangle",
+      "family": "idiophones"
+    }
+  ],
+  "gm2_extra_drums": [
+    {
+      "note": 27,
+      "name": "High Q"
+    },
+    {
+      "note": 28,
+      "name": "Slap"
+    },
+    {
+      "note": 29,
+      "name": "Scratch Push"
+    },
+    {
+      "note": 30,
+      "name": "Scratch Pull"
+    },
+    {
+      "note": 31,
+      "name": "Sticks"
+    },
+    {
+      "note": 32,
+      "name": "Square Click"
+    },
+    {
+      "note": 33,
+      "name": "Metronome Click"
+    },
+    {
+      "note": 34,
+      "name": "Metronome Bell"
+    },
+    {
+      "note": 82,
+      "name": "Shaker"
+    },
+    {
+      "note": 83,
+      "name": "Jingle Bell"
+    },
+    {
+      "note": 84,
+      "name": "Belltree"
+    },
+    {
+      "note": 85,
+      "name": "Castanets"
+    },
+    {
+      "note": 86,
+      "name": "Mute Surdo"
+    },
+    {
+      "note": 87,
+      "name": "Open Surdo"
+    }
+  ],
+  "gm2_drum_kits": [
+    {
+      "program_1_based": 1,
+      "program_wire_0_based": 0,
+      "name": "Standard"
+    },
+    {
+      "program_1_based": 9,
+      "program_wire_0_based": 8,
+      "name": "Room"
+    },
+    {
+      "program_1_based": 17,
+      "program_wire_0_based": 16,
+      "name": "Power"
+    },
+    {
+      "program_1_based": 25,
+      "program_wire_0_based": 24,
+      "name": "Electronic"
+    },
+    {
+      "program_1_based": 26,
+      "program_wire_0_based": 25,
+      "name": "Analog"
+    },
+    {
+      "program_1_based": 33,
+      "program_wire_0_based": 32,
+      "name": "Jazz"
+    },
+    {
+      "program_1_based": 41,
+      "program_wire_0_based": 40,
+      "name": "Brush"
+    },
+    {
+      "program_1_based": 49,
+      "program_wire_0_based": 48,
+      "name": "Orchestra"
+    },
+    {
+      "program_1_based": 57,
+      "program_wire_0_based": 56,
+      "name": "SFX"
+    }
+  ],
+  "gm1_melodic_or_percussive_programs": [
+    {
+      "program_1_based": 9,
+      "program_wire_0_based": 8,
+      "name": "Celesta",
+      "channel": "canaux mélodiques, pas canal 10 sous GM1"
+    },
+    {
+      "program_1_based": 10,
+      "program_wire_0_based": 9,
+      "name": "Glockenspiel",
+      "channel": "canaux mélodiques, pas canal 10 sous GM1"
+    },
+    {
+      "program_1_based": 11,
+      "program_wire_0_based": 10,
+      "name": "Music Box",
+      "channel": "canaux mélodiques, pas canal 10 sous GM1"
+    },
+    {
+      "program_1_based": 12,
+      "program_wire_0_based": 11,
+      "name": "Vibraphone",
+      "channel": "canaux mélodiques, pas canal 10 sous GM1"
+    },
+    {
+      "program_1_based": 13,
+      "program_wire_0_based": 12,
+      "name": "Marimba",
+      "channel": "canaux mélodiques, pas canal 10 sous GM1"
+    },
+    {
+      "program_1_based": 14,
+      "program_wire_0_based": 13,
+      "name": "Xylophone",
+      "channel": "canaux mélodiques, pas canal 10 sous GM1"
+    },
+    {
+      "program_1_based": 15,
+      "program_wire_0_based": 14,
+      "name": "Tubular Bells",
+      "channel": "canaux mélodiques, pas canal 10 sous GM1"
+    },
+    {
+      "program_1_based": 16,
+      "program_wire_0_based": 15,
+      "name": "Dulcimer",
+      "channel": "canaux mélodiques, pas canal 10 sous GM1"
+    },
+    {
+      "program_1_based": 48,
+      "program_wire_0_based": 47,
+      "name": "Timpani",
+      "channel": "canaux mélodiques, pas canal 10 sous GM1"
+    },
+    {
+      "program_1_based": 113,
+      "program_wire_0_based": 112,
+      "name": "Tinkle Bell",
+      "channel": "canaux mélodiques, pas canal 10 sous GM1"
+    },
+    {
+      "program_1_based": 114,
+      "program_wire_0_based": 113,
+      "name": "Agogo",
+      "channel": "canaux mélodiques, pas canal 10 sous GM1"
+    },
+    {
+      "program_1_based": 115,
+      "program_wire_0_based": 114,
+      "name": "Steel Drums",
+      "channel": "canaux mélodiques, pas canal 10 sous GM1"
+    },
+    {
+      "program_1_based": 116,
+      "program_wire_0_based": 115,
+      "name": "Woodblock",
+      "channel": "canaux mélodiques, pas canal 10 sous GM1"
+    },
+    {
+      "program_1_based": 117,
+      "program_wire_0_based": 116,
+      "name": "Taiko Drum",
+      "channel": "canaux mélodiques, pas canal 10 sous GM1"
+    },
+    {
+      "program_1_based": 118,
+      "program_wire_0_based": 117,
+      "name": "Melodic Tom",
+      "channel": "canaux mélodiques, pas canal 10 sous GM1"
+    },
+    {
+      "program_1_based": 119,
+      "program_wire_0_based": 118,
+      "name": "Synth Drum",
+      "channel": "canaux mélodiques, pas canal 10 sous GM1"
+    },
+    {
+      "program_1_based": 120,
+      "program_wire_0_based": 119,
+      "name": "Reverse Cymbal",
+      "channel": "canaux mélodiques, pas canal 10 sous GM1"
+    }
+  ],
+  "cautions": [
+    "Les noms décrivent des familles de sons; pas d'échantillon ni de technique d'exécution fixés.",
+    "GM1 canal 10 est une convention GM: les fichiers MIDI hors GM / GS / XG / GM2 demandent analyse des banks, programmes et SysEx.",
+    "Les numéros de notes sur canal percussif ne sont pas des hauteurs mélodiques; les programmes 9 à 16 et 48 sont mélodiques.",
+    "Les kits GM2 sont des variantes de son; 9 × 61 n'est pas un inventaire de 549 instruments différents.",
+    "Le note-off ou une longue valeur ne prouve ni choke réel, ni pédalage, ni roulement, ni durée acoustique."
+  ]
+}
