@@ -217,6 +217,32 @@ Le [syllabus réel OCMUS-105](courses/berklee-online/OCMUS-105.md) fournit une m
 
 **Limites communes :** MIDI_DIRECT pour événements datés, signature effectivement encodée et opération mathématique contrôlable; MIDI_PROXY pour structure rythmique supposée et accents, CONTEXT_REQUIRED pour la notation/les traditions/le geste, AUDIO_REQUIRED pour pulsation, résonance et intelligibilité. Cette section est une **synthèse documentaire**, pas une implémentation ni une garantie de qualité auditive.
 
+
+#### General MIDI : 47 noms ne sont pas 47 instrumentistes — 17 novembre 2026
+
+**Provenance.** La [carte factuelle GM1/GM2](references/gm-percussion.md) est un **référentiel technique**, avec [données nom/numéro](data/gm-percussion-reference.json), provenant de la [MIDI Association](https://midi.org/general-midi-level-1) et de sources comparatives. Elle n'est pas un syllabus d'université. Elle approfondit réellement [CM-343](courses/berklee/CM-343.md#general-midi--cartographier-47-frappes-composer-avec-31-noms-de-percussion-17-novembre-2026), et croise [CM-320](courses/berklee/CM-320.md#réemploi-de-la-carte-gm--une-mesure-change-de-longueur-pas-seulement-daccent-17-novembre-2026), [MTE-2114](courses/udem/MTE-2114.md#percussions-gm1-et-programmes-mélodiques--deux-systèmes-de-numérotation-à-ne-jamais-fusionner-17-novembre-2026), [MTE-2115](courses/udem/MTE-2115.md#general-midi-nest-pas-un-orchestre-de-47-percussionnistes-17-novembre-2026) et [OCMUS-105](courses/berklee-online/OCMUS-105.md#une-vraie-démonstration-gm-de-44-vers-78-ne-certifie-pas-la-battue-intérieure-17-novembre-2026).
+
+**Une grille de cinq identités non interchangeables :**
+
+| Dimension du MIDI | Ce que dit la source | Exemples qui réfutent un raccourci |
+|---|---|---|
+| **Canal et standard déclaré** | GM1 canal 10 humain (octet canal 9) réserve une carte de percussion, mais GM2/GS/XG et banques propriétaires peuvent employer d'autres conventions. | « Tout canal 10 = toujours GM1 » et « aucun autre canal ne peut être rythmique » sont **faux** en général. |
+| **Note on, numéro de note** | Dans la carte GM1, 35–81 signifient **47 catégories nominales** de sons percussifs; GM2 ajoute **14 positions** (27–34, 82–87) pour une carte étendue de 61 numéros. | La **note 60** sur canal 10 = **Hi Bongo**, pas « do4 » en tant que hauteur mélodique. |
+| **Program Change** | Sur **canal mélodique**, programme affiché 12 / octet 11 = **Vibraphone**. Sur canal 10 GM2, le programme **sélectionne un kit** (avec banque rythmique). | « PC 48 = note MIDI 48 », « programme 12 = 12e coup de percussion » : faux. |
+| **Bank Select / reset** | En GM2, **CC0=120, CC32=0 puis Program Change** sélectionnent un kit; neuf choix standards aux numéros affichés **1,9,17,25,26,33,41,49,57**. | Un PC seul n'est pas une preuve **universelle** d'un kit sur un lecteur non initialisé, et les neuf variantes ne font pas 9 × 61 instruments physiquement indépendants. |
+| **Geste / interprète / acoustique** | La vélocité et la durée MIDI ordonnent la synthèse; le standard ne fixe pas rebonds, mailloches, étouffements physiques ni courbes de déclin des samples. | **Note off ≠ choke de cymbale; note longue ≠ buzz roll; 31 numéros GM ≠ 31 percussionnistes.** |
+
+**Quatre nouveaux fichiers originaux vérifiés, sans imposer d'écoute :**
+
+1. [GM1 — 47 touches numérotées](courses/berklee/CM-343/gm1-atlas-47.mid) : **47 notes 35–81 distinctes**, et 47 marqueurs, toutes sur canal 10. Il s'agit d'un **atlas**, pas d'une composition.
+2. [GM1 — étude de 16 mesures](courses/berklee/CM-343/gm1-ensemble-16-mesures.mid) : **309 notes on**, réparties en **261 frappes GM1** utilisant **31 numéros distincts**, et **48 notes sur un programme mélodique Vibraphone**. La métrique passe de **4/4 à 7/8** au tick **15 360**, sans changement de tempo; fin au tick **28 800**, soit 30 s théoriques à 120 BPM. L'étude demeure **non auditionnée**; elle documente une grammaire, pas un groove esthétiquement validé.
+3. [GM2 — 14 touches supplémentaires](courses/berklee/CM-343/gm2-atlas-14-nouvelles-notes.mid) : notes **27–34 et 82–87**, avec bank select rythmique, programme standard, **GM2 On**, 14 marqueurs.
+4. [GM2 — mêmes frappes dans neuf kits](courses/berklee/CM-343/gm2-neuf-kits-comparaison.mid) : **270 attaques** en neuf paires de mesures; neuf valeurs PC **0,8,16,24,25,32,40,48,56**, précédées de la banque GM2. Les **queues de résonance peuvent se chevaucher entre kits** : commandes vérifiées ≠ comparaison auditive contrôlée.
+
+**Règle pour une nouvelle analyse de fichier, sans développer de moteur maintenant.** (1) Identifier **la source du MIDI et le standard annoncé**, y compris les SysEx si connus. (2) Lire **les banques, les Program Change, les canaux et les notes** dans cet ordre, avant de donner un **nom d'instrument**. (3) Relier les événements à une **fonction musicale plausible** : assise, pulsation, ponctuation, contre-rythme, couleur ou résonance-pont; les simultanéités et les notes de programmes chromatiques exigent des traitements distincts. (4) Confronter les **portées, baguettes, gestes et temps de déplacement** à des sources de performance, sans inventer un seul interprète. (5) Séparer les résultats **MIDI_DIRECT** des indices **MIDI_PROXY**, des preuves **CONTEXT_REQUIRED** et des effets **AUDIO_REQUIRED**.
+
+**Ce que cela change dans les connaissances et pas dans le logiciel :** on peut nommer **des familles de percussion plus variées** et lire les programmes mélodiques GM, mais cela ne transforme pas une SoundFont générique en orchestre documenté. Le dictionnaire constitue un **référentiel figé**; le projet n'a pas reçu d'analyseur MIDI, de banque synthétique, de test de moteur, de promotion de cursus ni de jugement d'écoute.
+
 #### Choisir selon la contrainte musicale
 
 Une relation d’analyse devient utile à la création quand elle aide à prendre une décision, y compris à rejeter une option. Pour chaque consigne, distinguer la partie de l’œuvre concernée, les contraintes fermes et ce qui relève encore d’un choix. Consulter ensuite les exemples et le contre-cas qui tranche l’ambiguïté. Quand les preuves ne permettent pas de prédire ce qui sera entendu, ne livrer que les propriétés vérifiables et formuler l’alternative à écouter.
