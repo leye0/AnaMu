@@ -146,7 +146,9 @@ Liens de recherche, sans identité de syllabus : [CM-312 Boston](../berklee/CM-3
 
 [Écouter « Trois mesures ou quatre »](OCOMP-485/trois-mesures-ou-quatre.mp3) · [Télécharger le MIDI](https://raw.githubusercontent.com/leye0/AnaMu/main/docs/courses/berklee-online/OCOMP-485/trois-mesures-ou-quatre.mid)
 
-**Rendu révisé.** La timbale est au premier plan. La clarinette garde les mêmes départs et durées, mais elle joue plus bas dans le mix et quatre hauteurs par bloc ont été ajustées pour supprimer ses frottements de demi-ton avec l’accompagnement. Les attaques de timbale et leurs horaires n’ont pas changé.
+**Version en fa majeur.** Le piano, le grave, les cordes et la clarinette ont été réécrits ensemble, avec les mêmes rythmes. L’harmonie alterne entre **fa majeur, do majeur et ré mineur**, avec quelques fa majeurs sur basse de la. Le passage de do à fa aux m. 16–17 fixe la même arrivée dans les quatre versions. Chaque la de timbale tombe sur fa majeur ou ré mineur, dont il est une note d’accord. Les 23 coups de timbale gardent leur hauteur, leur vélocité et leur position MIDI. L’équilibre du rendu laisse la clarinette en arrière-plan.
+
+**Contrôle de la comparaison.** Quand on veut comparer deux placements rythmiques, garder la même progression et vérifier que le signal s’accorde aussi avec l’harmonie à son nouvel emplacement. Une note admissible dans la gamme peut encore frotter avec l’accord en cours. Ici, le relevé vérifie que les notes jouées appartiennent aux accords sur toute leur durée écrite. Au rendu, comparer à volume égal et suivre le coup de timbale indépendamment du motif de clarinette.
 
 **Comparateur original.** En quatre blocs de 21 s, les mesures de 3/4 durent toutes **1 s**. Une même phrase commence par quatre mesures d’établissement, réserve m. 5–16 au contraste et retrouve la même arrivée à m. 17. Piano, cordes et clarinette sont strictement les mêmes dans les quatre blocs. Le grave conserve ses hauteurs, durées et départs. Ses vélocités ne changent que dans D. Les timbales ont la même hauteur, durée et vélocité à chaque signal de la fenêtre.
 
