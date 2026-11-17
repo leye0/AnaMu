@@ -133,3 +133,25 @@ Sur des **canaux mélodiques** et avec les notes définissant alors **des hauteu
 * **Vérifier les exemples existants :** [CM-343, exemple GM1](../courses/berklee/CM-343.md#audit-indépendant-du-vrai-exemple-gm--quatre-mesures-de-batterie-pas-un-solo-de-multi-percussion-17-novembre-2026) emploie 36, 38, 42, 49, donc **quatre des 47 entrées nominales**; son reste de vocabulaire ne prouve aucune composition réalisée. C'est précisément la place de ce référentiel, pas une preuve de maîtrise.
 
 **Frontière du projet :** ces tables et observations sont **des données documentaires externes** utilisables pour approfondir les cours, **pas un moteur d'analyse**, ni un nouveau cours dans le registre académique. L'application à l'écriture reste dans [CM-343](../courses/berklee/CM-343.md), [CM-320](../courses/berklee/CM-320.md), [MTE-2114](../courses/udem/MTE-2114.md) et [OCMUS-105](../courses/berklee-online/OCMUS-105.md).
+
+
+## Quatre témoins Standard MIDI File originaux — couverture contrôlée, sans écoute
+
+Les **quatre fichiers ci-dessous** sont des créations AnaMu du 17 novembre 2026; les deux premiers sont **GM1**, les deux derniers **GM2**. Ils ne sont **ni des exercices officiels de CM-343 ni des rendus audio**, et leur audit ne prouve pas la qualité de la banque sonore, l'authenticité de technique ni le plaisir musical.
+
+| Usage | MIDI réel (lien vers les octets GitHub) | Structure et couverture vérifiées |
+|---|---|---|
+| **Atlas GM1** | [GM1 — 47 touches isolées](../courses/berklee/CM-343/gm1-atlas-47.mid) | Type 1, 480 ticks/noire, 120 BPM, 47 notes **35–81**, 47 marqueurs nommés; **47 événements**, canal 10 humain exclusivement. |
+| **Étude GM1 composée** | [GM1 — ensemble 16 mesures](../courses/berklee/CM-343/gm1-ensemble-16-mesures.mid) | 8 × 4/4 puis 8 × 7/8 au tempo 120, **261 frappes GM1** (31 numéros différents) et **48 notes de vibraphone** (PC 11, affiché 12) = **309 attaques**, fin au tick 28 800. |
+| **Atlas des ajouts GM2** | [GM2 — 14 touches étendues](../courses/berklee/CM-343/gm2-atlas-14-nouvelles-notes.mid) | Type 1, **GM2 On SysEx**, banque percussions CC0=120 et CC32=0, PC0, 14 événements sur les notes **27–34 et 82–87**, 14 marqueurs de noms, aucune note pendante. |
+| **Neuf kits GM2** | [GM2 — un même rythme dans neuf kits](../courses/berklee/CM-343/gm2-neuf-kits-comparaison.mid) | Type 1, 9 séquences de **deux mesures de 4/4** à 120 BPM; même motif de **30 frappes par kit**, soit **270 attaques**; **9 Program Change** sur canal 10, aux valeurs transmises 0/8/16/24/25/32/40/48/56, chacune précédée de CC0=120, CC32=0. |
+
+### Ce que ces fichiers permettent de constater (et ce qu'ils ne peuvent pas garantir)
+
+* **GM1** : les numéros 35–81 sont bien parcourus dans l'atlas; les marqueurs textuels indiquent le nom correspondant à la convention. Des lecteurs MIDI **non GM1** peuvent ignorer le reset ou déclencher des sons non conformes, sans que le fichier soit corrompu.
+* **GM2** : le message SysEx **GM2 On** est bien présent sous forme d'événement Standard MIDI File (F0, longueur, données **7E 7F 09 03 F7**). Chaque kit est choisi par **Bank Select** et **Program Change**, donc le fichier donne les informations nécessaires à un synthétiseur **GM2 compatible**. Le kit **SFX** et les variantes **Orchestra/Brush** ne sont pas de simples changements de volume du kit Standard; ils peuvent modifier l'identité ou l'existence d'un son à une touche donnée.
+* **Contrôle de qualité non perceptif** : chaque événement note on a un note off, toutes les pistes ont une fin valide, les valeurs de canal, de programme et de signature ont été **relues après publication sur GitHub**. Cela n'implique **aucune écoute de cette version**, aucune analyse spectrale de ses samples, aucun succès de changement de kit dans un lecteur arbitraire.
+* **Comparaison inter-kits et contamination par les queues de son** : deux mesures d'attaques identiques passent immédiatement au kit suivant; un sample à **longue résonance** peut chevaucher la frontière. Le test prouve la **séquence de commandes MIDI**, pas une isolation acoustique entre variantes. Pour un futur A/B audio, insérer des fenêtres de silence et fixer une banque GM2 précise avant de juger la différence.
+* **La réalité orchestrale demeure séparée** : le programme mélodique 12 (vibraphone) exige sa propre ligne de notes; les programmes GM1 113–120 incluent des **effets et instruments percussifs** dont le comportement de transposition dépend de la synthèse, sans être nécessairement des instruments **chromatiques académiques**. La convention MIDI n'établit ni type de pédale ni quatre mailloches, ni fidélité de marimba, timbales ou objets trouvés.
+
+**Application à des cours attestés :** [CM-343 — étude des percussions](../courses/berklee/CM-343.md), [CM-320 — temps et groupement](../courses/berklee/CM-320.md), [MTE-2114 — instrumentation](../courses/udem/MTE-2114.md), [OCMUS-105 — rythme intériorisé](../courses/berklee-online/OCMUS-105.md). Ne pas promouvoir le registre de cursus sur la base d'une convention de soundbank.
