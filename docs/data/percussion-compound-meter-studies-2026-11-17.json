@@ -1,0 +1,209 @@
+{
+  "title": "AnaMu — deuxième itération de percussion : mètres composés, cross-rhythm et fonctions métriques",
+  "date": "2026-11-17",
+  "prior_studies": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+  "origin": "Dossiers OPERC-160, OCMUS-105 et OMPRD-386 : vrais syllabus publics, expérimentations MIDI originales AnaMu; ne pas incorporer ces trois dossiers aux 378 cours du registre canonique.",
+  "method": "Lecture des Standard MIDI Files publiés sur GitHub en utilisant leurs blobs; contrôle de la structure des pistes, du canal 10, de la signature, des événements de marqueur, des Note On/Note Off et de la répartition des dates/vélocités.",
+  "citations": [
+    "https://online.berklee.edu/courses/time-and-rhythm-1#syllabus",
+    "https://online.berklee.edu/courses/drum-set-performance-101#syllabus",
+    "https://online.berklee.edu/courses/programming-and-producing-drum-beats#syllabus",
+    "https://www.mtosmt.org/issues/mto.26.32.2/mto.26.32.2.tabak.php",
+    "https://mtosmt.org/issues/mto.14.20.2/mto.14.20.2.biamonte.html",
+    "https://www.mtosmt.org/issues/mto.97.3.3/mto.97.3.3.taylor.html"
+  ],
+  "control_claims": [
+    "6/8 et 3/4 (ou 12/8 et 6/4) peuvent avoir exactement les mêmes six (ou douze) instants de croches par mesure; la couche d'accent et la notation du niveau de battue changent.",
+    "Un flux 3 contre 2 sur six subdivisions possède cinq notes par mesure avec quatre instants distincts lorsqu'une frappe coïncide; retirer la coïncidence donne quatre notes pour quatre instants, sans démontrer le geste humain.",
+    "Déplacer l'un des flux 3:2 change les points de coïncidence : dans les trois témoins 0, 720 et aucun, à PPQ 480.",
+    "Une composition 7/8 peut conserver ses sept dates et changer les groupements accentuels sans changer le mètre.",
+    "Le retour exact du backbeat initial est identifiable sur événements MIDI; l'évolution perceptive de tension/détente ne l'est pas.",
+    "Le clic de pratique peut devenir rare ou absent alors que la batterie continue; absence de clic de guidage n'atteste pas une pulsation intérieure fiable.",
+    "Les cinq accents 3+2 et 2+3 ne sont pas une transcription d'une clave de tradition donnée; ce sont des formes originales."
+  ],
+  "files": [
+    {
+      "id": "compound-six",
+      "course_path": "docs/courses/berklee-online/OCMUS-105.md",
+      "midi_path": "docs/courses/berklee-online/OCMUS-105/six-croches-6-8-vers-3-4.mid",
+      "github_blob_sha": "872925146d2b66d7ccafed4e9cec37ba69fc2e77",
+      "gm": "GM1",
+      "midi_format": 1,
+      "ppq": 480,
+      "tempo_quarter_bpm": 120,
+      "bars": 8,
+      "note_on_total": 48,
+      "note_on_per_section": [
+        24,
+        24
+      ],
+      "controlled_changes": "6/8 -> 3/4 à même six croches par mesure, accents [0,3] -> [0,2,4]",
+      "verified_invariants": "Même calendrier et timbre; changement simultané de notation métrique et des vélocités",
+      "listening_performed": false,
+      "perceptual_metre_validated": false,
+      "performance_proven": false
+    },
+    {
+      "id": "compound-twelve",
+      "course_path": "docs/courses/berklee-online/OPERC-160.md",
+      "midi_path": "docs/courses/berklee-online/OPERC-160/douze-pulsations-12-8-vers-6-4.mid",
+      "github_blob_sha": "fc216cc60829e4df31f4ab9505092b02c55c00dc",
+      "gm": "GM1",
+      "midi_format": 1,
+      "ppq": 480,
+      "tempo_quarter_bpm": 120,
+      "bars": 8,
+      "note_on_total": 96,
+      "note_on_per_section": [
+        48,
+        48
+      ],
+      "controlled_changes": "12/8 -> 6/4 avec douze croches continues, accents 4 x 3 ou 6 x 2",
+      "verified_invariants": "Mêmes attaques au tick près et timbre; nombre de battues de niveau supérieur non directement audible",
+      "listening_performed": false,
+      "perceptual_metre_validated": false,
+      "performance_proven": false
+    },
+    {
+      "id": "three-against-two-linear",
+      "course_path": "docs/courses/berklee-online/OCMUS-105.md",
+      "midi_path": "docs/courses/berklee-online/OCMUS-105/contre-rythme-3-contre-2-linearise.mid",
+      "github_blob_sha": "63d68a5fbb5d68d2b400e83c17610304c8d836a8",
+      "gm": "GM1",
+      "midi_format": 1,
+      "ppq": 480,
+      "tempo_quarter_bpm": 120,
+      "bars": 8,
+      "note_on_total": 36,
+      "note_on_per_section": [
+        20,
+        16
+      ],
+      "controlled_changes": "Deux flux de 3 et 2 frappes sur six subdivisions -> version sans la frappe superposée initiale",
+      "verified_invariants": "Même ensemble de 16 instants distincts sur quatre mesures; simultanéité supprimée",
+      "listening_performed": false,
+      "perceptual_metre_validated": false,
+      "performance_proven": false
+    },
+    {
+      "id": "three-against-two-phase",
+      "course_path": "docs/courses/berklee-online/OCMUS-105.md",
+      "midi_path": "docs/courses/berklee-online/OCMUS-105/contre-rythme-3-2-trois-phases.mid",
+      "github_blob_sha": "4c7a516e6734ab3d1c4dd1e03fa18eca470ec608",
+      "gm": "GM1",
+      "midi_format": 1,
+      "ppq": 480,
+      "tempo_quarter_bpm": 108,
+      "bars": 12,
+      "note_on_total": 60,
+      "note_on_per_section": [
+        20,
+        20,
+        20
+      ],
+      "controlled_changes": "Flux de 3 déplacé de 0, +240 ou +120 ticks relativement au flux de 2",
+      "verified_invariants": "Même nombre d'attaques et période; points de coïncidence au tick 0, 720 ou aucun",
+      "listening_performed": false,
+      "perceptual_metre_validated": false,
+      "performance_proven": false
+    },
+    {
+      "id": "seven-eight-rotations",
+      "course_path": "docs/courses/berklee-online/OCMUS-105.md",
+      "midi_path": "docs/courses/berklee-online/OCMUS-105/sept-huit-trois-groupements-identiques.mid",
+      "github_blob_sha": "d4d1029a48facd2e472167789d362855d4309ec9",
+      "gm": "GM1",
+      "midi_format": 1,
+      "ppq": 480,
+      "tempo_quarter_bpm": 120,
+      "bars": 12,
+      "note_on_total": 84,
+      "note_on_per_section": [
+        28,
+        28,
+        28
+      ],
+      "controlled_changes": "Sept croches en 7/8; accent 3+2+2, 2+3+2, 2+2+3",
+      "verified_invariants": "Même signature 7/8, instants, notes et durées; seules les vélocités de relief changent",
+      "listening_performed": false,
+      "perceptual_metre_validated": false,
+      "performance_proven": false
+    },
+    {
+      "id": "backbeat-displace-return",
+      "course_path": "docs/courses/berklee-online/OMPRD-386.md",
+      "midi_path": "docs/courses/berklee-online/OMPRD-386/backbeat-deplacement-tension-retour.mid",
+      "github_blob_sha": "7da062ee70e9ff53a2b9de29f30e6a000180a450",
+      "gm": "GM1",
+      "midi_format": 1,
+      "ppq": 480,
+      "tempo_quarter_bpm": 120,
+      "bars": 16,
+      "note_on_total": 192,
+      "note_on_per_section": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "controlled_changes": "Caisse déplacée de 0, +240, +120, puis retour à 0 ticks",
+      "verified_invariants": "Kick et charleston strictement inchangés; première et quatrième versions absolument identiques",
+      "listening_performed": false,
+      "perceptual_metre_validated": false,
+      "performance_proven": false
+    },
+    {
+      "id": "five-hit-phrase",
+      "course_path": "docs/courses/berklee-online/OMPRD-386.md",
+      "midi_path": "docs/courses/berklee-online/OMPRD-386/cinq-accents-3-2-vers-2-3-sans-style.mid",
+      "github_blob_sha": "939d82f89187f7cf76080e1ea400dc3c62bd958b",
+      "gm": "GM1",
+      "midi_format": 1,
+      "ppq": 480,
+      "tempo_quarter_bpm": 116,
+      "bars": 16,
+      "note_on_total": 168,
+      "note_on_per_section": [
+        84,
+        84
+      ],
+      "controlled_changes": "Timeline originale sur deux barres: 3 + 2 attaques GM76, puis 2 + 3",
+      "verified_invariants": "Même nombre de cinq notes GM76 par deux mesures, même charleston; aucun style culturel attribué",
+      "listening_performed": false,
+      "perceptual_metre_validated": false,
+      "performance_proven": false
+    },
+    {
+      "id": "metronome-gaps",
+      "course_path": "docs/courses/berklee-online/OCMUS-105.md",
+      "midi_path": "docs/courses/berklee-online/OCMUS-105/clic-muet-et-contretemps-pratique.mid",
+      "github_blob_sha": "eb91409a4b1d4d40f38a0db6b939e17a776916ba",
+      "gm": "GM1",
+      "midi_format": 1,
+      "ppq": 480,
+      "tempo_quarter_bpm": 105,
+      "bars": 16,
+      "note_on_total": 236,
+      "note_on_per_section": [
+        64,
+        64,
+        56,
+        52
+      ],
+      "controlled_changes": "Click GM75 sur temps, contretemps, temps 1 et 3, puis quatre clicks suivis de 3 mesures sans clicks",
+      "verified_invariants": "Batterie identique sur quatre sections; la disparition des clicks ne prouve pas une pulsation intériorisée",
+      "listening_performed": false,
+      "perceptual_metre_validated": false,
+      "performance_proven": false
+    }
+  ],
+  "total_files": 8,
+  "total_note_ons": 920,
+  "scope_limits": {
+    "no_new_engine": true,
+    "no_test_suite_changes": true,
+    "no_acoustic_analysis": true,
+    "no_audio_outputs": true,
+    "no_course_registry_changes": true
+  }
+}
