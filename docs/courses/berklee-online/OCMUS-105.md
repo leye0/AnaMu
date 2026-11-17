@@ -129,7 +129,7 @@ Le **marqueur 7/8 reste inchangé**. Ces groupements sont des **propositions de 
 
 ### Verdict de la passe composée
 
-**Cinq MIDI originaux de cette fiche, contrôlés sur GitHub :** **48 + 36 + 60 + 84 + 236 = 464 attaques**, signatures exactes, fins appariées, marqueurs de chaque variante et **aucune écoute**. Les trois autres études de ce lot sont reliées à [OPERC-160](OPERC-160.md#jeux-composés--douze-croches-constant-dune-mesure-à-lautre-17-novembre-2026) et [OMPRD-386](OMPRD-386.md#dissonance-de-déplacement-timeline-sur-deux-mesures-et-retour--17-novembre-2026). **MIDI_DIRECT** : données et fractions; **MIDI_PROXY** : rôle des accents, tension, découpage supposé; **CONTEXT_REQUIRED** : notation, genre, gestes et cultures; **AUDIO_REQUIRED** : sensation de tempo, dictée, performance, polymétrie ou stabilité de pulsation éprouvées.
+**Cinq MIDI originaux de cette fiche, contrôlés sur GitHub :** **48 + 36 + 60 + 84 + 236 = 464 attaques**, signatures exactes, fins appariées, marqueurs de chaque variante et **aucune écoute**. Les trois autres études de ce lot sont reliées à [OPERC-160](OPERC-160.md#jeux-composés--douze-croches-constantes-dune-mesure-à-lautre-17-novembre-2026) et [OMPRD-386](OMPRD-386.md#dissonance-de-déplacement-timeline-sur-deux-mesures-et-retour--17-novembre-2026). **MIDI_DIRECT** : données et fractions; **MIDI_PROXY** : rôle des accents, tension, découpage supposé; **CONTEXT_REQUIRED** : notation, genre, gestes et cultures; **AUDIO_REQUIRED** : sensation de tempo, dictée, performance, polymétrie ou stabilité de pulsation éprouvées.
 
 
 ## 9/8 et cycles 4 contre 3 : ce que les accents prouvent et ne prouvent pas (17 novembre 2026)
