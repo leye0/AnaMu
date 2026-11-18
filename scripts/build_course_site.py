@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REPO_URL = "https://github.com/leye0/AnaMu/blob/main/"
 RAW_URL = "https://raw.githubusercontent.com/leye0/AnaMu/main/"
 ASSESSMENTS = ROOT / "docs/data/course-algorithmic-assessments.json"
+PERCUSSION_AUDIO = ROOT / "docs/data/percussion-audio-2026-11-17.json"
 STATIC = ROOT / "site"
 HEADINGS = re.compile(r"^#{1,6}\s+(.+)$")
 APPLICATION = re.compile(r"^##\s+Application à l.analyse et à la création\b", re.I | re.M)
@@ -231,7 +232,7 @@ def main() -> None:
     if destination.exists():
         shutil.rmtree(destination)
     destination.mkdir(parents=True)
-    for asset in ("index.html", "app.js", "styles.css", "gm-player.js"):
+    for asset in ("index.html", "app.js", "styles.css", "gm-player.js", "percussions.html"):
         shutil.copyfile(STATIC / asset, destination / asset)
     (destination / ".nojekyll").write_text("", encoding="utf-8")
 
@@ -250,6 +251,20 @@ def main() -> None:
                 "example_midi": example.relative_to(ROOT).as_posix(),
                 "review_state": "online_demo",
             })
+    registered = {(row["institution"], row["code"]) for row in [*inventory["assessments"], *online_demos]}
+    percussion = json.loads(PERCUSSION_AUDIO.read_text(encoding="utf-8"))
+    for demo in percussion["supplemental_demos"]:
+        school, code = demo["institution"], demo["code"]
+        if (school, code) in registered:
+            continue
+        source = ROOT / "docs/courses" / school / (code + ".md")
+        if not source.is_file():
+            raise FileNotFoundError("Missing supplemental listening course: " + str(source))
+        online_demos.append({
+            **demo, "material_file": source.relative_to(ROOT).as_posix(),
+            "review_state": "online_demo",
+        })
+        registered.add((school, code))
     for row in [*inventory["assessments"], *online_demos]:
         school, code = row["institution"], row["code"]
         slug = re.sub(r"[^a-zA-Z0-9-]+", "-", code).strip("-")

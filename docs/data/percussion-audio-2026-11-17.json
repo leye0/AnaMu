@@ -1,0 +1,1258 @@
+{
+  "bank": "GeneralUser GS",
+  "bank_sha256": "e2ed326ff44d15f78f2fdc72403b6fa6b77ee7266d3aad0d2198bc95797bc66c",
+  "bank_url": "https://raw.githubusercontent.com/spessasus/SpessaSynth/d7b0657606602bb2072b8e28900271f1762409bb/soundfonts/GeneralUserGS.sf3",
+  "renderer": "FluidSynth 2.4.4",
+  "sample_rate": 44100,
+  "render_sample_rate": 48000,
+  "bit_rate_kbps": 96,
+  "channels": 2,
+  "synth_gain": 0.83,
+  "reverb": false,
+  "chorus": false,
+  "added_tail_seconds": 1.1,
+  "tracks": [
+    {
+      "id": "ghost-ab",
+      "group": "groove",
+      "title": "Ghost notes et backbeat",
+      "midi": "docs/courses/berklee-online/OPERC-160/ghost-notes-ab.mid",
+      "midi_blob_sha1": "e8b7e4e44f1a5077a636b226f53dd7376696178d",
+      "note_ons": 112,
+      "secs": 20.3,
+      "score_secs": 19.2,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: quatre mesures sans notes fantomes"
+        },
+        {
+          "seconds": 9.6,
+          "label": "B: quatre mesures avec quatre notes fantomes par mesure"
+        }
+      ],
+      "bytes": 244645,
+      "sha256": "4f453a35276035233e22599c30e64ff859a5d0a3d06b9f3bc0bc1e164c0af99a",
+      "peak": 0.281889,
+      "first_sound_s": 0.0019,
+      "audio_url": "audio/berklee-online/OPERC-160/ghost-notes-ab.mp3"
+    },
+    {
+      "id": "hihat-ab",
+      "group": "groove",
+      "title": "Charleston ouvert, fermé ou à la pédale",
+      "midi": "docs/courses/berklee-online/OPERC-160/hihat-ouvert-pedale-ab.mid",
+      "midi_blob_sha1": "1dbbc48e8fa6c3e70e088d969b36cebb6f31cd09",
+      "note_ons": 96,
+      "secs": 18.555,
+      "score_secs": 17.455,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: toutes les croches chapeau ferme 42"
+        },
+        {
+          "seconds": 8.727,
+          "label": "B: ouverts 46 en 4 et, fermes au pied 44 en 1 suivant"
+        }
+      ],
+      "bytes": 223661,
+      "sha256": "83a001924f1fd96111a68b07814438e3c67e81396d2c00ddd0c0097230940dea",
+      "peak": 0.265338,
+      "first_sound_s": 0.0019,
+      "audio_url": "audio/berklee-online/OPERC-160/hihat-ouvert-pedale-ab.mp3"
+    },
+    {
+      "id": "timing-factorial",
+      "group": "groove",
+      "title": "Grille, dynamique ou microtiming",
+      "midi": "docs/courses/berklee-online/OMPRD-386/quantization-groove-quatre-variables.mid",
+      "midi_blob_sha1": "2ac876c592f2f32d02d883c4fdd84f34d80c5881",
+      "note_ons": 192,
+      "secs": 33.1,
+      "score_secs": 32.0,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: grille droite, dynamique uniforme chapeau"
+        },
+        {
+          "seconds": 8.0,
+          "label": "B: uniquement changement de velocite du chapeau"
+        },
+        {
+          "seconds": 16.0,
+          "label": "C: contretemps de chapeau retardes de 24 ticks"
+        },
+        {
+          "seconds": 24.0,
+          "label": "D: caisse claire retardee de 14 ticks"
+        }
+      ],
+      "bytes": 398254,
+      "sha256": "b579142a4476b7b4af2470e35f5bdaba5138b041543e127929a467528f09f8d6",
+      "peak": 0.263556,
+      "first_sound_s": 0.0019,
+      "audio_url": "audio/berklee-online/OMPRD-386/quantization-groove-quatre-variables.mp3"
+    },
+    {
+      "id": "swing-ratios",
+      "group": "groove",
+      "title": "Swing : trois rapports de croches",
+      "midi": "docs/courses/berklee-online/OPERC-160/swing-croches-trois-rapports.mid",
+      "midi_blob_sha1": "b4bd47ad05cbdd1ad0bb96725c674274349c4479",
+      "note_ons": 144,
+      "secs": 25.1,
+      "score_secs": 24.0,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: 1:1 (240/240 ticks)"
+        },
+        {
+          "seconds": 8.0,
+          "label": "B: 2:1 (320/160 ticks)"
+        },
+        {
+          "seconds": 16.0,
+          "label": "C: 3:2 (288/192 ticks)"
+        }
+      ],
+      "bytes": 302020,
+      "sha256": "e537c93ae57c6306ec15ee4a4f5923e8d55b77998e5a4983fbac2f872357f25f",
+      "peak": 0.268291,
+      "first_sound_s": 0.0015,
+      "audio_url": "audio/berklee-online/OPERC-160/swing-croches-trois-rapports.mp3"
+    },
+    {
+      "id": "fill-arrival",
+      "group": "groove",
+      "title": "Fills, même arrivée",
+      "midi": "docs/courses/berklee-online/OMPRD-386/fills-meme-arrivee-trois-versions.mid",
+      "midi_blob_sha1": "fb408642f0afca9f83b9c31eb30147421af5e20d",
+      "note_ons": 294,
+      "secs": 56.485,
+      "score_secs": 55.385,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: 8 mesures sans fill; crash arrivee m5"
+        },
+        {
+          "seconds": 18.462,
+          "label": "B: fill derniere moitie de m4; crash arrivee m5"
+        },
+        {
+          "seconds": 36.923,
+          "label": "C: fill m4 entiere puis silence; crash arrivee m5"
+        }
+      ],
+      "bytes": 678798,
+      "sha256": "a184c803758d471643429412044ffab23be2e6e9b880c2ae3cdcfc128d98cfdc",
+      "peak": 0.374229,
+      "first_sound_s": 0.0019,
+      "audio_url": "audio/berklee-online/OMPRD-386/fills-meme-arrivee-trois-versions.mp3"
+    },
+    {
+      "id": "linear-layered",
+      "group": "groove",
+      "title": "Linéaire ou superposé",
+      "midi": "docs/courses/berklee-online/OMPRD-386/lineaire-versus-superpose.mid",
+      "midi_blob_sha1": "8d3a234d7c8a82ff72c6aa952f64ac731a05379c",
+      "note_ons": 80,
+      "secs": 17.1,
+      "score_secs": 16.0,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: hats 8 + kick 2 + snare 2 notes/mesure"
+        },
+        {
+          "seconds": 8.0,
+          "label": "B: 8 notes sans simultaneite / mesure"
+        }
+      ],
+      "bytes": 206088,
+      "sha256": "c1abd7fb162e81c3d57d56c15a1bd59cd3d0954798a6d1bb5a20b347d56714f4",
+      "peak": 0.285292,
+      "first_sound_s": 0.0019,
+      "audio_url": "audio/berklee-online/OMPRD-386/lineaire-versus-superpose.mp3"
+    },
+    {
+      "id": "paradiddle-sticking",
+      "group": "groove",
+      "title": "Paradiddle : répartition des mains",
+      "midi": "docs/courses/berklee-online/OPERC-160/paradiddle-orchestration-mains.mid",
+      "midi_blob_sha1": "9a670290ee58aed50f85f5be7c2e3206b93396ba",
+      "note_ons": 144,
+      "secs": 18.878,
+      "score_secs": 17.778,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A alternance R L 16 croches"
+        },
+        {
+          "seconds": 8.889,
+          "label": "B paradiddle RLRR LRLL en double"
+        }
+      ],
+      "bytes": 227416,
+      "sha256": "42d991dc502e15e661e55ba8b236a493b325cb7115fbf8a4cf726e49f877e8a1",
+      "peak": 0.253891,
+      "first_sound_s": 0.0019,
+      "audio_url": "audio/berklee-online/OPERC-160/paradiddle-orchestration-mains.mp3"
+    },
+    {
+      "id": "kick-bass-phase",
+      "group": "groove",
+      "title": "Basse et grosse caisse",
+      "midi": "docs/courses/berklee-online/OMPRD-386/basse-kick-alignement-anticipation-retard.mid",
+      "midi_blob_sha1": "374e0efeff1b6571dd17320e49117cee98abc97d",
+      "note_ons": 168,
+      "secs": 25.1,
+      "score_secs": 24.0,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A basse liee au kick"
+        },
+        {
+          "seconds": 8.0,
+          "label": "B basse 120 ticks avant le kick3"
+        },
+        {
+          "seconds": 16.0,
+          "label": "C basse 60 ticks apres le kick3"
+        }
+      ],
+      "bytes": 302009,
+      "sha256": "9be17726de4095fd1cf49afd32db231bf978906365b207ee570c64ed7c06daea",
+      "peak": 0.301512,
+      "first_sound_s": 0.0018,
+      "audio_url": "audio/berklee-online/OMPRD-386/basse-kick-alignement-anticipation-retard.mp3"
+    },
+    {
+      "id": "backbeat-switch",
+      "group": "groove",
+      "title": "Backbeat déplacé",
+      "midi": "docs/courses/berklee-online/OPERC-160/deplacement-backbeat-ab.mid",
+      "midi_blob_sha1": "2deef33c48226c17993760c72f6a7eb5e7356460",
+      "note_ons": 96,
+      "secs": 18.243,
+      "score_secs": 17.143,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A backbeat snare sur 2 et 4"
+        },
+        {
+          "seconds": 8.571,
+          "label": "B meme nombre de caisses sur 1 et 3"
+        }
+      ],
+      "bytes": 219876,
+      "sha256": "5fafcb00c537f3eab58c226c22db0298e2255b4a79f4386fc0d3e15c2b34aec6",
+      "peak": 0.442775,
+      "first_sound_s": 0.0019,
+      "audio_url": "audio/berklee-online/OPERC-160/deplacement-backbeat-ab.mp3"
+    },
+    {
+      "id": "timbre-swap",
+      "group": "groove",
+      "title": "Même rythme, autres percussions",
+      "midi": "docs/courses/berklee-online/OMPRD-386/percussion-timbres-grille-invariante.mid",
+      "midi_blob_sha1": "d024809ad01f7d99fa6ed5c21eac6f5267c9785e",
+      "note_ons": 192,
+      "secs": 39.5,
+      "score_secs": 38.4,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A pulse chapeau note 42"
+        },
+        {
+          "seconds": 9.6,
+          "label": "B pulse maracas note 70"
+        },
+        {
+          "seconds": 19.2,
+          "label": "C pulse claves note 75"
+        },
+        {
+          "seconds": 28.8,
+          "label": "D pulse woodblock aigu note 76"
+        }
+      ],
+      "bytes": 475054,
+      "sha256": "b10c891e9fd9737919719febe96c9ada3ec1deb90f6868f8d42506b042948e7f",
+      "peak": 0.333524,
+      "first_sound_s": 0.0019,
+      "audio_url": "audio/berklee-online/OMPRD-386/percussion-timbres-grille-invariante.mp3"
+    },
+    {
+      "id": "compound-six",
+      "group": "metre",
+      "title": "Six croches : 6/8 puis 3/4",
+      "midi": "docs/courses/berklee-online/OCMUS-105/six-croches-6-8-vers-3-4.mid",
+      "midi_blob_sha1": "872925146d2b66d7ccafed4e9cec37ba69fc2e77",
+      "note_ons": 48,
+      "secs": 13.1,
+      "score_secs": 12.0,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: 6/8, accents deux groupes de trois"
+        },
+        {
+          "seconds": 6.0,
+          "label": "B: 3/4, accents trois groupes de deux"
+        }
+      ],
+      "bytes": 158130,
+      "sha256": "99d5bce6f6c9a169cfe55ff0bb557cd8b2569018c756d30c81e6bd11c786bf5b",
+      "peak": 0.272425,
+      "first_sound_s": 0.0017,
+      "audio_url": "audio/berklee-online/OCMUS-105/six-croches-6-8-vers-3-4.mp3"
+    },
+    {
+      "id": "compound-twelve",
+      "group": "metre",
+      "title": "Douze croches : 12/8 puis 6/4",
+      "midi": "docs/courses/berklee-online/OPERC-160/douze-pulsations-12-8-vers-6-4.mid",
+      "midi_blob_sha1": "fc216cc60829e4df31f4ab9505092b02c55c00dc",
+      "note_ons": 96,
+      "secs": 25.1,
+      "score_secs": 24.0,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: 12/8, accents a 0 3 6 9"
+        },
+        {
+          "seconds": 12.0,
+          "label": "B: 6/4, accents a 0 2 4 6 8 10"
+        }
+      ],
+      "bytes": 302016,
+      "sha256": "023ef4c77f7f6a285533cba5c0ef5d7822d8e0538f3d8a3009c0a6d4c929eb80",
+      "peak": 0.258594,
+      "first_sound_s": 0.0015,
+      "audio_url": "audio/berklee-online/OPERC-160/douze-pulsations-12-8-vers-6-4.mp3"
+    },
+    {
+      "id": "three-against-two-linear",
+      "group": "metre",
+      "title": "3 contre 2 sans superposition",
+      "midi": "docs/courses/berklee-online/OCMUS-105/contre-rythme-3-contre-2-linearise.mid",
+      "midi_blob_sha1": "63d68a5fbb5d68d2b400e83c17610304c8d836a8",
+      "note_ons": 36,
+      "secs": 13.1,
+      "score_secs": 12.0,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: deux flux 3 et 2, une simultaneite"
+        },
+        {
+          "seconds": 6.0,
+          "label": "B: union des instants, premiere frappe fusionnee"
+        }
+      ],
+      "bytes": 158133,
+      "sha256": "62b80f1a17a9c8b55769b60e60e24edcc5582b94e9cd77ecd1f9f6fb9c71df3c",
+      "peak": 0.207873,
+      "first_sound_s": 0.0016,
+      "audio_url": "audio/berklee-online/OCMUS-105/contre-rythme-3-contre-2-linearise.mp3"
+    },
+    {
+      "id": "three-against-two-phase",
+      "group": "metre",
+      "title": "Trois phases du 3 contre 2",
+      "midi": "docs/courses/berklee-online/OCMUS-105/contre-rythme-3-2-trois-phases.mid",
+      "midi_blob_sha1": "4c7a516e6734ab3d1c4dd1e03fa18eca470ec608",
+      "note_ons": 60,
+      "secs": 21.1,
+      "score_secs": 20.0,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: flux 3 et 2, coincidence a 0"
+        },
+        {
+          "seconds": 6.667,
+          "label": "B: flux 3 translate +240, coincidence a 720"
+        },
+        {
+          "seconds": 13.333,
+          "label": "C: flux 3 translate +120, aucune coincidence"
+        }
+      ],
+      "bytes": 254052,
+      "sha256": "4f0afc574409f324cdf13e2f8c8f4314ab091c71a3391e3a5244e52cf7c077e6",
+      "peak": 0.234548,
+      "first_sound_s": 0.0015,
+      "audio_url": "audio/berklee-online/OCMUS-105/contre-rythme-3-2-trois-phases.mp3"
+    },
+    {
+      "id": "seven-eight-rotations",
+      "group": "metre",
+      "title": "7/8 : trois groupements",
+      "midi": "docs/courses/berklee-online/OCMUS-105/sept-huit-trois-groupements-identiques.mid",
+      "midi_blob_sha1": "d4d1029a48facd2e472167789d362855d4309ec9",
+      "note_ons": 84,
+      "secs": 22.1,
+      "score_secs": 21.0,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: 7/8, appuis 3+2+2"
+        },
+        {
+          "seconds": 7.0,
+          "label": "B: 7/8, appuis 2+3+2"
+        },
+        {
+          "seconds": 14.0,
+          "label": "C: 7/8, appuis 2+2+3"
+        }
+      ],
+      "bytes": 266274,
+      "sha256": "5014bf00405aceafab2358dd4a612f644bee1f61efd6ac9045e3513f677510e5",
+      "peak": 0.119422,
+      "first_sound_s": 0.0018,
+      "audio_url": "audio/berklee-online/OCMUS-105/sept-huit-trois-groupements-identiques.mp3"
+    },
+    {
+      "id": "backbeat-displace-return",
+      "group": "metre",
+      "title": "Backbeat : déplacement et retour",
+      "midi": "docs/courses/berklee-online/OMPRD-386/backbeat-deplacement-tension-retour.mid",
+      "midi_blob_sha1": "7da062ee70e9ff53a2b9de29f30e6a000180a450",
+      "note_ons": 192,
+      "secs": 33.1,
+      "score_secs": 32.0,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: caisse 2 et 4, ancrage stable"
+        },
+        {
+          "seconds": 8.0,
+          "label": "B: caisse +240 ticks, decalage sur et de 2/4"
+        },
+        {
+          "seconds": 16.0,
+          "label": "C: caisse +120 ticks, double-croche apres 2/4"
+        },
+        {
+          "seconds": 24.0,
+          "label": "D: retour au backbeat initial"
+        }
+      ],
+      "bytes": 398255,
+      "sha256": "9b4dce5fec6d067ed1fdb2dfa1a6ae2ab45b01f872825bb0fbd86a517b9615d9",
+      "peak": 0.26542,
+      "first_sound_s": 0.0019,
+      "audio_url": "audio/berklee-online/OMPRD-386/backbeat-deplacement-tension-retour.mp3"
+    },
+    {
+      "id": "five-hit-phrase",
+      "group": "metre",
+      "title": "Cinq accents : 3+2 puis 2+3",
+      "midi": "docs/courses/berklee-online/OMPRD-386/cinq-accents-3-2-vers-2-3-sans-style.mid",
+      "midi_blob_sha1": "939d82f89187f7cf76080e1ea400dc3c62bd958b",
+      "note_ons": 168,
+      "secs": 34.203,
+      "score_secs": 33.103,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: 3 coups bar1 + 2 bar2, phrase de 2 mesures"
+        },
+        {
+          "seconds": 16.552,
+          "label": "B: 2 coups bar1 + 3 bar2, meme cycle de 2 mesures"
+        }
+      ],
+      "bytes": 411414,
+      "sha256": "cecf19c7bb71972afe451a351043817f3bb512c13b352eaec87fa99362818e4b",
+      "peak": 0.211501,
+      "first_sound_s": 0.0015,
+      "audio_url": "audio/berklee-online/OMPRD-386/cinq-accents-3-2-vers-2-3-sans-style.mp3"
+    },
+    {
+      "id": "metronome-gaps",
+      "group": "metre",
+      "title": "Métronome : clics et trous",
+      "midi": "docs/courses/berklee-online/OCMUS-105/clic-muet-et-contretemps-pratique.mid",
+      "midi_blob_sha1": "eb91409a4b1d4d40f38a0db6b939e17a776916ba",
+      "note_ons": 236,
+      "secs": 37.671,
+      "score_secs": 36.571,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: clic sur les quatre noires"
+        },
+        {
+          "seconds": 9.143,
+          "label": "B: clic sur les quatre contretemps"
+        },
+        {
+          "seconds": 18.286,
+          "label": "C: clic sur les noires 1 et 3 seulement"
+        },
+        {
+          "seconds": 27.429,
+          "label": "D: quatre clics premiere mesure, puis trois mesures vides"
+        }
+      ],
+      "bytes": 453106,
+      "sha256": "0b2cbe0d432663c4af44805bd625750d2eb8602e058524bd69b2e118fc0a0183",
+      "peak": 0.449522,
+      "first_sound_s": 0.0017,
+      "audio_url": "audio/berklee-online/OCMUS-105/clic-muet-et-contretemps-pratique.mp3"
+    },
+    {
+      "id": "nine-eight-accents",
+      "group": "metre",
+      "title": "9/8 : trois groupements",
+      "midi": "docs/courses/berklee-online/OCMUS-105/neuf-huit-trois-hierarchies.mid",
+      "midi_blob_sha1": "bffaa01474b79184620353e7d4b6d1e96718fa30",
+      "note_ons": 108,
+      "secs": 28.1,
+      "score_secs": 27.0,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A 3+3+3"
+        },
+        {
+          "seconds": 9.0,
+          "label": "B 2+2+2+3"
+        },
+        {
+          "seconds": 18.0,
+          "label": "C 3+2+2+2"
+        }
+      ],
+      "bytes": 338059,
+      "sha256": "675c67e3dbe8a5cf98ac02d78a386a6499978cc405b3bd0f9884fee718f28671",
+      "peak": 0.120805,
+      "first_sound_s": 0.0018,
+      "audio_url": "audio/berklee-online/OCMUS-105/neuf-huit-trois-hierarchies.mp3"
+    },
+    {
+      "id": "five-four-accents",
+      "group": "metre",
+      "title": "5/4 : deux hiérarchies et un témoin",
+      "midi": "docs/courses/berklee-online/OPERC-160/cinq-quatre-deux-hierarchies-et-neutre.mid",
+      "midi_blob_sha1": "aeb07ba50dea003cdafd598b97386ee9b99831dd",
+      "note_ons": 60,
+      "secs": 31.1,
+      "score_secs": 30.0,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A 5/4 3+2"
+        },
+        {
+          "seconds": 10.0,
+          "label": "B 5/4 2+3"
+        },
+        {
+          "seconds": 20.0,
+          "label": "C cinq temps de meme intensite"
+        }
+      ],
+      "bytes": 374122,
+      "sha256": "761b449c6ad655c00315474c282bea4d0d33de1716e8d39088c485ceb7f8f548",
+      "peak": 0.191623,
+      "first_sound_s": 0.0017,
+      "audio_url": "audio/berklee-online/OPERC-160/cinq-quatre-deux-hierarchies-et-neutre.mp3"
+    },
+    {
+      "id": "four-vs-three-bar-cycle",
+      "group": "metre",
+      "title": "4/4 contre un cycle de trois noires",
+      "midi": "docs/courses/berklee-online/OCMUS-105/quatre-quarts-contre-cycle-trois-temps.mid",
+      "midi_blob_sha1": "e46bb45374694d076a10cee0f20dba5e5fe0022d",
+      "note_ons": 68,
+      "secs": 25.1,
+      "score_secs": 24.0,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A 4/4 seul pendant six mesures"
+        },
+        {
+          "seconds": 12.0,
+          "label": "B ajout du cycle de trois noires"
+        }
+      ],
+      "bytes": 302022,
+      "sha256": "15e6728be71ce4a0150e6b748e9533e72972eaa2b5e9a127fba7a767de071350",
+      "peak": 0.394628,
+      "first_sound_s": 0.0017,
+      "audio_url": "audio/berklee-online/OCMUS-105/quatre-quarts-contre-cycle-trois-temps.mp3"
+    },
+    {
+      "id": "limb-collision",
+      "group": "geste",
+      "title": "Deux surfaces, une seule main ?",
+      "midi": "docs/courses/berklee-online/OPERC-160/coordination-quatre-membres-et-conflit-une-main.mid",
+      "midi_blob_sha1": "f17de8c511ecb4e5b9dc0561b8e2450b84c1cb4b",
+      "note_ons": 112,
+      "secs": 19.562,
+      "score_secs": 18.462,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: right hand hats, left hand snare",
+          "listen_label": "Une main par surface"
+        },
+        {
+          "seconds": 9.231,
+          "label": "B: two surface strikes allocated to left hand at backbeat",
+          "listen_label": "Deux frappes attribuées à la main gauche"
+        }
+      ],
+      "bytes": 235578,
+      "sha256": "ac206aa6c249b559b7bbd6b4e4f629a51638054ed96aae5b0c2cc0b2cec94edb",
+      "peak": 0.276039,
+      "first_sound_s": 0.0019,
+      "audio_url": "audio/berklee-online/OPERC-160/coordination-quatre-membres-et-conflit-une-main.mp3"
+    },
+    {
+      "id": "pedal-foot-collision",
+      "group": "geste",
+      "title": "Deux pédales, un ou deux pieds",
+      "midi": "docs/courses/berklee-online/OPERC-160/pedales-deux-pieds-ou-un-seul.mid",
+      "midi_blob_sha1": "eb01732e4841b67a504b92f0c668270a470fa3c1",
+      "note_ons": 104,
+      "secs": 18.878,
+      "score_secs": 17.778,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: kick right foot and pedal left foot",
+          "listen_label": "Un pied par pédale"
+        },
+        {
+          "seconds": 8.889,
+          "label": "B: right foot assigned kick and pedal simultaneously",
+          "listen_label": "Les deux pédales attribuées au pied droit"
+        }
+      ],
+      "bytes": 227410,
+      "sha256": "569156a51ab85b2636fa97ffd5f86b673fb71d540865d4dbaebad18a3f2e8477",
+      "peak": 0.278402,
+      "first_sound_s": 0.0019,
+      "audio_url": "audio/berklee-online/OPERC-160/pedales-deux-pieds-ou-un-seul.mp3"
+    },
+    {
+      "id": "flam-grace-timing",
+      "group": "geste",
+      "title": "Flam et intervalle entre les deux coups",
+      "midi": "docs/courses/berklee-online/OPERC-160/flam-grace-gap-0-24-48-ticks.mid",
+      "midi_blob_sha1": "ef58ad26ce9c7018a0de6486a8dcb445d52ed1e4",
+      "note_ons": 80,
+      "secs": 29.9,
+      "score_secs": 28.8,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: main hits only",
+          "listen_label": "Frappes principales seules"
+        },
+        {
+          "seconds": 9.6,
+          "label": "B: grace notes 24 ticks early",
+          "listen_label": "Grâce à −24 ticks"
+        },
+        {
+          "seconds": 19.2,
+          "label": "C: grace notes 48 ticks early",
+          "listen_label": "Grâce à −48 ticks"
+        }
+      ],
+      "bytes": 359693,
+      "sha256": "0257f1bc19caa33cce8b65e27941291521faa1f3fcb7ed3520ae9d80af1af132",
+      "peak": 0.272502,
+      "first_sound_s": 0.3014,
+      "audio_url": "audio/berklee-online/OPERC-160/flam-grace-gap-0-24-48-ticks.mp3"
+    },
+    {
+      "id": "single-double-sticking",
+      "group": "geste",
+      "title": "Doigtés RLRL et RRLL",
+      "midi": "docs/courses/berklee-online/OPERC-160/roulement-simple-et-double-doigte.mid",
+      "midi_blob_sha1": "384905328f530c5526665f637bd52d548bc241c0",
+      "note_ons": 128,
+      "secs": 21.97,
+      "score_secs": 20.87,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: alternating RLRL",
+          "listen_label": "Alternance RLRL"
+        },
+        {
+          "seconds": 10.435,
+          "label": "B: two strokes per hand RRLL",
+          "listen_label": "Doubles RRLL"
+        }
+      ],
+      "bytes": 264717,
+      "sha256": "73ab22ff6397dd0d6afe40c7b76173c253527221ab78732614182d4d28ee2b6e",
+      "peak": 0.277138,
+      "first_sound_s": 0.0014,
+      "audio_url": "audio/berklee-online/OPERC-160/roulement-simple-et-double-doigte.mp3"
+    },
+    {
+      "id": "ghost-relative-levels",
+      "group": "geste",
+      "title": "Ghost notes faibles, moyennes, puis faibles",
+      "midi": "docs/courses/berklee-online/OPERC-160/ghost-note-contraste-faible-moyen-backbeat.mid",
+      "midi_blob_sha1": "bac1f51a2182dcce1f4868d95815e2627e2b1768",
+      "note_ons": 168,
+      "secs": 27.522,
+      "score_secs": 26.422,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: ghosts 26 strong 101",
+          "listen_label": "Ghosts à 26"
+        },
+        {
+          "seconds": 8.807,
+          "label": "B: ghosts 58 strong 101",
+          "listen_label": "Ghosts à 58"
+        },
+        {
+          "seconds": 17.615,
+          "label": "C: ghosts 26 return",
+          "listen_label": "Retour à 26"
+        }
+      ],
+      "bytes": 331181,
+      "sha256": "8a30c30e3f4db4b8925bd31f177ed9dca15fa5eaca5548c06a55f8d78b4b9f25",
+      "peak": 0.268514,
+      "first_sound_s": 0.0019,
+      "audio_url": "audio/berklee-online/OPERC-160/ghost-note-contraste-faible-moyen-backbeat.mp3"
+    },
+    {
+      "id": "reference-vs-relative-timing",
+      "group": "geste",
+      "title": "Microtiming d’une voix ou de tout le kit",
+      "midi": "docs/courses/berklee-online/OMPRD-386/microtiming-snare-kick-tous-instruments.mid",
+      "midi_blob_sha1": "363a82b1768949c3f8d532b4dcb5c62e72ea50bd",
+      "note_ons": 192,
+      "secs": 37.671,
+      "score_secs": 36.571,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: grid",
+          "listen_label": "Grille"
+        },
+        {
+          "seconds": 9.143,
+          "label": "B: snare +16",
+          "listen_label": "Caisse +16 ticks"
+        },
+        {
+          "seconds": 18.286,
+          "label": "C: kick +16",
+          "listen_label": "Kick +16 ticks"
+        },
+        {
+          "seconds": 27.429,
+          "label": "D: all instruments +16",
+          "listen_label": "Tout le kit +16 ticks"
+        }
+      ],
+      "bytes": 453118,
+      "sha256": "d8d4f587db1cad0ec9c3a7578984d6f5a156304dff82aa4c54cf36a18cf44804",
+      "peak": 0.283753,
+      "first_sound_s": 0.0019,
+      "audio_url": "audio/berklee-online/OMPRD-386/microtiming-snare-kick-tous-instruments.mp3"
+    },
+    {
+      "id": "shuffle-role",
+      "group": "geste",
+      "title": "Croches droites, shuffle et half-time",
+      "midi": "docs/courses/berklee-online/OPERC-160/shuffle-droit-inegal-demi-temps.mid",
+      "midi_blob_sha1": "ab8243da73c1360a83d3cbf86426416dcf26fa93",
+      "note_ons": 144,
+      "secs": 26.814,
+      "score_secs": 25.714,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: straight and snare 2 4",
+          "listen_label": "Croches droites, caisse 2 et 4"
+        },
+        {
+          "seconds": 8.571,
+          "label": "B: long-short 320 160 and snare 2 4",
+          "listen_label": "Croches inégales, même caisse"
+        },
+        {
+          "seconds": 17.143,
+          "label": "C: long-short same and backbeat beat 3",
+          "listen_label": "Même shuffle, appui sur 3"
+        }
+      ],
+      "bytes": 322707,
+      "sha256": "d388c228033f7016a65f29a81b88afd3db8892b1e004af224e470e89c16c4ca1",
+      "peak": 0.446591,
+      "first_sound_s": 0.0019,
+      "audio_url": "audio/berklee-online/OPERC-160/shuffle-droit-inegal-demi-temps.mp3"
+    },
+    {
+      "id": "interlocking-to-unison",
+      "group": "geste",
+      "title": "Relais puis frappes simultanées",
+      "midi": "docs/courses/berklee/CM-343/deux-percussionnistes-hocket-vers-simultaneite.mid",
+      "midi_blob_sha1": "c50f5e3236703d9dfe72035ad6afdb1dd3298427",
+      "note_ons": 64,
+      "secs": 19.562,
+      "score_secs": 18.462,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: eight distinct instants per measure",
+          "listen_label": "Coups en relais"
+        },
+        {
+          "seconds": 9.231,
+          "label": "B: four simultaneous paired instants",
+          "listen_label": "Frappes deux par deux"
+        }
+      ],
+      "bytes": 235577,
+      "sha256": "6577d56d910fecfb6e1cd970b6a4cd74939e50a9d4cc0e5d6afe811b3908f701",
+      "peak": 0.338787,
+      "first_sound_s": 0.0017,
+      "audio_url": "audio/berklee/CM-343/deux-percussionnistes-hocket-vers-simultaneite.mp3"
+    },
+    {
+      "id": "ownership-without-sound-change",
+      "group": "geste",
+      "title": "Mêmes frappes, un ou deux exécutants",
+      "midi": "docs/courses/berklee/CM-343/deux-interpretes-ou-un-meme-motif.mid",
+      "midi_blob_sha1": "4e06e836198cd0ee78e963e1664aa93ff7d51766",
+      "note_ons": 64,
+      "secs": 19.044,
+      "score_secs": 17.944,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: alternating ownership two players",
+          "listen_label": "Deux exécutants"
+        },
+        {
+          "seconds": 8.972,
+          "label": "B: identical MIDI allocated to a single player",
+          "listen_label": "Un seul exécutant"
+        }
+      ],
+      "bytes": 229608,
+      "sha256": "08e592bcb674d57bc92117751804b7020a32297998e31694d99678721842f40f",
+      "peak": 0.226593,
+      "first_sound_s": 0.0017,
+      "audio_url": "audio/berklee/CM-343/deux-interpretes-ou-un-meme-motif.mp3"
+    },
+    {
+      "id": "three-surfaces-one-vs-three",
+      "group": "geste",
+      "title": "Trois surfaces, un ou trois exécutants",
+      "midi": "docs/courses/berklee/CM-343/trois-surfaces-simultanees-affectation.mid",
+      "midi_blob_sha1": "6eeb14c51dca9b2c9413e2a1d3feaeb54f0ffec8",
+      "note_ons": 96,
+      "secs": 20.3,
+      "score_secs": 19.2,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: three simultaneous surfaces assigned to one person",
+          "listen_label": "Attribué à une personne"
+        },
+        {
+          "seconds": 9.6,
+          "label": "B: same events assigned to three people",
+          "listen_label": "Réparti entre trois"
+        }
+      ],
+      "bytes": 244660,
+      "sha256": "358111546cc45628f66b46e0179ec82f251ae59c823420d77f5a6a7bfceeb9e4",
+      "peak": 0.31468,
+      "first_sound_s": 0.0014,
+      "audio_url": "audio/berklee/CM-343/trois-surfaces-simultanees-affectation.mp3"
+    },
+    {
+      "id": "solo-setup-rest",
+      "group": "geste",
+      "title": "Caisse claire → vibraphone",
+      "midi": "docs/courses/mit/21M-351/solo-caisse-vers-vibraphone-fenetre-changement.mid",
+      "midi_blob_sha1": "e4d57c7b5013578b5154076e43714d337468f20d",
+      "note_ons": 30,
+      "secs": 20.3,
+      "score_secs": 19.2,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: no transition rest at vib entry",
+          "listen_label": "Sans temps de déplacement"
+        },
+        {
+          "seconds": 9.6,
+          "label": "B: vib entry delayed by two quarter rests",
+          "listen_label": "Deux noires de fenêtre"
+        }
+      ],
+      "bytes": 244668,
+      "sha256": "afaf4dd87bd6683bb7abe40438cff97fbf5fc75064335f1944b812bbc7441f0d",
+      "peak": 0.258777,
+      "first_sound_s": 0.0014,
+      "audio_url": "audio/mit/21M-351/solo-caisse-vers-vibraphone-fenetre-changement.mp3"
+    },
+    {
+      "id": "vibraphone-cc64",
+      "group": "geste",
+      "title": "Vibraphone et pédale de sustain",
+      "midi": "docs/courses/berklee/CM-343/vibraphone-cc64-noteoffs-invariants.mid",
+      "midi_blob_sha1": "e12135d0505ef8c4dd81365868cb30c65287266b",
+      "note_ons": 24,
+      "secs": 29.9,
+      "score_secs": 28.8,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: CC64 released",
+          "listen_label": "Pédale relâchée"
+        },
+        {
+          "seconds": 9.6,
+          "label": "B: CC64 held across four bars",
+          "listen_label": "Pédale maintenue"
+        },
+        {
+          "seconds": 19.2,
+          "label": "C: CC64 brief releases within each bar",
+          "listen_label": "Relâchements brefs"
+        }
+      ],
+      "bytes": 359700,
+      "sha256": "05011a80ac75b2ce4ee228808a6309701c6eeb4b747e97f2ab9a4d8284a84151",
+      "peak": 0.29582,
+      "first_sound_s": 0.0016,
+      "audio_url": "audio/berklee/CM-343/vibraphone-cc64-noteoffs-invariants.mp3"
+    },
+    {
+      "id": "triangle-muted-open",
+      "group": "geste",
+      "title": "Triangle ouvert ou étouffé",
+      "midi": "docs/courses/berklee/CM-343/triangle-gm80-81-memes-frappes.mid",
+      "midi_blob_sha1": "e0cc6f3a7e0656c6264d8dcf58d160b9b35d53f3",
+      "note_ons": 32,
+      "secs": 19.213,
+      "score_secs": 18.113,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: open triangle GM81",
+          "listen_label": "Triangle ouvert GM81"
+        },
+        {
+          "seconds": 9.057,
+          "label": "B: muted triangle GM80",
+          "listen_label": "Triangle étouffé GM80"
+        }
+      ],
+      "bytes": 231486,
+      "sha256": "1881aa4e7a43fcb8575c789fec6e62b55156a9a21a3dfc919dc4910d779b50a3",
+      "peak": 0.105759,
+      "first_sound_s": 0.0015,
+      "audio_url": "audio/berklee/CM-343/triangle-gm80-81-memes-frappes.mp3"
+    },
+    {
+      "id": "noteoff-is-not-sample-end",
+      "group": "geste",
+      "title": "Caisse claire, fin de note courte ou longue",
+      "midi": "docs/courses/berklee/CM-343/caisse-noteoff-court-long-reverberation-inconnue.mid",
+      "midi_blob_sha1": "483d07b84e6a2fbc94004a63c17adb967b3ff3b0",
+      "note_ons": 32,
+      "secs": 18.878,
+      "score_secs": 17.778,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: 45 tick note gate",
+          "listen_label": "45 ticks"
+        },
+        {
+          "seconds": 8.889,
+          "label": "B: 380 tick note gate",
+          "listen_label": "380 ticks"
+        }
+      ],
+      "bytes": 227429,
+      "sha256": "92243ee2bf4034d1f214fb26ccde3abb8d2b7579155e15facda0ed7d05a8f1a5",
+      "peak": 0.234361,
+      "first_sound_s": 0.0014,
+      "audio_url": "audio/berklee/CM-343/caisse-noteoff-court-long-reverberation-inconnue.mp3"
+    },
+    {
+      "id": "HH-1",
+      "group": "charleston",
+      "title": "Ouverture du charleston : avant quelle arrivée ?",
+      "midi": "docs/courses/berklee-online/OPERC-160/charleston-ouverture-interieure-ou-anacrouse.mid",
+      "midi_blob_sha1": "af375949904762acb7eb4872849ac6c07c408cd1",
+      "note_ons": 147,
+      "secs": 25.1,
+      "score_secs": 24.0,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A closed reference",
+          "listen_label": "Charleston fermé"
+        },
+        {
+          "seconds": 8.0,
+          "label": "B opening before bar 2",
+          "listen_label": "Ouverture avant la mesure 2"
+        },
+        {
+          "seconds": 16.0,
+          "label": "C opening before bar 3",
+          "listen_label": "Ouverture avant la mesure 3"
+        }
+      ],
+      "bytes": 302036,
+      "sha256": "f792bee70dc9d68f4604ab289a33f8d3d32c3fea94186c981a4725b54a0da670",
+      "peak": 0.267468,
+      "first_sound_s": 0.0018,
+      "audio_url": "audio/berklee-online/OPERC-160/charleston-ouverture-interieure-ou-anacrouse.mp3"
+    },
+    {
+      "id": "HH-2",
+      "group": "charleston",
+      "title": "Charleston : fin de note ou coup de fermeture ?",
+      "midi": "docs/courses/berklee-online/OMPRD-386/charleston-gate-fermeture-et-controles-isoles.mid",
+      "midi_blob_sha1": "e494cfb89141d271d531452d6bb5886a7a66294f",
+      "note_ons": 32,
+      "secs": 49.1,
+      "score_secs": 48.0,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A GM46 long gate",
+          "listen_label": "GM46, Note Off tardif"
+        },
+        {
+          "seconds": 8.0,
+          "label": "B GM46 short gate",
+          "listen_label": "GM46, Note Off avancé"
+        },
+        {
+          "seconds": 16.0,
+          "label": "C GM46 plus GM42",
+          "listen_label": "GM46 puis GM42"
+        },
+        {
+          "seconds": 24.0,
+          "label": "D GM46 plus GM44",
+          "listen_label": "GM46 puis GM44"
+        },
+        {
+          "seconds": 32.0,
+          "label": "E GM42 only",
+          "listen_label": "GM42 seul"
+        },
+        {
+          "seconds": 40.0,
+          "label": "F GM44 only",
+          "listen_label": "GM44 seul"
+        }
+      ],
+      "bytes": 590112,
+      "sha256": "9f8403971c37ac9a68636c149f3a8c07e96d0398386063b14349896447c7e9e9",
+      "peak": 0.082093,
+      "first_sound_s": 0.0018,
+      "audio_url": "audio/berklee-online/OMPRD-386/charleston-gate-fermeture-et-controles-isoles.mp3"
+    },
+    {
+      "id": "HH-3",
+      "group": "charleston",
+      "title": "Les mêmes frappes avec trois séries de CC4",
+      "midi": "docs/courses/berklee-online/OMPRD-386/charleston-gm46-cc4-trois-trajectoires.mid",
+      "midi_blob_sha1": "4a940e5c8d8e00ced2d0ab01243a36e42405fac9",
+      "note_ons": 24,
+      "secs": 25.1,
+      "score_secs": 24.0,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A CC4 zero",
+          "listen_label": "CC4 à 0"
+        },
+        {
+          "seconds": 8.0,
+          "label": "B CC4 max",
+          "listen_label": "CC4 à 127"
+        },
+        {
+          "seconds": 16.0,
+          "label": "C CC4 sweep",
+          "listen_label": "CC4 progressif"
+        }
+      ],
+      "bytes": 302031,
+      "sha256": "a8e5ce9395477bf78b1866974f8f9445b098709f1b4b673c8d1be8139e867dad",
+      "peak": 0.078873,
+      "first_sound_s": 0.5018,
+      "audio_url": "audio/berklee-online/OMPRD-386/charleston-gm46-cc4-trois-trajectoires.mp3"
+    },
+    {
+      "id": "HH-4",
+      "group": "charleston",
+      "title": "CC4 et frappe au même tick",
+      "midi": "docs/courses/berklee-online/OMPRD-386/charleston-cc4-ordre-meme-tick.mid",
+      "midi_blob_sha1": "3043da2352eb6be0c531dfe35bdbd4c9ef33fcda",
+      "note_ons": 16,
+      "secs": 33.1,
+      "score_secs": 32.0,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A CC4 then Note On",
+          "listen_label": "CC4 avant la frappe"
+        },
+        {
+          "seconds": 8.0,
+          "label": "B Note On then CC4",
+          "listen_label": "CC4 après la frappe"
+        },
+        {
+          "seconds": 16.0,
+          "label": "B repeat Note On then CC4",
+          "listen_label": "CC4 après (rép.)"
+        },
+        {
+          "seconds": 24.0,
+          "label": "A repeat CC4 then Note On",
+          "listen_label": "CC4 avant (rép.)"
+        }
+      ],
+      "bytes": 398249,
+      "sha256": "056085ff3a16c6d0196d2f6ac1bc9595b7123a9494dee050aa28a0108b97276d",
+      "peak": 0.077501,
+      "first_sound_s": 0.5018,
+      "audio_url": "audio/berklee-online/OMPRD-386/charleston-cc4-ordre-meme-tick.mp3"
+    },
+    {
+      "id": "HH-5",
+      "group": "charleston",
+      "title": "Ride fixe, pied sur 2/4, 1/3 ou entre les coups",
+      "midi": "docs/courses/berklee-online/OPERC-160/ride-fixe-pedale-charleston-trois-appuis.mid",
+      "midi_blob_sha1": "5e0c752b822f5a43385378fa5eacacf2071cc7a2",
+      "note_ons": 96,
+      "secs": 25.1,
+      "score_secs": 24.0,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A pedal on beats 2 and 4",
+          "listen_label": "Pied sur 2 et 4"
+        },
+        {
+          "seconds": 8.0,
+          "label": "B pedal on beats 1 and 3",
+          "listen_label": "Pied sur 1 et 3"
+        },
+        {
+          "seconds": 16.0,
+          "label": "C pedal on offbeats after 2 and 4",
+          "listen_label": "Pied entre les coups"
+        }
+      ],
+      "bytes": 302034,
+      "sha256": "0b18061f969bbf689eb8ceed71ee2ddf6867052e2668eb2d9a7975c11688183f",
+      "peak": 0.083637,
+      "first_sound_s": 0.0015,
+      "audio_url": "audio/berklee-online/OPERC-160/ride-fixe-pedale-charleston-trois-appuis.mp3"
+    },
+    {
+      "id": "HH-6",
+      "group": "charleston",
+      "title": "Pédale avant, avec ou après la caisse",
+      "midi": "docs/courses/berklee-online/OPERC-160/charleston-pedale-avant-avec-apres-backbeat.mid",
+      "midi_blob_sha1": "c16fdb15d37ab3e768486b1455783a9cec3805d4",
+      "note_ons": 72,
+      "secs": 25.1,
+      "score_secs": 24.0,
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A pedal 120 ticks before snare",
+          "listen_label": "Pédale avant la caisse"
+        },
+        {
+          "seconds": 8.0,
+          "label": "B pedal with snare",
+          "listen_label": "Pédale avec la caisse"
+        },
+        {
+          "seconds": 16.0,
+          "label": "C pedal 120 ticks after snare",
+          "listen_label": "Pédale après la caisse"
+        }
+      ],
+      "bytes": 302026,
+      "sha256": "82a201e81e305104da1c4aa96cf4754ab6a620ac32c41e127feaf28f4014af48",
+      "peak": 0.254834,
+      "first_sound_s": 0.0019,
+      "audio_url": "audio/berklee-online/OPERC-160/charleston-pedale-avant-avec-apres-backbeat.mp3"
+    }
+  ],
+  "supplemental_demos": [
+    {
+      "institution": "berklee-online",
+      "code": "OCMUS-105",
+      "example_midi": "docs/courses/berklee-online/OCMUS-105/six-croches-6-8-vers-3-4.mid"
+    },
+    {
+      "institution": "berklee-online",
+      "code": "OMPRD-386",
+      "example_midi": "docs/courses/berklee-online/OMPRD-386/quantization-groove-quatre-variables.mid"
+    },
+    {
+      "institution": "berklee-online",
+      "code": "OPERC-160",
+      "example_midi": "docs/courses/berklee-online/OPERC-160/ghost-notes-ab.mid"
+    },
+    {
+      "institution": "mit",
+      "code": "21M-351",
+      "example_midi": "docs/courses/mit/21M-351/solo-caisse-vers-vibraphone-fenetre-changement.mid"
+    }
+  ],
+  "renderer_specific_observations": {
+    "HH-3": "identiques",
+    "HH-4": "identiques",
+    "protocol": "Pour contrôler le lecteur, chaque bloc est isolé avec les mêmes messages et le même ordre, replacé au tick 0, puis synthétisé dans une instance neuve. Les MP3 livrés restent des rendus continus des fichiers MIDI d’origine.",
+    "HH-2": {
+      "fenetre_s": [
+        0.32,
+        0.65
+      ],
+      "note_off_avance_vs_reference_db": -0.9,
+      "gm42_residu_vs_open_db": -31.99,
+      "gm44_residu_vs_open_db": -31.99,
+      "note": "RMS PCM relatif entre 320 et 650 ms après la première ouverture. Pour GM42/44, retrait du témoin de fermeture seul, à gain et temps identiques. Ce relevé décrit ce kit logiciel, pas une mesure acoustique."
+    }
+  }
+}

@@ -221,3 +221,24 @@ Dans B et C, la paire est espacée de **240 ticks (250 ms)** et remplace deux GM
 **Analyse :** décrire séparément le rapport à la caisse et toute hypothèse de durée audible. **Réemploi :** essayer une articulation anticipée, groupée avec la caisse ou retardée sans déplacer le backbeat. La coïncidence en B ne dit pas si les deux timbres seront perçus comme une seule attaque. La [leçon de technique de pied de Zildjian](https://ae.zildjian.com/education/beginner-drum-set-lessons/zildjian-drum-set-method-lesson-08/) est une source externe sur le geste, pas une preuve que ces réglages encodent une vraie pédale.
 
 [Manifeste des six études HH, marqueurs, empreintes et invariants](../../data/percussion-hihat-state-studies-2026-11-17.json) · [Études complémentaires de programmation](OMPRD-386.md#charleston--note-off-état-de-pédale-et-ordre-des-événements).
+
+## Rendus audio des études de percussion
+
+MP3 rendus à partir des MIDI des études, avec la banque GeneralUser GS. Les variantes d'un même fichier restent dans la même piste, sans correction de timing, de vélocité ou d'instrumentation.
+
+- [Écouter — Ghost notes et backbeat](OPERC-160/ghost-notes-ab.mp3)
+- [Écouter — Charleston ouvert, fermé ou à la pédale](OPERC-160/hihat-ouvert-pedale-ab.mp3)
+- [Écouter — Swing : trois rapports de croches](OPERC-160/swing-croches-trois-rapports.mp3)
+- [Écouter — Paradiddle : répartition des mains](OPERC-160/paradiddle-orchestration-mains.mp3)
+- [Écouter — Backbeat déplacé](OPERC-160/deplacement-backbeat-ab.mp3)
+- [Écouter — Douze croches : 12/8 puis 6/4](OPERC-160/douze-pulsations-12-8-vers-6-4.mp3)
+- [Écouter — 5/4 : deux hiérarchies et un témoin](OPERC-160/cinq-quatre-deux-hierarchies-et-neutre.mp3)
+- [Écouter — Deux surfaces, une seule main ?](OPERC-160/coordination-quatre-membres-et-conflit-une-main.mp3)
+- [Écouter — Deux pédales, un ou deux pieds](OPERC-160/pedales-deux-pieds-ou-un-seul.mp3)
+- [Écouter — Flam et intervalle entre les deux coups](OPERC-160/flam-grace-gap-0-24-48-ticks.mp3)
+- [Écouter — Doigtés RLRL et RRLL](OPERC-160/roulement-simple-et-double-doigte.mp3)
+- [Écouter — Ghost notes faibles, moyennes, puis faibles](OPERC-160/ghost-note-contraste-faible-moyen-backbeat.mp3)
+- [Écouter — Croches droites, shuffle et half-time](OPERC-160/shuffle-droit-inegal-demi-temps.mp3)
+- [Écouter — Ouverture du charleston : avant quelle arrivée ?](OPERC-160/charleston-ouverture-interieure-ou-anacrouse.mp3)
+- [Écouter — Ride fixe, pied sur 2/4, 1/3 ou entre les coups](OPERC-160/ride-fixe-pedale-charleston-trois-appuis.mp3)
+- [Écouter — Pédale avant, avec ou après la caisse](OPERC-160/charleston-pedale-avant-avec-apres-backbeat.mp3)

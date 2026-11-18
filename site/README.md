@@ -4,6 +4,10 @@ La bibliothèque AnaMu est reconstruite automatiquement depuis **386 entrées** 
 
 Les fiches Berklee Online qui disposent d'un `exemple.mid` sont affichées séparément comme **exemples hors registre**. Elles ne modifient ni le nombre d'évaluations ni les catégories de couverture. [Écouter la doublure flûte–clarinette et le violoncelle](https://www.streamlev.com/AnaMu/?cours=berklee-online%3AOCWPR-366).
 
+## Carnet d’écoute des percussions
+
+[Page d’écoute](percussions.html) : 41 MP3, en quatre séries, avec repères par variante. Les MP3 sont liés depuis les fiches d’origine. Quatre fiches supplémentaires sont visibles hors registre via le [manifeste des rendus](../docs/data/percussion-audio-2026-11-17.json) (trois cours Berklee Online et le projet MIT). Le moteur et les totaux d’évaluation ne changent pas.
+
 ## Publication sur GitHub Pages (source : Actions)
 
 1. Ouvrir **Settings → Pages** du dépôt `leye0/AnaMu`.

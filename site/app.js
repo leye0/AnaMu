@@ -2,8 +2,8 @@
 "use strict";
 
 const $ = (id) => document.getElementById(id);
-const SCHOOLS = {udem:"Université de Montréal",mcgill:"McGill",berklee:"Berklee","berklee-online":"Berklee Online"};
-const SHORT = {udem:"UdeM",mcgill:"McGill",berklee:"Berklee","berklee-online":"Berklee Online"};
+const SCHOOLS = {udem:"Université de Montréal",mcgill:"McGill",berklee:"Berklee","berklee-online":"Berklee Online",mit:"MIT OpenCourseWare"};
+const SHORT = {udem:"UdeM",mcgill:"McGill",berklee:"Berklee","berklee-online":"Berklee Online",mit:"MIT"};
 const STATES = {
   online_demo:["Exemple hors registre","midi"],
   first_learning_analyzed_with_midi:["Écouter un MIDI","midi"],

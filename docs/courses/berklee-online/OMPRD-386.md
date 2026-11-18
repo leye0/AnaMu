@@ -206,3 +206,24 @@ La [MIDI Association](https://midi.org/midi-1-0-control-change-messages) défini
 **Analyse :** garder l'ordre écrit des événements à delta zéro dans la piste avant toute fusion/normalisation. Pour une description conditionnelle sous un profil échantillonnant l'état à l'attaque, le dernier CC4 qui précède le Note On est 127 dans A, 0 dans B. Une réexportation ou un lecteur peut réordonner, échantillonner sur un autre cycle, suivre un changement après l'attaque, ou ignorer complètement CC4. **Réemploi :** si un profil cible garantit seulement « état avant frappe », exprimer l'antériorité avec un delta positif si le contexte l'autorise; vérifier l'ordre après réexportation. Un délai d'un tick n'est ni une recommandation de jeu ni une garantie de compatibilité.
 
 [Manifeste et signatures des six études](../../data/percussion-hihat-state-studies-2026-11-17.json) · [Rôles de jeu et de groove](OPERC-160.md#charleston--destination-de-phrase-appuis-et-coordination-avec-la-caisse).
+
+## Rendus audio des études de percussion
+
+MP3 rendus à partir des MIDI des études, avec la banque GeneralUser GS. Les variantes d'un même fichier restent dans la même piste, sans correction de timing, de vélocité ou d'instrumentation.
+
+- [Écouter — Grille, dynamique ou microtiming](OMPRD-386/quantization-groove-quatre-variables.mp3)
+- [Écouter — Fills, même arrivée](OMPRD-386/fills-meme-arrivee-trois-versions.mp3)
+- [Écouter — Linéaire ou superposé](OMPRD-386/lineaire-versus-superpose.mp3)
+- [Écouter — Basse et grosse caisse](OMPRD-386/basse-kick-alignement-anticipation-retard.mp3)
+- [Écouter — Même rythme, autres percussions](OMPRD-386/percussion-timbres-grille-invariante.mp3)
+- [Écouter — Backbeat : déplacement et retour](OMPRD-386/backbeat-deplacement-tension-retour.mp3)
+- [Écouter — Cinq accents : 3+2 puis 2+3](OMPRD-386/cinq-accents-3-2-vers-2-3-sans-style.mp3)
+- [Écouter — Microtiming d’une voix ou de tout le kit](OMPRD-386/microtiming-snare-kick-tous-instruments.mp3)
+- [Écouter — Charleston : fin de note ou coup de fermeture ?](OMPRD-386/charleston-gate-fermeture-et-controles-isoles.mp3)
+- [Écouter — Les mêmes frappes avec trois séries de CC4](OMPRD-386/charleston-gm46-cc4-trois-trajectoires.mp3)
+- [Écouter — CC4 et frappe au même tick](OMPRD-386/charleston-cc4-ordre-meme-tick.mp3)
+
+
+**Contrôle en PCM avant encodage MP3.** Sur HH-2, avec FluidSynth 2.4.4 et GeneralUser GS, la fin de note avancée réduit la queue d'environ 0,9 dB RMS entre 320 et 650 ms après la première frappe ouverte. Par contraste, dans cette même fenêtre, le signal résiduel après retrait du témoin de fermeture seul descend d'environ 32 dB avec GM42 ou GM44. Ce résultat décrit le rendu de ce kit et de ce lecteur, sans conclure sur l'acoustique d'un vrai charleston.
+
+**Témoins négatifs.** Les blocs de HH-3 et HH-4, rejoués séparément avec les mêmes ticks relatifs et dans une instance neuve, donnent exactement le même signal PCM à l'intérieur de chaque comparaison. Les MP3 livrés sont les rendus intégraux des fichiers MIDI d'origine. Ils ne cherchent pas à émuler le profil de pédale du TD-27. [Protocole et empreintes](../../data/percussion-audio-2026-11-17.json).

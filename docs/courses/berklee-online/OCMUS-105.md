@@ -167,3 +167,15 @@ Ces intervalles prouvent un **désaccord de frontières cycliques**, mais ne pro
 **La notion de centre perceptif apporte une frontière de preuve supplémentaire.** [Danielsen, London, Langerød et Câmara, *All About That Bass Drum?*, 2026](https://doi.org/10.1111/nyas.70306) étudient comment les attaques acoustiques de plusieurs sons et leurs asynchronies déplacent le **P-center** du son résultant. Deux événements GM exactement au même tick ne garantissent donc **pas** que l'oreille éprouve une identité temporelle parfaite entre leurs timbres. De plus, une frappe enregistrée hors grille peut être musicalement cohérente si elle répond au **son des autres instruments**.
 
 **Comment évaluer honnêtement la formation musicale :** faire répéter un motif avec et sans clic, conserver les **sources audio**, demander une réponse corporelle (frapper, chanter, marcher la battue), mesurer la **phase des réponses** et tenir compte du timbre des signaux. Ce protocole n'est **pas réalisé** par la lecture des fichiers d'AnaMu, qui ne mesure **ni compétence corporelle, ni exactitude de dictée, ni qualité de groove**. Classification MIDI_DIRECT pour dates, MIDI_PROXY pour regroupements, CONTEXT_REQUIRED pour gestes, AUDIO_REQUIRED pour battue et synchronisation perçues.
+
+## Rendus audio des études de percussion
+
+MP3 rendus à partir des MIDI des études, avec la banque GeneralUser GS. Les variantes d'un même fichier restent dans la même piste, sans correction de timing, de vélocité ou d'instrumentation.
+
+- [Écouter — Six croches : 6/8 puis 3/4](OCMUS-105/six-croches-6-8-vers-3-4.mp3)
+- [Écouter — 3 contre 2 sans superposition](OCMUS-105/contre-rythme-3-contre-2-linearise.mp3)
+- [Écouter — Trois phases du 3 contre 2](OCMUS-105/contre-rythme-3-2-trois-phases.mp3)
+- [Écouter — 7/8 : trois groupements](OCMUS-105/sept-huit-trois-groupements-identiques.mp3)
+- [Écouter — Métronome : clics et trous](OCMUS-105/clic-muet-et-contretemps-pratique.mp3)
+- [Écouter — 9/8 : trois groupements](OCMUS-105/neuf-huit-trois-hierarchies.mp3)
+- [Écouter — 4/4 contre un cycle de trois noires](OCMUS-105/quatre-quarts-contre-cycle-trois-temps.mp3)
