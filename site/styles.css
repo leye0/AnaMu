@@ -100,3 +100,10 @@ a:hover{text-decoration:underline}button:focus-visible,a:focus-visible,input:foc
 .blind-listening button{font:inherit;font-size:13px;min-height:44px;border:1px solid #bdc8dd;border-radius:8px;padding:9px 12px;background:#fff;color:#25314a;cursor:pointer}
 .blind-listening button:disabled{opacity:.55;cursor:default}
 .blind-listening button:focus-visible,.blind-listening summary:focus-visible{outline:3px solid #7362df;outline-offset:3px}
+
+.course-score{padding:14px;border:1px solid #bdc8dd;border-radius:12px;background:#fff;min-width:0}
+.course-score summary{font-size:14px;font-weight:700;cursor:pointer;min-height:40px}
+.course-score p{font-size:13px;line-height:1.6}
+.course-score figure{margin:14px 0 0;overflow-x:auto;background:white}
+.course-score img{display:block;width:100%;min-width:700px;height:auto}
+.course-score figure:focus-visible{outline:3px solid #7362df;outline-offset:3px}

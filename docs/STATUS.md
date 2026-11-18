@@ -1,5 +1,14 @@
 # AnaMu — état opérationnel de référence (17 novembre 2026)
 
+## Partitions de travail et résonance — 18 novembre 2026
+
+**Six nouveaux MP3** des trois MIDI existants (vibraphone, triangle, caisse claire), chacun réalisé dans **deux banques à gain commun 0,72**. **Total des trois manifestes de percussion : 62 rendus**. Mesures PCM, fenêtres justifiées et cas de niveau sous le plancher numérique documentés dans [CM-343](courses/berklee/CM-343.md) et le [manifeste de résonance](data/percussion-resonance-2026-11-18.json). Les deux nouvelles comparaisons de pédale portent le total à **sept exercices sans les noms**, toujours sans réponse d’auditeur collectée.
+
+**Trois partitions de travail**, disponibles dans les cours avec aperçu, légende et **MusicXML modifiable** : deux batteries de 32 mesures (**416 / 396 attaques**) dans [OMPRD-386](courses/berklee-online/OMPRD-386.md) et un conducteur de 16 mesures à trois exécutants (**288 attaques**) dans CM-343. [Provenance des partitions](data/percussion-scores-2026-11-18.json). Les débuts, instruments et simultanéités suivent les MIDI; les articulations écrites et affectations sont proposées, les gates et résonances ne sont pas transcrits comme tenues physiques. Rendu de gravure contrôlé visuellement.
+
+**État des preuves :** nouvelles réalisations et mesures de signaux, sans nouvel enregistrement acoustique, répétition ni audition humaine. La deuxième banque hors charleston et la première notation inspectable sont faites; les validations avec interprètes et auditeurs restent ouvertes. Aucun nouveau MIDI ni moteur. Les cours et les comptes du registre principal ne changent pas. Les sections suivantes sont historiques.
+
+
 ## Itération en contexte — 17 novembre 2026
 
 **Lot de préparation retrouvé, relu et intégré : 15 MP3 supplémentaires / 12 nouveaux fichiers MIDI**, dans **quatre cours existants**. Le carnet initial de 41 rendus est conservé : **56 rendus de percussion documentés** au total dans ces deux manifestes, avec questions, exercices, repères et liens MIDI dans les fiches. Les trois reprises TimGM emploient des MIDI déjà publiés. Les trois MIDI GMD sont des sources externes inchangées; les neuf autres nouveaux fichiers sont des études ou adaptations pédagogiques. Ce ne sont pas douze compositions universitaires ni douze validations de compétence.

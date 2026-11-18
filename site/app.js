@@ -219,12 +219,45 @@ function courseListeningTrial(list, trial) {
   wrap.addEventListener("toggle", () => { if (!wrap.open) audio.pause(); });
   return wrap;
 }
-function showAudioTracks(tracks, trials = []) {
+function showAudioTracks(tracks, trials = [], scores = []) {
   const list = $("audioTracks");
   for (const audio of list.querySelectorAll("audio")) audio.pause();
   list.replaceChildren();
   $("audioSection").hidden = !tracks.length;
   for (const trial of trials) list.append(courseListeningTrial(list, trial));
+  for (const score of scores) {
+    const box = document.createElement("details");
+    box.className = "course-score";
+    const heading = document.createElement("summary");
+    heading.textContent = "Partition · " + score.title;
+    const note = document.createElement("p");
+    note.textContent = score.note + " Sur un petit écran, faire défiler la partition horizontalement ou ouvrir la page complète.";
+    const links = document.createElement("div");
+    links.className = "audio-links";
+    const viewer = document.createElement("a");
+    viewer.href = "./" + score.viewer;
+    viewer.target = "_blank";
+    viewer.rel = "noopener";
+    viewer.textContent = "Ouvrir la partition et sa légende ↗";
+    const xml = document.createElement("a");
+    xml.href = "./" + score.musicxml;
+    xml.download = "";
+    xml.textContent = "MusicXML modifiable ↓";
+    links.append(viewer, xml);
+    box.append(heading, note, links);
+    score.pages.forEach((page, index) => {
+      const frame = document.createElement("figure");
+      frame.tabIndex = 0;
+      frame.setAttribute("aria-label", "Partition, page " + (index + 1) + " — défilement horizontal");
+      const image = document.createElement("img");
+      image.loading = "lazy";
+      image.src = "./" + page;
+      image.alt = score.title + " — page " + (index + 1);
+      frame.append(image);
+      box.append(frame);
+    });
+    list.append(box);
+  }
   for (const track of tracks) {
     const row = document.createElement("div");
     const title = document.createElement("strong");
@@ -301,7 +334,7 @@ function showAudioTracks(tracks, trials = []) {
         button.textContent = label + " · " + cue.seconds.toLocaleString("fr-CA", {maximumFractionDigits: 3}) + " s";
         button.addEventListener("click", () => {
           clearSegment();
-          segment = {start: cue.seconds, end: track.cues[i + 1]?.seconds ?? track.score_seconds};
+          segment = {start: cue.seconds, end: track.cues[i + 1]?.seconds ?? track.passage_end_seconds ?? track.score_seconds};
           button.setAttribute("aria-pressed", "true");
           status.textContent = label + (loop.checked ? " — en boucle" : " — passage seul");
           seek(segment.start);
@@ -438,7 +471,7 @@ async function showCourse(id, historyUpdate) {
     const detail = await getDetail(entry);
     if (seq!==docSequence) return;
     const tracks = detail.audio || [];
-    showAudioTracks(tracks, detail.listening_trials || []);
+    showAudioTracks(tracks, detail.listening_trials || [], detail.scores || []);
     const requestedStudy = new URL(window.location.href).searchParams.get("etude");
     if (requestedStudy && tracks.some(t => t.id === requestedStudy)) {
       document.getElementById("etude-" + requestedStudy)?.scrollIntoView({block: "start"});

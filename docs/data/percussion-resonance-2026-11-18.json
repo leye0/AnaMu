@@ -1,0 +1,541 @@
+{
+  "date": "2026-11-18",
+  "scope": "Six réalisations des trois MIDI existants, sans nouvelle écoute humaine ni réécriture des sources. Comparaisons de banques et de commandes, pas d’instruments acoustiques.",
+  "render": {
+    "engine": "FluidSynth 2.4.4",
+    "sample_rate_pcm": 48000,
+    "sample_rate_mp3": 44100,
+    "bitrate_kbps": 96,
+    "fixed_synth_gain": 0.72,
+    "reverb": false,
+    "chorus": false,
+    "tail_seconds": 3,
+    "fade_last_tail_seconds": 0.05,
+    "bank_sha256": {
+      "generaluser": "e2ed326ff44d15f78f2fdc72403b6fa6b77ee7266d3aad0d2198bc95797bc66c",
+      "timgm": "c5378b62028c920cb11e4803327983fee2f2cdff5dc89c708e39da417e51c854"
+    },
+    "level_matching": "Gain numérique commun; aucune égalisation perceptive ou normalisation par bloc.",
+    "engine_note": "FluidSynth signale l’assainissement de certaines boucles d’échantillons GeneralUser lors du chargement. Banque et version identifiées; aucune conséquence auditive alléguée."
+  },
+  "tracks": [
+    {
+      "id": "resonance-vibraphone-cc64-generaluser",
+      "course": "berklee:CM-343",
+      "title": "Vibraphone et pédale de sustain · GeneralUser GS · gain commun",
+      "midi": "docs/courses/berklee/CM-343/vibraphone-cc64-noteoffs-invariants.mid",
+      "midi_sha256": "43b992c660dac8e8fac2ba253d5c9e00aaac0c76937c5cfeddb931e746264ad1",
+      "audio_url": "audio/berklee/CM-343/vibraphone-cc64-noteoffs-invariants-generaluser-gain072.mp3",
+      "audio_sha256": "77a4a99f95711868996181622630dd563a4d7a2e35b79e59af2353a660cf7f1b",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: CC64 released",
+          "listen_label": "Pédale relâchée"
+        },
+        {
+          "seconds": 9.6,
+          "label": "B: CC64 held across four bars",
+          "listen_label": "Pédale maintenue"
+        },
+        {
+          "seconds": 19.2,
+          "label": "C: CC64 brief releases within each bar",
+          "listen_label": "Relâchements brefs"
+        }
+      ],
+      "score_secs": 28.8,
+      "audio_seconds": 31.843,
+      "bank": "generaluser",
+      "note_ons": 24,
+      "peak_pcm": 0.256615,
+      "learning": {
+        "question": "Les notes se recouvrent-elles différemment avec la pédale ?",
+        "comparison": "Même fichier MIDI et mêmes réglages du moteur dans les deux nouveaux rendus; seule la banque change. Mêmes notes et Note Off; CC64 relâché, maintenu puis brièvement relâché.",
+        "exercise": "Dessiner la courbe de pédale sous les notes et localiser les nettoyages de résonance.",
+        "limit": "Le sustain logiciel ne documente ni la pédale réelle ni l’étouffement à la main ou à la baguette. Gain numérique commun 0,72, sans égalisation de niveau perçu; ces deux versions sont à comparer entre elles.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      },
+      "note": "Comparaison de banques à gain numérique commun, sans normalisation par variante. Les résonances se prolongent dans un rendu continu.",
+      "nominal_render_seconds": 31.8
+    },
+    {
+      "id": "resonance-vibraphone-cc64-timgm",
+      "course": "berklee:CM-343",
+      "title": "Vibraphone et pédale de sustain · TimGM6mb · gain commun",
+      "midi": "docs/courses/berklee/CM-343/vibraphone-cc64-noteoffs-invariants.mid",
+      "midi_sha256": "43b992c660dac8e8fac2ba253d5c9e00aaac0c76937c5cfeddb931e746264ad1",
+      "audio_url": "audio/berklee/CM-343/vibraphone-cc64-noteoffs-invariants-timgm-gain072.mp3",
+      "audio_sha256": "c78faee7fd52abda724e3d0a973991539ab920ff6eb8c2348d649071bd7ab016",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: CC64 released",
+          "listen_label": "Pédale relâchée"
+        },
+        {
+          "seconds": 9.6,
+          "label": "B: CC64 held across four bars",
+          "listen_label": "Pédale maintenue"
+        },
+        {
+          "seconds": 19.2,
+          "label": "C: CC64 brief releases within each bar",
+          "listen_label": "Relâchements brefs"
+        }
+      ],
+      "score_secs": 28.8,
+      "audio_seconds": 31.843,
+      "bank": "timgm",
+      "note_ons": 24,
+      "peak_pcm": 0.150222,
+      "learning": {
+        "question": "Les notes se recouvrent-elles différemment avec la pédale ?",
+        "comparison": "Même fichier MIDI et mêmes réglages du moteur dans les deux nouveaux rendus; seule la banque change. Mêmes notes et Note Off; CC64 relâché, maintenu puis brièvement relâché.",
+        "exercise": "Dessiner la courbe de pédale sous les notes et localiser les nettoyages de résonance.",
+        "limit": "Le sustain logiciel ne documente ni la pédale réelle ni l’étouffement à la main ou à la baguette. Gain numérique commun 0,72, sans égalisation de niveau perçu; ces deux versions sont à comparer entre elles.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      },
+      "note": "Comparaison de banques à gain numérique commun, sans normalisation par variante. Les résonances se prolongent dans un rendu continu.",
+      "nominal_render_seconds": 31.8
+    },
+    {
+      "id": "resonance-triangle-muted-open-generaluser",
+      "course": "berklee:CM-343",
+      "title": "Triangle ouvert ou étouffé · GeneralUser GS · gain commun",
+      "midi": "docs/courses/berklee/CM-343/triangle-gm80-81-memes-frappes.mid",
+      "midi_sha256": "6808bfd445cee40f34b288fdb3a283fce0daefd978797e11d0898c908d50027e",
+      "audio_url": "audio/berklee/CM-343/triangle-gm80-81-memes-frappes-generaluser-gain072.mp3",
+      "audio_sha256": "db3b4ab935a1b82d0585c369311183505256e338af0188e701527c5c9a87feb5",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: open triangle GM81",
+          "listen_label": "Triangle ouvert GM81"
+        },
+        {
+          "seconds": 9.057,
+          "label": "B: muted triangle GM80",
+          "listen_label": "Triangle étouffé GM80"
+        }
+      ],
+      "score_secs": 18.113,
+      "audio_seconds": 21.159,
+      "bank": "generaluser",
+      "note_ons": 32,
+      "peak_pcm": 0.091743,
+      "learning": {
+        "question": "Quel contraste de déclin produit cette paire de sons ?",
+        "comparison": "Même fichier MIDI et mêmes réglages du moteur dans les deux nouveaux rendus; seule la banque change. Mêmes dates et vélocités; la touche GM81 est remplacée par GM80.",
+        "exercise": "Écrire une consigne d’étouffement et préciser le geste à vérifier avec l’instrumentiste.",
+        "limit": "Deux échantillons différents ne simulent pas la trajectoire exacte d’une main sur un triangle. Gain numérique commun 0,72, sans égalisation de niveau perçu; ces deux versions sont à comparer entre elles.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      },
+      "note": "Comparaison de banques à gain numérique commun, sans normalisation par variante. Les résonances se prolongent dans un rendu continu.",
+      "nominal_render_seconds": 21.113
+    },
+    {
+      "id": "resonance-triangle-muted-open-timgm",
+      "course": "berklee:CM-343",
+      "title": "Triangle ouvert ou étouffé · TimGM6mb · gain commun",
+      "midi": "docs/courses/berklee/CM-343/triangle-gm80-81-memes-frappes.mid",
+      "midi_sha256": "6808bfd445cee40f34b288fdb3a283fce0daefd978797e11d0898c908d50027e",
+      "audio_url": "audio/berklee/CM-343/triangle-gm80-81-memes-frappes-timgm-gain072.mp3",
+      "audio_sha256": "70c9c0882a9c693e7fecda1e975cd147c194c220cd9466b9ef3b661b16d70d40",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: open triangle GM81",
+          "listen_label": "Triangle ouvert GM81"
+        },
+        {
+          "seconds": 9.057,
+          "label": "B: muted triangle GM80",
+          "listen_label": "Triangle étouffé GM80"
+        }
+      ],
+      "score_secs": 18.113,
+      "audio_seconds": 21.159,
+      "bank": "timgm",
+      "note_ons": 32,
+      "peak_pcm": 0.114099,
+      "learning": {
+        "question": "Quel contraste de déclin produit cette paire de sons ?",
+        "comparison": "Même fichier MIDI et mêmes réglages du moteur dans les deux nouveaux rendus; seule la banque change. Mêmes dates et vélocités; la touche GM81 est remplacée par GM80.",
+        "exercise": "Écrire une consigne d’étouffement et préciser le geste à vérifier avec l’instrumentiste.",
+        "limit": "Deux échantillons différents ne simulent pas la trajectoire exacte d’une main sur un triangle. Gain numérique commun 0,72, sans égalisation de niveau perçu; ces deux versions sont à comparer entre elles.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      },
+      "note": "Comparaison de banques à gain numérique commun, sans normalisation par variante. Les résonances se prolongent dans un rendu continu.",
+      "nominal_render_seconds": 21.113
+    },
+    {
+      "id": "resonance-noteoff-is-not-sample-end-generaluser",
+      "course": "berklee:CM-343",
+      "title": "Caisse claire, fin de note courte ou longue · GeneralUser GS · gain commun",
+      "midi": "docs/courses/berklee/CM-343/caisse-noteoff-court-long-reverberation-inconnue.mid",
+      "midi_sha256": "c736cc7fde96ab08003bd66e980fce08d4fd341d7550843c216b854f3e661e7f",
+      "audio_url": "audio/berklee/CM-343/caisse-noteoff-court-long-reverberation-inconnue-generaluser-gain072.mp3",
+      "audio_sha256": "4a3e44217e7249924cb72bd6a8bc240a03ea9d5267b90a334b9b812db3f3cf2d",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: 45 tick note gate",
+          "listen_label": "45 ticks"
+        },
+        {
+          "seconds": 8.889,
+          "label": "B: 380 tick note gate",
+          "listen_label": "380 ticks"
+        }
+      ],
+      "score_secs": 17.778,
+      "audio_seconds": 20.82,
+      "bank": "generaluser",
+      "note_ons": 32,
+      "peak_pcm": 0.203301,
+      "learning": {
+        "question": "Allonger la note écrite prolonge-t-il nécessairement la caisse ?",
+        "comparison": "Même fichier MIDI et mêmes réglages du moteur dans les deux nouveaux rendus; seule la banque change. Même caisse, mêmes attaques; gates de 45 puis 380 ticks.",
+        "exercise": "Séparer durée de commande et durée du son dans une annotation.",
+        "limit": "L’effet dépend de la banque; l’absence de contraste ne rend pas le Note Off inutile pour tout instrument. Gain numérique commun 0,72, sans égalisation de niveau perçu; ces deux versions sont à comparer entre elles.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      },
+      "note": "Comparaison de banques à gain numérique commun, sans normalisation par variante. Les résonances se prolongent dans un rendu continu.",
+      "nominal_render_seconds": 20.778
+    },
+    {
+      "id": "resonance-noteoff-is-not-sample-end-timgm",
+      "course": "berklee:CM-343",
+      "title": "Caisse claire, fin de note courte ou longue · TimGM6mb · gain commun",
+      "midi": "docs/courses/berklee/CM-343/caisse-noteoff-court-long-reverberation-inconnue.mid",
+      "midi_sha256": "c736cc7fde96ab08003bd66e980fce08d4fd341d7550843c216b854f3e661e7f",
+      "audio_url": "audio/berklee/CM-343/caisse-noteoff-court-long-reverberation-inconnue-timgm-gain072.mp3",
+      "audio_sha256": "0184a3401409e5d15eccccef38ac78912dac8716e199baf9307b08315644ecac",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A: 45 tick note gate",
+          "listen_label": "45 ticks"
+        },
+        {
+          "seconds": 8.889,
+          "label": "B: 380 tick note gate",
+          "listen_label": "380 ticks"
+        }
+      ],
+      "score_secs": 17.778,
+      "audio_seconds": 20.82,
+      "bank": "timgm",
+      "note_ons": 32,
+      "peak_pcm": 0.243727,
+      "learning": {
+        "question": "Allonger la note écrite prolonge-t-il nécessairement la caisse ?",
+        "comparison": "Même fichier MIDI et mêmes réglages du moteur dans les deux nouveaux rendus; seule la banque change. Même caisse, mêmes attaques; gates de 45 puis 380 ticks.",
+        "exercise": "Séparer durée de commande et durée du son dans une annotation.",
+        "limit": "L’effet dépend de la banque; l’absence de contraste ne rend pas le Note Off inutile pour tout instrument. Gain numérique commun 0,72, sans égalisation de niveau perçu; ces deux versions sont à comparer entre elles.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      },
+      "note": "Comparaison de banques à gain numérique commun, sans normalisation par variante. Les résonances se prolongent dans un rendu continu.",
+      "nominal_render_seconds": 20.778
+    }
+  ],
+  "measurements": [
+    {
+      "source_study": "vibraphone-cc64",
+      "bank": "generaluser",
+      "window_after_section_start_seconds": [
+        0.3,
+        0.8
+      ],
+      "values": [
+        {
+          "label": "Pédale relâchée",
+          "rms": 0.00717897,
+          "dbfs": -42.88,
+          "db_relative_first_section": 0.0
+        },
+        {
+          "label": "Pédale tenue",
+          "rms": 0.05448239,
+          "dbfs": -25.27,
+          "db_relative_first_section": 17.61
+        },
+        {
+          "label": "Relâchements brefs",
+          "rms": 0.05448592,
+          "dbfs": -25.27,
+          "db_relative_first_section": 17.61
+        }
+      ]
+    },
+    {
+      "source_study": "vibraphone-cc64",
+      "bank": "timgm",
+      "window_after_section_start_seconds": [
+        0.3,
+        0.8
+      ],
+      "values": [
+        {
+          "label": "Pédale relâchée",
+          "rms": 0.00565669,
+          "dbfs": -44.95,
+          "db_relative_first_section": 0.0
+        },
+        {
+          "label": "Pédale tenue",
+          "rms": 0.0368956,
+          "dbfs": -28.66,
+          "db_relative_first_section": 16.29
+        },
+        {
+          "label": "Relâchements brefs",
+          "rms": 0.03689438,
+          "dbfs": -28.66,
+          "db_relative_first_section": 16.29
+        }
+      ]
+    },
+    {
+      "source_study": "vibraphone-cc64",
+      "bank": "generaluser",
+      "window_after_section_start_seconds": [
+        1.13,
+        1.15
+      ],
+      "values": [
+        {
+          "label": "Pédale relâchée",
+          "rms": 4.017e-05,
+          "dbfs": -87.92,
+          "db_relative_first_section": 0.0
+        },
+        {
+          "label": "Pédale tenue",
+          "rms": 0.03063911,
+          "dbfs": -30.27,
+          "db_relative_first_section": 57.65
+        },
+        {
+          "label": "Relâchements brefs",
+          "rms": 0.02803107,
+          "dbfs": -31.05,
+          "db_relative_first_section": 56.87
+        }
+      ]
+    },
+    {
+      "source_study": "vibraphone-cc64",
+      "bank": "timgm",
+      "window_after_section_start_seconds": [
+        1.13,
+        1.15
+      ],
+      "values": [
+        {
+          "label": "Pédale relâchée",
+          "rms": 3.507e-05,
+          "dbfs": -89.1,
+          "db_relative_first_section": 0.0
+        },
+        {
+          "label": "Pédale tenue",
+          "rms": 0.01689243,
+          "dbfs": -35.45,
+          "db_relative_first_section": 53.65
+        },
+        {
+          "label": "Relâchements brefs",
+          "rms": 0.01558842,
+          "dbfs": -36.14,
+          "db_relative_first_section": 52.96
+        }
+      ]
+    },
+    {
+      "source_study": "triangle-muted-open",
+      "bank": "generaluser",
+      "window_after_section_start_seconds": [
+        0.2,
+        0.45
+      ],
+      "values": [
+        {
+          "label": "GM81 ouvert",
+          "rms": 0.00781691,
+          "dbfs": -42.14,
+          "db_relative_first_section": 0.0
+        },
+        {
+          "label": "GM80 étouffé",
+          "rms": 1.53e-06,
+          "dbfs": -116.31,
+          "db_relative_first_section": -74.17
+        }
+      ]
+    },
+    {
+      "source_study": "triangle-muted-open",
+      "bank": "timgm",
+      "window_after_section_start_seconds": [
+        0.2,
+        0.45
+      ],
+      "values": [
+        {
+          "label": "GM81 ouvert",
+          "rms": 0.00786816,
+          "dbfs": -42.08,
+          "db_relative_first_section": 0.0
+        },
+        {
+          "label": "GM80 étouffé",
+          "rms": 3.9e-07,
+          "dbfs": -128.28,
+          "db_relative_first_section": -86.2
+        }
+      ]
+    },
+    {
+      "source_study": "noteoff-is-not-sample-end",
+      "bank": "generaluser",
+      "window_after_section_start_seconds": [
+        0.06,
+        0.12
+      ],
+      "values": [
+        {
+          "label": "Gate 45 ticks",
+          "rms": 0.01319709,
+          "dbfs": -37.59,
+          "db_relative_first_section": 0.0
+        },
+        {
+          "label": "Gate 380 ticks",
+          "rms": 0.0133114,
+          "dbfs": -37.52,
+          "db_relative_first_section": 0.07
+        }
+      ]
+    },
+    {
+      "source_study": "noteoff-is-not-sample-end",
+      "bank": "timgm",
+      "window_after_section_start_seconds": [
+        0.06,
+        0.12
+      ],
+      "values": [
+        {
+          "label": "Gate 45 ticks",
+          "rms": 0.02612634,
+          "dbfs": -31.66,
+          "db_relative_first_section": 0.0
+        },
+        {
+          "label": "Gate 380 ticks",
+          "rms": 0.02877288,
+          "dbfs": -30.82,
+          "db_relative_first_section": 0.84
+        }
+      ]
+    },
+    {
+      "source_study": "noteoff-is-not-sample-end",
+      "bank": "generaluser",
+      "window_after_section_start_seconds": [
+        0.2,
+        0.35
+      ],
+      "values": [
+        {
+          "label": "Gate 45 ticks",
+          "rms": 0.00161248,
+          "dbfs": -55.85,
+          "db_relative_first_section": 0.0
+        },
+        {
+          "label": "Gate 380 ticks",
+          "rms": 0.00163386,
+          "dbfs": -55.74,
+          "db_relative_first_section": 0.11
+        }
+      ]
+    },
+    {
+      "source_study": "noteoff-is-not-sample-end",
+      "bank": "timgm",
+      "window_after_section_start_seconds": [
+        0.2,
+        0.35
+      ],
+      "values": [
+        {
+          "label": "Gate 45 ticks",
+          "rms": 0.0,
+          "dbfs": null,
+          "db_relative_first_section": null
+        },
+        {
+          "label": "Gate 380 ticks",
+          "rms": 0.0,
+          "dbfs": null,
+          "db_relative_first_section": null
+        }
+      ]
+    }
+  ],
+  "db_floor_note": "Valeurs dB et rapports laissés à null si RMS < 1e-8 (plancher numérique déclaré, pas seuil auditif).",
+  "measurement_limit": "RMS de fenêtres du rendu PCM continu, avant encodage MP3, relativement au début nominal de chaque section (repères arrondis à la milliseconde). Les états antérieurs du synthétiseur et les résonances précédentes sont conservés. Ces mesures ne sont ni des seuils perceptifs ni des comparaisons de blocs isolés.",
+  "listening_trials": {
+    "berklee:CM-343": [
+      {
+        "title": "Pédale de vibraphone · GeneralUser GS",
+        "question": "Distinguez-vous une différence de résonance entre les deux passages ?",
+        "mode": "difference",
+        "clips": [
+          {
+            "url": "audio/berklee/CM-343/vibraphone-cc64-noteoffs-invariants-generaluser-gain072.mp3",
+            "label": "Pédale relâchée, mêmes notes",
+            "start": 0,
+            "end": 6
+          },
+          {
+            "url": "audio/berklee/CM-343/vibraphone-cc64-noteoffs-invariants-generaluser-gain072.mp3",
+            "label": "Pédale tenue, mêmes notes",
+            "start": 9.6,
+            "end": 15.6
+          }
+        ],
+        "explanation": "La banque et le gain restent les mêmes dans cette comparaison. Les notes et Note Off sont invariants; CC64 change. Les extraits proviennent du rendu continu et conservent les éventuels états et résonances antérieurs. Une réponse indiscernable est recevable."
+      },
+      {
+        "title": "Pédale de vibraphone · TimGM6mb",
+        "question": "Distinguez-vous une différence de résonance entre les deux passages ?",
+        "mode": "difference",
+        "clips": [
+          {
+            "url": "audio/berklee/CM-343/vibraphone-cc64-noteoffs-invariants-timgm-gain072.mp3",
+            "label": "Pédale relâchée, mêmes notes",
+            "start": 0,
+            "end": 6
+          },
+          {
+            "url": "audio/berklee/CM-343/vibraphone-cc64-noteoffs-invariants-timgm-gain072.mp3",
+            "label": "Pédale tenue, mêmes notes",
+            "start": 9.6,
+            "end": 15.6
+          }
+        ],
+        "explanation": "La banque et le gain restent les mêmes dans cette comparaison. Les notes et Note Off sont invariants; CC64 change. Les extraits proviennent du rendu continu et conservent les éventuels états et résonances antérieurs. Une réponse indiscernable est recevable."
+      }
+    ]
+  }
+}

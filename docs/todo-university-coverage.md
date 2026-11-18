@@ -9,10 +9,11 @@
 - [ ] Recueillir des réponses d’écoute datées sur les contrastes choisis, avec matériel utilisé et possibilité de réponse « indiscernable ». Une prédiction ou une mesure PCM ne vaut pas ce retour.
 - [ ] Vérifier les affectations de mains/pieds, déplacements et étouffements avec un interprète et un plan de montage documenté. Garder ces verdicts inconnus en attendant.
 - [x] Ajouter une seconde banque identifiée sur les trois témoins de charleston CC4/ordre/Note Off, avec protocole et limites de gain explicites.
-- [ ] Étendre la deuxième réalisation aux témoins de vibraphone, triangle et résonance instrumentale; la passe TimGM ne couvre que le charleston.
+- [x] Étendre la deuxième réalisation au vibraphone, triangle et caisse claire : six MP3 à gain commun, trois secondes de queue et mesures PCM bornées dans CM-343 (18 novembre).
 - [x] Documenter un premier cas continu original de 32 mesures : deux arrangements, accompagnement invariant, stems et frontières de phrase repérées dans OMPRD-386.
-- [ ] Compléter ce transfert avec une partition de geste annotée et un essai instrumental; le morceau synthétique ne valide pas la jouabilité.
-- [x] Publier trois prises humaines GMD attribuées, deux adaptations contrôlées et cinq comparaisons sans les noms, dont un témoin A/A. Ces dispositifs ne sont pas des résultats d’auditeurs.
+- [x] Produire trois partitions de travail avec légendes, repères et affectations proposées : les deux batteries de 32 mesures et le conducteur peaux/accessoires à trois (18 novembre).
+- [ ] Faire essayer ces partitions et corriger les gestes, articulations et affectations avec des interprètes; le morceau synthétique et la gravure ne valident pas la jouabilité.
+- [x] Publier trois prises humaines GMD attribuées, deux adaptations contrôlées et sept comparaisons sans les noms, dont un témoin A/A et deux comparaisons de pédale dans deux banques. Ces dispositifs ne sont pas des résultats d’auditeurs.
 
 **Critère manuel pour les exercices :** remettre les variantes écrites, nommer le paramètre changé, montrer au moins deux invariants, expliquer le rôle recherché et indiquer la preuve manquante. Noter séparément observation d’événements, écoute, faisabilité instrumentale et transfert musical; aucun score global de « maîtrise » ne se déduit de la présence d’un MP3. Ces tâches pédagogiques n’ouvrent ni moteur d’analyse ni suite de tests.
 

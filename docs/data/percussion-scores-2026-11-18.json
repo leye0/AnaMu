@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-18",
+  "scores": [
+    {
+      "title": "Batterie 1 - morceau de 32 mesures",
+      "source_midi": "docs/courses/berklee-online/OMPRD-386/passage-batterie-1.mid",
+      "source_sha256": "2e0509e7e29b9cdc312aa0881689ebdc7079ebadcc25f2e14ff76dc1018f5a25",
+      "score_musicxml": "docs/courses/berklee-online/OMPRD-386/partition-batterie-1.musicxml",
+      "score_html": "docs/courses/berklee-online/OMPRD-386/partition-batterie-1.html",
+      "score_pages": [
+        "docs/courses/berklee-online/OMPRD-386/partition-batterie-1-p1.svg"
+      ],
+      "note_ons_by_part": [
+        416
+      ],
+      "interpretation": "Onsets et simultaneites du MIDI; durees notees et gestes proposes pour lecture instrumentale, gates sonores non transcrits.",
+      "engraver": "Verovio 6.4.1-fbe8f46"
+    },
+    {
+      "title": "Batterie 2 - morceau de 32 mesures",
+      "source_midi": "docs/courses/berklee-online/OMPRD-386/passage-batterie-2.mid",
+      "source_sha256": "d0770b19fa8ccd9cc2e748f56e29d306524027aaa26546b290a4b6b67117259a",
+      "score_musicxml": "docs/courses/berklee-online/OMPRD-386/partition-batterie-2.musicxml",
+      "score_html": "docs/courses/berklee-online/OMPRD-386/partition-batterie-2.html",
+      "score_pages": [
+        "docs/courses/berklee-online/OMPRD-386/partition-batterie-2-p1.svg"
+      ],
+      "note_ons_by_part": [
+        396
+      ],
+      "interpretation": "Onsets et simultaneites du MIDI; durees notees et gestes proposes pour lecture instrumentale, gates sonores non transcrits.",
+      "engraver": "Verovio 6.4.1-fbe8f46"
+    },
+    {
+      "title": "Peaux en relais - montage propose a trois",
+      "source_midi": "docs/courses/berklee/CM-343/peaux-en-relais.mid",
+      "source_sha256": "7a7277ae2ca6e6da2b3621bff4a607a0350a199b8eef8e2a92099cd715379145",
+      "score_musicxml": "docs/courses/berklee/CM-343/partition-peaux-trois-interpretes.musicxml",
+      "score_html": "docs/courses/berklee/CM-343/partition-peaux-trois-interpretes.html",
+      "score_pages": [
+        "docs/courses/berklee/CM-343/partition-peaux-trois-interpretes-p1.svg"
+      ],
+      "note_ons_by_part": [
+        64,
+        64,
+        160
+      ],
+      "interpretation": "Onsets et simultaneites du MIDI; durees notees et gestes proposes pour lecture instrumentale, gates sonores non transcrits.",
+      "engraver": "Verovio 6.4.1-fbe8f46"
+    }
+  ],
+  "status": "Partitions de travail non validees par des interpretes"
+}

@@ -16,6 +16,12 @@ Cinq comparaisons de deux extraits masquent les noms, tirent l’ordre A/B au ha
 
 Les captures GMD proviennent de Google LLC sous CC BY 4.0 : crédit, source, transformations et citation sont dans OPERC-160 et le manifeste. Le rendu du TD-11 capte le jeu humain sur instrument électronique; il ne s’agit pas d’un enregistrement de kit acoustique. Les mesures PCM récupérées de deuxième banque et les différences de gain des MP3 sont bornées dans OMPRD-386.
 
+## Partitions et résonance (18 novembre)
+
+Trois partitions de travail sont consultables dans les cours OMPRD-386 et CM-343, avec aperçu SVG, page de légende imprimable et MusicXML modifiable. Elles conservent les attaques des MIDI et proposent articulations et affectations; aucune jouabilité n’est certifiée. Les assets sont des fichiers statiques du dossier de chaque cours, sans chargement d’un moteur de gravure dans le navigateur.
+
+Six réalisations supplémentaires sont décrites dans [le manifeste de résonance](../docs/data/percussion-resonance-2026-11-18.json), avec gains communs, queues de son et fenêtres PCM; les anciens MP3 restent en place. Les deux comparaisons de pédale supplémentaires utilisent des extraits de ces mêmes rendus continus. Aucun jugement d’écoute n’est collecté.
+
 ## Publication sur GitHub Pages (source : Actions)
 
 1. Ouvrir **Settings → Pages** du dépôt `leye0/AnaMu`.

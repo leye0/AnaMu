@@ -22,6 +22,9 @@ RAW_URL = "https://raw.githubusercontent.com/leye0/AnaMu/main/"
 ASSESSMENTS = ROOT / "docs/data/course-algorithmic-assessments.json"
 PERCUSSION_AUDIO = ROOT / "docs/data/percussion-audio-2026-11-17.json"
 PERCUSSION_CONTEXT = ROOT / "docs/data/percussion-context-2026-11-17.json"
+PERCUSSION_RESONANCE = ROOT / "docs/data/percussion-resonance-2026-11-18.json"
+PERCUSSION_SCORES = ROOT / "docs/data/percussion-scores-2026-11-18.json"
+SCORE_ASSETS: set[str] = set()
 STATIC = ROOT / "site"
 HEADINGS = re.compile(r"^#{1,6}\s+(.+)$")
 APPLICATION = re.compile(r"^##\s+Application à l.analyse et à la création\b", re.I | re.M)
@@ -45,6 +48,8 @@ def href(url: str, source_path: str) -> str:
     relative = posixpath.normpath(posixpath.join(posixpath.dirname(source_path), url))
     if relative == ".." or relative.startswith("../"):
         return ""
+    if relative in SCORE_ASSETS:
+        return "./" + relative
     return REPO_URL + relative
 
 
@@ -230,6 +235,7 @@ def course_audio(source: Path | None, markdown: str, destination: Path, school: 
             track.update({
                 "id": study["id"], "title": study["title"],
                 "cues": study["cues"], "score_seconds": study["score_secs"],
+                "passage_end_seconds": study.get("nominal_render_seconds", study["score_secs"]),
                 "midi_url": midi_url, "learning": study["learning"],
             })
         if study and study.get("note"):
@@ -290,7 +296,27 @@ def main() -> None:
     registered = {(row["institution"], row["code"]) for row in [*inventory["assessments"], *online_demos]}
     percussion = json.loads(PERCUSSION_AUDIO.read_text(encoding="utf-8"))
     context = json.loads(PERCUSSION_CONTEXT.read_text(encoding="utf-8"))
-    studies = {t["audio_url"]: t for t in [*percussion["tracks"], *context["tracks"]]}
+    resonance = json.loads(PERCUSSION_RESONANCE.read_text(encoding="utf-8"))
+    studies = {t["audio_url"]: t for t in [*percussion["tracks"], *context["tracks"], *resonance["tracks"]]}
+    scores = json.loads(PERCUSSION_SCORES.read_text(encoding="utf-8"))["scores"]
+    scores_by_course: dict[str, list] = {}
+    for score in scores:
+        paths = [score["score_musicxml"], score["score_html"], *score["score_pages"]]
+        for path in paths:
+            asset = (ROOT / path).resolve()
+            if not asset.is_relative_to(ROOT / "docs/courses") or not asset.is_file():
+                raise ValueError("Invalid score asset: " + path)
+            output = destination / path
+            output.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(asset, output)
+            SCORE_ASSETS.add(path)
+        source = Path(score["source_midi"])
+        course_id = source.parts[2] + ":" + source.parts[3]
+        scores_by_course.setdefault(course_id, []).append({
+            "title": score["title"], "viewer": score["score_html"],
+            "musicxml": score["score_musicxml"], "pages": score["score_pages"],
+            "note": "Partition de travail : attaques et simultanéités du MIDI, articulation et affectations proposées. Jouabilité non validée.",
+        })
     for demo in percussion["supplemental_demos"]:
         school, code = demo["institution"], demo["code"]
         if (school, code) in registered:
@@ -326,7 +352,10 @@ def main() -> None:
             shutil.copyfile(actual, dest)
         description_url = "courses/" + school + "/" + slug + ".json"
         audio = course_audio(source, markdown, destination, school, slug, studies)
-        trials = course_listening_trials(context["listening_trials"].get(identifier, []), audio, studies)
+        trials = course_listening_trials(
+            context["listening_trials"].get(identifier, [])
+            + resonance["listening_trials"].get(identifier, []), audio, studies,
+        )
         details = {
             "id": identifier, "title": title, "code": code, "institution": school,
             "overview_html": markdown_html(overview, material) if markdown else "",
@@ -336,6 +365,7 @@ def main() -> None:
             "coverage": row.get("course_coverage"),
             "midi": midi_url,
             "audio": audio, "listening_trials": trials,
+            "scores": scores_by_course.get(identifier, []),
             "non_algorithmic": row.get("non_algorithmic"),
             "algorithmic_tags": row.get("algorithmic_tags") or [],
             "review_state": row["review_state"],

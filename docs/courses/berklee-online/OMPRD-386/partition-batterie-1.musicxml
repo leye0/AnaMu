@@ -1,0 +1,5837 @@
+<?xml version='1.0' encoding='utf-8'?>
+<score-partwise version="4.0">
+  <work>
+    <work-title>Batterie 1 - morceau de 32 mesures</work-title>
+  </work>
+  <identification>
+    <creator type="composer">AnaMu</creator>
+    <rights>Etude originale AnaMu - affectations a verifier en repetition</rights>
+  </identification>
+  <defaults>
+    <scaling>
+      <millimeters>7</millimeters>
+      <tenths>40</tenths>
+    </scaling>
+  </defaults>
+  <part-list>
+    <score-part id="P1">
+      <part-name>Batterie</part-name>
+      <part-abbreviation>Kit</part-abbreviation>
+      <score-instrument id="P1I36">
+        <instrument-name>Grosse caisse</instrument-name>
+      </score-instrument>
+      <midi-instrument id="P1I36">
+        <midi-channel>10</midi-channel>
+        <midi-unpitched>37</midi-unpitched>
+      </midi-instrument>
+      <score-instrument id="P1I38">
+        <instrument-name>Caisse claire</instrument-name>
+      </score-instrument>
+      <midi-instrument id="P1I38">
+        <midi-channel>10</midi-channel>
+        <midi-unpitched>39</midi-unpitched>
+      </midi-instrument>
+      <score-instrument id="P1I42">
+        <instrument-name>Charleston ferme</instrument-name>
+      </score-instrument>
+      <midi-instrument id="P1I42">
+        <midi-channel>10</midi-channel>
+        <midi-unpitched>43</midi-unpitched>
+      </midi-instrument>
+      <score-instrument id="P1I46">
+        <instrument-name>Charleston ouvert</instrument-name>
+      </score-instrument>
+      <midi-instrument id="P1I46">
+        <midi-channel>10</midi-channel>
+        <midi-unpitched>47</midi-unpitched>
+      </midi-instrument>
+      <score-instrument id="P1I49">
+        <instrument-name>Crash</instrument-name>
+      </score-instrument>
+      <midi-instrument id="P1I49">
+        <midi-channel>10</midi-channel>
+        <midi-unpitched>50</midi-unpitched>
+      </midi-instrument>
+    </score-part>
+  </part-list>
+  <part id="P1">
+    <measure number="1">
+      <attributes>
+        <divisions>480</divisions>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>percussion</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction>
+        <direction-type>
+          <words>Noire = 105 BPM</words>
+        </direction-type>
+        <sound tempo="105" />
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words>M1 - Exposition; crash MD et charleston MG sur 1</words>
+        </direction-type>
+      </direction>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>A</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I49" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="2">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="3">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>120</duration>
+        <instrument id="P1I42" />
+        <type>16th</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">continue</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>120</duration>
+        <instrument id="P1I38" />
+        <type>16th</type>
+        <stem>up</stem>
+        <notehead parentheses="yes">normal</notehead>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="4">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="5">
+      <print new-system="yes" />
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="6">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="7">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>120</duration>
+        <instrument id="P1I42" />
+        <type>16th</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">continue</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>120</duration>
+        <instrument id="P1I38" />
+        <type>16th</type>
+        <stem>up</stem>
+        <notehead parentheses="yes">normal</notehead>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="8">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I46" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>circle-x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="9">
+      <print new-system="yes" />
+      <direction placement="above">
+        <direction-type>
+          <words>M9 - Variation; deux mains sur crash + charleston</words>
+        </direction-type>
+      </direction>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>A</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I49" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="10">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="11">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>120</duration>
+        <instrument id="P1I42" />
+        <type>16th</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">continue</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>120</duration>
+        <instrument id="P1I38" />
+        <type>16th</type>
+        <stem>up</stem>
+        <notehead parentheses="yes">normal</notehead>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="12">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="13">
+      <print new-system="yes" />
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="14">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="15">
+      <direction placement="above">
+        <direction-type>
+          <words>M15 - Groove maintenu</words>
+        </direction-type>
+      </direction>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>120</duration>
+        <instrument id="P1I42" />
+        <type>16th</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">continue</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>120</duration>
+        <instrument id="P1I38" />
+        <type>16th</type>
+        <stem>up</stem>
+        <notehead parentheses="yes">normal</notehead>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="16">
+      <direction placement="above">
+        <direction-type>
+          <words>M16 - Groove maintenu</words>
+        </direction-type>
+      </direction>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="17">
+      <print new-system="yes" />
+      <direction placement="above">
+        <direction-type>
+          <words>M17 - Retour du theme; batterie continue</words>
+        </direction-type>
+      </direction>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="18">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="19">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>120</duration>
+        <instrument id="P1I42" />
+        <type>16th</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">continue</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>120</duration>
+        <instrument id="P1I38" />
+        <type>16th</type>
+        <stem>up</stem>
+        <notehead parentheses="yes">normal</notehead>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="20">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="21">
+      <print new-system="yes" />
+      <direction placement="above">
+        <direction-type>
+          <words>M21 - Retour au groove commun</words>
+        </direction-type>
+      </direction>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="22">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="23">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>120</duration>
+        <instrument id="P1I42" />
+        <type>16th</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">continue</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>120</duration>
+        <instrument id="P1I38" />
+        <type>16th</type>
+        <stem>up</stem>
+        <notehead parentheses="yes">normal</notehead>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="24">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I46" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>circle-x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="25">
+      <print new-system="yes" />
+      <direction placement="above">
+        <direction-type>
+          <words>M25 - Reprise; crash + charleston a deux mains</words>
+        </direction-type>
+      </direction>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>A</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I49" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="26">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="27">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>120</duration>
+        <instrument id="P1I42" />
+        <type>16th</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">continue</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>120</duration>
+        <instrument id="P1I38" />
+        <type>16th</type>
+        <stem>up</stem>
+        <notehead parentheses="yes">normal</notehead>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="28">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="29">
+      <print new-system="yes" />
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="30">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="31">
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>120</duration>
+        <instrument id="P1I42" />
+        <type>16th</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+        <beam number="1">continue</beam>
+        <beam number="2">begin</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>120</duration>
+        <instrument id="P1I38" />
+        <type>16th</type>
+        <stem>up</stem>
+        <notehead parentheses="yes">normal</notehead>
+        <beam number="1">end</beam>
+        <beam number="2">end</beam>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>C</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I38" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I42" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <unpitched>
+          <display-step>G</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I46" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>circle-x</notehead>
+        <beam number="1">end</beam>
+      </note>
+    </measure>
+    <measure number="32">
+      <direction placement="above">
+        <direction-type>
+          <words>Fin (voir legende)</words>
+        </direction-type>
+      </direction>
+      <note>
+        <unpitched>
+          <display-step>F</display-step>
+          <display-octave>4</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I36" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>normal</notehead>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
+      </note>
+      <note>
+        <chord />
+        <unpitched>
+          <display-step>A</display-step>
+          <display-octave>5</display-octave>
+        </unpitched>
+        <duration>240</duration>
+        <instrument id="P1I49" />
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead>x</notehead>
+      </note>
+      <note>
+        <rest />
+        <duration>240</duration>
+        <type>eighth</type>
+      </note>
+      <note>
+        <rest />
+        <duration>480</duration>
+        <type>quarter</type>
+      </note>
+      <note>
+        <rest />
+        <duration>960</duration>
+        <type>half</type>
+      </note>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+      </barline>
+    </measure>
+  </part>
+</score-partwise>

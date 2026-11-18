@@ -495,3 +495,16 @@ Propositions originales AnaMu sur les exemples de cette fiche. Les prises GMD re
 **Réinvestir :** Comparer commandes, mesures PCM récupérées et impressions auditives dans des colonnes distinctes.
 
 **Limite :** Même gain numérique ne veut pas dire même niveau perçu. Les MP3 GeneralUser antérieurs et TimGM ont des gains de synthèse différents; ne pas en déduire une préférence à niveau égal.
+
+## Lire et faire essayer les deux batteries complètes (18 novembre 2026)
+
+- [Partition de la batterie continue, avec légende](OMPRD-386/partition-batterie-1.html) · [MusicXML modifiable](OMPRD-386/partition-batterie-1.musicxml).
+- [Partition de la batterie de transition, avec légende](OMPRD-386/partition-batterie-2.html) · [MusicXML modifiable](OMPRD-386/partition-batterie-2.musicxml).
+
+Les deux parties de **32 mesures à 105 BPM** reprennent les débuts et simultanéités des MIDI existants : **416 et 396 attaques** de batterie. Elles distinguent caisse, grosse caisse, toms, charleston, ride et crash par une **légende propre à ces documents**, avec repères de forme et propositions d’affectation. Les vélocités inférieures à 50 sont parenthésées; un accent marque une commande au moins égale à 90, sans équivalence en décibels.
+
+**Un problème de geste rendu visible.** Sur le premier temps des mesures avec crash et charleston (M1, M9, M25), deux frappes de cymbales coïncident avec la grosse caisse. La proposition confie momentanément crash à MD, charleston à MG et grosse caisse à PD. Dans la seconde version, M17 commence avec crash et ride simultanés : une main par cymbale, puis retour de la ride à MD. Le fill de M16 propose **MD–MG–MD–MG–MD** sur la succession de cinq coups à partir du troisième temps. Il faut aussi préciser le travail de PG à l’ouverture du charleston et la possibilité des déplacements entre toms.
+
+**Ce qui est transcrit et ce qui est proposé.** Les attaques et leurs instruments sont lus dans les fichiers publiés. Les valeurs rythmiques notées donnent une articulation lisible avec des silences entre attaques éloignées; elles ne reproduisent pas les **gates MIDI de 85 ticks** ni ne prescrivent automatiquement une durée de résonance. Les mains, la tenue des baguettes et la disposition du kit sont des propositions de travail, pas des données enregistrées ni un verdict de jouabilité.
+
+**Essai à documenter :** faire lire d’abord la batterie seule, noter les adaptations nécessaires aux mesures 15–21, puis jouer avec le même accompagnement. Relever séparément erreur de lecture, conflit de membre, trajet trop court et choix musical qui masque le thème. Conserver les annotations corrigées avec le contexte du kit et le retour de l’interprète. Aucune répétition réelle n’a été réalisée dans cette passe.
