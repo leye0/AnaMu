@@ -6,7 +6,7 @@ Les fiches Berklee Online qui disposent d'un `exemple.mid` sont affichées sépa
 
 ## Carnet d’écoute des percussions
 
-[Page d’écoute](percussions.html) : 41 MP3, en quatre séries, avec repères par variante. Les MP3 sont liés depuis les fiches d’origine. Quatre fiches supplémentaires sont visibles hors registre via le [manifeste des rendus](../docs/data/percussion-audio-2026-11-17.json) (trois cours Berklee Online et le projet MIT). Le moteur et les totaux d’évaluation ne changent pas.
+[Page d’écoute](percussions.html) : 41 MP3, en quatre séries, avec repères par variante. Les MP3 sont liés depuis les fiches d’origine. Chaque étude y possède ses repères de variantes, la lecture d’un passage seul, une répétition optionnelle, son MIDI téléchargeable et un lien direct. Les 41 parcours donnent une question, un repère d’analyse, un exercice original AnaMu et une limite; aucune nouvelle écoute humaine n’est prétendue. Les passages restent des fenêtres du rendu continu, avec un éventuel résidu de résonance. Quatre fiches supplémentaires sont visibles hors registre via le [manifeste des rendus](../docs/data/percussion-audio-2026-11-17.json) (trois cours Berklee Online et le projet MIT). Le moteur et les totaux d’évaluation ne changent pas.
 
 ## Publication sur GitHub Pages (source : Actions)
 

@@ -242,3 +242,199 @@ MP3 rendus à partir des MIDI des études, avec la banque GeneralUser GS. Les va
 - [Écouter — Ouverture du charleston : avant quelle arrivée ?](OPERC-160/charleston-ouverture-interieure-ou-anacrouse.mp3)
 - [Écouter — Ride fixe, pied sur 2/4, 1/3 ou entre les coups](OPERC-160/ride-fixe-pedale-charleston-trois-appuis.mp3)
 - [Écouter — Pédale avant, avec ou après la caisse](OPERC-160/charleston-pedale-avant-avec-apres-backbeat.mp3)
+
+## Parcours de comparaison et réinvestissement — 17 novembre 2026
+
+Ces consignes sont des propositions pédagogiques originales AnaMu, fondées sur les études et sources déjà distinguées dans cette fiche. Elles ne sont pas des exercices attribués au professeur. Aucune nouvelle audition humaine n’a été réalisée pendant cette passe. Les réponses attendues portent sur les variables documentées; les impressions auditives restent à recueillir.
+
+### Ghost notes et backbeat
+
+[MP3](OPERC-160/ghost-notes-ab.mp3) · [MIDI original](OPERC-160/ghost-notes-ab.mid)
+
+**Question d’écoute :** Quels coups s’ajoutent entre les backbeats ?
+
+**Repère d’analyse :** Le backbeat reste en place; B ajoute des notes faibles.
+
+**Réinvestissement :** Écrire deux mesures avec les mêmes coups forts, puis ajouter seulement des coups faibles.
+
+**Limite de conclusion :** Un ajout de notes change aussi la densité : ce fichier ne sépare pas densité et dynamique.
+
+### Charleston ouvert, fermé ou à la pédale
+
+[MP3](OPERC-160/hihat-ouvert-pedale-ab.mp3) · [MIDI original](OPERC-160/hihat-ouvert-pedale-ab.mid)
+
+**Question d’écoute :** Où l’ouverture prépare-t-elle la fermeture suivante ?
+
+**Repère d’analyse :** La grille demeure; B remplace certains coups et ajoute une fermeture au pied.
+
+**Réinvestissement :** Placer une ouverture avant une arrivée choisie et écrire sa fermeture.
+
+**Limite de conclusion :** Les sons GM42, 44 et 46 ne mesurent pas une ouverture physique de cymbales.
+
+### Swing : trois rapports de croches
+
+[MP3](OPERC-160/swing-croches-trois-rapports.mp3) · [MIDI original](OPERC-160/swing-croches-trois-rapports.mid)
+
+**Question d’écoute :** La seconde croche arrive-t-elle au même endroit dans les trois blocs ?
+
+**Repère d’analyse :** La noire conserve 480 ticks; les paires sont 240/240, 320/160 et 288/192.
+
+**Réinvestissement :** Changer le partage interne de la noire sans déplacer les temps.
+
+**Limite de conclusion :** Un rapport fixe ne représente pas toute une pratique du swing.
+
+### Paradiddle : répartition des mains
+
+[MP3](OPERC-160/paradiddle-orchestration-mains.mp3) · [MIDI original](OPERC-160/paradiddle-orchestration-mains.mid)
+
+**Question d’écoute :** Quelles répétitions de timbre révèlent les doubles du doigté ?
+
+**Repère d’analyse :** La succession des mains et son orchestration changent entre alternance et RLRR LRLL.
+
+**Réinvestissement :** Orchestrer un paradiddle sur deux surfaces puis comparer à une seule surface.
+
+**Limite de conclusion :** L’orchestration rend le doigté repérable, mais le MP3 ne montre pas le mouvement réel.
+
+### Backbeat déplacé
+
+[MP3](OPERC-160/deplacement-backbeat-ab.mp3) · [MIDI original](OPERC-160/deplacement-backbeat-ab.mid)
+
+**Question d’écoute :** Pouvez-vous garder le premier temps en suivant la caisse ?
+
+**Repère d’analyse :** Même nombre de caisses, placées sur 2/4 puis sur 1/3.
+
+**Réinvestissement :** Garder la basse et le charleston, déplacer seulement la caisse.
+
+**Limite de conclusion :** Le compte de coups ne suffit pas à établir leur fonction métrique.
+
+### Douze croches : 12/8 puis 6/4
+
+[MP3](OPERC-160/douze-pulsations-12-8-vers-6-4.mp3) · [MIDI original](OPERC-160/douze-pulsations-12-8-vers-6-4.mid)
+
+**Question d’écoute :** Où tombent les quatre puis les six appuis ?
+
+**Repère d’analyse :** Douze positions de croches; accents tous les trois puis tous les deux pas.
+
+**Réinvestissement :** Écrire une transition entre ces deux battues à subdivision commune.
+
+**Limite de conclusion :** Ne pas confondre nombre de battues et accélération de la subdivision.
+
+### 5/4 : deux hiérarchies et un témoin
+
+[MP3](OPERC-160/cinq-quatre-deux-hierarchies-et-neutre.mp3) · [MIDI original](OPERC-160/cinq-quatre-deux-hierarchies-et-neutre.mid)
+
+**Question d’écoute :** Que reste-t-il de la battue quand les cinq temps ont la même intensité ?
+
+**Repère d’analyse :** Cinq temps; accents 3+2, 2+3 puis témoin uniforme.
+
+**Réinvestissement :** Réaccentuer cinq temps et conserver une version neutre.
+
+**Limite de conclusion :** La version neutre n’interdit pas à l’auditeur de construire son propre groupement.
+
+### Deux surfaces, une seule main ?
+
+[MP3](OPERC-160/coordination-quatre-membres-et-conflit-une-main.mp3) · [MIDI original](OPERC-160/coordination-quatre-membres-et-conflit-une-main.mid)
+
+**Question d’écoute :** Le MP3 permet-il de choisir quelle main a joué ?
+
+**Repère d’analyse :** Les mêmes frappes sont attribuées à une main par surface puis à une main en conflit.
+
+**Réinvestissement :** Annoter les mains sur chaque attaque simultanée et proposer une répartition jouable.
+
+**Limite de conclusion :** L’audio seul ne distingue pas ces affectations; disposition et technique restent à vérifier avec un interprète.
+
+### Deux pédales, un ou deux pieds
+
+[MP3](OPERC-160/pedales-deux-pieds-ou-un-seul.mp3) · [MIDI original](OPERC-160/pedales-deux-pieds-ou-un-seul.mid)
+
+**Question d’écoute :** Une différence de pied doit-elle forcément s’entendre ?
+
+**Repère d’analyse :** Les événements restent, tandis que les pédales sont attribuées à deux pieds puis à un seul.
+
+**Réinvestissement :** Dessiner les pédales et noter quel pied actionne chaque coup simultané.
+
+**Limite de conclusion :** La faisabilité dépend du montage et de la technique; ce rendu ne montre ni l’un ni l’autre.
+
+### Flam et intervalle entre les deux coups
+
+[MP3](OPERC-160/flam-grace-gap-0-24-48-ticks.mp3) · [MIDI original](OPERC-160/flam-grace-gap-0-24-48-ticks.mid)
+
+**Question d’écoute :** À quel écart les deux coups deviennent-ils repérables pour vous ?
+
+**Repère d’analyse :** A contient les coups principaux seuls; B/C ajoutent une grâce à −24/−48 ticks.
+
+**Réinvestissement :** Garder les coups principaux et varier seulement l’écart des grâces dans deux nouvelles versions.
+
+**Limite de conclusion :** A n’est pas un flam à écart nul : il ne contient pas les grâces. La fusion perceptive n’a pas été mesurée.
+
+### Doigtés RLRL et RRLL
+
+[MP3](OPERC-160/roulement-simple-et-double-doigte.mp3) · [MIDI original](OPERC-160/roulement-simple-et-double-doigte.mid)
+
+**Question d’écoute :** Une alternance et des doubles peuvent-ils donner le même son ?
+
+**Repère d’analyse :** Même suite de frappes; les indications RLRL puis RRLL changent l’exécution prévue.
+
+**Réinvestissement :** Écrire les deux doigtés sous une même ligne de notes.
+
+**Limite de conclusion :** Des sons identiques n’établissent pas une facilité ni une fatigue identique.
+
+### Ghost notes faibles, moyennes, puis faibles
+
+[MP3](OPERC-160/ghost-note-contraste-faible-moyen-backbeat.mp3) · [MIDI original](OPERC-160/ghost-note-contraste-faible-moyen-backbeat.mid)
+
+**Question d’écoute :** Les coups faibles gardent-ils leur rôle quand leur vélocité augmente ?
+
+**Repère d’analyse :** Les notes restent; ghosts à 26, puis 58, puis retour à 26; coups forts à 101.
+
+**Réinvestissement :** Conserver les coups forts et comparer deux niveaux de notes faibles.
+
+**Limite de conclusion :** La vélocité peut modifier le timbre de la banque; ce n’est pas une échelle linéaire de décibels.
+
+### Croches droites, shuffle et half-time
+
+[MP3](OPERC-160/shuffle-droit-inegal-demi-temps.mp3) · [MIDI original](OPERC-160/shuffle-droit-inegal-demi-temps.mid)
+
+**Question d’écoute :** Le half-time change-t-il les croches ou la position de caisse ?
+
+**Repère d’analyse :** A/B modifient la subdivision; B/C gardent cette subdivision mais déplacent l’appui de caisse sur 3.
+
+**Réinvestissement :** Comparer séparément subdivision et fréquence du backbeat.
+
+**Limite de conclusion :** Le tempo MIDI n’est pas divisé par deux dans C.
+
+### Ouverture du charleston : avant quelle arrivée ?
+
+[MP3](OPERC-160/charleston-ouverture-interieure-ou-anacrouse.mp3) · [MIDI original](OPERC-160/charleston-ouverture-interieure-ou-anacrouse.mid)
+
+**Question d’écoute :** L’ouverture se place-t-elle avant la deuxième ou la troisième mesure ?
+
+**Repère d’analyse :** La destination choisie change entre référence fermée et deux placements d’ouverture.
+
+**Réinvestissement :** Placer l’ouverture avant une frontière de phrase choisie et justifier ce choix.
+
+**Limite de conclusion :** Une ouverture n’est pas automatiquement une anacrouse; il faut identifier sa destination.
+
+### Ride fixe, pied sur 2/4, 1/3 ou entre les coups
+
+[MP3](OPERC-160/ride-fixe-pedale-charleston-trois-appuis.mp3) · [MIDI original](OPERC-160/ride-fixe-pedale-charleston-trois-appuis.mid)
+
+**Question d’écoute :** La pédale renforce-t-elle la caisse ou répond-elle entre les coups ?
+
+**Repère d’analyse :** Ride fixe; pédale sur 2/4, sur 1/3 puis en contretemps après 2/4.
+
+**Réinvestissement :** Garder la ride et changer seulement la phase du pied.
+
+**Limite de conclusion :** Plus d’instants distincts ne signifie pas plus de coups.
+
+### Pédale avant, avec ou après la caisse
+
+[MP3](OPERC-160/charleston-pedale-avant-avec-apres-backbeat.mp3) · [MIDI original](OPERC-160/charleston-pedale-avant-avec-apres-backbeat.mid)
+
+**Question d’écoute :** La fermeture précède-t-elle, accompagne-t-elle ou suit-elle la caisse ?
+
+**Repère d’analyse :** Même ouverture et même caisse; pédale à −120, 0 puis +120 ticks autour de la caisse.
+
+**Réinvestissement :** Déplacer seulement la fermeture autour d’un backbeat conservé.
+
+**Limite de conclusion :** L’écart entre commandes ne donne pas directement la durée réelle de résonance ni la fusion perceptive.

@@ -179,3 +179,91 @@ MP3 rendus à partir des MIDI des études, avec la banque GeneralUser GS. Les va
 - [Écouter — Métronome : clics et trous](OCMUS-105/clic-muet-et-contretemps-pratique.mp3)
 - [Écouter — 9/8 : trois groupements](OCMUS-105/neuf-huit-trois-hierarchies.mp3)
 - [Écouter — 4/4 contre un cycle de trois noires](OCMUS-105/quatre-quarts-contre-cycle-trois-temps.mp3)
+
+## Parcours de comparaison et réinvestissement — 17 novembre 2026
+
+Ces consignes sont des propositions pédagogiques originales AnaMu, fondées sur les études et sources déjà distinguées dans cette fiche. Elles ne sont pas des exercices attribués au professeur. Aucune nouvelle audition humaine n’a été réalisée pendant cette passe. Les réponses attendues portent sur les variables documentées; les impressions auditives restent à recueillir.
+
+### Six croches : 6/8 puis 3/4
+
+[MP3](OCMUS-105/six-croches-6-8-vers-3-4.mp3) · [MIDI original](OCMUS-105/six-croches-6-8-vers-3-4.mid)
+
+**Question d’écoute :** Pouvez-vous battre deux puis trois appuis sur six croches ?
+
+**Repère d’analyse :** Même durée et six positions; les accents passent de 3+3 à 2+2+2.
+
+**Réinvestissement :** Réaccentuer six croches sans changer leurs dates.
+
+**Limite de conclusion :** La signature seule serait silencieuse : ici les accents rendent le regroupement disponible à l’écoute.
+
+### 3 contre 2 sans superposition
+
+[MP3](OCMUS-105/contre-rythme-3-contre-2-linearise.mp3) · [MIDI original](OCMUS-105/contre-rythme-3-contre-2-linearise.mid)
+
+**Question d’écoute :** Le calendrier global reste-t-il quand deux coups fusionnent ?
+
+**Repère d’analyse :** B garde l’union des instants mais fusionne la coïncidence initiale.
+
+**Réinvestissement :** Réduire deux voix à une ligne et marquer la polyphonie perdue.
+
+**Limite de conclusion :** Même calendrier d’attaques ne veut pas dire même distribution entre voix ni même nombre de coups.
+
+### Trois phases du 3 contre 2
+
+[MP3](OCMUS-105/contre-rythme-3-2-trois-phases.mp3) · [MIDI original](OCMUS-105/contre-rythme-3-2-trois-phases.mid)
+
+**Question d’écoute :** La coïncidence revient-elle au même endroit dans chaque cycle ?
+
+**Repère d’analyse :** Le flux de trois est translaté de 0, 240 puis 120 ticks face au flux de deux.
+
+**Réinvestissement :** Déplacer un flux entier en conservant ses intervalles internes.
+
+**Limite de conclusion :** Le rapport 3:2 ne fixe pas à lui seul la phase ni le nombre de coïncidences.
+
+### 7/8 : trois groupements
+
+[MP3](OCMUS-105/sept-huit-trois-groupements-identiques.mp3) · [MIDI original](OCMUS-105/sept-huit-trois-groupements-identiques.mid)
+
+**Question d’écoute :** Pouvez-vous nommer les groupes sans perdre les sept croches ?
+
+**Repère d’analyse :** Même cycle de sept; les accents alternent 3+2+2, 2+3+2 et 2+2+3.
+
+**Réinvestissement :** Déplacer le groupe de trois sans ajouter de croche.
+
+**Limite de conclusion :** Ce sont des groupements originaux, pas la preuve d’un style culturel particulier.
+
+### Métronome : clics et trous
+
+[MP3](OCMUS-105/clic-muet-et-contretemps-pratique.mp3) · [MIDI original](OCMUS-105/clic-muet-et-contretemps-pratique.mid)
+
+**Question d’écoute :** Pouvez-vous garder la pulsation pendant les mesures sans clic ?
+
+**Repère d’analyse :** Le repère passe des noires aux contretemps, à 1/3 puis à une mesure sur quatre.
+
+**Réinvestissement :** Battre les temps pendant le trou et comparer sa reprise au clic suivant.
+
+**Limite de conclusion :** Le fichier programme un exercice; sans enregistrement du participant il ne mesure pas sa précision.
+
+### 9/8 : trois groupements
+
+[MP3](OCMUS-105/neuf-huit-trois-hierarchies.mp3) · [MIDI original](OCMUS-105/neuf-huit-trois-hierarchies.mid)
+
+**Question d’écoute :** Entendez-vous trois groupes égaux ou un groupe long déplacé ?
+
+**Repère d’analyse :** Neuf croches identiques; accents 3+3+3, 2+2+2+3 puis 3+2+2+2.
+
+**Réinvestissement :** Conserver neuf pas et déplacer le groupe de trois.
+
+**Limite de conclusion :** Neuf croches ne suffisent pas à identifier une battue ternaire régulière.
+
+### 4/4 contre un cycle de trois noires
+
+[MP3](OCMUS-105/quatre-quarts-contre-cycle-trois-temps.mp3) · [MIDI original](OCMUS-105/quatre-quarts-contre-cycle-trois-temps.mid)
+
+**Question d’écoute :** Après combien de noires le cycle de trois retrouve-t-il le début du 4/4 ?
+
+**Repère d’analyse :** Le second bloc ajoute un cycle de trois noires au cadre de quatre : réalignement après douze noires.
+
+**Réinvestissement :** Écrire trois mesures de 4/4 sous quatre cycles de trois noires.
+
+**Limite de conclusion :** L’ajout d’une voix change la densité; il ne prouve pas que les auditeurs adoptent deux mètres.

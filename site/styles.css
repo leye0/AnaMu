@@ -77,3 +77,15 @@ a:hover{text-decoration:underline}button:focus-visible,a:focus-visible,input:foc
 @media (max-width:740px){.layout{display:block}.sidebar{min-height:0;border-right:0;border-bottom:1px solid #e5e8f0}.sidebar-intro{padding:24px 20px 20px}.sidebar-intro h1{font-size:30px}.sidebar-intro>p{max-width:540px;margin-bottom:18px}.metrics{padding-top:13px}.catalog-controls{padding:14px 15px 8px}.course-list{max-height:250px;min-height:90px;display:flex;overflow-x:auto;overflow-y:hidden;gap:8px;padding:8px 15px 12px;scroll-snap-type:x proximity}.course-item{min-width:198px;max-width:230px;background:#fafbfe;border:1px solid #e9edf5;scroll-snap-align:start;margin:0}.course-item.selected:before{display:none}.sidebar-foot{display:none}.workspace{padding:24px 16px}.edition-label{display:none}.course-title{font-size:29px}.detail-head{padding:0}.player-header p{line-height:1.5}.roll-wrap{height:180px}.transport{flex-wrap:wrap}.time-control{min-width:calc(100% - 105px)}.speed-control{margin-left:auto}.volume-control{display:flex}.documentation-header{align-items:flex-start}.doc-tabs{width:100%;justify-content:stretch}.tab{flex:1}.doc-content{font-size:12.5px}.detail-footer{display:block}.mobile-hint{display:block;text-align:center;color:#929bad;font-size:10px;padding:0 0 17px}}
 @media (max-width:390px){.brand-label strong{font-size:21px}.repository-link{font-size:10px;padding:9px}.brandmark{width:42px;height:42px}.topbar{min-height:65px}.topbar-end{gap:7px}.player-header{flex-wrap:wrap}.speed-control{margin-left:0}.volume-control{margin-left:auto}.player-foot{font-size:10px}}
 @media (prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
+
+.audio-cues{display:flex;flex-wrap:wrap;gap:8px}
+.audio-cues button,.audio-tracks button{font:inherit;font-size:13px;white-space:normal;min-height:44px;padding:9px 12px;border:1px solid #bdc8dd;border-radius:8px;background:#fff;color:#25314a;cursor:pointer;text-align:left}
+.audio-cues button[aria-pressed="true"]{background:#253d72;color:#fff;border-color:#253d72}
+.audio-loop{display:flex;align-items:center;gap:8px;font-size:13px;min-height:44px}
+.audio-loop input{width:18px;height:18px}
+.audio-tracks p{font-size:13px;line-height:1.6;margin:4px 0}
+.audio-tracks small{font-size:12px;color:#53617a;line-height:1.5}
+.audio-tracks summary{cursor:pointer;font-size:13px;padding:10px 0}
+.audio-links{display:flex;flex-wrap:wrap;gap:12px;font-size:12px}
+.audio-tracks [id^="etude-"]{scroll-margin-top:20px}
+.audio-tracks button:focus-visible,.audio-tracks a:focus-visible,.audio-tracks summary:focus-visible{outline:3px solid #7362df;outline-offset:3px}

@@ -131,6 +131,7 @@ function showAudioTracks(tracks) {
     audio.src = "./" + track.url;
     audio.setAttribute("aria-label",track.title);
     audio.addEventListener("play",() => {
+      stopPlayback();
       for (const other of list.querySelectorAll("audio")) {
         if (other !== audio) other.pause();
       }
@@ -141,7 +142,137 @@ function showAudioTracks(tracks) {
     download.download = "";
     download.textContent = "Télécharger le MP3 ↓";
     download.setAttribute("aria-label","Télécharger le MP3 — " + track.title);
-    row.append(title,audio,download);
+    row.append(title,audio);
+    if (track.learning) {
+      const question = document.createElement("p");
+      question.className = "listening-question";
+      question.textContent = track.learning.question;
+      row.append(question);
+    }
+    if (track.cues?.length) {
+      row.id = "etude-" + track.id;
+      const cues = document.createElement("div");
+      cues.className = "audio-cues";
+      cues.setAttribute("aria-label", "Comparer les variantes — " + track.title);
+      const status = document.createElement("p");
+      status.className = "audio-cue-status";
+      status.setAttribute("role", "status");
+      status.textContent = "Choisir une variante pour écouter ce passage seul.";
+      const loopLabel = document.createElement("label");
+      loopLabel.className = "audio-loop";
+      const loop = document.createElement("input");
+      loop.type = "checkbox";
+      loopLabel.append(loop, document.createTextNode(" Répéter la variante choisie"));
+      const buttons = [];
+      let segment = null;
+      let pendingSeek = null;
+      const clearSegment = () => {
+        segment = null;
+        for (const b of buttons) b.setAttribute("aria-pressed", "false");
+      };
+      const seek = (seconds) => {
+        if (audio.readyState >= 1) {
+          audio.currentTime = seconds;
+          pendingSeek = null;
+        } else pendingSeek = seconds;
+      };
+      audio.addEventListener("loadedmetadata", () => {
+        if (pendingSeek !== null) seek(pendingSeek);
+      });
+      const play = () => audio.play().catch(() => {
+        pendingSeek = null;
+        clearSegment();
+        status.textContent = "Lecture impossible. Réessayer avec les commandes audio ou télécharger le MP3.";
+      });
+      track.cues.forEach((cue, i) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.setAttribute("aria-pressed", "false");
+        const label = cue.listen_label || cue.label;
+        button.textContent = label + " · " + cue.seconds.toLocaleString("fr-CA", {maximumFractionDigits: 3}) + " s";
+        button.addEventListener("click", () => {
+          clearSegment();
+          segment = {start: cue.seconds, end: track.cues[i + 1]?.seconds ?? track.score_seconds};
+          button.setAttribute("aria-pressed", "true");
+          status.textContent = label + (loop.checked ? " — en boucle" : " — passage seul");
+          seek(segment.start);
+          play();
+        });
+        buttons.push(button);
+        cues.append(button);
+      });
+      audio.addEventListener("timeupdate", () => {
+        if (!segment || audio.paused || pendingSeek !== null || audio.currentTime < segment.end) return;
+        if (loop.checked) {
+          seek(segment.start);
+        } else {
+          audio.pause();
+          clearSegment();
+          status.textContent = "Passage terminé. Choisir une autre variante pour comparer.";
+        }
+      });
+      audio.addEventListener("seeking", () => {
+        if (segment && (audio.currentTime < segment.start - 0.1 || audio.currentTime > segment.end + 0.1)) {
+          clearSegment();
+          status.textContent = "Lecture libre depuis la position choisie.";
+        }
+      });
+      audio.addEventListener("error", () => {
+        pendingSeek = null;
+        clearSegment();
+        status.textContent = "Le MP3 n’a pas pu être chargé. Réessayer ou utiliser le lien de téléchargement.";
+      });
+      const full = document.createElement("button");
+      full.type = "button";
+      full.textContent = "Écouter l’étude entière";
+      full.addEventListener("click", () => {
+        clearSegment();
+        status.textContent = "Lecture de l’étude entière.";
+        seek(0);
+        play();
+      });
+      row.append(cues, loopLabel, full, status);
+      const tail = document.createElement("small");
+      tail.textContent = "Les passages sont extraits du rendu continu : une résonance du passage précédent peut subsister. La boucle est un repère d’écoute, pas un raccord musical.";
+      row.append(tail);
+    }
+    if (track.learning) {
+      const guide = document.createElement("details");
+      const summary = document.createElement("summary");
+      summary.textContent = "Repères d’analyse et exercice";
+      guide.append(summary);
+      for (const [label, key] of [["Comparer", "comparison"], ["À essayer", "exercise"], ["Limite", "limit"]]) {
+        const p = document.createElement("p");
+        const strong = document.createElement("strong");
+        strong.textContent = label + " : ";
+        p.append(strong, document.createTextNode(track.learning[key]));
+        guide.append(p);
+      }
+      const provenance = document.createElement("small");
+      provenance.textContent = "Exercice original AnaMu. Rendu synthétique; aucune validation d’écoute humaine ajoutée.";
+      guide.append(provenance);
+      row.append(guide);
+    }
+    const links = document.createElement("div");
+    links.className = "audio-links";
+    links.append(download);
+    if (track.midi_url) {
+      const midi = document.createElement("a");
+      midi.className = "download-link";
+      midi.href = "./" + track.midi_url;
+      midi.download = "";
+      midi.textContent = "MIDI de cette étude ↓";
+      links.append(midi);
+      const share = document.createElement("a");
+      const url = new URL(window.location.href);
+      url.searchParams.set("cours", current.id);
+      url.searchParams.set("etude", track.id);
+      url.hash = row.id;
+      share.href = url.pathname + url.search + url.hash;
+      share.textContent = "Lien vers cette étude";
+      links.append(share);
+    }
+    row.append(links);
     list.append(row);
   }
 }
@@ -153,6 +284,10 @@ async function showCourse(id, historyUpdate) {
   const seq = ++docSequence;
   if (historyUpdate) {
     const url = new URL(window.location.href);
+    if (url.searchParams.get("cours") !== entry.id) {
+      url.searchParams.delete("etude");
+      url.hash = "";
+    }
     url.searchParams.set("cours",entry.id);
     history.replaceState(null,"",url.pathname+url.search+url.hash);
   }
@@ -195,6 +330,10 @@ async function showCourse(id, historyUpdate) {
     if (seq!==docSequence) return;
     const tracks = detail.audio || [];
     showAudioTracks(tracks);
+    const requestedStudy = new URL(window.location.href).searchParams.get("etude");
+    if (requestedStudy && tracks.some(t => t.id === requestedStudy)) {
+      document.getElementById("etude-" + requestedStudy)?.scrollIntoView({block: "start"});
+    }
     $("playerSection").hidden = !entry.midi && tracks.length > 0;
     $("descriptionContent").innerHTML = detail.overview_html || '<p class="missing-description">Aucune fiche individuelle disponible. Consulter la source officielle et le registre.</p>';
     $("applicationContent").innerHTML = detail.application_html || '<p class="missing-description">L’analyse et la méthode de composition de ce cours restent à documenter. Cette absence ne signifie pas que le cours est dépourvu de contenu musical.</p>';
@@ -436,6 +575,7 @@ function animation() {
 async function startPlayback() {
   const song=currentMidi;
   if (!song || playback.playing || playback.loading) return;
+  for (const audio of $("audioTracks").querySelectorAll("audio")) audio.pause();
   const request=++playback.request;
   playback.loading=true;
   setTransport();
@@ -559,7 +699,9 @@ async function boot() {
         if (!selected) return;
         if (window.matchMedia("(max-width: 740px)").matches) {
           list.scrollLeft += selected.getBoundingClientRect().left - list.getBoundingClientRect().left;
-          $("detail").scrollIntoView({block:"start",behavior:"instant"});
+          if (!new URLSearchParams(window.location.search).has("etude")) {
+            $("detail").scrollIntoView({block:"start",behavior:"instant"});
+          }
         } else {
           list.scrollTop += selected.getBoundingClientRect().top - list.getBoundingClientRect().top;
         }

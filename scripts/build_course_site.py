@@ -195,7 +195,8 @@ def extract(md: str) -> tuple[str, str, str, str]:
     return heading, introduction, application, snippet
 
 
-def course_audio(source: Path | None, markdown: str, destination: Path, school: str, slug: str) -> list[dict[str, str]]:
+def course_audio(source: Path | None, markdown: str, destination: Path, school: str, slug: str,
+                 studies: dict) -> list[dict]:
     """Publish linked MP3s from this course's own folder, never external sources."""
     if source is None or not markdown:
         return []
@@ -216,7 +217,20 @@ def course_audio(source: Path | None, markdown: str, destination: Path, school: 
         output = destination / url
         output.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(file, output)
-        tracks.append({"title": clean(label), "url": url})
+        study = studies.get(file.relative_to(ROOT).as_posix())
+        track = {"title": clean(label), "url": url}
+        if study:
+            midi = ROOT / study["midi"]
+            midi_url = f"midi/{school}/{slug}/{midi.name}"
+            midi_output = destination / midi_url
+            midi_output.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(midi, midi_output)
+            track.update({
+                "id": study["id"], "title": study["title"],
+                "cues": study["cues"], "score_seconds": study["score_secs"],
+                "midi_url": midi_url, "learning": study["learning"],
+            })
+        tracks.append(track)
     return tracks
 
 
@@ -253,6 +267,7 @@ def main() -> None:
             })
     registered = {(row["institution"], row["code"]) for row in [*inventory["assessments"], *online_demos]}
     percussion = json.loads(PERCUSSION_AUDIO.read_text(encoding="utf-8"))
+    studies = {str(Path(t["midi"]).with_suffix(".mp3")): t for t in percussion["tracks"]}
     for demo in percussion["supplemental_demos"]:
         school, code = demo["institution"], demo["code"]
         if (school, code) in registered:
@@ -295,7 +310,7 @@ def main() -> None:
             "source_course": row.get("source_url") or "",
             "coverage": row.get("course_coverage"),
             "midi": midi_url,
-            "audio": course_audio(source, markdown, destination, school, slug),
+            "audio": course_audio(source, markdown, destination, school, slug, studies),
             "non_algorithmic": row.get("non_algorithmic"),
             "algorithmic_tags": row.get("algorithmic_tags") or [],
             "review_state": row["review_state"],

@@ -24,18 +24,28 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A: quatre mesures sans notes fantomes"
+          "label": "A: quatre mesures sans notes fantomes",
+          "listen_label": "A: quatre mesures sans notes fantomes"
         },
         {
           "seconds": 9.6,
-          "label": "B: quatre mesures avec quatre notes fantomes par mesure"
+          "label": "B: quatre mesures avec quatre notes fantomes par mesure",
+          "listen_label": "B: quatre mesures avec quatre notes fantomes par mesure"
         }
       ],
       "bytes": 244645,
       "sha256": "4f453a35276035233e22599c30e64ff859a5d0a3d06b9f3bc0bc1e164c0af99a",
       "peak": 0.281889,
       "first_sound_s": 0.0019,
-      "audio_url": "audio/berklee-online/OPERC-160/ghost-notes-ab.mp3"
+      "audio_url": "audio/berklee-online/OPERC-160/ghost-notes-ab.mp3",
+      "learning": {
+        "question": "Quels coups s’ajoutent entre les backbeats ?",
+        "comparison": "Le backbeat reste en place; B ajoute des notes faibles.",
+        "exercise": "Écrire deux mesures avec les mêmes coups forts, puis ajouter seulement des coups faibles.",
+        "limit": "Un ajout de notes change aussi la densité : ce fichier ne sépare pas densité et dynamique.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "hihat-ab",
@@ -49,18 +59,28 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A: toutes les croches chapeau ferme 42"
+          "label": "A: toutes les croches chapeau ferme 42",
+          "listen_label": "A: toutes les croches chapeau ferme 42"
         },
         {
           "seconds": 8.727,
-          "label": "B: ouverts 46 en 4 et, fermes au pied 44 en 1 suivant"
+          "label": "B: ouverts 46 en 4 et, fermes au pied 44 en 1 suivant",
+          "listen_label": "B: ouverts 46 en 4 et, fermes au pied 44 en 1 suivant"
         }
       ],
       "bytes": 223661,
       "sha256": "83a001924f1fd96111a68b07814438e3c67e81396d2c00ddd0c0097230940dea",
       "peak": 0.265338,
       "first_sound_s": 0.0019,
-      "audio_url": "audio/berklee-online/OPERC-160/hihat-ouvert-pedale-ab.mp3"
+      "audio_url": "audio/berklee-online/OPERC-160/hihat-ouvert-pedale-ab.mp3",
+      "learning": {
+        "question": "Où l’ouverture prépare-t-elle la fermeture suivante ?",
+        "comparison": "La grille demeure; B remplace certains coups et ajoute une fermeture au pied.",
+        "exercise": "Placer une ouverture avant une arrivée choisie et écrire sa fermeture.",
+        "limit": "Les sons GM42, 44 et 46 ne mesurent pas une ouverture physique de cymbales.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "timing-factorial",
@@ -74,26 +94,38 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A: grille droite, dynamique uniforme chapeau"
+          "label": "A: grille droite, dynamique uniforme chapeau",
+          "listen_label": "A: grille droite, dynamique uniforme chapeau"
         },
         {
           "seconds": 8.0,
-          "label": "B: uniquement changement de velocite du chapeau"
+          "label": "B: uniquement changement de velocite du chapeau",
+          "listen_label": "B: uniquement changement de velocite du chapeau"
         },
         {
           "seconds": 16.0,
-          "label": "C: contretemps de chapeau retardes de 24 ticks"
+          "label": "C: contretemps de chapeau retardes de 24 ticks",
+          "listen_label": "C: contretemps de chapeau retardes de 24 ticks"
         },
         {
           "seconds": 24.0,
-          "label": "D: caisse claire retardee de 14 ticks"
+          "label": "D: caisse claire retardee de 14 ticks",
+          "listen_label": "D: caisse claire retardee de 14 ticks"
         }
       ],
       "bytes": 398254,
       "sha256": "b579142a4476b7b4af2470e35f5bdaba5138b041543e127929a467528f09f8d6",
       "peak": 0.263556,
       "first_sound_s": 0.0019,
-      "audio_url": "audio/berklee-online/OMPRD-386/quantization-groove-quatre-variables.mp3"
+      "audio_url": "audio/berklee-online/OMPRD-386/quantization-groove-quatre-variables.mp3",
+      "learning": {
+        "question": "Quelle voix change entre A et chaque autre bloc ?",
+        "comparison": "B change la vélocité du charleston; C son timing; D celui de la caisse. Comparer chacun à A.",
+        "exercise": "Produire trois variantes d’un groove en ne changeant qu’un paramètre à la fois.",
+        "limit": "Comparer B à C ferait varier deux paramètres; le fichier ne démontre pas un groove universellement meilleur.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "swing-ratios",
@@ -107,22 +139,33 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A: 1:1 (240/240 ticks)"
+          "label": "A: 1:1 (240/240 ticks)",
+          "listen_label": "A: 1:1 (240/240 ticks)"
         },
         {
           "seconds": 8.0,
-          "label": "B: 2:1 (320/160 ticks)"
+          "label": "B: 2:1 (320/160 ticks)",
+          "listen_label": "B: 2:1 (320/160 ticks)"
         },
         {
           "seconds": 16.0,
-          "label": "C: 3:2 (288/192 ticks)"
+          "label": "C: 3:2 (288/192 ticks)",
+          "listen_label": "C: 3:2 (288/192 ticks)"
         }
       ],
       "bytes": 302020,
       "sha256": "e537c93ae57c6306ec15ee4a4f5923e8d55b77998e5a4983fbac2f872357f25f",
       "peak": 0.268291,
       "first_sound_s": 0.0015,
-      "audio_url": "audio/berklee-online/OPERC-160/swing-croches-trois-rapports.mp3"
+      "audio_url": "audio/berklee-online/OPERC-160/swing-croches-trois-rapports.mp3",
+      "learning": {
+        "question": "La seconde croche arrive-t-elle au même endroit dans les trois blocs ?",
+        "comparison": "La noire conserve 480 ticks; les paires sont 240/240, 320/160 et 288/192.",
+        "exercise": "Changer le partage interne de la noire sans déplacer les temps.",
+        "limit": "Un rapport fixe ne représente pas toute une pratique du swing.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "fill-arrival",
@@ -136,22 +179,33 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A: 8 mesures sans fill; crash arrivee m5"
+          "label": "A: 8 mesures sans fill; crash arrivee m5",
+          "listen_label": "A: 8 mesures sans fill; crash arrivee m5"
         },
         {
           "seconds": 18.462,
-          "label": "B: fill derniere moitie de m4; crash arrivee m5"
+          "label": "B: fill derniere moitie de m4; crash arrivee m5",
+          "listen_label": "B: fill derniere moitie de m4; crash arrivee m5"
         },
         {
           "seconds": 36.923,
-          "label": "C: fill m4 entiere puis silence; crash arrivee m5"
+          "label": "C: fill m4 entiere puis silence; crash arrivee m5",
+          "listen_label": "C: fill m4 entiere puis silence; crash arrivee m5"
         }
       ],
       "bytes": 678798,
       "sha256": "a184c803758d471643429412044ffab23be2e6e9b880c2ae3cdcfc128d98cfdc",
       "peak": 0.374229,
       "first_sound_s": 0.0019,
-      "audio_url": "audio/berklee-online/OMPRD-386/fills-meme-arrivee-trois-versions.mp3"
+      "audio_url": "audio/berklee-online/OMPRD-386/fills-meme-arrivee-trois-versions.mp3",
+      "learning": {
+        "question": "La destination reste-t-elle reconnaissable quand la préparation change ?",
+        "comparison": "Le crash arrive en mesure 5; les versions modifient la préparation en mesure 4.",
+        "exercise": "Écrire deux fills différents aboutissant au même premier temps.",
+        "limit": "Le fill et le silence changent ensemble dans C; une arrivée écrite ne prouve pas la tension ressentie.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "linear-layered",
@@ -165,18 +219,28 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A: hats 8 + kick 2 + snare 2 notes/mesure"
+          "label": "A: hats 8 + kick 2 + snare 2 notes/mesure",
+          "listen_label": "A: hats 8 + kick 2 + snare 2 notes/mesure"
         },
         {
           "seconds": 8.0,
-          "label": "B: 8 notes sans simultaneite / mesure"
+          "label": "B: 8 notes sans simultaneite / mesure",
+          "listen_label": "B: 8 notes sans simultaneite / mesure"
         }
       ],
       "bytes": 206088,
       "sha256": "c1abd7fb162e81c3d57d56c15a1bd59cd3d0954798a6d1bb5a20b347d56714f4",
       "peak": 0.285292,
       "first_sound_s": 0.0019,
-      "audio_url": "audio/berklee-online/OMPRD-386/lineaire-versus-superpose.mp3"
+      "audio_url": "audio/berklee-online/OMPRD-386/lineaire-versus-superpose.mp3",
+      "learning": {
+        "question": "Entend-on des attaques ensemble ou réparties dans le temps ?",
+        "comparison": "A superpose certaines voix; B utilise huit coups sans simultanéité par mesure.",
+        "exercise": "Redistribuer un motif sur des instants distincts, puis relever les coups retirés.",
+        "limit": "Le nombre de notes change : ce n’est pas une comparaison de simultanéité à densité égale.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "paradiddle-sticking",
@@ -190,18 +254,28 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A alternance R L 16 croches"
+          "label": "A alternance R L 16 croches",
+          "listen_label": "A alternance R L 16 croches"
         },
         {
           "seconds": 8.889,
-          "label": "B paradiddle RLRR LRLL en double"
+          "label": "B paradiddle RLRR LRLL en double",
+          "listen_label": "B paradiddle RLRR LRLL en double"
         }
       ],
       "bytes": 227416,
       "sha256": "42d991dc502e15e661e55ba8b236a493b325cb7115fbf8a4cf726e49f877e8a1",
       "peak": 0.253891,
       "first_sound_s": 0.0019,
-      "audio_url": "audio/berklee-online/OPERC-160/paradiddle-orchestration-mains.mp3"
+      "audio_url": "audio/berklee-online/OPERC-160/paradiddle-orchestration-mains.mp3",
+      "learning": {
+        "question": "Quelles répétitions de timbre révèlent les doubles du doigté ?",
+        "comparison": "La succession des mains et son orchestration changent entre alternance et RLRR LRLL.",
+        "exercise": "Orchestrer un paradiddle sur deux surfaces puis comparer à une seule surface.",
+        "limit": "L’orchestration rend le doigté repérable, mais le MP3 ne montre pas le mouvement réel.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "kick-bass-phase",
@@ -215,22 +289,33 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A basse liee au kick"
+          "label": "A basse liee au kick",
+          "listen_label": "A basse liee au kick"
         },
         {
           "seconds": 8.0,
-          "label": "B basse 120 ticks avant le kick3"
+          "label": "B basse 120 ticks avant le kick3",
+          "listen_label": "B basse 120 ticks avant le kick3"
         },
         {
           "seconds": 16.0,
-          "label": "C basse 60 ticks apres le kick3"
+          "label": "C basse 60 ticks apres le kick3",
+          "listen_label": "C basse 60 ticks apres le kick3"
         }
       ],
       "bytes": 302009,
       "sha256": "9be17726de4095fd1cf49afd32db231bf978906365b207ee570c64ed7c06daea",
       "peak": 0.301512,
       "first_sound_s": 0.0018,
-      "audio_url": "audio/berklee-online/OMPRD-386/basse-kick-alignement-anticipation-retard.mp3"
+      "audio_url": "audio/berklee-online/OMPRD-386/basse-kick-alignement-anticipation-retard.mp3",
+      "learning": {
+        "question": "La basse précède-t-elle ou suit-elle la grosse caisse visée ?",
+        "comparison": "L’appui choisi passe d’aligné à −120 puis +60 ticks; garder le kick comme référence.",
+        "exercise": "Déplacer une seule attaque de basse et noter son écart au kick.",
+        "limit": "Les écarts anticipé et retardé ont des tailles différentes : ne pas attribuer tout effet au seul signe du décalage.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "backbeat-switch",
@@ -244,18 +329,28 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A backbeat snare sur 2 et 4"
+          "label": "A backbeat snare sur 2 et 4",
+          "listen_label": "A backbeat snare sur 2 et 4"
         },
         {
           "seconds": 8.571,
-          "label": "B meme nombre de caisses sur 1 et 3"
+          "label": "B meme nombre de caisses sur 1 et 3",
+          "listen_label": "B meme nombre de caisses sur 1 et 3"
         }
       ],
       "bytes": 219876,
       "sha256": "5fafcb00c537f3eab58c226c22db0298e2255b4a79f4386fc0d3e15c2b34aec6",
       "peak": 0.442775,
       "first_sound_s": 0.0019,
-      "audio_url": "audio/berklee-online/OPERC-160/deplacement-backbeat-ab.mp3"
+      "audio_url": "audio/berklee-online/OPERC-160/deplacement-backbeat-ab.mp3",
+      "learning": {
+        "question": "Pouvez-vous garder le premier temps en suivant la caisse ?",
+        "comparison": "Même nombre de caisses, placées sur 2/4 puis sur 1/3.",
+        "exercise": "Garder la basse et le charleston, déplacer seulement la caisse.",
+        "limit": "Le compte de coups ne suffit pas à établir leur fonction métrique.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "timbre-swap",
@@ -269,26 +364,38 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A pulse chapeau note 42"
+          "label": "A pulse chapeau note 42",
+          "listen_label": "A pulse chapeau note 42"
         },
         {
           "seconds": 9.6,
-          "label": "B pulse maracas note 70"
+          "label": "B pulse maracas note 70",
+          "listen_label": "B pulse maracas note 70"
         },
         {
           "seconds": 19.2,
-          "label": "C pulse claves note 75"
+          "label": "C pulse claves note 75",
+          "listen_label": "C pulse claves note 75"
         },
         {
           "seconds": 28.8,
-          "label": "D pulse woodblock aigu note 76"
+          "label": "D pulse woodblock aigu note 76",
+          "listen_label": "D pulse woodblock aigu note 76"
         }
       ],
       "bytes": 475054,
       "sha256": "b10c891e9fd9737919719febe96c9ada3ec1deb90f6868f8d42506b042948e7f",
       "peak": 0.333524,
       "first_sound_s": 0.0019,
-      "audio_url": "audio/berklee-online/OMPRD-386/percussion-timbres-grille-invariante.mp3"
+      "audio_url": "audio/berklee-online/OMPRD-386/percussion-timbres-grille-invariante.mp3",
+      "learning": {
+        "question": "Le motif paraît-il différent quand seule sa couleur change ?",
+        "comparison": "Les dates et vélocités restent; la voix passe de GM42 à 70, 75 puis 76.",
+        "exercise": "Remplacer une voix et relever son rôle avant de modifier son rythme.",
+        "limit": "Une même vélocité MIDI ne garantit ni même volume ni même attaque acoustique.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "compound-six",
@@ -302,18 +409,28 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A: 6/8, accents deux groupes de trois"
+          "label": "A: 6/8, accents deux groupes de trois",
+          "listen_label": "A: 6/8, accents deux groupes de trois"
         },
         {
           "seconds": 6.0,
-          "label": "B: 3/4, accents trois groupes de deux"
+          "label": "B: 3/4, accents trois groupes de deux",
+          "listen_label": "B: 3/4, accents trois groupes de deux"
         }
       ],
       "bytes": 158130,
       "sha256": "99d5bce6f6c9a169cfe55ff0bb557cd8b2569018c756d30c81e6bd11c786bf5b",
       "peak": 0.272425,
       "first_sound_s": 0.0017,
-      "audio_url": "audio/berklee-online/OCMUS-105/six-croches-6-8-vers-3-4.mp3"
+      "audio_url": "audio/berklee-online/OCMUS-105/six-croches-6-8-vers-3-4.mp3",
+      "learning": {
+        "question": "Pouvez-vous battre deux puis trois appuis sur six croches ?",
+        "comparison": "Même durée et six positions; les accents passent de 3+3 à 2+2+2.",
+        "exercise": "Réaccentuer six croches sans changer leurs dates.",
+        "limit": "La signature seule serait silencieuse : ici les accents rendent le regroupement disponible à l’écoute.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "compound-twelve",
@@ -327,18 +444,28 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A: 12/8, accents a 0 3 6 9"
+          "label": "A: 12/8, accents a 0 3 6 9",
+          "listen_label": "A: 12/8, accents a 0 3 6 9"
         },
         {
           "seconds": 12.0,
-          "label": "B: 6/4, accents a 0 2 4 6 8 10"
+          "label": "B: 6/4, accents a 0 2 4 6 8 10",
+          "listen_label": "B: 6/4, accents a 0 2 4 6 8 10"
         }
       ],
       "bytes": 302016,
       "sha256": "023ef4c77f7f6a285533cba5c0ef5d7822d8e0538f3d8a3009c0a6d4c929eb80",
       "peak": 0.258594,
       "first_sound_s": 0.0015,
-      "audio_url": "audio/berklee-online/OPERC-160/douze-pulsations-12-8-vers-6-4.mp3"
+      "audio_url": "audio/berklee-online/OPERC-160/douze-pulsations-12-8-vers-6-4.mp3",
+      "learning": {
+        "question": "Où tombent les quatre puis les six appuis ?",
+        "comparison": "Douze positions de croches; accents tous les trois puis tous les deux pas.",
+        "exercise": "Écrire une transition entre ces deux battues à subdivision commune.",
+        "limit": "Ne pas confondre nombre de battues et accélération de la subdivision.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "three-against-two-linear",
@@ -352,18 +479,28 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A: deux flux 3 et 2, une simultaneite"
+          "label": "A: deux flux 3 et 2, une simultaneite",
+          "listen_label": "A: deux flux 3 et 2, une simultaneite"
         },
         {
           "seconds": 6.0,
-          "label": "B: union des instants, premiere frappe fusionnee"
+          "label": "B: union des instants, premiere frappe fusionnee",
+          "listen_label": "B: union des instants, premiere frappe fusionnee"
         }
       ],
       "bytes": 158133,
       "sha256": "62b80f1a17a9c8b55769b60e60e24edcc5582b94e9cd77ecd1f9f6fb9c71df3c",
       "peak": 0.207873,
       "first_sound_s": 0.0016,
-      "audio_url": "audio/berklee-online/OCMUS-105/contre-rythme-3-contre-2-linearise.mp3"
+      "audio_url": "audio/berklee-online/OCMUS-105/contre-rythme-3-contre-2-linearise.mp3",
+      "learning": {
+        "question": "Le calendrier global reste-t-il quand deux coups fusionnent ?",
+        "comparison": "B garde l’union des instants mais fusionne la coïncidence initiale.",
+        "exercise": "Réduire deux voix à une ligne et marquer la polyphonie perdue.",
+        "limit": "Même calendrier d’attaques ne veut pas dire même distribution entre voix ni même nombre de coups.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "three-against-two-phase",
@@ -377,22 +514,33 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A: flux 3 et 2, coincidence a 0"
+          "label": "A: flux 3 et 2, coincidence a 0",
+          "listen_label": "A: flux 3 et 2, coincidence a 0"
         },
         {
           "seconds": 6.667,
-          "label": "B: flux 3 translate +240, coincidence a 720"
+          "label": "B: flux 3 translate +240, coincidence a 720",
+          "listen_label": "B: flux 3 translate +240, coincidence a 720"
         },
         {
           "seconds": 13.333,
-          "label": "C: flux 3 translate +120, aucune coincidence"
+          "label": "C: flux 3 translate +120, aucune coincidence",
+          "listen_label": "C: flux 3 translate +120, aucune coincidence"
         }
       ],
       "bytes": 254052,
       "sha256": "4f0afc574409f324cdf13e2f8c8f4314ab091c71a3391e3a5244e52cf7c077e6",
       "peak": 0.234548,
       "first_sound_s": 0.0015,
-      "audio_url": "audio/berklee-online/OCMUS-105/contre-rythme-3-2-trois-phases.mp3"
+      "audio_url": "audio/berklee-online/OCMUS-105/contre-rythme-3-2-trois-phases.mp3",
+      "learning": {
+        "question": "La coïncidence revient-elle au même endroit dans chaque cycle ?",
+        "comparison": "Le flux de trois est translaté de 0, 240 puis 120 ticks face au flux de deux.",
+        "exercise": "Déplacer un flux entier en conservant ses intervalles internes.",
+        "limit": "Le rapport 3:2 ne fixe pas à lui seul la phase ni le nombre de coïncidences.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "seven-eight-rotations",
@@ -406,22 +554,33 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A: 7/8, appuis 3+2+2"
+          "label": "A: 7/8, appuis 3+2+2",
+          "listen_label": "A: 7/8, appuis 3+2+2"
         },
         {
           "seconds": 7.0,
-          "label": "B: 7/8, appuis 2+3+2"
+          "label": "B: 7/8, appuis 2+3+2",
+          "listen_label": "B: 7/8, appuis 2+3+2"
         },
         {
           "seconds": 14.0,
-          "label": "C: 7/8, appuis 2+2+3"
+          "label": "C: 7/8, appuis 2+2+3",
+          "listen_label": "C: 7/8, appuis 2+2+3"
         }
       ],
       "bytes": 266274,
       "sha256": "5014bf00405aceafab2358dd4a612f644bee1f61efd6ac9045e3513f677510e5",
       "peak": 0.119422,
       "first_sound_s": 0.0018,
-      "audio_url": "audio/berklee-online/OCMUS-105/sept-huit-trois-groupements-identiques.mp3"
+      "audio_url": "audio/berklee-online/OCMUS-105/sept-huit-trois-groupements-identiques.mp3",
+      "learning": {
+        "question": "Pouvez-vous nommer les groupes sans perdre les sept croches ?",
+        "comparison": "Même cycle de sept; les accents alternent 3+2+2, 2+3+2 et 2+2+3.",
+        "exercise": "Déplacer le groupe de trois sans ajouter de croche.",
+        "limit": "Ce sont des groupements originaux, pas la preuve d’un style culturel particulier.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "backbeat-displace-return",
@@ -435,26 +594,38 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A: caisse 2 et 4, ancrage stable"
+          "label": "A: caisse 2 et 4, ancrage stable",
+          "listen_label": "A: caisse 2 et 4, ancrage stable"
         },
         {
           "seconds": 8.0,
-          "label": "B: caisse +240 ticks, decalage sur et de 2/4"
+          "label": "B: caisse +240 ticks, decalage sur et de 2/4",
+          "listen_label": "B: caisse +240 ticks, decalage sur et de 2/4"
         },
         {
           "seconds": 16.0,
-          "label": "C: caisse +120 ticks, double-croche apres 2/4"
+          "label": "C: caisse +120 ticks, double-croche apres 2/4",
+          "listen_label": "C: caisse +120 ticks, double-croche apres 2/4"
         },
         {
           "seconds": 24.0,
-          "label": "D: retour au backbeat initial"
+          "label": "D: retour au backbeat initial",
+          "listen_label": "D: retour au backbeat initial"
         }
       ],
       "bytes": 398255,
       "sha256": "9b4dce5fec6d067ed1fdb2dfa1a6ae2ab45b01f872825bb0fbd86a517b9615d9",
       "peak": 0.26542,
       "first_sound_s": 0.0019,
-      "audio_url": "audio/berklee-online/OMPRD-386/backbeat-deplacement-tension-retour.mp3"
+      "audio_url": "audio/berklee-online/OMPRD-386/backbeat-deplacement-tension-retour.mp3",
+      "learning": {
+        "question": "Le retour à A se repère-t-il par rapport au charleston ?",
+        "comparison": "La caisse est décalée de +240 puis +120 ticks avant le retour à sa grille initiale.",
+        "exercise": "Préparer un retour en déplaçant une seule voix pendant une phrase.",
+        "limit": "Le retour est écrit; sa sensation de détente doit être décrite par un auditeur.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "five-hit-phrase",
@@ -468,18 +639,28 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A: 3 coups bar1 + 2 bar2, phrase de 2 mesures"
+          "label": "A: 3 coups bar1 + 2 bar2, phrase de 2 mesures",
+          "listen_label": "A: 3 coups bar1 + 2 bar2, phrase de 2 mesures"
         },
         {
           "seconds": 16.552,
-          "label": "B: 2 coups bar1 + 3 bar2, meme cycle de 2 mesures"
+          "label": "B: 2 coups bar1 + 3 bar2, meme cycle de 2 mesures",
+          "listen_label": "B: 2 coups bar1 + 3 bar2, meme cycle de 2 mesures"
         }
       ],
       "bytes": 411414,
       "sha256": "cecf19c7bb71972afe451a351043817f3bb512c13b352eaec87fa99362818e4b",
       "peak": 0.211501,
       "first_sound_s": 0.0015,
-      "audio_url": "audio/berklee-online/OMPRD-386/cinq-accents-3-2-vers-2-3-sans-style.mp3"
+      "audio_url": "audio/berklee-online/OMPRD-386/cinq-accents-3-2-vers-2-3-sans-style.mp3",
+      "learning": {
+        "question": "Le groupe le plus dense est-il au début ou à la fin de la phrase ?",
+        "comparison": "Cinq accents sur deux mesures, répartis 3+2 puis 2+3.",
+        "exercise": "Composer une réponse de deux mesures avec le même total de coups.",
+        "limit": "Ce motif n’est pas attribué à une tradition musicale à partir du seul compte 3+2.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "metronome-gaps",
@@ -493,26 +674,38 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A: clic sur les quatre noires"
+          "label": "A: clic sur les quatre noires",
+          "listen_label": "A: clic sur les quatre noires"
         },
         {
           "seconds": 9.143,
-          "label": "B: clic sur les quatre contretemps"
+          "label": "B: clic sur les quatre contretemps",
+          "listen_label": "B: clic sur les quatre contretemps"
         },
         {
           "seconds": 18.286,
-          "label": "C: clic sur les noires 1 et 3 seulement"
+          "label": "C: clic sur les noires 1 et 3 seulement",
+          "listen_label": "C: clic sur les noires 1 et 3 seulement"
         },
         {
           "seconds": 27.429,
-          "label": "D: quatre clics premiere mesure, puis trois mesures vides"
+          "label": "D: quatre clics premiere mesure, puis trois mesures vides",
+          "listen_label": "D: quatre clics premiere mesure, puis trois mesures vides"
         }
       ],
       "bytes": 453106,
       "sha256": "0b2cbe0d432663c4af44805bd625750d2eb8602e058524bd69b2e118fc0a0183",
       "peak": 0.449522,
       "first_sound_s": 0.0017,
-      "audio_url": "audio/berklee-online/OCMUS-105/clic-muet-et-contretemps-pratique.mp3"
+      "audio_url": "audio/berklee-online/OCMUS-105/clic-muet-et-contretemps-pratique.mp3",
+      "learning": {
+        "question": "Pouvez-vous garder la pulsation pendant les mesures sans clic ?",
+        "comparison": "Le repère passe des noires aux contretemps, à 1/3 puis à une mesure sur quatre.",
+        "exercise": "Battre les temps pendant le trou et comparer sa reprise au clic suivant.",
+        "limit": "Le fichier programme un exercice; sans enregistrement du participant il ne mesure pas sa précision.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "nine-eight-accents",
@@ -526,22 +719,33 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A 3+3+3"
+          "label": "A 3+3+3",
+          "listen_label": "A 3+3+3"
         },
         {
           "seconds": 9.0,
-          "label": "B 2+2+2+3"
+          "label": "B 2+2+2+3",
+          "listen_label": "B 2+2+2+3"
         },
         {
           "seconds": 18.0,
-          "label": "C 3+2+2+2"
+          "label": "C 3+2+2+2",
+          "listen_label": "C 3+2+2+2"
         }
       ],
       "bytes": 338059,
       "sha256": "675c67e3dbe8a5cf98ac02d78a386a6499978cc405b3bd0f9884fee718f28671",
       "peak": 0.120805,
       "first_sound_s": 0.0018,
-      "audio_url": "audio/berklee-online/OCMUS-105/neuf-huit-trois-hierarchies.mp3"
+      "audio_url": "audio/berklee-online/OCMUS-105/neuf-huit-trois-hierarchies.mp3",
+      "learning": {
+        "question": "Entendez-vous trois groupes égaux ou un groupe long déplacé ?",
+        "comparison": "Neuf croches identiques; accents 3+3+3, 2+2+2+3 puis 3+2+2+2.",
+        "exercise": "Conserver neuf pas et déplacer le groupe de trois.",
+        "limit": "Neuf croches ne suffisent pas à identifier une battue ternaire régulière.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "five-four-accents",
@@ -555,22 +759,33 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A 5/4 3+2"
+          "label": "A 5/4 3+2",
+          "listen_label": "A 5/4 3+2"
         },
         {
           "seconds": 10.0,
-          "label": "B 5/4 2+3"
+          "label": "B 5/4 2+3",
+          "listen_label": "B 5/4 2+3"
         },
         {
           "seconds": 20.0,
-          "label": "C cinq temps de meme intensite"
+          "label": "C cinq temps de meme intensite",
+          "listen_label": "C cinq temps de meme intensite"
         }
       ],
       "bytes": 374122,
       "sha256": "761b449c6ad655c00315474c282bea4d0d33de1716e8d39088c485ceb7f8f548",
       "peak": 0.191623,
       "first_sound_s": 0.0017,
-      "audio_url": "audio/berklee-online/OPERC-160/cinq-quatre-deux-hierarchies-et-neutre.mp3"
+      "audio_url": "audio/berklee-online/OPERC-160/cinq-quatre-deux-hierarchies-et-neutre.mp3",
+      "learning": {
+        "question": "Que reste-t-il de la battue quand les cinq temps ont la même intensité ?",
+        "comparison": "Cinq temps; accents 3+2, 2+3 puis témoin uniforme.",
+        "exercise": "Réaccentuer cinq temps et conserver une version neutre.",
+        "limit": "La version neutre n’interdit pas à l’auditeur de construire son propre groupement.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "four-vs-three-bar-cycle",
@@ -584,18 +799,28 @@
       "cues": [
         {
           "seconds": 0.0,
-          "label": "A 4/4 seul pendant six mesures"
+          "label": "A 4/4 seul pendant six mesures",
+          "listen_label": "A 4/4 seul pendant six mesures"
         },
         {
           "seconds": 12.0,
-          "label": "B ajout du cycle de trois noires"
+          "label": "B ajout du cycle de trois noires",
+          "listen_label": "B ajout du cycle de trois noires"
         }
       ],
       "bytes": 302022,
       "sha256": "15e6728be71ce4a0150e6b748e9533e72972eaa2b5e9a127fba7a767de071350",
       "peak": 0.394628,
       "first_sound_s": 0.0017,
-      "audio_url": "audio/berklee-online/OCMUS-105/quatre-quarts-contre-cycle-trois-temps.mp3"
+      "audio_url": "audio/berklee-online/OCMUS-105/quatre-quarts-contre-cycle-trois-temps.mp3",
+      "learning": {
+        "question": "Après combien de noires le cycle de trois retrouve-t-il le début du 4/4 ?",
+        "comparison": "Le second bloc ajoute un cycle de trois noires au cadre de quatre : réalignement après douze noires.",
+        "exercise": "Écrire trois mesures de 4/4 sous quatre cycles de trois noires.",
+        "limit": "L’ajout d’une voix change la densité; il ne prouve pas que les auditeurs adoptent deux mètres.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "limb-collision",
@@ -622,7 +847,15 @@
       "sha256": "ac206aa6c249b559b7bbd6b4e4f629a51638054ed96aae5b0c2cc0b2cec94edb",
       "peak": 0.276039,
       "first_sound_s": 0.0019,
-      "audio_url": "audio/berklee-online/OPERC-160/coordination-quatre-membres-et-conflit-une-main.mp3"
+      "audio_url": "audio/berklee-online/OPERC-160/coordination-quatre-membres-et-conflit-une-main.mp3",
+      "learning": {
+        "question": "Le MP3 permet-il de choisir quelle main a joué ?",
+        "comparison": "Les mêmes frappes sont attribuées à une main par surface puis à une main en conflit.",
+        "exercise": "Annoter les mains sur chaque attaque simultanée et proposer une répartition jouable.",
+        "limit": "L’audio seul ne distingue pas ces affectations; disposition et technique restent à vérifier avec un interprète.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "pedal-foot-collision",
@@ -649,7 +882,15 @@
       "sha256": "569156a51ab85b2636fa97ffd5f86b673fb71d540865d4dbaebad18a3f2e8477",
       "peak": 0.278402,
       "first_sound_s": 0.0019,
-      "audio_url": "audio/berklee-online/OPERC-160/pedales-deux-pieds-ou-un-seul.mp3"
+      "audio_url": "audio/berklee-online/OPERC-160/pedales-deux-pieds-ou-un-seul.mp3",
+      "learning": {
+        "question": "Une différence de pied doit-elle forcément s’entendre ?",
+        "comparison": "Les événements restent, tandis que les pédales sont attribuées à deux pieds puis à un seul.",
+        "exercise": "Dessiner les pédales et noter quel pied actionne chaque coup simultané.",
+        "limit": "La faisabilité dépend du montage et de la technique; ce rendu ne montre ni l’un ni l’autre.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "flam-grace-timing",
@@ -681,7 +922,15 @@
       "sha256": "0257f1bc19caa33cce8b65e27941291521faa1f3fcb7ed3520ae9d80af1af132",
       "peak": 0.272502,
       "first_sound_s": 0.3014,
-      "audio_url": "audio/berklee-online/OPERC-160/flam-grace-gap-0-24-48-ticks.mp3"
+      "audio_url": "audio/berklee-online/OPERC-160/flam-grace-gap-0-24-48-ticks.mp3",
+      "learning": {
+        "question": "À quel écart les deux coups deviennent-ils repérables pour vous ?",
+        "comparison": "A contient les coups principaux seuls; B/C ajoutent une grâce à −24/−48 ticks.",
+        "exercise": "Garder les coups principaux et varier seulement l’écart des grâces dans deux nouvelles versions.",
+        "limit": "A n’est pas un flam à écart nul : il ne contient pas les grâces. La fusion perceptive n’a pas été mesurée.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "single-double-sticking",
@@ -708,7 +957,15 @@
       "sha256": "73ab22ff6397dd0d6afe40c7b76173c253527221ab78732614182d4d28ee2b6e",
       "peak": 0.277138,
       "first_sound_s": 0.0014,
-      "audio_url": "audio/berklee-online/OPERC-160/roulement-simple-et-double-doigte.mp3"
+      "audio_url": "audio/berklee-online/OPERC-160/roulement-simple-et-double-doigte.mp3",
+      "learning": {
+        "question": "Une alternance et des doubles peuvent-ils donner le même son ?",
+        "comparison": "Même suite de frappes; les indications RLRL puis RRLL changent l’exécution prévue.",
+        "exercise": "Écrire les deux doigtés sous une même ligne de notes.",
+        "limit": "Des sons identiques n’établissent pas une facilité ni une fatigue identique.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "ghost-relative-levels",
@@ -740,7 +997,15 @@
       "sha256": "8a30c30e3f4db4b8925bd31f177ed9dca15fa5eaca5548c06a55f8d78b4b9f25",
       "peak": 0.268514,
       "first_sound_s": 0.0019,
-      "audio_url": "audio/berklee-online/OPERC-160/ghost-note-contraste-faible-moyen-backbeat.mp3"
+      "audio_url": "audio/berklee-online/OPERC-160/ghost-note-contraste-faible-moyen-backbeat.mp3",
+      "learning": {
+        "question": "Les coups faibles gardent-ils leur rôle quand leur vélocité augmente ?",
+        "comparison": "Les notes restent; ghosts à 26, puis 58, puis retour à 26; coups forts à 101.",
+        "exercise": "Conserver les coups forts et comparer deux niveaux de notes faibles.",
+        "limit": "La vélocité peut modifier le timbre de la banque; ce n’est pas une échelle linéaire de décibels.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "reference-vs-relative-timing",
@@ -777,7 +1042,15 @@
       "sha256": "d8d4f587db1cad0ec9c3a7578984d6f5a156304dff82aa4c54cf36a18cf44804",
       "peak": 0.283753,
       "first_sound_s": 0.0019,
-      "audio_url": "audio/berklee-online/OMPRD-386/microtiming-snare-kick-tous-instruments.mp3"
+      "audio_url": "audio/berklee-online/OMPRD-386/microtiming-snare-kick-tous-instruments.mp3",
+      "learning": {
+        "question": "Que pouvez-vous entendre sans repère extérieur quand tout le kit est décalé ?",
+        "comparison": "B retarde la caisse, C le kick, D tout le kit de 16 ticks.",
+        "exercise": "Noter les écarts entre voix, puis ceux au repère externe, dans deux colonnes distinctes.",
+        "limit": "Une translation globale conserve les écarts internes; sa position absolue exige un repère indépendant.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "shuffle-role",
@@ -809,7 +1082,15 @@
       "sha256": "d388c228033f7016a65f29a81b88afd3db8892b1e004af224e470e89c16c4ca1",
       "peak": 0.446591,
       "first_sound_s": 0.0019,
-      "audio_url": "audio/berklee-online/OPERC-160/shuffle-droit-inegal-demi-temps.mp3"
+      "audio_url": "audio/berklee-online/OPERC-160/shuffle-droit-inegal-demi-temps.mp3",
+      "learning": {
+        "question": "Le half-time change-t-il les croches ou la position de caisse ?",
+        "comparison": "A/B modifient la subdivision; B/C gardent cette subdivision mais déplacent l’appui de caisse sur 3.",
+        "exercise": "Comparer séparément subdivision et fréquence du backbeat.",
+        "limit": "Le tempo MIDI n’est pas divisé par deux dans C.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "interlocking-to-unison",
@@ -836,7 +1117,15 @@
       "sha256": "6577d56d910fecfb6e1cd970b6a4cd74939e50a9d4cc0e5d6afe811b3908f701",
       "peak": 0.338787,
       "first_sound_s": 0.0017,
-      "audio_url": "audio/berklee/CM-343/deux-percussionnistes-hocket-vers-simultaneite.mp3"
+      "audio_url": "audio/berklee/CM-343/deux-percussionnistes-hocket-vers-simultaneite.mp3",
+      "learning": {
+        "question": "Pouvez-vous distinguer nombre de coups et nombre d’instants ?",
+        "comparison": "Même total de coups; huit instants par mesure deviennent quatre paires simultanées.",
+        "exercise": "Écrire un relais puis une doublure avec le même nombre de notes.",
+        "limit": "La baisse du nombre d’instants ne mesure pas à elle seule une baisse d’énergie perçue.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "ownership-without-sound-change",
@@ -863,7 +1152,15 @@
       "sha256": "08e592bcb674d57bc92117751804b7020a32297998e31694d99678721842f40f",
       "peak": 0.226593,
       "first_sound_s": 0.0017,
-      "audio_url": "audio/berklee/CM-343/deux-interpretes-ou-un-meme-motif.mp3"
+      "audio_url": "audio/berklee/CM-343/deux-interpretes-ou-un-meme-motif.mp3",
+      "learning": {
+        "question": "Pouvez-vous compter les exécutants à partir de ce rendu ?",
+        "comparison": "Même motif sonore, attribution à deux exécutants puis à un seul.",
+        "exercise": "Distribuer les notes sur des parties nominatives et vérifier les déplacements nécessaires.",
+        "limit": "Le nombre d’exécutants est une donnée de partition, pas une conclusion du MP3.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "three-surfaces-one-vs-three",
@@ -890,7 +1187,15 @@
       "sha256": "358111546cc45628f66b46e0179ec82f251ae59c823420d77f5a6a7bfceeb9e4",
       "peak": 0.31468,
       "first_sound_s": 0.0014,
-      "audio_url": "audio/berklee/CM-343/trois-surfaces-simultanees-affectation.mp3"
+      "audio_url": "audio/berklee/CM-343/trois-surfaces-simultanees-affectation.mp3",
+      "learning": {
+        "question": "Quelles actions simultanées faut-il représenter sur le plan de scène ?",
+        "comparison": "Les trois surfaces simultanées et leurs dates restent; seule l’affectation change.",
+        "exercise": "Indiquer effectif, accessoires et emplacement des surfaces pour chaque attaque.",
+        "limit": "Trois notes ne prouvent pas automatiquement trois musiciens nécessaires; les techniques doivent être précisées.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "solo-setup-rest",
@@ -917,7 +1222,15 @@
       "sha256": "afaf4dd87bd6683bb7abe40438cff97fbf5fc75064335f1944b812bbc7441f0d",
       "peak": 0.258777,
       "first_sound_s": 0.0014,
-      "audio_url": "audio/mit/21M-351/solo-caisse-vers-vibraphone-fenetre-changement.mp3"
+      "audio_url": "audio/mit/21M-351/solo-caisse-vers-vibraphone-fenetre-changement.mp3",
+      "learning": {
+        "question": "Quel espace permet de préparer l’entrée du vibraphone ?",
+        "comparison": "B réserve deux noires avant l’entrée du vibraphone.",
+        "exercise": "Estimer un trajet et un changement de baguettes, puis écrire un espace explicite.",
+        "limit": "Deux noires sont un témoin pédagogique, pas une durée suffisante universelle de déplacement.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "vibraphone-cc64",
@@ -949,7 +1262,15 @@
       "sha256": "05011a80ac75b2ce4ee228808a6309701c6eeb4b747e97f2ab9a4d8284a84151",
       "peak": 0.29582,
       "first_sound_s": 0.0016,
-      "audio_url": "audio/berklee/CM-343/vibraphone-cc64-noteoffs-invariants.mp3"
+      "audio_url": "audio/berklee/CM-343/vibraphone-cc64-noteoffs-invariants.mp3",
+      "learning": {
+        "question": "Les notes se recouvrent-elles différemment avec la pédale ?",
+        "comparison": "Mêmes notes et Note Off; CC64 relâché, maintenu puis brièvement relâché.",
+        "exercise": "Dessiner la courbe de pédale sous les notes et localiser les nettoyages de résonance.",
+        "limit": "Le sustain logiciel ne documente ni la pédale réelle ni l’étouffement à la main ou à la baguette.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "triangle-muted-open",
@@ -976,7 +1297,15 @@
       "sha256": "1881aa4e7a43fcb8575c789fec6e62b55156a9a21a3dfc919dc4910d779b50a3",
       "peak": 0.105759,
       "first_sound_s": 0.0015,
-      "audio_url": "audio/berklee/CM-343/triangle-gm80-81-memes-frappes.mp3"
+      "audio_url": "audio/berklee/CM-343/triangle-gm80-81-memes-frappes.mp3",
+      "learning": {
+        "question": "Quel contraste de déclin produit cette paire de sons ?",
+        "comparison": "Mêmes dates et vélocités; la touche GM81 est remplacée par GM80.",
+        "exercise": "Écrire une consigne d’étouffement et préciser le geste à vérifier avec l’instrumentiste.",
+        "limit": "Deux échantillons différents ne simulent pas la trajectoire exacte d’une main sur un triangle.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "noteoff-is-not-sample-end",
@@ -1003,7 +1332,15 @@
       "sha256": "92243ee2bf4034d1f214fb26ccde3abb8d2b7579155e15facda0ed7d05a8f1a5",
       "peak": 0.234361,
       "first_sound_s": 0.0014,
-      "audio_url": "audio/berklee/CM-343/caisse-noteoff-court-long-reverberation-inconnue.mp3"
+      "audio_url": "audio/berklee/CM-343/caisse-noteoff-court-long-reverberation-inconnue.mp3",
+      "learning": {
+        "question": "Allonger la note écrite prolonge-t-il nécessairement la caisse ?",
+        "comparison": "Même caisse, mêmes attaques; gates de 45 puis 380 ticks.",
+        "exercise": "Séparer durée de commande et durée du son dans une annotation.",
+        "limit": "L’effet dépend de la banque; l’absence de contraste ne rend pas le Note Off inutile pour tout instrument.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "HH-1",
@@ -1035,7 +1372,15 @@
       "sha256": "f792bee70dc9d68f4604ab289a33f8d3d32c3fea94186c981a4725b54a0da670",
       "peak": 0.267468,
       "first_sound_s": 0.0018,
-      "audio_url": "audio/berklee-online/OPERC-160/charleston-ouverture-interieure-ou-anacrouse.mp3"
+      "audio_url": "audio/berklee-online/OPERC-160/charleston-ouverture-interieure-ou-anacrouse.mp3",
+      "learning": {
+        "question": "L’ouverture se place-t-elle avant la deuxième ou la troisième mesure ?",
+        "comparison": "La destination choisie change entre référence fermée et deux placements d’ouverture.",
+        "exercise": "Placer l’ouverture avant une frontière de phrase choisie et justifier ce choix.",
+        "limit": "Une ouverture n’est pas automatiquement une anacrouse; il faut identifier sa destination.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "HH-2",
@@ -1082,7 +1427,15 @@
       "sha256": "9f8403971c37ac9a68636c149f3a8c07e96d0398386063b14349896447c7e9e9",
       "peak": 0.082093,
       "first_sound_s": 0.0018,
-      "audio_url": "audio/berklee-online/OMPRD-386/charleston-gate-fermeture-et-controles-isoles.mp3"
+      "audio_url": "audio/berklee-online/OMPRD-386/charleston-gate-fermeture-et-controles-isoles.mp3",
+      "learning": {
+        "question": "La fermeture ajoute-t-elle un coup en plus d’abréger le son ?",
+        "comparison": "Comparer GM46 long/court, puis GM46+42/+44; E/F isolent les sons de fermeture.",
+        "exercise": "Comparer le résidu après retrait du témoin de fermeture et consigner la fenêtre.",
+        "limit": "Le manifeste décrit ce rendu précis; une frappe de fermeture et un simple Note Off sont des interventions distinctes.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "HH-3",
@@ -1114,7 +1467,15 @@
       "sha256": "a8e5ce9395477bf78b1866974f8f9445b098709f1b4b673c8d1be8139e867dad",
       "peak": 0.078873,
       "first_sound_s": 0.5018,
-      "audio_url": "audio/berklee-online/OMPRD-386/charleston-gm46-cc4-trois-trajectoires.mp3"
+      "audio_url": "audio/berklee-online/OMPRD-386/charleston-gm46-cc4-trois-trajectoires.mp3",
+      "learning": {
+        "question": "Que conclure si trois courbes CC4 donnent ici le même rendu ?",
+        "comparison": "Mêmes notes GM46; CC4 à zéro, maximum puis en balayage.",
+        "exercise": "Documenter le mapping de pédale d’un instrument cible avant de transposer la courbe.",
+        "limit": "Les blocs isolés de ce rendu ont été signalés identiques; cela ne signifie pas que CC4 est ignoré par tous les instruments.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "HH-4",
@@ -1151,7 +1512,15 @@
       "sha256": "056085ff3a16c6d0196d2f6ac1bc9595b7123a9494dee050aa28a0108b97276d",
       "peak": 0.077501,
       "first_sound_s": 0.5018,
-      "audio_url": "audio/berklee-online/OMPRD-386/charleston-cc4-ordre-meme-tick.mp3"
+      "audio_url": "audio/berklee-online/OMPRD-386/charleston-cc4-ordre-meme-tick.mp3",
+      "learning": {
+        "question": "L’ordre de deux événements au même tick change-t-il ce lecteur ?",
+        "comparison": "Ordre CC4→frappe puis frappe→CC4, avec répétition B puis A.",
+        "exercise": "Conserver l’ordre des événements lors d’une exportation et noter le moteur cible.",
+        "limit": "Le contrôle isolé existant est identique ici; il ne démontre pas l’équivalence de tous les moteurs ni des autres contrôleurs.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "HH-5",
@@ -1183,7 +1552,15 @@
       "sha256": "0b18061f969bbf689eb8ceed71ee2ddf6867052e2668eb2d9a7975c11688183f",
       "peak": 0.083637,
       "first_sound_s": 0.0015,
-      "audio_url": "audio/berklee-online/OPERC-160/ride-fixe-pedale-charleston-trois-appuis.mp3"
+      "audio_url": "audio/berklee-online/OPERC-160/ride-fixe-pedale-charleston-trois-appuis.mp3",
+      "learning": {
+        "question": "La pédale renforce-t-elle la caisse ou répond-elle entre les coups ?",
+        "comparison": "Ride fixe; pédale sur 2/4, sur 1/3 puis en contretemps après 2/4.",
+        "exercise": "Garder la ride et changer seulement la phase du pied.",
+        "limit": "Plus d’instants distincts ne signifie pas plus de coups.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     },
     {
       "id": "HH-6",
@@ -1215,7 +1592,15 @@
       "sha256": "82a201e81e305104da1c4aa96cf4754ab6a620ac32c41e127feaf28f4014af48",
       "peak": 0.254834,
       "first_sound_s": 0.0019,
-      "audio_url": "audio/berklee-online/OPERC-160/charleston-pedale-avant-avec-apres-backbeat.mp3"
+      "audio_url": "audio/berklee-online/OPERC-160/charleston-pedale-avant-avec-apres-backbeat.mp3",
+      "learning": {
+        "question": "La fermeture précède-t-elle, accompagne-t-elle ou suit-elle la caisse ?",
+        "comparison": "Même ouverture et même caisse; pédale à −120, 0 puis +120 ticks autour de la caisse.",
+        "exercise": "Déplacer seulement la fermeture autour d’un backbeat conservé.",
+        "limit": "L’écart entre commandes ne donne pas directement la durée réelle de résonance ni la fusion perceptive.",
+        "provenance": "Proposition pédagogique originale AnaMu fondée sur les variantes documentées dans la fiche du cours; pas un exercice universitaire attribué.",
+        "listening_status": "not_auditioned"
+      }
     }
   ],
   "supplemental_demos": [

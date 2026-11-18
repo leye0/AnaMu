@@ -1,5 +1,19 @@
 # AnaMu — TODO de couverture universitaire exhaustive
 
+## Reprise percussion — 17 novembre 2026
+
+- [x] Garder les 41 MP3 dans les cinq cours d’origine avec le MIDI propre à chaque étude.
+- [x] Reporter les repères de variantes dans les lecteurs des cours, avec passage seul et répétition optionnelle.
+- [x] Donner à chacune des 41 études une question, la variable modifiée, un exercice et une limite explicite, dans la fiche et le manifeste.
+- [x] Distinguer témoins sonores et changements d’affectation sans preuve audible; rappeler les limites des expériences où plusieurs paramètres changent.
+- [ ] Recueillir des réponses d’écoute datées sur les contrastes choisis, avec matériel utilisé et possibilité de réponse « indiscernable ». Une prédiction ou une mesure PCM ne vaut pas ce retour.
+- [ ] Vérifier les affectations de mains/pieds, déplacements et étouffements avec un interprète et un plan de montage documenté. Garder ces verdicts inconnus en attendant.
+- [ ] Ajouter une seconde réalisation sonore identifiée sur les témoins CC4, Note Off et résonance pour évaluer ce qui dépend de la banque. Les 41 fichiers actuels utilisent un seul rendu.
+- [ ] Documenter un cas musical continu en reliant geste noté, son et fonction de phrase; les études courtes ne suffisent pas à valider le transfert.
+
+**Critère manuel pour les exercices :** remettre les variantes écrites, nommer le paramètre changé, montrer au moins deux invariants, expliquer le rôle recherché et indiquer la preuve manquante. Noter séparément observation d’événements, écoute, faisabilité instrumentale et transfert musical; aucun score global de « maîtrise » ne se déduit de la présence d’un MP3. Ces tâches pédagogiques n’ouvrent ni moteur d’analyse ni suite de tests.
+
+
 **Avancement concret de la phase 1B (11 novembre 2026) :** [30 nouveaux mécanismes musicaux documentés](subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md), [index structuré](data/subject-research-batch-02-30-mechanisms-2026-11-11.json), **44 mécanismes cumulés** avec le lot initial de 14. Ce travail est séparé des 386 cours/options (263 exploitables, 115 partiels, huit familles) et ne relance pas les 22 recherches de syllabus officiellement bloquées. Prochaine passe : autres sources et autres mécanismes, sans moteur ni tests.
 
 ## DÉCISION ET PROCHAINE ACTION — 11 novembre 2026

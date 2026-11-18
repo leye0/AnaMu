@@ -227,3 +227,139 @@ MP3 rendus à partir des MIDI des études, avec la banque GeneralUser GS. Les va
 **Contrôle en PCM avant encodage MP3.** Sur HH-2, avec FluidSynth 2.4.4 et GeneralUser GS, la fin de note avancée réduit la queue d'environ 0,9 dB RMS entre 320 et 650 ms après la première frappe ouverte. Par contraste, dans cette même fenêtre, le signal résiduel après retrait du témoin de fermeture seul descend d'environ 32 dB avec GM42 ou GM44. Ce résultat décrit le rendu de ce kit et de ce lecteur, sans conclure sur l'acoustique d'un vrai charleston.
 
 **Témoins négatifs.** Les blocs de HH-3 et HH-4, rejoués séparément avec les mêmes ticks relatifs et dans une instance neuve, donnent exactement le même signal PCM à l'intérieur de chaque comparaison. Les MP3 livrés sont les rendus intégraux des fichiers MIDI d'origine. Ils ne cherchent pas à émuler le profil de pédale du TD-27. [Protocole et empreintes](../../data/percussion-audio-2026-11-17.json).
+
+## Parcours de comparaison et réinvestissement — 17 novembre 2026
+
+Ces consignes sont des propositions pédagogiques originales AnaMu, fondées sur les études et sources déjà distinguées dans cette fiche. Elles ne sont pas des exercices attribués au professeur. Aucune nouvelle audition humaine n’a été réalisée pendant cette passe. Les réponses attendues portent sur les variables documentées; les impressions auditives restent à recueillir.
+
+### Grille, dynamique ou microtiming
+
+[MP3](OMPRD-386/quantization-groove-quatre-variables.mp3) · [MIDI original](OMPRD-386/quantization-groove-quatre-variables.mid)
+
+**Question d’écoute :** Quelle voix change entre A et chaque autre bloc ?
+
+**Repère d’analyse :** B change la vélocité du charleston; C son timing; D celui de la caisse. Comparer chacun à A.
+
+**Réinvestissement :** Produire trois variantes d’un groove en ne changeant qu’un paramètre à la fois.
+
+**Limite de conclusion :** Comparer B à C ferait varier deux paramètres; le fichier ne démontre pas un groove universellement meilleur.
+
+### Fills, même arrivée
+
+[MP3](OMPRD-386/fills-meme-arrivee-trois-versions.mp3) · [MIDI original](OMPRD-386/fills-meme-arrivee-trois-versions.mid)
+
+**Question d’écoute :** La destination reste-t-elle reconnaissable quand la préparation change ?
+
+**Repère d’analyse :** Le crash arrive en mesure 5; les versions modifient la préparation en mesure 4.
+
+**Réinvestissement :** Écrire deux fills différents aboutissant au même premier temps.
+
+**Limite de conclusion :** Le fill et le silence changent ensemble dans C; une arrivée écrite ne prouve pas la tension ressentie.
+
+### Linéaire ou superposé
+
+[MP3](OMPRD-386/lineaire-versus-superpose.mp3) · [MIDI original](OMPRD-386/lineaire-versus-superpose.mid)
+
+**Question d’écoute :** Entend-on des attaques ensemble ou réparties dans le temps ?
+
+**Repère d’analyse :** A superpose certaines voix; B utilise huit coups sans simultanéité par mesure.
+
+**Réinvestissement :** Redistribuer un motif sur des instants distincts, puis relever les coups retirés.
+
+**Limite de conclusion :** Le nombre de notes change : ce n’est pas une comparaison de simultanéité à densité égale.
+
+### Basse et grosse caisse
+
+[MP3](OMPRD-386/basse-kick-alignement-anticipation-retard.mp3) · [MIDI original](OMPRD-386/basse-kick-alignement-anticipation-retard.mid)
+
+**Question d’écoute :** La basse précède-t-elle ou suit-elle la grosse caisse visée ?
+
+**Repère d’analyse :** L’appui choisi passe d’aligné à −120 puis +60 ticks; garder le kick comme référence.
+
+**Réinvestissement :** Déplacer une seule attaque de basse et noter son écart au kick.
+
+**Limite de conclusion :** Les écarts anticipé et retardé ont des tailles différentes : ne pas attribuer tout effet au seul signe du décalage.
+
+### Même rythme, autres percussions
+
+[MP3](OMPRD-386/percussion-timbres-grille-invariante.mp3) · [MIDI original](OMPRD-386/percussion-timbres-grille-invariante.mid)
+
+**Question d’écoute :** Le motif paraît-il différent quand seule sa couleur change ?
+
+**Repère d’analyse :** Les dates et vélocités restent; la voix passe de GM42 à 70, 75 puis 76.
+
+**Réinvestissement :** Remplacer une voix et relever son rôle avant de modifier son rythme.
+
+**Limite de conclusion :** Une même vélocité MIDI ne garantit ni même volume ni même attaque acoustique.
+
+### Backbeat : déplacement et retour
+
+[MP3](OMPRD-386/backbeat-deplacement-tension-retour.mp3) · [MIDI original](OMPRD-386/backbeat-deplacement-tension-retour.mid)
+
+**Question d’écoute :** Le retour à A se repère-t-il par rapport au charleston ?
+
+**Repère d’analyse :** La caisse est décalée de +240 puis +120 ticks avant le retour à sa grille initiale.
+
+**Réinvestissement :** Préparer un retour en déplaçant une seule voix pendant une phrase.
+
+**Limite de conclusion :** Le retour est écrit; sa sensation de détente doit être décrite par un auditeur.
+
+### Cinq accents : 3+2 puis 2+3
+
+[MP3](OMPRD-386/cinq-accents-3-2-vers-2-3-sans-style.mp3) · [MIDI original](OMPRD-386/cinq-accents-3-2-vers-2-3-sans-style.mid)
+
+**Question d’écoute :** Le groupe le plus dense est-il au début ou à la fin de la phrase ?
+
+**Repère d’analyse :** Cinq accents sur deux mesures, répartis 3+2 puis 2+3.
+
+**Réinvestissement :** Composer une réponse de deux mesures avec le même total de coups.
+
+**Limite de conclusion :** Ce motif n’est pas attribué à une tradition musicale à partir du seul compte 3+2.
+
+### Microtiming d’une voix ou de tout le kit
+
+[MP3](OMPRD-386/microtiming-snare-kick-tous-instruments.mp3) · [MIDI original](OMPRD-386/microtiming-snare-kick-tous-instruments.mid)
+
+**Question d’écoute :** Que pouvez-vous entendre sans repère extérieur quand tout le kit est décalé ?
+
+**Repère d’analyse :** B retarde la caisse, C le kick, D tout le kit de 16 ticks.
+
+**Réinvestissement :** Noter les écarts entre voix, puis ceux au repère externe, dans deux colonnes distinctes.
+
+**Limite de conclusion :** Une translation globale conserve les écarts internes; sa position absolue exige un repère indépendant.
+
+### Charleston : fin de note ou coup de fermeture ?
+
+[MP3](OMPRD-386/charleston-gate-fermeture-et-controles-isoles.mp3) · [MIDI original](OMPRD-386/charleston-gate-fermeture-et-controles-isoles.mid)
+
+**Question d’écoute :** La fermeture ajoute-t-elle un coup en plus d’abréger le son ?
+
+**Repère d’analyse :** Comparer GM46 long/court, puis GM46+42/+44; E/F isolent les sons de fermeture.
+
+**Réinvestissement :** Comparer le résidu après retrait du témoin de fermeture et consigner la fenêtre.
+
+**Limite de conclusion :** Le manifeste décrit ce rendu précis; une frappe de fermeture et un simple Note Off sont des interventions distinctes.
+
+### Les mêmes frappes avec trois séries de CC4
+
+[MP3](OMPRD-386/charleston-gm46-cc4-trois-trajectoires.mp3) · [MIDI original](OMPRD-386/charleston-gm46-cc4-trois-trajectoires.mid)
+
+**Question d’écoute :** Que conclure si trois courbes CC4 donnent ici le même rendu ?
+
+**Repère d’analyse :** Mêmes notes GM46; CC4 à zéro, maximum puis en balayage.
+
+**Réinvestissement :** Documenter le mapping de pédale d’un instrument cible avant de transposer la courbe.
+
+**Limite de conclusion :** Les blocs isolés de ce rendu ont été signalés identiques; cela ne signifie pas que CC4 est ignoré par tous les instruments.
+
+### CC4 et frappe au même tick
+
+[MP3](OMPRD-386/charleston-cc4-ordre-meme-tick.mp3) · [MIDI original](OMPRD-386/charleston-cc4-ordre-meme-tick.mid)
+
+**Question d’écoute :** L’ordre de deux événements au même tick change-t-il ce lecteur ?
+
+**Repère d’analyse :** Ordre CC4→frappe puis frappe→CC4, avec répétition B puis A.
+
+**Réinvestissement :** Conserver l’ordre des événements lors d’une exportation et noter le moteur cible.
+
+**Limite de conclusion :** Le contrôle isolé existant est identique ici; il ne démontre pas l’équivalence de tous les moteurs ni des autres contrôleurs.
