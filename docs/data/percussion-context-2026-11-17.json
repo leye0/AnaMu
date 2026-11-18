@@ -1,0 +1,1081 @@
+{
+  "tracks": [
+    {
+      "id": "passage-batterie-1",
+      "course": "berklee-online:OMPRD-386",
+      "title": "Même morceau, batterie continue",
+      "midi": "docs/courses/berklee-online/OMPRD-386/passage-batterie-1.mid",
+      "audio_url": "audio/berklee-online/OMPRD-386/passage-batterie-1.mp3",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "M1 · Exposition",
+          "listen_label": "M1 · Exposition"
+        },
+        {
+          "seconds": 18.286,
+          "label": "M9 · Variation",
+          "listen_label": "M9 · Variation"
+        },
+        {
+          "seconds": 32.0,
+          "label": "M15 · Préparation",
+          "listen_label": "M15 · Préparation"
+        },
+        {
+          "seconds": 36.571,
+          "label": "M17 · Arrivée",
+          "listen_label": "M17 · Arrivée"
+        },
+        {
+          "seconds": 45.714,
+          "label": "M21 · Retour au groove",
+          "listen_label": "M21 · Retour au groove"
+        },
+        {
+          "seconds": 54.857,
+          "label": "M25 · Reprise",
+          "listen_label": "M25 · Reprise"
+        },
+        {
+          "seconds": 70.857,
+          "label": "M32 · Résolution",
+          "listen_label": "M32 · Résolution"
+        }
+      ],
+      "midi_score_seconds": 73.143,
+      "midi_sha256": "2e0509e7e29b9cdc312aa0881689ebdc7079ebadcc25f2e14ff76dc1018f5a25",
+      "bank": "general",
+      "note": "Basse, accords et thème identiques. Comparer surtout M15 à M21.",
+      "note_ons": 941,
+      "audio_sha256": "e1f27c411650aaa3ca9eb1e27d2f4247c5c1e4e83bc6f79da468fbfda5cc87f8",
+      "audio_seconds": 74.24,
+      "decoded_peak": 0.343789,
+      "learning": {
+        "question": "Où percevez-vous la frontière de la troisième section sans fill de préparation ?",
+        "comparison": "C’est la référence de 32 mesures; garder la basse, les accords et le thème comme repères.",
+        "exercise": "Relever les entrées à M9, M17 et M25 et les distinguer des changements de batterie.",
+        "limit": "Une frontière écrite n’est pas nécessairement une frontière perçue.",
+        "listening_status": "not_auditioned",
+        "provenance": "Étude pédagogique AnaMu ou référence externe attribuée dans la fiche; aucune réponse d’auditeur acquise."
+      },
+      "score_secs": 73.143
+    },
+    {
+      "id": "passage-kit-seul-1",
+      "course": "berklee-online:OMPRD-386",
+      "title": "Batterie seule · continue",
+      "midi": "docs/courses/berklee-online/OMPRD-386/passage-kit-seul-1.mid",
+      "audio_url": "audio/berklee-online/OMPRD-386/passage-kit-seul-1.mp3",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "M1 · Exposition",
+          "listen_label": "M1 · Exposition"
+        },
+        {
+          "seconds": 18.286,
+          "label": "M9 · Variation",
+          "listen_label": "M9 · Variation"
+        },
+        {
+          "seconds": 32.0,
+          "label": "M15 · Préparation",
+          "listen_label": "M15 · Préparation"
+        },
+        {
+          "seconds": 36.571,
+          "label": "M17 · Arrivée",
+          "listen_label": "M17 · Arrivée"
+        },
+        {
+          "seconds": 45.714,
+          "label": "M21 · Retour au groove",
+          "listen_label": "M21 · Retour au groove"
+        },
+        {
+          "seconds": 54.857,
+          "label": "M25 · Reprise",
+          "listen_label": "M25 · Reprise"
+        },
+        {
+          "seconds": 70.857,
+          "label": "M32 · Résolution",
+          "listen_label": "M32 · Résolution"
+        }
+      ],
+      "midi_score_seconds": 73.143,
+      "midi_sha256": "54d3c6cb0335376afe6c0c4e389dd1a479de780bc081b701999916db96e63ce2",
+      "bank": "general",
+      "note": "Exactement la piste de batterie de la version avec accompagnement.",
+      "note_ons": 416,
+      "audio_sha256": "3d29c576b9c7b1f3a62b31d44c7356161eff9557975cf10e6724d319348702da",
+      "audio_seconds": 74.24,
+      "decoded_peak": 0.244132,
+      "learning": {
+        "question": "Pouvez-vous situer M17 en écoutant seulement la batterie continue ?",
+        "comparison": "La partie de batterie est celle du premier mix; basse, piano et flûte sont retirés.",
+        "exercise": "Comparer le repérage de la frontière avec et sans les autres instruments.",
+        "limit": "Retirer l’accompagnement change le contexte et le niveau global; le stem n’isole pas une variable perceptive unique.",
+        "listening_status": "not_auditioned",
+        "provenance": "Étude pédagogique AnaMu ou référence externe attribuée dans la fiche; aucune réponse d’auditeur acquise."
+      },
+      "score_secs": 73.143
+    },
+    {
+      "id": "passage-batterie-2",
+      "course": "berklee-online:OMPRD-386",
+      "title": "Même morceau, batterie qui prépare et relâche la transition",
+      "midi": "docs/courses/berklee-online/OMPRD-386/passage-batterie-2.mid",
+      "audio_url": "audio/berklee-online/OMPRD-386/passage-batterie-2.mp3",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "M1 · Exposition",
+          "listen_label": "M1 · Exposition"
+        },
+        {
+          "seconds": 18.286,
+          "label": "M9 · Variation",
+          "listen_label": "M9 · Variation"
+        },
+        {
+          "seconds": 32.0,
+          "label": "M15 · Préparation",
+          "listen_label": "M15 · Préparation"
+        },
+        {
+          "seconds": 36.571,
+          "label": "M17 · Arrivée",
+          "listen_label": "M17 · Arrivée"
+        },
+        {
+          "seconds": 45.714,
+          "label": "M21 · Retour au groove",
+          "listen_label": "M21 · Retour au groove"
+        },
+        {
+          "seconds": 54.857,
+          "label": "M25 · Reprise",
+          "listen_label": "M25 · Reprise"
+        },
+        {
+          "seconds": 70.857,
+          "label": "M32 · Résolution",
+          "listen_label": "M32 · Résolution"
+        }
+      ],
+      "midi_score_seconds": 73.143,
+      "midi_sha256": "d0770b19fa8ccd9cc2e748f56e29d306524027aaa26546b290a4b6b67117259a",
+      "bank": "general",
+      "note": "Basse, accords et thème identiques. Comparer surtout M15 à M21.",
+      "note_ons": 921,
+      "audio_sha256": "999918839525fa0ed39b7a40b8de004cdee57623dfb615b78c5e4d34ee396d94",
+      "audio_seconds": 74.24,
+      "decoded_peak": 0.34391,
+      "learning": {
+        "question": "La préparation en M15–16 et le retrait en M17 changent-ils la place du thème ?",
+        "comparison": "Les 525 attaques des trois parties mélodiques et harmoniques restent celles de la version 1; seule la batterie change en M15–20.",
+        "exercise": "Écrire une autre préparation au même retour du thème sans modifier les parties mélodiques.",
+        "limit": "Fill, silence, cymbale et half-time changent conjointement; ce contraste ne mesure pas leurs effets séparés.",
+        "listening_status": "not_auditioned",
+        "provenance": "Étude pédagogique AnaMu ou référence externe attribuée dans la fiche; aucune réponse d’auditeur acquise."
+      },
+      "score_secs": 73.143
+    },
+    {
+      "id": "passage-kit-seul-2",
+      "course": "berklee-online:OMPRD-386",
+      "title": "Batterie seule · transition et retour",
+      "midi": "docs/courses/berklee-online/OMPRD-386/passage-kit-seul-2.mid",
+      "audio_url": "audio/berklee-online/OMPRD-386/passage-kit-seul-2.mp3",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "M1 · Exposition",
+          "listen_label": "M1 · Exposition"
+        },
+        {
+          "seconds": 18.286,
+          "label": "M9 · Variation",
+          "listen_label": "M9 · Variation"
+        },
+        {
+          "seconds": 32.0,
+          "label": "M15 · Préparation",
+          "listen_label": "M15 · Préparation"
+        },
+        {
+          "seconds": 36.571,
+          "label": "M17 · Arrivée",
+          "listen_label": "M17 · Arrivée"
+        },
+        {
+          "seconds": 45.714,
+          "label": "M21 · Retour au groove",
+          "listen_label": "M21 · Retour au groove"
+        },
+        {
+          "seconds": 54.857,
+          "label": "M25 · Reprise",
+          "listen_label": "M25 · Reprise"
+        },
+        {
+          "seconds": 70.857,
+          "label": "M32 · Résolution",
+          "listen_label": "M32 · Résolution"
+        }
+      ],
+      "midi_score_seconds": 73.143,
+      "midi_sha256": "9e261a6adf3671412da783c0c90a64e909194985e2555750220e50479d2e332c",
+      "bank": "general",
+      "note": "Exactement la piste de batterie de la version avec accompagnement.",
+      "note_ons": 396,
+      "audio_sha256": "447e9518a70c317334fdd2c6848a6830c6fcc99f97badb0bb5f7c82b9cebf781",
+      "audio_seconds": 74.24,
+      "decoded_peak": 0.262299,
+      "learning": {
+        "question": "Le fill et le retour restent-ils lisibles sans le thème ?",
+        "comparison": "La batterie est exactement celle du second mix, avec ses changements en M15–20.",
+        "exercise": "Annoter à part la préparation, la respiration, l’arrivée et la reprise du groove.",
+        "limit": "Le stem explique l’écriture de la partie; il ne garantit pas son équilibre dans le mix.",
+        "listening_status": "not_auditioned",
+        "provenance": "Étude pédagogique AnaMu ou référence externe attribuée dans la fiche; aucune réponse d’auditeur acquise."
+      },
+      "score_secs": 73.143
+    },
+    {
+      "id": "microtiming-avec-basse-fixe",
+      "course": "berklee-online:OMPRD-386",
+      "title": "Caisse, kick ou kit en retard · avec basse fixe",
+      "midi": "docs/courses/berklee-online/OMPRD-386/microtiming-avec-basse-fixe.mid",
+      "audio_url": "audio/berklee-online/OMPRD-386/microtiming-avec-basse-fixe.mp3",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A · Grille",
+          "listen_label": "A · Grille"
+        },
+        {
+          "seconds": 9.143,
+          "label": "B · Caisse +19 ms",
+          "listen_label": "B · Caisse +19 ms"
+        },
+        {
+          "seconds": 18.286,
+          "label": "C · Kick +19 ms",
+          "listen_label": "C · Kick +19 ms"
+        },
+        {
+          "seconds": 27.429,
+          "label": "D · Kit +19 ms",
+          "listen_label": "D · Kit +19 ms"
+        }
+      ],
+      "midi_score_seconds": 36.571,
+      "midi_sha256": "540ace7e9ee788e3cf2546cf1ee8b74b1afa09811b04e328caa44cd9f38f23be",
+      "bank": "general",
+      "note": "Les mêmes frappes de batterie que dans le témoin sans basse. Écouter D contre A sans perdre la basse de référence.",
+      "note_ons": 256,
+      "audio_sha256": "45d51dc4864ee08794426659bd1f3aadf80c6474562e3a6431b2d31771e97252",
+      "audio_seconds": 37.669,
+      "decoded_peak": 0.320839,
+      "learning": {
+        "question": "Que devient le décalage de tout le kit face à une basse qui ne bouge pas ?",
+        "comparison": "Les quatre blocs conservent la même basse; A est sur grille, B retarde la caisse, C le kick et D tout le kit.",
+        "exercise": "Distinguer les écarts entre membres du kit des écarts de la batterie à la basse.",
+        "limit": "Le décalage nominal est de 16 ticks; l’attaque de chaque son et la perception ne se déduisent pas de cette seule valeur.",
+        "listening_status": "not_auditioned",
+        "provenance": "Étude pédagogique AnaMu ou référence externe attribuée dans la fiche; aucune réponse d’auditeur acquise."
+      },
+      "score_secs": 36.571
+    },
+    {
+      "id": "meme-groove-tempo-variable",
+      "course": "berklee-online:OCMUS-105",
+      "title": "Mêmes frappes · tempo fixe puis accélération",
+      "midi": "docs/courses/berklee-online/OCMUS-105/meme-groove-tempo-variable.mid",
+      "audio_url": "audio/berklee-online/OCMUS-105/meme-groove-tempo-variable.mp3",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A · 104 BPM constant",
+          "listen_label": "A · 104 BPM constant"
+        },
+        {
+          "seconds": 18.462,
+          "label": "B · Reprise à 104 BPM",
+          "listen_label": "B · Reprise à 104 BPM"
+        },
+        {
+          "seconds": 27.692,
+          "label": "108 → 112 → 116 → 120 BPM",
+          "listen_label": "108 → 112 → 116 → 120 BPM"
+        },
+        {
+          "seconds": 34.126,
+          "label": "Dernière mesure à 120 BPM",
+          "listen_label": "Dernière mesure à 120 BPM"
+        }
+      ],
+      "midi_score_seconds": 36.126,
+      "midi_sha256": "15f5511bece334280c7d12971211823e3687aee45c86feadf5b7aeead22c75df",
+      "bank": "general",
+      "note": "Comparer les mesures 5 et 13. Le tempo change, pas les notes relatives à la grille.",
+      "note_ons": 320,
+      "audio_sha256": "f8203357f3a0eb29de65e463992366d37c045471a4ab1c4b27b5863d3e9bbbce",
+      "audio_seconds": 37.224,
+      "decoded_peak": 0.228849,
+      "learning": {
+        "question": "Le groupe accélère-t-il alors que le nombre de frappes par mesure reste identique ?",
+        "comparison": "Les blocs de huit mesures conservent leurs notes en ticks; seul le second contient des changements de tempo.",
+        "exercise": "Noter les mêmes attaques en mesures et en secondes pour distinguer densité écrite et vitesse.",
+        "limit": "L’accélération par paliers n’est pas un rubato capté chez un interprète.",
+        "listening_status": "not_auditioned",
+        "provenance": "Étude pédagogique AnaMu ou référence externe attribuée dans la fiche; aucune réponse d’auditeur acquise."
+      },
+      "score_secs": 36.126
+    },
+    {
+      "id": "peaux-en-relais",
+      "course": "berklee:CM-343",
+      "title": "Congas et bongos · doublure puis appel–réponse",
+      "midi": "docs/courses/berklee/CM-343/peaux-en-relais.mid",
+      "audio_url": "audio/berklee/CM-343/peaux-en-relais.mp3",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "A · Congas et bongos ensemble",
+          "listen_label": "A · Congas et bongos ensemble"
+        },
+        {
+          "seconds": 17.778,
+          "label": "B · Les bongos répondent",
+          "listen_label": "B · Les bongos répondent"
+        }
+      ],
+      "midi_score_seconds": 35.556,
+      "midi_sha256": "7a7277ae2ca6e6da2b3621bff4a607a0350a199b8eef8e2a92099cd715379145",
+      "bank": "general",
+      "note": "Le tambourin et les maracas restent fixes. Motif d’étude original, sans attribution à une tradition.",
+      "note_ons": 288,
+      "audio_sha256": "bf24eed3641dbfbc8fcd8d37dffd40c58e5e37218b47c36e13934c8a344938bd",
+      "audio_seconds": 36.65,
+      "decoded_peak": 0.245484,
+      "learning": {
+        "question": "Les bongos renforcent-ils les congas ou leur répondent-ils ?",
+        "comparison": "Les bongos sont déplacés de 960 ticks dans B; congas, maracas et tambourin restent.",
+        "exercise": "Redistribuer la réponse sur une autre moitié de mesure sans ajouter de coups.",
+        "limit": "Ce motif ne représente pas une tradition nommée; les gestes et les équilibres acoustiques restent à établir.",
+        "listening_status": "not_auditioned",
+        "provenance": "Étude pédagogique AnaMu ou référence externe attribuée dans la fiche; aucune réponse d’auditeur acquise."
+      },
+      "score_secs": 35.556
+    },
+    {
+      "id": "charleston-gate-fermeture-et-controles-isoles-timgm",
+      "course": "berklee-online:OMPRD-386",
+      "title": "Charleston · gate et fermeture sur TimGM6mb",
+      "midi": "docs/courses/berklee-online/OMPRD-386/charleston-gate-fermeture-et-controles-isoles.mid",
+      "audio_url": "audio/berklee-online/OMPRD-386/charleston-gate-fermeture-et-controles-isoles-timgm.mp3",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "GM46, Note Off tardif",
+          "listen_label": "GM46, Note Off tardif"
+        },
+        {
+          "seconds": 8.0,
+          "label": "GM46, Note Off avancé",
+          "listen_label": "GM46, Note Off avancé"
+        },
+        {
+          "seconds": 16.0,
+          "label": "GM46 puis GM42",
+          "listen_label": "GM46 puis GM42"
+        },
+        {
+          "seconds": 24.0,
+          "label": "GM46 puis GM44",
+          "listen_label": "GM46 puis GM44"
+        },
+        {
+          "seconds": 32.0,
+          "label": "GM42 seul",
+          "listen_label": "GM42 seul"
+        },
+        {
+          "seconds": 40.0,
+          "label": "GM44 seul",
+          "listen_label": "GM44 seul"
+        }
+      ],
+      "midi_score_seconds": 48.0,
+      "midi_sha256": "3dfbf91bb7f0516cdaa906b6a45e393128a17bd9b16d08799cc2041b169990e8",
+      "bank": "timgm",
+      "note": "Les mêmes octets MIDI dans une autre banque, avec le même moteur.",
+      "note_ons": 32,
+      "audio_sha256": "9bbd8b096f57ba416e4fd51e9391faa9bead57dff0af0e1c14d86fd0912154e1",
+      "audio_seconds": 49.084,
+      "decoded_peak": 0.060948,
+      "learning": {
+        "question": "Qu’est-ce qui dépend ici de la banque sonore ?",
+        "comparison": "Les octets MIDI d’origine sont conservés; seule la réalisation TimGM6mb est nouvelle dans le site.",
+        "exercise": "Comparer commandes, mesures PCM récupérées et impressions auditives dans des colonnes distinctes.",
+        "limit": "Même gain numérique ne veut pas dire même niveau perçu. Les MP3 GeneralUser antérieurs et TimGM ont des gains de synthèse différents; ne pas en déduire une préférence à niveau égal.",
+        "listening_status": "not_auditioned",
+        "provenance": "Étude pédagogique AnaMu ou référence externe attribuée dans la fiche; aucune réponse d’auditeur acquise."
+      },
+      "score_secs": 48.0
+    },
+    {
+      "id": "charleston-gm46-cc4-trois-trajectoires-timgm",
+      "course": "berklee-online:OMPRD-386",
+      "title": "Charleston · trois CC4 sur TimGM6mb",
+      "midi": "docs/courses/berklee-online/OMPRD-386/charleston-gm46-cc4-trois-trajectoires.mid",
+      "audio_url": "audio/berklee-online/OMPRD-386/charleston-gm46-cc4-trois-trajectoires-timgm.mp3",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "CC4 à 0",
+          "listen_label": "CC4 à 0"
+        },
+        {
+          "seconds": 8.0,
+          "label": "CC4 à 127",
+          "listen_label": "CC4 à 127"
+        },
+        {
+          "seconds": 16.0,
+          "label": "CC4 progressif",
+          "listen_label": "CC4 progressif"
+        }
+      ],
+      "midi_score_seconds": 24.0,
+      "midi_sha256": "be947db3da9c31e1aae8b9bdfba3383f0471a7ec77e44a889f5ff3acc5c459ea",
+      "bank": "timgm",
+      "note": "Les mêmes octets MIDI dans une autre banque, avec le même moteur.",
+      "note_ons": 24,
+      "audio_sha256": "9a5d595a25f6306ed185bb8bdc267403ab2fb1be96295a9adb5f45d59119f954",
+      "audio_seconds": 25.078,
+      "decoded_peak": 0.032103,
+      "learning": {
+        "question": "Qu’est-ce qui dépend ici de la banque sonore ?",
+        "comparison": "Les octets MIDI d’origine sont conservés; seule la réalisation TimGM6mb est nouvelle dans le site.",
+        "exercise": "Comparer commandes, mesures PCM récupérées et impressions auditives dans des colonnes distinctes.",
+        "limit": "Même gain numérique ne veut pas dire même niveau perçu. Les MP3 GeneralUser antérieurs et TimGM ont des gains de synthèse différents; ne pas en déduire une préférence à niveau égal.",
+        "listening_status": "not_auditioned",
+        "provenance": "Étude pédagogique AnaMu ou référence externe attribuée dans la fiche; aucune réponse d’auditeur acquise."
+      },
+      "score_secs": 24.0
+    },
+    {
+      "id": "charleston-cc4-ordre-meme-tick-timgm",
+      "course": "berklee-online:OMPRD-386",
+      "title": "Charleston · ordre au même tick sur TimGM6mb",
+      "midi": "docs/courses/berklee-online/OMPRD-386/charleston-cc4-ordre-meme-tick.mid",
+      "audio_url": "audio/berklee-online/OMPRD-386/charleston-cc4-ordre-meme-tick-timgm.mp3",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "CC4 avant la frappe",
+          "listen_label": "CC4 avant la frappe"
+        },
+        {
+          "seconds": 8.0,
+          "label": "CC4 après la frappe",
+          "listen_label": "CC4 après la frappe"
+        },
+        {
+          "seconds": 16.0,
+          "label": "CC4 après (rép.)",
+          "listen_label": "CC4 après (rép.)"
+        },
+        {
+          "seconds": 24.0,
+          "label": "CC4 avant (rép.)",
+          "listen_label": "CC4 avant (rép.)"
+        }
+      ],
+      "midi_score_seconds": 32.0,
+      "midi_sha256": "f7810f71bfb36685ef3b5458647c1de78c708688b8d82ba0833cc5b4dd113afd",
+      "bank": "timgm",
+      "note": "Les mêmes octets MIDI dans une autre banque, avec le même moteur.",
+      "note_ons": 16,
+      "audio_sha256": "ab92fd1421e9c59808a873764057460dc9cbb6bca0c252a33423689c59a8694c",
+      "audio_seconds": 33.097,
+      "decoded_peak": 0.031379,
+      "learning": {
+        "question": "Qu’est-ce qui dépend ici de la banque sonore ?",
+        "comparison": "Les octets MIDI d’origine sont conservés; seule la réalisation TimGM6mb est nouvelle dans le site.",
+        "exercise": "Comparer commandes, mesures PCM récupérées et impressions auditives dans des colonnes distinctes.",
+        "limit": "Même gain numérique ne veut pas dire même niveau perçu. Les MP3 GeneralUser antérieurs et TimGM ont des gains de synthèse différents; ne pas en déduire une préférence à niveau égal.",
+        "listening_status": "not_auditioned",
+        "provenance": "Étude pédagogique AnaMu ou référence externe attribuée dans la fiche; aucune réponse d’auditeur acquise."
+      },
+      "score_secs": 32.0
+    },
+    {
+      "id": "gmd-grille-1",
+      "course": "berklee-online:OPERC-160",
+      "title": "Prise humaine re-sonorisée · placement conservé",
+      "midi": "docs/courses/berklee-online/OPERC-160/gmd-grille-1.mid",
+      "audio_url": "audio/berklee-online/OPERC-160/gmd-grille-1.mp3",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "M1 · Départ",
+          "listen_label": "M1 · Départ"
+        },
+        {
+          "seconds": 9.143,
+          "label": "M5 · Deuxième phrase",
+          "listen_label": "M5 · Deuxième phrase"
+        }
+      ],
+      "midi_score_seconds": 18.286,
+      "midi_sha256": "d32980248240d6ddfb8d8556ebabfed2afe80ca37cf324959e1d18d69fcc8be5",
+      "bank": "general",
+      "note": "Premières huit mesures de la prise 1, converties avec le même kit GM et le même accompagnement.",
+      "note_ons": 249,
+      "audio_sha256": "5797adc81a931ffde70811a3bb0d5bb02d5e5724d1fed196a6d6e1864d0c85fd",
+      "audio_seconds": 19.383,
+      "decoded_peak": 0.364269,
+      "learning": {
+        "question": "Comment le placement capté s’articule-t-il avec l’accompagnement ajouté ?",
+        "comparison": "Adaptation GM de huit mesures de drummer1; 169 frappes de batterie et 80 notes d’accompagnement.",
+        "exercise": "Comparer au rendu quantifié en séparant les attaques de la basse des coups du kit.",
+        "limit": "La banque, les gates et l’accompagnement sont nouveaux; ce n’est pas le son original TD-11.",
+        "listening_status": "not_auditioned",
+        "provenance": "Étude pédagogique AnaMu ou référence externe attribuée dans la fiche; aucune réponse d’auditeur acquise."
+      },
+      "score_secs": 18.286
+    },
+    {
+      "id": "gmd-grille-2",
+      "course": "berklee-online:OPERC-160",
+      "title": "Prise humaine re-sonorisée · quantifiée avec protection des coups rapprochés",
+      "midi": "docs/courses/berklee-online/OPERC-160/gmd-grille-2.mid",
+      "audio_url": "audio/berklee-online/OPERC-160/gmd-grille-2.mp3",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "M1 · Départ",
+          "listen_label": "M1 · Départ"
+        },
+        {
+          "seconds": 9.143,
+          "label": "M5 · Deuxième phrase",
+          "listen_label": "M5 · Deuxième phrase"
+        }
+      ],
+      "midi_score_seconds": 18.286,
+      "midi_sha256": "935b893124da581041e2837bfebd7ec5f4f0c0534595b230cfb24cbbaca9207d",
+      "bank": "general",
+      "note": "Premières huit mesures de la prise 1, converties avec le même kit GM et le même accompagnement.",
+      "note_ons": 249,
+      "audio_sha256": "32728d9e10db76e6677905362b9bc11c84861759a047f280f3479ca9aec78ad0",
+      "audio_seconds": 19.383,
+      "decoded_peak": 0.369692,
+      "learning": {
+        "question": "Quels effets attribuez-vous au placement partiellement quantifié ?",
+        "comparison": "Mêmes hauteurs GM adaptées, vélocités et accompagnement; 140 frappes changent de date et 27 sont protégées.",
+        "exercise": "Expliquer les collisions d’un arrondi naïf avant de proposer une nouvelle grille.",
+        "limit": "La protection de coups rapprochés rend la quantification partielle; aucune préférence d’auditeurs n’est acquise.",
+        "listening_status": "not_auditioned",
+        "provenance": "Étude pédagogique AnaMu ou référence externe attribuée dans la fiche; aucune réponse d’auditeur acquise."
+      },
+      "score_secs": 18.286
+    },
+    {
+      "course": "berklee-online:OPERC-160",
+      "id": "gmd-groove2-drummer1",
+      "title": "Groove 2 · prise humaine 1 (Roland TD-11)",
+      "midi": "docs/courses/berklee-online/OPERC-160/gmd-groove2-drummer1.mid",
+      "audio_url": "audio/berklee-online/OPERC-160/gmd-groove2-drummer1.mp3",
+      "bank": "roland-td11-capture",
+      "note": "Prise humaine réelle sur kit électronique, sortie audio du module. Source Google Magenta, CC BY 4.0.",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "M1 · Départ",
+          "listen_label": "M1 · Départ"
+        },
+        {
+          "seconds": 9.143,
+          "label": "M5 · Deuxième phrase",
+          "listen_label": "M5 · Deuxième phrase"
+        },
+        {
+          "seconds": 18.286,
+          "label": "M9 · Milieu",
+          "listen_label": "M9 · Milieu"
+        },
+        {
+          "seconds": 27.429,
+          "label": "M13 · Dernière phrase",
+          "listen_label": "M13 · Dernière phrase"
+        }
+      ],
+      "midi_sha256": "05bd92056f42f61de95702b55433dc083cd0064148ad6d478880470548bfced1",
+      "note_ons": 324,
+      "audio_sha256": "1afb326bae48309f11a773678fe743d62c7be6cdd87ba16b6ce8031862fe2b59",
+      "audio_seconds": 36.598,
+      "decoded_peak": 0.958581,
+      "learning": {
+        "question": "Où situez-vous les coups par rapport à la pulsation en gardant le jeu du batteur ?",
+        "comparison": "Capture humaine sur TD-11, sortie sonore du module; MIDI source inchangé et CC4 conservé.",
+        "exercise": "Décrire une fenêtre de quatre mesures et comparer au même motif d’un autre batteur sans classer leur qualité.",
+        "limit": "Les prises diffèrent aussi par leurs coups et vélocités; elles ne constituent pas une intervention contrôlée sur le seul microtiming.",
+        "listening_status": "not_auditioned",
+        "provenance": "Étude pédagogique AnaMu ou référence externe attribuée dans la fiche; aucune réponse d’auditeur acquise."
+      },
+      "score_secs": 36.351218
+    },
+    {
+      "course": "berklee-online:OPERC-160",
+      "id": "gmd-groove2-drummer5",
+      "title": "Groove 2 · prise humaine 2 (Roland TD-11)",
+      "midi": "docs/courses/berklee-online/OPERC-160/gmd-groove2-drummer5.mid",
+      "audio_url": "audio/berklee-online/OPERC-160/gmd-groove2-drummer5.mp3",
+      "bank": "roland-td11-capture",
+      "note": "Prise humaine réelle sur kit électronique, sortie audio du module. Source Google Magenta, CC BY 4.0.",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "M1 · Départ",
+          "listen_label": "M1 · Départ"
+        },
+        {
+          "seconds": 9.143,
+          "label": "M5 · Deuxième phrase",
+          "listen_label": "M5 · Deuxième phrase"
+        },
+        {
+          "seconds": 18.286,
+          "label": "M9 · Milieu",
+          "listen_label": "M9 · Milieu"
+        },
+        {
+          "seconds": 27.429,
+          "label": "M13 · Dernière phrase",
+          "listen_label": "M13 · Dernière phrase"
+        }
+      ],
+      "midi_sha256": "60dc7b5d4c7d0a501ae10c34a9754aedbe1771ef599e70dacf840fe06c0522a8",
+      "note_ons": 334,
+      "audio_sha256": "23787e7a45987f417b741d942196923ff69ad855eedc8c921b556138abf6be25",
+      "audio_seconds": 36.598,
+      "decoded_peak": 0.304103,
+      "learning": {
+        "question": "Où situez-vous les coups par rapport à la pulsation en gardant le jeu du batteur ?",
+        "comparison": "Capture humaine sur TD-11, sortie sonore du module; MIDI source inchangé et CC4 conservé.",
+        "exercise": "Décrire une fenêtre de quatre mesures et comparer au même motif d’un autre batteur sans classer leur qualité.",
+        "limit": "Les prises diffèrent aussi par leurs coups et vélocités; elles ne constituent pas une intervention contrôlée sur le seul microtiming.",
+        "listening_status": "not_auditioned",
+        "provenance": "Étude pédagogique AnaMu ou référence externe attribuée dans la fiche; aucune réponse d’auditeur acquise."
+      },
+      "score_secs": 36.564313
+    },
+    {
+      "course": "berklee-online:OPERC-160",
+      "id": "gmd-groove2-drummer7",
+      "title": "Groove 2 · prise humaine 3 (Roland TD-11)",
+      "midi": "docs/courses/berklee-online/OPERC-160/gmd-groove2-drummer7.mid",
+      "audio_url": "audio/berklee-online/OPERC-160/gmd-groove2-drummer7.mp3",
+      "bank": "roland-td11-capture",
+      "note": "Prise humaine réelle sur kit électronique, sortie audio du module. Source Google Magenta, CC BY 4.0.",
+      "cues": [
+        {
+          "seconds": 0.0,
+          "label": "M1 · Départ",
+          "listen_label": "M1 · Départ"
+        },
+        {
+          "seconds": 9.143,
+          "label": "M5 · Deuxième phrase",
+          "listen_label": "M5 · Deuxième phrase"
+        },
+        {
+          "seconds": 18.286,
+          "label": "M9 · Milieu",
+          "listen_label": "M9 · Milieu"
+        },
+        {
+          "seconds": 27.429,
+          "label": "M13 · Dernière phrase",
+          "listen_label": "M13 · Dernière phrase"
+        }
+      ],
+      "midi_sha256": "b9b75dee2c266057675621bddff2c6a5405fdc7efa3dd15d58246877d21ab9ea",
+      "note_ons": 254,
+      "audio_sha256": "0f6628a8fcf7a87d777a95a4f8b2be0619a31f9905d6294ba9d1a36d8263dc53",
+      "audio_seconds": 36.598,
+      "decoded_peak": 0.35461,
+      "learning": {
+        "question": "Où situez-vous les coups par rapport à la pulsation en gardant le jeu du batteur ?",
+        "comparison": "Capture humaine sur TD-11, sortie sonore du module; MIDI source inchangé et CC4 conservé.",
+        "exercise": "Décrire une fenêtre de quatre mesures et comparer au même motif d’un autre batteur sans classer leur qualité.",
+        "limit": "Les prises diffèrent aussi par leurs coups et vélocités; elles ne constituent pas une intervention contrôlée sur le seul microtiming.",
+        "listening_status": "not_auditioned",
+        "provenance": "Étude pédagogique AnaMu ou référence externe attribuée dans la fiche; aucune réponse d’auditeur acquise."
+      },
+      "score_secs": 36.098837
+    }
+  ],
+  "human": [
+    {
+      "drummer": "drummer1",
+      "session": "drummer1/eval_session",
+      "id": "drummer1/eval_session/2",
+      "style": "funk/groove2",
+      "bpm": "105",
+      "beat_type": "beat",
+      "time_signature": "4-4",
+      "midi_filename": "drummer1/eval_session/2_funk-groove2_105_beat_4-4.mid",
+      "audio_filename": "drummer1/eval_session/2_funk-groove2_105_beat_4-4.wav",
+      "duration": "36.351218",
+      "split": "test",
+      "midi_sha256": "05bd92056f42f61de95702b55433dc083cd0064148ad6d478880470548bfced1",
+      "audio_sha256": "4d01834c46656b2cb5e417280791a31b4857b53f3b486575ab0e56ce45d1a351",
+      "note_on": 324,
+      "cc4_count": 174,
+      "cc4_minmax": [
+        0,
+        90
+      ],
+      "grid": {
+        "division": "double-croche relative au tick 0",
+        "measures": 16,
+        "stats": {
+          "kick": {
+            "hits": 82,
+            "median_signed_ms": 3.57,
+            "median_absolute_ms": 17.86,
+            "median_velocity": 60.5
+          },
+          "snare": {
+            "hits": 103,
+            "median_signed_ms": 0.0,
+            "median_absolute_ms": 25.0,
+            "median_velocity": 33
+          },
+          "hat_hand": {
+            "hits": 122,
+            "median_signed_ms": -7.14,
+            "median_absolute_ms": 10.12,
+            "median_velocity": 76.0
+          },
+          "hat_pedal": {
+            "hits": 16,
+            "median_signed_ms": -43.45,
+            "median_absolute_ms": 43.45,
+            "median_velocity": 53.5
+          }
+        },
+        "ppq": 480,
+        "microseconds_per_quarter": 571429
+      }
+    },
+    {
+      "drummer": "drummer5",
+      "session": "drummer5/eval_session",
+      "id": "drummer5/eval_session/2",
+      "style": "funk/groove2",
+      "bpm": "105",
+      "beat_type": "beat",
+      "time_signature": "4-4",
+      "midi_filename": "drummer5/eval_session/2_funk-groove2_105_beat_4-4.mid",
+      "audio_filename": "drummer5/eval_session/2_funk-groove2_105_beat_4-4.wav",
+      "duration": "36.564313",
+      "split": "test",
+      "midi_sha256": "60dc7b5d4c7d0a501ae10c34a9754aedbe1771ef599e70dacf840fe06c0522a8",
+      "audio_sha256": "f7d6dd045f77859eaab127712102a3b4ce167ca8230c9656b93e92357781973b",
+      "note_on": 334,
+      "cc4_count": 192,
+      "cc4_minmax": [
+        11,
+        90
+      ],
+      "grid": {
+        "division": "double-croche relative au tick 0",
+        "measures": 16,
+        "stats": {
+          "kick": {
+            "hits": 71,
+            "median_signed_ms": 7.14,
+            "median_absolute_ms": 13.1,
+            "median_velocity": 31
+          },
+          "snare": {
+            "hits": 124,
+            "median_signed_ms": 10.12,
+            "median_absolute_ms": 28.57,
+            "median_velocity": 17.5
+          },
+          "hat_hand": {
+            "hits": 128,
+            "median_signed_ms": 5.95,
+            "median_absolute_ms": 10.71,
+            "median_velocity": 57.5
+          },
+          "hat_pedal": {
+            "hits": 11,
+            "median_signed_ms": -23.81,
+            "median_absolute_ms": 23.81,
+            "median_velocity": 47
+          }
+        },
+        "ppq": 480,
+        "microseconds_per_quarter": 571429
+      }
+    },
+    {
+      "drummer": "drummer7",
+      "session": "drummer7/eval_session",
+      "id": "drummer7/eval_session/2",
+      "style": "funk/groove2",
+      "bpm": "105",
+      "beat_type": "beat",
+      "time_signature": "4-4",
+      "midi_filename": "drummer7/eval_session/2_funk-groove2_105_beat_4-4.mid",
+      "audio_filename": "drummer7/eval_session/2_funk-groove2_105_beat_4-4.wav",
+      "duration": "36.098837",
+      "split": "test",
+      "midi_sha256": "b9b75dee2c266057675621bddff2c6a5405fdc7efa3dd15d58246877d21ab9ea",
+      "audio_sha256": "19ca2de06667d0c18f64dc70c7fb5b33dd222bff8648f9341c1a38b8aa7ed336",
+      "note_on": 254,
+      "cc4_count": 187,
+      "cc4_minmax": [
+        0,
+        90
+      ],
+      "grid": {
+        "division": "double-croche relative au tick 0",
+        "measures": 16,
+        "stats": {
+          "kick": {
+            "hits": 79,
+            "median_signed_ms": -7.14,
+            "median_absolute_ms": 13.1,
+            "median_velocity": 28
+          },
+          "snare": {
+            "hits": 32,
+            "median_signed_ms": -16.07,
+            "median_absolute_ms": 16.07,
+            "median_velocity": 83.0
+          },
+          "hat_hand": {
+            "hits": 127,
+            "median_signed_ms": -9.52,
+            "median_absolute_ms": 10.71,
+            "median_velocity": 69
+          },
+          "hat_pedal": {
+            "hits": 16,
+            "median_signed_ms": -27.38,
+            "median_absolute_ms": 27.38,
+            "median_velocity": 72.0
+          }
+        },
+        "ppq": 480,
+        "microseconds_per_quarter": 571429
+      }
+    }
+  ],
+  "quantization": {
+    "source": "drummer1/eval_session/2",
+    "hits": 169,
+    "moved": 140,
+    "collision_groups": 12,
+    "protected_notes": 27,
+    "boundary_omitted": 2,
+    "max_shift_ms": 63.1,
+    "map": {
+      "22": 42,
+      "26": 46,
+      "40": 38,
+      "48": 50,
+      "45": 47,
+      "58": 43,
+      "55": 49,
+      "52": 57,
+      "59": 51
+    }
+  },
+  "controls": {
+    "charleston-gate-fermeture-et-controles-isoles-timgm": {
+      "general": {
+        "note_off_db": -0.9,
+        "gm42_residual_db": -31.99,
+        "gm44_residual_db": -31.99,
+        "window_s": [
+          0.32,
+          0.65
+        ]
+      },
+      "timgm": {
+        "note_off_db": 0.21,
+        "gm42_residual_db": -29.43,
+        "gm44_residual_db": -29.43,
+        "window_s": [
+          0.32,
+          0.65
+        ]
+      }
+    },
+    "charleston-gm46-cc4-trois-trajectoires-timgm": {
+      "general": {
+        "max_delta_pcm": 0.0
+      },
+      "timgm": {
+        "max_delta_pcm": 0.0
+      }
+    },
+    "charleston-cc4-ordre-meme-tick-timgm": {
+      "general": {
+        "max_delta_pcm": 0.0
+      },
+      "timgm": {
+        "max_delta_pcm": 0.0
+      }
+    }
+  },
+  "render": {
+    "engine": "FluidSynth 2.4.4",
+    "bank_sha256": {
+      "general": "e2ed326ff44d15f78f2fdc72403b6fa6b77ee7266d3aad0d2198bc95797bc66c",
+      "timgm": "c5378b62028c920cb11e4803327983fee2f2cdff5dc89c708e39da417e51c854"
+    },
+    "pcm_sample_rate": 48000,
+    "mp3_sample_rate": 44100,
+    "mp3_bit_rate": 96000,
+    "fixed_synth_gain": 0.72,
+    "reverb": false,
+    "chorus": false,
+    "published_previous_general_gain": 0.83,
+    "measurement_note": "Les contrôles PCM récupérés de la préparation précédente utilisent un gain commun de 0.72 et des synthétiseurs neufs par bloc. Les MP3 GeneralUser de la première passe utilisent 0.83, les nouveaux rendus 0.72. Pas d’égalisation perceptive entre banques."
+  },
+  "listening_trials": {
+    "berklee-online:OMPRD-386": [
+      {
+        "title": "L’arrivée du thème",
+        "question": "Dans quelle version l’arrivée du thème semble-t-elle mieux préparée ?",
+        "mode": "preference",
+        "clips": [
+          {
+            "url": "audio/berklee-online/OMPRD-386/passage-batterie-1.mp3",
+            "label": "Batterie continue",
+            "start": 32,
+            "end": 48
+          },
+          {
+            "url": "audio/berklee-online/OMPRD-386/passage-batterie-2.mp3",
+            "label": "Fill, respiration et retour",
+            "start": 32,
+            "end": 48
+          }
+        ],
+        "explanation": "La basse, les accords et le thème sont identiques. Seule la batterie change."
+      },
+      {
+        "title": "Repérage d’une différence",
+        "question": "Les deux extraits te semblent-ils identiques ?",
+        "mode": "difference",
+        "clips": [
+          {
+            "url": "audio/berklee-online/OMPRD-386/passage-batterie-1.mp3",
+            "label": "Même extrait",
+            "start": 32,
+            "end": 41
+          },
+          {
+            "url": "audio/berklee-online/OMPRD-386/passage-batterie-1.mp3",
+            "label": "Même extrait",
+            "start": 32,
+            "end": 41
+          }
+        ],
+        "explanation": "C’est un témoin A/A. Le même passage du même MP3 est joué deux fois."
+      },
+      {
+        "title": "La batterie face à la basse fixe",
+        "question": "Distinguez-vous un changement de placement de la batterie par rapport à la basse ?",
+        "mode": "difference",
+        "clips": [
+          {
+            "url": "audio/berklee-online/OMPRD-386/microtiming-avec-basse-fixe.mp3",
+            "label": "Kit sur grille, basse sur grille",
+            "start": 0,
+            "end": 8
+          },
+          {
+            "url": "audio/berklee-online/OMPRD-386/microtiming-avec-basse-fixe.mp3",
+            "label": "Tout le kit +16 ticks, basse inchangée",
+            "start": 27.429,
+            "end": 35.429
+          }
+        ],
+        "explanation": "Seules les dates du kit sont translatées; les intervalles internes du kit et la basse restent identiques. Une réponse indiscernable est recevable."
+      }
+    ],
+    "berklee-online:OPERC-160": [
+      {
+        "title": "La mise en place du groove",
+        "question": "Quelle version te semble mieux respirer avec la basse ?",
+        "mode": "preference",
+        "clips": [
+          {
+            "url": "audio/berklee-online/OPERC-160/gmd-grille-1.mp3",
+            "label": "Placement de la prise humaine conservé",
+            "start": 0,
+            "end": 15
+          },
+          {
+            "url": "audio/berklee-online/OPERC-160/gmd-grille-2.mp3",
+            "label": "Placement partiellement quantifié",
+            "start": 0,
+            "end": 15
+          }
+        ],
+        "explanation": "Les deux sont re-sonorisées. Même accompagnement, même kit et mêmes vélocités."
+      }
+    ],
+    "berklee:CM-343": [
+      {
+        "title": "Les timbres se répondent-ils ?",
+        "question": "Dans quelle version les bongos semblent-ils répondre aux congas ?",
+        "mode": "preference",
+        "clips": [
+          {
+            "url": "audio/berklee/CM-343/peaux-en-relais.mp3",
+            "label": "Frappes superposées",
+            "start": 0,
+            "end": 8.5
+          },
+          {
+            "url": "audio/berklee/CM-343/peaux-en-relais.mp3",
+            "label": "Bongos retardés d’une demi-mesure",
+            "start": 17.778,
+            "end": 26.278
+          }
+        ],
+        "explanation": "Les mêmes frappes de bongos changent uniquement de place. Les autres voix restent stables."
+      }
+    ]
+  },
+  "source_attribution": {
+    "original_corpus": "Groove MIDI Dataset v1.0.0, Google Magenta / Google LLC (2019)",
+    "source": "https://magenta.withgoogle.com/datasets/groove",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "derived": "Les trois MIDI GMD sont inchangés. Les WAV correspondants du TD-11 ont seulement été réencodés en MP3. Deux comparaisons réutilisent le placement des frappes après adaptation General MIDI, en ajoutant un accompagnement et, pour la deuxième, une quantification partielle.",
+    "citation": "Jon Gillick, Adam Roberts, Jesse Engel, Douglas Eck et David Bamman, Learning to Groove with Inverse Sequence Transformations, ICML, 2019.",
+    "source_reviewed": "2026-11-17"
+  },
+  "scope": "Études originales à visée pédagogique, captures de jeu humain sur kit électronique et écoutes à l’aveugle sans collecte de réponses. Pas de validation d’une performance acoustique, de résultat d’auditeurs ou de style universel.",
+  "recovery": {
+    "base_commit": "bb3bd6e0524c403fce56a46a9ea8c7ce811d9b96",
+    "description": "Lot de préparation non publié retrouvé et relu pendant cette reprise. Les métriques PCM antérieures sont conservées avec leur protocole; aucun résultat d’écoute humaine n’est allégué."
+  }
+}

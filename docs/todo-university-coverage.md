@@ -8,8 +8,11 @@
 - [x] Distinguer témoins sonores et changements d’affectation sans preuve audible; rappeler les limites des expériences où plusieurs paramètres changent.
 - [ ] Recueillir des réponses d’écoute datées sur les contrastes choisis, avec matériel utilisé et possibilité de réponse « indiscernable ». Une prédiction ou une mesure PCM ne vaut pas ce retour.
 - [ ] Vérifier les affectations de mains/pieds, déplacements et étouffements avec un interprète et un plan de montage documenté. Garder ces verdicts inconnus en attendant.
-- [ ] Ajouter une seconde réalisation sonore identifiée sur les témoins CC4, Note Off et résonance pour évaluer ce qui dépend de la banque. Les 41 fichiers actuels utilisent un seul rendu.
-- [ ] Documenter un cas musical continu en reliant geste noté, son et fonction de phrase; les études courtes ne suffisent pas à valider le transfert.
+- [x] Ajouter une seconde banque identifiée sur les trois témoins de charleston CC4/ordre/Note Off, avec protocole et limites de gain explicites.
+- [ ] Étendre la deuxième réalisation aux témoins de vibraphone, triangle et résonance instrumentale; la passe TimGM ne couvre que le charleston.
+- [x] Documenter un premier cas continu original de 32 mesures : deux arrangements, accompagnement invariant, stems et frontières de phrase repérées dans OMPRD-386.
+- [ ] Compléter ce transfert avec une partition de geste annotée et un essai instrumental; le morceau synthétique ne valide pas la jouabilité.
+- [x] Publier trois prises humaines GMD attribuées, deux adaptations contrôlées et cinq comparaisons sans les noms, dont un témoin A/A. Ces dispositifs ne sont pas des résultats d’auditeurs.
 
 **Critère manuel pour les exercices :** remettre les variantes écrites, nommer le paramètre changé, montrer au moins deux invariants, expliquer le rôle recherché et indiquer la preuve manquante. Noter séparément observation d’événements, écoute, faisabilité instrumentale et transfert musical; aucun score global de « maîtrise » ne se déduit de la présence d’un MP3. Ces tâches pédagogiques n’ouvrent ni moteur d’analyse ni suite de tests.
 

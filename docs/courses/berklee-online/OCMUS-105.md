@@ -168,6 +168,14 @@ Ces intervalles prouvent un **désaccord de frontières cycliques**, mais ne pro
 
 **Comment évaluer honnêtement la formation musicale :** faire répéter un motif avec et sans clic, conserver les **sources audio**, demander une réponse corporelle (frapper, chanter, marcher la battue), mesurer la **phase des réponses** et tenir compte du timbre des signaux. Ce protocole n'est **pas réalisé** par la lecture des fichiers d'AnaMu, qui ne mesure **ni compétence corporelle, ni exactitude de dictée, ni qualité de groove**. Classification MIDI_DIRECT pour dates, MIDI_PROXY pour regroupements, CONTEXT_REQUIRED pour gestes, AUDIO_REQUIRED pour battue et synchronisation perçues.
 
+## Accélérer sans changer le motif
+
+Deux blocs de huit mesures reprennent le **même calendrier en ticks**, la même basse, les mêmes accords et les mêmes frappes. Le premier reste à **104 BPM**. Le second garde 104 pendant quatre mesures, puis passe par **108, 112, 116 et 120 BPM** au début de chaque mesure successive. C’est un changement de tempo programmé par paliers, pas un exemple de liberté métrique interprétée. Les dates deviennent différentes en secondes même si aucun événement n’a bougé sur la grille des mesures.
+
+Commencer la comparaison aux repères A et B. Le repère de **0:27,69** correspond au premier changement de tempo. L’accompagnement suit la même horloge que la batterie dans ce témoin. Il sert donc à écouter l’accélération du groupe, pas un désalignement entre les voix.
+
+- [Écouter — Mêmes frappes · tempo fixe puis accélération](OCMUS-105/meme-groove-tempo-variable.mp3) · [MIDI](OCMUS-105/meme-groove-tempo-variable.mid)
+
 ## Rendus audio des études de percussion
 
 MP3 rendus à partir des MIDI des études, avec la banque GeneralUser GS. Les variantes d'un même fichier restent dans la même piste, sans correction de timing, de vélocité ou d'instrumentation.
@@ -267,3 +275,17 @@ Ces consignes sont des propositions pédagogiques originales AnaMu, fondées sur
 **Réinvestissement :** Écrire trois mesures de 4/4 sous quatre cycles de trois noires.
 
 **Limite de conclusion :** L’ajout d’une voix change la densité; il ne prouve pas que les auditeurs adoptent deux mètres.
+
+## Exercices de transfert sur les nouveaux rendus
+
+Propositions originales AnaMu sur les exemples de cette fiche. Les prises GMD restent des références externes attribuées, et non des performances d’élèves du cours. Les impressions ci-dessous sont des questions ouvertes, pas des résultats d’écoute.
+
+### Mêmes frappes · tempo fixe puis accélération
+
+**Question :** Le groupe accélère-t-il alors que le nombre de frappes par mesure reste identique ?
+
+**Comparer :** Les blocs de huit mesures conservent leurs notes en ticks; seul le second contient des changements de tempo.
+
+**Réinvestir :** Noter les mêmes attaques en mesures et en secondes pour distinguer densité écrite et vitesse.
+
+**Limite :** L’accélération par paliers n’est pas un rubato capté chez un interprète.

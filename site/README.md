@@ -8,6 +8,14 @@ Les fiches Berklee Online qui disposent d'un `exemple.mid` sont affichées sépa
 
 [Page d’écoute](percussions.html) : 41 MP3, en quatre séries, avec repères par variante. Les MP3 sont liés depuis les fiches d’origine. Chaque étude y possède ses repères de variantes, la lecture d’un passage seul, une répétition optionnelle, son MIDI téléchargeable et un lien direct. Les 41 parcours donnent une question, un repère d’analyse, un exercice original AnaMu et une limite; aucune nouvelle écoute humaine n’est prétendue. Les passages restent des fenêtres du rendu continu, avec un éventuel résidu de résonance. Quatre fiches supplémentaires sont visibles hors registre via le [manifeste des rendus](../docs/data/percussion-audio-2026-11-17.json) (trois cours Berklee Online et le projet MIT). Le moteur et les totaux d’évaluation ne changent pas.
 
+## Études en contexte et prises humaines
+
+[Les 15 rendus de contexte](../docs/data/percussion-context-2026-11-17.json) sont publiés dans leurs quatre cours : arrangements de 32 mesures et stems, basse fixe, tempo variable, percussions en réponse, trois relectures TimGM et cinq rendus liés au GMD (trois captures sources et deux adaptations). Ils s’ajoutent aux 41 rendus initiaux. Chaque piste garde ses repères et son MIDI; les trois variantes TimGM partagent le fichier MIDI de leur étude d’origine.
+
+Cinq comparaisons de deux extraits masquent les noms, tirent l’ordre A/B au hasard puis révèlent les variantes après la réponse. Un témoin emploie deux fois le même extrait. L’option incertaine est admise; aucune réponse n’est transmise ni sauvegardée, aucune préférence n’est présentée comme correcte. Les durées et les sources restent consultables : ce dispositif pédagogique n’est pas une expérience en laboratoire.
+
+Les captures GMD proviennent de Google LLC sous CC BY 4.0 : crédit, source, transformations et citation sont dans OPERC-160 et le manifeste. Le rendu du TD-11 capte le jeu humain sur instrument électronique; il ne s’agit pas d’un enregistrement de kit acoustique. Les mesures PCM récupérées de deuxième banque et les différences de gain des MP3 sont bornées dans OMPRD-386.
+
 ## Publication sur GitHub Pages (source : Actions)
 
 1. Ouvrir **Settings → Pages** du dépôt `leye0/AnaMu`.

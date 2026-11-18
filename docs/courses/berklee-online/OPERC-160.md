@@ -222,6 +222,31 @@ Dans B et C, la paire est espacée de **240 ticks (250 ms)** et remplace deux GM
 
 [Manifeste des six études HH, marqueurs, empreintes et invariants](../../data/percussion-hihat-state-studies-2026-11-17.json) · [Études complémentaires de programmation](OMPRD-386.md#charleston--note-off-état-de-pédale-et-ordre-des-événements).
 
+## Trois batteurs, le même motif à 105 BPM
+
+Les trois prises proviennent de **Groove 2**, session d’évaluation du [Groove MIDI Dataset v1.0.0](https://magenta.withgoogle.com/datasets/groove), **Google Magenta / Google LLC, 2019**, sous [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Ce sont des performances humaines captées sur un **Roland TD-11 électronique**. Les MP3 sont des conversions des WAV sortis du module, sans re-sonorisation, quantification ni changement d’alignement. Les MIDI GMD téléchargeables sont inchangés. Leur mappage Roland ne doit pas être lu comme un kit GM générique. Ce sont des références externes, pas des exercices enregistrés d’OPERC-160.
+
+| Prise | Note On | CC4 | Grosse caisse | Caisse | Charleston à la main |
+|---|---:|---:|---:|---:|---:|
+| 1 (drummer1) | 324 | 174 | +3.57 ms | +0.00 ms | -7.14 ms |
+| 2 (drummer5) | 334 | 192 | +7.14 ms | +10.12 ms | +5.95 ms |
+| 3 (drummer7) | 254 | 187 | -7.14 ms | -16.07 ms | -9.52 ms |
+
+Dans les trois dernières colonnes, valeur médiane signée par rapport à **la double-croche la plus proche** durant les 16 mesures. Négatif signifie avant, positif signifie après. Le zéro est celui du fichier, pas un clic enregistré dans le MP3. Les familles s’appuient sur le mappage TD-11 du corpus. Le comptage de caisse englobe aussi les notes faibles. Ces chiffres ne permettent pas de décider si un coup était *destiné* à cette position, d’attribuer une intention à un batteur ou de généraliser à un style.
+
+- [Écouter — Groove 2 · prise humaine 1 (Roland TD-11)](OPERC-160/gmd-groove2-drummer1.mp3) · [MIDI](OPERC-160/gmd-groove2-drummer1.mid)
+- [Écouter — Groove 2 · prise humaine 2 (Roland TD-11)](OPERC-160/gmd-groove2-drummer5.mp3) · [MIDI](OPERC-160/gmd-groove2-drummer5.mid)
+- [Écouter — Groove 2 · prise humaine 3 (Roland TD-11)](OPERC-160/gmd-groove2-drummer7.mp3) · [MIDI](OPERC-160/gmd-groove2-drummer7.mid)
+
+### Écoute à l’aveugle : conserver le placement ou le quantifier ?
+
+On compare une adaptation GM de la première prise et cette même adaptation partiellement quantifiée à la double-croche. Les deux extraits comprennent **169 frappes de batterie** et le même accompagnement. **140** frappes sont déplacées, **27** sont protégées contre les collisions. L’arrondi naïf aurait produit **12 groupes de frappes de même hauteur au même tick**. Deux coups qui se rattachent à la borne de la mesure 9 sont absents des deux extraits, pour les comparer sur huit mesures. Les durées MIDI sont communes et nouvelles, et le CC4 original a été retiré des deux adaptations. Les hauteurs GM adaptées et les vélocités sont identiques entre versions.
+
+- [Écouter — Prise humaine re-sonorisée · placement conservé](OPERC-160/gmd-grille-1.mp3) · [MIDI](OPERC-160/gmd-grille-1.mid)
+- [Écouter — Prise humaine re-sonorisée · quantifiée avec protection des coups rapprochés](OPERC-160/gmd-grille-2.mp3) · [MIDI](OPERC-160/gmd-grille-2.mid)
+
+Les boutons A/B masquent le nom de la variante jusqu’à la réponse. Aucune réponse d’auditeur n’a été recueillie. [Prises sources, empreintes, familles et statistiques complètes](../../data/percussion-context-2026-11-17.json).
+
 ## Rendus audio des études de percussion
 
 MP3 rendus à partir des MIDI des études, avec la banque GeneralUser GS. Les variantes d'un même fichier restent dans la même piste, sans correction de timing, de vélocité ou d'instrumentation.
@@ -438,3 +463,57 @@ Ces consignes sont des propositions pédagogiques originales AnaMu, fondées sur
 **Réinvestissement :** Déplacer seulement la fermeture autour d’un backbeat conservé.
 
 **Limite de conclusion :** L’écart entre commandes ne donne pas directement la durée réelle de résonance ni la fusion perceptive.
+
+## Exercices de transfert sur les nouveaux rendus
+
+Propositions originales AnaMu sur les exemples de cette fiche. Les prises GMD restent des références externes attribuées, et non des performances d’élèves du cours. Les impressions ci-dessous sont des questions ouvertes, pas des résultats d’écoute.
+
+### Prise humaine re-sonorisée · placement conservé
+
+**Question :** Comment le placement capté s’articule-t-il avec l’accompagnement ajouté ?
+
+**Comparer :** Adaptation GM de huit mesures de drummer1; 169 frappes de batterie et 80 notes d’accompagnement.
+
+**Réinvestir :** Comparer au rendu quantifié en séparant les attaques de la basse des coups du kit.
+
+**Limite :** La banque, les gates et l’accompagnement sont nouveaux; ce n’est pas le son original TD-11.
+
+### Prise humaine re-sonorisée · quantifiée avec protection des coups rapprochés
+
+**Question :** Quels effets attribuez-vous au placement partiellement quantifié ?
+
+**Comparer :** Mêmes hauteurs GM adaptées, vélocités et accompagnement; 140 frappes changent de date et 27 sont protégées.
+
+**Réinvestir :** Expliquer les collisions d’un arrondi naïf avant de proposer une nouvelle grille.
+
+**Limite :** La protection de coups rapprochés rend la quantification partielle; aucune préférence d’auditeurs n’est acquise.
+
+### Groove 2 · prise humaine 1 (Roland TD-11)
+
+**Question :** Où situez-vous les coups par rapport à la pulsation en gardant le jeu du batteur ?
+
+**Comparer :** Capture humaine sur TD-11, sortie sonore du module; MIDI source inchangé et CC4 conservé.
+
+**Réinvestir :** Décrire une fenêtre de quatre mesures et comparer au même motif d’un autre batteur sans classer leur qualité.
+
+**Limite :** Les prises diffèrent aussi par leurs coups et vélocités; elles ne constituent pas une intervention contrôlée sur le seul microtiming.
+
+### Groove 2 · prise humaine 2 (Roland TD-11)
+
+**Question :** Où situez-vous les coups par rapport à la pulsation en gardant le jeu du batteur ?
+
+**Comparer :** Capture humaine sur TD-11, sortie sonore du module; MIDI source inchangé et CC4 conservé.
+
+**Réinvestir :** Décrire une fenêtre de quatre mesures et comparer au même motif d’un autre batteur sans classer leur qualité.
+
+**Limite :** Les prises diffèrent aussi par leurs coups et vélocités; elles ne constituent pas une intervention contrôlée sur le seul microtiming.
+
+### Groove 2 · prise humaine 3 (Roland TD-11)
+
+**Question :** Où situez-vous les coups par rapport à la pulsation en gardant le jeu du batteur ?
+
+**Comparer :** Capture humaine sur TD-11, sortie sonore du module; MIDI source inchangé et CC4 conservé.
+
+**Réinvestir :** Décrire une fenêtre de quatre mesures et comparer au même motif d’un autre batteur sans classer leur qualité.
+
+**Limite :** Les prises diffèrent aussi par leurs coups et vélocités; elles ne constituent pas une intervention contrôlée sur le seul microtiming.

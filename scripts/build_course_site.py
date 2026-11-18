@@ -9,6 +9,7 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import math
 import posixpath
 import re
 import shutil
@@ -20,6 +21,7 @@ REPO_URL = "https://github.com/leye0/AnaMu/blob/main/"
 RAW_URL = "https://raw.githubusercontent.com/leye0/AnaMu/main/"
 ASSESSMENTS = ROOT / "docs/data/course-algorithmic-assessments.json"
 PERCUSSION_AUDIO = ROOT / "docs/data/percussion-audio-2026-11-17.json"
+PERCUSSION_CONTEXT = ROOT / "docs/data/percussion-context-2026-11-17.json"
 STATIC = ROOT / "site"
 HEADINGS = re.compile(r"^#{1,6}\s+(.+)$")
 APPLICATION = re.compile(r"^##\s+Application à l.analyse et à la création\b", re.I | re.M)
@@ -217,7 +219,7 @@ def course_audio(source: Path | None, markdown: str, destination: Path, school: 
         output = destination / url
         output.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(file, output)
-        study = studies.get(file.relative_to(ROOT).as_posix())
+        study = studies.get(url)
         track = {"title": clean(label), "url": url}
         if study:
             midi = ROOT / study["midi"]
@@ -230,8 +232,28 @@ def course_audio(source: Path | None, markdown: str, destination: Path, school: 
                 "cues": study["cues"], "score_seconds": study["score_secs"],
                 "midi_url": midi_url, "learning": study["learning"],
             })
+        if study and study.get("note"):
+            track["note"] = study["note"]
         tracks.append(track)
     return tracks
+
+
+def course_listening_trials(trials: list[dict], tracks: list[dict], studies: dict) -> list[dict]:
+    """Publish only comparisons of audio already attached to this exact course."""
+    allowed = {track["url"] for track in tracks}
+    for trial in trials:
+        if len(trial["clips"]) != 2 or trial.get("mode") not in ("preference", "difference"):
+            raise ValueError("Invalid listening comparison: " + trial["title"])
+        for clip in trial["clips"]:
+            url = clip["url"]
+            if url not in allowed:
+                raise ValueError("Comparison references audio outside its course: " + url)
+            start, end = clip["start"], clip["end"]
+            info = studies[url]
+            duration = info.get("audio_seconds", info.get("secs"))
+            if not (math.isfinite(start) and math.isfinite(end) and 0 <= start < end <= duration):
+                raise ValueError("Comparison exceeds audio duration: " + url)
+    return trials
 
 
 def main() -> None:
@@ -267,7 +289,8 @@ def main() -> None:
             })
     registered = {(row["institution"], row["code"]) for row in [*inventory["assessments"], *online_demos]}
     percussion = json.loads(PERCUSSION_AUDIO.read_text(encoding="utf-8"))
-    studies = {str(Path(t["midi"]).with_suffix(".mp3")): t for t in percussion["tracks"]}
+    context = json.loads(PERCUSSION_CONTEXT.read_text(encoding="utf-8"))
+    studies = {t["audio_url"]: t for t in [*percussion["tracks"], *context["tracks"]]}
     for demo in percussion["supplemental_demos"]:
         school, code = demo["institution"], demo["code"]
         if (school, code) in registered:
@@ -302,6 +325,8 @@ def main() -> None:
             dest.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(actual, dest)
         description_url = "courses/" + school + "/" + slug + ".json"
+        audio = course_audio(source, markdown, destination, school, slug, studies)
+        trials = course_listening_trials(context["listening_trials"].get(identifier, []), audio, studies)
         details = {
             "id": identifier, "title": title, "code": code, "institution": school,
             "overview_html": markdown_html(overview, material) if markdown else "",
@@ -310,7 +335,7 @@ def main() -> None:
             "source_course": row.get("source_url") or "",
             "coverage": row.get("course_coverage"),
             "midi": midi_url,
-            "audio": course_audio(source, markdown, destination, school, slug, studies),
+            "audio": audio, "listening_trials": trials,
             "non_algorithmic": row.get("non_algorithmic"),
             "algorithmic_tags": row.get("algorithmic_tags") or [],
             "review_state": row["review_state"],

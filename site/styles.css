@@ -89,3 +89,14 @@ a:hover{text-decoration:underline}button:focus-visible,a:focus-visible,input:foc
 .audio-links{display:flex;flex-wrap:wrap;gap:12px;font-size:12px}
 .audio-tracks [id^="etude-"]{scroll-margin-top:20px}
 .audio-tracks button:focus-visible,.audio-tracks a:focus-visible,.audio-tracks summary:focus-visible{outline:3px solid #7362df;outline-offset:3px}
+
+.blind-listening{border:1px solid #bdcce8;border-radius:12px;background:#edf3ff;padding:14px;min-width:0;display:block}
+.blind-listening summary{font-size:14px;font-weight:700;cursor:pointer;min-height:30px}
+.blind-listening[open]>:not(summary){margin-top:12px}
+.blind-listening .audio-cues{margin-top:12px}
+.blind-listening audio{display:block;max-width:460px;width:100%}
+.blind-listening p{font-size:13px;line-height:1.6}
+.blind-listening small{display:block;font-size:12px;line-height:1.5;color:#53617a}
+.blind-listening button{font:inherit;font-size:13px;min-height:44px;border:1px solid #bdc8dd;border-radius:8px;padding:9px 12px;background:#fff;color:#25314a;cursor:pointer}
+.blind-listening button:disabled{opacity:.55;cursor:default}
+.blind-listening button:focus-visible,.blind-listening summary:focus-visible{outline:3px solid #7362df;outline-offset:3px}

@@ -1,5 +1,20 @@
 # AnaMu — état opérationnel de référence (17 novembre 2026)
 
+## Itération en contexte — 17 novembre 2026
+
+**Lot de préparation retrouvé, relu et intégré : 15 MP3 supplémentaires / 12 nouveaux fichiers MIDI**, dans **quatre cours existants**. Le carnet initial de 41 rendus est conservé : **56 rendus de percussion documentés** au total dans ces deux manifestes, avec questions, exercices, repères et liens MIDI dans les fiches. Les trois reprises TimGM emploient des MIDI déjà publiés. Les trois MIDI GMD sont des sources externes inchangées; les neuf autres nouveaux fichiers sont des études ou adaptations pédagogiques. Ce ne sont pas douze compositions universitaires ni douze validations de compétence.
+
+- **OMPRD-386 :** un morceau original de **32 mesures**, deux arrangements de batterie sur **525 attaques d’accompagnement et de thème identiques**, deux stems de kit, un témoin de placement face à une basse fixe et trois réalisations TimGM. Le contraste d’arrangement modifie plusieurs paramètres de batterie conjointement.
+- **OPERC-160 :** trois jeux humains du même motif d’évaluation GMD sur TD-11, sources et CC BY 4.0 explicités; deux adaptations GM d’une même prise, avec et sans quantification partielle et protection des coups rapprochés.
+- **CM-343 :** passage congas/bongos de la doublure à la réponse, sans ajout de coups et avec les autres voix fixes.
+- **OCMUS-105 :** même motif en ticks, tempo stable puis accélération du groupe par paliers.
+- **Cinq comparaisons sans les noms** dans les cours, avec ordre A/B aléatoire, révélation après réponse et option incertaine. Un **témoin A/A** réutilise exactement le même passage. Aucune réponse n’est transmise ni conservée. Ces exercices ne constituent pas une étude d’auditeurs.
+
+**Relecture des artefacts :** empreintes des 15 MP3 et des MIDI référencés confrontées au manifeste récupéré; lecture des comptes de notes et comparaison directe des trois pistes d’accompagnement des deux arrangements. Les mesures PCM de deuxième banque proviennent de la préparation retrouvée et sont conservées avec leur protocole, sans prétendre les avoir réexécutées. Les MP3 anciens et nouveaux n’ont pas tous le même gain : aucune égalisation perceptive entre banques n’est revendiquée. Voir [le manifeste de contexte](data/percussion-context-2026-11-17.json). Génération du site effectuée; aucun moteur ni suite de tests ajouté ou exécuté.
+
+**Manques persistants :** lecture d’une véritable partition de geste, répétition avec interprète, jugements d’écoute datés et deuxième réalisation des témoins de résonance hors charleston. Les prises humaines sont des données de jeu, pas des réponses d’auditeurs. Les 378 premières évaluations, 122 cours avec exemple MIDI, 256 sans et huit familles du registre principal sont inchangés. Les sections suivantes décrivent les étapes antérieures.
+
+
 ## Reprise percussion — 17 novembre 2026, comparaisons dans chaque cours
 
 Les **41 rendus existants** sont maintenant reliés à **41 questions d’écoute, repères d’analyse, exercices de réinvestissement et limites** dans leurs **cinq fiches d’origine**. Il s’agit de propositions pédagogiques AnaMu sur les variantes déjà documentées, pas de nouveaux exercices attribués aux universités. Les lecteurs des fiches permettent de sélectionner un passage A/B/C, de le répéter, de récupérer le MIDI propre à cette étude et de partager son lien. Le carnet séparé renvoie aussi à chaque cours. Les bornes sont des repères de navigation dans un rendu continu, pas des fichiers audio isolés; une résonance antérieure peut rester.

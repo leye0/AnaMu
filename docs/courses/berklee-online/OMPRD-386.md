@@ -207,6 +207,54 @@ La [MIDI Association](https://midi.org/midi-1-0-control-change-messages) défini
 
 [Manifeste et signatures des six études](../../data/percussion-hihat-state-studies-2026-11-17.json) · [Rôles de jeu et de groove](OPERC-160.md#charleston--destination-de-phrase-appuis-et-coordination-avec-la-caisse).
 
+## Une transition dans un morceau, pas seulement sur une grille
+
+Cette étude originale est une application des leçons 5, 8, 10 et 11 du [cours Programming and Producing Drum Beats](https://online.berklee.edu/courses/programming-and-producing-drum-beats#syllabus), pas une transcription d’un devoir de Berklee.
+
+**32 mesures, 105 BPM, ré mineur.** Une ligne de basse, un piano électrique et un thème de flûte sont strictement identiques dans les deux versions (525 attaques mélodiques et harmoniques). Les quatre grandes sections partagent les mêmes accords et les mêmes dates d’entrée. La version 1 conserve une batterie continue au centre. La version 2 annonce l’arrivée avec une ouverture et un fill dans les mesures 15–16, laisse une respiration, pose la caisse sur le troisième temps sous le retour du thème en mesure 17 et rétablit le groove en mesure 21. Les pistes de batterie identiques à celles des deux mixes sont aussi disponibles seules. Il s’agit d’un contraste d’arrangement complet, **pas** d’une mesure séparée des effets du fill, de la baisse de densité et du changement d’appuis.
+
+- **0:32** (M15) — début de la préparation.
+- **0:36,57** (M17) — arrivée du thème, sur le même accord et le même temps des deux côtés.
+- **0:45,71** (M21) — reprise du groove.
+
+- [Écouter — Même morceau, batterie continue](OMPRD-386/passage-batterie-1.mp3) · [MIDI](OMPRD-386/passage-batterie-1.mid)
+- [Écouter — Même morceau, batterie qui prépare et relâche la transition](OMPRD-386/passage-batterie-2.mp3) · [MIDI](OMPRD-386/passage-batterie-2.mid)
+- [Écouter — Batterie seule · continue](OMPRD-386/passage-kit-seul-1.mp3) · [MIDI](OMPRD-386/passage-kit-seul-1.mid)
+- [Écouter — Batterie seule · transition et retour](OMPRD-386/passage-kit-seul-2.mp3) · [MIDI](OMPRD-386/passage-kit-seul-2.mid)
+
+### Suivre les mêmes repères du début à la fin
+
+| Fenêtre | Écriture commune aux deux mixes | Partie de batterie et question à départager |
+|---|---|---|
+| M1–8 | Dm–B♭–Gm–A7, répété; première exposition du thème | Même batterie dans les deux versions. Quels repères définissent déjà la phrase sans contraste A/B ? |
+| M9–14 | Accompagnement et thème déjà variés, identiques d’un mix à l’autre | La batterie reste identique. Ne pas attribuer cette variation commune à la future différence de batterie. |
+| M15–16 | Gm–A7, mêmes notes de thème et d’accompagnement | La seconde batterie prépare l’arrivée avec ouverture, fill puis respiration. Plusieurs paramètres changent ensemble. |
+| M17–20 | Dm–B♭–F–C, même retour du thème et mêmes entrées | La seconde batterie passe sur ride avec caisse principale au temps 3; la première maintient le groove. Distinguer retour du thème et retrait du kit. |
+| M21–24 | Gm–B♭–Gm–A7 | Les batteries redeviennent identiques à M21; un éventuel changement de perception après ce point dépend du contexte antérieur, pas de nouvelles différences d’événements. |
+| M25–32 | Reprise commune et clôture A7→Dm aux deux dernières mesures | Même batterie et même résolution finale. Vérifier si la différence centrale modifie la lecture de l’ensemble sans affirmer un effet acquis. |
+
+**Méthode de transfert.** Écouter d’abord chaque mix en entier et noter les frontières pressenties sans consulter les marqueurs. Comparer ensuite M15–21, puis les stems correspondants. Revenir au mix entier pour distinguer ce que révèle le stem de ce qui se lit réellement avec le thème. L’exercice demande une explication portant sur **préparation, arrivée, retrait et reprise**, pas une préférence globale pour davantage de notes.
+
+**Contre-hypothèses à conserver :** l’arrivée pourrait surtout être signalée par la ligne mélodique ou l’harmonie communes; le contraste de ride ou de densité pourrait compter davantage que le fill; une préférence pourrait varier avec le volume ou le matériel. Pour attribuer un effet à l’un de ces paramètres, il faudrait un nouveau témoin où les autres restent fixes. Le présent morceau sert à intégrer les questions; il ne remplace pas ces comparaisons séparées.
+
+### Un retard qu’on peut enfin comparer à un repère audible
+
+Le [témoin batterie seule](OMPRD-386/microtiming-snare-kick-tous-instruments.mp3) conserve ses 192 frappes. Dans le nouveau rendu, la basse répète **exactement** le même motif dans les quatre blocs. Écouter A puis D pour distinguer une translation de tout le kit par rapport à une voix indépendante des changements internes de B (caisse seule) et C (grosse caisse seule). Dans D, le décalage écrit reste 16 ticks (environ 19,05 ms). L’effet perçu n’est pas présumé identique pour tous les auditeurs et tous les timbres.
+
+- [Écouter — Caisse, kick ou kit en retard · avec basse fixe](OMPRD-386/microtiming-avec-basse-fixe.mp3) · [MIDI](OMPRD-386/microtiming-avec-basse-fixe.mid)
+
+### Trois vérifications sur une deuxième banque
+
+**Portée des mesures récupérées :** le protocole numérique utilise un gain commun de 0,72 et un synthétiseur neuf par bloc. Les anciens MP3 GeneralUser ont un gain de 0,83, les nouveaux TimGM de 0,72; ils ne sont pas une comparaison à niveaux perçus égaux.
+
+Mêmes MIDI et même moteur, avec GeneralUser GS puis TimGM6mb. Dans la fenêtre PCM de 320 à 650 ms, le Note Off avancé seul modifie peu le niveau RMS de la queue (−0,90 dB et +0,21 dB selon la banque). Après retrait du témoin de fermeture seul, le résidu tombe d’environ **32 dB** avec GeneralUser GS et **29 dB** avec TimGM6mb, que la fermeture soit déclenchée par GM42 ou GM44. Les trois trajectoires CC4 (HH-3) et les deux ordres au même tick (HH-4) produisent des variantes isolées identiques à l’échantillon près dans les deux banques, pour ce moteur et ces conditions. Cela ne s’étend pas au profil de pédale d’un module électronique ou à un instrument réel.
+
+- [Écouter — Charleston · gate et fermeture sur TimGM6mb](OMPRD-386/charleston-gate-fermeture-et-controles-isoles-timgm.mp3)
+- [Écouter — Charleston · trois CC4 sur TimGM6mb](OMPRD-386/charleston-gm46-cc4-trois-trajectoires-timgm.mp3)
+- [Écouter — Charleston · ordre au même tick sur TimGM6mb](OMPRD-386/charleston-cc4-ordre-meme-tick-timgm.mp3)
+
+La fiche propose aussi trois comparaisons à l’aveugle, dont un témoin A/A et une comparaison face à la basse fixe. La réponse est personnelle, affichée seulement dans la page. Aucune donnée d’écoute n’est collectée. [Manifeste et mesures](../../data/percussion-context-2026-11-17.json).
+
 ## Rendus audio des études de percussion
 
 MP3 rendus à partir des MIDI des études, avec la banque GeneralUser GS. Les variantes d'un même fichier restent dans la même piste, sans correction de timing, de vélocité ou d'instrumentation.
@@ -363,3 +411,87 @@ Ces consignes sont des propositions pédagogiques originales AnaMu, fondées sur
 **Réinvestissement :** Conserver l’ordre des événements lors d’une exportation et noter le moteur cible.
 
 **Limite de conclusion :** Le contrôle isolé existant est identique ici; il ne démontre pas l’équivalence de tous les moteurs ni des autres contrôleurs.
+
+## Exercices de transfert sur les nouveaux rendus
+
+Propositions originales AnaMu sur les exemples de cette fiche. Les prises GMD restent des références externes attribuées, et non des performances d’élèves du cours. Les impressions ci-dessous sont des questions ouvertes, pas des résultats d’écoute.
+
+### Même morceau, batterie continue
+
+**Question :** Où percevez-vous la frontière de la troisième section sans fill de préparation ?
+
+**Comparer :** C’est la référence de 32 mesures; garder la basse, les accords et le thème comme repères.
+
+**Réinvestir :** Relever les entrées à M9, M17 et M25 et les distinguer des changements de batterie.
+
+**Limite :** Une frontière écrite n’est pas nécessairement une frontière perçue.
+
+### Batterie seule · continue
+
+**Question :** Pouvez-vous situer M17 en écoutant seulement la batterie continue ?
+
+**Comparer :** La partie de batterie est celle du premier mix; basse, piano et flûte sont retirés.
+
+**Réinvestir :** Comparer le repérage de la frontière avec et sans les autres instruments.
+
+**Limite :** Retirer l’accompagnement change le contexte et le niveau global; le stem n’isole pas une variable perceptive unique.
+
+### Même morceau, batterie qui prépare et relâche la transition
+
+**Question :** La préparation en M15–16 et le retrait en M17 changent-ils la place du thème ?
+
+**Comparer :** Les 525 attaques des trois parties mélodiques et harmoniques restent celles de la version 1; seule la batterie change en M15–20.
+
+**Réinvestir :** Écrire une autre préparation au même retour du thème sans modifier les parties mélodiques.
+
+**Limite :** Fill, silence, cymbale et half-time changent conjointement; ce contraste ne mesure pas leurs effets séparés.
+
+### Batterie seule · transition et retour
+
+**Question :** Le fill et le retour restent-ils lisibles sans le thème ?
+
+**Comparer :** La batterie est exactement celle du second mix, avec ses changements en M15–20.
+
+**Réinvestir :** Annoter à part la préparation, la respiration, l’arrivée et la reprise du groove.
+
+**Limite :** Le stem explique l’écriture de la partie; il ne garantit pas son équilibre dans le mix.
+
+### Caisse, kick ou kit en retard · avec basse fixe
+
+**Question :** Que devient le décalage de tout le kit face à une basse qui ne bouge pas ?
+
+**Comparer :** Les quatre blocs conservent la même basse; A est sur grille, B retarde la caisse, C le kick et D tout le kit.
+
+**Réinvestir :** Distinguer les écarts entre membres du kit des écarts de la batterie à la basse.
+
+**Limite :** Le décalage nominal est de 16 ticks; l’attaque de chaque son et la perception ne se déduisent pas de cette seule valeur.
+
+### Charleston · gate et fermeture sur TimGM6mb
+
+**Question :** Qu’est-ce qui dépend ici de la banque sonore ?
+
+**Comparer :** Les octets MIDI d’origine sont conservés; seule la réalisation TimGM6mb est nouvelle dans le site.
+
+**Réinvestir :** Comparer commandes, mesures PCM récupérées et impressions auditives dans des colonnes distinctes.
+
+**Limite :** Même gain numérique ne veut pas dire même niveau perçu. Les MP3 GeneralUser antérieurs et TimGM ont des gains de synthèse différents; ne pas en déduire une préférence à niveau égal.
+
+### Charleston · trois CC4 sur TimGM6mb
+
+**Question :** Qu’est-ce qui dépend ici de la banque sonore ?
+
+**Comparer :** Les octets MIDI d’origine sont conservés; seule la réalisation TimGM6mb est nouvelle dans le site.
+
+**Réinvestir :** Comparer commandes, mesures PCM récupérées et impressions auditives dans des colonnes distinctes.
+
+**Limite :** Même gain numérique ne veut pas dire même niveau perçu. Les MP3 GeneralUser antérieurs et TimGM ont des gains de synthèse différents; ne pas en déduire une préférence à niveau égal.
+
+### Charleston · ordre au même tick sur TimGM6mb
+
+**Question :** Qu’est-ce qui dépend ici de la banque sonore ?
+
+**Comparer :** Les octets MIDI d’origine sont conservés; seule la réalisation TimGM6mb est nouvelle dans le site.
+
+**Réinvestir :** Comparer commandes, mesures PCM récupérées et impressions auditives dans des colonnes distinctes.
+
+**Limite :** Même gain numérique ne veut pas dire même niveau perçu. Les MP3 GeneralUser antérieurs et TimGM ont des gains de synthèse différents; ne pas en déduire une préférence à niveau égal.

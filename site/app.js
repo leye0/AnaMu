@@ -116,11 +116,115 @@ function switchTab(tab) {
   $("applicationContent").hidden = !application;
   $("descriptionContent").hidden = application;
 }
-function showAudioTracks(tracks) {
+const comparisonSeekTokens = new WeakMap();
+function comparisonPlayAt(audio, seconds) {
+  const token = (comparisonSeekTokens.get(audio) || 0) + 1;
+  comparisonSeekTokens.set(audio, token);
+  const seek = () => {
+    if (comparisonSeekTokens.get(audio) === token) audio.currentTime = seconds;
+  };
+  if (audio.readyState >= 1) seek();
+  else audio.addEventListener("loadedmetadata", seek, {once: true});
+  return audio.play();
+}
+function comparisonButton(label, action) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.textContent = label;
+  button.addEventListener("click", action);
+  return button;
+}
+function courseListeningTrial(list, trial) {
+  const wrap = document.createElement("details");
+  wrap.className = "blind-listening";
+  const heading = document.createElement("summary");
+  heading.textContent = "Comparer sans les noms · " + trial.title;
+  const prompt = document.createElement("p");
+  prompt.textContent = trial.question + " L’ordre A/B est tiré au hasard. Ta réponse reste dans cette page.";
+  const controls = document.createElement("div");
+  controls.className = "audio-cues";
+  const votes = document.createElement("div");
+  votes.className = "audio-cues";
+  const status = document.createElement("p");
+  status.setAttribute("role", "status");
+  status.textContent = "Lance les deux extraits avant de répondre. Tu peux les réécouter.";
+  const audio = document.createElement("audio");
+  audio.controls = true;
+  audio.preload = "none";
+  audio.hidden = true;
+  const clips = Math.random() < 0.5 ? [...trial.clips] : [...trial.clips].reverse();
+  const heard = [false, false];
+  const choices = [];
+  let arm = -1;
+  let revealed = false;
+  audio.addEventListener("play", () => {
+    stopPlayback();
+    for (const other of list.querySelectorAll("audio")) if (other !== audio) other.pause();
+  });
+  audio.addEventListener("timeupdate", () => {
+    if (arm < 0 || audio.seeking || audio.paused) return;
+    const clip = clips[arm];
+    if (audio.currentTime >= clip.start + 1 && audio.currentTime <= clip.end + 0.5) {
+      heard[arm] = true;
+      if (heard.every(Boolean) && !revealed) {
+        for (const choice of choices) choice.disabled = false;
+        status.textContent = "Choisis une réponse pour révéler les variantes. Il n’y a pas de score.";
+      }
+    }
+    if (audio.currentTime >= clip.end) audio.pause();
+  });
+  audio.addEventListener("error", () => {
+    status.textContent = "L’extrait n’a pas pu être chargé. Réessayer avec A ou B.";
+  });
+  for (const [i, name] of ["A", "B"].entries()) {
+    controls.append(comparisonButton("▶ Extrait " + name, () => {
+      audio.pause();
+      arm = i;
+      const clip = clips[i];
+      const source = new URL("./" + clip.url, document.baseURI).href;
+      if (audio.src !== source) audio.src = source;
+      audio.hidden = false;
+      audio.setAttribute("aria-label", "Extrait " + name + " — " + trial.title);
+      comparisonPlayAt(audio, clip.start).catch(error => {
+        if (error.name !== "AbortError") status.textContent = "Réessaie avec le bouton Lecture du lecteur.";
+      });
+    }));
+  }
+  const answers = trial.mode === "difference"
+    ? ["J’entends une différence", "Je n’en entends pas", "Incertain"]
+    : ["Je préfère A", "Je préfère B", "Pas de préférence / incertain"];
+  for (const answer of answers) {
+    const button = comparisonButton(answer, () => {
+      if (revealed || !heard.every(Boolean)) return;
+      revealed = true;
+      for (const choice of choices) choice.disabled = true;
+      status.textContent = answer + " · A : " + clips[0].label + " · B : " + clips[1].label
+        + " · " + trial.explanation;
+    });
+    button.disabled = true;
+    choices.push(button);
+    votes.append(button);
+  }
+  const reset = comparisonButton("Nouvel ordre A/B", () => {
+    audio.pause();
+    comparisonSeekTokens.set(audio, (comparisonSeekTokens.get(audio) || 0) + 1);
+    const replacement = courseListeningTrial(list, trial);
+    replacement.open = true;
+    wrap.replaceWith(replacement);
+    replacement.querySelector("summary").focus();
+  });
+  const limit = document.createElement("small");
+  limit.textContent = "Exercice personnel, sans transmission ni sauvegarde de réponse. Les extraits viennent des rendus continus; le découpage du lecteur n’est pas une isolation acoustique. Les noms restent accessibles dans les fichiers et les autres lecteurs de la fiche.";
+  wrap.append(heading, prompt, controls, audio, votes, status, reset, limit);
+  wrap.addEventListener("toggle", () => { if (!wrap.open) audio.pause(); });
+  return wrap;
+}
+function showAudioTracks(tracks, trials = []) {
   const list = $("audioTracks");
   for (const audio of list.querySelectorAll("audio")) audio.pause();
   list.replaceChildren();
   $("audioSection").hidden = !tracks.length;
+  for (const trial of trials) list.append(courseListeningTrial(list, trial));
   for (const track of tracks) {
     const row = document.createElement("div");
     const title = document.createElement("strong");
@@ -143,6 +247,11 @@ function showAudioTracks(tracks) {
     download.textContent = "Télécharger le MP3 ↓";
     download.setAttribute("aria-label","Télécharger le MP3 — " + track.title);
     row.append(title,audio);
+    if (track.note) {
+      const note = document.createElement("p");
+      note.textContent = track.note;
+      row.append(note);
+    }
     if (track.learning) {
       const question = document.createElement("p");
       question.className = "listening-question";
@@ -329,7 +438,7 @@ async function showCourse(id, historyUpdate) {
     const detail = await getDetail(entry);
     if (seq!==docSequence) return;
     const tracks = detail.audio || [];
-    showAudioTracks(tracks);
+    showAudioTracks(tracks, detail.listening_trials || []);
     const requestedStudy = new URL(window.location.href).searchParams.get("etude");
     if (requestedStudy && tracks.some(t => t.id === requestedStudy)) {
       document.getElementById("etude-" + requestedStudy)?.scrollIntoView({block: "start"});
