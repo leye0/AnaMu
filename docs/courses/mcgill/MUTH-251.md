@@ -178,3 +178,65 @@ Les temps sont comptés ici en **quatre noires** pour localiser les croches écr
 **Procédure d'analyse.** (1) Recueillir la **graphie réelle** de la partition et les voix distinctes. (2) Contrôler la qualité **totalement diminuée** par intervalles et ne pas confondre avec demi-diminuée (septième mineure au lieu de diminuée). (3) Examiner les accords **avant et après**, les degrés sensibles réellement résolus et les basses. (4) Tester au moins les lectures sensible principale, sensible appliquée, accord à note commune et pivot enharmonique. (5) Si la source est un MIDI sans orthographe, énoncer les quatre hypothèses, puis **en réfuter** à partir de la suite de l'extrait plutôt que d'en choisir une au hasard. (6) Ne pas appeler « modulation » une réorthographe ponctuelle tant que la nouvelle région n'est pas établie à l'échelle de la phrase.
 
 **Réemploi original.** Écrire un même accord à quatre notes, le conduire une fois vers G et une fois vers E avec les mêmes événements de départ, mais des **orthographes et résolutions différentes**; produire un troisième témoin qui orne simplement un accord de tonique par note commune. Comparer les **mouvements individuels**, les nouvelles basses et les cadences de soutien. Le MIDI constate l'ensemble et les trajectoires (**MIDI_DIRECT**), pas les dièses, doubles bémols ou fonctions (**CONTEXT_REQUIRED**) ni l'établissement perceptif du centre (**AUDIO_REQUIRED**). Aucun nouveau fichier musical. [Comparer une sixte allemande et une V7 dans MTE 1221](../udem/MTE-1221.md#même-sonorité-deux-destinations-chromatiques--sixte-allemande-et-v7-17-novembre-2026).
+
+## Atelier sonore et partitions — fonctions en contexte (18 novembre 2026)
+
+**Preuve et portée.** Le plan d’études officiel de McGill affiche MUTH 251, Theory and Analysis 4 : chromatisme avancé du XIXe siècle, réinterprétation enharmonique et divisions symétriques. Il s’agit d’une notice intégrée au programme, pas d’un syllabus de section. Les chapitres Puget Sound et Multimodal Musicianship expliquent les mécanismes sans attribuer leurs exemples aux enseignants de McGill.
+
+**Conditions communes de lecture et de rendu.** Études originales à quatre voix de piano (basse, ténor, alto, soprano), 4/4, noire = **96**, PPQ **480**. Chaque mesure musicale dure **2,5 s**. Une **mesure sans notes** sépare les variantes; elle figure dans le MIDI et la partition. Les voix sont réattaquées aux débuts des accords, même lorsqu’une touche reste commune : une note commune n’est donc pas présentée comme une liaison ou un geste tenu. Les durées MIDI sont les valeurs nominales écrites, avec les Note Off placés avant les nouvelles attaques aux frontières. Les queues acoustiques dépendent du piano échantillonné. Même banque GeneralUser GS, programme MIDI 0 (piano, numéro affiché 1), même gain numérique 0,52 et pas de normalisation par variante. Les MP3 ont une queue finale de 2,5 s; les mesures de niveau ne constituent pas une audition. Les réductions ne sont ni une correction exhaustive de choral classique, ni une partition à doigtés certifiés.
+
+### Une septième diminuée, quatre destinations
+
+[Écouter le MP3](MUTH-251/septieme-diminuee-quatre-destinations.mp3) · [MIDI original](MUTH-251/septieme-diminuee-quatre-destinations.mid) · [Partition et graphies](MUTH-251/partition-septieme-diminuee-quatre-destinations.html) · [MusicXML modifiable](MUTH-251/partition-septieme-diminuee-quatre-destinations.musicxml).
+
+| Variante | Départ et mesures absolues | Parcours harmonique local |
+|---|---|---|
+| A · Sol | **0:00,0**, M1–8 | F#dim7/C ; G/B ; C ; D7 ; G ; C ; D7 ; G |
+| B · Si bémol | **0:22,5**, M10–17 | Adim7/C ; Bb ; Eb ; F7 ; Bb ; Eb ; F7 ; Bb |
+| C · Ré bémol | **0:45,0**, M19–26 | Cdim7 ; Db ; Gb ; Ab7 ; Db ; Gb ; Ab7 ; Db |
+| D · Mi | **1:07,5**, M28–35 | D#dim7/C ; E/B ; A ; B7 ; E ; A ; B7 ; E |
+
+**Quatre départs aux mêmes touches : do3–fa♯3/sol♭3–la3/si♭♭3–mi♭4/ré♯4**, MIDI **48–54–57–63**. A fait monter **fa♯3→sol3** et arrive d’abord sur G/B; B fait **la3→si♭3**; C fait **do3→ré♭3**; D fait **ré♯4→mi4** et arrive d’abord sur E/B. Les graphies différentes, dont **si♭♭3** dans la branche de ré♭, sont écrites dans les partitions. Chaque branche développe ensuite sa propre confirmation par IV–V7–I. Ce ne sont pas quatre modulations depuis un ton de départ commun : seule la verticale initiale est commune, volontairement isolée de sa préparation. La première arrivée peut être renversée alors que la confirmation finale est en position fondamentale.
+
+**Analyse, dans cet ordre.** Lire d’abord les basses et les graphies de la partition; suivre les voix identifiées dans le MIDI, puis confronter les accords précédent et suivant et la fin de phrase. Écrire au moins deux hypothèses avant de choisir une fonction. Examiner enfin le MP3 pour décrire les contrastes effectivement entendus, sans convertir une impression en propriété universelle.
+
+**Variable et invariants.** Les quatre premières verticales de variante sont les mêmes touches C3–F#3–A3–Eb4. Leurs graphies et les continuations diffèrent; les départs sont volontairement sans préparation tonale distincte.
+
+**Question d’écoute.** Quelle sensible est activée par la résolution et quelle région la suite soutient-elle ?
+
+**Réinvestissement.** Écrire les quatre orthographes, marquer la sensible qui monte d’un demi-ton, puis différencier première arrivée et confirmation de fin de phrase.
+
+**Contre-hypothèses et limite.** Les quatre branches ne démontrent ni quatre modulations depuis une tonalité de départ commune, ni toutes les fonctions du diminué. Une attaque de départ isolée conserve plusieurs lectures.
+
+**Preuve disponible.** `MIDI_DIRECT` pour événements, intervalles et trajectoires; partition/MusicXML pour les noms écrits; `MIDI_PROXY / CONTEXT_REQUIRED` pour la fonction et le centre proposé; `AUDIO_REQUIRED` pour ce qu’un auditeur identifie ou préfère. **128 attaques** relues dans le fichier, sans résultat humain recueilli.
+
+### Diminuer pour orner ou préparer la dominante
+
+[Écouter le MP3](MUTH-251/diminue-ornement-ou-dominante.mp3) · [MIDI original](MUTH-251/diminue-ornement-ou-dominante.mid) · [Partition et graphies](MUTH-251/partition-diminue-ornement-ou-dominante.html) · [MusicXML modifiable](MUTH-251/partition-diminue-ornement-ou-dominante.musicxml).
+
+| Variante | Départ et mesures absolues | Parcours harmonique local |
+|---|---|---|
+| A · Retour autour de do | **0:00,0**, M1–8 | C ; C ; diminue a note commune ; C ; F ; Dm/F ; G7 ; C |
+| B · Arrivée sur sol | **0:22,5**, M10–17 | C ; C ; diminue a note commune ; G ; F ; Dm/F ; G7 ; C |
+
+**Seule M4 change.** Le début donne **C–C–diminué**, puis A revient à C et B arrive sur G; M5–8 est à nouveau identique. Le diminué est ici **do3–fa♯3–mi♭4–la4**, MIDI **48–54–63–69**, avec un autre registre que l’étude précédente. En A, le do grave reste, et les autres voix font **sol3→fa♯3→sol3**, **mi4→mi♭4→mi4** et **sol4→la4→sol4**. En B, **fa♯→sol**, **mi♭→ré** et **la→si** soutiennent une lecture de sensible appliquée vers la dominante de do. Le retour identique des M5–8 empêche de déclarer automatiquement que sol devient une nouvelle tonalité. Les quatre hauteurs du diminué ne suffisent pas à trancher entre ces fonctions.
+
+**Analyse, dans cet ordre.** Lire d’abord les basses et les graphies de la partition; suivre les voix identifiées dans le MIDI, puis confronter les accords précédent et suivant et la fin de phrase. Écrire au moins deux hypothèses avant de choisir une fonction. Examiner enfin le MP3 pour décrire les contrastes effectivement entendus, sans convertir une impression en propriété universelle.
+
+**Variable et invariants.** Seul l’accord de la quatrième mesure change. Le début C–C–diminué et les quatre dernières mesures sont invariants; le do grave de A reste commun autour du diminué.
+
+**Question d’écoute.** Le même diminué orne-t-il do ou conduit-il à sol dans cette continuation ?
+
+**Réinvestissement.** Suivre F#→G et Eb→E ou D, ainsi que la basse C→C ou G; annoter séparément voisinage chromatique et sensible appliquée.
+
+**Contre-hypothèses et limite.** Un do partagé n’impose pas l’analyse en accord à note commune. Il faut les directions et le contexte; B arrive sur la dominante de do, pas sur une nouvelle tonique sol confirmée.
+
+**Preuve disponible.** `MIDI_DIRECT` pour événements, intervalles et trajectoires; partition/MusicXML pour les noms écrits; `MIDI_PROXY / CONTEXT_REQUIRED` pour la fonction et le centre proposé; `AUDIO_REQUIRED` pour ce qu’un auditeur identifie ou préfère. **64 attaques** relues dans le fichier, sans résultat humain recueilli.
+
+**Sources de cette passe (consultées le 18 novembre 2026).**
+
+- [https://www.mcgill.ca/music/programs/bmus/music-composition/study-plan](https://www.mcgill.ca/music/programs/bmus/music-composition/study-plan)
+- [https://musictheory.pugetsound.edu/mt21c/TheFullyDiminishedSeventhAsPivotChord.html](https://musictheory.pugetsound.edu/mt21c/TheFullyDiminishedSeventhAsPivotChord.html)
+- [https://pressbooks.macalester.digital/multimodalmusicianship/chapter/common-tone-diminished-seventh-cto7/](https://pressbooks.macalester.digital/multimodalmusicianship/chapter/common-tone-diminished-seventh-cto7/)
+
+[Manifeste des huit études, événements, sources et rendus](../../data/harmony-context-studies-2026-11-18.json). Les statuts du registre principal et les lacunes de section restent inchangés.

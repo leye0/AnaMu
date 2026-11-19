@@ -1,4 +1,14 @@
-# AnaMu — état opérationnel de référence (17 novembre 2026)
+# AnaMu — état opérationnel de référence (18 novembre 2026)
+
+## Harmonie : fonctions et continuations — 18 novembre 2026
+
+**Six cours approfondis, huit études originales** : CM-211 (trois usages du 6/4), CM-212 (tonicisation ou région prolongée), MTE-1221 (sixte augmentée et dominante enharmonique), MUTH-251 (quatre destinations d’un diminué et ornement à note commune), HR-211 (substitution tritonique et emprunt iv), HR-212 (résolution, déviation et déplacement parallèle). Les procédures d’analyse, exercices et limites sont directement dans les six fiches.
+
+**Huit nouveaux MIDI, huit MP3 de piano et huit partitions SVG/HTML/MusicXML**, avec **724 attaques** réparties en quatre voix. Les fichiers et leurs événements sont décrits dans [le manifeste harmonique](data/harmony-context-studies-2026-11-18.json). Les cinq comparaisons personnelles supplémentaires, dont un témoin A/A exact, portent à **douze** le total des exercices sans les noms; les **onze partitions** regroupent trois percussions et huit études harmoniques. Les 62 rendus de percussion restent inchangés.
+
+**Relecture :** appariement des notes du MIDI, concordance des hauteurs, registres, attaques et durées MusicXML avec les événements documentés, inspection des huit gravures, contrôle des invariants et construction du site. Une seule hauteur change pour IV/iv; deux changent pour G7/Db7 et les notes-guides restent communes. Les fonctions sont des lectures contextualisées, pas des catégories déduites de la seule verticale. Les MP3 utilisent la même banque et le même gain, sans normalisation ni résultat d’audition recueilli. Attribution de l’article MTO corrigée : **Michael McClimon**.
+
+**Couverture inchangée :** 378 premières évaluations, 122 cours avec exemple MIDI initial, 256 sans, huit familles; aucun syllabus déclaré complet grâce à ces études. Les sources pédagogiques externes sont distinguées des notices institutionnelles. Prochaine passe : d’autres apprentissages attestés, notamment contrepoint, forme ou orchestration; les retours d’interprètes et d’auditeurs restent ouverts. Ne pas régénérer les lots déjà publiés.
 
 ## Partitions de travail et résonance — 18 novembre 2026
 

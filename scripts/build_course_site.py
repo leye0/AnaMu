@@ -24,6 +24,7 @@ PERCUSSION_AUDIO = ROOT / "docs/data/percussion-audio-2026-11-17.json"
 PERCUSSION_CONTEXT = ROOT / "docs/data/percussion-context-2026-11-17.json"
 PERCUSSION_RESONANCE = ROOT / "docs/data/percussion-resonance-2026-11-18.json"
 PERCUSSION_SCORES = ROOT / "docs/data/percussion-scores-2026-11-18.json"
+HARMONY_STUDIES = ROOT / "docs/data/harmony-context-studies-2026-11-18.json"
 SCORE_ASSETS: set[str] = set()
 STATIC = ROOT / "site"
 HEADINGS = re.compile(r"^#{1,6}\s+(.+)$")
@@ -297,8 +298,9 @@ def main() -> None:
     percussion = json.loads(PERCUSSION_AUDIO.read_text(encoding="utf-8"))
     context = json.loads(PERCUSSION_CONTEXT.read_text(encoding="utf-8"))
     resonance = json.loads(PERCUSSION_RESONANCE.read_text(encoding="utf-8"))
-    studies = {t["audio_url"]: t for t in [*percussion["tracks"], *context["tracks"], *resonance["tracks"]]}
-    scores = json.loads(PERCUSSION_SCORES.read_text(encoding="utf-8"))["scores"]
+    harmony = json.loads(HARMONY_STUDIES.read_text(encoding="utf-8"))
+    studies = {t["audio_url"]: t for t in [*percussion["tracks"], *context["tracks"], *resonance["tracks"], *harmony["tracks"]]}
+    scores = json.loads(PERCUSSION_SCORES.read_text(encoding="utf-8"))["scores"] + harmony["scores"]
     scores_by_course: dict[str, list] = {}
     for score in scores:
         paths = [score["score_musicxml"], score["score_html"], *score["score_pages"]]
@@ -311,11 +313,11 @@ def main() -> None:
             shutil.copyfile(asset, output)
             SCORE_ASSETS.add(path)
         source = Path(score["source_midi"])
-        course_id = source.parts[2] + ":" + source.parts[3]
+        course_id = source.parts[2] + ":" + re.sub(r"[^a-zA-Z0-9-]+", "-", source.parts[3]).strip("-")
         scores_by_course.setdefault(course_id, []).append({
             "title": score["title"], "viewer": score["score_html"],
             "musicxml": score["score_musicxml"], "pages": score["score_pages"],
-            "note": "Partition de travail : attaques et simultanéités du MIDI, articulation et affectations proposées. Jouabilité non validée.",
+            "note": score.get("interpretation") or "Partition de travail : attaques et simultanéités du MIDI, articulation et affectations proposées. Jouabilité non validée.",
         })
     for demo in percussion["supplemental_demos"]:
         school, code = demo["institution"], demo["code"]
@@ -333,6 +335,7 @@ def main() -> None:
         school, code = row["institution"], row["code"]
         slug = re.sub(r"[^a-zA-Z0-9-]+", "-", code).strip("-")
         identifier = school + ":" + code
+        course_key = school + ":" + slug
         material = row.get("material_file")
         source = ROOT / material if material else None
         markdown = source.read_text(encoding="utf-8") if source and source.is_file() else ""
@@ -353,8 +356,9 @@ def main() -> None:
         description_url = "courses/" + school + "/" + slug + ".json"
         audio = course_audio(source, markdown, destination, school, slug, studies)
         trials = course_listening_trials(
-            context["listening_trials"].get(identifier, [])
-            + resonance["listening_trials"].get(identifier, []), audio, studies,
+            context["listening_trials"].get(course_key, [])
+            + resonance["listening_trials"].get(course_key, [])
+            + harmony["listening_trials"].get(course_key, []), audio, studies,
         )
         details = {
             "id": identifier, "title": title, "code": code, "institution": school,
@@ -365,7 +369,7 @@ def main() -> None:
             "coverage": row.get("course_coverage"),
             "midi": midi_url,
             "audio": audio, "listening_trials": trials,
-            "scores": scores_by_course.get(identifier, []),
+            "scores": scores_by_course.get(course_key, []),
             "non_algorithmic": row.get("non_algorithmic"),
             "algorithmic_tags": row.get("algorithmic_tags") or [],
             "review_state": row["review_state"],

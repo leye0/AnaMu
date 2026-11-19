@@ -22,6 +22,10 @@ Trois partitions de travail sont consultables dans les cours OMPRD-386 et CM-343
 
 Six réalisations supplémentaires sont décrites dans [le manifeste de résonance](../docs/data/percussion-resonance-2026-11-18.json), avec gains communs, queues de son et fenêtres PCM; les anciens MP3 restent en place. Les deux comparaisons de pédale supplémentaires utilisent des extraits de ces mêmes rendus continus. Aucun jugement d’écoute n’est collecté.
 
+## Harmonie en contexte (18 novembre)
+
+Huit études originales dans six cours, avec MIDI, MP3 de piano, partition SVG, page imprimable et MusicXML. Les variantes isolent une note d’emprunt, les notes-guides d’une substitution, une continuation tonale ou la lecture d’un accord diminué. Les cinq comparaisons supplémentaires comprennent un témoin A/A exact. [Manifeste des événements et sources](../docs/data/harmony-context-studies-2026-11-18.json). Les réductions à quatre voix ne certifient ni doigtés, ni style académique complet, ni jugement d’écoute. Les identifiants de cours avec espaces sont associés aux dossiers normalisés pour afficher les partitions et comparaisons MUTH 251 et MTE 1221.
+
 ## Publication sur GitHub Pages (source : Actions)
 
 1. Ouvrir **Settings → Pages** du dépôt `leye0/AnaMu`.
