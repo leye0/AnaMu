@@ -1,0 +1,44 @@
+% Source: sources/mutopia-915/NelSeggioPlacido.ly
+\lyricmode {
+Nel seg- gio pla- ci do
+dell' om- bre a- man- ti
+a- vran pur ter- mi- ne
+an- go- sce e pian- ti
+e le nos- tr'a- ni- me
+ra- pi- te in es- ta- si
+ra- pi- te in es- ta- si
+lie- te gio- i- sca- no d'un pu- ro_ar- dor
+lie- te gio- i- sca- no d'un pu- ro ar- dor
+Nel seg- gio pla- ci do
+dell' om- bre a- man- ti
+a- vran pur ter- mi- ne
+an- go- scie e pian- ti
+e le nos- tr'a- ni- me
+ra- pi- te in es- ta- si
+ra- pi- te in es- ta- si
+lie- te gio- i- sca- no d'un pu- ro_ar- dor
+lie- te gio- i- sca- no d'un pu- ro_ar- dor
+lie- te gio- i- sca- no d'un pu- ro_ar- dor
+}
+
+\lyricmode {
+Nel seg- gio pla- ci do
+dell' om- bre a- man- ti
+a- vran pur ter- mi- ne
+an- go sce e pian- ti
+e le nos- tr'a- ni- me
+ra- pi- te in es- ta- si
+in es- ta- si
+lie- te gio- i- sca- no d'un pu- ro_ar- dor
+lie- te gio- i- sca- no d'un pu- ro ar- dor
+Nel seg- gio pla- ci do
+dell' om- bre a- man- ti
+a- vran pur ter- mi- ne
+an- go- scie e pian- ti
+e le nos- tr'a- ni- me
+ra- pi- te in es- ta- si
+in es- ta- si
+lie- te gio- i- sca- no d'un pu- ro_ar- dor
+lie- te gio- i- sca- no d'un pu- ro_ar- dor
+lie- te gio- i- sca- no d'un pu- ro_ar- dor
+}

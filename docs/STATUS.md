@@ -1,5 +1,7 @@
 # AnaMu — état opérationnel de référence (18 novembre 2026)
 
+**Corpus parallèle autorisé — 19 novembre 2026 :** constituer une grande collection d’opéras avec MIDI, partie vocale identifiable et paroles disponibles. [Entrée du corpus](../corpus/opera/README.md). Premier lot : **106 couples MIDI–paroles, 103 passages distincts, 10 opéras, 6 compositeurs**; source syllabique conservée et MIDI vocal extrait. Alignement note–syllabe non exporté, audition et comparaison exhaustive non réalisées; une extraction de Cesare reste partielle pour les voix du chœur. Cette acquisition d’œuvres existantes est indépendante du travail sur les cours; elle n’autorise ni moteur d’analyse/composition, ni tests ou CI.
+
 ## Harmonie : fonctions et continuations — 18 novembre 2026
 
 **Six cours approfondis, huit études originales** : CM-211 (trois usages du 6/4), CM-212 (tonicisation ou région prolongée), MTE-1221 (sixte augmentée et dominante enharmonique), MUTH-251 (quatre destinations d’un diminué et ornement à note commune), HR-211 (substitution tritonique et emprunt iv), HR-212 (résolution, déviation et déplacement parallèle). Les procédures d’analyse, exercices et limites sont directement dans les six fiches.

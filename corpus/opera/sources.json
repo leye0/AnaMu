@@ -1,0 +1,467 @@
+{
+  "retrieved_on": "2026-11-19",
+  "sources": [
+    {
+      "id": "mutopia-119",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=119",
+      "source_page": "sources/mutopia-119/source-page.html",
+      "title": "Giulio Cesare, by G. F. Handel (1685–1759)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV17/giulio-cesare/giulio-cesare-lys.zip",
+          "path": "sources/mutopia-119/giulio-cesare-lys.zip",
+          "sha256": "aa0a010119527793e96a8797f5a0009f8c3fc16225551d3d047af39e9da02046",
+          "bytes": 451218
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV17/giulio-cesare/giulio-cesare-mids.zip",
+          "path": "sources/mutopia-119/giulio-cesare-mids.zip",
+          "sha256": "53dbb2098e554cd235be4a4582e81df652ca9aa2730436e9392125eecd2db424",
+          "bytes": 170067
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV17/giulio-cesare/giulio-cesare.tar.gz",
+          "path": "sources/mutopia-119/giulio-cesare.tar.gz",
+          "sha256": "3336d49a4851d2dadbedfb68e3bf34e1d494e1e1e82a9822fc003a872e896e7b",
+          "bytes": 208490
+        }
+      ],
+      "license": "Creative Commons Attribution 2.5",
+      "maintainer": "Nicolas Sceaux nicolas.sceaux (at) free.fr http://nicolas.sceaux.free.fr",
+      "edition": "Dover unaltered reprint of Deutschen Handelgesellschaft edition, volume 68, 1875",
+      "license_url": "https://creativecommons.org/licenses/by/2.5/"
+    },
+    {
+      "id": "mutopia-2227",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2227",
+      "source_page": "sources/mutopia-2227/source-page.html",
+      "title": "Fidelio Nr. 4 Aria - Hat man nicht auch Gold beineben, by L. V. Beethoven (1770–1827)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O72b/aria-rocco/aria-rocco.ly",
+          "path": "sources/mutopia-2227/aria-rocco.ly",
+          "sha256": "09feb2ec58cd48a60a5ed988dba39fd163604422a185b77c51cd599c49857ab0",
+          "bytes": 16358
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/O72b/aria-rocco/aria-rocco.mid",
+          "path": "sources/mutopia-2227/aria-rocco.mid",
+          "sha256": "334c663a0dce0e5df76a262445208f9ffe60a559ee99e179cb0b059b8409ef6a",
+          "bytes": 16200
+        }
+      ],
+      "license": "Creative Commons Attribution-ShareAlike 4.0",
+      "maintainer": "Alexander Brock alexander (at) lunar-orbit.de",
+      "edition": "New York: G. Schirmer Inc.",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "mutopia-1308",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1308",
+      "source_page": "sources/mutopia-1308/source-page.html",
+      "title": "Cara sposa, amanta cara , Aria from Rinaldo, by G. F. Handel (1685–1759)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV7/CaraSposa/CaraSposa.ly",
+          "path": "sources/mutopia-1308/CaraSposa.ly",
+          "sha256": "93949ab6ee1983539c93e89f3c27916442a27413ce7fc7cddb04cb36fcf9470d",
+          "bytes": 11213
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV7/CaraSposa/CaraSposa.mid",
+          "path": "sources/mutopia-1308/CaraSposa.mid",
+          "sha256": "a81dd450c29117cffdb5284a3f72c176cdf92bbb3afa47795a203174d9bf9fa3",
+          "bytes": 15843
+        }
+      ],
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "G. F. Händels Werke, für die Deutsche Händegesellschaft herausgegeben von Friedrich Chrysander, Bd.: 58, 1874",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-1319",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1319",
+      "source_page": "sources/mutopia-1319/source-page.html",
+      "title": "Solo dal brando , Aria from Rinaldo, by G. F. Handel (1685–1759)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV7/SoloDalBrando/SoloDalBrando.ly",
+          "path": "sources/mutopia-1319/SoloDalBrando.ly",
+          "sha256": "ff742d27ca0fba054b35e15781062e7b24bd80220ba37d4d568719415ae04dca",
+          "bytes": 5245
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV7/SoloDalBrando/SoloDalBrando.mid",
+          "path": "sources/mutopia-1319/SoloDalBrando.mid",
+          "sha256": "14b1ed028b7fa4336b9aa56d7e00c38f26a5fac1f3c43b97aaa841036beafdbd",
+          "bytes": 5436
+        }
+      ],
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "G. F. Händels Werke, für die Deutsche Händegesellschaft herausgegeben von Friedrich Chrysander, Bd.: 58, 1874",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-1617",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1617",
+      "source_page": "sources/mutopia-1617/source-page.html",
+      "title": "Sulla ruota di fortuna , Aria from Rinaldo, by G. F. Handel (1685–1759)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV7/SullaRuotaDiFortuna/SullaRuotaDiFortuna.ly",
+          "path": "sources/mutopia-1617/SullaRuotaDiFortuna.ly",
+          "sha256": "7bab48f4cdc0b6ef14c0e711884aab3f6f0179e2bc973c8329503e6cfb02bc3b",
+          "bytes": 5206
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV7/SullaRuotaDiFortuna/SullaRuotaDiFortuna.mid",
+          "path": "sources/mutopia-1617/SullaRuotaDiFortuna.mid",
+          "sha256": "50981f6ace4ae5b9a37010027e3748adb09c3aa9990d3c94cbd2820096a4cde5",
+          "bytes": 5354
+        }
+      ],
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "G. F. Händels Werke, für die Deutsche Händegesellschaft herausgegeben von Friedrich Chrysander, Bd.: 58, 1874",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-1312",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1312",
+      "source_page": "sources/mutopia-1312/source-page.html",
+      "title": "Io già t'amai , Aria from Rodelinda, by G. F. Handel (1685–1759)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV19/IoGiaTAmai/IoGiaTAmai.ly",
+          "path": "sources/mutopia-1312/IoGiaTAmai.ly",
+          "sha256": "cdb7db81c8963f16dfa6e78cfab50ed9006e8dbf91fd2f79d5ac39568dfdcd4c",
+          "bytes": 8182
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV19/IoGiaTAmai/IoGiaTAmai.mid",
+          "path": "sources/mutopia-1312/IoGiaTAmai.mid",
+          "sha256": "02347990d6784a333df6127a55a3a1ac2c0bc0e0d70a37aa674bc1ee9606239b",
+          "bytes": 10541
+        }
+      ],
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "G. F. Händels Werke, für die Deutsche Händegesellschaft herausgegeben von Friedrich Chrysander, Bd.: 70, 1876",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-2242",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2242",
+      "source_page": "sources/mutopia-2242/source-page.html",
+      "title": "Signor, Signor, lasciate far a me (Serse), by G. F. Handel (1685–1759)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV40/SignorSignorLasciateFarAMe/SignorSignorLasciateFarAMe.ly",
+          "path": "sources/mutopia-2242/SignorSignorLasciateFarAMe.ly",
+          "sha256": "38c612cff8013ce3d46b5961630a24c77f0a06901296319e1ba49f5861d6597e",
+          "bytes": 9024
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV40/SignorSignorLasciateFarAMe/SignorSignorLasciateFarAMe.mid",
+          "path": "sources/mutopia-2242/SignorSignorLasciateFarAMe.mid",
+          "sha256": "1aa53696a967e387bb45e84ebbc0d90672792666c9e137a8e2466080a0c17a49",
+          "bytes": 3743
+        }
+      ],
+      "license": "Public Domain",
+      "maintainer": "Anonymous",
+      "edition": "DR. V. ERNST WOLFF, DEM CEMBALISTEN DER HÄNDEL-OPERNFESTSPIELE ZU EIGEN / XERXES / ODER / DER VERLIEBTE KÖNIG / 〈 SERSE 〉 / HEITERE OPER IN DREI AKTEN / MUSIK VON / GEORG FRIEDRICH HÄNDEL / MUSIKALISCHE EINRICHTUNG AUF GRUND / DER PARTITUR DER DEUTSCHEN HÄNDELGESELLSCHAFT / FREIE NEUGESTALTUNG DES / TEXTBUCHES UND DER SECCO-REZITATIVE VON / OSKAR HAGEN / KLAVIER-AUSZUG VON / V. ERNST WOLFF / EIGENTUM DES VERLEGERS / C. F. PETERS, LEIPZIG (IMSLP134224-PMLP24130)",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+    },
+    {
+      "id": "mutopia-960",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=960",
+      "source_page": "sources/mutopia-960/source-page.html",
+      "title": "Se del fiume , Aria from Artaserse, by J. A. Hasse (1699–1783)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HasseJA/SeDelFiume/SeDelFiume.ly",
+          "path": "sources/mutopia-960/SeDelFiume.ly",
+          "sha256": "cf05776e3fc3a0501284d7082a8e20cf7bb091ff7df5df4b46ed65119ac92d79",
+          "bytes": 12778
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HasseJA/SeDelFiume/SeDelFiume.mid",
+          "path": "sources/mutopia-960/SeDelFiume.mid",
+          "sha256": "ac9d86e84d3d5b6bfed958074bf227e842781cd3187d168521218c42a0c42226",
+          "bytes": 22361
+        }
+      ],
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "Copy, 1760-1790",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-915",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=915",
+      "source_page": "sources/mutopia-915/source-page.html",
+      "title": "Nel seggio placido, by S. Mercadante (1795–1870)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MercadanteS/NelSeggioPlacido/NelSeggioPlacido.ly",
+          "path": "sources/mutopia-915/NelSeggioPlacido.ly",
+          "sha256": "d140f6cd47e1bc7ab402c40490ea2b8a6a01ee02f6f37bcc8ac2e98be6dbd28c",
+          "bytes": 12319
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MercadanteS/NelSeggioPlacido/NelSeggioPlacido.mid",
+          "path": "sources/mutopia-915/NelSeggioPlacido.mid",
+          "sha256": "931626deb1dca72717525c3996984729954fb54b6786a173356b46d2cf07565a",
+          "bytes": 11822
+        }
+      ],
+      "license": "Public Domain",
+      "maintainer": "Laurent Dutriaux laurent.dutriaux (at) wanadoo.fr",
+      "edition": "Undocumented collection of italian opera duets, Paris, (middle 19th century bounding)",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+    },
+    {
+      "id": "mutopia-2246",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2246",
+      "source_page": "sources/mutopia-2246/source-page.html",
+      "title": "O tu ch'innanzi morte (L'Orfeo), by C. Monteverdi (1567–1643)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MonteverdiC/SV318/OTuChInnanziMorte/OTuChInnanziMorte.ly",
+          "path": "sources/mutopia-2246/OTuChInnanziMorte.ly",
+          "sha256": "bbbdf4ec90846ad39436ac293dff86a8a4b9502dfef9b1eaf19d8b75acf1581a",
+          "bytes": 5111
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MonteverdiC/SV318/OTuChInnanziMorte/OTuChInnanziMorte.mid",
+          "path": "sources/mutopia-2246/OTuChInnanziMorte.mid",
+          "sha256": "1e0eb59ff1a02a2c9718f03d3f7fd31bf50117d9ee651133674a4d2cb1836949",
+          "bytes": 2869
+        }
+      ],
+      "license": "Public Domain",
+      "maintainer": "Anonymous",
+      "edition": "L'ORFEO / FAVOLA / IN MVSICA / DA CLAVDIO MONTEVERDE / MAESTRO DI CAPELLA / DELLA SERENISS. REPVBLICA. / RAPPRESENTATA IN MANTOVA / L'Anno 1607. Et novamente Ristampata. / IN VENETIA M D C X. V. / Appresso Riccardo Amadino. (IMSLP51366-PMLP21363, IMSLP30835-PMLP21363)",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+    },
+    {
+      "id": "mutopia-2244",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2244",
+      "source_page": "sources/mutopia-2244/source-page.html",
+      "title": "Notte e giorno (Don Giovanni), by W. A. Mozart (1756–1791)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV527/NotteEGiorno/NotteEGiorno.ly",
+          "path": "sources/mutopia-2244/NotteEGiorno.ly",
+          "sha256": "a4528c885c201f7e5408c6e1d2873372a97f020cc0b3fa3809f0c4e02caf5541",
+          "bytes": 13611
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV527/NotteEGiorno/NotteEGiorno.mid",
+          "path": "sources/mutopia-2244/NotteEGiorno.mid",
+          "sha256": "84116952f7eb524947e1d960bcd6673b85e492c4674ab38bbee0ae8471ea66f0",
+          "bytes": 12528
+        }
+      ],
+      "license": "Public Domain",
+      "maintainer": "Anonymous",
+      "edition": "Ed. 191 / DON GIOVANNI / An Opera in Two Acts / Libretto by / LORENZO DA PONTE / Music by / W. A. MOZART / VOCAL SCORE / Including Secco Recitatives / English version by / NATALIE MACFARREN / With an Essay on the / story of the Opera by / H. E. KREHBIEL / G. SCHIRMER, Inc., NEW YORK (IMSLP68957-PMLP36804)",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+    },
+    {
+      "id": "mutopia-189",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=189",
+      "source_page": "sources/mutopia-189/source-page.html",
+      "title": "Canzonetta \"Deh vieni alla finestra\" from Don Giovanni, by W. A. Mozart (1756–1791)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV527/canzonetta/canzonetta-lys.zip",
+          "path": "sources/mutopia-189/canzonetta-lys.zip",
+          "sha256": "41331ba17dacf03575fafa4adc58b91270f4fa9a5cf596642e7ca5bf16f855f8",
+          "bytes": 7082
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV527/canzonetta/canzonetta-mids.zip",
+          "path": "sources/mutopia-189/canzonetta-mids.zip",
+          "sha256": "56a78b2ce78a1e561dbc0917bb7bbccb493f531956087f63ff5eedf7f835496b",
+          "bytes": 3564
+        }
+      ],
+      "license": "Public Domain",
+      "maintainer": "Erik Sandberg ersa9195 (at) student.uu.se",
+      "edition": "Neue Mozartausgabe",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+    },
+    {
+      "id": "mutopia-249",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=249",
+      "source_page": "sources/mutopia-249/source-page.html",
+      "title": "Die Zauberflöte (The Magic Flute) - No. 4 Arie, by W. A. Mozart (1756–1791)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV620/magicflute-04-aria/magicflute-04-aria-lys.zip",
+          "path": "sources/mutopia-249/magicflute-04-aria-lys.zip",
+          "sha256": "a5ed6c04b523d393598a5a1909b77ce90575e88055e14f143afff22726c1181b",
+          "bytes": 17984
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV620/magicflute-04-aria/magicflute-04-aria-mids.zip",
+          "path": "sources/mutopia-249/magicflute-04-aria-mids.zip",
+          "sha256": "04ab66b160381615657930bfa7e2ad4977a4f4e8533aa811d73b282777a5d530",
+          "bytes": 28322
+        }
+      ],
+      "license": "Public Domain",
+      "maintainer": "Deborah Lowrey drlowrey (at) karmaresources.com http://www.karmaresources.com/",
+      "edition": "J. L. Peters 1875, C. F. Peters 18??, Lee & Walker 1870, North & Co. 1879",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+    },
+    {
+      "id": "mutopia-259",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=259",
+      "source_page": "sources/mutopia-259/source-page.html",
+      "title": "Die Zauberflöte (The Magic Flute) - No. 7 Duett, by W. A. Mozart (1756–1791)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV620/magicflute-07-duet/magicflute-07-duet-lys.zip",
+          "path": "sources/mutopia-259/magicflute-07-duet-lys.zip",
+          "sha256": "0c9f6bed975c706f89e5c3face43cca27a9e3dbaca0d15381c381528a5266d21",
+          "bytes": 12031
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV620/magicflute-07-duet/magicflute-07-duet-mids.zip",
+          "path": "sources/mutopia-259/magicflute-07-duet-mids.zip",
+          "sha256": "e6d9c256e3a38a0c22d81f860a23a8d38a98193f43005b44adf59a615c2de568",
+          "bytes": 10063
+        }
+      ],
+      "license": "Public Domain",
+      "maintainer": "Deborah Lowrey drlowrey (at) karmaresources.com http://www.karmaresources.com/",
+      "edition": "J. L. Peters 1875, C. F. Peters 18??, Lee & Walker 1870, North & Co. 1879",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+    },
+    {
+      "id": "mutopia-251",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=251",
+      "source_page": "sources/mutopia-251/source-page.html",
+      "title": "Die Zauberflöte (The Magic Flute) - No. 13 Arie, by W. A. Mozart (1756–1791)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV620/magicflute-13-aria/magicflute-13-aria-lys.zip",
+          "path": "sources/mutopia-251/magicflute-13-aria-lys.zip",
+          "sha256": "972c65a377f1c339600d844e37445aee893cbce9920935d4f20e1a98045ed927",
+          "bytes": 11335
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV620/magicflute-13-aria/magicflute-13-aria-mids.zip",
+          "path": "sources/mutopia-251/magicflute-13-aria-mids.zip",
+          "sha256": "0393df896db3a76cf16e2c4bfac1b0de7b2c4ccd8c066359fc9a4dbbfa11f4e3",
+          "bytes": 9419
+        }
+      ],
+      "license": "Public Domain",
+      "maintainer": "Deborah Lowrey drlowrey (at) karmaresources.com http://www.karmaresources.com/",
+      "edition": "J. L. Peters 1875, C. F. Peters 18??, Lee & Walker 1870, North & Co. 1879",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+    },
+    {
+      "id": "mutopia-266",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=266",
+      "source_page": "sources/mutopia-266/source-page.html",
+      "title": "Die Zauberflöte (The Magic Flute) - No. 14 Arie, by W. A. Mozart (1756–1791)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV620/magicflute-14-aria/magicflute-14-aria-lys.zip",
+          "path": "sources/mutopia-266/magicflute-14-aria-lys.zip",
+          "sha256": "15139b664af4f14fdcad3b4a39fd21752ea519b9949bf562787fa2d8068f2347",
+          "bytes": 14893
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV620/magicflute-14-aria/magicflute-14-aria-mids.zip",
+          "path": "sources/mutopia-266/magicflute-14-aria-mids.zip",
+          "sha256": "f27fc1dc545f7862f5cb03907a661c9faea585d327856c3e915053f84cba1ae9",
+          "bytes": 19951
+        }
+      ],
+      "license": "Public Domain",
+      "maintainer": "Deborah Lowrey drlowrey (at) karmaresources.com http://www.karmaresources.com/",
+      "edition": "J. L. Peters 1875, C. F. Peters 18??, Lee & Walker 1870, North & Co. 1879",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+    },
+    {
+      "id": "mutopia-2234",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2234",
+      "source_page": "sources/mutopia-2234/source-page.html",
+      "title": "Die Zauberflöte (The Magic Flute) - No. 15 Arie, by W. A. Mozart (1756–1791)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV620/magicflute-15-aria-piano/magicflute-15-aria-piano.ly",
+          "path": "sources/mutopia-2234/magicflute-15-aria-piano.ly",
+          "sha256": "f80ea33e8c42585a64a96d338658f026563458265a1a8ab80b50ca4e1a1d18dc",
+          "bytes": 10320
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV620/magicflute-15-aria-piano/magicflute-15-aria-piano.mid",
+          "path": "sources/mutopia-2234/magicflute-15-aria-piano.mid",
+          "sha256": "36f5b52c999f1df8556a44cb5d5d220c868bbe0fc4a90eb40912e0d2b6a0e837",
+          "bytes": 13040
+        }
+      ],
+      "license": "Creative Commons Attribution-ShareAlike 4.0",
+      "maintainer": "Alexander Brock alexander (at) lunar-orbit.de",
+      "edition": "C. F. Peters 18??",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "mutopia-253",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=253",
+      "source_page": "sources/mutopia-253/source-page.html",
+      "title": "Die Zauberflöte (The Magic Flute) - No. 15 Arie, by W. A. Mozart (1756–1791)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV620/magicflute-15-aria/magicflute-15-aria-lys.zip",
+          "path": "sources/mutopia-253/magicflute-15-aria-lys.zip",
+          "sha256": "6284b3c29168c0aa06407b20c0b2b1e784dd0571cd0e56ea03643a2d150111ac",
+          "bytes": 16955
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV620/magicflute-15-aria/magicflute-15-aria-mids.zip",
+          "path": "sources/mutopia-253/magicflute-15-aria-mids.zip",
+          "sha256": "d1b944789d9c22a549632951689ccce7a2fcb762f0fe062b05f86928b71f0846",
+          "bytes": 18129
+        }
+      ],
+      "license": "Public Domain",
+      "maintainer": "Deborah Lowrey drlowrey (at) karmaresources.com http://www.karmaresources.com/",
+      "edition": "J. L. Peters 1875, C. F. Peters 18??, Lee & Walker 1870, North & Co. 1879",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+    },
+    {
+      "id": "mutopia-252",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=252",
+      "source_page": "sources/mutopia-252/source-page.html",
+      "title": "Die Zauberflöte (The Magic Flute) - No. 17 Arie, by W. A. Mozart (1756–1791)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV620/magicflute-17-aria/magicflute-17-aria-lys.zip",
+          "path": "sources/mutopia-252/magicflute-17-aria-lys.zip",
+          "sha256": "4df45b5419b5135d5dc58dbe4b4b8bea561a487535ffa0d3644e1f5e0276a598",
+          "bytes": 10781
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV620/magicflute-17-aria/magicflute-17-aria-mids.zip",
+          "path": "sources/mutopia-252/magicflute-17-aria-mids.zip",
+          "sha256": "d764cc19849eb8474d91b1376a0ae7a8c91c8e90946d580f493f22adc53531a3",
+          "bytes": 9566
+        }
+      ],
+      "license": "Public Domain",
+      "maintainer": "Deborah Lowrey drlowrey (at) karmaresources.com http://www.karmaresources.com/",
+      "edition": "J. L. Peters 1875, C. F. Peters 18??, Lee & Walker 1870, North & Co. 1879",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+    }
+  ]
+}

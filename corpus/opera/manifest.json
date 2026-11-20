@@ -1,0 +1,3872 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-11-19",
+  "scope": "opera_and_singspiel_vocal_repertoire",
+  "summary": {
+    "sources": 19,
+    "midi_lyric_pairs": 106,
+    "distinct_musical_units": 103,
+    "operas": 10,
+    "composers": 6,
+    "isolated_vocal_midis": 106,
+    "note_lyric_alignments_exported": 0
+  },
+  "known_gaps": [
+    {
+      "source_id": "mutopia-119",
+      "score": "BBArecit",
+      "reason": "Aucun bloc MIDI dans cette partition source; pas de fichier MIDI associé dans le lot."
+    },
+    {
+      "id": "handel-giulio-chbcesare",
+      "reason": "Solo de Cesare isolé; les interventions du chœur restent dans le score MIDI, affectation exhaustive des voix à revoir."
+    }
+  ],
+  "entries": [
+    {
+      "id": "handel-giulio-baacoro",
+      "work_id": "handel-hwv17-baacoro",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Coro. Viva il nostre Alcide",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BAAcoro/score.ily",
+      "kind": "chorus",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-2.mid",
+      "score_midi": "items/handel-giulio-baacoro/score.mid",
+      "score_midi_sha256": "14c14ca392eeb78b4ef0301e9b1bdfcae93a7593f817641ee857151becd67ac7",
+      "vocal_midi": "items/handel-giulio-baacoro/vocal.mid",
+      "vocal_tracks_zero_based": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BAAcoro/soprano-lyrics.ily",
+          "sources/mutopia-119/full-source/giulio-cesare/BAAcoro/alto-lyrics.ily",
+          "sources/mutopia-119/full-source/giulio-cesare/BAAcoro/tenor-lyrics.ily",
+          "sources/mutopia-119/full-source/giulio-cesare/BAAcoro/bass-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-baacoro/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1439
+    },
+    {
+      "id": "handel-giulio-babcesare",
+      "work_id": "handel-hwv17-babcesare",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Cesare: Presti omai l'egizia terra",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BABcesare/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-3.mid",
+      "score_midi": "items/handel-giulio-babcesare/score.mid",
+      "score_midi_sha256": "23882c84019dfbee289a425af50710b8ec65bb4fcd6aa4739233a485ef3a6b98",
+      "vocal_midi": "items/handel-giulio-babcesare/vocal.mid",
+      "vocal_tracks_zero_based": [
+        4
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BABcesare/cesare-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-babcesare/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1300
+    },
+    {
+      "id": "handel-giulio-bacrecit",
+      "work_id": "handel-hwv17-bacrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BACrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-4.mid",
+      "score_midi": "items/handel-giulio-bacrecit/score.mid",
+      "score_midi_sha256": "14e41d5feb97bfb554c6c05e6ec85132fac551343e73bf1f8861c82b89cdf21c",
+      "vocal_midi": "items/handel-giulio-bacrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BACrecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bacrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 70
+    },
+    {
+      "id": "handel-giulio-bcarecit",
+      "work_id": "handel-hwv17-bcarecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BCArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-5.mid",
+      "score_midi": "items/handel-giulio-bcarecit/score.mid",
+      "score_midi_sha256": "4ac327d4a46abf60eed1e90c23d2faa5d0178d17d6ae3750a7302c9fbff03f63",
+      "vocal_midi": "items/handel-giulio-bcarecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BCArecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bcarecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 346
+    },
+    {
+      "id": "handel-giulio-bcbcesare",
+      "work_id": "handel-hwv17-bcbcesare",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Cesare: Empio, dirò, tu sei",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BCBcesare/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-6.mid",
+      "score_midi": "items/handel-giulio-bcbcesare/score.mid",
+      "score_midi_sha256": "d6264332fe541b20653881d4d0785c5f4671f93856875013ba35d6c964d1ede3",
+      "vocal_midi": "items/handel-giulio-bcbcesare/vocal.mid",
+      "vocal_tracks_zero_based": [
+        2
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BCBcesare/cesare-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bcbcesare/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1247
+    },
+    {
+      "id": "handel-giulio-bdarecit",
+      "work_id": "handel-hwv17-bdarecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BDArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-7.mid",
+      "score_midi": "items/handel-giulio-bdarecit/score.mid",
+      "score_midi_sha256": "1f8ed35afc631208d8bc0a3d7dff38da4cac08b0226ebf72a13be6e158e44a21",
+      "vocal_midi": "items/handel-giulio-bdarecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BDArecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bdarecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 194
+    },
+    {
+      "id": "handel-giulio-bdbcornelia",
+      "work_id": "handel-hwv17-bdbcornelia",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Cornelia: Priva son d'ogni conforto",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BDBcornelia/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-8.mid",
+      "score_midi": "items/handel-giulio-bdbcornelia/score.mid",
+      "score_midi_sha256": "4fede49ae62ea04b3de8151b011a5f85f75f7cbbaa22162350df48495b20e6e9",
+      "vocal_midi": "items/handel-giulio-bdbcornelia/vocal.mid",
+      "vocal_tracks_zero_based": [
+        4
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BDBcornelia/cornelia-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bdbcornelia/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 824
+    },
+    {
+      "id": "handel-giulio-bdcrecit",
+      "work_id": "handel-hwv17-bdcrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BDCrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-9.mid",
+      "score_midi": "items/handel-giulio-bdcrecit/score.mid",
+      "score_midi_sha256": "bb72a23f1b9b84b80364152bfaa09496280ee10adb1e68344e84db0addcd3581",
+      "vocal_midi": "items/handel-giulio-bdcrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BDCrecit/sesto-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bdcrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 55
+    },
+    {
+      "id": "handel-giulio-bddsesto",
+      "work_id": "handel-hwv17-bddsesto",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Sesto: Svegliatevi nel core",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BDDsesto/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-10.mid",
+      "score_midi": "items/handel-giulio-bddsesto/score.mid",
+      "score_midi_sha256": "f36d3fd2b3d16c71bda6c77de781276b72d6c1f9c69ae112bf8ce90defcef869",
+      "vocal_midi": "items/handel-giulio-bddsesto/vocal.mid",
+      "vocal_tracks_zero_based": [
+        3
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BDDsesto/sesto-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bddsesto/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1439
+    },
+    {
+      "id": "handel-giulio-bearecit",
+      "work_id": "handel-hwv17-bearecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BEArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-11.mid",
+      "score_midi": "items/handel-giulio-bearecit/score.mid",
+      "score_midi_sha256": "003223bdd4e516b980da4a5ede1348fd2c5e663bb61738353dfd6e852a3013fc",
+      "vocal_midi": "items/handel-giulio-bearecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BEArecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bearecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 384
+    },
+    {
+      "id": "handel-giulio-bebcleopatra",
+      "work_id": "handel-hwv17-bebcleopatra",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Cleopatra: Non disperar, chi sa ?",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BEBcleopatra/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-12.mid",
+      "score_midi": "items/handel-giulio-bebcleopatra/score.mid",
+      "score_midi_sha256": "54fccf4fd18f5d72a0fce7f0ff58e1d5e2d7e109d3f83f500074ba638287ccc4",
+      "vocal_midi": "items/handel-giulio-bebcleopatra/vocal.mid",
+      "vocal_tracks_zero_based": [
+        3
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BEBcleopatra/cleopatra-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bebcleopatra/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 851
+    },
+    {
+      "id": "handel-giulio-bfarecit",
+      "work_id": "handel-hwv17-bfarecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BFArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-13.mid",
+      "score_midi": "items/handel-giulio-bfarecit/score.mid",
+      "score_midi_sha256": "ca25a15b6166ca3bb2dc19074b8673edfb2694332a19c13e3ba9383ed243573a",
+      "vocal_midi": "items/handel-giulio-bfarecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BFArecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bfarecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 251
+    },
+    {
+      "id": "handel-giulio-bfbtolomeo",
+      "work_id": "handel-hwv17-bfbtolomeo",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Tolomeo: L'empio, sleale, indegno",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BFBtolomeo/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-14.mid",
+      "score_midi": "items/handel-giulio-bfbtolomeo/score.mid",
+      "score_midi_sha256": "8338944ed9450ad48c05ea4b4e07a3b2f49b42592740be07723267a7cf077848",
+      "vocal_midi": "items/handel-giulio-bfbtolomeo/vocal.mid",
+      "vocal_tracks_zero_based": [
+        4
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BFBtolomeo/tolomeo-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bfbtolomeo/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1396
+    },
+    {
+      "id": "handel-giulio-bgacesare",
+      "work_id": "handel-hwv17-bgacesare",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Cesare: Alma del gran Pompeo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BGAcesare/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-15.mid",
+      "score_midi": "items/handel-giulio-bgacesare/score.mid",
+      "score_midi_sha256": "424ed539cf8202d4ddf1bc7ef5ee361633637e8134ef1214e53218171c8d9b74",
+      "vocal_midi": "items/handel-giulio-bgacesare/vocal.mid",
+      "vocal_tracks_zero_based": [
+        4
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BGAcesare/cesare-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bgacesare/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 373
+    },
+    {
+      "id": "handel-giulio-bgbrecit",
+      "work_id": "handel-hwv17-bgbrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BGBrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-16.mid",
+      "score_midi": "items/handel-giulio-bgbrecit/score.mid",
+      "score_midi_sha256": "3c3740d9dcfc1da27f7faa086bcedc22e57d66c9f5e3c7ee1fd781451ebced61",
+      "vocal_midi": "items/handel-giulio-bgbrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BGBrecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bgbrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 238
+    },
+    {
+      "id": "handel-giulio-bgccesare",
+      "work_id": "handel-hwv17-bgccesare",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Cesare: Non è si vago e bello",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BGCcesare/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-17.mid",
+      "score_midi": "items/handel-giulio-bgccesare/score.mid",
+      "score_midi_sha256": "0e98e50aefaba155d06b5931c52497cdbb335196c9af31249521473d3e39e51b",
+      "vocal_midi": "items/handel-giulio-bgccesare/vocal.mid",
+      "vocal_tracks_zero_based": [
+        3
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BGCcesare/cesare-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bgccesare/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 727
+    },
+    {
+      "id": "handel-giulio-bgdrecit",
+      "work_id": "handel-hwv17-bgdrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BGDrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-18.mid",
+      "score_midi": "items/handel-giulio-bgdrecit/score.mid",
+      "score_midi_sha256": "fd8cf290a57662b8f701e3626576cbc31cd80c9fb48c250aeda773e0c5108fc7",
+      "vocal_midi": "items/handel-giulio-bgdrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BGDrecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bgdrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 86
+    },
+    {
+      "id": "handel-giulio-bgecleopatra",
+      "work_id": "handel-hwv17-bgecleopatra",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Cleopatra: Tutto può donna Vezzosa, s'amorosa",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BGEcleopatra/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-19.mid",
+      "score_midi": "items/handel-giulio-bgecleopatra/score.mid",
+      "score_midi_sha256": "14e7198d08ad9dc5ca8e715ecf42e5ccf4360c4d64478bdb158f69ccd0e2adc2",
+      "vocal_midi": "items/handel-giulio-bgecleopatra/vocal.mid",
+      "vocal_tracks_zero_based": [
+        4
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes. Cas relu: doublure, liaison ou portée créée tardivement; sélection explicitement fixée.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BGEcleopatra/cleopatra-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bgecleopatra/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1256
+    },
+    {
+      "id": "handel-giulio-bgfrecit",
+      "work_id": "handel-hwv17-bgfrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BGFrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-20.mid",
+      "score_midi": "items/handel-giulio-bgfrecit/score.mid",
+      "score_midi_sha256": "04cb50dff65a68ff015c07edb99c69ee715bba7a8b35323078a3bc0bd42c582d",
+      "vocal_midi": "items/handel-giulio-bgfrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BGFrecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bgfrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 68
+    },
+    {
+      "id": "handel-giulio-bhacornelia",
+      "work_id": "handel-hwv17-bhacornelia",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Cornelia: Nel tuo seno, amico sasso",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BHAcornelia/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-21.mid",
+      "score_midi": "items/handel-giulio-bhacornelia/score.mid",
+      "score_midi_sha256": "a8a4cb865d7373f72ae19c4b3927c4aa056d153f2f02e2de87996d96c7db2705",
+      "vocal_midi": "items/handel-giulio-bhacornelia/vocal.mid",
+      "vocal_tracks_zero_based": [
+        3
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes. Cas relu: doublure, liaison ou portée créée tardivement; sélection explicitement fixée.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BHAcornelia/cornelia-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bhacornelia/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 727
+    },
+    {
+      "id": "handel-giulio-bhbrecit",
+      "work_id": "handel-hwv17-bhbrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo.",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BHBrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-22.mid",
+      "score_midi": "items/handel-giulio-bhbrecit/score.mid",
+      "score_midi_sha256": "b2780e1f570da80da760c3bed22ef886b078cae6eb0532c9c1ae87f95c0fb07f",
+      "vocal_midi": "items/handel-giulio-bhbrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BHBrecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bhbrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 397
+    },
+    {
+      "id": "handel-giulio-bhcsesto",
+      "work_id": "handel-hwv17-bhcsesto",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Sesto: Cara speme, questo core tu cominci a lusingar",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BHCsesto/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-23.mid",
+      "score_midi": "items/handel-giulio-bhcsesto/score.mid",
+      "score_midi_sha256": "5d779148591d4ddbfec844151d016f4b47bfdd74fab4a66d7785d4680a7a283c",
+      "vocal_midi": "items/handel-giulio-bhcsesto/vocal.mid",
+      "vocal_tracks_zero_based": [
+        3
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes. Cas relu: doublure, liaison ou portée créée tardivement; sélection explicitement fixée.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BHCsesto/sesto-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bhcsesto/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 405
+    },
+    {
+      "id": "handel-giulio-bhdrecit",
+      "work_id": "handel-hwv17-bhdrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo.",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BHDrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-24.mid",
+      "score_midi": "items/handel-giulio-bhdrecit/score.mid",
+      "score_midi_sha256": "e85c5c55f14353ea36d93508146091ee0402d458ad5c8d7ba37d84228fced20a",
+      "vocal_midi": "items/handel-giulio-bhdrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BHDrecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bhdrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 67
+    },
+    {
+      "id": "handel-giulio-bhecleopatra",
+      "work_id": "handel-hwv17-bhecleopatra",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Cleopatra: Tu la mia stella sei, amabile speranza",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BHEcleopatra/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-25.mid",
+      "score_midi": "items/handel-giulio-bhecleopatra/score.mid",
+      "score_midi_sha256": "aab13958af62b314a48c7ccde03fe114565b8cf4abd2280d63f41ed8a9e872f6",
+      "vocal_midi": "items/handel-giulio-bhecleopatra/vocal.mid",
+      "vocal_tracks_zero_based": [
+        2
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BHEcleopatra/cleopatra-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bhecleopatra/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 996
+    },
+    {
+      "id": "handel-giulio-biarecit",
+      "work_id": "handel-hwv17-biarecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo.",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BIArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-26.mid",
+      "score_midi": "items/handel-giulio-biarecit/score.mid",
+      "score_midi_sha256": "8f4bad005e08e6e518eb7e05540582d518142bab1e133b3903162c866bd60b8c",
+      "vocal_midi": "items/handel-giulio-biarecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BIArecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-biarecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 180
+    },
+    {
+      "id": "handel-giulio-bibcesare",
+      "work_id": "handel-hwv17-bibcesare",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Cesare: Va tacito e nascosto, quand' avido",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BIBcesare/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-27.mid",
+      "score_midi": "items/handel-giulio-bibcesare/score.mid",
+      "score_midi_sha256": "f1b839c6f69b6362727decb8ca0ad2a70db2eae421270f7d18a9f68b74470dd3",
+      "vocal_midi": "items/handel-giulio-bibcesare/vocal.mid",
+      "vocal_tracks_zero_based": [
+        5
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BIBcesare/cesare-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bibcesare/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 2457
+    },
+    {
+      "id": "handel-giulio-bjarecit",
+      "work_id": "handel-hwv17-bjarecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BJArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-28.mid",
+      "score_midi": "items/handel-giulio-bjarecit/score.mid",
+      "score_midi_sha256": "8b3b42bd4ce42215940d481b04276afb950211eb53770439f79fb76a2f01e412",
+      "vocal_midi": "items/handel-giulio-bjarecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BJArecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bjarecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 251
+    },
+    {
+      "id": "handel-giulio-bkarecit",
+      "work_id": "handel-hwv17-bkarecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BKArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-29.mid",
+      "score_midi": "items/handel-giulio-bkarecit/score.mid",
+      "score_midi_sha256": "bf013255526a85697eee7cd47765a2191e9eb2f9c6bb6e91ee8e910b7665688f",
+      "vocal_midi": "items/handel-giulio-bkarecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BKArecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bkarecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 171
+    },
+    {
+      "id": "handel-giulio-bkbachilla",
+      "work_id": "handel-hwv17-bkbachilla",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Achilla: Tu sei il cor di questo core",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BKBachilla/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-30.mid",
+      "score_midi": "items/handel-giulio-bkbachilla/score.mid",
+      "score_midi_sha256": "d89ca24b4691362ecd75c3e909805f0edb3d20083cf06283cf82afa4ebcf86ef",
+      "vocal_midi": "items/handel-giulio-bkbachilla/vocal.mid",
+      "vocal_tracks_zero_based": [
+        3
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes. Cas relu: doublure, liaison ou portée créée tardivement; sélection explicitement fixée.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BKBachilla/achilla-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bkbachilla/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1201
+    },
+    {
+      "id": "handel-giulio-bkcrecit",
+      "work_id": "handel-hwv17-bkcrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BKCrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-31.mid",
+      "score_midi": "items/handel-giulio-bkcrecit/score.mid",
+      "score_midi_sha256": "c9842e609d227826cfd7bd5f028414363d31f57f5a088128f42cfab6ff627eee",
+      "vocal_midi": "items/handel-giulio-bkcrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BKCrecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bkcrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 56
+    },
+    {
+      "id": "handel-giulio-bkdcorneliasesto",
+      "work_id": "handel-hwv17-bkdcorneliasesto",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Sesto e Cornelia: Son nato a sospirar/Son nata a lagrimar, e il dolce",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/BKDcorneliaSesto/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act1-32.mid",
+      "score_midi": "items/handel-giulio-bkdcorneliasesto/score.mid",
+      "score_midi_sha256": "eb5fb3813fe9686bb1a48b56b4ba02e09c19f364cc5b14e02bc6938e273c8bf2",
+      "vocal_midi": "items/handel-giulio-bkdcorneliasesto/vocal.mid",
+      "vocal_tracks_zero_based": [
+        3,
+        4
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/BKDcorneliaSesto/sesto-lyrics.ily",
+          "sources/mutopia-119/full-source/giulio-cesare/BKDcorneliaSesto/cornelia-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-bkdcorneliasesto/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1357
+    },
+    {
+      "id": "handel-giulio-caarecit",
+      "work_id": "handel-hwv17-caarecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CAArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2.mid",
+      "score_midi": "items/handel-giulio-caarecit/score.mid",
+      "score_midi_sha256": "36d69719ece4bb25c9696fef44ab1bf56c4f303f74fff0604f75d797c0016c02",
+      "vocal_midi": "items/handel-giulio-caarecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CAArecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-caarecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 228
+    },
+    {
+      "id": "handel-giulio-cbarecit",
+      "work_id": "handel-hwv17-cbarecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CBArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-1.mid",
+      "score_midi": "items/handel-giulio-cbarecit/score.mid",
+      "score_midi_sha256": "da23d8324242edbcd28d03a1ac197e613363296c70d8afcbbdc84ec15796c60a",
+      "vocal_midi": "items/handel-giulio-cbarecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CBArecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cbarecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 54
+    },
+    {
+      "id": "handel-giulio-cbbsinfonia",
+      "work_id": "handel-hwv17-cbbsinfonia",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Sinfonia",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CBBsinfonia/score.ily",
+      "kind": "scene_with_recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-2.mid",
+      "score_midi": "items/handel-giulio-cbbsinfonia/score.mid",
+      "score_midi_sha256": "47bb1596f15ccb9867346ac01d9783a12fa1dd571f84cc08e4f3b4837fdb0d96",
+      "vocal_midi": "items/handel-giulio-cbbsinfonia/vocal.mid",
+      "vocal_tracks_zero_based": [
+        7
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CBBsinfonia/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cbbsinfonia/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 302
+    },
+    {
+      "id": "handel-giulio-cbcrecit",
+      "work_id": "handel-hwv17-cbcrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CBCrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-3.mid",
+      "score_midi": "items/handel-giulio-cbcrecit/score.mid",
+      "score_midi_sha256": "ddb90c3ade00ae9129c19b3ee056b1b542e315ff1dcf6efbfd770f395d01bdae",
+      "vocal_midi": "items/handel-giulio-cbcrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CBCrecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cbcrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 36
+    },
+    {
+      "id": "handel-giulio-cberecit",
+      "work_id": "handel-hwv17-cberecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CBErecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-5.mid",
+      "score_midi": "items/handel-giulio-cberecit/score.mid",
+      "score_midi_sha256": "5a959baf765b45f0e21c1ecf3455b8ff230215f969ca24ea7065a86b5978e6d6",
+      "vocal_midi": "items/handel-giulio-cberecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CBErecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cberecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 26
+    },
+    {
+      "id": "handel-giulio-cbfcleopatra",
+      "work_id": "handel-hwv17-cbfcleopatra",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Cleopatra: V'adoro, pupile.",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CBFcleopatra/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-6.mid",
+      "score_midi": "items/handel-giulio-cbfcleopatra/score.mid",
+      "score_midi_sha256": "e7da3127da0be595dcbeebde95cad96b27fbfce20bcb37ad3cffc60699147169",
+      "vocal_midi": "items/handel-giulio-cbfcleopatra/vocal.mid",
+      "vocal_tracks_zero_based": [
+        6
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CBFcleopatra/cleopatra-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cbfcleopatra/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1086
+    },
+    {
+      "id": "handel-giulio-cbgrecit",
+      "work_id": "handel-hwv17-cbgrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CBGrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-7.mid",
+      "score_midi": "items/handel-giulio-cbgrecit/score.mid",
+      "score_midi_sha256": "4bf630041ea5a28b148ae6b8604f6f82ba745496213d08a1b6aa02434301d7b7",
+      "vocal_midi": "items/handel-giulio-cbgrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CBGrecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cbgrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 24
+    },
+    {
+      "id": "handel-giulio-cbhrecit",
+      "work_id": "handel-hwv17-cbhrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CBHrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-8.mid",
+      "score_midi": "items/handel-giulio-cbhrecit/score.mid",
+      "score_midi_sha256": "af724ae80921b143a4270caf6fcca0a0c20e3006fc9bfc9b274ffc2cf8ed57d1",
+      "vocal_midi": "items/handel-giulio-cbhrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CBHrecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cbhrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 204
+    },
+    {
+      "id": "handel-giulio-cbicesare",
+      "work_id": "handel-hwv17-cbicesare",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CBIcesare/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-9.mid",
+      "score_midi": "items/handel-giulio-cbicesare/score.mid",
+      "score_midi_sha256": "f779e98cc659875ee64402d11e7922d188d4cafe1b6487dd1059585cfd9bf4ba",
+      "vocal_midi": "items/handel-giulio-cbicesare/vocal.mid",
+      "vocal_tracks_zero_based": [
+        5
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CBIcesare/cesare-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cbicesare/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1718
+    },
+    {
+      "id": "handel-giulio-ccacornelia",
+      "work_id": "handel-hwv17-ccacornelia",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Arioso. Cornelia: Deh, piangete, o mesti lumi",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CCAcornelia/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-10.mid",
+      "score_midi": "items/handel-giulio-ccacornelia/score.mid",
+      "score_midi_sha256": "77150de3ef37c05b89b2d6df29aca758a69c778cf9728a6dff1c0915fd7731dc",
+      "vocal_midi": "items/handel-giulio-ccacornelia/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CCAcornelia/cornelia-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-ccacornelia/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 219
+    },
+    {
+      "id": "handel-giulio-ccbrecit",
+      "work_id": "handel-hwv17-ccbrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CCBrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-11.mid",
+      "score_midi": "items/handel-giulio-ccbrecit/score.mid",
+      "score_midi_sha256": "5bfb08f34c7d286551648c516c0eea539c233650fb7adb18bc3c3a06ca0c6cba",
+      "vocal_midi": "items/handel-giulio-ccbrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CCBrecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-ccbrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 103
+    },
+    {
+      "id": "handel-giulio-cdarecit",
+      "work_id": "handel-hwv17-cdarecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CDArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-12.mid",
+      "score_midi": "items/handel-giulio-cdarecit/score.mid",
+      "score_midi_sha256": "c5d672ae1c90af7dc562311697b4c0c94630e2b0858ce08fbc2d0bf36ae77641",
+      "vocal_midi": "items/handel-giulio-cdarecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CDArecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cdarecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 143
+    },
+    {
+      "id": "handel-giulio-cdbachilla",
+      "work_id": "handel-hwv17-cdbachilla",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Achilla: Se a me non sei crudele",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CDBachilla/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-13.mid",
+      "score_midi": "items/handel-giulio-cdbachilla/score.mid",
+      "score_midi_sha256": "804da7686fd74f7247ab565ae7f8d72d3cef9525bd25e0222ec54f4e627e9470",
+      "vocal_midi": "items/handel-giulio-cdbachilla/vocal.mid",
+      "vocal_tracks_zero_based": [
+        2
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CDBachilla/achilla-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cdbachilla/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 786
+    },
+    {
+      "id": "handel-giulio-cdcrecit",
+      "work_id": "handel-hwv17-cdcrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CDCrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-14.mid",
+      "score_midi": "items/handel-giulio-cdcrecit/score.mid",
+      "score_midi_sha256": "54e628f00343d02e287369ac9633656d94f8be3a03471b5fea7cc2558b3805f3",
+      "vocal_midi": "items/handel-giulio-cdcrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CDCrecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cdcrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 146
+    },
+    {
+      "id": "handel-giulio-cddtolomeo",
+      "work_id": "handel-hwv17-cddtolomeo",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Tolomeo: Sì, spietata, il tuo rigore",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CDDtolomeo/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-15.mid",
+      "score_midi": "items/handel-giulio-cddtolomeo/score.mid",
+      "score_midi_sha256": "ad6ea15347d4124c1bf315292d730e77a3e1ec08eec83c423f70be3ca2ab83df",
+      "vocal_midi": "items/handel-giulio-cddtolomeo/vocal.mid",
+      "vocal_tracks_zero_based": [
+        4
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes. Cas relu: doublure, liaison ou portée créée tardivement; sélection explicitement fixée.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CDDtolomeo/tolomeo-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cddtolomeo/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 854
+    },
+    {
+      "id": "handel-giulio-cearecit",
+      "work_id": "handel-hwv17-cearecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CEArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-16.mid",
+      "score_midi": "items/handel-giulio-cearecit/score.mid",
+      "score_midi_sha256": "f94d04f97f023b74a924be1650296e21d1508f8d85f48222022e863326df18d9",
+      "vocal_midi": "items/handel-giulio-cearecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CEArecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cearecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 202
+    },
+    {
+      "id": "handel-giulio-cfarecit",
+      "work_id": "handel-hwv17-cfarecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CFArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-17.mid",
+      "score_midi": "items/handel-giulio-cfarecit/score.mid",
+      "score_midi_sha256": "59ba24e663a1e81dfdacb1fa997ee6375a7f8d7820e7bc95082425b1e33c0ecc",
+      "vocal_midi": "items/handel-giulio-cfarecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CFArecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cfarecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 140
+    },
+    {
+      "id": "handel-giulio-cfbcornelia",
+      "work_id": "handel-hwv17-cfbcornelia",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Cornelia: Cessa omai di sospirare",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CFBcornelia/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-18.mid",
+      "score_midi": "items/handel-giulio-cfbcornelia/score.mid",
+      "score_midi_sha256": "28fab63ff68b74b0460a700060b0bd36ac7504010878218ea7270fb88f4083d9",
+      "vocal_midi": "items/handel-giulio-cfbcornelia/vocal.mid",
+      "vocal_tracks_zero_based": [
+        5
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CFBcornelia/cornelia-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cfbcornelia/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 919
+    },
+    {
+      "id": "handel-giulio-cfcrecit",
+      "work_id": "handel-hwv17-cfcrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CFCrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-19.mid",
+      "score_midi": "items/handel-giulio-cfcrecit/score.mid",
+      "score_midi_sha256": "e7e57508f02886b8b39346fc343f5ef8cdcb71180023fa86331231c44fc06be6",
+      "vocal_midi": "items/handel-giulio-cfcrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CFCrecit/sesto-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cfcrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 51
+    },
+    {
+      "id": "handel-giulio-cfdsesto",
+      "work_id": "handel-hwv17-cfdsesto",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Sesto: Cara speme, questo core tu cominci a lusingar",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CFDsesto/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-20.mid",
+      "score_midi": "items/handel-giulio-cfdsesto/score.mid",
+      "score_midi_sha256": "f8b64e34626f42f82fb3227bfcabed2f2905306d3085c995b6500165989bccb1",
+      "vocal_midi": "items/handel-giulio-cfdsesto/vocal.mid",
+      "vocal_tracks_zero_based": [
+        4
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CFDsesto/sesto-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cfdsesto/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1923
+    },
+    {
+      "id": "handel-giulio-cgarecit",
+      "work_id": "handel-hwv17-cgarecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CGArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-21.mid",
+      "score_midi": "items/handel-giulio-cgarecit/score.mid",
+      "score_midi_sha256": "1fdf81f20d0e1f2c755af6cc3a1b0ad1a47f9e7791cc32615ccd556fa725c28a",
+      "vocal_midi": "items/handel-giulio-cgarecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CGArecit/cleopatra-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cgarecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 79
+    },
+    {
+      "id": "handel-giulio-cgbcleopatra",
+      "work_id": "handel-hwv17-cgbcleopatra",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Cleopatra: Venere bella",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CGBcleopatra/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-22.mid",
+      "score_midi": "items/handel-giulio-cgbcleopatra/score.mid",
+      "score_midi_sha256": "19b841b65f632278bf521f730343e05ef3620035fcb83552b5916e5af8a983f5",
+      "vocal_midi": "items/handel-giulio-cgbcleopatra/vocal.mid",
+      "vocal_tracks_zero_based": [
+        2
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes. Cas relu: doublure, liaison ou portée créée tardivement; sélection explicitement fixée.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CGBcleopatra/cleopatra-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cgbcleopatra/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 964
+    },
+    {
+      "id": "handel-giulio-cgcrecit",
+      "work_id": "handel-hwv17-cgcrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CGCrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-23.mid",
+      "score_midi": "items/handel-giulio-cgcrecit/score.mid",
+      "score_midi_sha256": "b7f46cb8d52633a9f7ad001eb406a52750aa163b3d4d55ec031c442b46753ed5",
+      "vocal_midi": "items/handel-giulio-cgcrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CGCrecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cgcrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 155
+    },
+    {
+      "id": "handel-giulio-charecit",
+      "work_id": "handel-hwv17-charecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CHArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-24.mid",
+      "score_midi": "items/handel-giulio-charecit/score.mid",
+      "score_midi_sha256": "d153bb2d57ba8052ca6c3e73963420291c02eace3b2a20ebd6d42f30ec243288",
+      "vocal_midi": "items/handel-giulio-charecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CHArecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-charecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 435
+    },
+    {
+      "id": "handel-giulio-chbcesare",
+      "work_id": "handel-hwv17-chbcesare",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Cesare: Al lampo dell'armi",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CHBcesare/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "solo_only_additional_chorus_pending",
+      "source_midi": "sources/mutopia-119/unpacked/act2-25.mid",
+      "score_midi": "items/handel-giulio-chbcesare/score.mid",
+      "score_midi_sha256": "b52a64cfd23914d1d8222d2bbb3314f206f12f030b68318af330709e7be874cf",
+      "vocal_midi": "items/handel-giulio-chbcesare/vocal.mid",
+      "vocal_tracks_zero_based": [
+        7
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes. Cas relu: doublure, liaison ou portée créée tardivement; sélection explicitement fixée.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CHBcesare/cesare-lyrics.ily",
+          "sources/mutopia-119/full-source/giulio-cesare/CHBcesare/coro-lyrics.ily",
+          "sources/mutopia-119/full-source/giulio-cesare/CHBcesare/coro-metered-lyrics.ily",
+          "sources/mutopia-119/full-source/giulio-cesare/CHBcesare/coro-metered-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-chbcesare/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1644
+    },
+    {
+      "id": "handel-giulio-chcrecit",
+      "work_id": "handel-hwv17-chcrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recit. Cleopatra: Cleopatra: Che sento? oh Dio!",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CHCrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-26.mid",
+      "score_midi": "items/handel-giulio-chcrecit/score.mid",
+      "score_midi_sha256": "913ede7d78e5859f4cd8d03e50dcc2b1d471d4d5cf252945f6b9a8200584e25d",
+      "vocal_midi": "items/handel-giulio-chcrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        4
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CHCrecit/cleopatra-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-chcrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 294
+    },
+    {
+      "id": "handel-giulio-chdcleopatra",
+      "work_id": "handel-hwv17-chdcleopatra",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Cleopatra: Se pietà di me non senti",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CHDcleopatra/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-27.mid",
+      "score_midi": "items/handel-giulio-chdcleopatra/score.mid",
+      "score_midi_sha256": "fa13fae3eeaf28c364cd059a838267acba22333f2972db5838a2ef6ae6775ab9",
+      "vocal_midi": "items/handel-giulio-chdcleopatra/vocal.mid",
+      "vocal_tracks_zero_based": [
+        5
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CHDcleopatra/cleopatra-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-chdcleopatra/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1740
+    },
+    {
+      "id": "handel-giulio-ciatolomeo",
+      "work_id": "handel-hwv17-ciatolomeo",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Arioso. Tolomeo: Belle dee di questo core",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CIAtolomeo/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-28.mid",
+      "score_midi": "items/handel-giulio-ciatolomeo/score.mid",
+      "score_midi_sha256": "82b740462f10e52df039839bce818c56ed9984060c3b6ac073a4178dada748e5",
+      "vocal_midi": "items/handel-giulio-ciatolomeo/vocal.mid",
+      "vocal_tracks_zero_based": [
+        2
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CIAtolomeo/tolomeo-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-ciatolomeo/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 406
+    },
+    {
+      "id": "handel-giulio-cibrecit",
+      "work_id": "handel-hwv17-cibrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CIBrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-29.mid",
+      "score_midi": "items/handel-giulio-cibrecit/score.mid",
+      "score_midi_sha256": "b812c1daea96dc6afc676294c4e61097dad4efc03a40690e3ea7d79a5dacfe07",
+      "vocal_midi": "items/handel-giulio-cibrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CIBrecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cibrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 130
+    },
+    {
+      "id": "handel-giulio-cjarecit",
+      "work_id": "handel-hwv17-cjarecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CJArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-30.mid",
+      "score_midi": "items/handel-giulio-cjarecit/score.mid",
+      "score_midi_sha256": "23de2ec7164db7730f2483bfaf6a6a8551652479ee0fee482acf575351c0203e",
+      "vocal_midi": "items/handel-giulio-cjarecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CJArecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-cjarecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 353
+    },
+    {
+      "id": "handel-giulio-ckarecit",
+      "work_id": "handel-hwv17-ckarecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CKArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-31.mid",
+      "score_midi": "items/handel-giulio-ckarecit/score.mid",
+      "score_midi_sha256": "99e07304cbe1cb15ec52df729248d57e5b7124f9771a820478592a73dca35e15",
+      "vocal_midi": "items/handel-giulio-ckarecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CKArecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-ckarecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 196
+    },
+    {
+      "id": "handel-giulio-ckbsesto",
+      "work_id": "handel-hwv17-ckbsesto",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Sesto: L'aura che spira",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/CKBsesto/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act2-32.mid",
+      "score_midi": "items/handel-giulio-ckbsesto/score.mid",
+      "score_midi_sha256": "088e65506a29520e938b4255f22dbfbdeb8e46c9c70b468fde9b7a05b2ffc53b",
+      "vocal_midi": "items/handel-giulio-ckbsesto/vocal.mid",
+      "vocal_tracks_zero_based": [
+        5
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/CKBsesto/sesto-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-ckbsesto/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1934
+    },
+    {
+      "id": "handel-giulio-daarecit",
+      "work_id": "handel-hwv17-daarecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DAArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3.mid",
+      "score_midi": "items/handel-giulio-daarecit/score.mid",
+      "score_midi_sha256": "1f24037b835015b20b0251068acd549f37d34635857f02a0f709fe8577f601a7",
+      "vocal_midi": "items/handel-giulio-daarecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DAArecit/achilla-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-daarecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 81
+    },
+    {
+      "id": "handel-giulio-dabachilla",
+      "work_id": "handel-hwv17-dabachilla",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Achilla: Dal fulgor di questa spada",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DABachilla/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-1.mid",
+      "score_midi": "items/handel-giulio-dabachilla/score.mid",
+      "score_midi_sha256": "2140b2f0440f4247e35aa13a68851238fe7f1684d14456bfbf9cd9e1329e5f92",
+      "vocal_midi": "items/handel-giulio-dabachilla/vocal.mid",
+      "vocal_tracks_zero_based": [
+        2
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DABachilla/achilla-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-dabachilla/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 885
+    },
+    {
+      "id": "handel-giulio-dbbrecit",
+      "work_id": "handel-hwv17-dbbrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DBBrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-3.mid",
+      "score_midi": "items/handel-giulio-dbbrecit/score.mid",
+      "score_midi_sha256": "cbbfe5cd333d45a36c896afa4aacc5e96baf6f4cfcba9dc7a715fe79ad0741eb",
+      "vocal_midi": "items/handel-giulio-dbbrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DBBrecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-dbbrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 156
+    },
+    {
+      "id": "handel-giulio-dbctolomeo",
+      "work_id": "handel-hwv17-dbctolomeo",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Tolomeo: Domerò la tua fierezza",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DBCtolomeo/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-4.mid",
+      "score_midi": "items/handel-giulio-dbctolomeo/score.mid",
+      "score_midi_sha256": "173c040aaae9344f7c43103aa7968c26dac8ead9236f8113b9cea5b1565ca69e",
+      "vocal_midi": "items/handel-giulio-dbctolomeo/vocal.mid",
+      "vocal_tracks_zero_based": [
+        2
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DBCtolomeo/tolomeo-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-dbctolomeo/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 991
+    },
+    {
+      "id": "handel-giulio-dcarecit",
+      "work_id": "handel-hwv17-dcarecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DCArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-5.mid",
+      "score_midi": "items/handel-giulio-dcarecit/score.mid",
+      "score_midi_sha256": "6466877b42c97077231e3ad4642b2c410f2233786cace1bffe70916ac80fb2d3",
+      "vocal_midi": "items/handel-giulio-dcarecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DCArecit/cleopatra-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-dcarecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 82
+    },
+    {
+      "id": "handel-giulio-dcbcleopatra",
+      "work_id": "handel-hwv17-dcbcleopatra",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Cleopatra: Piangerò la sorte mia",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DCBcleopatra/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-6.mid",
+      "score_midi": "items/handel-giulio-dcbcleopatra/score.mid",
+      "score_midi_sha256": "b6117b6d17837cc5e9eb6a1a57552cf4027f5e58e4b31f24c5d927dc4a0140e5",
+      "vocal_midi": "items/handel-giulio-dcbcleopatra/vocal.mid",
+      "vocal_tracks_zero_based": [
+        3
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DCBcleopatra/cleopatra-lyrics-1.ily",
+          "sources/mutopia-119/full-source/giulio-cesare/DCBcleopatra/cleopatra-lyrics-2.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-dcbcleopatra/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 950
+    },
+    {
+      "id": "handel-giulio-ddarecit",
+      "work_id": "handel-hwv17-ddarecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recit. Cesare: Dall' ondoso periglio salvo mi",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DDArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-7.mid",
+      "score_midi": "items/handel-giulio-ddarecit/score.mid",
+      "score_midi_sha256": "585886dc823cb11fa840a98f19edec0a8190b36aeef07500bad8918f50636fc9",
+      "vocal_midi": "items/handel-giulio-ddarecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        4
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DDArecit/cesare-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-ddarecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 588
+    },
+    {
+      "id": "handel-giulio-ddbcesare",
+      "work_id": "handel-hwv17-ddbcesare",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Cesare: Aure, deh, per pietà",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DDBcesare/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-8.mid",
+      "score_midi": "items/handel-giulio-ddbcesare/score.mid",
+      "score_midi_sha256": "226fc02f9fa04aff2d3ff12fddb3b4e61d6a2e827719a171fac41e93b5cd1b35",
+      "vocal_midi": "items/handel-giulio-ddbcesare/vocal.mid",
+      "vocal_tracks_zero_based": [
+        4
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DDBcesare/cesare-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-ddbcesare/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 2239
+    },
+    {
+      "id": "handel-giulio-ddcrecit",
+      "work_id": "handel-hwv17-ddcrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DDCrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-9.mid",
+      "score_midi": "items/handel-giulio-ddcrecit/score.mid",
+      "score_midi_sha256": "b23b15be434f1e9672e723e0cfa22c124fc2470a7b4906c9d620311d56447f39",
+      "vocal_midi": "items/handel-giulio-ddcrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DDCrecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-ddcrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 372
+    },
+    {
+      "id": "handel-giulio-dearecit",
+      "work_id": "handel-hwv17-dearecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DEArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-10.mid",
+      "score_midi": "items/handel-giulio-dearecit/score.mid",
+      "score_midi_sha256": "8907916d3df1d26e3b24e20001b743a87ed13d5e216b08e00c3a2351a027f56b",
+      "vocal_midi": "items/handel-giulio-dearecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DEArecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-dearecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 113
+    },
+    {
+      "id": "handel-giulio-debcesare",
+      "work_id": "handel-hwv17-debcesare",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Cesare: Quel torrente che cade dal monte",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DEBcesare/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-11.mid",
+      "score_midi": "items/handel-giulio-debcesare/score.mid",
+      "score_midi_sha256": "dede00331a1701b13d758dac828cc45690b4eca06df44d4ddc918e3ea2b5bafd",
+      "vocal_midi": "items/handel-giulio-debcesare/vocal.mid",
+      "vocal_tracks_zero_based": [
+        2
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DEBcesare/cesare-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-debcesare/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1266
+    },
+    {
+      "id": "handel-giulio-dfarecit",
+      "work_id": "handel-hwv17-dfarecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DFArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-12.mid",
+      "score_midi": "items/handel-giulio-dfarecit/score.mid",
+      "score_midi_sha256": "1ba940f8b9380436e72e78b142debbb565a167362a2ca8a6af9d494affebdede",
+      "vocal_midi": "items/handel-giulio-dfarecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DFArecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-dfarecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 71
+    },
+    {
+      "id": "handel-giulio-dfbsesto",
+      "work_id": "handel-hwv17-dfbsesto",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Sesto: La giustizia ha già sull'arco",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DFBsesto/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-13.mid",
+      "score_midi": "items/handel-giulio-dfbsesto/score.mid",
+      "score_midi_sha256": "e43931b91ac22653599380fe6f7cd3db27d2277066d6c43be56dd7fc5229a71d",
+      "vocal_midi": "items/handel-giulio-dfbsesto/vocal.mid",
+      "vocal_tracks_zero_based": [
+        2
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes. Cas relu: doublure, liaison ou portée créée tardivement; sélection explicitement fixée.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DFBsesto/sesto-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-dfbsesto/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1044
+    },
+    {
+      "id": "handel-giulio-dgacleopatra",
+      "work_id": "handel-hwv17-dgacleopatra",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recit. Cleopatra: Voi, che mie fide ancelle",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DGAcleopatra/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-14.mid",
+      "score_midi": "items/handel-giulio-dgacleopatra/score.mid",
+      "score_midi_sha256": "93ac8a5c2fd835ec6e72f34e86ccae294049497a81cd4b9b55cc7393df871ee2",
+      "vocal_midi": "items/handel-giulio-dgacleopatra/vocal.mid",
+      "vocal_tracks_zero_based": [
+        5
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DGAcleopatra/cleopatra-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-dgacleopatra/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 562
+    },
+    {
+      "id": "handel-giulio-dgbrecit",
+      "work_id": "handel-hwv17-dgbrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DGBrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-15.mid",
+      "score_midi": "items/handel-giulio-dgbrecit/score.mid",
+      "score_midi_sha256": "26ae872a9a743577353d6a662395f631cb668ef38656a7219cb47ff069e22fa1",
+      "vocal_midi": "items/handel-giulio-dgbrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DGBrecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-dgbrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 228
+    },
+    {
+      "id": "handel-giulio-dgccleopatra",
+      "work_id": "handel-hwv17-dgccleopatra",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Cleopatra: Da tempeste il legno infranto",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DGCcleopatra/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-16.mid",
+      "score_midi": "items/handel-giulio-dgccleopatra/score.mid",
+      "score_midi_sha256": "298cd55c8eab338806312404b655e977e46b975d2fe06078b72d3a5b13a3f03c",
+      "vocal_midi": "items/handel-giulio-dgccleopatra/vocal.mid",
+      "vocal_tracks_zero_based": [
+        2
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes. Cas relu: doublure, liaison ou portée créée tardivement; sélection explicitement fixée.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DGCcleopatra/cleopatra-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-dgccleopatra/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1710
+    },
+    {
+      "id": "handel-giulio-dharecit",
+      "work_id": "handel-hwv17-dharecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DHArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-17.mid",
+      "score_midi": "items/handel-giulio-dharecit/score.mid",
+      "score_midi_sha256": "bc195a9a76cabc6913d3199b46b14fa77bbcec55eed7b1139176bb455a2f7244",
+      "vocal_midi": "items/handel-giulio-dharecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DHArecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-dharecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 151
+    },
+    {
+      "id": "handel-giulio-diarecit",
+      "work_id": "handel-hwv17-diarecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DIArecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-18.mid",
+      "score_midi": "items/handel-giulio-diarecit/score.mid",
+      "score_midi_sha256": "a0c224d6841c559b245e92c5eea9731758d0eaca291b1306fa9fe2407c8a517f",
+      "vocal_midi": "items/handel-giulio-diarecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DIArecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-diarecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 156
+    },
+    {
+      "id": "handel-giulio-dibcornelia",
+      "work_id": "handel-hwv17-dibcornelia",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Aria. Cornelia: Non ha più che temere",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DIBcornelia/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-19.mid",
+      "score_midi": "items/handel-giulio-dibcornelia/score.mid",
+      "score_midi_sha256": "7dcc5a61fc9f8c4c8ab568e4979246f1bfbbd7848daa1e4c7aa29c27065d4b18",
+      "vocal_midi": "items/handel-giulio-dibcornelia/vocal.mid",
+      "vocal_tracks_zero_based": [
+        2
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DIBcornelia/cornelia-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-dibcornelia/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 857
+    },
+    {
+      "id": "handel-giulio-djbrecit",
+      "work_id": "handel-hwv17-djbrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recitativo",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DJBrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-21.mid",
+      "score_midi": "items/handel-giulio-djbrecit/score.mid",
+      "score_midi_sha256": "99ae842f410dcf58ccdb4c044d58c00c5e07a61d9adece191b4e297b87afb750",
+      "vocal_midi": "items/handel-giulio-djbrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DJBrecit/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-djbrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 349
+    },
+    {
+      "id": "handel-giulio-djccleopatracesare",
+      "work_id": "handel-hwv17-djccleopatracesare",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Duetto. Cleopatra e Cesare: Caro/Bella, più amabile beltà",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DJCcleopatraCesare/score.ily",
+      "kind": "aria_or_ensemble",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-22.mid",
+      "score_midi": "items/handel-giulio-djccleopatracesare/score.mid",
+      "score_midi_sha256": "52eb6d014a654b2e111c9f8f463d7b13bbf8da6a2b98f1eb1a2ba8406a6eb472",
+      "vocal_midi": "items/handel-giulio-djccleopatracesare/vocal.mid",
+      "vocal_tracks_zero_based": [
+        3,
+        4
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DJCcleopatraCesare/cleopatra-lyrics.ily",
+          "sources/mutopia-119/full-source/giulio-cesare/DJCcleopatraCesare/cesare-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-djccleopatracesare/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1235
+    },
+    {
+      "id": "handel-giulio-djdrecit",
+      "work_id": "handel-hwv17-djdrecit",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Recit.",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DJDrecit/score.ily",
+      "kind": "recitative",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-23.mid",
+      "score_midi": "items/handel-giulio-djdrecit/score.mid",
+      "score_midi_sha256": "4af341b1b64f1cc368c4fbd5ae754a9bd448ed1a39c07ba7fe9a3301ad9a82d2",
+      "vocal_midi": "items/handel-giulio-djdrecit/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DJDrecit/cesare-lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-djdrecit/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 50
+    },
+    {
+      "id": "handel-giulio-djecoro",
+      "work_id": "handel-hwv17-djecoro",
+      "source_id": "mutopia-119",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Giulio Cesare in Egitto",
+      "title": "Coro. Ritorni omai nel nostro core",
+      "language": [
+        "it"
+      ],
+      "score_source": "sources/mutopia-119/full-source/giulio-cesare/DJEcoro/score.ily",
+      "kind": "chorus",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-119/unpacked/act3-24.mid",
+      "score_midi": "items/handel-giulio-djecoro/score.mid",
+      "score_midi_sha256": "cdaae436068e0bbb6f2fdf9e73d70c04b5b3efcc577ced5f55e059362d3a57d5",
+      "vocal_midi": "items/handel-giulio-djecoro/vocal.mid",
+      "vocal_tracks_zero_based": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "vocal_mapping_evidence": "Repérage dans la partition source et concordance du début des hauteurs; numérotation MIDI par ordre des scores possédant un bloc MIDI. Ce contrôle partiel ne valide pas toutes les notes. Cas relu: doublure, liaison ou portée créée tardivement; sélection explicitement fixée.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-119/full-source/giulio-cesare/DJEcoro/soprano1-lyrics.ily",
+          "sources/mutopia-119/full-source/giulio-cesare/DJEcoro/soprano2-lyrics.ily",
+          "sources/mutopia-119/full-source/giulio-cesare/DJEcoro/lyrics.ily",
+          "sources/mutopia-119/full-source/giulio-cesare/DJEcoro/lyrics.ily"
+        ],
+        "syllabic_copy": "items/handel-giulio-djecoro/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 3068
+    },
+    {
+      "id": "mutopia-1308-main",
+      "work_id": "mutopia-1308",
+      "source_id": "mutopia-1308",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Rinaldo",
+      "title": "Cara sposa, amanta cara",
+      "segment": "main",
+      "language": [
+        "it"
+      ],
+      "kind": "aria",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-1308/CaraSposa.mid",
+      "score_midi": "items/mutopia-1308-main/score.mid",
+      "score_midi_sha256": "a81dd450c29117cffdb5284a3f72c176cdf92bbb3afa47795a203174d9bf9fa3",
+      "vocal_midi": "items/mutopia-1308-main/vocal.mid",
+      "vocal_tracks_zero_based": [
+        6
+      ],
+      "vocal_mapping_evidence": "Nom de piste vocale lorsqu’il existe; sinon affectation explicite par la partie vocale dans le LilyPond. Comparaison exhaustive et audition encore à faire.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-1308/CaraSposa.ly"
+        ],
+        "syllabic_copy": "items/mutopia-1308-main/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1585
+    },
+    {
+      "id": "mutopia-1319-main",
+      "work_id": "mutopia-1319",
+      "source_id": "mutopia-1319",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Rinaldo",
+      "title": "Solo dal brando",
+      "segment": "main",
+      "language": [
+        "it"
+      ],
+      "kind": "aria",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-1319/SoloDalBrando.mid",
+      "score_midi": "items/mutopia-1319-main/score.mid",
+      "score_midi_sha256": "14b1ed028b7fa4336b9aa56d7e00c38f26a5fac1f3c43b97aaa841036beafdbd",
+      "vocal_midi": "items/mutopia-1319-main/vocal.mid",
+      "vocal_tracks_zero_based": [
+        4
+      ],
+      "vocal_mapping_evidence": "Nom de piste vocale lorsqu’il existe; sinon affectation explicite par la partie vocale dans le LilyPond. Comparaison exhaustive et audition encore à faire.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-1319/SoloDalBrando.ly"
+        ],
+        "syllabic_copy": "items/mutopia-1319-main/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 530
+    },
+    {
+      "id": "mutopia-1617-main",
+      "work_id": "mutopia-1617",
+      "source_id": "mutopia-1617",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Rinaldo",
+      "title": "Sulla ruota di fortuna",
+      "segment": "main",
+      "language": [
+        "it"
+      ],
+      "kind": "aria",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-1617/SullaRuotaDiFortuna.mid",
+      "score_midi": "items/mutopia-1617-main/score.mid",
+      "score_midi_sha256": "50981f6ace4ae5b9a37010027e3748adb09c3aa9990d3c94cbd2820096a4cde5",
+      "vocal_midi": "items/mutopia-1617-main/vocal.mid",
+      "vocal_tracks_zero_based": [
+        3
+      ],
+      "vocal_mapping_evidence": "Nom de piste vocale lorsqu’il existe; sinon affectation explicite par la partie vocale dans le LilyPond. Comparaison exhaustive et audition encore à faire.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-1617/SullaRuotaDiFortuna.ly"
+        ],
+        "syllabic_copy": "items/mutopia-1617-main/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 491
+    },
+    {
+      "id": "mutopia-1312-main",
+      "work_id": "mutopia-1312",
+      "source_id": "mutopia-1312",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Rodelinda",
+      "title": "Io già t’amai",
+      "segment": "main",
+      "language": [
+        "it"
+      ],
+      "kind": "aria",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-1312/IoGiaTAmai.mid",
+      "score_midi": "items/mutopia-1312-main/score.mid",
+      "score_midi_sha256": "02347990d6784a333df6127a55a3a1ac2c0bc0e0d70a37aa674bc1ee9606239b",
+      "vocal_midi": "items/mutopia-1312-main/vocal.mid",
+      "vocal_tracks_zero_based": [
+        5
+      ],
+      "vocal_mapping_evidence": "Nom de piste vocale lorsqu’il existe; sinon affectation explicite par la partie vocale dans le LilyPond. Comparaison exhaustive et audition encore à faire.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-1312/IoGiaTAmai.ly"
+        ],
+        "syllabic_copy": "items/mutopia-1312-main/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 994
+    },
+    {
+      "id": "mutopia-2242-main",
+      "work_id": "mutopia-2242",
+      "source_id": "mutopia-2242",
+      "composer": "Georg Friedrich Händel",
+      "opera": "Serse",
+      "title": "Signor, Signor, lasciate far a me",
+      "segment": "main",
+      "language": [
+        "it"
+      ],
+      "kind": "aria",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-2242/SignorSignorLasciateFarAMe.mid",
+      "score_midi": "items/mutopia-2242-main/score.mid",
+      "score_midi_sha256": "1aa53696a967e387bb45e84ebbc0d90672792666c9e137a8e2466080a0c17a49",
+      "vocal_midi": "items/mutopia-2242-main/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Nom de piste vocale lorsqu’il existe; sinon affectation explicite par la partie vocale dans le LilyPond. Comparaison exhaustive et audition encore à faire.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-2242/SignorSignorLasciateFarAMe.ly"
+        ],
+        "syllabic_copy": "items/mutopia-2242-main/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 333
+    },
+    {
+      "id": "mutopia-960-main",
+      "work_id": "mutopia-960",
+      "source_id": "mutopia-960",
+      "composer": "Johann Adolph Hasse",
+      "opera": "Artaserse",
+      "title": "Se del fiume",
+      "segment": "main",
+      "language": [
+        "it"
+      ],
+      "kind": "aria",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-960/SeDelFiume.mid",
+      "score_midi": "items/mutopia-960-main/score.mid",
+      "score_midi_sha256": "ac9d86e84d3d5b6bfed958074bf227e842781cd3187d168521218c42a0c42226",
+      "vocal_midi": "items/mutopia-960-main/vocal.mid",
+      "vocal_tracks_zero_based": [
+        6
+      ],
+      "vocal_mapping_evidence": "Nom de piste vocale lorsqu’il existe; sinon affectation explicite par la partie vocale dans le LilyPond. Comparaison exhaustive et audition encore à faire.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-960/SeDelFiume.ly"
+        ],
+        "syllabic_copy": "items/mutopia-960-main/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 2451
+    },
+    {
+      "id": "mutopia-915-main",
+      "work_id": "mutopia-915",
+      "source_id": "mutopia-915",
+      "composer": "Saverio Mercadante",
+      "opera": "Andronico",
+      "title": "Nel seggio placido",
+      "segment": "main",
+      "language": [
+        "it"
+      ],
+      "kind": "duet",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-915/NelSeggioPlacido.mid",
+      "score_midi": "items/mutopia-915-main/score.mid",
+      "score_midi_sha256": "931626deb1dca72717525c3996984729954fb54b6786a173356b46d2cf07565a",
+      "vocal_midi": "items/mutopia-915-main/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1,
+        3
+      ],
+      "vocal_mapping_evidence": "Nom de piste vocale lorsqu’il existe; sinon affectation explicite par la partie vocale dans le LilyPond. Comparaison exhaustive et audition encore à faire.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-915/NelSeggioPlacido.ly"
+        ],
+        "syllabic_copy": "items/mutopia-915-main/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1093
+    },
+    {
+      "id": "mutopia-2246-main",
+      "work_id": "mutopia-2246",
+      "source_id": "mutopia-2246",
+      "composer": "Claudio Monteverdi",
+      "opera": "L’Orfeo",
+      "title": "O tu ch’innanzi morte",
+      "segment": "main",
+      "language": [
+        "it"
+      ],
+      "kind": "aria",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-2246/OTuChInnanziMorte.mid",
+      "score_midi": "items/mutopia-2246-main/score.mid",
+      "score_midi_sha256": "1e0eb59ff1a02a2c9718f03d3f7fd31bf50117d9ee651133674a4d2cb1836949",
+      "vocal_midi": "items/mutopia-2246-main/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Nom de piste vocale lorsqu’il existe; sinon affectation explicite par la partie vocale dans le LilyPond. Comparaison exhaustive et audition encore à faire.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-2246/OTuChInnanziMorte.ly"
+        ],
+        "syllabic_copy": "items/mutopia-2246-main/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 175
+    },
+    {
+      "id": "mutopia-2244-main",
+      "work_id": "mutopia-2244",
+      "source_id": "mutopia-2244",
+      "composer": "Wolfgang Amadeus Mozart",
+      "opera": "Don Giovanni",
+      "title": "Notte e giorno",
+      "segment": "main",
+      "language": [
+        "it",
+        "en"
+      ],
+      "kind": "aria",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-2244/NotteEGiorno.mid",
+      "score_midi": "items/mutopia-2244-main/score.mid",
+      "score_midi_sha256": "84116952f7eb524947e1d960bcd6673b85e492c4674ab38bbee0ae8471ea66f0",
+      "vocal_midi": "items/mutopia-2244-main/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Nom de piste vocale lorsqu’il existe; sinon affectation explicite par la partie vocale dans le LilyPond. Comparaison exhaustive et audition encore à faire.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-2244/NotteEGiorno.ly"
+        ],
+        "syllabic_copy": "items/mutopia-2244-main/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1052
+    },
+    {
+      "id": "mutopia-189-main",
+      "work_id": "mutopia-189",
+      "source_id": "mutopia-189",
+      "composer": "Wolfgang Amadeus Mozart",
+      "opera": "Don Giovanni",
+      "title": "Deh vieni alla finestra",
+      "segment": "main",
+      "language": [
+        "it"
+      ],
+      "kind": "aria",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-189/unpacked/score.mid",
+      "score_midi": "items/mutopia-189-main/score.mid",
+      "score_midi_sha256": "771ba19ac2eec48242c1825c46be6171fc4a2fd1524deb0dd2dbdd43b4a55092",
+      "vocal_midi": "items/mutopia-189-main/vocal.mid",
+      "vocal_tracks_zero_based": [
+        2
+      ],
+      "vocal_mapping_evidence": "Nom de piste vocale lorsqu’il existe; sinon affectation explicite par la partie vocale dans le LilyPond. Comparaison exhaustive et audition encore à faire.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-189/unpacked/canzonetta-lys/notes.ly"
+        ],
+        "syllabic_copy": "items/mutopia-189-main/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1323
+    },
+    {
+      "id": "mutopia-2227-main",
+      "work_id": "mutopia-2227",
+      "source_id": "mutopia-2227",
+      "composer": "Ludwig van Beethoven",
+      "opera": "Fidelio",
+      "title": "Hat man nicht auch Gold beineben",
+      "segment": "main",
+      "language": [
+        "de"
+      ],
+      "kind": "aria",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-2227/aria-rocco.mid",
+      "score_midi": "items/mutopia-2227-main/score.mid",
+      "score_midi_sha256": "334c663a0dce0e5df76a262445208f9ffe60a559ee99e179cb0b059b8409ef6a",
+      "vocal_midi": "items/mutopia-2227-main/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Nom de piste vocale lorsqu’il existe; sinon affectation explicite par la partie vocale dans le LilyPond. Comparaison exhaustive et audition encore à faire.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-2227/aria-rocco.ly"
+        ],
+        "syllabic_copy": "items/mutopia-2227-main/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1896
+    },
+    {
+      "id": "mutopia-249-MF4-ArieScore-1",
+      "work_id": "mutopia-249",
+      "source_id": "mutopia-249",
+      "composer": "Wolfgang Amadeus Mozart",
+      "opera": "Die Zauberflöte",
+      "title": "No. 4 — O zittre nicht",
+      "segment": "MF4-ArieScore-1",
+      "language": [
+        "de"
+      ],
+      "kind": "aria",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-249/unpacked/MF4-ArieScore-1.mid",
+      "score_midi": "items/mutopia-249-MF4-ArieScore-1/score.mid",
+      "score_midi_sha256": "67c4d8cb7350a40edb8d736940c1b6afcc081eb413f8a084b1b2f20c919f2c24",
+      "vocal_midi": "items/mutopia-249-MF4-ArieScore-1/vocal.mid",
+      "vocal_tracks_zero_based": [
+        8
+      ],
+      "vocal_mapping_evidence": "Nom de piste vocale lorsqu’il existe; sinon affectation explicite par la partie vocale dans le LilyPond. Comparaison exhaustive et audition encore à faire.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-249/unpacked/magicflute-04-aria-lys/MF4-Allegromaestoso.ly",
+          "sources/mutopia-249/unpacked/magicflute-04-aria-lys/MF4-Allegromoderato.ly",
+          "sources/mutopia-249/unpacked/magicflute-04-aria-lys/MF4-Arielarghetto.ly"
+        ],
+        "syllabic_copy": "items/mutopia-249-MF4-ArieScore-1/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 897
+    },
+    {
+      "id": "mutopia-249-MF4-ArieScore-2",
+      "work_id": "mutopia-249",
+      "source_id": "mutopia-249",
+      "composer": "Wolfgang Amadeus Mozart",
+      "opera": "Die Zauberflöte",
+      "title": "No. 4 — O zittre nicht",
+      "segment": "MF4-ArieScore-2",
+      "language": [
+        "de"
+      ],
+      "kind": "aria",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-249/unpacked/MF4-ArieScore-2.mid",
+      "score_midi": "items/mutopia-249-MF4-ArieScore-2/score.mid",
+      "score_midi_sha256": "b2224f42fa0bd00c1ac2aafe0a9823ad8883d1c1b36e5797f6446b74b41657c1",
+      "vocal_midi": "items/mutopia-249-MF4-ArieScore-2/vocal.mid",
+      "vocal_tracks_zero_based": [
+        8
+      ],
+      "vocal_mapping_evidence": "Nom de piste vocale lorsqu’il existe; sinon affectation explicite par la partie vocale dans le LilyPond. Comparaison exhaustive et audition encore à faire.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-249/unpacked/magicflute-04-aria-lys/MF4-Allegromaestoso.ly",
+          "sources/mutopia-249/unpacked/magicflute-04-aria-lys/MF4-Allegromoderato.ly",
+          "sources/mutopia-249/unpacked/magicflute-04-aria-lys/MF4-Arielarghetto.ly"
+        ],
+        "syllabic_copy": "items/mutopia-249-MF4-ArieScore-2/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1974
+    },
+    {
+      "id": "mutopia-249-MF4-ArieScore",
+      "work_id": "mutopia-249",
+      "source_id": "mutopia-249",
+      "composer": "Wolfgang Amadeus Mozart",
+      "opera": "Die Zauberflöte",
+      "title": "No. 4 — O zittre nicht",
+      "segment": "MF4-ArieScore",
+      "language": [
+        "de"
+      ],
+      "kind": "aria",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-249/unpacked/MF4-ArieScore.mid",
+      "score_midi": "items/mutopia-249-MF4-ArieScore/score.mid",
+      "score_midi_sha256": "b0dc1aded8362b3cf9394b2c956f52e26b5a9e840c2567698dce1b103b70d419",
+      "vocal_midi": "items/mutopia-249-MF4-ArieScore/vocal.mid",
+      "vocal_tracks_zero_based": [
+        8
+      ],
+      "vocal_mapping_evidence": "Nom de piste vocale lorsqu’il existe; sinon affectation explicite par la partie vocale dans le LilyPond. Comparaison exhaustive et audition encore à faire.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-249/unpacked/magicflute-04-aria-lys/MF4-Allegromaestoso.ly",
+          "sources/mutopia-249/unpacked/magicflute-04-aria-lys/MF4-Allegromoderato.ly",
+          "sources/mutopia-249/unpacked/magicflute-04-aria-lys/MF4-Arielarghetto.ly"
+        ],
+        "syllabic_copy": "items/mutopia-249-MF4-ArieScore/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 618
+    },
+    {
+      "id": "mutopia-259-main",
+      "work_id": "mutopia-259",
+      "source_id": "mutopia-259",
+      "composer": "Wolfgang Amadeus Mozart",
+      "opera": "Die Zauberflöte",
+      "title": "No. 7 — Bei Männern, welche Liebe fühlen",
+      "segment": "main",
+      "language": [
+        "de"
+      ],
+      "kind": "duet",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-259/unpacked/MF7-DuettScore.mid",
+      "score_midi": "items/mutopia-259-main/score.mid",
+      "score_midi_sha256": "6aa18f27f8f1ea957fcdc22e67ec453d12386c0a9454ea98e2cbdce9503bb483",
+      "vocal_midi": "items/mutopia-259-main/vocal.mid",
+      "vocal_tracks_zero_based": [
+        7,
+        8
+      ],
+      "vocal_mapping_evidence": "Nom de piste vocale lorsqu’il existe; sinon affectation explicite par la partie vocale dans le LilyPond. Comparaison exhaustive et audition encore à faire.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-259/unpacked/magicflute-07-duet-lys/MF7-Duett.ly"
+        ],
+        "syllabic_copy": "items/mutopia-259-main/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1387
+    },
+    {
+      "id": "mutopia-251-main",
+      "work_id": "mutopia-251",
+      "source_id": "mutopia-251",
+      "composer": "Wolfgang Amadeus Mozart",
+      "opera": "Die Zauberflöte",
+      "title": "No. 13 — Alles fühlt der Liebe Freuden",
+      "segment": "main",
+      "language": [
+        "de"
+      ],
+      "kind": "aria",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-251/unpacked/MF13-ArieScore.mid",
+      "score_midi": "items/mutopia-251-main/score.mid",
+      "score_midi_sha256": "c994a3c411ffc0519e9a946e2327fe4acf3b84994cbaa30d337aabbe2c61c739",
+      "vocal_midi": "items/mutopia-251-main/vocal.mid",
+      "vocal_tracks_zero_based": [
+        10
+      ],
+      "vocal_mapping_evidence": "Nom de piste vocale lorsqu’il existe; sinon affectation explicite par la partie vocale dans le LilyPond. Comparaison exhaustive et audition encore à faire.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-251/unpacked/magicflute-13-aria-lys/MF13-Arie.ly"
+        ],
+        "syllabic_copy": "items/mutopia-251-main/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 2187
+    },
+    {
+      "id": "mutopia-266-main",
+      "work_id": "mutopia-266",
+      "source_id": "mutopia-266",
+      "composer": "Wolfgang Amadeus Mozart",
+      "opera": "Die Zauberflöte",
+      "title": "No. 14 — Der Hölle Rache",
+      "segment": "main",
+      "language": [
+        "de"
+      ],
+      "kind": "aria",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-266/unpacked/MF14-ArieScore.mid",
+      "score_midi": "items/mutopia-266-main/score.mid",
+      "score_midi_sha256": "f37a581f42f6c378bfe396e0acaab9a190074bac072b2747f4fd2fe4384ddb67",
+      "vocal_midi": "items/mutopia-266-main/vocal.mid",
+      "vocal_tracks_zero_based": [
+        9
+      ],
+      "vocal_mapping_evidence": "Nom de piste vocale lorsqu’il existe; sinon affectation explicite par la partie vocale dans le LilyPond. Comparaison exhaustive et audition encore à faire.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-266/unpacked/magicflute-14-aria-lys/MF14-Arie.ly"
+        ],
+        "syllabic_copy": "items/mutopia-266-main/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 4048
+    },
+    {
+      "id": "mutopia-2234-main",
+      "work_id": "mutopia-253",
+      "source_id": "mutopia-2234",
+      "composer": "Wolfgang Amadeus Mozart",
+      "opera": "Die Zauberflöte",
+      "title": "No. 15 — In diesen heil’gen Hallen (piano)",
+      "segment": "main",
+      "language": [
+        "de"
+      ],
+      "kind": "aria",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-2234/magicflute-15-aria-piano.mid",
+      "score_midi": "items/mutopia-2234-main/score.mid",
+      "score_midi_sha256": "36f5b52c999f1df8556a44cb5d5d220c868bbe0fc4a90eb40912e0d2b6a0e837",
+      "vocal_midi": "items/mutopia-2234-main/vocal.mid",
+      "vocal_tracks_zero_based": [
+        1
+      ],
+      "vocal_mapping_evidence": "Nom de piste vocale lorsqu’il existe; sinon affectation explicite par la partie vocale dans le LilyPond. Comparaison exhaustive et audition encore à faire.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-2234/magicflute-15-aria-piano.ly"
+        ],
+        "syllabic_copy": "items/mutopia-2234-main/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1382
+    },
+    {
+      "id": "mutopia-253-main",
+      "work_id": "mutopia-253",
+      "source_id": "mutopia-253",
+      "composer": "Wolfgang Amadeus Mozart",
+      "opera": "Die Zauberflöte",
+      "title": "No. 15 — In diesen heil’gen Hallen (orchestre)",
+      "segment": "main",
+      "language": [
+        "de"
+      ],
+      "kind": "aria",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-253/unpacked/magicflute-15-aria.mid",
+      "score_midi": "items/mutopia-253-main/score.mid",
+      "score_midi_sha256": "a29347699a63fa0cd0f674cad01e30e81c22ef4b3a6885a496b54bae512e69b0",
+      "vocal_midi": "items/mutopia-253-main/vocal.mid",
+      "vocal_tracks_zero_based": [
+        9
+      ],
+      "vocal_mapping_evidence": "Nom de piste vocale lorsqu’il existe; sinon affectation explicite par la partie vocale dans le LilyPond. Comparaison exhaustive et audition encore à faire.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-253/unpacked/magicflute-15-aria-lys/parts/MF15-Arie.ily"
+        ],
+        "syllabic_copy": "items/mutopia-253-main/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 700
+    },
+    {
+      "id": "mutopia-252-main",
+      "work_id": "mutopia-252",
+      "source_id": "mutopia-252",
+      "composer": "Wolfgang Amadeus Mozart",
+      "opera": "Die Zauberflöte",
+      "title": "No. 17 — Ach, ich fühl’s",
+      "segment": "main",
+      "language": [
+        "de"
+      ],
+      "kind": "aria",
+      "vocal_scope": "score_vocal_staff_or_staves",
+      "source_midi": "sources/mutopia-252/unpacked/MF17-ArieScore.mid",
+      "score_midi": "items/mutopia-252-main/score.mid",
+      "score_midi_sha256": "c48b74f8fd26c1edfa77a38c83ccdd15a7716813daf3d33eb6faea8ad497a854",
+      "vocal_midi": "items/mutopia-252-main/vocal.mid",
+      "vocal_tracks_zero_based": [
+        9
+      ],
+      "vocal_mapping_evidence": "Nom de piste vocale lorsqu’il existe; sinon affectation explicite par la partie vocale dans le LilyPond. Comparaison exhaustive et audition encore à faire.",
+      "lyrics": {
+        "status": "available_in_score_source",
+        "source_files": [
+          "sources/mutopia-252/unpacked/magicflute-17-aria-lys/MF17-Arie.ly"
+        ],
+        "syllabic_copy": "items/mutopia-252-main/lyrics-source.ly",
+        "note_alignment": "not_exported",
+        "text_completeness": "not_independently_audited"
+      },
+      "quality": {
+        "audition": "not_done",
+        "full_note_comparison": "not_done"
+      },
+      "midi_notes": 1123
+    }
+  ]
+}

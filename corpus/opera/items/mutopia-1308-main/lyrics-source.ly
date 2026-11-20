@@ -1,0 +1,7 @@
+% Source: sources/mutopia-1308/CaraSposa.ly
+\lyricmode {
+Ca -- ra spo -- sa, a -- man -- te ca -- ra, do -- ve se -- i? do -- ve se -- i? deh! ri -- tor -- na a pian -- ti mie -- i! ca -- ra spo -- sa, a -- man -- te ca -- ra, do -- ve sei? ri -- tor -- na, ri -- tor -- na a pian -- ti mie -- i! ca -- ra spo -- sa, deh! ri -- tor -- na, deh! ri -- tor -- na_a pian -- ti mie -- i! ca -- ra spo -- sa, spo -- sa ca -- ra, do -- ve se -- i? deh! ri -- tor -- na, do -- ve sei, do -- ve sei? deh! ri -- tor -- na a pian -- ti miei, ri -- tor -- na_a pian -- ti mie -- i, deh! ri -- tor -- na, deh! ri -- tor -- na_a pian -- ti mie -- i!
+Del vo -- stro_e -- re -- bo sull' a -- ra, col -- la fa -- ce del mio sde -- gno io vi sfi -- do, col -- la fa -- ce del mio sde -- gno io vi sfi -- do, oh spir -- ti re -- i! col -- la fa -- ce del mio sde -- gno, del vo -- stro_E -- re -- bo sull' a -- ra, io vi sfi -- do, io vi sfi -- do, oh spir -- ti re -- i, oh spir -- ti re -- i!
+}
+
+\lyricmode  { \lyricsto "melodySop" \verse }
