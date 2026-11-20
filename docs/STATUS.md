@@ -1,6 +1,6 @@
 # AnaMu — état opérationnel de référence (18 novembre 2026)
 
-**Corpus parallèle autorisé — 19 novembre 2026 :** constituer une grande collection d’opéras avec MIDI, partie vocale identifiable et paroles disponibles. [Entrée du corpus](../corpus/opera/README.md). Premier lot : **106 couples MIDI–paroles, 103 passages distincts, 10 opéras, 6 compositeurs**; source syllabique conservée et MIDI vocal extrait. Alignement note–syllabe non exporté, audition et comparaison exhaustive non réalisées; une extraction de Cesare reste partielle pour les voix du chœur. Cette acquisition d’œuvres existantes est indépendante du travail sur les cours; elle n’autorise ni moteur d’analyse/composition, ni tests ou CI.
+**Corpus parallèle — extension du 19 novembre 2026 :** [439 couples MIDI–paroles, 30 opéras, 11 compositeurs](../corpus/opera/README.md), depuis 46 éditions. **333 entrées ajoutées**, 437 exports de paroles horodatées et 99 233 événements syllabiques; six mauvaises extractions vocales du premier lot corrigées. Les horodatages proviennent des sources, sans alignement indépendamment validé ni audition nouvelle. Compter des fichiers, pas des airs distincts : le dédoublonnage entre éditions reste partiel. Ce chantier d’acquisition reste indépendant des cours et n’active aucun moteur, test ou CI.
 
 ## Harmonie : fonctions et continuations — 18 novembre 2026
 

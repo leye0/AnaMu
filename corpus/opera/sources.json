@@ -462,6 +462,681 @@
       "maintainer": "Deborah Lowrey drlowrey (at) karmaresources.com http://www.karmaresources.com/",
       "edition": "J. L. Peters 1875, C. F. Peters 18??, Lee & Walker 1870, North & Co. 1879",
       "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+    },
+    {
+      "id": "mutopia-1651",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1651",
+      "source_page": "sources/mutopia-1651/source-page.html",
+      "title": "David et Jonathas, by M.-A. Charpentier (1643–1704)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/CharpentierMA/H490/DavidEtJonathas/DavidEtJonathas-lys.zip",
+          "path": "sources/mutopia-1651/DavidEtJonathas-lys.zip",
+          "sha256": "d6e45030bd74f3fe47042f0f939711479aa7ce44f66ee11af3baf590052aa66c",
+          "bytes": 477685
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/CharpentierMA/H490/DavidEtJonathas/DavidEtJonathas-mids.zip",
+          "path": "sources/mutopia-1651/DavidEtJonathas-mids.zip",
+          "sha256": "12f6fc75f2386fc67251f9467ad249a3f5921271a3ce1c3aaf6bfdd18e174c04",
+          "bytes": 132231
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution 3.0",
+      "maintainer": "Nicolas Sceaux nicolas.sceaux (at) free.fr http://nicolas.sceaux.free.fr",
+      "edition": "Collection Philidor Laisnée, 1690",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "id": "mutopia-809",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=809",
+      "source_page": "sources/mutopia-809/source-page.html",
+      "title": "Psyché, by J. B. Lully (1632–1687)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/LullyJB/LWV56/lwv56/lwv56-lys.zip",
+          "path": "sources/mutopia-809/lwv56-lys.zip",
+          "sha256": "a158bdec461d3da4e816d9c26c46684d9aa0c7abb050d2f2440a7c337b3d6a02",
+          "bytes": 408362
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/LullyJB/LWV56/lwv56/lwv56-mids.zip",
+          "path": "sources/mutopia-809/lwv56-mids.zip",
+          "sha256": "c16e531ef70204ec9d8f07724f5074df2f683d2195a89aab4c2da6bb390c4dcb",
+          "bytes": 142535
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution 3.0",
+      "maintainer": "Nicolas Sceaux nicolas.sceaux (at) free.fr http://nicolas.sceaux.free.fr",
+      "edition": "Collection Philidor Laisnée, 1690-1702",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "id": "mutopia-1652",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1652",
+      "source_page": "sources/mutopia-1652/source-page.html",
+      "title": "Phaéton, by J. B. Lully (1632–1687)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/LullyJB/LWV61/LWV61Phaeton/LWV61Phaeton-lys.zip",
+          "path": "sources/mutopia-1652/LWV61Phaeton-lys.zip",
+          "sha256": "464f79e6e64e0b64e007422c2e14ca1e4802538a69877d6a7b1f57d67b34d622",
+          "bytes": 520033
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/LullyJB/LWV61/LWV61Phaeton/LWV61Phaeton-mids.zip",
+          "path": "sources/mutopia-1652/LWV61Phaeton-mids.zip",
+          "sha256": "cd4f165f9ebacd5afe101bf6e20134a032b76dee5866a338ed557d6fc7cd20f1",
+          "bytes": 174786
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution 3.0",
+      "maintainer": "Nicolas Sceaux nicolas.sceaux (at) free.fr http://nicolas.sceaux.free.fr",
+      "edition": "Paris, Christophe Ballard, 1683",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "id": "mutopia-935",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=935",
+      "source_page": "sources/mutopia-935/source-page.html",
+      "title": "Armide, by J. B. Lully (1632–1687)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/LullyJB/LWV71/lwv71/lwv71-lys.zip",
+          "path": "sources/mutopia-935/lwv71-lys.zip",
+          "sha256": "9ed86c809910eef6bbfa591cc37de164f40458f2fc66a85a9862eac19bda9706",
+          "bytes": 466869
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/LullyJB/LWV71/lwv71/lwv71-mids.zip",
+          "path": "sources/mutopia-935/lwv71-mids.zip",
+          "sha256": "a07b81fa99d20ccfa75034a7b4469233a29d3aa45b43979d1c80c2ae3b4ff559",
+          "bytes": 180242
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution 3.0",
+      "maintainer": "Nicolas Sceaux nicolas.sceaux (at) free.fr http://nicolas.sceaux.free.fr",
+      "edition": "Ballard, Paris, 1686",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "id": "mutopia-1363",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1363",
+      "source_page": "sources/mutopia-1363/source-page.html",
+      "title": "Hippolyte et Aricie, by J. P. Rameau (1683–1764)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/RameauJP/HippolyteEtAricie/HippolyteEtAricie-lys.zip",
+          "path": "sources/mutopia-1363/HippolyteEtAricie-lys.zip",
+          "sha256": "42e855355a750eb0a905fd8b62650753ced3135fa8f07709f5fa9610296d758e",
+          "bytes": 485226
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/RameauJP/HippolyteEtAricie/HippolyteEtAricie-mids.zip",
+          "path": "sources/mutopia-1363/HippolyteEtAricie-mids.zip",
+          "sha256": "d112ae0540d0506030bfc84964cd846425b1b901b639bf1071fcd2c30e7b5992",
+          "bytes": 191162
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution 3.0",
+      "maintainer": "Nicolas Sceaux nicolas.sceaux (at) free.fr http://nicolas.sceaux.free.fr",
+      "edition": "Manuscript, Bibliothèque de Versailles, 17xx",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "id": "mutopia-1035",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1035",
+      "source_page": "sources/mutopia-1035/source-page.html",
+      "title": "Les Fêtes de Ramire, by J. P. Rameau (1683–1764)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/RameauJP/lesFetesDeRamire/lesFetesDeRamire-lys.zip",
+          "path": "sources/mutopia-1035/lesFetesDeRamire-lys.zip",
+          "sha256": "19e5cbed7f8374415483db29e1b9b2df0a6f641af941d7e402f67f2a46980d07",
+          "bytes": 196099
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/RameauJP/lesFetesDeRamire/lesFetesDeRamire-mids.zip",
+          "path": "sources/mutopia-1035/lesFetesDeRamire-mids.zip",
+          "sha256": "e9890896d64c43a8f67a556f0ea66a7c92a7b75a766dffcc04324d05686457e9",
+          "bytes": 67897
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution 3.0",
+      "maintainer": "Nicolas Sceaux nicolas.sceaux (at) free.fr http://nicolas.sceaux.free.fr",
+      "edition": "Manuscrit de 1746, bibliothèque de Versailles",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "id": "mutopia-2243",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2243",
+      "source_page": "sources/mutopia-2243/source-page.html",
+      "title": "What power art thou (King Arthur), by H. Purcell (1658–1695)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/PurcellH/Z628/WhatPowerArtThou/WhatPowerArtThou.ly",
+          "path": "sources/mutopia-2243/WhatPowerArtThou.ly",
+          "sha256": "79ab4ad4c8daaf170432629653cbd8b1d3b840a8ecf5cbf6369b2a700953e8b4",
+          "bytes": 10441
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/PurcellH/Z628/WhatPowerArtThou/WhatPowerArtThou.mid",
+          "path": "sources/mutopia-2243/WhatPowerArtThou.mid",
+          "sha256": "cbcb7f97c501d0e1e7eb4694cd7fe3f132870e187a2374dd0023ffe31f836706",
+          "bytes": 13006
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Public Domain",
+      "maintainer": "Anonymous",
+      "edition": "Dryden's Opera of / King Arthur / The Music Composed by / Henry Purcell / With a Piano Forte Accomp. / Compressed from the Score / By / G. Alex. Macfarren, / Professor of Harmony / at the Royal Academy of Music / London, Printed & Sold by Chappell. / Music Seller to Her Majesty / 50, New Bond Street. (IMSLP82155-PMLP69503)",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+    },
+    {
+      "id": "mutopia-268",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=268",
+      "source_page": "sources/mutopia-268/source-page.html",
+      "title": "Fairest Isle, by H. Purcell (1658–1695)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/PurcellH/FairestIsle/FairestIsle.ly",
+          "path": "sources/mutopia-268/FairestIsle.ly",
+          "sha256": "3d0530f724ef1b34cdf83018218bb604ef4299e510b0f638b9cd2ae3d75d5b5c",
+          "bytes": 5093
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/PurcellH/FairestIsle/FairestIsle.mid",
+          "path": "sources/mutopia-268/FairestIsle.mid",
+          "sha256": "6846ff8e8ecaf7d5b5a3234e3a0261e4bf77935de14298bf8d6ab3f7e481ee39",
+          "bytes": 5233
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Public Domain",
+      "maintainer": "Sebastian Brosig Sebastian.Brosig (at) gmx.net",
+      "edition": "S.W. (ed.) handwritten",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+    },
+    {
+      "id": "mutopia-532",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=532",
+      "source_page": "sources/mutopia-532/source-page.html",
+      "title": "Acte II, Scene III from Armide, by J. B. Lully (1632–1687)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/LullyJB/LWV71/Armide/Armide-lys.zip",
+          "path": "sources/mutopia-532/Armide-lys.zip",
+          "sha256": "8a538487dea57e60205bf38fd8fb3c255b8d60f2a0a2d27acfdc78bedc996256",
+          "bytes": 5958
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/LullyJB/LWV71/Armide/Armide.mid",
+          "path": "sources/mutopia-532/Armide.mid",
+          "sha256": "0e7502655345f798478f5d77086f10c7ff82367f0630cda38bc2a3b661fc385a",
+          "bytes": 17783
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Public Domain",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "Ballard, 1686",
+      "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+    },
+    {
+      "id": "mutopia-958",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=958",
+      "source_page": "sources/mutopia-958/source-page.html",
+      "title": "Al fiero mio sospetto, Aria from Caduta dei Decemviri, by L. Vinci (1690–1730)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/VinciL/AlFieroMioSospetto/AlFieroMioSospetto.ly",
+          "path": "sources/mutopia-958/AlFieroMioSospetto.ly",
+          "sha256": "1abb44c3c5fedb0cf41f4b22a168be050229f1420aa43745b3302d6e2dec36ba",
+          "bytes": 5046
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/VinciL/AlFieroMioSospetto/AlFieroMioSospetto.mid",
+          "path": "sources/mutopia-958/AlFieroMioSospetto.mid",
+          "sha256": "fa38d60d596c98cf4da15fb30d2046208237474396150f33711de7a9a700791a",
+          "bytes": 6098
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "Copy, 1710-1740",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-1180",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1180",
+      "source_page": "sources/mutopia-1180/source-page.html",
+      "title": "Di rabbia, di sdegno, Aria from Semiramide, by L. Vinci (1690–1730)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/VinciL/Di_rabbia_di_sdegno/Di_rabbia_di_sdegno.ly",
+          "path": "sources/mutopia-1180/Di_rabbia_di_sdegno.ly",
+          "sha256": "b7517ae8674014adffd868de76be65974ef5b04106b66f0e5251639b04f0ffd6",
+          "bytes": 5282
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/VinciL/Di_rabbia_di_sdegno/Di_rabbia_di_sdegno.mid",
+          "path": "sources/mutopia-1180/Di_rabbia_di_sdegno.mid",
+          "sha256": "59fc8abd68ca63fcc69295282cb7f0156f7a1572cfdb64c122b6dee9af038ac0",
+          "bytes": 6397
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "Conservatorio S. Pietro a Majella, DM02032202162",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-1179",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1179",
+      "source_page": "sources/mutopia-1179/source-page.html",
+      "title": "Ride il ciel per me sereno, Aria from Siface, by L. Vinci (1690–1730)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/VinciL/Ride_il_ciel/Ride_il_ciel.ly",
+          "path": "sources/mutopia-1179/Ride_il_ciel.ly",
+          "sha256": "a6fd8fa71cb388dcc59ad656c96ab168a63b4238fc9c676fea038952ca24fa8b",
+          "bytes": 15817
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/VinciL/Ride_il_ciel/Ride_il_ciel.mid",
+          "path": "sources/mutopia-1179/Ride_il_ciel.mid",
+          "sha256": "df0efa00b54265d589d492c6176883ec295360d0a991197e1203f741f97ec784",
+          "bytes": 33728
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "Conservatorio S. Pietro a Majella, DM02032202163",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-1176",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1176",
+      "source_page": "sources/mutopia-1176/source-page.html",
+      "title": "Voi che le mie vicende, Aria from Semiramide, by L. Vinci (1690–1730)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/VinciL/Voi_che_le_mie_vicende/Voi_che_le_mie_vicende.ly",
+          "path": "sources/mutopia-1176/Voi_che_le_mie_vicende.ly",
+          "sha256": "628a675a9f6eabe57a5aa0c9b1c351f87fbde2ee38c54b41e820a2177349f514",
+          "bytes": 11322
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/VinciL/Voi_che_le_mie_vicende/Voi_che_le_mie_vicende.mid",
+          "path": "sources/mutopia-1176/Voi_che_le_mie_vicende.mid",
+          "sha256": "b7ba7cfb12a2cc9b86d6db79d14babdb29a6ca5b572e950b6f49cce2b22b185f",
+          "bytes": 22081
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "Conservatorio S. Pietro a Majella, DM02032202162",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-1314",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1314",
+      "source_page": "sources/mutopia-1314/source-page.html",
+      "title": "La vendetta e un cibo , Aria from Silla, by G. F. Handel (1685–1759)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV10/LaVendettaEUnCibo/LaVendettaEUnCibo.ly",
+          "path": "sources/mutopia-1314/LaVendettaEUnCibo.ly",
+          "sha256": "928ec975ab67bcab381548723264783d7000c2ea539948754c233f2dc4871f86",
+          "bytes": 6165
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV10/LaVendettaEUnCibo/LaVendettaEUnCibo.mid",
+          "path": "sources/mutopia-1314/LaVendettaEUnCibo.mid",
+          "sha256": "ca03b499ecf9870f58d9e5e1ee76d1e7df936393af11fcfea3af6e3facbb5860",
+          "bytes": 6557
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "G. F. Händels Werke, für die Deutsche Händegesellschaft herausgegeben von Friedrich Chrysander, Bd.: 61, 1875",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-1306",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1306",
+      "source_page": "sources/mutopia-1306/source-page.html",
+      "title": "Agitato da fiere tempeste , Aria from Riccardo primo, by G. F. Handel (1685–1759)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV19/AgitatoDaFiereTempeste/AgitatoDaFiereTempeste.ly",
+          "path": "sources/mutopia-1306/AgitatoDaFiereTempeste.ly",
+          "sha256": "1f71bef091805843487f47bc38cb3f0aa751c7d8a4465536bdd2d32e9082c4fe",
+          "bytes": 13971
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV19/AgitatoDaFiereTempeste/AgitatoDaFiereTempeste.mid",
+          "path": "sources/mutopia-1306/AgitatoDaFiereTempeste.mid",
+          "sha256": "4ef662857c7e4b93a270d3643d9b51458678d95ddc756e994df1c52413513404",
+          "bytes": 25715
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "G. F. Händels Werke, für die Deutsche Händegesellschaft herausgegeben von Friedrich Chrysander, Bd.: 74, 1877",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-1317",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1317",
+      "source_page": "sources/mutopia-1317/source-page.html",
+      "title": "No! Risolvo abbandonar , Aria from Alessandro, by G. F. Handel (1685–1759)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV21/NoRisolvoAbbandonar/NoRisolvoAbbandonar.ly",
+          "path": "sources/mutopia-1317/NoRisolvoAbbandonar.ly",
+          "sha256": "c715332d3b64a5c6299dc7adc61713c28a65611fff6bd9c36adfbd2c54a1f21d",
+          "bytes": 7656
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV21/NoRisolvoAbbandonar/NoRisolvoAbbandonar.mid",
+          "path": "sources/mutopia-1317/NoRisolvoAbbandonar.mid",
+          "sha256": "ed3e2271d120a818f6442d29ee9324f4df497db3cde9f407f3aadcc53744d88c",
+          "bytes": 11183
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "G. F. Händels Werke, für die Deutsche Händegesellschaft herausgegeben von Friedrich Chrysander, Bd.: 72, 1877",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-1313",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1313",
+      "source_page": "sources/mutopia-1313/source-page.html",
+      "title": "La gloria sola , Aria from Admeto, by G. F. Handel (1685–1759)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV22/LaGloriaSola/LaGloriaSola.ly",
+          "path": "sources/mutopia-1313/LaGloriaSola.ly",
+          "sha256": "c4c2a128c26df270de630db31b0e86a35ada68670f9461df74935fca3e422e40",
+          "bytes": 9326
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV22/LaGloriaSola/LaGloriaSola.mid",
+          "path": "sources/mutopia-1313/LaGloriaSola.mid",
+          "sha256": "b768b4330f14ad044c0cb3ebf8e40cd9c7b5d20dee95449785256d409762ab17",
+          "bytes": 13354
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "G. F. Händels Werke, für die Deutsche Händegesellschaft herausgegeben von Friedrich Chrysander, Bd.: 73, 1877",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-1318",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1318",
+      "source_page": "sources/mutopia-1318/source-page.html",
+      "title": "Non pensi quell'altera , Aria from Lotario, by G. F. Handel (1685–1759)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV26/NonPensiQuellAltera/NonPensiQuellAltera.ly",
+          "path": "sources/mutopia-1318/NonPensiQuellAltera.ly",
+          "sha256": "e77c1454c53d3059d4a7f1379b4efbb36cd143d9dee80b9e78bdaf87c4464ac5",
+          "bytes": 10339
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV26/NonPensiQuellAltera/NonPensiQuellAltera.mid",
+          "path": "sources/mutopia-1318/NonPensiQuellAltera.mid",
+          "sha256": "e03e55121f355dff0dfc9f9e3ed2b200d4243ee3fb95247b41c8ae50f0bb8e44",
+          "bytes": 13145
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "G. F. Händels Werke, für die Deutsche Händegesellschaft herausgegeben von Friedrich Chrysander, Bd.: 77, 1879",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-1311",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1311",
+      "source_page": "sources/mutopia-1311/source-page.html",
+      "title": "Impara, ingrata , Aria from Atalanta, by G. F. Handel (1685–1759)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV35/ImparaIngrata/ImparaIngrata.ly",
+          "path": "sources/mutopia-1311/ImparaIngrata.ly",
+          "sha256": "34eb448dc571a074ba0d4e338e199e3624dfbbec97c48b721c96c9fbc7b90703",
+          "bytes": 7888
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV35/ImparaIngrata/ImparaIngrata.mid",
+          "path": "sources/mutopia-1311/ImparaIngrata.mid",
+          "sha256": "ec2aadf27083bd6623eaaf5fc331c20f8700742111fa84fb02a2a3f93acc22e1",
+          "bytes": 9634
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "G. F. Händels Werke, für die Deutsche Händegesellschaft herausgegeben von Friedrich Chrysander, Bd.: 87, 1882",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-1309",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1309",
+      "source_page": "sources/mutopia-1309/source-page.html",
+      "title": "Corri, vola, a' tuoi trofei , Aria from Giustino, by G. F. Handel (1685–1759)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV37/CorriVolaATuoiTrofei/CorriVolaATuoiTrofei.ly",
+          "path": "sources/mutopia-1309/CorriVolaATuoiTrofei.ly",
+          "sha256": "5ce66e3ebdef8774bc029cfefbb2c83335f3005e17189ee387923aa0cacb48c1",
+          "bytes": 8617
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV37/CorriVolaATuoiTrofei/CorriVolaATuoiTrofei.mid",
+          "path": "sources/mutopia-1309/CorriVolaATuoiTrofei.mid",
+          "sha256": "0e787798f970469691243abadbce2855203b160dd3c9a8f96fb37ee45d661ca3",
+          "bytes": 11680
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "G. F. Händels Werke, für die Deutsche Händegesellschaft herausgegeben von Friedrich Chrysander, Bd.: 88, 1883",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-1391",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1391",
+      "source_page": "sources/mutopia-1391/source-page.html",
+      "title": "Sol la brama di vendetta , Aria from Faramondo, by G. F. Handel (1685–1759)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV39/Sol_la_brama/Sol_la_brama.ly",
+          "path": "sources/mutopia-1391/Sol_la_brama.ly",
+          "sha256": "1c0bb516bddf922d287075dc0f558d63f5c11170f07146eb52be158143f3bae5",
+          "bytes": 9443
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV39/Sol_la_brama/Sol_la_brama.mid",
+          "path": "sources/mutopia-1391/Sol_la_brama.mid",
+          "sha256": "d16c66a364e998bf3466a8b9b8d3677891726cb9a38efb6f0f98cd26f4d069f8",
+          "bytes": 12824
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "G. F. Händels Werke, für die Deutsche Händegesellschaft herausgegeben von Friedrich Chrysander, Bd.: 91, 1884",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-1392",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1392",
+      "source_page": "sources/mutopia-1392/source-page.html",
+      "title": "Vado a recar la morte , Aria from Faramondo, by G. F. Handel (1685–1759)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV39/Vado_a_recar/Vado_a_recar.ly",
+          "path": "sources/mutopia-1392/Vado_a_recar.ly",
+          "sha256": "aa4a72bf8ad9660aa9fb32761ca23cc46cf6de2c2d5f9296e57ea2d60459d3d7",
+          "bytes": 6845
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV39/Vado_a_recar/Vado_a_recar.mid",
+          "path": "sources/mutopia-1392/Vado_a_recar.mid",
+          "sha256": "ce7475ae5d9c71f94c1bac6236a45b53a0edb56b591fea5300593e8b9bc77489",
+          "bytes": 8726
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "G. F. Händels Werke, für die Deutsche Händegesellschaft herausgegeben von Friedrich Chrysander, Bd.: 91, 1884",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-1393",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1393",
+      "source_page": "sources/mutopia-1393/source-page.html",
+      "title": "Voglio che sia l'indegno, Aria from Faramondo, by G. F. Handel (1685–1759)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV39/Voglio_che_sia_l_indegno/Voglio_che_sia_l_indegno.ly",
+          "path": "sources/mutopia-1393/Voglio_che_sia_l_indegno.ly",
+          "sha256": "111a2472380f6e9ab058c92e0b4ed5ff497f29b823bc08523ad980c498e8bf21",
+          "bytes": 15299
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV39/Voglio_che_sia_l_indegno/Voglio_che_sia_l_indegno.mid",
+          "path": "sources/mutopia-1393/Voglio_che_sia_l_indegno.mid",
+          "sha256": "f3931453e826454544155ffa055fe36cc903038bc294a54c887b33585573d83d",
+          "bytes": 24764
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "G. F. Händels Werke, für die Deutsche Händegesellschaft herausgegeben von Friedrich Chrysander, Bd.: 91, 1884",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-1208",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1208",
+      "source_page": "sources/mutopia-1208/source-page.html",
+      "title": "Se potessero i sospir' miei , Aria from Imeneo, by G. F. Handel (1685–1759)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV41/Se_potessero/Se_potessero.ly",
+          "path": "sources/mutopia-1208/Se_potessero.ly",
+          "sha256": "d8a940b43c398e41716efdb943de65596fad21bf49d88bfb1aa4c17df677cff9",
+          "bytes": 9134
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV41/Se_potessero/Se_potessero.mid",
+          "path": "sources/mutopia-1208/Se_potessero.mid",
+          "sha256": "6f022be53aeafc5e675e6af7dc11fe9271568a6f7e60e695419af5011c6b8be7",
+          "bytes": 14000
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "G. F. Händels Werke, für die Deutsche Händegesellschaft herausgegeben von Friedrich Chrysander, Bd.: 93, 1885",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-1307",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1307",
+      "source_page": "sources/mutopia-1307/source-page.html",
+      "title": "Al tardar della vendetta , Aria from Deidamia, by G. F. Handel (1685–1759)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV42/AlTardarDellaVendetta/AlTardarDellaVendetta.ly",
+          "path": "sources/mutopia-1307/AlTardarDellaVendetta.ly",
+          "sha256": "83a19770e726f5e867b9a51051c34be72f658ca604d2d45da0711e083fa7b578",
+          "bytes": 11773
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV42/AlTardarDellaVendetta/AlTardarDellaVendetta.mid",
+          "path": "sources/mutopia-1307/AlTardarDellaVendetta.mid",
+          "sha256": "279085e9103ba6c9daca4ae3456eeef5279fa249731b808fcefdc3625547358d",
+          "bytes": 18443
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "G. F. Händels Werke, für die Deutsche Händegesellschaft herausgegeben von Friedrich Chrysander, Bd.: 94, 1885",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-1206",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1206",
+      "source_page": "sources/mutopia-1206/source-page.html",
+      "title": "Grecia tu offendi , Aria from Deidamia, by G. F. Handel (1685–1759)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV42/Greci_tu_offendi/Greci_tu_offendi.ly",
+          "path": "sources/mutopia-1206/Greci_tu_offendi.ly",
+          "sha256": "6094159b43eabe0fdd96fedf4548b5cf7505146038b31776ac29d2efd0418fb1",
+          "bytes": 8831
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV42/Greci_tu_offendi/Greci_tu_offendi.mid",
+          "path": "sources/mutopia-1206/Greci_tu_offendi.mid",
+          "sha256": "2767e0f35d817155281b962e929f6a9dbf94e2d74268c08b959de50d2d59f969",
+          "bytes": 12572
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "G. F. Händels Werke, für die Deutsche Händegesellschaft herausgegeben von Friedrich Chrysander, Bd.: 94, 1885",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "mutopia-1316",
+      "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1316",
+      "source_page": "sources/mutopia-1316/source-page.html",
+      "title": "Nelle nubi intorno al Fato , Aria from Deidamia, by G. F. Handel (1685–1759)",
+      "downloads": [
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV42/NelleNubiIntornoAlFato/NelleNubiIntornoAlFato.ly",
+          "path": "sources/mutopia-1316/NelleNubiIntornoAlFato.ly",
+          "sha256": "521d5bd4796d3a3db256474209ffb8928c21a61b3d9e80472e4ccffb1283c5b2",
+          "bytes": 10129
+        },
+        {
+          "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV42/NelleNubiIntornoAlFato/NelleNubiIntornoAlFato.mid",
+          "path": "sources/mutopia-1316/NelleNubiIntornoAlFato.mid",
+          "sha256": "42a4bb3045dccf4bd4aa34bb3d9f06e773c05ac75ea557355aa8ed4a391b28a0",
+          "bytes": 12156
+        }
+      ],
+      "retrieved_on": "2026-11-19",
+      "license": "Creative Commons Attribution-ShareAlike 3.0",
+      "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+      "edition": "G. F. Händels Werke, für die Deutsche Händegesellschaft herausgegeben von Friedrich Chrysander, Bd.: 94, 1885",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
     }
   ]
 }

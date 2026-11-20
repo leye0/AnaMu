@@ -1,39 +1,46 @@
 # Corpus d’opéras AnaMu
 
-Décision de Léon du **19 novembre 2026** : constituer en parallèle des cours un **gros corpus de MIDI d’opéras, avec mélodie vocale et paroles disponibles pour chaque fichier**. Ce corpus rassemble des œuvres existantes; il ne constitue pas un moteur d’analyse ni une génération de musique.
+Décision de Léon du **19 novembre 2026** : constituer en parallèle des cours un gros corpus de MIDI d’opéras avec partie vocale identifiable et paroles disponibles pour chaque fichier.
 
-## Premier lot réellement acquis
+## État acquis
 
-**106 couples MIDI–paroles, 103 passages musicaux distincts, 10 opéras, 6 compositeurs, 19 éditions sources.** Ce sont des passages, pas 103 opéras ni 103 airs : le lot comprend notamment 46 récitatifs et deux chœurs. Les trois sections du no 4 de La Flûte enchantée comptent comme un seul passage; les deux éditions du no 15 également.
+**439 couples MIDI–paroles, 30 opéras, 11 compositeurs, 46 éditions sources.** Les 439 MIDI de partition ont des empreintes SHA-256 différentes. Ce nombre compte des fichiers, pas 439 opéras ni 439 airs distincts : récitatifs, scènes, chœurs, ensembles, arrangements et variantes sont présents. Le dédoublonnage musicologique entre éditions reste partiel.
 
-- [Catalogue des fichiers](CATALOGUE.md) : MIDI de partition, MIDI vocal isolé, paroles et provenance.
-- [Manifeste exploitable](manifest.json) : identités, langues, indices de pistes, chemins et limites.
-- [Sources, éditions, crédits et licences](sources.json).
-- [Attributions humaines](ATTRIBUTION.md).
+La seconde passe ajoute **333 entrées**, dont 312 passages chantés issus de six grandes éditions françaises : David et Jonathas (40), Phaéton (54), Psyché (56), Armide (66), Hippolyte et Aricie (69) et Les Fêtes de Ramire (27). Elle ajoute aussi 21 airs ou arrangements de Purcell, Vinci, Lully et Haendel. Les sections sans paroles sont écartées; les deux groupes de copies identiques repérés dans l’archive Phaéton concernent ces sections instrumentales.
 
-Chaque dossier `items/<id>/` contient `score.mid` (copie du MIDI source), `vocal.mid` (piste ou pistes vocales isolées) et `lyrics-source.ly` (paroles syllabiques conservées depuis le LilyPond). Les archives téléchargées et les partitions sont dans `sources/`. Les fichiers d’une même édition gardent sa licence; ce répertoire n’a pas de licence globale remplaçant les licences individuelles.
+- [Catalogue de tous les fichiers](CATALOGUE.md).
+- [Manifeste exploitable](manifest.json) : identités, langues, pistes vocales, événements de paroles, provenance et limites.
+- [Sources et licences](sources.json) · [Attributions](ATTRIBUTION.md).
+- [Bilan de l’acquisition](ACQUISITION.md) · [Registre de la seconde passe](acquisition-2026-11-19-expansion.json).
 
-## Ce qui est acquis, et ce qui reste à établir
+## Contenu d’une entrée
 
-Les paroles sont **disponibles dans la partition source**, avec syllabes, prolongations et parfois plusieurs couplets ou traductions. Elles ne sont pas toutes intégrées au MIDI. **Aucun alignement note–syllabe n’est exporté ni validé dans ce lot.** Le texte conservé est du LilyPond, pas une transcription littéraire normalisée ni une version garantie complète du livret.
+Chaque dossier `items/<id>/` propose `score.mid` (copie du MIDI acquis), `vocal.mid` (piste ou pistes vocales extraites) et les paroles sous une des formes suivantes :
 
-Les sélections vocales s’appuient sur les noms de pistes quand ils existent, les parties des partitions et, pour Giulio Cesare, le début des hauteurs. Une concordance initiale ne garantit pas toutes les notes. Les doublures instrumentales, portées créées tardivement, notes liées et ensembles ont nécessité des affectations explicites. Le manifeste documente la méthode par entrée; aucune audition humaine ni comparaison exhaustive note à note n’est revendiquée.
+- `lyrics-source.ly` conserve les paroles et leur contexte LilyPond du premier lot ou d’une source sans texte MIDI;
+- `lyrics-syllables.txt` reproduit les syllabes intégrées dans le MIDI, séparément pour chaque piste de paroles;
+- `lyrics-timed.tsv` conserve l’indice de piste, le tick MIDI, la position en noires, la syllabe, la piste de notes associée lorsqu’elle est établie et les hauteurs attaquées à ce tick.
 
-Deux lacunes précises : le récitatif `BBArecit` de Giulio Cesare n’a pas de bloc MIDI dans la source; le passage `CHBcesare` conserve le chœur dans `score.mid`, mais son `vocal.mid` isole seulement Cesare et l’affectation des autres voix reste à revoir. Certains récitatifs regroupent plusieurs personnages sur une même portée : on ne prétend pas avoir séparé ces personnages.
+**437 entrées disposent maintenant d’un export d’horodatages de paroles : 99 233 événements de syllabes.** Les deux autres ont leurs paroles dans le LilyPond. Les fichiers sources acquis sont conservés avec leurs notices; pour une archive MIDI, le manifeste indique aussi le nom exact du membre copié.
 
-## Acquisition à grande échelle
+L’export temporel copie les événements de la source. La correspondance des ticks avec les attaques des pistes retenues constitue un contrôle structurel, **pas une validation indépendante note–syllabe**, une garantie de prononciation ni une audition. Les mélismes, reprises, plusieurs couplets, traductions et personnages partageant une portée doivent encore être relus musicalement. Un texte syllabique n’est pas une transcription normalisée du livret complet.
 
-L’objectif est une collection de **milliers de passages** à terme, en diversifiant les opéras, compositeurs, époques, langues et tessitures. Le présent lot est un amorçage, largement dominé par Giulio Cesare; il ne représente pas encore cet objectif.
+## Corrections de la première passe
 
-Pour chaque prochain lot :
+Six anciennes extractions vocales ont été corrigées : Sesto « La giustizia ha già sull’arco », Cara sposa, Solo dal brando, Sulla ruota di fortuna, Io già t’amai et Se del fiume. Elles avaient isolé une partie instrumentale, dont parfois une doublure du chant. Le registre de la seconde passe conserve les anciens et nouveaux indices, et la concordance des attaques de syllabes a été revue avec les parties notées. Ne pas réutiliser les anciennes copies de ces six `vocal.mid`.
 
-1. Repérer une édition téléchargeable avec provenance et droits explicites; conserver l’URL exacte, la date, le contributeur, la licence et l’empreinte des octets.
-2. Acquérir MIDI et partition symbolique avec paroles ensemble lorsque possible. MusicXML, MEI et LilyPond restent des sources précieuses même si le livrable sonore est MIDI.
-3. Identifier l’opéra, le passage, les personnages et les parties vocales; garder les ensembles à plusieurs voix et les récitatifs clairement étiquetés. Exclure les réductions instrumentales sans partie chantée identifiable du corpus apparié.
-4. Conserver les variantes et transpositions sous un même identifiant musical; ne pas gonfler les comptes avec les parties instrumentales, les arrangements ou les copies identiques.
-5. Isoler les voix avec les silences initiaux, tempos et mesures conservés. Fournir le texte original et son origine; distinguer texte disponible, syllabes rattachées à la partition et alignement MIDI effectivement vérifié.
-6. Consigner les lacunes, relire les cas ambigus, puis diversifier les sources. Ne pas déclarer une piste correcte parce qu’elle utilise un son de chœur ou qu’elle est la plus aiguë.
+Deux lacunes précises demeurent : `BBArecit` de Giulio Cesare n’a pas de bloc MIDI associé dans la source; `CHBcesare` conserve le chœur dans `score.mid`, mais `vocal.mid` isole seulement Cesare. Les personnages partageant une même portée de récitatif ne sont pas artificiellement séparés.
 
-Pistes suivantes : autres opéras de Mutopia, éditions symboliques ouvertes d’opéras complets, puis Aria Database pour la découverte d’airs. Les notices et liens d’autres sites ne sont pas encore des fichiers acquis et leurs droits de réutilisation doivent être établis avant redistribution. Les corpus de lieder ou de piano ne doivent pas être comptés comme des opéras.
+## Poursuite de l’acquisition
 
-Le suivi académique reste distinct; les tâches ouvertes sont dans le [TODO unique](../../docs/todo-university-coverage.md). Ce corpus n’atteste aucune compétence universitaire nouvelle et n’active ni moteur, ni tests, ni CI.
+L’objectif reste une collection de milliers de passages, avec davantage d’époques, de langues et de compositeurs. La collection actuelle est encore très baroque. Pour les prochains lots :
+
+1. Acquérir ensemble MIDI, paroles et partition symbolique quand elle est disponible, en enregistrant édition, contributeur, URL, licence et empreinte.
+2. Identifier la voix par la partie notée et ses paroles; ne jamais conclure à partir du registre aigu, du timbre MIDI ou de l’ordre supposé des pistes.
+3. Conserver les silences, tempos et mesures des sources dans les extractions. Distinguer paroles disponibles, événements horodatés et alignement indépendamment validé.
+4. Regrouper les éditions, transpositions et arrangements sous une identité musicale revue; ne pas compter les fichiers instrumentaux comme passages chantés.
+5. Élargir au répertoire classique et romantique, puis relire les cas ambigus avec les partitions et à l’écoute.
+
+L’exporteur [tools/export_embedded_lyrics.py](tools/export_embedded_lyrics.py) conserve les paroles MIDI existantes; il ne les invente pas et ne constitue pas un analyseur musical. Dépendance : `mido==1.3.3`. Son mode CLI exporte les horodatages sans présumer une correspondance avec une voix : `python corpus/opera/tools/export_embedded_lyrics.py score.mid repertoire_de_sortie`.
+
+Les tâches restent dans le [TODO unique](../../docs/todo-university-coverage.md). Ce corpus n’atteste aucune compétence universitaire nouvelle et n’active ni moteur d’analyse ou de composition, ni tests ou CI. Chaque fichier conserve la licence de son édition; aucune licence globale ne remplace ces licences individuelles.

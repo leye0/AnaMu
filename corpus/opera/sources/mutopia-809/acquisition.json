@@ -1,0 +1,25 @@
+{
+  "id": "mutopia-809",
+  "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=809",
+  "source_page": "sources/mutopia-809/source-page.html",
+  "title": "Psyché, by J. B. Lully (1632–1687)",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/LullyJB/LWV56/lwv56/lwv56-lys.zip",
+      "path": "sources/mutopia-809/lwv56-lys.zip",
+      "sha256": "a158bdec461d3da4e816d9c26c46684d9aa0c7abb050d2f2440a7c337b3d6a02",
+      "bytes": 408362
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/LullyJB/LWV56/lwv56/lwv56-mids.zip",
+      "path": "sources/mutopia-809/lwv56-mids.zip",
+      "sha256": "c16e531ef70204ec9d8f07724f5074df2f683d2195a89aab4c2da6bb390c4dcb",
+      "bytes": 142535
+    }
+  ],
+  "retrieved_on": "2026-11-19",
+  "license": "Creative Commons Attribution 3.0",
+  "maintainer": "Nicolas Sceaux nicolas.sceaux (at) free.fr http://nicolas.sceaux.free.fr",
+  "edition": "Collection Philidor Laisnée, 1690-1702",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/"
+}

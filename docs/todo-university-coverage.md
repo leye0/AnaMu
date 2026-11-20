@@ -1,15 +1,16 @@
 # AnaMu — TODO de couverture universitaire exhaustive
 
-## Corpus parallèle d’opéras — 19 novembre 2026
+## Corpus parallèle d’opéras — extension du 19 novembre 2026
 
-- [x] Premier lot acquis : [106 couples MIDI–paroles, 103 passages, 10 opéras, 6 compositeurs](../corpus/opera/README.md), archives et crédits conservés.
-- [x] MIDI de partition, extraction vocale et copie syllabique des paroles par fichier; manifeste avec variantes et limites.
-- [ ] Affectation complète des voix du chœur dans `CHBcesare`; rechercher un MIDI pour `BBArecit` uniquement sur nouvelle source probante.
-- [ ] Relecture exhaustive des parties, couplets, reprises et traductions; audition des extractions.
-- [ ] Exporter puis vérifier l’alignement notes–syllabes sans confondre le texte disponible et un alignement acquis.
-- [ ] Étendre vers des milliers de passages, avec davantage d’opéras et de compositeurs, en conservant droits, provenance et dédoublonnage. Priorité aux partitions symboliques avec voix et paroles.
+- [x] [439 couples MIDI–paroles, 30 opéras et 11 compositeurs](../corpus/opera/README.md), 46 éditions sources, dont 333 nouvelles entrées.
+- [x] Horodatages de paroles exportés pour 437 fichiers : 99 233 événements syllabiques conservés; provenance et licences enregistrées.
+- [x] Six anciennes extractions instrumentales remplacées par les bonnes voix; corrections tracées.
+- [ ] Affectation complète des voix du chœur dans `CHBcesare`; ne rechercher un MIDI pour `BBArecit` que sur nouvelle preuve.
+- [ ] Relecture indépendante notes–syllabes, couplets, reprises et traductions; audition des extractions.
+- [ ] Regroupement musicologique des variantes, éditions et transpositions, au-delà des seules empreintes de fichiers.
+- [ ] Élargir vers des milliers de passages et le répertoire romantique. PDMX fournit une piste, mais ses MIDI ne contiennent pas nécessairement les paroles de la partition; acquérir celles-ci avant tout comptage.
 
-Ce chantier d’acquisition est autorisé en parallèle des cours. Il n’active pas de moteur musical ni de tests/CI; les compteurs universitaires restent distincts.
+Ce chantier reste parallèle aux cours; aucun moteur musical, test ou workflow n’est ajouté.
 
 ## Harmonie : fonctions et continuations — 18 novembre 2026
 
