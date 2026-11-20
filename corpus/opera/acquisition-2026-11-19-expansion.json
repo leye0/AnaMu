@@ -1,0 +1,892 @@
+{
+  "sources": [
+    "mutopia-1651",
+    "mutopia-809",
+    "mutopia-1652",
+    "mutopia-935",
+    "mutopia-1363",
+    "mutopia-1035",
+    "mutopia-2243",
+    "mutopia-268",
+    "mutopia-532",
+    "mutopia-958",
+    "mutopia-1180",
+    "mutopia-1179",
+    "mutopia-1176",
+    "mutopia-1314",
+    "mutopia-1306",
+    "mutopia-1317",
+    "mutopia-1313",
+    "mutopia-1318",
+    "mutopia-1311",
+    "mutopia-1309",
+    "mutopia-1391",
+    "mutopia-1392",
+    "mutopia-1393",
+    "mutopia-1208",
+    "mutopia-1307",
+    "mutopia-1206",
+    "mutopia-1316"
+  ],
+  "skipped": [
+    {
+      "source_id": "mutopia-1651",
+      "file": "DavidEtJonathas.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1651",
+      "file": "DavidEtJonathas-6.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1651",
+      "file": "DavidEtJonathas-14.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1651",
+      "file": "DavidEtJonathas-18.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1651",
+      "file": "DavidEtJonathas-19.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1651",
+      "file": "DavidEtJonathas-27.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1651",
+      "file": "DavidEtJonathas-32.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1651",
+      "file": "DavidEtJonathas-33.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1651",
+      "file": "DavidEtJonathas-40.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1651",
+      "file": "DavidEtJonathas-41.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1651",
+      "file": "DavidEtJonathas-42.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1651",
+      "file": "DavidEtJonathas-49.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1652",
+      "file": "LWV61Phaeton.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1652",
+      "file": "LWV61Phaeton-7.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1652",
+      "file": "LWV61Phaeton-10.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1652",
+      "file": "LWV61Phaeton-23.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1652",
+      "file": "LWV61Phaeton-24.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1652",
+      "file": "LWV61Phaeton-29.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1652",
+      "file": "LWV61Phaeton-31.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1652",
+      "file": "LWV61Phaeton-32.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1652",
+      "file": "LWV61Phaeton-34.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1652",
+      "file": "LWV61Phaeton-38.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1652",
+      "file": "LWV61Phaeton-39.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1652",
+      "file": "LWV61Phaeton-42.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1652",
+      "file": "LWV61Phaeton-50.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1652",
+      "file": "LWV61Phaeton-57.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1652",
+      "file": "LWV61Phaeton-58.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1652",
+      "file": "LWV61Phaeton-63.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-3.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-5.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-8.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-10.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-13.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-15.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-17.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-21.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-24.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-26.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-27.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-29.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-31.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-33.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-35.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-37.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-40.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-47.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-50.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-53.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-57.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-58.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-61.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-65.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-68.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-71.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-76.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-78.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-80.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-82.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-85.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-88.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-89.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-809",
+      "file": "LWV56Psyche-90.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-5.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-6.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-7.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-8.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-11.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-12.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-13.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-16.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-20.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-23.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-28.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-41.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-43.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-44.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-47.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-49.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-56.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-59.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-61.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-66.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-69.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-70.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-74.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-78.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-80.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-83.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-84.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-87.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-88.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-92.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-935",
+      "file": "lwv71-97.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-1.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-7.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-9.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-11.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-12.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-14.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-18.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-20.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-23.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-24.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-29.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-35.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-36.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-46.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-57.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-59.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-61.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-62.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-63.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-64.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-66.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-70.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-73.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-74.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-76.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-77.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-82.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-90.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-93.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-96.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-98.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-99.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-101.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-102.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1363",
+      "file": "HippolyteEtAricie-104.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-1.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-2.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-7.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-9.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-11.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-13.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-15.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-18.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-19.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-20.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-25.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-27.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-30.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-31.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-33.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-38.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-40.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-42.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-44.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-46.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-47.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-48.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-50.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-51.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    },
+    {
+      "source_id": "mutopia-1035",
+      "file": "lesFetesDeRamire-52.mid",
+      "reason": "no_embedded_lyrics_in_instrumental_section"
+    }
+  ],
+  "added": 333,
+  "corrected_vocal_mappings": [
+    {
+      "id": "handel-giulio-dfbsesto",
+      "previous_note_tracks": [
+        2
+      ],
+      "corrected_note_tracks": [
+        3
+      ],
+      "matched_syllable_onsets": 159
+    },
+    {
+      "id": "mutopia-1308-main",
+      "previous_note_tracks": [
+        6
+      ],
+      "corrected_note_tracks": [
+        4
+      ],
+      "matched_syllable_onsets": 185
+    },
+    {
+      "id": "mutopia-1319-main",
+      "previous_note_tracks": [
+        4
+      ],
+      "corrected_note_tracks": [
+        2
+      ],
+      "matched_syllable_onsets": 88
+    },
+    {
+      "id": "mutopia-1617-main",
+      "previous_note_tracks": [
+        3
+      ],
+      "corrected_note_tracks": [
+        1
+      ],
+      "matched_syllable_onsets": 112
+    },
+    {
+      "id": "mutopia-1312-main",
+      "previous_note_tracks": [
+        5
+      ],
+      "corrected_note_tracks": [
+        3
+      ],
+      "matched_syllable_onsets": 160
+    },
+    {
+      "id": "mutopia-960-main",
+      "previous_note_tracks": [
+        6
+      ],
+      "corrected_note_tracks": [
+        4
+      ],
+      "matched_syllable_onsets": 163
+    }
+  ],
+  "instrumental_duplicate_groups_observed": [
+    [
+      "LWV61Phaeton.mid",
+      "LWV61Phaeton-10.mid"
+    ],
+    [
+      "LWV61Phaeton-32.mid",
+      "LWV61Phaeton-34.mid"
+    ]
+  ],
+  "duplicate_note": "Ces deux groupes sont instrumentaux sans paroles MIDI; ils sont exclus par ce motif et ne sont pas des doublons retirés d’un ensemble vocal déjà compté."
+}

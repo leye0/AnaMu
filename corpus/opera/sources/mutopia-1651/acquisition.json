@@ -1,0 +1,25 @@
+{
+  "id": "mutopia-1651",
+  "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1651",
+  "source_page": "sources/mutopia-1651/source-page.html",
+  "title": "David et Jonathas, by M.-A. Charpentier (1643–1704)",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/CharpentierMA/H490/DavidEtJonathas/DavidEtJonathas-lys.zip",
+      "path": "sources/mutopia-1651/DavidEtJonathas-lys.zip",
+      "sha256": "d6e45030bd74f3fe47042f0f939711479aa7ce44f66ee11af3baf590052aa66c",
+      "bytes": 477685
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/CharpentierMA/H490/DavidEtJonathas/DavidEtJonathas-mids.zip",
+      "path": "sources/mutopia-1651/DavidEtJonathas-mids.zip",
+      "sha256": "12f6fc75f2386fc67251f9467ad249a3f5921271a3ce1c3aaf6bfdd18e174c04",
+      "bytes": 132231
+    }
+  ],
+  "retrieved_on": "2026-11-19",
+  "license": "Creative Commons Attribution 3.0",
+  "maintainer": "Nicolas Sceaux nicolas.sceaux (at) free.fr http://nicolas.sceaux.free.fr",
+  "edition": "Collection Philidor Laisnée, 1690",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/"
+}

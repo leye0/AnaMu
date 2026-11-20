@@ -1,0 +1,25 @@
+{
+  "id": "mutopia-1363",
+  "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1363",
+  "source_page": "sources/mutopia-1363/source-page.html",
+  "title": "Hippolyte et Aricie, by J. P. Rameau (1683–1764)",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/RameauJP/HippolyteEtAricie/HippolyteEtAricie-lys.zip",
+      "path": "sources/mutopia-1363/HippolyteEtAricie-lys.zip",
+      "sha256": "42e855355a750eb0a905fd8b62650753ced3135fa8f07709f5fa9610296d758e",
+      "bytes": 485226
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/RameauJP/HippolyteEtAricie/HippolyteEtAricie-mids.zip",
+      "path": "sources/mutopia-1363/HippolyteEtAricie-mids.zip",
+      "sha256": "d112ae0540d0506030bfc84964cd846425b1b901b639bf1071fcd2c30e7b5992",
+      "bytes": 191162
+    }
+  ],
+  "retrieved_on": "2026-11-19",
+  "license": "Creative Commons Attribution 3.0",
+  "maintainer": "Nicolas Sceaux nicolas.sceaux (at) free.fr http://nicolas.sceaux.free.fr",
+  "edition": "Manuscript, Bibliothèque de Versailles, 17xx",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mutopia-1313",
+  "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1313",
+  "source_page": "sources/mutopia-1313/source-page.html",
+  "title": "La gloria sola , Aria from Admeto, by G. F. Handel (1685–1759)",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV22/LaGloriaSola/LaGloriaSola.ly",
+      "path": "sources/mutopia-1313/LaGloriaSola.ly",
+      "sha256": "c4c2a128c26df270de630db31b0e86a35ada68670f9461df74935fca3e422e40",
+      "bytes": 9326
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/HandelGF/HWV22/LaGloriaSola/LaGloriaSola.mid",
+      "path": "sources/mutopia-1313/LaGloriaSola.mid",
+      "sha256": "b768b4330f14ad044c0cb3ebf8e40cd9c7b5d20dee95449785256d409762ab17",
+      "bytes": 13354
+    }
+  ],
+  "retrieved_on": "2026-11-19",
+  "license": "Creative Commons Attribution-ShareAlike 3.0",
+  "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+  "edition": "G. F. Händels Werke, für die Deutsche Händegesellschaft herausgegeben von Friedrich Chrysander, Bd.: 73, 1877",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mutopia-1652",
+  "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1652",
+  "source_page": "sources/mutopia-1652/source-page.html",
+  "title": "Phaéton, by J. B. Lully (1632–1687)",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/LullyJB/LWV61/LWV61Phaeton/LWV61Phaeton-lys.zip",
+      "path": "sources/mutopia-1652/LWV61Phaeton-lys.zip",
+      "sha256": "464f79e6e64e0b64e007422c2e14ca1e4802538a69877d6a7b1f57d67b34d622",
+      "bytes": 520033
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/LullyJB/LWV61/LWV61Phaeton/LWV61Phaeton-mids.zip",
+      "path": "sources/mutopia-1652/LWV61Phaeton-mids.zip",
+      "sha256": "cd4f165f9ebacd5afe101bf6e20134a032b76dee5866a338ed557d6fc7cd20f1",
+      "bytes": 174786
+    }
+  ],
+  "retrieved_on": "2026-11-19",
+  "license": "Creative Commons Attribution 3.0",
+  "maintainer": "Nicolas Sceaux nicolas.sceaux (at) free.fr http://nicolas.sceaux.free.fr",
+  "edition": "Paris, Christophe Ballard, 1683",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/"
+}

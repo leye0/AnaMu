@@ -1,0 +1,25 @@
+{
+  "id": "mutopia-532",
+  "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=532",
+  "source_page": "sources/mutopia-532/source-page.html",
+  "title": "Acte II, Scene III from Armide, by J. B. Lully (1632–1687)",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/LullyJB/LWV71/Armide/Armide-lys.zip",
+      "path": "sources/mutopia-532/Armide-lys.zip",
+      "sha256": "8a538487dea57e60205bf38fd8fb3c255b8d60f2a0a2d27acfdc78bedc996256",
+      "bytes": 5958
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/LullyJB/LWV71/Armide/Armide.mid",
+      "path": "sources/mutopia-532/Armide.mid",
+      "sha256": "0e7502655345f798478f5d77086f10c7ff82367f0630cda38bc2a3b661fc385a",
+      "bytes": 17783
+    }
+  ],
+  "retrieved_on": "2026-11-19",
+  "license": "Public Domain",
+  "maintainer": "Björn Sothmann bjoern.sothmann (at) rub.de http://www.thp.uni-due.de/~bjoerns/",
+  "edition": "Ballard, 1686",
+  "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+}

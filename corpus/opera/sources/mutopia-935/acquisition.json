@@ -1,0 +1,25 @@
+{
+  "id": "mutopia-935",
+  "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=935",
+  "source_page": "sources/mutopia-935/source-page.html",
+  "title": "Armide, by J. B. Lully (1632–1687)",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/LullyJB/LWV71/lwv71/lwv71-lys.zip",
+      "path": "sources/mutopia-935/lwv71-lys.zip",
+      "sha256": "9ed86c809910eef6bbfa591cc37de164f40458f2fc66a85a9862eac19bda9706",
+      "bytes": 466869
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/LullyJB/LWV71/lwv71/lwv71-mids.zip",
+      "path": "sources/mutopia-935/lwv71-mids.zip",
+      "sha256": "a07b81fa99d20ccfa75034a7b4469233a29d3aa45b43979d1c80c2ae3b4ff559",
+      "bytes": 180242
+    }
+  ],
+  "retrieved_on": "2026-11-19",
+  "license": "Creative Commons Attribution 3.0",
+  "maintainer": "Nicolas Sceaux nicolas.sceaux (at) free.fr http://nicolas.sceaux.free.fr",
+  "edition": "Ballard, Paris, 1686",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/"
+}

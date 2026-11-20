@@ -1,5 +1,17 @@
 # AnaMu — TODO de couverture universitaire exhaustive
 
+## Corpus parallèle d’opéras — extension du 19 novembre 2026
+
+- [x] [439 couples MIDI–paroles, 30 opéras et 11 compositeurs](../corpus/opera/README.md), 46 éditions sources, dont 333 nouvelles entrées.
+- [x] Horodatages de paroles exportés pour 437 fichiers : 99 233 événements syllabiques conservés; provenance et licences enregistrées.
+- [x] Six anciennes extractions instrumentales remplacées par les bonnes voix; corrections tracées.
+- [ ] Affectation complète des voix du chœur dans `CHBcesare`; ne rechercher un MIDI pour `BBArecit` que sur nouvelle preuve.
+- [ ] Relecture indépendante notes–syllabes, couplets, reprises et traductions; audition des extractions.
+- [ ] Regroupement musicologique des variantes, éditions et transpositions, au-delà des seules empreintes de fichiers.
+- [ ] Élargir vers des milliers de passages et le répertoire romantique. PDMX fournit une piste, mais ses MIDI ne contiennent pas nécessairement les paroles de la partition; acquérir celles-ci avant tout comptage.
+
+Ce chantier reste parallèle aux cours; aucun moteur musical, test ou workflow n’est ajouté.
+
 ## Harmonie : fonctions et continuations — 18 novembre 2026
 
 **Six cours approfondis, huit études originales** : CM-211 (trois usages du 6/4), CM-212 (tonicisation ou région prolongée), MTE-1221 (sixte augmentée et dominante enharmonique), MUTH-251 (quatre destinations d’un diminué et ornement à note commune), HR-211 (substitution tritonique et emprunt iv), HR-212 (résolution, déviation et déplacement parallèle). Les procédures d’analyse, exercices et limites sont directement dans les six fiches.

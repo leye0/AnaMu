@@ -1,0 +1,25 @@
+{
+  "id": "mutopia-1035",
+  "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1035",
+  "source_page": "sources/mutopia-1035/source-page.html",
+  "title": "Les Fêtes de Ramire, by J. P. Rameau (1683–1764)",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/RameauJP/lesFetesDeRamire/lesFetesDeRamire-lys.zip",
+      "path": "sources/mutopia-1035/lesFetesDeRamire-lys.zip",
+      "sha256": "19e5cbed7f8374415483db29e1b9b2df0a6f641af941d7e402f67f2a46980d07",
+      "bytes": 196099
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/RameauJP/lesFetesDeRamire/lesFetesDeRamire-mids.zip",
+      "path": "sources/mutopia-1035/lesFetesDeRamire-mids.zip",
+      "sha256": "e9890896d64c43a8f67a556f0ea66a7c92a7b75a766dffcc04324d05686457e9",
+      "bytes": 67897
+    }
+  ],
+  "retrieved_on": "2026-11-19",
+  "license": "Creative Commons Attribution 3.0",
+  "maintainer": "Nicolas Sceaux nicolas.sceaux (at) free.fr http://nicolas.sceaux.free.fr",
+  "edition": "Manuscrit de 1746, bibliothèque de Versailles",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "mutopia-268",
+  "source_url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=268",
+  "source_page": "sources/mutopia-268/source-page.html",
+  "title": "Fairest Isle, by H. Purcell (1658–1695)",
+  "downloads": [
+    {
+      "url": "https://www.mutopiaproject.org/ftp/PurcellH/FairestIsle/FairestIsle.ly",
+      "path": "sources/mutopia-268/FairestIsle.ly",
+      "sha256": "3d0530f724ef1b34cdf83018218bb604ef4299e510b0f638b9cd2ae3d75d5b5c",
+      "bytes": 5093
+    },
+    {
+      "url": "https://www.mutopiaproject.org/ftp/PurcellH/FairestIsle/FairestIsle.mid",
+      "path": "sources/mutopia-268/FairestIsle.mid",
+      "sha256": "6846ff8e8ecaf7d5b5a3234e3a0261e4bf77935de14298bf8d6ab3f7e481ee39",
+      "bytes": 5233
+    }
+  ],
+  "retrieved_on": "2026-11-19",
+  "license": "Public Domain",
+  "maintainer": "Sebastian Brosig Sebastian.Brosig (at) gmx.net",
+  "edition": "S.W. (ed.) handwritten",
+  "license_url": "https://www.mutopiaproject.org/legal.html#publicdomain"
+}
