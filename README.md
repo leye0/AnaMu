@@ -1,78 +1,32 @@
-# AnaMu — connaissance universitaire pour analyser la musique
+# AnaMu — cours de composition, exemples et corpus musicaux
 
-**Corpus parallèle — extension du 19 novembre 2026 :** [439 couples MIDI–paroles, 30 opéras, 11 compositeurs](corpus/opera/README.md), depuis 46 éditions. **333 entrées ajoutées**, 437 exports de paroles horodatées et 99 233 événements syllabiques; six mauvaises extractions vocales du premier lot corrigées. Les horodatages proviennent des sources, sans alignement indépendamment validé ni audition nouvelle. Compter des fichiers, pas des airs distincts : le dédoublonnage entre éditions reste partiel. Ce chantier d’acquisition reste indépendant des cours et n’active aucun moteur, test ou CI.
+AnaMu rassemble les connaissances de programmes universitaires de composition pour développer des compétences d'analyse musicale et comprendre comment employer ces connaissances en composition. Les programmes et cours servent de sources; leurs crédits ne sont pas un parcours étudiant à reproduire.
 
-**Harmonie — 18 novembre 2026 :** six cours approfondis avec **huit nouvelles études MIDI/MP3 et huit partitions modifiables**, de la sixte-et-quarte aux réinterprétations enharmoniques et aux dominantes de substitution. Cinq comparaisons personnelles supplémentaires, avec invariants et limites explicités. [Écouter les notes-guides et l’emprunt modal](https://www.streamlev.com/AnaMu/?cours=berklee%3AHR-211) · [Explorer les accords diminués](https://www.streamlev.com/AnaMu/?cours=mcgill%3AMUTH%20251) · [État courant](docs/STATUS.md). Les bilans suivants décrivent les passes antérieures.
+## Contenu du projet
 
-**18 novembre 2026 :** six rendus de résonance supplémentaires (vibraphone, triangle et caisse claire dans deux banques à gain commun) et trois partitions de travail avec aperçu et MusicXML modifiable. Les cours regroupent désormais **62 rendus de percussion et sept comparaisons personnelles sans les noms**. [Partitions et morceau](https://www.streamlev.com/AnaMu/?cours=berklee-online%3AOMPRD-386) · [Résonance et conducteur à trois](https://www.streamlev.com/AnaMu/?cours=berklee%3ACM-343) · [Limites actuelles](docs/STATUS.md).
+| Ensemble | Contenu | Accès |
+|---|---|---|
+| Cours et compétences | Fiches sourcées par établissement et code; procédures d'analyse, usages compositionnels et limites | [Fiches](docs/courses/) · [Gabarit](docs/COURSE_ANALYSIS_TEMPLATE.md) |
+| Exemples pédagogiques | MIDI originaux, rendus audio et partitions liés aux apprentissages dans les dossiers des cours | [Registre par cours](docs/data/course-algorithmic-assessments.json) |
+| Site web | Bibliothèque des fiches, lecteurs d'exemples et partitions | [Site](https://www.streamlev.com/AnaMu/) · [Construction et publication](site/README.md) |
+| Corpus d'opéras | MIDI acquis, extractions vocales, paroles et provenance | [Corpus](corpus/opera/README.md) |
+| Corpus pop / Billboard en préparation | Acquisition gratuite de MIDI et paroles; catalogue, vérifications et cible de 2 000 chansons complètes | [PR nº 30](https://github.com/leye0/AnaMu/pull/30) |
 
-**Itération en contexte — 17 novembre 2026 :** **15 rendus supplémentaires** ont été récupérés du travail interrompu et intégrés aux cours : un morceau de 32 mesures en deux arrangements et batteries seules, trois prises humaines GMD attribuées, des adaptations de placement, un appel–réponse de percussions et une seconde banque de charleston. Les **cinq comparaisons sans les noms** sont dans les fiches, avec réponse personnelle et sans collecte. [Écouter le morceau et les comparaisons](https://www.streamlev.com/AnaMu/?cours=berklee-online%3AOMPRD-386&etude=passage-batterie-2#etude-passage-batterie-2). [État courant et limites](docs/STATUS.md). Les 41 rendus initiaux et leurs exercices restent disponibles.
+L'[état courant](docs/STATUS.md) distingue les premières évaluations, la couverture des sources, les exemples et les validations encore absentes. Il est la référence des compteurs du projet.
 
-**Reprise percussion, 17 novembre 2026 :** les **41 études audio** disposent maintenant de comparaisons par variante et de **41 parcours question → analyse → exercice → limite** dans leurs **cinq cours d’origine**. [Ouvrir Drum Set Performance 101](https://www.streamlev.com/AnaMu/?cours=berklee-online%3AOPERC-160). Les lecteurs des cours proposent un passage seul, une répétition optionnelle et le MIDI de chaque étude. [État courant et limites](docs/STATUS.md) · [Prochaines tâches](docs/todo-university-coverage.md#reprise-percussion--17-novembre-2026). Ces outils ne certifient ni écoute humaine ni jouabilité réelle.
+## Travail courant
 
-**AnaMu — avancement au 12 novembre 2026 :** [386 entrées](docs/data/course-algorithmic-assessments.json) dont **378 cours ayant reçu une première analyse ou une évaluation limitée** et **8 familles de choix**. **122 cours avec MIDI original**, **256 évalués sans MIDI adéquat**, **0 cours non examinés**. Le dernier lot a traité les 100 cours encore en attente (5 nouveaux MIDI). Cette étape ne valide **pas** les syllabus complets : les leçons privées, ensembles à répertoire variable et autres domaines sans matière détaillée restent à documenter. [Bibliothèque Pages](site/README.md) et [gabarit](docs/COURSE_ANALYSIS_TEMPLATE.md). Les anciens comptes ci-dessous sont historiques.
+Approfondir les apprentissages réellement documentés **cours par cours** : les reconnaître dans une musique existante, expliquer leur usage en composition et créer un exemple MIDI quand ce support peut les démontrer. Les [procédures](docs/course-material-collection.md) et le [TODO unique](docs/todo-university-coverage.md) guident ce travail. L'acquisition d'œuvres se poursuit en parallèle.
 
-**Bilan historique d'un premier lot de la tâche par cours :** [index des 386 entrées](docs/data/course-algorithmic-assessments.json) : **30 dossiers de cours avec analyse/création expliquée et vrai MIDI original**, **6 évaluations sans MIDI pertinent**, **342 cours restants**, **8 familles de choix**. [Gabarit](docs/COURSE_ANALYSIS_TEMPLATE.md). Les procédures sont dans les fiches de cours existantes; les MIDI ont leur propre dossier `docs/courses/<établissement>/<code>/`. Les statuts historiques du syllabus et la collection des 44 mécanismes restent distincts. Ne pas déclarer toute la matière du cours couverte parce qu'un exemple existe.
+Une fiche, un exemple ou une première évaluation ne signifie pas que tout le syllabus du cours est couvert. Les lacunes des sources restent explicites. Les recherches publiques déjà clôturées ne sont pas relancées sans preuve nouvelle.
 
-## Nouvelle étape active — appliquer les savoirs de chaque cours (11 novembre 2026)
+La base de concepts unifiés et un analyseur musical complet restent à construire; la composition générative de production demeure verrouillée. Les MIDI pédagogiques originaux et les œuvres acquises ont des rôles et des provenances distincts.
 
-Le projet procède maintenant **cours par cours**, depuis la fiche `docs/courses/<établissement>/<cours>.md`, à l'aide du [gabarit d'analyse/création](docs/COURSE_ANALYSIS_TEMPLATE.md). Pour chaque apprentissage réellement attesté, documenter une procédure de lecture de musique existante, une procédure d'intégration en composition, et créer un **exemple MIDI original dans le dossier du cours** quand les notes et événements MIDI peuvent vraiment montrer le phénomène. Sinon préciser `AUDIO_REQUIRED`, `CONTEXT_REQUIRED`, `NOT_MUSIC_ALGORITHM` ou `UNKNOWN` sans inventer. [Suivi des 386 entrées](docs/data/course-algorithmic-assessments.json) : 19 exemples analysés et MIDI, 5 évaluations de limites, 354 cours encore à traiter, 8 familles de choix. **Aucun moteur ni suite de tests n'a été créé.** Ceci remplace les anciennes directives « phase 1A seule »/« 1B seulement » qui apparaissent plus bas à titre historique. Voir [STATUS.md](docs/STATUS.md).
+## Repères
 
-**Mission :** construire une immense base commune de connaissances musicales à partir de **toute la matière réellement enseignée** dans plusieurs programmes universitaires de composition, y compris les options, les recommandations et les spécialisations pertinentes. Ensuite, choisir les outils capables de **reconnaître et expliquer dans des morceaux MIDI existants** les composants enseignés. La composition musicale générative est une possibilité lointaine, interdite sans décision explicite de Léon.
+- [AGENTS.md](AGENTS.md) : consignes de reprise et limites de phase.
+- [Objectifs](docs/OBJECTIVES.md) : finalité et organisation.
+- [Index documentaire](docs/README.md) : registres, programmes et preuves conservées.
+- [Connaissances communes](docs/knowledge-base.md) : architecture et synthèses musicales.
 
-## Phase active : obtenir les cours
-
-**Aucun développement d'analyseur n'est autorisé actuellement.** L'ordre est strict :
-
-1. Inventorier les programmes et **tous** les cours pertinents, y compris les choix ouverts.
-2. Obtenir pour chaque cours le syllabus ou plan détaillé, les objectifs, chapitres, lectures, exercices, exemples et critères d'évaluation.
-3. Conserver les sources, versions, droits et **lacunes explicites** sans jamais inventer de matière.
-4. Après seulement, réconcilier les enseignements en concepts musicaux unifiés et sourcés.
-5. Après la connaissance, décider quels éléments sont détectables dans le MIDI existant, construire les analyseurs et vérifier leur justesse.
-
-Une description de catalogue n'est **pas** le contenu d'un cours. Une métrique sur un corpus n'est **pas** une compétence musicale acquise.
-
-**Cycle autonome du prochain agent :** ouvrir
-[le registre de progression cours par cours](docs/data/course-material-progress.json),
-prendre le premier contenu non documenté, créer une fiche de matière sourcée
-selon [le protocole](docs/course-material-collection.md), mettre à jour le
-registre, puis poursuivre systématiquement. Les longues recherches et
-rédactions sont le travail principal ; **aucun test algorithmique ni
-développement MIDI pendant cette phase**.
-
-## État honnête — 11 novembre 2026
-
-- **Université de Montréal :** 190 entrées de catalogue recensées, dont 168 hors tronc obligatoire ; matière détaillée non collectée exhaustivement.
-- **McGill :** 58 cours ou choix nommés recensés ; branches ouvertes et syllabi à approfondir.
-- **Berklee :** 44 lignes de grille, complétées par 70 candidats supplémentaires des familles d'options CM, CP, COND, MLAN et MHIS ; des ensembles de choix demeurent à vérifier.
-- **Options voisines :** 30 pistes de savoir supplémentaires, non validées au niveau des contenus.
-- **Suivi opérationnel :** [402 codes de cours candidats et 5 ensembles
-  d'options encore à détailler](docs/data/course-material-progress.json),
-  13 avec un syllabus public documenté (dont un plan historique UdeM MUS 4106), 193 avec des preuves partielles ou des supports parallèles, et 196 au statut catalogue. Les fiches datent chaque plan et distinguent les équivalents et les éditions historiques.
-- [Options de majeure Berklee](docs/berklee-major-elective-candidates.md) — 83 codes candidats repérés dans cinq familles, **tous enregistrés** ; leur admissibilité et leurs supports de cours réels doivent encore être confirmés individuellement.
-- [Pistes de recherche et d’accès aux supports](docs/course-material-source-trail.md) pour UdeM, McGill et les options de Berklee.
-- **Base unifiée :** non construite. **Analyseur MIDI académique :** non construit. **Composition :** verrouillée.
-
-Ce sont des **inventaires administratifs**, pas des attestations de connaissance.
-
-## Reprendre le projet de zéro
-
-Tout nouvel agent commence par [AGENTS.md](AGENTS.md).
-
-1. [Objectifs, phases et interdictions](docs/OBJECTIVES.md)
-2. [Périmètre universitaire](docs/university-curriculum.md)
-3. [Protocole de collecte du contenu des cours](docs/course-material-collection.md)
-4. [Conception de la future base de connaissances](docs/knowledge-base.md)
-5. [TODO unique avec cases à cocher](docs/todo-university-coverage.md)
-6. [Index des inventaires académiques](docs/README.md)
-
-## Vérification documentaire
-
-Le dépôt contient les inventaires académiques, leurs sources structurées et des contrôles de cohérence. **Il ne contient pas de bancs d'essai autonomes ni de moteur d'analyse actif.**
-
-Exécuter :
-
-    python scripts/validate_project_docs.py
-
-Ce contrôle facultatif vérifie la cohérence des inventaires, pas que la
-matière des cours a été obtenue ou maîtrisée. La CI l'exécute automatiquement.
+Le dépôt conserve le constructeur du site et des contrôles de cohérence documentaire. Leur réussite n'atteste ni la maîtrise des cours ni la justesse d'un analyseur. Les workflows existants et leur configuration sont décrits dans [la documentation du site](site/README.md).

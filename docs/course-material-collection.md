@@ -1,156 +1,54 @@
-# Acquisition exhaustive de la matière des cours
+# Méthode de travail par cours
 
-**PROTOCOLE ACTUEL — 11 novembre 2026 :** [STATUS.md](STATUS.md) et [audit des 22 blocages](phase1a-public-evidence-stop-2026-11-11.md). L'ancienne recherche des syllabi des 115 partiels est arrêtée en meilleur effort : 93 terminées, 22 bloquées faute de source externe, **zéro recherche cyclique ouverte**. **Phase 1B active :** rechercher directement la matière académique de sujets musicaux déjà reconnus, en lots de 10–30 mécanismes sourcés, sans attribuer le manuel d'un sujet à un professeur ou un cours. [Premier lot réel de 14 mécanismes](subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md). Les consignes antérieures de réouverture P0/P1 ci-dessous sont remplacées, sauf source directement nouvelle. Aucune expérience, test, CI ou moteur musical.
+L'activité courante est l'approfondissement des apprentissages dans les fiches existantes, selon [STATUS.md](STATUS.md), le [gabarit](COURSE_ANALYSIS_TEMPLATE.md) et le [TODO](todo-university-coverage.md). Les nouvelles sources enrichissent la matière sans relancer les recherches publiques closes ou bloquées.
 
-**Reprise effective du 11 novembre 2026 :** [28 recherches revues, six clôturées par indisponibilité de preuve de section](raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md), **93 recherches publiques terminées et 22 actives**, toujours **115 contenus `partial` et huit familles non dépliées**. [Quatre codes individuels PIBS Berklee](raw-batches/2026-11-11-berklee-pibs-four-concrete-private-bass-levels.md) ajoutés aux candidats, sans prétendre à des plans de niveaux. Le registre fait autorité pour les états actuels et la [file des 115](remaining-115-course-evidence-queue-2026-11-11.md) indique les 22 recherches actives. Ne jamais relancer systématiquement les 93 clôturées sans source nouvelle.
+## Unité documentaire
 
-## Clôture de recherche publique — distincte de la connaissance du cours
+Une fiche correspond à un cours identifié, dans un établissement et une édition donnée : `docs/courses/<établissement>/<code>.md`. Les espaces du code deviennent des traits d'union dans les chemins. Le champ `material_file` du [registre de matière](data/course-material-progress.json) pointe vers cette fiche. Les MIDI, MP3, partitions et autres supports sont dans le dossier `<code>/` voisin.
 
-**Décision du 11 novembre 2026 :** s'il n'existe dans les sources ouvertes revues aucun plan de section attribuable au code, ou si l'enseignement est adapté à l'étudiant/la répétition/le stage, **la recherche peut être marquée terminée en meilleur effort**. C'est un statut d'effort, pas de contenu. Le registre conserve `topic_outline.state=partial`, les lacunes et le `status` historique; il ajoute `topic_outline.public_research.state=completed_best_effort`, sa date, les sources, le motif et une condition de réouverture. Un résultat négatif est **borné aux sources examinées**, jamais la preuve qu'aucun document n'existe ailleurs.
-
-[Audit de 87 cours clôturés sans fausse promotion](raw-batches/2026-11-11-public-search-closure-87-partial-courses.md) et [28 recherches actives parmi 115 matières partielles](remaining-115-course-evidence-queue-2026-11-11.md). **Ne pas rechercher à nouveau systématiquement les 87** lors du prochain passage, sauf si une preuve plus précise surgit. Les huit familles musicales à déplier demeurent actives. Aucun test ni travail sur la CI.
-
-**Phase active unique d'AnaMu.** Ce contrat garantit qu'un catalogue ou une description sommaire ne soit jamais pris pour le **contenu musical réellement enseigné**.
-
-**Avant toute recherche :** [appliquer le filtre musical](music-only-scope.md). Les anciens nombres 402 et 17 désignent un registre pré-filtrage et ne sont plus des cibles.
-
-## RÈGLE DE CADENCE 1A — contenu, pas dossiers administratifs
-
-**Décision du 10 novembre 2026 :** compléter **une description détaillée des
-sujets de chaque cours du registre** à partir de syllabus, plans-cadres, plans
-détaillés ou descriptions officielles riches. **Ne pas poursuivre les
-matériaux exacts d'un professeur** (manuel, barème, copies, études, examens
-et feuilles de travaux) ; ils sont destinés à une **deuxième passe de
-recherche académique sur chaque sujet**. Une description en 4–12 axes
-suffit pour la carte initiale, sous réserve de provenance honnête.
-
-`topic_outline.state=usable_first_pass` = assez de thèmes précis pour
-orienter la phase 1B, **pas une certification de syllabus intégral** ;
-`partial` = matière trop vague ou section variable. Ne jamais inventer des
-chapitres, semaines, exemples ou œuvres que les sources ne nomment pas.
-`topic_outline.source_kind=official_catalogue` reste un catalogue même
-si la carte est utilisable; garder le champ historique `status` tel quel.
-Les tableaux sous `docs/raw-batches` comptent comme descriptions dans
-la passe 1A et évitent une fiche individuelle par cours.
-
-**Les colonnes détaillées et la porte à la base de concepts plus bas sont
-les cibles de la phase 1B / réconciliation, pas des exigences à imposer aux
-386 entrées musicales dans la passe 1A.** Aucun test ni travail de CI.
-
-## Unité : un cours dans une édition donnée
-
-Partir des [inventaires officiels](university-curriculum.md), des JSON de
-[l'index](README.md) et du
-[registre de progression](data/course-material-progress.json). Chaque cours
-nommé et chaque option encore ouverte doit avoir une fiche indiquant :
-
-**Convention des fiches :** une fiche Markdown par cours dans
-**docs/courses/udem/**, **docs/courses/mcgill/** ou **docs/courses/berklee/**,
-nommée d'après le code du cours (espaces remplacés par des traits d'union).
-Le registre fait autorité pour le statut et indique le chemin dans le champ
-**material_file** dès que la première fiche sourcée existe. Il contient
-actuellement **386 entrées musicales** et **4 pools administratifs de choix restreints à la musique** à
-déplier : ce sont des *points de départ*, pas une liste close.
-
-| Champ | Information indispensable |
+| Information | Règle |
 |---|---|
-| institution / programme / édition / code / intitulé | Identité stable, sans confusion des versions |
-| statut | Obligatoire, optionnel, recommandé, cours voisin pertinent ; admissibilité distincte de pertinence |
-| sources | URL officielle ou ressource autorisée, date, section précise, droits d'accès |
-| état du syllabus | Introuvable / description seule / plan partiel / syllabus obtenu / matière vérifiée |
-| objectifs | Résultats d'apprentissage réellement annoncés |
-| matière | Chaque thème, chapitre, technique, section et prérequis, avec source |
-| lectures | Ouvrages et chapitres prescrits ; distinguer suggestion et obligation |
-| exercices | Travaux, consignes, projets, barèmes et critères observables |
-| exemples | Répertoire et passages proposés, style, instrument, exceptions |
-| lacunes | Documents absents, versions divergentes, sections inaccessibles |
-| apport de connaissance | Savoirs distinctifs potentiels, sans prétendre les avoir maîtrisés |
+| Identité | Établissement, programme, code, intitulé, édition et section connue |
+| Sources du cours | Notice, plan ou syllabus exact, date et qualité de preuve |
+| Apprentissages | Thèmes, mécanismes, œuvres, exercices et prérequis réellement attestés |
+| Sources complémentaires | Manuels, autres cours et références de pratique, explicitement distingués du syllabus cible |
+| Procédure d'analyse | Observables dans une œuvre existante, contexte nécessaire et cas ambigus |
+| Usage compositionnel | Paramètre musical travaillé, fonction recherchée et contraintes |
+| Exemple | MIDI pédagogique original si pertinent, partition/audio/autre preuve sinon |
+| Lacunes | Matière inconnue, sources inaccessibles, divergences ou validations manquantes |
 
-Une source inaccessible reste **inconnue**. Ne jamais inférer un syllabus du seul titre du cours ni confondre une liste de manuels avec les séances enseignées.
+Ne pas créer de seconde fiche pour raconter le même apprentissage. Les rapports bruts existants restent des sources; les procédures pédagogiques aboutissent dans les cours.
 
-### Statut `unresolved_pool` — uniquement familles musicales
+## Procédure d'approfondissement
 
-**Huit familles musicales** subsistent dans le registre, dont quatre niveaux
-de leçons privées (`PIxx`), les laboratoires instrumentaux (`ILxx`),
-les ensembles (`ENxx`) et les options de musique et société
-(`LMAS-xxx`, `AMAS-xxx`). Ne **pas** réintroduire les anciens codes
-génériques de sciences, d'histoire, de culture générale ou d'arts visuels.
-Le suivi courant est **203 cartes exploitables / 175 partielles /
-8 familles** sur 386 entrées. [Bilan](topic-outline-coverage-status.md).
+1. Lire la fiche, ses sources et ses exemples avant de choisir une lacune précise du TODO.
+2. Délimiter l'apprentissage effectivement enseigné. Une source du sujet peut l'expliquer sans prouver qu'un professeur particulier l'enseigne.
+3. Expliquer comment le reconnaître dans une œuvre : notes, voix, rythme, forme, audio, partition ou contexte selon le cas.
+4. Expliquer son emploi en composition et proposer un exemple ou contre-exemple original. Préserver les invariants d'une comparaison et nommer les paramètres modifiés.
+5. Produire un vrai MIDI uniquement si ses événements rendent le phénomène démontrable. Pour perception, acoustique, geste ou jeu réel, préciser la preuve supplémentaire au lieu de simuler une validation.
+6. Relire directement la source, les événements et les supports modifiés. Consigner audition et jouabilité comme inconnues sans données humaines.
+7. Actualiser le registre approprié et le TODO si une preuve le justifie; passer à un autre apprentissage sans régénérer les lots déjà disponibles.
 
-## Ingestion en lots plutôt que fiches longues pendant la recherche
+Les verdicts `MIDI_DIRECT`, `MIDI_PROXY`, `AUDIO_REQUIRED`, `CONTEXT_REQUIRED`, `NOT_MUSIC_ALGORITHM`, `UNKNOWN` sont définis dans le gabarit. Le drapeau `non_algorithmique` reste `null` lorsque la matière attestée ne permet pas de conclure.
 
-**Nouvelle règle de cadence :** traiter 10 à 30 cours/sources par passe dans
-une seule table docs/raw-batches. Les fiches individuelles sont la destination
-finale après l'ingestion, pas un obstacle à l'exploration. Chaque ligne donne
-le code, l'édition, le lien, la qualité de la source et la matière réellement
-enseignée. Conserver les inconnues et les contradictions.
+## Statuts de matière et de recherche
 
-Priorité : d'abord les 386 entrées musicales suivis (notamment catalog_only), puis les
-options à déplier, puis les autres cours académiques complémentaires. Un
-plan-cadre externe ne promeut aucun cours au statut syllabus obtenu.
-Les chiffres de PDF, de cours distincts et de vrais syllabus restent
-séparés. Aucun test ni travail sur la CI.
+- `topic_outline.state=usable_first_pass` : assez de thèmes précis pour une première carte, pas un syllabus complet garanti.
+- `topic_outline.state=partial` : matière insuffisante, section variable ou détail inconnu.
+- Le `status` historique du syllabus décrit le type de matière acquise; il n'est pas promu par un exemple pédagogique ou un manuel externe.
+- `topic_outline.public_research.state=completed_best_effort` : recherche publique close sur les sources examinées.
+- `blocked_external_evidence` : une pièce extérieure manque. Réouvrir seulement sur nouvelle preuve attribuable.
 
-## Procédure, cours par cours
+Le [suivi des 115 cartes partielles](remaining-115-course-evidence-queue-2026-11-11.md) est un inventaire de lacunes : 93 recherches closes, 22 bloquées, aucune recherche cyclique active. Une recherche terminée ne signifie pas une matière connue.
 
-1. **Fixer l'édition officielle** et explorer toutes les branches obligatoires, optionnelles, recommandées et complémentaires pertinentes.
-2. **Chercher le plan détaillé** auprès de l'établissement : page du cours, syllabus public, calendrier pédagogique, objectifs, références ou exercices autorisés.
-3. **Comparer les versions**, relever les lacunes, accès restreints et différences de contenu ; les compléments secondaires sont étiquetés comme tels.
-4. **Découper chaque matière obtenue** en résultats d'apprentissage, chapitres, concepts, techniques, exercices et exemples, avec citations vérifiables.
-5. **Vérifier chaque choix** et chaque section ; ne jamais exclure un cours parce que son intitulé ressemble à un autre.
-6. **Enregistrer les preuves et les inconnues**, mettre à jour [le TODO](todo-university-coverage.md), puis passer au cours suivant.
-7. **Ne développer aucun analyseur** pendant cette phase.
+## Nouvelles sources, options et cours voisins
 
-### Boucle de travail obligatoire pour tout agent reprenant le projet
+Vérifier le [périmètre musical](music-only-scope.md), puis l'établissement, le code, l'édition et la nature du support. Une notice officielle reste `official_catalogue` même si elle est détaillée. Les œuvres, séances et chapitres non nommés ne sont pas inventés.
 
-1. Lire le registre et reprendre au **premier cours dont la matière est
-   incomplète**. L'ordre conseillé privilégie les matières obligatoires,
-   mais aucun cours optionnel pertinent ne sera abandonné.
-2. Rechercher **systématiquement plusieurs sources** de contenu réel :
-   syllabus institutionnel, page du cours, objectifs, calendrier, lectures,
-   exercices, documents publics autorisés. Ne pas transformer le premier
-   résultat de recherche en preuve d'exhaustivité.
-3. Rédiger sa fiche dans un dossier de matières du programme, en citant les
-   sections effectivement disponibles et les parties encore inconnues.
-   Une fiche peut être partielle et doit le dire clairement.
-4. Actualiser l'état du cours dans le registre. Ne marquer « syllabus obtenu »
-   que si une vraie source de cours a été examinée et citée. Une fiche de
-   catalogue reste « catalogue seulement ».
-5. Passer au cours suivant ; **ne pas demander confirmation à chaque étape**.
-   Si l'accès échoue, noter le blocage et changer de cours plutôt que
-   prétendre que la couverture est terminée.
+Les huit familles `unresolved_pool` désignent des choix musicaux : quatre niveaux de leçons privées, labs, ensembles et options de musique/société. Étudier des codes réels sans transformer les alternatives en cours obligatoires ou reprendre les familles non musicales écartées.
 
-**Travail purement documentaire :** aucune implémentation d'algorithme,
-aucun benchmark, aucune expérimentation de composition ni test logiciel
-n'est une condition de progrès pendant cette phase. Le contrôle automatique
-des liens et des statuts sert seulement à éviter des omissions de suivi.
+Lors d'une acquisition de sources nouvelle et substantielle, une table de provenance sous `docs/raw-batches/` peut regrouper plusieurs cours. Séparer PDF obtenus, codes examinés, vrais syllabus et lacunes. Ne pas additionner leurs compteurs comme des compétences acquises.
 
-### Contenu minimum d'une fiche rédigée
+## Limites du travail
 
-- **Cours et édition :** identifiant, année, statut et source du catalogue.
-- **Sources pédagogiques obtenues :** liens autorisés, titre, auteur ou
-  département, date, sections consultées et restriction de reproduction.
-- **Plan réel :** résultats d'apprentissage, chapitres, lectures et
-  exercices, chacun lié à la source correspondante.
-- **Exemples et contexte :** œuvres et styles mentionnés, conventions
-  spécifiques, différences éventuelles entre versions.
-- **Ce qui manque :** séances, textes, exercices ou pages non accessibles,
-  statut de vérification, pistes licites pour compléter le contenu.
-- **Prochaine action :** source exacte à consulter ou autre cours à traiter.
-
-Les **résumés sont rédigés de manière originale** : ne pas recopier
-longuement des plans de cours sous droit d'auteur. Le statut du registre
-reste **catalog_only** tant que la matière obtenue n'est pas sourcée.
-
-Si un syllabus est non redistribuable ou soumis à accès restreint, consigner sa provenance et son état ; ne jamais contourner les restrictions ni importer des documents protégés sans autorisation.
-
-## Porte avant la base de concepts
-
-- Tous les cours et options pertinentes ont été recensés, y compris ceux cachés derrière des réserves de crédits.
-- Chaque cours dispose d'une matière détaillée sourcée **ou d'une lacune explicite bloquant toute déclaration d'exhaustivité**.
-- Les chapitres, lectures, exercices, exemples et variantes réellement disponibles sont structurés avec leur provenance.
-- Les exclusions sont justifiées par comparaison de savoirs, pas par commodité.
-- La couverture a été vérifiée et **Léon autorise explicitement** le passage à la réconciliation des concepts.
-
-Une fiche « description seule » ne clôt pas un cours. Les exigences de détection MIDI et de composition restent verrouillées.
+Les fiches et les corpus alimentent une compréhension à construire; ils ne constituent pas un analyseur complet. Aucun développement de moteur, test, benchmark ni travail de CI n'est requis ou autorisé par cette méthode. La composition générative de production reste verrouillée; les exemples pédagogiques ponctuels sont autorisés.
