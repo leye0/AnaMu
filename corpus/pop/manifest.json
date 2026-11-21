@@ -1,0 +1,361 @@
+{
+  "schema_version": 2,
+  "acquired_on": "2026-11-21",
+  "scope": "billboard_artist_pop_candidates_2011_2026",
+  "selection": {
+    "chart": "Billboard Hot 100",
+    "period_start": "2011-01-01",
+    "period_end": "2026-11-21",
+    "artist_max_rank": 10,
+    "song_priorities": [
+      5,
+      10
+    ],
+    "catalogue_extension": true,
+    "chart_evidence_quality": "third_party_mirror_exact_title_and_credit_match_not_independently_audited",
+    "release_period": "first_chart_observation_or_lyrics_source_year; independent_release_check_pending",
+    "genre": "popular_chart_music_candidates; pop_vs_rap_country_rock_review_pending"
+  },
+  "source_revisions": {
+    "lyrics_midi_dataset": "371cbd7289030f997c7d5912f57f0f003ff68de5",
+    "charts_mirror": "c4c17ec86ee594853e1b917332817f28af177665"
+  },
+  "summary": {
+    "target_distinct_complete_pop_songs": 2000,
+    "distinct_song_identities_acquired": 1331,
+    "with_multichannel_structure": 1051,
+    "with_embedded_lyrics_export": 459,
+    "with_source_label_vocal_candidates": 71,
+    "complete_for_target": 0,
+    "source_song_top5": 292,
+    "source_song_top10_including_top5": 440,
+    "source_artist_catalogue_other": 891,
+    "exact_duplicate_midi_candidates_skipped": 0,
+    "failed_or_empty_candidates": 22,
+    "artists_credit_strings": 429,
+    "rejected": {
+      "clean_historical_chart_before_2011": 4
+    },
+    "grouped_credit_or_Taylor_version_variants": 21,
+    "source_tag_pop": 566,
+    "source_tag_other_style": 132,
+    "genre_unknown": 633,
+    "quarantined_conflicting_song_pairs": 2
+  },
+  "failures": [
+    {
+      "work_key": "50waystosaygoodbye--train",
+      "member": "MIDIs and Lyrics/Deduped/50 Ways To Say Goodbye --- Train --- 7ea4b5acf0c42771eff5c9ca8ee34621.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "7minutedrill--jcole",
+      "member": "MIDIs and Lyrics/Deduped/7 Minute Drill --- J. Cole --- 6a541b867fff6bbb816db511ab936279.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "bestsongever--onedirection",
+      "member": "MIDIs and Lyrics/Deduped/Best Song Ever --- One Direction --- 9d0f4b1eed873865f0484b424f0d6311.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "dogtooth--tylerthecreator",
+      "member": "MIDIs and Lyrics/Deduped/Dogtooth --- Tyler, The Creator --- c4efeb209d8d6069ab773dc33e77faac.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "hair--ladygaga",
+      "member": "MIDIs and Lyrics/Deduped/Hair --- Lady Gaga --- acc64a368d13f230b457ddc17ea15b9c.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "ithoughtaboutkillingyou--kanyewest",
+      "member": "MIDIs and Lyrics/Deduped/I Thought About Killing You --- Kanye West --- 29ab4fc748c283abe99534ff291b11e8.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "myeyes--travisscott",
+      "member": "MIDIs and Lyrics/Deduped/My Eyes --- Travis Scott --- 132e93452d69aa273c8e436b75bc3ed0.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "permissiontodance--bts",
+      "member": "MIDIs and Lyrics/Deduped/Permission To Dance --- Bts --- bde3a1410ce6d53d208f0ba48cfd4a6a.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "sickomode--travisscott",
+      "member": "MIDIs and Lyrics/Deduped/Sicko Mode --- Travis Scott --- 96e4cdd16e77dd9b0e31ce9e0c4512c8.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "skeletons--travisscott",
+      "member": "MIDIs and Lyrics/Deduped/Skeletons --- Travis Scott --- da9954b637eed2e974f66671c11aa4bf.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "stargazing--travisscott",
+      "member": "MIDIs and Lyrics/Deduped/Stargazing --- Travis Scott --- 3fc3fddb9c6491f9ef3c6eaefa9f37da.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "sunroof--nickyyouredazy",
+      "member": "MIDIs and Lyrics/Deduped/Sunroof --- Nicky Youre --- 99eb958c3fa979e6ea70edbeecf22f78.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "7minutedrill--jcole",
+      "member": "MIDIs and Lyrics/Deduped/7 Minute Drill --- J. Cole --- 6a541b867fff6bbb816db511ab936279.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "dogtooth--tylerthecreator",
+      "member": "MIDIs and Lyrics/Deduped/Dogtooth --- Tyler, The Creator --- c4efeb209d8d6069ab773dc33e77faac.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "ithoughtaboutkillingyou--kanyewest",
+      "member": "MIDIs and Lyrics/Deduped/I Thought About Killing You --- Kanye West --- 29ab4fc748c283abe99534ff291b11e8.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "myeyes--travisscott",
+      "member": "MIDIs and Lyrics/Deduped/My Eyes --- Travis Scott --- 132e93452d69aa273c8e436b75bc3ed0.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "permissiontodance--bts",
+      "member": "MIDIs and Lyrics/Deduped/Permission To Dance --- Bts --- bde3a1410ce6d53d208f0ba48cfd4a6a.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "saturn--sza",
+      "member": "MIDIs and Lyrics/Raw/Sourdough Small/Saturn --- Sza --- 5596f8a668dbb8623fc1f40cde2ecd35.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "sickomode--travisscott",
+      "member": "MIDIs and Lyrics/Deduped/Sicko Mode --- Travis Scott --- 96e4cdd16e77dd9b0e31ce9e0c4512c8.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "skeletons--travisscott",
+      "member": "MIDIs and Lyrics/Deduped/Skeletons --- Travis Scott --- da9954b637eed2e974f66671c11aa4bf.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "stargazing--travisscott",
+      "member": "MIDIs and Lyrics/Deduped/Stargazing --- Travis Scott --- 3fc3fddb9c6491f9ef3c6eaefa9f37da.mid",
+      "reason": "data byte must be in range 0..127"
+    },
+    {
+      "work_key": "sunroof--nickyyouredazy",
+      "member": "MIDIs and Lyrics/Deduped/Sunroof --- Nicky Youre --- 99eb958c3fa979e6ea70edbeecf22f78.mid",
+      "reason": "data byte must be in range 0..127"
+    }
+  ],
+  "quarantine": [
+    {
+      "id": "meantaylorsversion-79342db5133a",
+      "declared_title": "Mean (Taylor's Version)",
+      "artist": "Taylor Swift",
+      "midi_sha256": "321623f64d9429f5c1bf98276b422d9f0ee6c64c0a909513d9775b0dabc876a1",
+      "source": {
+        "source": "lyrics-midi-main",
+        "midi_member": "MIDIs and Lyrics/Raw/Meta MIDI/Mean (Taylor'S Version) --- Taylor Swift --- 8563da05d029da6b3cd5690a3be3e5f0.mid",
+        "lyrics_member": "MIDIs and Lyrics/Raw/Meta MIDI/Mean (Taylor'S Version) --- Taylor Swift --- 8563da05d029da6b3cd5690a3be3e5f0.txt",
+        "source_title": "Mean (Taylor'S Version)",
+        "source_artist": "Taylor Swift"
+      },
+      "reason": "Source MIDI track is explicitly named ME! - TAYLOR SWIFT ft BRENDON URIE; conflicting song pairing excluded."
+    },
+    {
+      "id": "minetaylorsversion-0c38c4256939",
+      "declared_title": "Mine (Taylor's Version)",
+      "artist": "Taylor Swift",
+      "midi_sha256": "321623f64d9429f5c1bf98276b422d9f0ee6c64c0a909513d9775b0dabc876a1",
+      "source": {
+        "source": "lyrics-midi-main",
+        "midi_member": "MIDIs and Lyrics/Raw/Meta MIDI/Mine (Taylor'S Version) --- Taylor Swift --- a3a56561c5200c42f161be551e846be0.mid",
+        "lyrics_member": "MIDIs and Lyrics/Raw/Meta MIDI/Mine (Taylor'S Version) --- Taylor Swift --- a3a56561c5200c42f161be551e846be0.txt",
+        "source_title": "Mine (Taylor'S Version)",
+        "source_artist": "Taylor Swift"
+      },
+      "reason": "Source MIDI track is explicitly named ME! - TAYLOR SWIFT ft BRENDON URIE; conflicting song pairing excluded."
+    }
+  ],
+  "entry_shards": [
+    {
+      "path": "entries/000.json.gz",
+      "entries": 50,
+      "sha256": "0357be79a907c44daa720cb179808e89fd06727d9c4aef977c78f723423cae25"
+    },
+    {
+      "path": "entries/001.json.gz",
+      "entries": 50,
+      "sha256": "6b995215d8defedd52817180621e8448c047b1f58f560f327dc62f9d4c91ed68"
+    },
+    {
+      "path": "entries/002.json.gz",
+      "entries": 50,
+      "sha256": "2df254d7eacc43a4d2ad35fec4511f79781563c2e0b0b0684ae60d49f3a1f327"
+    },
+    {
+      "path": "entries/003.json.gz",
+      "entries": 50,
+      "sha256": "99b320d562751e9d85b0509cb2c2edd45293559acfbd837f219da407b992d239"
+    },
+    {
+      "path": "entries/004.json.gz",
+      "entries": 50,
+      "sha256": "6ce170d44c289345d9637105a7c0076372c91693834a519b279d56fc67545350"
+    },
+    {
+      "path": "entries/005.json.gz",
+      "entries": 50,
+      "sha256": "50a1fd6c4879a7b6740296a72ac06b06a45651514e28dd528b76f9055b2a5333"
+    },
+    {
+      "path": "entries/006.json.gz",
+      "entries": 50,
+      "sha256": "f073e93eeb3bfc5543114f824ea636a837086f8a71eb22a27ee13f1f67d3a927"
+    },
+    {
+      "path": "entries/007.json.gz",
+      "entries": 50,
+      "sha256": "45bc7f79b59793fa360e870963dbec100c9648e4e34003e256431fbc2c1cf717"
+    },
+    {
+      "path": "entries/008.json.gz",
+      "entries": 50,
+      "sha256": "ce091b74943df3e2f8e5011e679338d47c580181c390c9d5dd9958508ea60d1c"
+    },
+    {
+      "path": "entries/009.json.gz",
+      "entries": 50,
+      "sha256": "1d958b9bf9c9d1731519168b464edf10639105dfbcd7ec65e6e6146e3b1a8837"
+    },
+    {
+      "path": "entries/010.json.gz",
+      "entries": 50,
+      "sha256": "0697596bed51fa1428c4921ea40b46043e98c6dbfebaa7111613ece0f63c9ed6"
+    },
+    {
+      "path": "entries/011.json.gz",
+      "entries": 50,
+      "sha256": "e0668c30f7ebd2ec5c712c5f5a6fb6cc5d11a94faa75dfc74e106a496aaaa9e8"
+    },
+    {
+      "path": "entries/012.json.gz",
+      "entries": 50,
+      "sha256": "d3bfa3e769564e7c88cc32baabfc836de24481c777dd6651f1ad9631827a187c"
+    },
+    {
+      "path": "entries/013.json.gz",
+      "entries": 50,
+      "sha256": "dd7892b833944af10a671c89d7cb97e73bad29bd03f7c01ed2af21033b939989"
+    },
+    {
+      "path": "entries/014.json.gz",
+      "entries": 50,
+      "sha256": "3285593f1bec29df2425ee506fb0f588935996b3af6fa75a10c171eea648e4c8"
+    },
+    {
+      "path": "entries/015.json.gz",
+      "entries": 50,
+      "sha256": "963cc068dd4dc75e836e0c31bc2d806ddaed5666c93a8e613bfcaee97f87866f"
+    },
+    {
+      "path": "entries/016.json.gz",
+      "entries": 50,
+      "sha256": "0be1cbd544de76ff273871b4898682675a2c017c75af089f6595dc0ab4c65eea"
+    },
+    {
+      "path": "entries/017.json.gz",
+      "entries": 50,
+      "sha256": "cabe630305784d4181ee16bc9585ed4df23b4a9224dcf7a1af88be6236e571b1"
+    },
+    {
+      "path": "entries/018.json.gz",
+      "entries": 50,
+      "sha256": "dcc68b4b32813e3aa1c46d77cd2b07665f78abab35ba8f71563bc8d72de52f39"
+    },
+    {
+      "path": "entries/019.json.gz",
+      "entries": 50,
+      "sha256": "56d5f845512b82fe1af815df273e40bc933217f2a87a8690e95e2dee9f96e368"
+    },
+    {
+      "path": "entries/020.json.gz",
+      "entries": 50,
+      "sha256": "6fb6f8f4a9a41b733aff4bf028f55bc9b9ab249d6328e1ff914552573e7880d2"
+    },
+    {
+      "path": "entries/021.json.gz",
+      "entries": 50,
+      "sha256": "d3c9682d797e4a739cc8cacfcf577bc2671fbc9e5368ecbe53735948b0eb41aa"
+    },
+    {
+      "path": "entries/022.json.gz",
+      "entries": 50,
+      "sha256": "128fcc8c7bf2da6843bb6f1ead98d8037e4d3afa5a350a4d297120f463748c2c"
+    },
+    {
+      "path": "entries/023.json.gz",
+      "entries": 50,
+      "sha256": "1cd59a0d9900a2109c26cad0eb9a7d9eef4342d654b6c7dd5474e9f543937204"
+    },
+    {
+      "path": "entries/024.json.gz",
+      "entries": 50,
+      "sha256": "853963154c3c731ce79707015749cb2328aefa63ae05c7bc79f122d238bf06f8"
+    },
+    {
+      "path": "entries/025.json.gz",
+      "entries": 50,
+      "sha256": "df9ab06ef3b75893c0a04a2e868b5c5cf05f69accafeee6706f5cde1d23c4427"
+    },
+    {
+      "path": "entries/026.json.gz",
+      "entries": 31,
+      "sha256": "27567f4a82942fde6aeee105a0c45c41a488cea380deb09b6cfe054ac5d303b0"
+    }
+  ],
+  "source_member_shards": [
+    {
+      "path": "source-members/000.json.gz",
+      "members": 300,
+      "sha256": "f3d50585ef9291ab9f017b40557a64e66ae5cea0ba982225f7c6e2bdfe7d9f24"
+    },
+    {
+      "path": "source-members/001.json.gz",
+      "members": 300,
+      "sha256": "929b9cbbf05deff2baff6c82cfeed1cb6cb18eacdbdbce0f04494657e8bba16c"
+    },
+    {
+      "path": "source-members/002.json.gz",
+      "members": 300,
+      "sha256": "5fb12de0f6d04cbc29bc43e0a20c00b86a8b02e2308f37d488cad2bd6c3e5014"
+    },
+    {
+      "path": "source-members/003.json.gz",
+      "members": 300,
+      "sha256": "c8412a8f9e1918bdc90fa86e0e67ee3c8e812ecc332343e38cb37169fc035e8d"
+    },
+    {
+      "path": "source-members/004.json.gz",
+      "members": 300,
+      "sha256": "d7711133d7fc7b83979e1c6bf7c5e3bdd92fa5eec317abda207635bdc7d7e1db"
+    },
+    {
+      "path": "source-members/005.json.gz",
+      "members": 300,
+      "sha256": "3570edeaa9d2c78997c1b08c1aa6a79f1691e97f3b5987df94daf6ce2dee8aca"
+    },
+    {
+      "path": "source-members/006.json.gz",
+      "members": 2,
+      "sha256": "e7f2ea6e86514cd6a38a7a3985506d0100730851575eb2c47406ac4bd61937e6"
+    }
+  ]
+}
