@@ -14,13 +14,17 @@ AnaMu rassemble les connaissances de programmes universitaires de composition po
 
 L'[état courant](docs/STATUS.md) distingue les premières évaluations, la couverture des sources, les exemples et les validations encore absentes. Il est la référence des compteurs du projet.
 
+## Volet indépendant d’analyse
+
+Le [volet `analysis/`](analysis/README.md) met en commun tous les cours et sources et commence un moteur d’analyse de morceau. Il distingue les documents indexés, les concepts réellement rapprochés et les mécanismes implémentés. Les cours, leur site et les corpus restent ses entrées en lecture seule.
+
 ## Travail courant
 
 Approfondir les apprentissages réellement documentés **cours par cours** : les reconnaître dans une musique existante, expliquer leur usage en composition et créer un exemple MIDI quand ce support peut les démontrer. Les [procédures](docs/course-material-collection.md) et le [TODO unique](docs/todo-university-coverage.md) guident ce travail. L'acquisition d'œuvres se poursuit en parallèle.
 
 Une fiche, un exemple ou une première évaluation ne signifie pas que tout le syllabus du cours est couvert. Les lacunes des sources restent explicites. Les recherches publiques déjà clôturées ne sont pas relancées sans preuve nouvelle.
 
-La base de concepts unifiés et un analyseur musical complet restent à construire; la composition générative de production demeure verrouillée. Les MIDI pédagogiques originaux et les œuvres acquises ont des rôles et des provenances distincts.
+Le volet indépendant amorce la base de concepts communs et le moteur; l’intégration complète des connaissances reste à construire; la composition générative de production demeure verrouillée. Les MIDI pédagogiques originaux et les œuvres acquises ont des rôles et des provenances distincts.
 
 ## Repères
 

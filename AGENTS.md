@@ -4,11 +4,13 @@
 
 Construire une **base unifiée de connaissances musicales** à partir de plusieurs **programmes universitaires** de composition, cours obligatoires, **optionnels** et enseignements voisins pertinents compris. Ces connaissances doivent permettre d'**analyser** et d'expliquer des œuvres, puis éventuellement de **composer** après une décision dédiée.
 
-Le projet contient trois ensembles complémentaires :
+Le projet contient trois ensembles de sources et un volet d’analyse indépendant :
 
 - `docs/courses/<établissement>/<code>.md` : apprentissages sourcés, procédures d'analyse et de réinvestissement en composition. Les MIDI, audio et partitions sont dans le dossier `<code>/` du cours.
 - `site/` et `scripts/build_course_site.py` : présentation web des fiches et de leurs exemples.
 - `corpus/` : œuvres acquises pour l'étude, distinctes des exemples pédagogiques. [Opéra](corpus/opera/README.md) et [pop/Billboard](corpus/pop/README.md) sont intégrés. Pour la pop, le catalogue et la réacquisition sont dans le dépôt; les MIDI et paroles acquis ont été remis en paquet privé.
+
+- `analysis/` : [mise en commun des connaissances et premier moteur d’analyse](analysis/README.md), autorisés explicitement par Léon le 21 novembre 2026. Les entrées des autres volets restent en lecture seule.
 
 ## Documents de référence
 
@@ -42,7 +44,7 @@ L'acquisition de corpus peut se poursuivre en parallèle : MIDI originaux acquis
 
 ## Limites de phase
 
-**Aucun développement d'analyseur musical, de moteur de composition ni d'expérimentation logicielle n'est autorisé par une simple reprise documentaire.** Les portes **L01–L05** restent fermées pour la composition générative de production.
+**Le développement du volet d’analyse indépendant `analysis/` est explicitement autorisé.** Voir ses [consignes propres](analysis/AGENTS.md). En dehors de ce volet, une simple reprise documentaire n’autorise pas de moteur ni d’expérimentation logicielle. Les portes **L01–L05** restent fermées pour la composition générative de production.
 
 **Ne pas créer, modifier ou exécuter de tests unitaires**, d'intégration ou de non-régression pendant ce travail. Ne pas modifier les validateurs, la CI ou les workflows pour faire passer une collecte au vert. Une exception exige une demande explicite visant ces travaux. Les contrôles documentaires existants ne prouvent aucune compétence musicale.
 

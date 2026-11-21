@@ -75,6 +75,10 @@ Utiliser le [gabarit](COURSE_ANALYSIS_TEMPLATE.md) dans la fiche existante du co
 
 Les 44 mécanismes généraux documentés en [deux lots](subject-research/) sont des références complémentaires, pas une nouvelle file à substituer aux cours.
 
+## Volet indépendant de mise en commun et d’analyse
+
+Le [volet `analysis/`](../analysis/README.md) est autorisé depuis le 21 novembre 2026. Il lit toutes les fiches et sources, conserve leur provenance et commence le rapprochement des apprentissages en concepts et mécanismes d’analyse. Sa [couverture propre](../analysis/knowledge/coverage.json) distingue indexation, rapprochement sémantique et implantation; elle ne promeut pas les compteurs universitaires. Les cours, le site et les corpus ne sont pas modifiés par ses exécutions.
+
 ## Verrous toujours en vigueur
 
-Aucun moteur d'analyse ou de composition automatique n'est opérationnel ou autorisé par ces travaux. La réconciliation définitive des concepts et la composition de production restent soumises à décision et aux portes L01–L05 du TODO. Aucun test ni travail sur la CI n'est ouvert par une collecte ou une rédaction pédagogique.
+Le premier moteur limité du volet indépendant est autorisé; il ne constitue pas une analyse complète des œuvres ou l’intégration de toutes les connaissances. Aucun moteur de composition automatique n’est autorisé par ces travaux. La réconciliation définitive des concepts et la composition de production restent soumises à décision et aux portes L01–L05 du TODO. Aucun test ni travail sur la CI n'est ouvert par une collecte ou une rédaction pédagogique.

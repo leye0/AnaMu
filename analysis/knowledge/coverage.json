@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "source_fingerprint": "6fcb32c88194f8713d9e8bd8b1401c99d2891ab32c84f2910e9ebbb7eb4b24bf",
+  "coverage": {
+    "course_documents_discovered": 424,
+    "course_documents_indexed": 424,
+    "unique_course_identities": 419,
+    "registered_course_documents": 378,
+    "additional_documents_of_registered_courses": 5,
+    "supplementary_course_documents": 41,
+    "shared_documents": 76,
+    "source_fragments": 4416,
+    "structured_source_documents": 30,
+    "choice_families": 8,
+    "curated_concepts": 25,
+    "course_documents_with_curated_links": 21,
+    "course_documents_fully_semantically_integrated": 0
+  },
+  "institutions": {
+    "berklee": 135,
+    "berklee-online": 21,
+    "mcgill": 63,
+    "mit": 3,
+    "udem": 185,
+    "udem-supplementary": 17
+  },
+  "choice_families": [
+    {
+      "institution": "berklee",
+      "code": "PIxx-111",
+      "state": "unresolved_choice_family_not_an_individual_course"
+    },
+    {
+      "institution": "berklee",
+      "code": "PIxx-112",
+      "state": "unresolved_choice_family_not_an_individual_course"
+    },
+    {
+      "institution": "berklee",
+      "code": "PIxx-211",
+      "state": "unresolved_choice_family_not_an_individual_course"
+    },
+    {
+      "institution": "berklee",
+      "code": "PIxx-212",
+      "state": "unresolved_choice_family_not_an_individual_course"
+    },
+    {
+      "institution": "berklee",
+      "code": "ILxx",
+      "state": "unresolved_choice_family_not_an_individual_course"
+    },
+    {
+      "institution": "berklee",
+      "code": "ENxx",
+      "state": "unresolved_choice_family_not_an_individual_course"
+    },
+    {
+      "institution": "berklee",
+      "code": "LMAS-xxx",
+      "state": "unresolved_choice_family_not_an_individual_course"
+    },
+    {
+      "institution": "berklee",
+      "code": "AMAS-xxx",
+      "state": "unresolved_choice_family_not_an_individual_course"
+    }
+  ],
+  "multiple_documents_per_course": {
+    "mcgill:MUCO 261": [
+      "docs/courses/mcgill/MUCO 261.md",
+      "docs/courses/mcgill/MUCO-261.md"
+    ],
+    "mcgill:MUCO 360": [
+      "docs/courses/mcgill/MUCO 360.md",
+      "docs/courses/mcgill/MUCO-360.md"
+    ],
+    "mcgill:MUCO 460": [
+      "docs/courses/mcgill/MUCO 460.md",
+      "docs/courses/mcgill/MUCO-460.md"
+    ],
+    "mcgill:MUTH 202": [
+      "docs/courses/mcgill/MUTH 202.md",
+      "docs/courses/mcgill/MUTH-202.md"
+    ],
+    "mcgill:MUTH 204": [
+      "docs/courses/mcgill/MUTH 204.md",
+      "docs/courses/mcgill/MUTH-204.md"
+    ]
+  },
+  "contract": "All course text indexed losslessly; indexed fragments are not automatically reconciled knowledge or implemented detectors."
+}

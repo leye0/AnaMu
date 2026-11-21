@@ -2,6 +2,10 @@
 
 Les [consignes de reprise](../AGENTS.md), l'[état courant](STATUS.md) et le [TODO unique](todo-university-coverage.md) définissent le travail en cours. Les inventaires et lots de sources ci-dessous conservent la provenance; leurs anciens bilans ne sont pas des instructions actives.
 
+## Volet indépendant d’analyse
+
+[Mise en commun de tous les cours et premier moteur](../analysis/README.md) · [couverture des sources et de l’intégration](../analysis/knowledge/coverage.json). Ce volet logiciel est séparé des travaux pédagogiques et ne change pas leurs statuts.
+
 ## Cours, exemples et présentation
 
 - [Fiches par établissement](courses/) et [gabarit d'analyse/création](COURSE_ANALYSIS_TEMPLATE.md).
