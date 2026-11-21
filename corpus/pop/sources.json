@@ -1,0 +1,40 @@
+{
+  "checked_on": "2026-11-21",
+  "dataset_creator": "Alex Sigalov / Project Los Angeles",
+  "dataset_card": "https://huggingface.co/datasets/asigalov61/Lyrics-MIDI-Dataset",
+  "dataset_revision": "371cbd7289030f997c7d5912f57f0f003ff68de5",
+  "upstream_declared_license": "CC-BY-NC-SA-4.0",
+  "rights_scope": "Upstream compilation license declaration recorded; underlying composition, lyrics and transcription rights not independently cleared. Public Git metadata only; acquired payloads delivered privately.",
+  "main_archive": {
+    "filename": "Lyrics-MIDI-Dataset-CC-BY-NC-SA.zip",
+    "download_url": "https://huggingface.co/datasets/asigalov61/Lyrics-MIDI-Dataset/resolve/371cbd7289030f997c7d5912f57f0f003ff68de5/Lyrics-MIDI-Dataset-CC-BY-NC-SA.zip",
+    "bytes": 7630902207,
+    "sha256_declared_by_host": "57bbcafb41900e548111af768ab31cda9d252a7ac53669733fa5d55b42dea081",
+    "whole_archive_downloaded": false,
+    "retrieval": "central_directory_and_selected_byte_ranges; member CRC32 and local file SHA256 checked"
+  },
+  "clean_archive": {
+    "filename": "Lyrics-MIDI-Genius-Cleaned-Subset-CC-BY-NC-SA.zip",
+    "download_url": "https://huggingface.co/datasets/asigalov61/Lyrics-MIDI-Dataset/resolve/371cbd7289030f997c7d5912f57f0f003ff68de5/Lyrics-MIDI-Genius-Cleaned-Subset-CC-BY-NC-SA.zip",
+    "bytes": 169320360,
+    "sha256": "9e7e692c5753c0aa87c427b3ba97b685a085bd975781e0c7ce75c24dacab17ce"
+  },
+  "chart_mirror": {
+    "repository": "https://github.com/mhollingshead/billboard-hot-100",
+    "revision": "c4c17ec86ee594853e1b917332817f28af177665",
+    "download_url": "https://raw.githubusercontent.com/mhollingshead/billboard-hot-100/c4c17ec86ee594853e1b917332817f28af177665/all.json",
+    "download_sha256": "acbb01577488438b88f84b690d0690857ca5eecd8a73c0bf797e093854473e92",
+    "primary_chart_url_template": "https://www.billboard.com/charts/hot-100/{date}/",
+    "verification": "third_party_mirror; not primary-source audited"
+  },
+  "other_sources_reviewed": [
+    {
+      "url": "https://www.cprato.com/en/midi/genre/pop",
+      "status": "supplementary_source_not_acquired_in_this_pass"
+    },
+    {
+      "url": "https://international-midi-files.com/midi-karaoke",
+      "status": "supplementary_source_not_acquired_in_this_pass"
+    }
+  ]
+}

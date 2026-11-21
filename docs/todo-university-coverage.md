@@ -1,5 +1,20 @@
 # AnaMu — TODO de couverture universitaire exhaustive
 
+## Corpus pop gratuit — 21 novembre 2026
+
+- [x] [Premier lot acquis : 1331 identités MIDI–paroles](../corpus/pop/README.md), sources figées, inventaires et empreintes; paquet privé et catalogue public réacquérable.
+- [x] 459 exports des événements de paroles MIDI sources; pas d'alignement inventé.
+- [x] 440 titres associés au top 10, dont 292 au top 5, dans un miroir du Hot 100; preuves secondaires conservées.
+- [ ] Vérifier le genre pop et les dates originales; ne pas confondre réédition ou première entrée au classement avec date de sortie.
+- [ ] Établir la partie chantée : 71 indications sources à canal unique sont des candidates, aucune extraction vocale certifiée.
+- [ ] Relire le texte, les versions, reprises et appariements notes–syllabes; garder les associations amont comme telles.
+- [ ] Compléter ou remplacer les MIDI à instrumentation insuffisante; relire les regroupements d'identités et les cas invalides consignés.
+- [ ] Vérifier les preuves de classement primaires lorsque nécessaires; la correspondance actuelle vient d'un miroir tiers.
+- [ ] Atteindre **2 000 chansons distinctes complètes**, gratuitement, sans compter les variantes, candidats incomplets ni genres hors périmètre.
+
+Ce chantier parallèle ne promeut aucun cours et n'active ni moteur, tests ni workflow.
+
+
 ## Corpus parallèle d’opéras — extension du 19 novembre 2026
 
 - [x] [439 couples MIDI–paroles, 30 opéras et 11 compositeurs](../corpus/opera/README.md), 46 éditions sources, dont 333 nouvelles entrées.
