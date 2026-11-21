@@ -1,0 +1,106 @@
+{
+  "knowledge_source_fingerprint": "6fcb32c88194f8713d9e8bd8b1401c99d2891ab32c84f2910e9ebbb7eb4b24bf",
+  "runs": [
+    {
+      "name": "harmony",
+      "input": "docs/courses/mcgill/MUTH-251/exemple.mid",
+      "midi_profile": "gm1",
+      "input_sha256": "1740763b6f44610bc1c458d55362d5fbb2d43fc99b359e4486d939a5f60e98d2",
+      "summary": {
+        "note_attacks": 22,
+        "observations": 9,
+        "concept_states": {
+          "documented_not_implemented": 16,
+          "limited_observations_available": 8,
+          "mechanism_ran_no_matching_observation": 1
+        },
+        "course_documents_indexed": 424,
+        "course_documents_fully_integrated": 0,
+        "complete_piece_analysis": false
+      },
+      "report_json_gzip": "harmony.json.gz",
+      "report_markdown": "harmony.md"
+    },
+    {
+      "name": "pedal",
+      "input": "docs/courses/berklee/CM-343/vibraphone-cc64-noteoffs-invariants.mid",
+      "midi_profile": "gm1",
+      "input_sha256": "43b992c660dac8e8fac2ba253d5c9e00aaac0c76937c5cfeddb931e746264ad1",
+      "summary": {
+        "note_attacks": 24,
+        "observations": 38,
+        "concept_states": {
+          "documented_not_implemented": 16,
+          "limited_observations_available": 7,
+          "mechanism_ran_no_matching_observation": 2
+        },
+        "course_documents_indexed": 424,
+        "course_documents_fully_integrated": 0,
+        "complete_piece_analysis": false
+      },
+      "report_json_gzip": "pedal.json.gz",
+      "report_markdown": "pedal.md"
+    },
+    {
+      "name": "rhythm",
+      "input": "docs/courses/berklee-online/OMPRD-386/quantization-groove-quatre-variables.mid",
+      "midi_profile": "gm1",
+      "input_sha256": "29b0b43fa8fa5ffe818afbc4cab1dd203629924e42741d1836017107ed356b0f",
+      "summary": {
+        "note_attacks": 192,
+        "observations": 16,
+        "concept_states": {
+          "documented_not_implemented": 16,
+          "limited_observations_available": 5,
+          "mechanism_ran_no_matching_observation": 4
+        },
+        "course_documents_indexed": 424,
+        "course_documents_fully_integrated": 0,
+        "complete_piece_analysis": false
+      },
+      "report_json_gzip": "rhythm.json.gz",
+      "report_markdown": "rhythm.md"
+    },
+    {
+      "name": "undeclared",
+      "input": "docs/courses/berklee/CM-211/exemple.mid",
+      "midi_profile": "unknown",
+      "input_sha256": "1fe292d38cb2d417e4f1fd1a5cbba577c6e258d288bde050506a1967232b4d6f",
+      "summary": {
+        "note_attacks": 16,
+        "observations": 4,
+        "concept_states": {
+          "blocked_detector_contract": 4,
+          "documented_not_implemented": 16,
+          "limited_observations_available": 4,
+          "mechanism_ran_no_matching_observation": 1
+        },
+        "course_documents_indexed": 424,
+        "course_documents_fully_integrated": 0,
+        "complete_piece_analysis": false
+      },
+      "report_json_gzip": "undeclared.json.gz",
+      "report_markdown": "undeclared.md"
+    },
+    {
+      "name": "opera",
+      "input": "corpus/opera/items/handel-giulio-baacoro/score.mid",
+      "midi_profile": "unknown",
+      "input_sha256": "14c14ca392eeb78b4ef0301e9b1bdfcae93a7593f817641ee857151becd67ac7",
+      "summary": {
+        "note_attacks": 1439,
+        "observations": 122,
+        "concept_states": {
+          "blocked_detector_contract": 4,
+          "documented_not_implemented": 16,
+          "limited_observations_available": 5
+        },
+        "course_documents_indexed": 424,
+        "course_documents_fully_integrated": 0,
+        "complete_piece_analysis": false
+      },
+      "report_json_gzip": "opera.json.gz",
+      "report_markdown": "opera.md"
+    }
+  ]
+}

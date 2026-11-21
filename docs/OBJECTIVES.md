@@ -32,6 +32,6 @@ Les recherches publiques bloquées ou closes sont conservées comme telles; les 
 
 ## Développements ultérieurs
 
-La [base de connaissances](knowledge-base.md) décrit le rapprochement futur des cours, concepts, exceptions et preuves. La conception d'un analyseur complet n'est pas l'activité courante. Aucun développement de moteur, benchmark, test ou CI n'est ouvert par une reprise documentaire.
+La [base de connaissances](knowledge-base.md) décrit le rapprochement futur des cours, concepts, exceptions et preuves. Le [volet indépendant `analysis/`](../analysis/README.md), explicitement autorisé le 21 novembre 2026, commence la mise en commun des cours et le système d’analyse de morceau. Les entrées pédagogiques restent en lecture seule pour ce volet. Une simple reprise documentaire des cours n’ouvre pas de développement logiciel hors de ce périmètre.
 
 La composition générative de production demeure soumise aux portes **L01–L05** du TODO et à une décision explicite de Léon. Cette limite ne s'applique pas aux exemples MIDI pédagogiques ponctuels autorisés dans les cours.

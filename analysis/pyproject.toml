@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anamu-analysis"
+version = "0.1.0"
+description = "Course-grounded musical analysis with explicit evidence and coverage"
+requires-python = ">=3.11"
+dependencies = ["mido==1.3.3"]
+
+[project.scripts]
+anamu-analyze = "anamu_analysis.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["anamu_analysis*"]

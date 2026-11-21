@@ -28,9 +28,7 @@ l'expliquer correctement dans une œuvre ».
 | **4. Évaluation / composition future** | Compétences expertisées et, plus tard, décisions génératives cohérentes évaluées à l'écoute | Qu'une métrique isolée garantit une musique agréable |
 
 **État actuel :** les sources et cartes thématiques sont partielles; les cours identifiables ont reçu une première évaluation et des exemples sont disponibles. La matière détaillée n'est pas couverte exhaustivement. **La grande base de concepts réconciliés (couche 2) reste
-à construire.** Il n'existe plus de prototype analytique dans le dépôt
-actif : les futures capacités seront décidées à partir des enseignements
-réellement obtenus. La composition reste fermée.
+à construire.** Le [volet indépendant d’analyse](../analysis/README.md) amorce maintenant ce rapprochement et des mécanismes limités, avec une couverture explicite. Il ne représente pas encore l’intégration complète des enseignements. La composition reste fermée.
 
 ## 2. Unité de connaissance à construire
 

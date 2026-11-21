@@ -1,0 +1,772 @@
+{
+  "schema_version": 1,
+  "scope": "curated_initial_concepts; all other source fragments remain explicit integration work",
+  "concepts": [
+    {
+      "id": "notation.key_events",
+      "name": "Événements notés et états de commande",
+      "definition": "Une attaque, un relâchement de touche et un contrôleur sont des événements distincts, conservés avec leurs temps et leur provenance.",
+      "question": "Quelles notes, commandes et simultanéités le fichier encode-t-il réellement ?",
+      "requires": [
+        "midi"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/berklee-online/OMPRD-386.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage A — quantification n'est pas microtiming : quatre traitements distincts"
+        },
+        {
+          "path": "docs/courses/berklee/CM-343.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage 2 — Distinguer l'écriture MIDI et la notation/jouabilité réelles"
+        }
+      ],
+      "limits": [
+        "Une note MIDI ne prouve ni hauteur écrite, geste instrumental, extinction acoustique ou intention.",
+        "Une piste ou un canal n'est pas nécessairement une voix musicale."
+      ],
+      "detectors": [
+        "event_inventory"
+      ],
+      "prerequisites": [],
+      "distinguish_from": []
+    },
+    {
+      "id": "harmony.sonority",
+      "name": "Sonorité en classes de hauteurs",
+      "definition": "Un ensemble de classes de hauteurs décrit les touches simultanément actives; il ne fixe ni graphie, fondamentale ou fonction.",
+      "question": "Quels ensembles de hauteurs et quelles lectures verticales sont compatibles avec les notes actives ?",
+      "requires": [
+        "midi"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/mcgill/MUTH-251.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Q1 — Symétrie de l'accord et fonction dans la phrase : deux niveaux distincts"
+        },
+        {
+          "path": "docs/courses/berklee-online/OCOMP-367.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Q1 — Une suite de sonorités n'implique pas une progression fonctionnelle"
+        }
+      ],
+      "limits": [
+        "Les notes tenues par pédale et la résonance ne sont pas reconstruites comme notes sonores.",
+        "Les appoggiatures et doublures peuvent modifier les ensembles observés.",
+        "Un accord reconnu comme ensemble n'est pas une fonction tonale."
+      ],
+      "detectors": [
+        "sonority_candidates"
+      ],
+      "prerequisites": [
+        "notation.key_events"
+      ],
+      "distinguish_from": []
+    },
+    {
+      "id": "harmony.augmented_symmetry",
+      "name": "Symétrie de la triade augmentée",
+      "definition": "Une triade de trois classes séparées de quatre demi-tons est invariante par transposition de quatre ou huit demi-tons.",
+      "question": "La sonorité présente-t-elle une division égale en trois et quelles fondamentales restent candidates ?",
+      "requires": [
+        "midi"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/mcgill/MUTH-251.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage 1 — Triade augmentée et division symétrique"
+        }
+      ],
+      "limits": [
+        "La symétrie ne décide ni graphie des notes ni destination harmonique."
+      ],
+      "detectors": [
+        "sonority_candidates"
+      ],
+      "prerequisites": [
+        "harmony.sonority"
+      ],
+      "distinguish_from": []
+    },
+    {
+      "id": "harmony.diminished_symmetry",
+      "name": "Symétrie de la septième totalement diminuée",
+      "definition": "Quatre classes espacées de trois demi-tons donnent une structure symétrique compatible avec plusieurs graphies et destinations.",
+      "question": "Quelles lectures de la sonorité diminuée restent possibles avant sa préparation et sa suite ?",
+      "requires": [
+        "midi"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/mcgill/MUTH-251.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage 2 — Septième diminuée et réinterprétation enharmonique"
+        },
+        {
+          "path": "docs/courses/berklee/HR-211.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage 2 — Notes-guides, tierce et septième des accords"
+        }
+      ],
+      "limits": [
+        "Un ensemble de classes ne révèle pas la sensible ou la fonction dans la phrase."
+      ],
+      "detectors": [
+        "sonority_candidates"
+      ],
+      "prerequisites": [
+        "harmony.sonority"
+      ],
+      "distinguish_from": []
+    },
+    {
+      "id": "harmony.lowest_pitch",
+      "name": "Position grave observée et renversement candidat",
+      "definition": "La note active la plus grave est un fait de registre; le renversement demande une fondamentale et une lecture d'accord justifiées.",
+      "question": "La note grave appartient-elle à une lecture d'accord, une pédale ou une autre couche ?",
+      "requires": [
+        "midi"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/berklee/CM-211.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Q2 — Basse chiffrée : lire le rapport aux intervalles, pas le nom d'accord seul"
+        }
+      ],
+      "limits": [
+        "Le grave de toute la texture n'est pas automatiquement la partie de basse écrite.",
+        "Les renversements énumérés sont des candidats conditionnels."
+      ],
+      "detectors": [
+        "sonority_candidates"
+      ],
+      "prerequisites": [
+        "harmony.sonority"
+      ],
+      "distinguish_from": []
+    },
+    {
+      "id": "harmony.function",
+      "name": "Fonction harmonique contextuelle",
+      "definition": "Une fonction dépend de la préparation, des mouvements de voix, de la continuation et du centre établi dans une phrase.",
+      "question": "Quel rôle cette sonorité joue-t-elle dans la phrase, parmi plusieurs interprétations cohérentes ?",
+      "requires": [
+        "midi",
+        "score",
+        "context"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/berklee/CM-211.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Q1 — Inférer une fonction harmonique à l'échelle de la phrase"
+        },
+        {
+          "path": "docs/courses/mcgill/MUTH-251.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Q1 — Symétrie de l'accord et fonction dans la phrase : deux niveaux distincts"
+        }
+      ],
+      "limits": [
+        "Un V–I en classes de hauteurs ne prouve pas à lui seul une cadence.",
+        "L'orthographe peut être indispensable pour distinguer des fonctions."
+      ],
+      "detectors": [],
+      "prerequisites": [
+        "harmony.sonority",
+        "voices.independence"
+      ],
+      "distinguish_from": [
+        "harmony.sonority"
+      ]
+    },
+    {
+      "id": "harmony.cadence",
+      "name": "Cadence et clôture de phrase",
+      "definition": "Une cadence relie organisation harmonique, voix et frontières de phrase; une succession d'accords seule n'en garantit pas la fonction.",
+      "question": "L'arrivée ferme-t-elle une phrase, prolonge-t-elle une tension ou évite-t-elle une clôture attendue ?",
+      "requires": [
+        "midi",
+        "score",
+        "context"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/mcgill/MUTH-150.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage 2 — Septième de dominante et cadence"
+        },
+        {
+          "path": "docs/courses/berklee/CM-211.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Q1 — Inférer une fonction harmonique à l'échelle de la phrase"
+        }
+      ],
+      "limits": [
+        "La syntaxe stylistique et le phrasé doivent être explicités."
+      ],
+      "detectors": [],
+      "prerequisites": [
+        "harmony.function",
+        "form.phrase_hierarchy"
+      ],
+      "distinguish_from": []
+    },
+    {
+      "id": "harmony.tonicization",
+      "name": "Tonicisation et dominante appliquée",
+      "definition": "Un accord appliqué peut orienter momentanément vers un degré sans établir une nouvelle tonalité durable.",
+      "question": "Le passage prépare-t-il un appui local ou installe-t-il un centre confirmé ?",
+      "requires": [
+        "midi",
+        "score",
+        "context"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/udem/MTE-1221.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage attesté : Dominante secondaire et tonicisation"
+        },
+        {
+          "path": "docs/courses/mcgill/MUTH-151.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage 2 — Dominante secondaire V/V"
+        }
+      ],
+      "limits": [
+        "Une seule altération ou une quinte descendante n'établit pas un centre."
+      ],
+      "detectors": [],
+      "prerequisites": [
+        "harmony.function"
+      ],
+      "distinguish_from": []
+    },
+    {
+      "id": "harmony.modulation",
+      "name": "Changement de centre et confirmation",
+      "definition": "Une modulation engage un changement de centre dont la confirmation doit être confrontée au contexte et à la forme.",
+      "question": "Quels indices différencient le nouveau centre d'une tonicisation ou d'un changement de couleur ?",
+      "requires": [
+        "midi",
+        "score",
+        "context"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/mcgill/MUSP-240.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage 1 — Modulation vers une tonalité voisine avec accord appliqué"
+        },
+        {
+          "path": "docs/courses/udem/MTE-2316.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage 3 — Centres tonals et blocs d'accords"
+        }
+      ],
+      "limits": [
+        "La collection globale de hauteurs n'est pas une tonalité certaine."
+      ],
+      "detectors": [],
+      "prerequisites": [
+        "harmony.tonicization"
+      ],
+      "distinguish_from": []
+    },
+    {
+      "id": "harmony.modal_mixture",
+      "name": "Emprunt modal contextualisé",
+      "definition": "Une couleur empruntée s'interprète relativement à un centre et à une conduite des voix, pas par une seule note extérieure à une gamme supposée.",
+      "question": "Le changement provient-il du mode, d'une fonction appliquée ou d'une autre lecture ?",
+      "requires": [
+        "midi",
+        "score",
+        "context"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/berklee/HR-211.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage 3 — Emprunt mineur, accord-gamme et ii associé : modules non illustrés"
+        },
+        {
+          "path": "docs/courses/udem/MTE-2316.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage 1 — Réharmonisation d'une idée mélodique"
+        }
+      ],
+      "limits": [
+        "Un emprunt modal et une modulation ne sont pas interchangeables."
+      ],
+      "detectors": [],
+      "prerequisites": [
+        "harmony.function"
+      ],
+      "distinguish_from": []
+    },
+    {
+      "id": "voices.independence",
+      "name": "Voix, doublures et indépendance",
+      "definition": "Une voix est une ligne musicale contextualisée; l'indépendance ne se déduit pas du nombre de pistes ou de canaux.",
+      "question": "Quelles lignes suivent leur propre conduite et lesquelles doublent un même geste ?",
+      "requires": [
+        "midi",
+        "score",
+        "context"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/udem/MTE-1110.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage attesté : Deuxième espèce et indépendance des voix"
+        },
+        {
+          "path": "docs/courses/mcgill/MUCO-360.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Q1 — De la réduction au conducteur : conserver les fonctions musicales"
+        }
+      ],
+      "limits": [
+        "La séparation de voix dans une polyphonie de clavier reste à établir."
+      ],
+      "detectors": [],
+      "prerequisites": [
+        "notation.key_events"
+      ],
+      "distinguish_from": []
+    },
+    {
+      "id": "voices.suspension",
+      "name": "Retard préparé et résolu",
+      "definition": "Un retard se définit par préparation, tenue, dissonance contextualisée et résolution dans une ligne.",
+      "question": "Une note tenue est-elle un retard, une pédale ou une autre dissonance ?",
+      "requires": [
+        "midi",
+        "score",
+        "context"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/udem/MTE-1110.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Axe approfondi 3 — Retard préparé et résolu dans une ligne fleurie"
+        },
+        {
+          "path": "docs/courses/mcgill/MUTH-150.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage 3 — Accords et notes étrangères"
+        }
+      ],
+      "limits": [
+        "La tenue MIDI et le temps faible ne suffisent pas à identifier une fonction contrapuntique."
+      ],
+      "detectors": [],
+      "prerequisites": [
+        "voices.independence",
+        "harmony.function"
+      ],
+      "distinguish_from": []
+    },
+    {
+      "id": "motif.exact_recurrence",
+      "name": "Récurrence exacte d'événements",
+      "definition": "Des fenêtres ont les mêmes hauteurs et rythmes notés, ou les mêmes relations après transposition globale constante.",
+      "question": "Quelles fenêtres d'attaques se répètent exactement ou par une même transposition ?",
+      "requires": [
+        "midi"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/berklee-online/OCOMP-485.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Q1 — Processus répétitif : distinguer répétition stable et transformation avec règle"
+        },
+        {
+          "path": "docs/courses/berklee/CP-215.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage 2 — Comparer sujet et contre-sujet candidats"
+        }
+      ],
+      "limits": [
+        "Une récurrence exacte n'est pas une preuve de motif entendu, sujet, retour formel ou développement.",
+        "Les fenêtres sont prises par piste/canal, pas par voix supposée."
+      ],
+      "detectors": [
+        "exact_recurrence"
+      ],
+      "prerequisites": [
+        "notation.key_events"
+      ],
+      "distinguish_from": []
+    },
+    {
+      "id": "motif.thematic_identity",
+      "name": "Identité motivique et transformation",
+      "definition": "L'identité d'un motif peut survivre à des transformations et dépend du rôle et du contexte, pas seulement d'une égalité de notes.",
+      "question": "Qu'est-ce qui revient, sous quelle transformation et avec quelle fonction ?",
+      "requires": [
+        "midi",
+        "score",
+        "context"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/berklee/CP-215.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage 1 — Entrées imitatives progressives sur trois voix"
+        },
+        {
+          "path": "docs/courses/berklee-online/OCOMP-485.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Q1 — Processus répétitif : distinguer répétition stable et transformation avec règle"
+        }
+      ],
+      "limits": [
+        "Une similarité numérique seule ne tranche pas l'identité thématique."
+      ],
+      "detectors": [],
+      "prerequisites": [
+        "motif.exact_recurrence",
+        "form.phrase_hierarchy"
+      ],
+      "distinguish_from": []
+    },
+    {
+      "id": "rhythm.notated_grid",
+      "name": "Métrique et tempo encodés",
+      "definition": "Les messages de mesure et de tempo définissent une grille déclarée; les attaques et silences peuvent être relevés par rapport à elle.",
+      "question": "Quels mètres, tempos, positions et changements sont explicitement encodés ?",
+      "requires": [
+        "midi"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/berklee/CM-320.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage : Mètre impair 5/8, groupes 3+2 et polyrythmie linéaire"
+        },
+        {
+          "path": "docs/courses/berklee-online/OCMUS-105.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage 2 — le métronome ne doit pas être pris pour le premier temps de la musique"
+        }
+      ],
+      "limits": [
+        "Une signature absente ne prouve pas 4/4.",
+        "Une pulsation encodée n'est pas une battue perçue.",
+        "Une anacrouse ne se déduit pas du seul premier événement."
+      ],
+      "detectors": [
+        "notated_timing"
+      ],
+      "prerequisites": [
+        "notation.key_events"
+      ],
+      "distinguish_from": []
+    },
+    {
+      "id": "rhythm.accent_grouping",
+      "name": "Groupement d'accents et mètre",
+      "definition": "Des accents différents peuvent organiser les mêmes durées et le même mètre de plusieurs manières.",
+      "question": "Le changement est-il une redistribution d'accents, une battue ou une relation de métrique ?",
+      "requires": [
+        "midi",
+        "audio",
+        "context"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/berklee-online/OCMUS-105.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage 3 — 7/8 fixe, cellules variables, mètre inchangé"
+        },
+        {
+          "path": "docs/courses/berklee/CM-320.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Q1 — Changement de groupement dans un même 5/8"
+        }
+      ],
+      "limits": [
+        "Une rotation d'accents n'est pas automatiquement une modulation métrique."
+      ],
+      "detectors": [],
+      "prerequisites": [
+        "rhythm.notated_grid"
+      ],
+      "distinguish_from": []
+    },
+    {
+      "id": "rhythm.microtiming",
+      "name": "Placement et désynchronisation",
+      "definition": "Un déplacement global conserve des relations entre parties qu'un déplacement relatif modifie.",
+      "question": "Quelles dates et relations d'attaque changent, et quelle référence temporelle est justifiée ?",
+      "requires": [
+        "midi",
+        "audio",
+        "context"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/berklee-online/OMPRD-386.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage A — quantification n'est pas microtiming : quatre traitements distincts"
+        },
+        {
+          "path": "docs/courses/berklee-online/OPERC-160.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage B — half-time shuffle et placement du backbeat"
+        }
+      ],
+      "limits": [
+        "Le P-center et le groove entendu ne se déduisent pas directement de Note On."
+      ],
+      "detectors": [],
+      "prerequisites": [
+        "rhythm.notated_grid"
+      ],
+      "distinguish_from": []
+    },
+    {
+      "id": "orchestration.local_roles",
+      "name": "Rôles locaux et orchestration",
+      "definition": "Mélodie, basse, harmonie, relais, figuration et ponctuation sont des fonctions locales pouvant changer de porteur.",
+      "question": "Quelle couche porte quelle fonction à cet endroit et qu'est-ce qui change au retour ?",
+      "requires": [
+        "midi",
+        "score",
+        "context"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/mcgill/MUCO-360.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage traité : Répartir un thème, ses harmonies et la basse par registres orchestraux"
+        },
+        {
+          "path": "docs/courses/berklee/CM-343.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage 1 — Distribuer des frappes dans une partie multi-percussion"
+        }
+      ],
+      "limits": [
+        "Le programme GM, le registre ou le nom de piste ne prouvent pas le rôle musical."
+      ],
+      "detectors": [],
+      "prerequisites": [
+        "voices.independence",
+        "form.phrase_hierarchy"
+      ],
+      "distinguish_from": []
+    },
+    {
+      "id": "orchestration.register",
+      "name": "Registre encodé et tessiture jouable",
+      "definition": "Le registre MIDI décrit les hauteurs encodées; tessiture, transposition écrite et jouabilité demandent des références instrumentales.",
+      "question": "Le registre observé est-il compatible avec l'instrument, sa notation et la phrase ?",
+      "requires": [
+        "midi",
+        "score",
+        "context"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/berklee/CM-231.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage : Tessitures instrumentales et phrasé noté"
+        }
+      ],
+      "limits": [
+        "Une hauteur encodée n'identifie pas l'instrument réel ou son doigté."
+      ],
+      "detectors": [],
+      "prerequisites": [
+        "notation.key_events"
+      ],
+      "distinguish_from": []
+    },
+    {
+      "id": "sound.velocity",
+      "name": "Vélocité encodée et dynamique",
+      "definition": "Une valeur de vélocité est une commande de rendu; elle n'est pas une mesure directe du volume acoustique ou de l'accent perçu.",
+      "question": "Quelles hiérarchies de commandes sont encodées, et quelle preuve sonore manque ?",
+      "requires": [
+        "midi"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/berklee-online/OPERC-160.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage A — ghost notes comme hiérarchie dynamique, pas nouveau coup de grosse caisse"
+        },
+        {
+          "path": "docs/courses/mcgill/MUCO-360.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Q2 — Crescendo par nuances et par accumulation"
+        }
+      ],
+      "limits": [
+        "Les banques, articulations et contrôleurs changent le lien entre vélocité et son."
+      ],
+      "detectors": [
+        "velocity_commands"
+      ],
+      "prerequisites": [
+        "notation.key_events"
+      ],
+      "distinguish_from": []
+    },
+    {
+      "id": "sound.sustain",
+      "name": "Pédale, tenue et résonance",
+      "definition": "Note Off, CC64, amortissement instrumental et disparition acoustique sont des objets distincts.",
+      "question": "Quelles commandes de tenue et d'amortissement sont présentes, et que ne prouvent-elles pas ?",
+      "requires": [
+        "midi"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/berklee/CM-343.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage 2 — Distinguer l'écriture MIDI et la notation/jouabilité réelles"
+        },
+        {
+          "path": "docs/courses/udem/MUS-3322X.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage 1 — Résonances de l'instrument et de la voix"
+        }
+      ],
+      "limits": [
+        "Le premier lecteur conserve les durées de touches; il ne simule ni sustain ni extinction sonore."
+      ],
+      "detectors": [
+        "sustain_commands"
+      ],
+      "prerequisites": [
+        "notation.key_events"
+      ],
+      "distinguish_from": []
+    },
+    {
+      "id": "sound.masking",
+      "name": "Masquage et perception des couches",
+      "definition": "La perception d'une couche dépend du signal, des autres couches, du mixage et de l'écoute.",
+      "question": "Une couche a-t-elle cessé ou est-elle devenue moins perceptible ?",
+      "requires": [
+        "audio",
+        "context"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/udem/MUS-3322X.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Mesurer les partiels et l'enveloppe d'une note"
+        },
+        {
+          "path": "docs/courses/mcgill/MUCO-360.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Q3 — Texture légère et tutti : économie des pupitres"
+        }
+      ],
+      "limits": [
+        "Un partiel commun ou une note MIDI ne suffit pas à prouver le masquage."
+      ],
+      "detectors": [],
+      "prerequisites": [],
+      "distinguish_from": []
+    },
+    {
+      "id": "form.phrase_hierarchy",
+      "name": "Phrasé et niveaux de forme",
+      "definition": "Les frontières rythmiques, harmoniques, mélodiques et timbrales peuvent converger ou se contredire selon le niveau de forme.",
+      "question": "Où se trouvent les unités et leurs articulations, avec quelles lectures concurrentes ?",
+      "requires": [
+        "midi",
+        "score",
+        "context"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/mcgill/MUTH-251.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage 3 — Échelles de forme et hiérarchie harmonique"
+        },
+        {
+          "path": "docs/courses/berklee-online/OCOMP-367.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Q3 — Forme mosaïque / moment : tester une autre fonction que préparation→résolution"
+        }
+      ],
+      "limits": [
+        "Une pause, un marqueur ou un retour de notes ne suffit pas à segmenter une phrase."
+      ],
+      "detectors": [],
+      "prerequisites": [],
+      "distinguish_from": []
+    },
+    {
+      "id": "form.adaptive_transition",
+      "name": "Transition et forme interactive",
+      "definition": "Le raccord musical relie états du jeu, frontières admissibles, continuités harmoniques et continuités de phase.",
+      "question": "La transition préserve-t-elle les relations musicales requises par sa fonction ?",
+      "requires": [
+        "midi",
+        "audio",
+        "context"
+      ],
+      "sources": [
+        {
+          "path": "docs/courses/udem/MUS-2328.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage ou domaine 1 — Transitions musicales déclenchées par l'état du jeu"
+        }
+      ],
+      "limits": [
+        "L'état du jeu et le comportement interactif ne sont pas encodés par un MIDI linéaire."
+      ],
+      "detectors": [],
+      "prerequisites": [
+        "form.phrase_hierarchy",
+        "harmony.function"
+      ],
+      "distinguish_from": []
+    },
+    {
+      "id": "vocal.text_alignment",
+      "name": "Paroles et alignement vocal",
+      "definition": "Un événement de paroles fournit un texte à une date de source; son association à une voix et une note demande une preuve distincte.",
+      "question": "Quel texte se rapporte à quelle voix, quelle note et quelle occurrence de reprise ?",
+      "requires": [
+        "midi",
+        "lyrics",
+        "score",
+        "context"
+      ],
+      "sources": [
+        {
+          "path": "docs/COURSE_ANALYSIS_TEMPLATE.md",
+          "role": "cross-course evidence and observability contract"
+        },
+        {
+          "path": "docs/courses/berklee/CM-343.md",
+          "role": "course_document_or_documented_course_level; external comparators remain identified in that document",
+          "heading": "Apprentissage 2 — Distinguer l'écriture MIDI et la notation/jouabilité réelles"
+        }
+      ],
+      "limits": [
+        "Paroles disponibles, horodatages et alignements indépendamment validés sont distincts.",
+        "La coïncidence d'une syllabe et d'une attaque ne prouve pas leur affectation."
+      ],
+      "detectors": [],
+      "prerequisites": [
+        "notation.key_events",
+        "voices.independence"
+      ],
+      "distinguish_from": []
+    }
+  ]
+}
