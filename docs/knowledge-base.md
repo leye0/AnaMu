@@ -1,16 +1,8 @@
-# AnaMu — architecture de la base de connaissances musicales académiques
+# AnaMu — connaissances communes et synthèses musicales
 
-**DÉCISION DE PHASE (11 novembre 2026) :** [État courant](STATUS.md). La collecte publique de plans par cours (1A) est arrêtée en meilleur effort : **115 cours restent partiels, dont 22 bloqués en attente de source extérieure, mais aucun n'est une recherche active sans nouvelle preuve**. La **documentation académique des sujets identifiés (1B) est maintenant ACTIVE**; [14 mécanismes sourcés](subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md) sont acquis comme documentation *des sujets*, pas comme syllabus. Les développements de la base de concepts unifiés / phase 2 restent verrouillés. Les assertions plus bas disant « seule collecte par cours active » sont des instantanés historiques.
+Ce document décrit le rapprochement des sources universitaires, concepts, exemples et preuves et conserve des synthèses musicales transversales reliées aux cours. Il ne constitue pas un moteur logiciel ni une base de concepts intégralement implémentée.
 
-**Document de conception normatif, pas une implémentation achevée.**
-L'ambition est de posséder un patrimoine **massif, structuré, traçable et
-interrogeable de connaissances musicales** obtenu par la mise en commun de
-plusieurs programmes universitaires avancés. Ce patrimoine doit alimenter
-plus tard des **analyseurs de morceaux MIDI existants** et, **une fois les
-portes académiques levées**, un éventuel système de composition musicale.
-**La priorité actuelle est exclusivement la collecte de la matière des
-cours**, selon [le protocole](course-material-collection.md). La conception
-du patrimoine ci-dessous décrit la phase suivante, encore verrouillée.
+Le travail courant approfondit les apprentissages dans les fiches, selon [STATUS.md](STATUS.md), le [gabarit](COURSE_ANALYSIS_TEMPLATE.md) et le [TODO](todo-university-coverage.md). Les sources du sujet éclairent les mécanismes sans devenir les syllabus des cours qui les utilisent.
 
 ## 1. L'actif central n'est pas un catalogue de cours
 
@@ -35,9 +27,7 @@ l'expliquer correctement dans une œuvre ».
 | **3. Moteur d'analyse MIDI** | Hypothèses sourcées sur des morceaux MIDI existants, références aux concepts utilisés, limites des observations | Que les analyses sont justes sans épreuve indépendante ou que MIDI contient le son acoustique |
 | **4. Évaluation / composition future** | Compétences expertisées et, plus tard, décisions génératives cohérentes évaluées à l'écoute | Qu'une métrique isolée garantit une musique agréable |
 
-**État actuel :** nous avons des inventaires de catalogues (couche 1
-**partielle**). La matière détaillée des cours n'a pas été collectée
-exhaustivement. **La grande base de concepts réconciliés (couche 2) reste
+**État actuel :** les sources et cartes thématiques sont partielles; les cours identifiables ont reçu une première évaluation et des exemples sont disponibles. La matière détaillée n'est pas couverte exhaustivement. **La grande base de concepts réconciliés (couche 2) reste
 à construire.** Il n'existe plus de prototype analytique dans le dépôt
 actif : les futures capacités seront décidées à partir des enseignements
 réellement obtenus. La composition reste fermée.
