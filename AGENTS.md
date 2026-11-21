@@ -8,7 +8,7 @@ Le projet contient trois ensembles complémentaires :
 
 - `docs/courses/<établissement>/<code>.md` : apprentissages sourcés, procédures d'analyse et de réinvestissement en composition. Les MIDI, audio et partitions sont dans le dossier `<code>/` du cours.
 - `site/` et `scripts/build_course_site.py` : présentation web des fiches et de leurs exemples.
-- `corpus/` : œuvres acquises pour l'étude, distinctes des exemples pédagogiques. [Opéra](corpus/opera/README.md) est intégré; l'acquisition pop est suivie dans la [PR nº 30](https://github.com/leye0/AnaMu/pull/30).
+- `corpus/` : œuvres acquises pour l'étude, distinctes des exemples pédagogiques. [Opéra](corpus/opera/README.md) et [pop/Billboard](corpus/pop/README.md) sont intégrés. Pour la pop, le catalogue et la réacquisition sont dans le dépôt; les MIDI et paroles acquis ont été remis en paquet privé.
 
 ## Documents de référence
 

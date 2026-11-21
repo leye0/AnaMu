@@ -10,7 +10,7 @@ Le [référentiel universitaire](university-curriculum.md) définit les sources 
 
 1. **Cours et exemples** : fiches par établissement et code dans `docs/courses/`, apprentissages sourcés, procédures d'analyse et d'intégration en composition, MIDI et autres supports dans le dossier du cours.
 2. **Site web** : présentation de ces fiches et exemples, construite à partir des données et fichiers du dépôt.
-3. **Corpus d'œuvres** : collections indépendantes des exemples pédagogiques, avec provenance et qualité documentées. L'opéra est intégré; la pop/Billboard est en préparation dans la [PR nº 30](https://github.com/leye0/AnaMu/pull/30).
+3. **Corpus d'œuvres** : collections indépendantes des exemples pédagogiques, avec provenance et qualité documentées. L'[opéra](../corpus/opera/README.md) et le [catalogue pop/Billboard](../corpus/pop/README.md) sont intégrés. Les fichiers pop acquis sont remis séparément en paquet privé.
 
 ## Activité actuelle
 

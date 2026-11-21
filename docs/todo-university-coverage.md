@@ -8,7 +8,7 @@
 - [ ] Compléter les cas de contrepoint, forme et orchestration depuis les sources propres aux cours; garder explicites les limites des cours partiels.
 - [ ] Recueillir les retours indépendants d'écoute et de jeu nécessaires aux exemples qui invoquent ces propriétés.
 - [ ] Vérifier la publication du site lors des changements de contenu; les fichiers source et leur publication sont deux états distincts.
-- [ ] Poursuivre le corpus pop/Billboard de la [PR nº 30](https://github.com/leye0/AnaMu/pull/30) : dates originales, genre, voix, paroles et cible de 2 000 chansons complètes.
+- [ ] Poursuivre le [corpus pop/Billboard](../corpus/pop/README.md) : dates originales, genre, voix, paroles et cible de 2 000 chansons complètes.
 
 ## Corpus parallèle d’opéras — extension du 19 novembre 2026
 

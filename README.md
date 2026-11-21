@@ -10,7 +10,7 @@ AnaMu rassemble les connaissances de programmes universitaires de composition po
 | Exemples pédagogiques | MIDI originaux, rendus audio et partitions liés aux apprentissages dans les dossiers des cours | [Registre par cours](docs/data/course-algorithmic-assessments.json) |
 | Site web | Bibliothèque des fiches, lecteurs d'exemples et partitions | [Site](https://www.streamlev.com/AnaMu/) · [Construction et publication](site/README.md) |
 | Corpus d'opéras | MIDI acquis, extractions vocales, paroles et provenance | [Corpus](corpus/opera/README.md) |
-| Corpus pop / Billboard en préparation | Acquisition gratuite de MIDI et paroles; catalogue, vérifications et cible de 2 000 chansons complètes | [PR nº 30](https://github.com/leye0/AnaMu/pull/30) |
+| Corpus pop / Billboard | Acquisition gratuite de MIDI et paroles; catalogue, vérifications et cible de 2 000 chansons complètes | [Corpus pop](corpus/pop/README.md) |
 
 L'[état courant](docs/STATUS.md) distingue les premières évaluations, la couverture des sources, les exemples et les validations encore absentes. Il est la référence des compteurs du projet.
 

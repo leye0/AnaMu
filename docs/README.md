@@ -9,7 +9,7 @@ Les [consignes de reprise](../AGENTS.md), l'[état courant](STATUS.md) et le [TO
 - [Registre de matière et états de recherche](data/course-material-progress.json).
 - [Méthode par cours](course-material-collection.md) et [connaissances communes](knowledge-base.md).
 - [Site web et publication](../site/README.md).
-- [Corpus d'opéras](../corpus/opera/README.md) et [chantier pop/Billboard](https://github.com/leye0/AnaMu/pull/30).
+- [Corpus d'opéras](../corpus/opera/README.md) et [corpus pop/Billboard](../corpus/pop/README.md).
 
 ## Programmes, choix et lacunes
 

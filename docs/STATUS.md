@@ -6,7 +6,7 @@
 
 - **Cours** : fiches par établissement et code, méthodes d'analyse et d'usage compositionnel, exemples MIDI et supports adaptés.
 - **Site** : bibliothèque construite depuis les fiches et les registres, avec lecteurs, comparaisons et partitions. Voir [la publication](../site/README.md).
-- **Corpus** : œuvres acquises avec provenance et paroles; opéra dans `main`, pop/Billboard en préparation dans la [PR nº 30](https://github.com/leye0/AnaMu/pull/30).
+- **Corpus** : œuvres acquises avec provenance et paroles; [opéra](../corpus/opera/README.md) et [catalogue pop/Billboard](../corpus/pop/README.md) dans `main`.
 
 Poursuivre les apprentissages attestés dans les fiches et les lacunes du [TODO](todo-university-coverage.md). La présence d'un exemple ne clôt pas le cours. Ne pas régénérer les lots existants ni reprendre un audit initial déjà effectué.
 
@@ -63,11 +63,11 @@ Restent les retours datés d'interprètes et d'auditeurs : jouabilité, déplace
 
 Le [corpus](../corpus/opera/README.md) conserve les originaux, extractions, paroles, crédits et licences. Restent l'affectation complète du chœur de `CHBcesare`, les comparaisons indépendantes notes–syllabes, les auditions, le regroupement des éditions et l'élargissement du répertoire. `BBArecit` n'est pas artificiellement compté sans MIDI source.
 
-## Corpus pop / Billboard en préparation
+## Corpus pop / Billboard
 
-La [PR nº 30](https://github.com/leye0/AnaMu/pull/30) contient le catalogue et la réacquisition du premier lot gratuit; les fichiers acquis ont été remis en paquet privé. **1 331 identités candidates**, dont 1 051 structures à plusieurs canaux, 459 exports de paroles MIDI et 440 titres associés au top 10 dans un miroir du Hot 100, dont 292 au top 5.
+Le [corpus pop/Billboard](../corpus/pop/README.md) contient le catalogue et la réacquisition du premier lot gratuit; les fichiers acquis ont été remis en paquet privé. **1 331 identités candidates**, dont 1 051 structures à plusieurs canaux, 459 exports de paroles MIDI et 440 titres associés au top 10 dans un miroir du Hot 100, dont 292 au top 5.
 
-La cible de **2 000 chansons distinctes complètes** n'est pas atteinte. Il reste à vérifier le genre pop, les dates originales, les parties chantées et les appariements de paroles. Ce chantier n'est pas encore intégré à `main` et ne modifie pas les compteurs universitaires.
+La cible de **2 000 chansons distinctes complètes** n'est pas atteinte. Il reste à vérifier le genre pop, les dates originales, les parties chantées et les appariements de paroles. Le catalogue et la réacquisition sont intégrés à `main`; les fichiers pop tiers restent dans le paquet privé. Ce chantier ne modifie pas les compteurs universitaires.
 
 ## Prochaine activité autorisée — par cours, analyse et création
 
