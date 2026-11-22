@@ -2,6 +2,10 @@
 
 Ce volet commence la réunion de **tous les cours et connaissances disponibles** pour analyser un morceau. Il lit les sources existantes sans modifier les fiches, leur site, leurs exemples ou les corpus. Son code, ses contrats et ses rapports sont séparés sous `analysis/`.
 
+## Orientation du chantier
+
+Le [plan directeur de cartographie et de raisonnement musical](planning/PLAN_RAISONNEMENT_MUSICAL.md), établi le 22 novembre 2026, organise la suite : extraction de tous les concepts, relations syntagmatiques et paradigmatiques, contextes historiques et culturels, hiérarchies et ordre conditionnel d’application. Il distingue la connaissance à représenter des mécanismes déjà disponibles ci-dessous.
+
 ## Ce qui existe dans cette première version
 
 | Niveau | Contenu | Portée |
