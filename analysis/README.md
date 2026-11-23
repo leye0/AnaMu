@@ -6,6 +6,8 @@ Ce volet commence la réunion de **tous les cours et connaissances disponibles**
 
 Le [plan directeur de cartographie et de raisonnement musical](planning/PLAN_RAISONNEMENT_MUSICAL.md), établi le 22 novembre 2026, organise la suite : extraction de tous les concepts, relations syntagmatiques et paradigmatiques, contextes historiques et culturels, hiérarchies et ordre conditionnel d’application. Il distingue la connaissance à représenter des mécanismes déjà disponibles ci-dessous.
 
+Le [référentiel de matière et ses deux mappings](planning/MAPPING_MATIERE.md) précise la couche préalable : décrire et maintenir les contenus, puis les relier au raisonnement. Un exemple JSON accompagne cette proposition.
+
 ## Ce qui existe dans cette première version
 
 | Niveau | Contenu | Portée |

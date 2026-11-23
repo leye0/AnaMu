@@ -76,6 +76,12 @@ Les crédits, dates de collecte, consignes administratives et anciennes instruct
 
 Une consigne « composer une phrase avec un retard » permet de repérer un savoir et une tâche. Elle ne prouve ni que le retard est complètement défini dans cette source, ni que tout retard exprime une intention particulière.
 
+### 3.1 Structurer la matière avant de l'extraire à grande échelle
+
+**Précision de Léon :** construire un référentiel maintenable des matières avec identification stable, description, périmètre et sources. Un premier mapping organise les cours et documents en unités de matière ; un second établit leurs contributions aux concepts et assertions, puis à leur placement analytique. Une unité peut contribuer à plusieurs concepts et un concept recevoir plusieurs matières sans les confondre.
+
+Le [contrat de mapping de matière](MAPPING_MATIERE.md) précise les objets, les règles de maintenance et la source de vérité. Son [exemple JSON](examples/mapping-matiere.example.json) illustre le format proposé sans déclarer l'inventaire accompli. L'ordre de présentation pédagogique ne devient pas l'ordre d'analyse. Les contenus Markdown restent canoniques pendant cette phase ; le référentiel porte les identités, descriptions et liens, sans deuxième copie éditable des cours.
+
 ## 4. Organisation à plusieurs dimensions
 
 Il ne faut pas placer chaque concept dans un unique dossier exclusif. Les dimensions suivantes se croisent ; leurs valeurs restent extensibles et peuvent être inconnues. Elles sont une **proposition d'organisation AnaMu**, pas une taxonomie déjà enseignée à l'identique dans tous les cours.
@@ -118,6 +124,9 @@ On peut commencer par des fichiers JSON versionnés et des vues Markdown/CSV. Le
 |---|---|---|
 | `SourceDocument` | Identifier un document et sa version | Chemin, empreinte, auteur/attribution, nature, édition, cours ou support parallèle, accès |
 | `SourceSpan` | Localiser un contenu revérifiable | Document, lignes/section ou pointeur JSON, extrait de travail licite, empreinte |
+| `MaterialUnit` | Décrire une unité maintenable de matière | ID stable, description, périmètre, révision, sources, exemples, sous-unités éventuelles |
+| `CourseMaterialBinding` | Rattacher la matière aux cours et documents | Matière, cours/groupe, ordre pédagogique, contexte et attribution |
+| `MaterialKnowledgeBinding` | Relier matière et connaissance | Matière/révision, concept ou assertion cible, rôle, couverture partielle, justification et revue |
 | `Mention` | Relever ce qui apparaît réellement | Formulation, langue, source, sens candidat, état et commentaire de lecture |
 | `ConceptSense` | Définir un sens musical stable | ID, définition, noms, dimensions, distinctions, limites, statut de réconciliation |
 | `KnowledgeAssertion` | Porter une proposition délimitée | Sujet, relation/propriété, objet, conditions, portée, sources, exceptions, état de revue |
@@ -363,7 +372,10 @@ Comparer la réapparition locale, le cycle complet et les chronologies d'états 
 
 Créer un manifeste des documents et objets structurés de l'édition à traiter : chemins, empreintes, types, liens de provenance et exclusions motivées. Conserver les cinq paires de fiches. Les familles de choix restent des questions de périmètre ; elles ne deviennent pas des cours fictifs. L'exclusion de documents de pilotage reste explicite.
 
-### 11.2 Lire tout le contenu, puis qualifier chaque portion
+### 11.2 Identifier et décrire les matières, puis qualifier chaque portion
+
+Construire d'abord les unités du référentiel de matière, avec IDs persistants, descriptions utiles, délimitations et attributions. Les rattacher à leurs cours ou documents transversaux. Conserver les passages non résolus comme travail visible ; les sous-titres sont des points d'entrée, pas une garantie de bonne granularité. La procédure du [mapping de matière](MAPPING_MATIERE.md) prépare la maintenance et le second mapping vers les connaissances analytiques.
+
 
 Parcourir tous les textes et les sous-objets pertinents des JSON, pas seulement les titres « apprentissage ». Associer chaque portion à au moins une disposition :
 
@@ -379,7 +391,7 @@ Une section avec plusieurs objets peut recevoir plusieurs dispositions. Les sour
 
 ### 11.3 Extraire les mentions avant les regroupements
 
-Conserver intitulé original, formulation, contexte, preuve de définition, exemples, limites et statut d'attribution. Récolter les propositions positives et négatives : « le Note Off ne démontre pas le choke » est une connaissance de distinction, pas une simple réserve à jeter.
+Rattacher chaque mention à la matière et à la source précise qui la portent ; préserver une file des rattachements encore ambigus. Conserver intitulé original, formulation, contexte, preuve de définition, exemples, limites et statut d'attribution. Récolter les propositions positives et négatives : « le Note Off ne démontre pas le choke » est une connaissance de distinction, pas une simple réserve à jeter.
 
 Un outil linguistique ou un modèle peut proposer des candidats lors d'une future implémentation, mais chaque proposition doit rester liée à un passage et revue. Aucun modèle ou coût externe n'est engagé par ce plan. La fréquence d'un mot, son absence dans les titres ou la facilité de programmation ne décide pas de sa valeur.
 
@@ -407,15 +419,16 @@ Les chemins de cette section sont **proposés pour les travaux suivants**. Ils n
 |---|---|---|---|
 | P0 — Contrat | Vocabulaire d'objets, relations, états, portée et preuves ; décisions dans `analysis/architecture/` | Présent plan | Les huit parcours de conception peuvent être décrits sans confusion d'objet ni règle universelle imposée |
 | P1 — Édition de sources | `analysis/knowledge/source-manifest.json` et registre de disposition | P0 ; inventaire existant | Tous les fichiers de l'édition ont un statut ; alias, copies et sources parallèles restent visibles |
-| P2 — Extraction de toute la matière | Mentions et assertions par provenance dans `analysis/knowledge/mentions/` | P1 | Tous les passages et JSON pertinents ont été lus et qualifiés ; ambiguïtés non effacées |
-| P3 — Réconciliation et placement | Sens, assertions, relations et décisions dans `analysis/knowledge/` ; vues par cours et domaine | P2, par lots revus | Chaque unité extraite est rapprochée, contextualisée ou explicitement en attente ; aucune branche historique/culturelle n'est omise |
+| P2a — Référentiel de matière | Unités décrites et mapping cours–matière ; règles dans [MAPPING_MATIERE.md](MAPPING_MATIERE.md) | P0/P1 | Toutes les sources ont des unités identifiées ou des passages à délimiter explicitement suivis ; descriptions et attributions revues |
+| P2b — Extraction détaillée | Mentions et assertions par matière et provenance dans `analysis/knowledge/mentions/` | P2a, par lots | Tous les passages et JSON pertinents ont été lus et qualifiés ; ambiguïtés non effacées |
+| P3 — Réconciliation et placement | Mapping matière–connaissance, sens, assertions, relations et décisions ; vues par cours et domaine | P2b, par lots revus | Chaque unité extraite est rapprochée, contextualisée ou explicitement en attente ; aucune branche historique/culturelle n'est omise |
 | P4 — Planificateur de preuve | Contrats d'opérations et plans conditionnels, sans multiplication immédiate de détecteurs | P0 et une tranche cohérente de P3 | Les tâches prêtes, conditionnelles, bloquées et reprises nécessaires sont expliquées ; les cycles ne servent pas de preuve |
 | P5 — Parcours verticaux contrastés | Dossiers de raisonnement manuel puis instrumentation limitée des huit familles de cas | P3/P4 ; preuves adaptées | La provenance, les alternatives et les révisions sont lisibles dans chaque cas ; les branches sans MIDI ont une place effective |
 | P6 — Extension des capacités | Opérations génériques par ensembles de connaissances, adaptateurs nécessaires | P3–P5 pour la capacité concernée | Chaque capacité annonce exactement quelles conclusions et limites elle prend en charge |
 | P7 — Revue musicale et usages | Dossiers de cas annotés, désaccords, comparaisons et expertise indépendante | Capacités de P6 | Les affirmations de qualité reposent sur des preuves adaptées ; les limites non évaluées restent nommées |
 | P8 — Consultation et entretien | Vue du graphe, parcours « pourquoi maintenant ? », suivi des versions et changements | P3/P4 ; enrichi ensuite | Navigation source→savoir→opération→conclusion et chemin inverse ; mise à jour sans perte d'historique |
 
-**Priorité immédiate : P0, P1 et P2 sur tout le périmètre.** P3 peut commencer au fil des lots, mais la lecture de l'ensemble ne doit pas être abandonnée dès qu'une poignée de concepts faciles fournit un prototype satisfaisant. P4 peut être conçu sur des dossiers manuels pendant cette lecture. P6 ne remplace pas le travail d'inventaire sémantique.
+**Priorité immédiate : P0, P1 et P2a/P2b sur tout le périmètre, avec le référentiel de matière avant l’extraction détaillée de chaque lot.** P3 peut commencer au fil des lots, mais la lecture de l'ensemble ne doit pas être abandonnée dès qu'une poignée de concepts faciles fournit un prototype satisfaisant. P4 peut être conçu sur des dossiers manuels pendant cette lecture. P6 ne remplace pas le travail d'inventaire sémantique.
 
 ### Ordre de passage pour l'extraction
 
@@ -493,9 +506,9 @@ Pas de nouvelle plateforme technique, de modèle payant, de dépendance externe 
 
 ## 16. Premier livrable de la reprise et critère de réussite
 
-La prochaine livraison doit produire **le contrat P0, le manifeste P1 et un lot de calibration entièrement relu de P2/P3**, avec les huit familles de cas représentées. Elle doit ensuite poursuivre la lecture exhaustive, sans présenter ce lot de calibration comme l'achèvement de l'extraction.
+La prochaine livraison doit produire **le contrat P0, le manifeste P1 et un lot de calibration entièrement relu de P2a/P2b/P3**, avec les huit familles de cas représentées. Elle doit ensuite poursuivre la lecture exhaustive, sans présenter ce lot de calibration comme l'achèvement de l'extraction.
 
-Pour chacun des cas : mentions exactes, sens proposés, assertions conditionnelles, types de relations, alternatives, preuves, moments d'intervention, révisions et inconnues. Un lecteur doit pouvoir reconstruire manuellement pourquoi l'analyse avance dans cet ordre et pourquoi elle s'arrête à certains endroits.
+Pour chacun des cas : unités de matière identifiées et décrites, rattachements de cours, mentions exactes, sens proposés, contributions matière–connaissance, assertions conditionnelles, types de relations, alternatives, preuves, moments d'intervention, révisions et inconnues. Un lecteur doit pouvoir reconstruire manuellement pourquoi l'analyse avance dans cet ordre et pourquoi elle s'arrête à certains endroits.
 
 Le chantier atteint son premier grand jalon lorsque **toutes les sources de l'édition sont traitées et que chaque concept identifié possède une place analytique documentée**, y compris les savoirs historiques, culturels, perceptifs et non automatiquement décidables. L'achèvement de ce jalon reste distinct de l'implémentation de toutes les capacités.
 
