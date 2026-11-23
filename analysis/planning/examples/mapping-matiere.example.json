@@ -1,0 +1,161 @@
+{
+  "schema_status": "design_example_not_runtime_schema",
+  "schema_version": 0,
+  "scope": "Deux unités illustratives seulement ; aucun inventaire exhaustif, aucune ingestion par le moteur et aucune réservation des IDs de production.",
+  "content_authority": "Existing course Markdown; this JSON identifies, describes and links bounded material without duplicating the full editable text.",
+  "material_units": [
+    {
+      "id": "example:material:000001",
+      "revision": 1,
+      "title": "Sixtes-et-quartes : distinguer fonction cadentielle, passage et pédale",
+      "description": "Étude comparative qui sépare la figure d'intervalles au-dessus de la basse de sa fonction. Elle expose les mouvements de basse et de voix permettant de distinguer trois lectures, avec des schémas originaux AnaMu et des ressources parallèles citées dans la fiche. Ce contenu approfondit un domaine du catalogue sans reconstituer les exercices de la section universitaire.",
+      "covers": [
+        "Figure de quarte et sixte au-dessus de la basse",
+        "Mouvements 4→3 et 6→5 dans une lecture cadentielle",
+        "Basse de passage et basse maintenue dans les deux autres lectures",
+        "Nécessité d'examiner les voix et le contexte avant de conclure à la fonction"
+      ],
+      "does_not_cover": [
+        "Programme complet de CM-211",
+        "Exercices officiels de section",
+        "Reconnaissance automatique validée des trois fonctions"
+      ],
+      "content_state": "comparative_explanation_available",
+      "editorial_review": "design_example_based_on_local_source_reading",
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-211.md",
+          "document_sha256": "55b05079fa84a6ffa06ee5dcbbd2cf5e90dd54b2a191157f9599757c4509d43a",
+          "locator": {
+            "heading": "Trois sixtes et quartes, trois fonctions — 17 novembre 2026",
+            "start_line": 84,
+            "end_line": 99,
+            "content_sha256": "0aa749aacd3f98f648e0ec38926dad8bb74097c2386c3c622428bbd402a80ec6"
+          },
+          "binding_state": "resolved_in_design_snapshot"
+        }
+      ],
+      "child_ids": [],
+      "examples": [],
+      "unresolved": [
+        "La subdivision éventuelle en trois sous-unités doit être décidée pendant la calibration."
+      ]
+    },
+    {
+      "id": "example:material:000002",
+      "revision": 1,
+      "title": "Musiques afro-américaines : racines, labels et contextes historiques",
+      "description": "Domaine annoncé par la description institutionnelle de MHIS-341 : connexions entre musiques contemporaines, racines et genres populaires, labels, traditions gospel et mouvement des droits civiques. L'unité rend ces thèmes retrouvables, mais la source ne fournit ni syllabus de section ni morceaux prescrits. Elle prépare une extraction contextualisée sans attribuer une provenance culturelle à partir de seules notes.",
+      "covers": [
+        "Thèmes et contextes nommés dans la notice résumée",
+        "Labels et traditions explicitement cités dans cette notice"
+      ],
+      "does_not_cover": [
+        "Définition détaillée de chaque tradition",
+        "Œuvres de section et exercices précis",
+        "Preuve d'appartenance culturelle par motifs, gamme ou instrumentation"
+      ],
+      "content_state": "catalogue_scope_only",
+      "editorial_review": "design_example_based_on_local_source_reading",
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/MHIS-341.md",
+          "document_sha256": "31b99d5003a3801d3e3500c1b81ebea9956ef34de441ea0453f3531e3ab7c41a",
+          "locator": {
+            "heading": "Matière directement attribuable au code",
+            "start_line": 5,
+            "end_line": 8,
+            "content_sha256": "96b73da0cafd5d7c1aa7a46bb15b71a8c8fddcaa3be336569e75c90435b8197f"
+          },
+          "binding_state": "resolved_in_design_snapshot"
+        }
+      ],
+      "child_ids": [],
+      "examples": [],
+      "unresolved": [
+        "Délimiter les sous-matières et leurs descriptions détaillées uniquement à mesure que des contenus les étayent.",
+        "Les procédures AnaMu de la section suivante sont une matière distincte à identifier dans le futur inventaire."
+      ]
+    }
+  ],
+  "course_material_bindings": [
+    {
+      "id": "example:course-material:000001",
+      "course_id": "berklee:CM-211",
+      "material_id": "example:material:000001",
+      "pedagogical_group_label": "Approfondissements AnaMu",
+      "presentation_order": null,
+      "attribution": "anamu_comparison_using_parallel_explanatory_sources",
+      "note": "Le domaine général est annoncé au catalogue ; cette étude et ses comparateurs ne sont pas les devoirs officiels du cours."
+    },
+    {
+      "id": "example:course-material:000002",
+      "course_id": "berklee:MHIS-341",
+      "material_id": "example:material:000002",
+      "pedagogical_group_label": "Périmètre institutionnel documenté",
+      "presentation_order": null,
+      "attribution": "local_summary_of_official_catalogue_scope",
+      "note": "Description institutionnelle ; pas syllabus ni preuve de maîtrise détaillée."
+    }
+  ],
+  "material_knowledge_bindings": [
+    {
+      "id": "example:material-knowledge:000001",
+      "material_id": "example:material:000001",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.function",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Départager les fonctions candidates de figures 6/4 par la basse et les mouvements de voix"
+      ],
+      "context": "Lectures tonales décrites par cette étude comparative",
+      "justification": "Le principe et le tableau de la section opposent explicitement des fonctions différentes pour une même figure d'intervalles.",
+      "state": "proposed_design_link",
+      "does_not_establish": "Ni couverture complète du concept harmony.function ni capacité automatique nouvelle."
+    },
+    {
+      "id": "example:material-knowledge:000002",
+      "material_id": "example:material:000001",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.lowest_pitch",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "contrasts",
+      "covered_aspects": [
+        "Rôle de la basse dans la description de la figure, distinct de la fonction harmonique"
+      ],
+      "context": "Même étude comparative",
+      "justification": "La quarte et la sixte sont rapportées à la basse ; le type de trajectoire de basse contribue à départager les lectures.",
+      "state": "proposed_design_link",
+      "does_not_establish": "Une touche grave MIDI ne suffit pas à identifier une voix de basse ni sa fonction."
+    },
+    {
+      "id": "example:material-knowledge:000003",
+      "material_id": "example:material:000002",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "unresolved_concept_or_assertion",
+        "id": null,
+        "proposed_subject": "Contextes historiques et culturels des musiques afro-américaines"
+      },
+      "contribution_kind": "documents_context",
+      "covered_aspects": [
+        "Périmètre historique et culturel annoncé dans la notice"
+      ],
+      "context": "Domaine de cours, sans attribution à une œuvre particulière",
+      "justification": "L'unité doit garder une place dans le référentiel même si les concepts et assertions cibles ne figurent pas dans les 25 contrats initiaux.",
+      "state": "awaiting_target_identification",
+      "does_not_establish": "Aucun concept cible n'est créé ou fusionné à partir du seul titre de cours."
+    }
+  ],
+  "analytical_placements": {
+    "state": "not_asserted_in_this_example",
+    "note": "Les concepts cibles portent leurs relations, échelles et conditions dans le graphe analytique. Les liens de matière n'en recopient pas la hiérarchie ; la cible historique reste à identifier."
+  }
+}
