@@ -184,7 +184,8 @@ def number(identifier: str) -> int:
 
 
 def choose_old(candidate: dict, unused: dict[str, dict],
-               exact: dict, content: dict, body: dict) -> tuple[dict | None, str]:
+               exact: dict, content: dict, body: dict,
+               protected_anchors: set[tuple[str, str, str]]) -> tuple[dict | None, str]:
     source = candidate["source"]
     matches = [u for u in exact.get(source_key(source), []) if u["id"] in unused]
     if len(matches) > 1:
@@ -200,7 +201,8 @@ def choose_old(candidate: dict, unused: dict[str, dict],
     ):
         if key[1] is None:
             continue
-        matches = [u for u in index.get(key, []) if u["id"] in unused]
+        matches = [u for u in index.get(key, []) if u["id"] in unused
+                   and source_key(unit_source(u)) not in protected_anchors]
         if len(matches) == 1:
             return matches[0], "relocated_unreviewed"
         if len(matches) > 1:
@@ -236,8 +238,13 @@ def refresh(repo: Path = REPO_ROOT) -> dict:
     next_unit = max((number(i) for i in ids), default=0)
     units = []
     ambiguities = []
-    for candidate in candidates(knowledge):
-        prior, how = choose_old(candidate, unused, exact, content, body)
+    discovered = list(candidates(knowledge))
+    protected_anchors = {source_key(c["source"]) for c in discovered}
+    if len(protected_anchors) != len(discovered):
+        raise ValueError("Duplicate newly discovered source locators")
+    for candidate in discovered:
+        prior, how = choose_old(candidate, unused, exact, content, body,
+                                protected_anchors)
         source = dict(candidate["source"], role="primary")
         if prior is None:
             next_unit += 1
