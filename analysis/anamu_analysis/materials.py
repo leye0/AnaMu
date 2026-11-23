@@ -34,9 +34,40 @@ def read_json(path: Path, default: Any) -> Any:
 def save_json(path: Path, value: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_name(path.name + ".tmp")
-    temporary.write_text(json.dumps(value, indent=2, ensure_ascii=False) + "\n",
-                         encoding="utf-8")
+    serialized = json.dumps(value, indent=2, ensure_ascii=False) + "\n"
+    if path.exists() and path.read_text(encoding="utf-8") == serialized:
+        return
+    temporary.write_text(serialized, encoding="utf-8")
     temporary.replace(path)
+
+
+def load_catalog(folder: Path) -> dict:
+    base = folder / "materials"
+    manifest = read_json(base / "catalog.json", {"schema_version": 1, "units": []})
+    if "chunks" not in manifest:
+        return manifest
+    units = []
+    for chunk in manifest["chunks"]:
+        units.extend(read_json(base / chunk, {"units": []})["units"])
+    return {"schema_version": 1, "units": units}
+
+
+def save_catalog(folder: Path, units: list[dict], fingerprint: str) -> None:
+    base = folder / "materials"
+    groups = defaultdict(list)
+    for unit in units:
+        groups[unit_source(unit)["document_path"]].append(unit)
+    chunks = []
+    for source_path, group in sorted(groups.items()):
+        relative = "sources/" + digest(source_path)[:20] + ".json"
+        save_json(base / relative, {"source_document": source_path,
+                                    "units": sorted(group, key=lambda u: number(u["id"]))})
+        chunks.append(relative)
+    save_json(base / "catalog.json", {
+        "schema_version": 1, "source_fingerprint": fingerprint,
+        "chunks": chunks, "material_units": len(units),
+        "note": "Manifest only; source-specific chunks carry stable identities and editorial metadata."
+    })
 
 
 def json_pointer_part(value: str) -> str:
@@ -184,7 +215,7 @@ def refresh(repo: Path = REPO_ROOT) -> dict:
     courses_path = folder / "course-material-maps/links.json"
     links_path = folder / "material-knowledge-maps/links.json"
     index_path = folder / "material-index.json"
-    previous = read_json(materials_path, {"schema_version": 1, "units": []})
+    previous = load_catalog(folder)
     old_course = read_json(courses_path, {"schema_version": 1, "bindings": []})
     old_links = read_json(links_path, {"schema_version": 1, "bindings": []})
     old_units = previous["units"]
@@ -325,9 +356,7 @@ def refresh(repo: Path = REPO_ROOT) -> dict:
         "ambiguous_identity_candidates": ambiguities,
         "note": "Documentary coverage, not semantic mastery or validated musical reasoning.",
     }
-    save_json(materials_path, {"schema_version": 1,
-                               "source_fingerprint": knowledge["source_fingerprint"],
-                               "units": units})
+    save_catalog(folder, units, knowledge["source_fingerprint"])
     save_json(courses_path, {"schema_version": 1, "bindings": bindings})
     if not links_path.exists():
         save_json(links_path, {"schema_version": 1, "bindings": []})
@@ -343,7 +372,7 @@ def refresh(repo: Path = REPO_ROOT) -> dict:
 
 def show(repo: Path, identifier: str, include_source: bool) -> dict:
     root = repo / "analysis/knowledge"
-    catalog = read_json(root / "materials/catalog.json", {"units": []})
+    catalog = load_catalog(root)
     unit = next((u for u in catalog["units"] if u["id"] == identifier), None)
     if unit is None:
         raise ValueError("Unknown material ID: " + identifier)
@@ -361,12 +390,12 @@ def show(repo: Path, identifier: str, include_source: bool) -> dict:
         if not document.exists():
             result["source_preview"] = {"state": "missing"}
         elif locator["kind"] == "markdown_fragment":
-            lines = document.read_text(encoding="utf-8").splitlines()
+            lines = document.read_text(encoding="utf-8").splitlines(keepends=True)
             start, end = locator["start_line"], locator["end_line"]
-            snippet = "\n".join(lines[start - 1:end])
+            snippet = "".join(lines[start - 1:end])
             result["source_preview"] = {
-                "state": "unchanged" if digest(snippet + ("\n" if end <= len(lines) else "")) ==
-                source["content_sha256"] else "source_may_have_changed",
+                "state": "unchanged" if digest(snippet) == source["content_sha256"]
+                         else "source_may_have_changed",
                 "text": snippet,
             }
         else:
@@ -388,7 +417,7 @@ def show(repo: Path, identifier: str, include_source: bool) -> dict:
 def describe(repo: Path, identifier: str, description: str,
              reviewed: bool = False) -> None:
     path = repo / "analysis/knowledge/materials/catalog.json"
-    catalog = read_json(path, {"units": []})
+    catalog = load_catalog(repo / "analysis/knowledge")
     unit = next((u for u in catalog["units"] if u["id"] == identifier
                  and u["lifecycle"] == "active"), None)
     if unit is None:
@@ -400,7 +429,8 @@ def describe(repo: Path, identifier: str, description: str,
     unit["editorial_review"] = "human_reviewed" if reviewed else "draft"
     unit["review_required"] = not reviewed
     unit["editorial_revision"] = unit.get("editorial_revision", 0) + 1
-    save_json(path, catalog)
+    save_catalog(repo / "analysis/knowledge", catalog["units"],
+                 read_json(path, {}).get("source_fingerprint", "not_built"))
 
 
 def main(argv: list[str] | None = None) -> None:
@@ -429,7 +459,7 @@ def main(argv: list[str] | None = None) -> None:
             describe(repo, args.id, args.description, args.reviewed)
             print("Description saved; identity and source text unchanged.")
         else:
-            catalog = read_json(repo / "analysis/knowledge/materials/catalog.json", {"units": []})
+            catalog = load_catalog(repo / "analysis/knowledge")
             needle = args.query.casefold()
             matched = [
                 {"id": unit["id"], "title": unit["title"],
