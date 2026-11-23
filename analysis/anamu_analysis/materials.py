@@ -202,25 +202,28 @@ def choose_old(candidate: dict, unused: dict[str, dict],
     source = candidate["source"]
     locator = source["locator"]
     identity = locator.get("record_identity")
-    if identity:
-        matches = [u for u in identities.get((source["document_path"], identity), [])
-                   if u["id"] in unused]
-        if len(matches) == 1:
-            old = matches[0]
-            return old, ("anchor" if source_key(unit_source(old)) == source_key(source)
-                         else "relocated_unreviewed")
-        if len(matches) > 1:
-            return None, "ambiguous_locator"
     matches = [u for u in exact.get(source_key(source), []) if u["id"] in unused]
     if len(matches) > 1:
         raise ValueError("Duplicate source locator: " + str(source_key(source)))
-    if matches:
-        old_identity = unit_source(matches[0])["locator"].get("record_identity")
-        if identity and old_identity and old_identity != identity:
-            # A JSON array index now addresses a different identifiable row.
-            # Do not swap stable material identities when rows are reordered.
-            return None, "changed_row_identity"
-        return matches[0], "anchor"
+    exact_match = matches[0] if matches else None
+    if identity:
+        identified = [u for u in identities.get((source["document_path"], identity), [])
+                      if u["id"] in unused]
+        if len(identified) == 1:
+            old = identified[0]
+            return old, ("anchor" if source_key(unit_source(old)) == source_key(source)
+                         else "relocated_unreviewed")
+        if exact_match:
+            old_identity = unit_source(exact_match)["locator"].get("record_identity")
+            if old_identity and old_identity != identity:
+                # An array index now addresses a different identifiable row.
+                return None, "changed_row_identity"
+            # Duplicate business keys do not invalidate an unchanged locator.
+            return exact_match, "anchor"
+        if len(identified) > 1:
+            return None, "ambiguous_locator"
+    elif exact_match:
+        return exact_match, "anchor"
     # Relocations are proposals, never silently validated. Match only a UNIQUE
     # unchanged passage; duplicate boilerplate and empty headings are excluded.
     for index, key in (
@@ -325,6 +328,8 @@ def refresh(repo: Path = REPO_ROOT) -> dict:
 
     previous_bindings = {(b["course_id"], b["material_id"]): b
                          for b in old_course["bindings"]}
+    if len(previous_bindings) != len(old_course["bindings"]):
+        raise ValueError("Duplicate persisted course-material binding")
     next_binding = max((number(b["id"]) for b in old_course["bindings"]), default=0)
     bindings = []
     for unit in units:
