@@ -102,6 +102,18 @@ def excerpt(value: str, limit: int = 240) -> str:
     return value[:limit].rstrip() + ("…" if len(value) > limit else "")
 
 
+def json_record_identity(value: Any) -> str | None:
+    """An explicit row key is stronger than an array index, but not proof of semantics."""
+    if not isinstance(value, dict):
+        return None
+    for key in ("id", "course_id"):
+        if isinstance(value.get(key), (str, int)) and str(value[key]).strip():
+            return key + ":" + str(value[key])
+    if isinstance(value.get("code"), str) and isinstance(value.get("institution"), str):
+        return "institution_code:" + value["institution"] + ":" + value["code"]
+    return None
+
+
 def candidates(knowledge: dict) -> Iterator[dict]:
     documents = {doc["path"]: doc for doc in knowledge["documents"]}
     courses = {row["path"]: row for row in knowledge["courses"]}
@@ -159,7 +171,8 @@ def candidates(knowledge: dict) -> Iterator[dict]:
                     "document_path": source["path"],
                     "document_sha256": source["sha256"],
                     "locator": {"kind": "json_pointer", "anchor": pointer,
-                                "json_pointer": pointer},
+                                "json_pointer": pointer,
+                                "record_identity": json_record_identity(value)},
                     "content_sha256": digest(value),
                     "body_sha256": None,
                 },
@@ -184,13 +197,29 @@ def number(identifier: str) -> int:
 
 
 def choose_old(candidate: dict, unused: dict[str, dict],
-               exact: dict, content: dict, body: dict,
+               exact: dict, content: dict, body: dict, identities: dict,
                protected_anchors: set[tuple[str, str, str]]) -> tuple[dict | None, str]:
     source = candidate["source"]
+    locator = source["locator"]
+    identity = locator.get("record_identity")
+    if identity:
+        matches = [u for u in identities.get((source["document_path"], identity), [])
+                   if u["id"] in unused]
+        if len(matches) == 1:
+            old = matches[0]
+            return old, ("anchor" if source_key(unit_source(old)) == source_key(source)
+                         else "relocated_unreviewed")
+        if len(matches) > 1:
+            return None, "ambiguous_locator"
     matches = [u for u in exact.get(source_key(source), []) if u["id"] in unused]
     if len(matches) > 1:
         raise ValueError("Duplicate source locator: " + str(source_key(source)))
     if matches:
+        old_identity = unit_source(matches[0])["locator"].get("record_identity")
+        if identity and old_identity and old_identity != identity:
+            # A JSON array index now addresses a different identifiable row.
+            # Do not swap stable material identities when rows are reordered.
+            return None, "changed_row_identity"
         return matches[0], "anchor"
     # Relocations are proposals, never silently validated. Match only a UNIQUE
     # unchanged passage; duplicate boilerplate and empty headings are excluded.
@@ -225,10 +254,14 @@ def refresh(repo: Path = REPO_ROOT) -> dict:
     if len(ids) != len(set(ids)):
         raise ValueError("Duplicate persisted material IDs")
     unused = {u["id"]: u for u in old_units}
-    exact, content, body = defaultdict(list), defaultdict(list), defaultdict(list)
+    exact, content, body, identities = (defaultdict(list), defaultdict(list),
+                                       defaultdict(list), defaultdict(list))
     for unit in old_units:
         source = unit_source(unit)
         exact[source_key(source)].append(unit)
+        record_identity = source["locator"].get("record_identity")
+        if record_identity:
+            identities[(source["document_path"], record_identity)].append(unit)
         content[(source["document_path"], source["content_sha256"])].append(unit)
         content[(None, source["content_sha256"])].append(unit)
         if source.get("body_sha256"):
@@ -244,7 +277,7 @@ def refresh(repo: Path = REPO_ROOT) -> dict:
         raise ValueError("Duplicate newly discovered source locators")
     for candidate in discovered:
         prior, how = choose_old(candidate, unused, exact, content, body,
-                                protected_anchors)
+                                identities, protected_anchors)
         source = dict(candidate["source"], role="primary")
         if prior is None:
             next_unit += 1
@@ -260,7 +293,7 @@ def refresh(repo: Path = REPO_ROOT) -> dict:
                 "source_bindings": [source], "lifecycle": "active",
                 "locator_review": "unreviewed",
             }
-            if how == "ambiguous_locator":
+            if how in ("ambiguous_locator", "changed_row_identity"):
                 ambiguities.append(unit["id"])
         else:
             unused.pop(prior["id"])
