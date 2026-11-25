@@ -8,7 +8,7 @@ Le [plan directeur de cartographie et de raisonnement musical](planning/PLAN_RAI
 
 Le [référentiel de matière et ses deux mappings](planning/MAPPING_MATIERE.md) précise la couche préalable : décrire et maintenir les contenus, puis les relier au raisonnement. Un exemple JSON accompagne cette proposition.
 
-Le [registre maintenable des unités de matière](knowledge/MATERIAL_REGISTRY.md) fournit désormais une première implémentation distincte : découverte documentaire, identités persistantes, descriptions révisables et index de navigation. Son contenu de production doit encore être généré et revu ; il ne constitue pas un nouveau rapprochement analytique validé.
+Le [registre maintenable des unités de matière](knowledge/MATERIAL_REGISTRY.md) dispose d'un premier **lot pilote publié** : huit fiches, 116 unités documentaires, 15 descriptions sourcées en attente de confirmation et 31 contributions analytiques proposées. Sa mise à l'échelle des 424 fiches, 76 références et 30 JSON reste à réaliser ; ces propositions ne sont pas des règles musicales validées.
 
 ## Ce qui existe dans cette première version
 
