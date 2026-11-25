@@ -1,4 +1,563 @@
 {
   "schema_version": 1,
-  "bindings": []
+  "bindings": [
+    {
+      "id": "material-knowledge:0000001",
+      "material_id": "material:0000010",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.lowest_pitch",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Intervalles comptés au-dessus d'une basse notée et distinction basse/fondamentale."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Intervalles comptés au-dessus d'une basse notée et distinction basse/fondamentale.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Les chiffres et graphies ne sont pas présents dans un MIDI nu."
+    },
+    {
+      "id": "material-knowledge:0000002",
+      "material_id": "material:0000013",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.function",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "contrasts",
+      "covered_aspects": [
+        "Fonction cadentielle, de passage et de pédale de la même figure 6/4."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Fonction cadentielle, de passage et de pédale de la même figure 6/4.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Aucune fonction inférée d'une collection de classes seulement."
+    },
+    {
+      "id": "material-knowledge:0000003",
+      "material_id": "material:0000013",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.lowest_pitch",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Comparer basse tenue et mouvement de basse dans les trois réalisations."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Comparer basse tenue et mouvement de basse dans les trois réalisations.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "L'événement MIDI le plus grave n'est pas nécessairement la voix de basse."
+    },
+    {
+      "id": "material-knowledge:0000004",
+      "material_id": "material:0000025",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.tonicization",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "contrasts",
+      "covered_aspects": [
+        "Distinguer orientation locale V/V d'un nouveau centre prolongé."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Distinguer orientation locale V/V d'un nouveau centre prolongé.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Une seule altération chromatique ne fixe pas le centre tonal."
+    },
+    {
+      "id": "material-knowledge:0000005",
+      "material_id": "material:0000025",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.modulation",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Rechercher cadences, phrase et prolongation du nouveau centre."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Rechercher cadences, phrase et prolongation du nouveau centre.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Aucun seuil chronométrique universel pour conclure à la modulation."
+    },
+    {
+      "id": "material-knowledge:0000006",
+      "material_id": "material:0000029",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.tonicization",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "illustrates",
+      "covered_aspects": [
+        "Progressions A et C : dominante appliquée et cible éludée."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Progressions A et C : dominante appliquée et cible éludée.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "L'arrivée attendue d'un accord n'est pas un événement observé."
+    },
+    {
+      "id": "material-knowledge:0000007",
+      "material_id": "material:0000029",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.modulation",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "contrasts",
+      "covered_aspects": [
+        "Progression B : accords-pivots et région en sol étayée sur une phrase."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Progression B : accords-pivots et région en sol étayée sur une phrase.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Ces exemples sont originaux AnaMu, non analyses d'un devoir officiel."
+    },
+    {
+      "id": "material-knowledge:0000008",
+      "material_id": "material:0000029",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.cadence",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Rechercher les cadences et continuations après une première arrivée tonale."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Rechercher les cadences et continuations après une première arrivée tonale.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Une cadence isolée peut rester insuffisante pour décider d'une modulation."
+    },
+    {
+      "id": "material-knowledge:0000009",
+      "material_id": "material:0000044",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.function",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Tester plusieurs choix accord-gamme avec mélodie, tensions et contexte fonctionnel."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Tester plusieurs choix accord-gamme avec mélodie, tensions et contexte fonctionnel.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Le symbole G7 n'impose pas une gamme ou intention d'improvisation unique."
+    },
+    {
+      "id": "material-knowledge:0000010",
+      "material_id": "material:0000045",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.sonority",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "contrasts",
+      "covered_aspects": [
+        "Comparer notes-guides seulement communes de G7/D♭7 et équivalence tempérée complète de Ger+6/A♭7."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Comparer notes-guides seulement communes de G7/D♭7 et équivalence tempérée complète de Ger+6/A♭7.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Les ensembles tempérés n'indiquent ni fonction ni graphie."
+    },
+    {
+      "id": "material-knowledge:0000011",
+      "material_id": "material:0000045",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.function",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Évaluer résolution des notes-guides et basses dans une substitution tritonique."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Évaluer résolution des notes-guides et basses dans une substitution tritonique.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "L'équivalence des notes-guides ne rend pas les accords identiques."
+    },
+    {
+      "id": "material-knowledge:0000012",
+      "material_id": "material:0000059",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.lowest_pitch",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Observer une basse ré stable sous des harmonies changeantes."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Observer une basse ré stable sous des harmonies changeantes.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Note grave répétée n'est pas preuve du mode dorien."
+    },
+    {
+      "id": "material-knowledge:0000013",
+      "material_id": "material:0000059",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "motif.exact_recurrence",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "contrasts",
+      "covered_aspects": [
+        "Opposer une note grave réattaquée à l'ostinato avec cellule périodique."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Opposer une note grave réattaquée à l'ostinato avec cellule périodique.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Une répétition isolée ne prouve pas l'identité motivique."
+    },
+    {
+      "id": "material-knowledge:0000014",
+      "material_id": "material:0000061",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.function",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "contrasts",
+      "covered_aspects": [
+        "Distinguer dominante fonctionnelle à résolution déceptive et structure constante possiblement non fonctionnelle."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Distinguer dominante fonctionnelle à résolution déceptive et structure constante possiblement non fonctionnelle.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Le nom d'accord ne suffit pas à établir la fonction."
+    },
+    {
+      "id": "material-knowledge:0000015",
+      "material_id": "material:0000061",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.cadence",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "illustrates",
+      "covered_aspects": [
+        "Évitement de la tonique lors de V7→vi à la frontière d'une phrase."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Évitement de la tonique lors de V7→vi à la frontière d'une phrase.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "V7→vi n'est pas automatiquement une cadence complète."
+    },
+    {
+      "id": "material-knowledge:0000016",
+      "material_id": "material:0000065",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "unresolved_concept_or_assertion",
+        "id": null,
+        "proposed_subject": "Histoire et contextes culturels des musiques afro-américaines"
+      },
+      "contribution_kind": "documents_context",
+      "covered_aspects": [
+        "Thèmes historiques et culturels des musiques afro-américaines contemporaines nommés au catalogue."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Thèmes historiques et culturels des musiques afro-américaines contemporaines nommés au catalogue.",
+      "state": "awaiting_target_identification",
+      "does_not_establish": "Aucun concept historique dédié parmi les 25 premiers; aucun genre inféré de notes."
+    },
+    {
+      "id": "material-knowledge:0000017",
+      "material_id": "material:0000080",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.diminished_symmetry",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "illustrates",
+      "covered_aspects": [
+        "Classes sonores communes sous réorthographes B°7 et G♯°7."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Classes sonores communes sous réorthographes B°7 et G♯°7.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Le MIDI ne conserve pas l'orthographe."
+    },
+    {
+      "id": "material-knowledge:0000018",
+      "material_id": "material:0000080",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.function",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Confronter graphie, notes sensibles et résolutions de voix à la fonction proposée."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Confronter graphie, notes sensibles et résolutions de voix à la fonction proposée.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Même ensemble tempéré n'implique pas même fonction."
+    },
+    {
+      "id": "material-knowledge:0000019",
+      "material_id": "material:0000086",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.diminished_symmetry",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "illustrates",
+      "covered_aspects": [
+        "Quatre réorthographes de l'ensemble diminué {6,9,0,3}."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Quatre réorthographes de l'ensemble diminué {6,9,0,3}.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Ne pas confondre septième totalement et demi-diminuée."
+    },
+    {
+      "id": "material-knowledge:0000020",
+      "material_id": "material:0000086",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.modulation",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "contrasts",
+      "covered_aspects": [
+        "Tester sensible appliquée, pivot enharmonique et note commune avant d'inférer une modulation."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Tester sensible appliquée, pivot enharmonique et note commune avant d'inférer une modulation.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Les quatre toniques potentielles ne sont pas quatre modulations réelles."
+    },
+    {
+      "id": "material-knowledge:0000021",
+      "material_id": "material:0000097",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "orchestration.local_roles",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Distinguer crescendo de nuances et ajout de pupitres, en suivant doublures et rôle du thème."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Distinguer crescendo de nuances et ajout de pupitres, en suivant doublures et rôle du thème.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "L'ajout de canaux MIDI ne certifie pas un gain sonore."
+    },
+    {
+      "id": "material-knowledge:0000022",
+      "material_id": "material:0000097",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "sound.velocity",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "contrasts",
+      "covered_aspects": [
+        "Comparer commande de vélocité et niveau/perception acoustique."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Comparer commande de vélocité et niveau/perception acoustique.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Une vélocité n'est pas une valeur en décibels."
+    },
+    {
+      "id": "material-knowledge:0000023",
+      "material_id": "material:0000097",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "sound.masking",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Évaluer l'équilibre et les masquages lors de l'augmentation de densité."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Évaluer l'équilibre et les masquages lors de l'augmentation de densité.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "La perception exige l'audio, pas seulement le MIDI."
+    },
+    {
+      "id": "material-knowledge:0000024",
+      "material_id": "material:0000100",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "orchestration.local_roles",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "illustrates",
+      "covered_aspects": [
+        "Cinq variantes contrôlées d'une même phrase avec alto mobile et cor doublant la clarinette."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Cinq variantes contrôlées d'une même phrase avec alto mobile et cor doublant la clarinette.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Doublure ne signifie pas nouvelle voix ou thème indépendant."
+    },
+    {
+      "id": "material-knowledge:0000025",
+      "material_id": "material:0000100",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "sound.velocity",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "contrasts",
+      "covered_aspects": [
+        "Séparer notes/vélocités inchangées des variations de gain du mix."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Séparer notes/vélocités inchangées des variations de gain du mix.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Le gain du rendu ne se lit pas comme un changement d'événement MIDI."
+    },
+    {
+      "id": "material-knowledge:0000026",
+      "material_id": "material:0000100",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "sound.masking",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Comparer versions compensées et thème protégé en ajustant l'accompagnement."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Comparer versions compensées et thème protégé en ajustant l'accompagnement.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Mesures RMS/LUFS égales n'imposent pas une perception égale."
+    },
+    {
+      "id": "material-knowledge:0000027",
+      "material_id": "material:0000104",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.tonicization",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "documents_context",
+      "covered_aspects": [
+        "L'épreuve publique mentionne explicitement dominantes secondaires et polarisation."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "L'épreuve publique mentionne explicitement dominantes secondaires et polarisation.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "L'épreuve n'est pas le syllabus détaillé de la section."
+    },
+    {
+      "id": "material-knowledge:0000028",
+      "material_id": "material:0000104",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.modulation",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "documents_context",
+      "covered_aspects": [
+        "L'exemption demande repérage de changements de tonalité dans un alterné modulant."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "L'exemption demande repérage de changements de tonalité dans un alterné modulant.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Aucun mécanisme analytique n'est validé par la seule notice."
+    },
+    {
+      "id": "material-knowledge:0000029",
+      "material_id": "material:0000104",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.modal_mixture",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "documents_context",
+      "covered_aspects": [
+        "Le mode mixte est nommé dans l'épreuve universitaire."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Le mode mixte est nommé dans l'épreuve universitaire.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Aucun exercice de section supplémentaire n'est reconstitué."
+    },
+    {
+      "id": "material-knowledge:0000030",
+      "material_id": "material:0000114",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.sonority",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "contrasts",
+      "covered_aspects": [
+        "Même ensemble tempéré [8,0,3,6] pour Ger+6 et A♭7."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Même ensemble tempéré [8,0,3,6] pour Ger+6 et A♭7.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "L'orthographe fa♯/sol♭ n'est pas encodée dans le MIDI brut."
+    },
+    {
+      "id": "material-knowledge:0000031",
+      "material_id": "material:0000114",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.function",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Comparer résolution vers V de do ou destination ré♭ à partir des graphies et voix."
+      ],
+      "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
+      "justification": "Comparer résolution vers V de do ou destination ré♭ à partir des graphies et voix.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Une réorthographe seule ne certifie aucune modulation."
+    }
+  ]
 }

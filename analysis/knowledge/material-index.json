@@ -9,8 +9,11 @@
     "descriptions_assistant_source_checked": 15,
     "descriptions_human_reviewed": 0,
     "course_material_bindings_active": 116,
-    "material_knowledge_bindings": 0,
-    "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé."
+    "material_knowledge_bindings": 31,
+    "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
+    "material_knowledge_bindings_proposed": 30,
+    "material_knowledge_bindings_unresolved": 1,
+    "material_knowledge_bindings_confirmed": 0
   },
   "by_course": {
     "berklee:CM-211": [
@@ -280,6 +283,61 @@
       "material:0000116"
     ]
   },
-  "by_concept": {},
+  "by_concept": {
+    "harmony.lowest_pitch": [
+      "material:0000010",
+      "material:0000013",
+      "material:0000059"
+    ],
+    "harmony.function": [
+      "material:0000013",
+      "material:0000044",
+      "material:0000045",
+      "material:0000061",
+      "material:0000080",
+      "material:0000114"
+    ],
+    "harmony.tonicization": [
+      "material:0000025",
+      "material:0000029",
+      "material:0000104"
+    ],
+    "harmony.modulation": [
+      "material:0000025",
+      "material:0000029",
+      "material:0000086",
+      "material:0000104"
+    ],
+    "harmony.cadence": [
+      "material:0000029",
+      "material:0000061"
+    ],
+    "harmony.sonority": [
+      "material:0000045",
+      "material:0000114"
+    ],
+    "motif.exact_recurrence": [
+      "material:0000059"
+    ],
+    "harmony.diminished_symmetry": [
+      "material:0000080",
+      "material:0000086"
+    ],
+    "orchestration.local_roles": [
+      "material:0000097",
+      "material:0000100"
+    ],
+    "sound.velocity": [
+      "material:0000097",
+      "material:0000100"
+    ],
+    "sound.masking": [
+      "material:0000097",
+      "material:0000100"
+    ],
+    "harmony.modal_mixture": [
+      "material:0000104"
+    ]
+  },
   "knowledge_links_requiring_review": []
 }
