@@ -393,11 +393,23 @@ def refresh(repo: Path = REPO_ROOT) -> dict:
         "descriptions_human_reviewed": sum(u.get("editorial_review") == "human_reviewed"
                                              for u in units if u["lifecycle"] == "active"
                                              and not u["review_required"]),
+        "descriptions_assistant_source_checked_drafts": sum(
+            u.get("editorial_review") == "assistant_source_checked_draft"
+            for u in units if u["lifecycle"] == "active"),
         "material_units_requiring_review": sum(u["review_required"]
                                                 for u in units if u["lifecycle"] == "active"),
         "course_material_bindings_active": sum(b["lifecycle"] == "active" for b in bindings),
         "material_knowledge_bindings": len(old_links["bindings"]),
         "material_knowledge_bindings_stale": len(stale_links),
+        "material_knowledge_bindings_proposed": sum(
+            b.get("state") == "assistant_source_checked_proposed_link"
+            for b in old_links["bindings"]),
+        "material_knowledge_bindings_unresolved": sum(
+            b.get("target", {}).get("id") is None
+            for b in old_links["bindings"]),
+        "material_knowledge_bindings_confirmed": sum(
+            b.get("state") == "confirmed"
+            for b in old_links["bindings"]),
         "ambiguous_identity_candidates": ambiguities,
         "note": "Documentary coverage, not semantic mastery or validated musical reasoning.",
     }
@@ -484,8 +496,12 @@ def main(argv: list[str] | None = None) -> None:
     commands = parser.add_subparsers(dest="command", required=True)
     commands.add_parser("refresh", help="Create/update stable material metadata and mappings")
     search_parser = commands.add_parser("search", help="Search titles, descriptions and source paths")
-    search_parser.add_argument("query")
+    search_parser.add_argument("query", nargs="?", default="",
+                               help="Optional words in a title, description or source path")
     search_parser.add_argument("--limit", type=int, default=20)
+    search_parser.add_argument("--course", help="Filter by course ID, e.g. berklee:CM-211")
+    search_parser.add_argument("--concept", help="Filter by linked analytical concept ID")
+    search_parser.add_argument("--review", help="Filter by editorial review state")
     show_parser = commands.add_parser("show", help="Show a material and its two mappings")
     show_parser.add_argument("id")
     show_parser.add_argument("--source", action="store_true")
@@ -504,15 +520,33 @@ def main(argv: list[str] | None = None) -> None:
             describe(repo, args.id, args.description, args.reviewed)
             print("Description saved; identity and source text unchanged.")
         else:
-            catalog = load_catalog(repo / "analysis/knowledge")
+            root = repo / "analysis/knowledge"
+            catalog = load_catalog(root)
+            course_links = read_json(root / "course-material-maps/links.json",
+                                     {"bindings": []})["bindings"]
+            concept_links = read_json(root / "material-knowledge-maps/links.json",
+                                      {"bindings": []})["bindings"]
+            course_ids = {b["material_id"] for b in course_links
+                          if b.get("course_id") == args.course
+                          and b.get("lifecycle") == "active"} if args.course else None
+            concept_ids = {b["material_id"] for b in concept_links
+                           if b.get("target", {}).get("id") == args.concept
+                           } if args.concept else None
             needle = args.query.casefold()
             matched = [
                 {"id": unit["id"], "title": unit["title"],
                  "description": unit["description"], "review": unit["editorial_review"],
-                 "source": unit_source(unit)["document_path"]}
+                 "source": unit_source(unit)["document_path"],
+                 "concept_ids": sorted({b.get("target", {}).get("id")
+                                        for b in concept_links
+                                        if b["material_id"] == unit["id"]
+                                        and b.get("target", {}).get("id")})}
                 for unit in catalog["units"]
                 if needle in " ".join((unit["title"], unit["description"],
                                       unit_source(unit)["document_path"])).casefold()
+                and (course_ids is None or unit["id"] in course_ids)
+                and (concept_ids is None or unit["id"] in concept_ids)
+                and (args.review is None or unit.get("editorial_review") == args.review)
             ]
             print(json.dumps({"total_matches": len(matched),
                               "results": matched[:max(0, args.limit)]},
