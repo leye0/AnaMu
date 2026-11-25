@@ -1,0 +1,412 @@
+{
+  "source_document": "docs/courses/mcgill/MUCO-360.md",
+  "units": [
+    {
+      "id": "material:0000090",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUCO 360 — Orchestration 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : B. Mus. Composition McGill, édition 2026. Cours obligatoire recensé. Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-360.md",
+          "document_sha256": "62427297537245090ab01d86773b8a61c0ad18259af3b71ccb5f5ba21e775b48",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e7fdddb2aaaf68dd4a441dc6",
+            "heading_path": [
+              "MUCO 360 — Orchestration 2"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 81
+          },
+          "content_sha256": "238b62b909b4fe35d8dba50175992f43ea50a0b128e64ef7a8e5ff4dcbcda46d",
+          "body_sha256": "437c61655fe4b7647514467f1d1454db705243c7f53c7c6bb0f91547d2b07f4f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000091",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources et matière accessible",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Notice du cours dans le plan d’études McGill](https://www.mcgill.ca/music/programs/bmus/music-composition/study-plan), rubrique MUCO 360. Atteste réduction d’orchestre au piano, transcription de pièces de piano pour plusieurs ensembles e",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-360.md",
+          "document_sha256": "62427297537245090ab01d86773b8a61c0ad18259af3b71ccb5f5ba21e775b48",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:89b60f8905feaed148f8ad32",
+            "heading_path": [
+              "MUCO 360 — Orchestration 2",
+              "Sources et matière accessible"
+            ],
+            "start_line": 5,
+            "end_line": 11,
+            "subtree_end_line": 11
+          },
+          "content_sha256": "a7e3d88b102a541c50d813622ee9ddcfb8f012cc4b7188e545ec7221caea04df",
+          "body_sha256": "cd1cd5bf00c126d7afa2448f1b78ccb2c74fa34bbebf801ed802a44a1a37c79d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000092",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes et reprise",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Obtenir le plan complet de la section et les sujets de travaux autres que Debussy. Les captures d’une vraie section et la maquette illustrative ont des niveaux de preuve distincts.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-360.md",
+          "document_sha256": "62427297537245090ab01d86773b8a61c0ad18259af3b71ccb5f5ba21e775b48",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:39d5eae95f7ec2e676d6a069",
+            "heading_path": [
+              "MUCO 360 — Orchestration 2",
+              "Lacunes et reprise"
+            ],
+            "start_line": 12,
+            "end_line": 16,
+            "subtree_end_line": 16
+          },
+          "content_sha256": "fa493426cb13959326b88342d802adb1ba5cef169bdbd3e167616617047df677",
+          "body_sha256": "81509bdf619dee84c969354dfb706dd34d92b7042a6e4cd6abcd07989cc751f2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000093",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — première passe (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Contribution : directe à l'analyse et à la création.** [Notice MUCO 360](https://www.mcgill.ca/music/programs/bmus/music-composition/study-plan) et support institutionnel décrit plus haut. [MIDI original de démonstration](./MUCO-360/exemp",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-360.md",
+          "document_sha256": "62427297537245090ab01d86773b8a61c0ad18259af3b71ccb5f5ba21e775b48",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:763054f36ccf97afa595fe6f",
+            "heading_path": [
+              "MUCO 360 — Orchestration 2",
+              "Application à l'analyse et à la création — première passe (11 novembre 2026)"
+            ],
+            "start_line": 17,
+            "end_line": 20,
+            "subtree_end_line": 30
+          },
+          "content_sha256": "33aa5157b4a78ded59f20f11fa74574b82684bf23e29ea72344a2b3bdc8772b9",
+          "body_sha256": "7bcc333af4edbb461a56c44a5947de4744fb9ca6516a7a5d7eda145ff8dc1863",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000094",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage traité : Répartir un thème, ses harmonies et la basse par registres orchestraux",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser un morceau (procédure) :** 1. Lire notes et programmes des canaux. 2. Chercher la ligne mélodique continue et le support par accords tenus. 3. Évaluer chevauchements de registres, changements de densité, doublures et dynamiques M",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-360.md",
+          "document_sha256": "62427297537245090ab01d86773b8a61c0ad18259af3b71ccb5f5ba21e775b48",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4077edcec686439c3e07e3d2",
+            "heading_path": [
+              "MUCO 360 — Orchestration 2",
+              "Application à l'analyse et à la création — première passe (11 novembre 2026)",
+              "Apprentissage traité : Répartir un thème, ses harmonies et la basse par registres orchestraux"
+            ],
+            "start_line": 21,
+            "end_line": 30,
+            "subtree_end_line": 30
+          },
+          "content_sha256": "a4a45f85a1b8bc3b371b71cea0e06bc49d875cd8c48eb0a5bf890ef18e80c845",
+          "body_sha256": "3a60ab05ce43abcce012d376b03377ecf09d1cb96afbda26098cca164d929654",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000095",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deuxième passe qualitative — orchestration et conducteur (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance.** [Exigences McGill](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) : MUCO 360 est « Orchestration 2 ». Le [gabarit institutionnel](https://www.mcgill.ca/music/files/music/orchestration_placement_exa",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-360.md",
+          "document_sha256": "62427297537245090ab01d86773b8a61c0ad18259af3b71ccb5f5ba21e775b48",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:82c833cf607012783971264b",
+            "heading_path": [
+              "MUCO 360 — Orchestration 2",
+              "Deuxième passe qualitative — orchestration et conducteur (12 novembre 2026)"
+            ],
+            "start_line": 31,
+            "end_line": 34,
+            "subtree_end_line": 54
+          },
+          "content_sha256": "d554dfe102a633b8d91ef12f063b0cf02c6be84b7458150c2e10d0e227e98e85",
+          "body_sha256": "78d36ffc5af1d8407c257c3338eb39dd4c828c5078e3f9d0d4e4b786ecf6c4b1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000096",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q1 — De la réduction au conducteur : conserver les fonctions musicales",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Disposer de la réduction et du conducteur alignés par mesure. Identifier thème, basse, contrechant, accords et notes résonantes; relier chaque rôle à son nouveau pupitre en tenant compte des octaves, durées, changements de tim",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-360.md",
+          "document_sha256": "62427297537245090ab01d86773b8a61c0ad18259af3b71ccb5f5ba21e775b48",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4354ec48cd3ae6f3fac23de1",
+            "heading_path": [
+              "MUCO 360 — Orchestration 2",
+              "Deuxième passe qualitative — orchestration et conducteur (12 novembre 2026)",
+              "Q1 — De la réduction au conducteur : conserver les fonctions musicales"
+            ],
+            "start_line": 35,
+            "end_line": 40,
+            "subtree_end_line": 40
+          },
+          "content_sha256": "c686e5bf78edd96ed776e2ff3a4ee3151d450a0d63cf83e49e3e50b5316e6b86",
+          "body_sha256": "fa697b0cea995a429674adbf6160f47cc445898a78e7e0b281c3f579c21b4587",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000097",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q2 — Crescendo par nuances et par accumulation",
+      "title_origin": "source_heading_or_key",
+      "description": "Proposer deux réalisations d'une montée orchestrale : intensification des nuances à effectif stable versus ajout progressif de pupitres et de doublures. Examiner registre, entrées, balance et masquage; vélocité MIDI, décibels et sonie ne sont pas interchangeables.",
+      "description_origin": "assistant_source_checked",
+      "editorial_review": "assistant_source_checked_draft",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [
+        "Le crescendo de l'exercice est une méthode AnaMu, non devoir documenté de section."
+      ],
+      "notes": [
+        "Description établie à partir du passage de la fiche AnaMu ; revue musicale indépendante non effectuée."
+      ],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-360.md",
+          "document_sha256": "62427297537245090ab01d86773b8a61c0ad18259af3b71ccb5f5ba21e775b48",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a04d4e5e04ed2420d26fa6e2",
+            "heading_path": [
+              "MUCO 360 — Orchestration 2",
+              "Deuxième passe qualitative — orchestration et conducteur (12 novembre 2026)",
+              "Q2 — Crescendo par nuances et par accumulation"
+            ],
+            "start_line": 41,
+            "end_line": 46,
+            "subtree_end_line": 46
+          },
+          "content_sha256": "f456ccafb518d055e38a5ee42030e15e1b3c75da625e29f009254a938cd3437c",
+          "body_sha256": "d8fe2fe36f7cb63115c3cb8881ccbbba18b40593e533aa3c09acd1c6d79c53d8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "source_verified_editorial_pending"
+    },
+    {
+      "id": "material:0000098",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q3 — Texture légère et tutti : économie des pupitres",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Sur conducteur et audio, isoler passages légers, intermédiaires et tutti; relever instruments, registres superposés, attaques communes et doublures. Déterminer si chaque instrument assure thème, appui, couleur ou renforcement;",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-360.md",
+          "document_sha256": "62427297537245090ab01d86773b8a61c0ad18259af3b71ccb5f5ba21e775b48",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c79af17d32da09b44368ff7d",
+            "heading_path": [
+              "MUCO 360 — Orchestration 2",
+              "Deuxième passe qualitative — orchestration et conducteur (12 novembre 2026)",
+              "Q3 — Texture légère et tutti : économie des pupitres"
+            ],
+            "start_line": 47,
+            "end_line": 54,
+            "subtree_end_line": 54
+          },
+          "content_sha256": "573ba960828f375d1563298c6490c0eeb8002a6fcf068d5628687bd766555631",
+          "body_sha256": "c0b6addcfd0c590f00c65dc1661870a50bc7e70524655a6177d5b3c8d082718c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000099",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Cas vérifié — orchestrer le trajet d’un crescendo (13 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cas : Debussy, *Passepied*, mes. 7–11 et 13–22.** La partie de piano fournit le phrasé, le motif d’accompagnement et des indications de nuances et de pédale. Le gabarit à remplir n’est pas une orchestration publiée de Debussy. Dans ses co",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-360.md",
+          "document_sha256": "62427297537245090ab01d86773b8a61c0ad18259af3b71ccb5f5ba21e775b48",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:921fc85e266c6fbe9215b9ab",
+            "heading_path": [
+              "MUCO 360 — Orchestration 2",
+              "Cas vérifié — orchestrer le trajet d’un crescendo (13 novembre 2026)"
+            ],
+            "start_line": 55,
+            "end_line": 62,
+            "subtree_end_line": 62
+          },
+          "content_sha256": "fed4fbda42c653fea189e4c7620e124364863e426eaee8faf0fc1eea066df69c",
+          "body_sha256": "34c28c9b2d3c3856ac5b1a6d2500c6309dccb88b89a197d8907766d7e6943c6b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000100",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Grandir sans courir",
+      "title_origin": "source_heading_or_key",
+      "description": "Étude AnaMu originale à cinq variantes de 18 secondes : témoin, hausse du gain, rôles orchestraux ajoutés, niveau compensé et thème protégé. Les événements communs et les 33 nouvelles attaques sont contrôlés en MIDI; la balance et la perception du climax demandent l'audio.",
+      "description_origin": "assistant_source_checked",
+      "editorial_review": "assistant_source_checked_draft",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [
+        "L'atelier n'est pas une réalisation du Passepied McGill ni une validation perceptive indépendante."
+      ],
+      "notes": [
+        "Description établie à partir du passage de la fiche AnaMu ; revue musicale indépendante non effectuée."
+      ],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-360.md",
+          "document_sha256": "62427297537245090ab01d86773b8a61c0ad18259af3b71ccb5f5ba21e775b48",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e8b08adce2f97390b21ad49b",
+            "heading_path": [
+              "MUCO 360 — Orchestration 2",
+              "Grandir sans courir"
+            ],
+            "start_line": 63,
+            "end_line": 81,
+            "subtree_end_line": 81
+          },
+          "content_sha256": "a955e108e68ed7adeff4cc28759deaf709fe8aaa7f6bc6eb39433c70b46205da",
+          "body_sha256": "947837b19f885a1226de624693e109cad572c2be16cfe1077a22ff54f79bcb6c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "source_verified_editorial_pending"
+    }
+  ]
+}

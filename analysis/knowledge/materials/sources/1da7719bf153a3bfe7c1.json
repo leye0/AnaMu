@@ -1,0 +1,593 @@
+{
+  "source_document": "docs/courses/udem/MTE-1221.md",
+  "units": [
+    {
+      "id": "material:0000101",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 1221 — Harmonie 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : UdeM A26, B. Mus. Composition. Cours obligatoire, bloc 75A.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1221.md",
+          "document_sha256": "90bab7226b0be9b491c9a13754a60d9eeeb82113592a2de2df62fce602216904",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d1bd97446ced0ee863a63833",
+            "heading_path": [
+              "MTE 1221 — Harmonie 2"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 163
+          },
+          "content_sha256": "7b9f252ef80be82c77ad521803d81a8dc63be51d14b1d8865cddcc58d272b5b3",
+          "body_sha256": "a4bb5237e2d11d84d3cd1ccc1d7f346207fcf6356a9eeab96228fdaece6c7d4e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000102",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources et matière accessible",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Document pédagogique](https://musique.umontreal.ca/fileadmin/musique/documents/admissions/TEST_Harmonie.pdf) — Exemple d’exemption, exercice MTE 1221. Réaliser un alterné modulant, ajouter des ornements et indiquer les changements de ton",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1221.md",
+          "document_sha256": "90bab7226b0be9b491c9a13754a60d9eeeb82113592a2de2df62fce602216904",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f887b5597d3b8c88bfbe23ec",
+            "heading_path": [
+              "MTE 1221 — Harmonie 2",
+              "Sources et matière accessible"
+            ],
+            "start_line": 5,
+            "end_line": 11,
+            "subtree_end_line": 11
+          },
+          "content_sha256": "be1d2229b625c2954a0e2afcd7cf7e7100cfb5b01054243a8f9adddfe73f8def",
+          "body_sha256": "b4208ba5d119aa6122285268d4330a962e32f4ee1b1071f7bff07ceb5232100a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000103",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes et reprise",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Preuve du niveau évalué à l’exemption. Chercher auprès de la Faculté le plan A26, les lectures, les travaux réguliers et leurs critères.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1221.md",
+          "document_sha256": "90bab7226b0be9b491c9a13754a60d9eeeb82113592a2de2df62fce602216904",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ee7b09c938d49dbd898ee609",
+            "heading_path": [
+              "MTE 1221 — Harmonie 2",
+              "Lacunes et reprise"
+            ],
+            "start_line": 12,
+            "end_line": 15,
+            "subtree_end_line": 15
+          },
+          "content_sha256": "9075911b69dda03e0a9a7410c3ff5e2b19630c6bd78b1cedc03c7e1652728f37",
+          "body_sha256": "a24151cdea0773669bc6aa5808013d98fa22aa52270224498d04fc35ee2fe198",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000104",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Matière nommée directement dans l'épreuve facultaire — 11 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "L'exemple officiel d'exemption MTE 1221 demande alterné modulant, mode mixte, sixte napolitaine, dominantes secondaires, polarisation, sixtes augmentées, ornements, fonctions romaines et localisation des changements de tonalité.",
+      "description_origin": "assistant_source_checked",
+      "editorial_review": "assistant_source_checked_draft",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [
+        "Attestation d'une épreuve d'exemption, pas du syllabus de chaque section."
+      ],
+      "notes": [
+        "Description établie à partir du passage de la fiche AnaMu ; revue musicale indépendante non effectuée."
+      ],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1221.md",
+          "document_sha256": "90bab7226b0be9b491c9a13754a60d9eeeb82113592a2de2df62fce602216904",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:fa31b7d692c68df66e7eae56",
+            "heading_path": [
+              "MTE 1221 — Harmonie 2",
+              "Matière nommée directement dans l'épreuve facultaire — 11 novembre 2026"
+            ],
+            "start_line": 16,
+            "end_line": 20,
+            "subtree_end_line": 20
+          },
+          "content_sha256": "efd2a2e5aa931ed350097aabf35b694e8fc6b56f250d00bce2179ae1ced38dc7",
+          "body_sha256": "f9c3f441e2fe9e7da57d2acf6496e9ae4c7e30a6919a1c3fd5d9d289bceae299",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "source_verified_editorial_pending"
+    },
+    {
+      "id": "material:0000105",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — première passe (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Pertinence musicale : directe.** [Preuve de matière du cours ou de son niveau](https://musique.umontreal.ca/fileadmin/musique/documents/admissions/TEST_Harmonie.pdf) — épreuve/notice, pas nécessairement syllabus de section. **[Véritable f",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1221.md",
+          "document_sha256": "90bab7226b0be9b491c9a13754a60d9eeeb82113592a2de2df62fce602216904",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4a4c210ef30eb0b2b7519ca9",
+            "heading_path": [
+              "MTE 1221 — Harmonie 2",
+              "Application à l'analyse et à la création — première passe (11 novembre 2026)"
+            ],
+            "start_line": 21,
+            "end_line": 24,
+            "subtree_end_line": 34
+          },
+          "content_sha256": "9bf6a619a6017c04c1559eddaed620050e6c261b669a4708ef6e91626657c2ca",
+          "body_sha256": "96ce0fff79405e1a13d378beabdea54c03d14328dbea26e69a0ef196fea82dca",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000106",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage attesté : Dominante secondaire et tonicisation",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser la musique en MIDI :** 1. Inférer une tonalité à partir de plusieurs fenêtres. 2. Localiser une dominante étrangère à la gamme (A7 avec do♯ en do majeur). 3. Vérifier la résolution A7→Dm puis G7→C. 4. Refuser de déclarer une modu",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1221.md",
+          "document_sha256": "90bab7226b0be9b491c9a13754a60d9eeeb82113592a2de2df62fce602216904",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a7b80bdf5b44428654d1ef55",
+            "heading_path": [
+              "MTE 1221 — Harmonie 2",
+              "Application à l'analyse et à la création — première passe (11 novembre 2026)",
+              "Apprentissage attesté : Dominante secondaire et tonicisation"
+            ],
+            "start_line": 25,
+            "end_line": 34,
+            "subtree_end_line": 34
+          },
+          "content_sha256": "a6a0f13b90232af0a186b22efac712f29933e0b7c565b81bb461fec5a3fd0484",
+          "body_sha256": "2587fd782085b6db580ac5c839f929cb7e8bed79eca7ead90b73e41c551db91f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000107",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Approfondissement de la matière attestée — deuxième passe (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance et statut.** [Source propre au niveau ou au cours](https://musique.umontreal.ca/fileadmin/musique/documents/admissions/TEST_Harmonie.pdf). Examen d'exemption associé à MTE 1221 : alterné modulant, mode mixte, sixte napolitaine,",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1221.md",
+          "document_sha256": "90bab7226b0be9b491c9a13754a60d9eeeb82113592a2de2df62fce602216904",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b42366835521b5b8af3dfba6",
+            "heading_path": [
+              "MTE 1221 — Harmonie 2",
+              "Approfondissement de la matière attestée — deuxième passe (12 novembre 2026)"
+            ],
+            "start_line": 35,
+            "end_line": 38,
+            "subtree_end_line": 70
+          },
+          "content_sha256": "300ff2ffb40999d40bb2eb8674f4d871fc5139b1d03a949e522439d0700d8947",
+          "body_sha256": "d28cc7dd02b521e755cc93c45e992488bfab6c2755e7cb89df6b31dd62cd11df",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000108",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Axe approfondi 1 — Sixte napolitaine : orthographe et préparation d'une dominante",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser une œuvre existante — entrée, séquence d'opérations et vérification.** À partir d'une partition en contexte tonal, chercher l'accord majeur sur degré abaissé II, souvent au premier renversement (♭II6), sa basse et sa relation à V",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1221.md",
+          "document_sha256": "90bab7226b0be9b491c9a13754a60d9eeeb82113592a2de2df62fce602216904",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:549148fad7f99a85277be6b2",
+            "heading_path": [
+              "MTE 1221 — Harmonie 2",
+              "Approfondissement de la matière attestée — deuxième passe (12 novembre 2026)",
+              "Axe approfondi 1 — Sixte napolitaine : orthographe et préparation d'une dominante"
+            ],
+            "start_line": 39,
+            "end_line": 48,
+            "subtree_end_line": 48
+          },
+          "content_sha256": "83709f0ac764bf06c5d20dfdeefbff331a93e0e2e63d19e5facd001cdf3ac1e6",
+          "body_sha256": "b4f5b76aed9a943a53dcc5290821cdb944a2b0939ba15a0ddb7e6084286862f7",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000109",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Axe approfondi 2 — Sixte augmentée : résolution contrariée à vérifier par les voix",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser une œuvre existante — entrée, séquence d'opérations et vérification.** Dans un contexte de do, repérer une basse ou voix la♭ et une voix fa♯ formant une sixte augmentée **orthographiée**; vérifier que ces deux lignes se dirigent ",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1221.md",
+          "document_sha256": "90bab7226b0be9b491c9a13754a60d9eeeb82113592a2de2df62fce602216904",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3e2208f1aa95224abd1eac73",
+            "heading_path": [
+              "MTE 1221 — Harmonie 2",
+              "Approfondissement de la matière attestée — deuxième passe (12 novembre 2026)",
+              "Axe approfondi 2 — Sixte augmentée : résolution contrariée à vérifier par les voix"
+            ],
+            "start_line": 49,
+            "end_line": 58,
+            "subtree_end_line": 58
+          },
+          "content_sha256": "ba861dd8e76e5fb91e3be6351d0fc2c544879e6c2226056c46ae6ddf6cfc847d",
+          "body_sha256": "3576dd4c48dddfc41a968aec6d98a46efb5086ecb2c98bc50d876299937ad1c2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000110",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Axe approfondi 3 — Tonicisation, mode mixte et véritable changement de centre tonal",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser une œuvre existante — entrée, séquence d'opérations et vérification.** Identifier d'abord la tonalité dominante d'une phrase. Relever les altérations étrangères, fonctions secondaires, emprunts modaux et cadences locales; disting",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1221.md",
+          "document_sha256": "90bab7226b0be9b491c9a13754a60d9eeeb82113592a2de2df62fce602216904",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:368945125fcd11ef1e15543f",
+            "heading_path": [
+              "MTE 1221 — Harmonie 2",
+              "Approfondissement de la matière attestée — deuxième passe (12 novembre 2026)",
+              "Axe approfondi 3 — Tonicisation, mode mixte et véritable changement de centre tonal"
+            ],
+            "start_line": 59,
+            "end_line": 70,
+            "subtree_end_line": 70
+          },
+          "content_sha256": "010ba554f65283badb1674addba1161344a2cd2ce67bd5d04f2fb919f581f8b3",
+          "body_sha256": "500177c09984394a2c8a1424668d25f3fce8909393abab76984136d58ec7ce93",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000111",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — un accord, deux fonctions de préparation (13 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve du niveau.** L'[épreuve facultaire d'exemption](https://musique.umontreal.ca/fileadmin/musique/documents/admissions/TEST_Harmonie.pdf) demande de réaliser un alterné modulant et de situer les changements de tonalité. Le lied ci-des",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1221.md",
+          "document_sha256": "90bab7226b0be9b491c9a13754a60d9eeeb82113592a2de2df62fce602216904",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1ba364f1536b1a4e7a1ea9a4",
+            "heading_path": [
+              "MTE 1221 — Harmonie 2",
+              "Application à l'analyse et à la création — un accord, deux fonctions de préparation (13 novembre 2026)"
+            ],
+            "start_line": 71,
+            "end_line": 82,
+            "subtree_end_line": 82
+          },
+          "content_sha256": "0d6038ec0472a074477167d994f3410e7ad980ee87bac7ffa49b1090fb9d7705",
+          "body_sha256": "851cf3b2f0b760dd2c4b6d793253fea739df65a1e75b81f99f967b111707afc6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000112",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Même note à la frontière, nouvelle fonction — de la dominante au ré majeur",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le [cas Jobim dans OCOMP-493](../berklee-online/OCOMP-493.md#une-couleur-ne-se-déduit-pas-dun-accord--jobim) donne l’inverse du pivot d’accord complet décrit plus haut. Dans l’arrangement noté de Paulo Jobim, le **fa♯ du chant est tenu à tr",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1221.md",
+          "document_sha256": "90bab7226b0be9b491c9a13754a60d9eeeb82113592a2de2df62fce602216904",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:663bc0d5dcf5ff6b0e06addd",
+            "heading_path": [
+              "MTE 1221 — Harmonie 2",
+              "Même note à la frontière, nouvelle fonction — de la dominante au ré majeur"
+            ],
+            "start_line": 83,
+            "end_line": 90,
+            "subtree_end_line": 90
+          },
+          "content_sha256": "830b305f7cee85d1dba37e65d881917f699b36e546ba5aef6d33f5aec040f95c",
+          "body_sha256": "4d65717df10f5c962c24ac3b953e4ef8c5a726f9be8c3255765cc147662d30ea",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000113",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Chopin — l’arrêt ne dit pas sur quel accord on s’arrête",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Ancrage et méthode.** Le niveau d’écriture tonale documenté dans MTE-1221 justifie de différencier les appuis par leur fonction. Le *Prélude en mi mineur* op. 28 no 4 est un comparateur AnaMu. La méthode consiste à regarder où s’interromp",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1221.md",
+          "document_sha256": "90bab7226b0be9b491c9a13754a60d9eeeb82113592a2de2df62fce602216904",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1315578f5e35d8d7c51a7755",
+            "heading_path": [
+              "MTE 1221 — Harmonie 2",
+              "Chopin — l’arrêt ne dit pas sur quel accord on s’arrête"
+            ],
+            "start_line": 91,
+            "end_line": 111,
+            "subtree_end_line": 111
+          },
+          "content_sha256": "982a997beecf769414b6734b1d5d6853b9eadbbdceb41fa9bf20ec6ef6435f39",
+          "body_sha256": "6c52a72f42cbcdde747151b53808f7600bb42ecbcec44c72092cd1ba74128b2d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000114",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Même sonorité, deux destinations chromatiques — sixte allemande et V7 (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Comparer Ger+6 la♭–do–mi♭–fa♯ préparant la dominante et A♭7 la♭–do–mi♭–sol♭ pouvant viser ré♭ : mêmes classes tempérées, mais graphie et tendances de voix différentes. Vérifier les résolutions, le style et la région réellement établie.",
+      "description_origin": "assistant_source_checked",
+      "editorial_review": "assistant_source_checked_draft",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [
+        "Comparaison originale AnaMu, non exemple officiellement prescrit par l'épreuve."
+      ],
+      "notes": [
+        "Description établie à partir du passage de la fiche AnaMu ; revue musicale indépendante non effectuée."
+      ],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1221.md",
+          "document_sha256": "90bab7226b0be9b491c9a13754a60d9eeeb82113592a2de2df62fce602216904",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:81c6a76ab35277c5644fbd76",
+            "heading_path": [
+              "MTE 1221 — Harmonie 2",
+              "Même sonorité, deux destinations chromatiques — sixte allemande et V7 (17 novembre 2026)"
+            ],
+            "start_line": 112,
+            "end_line": 128,
+            "subtree_end_line": 128
+          },
+          "content_sha256": "62340e0a83ecedc052357dbb10fd900bff1efdfa4d83ba06c425800b1d25f790",
+          "body_sha256": "7213d2a2582f2ce4666ecfae2a726d294c0eb2d37e16c45cb221d48f6d203904",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "source_verified_editorial_pending"
+    },
+    {
+      "id": "material:0000115",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Atelier sonore et partitions — fonctions en contexte (18 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve et portée.** Le PDF facultaire est titré « Exemple des tests d’admission Harmonie 1 et 2 » et porte MTE1221 dans son second exercice; il mentionne modulation, dominantes secondaires et sixtes augmentées. Cette preuve de niveau ne d",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1221.md",
+          "document_sha256": "90bab7226b0be9b491c9a13754a60d9eeeb82113592a2de2df62fce602216904",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:286aba11c77bc0631eeaf704",
+            "heading_path": [
+              "MTE 1221 — Harmonie 2",
+              "Atelier sonore et partitions — fonctions en contexte (18 novembre 2026)"
+            ],
+            "start_line": 129,
+            "end_line": 134,
+            "subtree_end_line": 163
+          },
+          "content_sha256": "93ba9dafbd4d0c99f51f57c15c6b163319c318666242591a88fbc83307fc192d",
+          "body_sha256": "667cfe3823172240777c09b5aeb35906dbfd819aec82260db54f8dd416dae5fd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000116",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Fa♯ ou sol♭ : même verticale, deux suites",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [Écouter le MP3](MTE-1221/meme-touche-fa-diese-sol-bemol.mp3) · [MIDI original](MTE-1221/meme-touche-fa-diese-sol-bemol.mid) · [Partition et graphies](MTE-1221/partition-meme-touche-fa-diese-sol-bemol.html) · [MusicXML modifiable](MTE-1221/",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1221.md",
+          "document_sha256": "90bab7226b0be9b491c9a13754a60d9eeeb82113592a2de2df62fce602216904",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7485827c05857b34957260bb",
+            "heading_path": [
+              "MTE 1221 — Harmonie 2",
+              "Atelier sonore et partitions — fonctions en contexte (18 novembre 2026)",
+              "Fa♯ ou sol♭ : même verticale, deux suites"
+            ],
+            "start_line": 135,
+            "end_line": 163,
+            "subtree_end_line": 163
+          },
+          "content_sha256": "44a0c25dd838f081cf4813d6f1555fa95b17d9c18022b0cca80ee4a89d2845a7",
+          "body_sha256": "4f8b8e15415646dc67c9e8b8e28764ff78afd8fb9a82633270c8927de9d653a2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
