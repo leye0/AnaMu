@@ -44,10 +44,17 @@ recopie pas le texte intégral** des 424 fiches. Les unités de source peuvent
 section automatiquement détectée n'est pas une définition universelle du
 niveau de granularité.
 
-Ces fichiers de production sont générés à la **première exécution locale**.
-Ils ne sont pas préremplis par la présente livraison de code : ne pas annoncer
-leur publication ou leur validation avant d'avoir exécuté cette commande sur
-les sources complètes et vérifié le résultat.
+Un **premier catalogue pilote est maintenant publié**, avec 8 fiches de cours,
+116 unités documentaires candidates, 15 descriptions relues sur leurs passages
+et 31 contributions analytiques proposées, dont une cible historique encore
+non résolue. Les 15 descriptions demeurent des brouillons vérifiés par
+l'assistant, et les 31 liens restent à faire confirmer. Cela ne constitue ni
+l'indexation active des 424 fiches ni l'intégration musicale complète.
+
+La commande **refresh** permet de poursuivre sur toutes les sources et de
+conserver les unités, descriptions et liens existants. Son exécution complète
+sur le checkout n'a pas encore été effectuée. Ne pas confondre les inventaires
+documentaires de **compile_knowledge** et le registre éditorial, encore pilote.
 
 ## Commandes
 
@@ -57,6 +64,9 @@ dans [le README d'analyse](../README.md) :
 ~~~sh
 python -m anamu_analysis.materials refresh
 python -m anamu_analysis.materials search "sixtes et quartes"
+python -m anamu_analysis.materials search --course berklee:CM-211
+python -m anamu_analysis.materials search --concept harmony.function
+python -m anamu_analysis.materials search --review assistant_source_checked_draft
 python -m anamu_analysis.materials show material:0000001 --source
 python -m anamu_analysis.materials describe material:0000001 \
   "Description précise basée sur la section consultée"
