@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "kind": "didactic_analysis_trace_not_verified_music_analysis",
+  "question": "Pourquoi la même famille de figures 6/4 appelle-t-elle plusieurs lectures selon les basses et voix ?",
+  "knowledge_source": {
+    "material_id": "material:0000013",
+    "revision": 1,
+    "document": "docs/courses/berklee/CM-211.md",
+    "source_edition": "main@1e1dba9c94b6736e4a039b8051d5d8485f05933a"
+  },
+  "midi_source": {
+    "path": "docs/courses/berklee/CM-211/six-quartes-trois-fonctions.mid",
+    "git_blob_sha1": "903eba91fc5867c8d6389a128cdbb040e8fef521",
+    "size_bytes": 1464
+  },
+  "observations": [
+    {
+      "id": "evidence:midi-cm211-a",
+      "scope": {
+        "file": "docs/courses/berklee/CM-211/six-quartes-trois-fonctions.mid",
+        "git_blob_sha1": "903eba91fc5867c8d6389a128cdbb040e8fef521",
+        "variant": "A",
+        "measures": [
+          7,
+          8
+        ]
+      },
+      "epistemic_kind": "encoded_observation",
+      "medium": "midi",
+      "observed_events": [
+        {
+          "measure": 7,
+          "tick_in_measure": 0,
+          "pitches_by_midi_track": {
+            "Basse": 43,
+            "Tenor": 55,
+            "Alto": 60,
+            "Soprano": 64
+          }
+        },
+        {
+          "measure": 7,
+          "tick_in_measure": 960,
+          "pitches_by_midi_track": {
+            "Basse": 43,
+            "Tenor": 55,
+            "Alto": 59,
+            "Soprano": 62
+          }
+        },
+        {
+          "measure": 8,
+          "tick_in_measure": 0,
+          "pitches_by_midi_track": {
+            "Basse": 48,
+            "Tenor": 55,
+            "Alto": 60,
+            "Soprano": 64
+          }
+        }
+      ],
+      "source_track_names_are_not_verified_voices": true,
+      "review_state": "manual_event_parser_audit_not_independently_reproduced"
+    },
+    {
+      "id": "evidence:midi-cm211-b",
+      "scope": {
+        "file": "docs/courses/berklee/CM-211/six-quartes-trois-fonctions.mid",
+        "git_blob_sha1": "903eba91fc5867c8d6389a128cdbb040e8fef521",
+        "variant": "B",
+        "measures": [
+          16,
+          17
+        ]
+      },
+      "epistemic_kind": "encoded_observation",
+      "medium": "midi",
+      "observed_events": [
+        {
+          "measure": 16,
+          "tick_in_measure": 0,
+          "pitches_by_midi_track": {
+            "Basse": 48,
+            "Tenor": 55,
+            "Alto": 60,
+            "Soprano": 64
+          }
+        },
+        {
+          "measure": 16,
+          "tick_in_measure": 960,
+          "pitches_by_midi_track": {
+            "Basse": 50,
+            "Tenor": 55,
+            "Alto": 59,
+            "Soprano": 67
+          }
+        },
+        {
+          "measure": 17,
+          "tick_in_measure": 0,
+          "pitches_by_midi_track": {
+            "Basse": 52,
+            "Tenor": 55,
+            "Alto": 60,
+            "Soprano": 67
+          }
+        }
+      ],
+      "source_track_names_are_not_verified_voices": true,
+      "review_state": "manual_event_parser_audit_not_independently_reproduced"
+    },
+    {
+      "id": "evidence:midi-cm211-c",
+      "scope": {
+        "file": "docs/courses/berklee/CM-211/six-quartes-trois-fonctions.mid",
+        "git_blob_sha1": "903eba91fc5867c8d6389a128cdbb040e8fef521",
+        "variant": "C",
+        "measures": [
+          25,
+          26
+        ]
+      },
+      "epistemic_kind": "encoded_observation",
+      "medium": "midi",
+      "observed_events": [
+        {
+          "measure": 25,
+          "tick_in_measure": 0,
+          "pitches_by_midi_track": {
+            "Basse": 48,
+            "Tenor": 55,
+            "Alto": 60,
+            "Soprano": 64
+          }
+        },
+        {
+          "measure": 25,
+          "tick_in_measure": 960,
+          "pitches_by_midi_track": {
+            "Basse": 48,
+            "Tenor": 57,
+            "Alto": 60,
+            "Soprano": 65
+          }
+        },
+        {
+          "measure": 26,
+          "tick_in_measure": 0,
+          "pitches_by_midi_track": {
+            "Basse": 48,
+            "Tenor": 55,
+            "Alto": 60,
+            "Soprano": 64
+          }
+        }
+      ],
+      "source_track_names_are_not_verified_voices": true,
+      "review_state": "manual_event_parser_audit_not_independently_reproduced"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:didactic-six-four-a",
+      "scope": {
+        "variant": "A",
+        "measures": [
+          7,
+          8
+        ]
+      },
+      "kind": "contextual_interpretation_candidate",
+      "source_based_label": "lecture cadentielle sous dominante",
+      "statement": "Le contexte écrit AnaMu soutient une figure 6/4 cadentielle; la basse sol se maintient avant l'arrivée sur do.",
+      "course_material_ref": {
+        "id": "material:0000013",
+        "revision": 1
+      },
+      "candidate_assertions": [
+        "candidate-assertion:0001",
+        "candidate-assertion:0002"
+      ],
+      "musical_evidence_refs": [
+        "evidence:midi-cm211-a"
+      ],
+      "supporting_context_claims_from_source": [
+        "mouvements do→si et mi→ré",
+        "basse sol stable",
+        "continuation do"
+      ],
+      "unverified_requirements": [
+        "graphie et lecture formelle indépendantes",
+        "évaluation de la cadence en partition et audio"
+      ],
+      "review_state": "assistant_course_contextual_reading_not_independent_validation",
+      "computationally_derived": false
+    },
+    {
+      "id": "claim:didactic-six-four-b",
+      "scope": {
+        "variant": "B",
+        "measures": [
+          16,
+          17
+        ]
+      },
+      "kind": "contextual_interpretation_candidate",
+      "source_based_label": "lecture de passage",
+      "statement": "Le schéma didactique AnaMu présente une figure V6/4 sur une basse qui traverse do→ré→mi.",
+      "course_material_ref": {
+        "id": "material:0000013",
+        "revision": 1
+      },
+      "candidate_assertions": [
+        "candidate-assertion:0001"
+      ],
+      "musical_evidence_refs": [
+        "evidence:midi-cm211-b"
+      ],
+      "supporting_context_claims_from_source": [
+        "trajet de basse do→ré→mi",
+        "enchaînement I→V6/4→I6 indiqué dans la fiche"
+      ],
+      "unverified_requirements": [
+        "validation indépendante de la fonction sur partition"
+      ],
+      "review_state": "assistant_course_contextual_reading_not_independent_validation",
+      "computationally_derived": false
+    },
+    {
+      "id": "claim:didactic-six-four-c",
+      "scope": {
+        "variant": "C",
+        "measures": [
+          25,
+          26
+        ]
+      },
+      "kind": "contextual_interpretation_candidate",
+      "source_based_label": "lecture de pédale ou voisine",
+      "statement": "Le schéma AnaMu soutient une broderie IV6/4 sous une basse do maintenue.",
+      "course_material_ref": {
+        "id": "material:0000013",
+        "revision": 1
+      },
+      "candidate_assertions": [
+        "candidate-assertion:0001"
+      ],
+      "musical_evidence_refs": [
+        "evidence:midi-cm211-c"
+      ],
+      "supporting_context_claims_from_source": [
+        "basse do maintenue",
+        "voisines des voix supérieures",
+        "retour à la collection initiale"
+      ],
+      "unverified_requirements": [
+        "validation indépendante du cadre harmonique"
+      ],
+      "review_state": "assistant_course_contextual_reading_not_independent_validation",
+      "computationally_derived": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "evidence:midi-cm211-a",
+      "to": "claim:didactic-six-four-a",
+      "type": "supports_examination_of",
+      "meaning": "Observed notes make the course's contextual question inspectable but do not entail its functional label."
+    },
+    {
+      "from": "material:0000013",
+      "to": "claim:didactic-six-four-a",
+      "type": "suggests_interpretation_under_framework",
+      "meaning": "The label is drawn from AnaMu's didactic source rather than automatically inferred from pitches."
+    },
+    {
+      "from": "evidence:midi-cm211-b",
+      "to": "claim:didactic-six-four-b",
+      "type": "supports_examination_of",
+      "meaning": "Observed notes make the course's contextual question inspectable but do not entail its functional label."
+    },
+    {
+      "from": "material:0000013",
+      "to": "claim:didactic-six-four-b",
+      "type": "suggests_interpretation_under_framework",
+      "meaning": "The label is drawn from AnaMu's didactic source rather than automatically inferred from pitches."
+    },
+    {
+      "from": "evidence:midi-cm211-c",
+      "to": "claim:didactic-six-four-c",
+      "type": "supports_examination_of",
+      "meaning": "Observed notes make the course's contextual question inspectable but do not entail its functional label."
+    },
+    {
+      "from": "material:0000013",
+      "to": "claim:didactic-six-four-c",
+      "type": "suggests_interpretation_under_framework",
+      "meaning": "The label is drawn from AnaMu's didactic source rather than automatically inferred from pitches."
+    }
+  ],
+  "critical_distinctions": [
+    "Les cas A/B/C sont trois variantes musicales distinctes et non trois hypothèses sur la même suite d'événements.",
+    "Les identités de pistes du MIDI sont des noms d'export, non des preuves humaines de parties réelles.",
+    "Les labels fonctionnels viennent du texte de cours et restent proposés.",
+    "Le fichier ne fournit pas d'audition ni de jugement perceptif indépendant."
+  ],
+  "conclusions_fully_justified_on_external_music": 0,
+  "uses_real_midi_events": true,
+  "does_not_run_harmonic_detection": true
+}
