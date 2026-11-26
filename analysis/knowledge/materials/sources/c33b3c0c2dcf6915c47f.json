@@ -1,0 +1,404 @@
+{
+  "source_document": "docs/courses/udem/MUS-3326X.md",
+  "units": [
+    {
+      "id": "material:0003240",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 3326X — Création musicale en langage textuel",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Université de Montréal ; B. Mus. Composition A26, option 75F ; section A, automne 2026 ; enseignante : Estelle Schorpp.** **Syllabus de section daté obtenu** (révisé le 1er septembre 2026) : [plan officiel complet de neuf pages](https://m",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3326X.md",
+          "document_sha256": "daf3fc57bd1c6e12d62df6cbeb47f514bbbb810c41fd4d14f00663c10d230f4d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6c9beb4d73945cd3958dc3dc",
+            "heading_path": [
+              "MUS 3326X — Création musicale en langage textuel"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 97
+          },
+          "content_sha256": "e4d3080312e36790ee8d4fe87cdcff17ab743c42929c1b221aa7594be7cb8e29",
+          "body_sha256": "046240d232377e226d76024af7766bfb4a3af2e432544416d8b54333b9220541",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003241",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Objectifs pédagogiques effectivement formulés (PDF, p. 1–2)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Formalisation musicale dans **SuperCollider** : concevoir un comportement sonore génératif ou interactif, travailler à partir de synthèse et de signaux audio, écrire une partition-procédure et mener une création où le programme possède une",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3326X.md",
+          "document_sha256": "daf3fc57bd1c6e12d62df6cbeb47f514bbbb810c41fd4d14f00663c10d230f4d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:cfa272191a3e8c726a1801ac",
+            "heading_path": [
+              "MUS 3326X — Création musicale en langage textuel",
+              "Objectifs pédagogiques effectivement formulés (PDF, p. 1–2)"
+            ],
+            "start_line": 5,
+            "end_line": 10,
+            "subtree_end_line": 10
+          },
+          "content_sha256": "1b0eebb365d70da833051dad0cd37a0a5083f5106a9bc0af46327ec992c073bb",
+          "body_sha256": "6467f91a78997f6999cb6250f9295ae1ba071066da06a2dd36b35fcc3ddf0626",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003242",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Matière enseignée et calendrier de l'édition A26 (PDF, p. 2–4)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le **13 octobre** se tient un contrôle portant sur les séances 0–5 ; **20 octobre** est la relâche. Le **8 décembre** se tient un second contrôle portant sur les séances 6–11. **15 décembre : remise du projet final.** Des quiz préparent pre",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3326X.md",
+          "document_sha256": "daf3fc57bd1c6e12d62df6cbeb47f514bbbb810c41fd4d14f00663c10d230f4d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:14daec40d8354bba3ecc80e8",
+            "heading_path": [
+              "MUS 3326X — Création musicale en langage textuel",
+              "Matière enseignée et calendrier de l'édition A26 (PDF, p. 2–4)"
+            ],
+            "start_line": 11,
+            "end_line": 29,
+            "subtree_end_line": 29
+          },
+          "content_sha256": "929bbbf392c0a2eeb88294f05759f3cb015e40c7e59c81e1a1b3162b309e30d4",
+          "body_sha256": "bbf98a5a9df50f5367cf074923d02551afa08d9b6702e090703e5c58bce6f0f6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003243",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Travail demandé et évaluation (PDF, p. 4–6)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : La somme documentée est **100 %**. Le document résume à un endroit la catégorie « projet final » à **38 %**, qu'il détaille ensuite en **4 % + 24 % + 10 %** ; ces deux présentations ne constituent pas deux évaluations distinctes. Les deux c",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3326X.md",
+          "document_sha256": "daf3fc57bd1c6e12d62df6cbeb47f514bbbb810c41fd4d14f00663c10d230f4d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8000be6434b91795509623cb",
+            "heading_path": [
+              "MUS 3326X — Création musicale en langage textuel",
+              "Travail demandé et évaluation (PDF, p. 4–6)"
+            ],
+            "start_line": 30,
+            "end_line": 42,
+            "subtree_end_line": 42
+          },
+          "content_sha256": "437a5fd102d6e648d3269e0370c97948f4f6509e165eac16bd1d6145d0a8502a",
+          "body_sha256": "113918e8099badf46ea84fbd2e61df56b0897fabdc86b2208479354358a6c03a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003244",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lectures, exemples et précision sur les ressources (PDF, p. 6–7)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : La section **« Ressources obligatoires — Documents » ne prescrit aucun manuel**. Ne pas transformer une bibliographie complémentaire en livres requis. Lectures **complémentaires citées**, sans attestation de chapitres obligatoires : Andy Fa",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3326X.md",
+          "document_sha256": "daf3fc57bd1c6e12d62df6cbeb47f514bbbb810c41fd4d14f00663c10d230f4d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:82add148a7bb25650459d344",
+            "heading_path": [
+              "MUS 3326X — Création musicale en langage textuel",
+              "Lectures, exemples et précision sur les ressources (PDF, p. 6–7)"
+            ],
+            "start_line": 43,
+            "end_line": 48,
+            "subtree_end_line": 48
+          },
+          "content_sha256": "d56d16d78b593561d2bfede8b33e6a53083e64c979c003327121d525c9b4224e",
+          "body_sha256": "ab3e6638f8c537729dd6d8feef1aa52c6f0dc8e38e9aaeaedafd2007f52e0839",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003245",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Limites de l'acquisition",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Acquis :** document officiel de la section A26, douze séances pédagogiques 0–11, contrôle de deux blocs, projet, pondérations et critères, bibliographie complémentaire et exemples musicaux.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3326X.md",
+          "document_sha256": "daf3fc57bd1c6e12d62df6cbeb47f514bbbb810c41fd4d14f00663c10d230f4d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:48e71c38e98943099cc04b25",
+            "heading_path": [
+              "MUS 3326X — Création musicale en langage textuel",
+              "Limites de l'acquisition"
+            ],
+            "start_line": 49,
+            "end_line": 55,
+            "subtree_end_line": 55
+          },
+          "content_sha256": "ffe9398e6b6dd0216cebf650d1901de244c261540f6def03f8b32d3e57eb6208",
+          "body_sha256": "775e643b514f947ede71d2211bb359c9b1c11b4d6ba89a4882aeea36a8e01a0a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003246",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — première évaluation par apprentissage (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cours :** MUS 3326X. **Apport : direct à l'analyse et à la création pour au moins une technique identifiable**. **Preuve :** [Vrai syllabus de section A26, 1er septembre 2026 : SuperCollider, SynthDef/UGens, enveloppes, multicanal, arrays",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3326X.md",
+          "document_sha256": "daf3fc57bd1c6e12d62df6cbeb47f514bbbb810c41fd4d14f00663c10d230f4d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9fdc69bb332a077eeabd21cd",
+            "heading_path": [
+              "MUS 3326X — Création musicale en langage textuel",
+              "Application à l'analyse et à la création — première évaluation par apprentissage (12 novembre 2026)"
+            ],
+            "start_line": 56,
+            "end_line": 59,
+            "subtree_end_line": 97
+          },
+          "content_sha256": "bdbe9de9723cf3109a701b7986c9a6fb8f79320a2aef0a5c2d8f721291dd5502",
+          "body_sha256": "52cfa2af99bd0e5b8b4aab528a0a2e4ae12f625da7926a82a4e8b076c1578eb5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003247",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 1 — Séquence de patterns et quantification des événements",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve et applicabilité :** domaine du cours attesté, opération détaillée proposée comme exercice AnaMu, non comme consigne de section. **Catégorie :** `MIDI_DIRECT`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3326X.md",
+          "document_sha256": "daf3fc57bd1c6e12d62df6cbeb47f514bbbb810c41fd4d14f00663c10d230f4d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c688a5953df1851e0d946aca",
+            "heading_path": [
+              "MUS 3326X — Création musicale en langage textuel",
+              "Application à l'analyse et à la création — première évaluation par apprentissage (12 novembre 2026)",
+              "Apprentissage 1 — Séquence de patterns et quantification des événements"
+            ],
+            "start_line": 60,
+            "end_line": 69,
+            "subtree_end_line": 69
+          },
+          "content_sha256": "136cd542c7c336e3dc12e8835860f64ad5bed3d90640ee6a1d836b28f3f83c37",
+          "body_sha256": "b70f256b57962d9a6981bff928d09223ead6cc2c4fabbe167267ef369fa400cb",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003248",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 2 — Contraste entre algorithme déterministe et variation stochastique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve et applicabilité :** domaine du cours attesté, opération détaillée proposée comme exercice AnaMu, non comme consigne de section. **Catégorie :** `MIDI_DIRECT / CONTEXT_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3326X.md",
+          "document_sha256": "daf3fc57bd1c6e12d62df6cbeb47f514bbbb810c41fd4d14f00663c10d230f4d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b6640accede7508df4518dd6",
+            "heading_path": [
+              "MUS 3326X — Création musicale en langage textuel",
+              "Application à l'analyse et à la création — première évaluation par apprentissage (12 novembre 2026)",
+              "Apprentissage 2 — Contraste entre algorithme déterministe et variation stochastique"
+            ],
+            "start_line": 70,
+            "end_line": 79,
+            "subtree_end_line": 79
+          },
+          "content_sha256": "7b116db9d2504b188f58f1832592cc474d8ea099c4ad491060efc05c49e9302d",
+          "body_sha256": "20fe558c8d417107a575d8aa3a272890886f699050ceff6a24cfa6b408160822",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003249",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 3 — SynthDef, enveloppes, spatialisation et buffers",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve et applicabilité :** domaine du cours attesté, opération détaillée proposée comme exercice AnaMu, non comme consigne de section. **Catégorie :** `AUDIO_REQUIRED / MIDI_PROXY`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3326X.md",
+          "document_sha256": "daf3fc57bd1c6e12d62df6cbeb47f514bbbb810c41fd4d14f00663c10d230f4d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:600739f4f0d9e5359aa10150",
+            "heading_path": [
+              "MUS 3326X — Création musicale en langage textuel",
+              "Application à l'analyse et à la création — première évaluation par apprentissage (12 novembre 2026)",
+              "Apprentissage 3 — SynthDef, enveloppes, spatialisation et buffers"
+            ],
+            "start_line": 80,
+            "end_line": 89,
+            "subtree_end_line": 89
+          },
+          "content_sha256": "76d831ccccd1baeb5d9b9641cf6616be77cc3a68377703ce88d8d08e6189d527",
+          "body_sha256": "610de496d3ece618867288c0021df7ec419c2967b1a6d1656ccc7aff997617ea",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003250",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict et suite",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Apport :** oui, au moins une technique utile à l'analyse et à la composition est démontrable avec des notes ou événements MIDI.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3326X.md",
+          "document_sha256": "daf3fc57bd1c6e12d62df6cbeb47f514bbbb810c41fd4d14f00663c10d230f4d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:969f7833436e89db734213e4",
+            "heading_path": [
+              "MUS 3326X — Création musicale en langage textuel",
+              "Application à l'analyse et à la création — première évaluation par apprentissage (12 novembre 2026)",
+              "Verdict et suite"
+            ],
+            "start_line": 90,
+            "end_line": 97,
+            "subtree_end_line": 97
+          },
+          "content_sha256": "297ae2a8bd5058febfcfce0c7d83660746e1ee3ff7966e2ae13dad05f6b865b0",
+          "body_sha256": "140d876862de2498eacd75a98e57cf05c41a5502bffedc00a117a3f71d6984c4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "source_document": "docs/courses/udem/MUS-3324X.md",
+  "units": [
+    {
+      "id": "material:0003233",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 3324X — Création musicale en langage graphique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Université de Montréal, baccalauréat en musique — Composition, version A26. Obligatoire, automne 2026, Ana Dall’Ara-Majek. Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3324X.md",
+          "document_sha256": "600f83aad463d55027f81eb45de30ae33b689e9cbdf1149c36b14956d56a3857",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2f347ace03c78f3a22286cef",
+            "heading_path": [
+              "MUS 3324X — Création musicale en langage graphique"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 44
+          },
+          "content_sha256": "6be63e51ff3054cca16142b16895d891c77f753f6c85954408d32c0f8818685e",
+          "body_sha256": "f2d1a8eda3eb8d8da29f673c3b90c708e2e8841d2d4d4c1ec71c4630140a2b57",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003234",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources et matière",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Plan abrégé de la section, pp. 1–2. Onze modules partent du routage du signal dans Max, de l’enregistrement et des effets pour aller vers les interfaces et préréglages, la détection d’attaques et le suivi d’enveloppe, les gammes et le MIDI,",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3324X.md",
+          "document_sha256": "600f83aad463d55027f81eb45de30ae33b689e9cbdf1149c36b14956d56a3857",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:61bf609677ef7eb3e3e6afaf",
+            "heading_path": [
+              "MUS 3324X — Création musicale en langage graphique",
+              "Sources et matière"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 8
+          },
+          "content_sha256": "1af08c4ff5f213271953737dbeb0966576749dfd08fcbc573703e48ce3008647",
+          "body_sha256": "5c4226456bc61cd0e5701469237996f6ebc0824e3ba44599d7deac6af699f6ac",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003235",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le document précise les objectifs et modules. Les consignes et pondérations A26 restent à obtenir. Le [plan historique publié sous MUS 6324X](https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/MUS6324X_A22.pdf) contie",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3324X.md",
+          "document_sha256": "600f83aad463d55027f81eb45de30ae33b689e9cbdf1149c36b14956d56a3857",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0cf8327f971ac097800445f5",
+            "heading_path": [
+              "MUS 3324X — Création musicale en langage graphique",
+              "Lacunes"
+            ],
+            "start_line": 9,
+            "end_line": 13,
+            "subtree_end_line": 13
+          },
+          "content_sha256": "1cd675025308999b61a486ba097c9b5f8316b5b5352a7c83fae9707b7093c9e1",
+          "body_sha256": "8af602cb0c3b17976b1540126c26d994ac2e1c77c0a7d0edf6bdff1e813e22d1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003236",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — apprentissages vérifiables (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cours MUS 3324X. Apport :** direct à l'analyse et à la création. **Provenance :** [Plan abrégé officiel A26 : langage graphique Max, MIDI/gammes, contrôles, détection d'attaques, suivi d'enveloppe, synthèses et OSC. Les leçons précises so",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3324X.md",
+          "document_sha256": "600f83aad463d55027f81eb45de30ae33b689e9cbdf1149c36b14956d56a3857",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:04f9357c660cf3f7f9f0f474",
+            "heading_path": [
+              "MUS 3324X — Création musicale en langage graphique",
+              "Application à l'analyse et à la création — apprentissages vérifiables (12 novembre 2026)"
+            ],
+            "start_line": 14,
+            "end_line": 17,
+            "subtree_end_line": 44
+          },
+          "content_sha256": "61b1571553d23cfcd134adfa03a8b2d0eafb87fae4ea0a84c313cc2f8c2ab35e",
+          "body_sha256": "ecf454ade43937996c1f0abbfeb2142fe6e4890560c60965d19dd70ca1ad2a86",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003237",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 1 — Traiter des événements de notes et de contrôle MIDI",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve :** domaine officiellement annoncé; calendrier et consignes détaillés du cours non attribués sans source. **Applicabilité :** `MIDI_DIRECT / AUDIO_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3324X.md",
+          "document_sha256": "600f83aad463d55027f81eb45de30ae33b689e9cbdf1149c36b14956d56a3857",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1994fa61c87168d14019e2ed",
+            "heading_path": [
+              "MUS 3324X — Création musicale en langage graphique",
+              "Application à l'analyse et à la création — apprentissages vérifiables (12 novembre 2026)",
+              "Apprentissage 1 — Traiter des événements de notes et de contrôle MIDI"
+            ],
+            "start_line": 18,
+            "end_line": 27,
+            "subtree_end_line": 27
+          },
+          "content_sha256": "f4c0483596e4964b1b0183d6cb2c3ec8d3ce081b438cabc0b9dd75d18886af87",
+          "body_sha256": "79480357a3aae3fbf59159e5bc0751dcbb0ea7538ba9fd57bfa5857b3f36524c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003238",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 2 — Relation entre gamme, programmation et synthèse",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve :** domaine officiellement annoncé; calendrier et consignes détaillés du cours non attribués sans source. **Applicabilité :** `MIDI_DIRECT / MIDI_PROXY / AUDIO_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3324X.md",
+          "document_sha256": "600f83aad463d55027f81eb45de30ae33b689e9cbdf1149c36b14956d56a3857",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:eb5aaf8cfe5d9cdd5b268431",
+            "heading_path": [
+              "MUS 3324X — Création musicale en langage graphique",
+              "Application à l'analyse et à la création — apprentissages vérifiables (12 novembre 2026)",
+              "Apprentissage 2 — Relation entre gamme, programmation et synthèse"
+            ],
+            "start_line": 28,
+            "end_line": 37,
+            "subtree_end_line": 37
+          },
+          "content_sha256": "c2d090e3a707fadf872957eb0e5bfe7e2a5e0e2c47eceb1853ad59521c388af6",
+          "body_sha256": "db3c120b233ba9da270a571e84696cda2a6bc6544ddb4b083343fe35c3e1270a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003239",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict du cours",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Apport :** oui, direct à l'analyse ou à la création musicale.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3324X.md",
+          "document_sha256": "600f83aad463d55027f81eb45de30ae33b689e9cbdf1149c36b14956d56a3857",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:09806c3db4064dede5da3437",
+            "heading_path": [
+              "MUS 3324X — Création musicale en langage graphique",
+              "Application à l'analyse et à la création — apprentissages vérifiables (12 novembre 2026)",
+              "Verdict du cours"
+            ],
+            "start_line": 38,
+            "end_line": 44,
+            "subtree_end_line": 44
+          },
+          "content_sha256": "57398f4d2540164fa78bb0a6f0452ee5f13f97c534d4472db808b300d18b3656",
+          "body_sha256": "92ff8ca36af1bce5df9b3e586c8016e93eb923d5b01f630bf49e5b2a0a4429c7",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
