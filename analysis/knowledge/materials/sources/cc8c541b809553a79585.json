@@ -1,0 +1,258 @@
+{
+  "source_document": "docs/courses/udem/EMU-2312.md",
+  "units": [
+    {
+      "id": "material:0002209",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "EMU 2312 — Technique de direction : étude de la partition",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : UdeM, B. Mus. Composition A26, option du bloc 75H, 2 crédits. Recherche du 11 novembre 2026. **Statut partiel, matériel parallèle seulement.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/EMU-2312.md",
+          "document_sha256": "d9ce9dc71a07b7a228b230292f2eec23606322139d34660bdc5e1eb7d2e386be",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f89625c2fd1b27d489bba10e",
+            "heading_path": [
+              "EMU 2312 — Technique de direction : étude de la partition"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 42
+          },
+          "content_sha256": "e255e895d2fa2ecbe618142c641a9f7e1196c60e0d93efd05ea0e0176b621b78",
+          "body_sha256": "3d76ba616c31d1e2b750933060089d1e5f3eecbacdd3253a97ee6e28a91ee303",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002210",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources et matière vers laquelle elles pointent",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Notice UdeM EMU 2312](https://admission.umontreal.ca/cours-et-horaires/cours/emu-2312/) : techniques fondamentales de direction avec applications pratiques ; malgré le titre, la notice ne détaille **aucune méthode d'étude de partition**.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/EMU-2312.md",
+          "document_sha256": "d9ce9dc71a07b7a228b230292f2eec23606322139d34660bdc5e1eb7d2e386be",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f3e3a6fa5b85ff4b993ead62",
+            "heading_path": [
+              "EMU 2312 — Technique de direction : étude de la partition",
+              "Sources et matière vers laquelle elles pointent"
+            ],
+            "start_line": 5,
+            "end_line": 11,
+            "subtree_end_line": 11
+          },
+          "content_sha256": "657a9300f60e73b70637d7d46282e3d10ee0a3b6a5b45f371d73e96df22efcb9",
+          "body_sha256": "fa9e43f49edb4622943084315bcc9af4334b1463d4ad710d4cc5c8162bb58091",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002211",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes et démarche",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Impossible d'affirmer quels passages sont étudiés, comment un étudiant prépare les entrées, transpositions, dynamiques, gestes de départ ou reprises, et si le cours est une progression formelle de EMU 1310. Aucun examen ou grille du cours c",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/EMU-2312.md",
+          "document_sha256": "d9ce9dc71a07b7a228b230292f2eec23606322139d34660bdc5e1eb7d2e386be",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:953d9e1e5b2ccaced5fb1fc8",
+            "heading_path": [
+              "EMU 2312 — Technique de direction : étude de la partition",
+              "Lacunes et démarche"
+            ],
+            "start_line": 12,
+            "end_line": 15,
+            "subtree_end_line": 15
+          },
+          "content_sha256": "9b61fe41279a276c0d81c084213dfbbe03597698c6d2ffa982795b445c78676d",
+          "body_sha256": "3743718bdc6fd80f873f6c18999cd4718876ebf35986f0484b4b73cb112980fa",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002212",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Autre cours de direction documenté : source comparatrice (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le [plan EMU 6310/7310](https://musique.umontreal.ca/fileadmin/musique/documents/guide-etudiant/EMU6310__EMU7310_Technique_de_direction.pdf) décrit des annotations de partition, schémas de battue, études des tempos, bibliographie et travaux",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/EMU-2312.md",
+          "document_sha256": "d9ce9dc71a07b7a228b230292f2eec23606322139d34660bdc5e1eb7d2e386be",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3ff3bc699249ee95211b17b4",
+            "heading_path": [
+              "EMU 2312 — Technique de direction : étude de la partition",
+              "Autre cours de direction documenté : source comparatrice (11 novembre 2026)"
+            ],
+            "start_line": 16,
+            "end_line": 19,
+            "subtree_end_line": 19
+          },
+          "content_sha256": "ad2e90a47d1e53dfde34dff53dc0c75dbd8376486976b257edcbfe75c50d3b68",
+          "body_sha256": "acc393b6e5933b211807c034a51a5734e53ca7cf5a102b9445fb7e57c8c9634c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002213",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — première évaluation (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Périmètre et preuve attribuée au code.** Notice UdeM EMU 2312 : fondements de direction et applications pratiques; titre portant sur l'étude de partition, mais aucune méthode ni pièce n'est spécifiée. Sources des cycles supérieurs seuleme",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/EMU-2312.md",
+          "document_sha256": "d9ce9dc71a07b7a228b230292f2eec23606322139d34660bdc5e1eb7d2e386be",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4ef1ed01a52220ecd4a28a31",
+            "heading_path": [
+              "EMU 2312 — Technique de direction : étude de la partition",
+              "Application à l'analyse et à la création — première évaluation (12 novembre 2026)"
+            ],
+            "start_line": 20,
+            "end_line": 23,
+            "subtree_end_line": 42
+          },
+          "content_sha256": "b768d19251b7fce5c3978de02bbe867b4ab113fef55ab52d8bf82defe43f3b2b",
+          "body_sha256": "d06f9e4cfa599dc86e1e2d1897f9314ab5a2f9925b0ed686432dd8d979986767",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002214",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 1 — Direction et lecture de conducteur : application pratique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyse de musique existante — entrées, méthode et limites.** Sur un vrai conducteur autorisé, dresser la carte des entrées des pupitres, des métriques, des changements dynamiques et du tempo, puis observer une répétition filmée pour conf",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/EMU-2312.md",
+          "document_sha256": "d9ce9dc71a07b7a228b230292f2eec23606322139d34660bdc5e1eb7d2e386be",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:44add9de11d1a97464b45c08",
+            "heading_path": [
+              "EMU 2312 — Technique de direction : étude de la partition",
+              "Application à l'analyse et à la création — première évaluation (12 novembre 2026)",
+              "Apprentissage 1 — Direction et lecture de conducteur : application pratique"
+            ],
+            "start_line": 24,
+            "end_line": 31,
+            "subtree_end_line": 31
+          },
+          "content_sha256": "3399f086dadfd0eeacd6fc9142d66a5e34c9b5811687bfafc44ab27450b78937",
+          "body_sha256": "b92700cf944dfcda1f8700ffdef516b17daddcb75c38857678c2b85407f72d8d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002215",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict provisoire",
+      "title_origin": "source_heading_or_key",
+      "description": "Titre ou passage sans description éditoriale vérifiée.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/EMU-2312.md",
+          "document_sha256": "d9ce9dc71a07b7a228b230292f2eec23606322139d34660bdc5e1eb7d2e386be",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:29dae62cfa557411882d0934",
+            "heading_path": [
+              "EMU 2312 — Technique de direction : étude de la partition",
+              "Application à l'analyse et à la création — première évaluation (12 novembre 2026)",
+              "Verdict provisoire"
+            ],
+            "start_line": 32,
+            "end_line": 42,
+            "subtree_end_line": 42
+          },
+          "content_sha256": "ee9a2b42dcb00f13a87e7d0fc40fc49c2d8ccf55712e2d43273c503938999c28",
+          "body_sha256": "102a9fa5dc98465de505f0e0e76c4d26b2f11c5ebf5eadfe4fbc0f84fb243ce1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
