@@ -278,7 +278,8 @@
       "target": {
         "kind": "unresolved_concept_or_assertion",
         "id": null,
-        "proposed_subject": "Histoire et contextes culturels des musiques afro-américaines"
+        "proposed_subject": "Histoire et contextes culturels des musiques afro-américaines",
+        "candidate_sense_id": "candidate-sense:00001"
       },
       "contribution_kind": "documents_context",
       "covered_aspects": [
@@ -286,7 +287,7 @@
       ],
       "context": "Section de cours liée à la source documentaire ; contribution proposée à partir d'une relecture de son passage.",
       "justification": "Thèmes historiques et culturels des musiques afro-américaines contemporaines nommés au catalogue.",
-      "state": "awaiting_target_identification",
+      "state": "awaiting_target_reconciliation",
       "does_not_establish": "Aucun concept historique dédié parmi les 25 premiers; aucun genre inféré de notes."
     },
     {
@@ -620,7 +621,8 @@
       "target": {
         "kind": "unresolved_concept_or_assertion",
         "id": null,
-        "proposed_subject": "Dramaturgie musicale et associations aux scènes"
+        "proposed_subject": "Dramaturgie musicale et associations aux scènes",
+        "candidate_sense_id": "candidate-sense:00002"
       },
       "contribution_kind": "documents_context",
       "covered_aspects": [
@@ -628,7 +630,7 @@
       ],
       "context": "Calibrage source-consulté; relation proposée, pas automatiquement validée.",
       "justification": "Relation thème–scène–personnage et témoignages de production.",
-      "state": "awaiting_target_identification",
+      "state": "awaiting_target_reconciliation",
       "does_not_establish": "Aucun concept dramatique précis présent parmi les 25 contrats initialement rapprochés."
     },
     {
@@ -638,7 +640,8 @@
       "target": {
         "kind": "unresolved_concept_or_assertion",
         "id": null,
-        "proposed_subject": "Spectromorphologie et objets sonores"
+        "proposed_subject": "Spectromorphologie et objets sonores",
+        "candidate_sense_id": "candidate-sense:00003"
       },
       "contribution_kind": "provides_method",
       "covered_aspects": [
@@ -646,7 +649,7 @@
       ],
       "context": "Calibrage source-consulté; relation proposée, pas automatiquement validée.",
       "justification": "Segmentation spectromorphologique fondée sur l'audio, les transitoires et l'écoute.",
-      "state": "awaiting_target_identification",
+      "state": "awaiting_target_reconciliation",
       "does_not_establish": "Les propriétés spectrales ne sont pas démontrables avec un MIDI hypothétique."
     },
     {
@@ -674,7 +677,8 @@
       "target": {
         "kind": "unresolved_concept_or_assertion",
         "id": null,
-        "proposed_subject": "Enquête ethnomusicologique et attribution située"
+        "proposed_subject": "Enquête ethnomusicologique et attribution située",
+        "candidate_sense_id": "candidate-sense:00004"
       },
       "contribution_kind": "provides_method",
       "covered_aspects": [
@@ -682,7 +686,7 @@
       ],
       "context": "Calibrage source-consulté; relation proposée, pas automatiquement validée.",
       "justification": "Contextualiser la pratique à partir des archives, du consentement et des observateurs.",
-      "state": "awaiting_target_identification",
+      "state": "awaiting_target_reconciliation",
       "does_not_establish": "Une gamme perçue ne prouve pas une provenance culturelle."
     },
     {
@@ -782,7 +786,8 @@
       "target": {
         "kind": "unresolved_concept_or_assertion",
         "id": null,
-        "proposed_subject": "Pratiques, histoire et interprétations du tango"
+        "proposed_subject": "Pratiques, histoire et interprétations du tango",
+        "candidate_sense_id": "candidate-sense:00005"
       },
       "contribution_kind": "documents_context",
       "covered_aspects": [
@@ -790,7 +795,7 @@
       ],
       "context": "Calibrage source-consulté; relation proposée, pas automatiquement validée.",
       "justification": "Pratique et interprétations historiques du tango du Río de la Plata.",
-      "state": "awaiting_target_identification",
+      "state": "awaiting_target_reconciliation",
       "does_not_establish": "L'origine et l'authenticité ne découlent pas d'un motif rythmique."
     }
   ]
