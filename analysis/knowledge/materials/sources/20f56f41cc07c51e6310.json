@@ -921,13 +921,18 @@
       "kind": "markdown_section",
       "title": "HH-6 — Fermer avant, avec ou après la caisse",
       "title_origin": "source_heading_or_key",
-      "description": "Extrait documentaire à qualifier : [Fermeture nominale autour du backbeat](OPERC-160/charleston-pedale-avant-avec-apres-backbeat.mid). L'ouverture nominale GM46 est au tick **240**, la caisse claire forte au tick **480**. Le seul changement est la date de GM44 : **360 / 480 ",
-      "description_origin": "source_proposal_unreviewed",
-      "editorial_review": "unreviewed",
+      "description": "Étude comparative AnaMu du charleston ouvert (GM46) et de sa fermeture nominale (GM44) autour d'une caisse claire à 120 BPM : attaque de pédale avancée de 125 ms, coïncidente ou retardée de 125 ms, sans changer le backbeat ni les 24 attaques par variante. Les écarts de ticks décrivent les événements encodés, pas le temps acoustique d'extinction ni la réalisation d'un geste de pied.",
+      "description_origin": "assistant_source_checked",
+      "editorial_review": "assistant_source_checked_draft",
       "review_required": true,
       "covers": [],
-      "does_not_cover": [],
-      "notes": [],
+      "does_not_cover": [
+        "La leçon externe de Zildjian éclaire le geste, sans attester l'exécution physique des MIDI.",
+        "La coïncidence des attaques ne démontre pas leur fusion perceptive."
+      ],
+      "notes": [
+        "Description source-consultée, en attente de revue musicale indépendante."
+      ],
       "source_bindings": [
         {
           "document_path": "docs/courses/berklee-online/OPERC-160.md",
@@ -950,7 +955,8 @@
         }
       ],
       "lifecycle": "active",
-      "locator_review": "unreviewed"
+      "locator_review": "source_verified_editorial_pending",
+      "editorial_revision": 1
     },
     {
       "id": "material:0000330",
