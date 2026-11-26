@@ -150,7 +150,7 @@ sa référence ne valide pas automatiquement toute interprétation.
 
 Les fichiers de cours restent la vérité de leur contenu, avec les
 attributions et limites propres à chaque section. Les huit familles de
-calibration sont décrites par le contrat P0. Les 20 assertions candidates
+calibration sont décrites par le contrat P0. Les 32 assertions candidates
 du [premier lot P2b](../knowledge/mentions/calibration-2026-11.json)
 sont à revoir. Aucune conclusion, ni même un « niveau de confiance »
 sur une œuvre, ne découle automatiquement de ces propositions.
