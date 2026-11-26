@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "edition": "calibration-2026-11-25",
+  "status": "unreconciled_not_canonical",
+  "contract": "Identifiants de proposition indépendants du catalogue de concepts; ne pas créer ou fusionner les concepts canoniques par la seule proximité des titres.",
+  "candidates": [
+    {
+      "id": "candidate-sense:00001",
+      "proposed_key": "history-afroamerican",
+      "preferred_name": "Contextes historiques des musiques afro-américaines",
+      "source_material_id": "material:0000065",
+      "source_document_path": "docs/courses/berklee/MHIS-341.md",
+      "source_role": "institutional_catalogue_summary",
+      "analytic_question": "Quelles traditions, labels et relations historiques sont effectivement attestés par les documents ?",
+      "scope_note": "Le catalogue nomme des domaines et contextes, sans définir toute une tradition ni prescrire une liste d'œuvres.",
+      "requires_evidence": [
+        "identified_historical_sources",
+        "attributed_archives_or_recordings"
+      ],
+      "does_not_establish": [
+        "cultural_provenance_from_pitch_or_rhythm",
+        "complete_syllabus_or_repertoire"
+      ],
+      "review_state": "assistant_source_checked_candidate_needs_domain_review",
+      "canonical_concept_id": null,
+      "decision": "pending_reconciliation",
+      "can_be_documentary_only": true
+    },
+    {
+      "id": "candidate-sense:00002",
+      "proposed_key": "dramatic-theme",
+      "preferred_name": "Association motivique à une scène ou un rôle dramatique",
+      "source_material_id": "material:0000118",
+      "source_document_path": "docs/courses/berklee-online/OCOMP-491.md",
+      "source_role": "anamu_course_analysis_method",
+      "analytic_question": "Un retour musical est-il associé à un personnage ou une idée, et quels contre-exemples l'infirment ?",
+      "scope_note": "Comparer deux chronologies de musique et de scène sans déduire l'intention du compositeur des seules notes.",
+      "requires_evidence": [
+        "identified_scenes",
+        "identified_theme_occurrences",
+        "counterexamples",
+        "production_evidence_if_claiming_intent"
+      ],
+      "does_not_establish": [
+        "leitmotiv_from_brief_recurrence",
+        "intention_without_production_sources"
+      ],
+      "review_state": "assistant_source_checked_candidate_needs_domain_review",
+      "canonical_concept_id": null,
+      "decision": "pending_reconciliation",
+      "can_be_documentary_only": true
+    },
+    {
+      "id": "candidate-sense:00003",
+      "proposed_key": "spectromorphology",
+      "preferred_name": "Spectromorphologie et trajectoires d'objets sonores",
+      "source_material_id": "material:0000119",
+      "source_document_path": "docs/courses/udem/MTE-3300.md",
+      "source_role": "anamu_summary_of_official_course_plan",
+      "analytic_question": "Quels événements sonores, transformations et frontières peut-on proposer à partir de l'audio et de l'écoute ?",
+      "scope_note": "Analyse fondée sur le spectre, l'énergie, les transitoires et la réception perceptive, sans ordre harmonique tonal obligatoire.",
+      "requires_evidence": [
+        "audio_excerpt_verified",
+        "spectral_observations_annotated",
+        "audition_annotated"
+      ],
+      "does_not_establish": [
+        "spectral_effect_from_midi_note_numbers",
+        "unique_perceptual_segmentation"
+      ],
+      "review_state": "assistant_source_checked_candidate_needs_domain_review",
+      "canonical_concept_id": null,
+      "decision": "pending_reconciliation",
+      "can_be_documentary_only": true
+    },
+    {
+      "id": "candidate-sense:00004",
+      "proposed_key": "ethnomusicology-source",
+      "preferred_name": "Enquête située et attribution des pratiques musicales",
+      "source_material_id": "material:0000121",
+      "source_document_path": "docs/courses/udem/MUL-3314.md",
+      "source_role": "anamu_documentary_method",
+      "analytic_question": "Quelles sources de terrain, consentements et témoignages permettent de contextualiser une pratique ?",
+      "scope_note": "Distinguer observations de terrain, interprétations de praticiens, cadres théoriques et assertions de provenance.",
+      "requires_evidence": [
+        "identified_field_sources",
+        "consent_or_access_conditions",
+        "documented_practitioner_context"
+      ],
+      "does_not_establish": [
+        "population_identity_from_scale_or_instrumentation",
+        "source_consent_without_records"
+      ],
+      "review_state": "assistant_source_checked_candidate_needs_domain_review",
+      "canonical_concept_id": null,
+      "decision": "pending_reconciliation",
+      "can_be_documentary_only": true
+    },
+    {
+      "id": "candidate-sense:00005",
+      "proposed_key": "tango-performance",
+      "preferred_name": "Articulations et interprétations situées du tango du Río de la Plata",
+      "source_material_id": "material:0000124",
+      "source_document_path": "docs/courses/udem-supplementary/MUL-6262-H27.md",
+      "source_role": "direct_official_seminar_outline",
+      "analytic_question": "Comment les phrasés et accompagnements changent-ils entre interprétations précisément identifiées ?",
+      "scope_note": "Le séminaire H27 nomme des méthodes comparatives et le contexte historique, non un détecteur universel de style.",
+      "requires_evidence": [
+        "identified_performances",
+        "instrumentation_and_articulation_annotations",
+        "historical_context_sources"
+      ],
+      "does_not_establish": [
+        "authenticity_from_one_rhythm",
+        "course_as_universal_rule"
+      ],
+      "review_state": "assistant_source_checked_candidate_needs_domain_review",
+      "canonical_concept_id": null,
+      "decision": "pending_reconciliation",
+      "can_be_documentary_only": true
+    }
+  ]
+}
