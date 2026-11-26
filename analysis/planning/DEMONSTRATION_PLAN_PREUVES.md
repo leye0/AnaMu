@@ -36,6 +36,10 @@ python -m anamu_analysis.proof_planner planning/examples/verticale-64.case.json 
 python -m anamu_analysis.proof_planner planning/examples/verticale-64.case.json --profile tonal_annotated
 python -m anamu_analysis.proof_planner planning/examples/percussion-physical.case.json --profile midi_only
 python -m anamu_analysis.proof_planner planning/examples/percussion-physical.case.json --profile layout_annotated
+
+# Comparer ce qu'une nouvelle preuve rend seulement examinable
+python -m anamu_analysis.proof_planner planning/examples/verticale-64.case.json --profile classes_only --compare tonal_annotated
+python -m anamu_analysis.proof_planner planning/examples/percussion-physical.case.json --profile midi_only --compare layout_annotated
 ~~~
 
 | Profil illustratif | Tâches prêtes sous hypothèses | Tâches bloquées | Observation importante |
@@ -48,6 +52,13 @@ python -m anamu_analysis.proof_planner planning/examples/percussion-physical.cas
 Ces décomptes sont ceux des scénarios construits et du CLI, **pas des
 performances de reconnaissance musicale**. Aucune suite de tests
 unitaires, validateur ou workflow n'a été ajoutée ou lancée.
+
+En comparaison des profils, le CLI constate **trois tâches devenues
+examinables sous hypothèses** pour la sixte-et-quarte (basse, fonction,
+phrase) et **une** pour la percussion (gestes/implantation). Les
+changements de faits sont explicités; la perception acoustique reste
+bloquée dans les deux cas. Il s'agit d'une réévaluation du **plan**,
+pas d'une révision automatique de conclusions musicales.
 
 ## 3. Pourquoi ces deux cas sont discriminants
 
