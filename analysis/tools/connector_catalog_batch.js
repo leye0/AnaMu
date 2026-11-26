@@ -9,14 +9,12 @@ const metadataPaths=[
   "analysis/knowledge/source-manifest.json",
   "analysis/knowledge/materials/catalog.json",
   "analysis/knowledge/material-index.json",
-  "analysis/knowledge/course-material-maps/links.json",
-  "docs/data/course-algorithmic-assessments.json"
+  "analysis/knowledge/course-material-maps/links.json"
 ];
 const files=await Promise.all(metadataPaths.map(path=>
   tools.mcp__GitHub__fetch_file({repository_full_name:repo,path,ref:branch})));
-const [sources,catalog,index,courseMap,assessments]=files.map(r=>JSON.parse(r.result.content));
-const registered=new Map(assessments.assessments.filter(r=>r.material_file)
-  .map(r=>[r.material_file,r]));
+const [sources,catalog,index,courseMap]=files.map(r=>JSON.parse(r.result.content));
+const sourceByPath=new Map(sources.sources.map(r=>[r.path,r]));
 if(catalog.material_units<457||catalog.chunks.length<36)throw Error("Unexpected catalogue version");
 const nums=courseMap.bindings.map(r=>Number(r.id.split(":").at(-1)));
 let nextMaterial=Math.max(catalog.material_units,...Object.values(index.by_document)
@@ -104,8 +102,8 @@ function sections(path,text){
   return out
 }
 function courseIdentity(path){
-  const row=registered.get(path);
-  if(row)return row.institution+":"+row.code;
+  const row=sourceByPath.get(path);
+  if(row?.course_id)return row.course_id;
   const parts=path.split("/");
   return parts[2]+":"+parts.at(-1).replace(/\.md$/,"")
 }
@@ -217,10 +215,8 @@ for(const [path,value] of [
 const currentBranch=JSON.parse((await tools.mcp__GitHub__fetch({
   url:"https://api.github.com/repos/leye0/AnaMu/branches/"+branch})).result.content);
 const parent=currentBranch.commit.sha;
-const parentCommit=JSON.parse((await tools.mcp__GitHub__fetch({
-  url:"https://api.github.com/repos/leye0/AnaMu/git/commits/"+parent})).result.content);
 const tree=await tools.mcp__GitHub__create_tree({repository_full_name:repo,
-  base_tree_sha:parentCommit.tree.sha,tree_elements:changes});
+  base_tree_sha:currentBranch.commit.commit.tree.sha,tree_elements:changes});
 const commit=await tools.mcp__GitHub__create_commit({repository_full_name:repo,
   tree_sha:tree.result.sha,parent_sha:parent,message:
     "Indexer "+newUnits+" fragments de "+downloaded.length+
