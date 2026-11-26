@@ -84,7 +84,36 @@ d'inventaire des événements tout en laissant la jouabilité et le son
 réel explicitement **bloqués**. Un concept acoustique n'est donc pas
 subordonné artificiellement à une analyse tonale.
 
-## 4. Les décisions encore nécessaires
+## 4. Généralisation des preuves et ordre d'exécution
+
+Les deux cas partagent désormais le
+[registre de 18 catégories de faits](../knowledge/evidence-facts.json) :
+événements MIDI, continuité des voix, partitions, écoute, contexte,
+implantation d'instruments, gestes d'amortissement et autres besoins.
+L'orthographe d'une exigence inconnue provoque un arrêt, au lieu de
+créer silencieusement une catégorie de preuve.
+
+Le planificateur conserve également un **ordre technique des tâches
+candidates**. Une dépendance « observer les événements avant de
+départager une fonction » organise les opérations sans devenir une loi
+sur le déroulement temporel de l'œuvre. Des opérations indépendantes,
+comme l'écoute d'un extrait, n'ont pas besoin d'attendre une mesure
+d'accord préalable. Une boucle entre prérequis d'exécution est refusée ;
+un aller-retour entre interprétations musicales, lui, demeure possible
+dans l'architecture de connaissance.
+
+La sortie distingue maintenant trois concepts :
+- disponibilité d'une route selon son profil ;
+- ordre de préparation de tâches dépendantes ;
+- **exécution réelle absente** des opérations, explicitement signalée.
+
+Le statut « verified » d'un fait est **déclaré par le profil de preuves**.
+La CLI exige une provenance écrite et refuse des faits dupliqués, mais
+**ne vérifie pas elle-même les sources, les fichiers et leur authenticité**.
+Le rapport de lecture MIDI associé à CM-211 a été établi séparément ;
+sa référence ne valide pas automatiquement toute interprétation.
+
+## 5. Les décisions encore nécessaires
 
 - Relier les termes des routes de preuve à des **types d'évidence
   versionnés**, pas à des chaînes libres rédigées pour un seul exemple.
