@@ -1,0 +1,259 @@
+{
+  "source_document": "docs/courses/udem/MTE-3115.md",
+  "units": [
+    {
+      "id": "material:0002467",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 3115 — Orchestration 4",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : UdeM, B. Mus. Composition A26, option du bloc 75E, 3 crédits. **Statut partiel** au 11 novembre 2026 : sources pédagogiques externes, aucun syllabus de section obtenu. À **ne pas confondre avec MTE 3115X**, également répertorié.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-3115.md",
+          "document_sha256": "1bfa5803dc4bb5796be39c741f8367e22cef19c8abcdcc3463b7448bc46240c7",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:acb6e081c65ea6459c221a58",
+            "heading_path": [
+              "MTE 3115 — Orchestration 4"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 49
+          },
+          "content_sha256": "2e58bd6dfdbc3c3695b50d31f0493aaab7dcfb392996454bca4a5d49a8db6148",
+          "body_sha256": "0cddc0bacd6ee8cf830c588122bb3ce8a8e320da559065dd0185ea61f332e5a5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002468",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Liens vers la matière et nature des preuves",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Notice officielle MTE 3115](https://admission.umontreal.ca/cours-et-horaires/cours/mte-3115/) : étude historique **et pratique** des types d'orchestres, effectifs, conventions de notation et styles de Mozart à Ravel ; préalables MTE 3114",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-3115.md",
+          "document_sha256": "1bfa5803dc4bb5796be39c741f8367e22cef19c8abcdcc3463b7448bc46240c7",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:339f841e3312b4397e758066",
+            "heading_path": [
+              "MTE 3115 — Orchestration 4",
+              "Liens vers la matière et nature des preuves"
+            ],
+            "start_line": 5,
+            "end_line": 11,
+            "subtree_end_line": 11
+          },
+          "content_sha256": "c1071d386b79f735d84ec09d0ddfd989eb1860ec7effa2c7bd03307bdd1f5560",
+          "body_sha256": "573da0829d9290f2a802d2d584c56046fc8afe245613e2a74a36c54739bbdcd0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002469",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Matière et exclusions",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : La lecture de Yale établit un parcours pédagogique vérifiable sur l'expansion de l'orchestre ; Coerne présente des observations historiques précises sur la répartition des vents et des cuivres chez Mozart. Il manque **les devoirs de réorche",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-3115.md",
+          "document_sha256": "1bfa5803dc4bb5796be39c741f8367e22cef19c8abcdcc3463b7448bc46240c7",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4bda97c4fe4a77c456c8aa5a",
+            "heading_path": [
+              "MTE 3115 — Orchestration 4",
+              "Matière et exclusions"
+            ],
+            "start_line": 12,
+            "end_line": 18,
+            "subtree_end_line": 18
+          },
+          "content_sha256": "b7913e76748aee531b0f1e2e471b29d14e4521a69c89eede923defcc9488b700",
+          "body_sha256": "fbbc0727a439e39e3132853838585b73693a8b05bf020e70ff5c915a1f0e3a96",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002470",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — évaluation sans démonstration MIDI abusive (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cours : MTE 3115. Contribution :** directe pour l'orchestration et l'analyse de partitions historiques. **Source :** [notice UdeM MTE 3115 : développement des types d'orchestres de Mozart à Ravel, instrumentation et notation pratique. MTE",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-3115.md",
+          "document_sha256": "1bfa5803dc4bb5796be39c741f8367e22cef19c8abcdcc3463b7448bc46240c7",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:59643d923d1c99f14e6e3850",
+            "heading_path": [
+              "MTE 3115 — Orchestration 4",
+              "Application à l'analyse et à la création — évaluation sans démonstration MIDI abusive (12 novembre 2026)"
+            ],
+            "start_line": 19,
+            "end_line": 22,
+            "subtree_end_line": 49
+          },
+          "content_sha256": "83b5c9e789cf3bca766eae93fd1d0b5a135daff960c869094077f40a0e801c8f",
+          "body_sha256": "183f3c618cc044598f08fef1ab99bd2e21adcf09e71d4e170df23405b97fea70",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002471",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 1 — Comparer des effectifs orchestraux selon les périodes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve :** notion générale annoncée pour le code, sans liste de travaux de section. **Catégorie :** `CONTEXT_REQUIRED / MIDI_PROXY / AUDIO_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-3115.md",
+          "document_sha256": "1bfa5803dc4bb5796be39c741f8367e22cef19c8abcdcc3463b7448bc46240c7",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:cc045731f26b2ab8e17721f3",
+            "heading_path": [
+              "MTE 3115 — Orchestration 4",
+              "Application à l'analyse et à la création — évaluation sans démonstration MIDI abusive (12 novembre 2026)",
+              "Apprentissage 1 — Comparer des effectifs orchestraux selon les périodes"
+            ],
+            "start_line": 23,
+            "end_line": 32,
+            "subtree_end_line": 32
+          },
+          "content_sha256": "53096977cae331479af7500d374ae75071777750226b109ffc47b08b9e80d881",
+          "body_sha256": "56865c4693d67989648a0ca87e6d2762efb17c397a004b202acae5c5936dfac4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002472",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 2 — Conventions de notation et transposition instrumentale",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve :** notion générale annoncée pour le code, sans liste de travaux de section. **Catégorie :** `MIDI_PROXY / CONTEXT_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-3115.md",
+          "document_sha256": "1bfa5803dc4bb5796be39c741f8367e22cef19c8abcdcc3463b7448bc46240c7",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:88945bf7292254a528edcfb8",
+            "heading_path": [
+              "MTE 3115 — Orchestration 4",
+              "Application à l'analyse et à la création — évaluation sans démonstration MIDI abusive (12 novembre 2026)",
+              "Apprentissage 2 — Conventions de notation et transposition instrumentale"
+            ],
+            "start_line": 33,
+            "end_line": 42,
+            "subtree_end_line": 42
+          },
+          "content_sha256": "6559865d656b9bd72538b46c0d277c0db7ad5c26e3b505f90e7e6605bba32732",
+          "body_sha256": "65ca51f6202a463fea72b9e703d626192b25718cedd49eba5eb49fab3270859d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002473",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Apport :** directe pour l'orchestration et l'analyse de partitions historiques.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-3115.md",
+          "document_sha256": "1bfa5803dc4bb5796be39c741f8367e22cef19c8abcdcc3463b7448bc46240c7",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f782ee6bd68b369d5a9531ff",
+            "heading_path": [
+              "MTE 3115 — Orchestration 4",
+              "Application à l'analyse et à la création — évaluation sans démonstration MIDI abusive (12 novembre 2026)",
+              "Verdict"
+            ],
+            "start_line": 43,
+            "end_line": 49,
+            "subtree_end_line": 49
+          },
+          "content_sha256": "7682a70ca396afce45ebc243036be8410ae00d62c6c35b991c22cf0fdeb354db",
+          "body_sha256": "dc55ad097351deba8cfb1b1ae9960ca10fd7680d3f6a149ff1ceee32cfefadc5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

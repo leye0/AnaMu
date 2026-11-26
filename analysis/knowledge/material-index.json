@@ -2,13 +2,13 @@
   "schema_version": 1,
   "coverage": {
     "status": "pilot_partial_not_full_inventory",
-    "source_course_documents_indexed": 276,
+    "source_course_documents_indexed": 286,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 2433,
-    "material_units_requiring_review": 2433,
+    "material_units_active": 2506,
+    "material_units_requiring_review": 2506,
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
-    "course_material_bindings_active": 2433,
+    "course_material_bindings_active": 2506,
     "material_knowledge_bindings": 55,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
     "material_knowledge_bindings_proposed": 49,
@@ -18,8 +18,8 @@
     "extracted_candidate_assertions": 32,
     "extracted_candidate_assertions_stale": 0,
     "candidate_senses_pending_reconciliation": 6,
-    "course_documents_with_active_units": 276,
-    "source_documents_with_active_units": 276
+    "course_documents_with_active_units": 286,
+    "source_documents_with_active_units": 286
   },
   "by_course": {
     "berklee:CM-211": [
@@ -2996,6 +2996,99 @@
       "material:0002431",
       "material:0002432",
       "material:0002433"
+    ],
+    "udem:MTE 2211": [
+      "material:0002434",
+      "material:0002435",
+      "material:0002436",
+      "material:0002437",
+      "material:0002438",
+      "material:0002439",
+      "material:0002440",
+      "material:0002441"
+    ],
+    "udem:MTE 2315": [
+      "material:0002442",
+      "material:0002443",
+      "material:0002444",
+      "material:0002445",
+      "material:0002446",
+      "material:0002447",
+      "material:0002448",
+      "material:0002449"
+    ],
+    "udem:MTE 2316": [
+      "material:0002450",
+      "material:0002451",
+      "material:0002452",
+      "material:0002453",
+      "material:0002454",
+      "material:0002455",
+      "material:0002456",
+      "material:0002457",
+      "material:0002458"
+    ],
+    "udem:MTE 3114": [
+      "material:0002459",
+      "material:0002460",
+      "material:0002461",
+      "material:0002462",
+      "material:0002463",
+      "material:0002464",
+      "material:0002465",
+      "material:0002466"
+    ],
+    "udem:MTE 3115": [
+      "material:0002467",
+      "material:0002468",
+      "material:0002469",
+      "material:0002470",
+      "material:0002471",
+      "material:0002472",
+      "material:0002473"
+    ],
+    "udem:MTE 3115X": [
+      "material:0002474",
+      "material:0002475",
+      "material:0002476",
+      "material:0002477",
+      "material:0002478",
+      "material:0002479",
+      "material:0002480"
+    ],
+    "udem:MUE 1151": [
+      "material:0002481",
+      "material:0002482",
+      "material:0002483",
+      "material:0002484",
+      "material:0002485",
+      "material:0002486",
+      "material:0002487"
+    ],
+    "udem:MUE 1152": [
+      "material:0002488",
+      "material:0002489",
+      "material:0002490",
+      "material:0002491",
+      "material:0002492",
+      "material:0002493",
+      "material:0002494"
+    ],
+    "udem:MUE 1153": [
+      "material:0002495",
+      "material:0002496",
+      "material:0002497",
+      "material:0002498",
+      "material:0002499",
+      "material:0002500",
+      "material:0002501"
+    ],
+    "udem:MUE 1161": [
+      "material:0002502",
+      "material:0002503",
+      "material:0002504",
+      "material:0002505",
+      "material:0002506"
     ]
   },
   "by_document": {
@@ -5983,6 +6076,99 @@
       "material:0002431",
       "material:0002432",
       "material:0002433"
+    ],
+    "docs/courses/udem/MTE-2211.md": [
+      "material:0002434",
+      "material:0002435",
+      "material:0002436",
+      "material:0002437",
+      "material:0002438",
+      "material:0002439",
+      "material:0002440",
+      "material:0002441"
+    ],
+    "docs/courses/udem/MTE-2315.md": [
+      "material:0002442",
+      "material:0002443",
+      "material:0002444",
+      "material:0002445",
+      "material:0002446",
+      "material:0002447",
+      "material:0002448",
+      "material:0002449"
+    ],
+    "docs/courses/udem/MTE-2316.md": [
+      "material:0002450",
+      "material:0002451",
+      "material:0002452",
+      "material:0002453",
+      "material:0002454",
+      "material:0002455",
+      "material:0002456",
+      "material:0002457",
+      "material:0002458"
+    ],
+    "docs/courses/udem/MTE-3114.md": [
+      "material:0002459",
+      "material:0002460",
+      "material:0002461",
+      "material:0002462",
+      "material:0002463",
+      "material:0002464",
+      "material:0002465",
+      "material:0002466"
+    ],
+    "docs/courses/udem/MTE-3115.md": [
+      "material:0002467",
+      "material:0002468",
+      "material:0002469",
+      "material:0002470",
+      "material:0002471",
+      "material:0002472",
+      "material:0002473"
+    ],
+    "docs/courses/udem/MTE-3115X.md": [
+      "material:0002474",
+      "material:0002475",
+      "material:0002476",
+      "material:0002477",
+      "material:0002478",
+      "material:0002479",
+      "material:0002480"
+    ],
+    "docs/courses/udem/MUE-1151.md": [
+      "material:0002481",
+      "material:0002482",
+      "material:0002483",
+      "material:0002484",
+      "material:0002485",
+      "material:0002486",
+      "material:0002487"
+    ],
+    "docs/courses/udem/MUE-1152.md": [
+      "material:0002488",
+      "material:0002489",
+      "material:0002490",
+      "material:0002491",
+      "material:0002492",
+      "material:0002493",
+      "material:0002494"
+    ],
+    "docs/courses/udem/MUE-1153.md": [
+      "material:0002495",
+      "material:0002496",
+      "material:0002497",
+      "material:0002498",
+      "material:0002499",
+      "material:0002500",
+      "material:0002501"
+    ],
+    "docs/courses/udem/MUE-1161.md": [
+      "material:0002502",
+      "material:0002503",
+      "material:0002504",
+      "material:0002505",
+      "material:0002506"
     ]
   },
   "by_concept": {
