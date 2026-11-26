@@ -2,13 +2,13 @@
   "schema_version": 1,
   "coverage": {
     "status": "pilot_partial_not_full_inventory",
-    "source_course_documents_indexed": 216,
+    "source_course_documents_indexed": 226,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 1994,
-    "material_units_requiring_review": 1994,
+    "material_units_active": 2053,
+    "material_units_requiring_review": 2053,
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
-    "course_material_bindings_active": 1994,
+    "course_material_bindings_active": 2053,
     "material_knowledge_bindings": 55,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
     "material_knowledge_bindings_proposed": 49,
@@ -18,8 +18,8 @@
     "extracted_candidate_assertions": 32,
     "extracted_candidate_assertions_stale": 0,
     "candidate_senses_pending_reconciliation": 6,
-    "course_documents_with_active_units": 216,
-    "source_documents_with_active_units": 216
+    "course_documents_with_active_units": 226,
+    "source_documents_with_active_units": 226
   },
   "by_course": {
     "berklee:CM-211": [
@@ -159,7 +159,11 @@
       "material:0000116"
     ],
     "mcgill:MUTH 202": [
-      "material:0000117"
+      "material:0000117",
+      "material:0002050",
+      "material:0002051",
+      "material:0002052",
+      "material:0002053"
     ],
     "berklee-online:OCOMP-491": [
       "material:0000118"
@@ -2441,6 +2445,79 @@
       "material:0001992",
       "material:0001993",
       "material:0001994"
+    ],
+    "mcgill:MUIN 281": [
+      "material:0001995",
+      "material:0001996",
+      "material:0001997",
+      "material:0001998",
+      "material:0001999"
+    ],
+    "mcgill:MUPD 135": [
+      "material:0002000",
+      "material:0002001",
+      "material:0002002",
+      "material:0002003",
+      "material:0002004",
+      "material:0002005"
+    ],
+    "mcgill:MUPD 235": [
+      "material:0002006",
+      "material:0002007",
+      "material:0002008",
+      "material:0002009"
+    ],
+    "mcgill:MUSP 140": [
+      "material:0002010",
+      "material:0002011",
+      "material:0002012",
+      "material:0002013",
+      "material:0002014",
+      "material:0002015"
+    ],
+    "mcgill:MUSP 141": [
+      "material:0002016",
+      "material:0002017",
+      "material:0002018",
+      "material:0002019",
+      "material:0002020",
+      "material:0002021"
+    ],
+    "mcgill:MUSP 170": [
+      "material:0002022",
+      "material:0002023",
+      "material:0002024",
+      "material:0002025",
+      "material:0002026",
+      "material:0002027"
+    ],
+    "mcgill:MUSP 171": [
+      "material:0002028",
+      "material:0002029",
+      "material:0002030",
+      "material:0002031",
+      "material:0002032",
+      "material:0002033"
+    ],
+    "mcgill:MUSP 241": [
+      "material:0002034",
+      "material:0002035",
+      "material:0002036",
+      "material:0002037",
+      "material:0002038",
+      "material:0002039",
+      "material:0002040",
+      "material:0002041",
+      "material:0002042"
+    ],
+    "mcgill:MUSP 346": [
+      "material:0002043",
+      "material:0002044",
+      "material:0002045",
+      "material:0002046",
+      "material:0002047",
+      "material:0002048",
+      "material:0002049"
     ]
   },
   "by_document": {
@@ -4869,6 +4946,85 @@
       "material:0001992",
       "material:0001993",
       "material:0001994"
+    ],
+    "docs/courses/mcgill/MUIN-281.md": [
+      "material:0001995",
+      "material:0001996",
+      "material:0001997",
+      "material:0001998",
+      "material:0001999"
+    ],
+    "docs/courses/mcgill/MUPD-135.md": [
+      "material:0002000",
+      "material:0002001",
+      "material:0002002",
+      "material:0002003",
+      "material:0002004",
+      "material:0002005"
+    ],
+    "docs/courses/mcgill/MUPD-235.md": [
+      "material:0002006",
+      "material:0002007",
+      "material:0002008",
+      "material:0002009"
+    ],
+    "docs/courses/mcgill/MUSP-140.md": [
+      "material:0002010",
+      "material:0002011",
+      "material:0002012",
+      "material:0002013",
+      "material:0002014",
+      "material:0002015"
+    ],
+    "docs/courses/mcgill/MUSP-141.md": [
+      "material:0002016",
+      "material:0002017",
+      "material:0002018",
+      "material:0002019",
+      "material:0002020",
+      "material:0002021"
+    ],
+    "docs/courses/mcgill/MUSP-170.md": [
+      "material:0002022",
+      "material:0002023",
+      "material:0002024",
+      "material:0002025",
+      "material:0002026",
+      "material:0002027"
+    ],
+    "docs/courses/mcgill/MUSP-171.md": [
+      "material:0002028",
+      "material:0002029",
+      "material:0002030",
+      "material:0002031",
+      "material:0002032",
+      "material:0002033"
+    ],
+    "docs/courses/mcgill/MUSP-241.md": [
+      "material:0002034",
+      "material:0002035",
+      "material:0002036",
+      "material:0002037",
+      "material:0002038",
+      "material:0002039",
+      "material:0002040",
+      "material:0002041",
+      "material:0002042"
+    ],
+    "docs/courses/mcgill/MUSP-346.md": [
+      "material:0002043",
+      "material:0002044",
+      "material:0002045",
+      "material:0002046",
+      "material:0002047",
+      "material:0002048",
+      "material:0002049"
+    ],
+    "docs/courses/mcgill/MUTH 202.md": [
+      "material:0002050",
+      "material:0002051",
+      "material:0002052",
+      "material:0002053"
     ]
   },
   "by_concept": {

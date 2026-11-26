@@ -1,0 +1,148 @@
+{
+  "source_document": "docs/courses/mcgill/MUPD-235.md",
+  "units": [
+    {
+      "id": "material:0002006",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUPD 235 — Music as a Profession 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : McGill, Schulich, Composition 2026. Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUPD-235.md",
+          "document_sha256": "f6d28368fd003260136e0dbef4aa61cc78d884e645d74200b7053da68c4e5af9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:731e5ca038a50de0413e1e00",
+            "heading_path": [
+              "MUPD 235 — Music as a Profession 2"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 24
+          },
+          "content_sha256": "2dc4e228286eb4ba0cabbd68e01c1ed7b5e6424183de4e740e7da2920e1c29a6",
+          "body_sha256": "2b873a9f9619445fd01e525827ed02dae315a04b8df6ec58099238e3f68aa28c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002007",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources et matière",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [Exigences de Composition](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements). Panorama des métiers de la musique et des responsabilités et aptitudes associées. L’[affichage Schulich H27, p. 9](https://www.mcgill.ca/m",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUPD-235.md",
+          "document_sha256": "f6d28368fd003260136e0dbef4aa61cc78d884e645d74200b7053da68c4e5af9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3b54a4b736d8f08142f85bda",
+            "heading_path": [
+              "MUPD 235 — Music as a Profession 2",
+              "Sources et matière"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 8
+          },
+          "content_sha256": "a26ce182e06447343e3aa90cf79de97886fafc15526d7eecbf8bd1144919c2bb",
+          "body_sha256": "eecf6076278afff8efad7e8bb1c5073dcf7f69937d57cf1f65ae9af88b44a09e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002008",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Les métiers traités par séance, les lectures, les intervenants et les travaux à remettre restent à obtenir.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUPD-235.md",
+          "document_sha256": "f6d28368fd003260136e0dbef4aa61cc78d884e645d74200b7053da68c4e5af9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:61628e971a82c5ffb99d6d2d",
+            "heading_path": [
+              "MUPD 235 — Music as a Profession 2",
+              "Lacunes"
+            ],
+            "start_line": 9,
+            "end_line": 13,
+            "subtree_end_line": 13
+          },
+          "content_sha256": "c1e7da848e607e4214994fbdd07d193368be451f6bc11283a8b3dacb63573032",
+          "body_sha256": "e8c32d7392ce90e74c0c3d8dc9eedeaa70b92d07f1be0c4ac85db81e000945dc",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002009",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — limites de l'application (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [Source authentique du cours](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements). **Apport :** non démontré pour une analyse/génération de notes MIDI ; **sujet attesté :** Métier de musicien, responsabilités et contex",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUPD-235.md",
+          "document_sha256": "f6d28368fd003260136e0dbef4aa61cc78d884e645d74200b7053da68c4e5af9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:901ef13ec45266949839d0f3",
+            "heading_path": [
+              "MUPD 235 — Music as a Profession 2",
+              "Application à l'analyse et à la création — limites de l'application (11 novembre 2026)"
+            ],
+            "start_line": 14,
+            "end_line": 24,
+            "subtree_end_line": 24
+          },
+          "content_sha256": "c541100b5fa716375ec07d40e56aec79fe26926007ab01589b08c92f3e4764c3",
+          "body_sha256": "bb1932206b5931e46d2a0da3993b552bc8314ba298d1ec4865933b47d3530e29",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
