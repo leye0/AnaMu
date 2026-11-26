@@ -2,13 +2,13 @@
   "schema_version": 1,
   "coverage": {
     "status": "pilot_partial_not_full_inventory",
-    "source_course_documents_indexed": 356,
+    "source_course_documents_indexed": 365,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 2880,
-    "material_units_requiring_review": 2880,
+    "material_units_active": 2925,
+    "material_units_requiring_review": 2925,
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
-    "course_material_bindings_active": 2880,
+    "course_material_bindings_active": 2925,
     "material_knowledge_bindings": 55,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
     "material_knowledge_bindings_proposed": 49,
@@ -18,8 +18,8 @@
     "extracted_candidate_assertions": 32,
     "extracted_candidate_assertions_stale": 0,
     "candidate_senses_pending_reconciliation": 6,
-    "course_documents_with_active_units": 356,
-    "source_documents_with_active_units": 356
+    "course_documents_with_active_units": 365,
+    "source_documents_with_active_units": 365
   },
   "by_course": {
     "berklee:CM-211": [
@@ -3603,6 +3603,69 @@
       "material:0002878",
       "material:0002879",
       "material:0002880"
+    ],
+    "udem:MUI 1213A": [
+      "material:0002881",
+      "material:0002882",
+      "material:0002883",
+      "material:0002884",
+      "material:0002885"
+    ],
+    "udem:MUI 1223A": [
+      "material:0002886",
+      "material:0002887",
+      "material:0002888",
+      "material:0002889",
+      "material:0002890"
+    ],
+    "udem:MUI 1233A": [
+      "material:0002891",
+      "material:0002892",
+      "material:0002893",
+      "material:0002894",
+      "material:0002895"
+    ],
+    "udem:MUI 1243A": [
+      "material:0002896",
+      "material:0002897",
+      "material:0002898",
+      "material:0002899",
+      "material:0002900"
+    ],
+    "udem:MUI 1253A": [
+      "material:0002901",
+      "material:0002902",
+      "material:0002903",
+      "material:0002904",
+      "material:0002905"
+    ],
+    "udem:MUI 1263A": [
+      "material:0002906",
+      "material:0002907",
+      "material:0002908",
+      "material:0002909",
+      "material:0002910"
+    ],
+    "udem:MUI 1273A": [
+      "material:0002911",
+      "material:0002912",
+      "material:0002913",
+      "material:0002914",
+      "material:0002915"
+    ],
+    "udem:MUI 1283A": [
+      "material:0002916",
+      "material:0002917",
+      "material:0002918",
+      "material:0002919",
+      "material:0002920"
+    ],
+    "udem:MUI 1293A": [
+      "material:0002921",
+      "material:0002922",
+      "material:0002923",
+      "material:0002924",
+      "material:0002925"
     ]
   },
   "by_document": {
@@ -7197,6 +7260,69 @@
       "material:0002878",
       "material:0002879",
       "material:0002880"
+    ],
+    "docs/courses/udem/MUI-1213A.md": [
+      "material:0002881",
+      "material:0002882",
+      "material:0002883",
+      "material:0002884",
+      "material:0002885"
+    ],
+    "docs/courses/udem/MUI-1223A.md": [
+      "material:0002886",
+      "material:0002887",
+      "material:0002888",
+      "material:0002889",
+      "material:0002890"
+    ],
+    "docs/courses/udem/MUI-1233A.md": [
+      "material:0002891",
+      "material:0002892",
+      "material:0002893",
+      "material:0002894",
+      "material:0002895"
+    ],
+    "docs/courses/udem/MUI-1243A.md": [
+      "material:0002896",
+      "material:0002897",
+      "material:0002898",
+      "material:0002899",
+      "material:0002900"
+    ],
+    "docs/courses/udem/MUI-1253A.md": [
+      "material:0002901",
+      "material:0002902",
+      "material:0002903",
+      "material:0002904",
+      "material:0002905"
+    ],
+    "docs/courses/udem/MUI-1263A.md": [
+      "material:0002906",
+      "material:0002907",
+      "material:0002908",
+      "material:0002909",
+      "material:0002910"
+    ],
+    "docs/courses/udem/MUI-1273A.md": [
+      "material:0002911",
+      "material:0002912",
+      "material:0002913",
+      "material:0002914",
+      "material:0002915"
+    ],
+    "docs/courses/udem/MUI-1283A.md": [
+      "material:0002916",
+      "material:0002917",
+      "material:0002918",
+      "material:0002919",
+      "material:0002920"
+    ],
+    "docs/courses/udem/MUI-1293A.md": [
+      "material:0002921",
+      "material:0002922",
+      "material:0002923",
+      "material:0002924",
+      "material:0002925"
     ]
   },
   "by_concept": {
