@@ -2,13 +2,13 @@
   "schema_version": 1,
   "coverage": {
     "status": "pilot_partial_not_full_inventory",
-    "source_course_documents_indexed": 206,
+    "source_course_documents_indexed": 216,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 1935,
-    "material_units_requiring_review": 1935,
+    "material_units_active": 1994,
+    "material_units_requiring_review": 1994,
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
-    "course_material_bindings_active": 1935,
+    "course_material_bindings_active": 1994,
     "material_knowledge_bindings": 55,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
     "material_knowledge_bindings_proposed": 49,
@@ -18,8 +18,8 @@
     "extracted_candidate_assertions": 32,
     "extracted_candidate_assertions_stale": 0,
     "candidate_senses_pending_reconciliation": 6,
-    "course_documents_with_active_units": 206,
-    "source_documents_with_active_units": 206
+    "course_documents_with_active_units": 216,
+    "source_documents_with_active_units": 216
   },
   "by_course": {
     "berklee:CM-211": [
@@ -2362,6 +2362,85 @@
       "material:0001933",
       "material:0001934",
       "material:0001935"
+    ],
+    "mcgill:MUEN 597": [
+      "material:0001936",
+      "material:0001937",
+      "material:0001938",
+      "material:0001939",
+      "material:0001940",
+      "material:0001941"
+    ],
+    "mcgill:MUHL 186": [
+      "material:0001942",
+      "material:0001943",
+      "material:0001944",
+      "material:0001945",
+      "material:0001946",
+      "material:0001947"
+    ],
+    "mcgill:MUHL 286": [
+      "material:0001948",
+      "material:0001949",
+      "material:0001950",
+      "material:0001951",
+      "material:0001952",
+      "material:0001953"
+    ],
+    "mcgill:MUHL 385": [
+      "material:0001954",
+      "material:0001955",
+      "material:0001956",
+      "material:0001957",
+      "material:0001958",
+      "material:0001959"
+    ],
+    "mcgill:MUHL 388": [
+      "material:0001960",
+      "material:0001961",
+      "material:0001962",
+      "material:0001963",
+      "material:0001964",
+      "material:0001965"
+    ],
+    "mcgill:MUHL 391": [
+      "material:0001966",
+      "material:0001967",
+      "material:0001968",
+      "material:0001969",
+      "material:0001970",
+      "material:0001971"
+    ],
+    "mcgill:MUHL 392": [
+      "material:0001972",
+      "material:0001973",
+      "material:0001974",
+      "material:0001975",
+      "material:0001976",
+      "material:0001977"
+    ],
+    "mcgill:MUIN 180": [
+      "material:0001978",
+      "material:0001979",
+      "material:0001980",
+      "material:0001981",
+      "material:0001982",
+      "material:0001983"
+    ],
+    "mcgill:MUIN 181": [
+      "material:0001984",
+      "material:0001985",
+      "material:0001986",
+      "material:0001987",
+      "material:0001988",
+      "material:0001989"
+    ],
+    "mcgill:MUIN 280": [
+      "material:0001990",
+      "material:0001991",
+      "material:0001992",
+      "material:0001993",
+      "material:0001994"
     ]
   },
   "by_document": {
@@ -4711,6 +4790,85 @@
       "material:0001933",
       "material:0001934",
       "material:0001935"
+    ],
+    "docs/courses/mcgill/MUEN-597.md": [
+      "material:0001936",
+      "material:0001937",
+      "material:0001938",
+      "material:0001939",
+      "material:0001940",
+      "material:0001941"
+    ],
+    "docs/courses/mcgill/MUHL-186.md": [
+      "material:0001942",
+      "material:0001943",
+      "material:0001944",
+      "material:0001945",
+      "material:0001946",
+      "material:0001947"
+    ],
+    "docs/courses/mcgill/MUHL-286.md": [
+      "material:0001948",
+      "material:0001949",
+      "material:0001950",
+      "material:0001951",
+      "material:0001952",
+      "material:0001953"
+    ],
+    "docs/courses/mcgill/MUHL-385.md": [
+      "material:0001954",
+      "material:0001955",
+      "material:0001956",
+      "material:0001957",
+      "material:0001958",
+      "material:0001959"
+    ],
+    "docs/courses/mcgill/MUHL-388.md": [
+      "material:0001960",
+      "material:0001961",
+      "material:0001962",
+      "material:0001963",
+      "material:0001964",
+      "material:0001965"
+    ],
+    "docs/courses/mcgill/MUHL-391.md": [
+      "material:0001966",
+      "material:0001967",
+      "material:0001968",
+      "material:0001969",
+      "material:0001970",
+      "material:0001971"
+    ],
+    "docs/courses/mcgill/MUHL-392.md": [
+      "material:0001972",
+      "material:0001973",
+      "material:0001974",
+      "material:0001975",
+      "material:0001976",
+      "material:0001977"
+    ],
+    "docs/courses/mcgill/MUIN-180.md": [
+      "material:0001978",
+      "material:0001979",
+      "material:0001980",
+      "material:0001981",
+      "material:0001982",
+      "material:0001983"
+    ],
+    "docs/courses/mcgill/MUIN-181.md": [
+      "material:0001984",
+      "material:0001985",
+      "material:0001986",
+      "material:0001987",
+      "material:0001988",
+      "material:0001989"
+    ],
+    "docs/courses/mcgill/MUIN-280.md": [
+      "material:0001990",
+      "material:0001991",
+      "material:0001992",
+      "material:0001993",
+      "material:0001994"
     ]
   },
   "by_concept": {
