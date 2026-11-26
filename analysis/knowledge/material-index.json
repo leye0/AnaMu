@@ -2,13 +2,13 @@
   "schema_version": 1,
   "coverage": {
     "status": "pilot_partial_not_full_inventory",
-    "source_course_documents_indexed": 266,
+    "source_course_documents_indexed": 276,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 2341,
-    "material_units_requiring_review": 2341,
+    "material_units_active": 2433,
+    "material_units_requiring_review": 2433,
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
-    "course_material_bindings_active": 2341,
+    "course_material_bindings_active": 2433,
     "material_knowledge_bindings": 55,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
     "material_knowledge_bindings_proposed": 49,
@@ -18,8 +18,8 @@
     "extracted_candidate_assertions": 32,
     "extracted_candidate_assertions_stale": 0,
     "candidate_senses_pending_reconciliation": 6,
-    "course_documents_with_active_units": 266,
-    "source_documents_with_active_units": 266
+    "course_documents_with_active_units": 276,
+    "source_documents_with_active_units": 276
   },
   "by_course": {
     "berklee:CM-211": [
@@ -2884,6 +2884,118 @@
       "material:0002339",
       "material:0002340",
       "material:0002341"
+    ],
+    "udem:MTE 1206": [
+      "material:0002342",
+      "material:0002343",
+      "material:0002344",
+      "material:0002345",
+      "material:0002346",
+      "material:0002347",
+      "material:0002348",
+      "material:0002349",
+      "material:0002350"
+    ],
+    "udem:MTE 1220": [
+      "material:0002351",
+      "material:0002352",
+      "material:0002353",
+      "material:0002354",
+      "material:0002355",
+      "material:0002356",
+      "material:0002357",
+      "material:0002358",
+      "material:0002359",
+      "material:0002360"
+    ],
+    "udem:MTE 1315": [
+      "material:0002361",
+      "material:0002362",
+      "material:0002363",
+      "material:0002364",
+      "material:0002365",
+      "material:0002366",
+      "material:0002367",
+      "material:0002368",
+      "material:0002369"
+    ],
+    "udem:MTE 1316": [
+      "material:0002370",
+      "material:0002371",
+      "material:0002372",
+      "material:0002373",
+      "material:0002374",
+      "material:0002375",
+      "material:0002376",
+      "material:0002377",
+      "material:0002378"
+    ],
+    "udem:MTE 1403": [
+      "material:0002379",
+      "material:0002380",
+      "material:0002381",
+      "material:0002382",
+      "material:0002383",
+      "material:0002384",
+      "material:0002385",
+      "material:0002386",
+      "material:0002387",
+      "material:0002388",
+      "material:0002389",
+      "material:0002390"
+    ],
+    "udem:MTE 1404": [
+      "material:0002391",
+      "material:0002392",
+      "material:0002393",
+      "material:0002394",
+      "material:0002395",
+      "material:0002396",
+      "material:0002397",
+      "material:0002398",
+      "material:0002399",
+      "material:0002400"
+    ],
+    "udem:MTE 1503": [
+      "material:0002401",
+      "material:0002402",
+      "material:0002403",
+      "material:0002404",
+      "material:0002405",
+      "material:0002406",
+      "material:0002407",
+      "material:0002408",
+      "material:0002409",
+      "material:0002410",
+      "material:0002411"
+    ],
+    "udem:MTE 2110": [
+      "material:0002412",
+      "material:0002413",
+      "material:0002414",
+      "material:0002415",
+      "material:0002416",
+      "material:0002417",
+      "material:0002418"
+    ],
+    "udem:MTE 2111": [
+      "material:0002419",
+      "material:0002420",
+      "material:0002421",
+      "material:0002422",
+      "material:0002423",
+      "material:0002424",
+      "material:0002425"
+    ],
+    "udem:MTE 2210": [
+      "material:0002426",
+      "material:0002427",
+      "material:0002428",
+      "material:0002429",
+      "material:0002430",
+      "material:0002431",
+      "material:0002432",
+      "material:0002433"
     ]
   },
   "by_document": {
@@ -5759,6 +5871,118 @@
       "material:0002339",
       "material:0002340",
       "material:0002341"
+    ],
+    "docs/courses/udem/MTE-1206.md": [
+      "material:0002342",
+      "material:0002343",
+      "material:0002344",
+      "material:0002345",
+      "material:0002346",
+      "material:0002347",
+      "material:0002348",
+      "material:0002349",
+      "material:0002350"
+    ],
+    "docs/courses/udem/MTE-1220.md": [
+      "material:0002351",
+      "material:0002352",
+      "material:0002353",
+      "material:0002354",
+      "material:0002355",
+      "material:0002356",
+      "material:0002357",
+      "material:0002358",
+      "material:0002359",
+      "material:0002360"
+    ],
+    "docs/courses/udem/MTE-1315.md": [
+      "material:0002361",
+      "material:0002362",
+      "material:0002363",
+      "material:0002364",
+      "material:0002365",
+      "material:0002366",
+      "material:0002367",
+      "material:0002368",
+      "material:0002369"
+    ],
+    "docs/courses/udem/MTE-1316.md": [
+      "material:0002370",
+      "material:0002371",
+      "material:0002372",
+      "material:0002373",
+      "material:0002374",
+      "material:0002375",
+      "material:0002376",
+      "material:0002377",
+      "material:0002378"
+    ],
+    "docs/courses/udem/MTE-1403.md": [
+      "material:0002379",
+      "material:0002380",
+      "material:0002381",
+      "material:0002382",
+      "material:0002383",
+      "material:0002384",
+      "material:0002385",
+      "material:0002386",
+      "material:0002387",
+      "material:0002388",
+      "material:0002389",
+      "material:0002390"
+    ],
+    "docs/courses/udem/MTE-1404.md": [
+      "material:0002391",
+      "material:0002392",
+      "material:0002393",
+      "material:0002394",
+      "material:0002395",
+      "material:0002396",
+      "material:0002397",
+      "material:0002398",
+      "material:0002399",
+      "material:0002400"
+    ],
+    "docs/courses/udem/MTE-1503.md": [
+      "material:0002401",
+      "material:0002402",
+      "material:0002403",
+      "material:0002404",
+      "material:0002405",
+      "material:0002406",
+      "material:0002407",
+      "material:0002408",
+      "material:0002409",
+      "material:0002410",
+      "material:0002411"
+    ],
+    "docs/courses/udem/MTE-2110.md": [
+      "material:0002412",
+      "material:0002413",
+      "material:0002414",
+      "material:0002415",
+      "material:0002416",
+      "material:0002417",
+      "material:0002418"
+    ],
+    "docs/courses/udem/MTE-2111.md": [
+      "material:0002419",
+      "material:0002420",
+      "material:0002421",
+      "material:0002422",
+      "material:0002423",
+      "material:0002424",
+      "material:0002425"
+    ],
+    "docs/courses/udem/MTE-2210.md": [
+      "material:0002426",
+      "material:0002427",
+      "material:0002428",
+      "material:0002429",
+      "material:0002430",
+      "material:0002431",
+      "material:0002432",
+      "material:0002433"
     ]
   },
   "by_concept": {

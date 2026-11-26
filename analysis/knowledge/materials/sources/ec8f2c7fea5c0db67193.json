@@ -1,0 +1,403 @@
+{
+  "source_document": "docs/courses/udem/MTE-1503.md",
+  "units": [
+    {
+      "id": "material:0002401",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 1503 — Composition électroacoustique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1503.md",
+          "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:730277e545994ee75885ce7e",
+            "heading_path": [
+              "MTE 1503 — Composition électroacoustique"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 62
+          },
+          "content_sha256": "8fee87b4a0b3681ce58cda9a37d82f912106674ef2aa65cedfcccb7d7230db93",
+          "body_sha256": "89120b9aa38472ffe8ca15a1dc4a095f790f8898ef0242352ecf4ed61d7a6460",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002402",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Cours recensé",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Obligatoire A26. Travaux de composition dirigés et apprentissage des techniques d’écriture électroacoustique. [Notice du cours](https://admission.umontreal.ca/cours-et-horaires/cours/mte-1503/).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1503.md",
+          "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e8a008801cd3a6303561edc6",
+            "heading_path": [
+              "MTE 1503 — Composition électroacoustique",
+              "Cours recensé"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 8
+          },
+          "content_sha256": "778a51e5f8fa596eed9ac527f2ea3dbde3c8a70343d2be02dcab73c692f13204",
+          "body_sha256": "b0bb85ef193023ef59164d78cbf318a25817a68aba5e18d82633509733d3e914",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002403",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Exemples et ressources",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le [cours parallèle du MIT](https://ocw.mit.edu/courses/21m-361-composing-with-computers-i-electronic-music-composition-spring-2008/pages/assignments/) donne des consignes de prise de son, de montage et de composition concrète, puis des tra",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1503.md",
+          "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7e3fa2caadf33f5e43830cda",
+            "heading_path": [
+              "MTE 1503 — Composition électroacoustique",
+              "Exemples et ressources"
+            ],
+            "start_line": 9,
+            "end_line": 12,
+            "subtree_end_line": 12
+          },
+          "content_sha256": "49a4e25cf7c36cc24e3addc1b02312b216d1261d7ab158e454d4806bf6985517",
+          "body_sha256": "ce7cbf883a19d3775a26d94ffe54b7e1569a7397bfab775c9823cb5448c29555",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002404",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le plan, les œuvres et les consignes de l’atelier UdeM restent à obtenir.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1503.md",
+          "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:347418403ccfbb0dc32e9bce",
+            "heading_path": [
+              "MTE 1503 — Composition électroacoustique",
+              "Lacunes"
+            ],
+            "start_line": 13,
+            "end_line": 16,
+            "subtree_end_line": 16
+          },
+          "content_sha256": "58d0c6783906c2e37d4419a08c1b84e85f015ebf60740cfe1d87ed4c60beb24a",
+          "body_sha256": "d809f2b271a962ceb0be6a77acb297edde8af21c4385f0b3c813f3311bf921ed",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002405",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Acquisition d'énoncés complets dans un cours universitaire distinct (MIT, printemps 2008)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : La [fiche MIT 21M.361](../mit/21M-361.md) réunit **13 devoirs réels sur cinq modules**, avec lien direct à chaque consigne : collecte de sons, partition descriptive, composition à partir de cette abstraction, feedback, continuité, compositi",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1503.md",
+          "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7a0202131d42a283e7061e2d",
+            "heading_path": [
+              "MTE 1503 — Composition électroacoustique",
+              "Acquisition d'énoncés complets dans un cours universitaire distinct (MIT, printemps 2008)"
+            ],
+            "start_line": 17,
+            "end_line": 20,
+            "subtree_end_line": 20
+          },
+          "content_sha256": "bb77fa0edac1aee2475b132fcf60d469b7e59053b1fff82246d9632638dc3bf5",
+          "body_sha256": "1cce96658fefd6bc9ca8852b996e8d09452ed83b7fe241a042994a71d1c66a8e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002406",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Nouveau vrai syllabus UdeM adjacent : histoire de l'électroacoustique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le [plan de MUL 3208X/6208X](https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/MUL6208X_3208X_Histoire_de_la_musique_electroacoustique.pdf) détaille quatorze foyers (pionniers du bruit, musique concrète, studio, mixt",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1503.md",
+          "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:30def79a745a0a32ae1b5c24",
+            "heading_path": [
+              "MTE 1503 — Composition électroacoustique",
+              "Nouveau vrai syllabus UdeM adjacent : histoire de l'électroacoustique"
+            ],
+            "start_line": 21,
+            "end_line": 24,
+            "subtree_end_line": 24
+          },
+          "content_sha256": "8a842e0ac5faf870b28f74f4ec9ba0f89cfa81fb24b1aaa1785a33140a83f4b0",
+          "body_sha256": "29398eee04fdd7a16a23457888e85076b733e76deb062cfbef984bc3b04a2af1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002407",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Recherche de la section MTE 1503, année 2026–2027",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : La [fiche UdeM de Nicolas Bernier](https://musique.umontreal.ca/communaute/corps-enseignant/fiche/in/in19723/sg/Nicolas%20Bernier/) le répertorie comme enseignant du cours **MTE1503**, conjointement avec MTE1504 et les ensembles électroacou",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1503.md",
+          "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0d67fbb2713700103b2b0404",
+            "heading_path": [
+              "MTE 1503 — Composition électroacoustique",
+              "Recherche de la section MTE 1503, année 2026–2027"
+            ],
+            "start_line": 25,
+            "end_line": 31,
+            "subtree_end_line": 31
+          },
+          "content_sha256": "e1e9ea0dd40ed11d369d3722e4e1403ed3e3587d8d8b2984cc4c0aab62a3d2ce",
+          "body_sha256": "9aacca177df8609147fdc5d5e18de401d418159574641ac72bb87d41521d72db",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002408",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — travail sur signal audio ou sources (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cours : MTE 1503. Importance musicale :** directe pour l'analyse/la création, surtout par l'écoute, l'audio, la partition ou le contexte. **Preuve :** [notice institutionnelle : travaux dirigés de composition électroacoustique, sans proje",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1503.md",
+          "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c1d29365459b690aef59c649",
+            "heading_path": [
+              "MTE 1503 — Composition électroacoustique",
+              "Application à l'analyse et à la création — travail sur signal audio ou sources (11 novembre 2026)"
+            ],
+            "start_line": 32,
+            "end_line": 35,
+            "subtree_end_line": 62
+          },
+          "content_sha256": "b39ae89e3b8d7b18e1868ba422c875bad393db97fe9f9c0df5454b98aeece6ee",
+          "body_sha256": "8151a8c02dce1ea1c30a97a171bc1f20c7c5a6f898a49fc30e0886691c75446e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002409",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 1 — Organisation et transformation de matériaux enregistrés",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Matière :** périmètre déclaré dans la notice/plan; les opérations illustrent une méthode générique sans attribution de devoir. **Catégorie :** `AUDIO_REQUIRED / CONTEXT_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1503.md",
+          "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2a4cd5dc4f20f3e115e0dcfd",
+            "heading_path": [
+              "MTE 1503 — Composition électroacoustique",
+              "Application à l'analyse et à la création — travail sur signal audio ou sources (11 novembre 2026)",
+              "Apprentissage 1 — Organisation et transformation de matériaux enregistrés"
+            ],
+            "start_line": 36,
+            "end_line": 45,
+            "subtree_end_line": 45
+          },
+          "content_sha256": "7cd8500b2c6985678c303c42fee737ecca80b518d6c17324cb5b0b308e9b934e",
+          "body_sha256": "2a0f48de838c95b0c6d26dafb52d73dff5351ea77bb6f18c1c28ddc589f88218",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002410",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 2 — Écriture électroacoustique et continuité des événements",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Matière :** périmètre déclaré dans la notice/plan; les opérations illustrent une méthode générique sans attribution de devoir. **Catégorie :** `AUDIO_REQUIRED / MIDI_PROXY`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1503.md",
+          "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:fc58827a095c3893621e2231",
+            "heading_path": [
+              "MTE 1503 — Composition électroacoustique",
+              "Application à l'analyse et à la création — travail sur signal audio ou sources (11 novembre 2026)",
+              "Apprentissage 2 — Écriture électroacoustique et continuité des événements"
+            ],
+            "start_line": 46,
+            "end_line": 55,
+            "subtree_end_line": 55
+          },
+          "content_sha256": "734e54af20eb50c9b637a2b8b8f02e8cfc6ff6770246cdf0e40a721912151f89",
+          "body_sha256": "724cf73d559a205f41e1cfc439100b05ccf6cecfc475b9f3fd574a657ba46e2e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002411",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Apport :** oui, direct, principalement hors du seul flux MIDI.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1503.md",
+          "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b24e46e431f497f8773db8a3",
+            "heading_path": [
+              "MTE 1503 — Composition électroacoustique",
+              "Application à l'analyse et à la création — travail sur signal audio ou sources (11 novembre 2026)",
+              "Verdict"
+            ],
+            "start_line": 56,
+            "end_line": 62,
+            "subtree_end_line": 62
+          },
+          "content_sha256": "4ae3ea49114454431310b60492d4da599bc767e130838ee49c24c18a108481c3",
+          "body_sha256": "18756aa698719a5a91952e489bca571ee3873b7fd5622ca8153dbb1a9c5110cf",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
