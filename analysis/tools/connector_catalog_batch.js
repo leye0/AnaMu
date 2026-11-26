@@ -13,7 +13,16 @@ const metadataPaths=[
 ];
 const files=await Promise.all(metadataPaths.map(path=>
   tools.mcp__GitHub__fetch_file({repository_full_name:repo,path,ref:branch})));
-const [sources,catalog,index,courseMap]=files.map(r=>JSON.parse(r.result.content));
+const parsed=await Promise.all(files.map(async r=>{
+  let content=r.result.content;
+  if(!content){
+    content=(await tools.mcp__GitHub__fetch_blob({
+      repository_full_name:repo,blob_sha:r.result.sha})).result.content
+  }
+  if(!content)throw Error("Cannot read metadata blob "+r.result.sha);
+  return JSON.parse(content)
+}));
+const [sources,catalog,index,courseMap]=parsed;
 const sourceByPath=new Map(sources.sources.map(r=>[r.path,r]));
 if(catalog.material_units<457||catalog.chunks.length<36)throw Error("Unexpected catalogue version");
 const nums=courseMap.bindings.map(r=>Number(r.id.split(":").at(-1)));
