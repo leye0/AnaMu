@@ -1,0 +1,256 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-berklee-five-ear-microtonal-courses.md",
+  "units": [
+    {
+      "id": "material:0004106",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Berklee Boston — cinq cours de formation auditive et microtonalité, réels et sourcés",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026 · phase 1A, description musicale par code.** Ces cinq cours sont hors des 386 entrées de référence du B.Mus. Composition analysé, mais appartiennent réellement au catalogue Berklee Boston. Les quatre profils ET-321, ET-39",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-five-ear-microtonal-courses.md",
+          "document_sha256": "ff1868e37e21c868a474b50e3fa471ab72a5a6860fa92ac59db3bb874667a687",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:38d60fad99c1f37a874ffc37",
+            "heading_path": [
+              "Berklee Boston — cinq cours de formation auditive et microtonalité, réels et sourcés"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 79
+          },
+          "content_sha256": "c4dcf15477dd1c5c902d60fc3a1ff135f745887ab8c53a666f766999901de011",
+          "body_sha256": "2f2a4b68b9d13079028d8524ab35e5ffdcb18286a94f4c1d157d7676b4d4c7da",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004107",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "ET-321 — World Music Ear Training",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source universitaire exacte :** [https://college.berklee.edu/ear-training/ear-training-courses](https://college.berklee.edu/ear-training/ear-training-courses) · **Type :** `official_course_catalogue`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-five-ear-microtonal-courses.md",
+          "document_sha256": "ff1868e37e21c868a474b50e3fa471ab72a5a6860fa92ac59db3bb874667a687",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3a40b7ae5b52b8c4d451f1b9",
+            "heading_path": [
+              "Berklee Boston — cinq cours de formation auditive et microtonalité, réels et sourcés",
+              "ET-321 — World Music Ear Training"
+            ],
+            "start_line": 5,
+            "end_line": 19,
+            "subtree_end_line": 19
+          },
+          "content_sha256": "165ec993e1111bffb1c71c80d631fdb09f339d045d4cfa3260b61bd8d0e25860",
+          "body_sha256": "975a18e3371a24ad7f6cc4ec37c88b81e04b02a208021e18b4667f37833cc928",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004108",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "ET-399 — Microtonal Ear Training and Composition",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source universitaire exacte :** [https://college.berklee.edu/courses/et-399](https://college.berklee.edu/courses/et-399) · **Type :** `official_course_catalogue`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-five-ear-microtonal-courses.md",
+          "document_sha256": "ff1868e37e21c868a474b50e3fa471ab72a5a6860fa92ac59db3bb874667a687",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:812b206b430eac7797cf850e",
+            "heading_path": [
+              "Berklee Boston — cinq cours de formation auditive et microtonalité, réels et sourcés",
+              "ET-399 — Microtonal Ear Training and Composition"
+            ],
+            "start_line": 20,
+            "end_line": 34,
+            "subtree_end_line": 34
+          },
+          "content_sha256": "aca7e5175828fe6ec877ad7e6bc97e628f5e6948adbc4f845372225a1c9c8f4e",
+          "body_sha256": "a9807b69b3b02041df3f9b723d704a52e4c68bf00f0e66cc6d31bc53aac84c44",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004109",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "ET-421 — Atonal Solfege 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source universitaire exacte :** [https://college.berklee.edu/courses/et-421](https://college.berklee.edu/courses/et-421) · **Type :** `official_course_catalogue_low_specificity`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-five-ear-microtonal-courses.md",
+          "document_sha256": "ff1868e37e21c868a474b50e3fa471ab72a5a6860fa92ac59db3bb874667a687",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1e3f86ef3b48a57b2a6f0deb",
+            "heading_path": [
+              "Berklee Boston — cinq cours de formation auditive et microtonalité, réels et sourcés",
+              "ET-421 — Atonal Solfege 1"
+            ],
+            "start_line": 35,
+            "end_line": 45,
+            "subtree_end_line": 45
+          },
+          "content_sha256": "cb2dd0bb69ee3ecf699fb2562d1ecd058f4e3d31c5967078a0958f09733b3fa8",
+          "body_sha256": "bc4b32a4c4a5c46f814d113ac4157541ce9e64df3349b9705f6b778c06dab0ec",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004110",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "PSHR-270 — Traditional Microtonal Theory and Application",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source universitaire exacte :** [https://college.berklee.edu/courses/pshr-270](https://college.berklee.edu/courses/pshr-270) · **Type :** `official_course_catalogue`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-five-ear-microtonal-courses.md",
+          "document_sha256": "ff1868e37e21c868a474b50e3fa471ab72a5a6860fa92ac59db3bb874667a687",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3ea15e22d4faa242c6613fa3",
+            "heading_path": [
+              "Berklee Boston — cinq cours de formation auditive et microtonalité, réels et sourcés",
+              "PSHR-270 — Traditional Microtonal Theory and Application"
+            ],
+            "start_line": 46,
+            "end_line": 59,
+            "subtree_end_line": 59
+          },
+          "content_sha256": "c48058e48171a44244e05c780f4cb420825e3f03c083a398fb802f903ffd4682",
+          "body_sha256": "b7bbc888bcbfa53fc844dc5641bff5fe6806a81fc23609c2813be268e22532da",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004111",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "ENGB-401 — Microtonal Grooves",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source universitaire exacte :** [https://college.berklee.edu/courses/engb-401](https://college.berklee.edu/courses/engb-401) · **Type :** `official_course_catalogue_detailed`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-five-ear-microtonal-courses.md",
+          "document_sha256": "ff1868e37e21c868a474b50e3fa471ab72a5a6860fa92ac59db3bb874667a687",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1f8b4d167d258ca736783a87",
+            "heading_path": [
+              "Berklee Boston — cinq cours de formation auditive et microtonalité, réels et sourcés",
+              "ENGB-401 — Microtonal Grooves"
+            ],
+            "start_line": 60,
+            "end_line": 74,
+            "subtree_end_line": 74
+          },
+          "content_sha256": "bc473695e1910f16d3c81a8b410ea2011fc3fa757e396da70cb0c79f5e4a623a",
+          "body_sha256": "d473a0789a685a9db35054d1252a78aa9e757f79c747d44804c2d98fba52ea60",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004112",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Connexion strictement comparative aux trous du registre",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - Six niveaux UdeM **MUS 1011–1016** : les pages officielles sont identiques (« automatisme de lecture et d'audition dans le langage tonal »); le [test de classement](https://musique.umontreal.ca/etudier/espace-etudiant/tests-de-classement-",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-five-ear-microtonal-courses.md",
+          "document_sha256": "ff1868e37e21c868a474b50e3fa471ab72a5a6860fa92ac59db3bb874667a687",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e010e4a3d20545b79a29baf0",
+            "heading_path": [
+              "Berklee Boston — cinq cours de formation auditive et microtonalité, réels et sourcés",
+              "Connexion strictement comparative aux trous du registre"
+            ],
+            "start_line": 75,
+            "end_line": 79,
+            "subtree_end_line": 79
+          },
+          "content_sha256": "98f37169b6f7181ff75108eb2bf51fb4e562be5b30ae5bbaf7d497fca9483c23",
+          "body_sha256": "762cc5fd2ac8771d6131494470fb400e0b61fe6ebe797eee69786b5965852a85",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

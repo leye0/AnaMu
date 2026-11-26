@@ -1,0 +1,112 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-berklee-24-film-production-composition.md",
+  "units": [
+    {
+      "id": "material:0004094",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Berklee — 24 notices de composition à l'image, production et écriture orchestrale",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026 · sources individuelles consultées.** Point de départ [Screen Scoring — cours et descriptions](https://college.berklee.edu/film-scoring/film-scoring-courses), [B.M. Film and Media Scoring — grille d'exemple](https://colle",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-24-film-production-composition.md",
+          "document_sha256": "a4b6a56242ea28d960d97129ad4c23f3d21cdb3033bfc863c866e841d7f795e5",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3c40bf8ebb3558b9845d0e58",
+            "heading_path": [
+              "Berklee — 24 notices de composition à l'image, production et écriture orchestrale"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 39
+          },
+          "content_sha256": "78a4e4ea85cdce3f2a7cdc9a99c6e8687d6199a7775cc9a3f623bba392acc24b",
+          "body_sha256": "47b80a18085ba005291e8205f4f56bcf5cb074f706ff366c82705a8e27f9075e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004095",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Seize cours musicaux voisins — nouveaux liens de matière",
+      "title_origin": "source_heading_or_key",
+      "description": "Titre ou passage sans description éditoriale vérifiée.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-24-film-production-composition.md",
+          "document_sha256": "a4b6a56242ea28d960d97129ad4c23f3d21cdb3033bfc863c866e841d7f795e5",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:71f60f3789a780b0861a27f3",
+            "heading_path": [
+              "Berklee — 24 notices de composition à l'image, production et écriture orchestrale",
+              "Seize cours musicaux voisins — nouveaux liens de matière"
+            ],
+            "start_line": 5,
+            "end_line": 25,
+            "subtree_end_line": 25
+          },
+          "content_sha256": "effa540f754e97cd5f209e3fa7a202a282d1d635f4867e70a5fb18f25288f971",
+          "body_sha256": "3f85d5b691cebab819cef12e3554a0349cd3273015a73bcbe55510544eecec8e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004096",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Huit cours déjà dans le registre historique — preuves complémentaires, sans duplication",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Résultat brut : 24/24 pages spécifiques au code consultées ; 16 matières musicales voisines supplémentaires + 8 sources renforçant des cours déjà inventoriés.** Les exigences « FILM » proviennent d'une grille illustrative et doivent être",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-24-film-production-composition.md",
+          "document_sha256": "a4b6a56242ea28d960d97129ad4c23f3d21cdb3033bfc863c866e841d7f795e5",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a7aa20c092d91fe03b0b0beb",
+            "heading_path": [
+              "Berklee — 24 notices de composition à l'image, production et écriture orchestrale",
+              "Huit cours déjà dans le registre historique — preuves complémentaires, sans duplication"
+            ],
+            "start_line": 26,
+            "end_line": 39,
+            "subtree_end_line": 39
+          },
+          "content_sha256": "909b60e3596c165575b23e9886eb98df2f4ad0565b75856da82e38ab8d978921",
+          "body_sha256": "80bfef57212ffd6e4335ed1b143576745d1eda2d3c4f0d8baa9947cf065942a3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

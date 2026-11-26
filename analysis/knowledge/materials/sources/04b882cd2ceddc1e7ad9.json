@@ -1,0 +1,40 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-berklee-31-direct-course-notices.md",
+  "units": [
+    {
+      "id": "material:0004105",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Berklee Boston — 31 notices directes relues, matière et limites",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026 · Phase 1A · édition du catalogue en ligne consultée ce jour.** Sources primaires : pages propres au code dans [Berklee Courses](https://college.berklee.edu/courses). Les résumés suivants sont des reformulations de la **d",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-31-direct-course-notices.md",
+          "document_sha256": "e96c6967e1b88dac03deab6f55e91dd079f128e0e5971d074ee02b703cd55979",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a6e18e0743887c200624c33c",
+            "heading_path": [
+              "Berklee Boston — 31 notices directes relues, matière et limites"
+            ],
+            "start_line": 1,
+            "end_line": 39,
+            "subtree_end_line": 39
+          },
+          "content_sha256": "e96c6967e1b88dac03deab6f55e91dd079f128e0e5971d074ee02b703cd55979",
+          "body_sha256": "32f83d5c05fd9c9f4e99a123117d6e089c25fc77936e85dcf96f91b0758d6448",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

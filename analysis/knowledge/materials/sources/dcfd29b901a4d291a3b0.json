@@ -1,0 +1,40 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-berklee-mtec-122-accelerated-core.md",
+  "units": [
+    {
+      "id": "material:0004113",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Berklee MTEC-122 — matière précisée par le tronc commun",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : 11 novembre 2026, phase 1A. [Notice exacte MTEC-122](https://college.berklee.edu/courses/mtec-122) : version accélérée de [MTEC-111](https://college.berklee.edu/courses/mtec-111), centrée sur les productions musicales dans Logic Pro, réserv",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-mtec-122-accelerated-core.md",
+          "document_sha256": "8a9a8a6c5b8bdcd7663a6933b22a6cef7f282f6cb7ed11b70ff2b39f342c00e9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c65e899eb58de3328f2243d9",
+            "heading_path": [
+              "Berklee MTEC-122 — matière précisée par le tronc commun"
+            ],
+            "start_line": 1,
+            "end_line": 12,
+            "subtree_end_line": 12
+          },
+          "content_sha256": "8a9a8a6c5b8bdcd7663a6933b22a6cef7f282f6cb7ed11b70ff2b39f342c00e9",
+          "body_sha256": "ea0a6838adb9ba7d07e37b33fa8b507c70fd428885237c24c58392c7fbabfd98",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

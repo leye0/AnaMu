@@ -1,0 +1,40 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-berklee-104-direct-source-index.md",
+  "units": [
+    {
+      "id": "material:0004091",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Berklee Boston — 104 notices supplémentaires vérifiées par code",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026 · contrôle de provenance documentaire 1A.** Les 104 liens officiels ci-dessous correspondent chacun à un code déjà inventorié (hors huit familles non dépliées) ; ils viennent compléter les [31 notices relues en profondeur",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-104-direct-source-index.md",
+          "document_sha256": "66a8d14b312cb6a40bc5b19b081e1b3a18cdba1b7f58e7995da2f95c72610d03",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:87fbb431d13fd5180e795620",
+            "heading_path": [
+              "Berklee Boston — 104 notices supplémentaires vérifiées par code"
+            ],
+            "start_line": 1,
+            "end_line": 113,
+            "subtree_end_line": 113
+          },
+          "content_sha256": "66a8d14b312cb6a40bc5b19b081e1b3a18cdba1b7f58e7995da2f95c72610d03",
+          "body_sha256": "c2e705985d0771c6355093d59c31018ae4bda3eae85d8f6288c92d9ee30d54e4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

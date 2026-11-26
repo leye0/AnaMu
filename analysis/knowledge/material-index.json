@@ -4,8 +4,8 @@
     "status": "pilot_partial_not_full_inventory",
     "source_course_documents_indexed": 424,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 4090,
-    "material_units_requiring_review": 4090,
+    "material_units_active": 4115,
+    "material_units_requiring_review": 4115,
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
     "course_material_bindings_active": 3412,
@@ -19,7 +19,7 @@
     "extracted_candidate_assertions_stale": 0,
     "candidate_senses_pending_reconciliation": 6,
     "course_documents_with_active_units": 424,
-    "source_documents_with_active_units": 454
+    "source_documents_with_active_units": 464
   },
   "by_course": {
     "berklee:CM-211": [
@@ -9271,6 +9271,51 @@
       "material:0004088",
       "material:0004089",
       "material:0004090"
+    ],
+    "docs/raw-batches/2026-11-11-berklee-104-direct-source-index.md": [
+      "material:0004091"
+    ],
+    "docs/raw-batches/2026-11-11-berklee-15-game-screen-scoring.md": [
+      "material:0004092"
+    ],
+    "docs/raw-batches/2026-11-11-berklee-15-music-society-candidates.md": [
+      "material:0004093"
+    ],
+    "docs/raw-batches/2026-11-11-berklee-24-film-production-composition.md": [
+      "material:0004094",
+      "material:0004095",
+      "material:0004096"
+    ],
+    "docs/raw-batches/2026-11-11-berklee-28-foundation-harmony-ear-arranging.md": [
+      "material:0004097",
+      "material:0004098",
+      "material:0004099",
+      "material:0004100",
+      "material:0004101",
+      "material:0004102",
+      "material:0004103"
+    ],
+    "docs/raw-batches/2026-11-11-berklee-29-electronic-game-audio-courses.md": [
+      "material:0004104"
+    ],
+    "docs/raw-batches/2026-11-11-berklee-31-direct-course-notices.md": [
+      "material:0004105"
+    ],
+    "docs/raw-batches/2026-11-11-berklee-five-ear-microtonal-courses.md": [
+      "material:0004106",
+      "material:0004107",
+      "material:0004108",
+      "material:0004109",
+      "material:0004110",
+      "material:0004111",
+      "material:0004112"
+    ],
+    "docs/raw-batches/2026-11-11-berklee-mtec-122-accelerated-core.md": [
+      "material:0004113"
+    ],
+    "docs/raw-batches/2026-11-11-berklee-pibs-four-concrete-private-bass-levels.md": [
+      "material:0004114",
+      "material:0004115"
     ]
   },
   "by_concept": {

@@ -1,0 +1,40 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-berklee-29-electronic-game-audio-courses.md",
+  "units": [
+    {
+      "id": "material:0004104",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Berklee — 29 cours de production électronique, synthèse et audio interactif",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026 · première passe documentaire des spécialisations voisines.** [Electronic Production and Design — grille indicative](https://college.berklee.edu/program-requirements/electronic-production-and-design-bachelors-degree) et [",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-29-electronic-game-audio-courses.md",
+          "document_sha256": "33c416c92dc8dd0ce854a4935a803a537db7026d3f975b9bbc0537a871061c07",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:eabb21f4c6137436adb72010",
+            "heading_path": [
+              "Berklee — 29 cours de production électronique, synthèse et audio interactif"
+            ],
+            "start_line": 1,
+            "end_line": 39,
+            "subtree_end_line": 39
+          },
+          "content_sha256": "33c416c92dc8dd0ce854a4935a803a537db7026d3f975b9bbc0537a871061c07",
+          "body_sha256": "7852377729b528443f67684a058fed4210cff237cae38df8a50d9eae576cce42",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
