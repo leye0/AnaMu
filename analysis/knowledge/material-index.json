@@ -13,7 +13,10 @@
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
     "material_knowledge_bindings_proposed": 39,
     "material_knowledge_bindings_unresolved": 5,
-    "material_knowledge_bindings_confirmed": 0
+    "material_knowledge_bindings_confirmed": 0,
+    "extracted_candidate_mentions": 10,
+    "extracted_candidate_assertions": 20,
+    "extracted_candidate_assertions_stale": 0
   },
   "by_course": {
     "berklee:CM-211": [
@@ -408,5 +411,6 @@
       "material:0000123"
     ]
   },
-  "knowledge_links_requiring_review": []
+  "knowledge_links_requiring_review": [],
+  "candidate_assertions_requiring_review": []
 }
