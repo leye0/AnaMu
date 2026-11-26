@@ -11,7 +11,8 @@
         "facts": [
           "pitch_classes_provided"
         ],
-        "provenance": "Illustration écrite dans CM-211; aucun fichier MIDI ou partition lu"
+        "provenance": "Illustration écrite dans CM-211; aucun fichier MIDI ou partition lu",
+        "scope_ref": "didactic:berklee-cm211-six-four"
       }
     ],
     "tonal_annotated": [
@@ -21,7 +22,8 @@
         "facts": [
           "pitch_classes_provided"
         ],
-        "provenance": "Schéma AnaMu, non observation instrumentale"
+        "provenance": "Schéma AnaMu, non observation instrumentale",
+        "scope_ref": "didactic:berklee-cm211-six-four"
       },
       {
         "id": "toy:bass",
@@ -29,7 +31,8 @@
         "facts": [
           "bass_trajectory_annotated"
         ],
-        "provenance": "Comparaison de basse des trois variantes"
+        "provenance": "Comparaison de basse des trois variantes",
+        "scope_ref": "didactic:berklee-cm211-six-four"
       },
       {
         "id": "toy:voices",
@@ -37,7 +40,8 @@
         "facts": [
           "voice_leading_annotated"
         ],
-        "provenance": "Mouvements 4→3 et 6→5 de la variante cadentielle"
+        "provenance": "Mouvements 4→3 et 6→5 de la variante cadentielle",
+        "scope_ref": "didactic:berklee-cm211-six-four"
       },
       {
         "id": "toy:neighbor",
@@ -45,7 +49,8 @@
         "facts": [
           "previous_next_harmony_annotated"
         ],
-        "provenance": "Contextes I–V–I de la fiche"
+        "provenance": "Contextes I–V–I de la fiche",
+        "scope_ref": "didactic:berklee-cm211-six-four"
       },
       {
         "id": "toy:framework",
@@ -54,7 +59,8 @@
           "tonal_frame_declared",
           "phrase_context_annotated"
         ],
-        "provenance": "Cadre tonal et phrase de l'exemple AnaMu"
+        "provenance": "Cadre tonal et phrase de l'exemple AnaMu",
+        "scope_ref": "didactic:berklee-cm211-six-four"
       }
     ],
     "source_only": [],
@@ -66,7 +72,8 @@
           "midi_note_events_verified"
         ],
         "provenance": "docs/courses/berklee/CM-211/six-quartes-trois-fonctions.mid — Git blob 903eba91fc5867c8d6389a128cdbb040e8fef521; 108 attaques sur quatre pistes d'après audit des événements",
-        "note": "Les noms de pistes ne certifient pas la continuité de voix; une observation de notes ne certifie ni fonction harmonique ni cadence."
+        "note": "Les noms de pistes ne certifient pas la continuité de voix; une observation de notes ne certifie ni fonction harmonique ni cadence.",
+        "scope_ref": "didactic:berklee-cm211-six-four"
       }
     ]
   },
@@ -108,7 +115,8 @@
       "revisit_when": [
         "source_note_set_corrected"
       ],
-      "depends_on": []
+      "depends_on": [],
+      "scope_ref": "didactic:berklee-cm211-six-four"
     },
     {
       "id": "task:identify-bass-and-intervals",
@@ -150,7 +158,8 @@
       ],
       "depends_on": [
         "task:observe-pitch-classes"
-      ]
+      ],
+      "scope_ref": "didactic:berklee-cm211-six-four"
     },
     {
       "id": "task:compare-six-four-functions",
@@ -189,7 +198,8 @@
       ],
       "depends_on": [
         "task:identify-bass-and-intervals"
-      ]
+      ],
+      "scope_ref": "didactic:berklee-cm211-six-four"
     },
     {
       "id": "task:examine-phrase",
@@ -222,7 +232,8 @@
       ],
       "depends_on": [
         "task:observe-pitch-classes"
-      ]
+      ],
+      "scope_ref": "didactic:berklee-cm211-six-four"
     },
     {
       "id": "task:perceptual-closure",
@@ -252,9 +263,11 @@
         "recording_changed",
         "listener_annotation_changed"
       ],
-      "depends_on": []
+      "depends_on": [],
+      "scope_ref": "didactic:berklee-cm211-six-four"
     }
   ],
   "midi_audit_ref": "analysis/examples/cm211-six-four-midi-observations.json",
-  "fact_registry_ref": "analysis/knowledge/evidence-facts.json"
+  "fact_registry_ref": "analysis/knowledge/evidence-facts.json",
+  "scope_ref": "didactic:berklee-cm211-six-four"
 }
