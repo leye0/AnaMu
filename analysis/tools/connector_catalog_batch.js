@@ -151,7 +151,8 @@ let docs=sources.sources.filter(x=>x.kind==="course_markdown"&&
 if(ingestionMode!=="partial")docs=docs.filter(x=>!index.by_document[x.path]);
 else docs=docs.filter(x=>Boolean(index.by_document[x.path]));
 docs.sort((a,b)=>a.path.localeCompare(b.path,"en"));
-docs=docs.slice(0,batchLimit);
+const offset=ingestionMode==="partial"?partialOffset:0;
+docs=docs.slice(offset,offset+batchLimit);
 if(!docs.length){text("No remaining course documents for "+ingestionMode);return;}
 const downloaded=[];
 for(let offset=0;offset<docs.length;offset+=12){
@@ -178,6 +179,13 @@ for(const {doc,file} of downloaded){
       repository_full_name:repo,path:"analysis/knowledge/materials/"+rel,ref:branch})).result.content);
     if(old.source_document!==path)throw Error("Partial chunk source mismatch "+path);
     units=old.units;
+    const freshAnchors=new Map(fragmentList.map(f=>[f.id,f]));
+    for(const unit of units){
+      const previous=unit.source_bindings.find(binding=>binding.role==="primary");
+      const current=freshAnchors.get(previous.locator.anchor);
+      if(!current||current.content_sha256!==previous.content_sha256)
+        throw Error("Pre-existing reviewed fragment cannot be matched: "+unit.id);
+    }
   }
   const anchors=new Set(units.map(x=>x.source_bindings.find(b=>b.role==="primary").locator.anchor));
   const knownIds=new Set(units.map(x=>x.id));
