@@ -120,7 +120,8 @@ def plan(case: dict, profile: str) -> dict:
                           "execution_state": "not_executed_by_planner"})
     counts = Counter(task["state"] for task in evaluated)
     return {"schema_version": 1, "case_id": case.get("case_id"),
-            "question": case.get("question"), "evidence_profile": profile,
+            "question": case.get("question"), "source_note": case.get("source_note"),
+            "evidence_profile": profile,
             "limitation": "Proof-route scheduling only. No observations, musical conclusions or evaluations have been executed.",
             "evidence_audit": audit, "task_counts": dict(sorted(counts.items())),
             "tasks": evaluated}
@@ -136,8 +137,13 @@ def main(argv: list[str] | None = None) -> None:
         report = plan(load_json(args.case), args.profile)
         rendered = json.dumps(report, indent=2, ensure_ascii=False) + "\n"
         if args.out:
-            args.out.parent.mkdir(parents=True, exist_ok=True)
-            args.out.write_text(rendered, encoding="utf-8")
+            destination = args.out.resolve()
+            repository = Path(__file__).resolve().parents[2]
+            analysis = Path(__file__).resolve().parents[1]
+            if destination.is_relative_to(repository) and not destination.is_relative_to(analysis):
+                raise ValueError("Write planning outputs inside analysis/ or outside the repository")
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            destination.write_text(rendered, encoding="utf-8")
         else:
             print(rendered, end="")
     except (OSError, ValueError, TypeError, KeyError) as exc:
