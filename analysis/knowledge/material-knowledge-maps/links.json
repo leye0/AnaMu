@@ -977,6 +977,25 @@
       "justification": "Une même alerte reçoit des repères temporels différents suivant les grilles et leurs phases.",
       "state": "assistant_source_checked_proposed_link",
       "does_not_establish": "Une grille plus serrée ne rend pas le prochain repère plus proche pour toute date d'alerte."
+    },
+    {
+      "id": "material-knowledge:0000055",
+      "material_id": "material:0000419",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "unresolved_concept_or_assertion",
+        "id": null,
+        "proposed_subject": "Continuité et transitions perceptives dans l'assemblage électroacoustique",
+        "candidate_sense_id": "candidate-sense:00006"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Les exercices MIT demandent continuité, transitions et transformation du matériau en musique électronique assemblée."
+      ],
+      "context": "Plan officiel de 21M.361 printemps 2008 résumé dans la fiche AnaMu; pas une analyse de rendu étudiant.",
+      "justification": "La section compare montage brut, improvisation et déroulement composé cohérent ; la perceptibilité doit être évaluée par l'écoute.",
+      "state": "awaiting_target_reconciliation",
+      "does_not_establish": "Aucune continuité perceptive n'est inférée de la simple présence de segments audio."
     }
   ]
 }
