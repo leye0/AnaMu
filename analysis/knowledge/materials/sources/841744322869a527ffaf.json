@@ -370,13 +370,18 @@
       "kind": "markdown_section",
       "title": "Même vélocité MIDI, présence différente dans le mix",
       "title_origin": "source_heading_or_key",
-      "description": "Extrait documentaire à qualifier : Le [comparatif « Couleur sous la loupe »](MUS-2328.md#couleur-sous-la-loupe--trois-façons-de-changer-le-même-arpège) fournit une distinction expérimentale entre commande, son et équilibre des plans. A et D ont toutes leurs notes et vélocité",
-      "description_origin": "source_proposal_unreviewed",
-      "editorial_review": "unreviewed",
+      "description": "Dans un comparatif AnaMu de deux rendus d'un même arpège, les notes et vélocités MIDI sont identiques mais l'instrument sonore change. Des valeurs RMS très proches du mix total masquent une différence du niveau de la couche d'arpège isolée; une comparaison valide exige de mesurer la même fenêtre sur les pistes et le mix, puis d'écouter l'attaque, le timbre et le premier plan.",
+      "description_origin": "assistant_source_checked",
+      "editorial_review": "assistant_source_checked_draft",
       "review_required": true,
       "covers": [],
-      "does_not_cover": [],
-      "notes": [],
+      "does_not_cover": [
+        "Les chiffres décrivent ces rendus synthétiques, pas une loi générale piano versus guitare.",
+        "Une égalité de RMS n'établit pas une égalité de sonie ou de rôle perceptif."
+      ],
+      "notes": [
+        "Description source-consultée, en attente de revue musicale indépendante."
+      ],
       "source_bindings": [
         {
           "document_path": "docs/courses/udem/MUS-3322X.md",
@@ -398,7 +403,8 @@
         }
       ],
       "lifecycle": "active",
-      "locator_review": "unreviewed"
+      "locator_review": "source_verified_editorial_pending",
+      "editorial_revision": 1
     },
     {
       "id": "material:0000443",
