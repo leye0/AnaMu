@@ -1,0 +1,368 @@
+{
+  "source_document": "docs/courses/mit/21M-361.md",
+  "units": [
+    {
+      "id": "material:0000414",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MIT 21M.361 — Composing with Computers I (Electronic Music Composition)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cours source indépendant, MIT Music, printemps 2008, premier cycle, professeur Peter Whincop.** Consultation du 10 novembre 2026. **Syllabus complet de la session, énoncés publics de treize travaux (1.1 à 5.1) et modalités d'évaluation co",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-361.md",
+          "document_sha256": "3293808c6af300a5e5fac691cebf3590476d7cd7e1bd4c15dbd7c3b824b8955f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:952f0b4a5c7020e5b2d5b1a2",
+            "heading_path": [
+              "MIT 21M.361 — Composing with Computers I (Electronic Music Composition)"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 62
+          },
+          "content_sha256": "c702bffa03c64384d38180c295f551efa20896a959d7806a57fbbf407ffbe563",
+          "body_sha256": "ad8667e99f4fb677daa2767c83cd60930e3e93ce95e7e108c9a1a60b373d8001",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000415",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources primaires et conditions de formation",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Syllabus et calendrier officiel du printemps 2008](https://ocw.mit.edu/courses/21m-361-composing-with-computers-i-electronic-music-composition-spring-2008/pages/syllabus/) : 15 semaines ; un séminaire de deux heures et un laboratoire d'u",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-361.md",
+          "document_sha256": "3293808c6af300a5e5fac691cebf3590476d7cd7e1bd4c15dbd7c3b824b8955f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:fb88ed808f5a6637994e62ae",
+            "heading_path": [
+              "MIT 21M.361 — Composing with Computers I (Electronic Music Composition)",
+              "Sources primaires et conditions de formation"
+            ],
+            "start_line": 5,
+            "end_line": 12,
+            "subtree_end_line": 12
+          },
+          "content_sha256": "ae113c5db98312de4a90fe58313c552829ec7450e62ea918da3ceb536cc58b89",
+          "body_sha256": "46439bb7135f7b84c45d31c445e75c139fa42a320efc9df9dfa4720751a3bb15",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000416",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Progression et vraies consignes d'exercices (résumé original)",
+      "title_origin": "source_heading_or_key",
+      "description": "Titre ou passage sans description éditoriale vérifiée.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-361.md",
+          "document_sha256": "3293808c6af300a5e5fac691cebf3590476d7cd7e1bd4c15dbd7c3b824b8955f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:83e1886369cea6f220cbc5e2",
+            "heading_path": [
+              "MIT 21M.361 — Composing with Computers I (Electronic Music Composition)",
+              "Progression et vraies consignes d'exercices (résumé original)"
+            ],
+            "start_line": 13,
+            "end_line": 30,
+            "subtree_end_line": 30
+          },
+          "content_sha256": "027432adcec2db5fcb70c9200e401d3f16d02bccf0a7189404be9b78e5245eca",
+          "body_sha256": "f5ba3c781a372cf813b1f9d3790569aeeb0785bd8ebcb98391e829f776e7883b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000417",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Explications musicales observables dans les exercices",
+      "title_origin": "source_heading_or_key",
+      "description": "Titre ou passage sans description éditoriale vérifiée.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-361.md",
+          "document_sha256": "3293808c6af300a5e5fac691cebf3590476d7cd7e1bd4c15dbd7c3b824b8955f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b307ef6edb71d50d94835973",
+            "heading_path": [
+              "MIT 21M.361 — Composing with Computers I (Electronic Music Composition)",
+              "Explications musicales observables dans les exercices"
+            ],
+            "start_line": 31,
+            "end_line": 32,
+            "subtree_end_line": 48
+          },
+          "content_sha256": "77b2e6a2b5fef4db662567b3510888de5b3a3ca59e6b73b9405ef7a1eed8dc00",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000418",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "1. Abstraction d'un son en forme",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : La séquence **1.1 → 1.2 → 1.3** est particulièrement instructive : constituer un inventaire de sons, composer d'abord une étude de montage en se limitant aux sons courts, puis **abstraire la forme d'un son long** dans une partition descript",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-361.md",
+          "document_sha256": "3293808c6af300a5e5fac691cebf3590476d7cd7e1bd4c15dbd7c3b824b8955f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:37bc5c7ea042f7e2dd7bf5eb",
+            "heading_path": [
+              "MIT 21M.361 — Composing with Computers I (Electronic Music Composition)",
+              "Explications musicales observables dans les exercices",
+              "1. Abstraction d'un son en forme"
+            ],
+            "start_line": 33,
+            "end_line": 36,
+            "subtree_end_line": 36
+          },
+          "content_sha256": "9861968a5a349f3d955977ec5b7d675f8f72c484c3e9937394043a77f7cfdf9f",
+          "body_sha256": "14db339dcf03f24abe5cd0d73e5e022bbb1a1e8f04f8528fb9e5b9c3c1e1d85d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000419",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "2. Différence entre répétition perceptible et continuité",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Les travaux **2.1–2.2** séparent improvisation et composition, puis demandent un déroulement où l'auditeur perçoit une évolution cohérente malgré un montage du matériau. L'instruction insiste sur les **transitions**, le déroulement temporel",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-361.md",
+          "document_sha256": "3293808c6af300a5e5fac691cebf3590476d7cd7e1bd4c15dbd7c3b824b8955f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b543eb734064df159b4b1cf0",
+            "heading_path": [
+              "MIT 21M.361 — Composing with Computers I (Electronic Music Composition)",
+              "Explications musicales observables dans les exercices",
+              "2. Différence entre répétition perceptible et continuité"
+            ],
+            "start_line": 37,
+            "end_line": 40,
+            "subtree_end_line": 40
+          },
+          "content_sha256": "5a4ce88ecdbfabb47a3d768c6c0f60b2485ee38eafd7d2bceccce2a40b788dd1",
+          "body_sha256": "2c90552e58f22966a6ab903f6636f5273a4b1746b8b7153e5bc3192313fae77e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000420",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "3. Contraste entre texture « horizontale » et « verticale »",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : L'exercice **3.2** traite deux axes distincts : changement d'un bruit dans le temps (30–60 s, texture linéaire) et bruit dense simultané (30–60 s). Il demande aussi un paysage continu de 3–5 min et un récit sonore bref convolué avec ce pays",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-361.md",
+          "document_sha256": "3293808c6af300a5e5fac691cebf3590476d7cd7e1bd4c15dbd7c3b824b8955f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:415d25d5e52489ed72b39474",
+            "heading_path": [
+              "MIT 21M.361 — Composing with Computers I (Electronic Music Composition)",
+              "Explications musicales observables dans les exercices",
+              "3. Contraste entre texture « horizontale » et « verticale »"
+            ],
+            "start_line": 41,
+            "end_line": 44,
+            "subtree_end_line": 44
+          },
+          "content_sha256": "b8cc01851b8778e3c9bc6515c251149ddcd37c12f905d1188ace314e738ba19f",
+          "body_sha256": "2efea90d9e1da7064870681258e1b8729e33fc42137b3758a676bd246e094102",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000421",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "4. Interactivité expressive et révision",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le module **4** ne se limite pas à fabriquer une patch Max : le projet exige un résultat *musical* et une interaction ; les propositions sont discutées avant la remise. Le dernier module donne explicitement la possibilité de **réviser** une",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-361.md",
+          "document_sha256": "3293808c6af300a5e5fac691cebf3590476d7cd7e1bd4c15dbd7c3b824b8955f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:086033ca1f222f00fd07d62c",
+            "heading_path": [
+              "MIT 21M.361 — Composing with Computers I (Electronic Music Composition)",
+              "Explications musicales observables dans les exercices",
+              "4. Interactivité expressive et révision"
+            ],
+            "start_line": 45,
+            "end_line": 48,
+            "subtree_end_line": 48
+          },
+          "content_sha256": "366d01c5ce2ba02a0e502b3e7bba30460681b14f6f2e517a92d283aa3179e746",
+          "body_sha256": "af2335c08b80404109093598aba9a9d4f5208ff0001bbf780fb99883325b574b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000422",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Exemples, droits et limites",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - Les pages d'exercices du MIT hébergent des **enregistrements d'étudiants des sessions précédentes**, indiqués comme utilisés avec leur permission. Ce relevé donne les liens vers les pages et **ne télécharge ni ne republie** les fichiers a",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-361.md",
+          "document_sha256": "3293808c6af300a5e5fac691cebf3590476d7cd7e1bd4c15dbd7c3b824b8955f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:250daa769b410f3f97bac48c",
+            "heading_path": [
+              "MIT 21M.361 — Composing with Computers I (Electronic Music Composition)",
+              "Exemples, droits et limites"
+            ],
+            "start_line": 49,
+            "end_line": 55,
+            "subtree_end_line": 55
+          },
+          "content_sha256": "ac659567fdd47f4c8e9125eebf8e1efa85fb16c144ae25d25e54d85d43a4bbdb",
+          "body_sha256": "43e0420b2cba2ef3034567776f5888f5e7f95aa8fab332096c81fd5769dedb36",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000423",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Cours des trois établissements à confronter sans transfert automatique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [UdeM MTE 1503 — Composition électroacoustique](../udem/MTE-1503.md) : création électroacoustique encadrée, mais syllabus et critères UdeM inconnus.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-361.md",
+          "document_sha256": "3293808c6af300a5e5fac691cebf3590476d7cd7e1bd4c15dbd7c3b824b8955f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:56906a67e39b0021e962b3f7",
+            "heading_path": [
+              "MIT 21M.361 — Composing with Computers I (Electronic Music Composition)",
+              "Cours des trois établissements à confronter sans transfert automatique"
+            ],
+            "start_line": 56,
+            "end_line": 62,
+            "subtree_end_line": 62
+          },
+          "content_sha256": "93ed358969351c5fe25554acc36fab217d1af70307ddf1292f57085ecee75c2c",
+          "body_sha256": "7d8e4f630deee0ec0965dd85246bbf874ee7be3e1eb0cc86206318ab0da41e2b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

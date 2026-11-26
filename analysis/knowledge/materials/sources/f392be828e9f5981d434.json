@@ -1,0 +1,148 @@
+{
+  "source_document": "docs/courses/udem-supplementary/MUL-6265-H22.md",
+  "units": [
+    {
+      "id": "material:0000424",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 6265 — La médiation de la musique (plan abrégé H22)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Plan UdeM authentique mais indicatif** : [PDF H22, Irina Kirchberg, rédigé avril 2021](https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/MUL6265_Mediation_de_la_musique_H2022.pdf). Le document avertit lui-même que ",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem-supplementary/MUL-6265-H22.md",
+          "document_sha256": "52c16c404079f9aa5cfe3776af06129e458d6dd9ac80b26a4462975c4c42065e",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4016891dc14302cb89086e96",
+            "heading_path": [
+              "MUL 6265 — La médiation de la musique (plan abrégé H22)"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 25
+          },
+          "content_sha256": "4b6e4395e0fe7247bc394e4625958b56956df74e8cc6a4f9ff18e2bbe79e74d0",
+          "body_sha256": "05010abe7a7d26e544330cd1dbd4a6d399c4506d66ef8ca4eb353a3d84da8f43",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000425",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Axes pédagogiques explicitement décrits dans la version H22",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - Définir les finalités de la médiation culturelle lorsque l'objet est la musique, et questionner son caractère éducatif.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem-supplementary/MUL-6265-H22.md",
+          "document_sha256": "52c16c404079f9aa5cfe3776af06129e458d6dd9ac80b26a4462975c4c42065e",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9087fcb45306cbce1c6f851b",
+            "heading_path": [
+              "MUL 6265 — La médiation de la musique (plan abrégé H22)",
+              "Axes pédagogiques explicitement décrits dans la version H22"
+            ],
+            "start_line": 5,
+            "end_line": 18,
+            "subtree_end_line": 18
+          },
+          "content_sha256": "d1cc4b9282ee8950eb4b8f4cfc67bb078114f54f196f36097c2a5160a77b0c39",
+          "body_sha256": "588ef87306e8348406314aca1bb3b70f933ef414e344da6156980a36c1b88fb9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000426",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Modalité et travaux annoncés",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Conférences d'invités, discussions d'atelier et synthèses de lectures sous une forme elle-même médiée. La version indicative annonce : participation **15 %**; projet écrit et animation de synthèse médiée **35 %**; travail de session **50 %*",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem-supplementary/MUL-6265-H22.md",
+          "document_sha256": "52c16c404079f9aa5cfe3776af06129e458d6dd9ac80b26a4462975c4c42065e",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:bac37e6b076ce29f1f871c06",
+            "heading_path": [
+              "MUL 6265 — La médiation de la musique (plan abrégé H22)",
+              "Modalité et travaux annoncés"
+            ],
+            "start_line": 19,
+            "end_line": 22,
+            "subtree_end_line": 22
+          },
+          "content_sha256": "7c8e6c76b8b12295b7e37a8e90e390903a4522f8bf7189f7b75ed04dfb3278f9",
+          "body_sha256": "7ba61871221859c8b7d992157a708f26103c87dab4c7803953584a5e3f9d0a30",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000427",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Limites et rapprochement",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le cours H22 est un séminaire de recherche de **cycles supérieurs**, et la version publique de trois pages est **un plan indicatif**, non un syllabus hebdomadaire intégral. Les ateliers du registre principal **MUS 4101** (concert-conférence",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem-supplementary/MUL-6265-H22.md",
+          "document_sha256": "52c16c404079f9aa5cfe3776af06129e458d6dd9ac80b26a4462975c4c42065e",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:adb1f854e8d21ede7252f1e7",
+            "heading_path": [
+              "MUL 6265 — La médiation de la musique (plan abrégé H22)",
+              "Limites et rapprochement"
+            ],
+            "start_line": 23,
+            "end_line": 25,
+            "subtree_end_line": 25
+          },
+          "content_sha256": "94d862b1c4ee25e9398715a62994ccb31248f8296bec69de108a48e94e8beb55",
+          "body_sha256": "66c516f5a18ca3cb1e08ffd0527b27f9e401d151365cd67a01eb0dfce87c1877",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
