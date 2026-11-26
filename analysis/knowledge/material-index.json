@@ -2,13 +2,13 @@
   "schema_version": 1,
   "coverage": {
     "status": "pilot_partial_not_full_inventory",
-    "source_course_documents_indexed": 383,
+    "source_course_documents_indexed": 392,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 3035,
-    "material_units_requiring_review": 3035,
+    "material_units_active": 3099,
+    "material_units_requiring_review": 3099,
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
-    "course_material_bindings_active": 3035,
+    "course_material_bindings_active": 3099,
     "material_knowledge_bindings": 55,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
     "material_knowledge_bindings_proposed": 49,
@@ -18,8 +18,8 @@
     "extracted_candidate_assertions": 32,
     "extracted_candidate_assertions_stale": 0,
     "candidate_senses_pending_reconciliation": 6,
-    "course_documents_with_active_units": 383,
-    "source_documents_with_active_units": 383
+    "course_documents_with_active_units": 392,
+    "source_documents_with_active_units": 392
   },
   "by_course": {
     "berklee:CM-211": [
@@ -3812,6 +3812,88 @@
       "material:0003033",
       "material:0003034",
       "material:0003035"
+    ],
+    "udem:MUL 1245": [
+      "material:0003036",
+      "material:0003037",
+      "material:0003038",
+      "material:0003039",
+      "material:0003040",
+      "material:0003041",
+      "material:0003042"
+    ],
+    "udem:MUL 1246": [
+      "material:0003043",
+      "material:0003044",
+      "material:0003045",
+      "material:0003046",
+      "material:0003047",
+      "material:0003048",
+      "material:0003049"
+    ],
+    "udem:MUL 2115": [
+      "material:0003050",
+      "material:0003051",
+      "material:0003052",
+      "material:0003053",
+      "material:0003054",
+      "material:0003055",
+      "material:0003056"
+    ],
+    "udem:MUL 2116": [
+      "material:0003057",
+      "material:0003058",
+      "material:0003059",
+      "material:0003060",
+      "material:0003061",
+      "material:0003062",
+      "material:0003063"
+    ],
+    "udem:MUL 2117": [
+      "material:0003064",
+      "material:0003065",
+      "material:0003066",
+      "material:0003067",
+      "material:0003068",
+      "material:0003069",
+      "material:0003070"
+    ],
+    "udem:MUL 2118": [
+      "material:0003071",
+      "material:0003072",
+      "material:0003073",
+      "material:0003074",
+      "material:0003075",
+      "material:0003076",
+      "material:0003077"
+    ],
+    "udem:MUL 3333X": [
+      "material:0003078",
+      "material:0003079",
+      "material:0003080",
+      "material:0003081",
+      "material:0003082",
+      "material:0003083",
+      "material:0003084",
+      "material:0003085"
+    ],
+    "udem:MUL 3334": [
+      "material:0003086",
+      "material:0003087",
+      "material:0003088",
+      "material:0003089",
+      "material:0003090",
+      "material:0003091",
+      "material:0003092",
+      "material:0003093"
+    ],
+    "udem:MUL 3344": [
+      "material:0003094",
+      "material:0003095",
+      "material:0003096",
+      "material:0003097",
+      "material:0003098",
+      "material:0003099"
     ]
   },
   "by_document": {
@@ -7615,6 +7697,88 @@
       "material:0003033",
       "material:0003034",
       "material:0003035"
+    ],
+    "docs/courses/udem/MUL-1245.md": [
+      "material:0003036",
+      "material:0003037",
+      "material:0003038",
+      "material:0003039",
+      "material:0003040",
+      "material:0003041",
+      "material:0003042"
+    ],
+    "docs/courses/udem/MUL-1246.md": [
+      "material:0003043",
+      "material:0003044",
+      "material:0003045",
+      "material:0003046",
+      "material:0003047",
+      "material:0003048",
+      "material:0003049"
+    ],
+    "docs/courses/udem/MUL-2115.md": [
+      "material:0003050",
+      "material:0003051",
+      "material:0003052",
+      "material:0003053",
+      "material:0003054",
+      "material:0003055",
+      "material:0003056"
+    ],
+    "docs/courses/udem/MUL-2116.md": [
+      "material:0003057",
+      "material:0003058",
+      "material:0003059",
+      "material:0003060",
+      "material:0003061",
+      "material:0003062",
+      "material:0003063"
+    ],
+    "docs/courses/udem/MUL-2117.md": [
+      "material:0003064",
+      "material:0003065",
+      "material:0003066",
+      "material:0003067",
+      "material:0003068",
+      "material:0003069",
+      "material:0003070"
+    ],
+    "docs/courses/udem/MUL-2118.md": [
+      "material:0003071",
+      "material:0003072",
+      "material:0003073",
+      "material:0003074",
+      "material:0003075",
+      "material:0003076",
+      "material:0003077"
+    ],
+    "docs/courses/udem/MUL-3333X.md": [
+      "material:0003078",
+      "material:0003079",
+      "material:0003080",
+      "material:0003081",
+      "material:0003082",
+      "material:0003083",
+      "material:0003084",
+      "material:0003085"
+    ],
+    "docs/courses/udem/MUL-3334.md": [
+      "material:0003086",
+      "material:0003087",
+      "material:0003088",
+      "material:0003089",
+      "material:0003090",
+      "material:0003091",
+      "material:0003092",
+      "material:0003093"
+    ],
+    "docs/courses/udem/MUL-3344.md": [
+      "material:0003094",
+      "material:0003095",
+      "material:0003096",
+      "material:0003097",
+      "material:0003098",
+      "material:0003099"
     ]
   },
   "by_concept": {
