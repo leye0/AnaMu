@@ -4,8 +4,8 @@
     "status": "pilot_partial_not_full_inventory",
     "source_course_documents_indexed": 424,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 3412,
-    "material_units_requiring_review": 3412,
+    "material_units_active": 3493,
+    "material_units_requiring_review": 3493,
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
     "course_material_bindings_active": 3412,
@@ -19,7 +19,7 @@
     "extracted_candidate_assertions_stale": 0,
     "candidate_senses_pending_reconciliation": 6,
     "course_documents_with_active_units": 424,
-    "source_documents_with_active_units": 424
+    "source_documents_with_active_units": 434
   },
   "by_course": {
     "berklee:CM-211": [
@@ -8533,6 +8533,107 @@
       "material:0003318",
       "material:0003319",
       "material:0003320"
+    ],
+    "docs/berklee-curriculum-2026f-audit.md": [
+      "material:0003413",
+      "material:0003414",
+      "material:0003415",
+      "material:0003416"
+    ],
+    "docs/berklee-major-elective-candidates.md": [
+      "material:0003417",
+      "material:0003418",
+      "material:0003419",
+      "material:0003420",
+      "material:0003421",
+      "material:0003422"
+    ],
+    "docs/berklee-online-contemporary-source-trail.md": [
+      "material:0003423",
+      "material:0003424"
+    ],
+    "docs/berklee-online-counterpoint-eartraining-source-trail.md": [
+      "material:0003425",
+      "material:0003426"
+    ],
+    "docs/berklee-online-scoring-source-trail.md": [
+      "material:0003427",
+      "material:0003428",
+      "material:0003429",
+      "material:0003430",
+      "material:0003431"
+    ],
+    "docs/COURSE_ANALYSIS_TEMPLATE.md": [
+      "material:0003432",
+      "material:0003433",
+      "material:0003434",
+      "material:0003435",
+      "material:0003436",
+      "material:0003437"
+    ],
+    "docs/course-material-source-trail.md": [
+      "material:0003438",
+      "material:0003439",
+      "material:0003440",
+      "material:0003441",
+      "material:0003442",
+      "material:0003443",
+      "material:0003444",
+      "material:0003445",
+      "material:0003446",
+      "material:0003447",
+      "material:0003448",
+      "material:0003449",
+      "material:0003450",
+      "material:0003451",
+      "material:0003452",
+      "material:0003453",
+      "material:0003454",
+      "material:0003455",
+      "material:0003456",
+      "material:0003457",
+      "material:0003458"
+    ],
+    "docs/knowledge-base.md": [
+      "material:0003459",
+      "material:0003460",
+      "material:0003461",
+      "material:0003462",
+      "material:0003463",
+      "material:0003464",
+      "material:0003465",
+      "material:0003466",
+      "material:0003467",
+      "material:0003468",
+      "material:0003469",
+      "material:0003470",
+      "material:0003471",
+      "material:0003472",
+      "material:0003473",
+      "material:0003474",
+      "material:0003475",
+      "material:0003476",
+      "material:0003477",
+      "material:0003478",
+      "material:0003479",
+      "material:0003480",
+      "material:0003481",
+      "material:0003482",
+      "material:0003483",
+      "material:0003484"
+    ],
+    "docs/mcgill-curriculum-2026-audit.md": [
+      "material:0003485",
+      "material:0003486",
+      "material:0003487",
+      "material:0003488",
+      "material:0003489"
+    ],
+    "docs/music-only-scope.md": [
+      "material:0003490",
+      "material:0003491",
+      "material:0003492",
+      "material:0003493"
     ]
   },
   "by_concept": {

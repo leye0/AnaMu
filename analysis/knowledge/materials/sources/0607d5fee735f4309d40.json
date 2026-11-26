@@ -1,0 +1,76 @@
+{
+  "source_document": "docs/berklee-online-counterpoint-eartraining-source-trail.md",
+  "units": [
+    {
+      "id": "material:0003425",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Berklee Online — matière réelle de contrepoint et formation auditive",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Relevé du 10 novembre 2026. **Quatre vrais syllabus publics, douze leçons chacun, 48 unités pédagogiques repérées**. Chaque fiche distingue les sujets, les tâches effectivement nommées, les œuvres ou manuels mentionnés et les documents priv",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/berklee-online-counterpoint-eartraining-source-trail.md",
+          "document_sha256": "89d6249780d208a52fd83d84c85a80f2dc7e28805845bb840b261bab9a16408c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ff347818e6daa5d227027db8",
+            "heading_path": [
+              "Berklee Online — matière réelle de contrepoint et formation auditive"
+            ],
+            "start_line": 1,
+            "end_line": 11,
+            "subtree_end_line": 18
+          },
+          "content_sha256": "c8316845de31be5c6eb9380f4f67269681c6d568b666bf147b65f21b86ebf075",
+          "body_sha256": "847fe2e507d76e4030e6b475ad667580620b9df4ce567062f3cb047e84d7dbd9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003426",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Contrastes pédagogiques à préserver",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **UdeM :** MUS 1011–1016 sont six cours de solfège/dictée de 1,5 crédit avec classement préalable ; comparer leurs compétences auditives aux syllabus OEART mais **ne pas décréter que MUS 1011 = OEART-119 ou MUS 1012 = OEART-120**. Le matéri",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/berklee-online-counterpoint-eartraining-source-trail.md",
+          "document_sha256": "89d6249780d208a52fd83d84c85a80f2dc7e28805845bb840b261bab9a16408c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:22f08f99e7c053b4cfdc1d1f",
+            "heading_path": [
+              "Berklee Online — matière réelle de contrepoint et formation auditive",
+              "Contrastes pédagogiques à préserver"
+            ],
+            "start_line": 12,
+            "end_line": 18,
+            "subtree_end_line": 18
+          },
+          "content_sha256": "fec9d42be58acfcff8b30e28e28794f46c6674e10bb327183a2ff6a3ada5ce5f",
+          "body_sha256": "c9abdd78d9c41585efddc6fa1ebf93bee738014581b416166345b045435ee322",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

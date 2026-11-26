@@ -1,0 +1,970 @@
+{
+  "source_document": "docs/knowledge-base.md",
+  "units": [
+    {
+      "id": "material:0003459",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "AnaMu — connaissances communes et synthèses musicales",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Ce document décrit le rapprochement des sources universitaires, concepts, exemples et preuves et conserve des synthèses musicales transversales reliées aux cours. Il ne constitue pas un moteur logiciel ni une base de concepts intégralement",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3b3bf3c0a00867abd5aca96d",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales"
+            ],
+            "start_line": 1,
+            "end_line": 6,
+            "subtree_end_line": 520
+          },
+          "content_sha256": "2099aee5bb1dda9ee3852530844cee3a0dc5810e4c9f36be73a661a7f4f164b8",
+          "body_sha256": "c55a5233389cea686dc4bbef1cc7abffc72d899dedfe991e0f1ab7fe489375b1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003460",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "1. L'actif central n'est pas un catalogue de cours",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Les [catalogues UdeM, McGill, Berklee](university-curriculum.md) décrivent",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d97634ff2a4ee555907ef62c",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "1. L'actif central n'est pas un catalogue de cours"
+            ],
+            "start_line": 7,
+            "end_line": 20,
+            "subtree_end_line": 32
+          },
+          "content_sha256": "310fce9717ce6bd685a2b035131191cac45485fa7cea3a44e1a4ba18097898a4",
+          "body_sha256": "86860af09d272c0742e5f60c8cf3a7cde69b5a8c4f08723fbe5be042bd74df42",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003461",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Quatre couches à ne jamais confondre",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **État actuel :** les sources et cartes thématiques sont partielles; les cours identifiables ont reçu une première évaluation et des exemples sont disponibles. La matière détaillée n'est pas couverte exhaustivement. **La grande base de conc",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3ffc407a366b711415a2cb4c",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "1. L'actif central n'est pas un catalogue de cours",
+              "Quatre couches à ne jamais confondre"
+            ],
+            "start_line": 21,
+            "end_line": 32,
+            "subtree_end_line": 32
+          },
+          "content_sha256": "524b77439ccf9e0d855699c2cb0601da50f0ba13e2796971c3731f3b1518ba66",
+          "body_sha256": "dc1bbabbe96c21269b9d6619c2e118a29be84028d8e93a2ef13a37ad240bb1a0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003462",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "2. Unité de connaissance à construire",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : La représentation définitive devra évoluer avec la recherche, mais toute",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b3fedc4738759e5d758b7266",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "2. Unité de connaissance à construire"
+            ],
+            "start_line": 33,
+            "end_line": 53,
+            "subtree_end_line": 53
+          },
+          "content_sha256": "3d945fd96459b529f4a5e2db6a9b219a1aa4ac4dc7703cc63cab84274af21d67",
+          "body_sha256": "bade3822da6d0d92278bd3e131111516089522fd00b1c86176d03ddb7c18e008",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003463",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "3. Transformer plusieurs programmes en une connaissance commune",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : 1. **Inventorier** toutes les branches pertinentes des cours obligatoires,",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4a5c1e903d3a7d53c29e01b3",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "3. Transformer plusieurs programmes en une connaissance commune"
+            ],
+            "start_line": 54,
+            "end_line": 82,
+            "subtree_end_line": 82
+          },
+          "content_sha256": "14d9702fb173077395f789896cb0d0580f931089b341db6fff1b194546e54c8c",
+          "body_sha256": "0c9f608d6650ec71dbd31247378bfd45eea3b7f3ca1de26f300a3445df723bb8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003464",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "4. Ce qui fait une vraie explication musicale",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Exemple d'une question future : « Pourquoi le compositeur confie-t-il le",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:311047385d79c9515b2102ac",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "4. Ce qui fait une vraie explication musicale"
+            ],
+            "start_line": 83,
+            "end_line": 99,
+            "subtree_end_line": 99
+          },
+          "content_sha256": "40ab0a87dfc16c03b0a2bd3fed0fd4fe4a8c1078ac1ee8046535a96308ac3b25",
+          "body_sha256": "41ae0409e57e2b1f63df71068a86bb4e97134577947a9b641fc051a812f590cc",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003465",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "5. Relation avec l'éventuelle composition",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le système pourrait un jour utiliser cette connaissance pour choisir un",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c3501a446db583839d2b606e",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "5. Relation avec l'éventuelle composition"
+            ],
+            "start_line": 100,
+            "end_line": 112,
+            "subtree_end_line": 483
+          },
+          "content_sha256": "b24a8b4cf36fd0cde8ba1483923b6b3404086ec898814b9621e7a322e3cfc7a8",
+          "body_sha256": "889b16af560b50e87dd9ef50c4d2c5d374fd17a058ac089b6c0e9278b9586bd6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003466",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deux modules, une connaissance commune",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Décision du 15 novembre 2026.** L’analyse et la création sont deux modules différents. La création dépend d’une analyse richement documentée et de la synthèse des savoirs transversaux. Ce n’est pas une inversion de l’analyse. Reconnaître",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ea79be744cd19b7719bb379d",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "5. Relation avec l'éventuelle composition",
+              "Deux modules, une connaissance commune"
+            ],
+            "start_line": 113,
+            "end_line": 129,
+            "subtree_end_line": 302
+          },
+          "content_sha256": "b62111ce9553aab0dec798fb053eda6d1398ed1e472328f8bc43e74c08fd5aa5",
+          "body_sha256": "723a16b585a7a8f815a5e3184d5a0b0cfde9dae04b4b185ef435a20d064d04ed",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003467",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Une même sonorité ne décide ni de sa fonction ni de sa destination — 17 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Six fiches de **cours déjà attestés**, approfondies avec des manuels ouverts et des analyses scientifiques externes, vérifient maintenant une distinction méthodologique commune : **identité des classes de hauteurs ≠ identité de graphie ≠ id",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:be8b7780c4bcbe77e871cc9b",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "5. Relation avec l'éventuelle composition",
+              "Deux modules, une connaissance commune",
+              "Une même sonorité ne décide ni de sa fonction ni de sa destination — 17 novembre 2026"
+            ],
+            "start_line": 130,
+            "end_line": 149,
+            "subtree_end_line": 149
+          },
+          "content_sha256": "1fef00ff4f2b431dac6523b5931f6dcd441dd524e94e6911ac3e3637d8500c91",
+          "body_sha256": "bc8218c648c708ebe368c1eee7bbf572fd3bf58834adaa63b8f358a733ec00f0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003468",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Retard, appoggiature et perfection : la dissonance a une histoire — 17 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Trois fiches, deux époques et une erreur à éviter.** Une **note dissonante tenue** et une **dissonance nouvellement attaquée** peuvent sonner au même instant, voire résoudre sur la même note, sans avoir la même **genèse contrapuntique**.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:27f0ef3a0da44c21e3576339",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "5. Relation avec l'éventuelle composition",
+              "Deux modules, une connaissance commune",
+              "Retard, appoggiature et perfection : la dissonance a une histoire — 17 novembre 2026"
+            ],
+            "start_line": 150,
+            "end_line": 164,
+            "subtree_end_line": 164
+          },
+          "content_sha256": "cb7086a4cf5bd8aca73c950ed5c6775c0997f88a59f8ab531b07d29fa5c959d8",
+          "body_sha256": "a9eb110c05ba4c89e7a4e3aa559db7cc11ae4cba70044f67ff7294125beacc6f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003469",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Cycle, fonction et pédale : une racine n'est pas une basse immuable — 17 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Deux cours UdeM approfondis sur leur propre matière attestée.** [MTE 1315 — Harmonie jazz 1](courses/udem/MTE-1315.md#cycle-fonctionnel-cycle-symétrique-et-substitution--trois-règles-de-parcours-17-novembre-2026) nomme les cycles diatoniq",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:326bc8574d9caaeef128bf9b",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "5. Relation avec l'éventuelle composition",
+              "Deux modules, une connaissance commune",
+              "Cycle, fonction et pédale : une racine n'est pas une basse immuable — 17 novembre 2026"
+            ],
+            "start_line": 165,
+            "end_line": 178,
+            "subtree_end_line": 178
+          },
+          "content_sha256": "e841422c2ac989e6b62c6b7974a36d50b3dc3314d2e018a1bfca728b725a7155",
+          "body_sha256": "b5555e9d9f160443716216df72c97330085338ec0c8562a7a8310502ef013a08",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003470",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Percussion : une note écrite n'est pas un geste, un geste n'est pas une résonance — 17 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Audit de couverture, puis nouveau savoir.** Le domaine **rythmique** n'était pas absent : [CM-320](courses/berklee/CM-320.md), [OCOMP-485](courses/berklee-online/OCOMP-485.md), [MUSP-240](courses/mcgill/MUSP-240.md) et les mécanismes [36",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1e65935d66ad9955ec728d42",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "5. Relation avec l'éventuelle composition",
+              "Deux modules, une connaissance commune",
+              "Percussion : une note écrite n'est pas un geste, un geste n'est pas une résonance — 17 novembre 2026"
+            ],
+            "start_line": 179,
+            "end_line": 194,
+            "subtree_end_line": 194
+          },
+          "content_sha256": "68c6b50aab0d8e07f83462309faef28556a4b1986c8a2fe2d1d9f5818a830cac",
+          "body_sha256": "eeab2103fa2094ad22658dfb530be43fe52b9f411d1f53552ca8f8e29730deca",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003471",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Rythme : compter les événements et les instants ne suffit pas à reconnaître le mètre — 17 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le [syllabus réel OCMUS-105](courses/berklee-online/OCMUS-105.md) fournit une méthode **distincte** de l'analyse de score : d'abord mouvement, respiration, pulsation intériorisée, 3:2 et hémioles, puis notation complexe, dictée et métronome",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6288c86717918dc679dbdac3",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "5. Relation avec l'éventuelle composition",
+              "Deux modules, une connaissance commune",
+              "Rythme : compter les événements et les instants ne suffit pas à reconnaître le mètre — 17 novembre 2026"
+            ],
+            "start_line": 195,
+            "end_line": 208,
+            "subtree_end_line": 208
+          },
+          "content_sha256": "4547337d13aae2507605160c9ed38d8e5df068eb58c7ae3fe01f42393c38a198",
+          "body_sha256": "5dad3112e958191836becd5f0156ad7914bd2583742a127d0efe4af23505f03d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003472",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "General MIDI : 47 noms ne sont pas 47 instrumentistes — 17 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance.** La [carte factuelle GM1/GM2](references/gm-percussion.md) est un **référentiel technique**, avec [données nom/numéro](data/gm-percussion-reference.json), provenant de la [MIDI Association](https://midi.org/general-midi-level",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1a53646566d716acc585a484",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "5. Relation avec l'éventuelle composition",
+              "Deux modules, une connaissance commune",
+              "General MIDI : 47 noms ne sont pas 47 instrumentistes — 17 novembre 2026"
+            ],
+            "start_line": 209,
+            "end_line": 234,
+            "subtree_end_line": 234
+          },
+          "content_sha256": "51b9f435f4a3aaeaf49a2fdb749783643028d7bc86c92311b9bb27a7701cb07a",
+          "body_sha256": "149ad092c475e0d9cb42e7f6c047c20f6290e0c13eb06344faacf7e8c70df5e3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003473",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Groove de percussion : dix comparaisons où la variable change explicitement — 17 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Périmètre et vraie acquisition pédagogique.** [OPERC-160, *Drum Set Performance 101*](courses/berklee-online/OPERC-160.md#dix-témoins-techniques-en-percussion--les-cinq-attachés-à-operc-160-17-novembre-2026), programme directement publié",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:330b616856770f965c58f943",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "5. Relation avec l'éventuelle composition",
+              "Deux modules, une connaissance commune",
+              "Groove de percussion : dix comparaisons où la variable change explicitement — 17 novembre 2026"
+            ],
+            "start_line": 235,
+            "end_line": 269,
+            "subtree_end_line": 269
+          },
+          "content_sha256": "7b8276cc0f8705aa706091698ff569991b3b0079042c6c990b5a93f5ebb9b764",
+          "body_sha256": "3f3e2e1e79cc19e40df5b769232842d261dead1ad3d4271ea7bfcdf3f8c324da",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003474",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Percussion : même calendrier, autre battue, autre phase — 17 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Matière et provenance.** Les vrais plans de [OCMUS-105](courses/berklee-online/OCMUS-105.md), [OPERC-160](courses/berklee-online/OPERC-160.md) et [OMPRD-386](courses/berklee-online/OMPRD-386.md) attestent respectivement hémioles et dictée",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d4e1850dd3059338ed81df9b",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "5. Relation avec l'éventuelle composition",
+              "Deux modules, une connaissance commune",
+              "Percussion : même calendrier, autre battue, autre phase — 17 novembre 2026"
+            ],
+            "start_line": 270,
+            "end_line": 296,
+            "subtree_end_line": 296
+          },
+          "content_sha256": "71a4afcc919cbf3cdfcf326117206a8b902f6308079eb19f4ecfc3ca578be700",
+          "body_sha256": "f236f4be7223a2a0aaa3689886e53f58151809e3fbc053e4248bc61e2a0847b0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003475",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Percussions : événement, membre, interprète, geste, son et fonction ne sont pas le même objet — 17 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Acquisition académique et source de vérité.** Les matières sont **réellement annoncées** dans le [syllabus de batterie de Yoron Israel, OPERC-160](courses/berklee-online/OPERC-160.md#du-déclencheur-midi-au-batteur--six-contrôles-du-geste-",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9306212d5211218e4057b8f8",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "5. Relation avec l'éventuelle composition",
+              "Deux modules, une connaissance commune",
+              "Percussions : événement, membre, interprète, geste, son et fonction ne sont pas le même objet — 17 novembre 2026"
+            ],
+            "start_line": 297,
+            "end_line": 302,
+            "subtree_end_line": 302
+          },
+          "content_sha256": "1c99ddba351002ae5f8b0affeedaf4c8f563daa72a2bf2bd23bd7b845a14f65b",
+          "body_sha256": "12bc9fc3ecf0d7f1620599bb41543959f8dd4f262a6d42eaab58d60a38e9576c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003476",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Six niveaux de vérité qu'il faut interroger séparément",
+      "title_origin": "source_heading_or_key",
+      "description": "Titre ou passage sans description éditoriale vérifiée.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:042e338ddef4538380f47304",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "5. Relation avec l'éventuelle composition",
+              "Six niveaux de vérité qu'il faut interroger séparément"
+            ],
+            "start_line": 303,
+            "end_line": 313,
+            "subtree_end_line": 313
+          },
+          "content_sha256": "7e79d6acbb40a0295ef3a26896d23ea2a1689c64210eda167b3c65d17cac7a7a",
+          "body_sha256": "5fdee43337def8602afcfce3244036b3f5df643a1033e2f65a27da644a3b493a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003477",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Quatorze cas reliés à leurs décisions musicales",
+      "title_origin": "source_heading_or_key",
+      "description": "Titre ou passage sans description éditoriale vérifiée.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6ad062edd3048e56d7cc32e4",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "5. Relation avec l'éventuelle composition",
+              "Quatorze cas reliés à leurs décisions musicales"
+            ],
+            "start_line": 314,
+            "end_line": 332,
+            "subtree_end_line": 332
+          },
+          "content_sha256": "f2c4dcdbe466b3fb332d90436e4ce5dcc91b36b24f5462b6407f297e6cb4e63e",
+          "body_sha256": "dd64997a60484b43a416281ac2872f57206b99ea00c4a0f3c3c02296662fbe0a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003478",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Physique de l'instrument, perception de l'attaque : deux sources à conserver distinctes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Côté technique.** La [Percussive Arts Society, liste des 40 rudiments](https://pas.org/rudiments/) sépare **rolls, paradiddles, flams et drags**; [Joel Rothman, 2021](https://pas.org/pas-blog/paradiddles-the-whole-story-in-a-nutshell/) dé",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:772daabfc31b13101968df9d",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "5. Relation avec l'éventuelle composition",
+              "Physique de l'instrument, perception de l'attaque : deux sources à conserver distinctes"
+            ],
+            "start_line": 333,
+            "end_line": 338,
+            "subtree_end_line": 338
+          },
+          "content_sha256": "ea889f739321a481aac0a28e2c2e7f5c597cba3568477720b6c584e490dcc8ae",
+          "body_sha256": "fce766a8eae363b3e050277c005f824828324d8b6d2d5457ab6809450bda4bdf",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003479",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Protocole générique pour réinvestir sans construire encore de moteur",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : 1. **Nommer la source académique exacte** (syllabus, notice, projet officiel ou recherche externe) et **déclarer ce qui a été inventé** par AnaMu. Les cours comparatifs restent hors registre de 378.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2a083516b1afaeaa62f51189",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "5. Relation avec l'éventuelle composition",
+              "Protocole générique pour réinvestir sans construire encore de moteur"
+            ],
+            "start_line": 339,
+            "end_line": 350,
+            "subtree_end_line": 442
+          },
+          "content_sha256": "f967e624c17f06486a2cef124c01221f2b988c44e9714906bc973b918f3f34a5",
+          "body_sha256": "bced90d40c93ba7563e3f4c486ef657d872c53ee0ecb4e8330b980c2e1911910",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003480",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Choisir selon la contrainte musicale",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Une relation d’analyse devient utile à la création quand elle aide à prendre une décision, y compris à rejeter une option. Pour chaque consigne, distinguer la partie de l’œuvre concernée, les contraintes fermes et ce qui relève encore d’un",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9eeb9e93ce5c65d1fca4b7ec",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "5. Relation avec l'éventuelle composition",
+              "Protocole générique pour réinvestir sans construire encore de moteur",
+              "Choisir selon la contrainte musicale"
+            ],
+            "start_line": 351,
+            "end_line": 442,
+            "subtree_end_line": 442
+          },
+          "content_sha256": "4f459ef24f23be97d44bc883b68bfefbc8e6e7a1d9b0045f28eea2c507d12672",
+          "body_sha256": "f37cf0eb67bd956e36afcf77c1ba2fda9ad233d766ceab14001aa6ba9c26dac7",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003481",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Déphasage, liberté et texture : ne pas confondre les objets temporels",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Synthèse documentaire du 17 novembre 2026.** Le mot « asynchronie » recouvre des phénomènes **non équivalents** : deux copies d'une même cellule peuvent se décaler; des interprètes peuvent changer de cellule à des moments variables; plusi",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0ccf25e53165e19cab0ad88d",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "5. Relation avec l'éventuelle composition",
+              "Déphasage, liberté et texture : ne pas confondre les objets temporels"
+            ],
+            "start_line": 443,
+            "end_line": 472,
+            "subtree_end_line": 483
+          },
+          "content_sha256": "2a0b80399223d19dc4925b024e323f8c1a98677010f0277fef35d2232e8d1098",
+          "body_sha256": "6a39b20ed2020384b9b32dd9a719e1a2b0ce9d36dd421b426df1d8b13c17a7a2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003482",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Charleston : le rôle rythmique ne se lit ni dans le CC4 ni dans la fin de note",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [Manifeste des six études](data/percussion-hihat-state-studies-2026-11-17.json) · [Application à la batterie](courses/berklee-online/OPERC-160.md#charleston--destination-de-phrase-appuis-et-coordination-avec-la-caisse) · [Application à la p",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:72c3814589571e30b4767cd6",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "5. Relation avec l'éventuelle composition",
+              "Déphasage, liberté et texture : ne pas confondre les objets temporels",
+              "Charleston : le rôle rythmique ne se lit ni dans le CC4 ni dans la fin de note"
+            ],
+            "start_line": 473,
+            "end_line": 483,
+            "subtree_end_line": 483
+          },
+          "content_sha256": "d8a0193230162e6cd34c8d6ab65ccb2eda4f69a3647987ef4364a38f3a2462fd",
+          "body_sha256": "2186c748e940bfe1888d111811a3320b78c676a624c8cd8b4d0861f3ef65dd07",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003483",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "6. Source de vérité et prochaine construction",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [OBJECTIVES.md](OBJECTIVES.md) : pourquoi le système existe.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8c2ba3ed891d1f17f90654e7",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "6. Source de vérité et prochaine construction"
+            ],
+            "start_line": 484,
+            "end_line": 505,
+            "subtree_end_line": 520
+          },
+          "content_sha256": "959620db75289515d48aa1c83dd8f82fb486b54d71009f43020bbb57f9d5e245",
+          "body_sha256": "db3bce9c83d30564708d61f9db99513f26dc1ede4ab34dcc4a21bf4dc41028e8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003484",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Le conducteur qui sonne juste peut donner des parties fausses",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Contrat documentaire du 17 novembre 2026.** Trois objets doivent rester séparés : **hauteurs réellement sonores**, **fonctions musicales de pupitre**, **parties réalisables pour les musiciens disponibles**. Le [MIT 21M.342, syllabus et de",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/knowledge-base.md",
+          "document_sha256": "12e353f28a5b59261cf00da229c76fd93a142fea72b00875f9914b66f30757a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f993b07b8998a7fd9a53205d",
+            "heading_path": [
+              "AnaMu — connaissances communes et synthèses musicales",
+              "6. Source de vérité et prochaine construction",
+              "Le conducteur qui sonne juste peut donner des parties fausses"
+            ],
+            "start_line": 506,
+            "end_line": 520,
+            "subtree_end_line": 520
+          },
+          "content_sha256": "be1b9b2d6aa24c7e7508263f2676bfe90067a90d5f317a5eeea964bbc0e2d9a0",
+          "body_sha256": "c3f93810534987d043b49dee2cc36fb396104eb48fc7fd3b12a6548e662d7e3b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
