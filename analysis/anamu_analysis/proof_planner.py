@@ -127,14 +127,48 @@ def plan(case: dict, profile: str) -> dict:
             "tasks": evaluated}
 
 
+def compare_profiles(case: dict, before: str, after: str) -> dict:
+    """Describe changes in task readiness, without inferring musical conclusions."""
+    first, second = plan(case, before), plan(case, after)
+    prior = {task["id"]: task for task in first["tasks"]}
+    current = {task["id"]: task for task in second["tasks"]}
+    changed = [
+        {"task_id": identifier, "before": prior[identifier]["state"],
+         "after": task["state"],
+         "newly_ready_under_assumptions": (
+             prior[identifier]["state"] == "blocked_missing_or_unverified_evidence"
+             and task["state"] == "ready_under_declared_assumptions"),
+         "newly_ready_verified": (
+             prior[identifier]["state"] == "blocked_missing_or_unverified_evidence"
+             and task["state"] == "ready_verified_inputs")}
+        for identifier, task in current.items()
+        if task["state"] != prior[identifier]["state"]
+    ]
+    left_facts, _ = evidence_index(case["profiles"][before])
+    right_facts, _ = evidence_index(case["profiles"][after])
+    improved = sorted({fact for fact, entry in right_facts.items()
+                       if fact in left_facts
+                       and STATES[entry["state"]] > STATES[left_facts[fact]["state"]]} |
+                      {fact for fact in right_facts if fact not in left_facts})
+    return {"schema_version": 1, "case_id": case["case_id"],
+            "before_profile": before, "after_profile": after,
+            "newly_available_or_upgraded_facts": improved,
+            "changed_task_states": changed,
+            "task_counts_before": first["task_counts"],
+            "task_counts_after": second["task_counts"],
+            "limitation": "Planning comparison only; no musical interpretation executed."}
+
+
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description="AnaMu: plan evidence routes without interpreting a work")
     parser.add_argument("case", type=Path, help="case contract JSON with tasks and evidence profiles")
     parser.add_argument("--profile", required=True, help="name of an evidence profile in the case")
+    parser.add_argument("--compare", help="optional second profile for a change-of-evidence comparison")
     parser.add_argument("--out", type=Path, help="optional JSON report path; stdout by default")
     args = parser.parse_args(argv)
     try:
-        report = plan(load_json(args.case), args.profile)
+        case = load_json(args.case)
+        report = compare_profiles(case, args.profile, args.compare) if args.compare else plan(case, args.profile)
         rendered = json.dumps(report, indent=2, ensure_ascii=False) + "\n"
         if args.out:
             destination = args.out.resolve()
