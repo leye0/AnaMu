@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "edition": "pilot-calibration-2026-11-25",
-  "scope": "Dix sections de calibration seulement, sans prétention d'exhaustivité des sources ni d'extraction de toutes leurs assertions.",
+  "scope": "Seize sections sélectionnées de calibration, non extraction de la totalité des 36 fiches ou 530 sources.",
   "material_registry_path": "analysis/knowledge/materials/catalog.json",
   "source_manifest_path": "analysis/knowledge/source-manifest.json",
   "concept_registry_path": "analysis/knowledge/concepts.json",
@@ -176,6 +176,108 @@
         "candidate-assertion:0020"
       ],
       "reviewed_material_revision": 1
+    },
+    {
+      "id": "mention:calibration:0011",
+      "material_id": "material:0000193",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/courses/berklee/CM-320.md",
+      "source_section_heading": "Quatre façons de modifier l'organisation temporelle sans les confondre (17 novembre 2026)",
+      "label": "Signature, accents, phase et cycles temporels",
+      "language": "fr",
+      "attribution_role": "anamu_comparative_study_using_parallel_course_examples",
+      "concept_sense_candidate": "rhythm.accent_grouping",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Section source-consultée de la fiche AnaMu, sans validation indépendante ni couverture de tout le cours.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:0021",
+        "candidate-assertion:0022"
+      ]
+    },
+    {
+      "id": "mention:calibration:0012",
+      "material_id": "material:0000220",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/courses/mcgill/MUTH-304.md",
+      "source_section_heading": "Q1 — Réponse réelle ou tonale : comparer les relations du sujet, pas seulement son contour",
+      "label": "Réponse fuguée réelle et tonale",
+      "language": "fr",
+      "attribution_role": "anamu_course_analysis_method_not_official_exercise",
+      "concept_sense_candidate": "motif.thematic_identity",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Section source-consultée de la fiche AnaMu, sans validation indépendante ni couverture de tout le cours.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:0023",
+        "candidate-assertion:0024"
+      ]
+    },
+    {
+      "id": "mention:calibration:0013",
+      "material_id": "material:0000419",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/courses/mit/21M-361.md",
+      "source_section_heading": "2. Différence entre répétition perceptible et continuité",
+      "label": "Continuité perceptible dans un montage électroacoustique",
+      "language": "fr",
+      "attribution_role": "official_mit_assignment_summary",
+      "concept_sense_candidate": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Section source-consultée de la fiche AnaMu, sans validation indépendante ni couverture de tout le cours.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:0025",
+        "candidate-assertion:0026"
+      ]
+    },
+    {
+      "id": "mention:calibration:0014",
+      "material_id": "material:0000329",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/courses/berklee-online/OPERC-160.md",
+      "source_section_heading": "HH-6 — Fermer avant, avec ou après la caisse",
+      "label": "Fermeture nominale de charleston contre backbeat",
+      "language": "fr",
+      "attribution_role": "anamu_comparison_using_midi_and_external_gesture_sources",
+      "concept_sense_candidate": "rhythm.microtiming",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Section source-consultée de la fiche AnaMu, sans validation indépendante ni couverture de tout le cours.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:0027",
+        "candidate-assertion:0028"
+      ]
+    },
+    {
+      "id": "mention:calibration:0015",
+      "material_id": "material:0000442",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/courses/udem/MUS-3322X.md",
+      "source_section_heading": "Même vélocité MIDI, présence différente dans le mix",
+      "label": "RMS du mix et présence du rôle instrumental",
+      "language": "fr",
+      "attribution_role": "anamu_audio_comparison_not_course_experiment",
+      "concept_sense_candidate": "sound.masking",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Section source-consultée de la fiche AnaMu, sans validation indépendante ni couverture de tout le cours.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:0029",
+        "candidate-assertion:0030"
+      ]
+    },
+    {
+      "id": "mention:calibration:0016",
+      "material_id": "material:0000289",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/courses/udem/MUS-2328.md",
+      "source_section_heading": "Choisir quel prochain repère attendre",
+      "label": "Transition musicale selon alerte, temps et barre",
+      "language": "fr",
+      "attribution_role": "anamu_paper_scenario_not_real_time_engine",
+      "concept_sense_candidate": "form.adaptive_transition",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Section source-consultée de la fiche AnaMu, sans validation indépendante ni couverture de tout le cours.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:0031",
+        "candidate-assertion:0032"
+      ]
     }
   ],
   "assertions": [
@@ -563,12 +665,251 @@
       "causal_claim": false,
       "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
       "reviewed_material_revision": 1
+    },
+    {
+      "id": "candidate-assertion:0021",
+      "mention_id": "mention:calibration:0011",
+      "material_id": "material:0000193",
+      "reviewed_material_revision": 1,
+      "rule_key": "accent_rotation_not_metric_modulation",
+      "polarity": "negative",
+      "statement": "Une rotation d'accents à durée et signature stables ne constitue pas en elle-même une modulation métrique.",
+      "scope": "schémas temporels CM-320",
+      "requires_evidence": [
+        "note_events",
+        "meter_metadata",
+        "accent_pattern"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_study_using_parallel_course_examples",
+      "source_is_direct_citation": false,
+      "causal_claim": false,
+      "warning": "Interprétation candidate de la section source ; aucune compétence algorithmique ni validation musicologique indépendante."
+    },
+    {
+      "id": "candidate-assertion:0022",
+      "mention_id": "mention:calibration:0011",
+      "material_id": "material:0000193",
+      "reviewed_material_revision": 1,
+      "rule_key": "mathematical_period_not_proof_of_perceived_polymeter",
+      "polarity": "negative",
+      "statement": "Des périodes concurrentes ou une somme de flux ne suffisent pas à attester la perception d'un polymètre.",
+      "scope": "écoute de polyrythmies",
+      "requires_evidence": [
+        "audio_excerpt",
+        "listener_context"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_study_using_parallel_course_examples",
+      "source_is_direct_citation": false,
+      "causal_claim": false,
+      "warning": "Interprétation candidate de la section source ; aucune compétence algorithmique ni validation musicologique indépendante."
+    },
+    {
+      "id": "candidate-assertion:0023",
+      "mention_id": "mention:calibration:0012",
+      "material_id": "material:0000220",
+      "reviewed_material_revision": 1,
+      "rule_key": "fugue_answer_not_just_constant_fifth",
+      "polarity": "negative",
+      "statement": "Une entrée à la quinte ou une ressemblance de contour ne suffisent pas à valider une réponse réelle ou tonale stylistiquement correcte.",
+      "scope": "fugue tonale",
+      "requires_evidence": [
+        "notated_subject",
+        "answer_intervals",
+        "harmonic_context"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_course_analysis_method_not_official_exercise",
+      "source_is_direct_citation": false,
+      "causal_claim": false,
+      "warning": "Interprétation candidate de la section source ; aucune compétence algorithmique ni validation musicologique indépendante."
+    },
+    {
+      "id": "candidate-assertion:0024",
+      "mention_id": "mention:calibration:0012",
+      "material_id": "material:0000220",
+      "reviewed_material_revision": 1,
+      "rule_key": "compare_fugue_real_vs_tonal_interval_mapping",
+      "polarity": "method",
+      "statement": "La lecture comparative teste la transposition constante d'une réponse réelle puis les ajustements fonctionnels possibles d'une réponse tonale dans la continuation.",
+      "scope": "partition à voix différenciées",
+      "requires_evidence": [
+        "score_spelling",
+        "voice_identity",
+        "tonal_function"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_course_analysis_method_not_official_exercise",
+      "source_is_direct_citation": false,
+      "causal_claim": false,
+      "warning": "Interprétation candidate de la section source ; aucune compétence algorithmique ni validation musicologique indépendante."
+    },
+    {
+      "id": "candidate-assertion:0025",
+      "mention_id": "mention:calibration:0013",
+      "material_id": "material:0000419",
+      "reviewed_material_revision": 1,
+      "rule_key": "electroacoustic_transition_and_continuity_as_musical_decision",
+      "polarity": "method",
+      "statement": "Les travaux MIT distinguent une juxtaposition technique de matériaux d'une composition dont les transitions et transformations donnent un déroulement temporel cohérent à l'écoute.",
+      "scope": "composition électroacoustique",
+      "requires_evidence": [
+        "identified_segments",
+        "transition_timeline",
+        "listening_annotation"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "official_mit_assignment_summary",
+      "source_is_direct_citation": false,
+      "causal_claim": false,
+      "warning": "Interprétation candidate de la section source ; aucune compétence algorithmique ni validation musicologique indépendante."
+    },
+    {
+      "id": "candidate-assertion:0026",
+      "mention_id": "mention:calibration:0013",
+      "material_id": "material:0000419",
+      "reviewed_material_revision": 1,
+      "rule_key": "audio_montage_skill_not_proof_of_expressive_continuity",
+      "polarity": "negative",
+      "statement": "Une habileté d'édition et la succession de segments ne démontrent pas par elles-mêmes la continuité perceptible ou la valeur expressive.",
+      "scope": "travaux MIT 2.1–2.2",
+      "requires_evidence": [
+        "listening_annotation",
+        "composition_context"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "official_mit_assignment_summary",
+      "source_is_direct_citation": false,
+      "causal_claim": false,
+      "warning": "Interprétation candidate de la section source ; aucune compétence algorithmique ni validation musicologique indépendante."
+    },
+    {
+      "id": "candidate-assertion:0027",
+      "mention_id": "mention:calibration:0014",
+      "material_id": "material:0000329",
+      "reviewed_material_revision": 1,
+      "rule_key": "gm_hihat_note_off_not_proof_of_acoustic_damping",
+      "polarity": "negative",
+      "statement": "Le placement d'une fermeture GM44 et le Note Off du charleston ouvert ne démontrent pas à eux seuls la durée de résonance ni le geste physique effectué.",
+      "scope": "programmation MIDI GM",
+      "requires_evidence": [
+        "gm_events",
+        "recorded_decay",
+        "gesture_evidence"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparison_using_midi_and_external_gesture_sources",
+      "source_is_direct_citation": false,
+      "causal_claim": false,
+      "warning": "Interprétation candidate de la section source ; aucune compétence algorithmique ni validation musicologique indépendante."
+    },
+    {
+      "id": "candidate-assertion:0028",
+      "mention_id": "mention:calibration:0014",
+      "material_id": "material:0000329",
+      "reviewed_material_revision": 1,
+      "rule_key": "compare_hihat_closure_timing_without_moving_backbeat",
+      "polarity": "method",
+      "statement": "Comparer les décalages −125, 0 et +125 ms de fermeture GM44 relativement à une caisse invariant, sans attribuer automatiquement une fusion perceptive aux attaques simultanées.",
+      "scope": "étude MIDI AnaMu 120 BPM",
+      "requires_evidence": [
+        "note_on_timing",
+        "snare_reference",
+        "audio_if_perceptual_claim"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparison_using_midi_and_external_gesture_sources",
+      "source_is_direct_citation": false,
+      "causal_claim": false,
+      "warning": "Interprétation candidate de la section source ; aucune compétence algorithmique ni validation musicologique indépendante."
+    },
+    {
+      "id": "candidate-assertion:0029",
+      "mention_id": "mention:calibration:0015",
+      "material_id": "material:0000442",
+      "reviewed_material_revision": 1,
+      "rule_key": "equal_mixture_rms_not_equal_layer_level",
+      "polarity": "negative",
+      "statement": "Deux mixes de RMS presque identique peuvent masquer des niveaux différents pour une couche isolée ; leur égalité ne prouve pas la même présence du thème.",
+      "scope": "rendus AnaMu sur fenêtre commune",
+      "requires_evidence": [
+        "matched_audio_windows",
+        "isolated_track_rms",
+        "full_mix_rms"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_audio_comparison_not_course_experiment",
+      "source_is_direct_citation": false,
+      "causal_claim": false,
+      "warning": "Interprétation candidate de la section source ; aucune compétence algorithmique ni validation musicologique indépendante."
+    },
+    {
+      "id": "candidate-assertion:0030",
+      "mention_id": "mention:calibration:0015",
+      "material_id": "material:0000442",
+      "reviewed_material_revision": 1,
+      "rule_key": "compare_isolated_and_mixed_rms_on_same_window",
+      "polarity": "method",
+      "statement": "Comparer l'énergie du rôle isolé et celle du mix avec même fenêtre et gain avant toute conclusion perceptive, puis examiner l'attaque et la répartition spectrale.",
+      "scope": "mesures sur rendus synthétiques",
+      "requires_evidence": [
+        "track_audio",
+        "mix_audio",
+        "consistent_window",
+        "listening_if_perceptual_claim"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_audio_comparison_not_course_experiment",
+      "source_is_direct_citation": false,
+      "causal_claim": false,
+      "warning": "Interprétation candidate de la section source ; aucune compétence algorithmique ni validation musicologique indépendante."
+    },
+    {
+      "id": "candidate-assertion:0031",
+      "mention_id": "mention:calibration:0016",
+      "material_id": "material:0000289",
+      "reviewed_material_revision": 1,
+      "rule_key": "faster_grid_not_guaranteed_earlier_next_marker",
+      "polarity": "negative",
+      "statement": "Une grille plus rapide ne garantit pas le prochain repère musical le plus proche pour toutes les heures de réception d'une alerte.",
+      "scope": "scénario de trois grilles AnaMu",
+      "requires_evidence": [
+        "alert_timestamp",
+        "marker_phase",
+        "clock_and_latency_budget"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_paper_scenario_not_real_time_engine",
+      "source_is_direct_citation": false,
+      "causal_claim": false,
+      "warning": "Interprétation candidate de la section source ; aucune compétence algorithmique ni validation musicologique indépendante."
+    },
+    {
+      "id": "candidate-assertion:0032",
+      "mention_id": "mention:calibration:0016",
+      "material_id": "material:0000289",
+      "reviewed_material_revision": 1,
+      "rule_key": "choose_reactive_music_marker_with_latency_budget",
+      "polarity": "method",
+      "statement": "Une transition au temps ou à la barre requiert l'heure de l'alerte, la phase du prochain repère permis et la marge de latence du système.",
+      "scope": "musique interactive à grille déterminée",
+      "requires_evidence": [
+        "game_event_time",
+        "beat_bar_boundaries",
+        "latency_budget"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_paper_scenario_not_real_time_engine",
+      "source_is_direct_citation": false,
+      "causal_claim": false,
+      "warning": "Interprétation candidate de la section source ; aucune compétence algorithmique ni validation musicologique indépendante."
     }
   ],
   "coverage": {
-    "selected_material_units": 10,
-    "mentions": 10,
-    "candidate_assertions": 20,
+    "selected_material_units": 16,
+    "mentions": 16,
+    "candidate_assertions": 32,
     "assertions_human_reviewed": 0
   },
   "revision_contract": "Candidate assertions must be re-reviewed when their source material revision changes; saved statements are not silently updated."
