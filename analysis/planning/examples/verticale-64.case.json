@@ -255,5 +255,6 @@
       "depends_on": []
     }
   ],
-  "midi_audit_ref": "analysis/examples/cm211-six-four-midi-observations.json"
+  "midi_audit_ref": "analysis/examples/cm211-six-four-midi-observations.json",
+  "fact_registry_ref": "analysis/knowledge/evidence-facts.json"
 }
