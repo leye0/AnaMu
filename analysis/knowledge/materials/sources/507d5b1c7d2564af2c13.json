@@ -695,13 +695,18 @@
       "kind": "markdown_section",
       "title": "Choisir quel prochain repère attendre",
       "title_origin": "source_heading_or_key",
-      "description": "Extrait documentaire à qualifier : **Application sur papier.** Une alerte est reçue à **+6,20 s** dans [Quatre temps, deux horloges](../berklee/CM-320.md#quatre-temps-deux-horloges). Les trois versions se rejoignent à +10,50 s et leur harmonie est déjà commune. Elles n’offre",
-      "description_origin": "source_proposal_unreviewed",
-      "editorial_review": "unreviewed",
+      "description": "Étude papier AnaMu de transitions musicales interactives : une alerte à 6,20 s ne conduit pas au même délai selon qu'on attend le prochain temps ou la prochaine barre des trois grilles comparées. Les fenêtres de 175 ms, 300 ms et 1 300 ms illustrent la nécessité de connaître la phase du repère et le budget de latence, non de supposer qu'un tempo plus rapide offre toujours la transition la plus rapide.",
+      "description_origin": "assistant_source_checked",
+      "editorial_review": "assistant_source_checked_draft",
       "review_required": true,
       "covers": [],
-      "does_not_cover": [],
-      "notes": [],
+      "does_not_cover": [
+        "Aucun état de jeu ni déclenchement audio en direct n'est vérifié.",
+        "Les marges temporelles sont calculées pour ce scénario, non garanties en exécution réelle."
+      ],
+      "notes": [
+        "Description source-consultée, en attente de revue musicale indépendante."
+      ],
       "source_bindings": [
         {
           "document_path": "docs/courses/udem/MUS-2328.md",
@@ -723,7 +728,8 @@
         }
       ],
       "lifecycle": "active",
-      "locator_review": "unreviewed"
+      "locator_review": "source_verified_editorial_pending",
+      "editorial_revision": 1
     }
   ]
 }
