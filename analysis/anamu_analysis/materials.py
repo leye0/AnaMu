@@ -433,16 +433,26 @@ def refresh(repo: Path = REPO_ROOT, dry_run: bool = False) -> dict:
         if material is None or material["lifecycle"] != "active" or (
                 item.get("reviewed_material_revision") != material["revision"]):
             stale_assertions.append(item["id"])
-    by_course, by_document, by_concept = defaultdict(list), defaultdict(list), defaultdict(list)
+    by_course, by_document, by_concept, by_candidate_sense = (
+        defaultdict(list), defaultdict(list), defaultdict(list), defaultdict(list))
     for unit in units:
         by_document[unit_source(unit)["document_path"]].append(unit["id"])
     for binding in bindings:
         if binding["lifecycle"] == "active":
             by_course[binding["course_id"]].append(binding["material_id"])
+    candidate_senses = read_json(folder / "candidate-senses.json",
+                                {"candidates": []})["candidates"]
+    known_senses = {item["id"] for item in candidate_senses}
     for link in old_links["bindings"]:
         target = link.get("target", {})
         if target.get("id"):
             by_concept[target["id"]].append(link["material_id"])
+        proposed_id = target.get("candidate_sense_id")
+        if proposed_id:
+            if proposed_id not in known_senses:
+                raise ValueError("Unknown candidate sense in knowledge binding: " +
+                                 proposed_id)
+            by_candidate_sense[proposed_id].append(link["material_id"])
     coverage = {
         "course_documents": knowledge["coverage"]["course_documents_indexed"],
         "shared_documents": knowledge["coverage"]["shared_documents"],
@@ -489,6 +499,7 @@ def refresh(repo: Path = REPO_ROOT, dry_run: bool = False) -> dict:
             "by_course": dict(sorted(by_course.items())),
             "by_document": dict(sorted(by_document.items())),
             "by_concept": dict(sorted(by_concept.items())),
+            "by_candidate_sense": dict(sorted(by_candidate_sense.items())),
             "knowledge_links_requiring_review": stale_links,
             "candidate_assertions_requiring_review": stale_assertions,
         })
@@ -510,6 +521,15 @@ def show(repo: Path, identifier: str, include_source: bool) -> dict:
                   if b["material_id"] == identifier]}
     # Candidate extractions are proposals, not verified musical conclusions.
     all_mentions, all_assertions = load_candidate_extractions(root)
+    candidates = read_json(root / "candidate-senses.json",
+                           {"candidates": []})["candidates"]
+    linked_senses = {
+        link.get("target", {}).get("candidate_sense_id")
+        for link in result["knowledge_bindings"]
+    }
+    result["candidate_senses"] = [
+        item for item in candidates if item["id"] in linked_senses
+    ]
     result["mentions"] = [
         dict(item, material_revision_stale=(
             item.get("reviewed_material_revision") != unit["revision"]))
@@ -585,6 +605,8 @@ def main(argv: list[str] | None = None) -> None:
     search_parser.add_argument("--limit", type=int, default=20)
     search_parser.add_argument("--course", help="Filter by course ID, e.g. berklee:CM-211")
     search_parser.add_argument("--concept", help="Filter by linked analytical concept ID")
+    search_parser.add_argument("--candidate-sense",
+                               help="Filter by unresolved proposed concept sense")
     search_parser.add_argument("--review", help="Filter by editorial review state")
     show_parser = commands.add_parser("show", help="Show a material and its two mappings")
     show_parser.add_argument("id")
@@ -617,6 +639,10 @@ def main(argv: list[str] | None = None) -> None:
             concept_ids = {b["material_id"] for b in concept_links
                            if b.get("target", {}).get("id") == args.concept
                            } if args.concept else None
+            candidate_ids = {b["material_id"] for b in concept_links
+                             if b.get("target", {}).get("candidate_sense_id") ==
+                             args.candidate_sense
+                             } if args.candidate_sense else None
             needle = args.query.casefold()
             matched = [
                 {"id": unit["id"], "title": unit["title"],
@@ -631,6 +657,7 @@ def main(argv: list[str] | None = None) -> None:
                                       unit_source(unit)["document_path"])).casefold()
                 and (course_ids is None or unit["id"] in course_ids)
                 and (concept_ids is None or unit["id"] in concept_ids)
+                and (candidate_ids is None or unit["id"] in candidate_ids)
                 and (args.review is None or unit.get("editorial_review") == args.review)
             ]
             print(json.dumps({"total_matches": len(matched),
