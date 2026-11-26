@@ -1,0 +1,364 @@
+{
+  "source_document": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+  "units": [
+    {
+      "id": "material:0003842",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "UdeM — approfondissement par formation : 22 codes d'ensembles",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Date : 10 novembre 2026, phase 1A.** Cette passe exploite les **pages pédagogiques officielles des ensembles facultaires**, avec un lien par formation. Elle enrichit **22 codes** correspondant à huit types d'ensembles. Les sigles numéroté",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "document_sha256": "91c304bfe011ab563c44231c78e77a4f261ace586957f56ffd7e4d3785a18c09",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f1f7b3f9be99b323ddcf0051",
+            "heading_path": [
+              "UdeM — approfondissement par formation : 22 codes d'ensembles"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 85
+          },
+          "content_sha256": "5e60ad186a141c92714de85fdbb1d6393e59c0e5d2b60780efc332afb7b254d4",
+          "body_sha256": "93d2e44ef89fa5f01c574afc51913c7495c8df614192272140ea6e47ce412968",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003843",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Atelier de percussion — MUE 1171, MUE 1172, MUE 1173",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Page officielle de la formation](https://musique.umontreal.ca/etudier/ensembles-facultaires/atelier-de-percussion/)** · 3 code(s) concernés · carte partielle malgré un cadre de formation précisé.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "document_sha256": "91c304bfe011ab563c44231c78e77a4f261ace586957f56ffd7e4d3785a18c09",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f3bef4fda621bb92be3485e2",
+            "heading_path": [
+              "UdeM — approfondissement par formation : 22 codes d'ensembles",
+              "Atelier de percussion — MUE 1171, MUE 1172, MUE 1173"
+            ],
+            "start_line": 5,
+            "end_line": 13,
+            "subtree_end_line": 13
+          },
+          "content_sha256": "cff332a1bd39a753b562a00e929171223b1aea5b32928f09c95c1f7e18d0aa96",
+          "body_sha256": "8664af50b1029859b2bd7ae18ee328e58eacb76e210081f6a4ca8e62a605e1d8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003844",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Ensemble de claviers — MUE 1191, MUE 1192, MUE 1193",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Page officielle de la formation](https://musique.umontreal.ca/en/study/faculty-ensembles/keyboard-ensemble/)** · 3 code(s) concernés · carte partielle malgré un cadre de formation précisé.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "document_sha256": "91c304bfe011ab563c44231c78e77a4f261ace586957f56ffd7e4d3785a18c09",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ea844b98056c3d71549cdf1f",
+            "heading_path": [
+              "UdeM — approfondissement par formation : 22 codes d'ensembles",
+              "Ensemble de claviers — MUE 1191, MUE 1192, MUE 1193"
+            ],
+            "start_line": 14,
+            "end_line": 22,
+            "subtree_end_line": 22
+          },
+          "content_sha256": "d78b32f302e4f4625e2f47fddd873b573e078c1ca845f06f0231e1358108e383",
+          "body_sha256": "803857246a6b53340bd99a0352ee2127a40b6c9d1c42b42702ec62fb5b45308b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003845",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Ensemble de cuivres — MUE 1211, MUE 1212, MUE 1213",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Page officielle de la formation](https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-de-cuivres/)** · 3 code(s) concernés · carte initiale utilisable au niveau de la formation (non de la section).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "document_sha256": "91c304bfe011ab563c44231c78e77a4f261ace586957f56ffd7e4d3785a18c09",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:653ba4b724dd3e3bd548f846",
+            "heading_path": [
+              "UdeM — approfondissement par formation : 22 codes d'ensembles",
+              "Ensemble de cuivres — MUE 1211, MUE 1212, MUE 1213"
+            ],
+            "start_line": 23,
+            "end_line": 32,
+            "subtree_end_line": 32
+          },
+          "content_sha256": "f54a5aa7066a322bfbae300ac325502cef818164a63fa5e6187ae44ee89f754d",
+          "body_sha256": "a9e921224e1a75611ba5df41b96af082b725f7fe148a678868bd701215b7d63e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003846",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Ensemble musique de chambre — MUE 1241, MUE 1242, MUE 1243",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Page officielle de la formation](https://musique.umontreal.ca/etudier/ensembles-facultaires/ensembles-de-musique-de-chambre/)** · 3 code(s) concernés · carte initiale utilisable au niveau de la formation (non de la section).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "document_sha256": "91c304bfe011ab563c44231c78e77a4f261ace586957f56ffd7e4d3785a18c09",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:dac62f5d559e2e60423e33ac",
+            "heading_path": [
+              "UdeM — approfondissement par formation : 22 codes d'ensembles",
+              "Ensemble musique de chambre — MUE 1241, MUE 1242, MUE 1243"
+            ],
+            "start_line": 33,
+            "end_line": 42,
+            "subtree_end_line": 42
+          },
+          "content_sha256": "5d94c5cf54576da90e3fa4fbb7e9770f92a42b61f619803411a6ae6e7417ed4e",
+          "body_sha256": "c64b516959a47e4e2f5c6f496cc7c654e31e77166fcfa756255a038a393c3912",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003847",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Ensemble d'instruments à vent — MUE 1251, MUE 1252, MUE 1253",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Page officielle de la formation](https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-dinstruments-a-vent/)** · 3 code(s) concernés · carte partielle malgré un cadre de formation précisé.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "document_sha256": "91c304bfe011ab563c44231c78e77a4f261ace586957f56ffd7e4d3785a18c09",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f21c554d8f92781e6786aebe",
+            "heading_path": [
+              "UdeM — approfondissement par formation : 22 codes d'ensembles",
+              "Ensemble d'instruments à vent — MUE 1251, MUE 1252, MUE 1253"
+            ],
+            "start_line": 43,
+            "end_line": 52,
+            "subtree_end_line": 52
+          },
+          "content_sha256": "1cd789150a6c9f4c70da7a037b4d485db6f4f2cfa6eb39cd5927cda8a3fa2a31",
+          "body_sha256": "3e5151a63a6cb9c676e90c57cb4172c10a78e363752088d6c05325cb5e9f7321",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003848",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Chorale — MUE 1281, MUE 1282, MUE 1283",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Page officielle de la formation](https://musique.umontreal.ca/etudier/ensembles-facultaires/chorale-de-luniversite-de-montreal/)** · 3 code(s) concernés · carte initiale utilisable au niveau de la formation (non de la section).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "document_sha256": "91c304bfe011ab563c44231c78e77a4f261ace586957f56ffd7e4d3785a18c09",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ae1b337e70a1852e7e001859",
+            "heading_path": [
+              "UdeM — approfondissement par formation : 22 codes d'ensembles",
+              "Chorale — MUE 1281, MUE 1282, MUE 1283"
+            ],
+            "start_line": 53,
+            "end_line": 62,
+            "subtree_end_line": 62
+          },
+          "content_sha256": "fbc5af5bcbeb7cea4ad3923075e7daefbd8e36d6c3298a006bfaf4eb3feef32f",
+          "body_sha256": "b1b58e2a565b7a08d14bc6c174c7d98a896a4b3505c51bd10286315f6b250d72",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003849",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Gamelan — MUE 1341, MUE 1342, MUE 1343",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Page officielle de la formation](https://musique.umontreal.ca/etudier/ensembles-facultaires/atelier-de-gamelan/)** · 3 code(s) concernés · carte partielle malgré un cadre de formation précisé.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "document_sha256": "91c304bfe011ab563c44231c78e77a4f261ace586957f56ffd7e4d3785a18c09",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9c15e21773d44dbd924d2425",
+            "heading_path": [
+              "UdeM — approfondissement par formation : 22 codes d'ensembles",
+              "Gamelan — MUE 1341, MUE 1342, MUE 1343"
+            ],
+            "start_line": 63,
+            "end_line": 72,
+            "subtree_end_line": 72
+          },
+          "content_sha256": "99eee20c1a2794ff723e373a7abd788724b8140fb6386bce152aa728f02cd3eb",
+          "body_sha256": "2aa12ac2f13fa620ed1ed60514daede62df8902566e513dc2236fd78abfc8c3a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003850",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Orchestre — MUE 1441",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Page officielle de la formation](https://musique.umontreal.ca/etudier/ensembles-facultaires/orchestre-de-luniversite-de-montreal/)** · 1 code(s) concernés · carte partielle malgré un cadre de formation précisé.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "document_sha256": "91c304bfe011ab563c44231c78e77a4f261ace586957f56ffd7e4d3785a18c09",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:efd6265ebbddd4c19f92ea13",
+            "heading_path": [
+              "UdeM — approfondissement par formation : 22 codes d'ensembles",
+              "Orchestre — MUE 1441"
+            ],
+            "start_line": 73,
+            "end_line": 82,
+            "subtree_end_line": 82
+          },
+          "content_sha256": "5637a1667f2582a66416fc52353fdea3791f35eedabac8b81b20394a52bc0a8d",
+          "body_sha256": "0202aa8fe8cb6ea025cc64ecf8c835a402cd9443ed465950a708c7633fe19e45",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003851",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Évaluation documentaire",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **22 codes décrits**, dont **9 passés à carte thématique utilisable** seulement parce que la page de la formation détaille ses objectifs et contenus; les **13 autres restent partiels**. Cela ne crée aucun syllabus distinct pour les niveaux",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-22-ensemble-specialized-topics.md",
+          "document_sha256": "91c304bfe011ab563c44231c78e77a4f261ace586957f56ffd7e4d3785a18c09",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e36c7f7ecadf3132b637c355",
+            "heading_path": [
+              "UdeM — approfondissement par formation : 22 codes d'ensembles",
+              "Évaluation documentaire"
+            ],
+            "start_line": 83,
+            "end_line": 85,
+            "subtree_end_line": 85
+          },
+          "content_sha256": "4e5bd85fd54f5c9251de31a5a884552857a3bc638fed4da55591b578be3d586d",
+          "body_sha256": "f761373c251480d90ff93a70a63fcbc47684c842d6ab11c19ad1cfacbebab0c9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

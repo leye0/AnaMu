@@ -1,0 +1,616 @@
+{
+  "source_document": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
+  "units": [
+    {
+      "id": "material:0003791",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Passe 1A — 16 autres cours McGill (10 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Périmètre :** cartographie des sujets annoncés officiellement dans le [programme](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements). 6 descriptions exploitables, 10 partielles. Les pratiques individualisées/ensembl",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
+          "document_sha256": "abf6494098db5263a5a318c02ec745c9181d064b4b5e5fdc5c942d085271e122",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:18e6902b249777e9ebc3156f",
+            "heading_path": [
+              "Passe 1A — 16 autres cours McGill (10 novembre 2026)"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 149
+          },
+          "content_sha256": "81320cba98ca832ce7f785ba4511bfc5360bbd32d939238052bf8f6dd68c0e31",
+          "body_sha256": "4aaed5a4b86b3478f63a4932397802203bce7f104effadb279969bc75fa6b3f4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003792",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUPD 235 — Music as a Profession 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) · [ancienne fiche](../courses/mcgill/MUPD-235.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
+          "document_sha256": "abf6494098db5263a5a318c02ec745c9181d064b4b5e5fdc5c942d085271e122",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:32512932070e3457fbc22ae8",
+            "heading_path": [
+              "Passe 1A — 16 autres cours McGill (10 novembre 2026)",
+              "MUPD 235 — Music as a Profession 2"
+            ],
+            "start_line": 5,
+            "end_line": 13,
+            "subtree_end_line": 13
+          },
+          "content_sha256": "cf29131848223ae8781f17c7e88dfd0ad363e27a36ec7bb83e525d35741b1fdc",
+          "body_sha256": "76d355e12f3c745afb0ebc951caf73570783486ee52447bc267ad94a85f702d1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003793",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUTH 202 — Modal Counterpoint 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) · [ancienne fiche](../courses/mcgill/MUTH-202.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
+          "document_sha256": "abf6494098db5263a5a318c02ec745c9181d064b4b5e5fdc5c942d085271e122",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:870a4c62b6240b83fb70b5f9",
+            "heading_path": [
+              "Passe 1A — 16 autres cours McGill (10 novembre 2026)",
+              "MUTH 202 — Modal Counterpoint 1"
+            ],
+            "start_line": 14,
+            "end_line": 22,
+            "subtree_end_line": 22
+          },
+          "content_sha256": "eba795472eeb08e28ca783e6d2ccf6ce20ae92e06971affff573aa30ee409cdd",
+          "body_sha256": "bea303f776451855e302e215637cff0e5778931392b05f99c7b40ee6179326df",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003794",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUTH 204 — Tonal Counterpoint 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) · [ancienne fiche](../courses/mcgill/MUTH-204.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
+          "document_sha256": "abf6494098db5263a5a318c02ec745c9181d064b4b5e5fdc5c942d085271e122",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2213952823e3e9740621ae9c",
+            "heading_path": [
+              "Passe 1A — 16 autres cours McGill (10 novembre 2026)",
+              "MUTH 204 — Tonal Counterpoint 1"
+            ],
+            "start_line": 23,
+            "end_line": 31,
+            "subtree_end_line": 31
+          },
+          "content_sha256": "2b5f3f874712337fadf18737b850665a5a048ff2d2c7746a9cc3ef6400f7433e",
+          "body_sha256": "325c1065721681ccbb8207769a4ae7e8630435ff394c5157bab17b718afa516b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003795",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUEN 563 — Jazz Vocal Workshop",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) · [ancienne fiche](../courses/mcgill/MUEN-563.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
+          "document_sha256": "abf6494098db5263a5a318c02ec745c9181d064b4b5e5fdc5c942d085271e122",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d620ff289fc7eea9d48f8853",
+            "heading_path": [
+              "Passe 1A — 16 autres cours McGill (10 novembre 2026)",
+              "MUEN 563 — Jazz Vocal Workshop"
+            ],
+            "start_line": 32,
+            "end_line": 40,
+            "subtree_end_line": 40
+          },
+          "content_sha256": "486b3fdc19fc1b2f61fb010ea9ce13a6c6c66dfa09c67f2fb2a7cc9f45d8450d",
+          "body_sha256": "8d1e11c22c4d642108fd223921daaab95b3c0ae3b00261ff26380e898b1470d9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003796",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUEN 572 — Cappella Antica",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) · [ancienne fiche](../courses/mcgill/MUEN-572.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
+          "document_sha256": "abf6494098db5263a5a318c02ec745c9181d064b4b5e5fdc5c942d085271e122",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8ef324d60d8fb95bf5bb4d99",
+            "heading_path": [
+              "Passe 1A — 16 autres cours McGill (10 novembre 2026)",
+              "MUEN 572 — Cappella Antica"
+            ],
+            "start_line": 41,
+            "end_line": 49,
+            "subtree_end_line": 49
+          },
+          "content_sha256": "1f2b2b683a2401f5ef9b59da6401677a0659f756f5c8fe3f76da334837de2bb9",
+          "body_sha256": "ef2cc889fa89d32ea2f9513572abed960d2b02713e464862cb77d2ddc3c0228a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003797",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUEN 573 — Baroque Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) · [ancienne fiche](../courses/mcgill/MUEN-573.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
+          "document_sha256": "abf6494098db5263a5a318c02ec745c9181d064b4b5e5fdc5c942d085271e122",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6eae82ad0f28473c652f9bdb",
+            "heading_path": [
+              "Passe 1A — 16 autres cours McGill (10 novembre 2026)",
+              "MUEN 573 — Baroque Orchestra"
+            ],
+            "start_line": 50,
+            "end_line": 58,
+            "subtree_end_line": 58
+          },
+          "content_sha256": "02287665aa0faf557f4a070379ccd7c9ca79bbf2d585d33e62d5be6d03dde6d7",
+          "body_sha256": "14108cc8ef66042bd5068b35f29bee158fc55f59c2139ed460b9e140997e708e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003798",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUEN 587 — Cappella McGill",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) · [ancienne fiche](../courses/mcgill/MUEN-587.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
+          "document_sha256": "abf6494098db5263a5a318c02ec745c9181d064b4b5e5fdc5c942d085271e122",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6a1238f66467232bcc497d0a",
+            "heading_path": [
+              "Passe 1A — 16 autres cours McGill (10 novembre 2026)",
+              "MUEN 587 — Cappella McGill"
+            ],
+            "start_line": 59,
+            "end_line": 67,
+            "subtree_end_line": 67
+          },
+          "content_sha256": "a201a1c89941073386bd8e0daa57472d68109ab0bead80a8f21d64fe436b7b54",
+          "body_sha256": "85ad6a2b9a1a40070c2dbdede5cd6b72dd6fa27a018a00903c6bbc723e325570",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003799",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUEN 590 — McGill Wind Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) · [ancienne fiche](../courses/mcgill/MUEN-590.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
+          "document_sha256": "abf6494098db5263a5a318c02ec745c9181d064b4b5e5fdc5c942d085271e122",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f447da2e897e19fb3640c8d0",
+            "heading_path": [
+              "Passe 1A — 16 autres cours McGill (10 novembre 2026)",
+              "MUEN 590 — McGill Wind Orchestra"
+            ],
+            "start_line": 68,
+            "end_line": 76,
+            "subtree_end_line": 76
+          },
+          "content_sha256": "570c35b0c1047375dce1ab1e0a4c2377e208cffd25601ac29c86e6ee03ed0cf4",
+          "body_sha256": "11613821aefcf4f38a14c74de8f41600a87f54ee5c3fa871dc73797d5eea8da3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003800",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUEN 592 — Chamber Jazz Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) · [ancienne fiche](../courses/mcgill/MUEN-592.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
+          "document_sha256": "abf6494098db5263a5a318c02ec745c9181d064b4b5e5fdc5c942d085271e122",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9deaf77d1c20cff69b9e3c76",
+            "heading_path": [
+              "Passe 1A — 16 autres cours McGill (10 novembre 2026)",
+              "MUEN 592 — Chamber Jazz Ensemble"
+            ],
+            "start_line": 77,
+            "end_line": 85,
+            "subtree_end_line": 85
+          },
+          "content_sha256": "cb7554f830932bb61cdfd31390f1c97126942f271e57fc705bf004edfc5b2443",
+          "body_sha256": "d181560458e04c43ad1ff855649bb1948a61dfa57bd20a3022b9b4961ee4f55c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003801",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUEN 593 — Choral Ensembles",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) · [ancienne fiche](../courses/mcgill/MUEN-593.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
+          "document_sha256": "abf6494098db5263a5a318c02ec745c9181d064b4b5e5fdc5c942d085271e122",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d4038e64262115ee6db1ec82",
+            "heading_path": [
+              "Passe 1A — 16 autres cours McGill (10 novembre 2026)",
+              "MUEN 593 — Choral Ensembles"
+            ],
+            "start_line": 86,
+            "end_line": 94,
+            "subtree_end_line": 94
+          },
+          "content_sha256": "b762e1f5d85f13c2206529014123d888b0ae5f8354189aea7af9ac3718911ab1",
+          "body_sha256": "f3bf0dd5de9b5f87883151e15f8d17fecbd7884906a9d9617b01dfbb3229edba",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003802",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUEN 594 — Contemporary Music Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) · [ancienne fiche](../courses/mcgill/MUEN-594.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
+          "document_sha256": "abf6494098db5263a5a318c02ec745c9181d064b4b5e5fdc5c942d085271e122",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b5a4e758fb0f2baacc642228",
+            "heading_path": [
+              "Passe 1A — 16 autres cours McGill (10 novembre 2026)",
+              "MUEN 594 — Contemporary Music Ensemble"
+            ],
+            "start_line": 95,
+            "end_line": 103,
+            "subtree_end_line": 103
+          },
+          "content_sha256": "5e5f0cad6ce28023a07203fe323b239e8921d10bd0c43f9b1b9e2f20b5d89928",
+          "body_sha256": "10e5f2f17635516e9fff0972384a3b96bbb1b30b94ea2f30b16f8cb58a933a9a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003803",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUEN 595 — Jazz Ensembles",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) · [ancienne fiche](../courses/mcgill/MUEN-595.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
+          "document_sha256": "abf6494098db5263a5a318c02ec745c9181d064b4b5e5fdc5c942d085271e122",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1ccc40be4ff807dffb2e964b",
+            "heading_path": [
+              "Passe 1A — 16 autres cours McGill (10 novembre 2026)",
+              "MUEN 595 — Jazz Ensembles"
+            ],
+            "start_line": 104,
+            "end_line": 112,
+            "subtree_end_line": 112
+          },
+          "content_sha256": "b0330fb3bc4ef05525101d829a89b045551202299a3ca9cf9e9121d216ec91e4",
+          "body_sha256": "6538cdd77d82ae60799c6301f1c0f902da7df648db85769aadbc781382f0e55b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003804",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUEN 597 — McGill Symphony Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) · [ancienne fiche](../courses/mcgill/MUEN-597.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
+          "document_sha256": "abf6494098db5263a5a318c02ec745c9181d064b4b5e5fdc5c942d085271e122",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:09a98594ec6877437afd3e43",
+            "heading_path": [
+              "Passe 1A — 16 autres cours McGill (10 novembre 2026)",
+              "MUEN 597 — McGill Symphony Orchestra"
+            ],
+            "start_line": 113,
+            "end_line": 121,
+            "subtree_end_line": 121
+          },
+          "content_sha256": "f0fca1506986ce917d6547143a7bccb3403a6233511aed3f5e89f0c8e8e0ee2a",
+          "body_sha256": "fbaf83181de80dd5fd39881c176e8d18d96248e08e7044d4a177a619d2850f9e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003805",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUCO 542 — Advanced Digital Studio Composition 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) · [ancienne fiche](../courses/mcgill/MUCO-542.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
+          "document_sha256": "abf6494098db5263a5a318c02ec745c9181d064b4b5e5fdc5c942d085271e122",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7187ca2a3d7f78d4a1f36695",
+            "heading_path": [
+              "Passe 1A — 16 autres cours McGill (10 novembre 2026)",
+              "MUCO 542 — Advanced Digital Studio Composition 2"
+            ],
+            "start_line": 122,
+            "end_line": 131,
+            "subtree_end_line": 131
+          },
+          "content_sha256": "1570818ebf6c85b381703c00fb02dcb7c7bc5c856fb4405aa7b1f39d0d74e166",
+          "body_sha256": "b304af7c2718cfad728b797774187db36367e5c0a8e6684c2ab0debb45839323",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003806",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUTH 304 — Tonal Counterpoint 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) · [ancienne fiche](../courses/mcgill/MUTH-304.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
+          "document_sha256": "abf6494098db5263a5a318c02ec745c9181d064b4b5e5fdc5c942d085271e122",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6071a009f045f284065b8189",
+            "heading_path": [
+              "Passe 1A — 16 autres cours McGill (10 novembre 2026)",
+              "MUTH 304 — Tonal Counterpoint 2"
+            ],
+            "start_line": 132,
+            "end_line": 140,
+            "subtree_end_line": 140
+          },
+          "content_sha256": "43ed723faf9fd16f1fea61c84b90ee066d03bb522c0c6b3e097cd73108a83d6f",
+          "body_sha256": "ab6f8b597199b09a9a1c89ab71dbbafcc5d2fb8dbaa4a57adb7af2ec2055f972",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003807",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUTH 528 — Schenkerian Theory and Analysis",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) · [ancienne fiche](../courses/mcgill/MUTH-528.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-16-more-topic-outlines.md",
+          "document_sha256": "abf6494098db5263a5a318c02ec745c9181d064b4b5e5fdc5c942d085271e122",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ceaf585381b60b962e3b5ec9",
+            "heading_path": [
+              "Passe 1A — 16 autres cours McGill (10 novembre 2026)",
+              "MUTH 528 — Schenkerian Theory and Analysis"
+            ],
+            "start_line": 141,
+            "end_line": 149,
+            "subtree_end_line": 149
+          },
+          "content_sha256": "92fcddb3e6b87cce24a29017cbdfff8701a6ea55b9ff7b2c5f0ace90d963b86d",
+          "body_sha256": "9372033cc7d75139c485afe0299f4511fc5b5977fcaa5dffcc31fe8d08b341f4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

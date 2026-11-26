@@ -1,0 +1,112 @@
+{
+  "source_document": "docs/raw-batches/2026-11-10-udem-19-plans.md",
+  "units": [
+    {
+      "id": "material:0003839",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lot brut UdeM : 19 PDF pédagogiques 2026–2027",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Collecte rapide, non finalisée.** Source index : [Séminaires UdeM 2026–2027](https://musique.umontreal.ca/etudier/nos-programmes-detudes/seminaires/). **19 PDF vérifiés** (certains bilingues ou multi-codes), surtout des séminaires des cyc",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-19-plans.md",
+          "document_sha256": "c13b8a7bc967c4a29707f8a83a2b4dad7c4d85c6f4889a0e4463af45eeb70e4c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:23f079fb7be79b7fe0504998",
+            "heading_path": [
+              "Lot brut UdeM : 19 PDF pédagogiques 2026–2027"
+            ],
+            "start_line": 1,
+            "end_line": 26,
+            "subtree_end_line": 37
+          },
+          "content_sha256": "7a547732af0686c72d3d678aa01116f31081092b2009ef854eebc6b145d60826",
+          "body_sha256": "f5130d7afb32910c696e66c2914998683b2a81a2ccb3e7a0e063bdc8c5a27827",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003840",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Résumé brut utile",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Expression et interprétation** : MIN 6961 analyse le mouvement, MUL 6228 compare partition et exécution, MIN 6941 analyse plusieurs versions enregistrées et impose un récital en duo. Ce sont trois objets de recherche distincts.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-19-plans.md",
+          "document_sha256": "c13b8a7bc967c4a29707f8a83a2b4dad7c4d85c6f4889a0e4463af45eeb70e4c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:813582b8e2d8291770ddec69",
+            "heading_path": [
+              "Lot brut UdeM : 19 PDF pédagogiques 2026–2027",
+              "Résumé brut utile"
+            ],
+            "start_line": 27,
+            "end_line": 34,
+            "subtree_end_line": 34
+          },
+          "content_sha256": "52420c0a47463f8bc5f7ced6df19b127b33baff046effb385b1666665d28f1d0",
+          "body_sha256": "6b2ef3c35b4102861d5d213f597165dd12c197c2be0cc5a27f18602a2af026a0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003841",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Prochaine passe",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cible prioritaire : les 194 codes catalog_only du registre**, par lots de 10–30 codes avec code, édition, lien, type de preuve, matière vérifiée et lacune. Si un syllabus propre à un code est trouvé, faire une promotion prudente dans le r",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-19-plans.md",
+          "document_sha256": "c13b8a7bc967c4a29707f8a83a2b4dad7c4d85c6f4889a0e4463af45eeb70e4c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c3f97c9ffa182935ea4030ff",
+            "heading_path": [
+              "Lot brut UdeM : 19 PDF pédagogiques 2026–2027",
+              "Prochaine passe"
+            ],
+            "start_line": 35,
+            "end_line": 37,
+            "subtree_end_line": 37
+          },
+          "content_sha256": "5a4e440fdf2b9d17a1035bf8b31510d2905e122ec4de3de91c21a8baafc576d4",
+          "body_sha256": "cb7babf3c802f5028606919f4c6246a6acc6ec620c0830271dc638cadc011dba",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

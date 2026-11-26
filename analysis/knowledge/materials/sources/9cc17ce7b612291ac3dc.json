@@ -1,0 +1,508 @@
+{
+  "source_document": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+  "units": [
+    {
+      "id": "material:0003777",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "AnaMu — McGill : carte thématique brute de 12 codes auparavant au catalogue",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Date : 10 novembre 2026.** Tous ces cours sont déjà dans les 402 codes du registre. Source officielle McGill (programme Composition 2026–2027 ou ancien eCalendar cité avec sa date). **Deux descriptions thématiques utilisables en première",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "document_sha256": "b017e137fca466f76cff13f97d99f03ae6245bfe468498381925dd8dda84b40b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d1524718494204f13b23bc5b",
+            "heading_path": [
+              "AnaMu — McGill : carte thématique brute de 12 codes auparavant au catalogue"
+            ],
+            "start_line": 1,
+            "end_line": 6,
+            "subtree_end_line": 126
+          },
+          "content_sha256": "995f7bed9f88e805fc21839c71b418d0816caaa7fe5942eab9136e4bc91c90d9",
+          "body_sha256": "96e16c6ac5270022bc4118f19226bfe0b7525d81860ca85b013d2a13c544036f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003778",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUHL 385 — Early Twentieth-Century Music",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Statut de la carte 1A :** partial; **source primaire :** [McGill](https://www.mcgill.ca/study/2024-2025/courses/muhl-385) (**édition historique 2024–2025**). **Pas de syllabus de section revendiqué.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "document_sha256": "b017e137fca466f76cff13f97d99f03ae6245bfe468498381925dd8dda84b40b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5ffdf84d0dd3624bf7201a78",
+            "heading_path": [
+              "AnaMu — McGill : carte thématique brute de 12 codes auparavant au catalogue",
+              "MUHL 385 — Early Twentieth-Century Music"
+            ],
+            "start_line": 7,
+            "end_line": 16,
+            "subtree_end_line": 16
+          },
+          "content_sha256": "28777106ea2edba97f9562b06adfdfddf0f72f709d408f49cd4fecfdf62d4f88",
+          "body_sha256": "19ba63b75b6f9f4480e0df7c145e294e98d39b7f3c66b0a8134e339c0faa3537",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003779",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUHL 388 — Opera After 1900",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Statut de la carte 1A :** usable_first_pass; **source primaire :** [McGill](https://www.mcgill.ca/music/programs/bmus/voice/requirements) (**page institutionnelle 2026–2027**). **Pas de syllabus de section revendiqué.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "document_sha256": "b017e137fca466f76cff13f97d99f03ae6245bfe468498381925dd8dda84b40b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:92c13b8489aebc7f601ab15e",
+            "heading_path": [
+              "AnaMu — McGill : carte thématique brute de 12 codes auparavant au catalogue",
+              "MUHL 388 — Opera After 1900"
+            ],
+            "start_line": 17,
+            "end_line": 26,
+            "subtree_end_line": 26
+          },
+          "content_sha256": "87b44cf5e370798faa735c019847882cace9fb15f4dfa480f506579feff38c40",
+          "body_sha256": "ccd4e6d82320333351d048367ae8e7e6dbaf4931382479c421bf66fb25487fdc",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003780",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUHL 391 — Canadian Music",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Statut de la carte 1A :** partial; **source primaire :** [McGill](https://www.mcgill.ca/study/2024-2025/courses/muhl-391) (**édition historique 2024–2025**). **Pas de syllabus de section revendiqué.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "document_sha256": "b017e137fca466f76cff13f97d99f03ae6245bfe468498381925dd8dda84b40b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:598e7e0ab4fb4c4c8394b438",
+            "heading_path": [
+              "AnaMu — McGill : carte thématique brute de 12 codes auparavant au catalogue",
+              "MUHL 391 — Canadian Music"
+            ],
+            "start_line": 27,
+            "end_line": 36,
+            "subtree_end_line": 36
+          },
+          "content_sha256": "fa41847da8044b24d229f8411379b7e78a1582bceaf968e6566ef36a274d9033",
+          "body_sha256": "3cb77762854d25136b2d5f5bc06ec3d4adbe184237fdde249254f065214a3e11",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003781",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUHL 392 — Music since 1945",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Statut de la carte 1A :** usable_first_pass; **source primaire :** [McGill](https://www.mcgill.ca/study/2024-2025/courses/muhl-392) (**édition historique 2024–2025**). **Pas de syllabus de section revendiqué.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "document_sha256": "b017e137fca466f76cff13f97d99f03ae6245bfe468498381925dd8dda84b40b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0cdd58d22d0f34e7d16bb47b",
+            "heading_path": [
+              "AnaMu — McGill : carte thématique brute de 12 codes auparavant au catalogue",
+              "MUHL 392 — Music since 1945"
+            ],
+            "start_line": 37,
+            "end_line": 47,
+            "subtree_end_line": 47
+          },
+          "content_sha256": "4f120a52f7c213e4364faddbb135b341a1c31b6f2e954f30e2dba9542d382fb9",
+          "body_sha256": "93cc8a69d68ce1f9f0f3187db9b745135bb9272d4400ccf2195f54b33ab7f1e8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003782",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUTH 302 — Modal Counterpoint 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Statut de la carte 1A :** partial; **source primaire :** [McGill](https://www.mcgill.ca/study/2024-2025/courses/muth-302) (**édition historique 2024–2025**). **Pas de syllabus de section revendiqué.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "document_sha256": "b017e137fca466f76cff13f97d99f03ae6245bfe468498381925dd8dda84b40b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0c4897126f86c8541abe9922",
+            "heading_path": [
+              "AnaMu — McGill : carte thématique brute de 12 codes auparavant au catalogue",
+              "MUTH 302 — Modal Counterpoint 2"
+            ],
+            "start_line": 48,
+            "end_line": 57,
+            "subtree_end_line": 57
+          },
+          "content_sha256": "dc51dae1cb91b497f416dcf9a8e293fb85b838ebcc548a279a1420b316bbff26",
+          "body_sha256": "d655da7b30915d02e3225d71210d823a3e582e42f36825132cabba2121c019bc",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003783",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUTH 322 — Topics in Post-Tonal Analysis",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Statut de la carte 1A :** partial; **source primaire :** [McGill](https://www.mcgill.ca/study/2024-2025/courses/muth-322) (**édition historique 2024–2025**). **Pas de syllabus de section revendiqué.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "document_sha256": "b017e137fca466f76cff13f97d99f03ae6245bfe468498381925dd8dda84b40b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ba942684e892608790c5c968",
+            "heading_path": [
+              "AnaMu — McGill : carte thématique brute de 12 codes auparavant au catalogue",
+              "MUTH 322 — Topics in Post-Tonal Analysis"
+            ],
+            "start_line": 58,
+            "end_line": 66,
+            "subtree_end_line": 66
+          },
+          "content_sha256": "3ee72376722be0a87c702ed606189f142b1796bcdd8ac5817fbcc2e89624c371",
+          "body_sha256": "4f2b641522ebdc8d71f12d55be29b13521a911be20b437789ea432279edce5b3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003784",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUTH 538 — Mathematical Models for Musical Analysis",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Statut de la carte 1A :** partial; **source primaire :** [McGill](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) (**page institutionnelle 2026–2027**). **Pas de syllabus de section revendiqué.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "document_sha256": "b017e137fca466f76cff13f97d99f03ae6245bfe468498381925dd8dda84b40b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8df28aad8c4608dd468a8b33",
+            "heading_path": [
+              "AnaMu — McGill : carte thématique brute de 12 codes auparavant au catalogue",
+              "MUTH 538 — Mathematical Models for Musical Analysis"
+            ],
+            "start_line": 67,
+            "end_line": 76,
+            "subtree_end_line": 76
+          },
+          "content_sha256": "ec3e9768f2863ed9a58a4fc91d3d70d18d324431f11fce0bf703c8feb00119a8",
+          "body_sha256": "f14e3c63c097d6fe45c1afbd73faed75b7870370df8ef58312c1d43c2ac0131d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003785",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUTH 539 — Advanced Writing Techniques",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Statut de la carte 1A :** partial; **source primaire :** [McGill](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) (**page institutionnelle 2026–2027**). **Pas de syllabus de section revendiqué.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "document_sha256": "b017e137fca466f76cff13f97d99f03ae6245bfe468498381925dd8dda84b40b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ea892c8d82e71f9b01598582",
+            "heading_path": [
+              "AnaMu — McGill : carte thématique brute de 12 codes auparavant au catalogue",
+              "MUTH 539 — Advanced Writing Techniques"
+            ],
+            "start_line": 77,
+            "end_line": 86,
+            "subtree_end_line": 86
+          },
+          "content_sha256": "8bfb9ee50ca841bf41a899c6916809acc0ac5962460138331d697e89e2527c08",
+          "body_sha256": "a4a284dca58269821b7564bd3394e86dcf909f4e2f6d629e15ac4f8f459f4b9a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003786",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUIN 180 — BMus Practical Lessons 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Statut de la carte 1A :** partial; **source primaire :** [McGill](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) (**page institutionnelle 2026–2027**). **Pas de syllabus de section revendiqué.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "document_sha256": "b017e137fca466f76cff13f97d99f03ae6245bfe468498381925dd8dda84b40b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4775542020c84f74d87aaa63",
+            "heading_path": [
+              "AnaMu — McGill : carte thématique brute de 12 codes auparavant au catalogue",
+              "MUIN 180 — BMus Practical Lessons 1"
+            ],
+            "start_line": 87,
+            "end_line": 95,
+            "subtree_end_line": 95
+          },
+          "content_sha256": "1000863fe19fbae42bb0471e909a6a7eb2b883d60bf212e702f7bf98808b7cb3",
+          "body_sha256": "ed09127cb7e8705f68f150c408444d81ffba90d32047ca5b59b502da81b5e89d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003787",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUIN 181 — BMus Practical Lessons 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Statut de la carte 1A :** partial; **source primaire :** [McGill](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) (**page institutionnelle 2026–2027**). **Pas de syllabus de section revendiqué.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "document_sha256": "b017e137fca466f76cff13f97d99f03ae6245bfe468498381925dd8dda84b40b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2dddf6ebe27dbbc5781a17db",
+            "heading_path": [
+              "AnaMu — McGill : carte thématique brute de 12 codes auparavant au catalogue",
+              "MUIN 181 — BMus Practical Lessons 2"
+            ],
+            "start_line": 96,
+            "end_line": 104,
+            "subtree_end_line": 104
+          },
+          "content_sha256": "55186a54225ab94c1bffe933b3612bbeff2ad18af7ff66a5afc2830b6e8eaae7",
+          "body_sha256": "4f5e3cba3b7901add6d350c7ef2a7d883e2a60950785b0db891c60cc34e36aa3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003788",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUIN 280 — BMus Practical Lessons 3",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Statut de la carte 1A :** partial; **source primaire :** [McGill](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) (**page institutionnelle 2026–2027**). **Pas de syllabus de section revendiqué.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "document_sha256": "b017e137fca466f76cff13f97d99f03ae6245bfe468498381925dd8dda84b40b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:79bd61b55ea8a604520ad340",
+            "heading_path": [
+              "AnaMu — McGill : carte thématique brute de 12 codes auparavant au catalogue",
+              "MUIN 280 — BMus Practical Lessons 3"
+            ],
+            "start_line": 105,
+            "end_line": 113,
+            "subtree_end_line": 113
+          },
+          "content_sha256": "e696ec6b5c0cc5d27897775d8ba6096a72377d2c493a24aa2ea32079b97062b8",
+          "body_sha256": "8a6fe12e86a7d00cbfebce321eef8e37cbc8a81c345c2c693d36e7bb2ad85e33",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003789",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUIN 281 — BMus Practical Lessons 4",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Statut de la carte 1A :** partial; **source primaire :** [McGill](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) (**page institutionnelle 2026–2027**). **Pas de syllabus de section revendiqué.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "document_sha256": "b017e137fca466f76cff13f97d99f03ae6245bfe468498381925dd8dda84b40b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ac189cab1a13a3ade7fc1de0",
+            "heading_path": [
+              "AnaMu — McGill : carte thématique brute de 12 codes auparavant au catalogue",
+              "MUIN 281 — BMus Practical Lessons 4"
+            ],
+            "start_line": 114,
+            "end_line": 123,
+            "subtree_end_line": 123
+          },
+          "content_sha256": "59249627c6308c2937563e61650fb1d93884326c7b3680c9117412d4e054e2a7",
+          "body_sha256": "9bb01ae73303107ab77effc97bcef69ceff0401691cfa270612cca618b461701",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003790",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Bilan brut",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **12 codes** documentés par une carte initiale : **2 utilisables** (MUHL 388, MUHL 392) et **10 partiels**. Les cours dont la matière dépend de l'instrument ou d'une offre variable exigent une **description à variantes**, pas une attente de",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-mcgill-12-topic-outlines.md",
+          "document_sha256": "b017e137fca466f76cff13f97d99f03ae6245bfe468498381925dd8dda84b40b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c04733cb89bff8bf9e30c0fe",
+            "heading_path": [
+              "AnaMu — McGill : carte thématique brute de 12 codes auparavant au catalogue",
+              "Bilan brut"
+            ],
+            "start_line": 124,
+            "end_line": 126,
+            "subtree_end_line": 126
+          },
+          "content_sha256": "bc041d3048f6a70c1284fc01f3d8aa2cb94f3455c3d32c2286ddbee567f290a8",
+          "body_sha256": "cffc013a922cdfa7e6651e12873d92aea9053e70f83ec5641a8a35121a0d7b63",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

@@ -1,0 +1,1372 @@
+{
+  "source_document": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+  "units": [
+    {
+      "id": "material:0003879",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **10 novembre 2026, phase 1A.** À la différence des classes de théorie, ces **36 codes d'instrument de premier niveau** ne partagent pas un programme à chapitres fixe. Pour chaque code, **la grille A26 établit l'instrument** et une page off",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c122b86a5fc0e1376d387829",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument"
+            ],
+            "start_line": 1,
+            "end_line": 6,
+            "subtree_end_line": 371
+          },
+          "content_sha256": "122c8a71c5ea57f9fc216836064126e424f016a6fb0cdff41b4f0a6cfb65975e",
+          "body_sha256": "abcfcad4c43cb1ddd80dc30e927c1215f4042ae9f0300950bee4d6b53a190319",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003880",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1023A — Flûte baroque 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : instruments anciens.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/instruments-anciens/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:fb68b5d0af215e46b2600170",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1023A — Flûte baroque 1"
+            ],
+            "start_line": 7,
+            "end_line": 16,
+            "subtree_end_line": 16
+          },
+          "content_sha256": "40bcbcdbbe21291679518f2b283d7a045d0e3fb51883b66ecbd3f3b37367cb3a",
+          "body_sha256": "da19601920808ab5a9a629e481d56080f922a75a39f6e6f1005cad5fcb20c140",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003881",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1033A — Flûte à bec 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : instruments anciens.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/instruments-anciens/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:684f94e18e33d1e0de379291",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1033A — Flûte à bec 1"
+            ],
+            "start_line": 17,
+            "end_line": 26,
+            "subtree_end_line": 26
+          },
+          "content_sha256": "e1ee1e4a4aab0cdeca61de8b8294f14f6cc89aad6fa15095aa650e0bfdda89fe",
+          "body_sha256": "c04cbc642b1c05e7a7fd8f327d52bd1897364e2f66e46d09adc85468546d3806",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003882",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1043A — Hautbois baroque 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : instruments anciens.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/instruments-anciens/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f6540c44b6abe62ef1569d45",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1043A — Hautbois baroque 1"
+            ],
+            "start_line": 27,
+            "end_line": 36,
+            "subtree_end_line": 36
+          },
+          "content_sha256": "1dd570fe78a3047cae07f4cff5d950d5724c7631a72baf05abfc29ed88f8c36a",
+          "body_sha256": "4ba8ffea258a7113f213a274d40eda5fc686431387ad7bb4266c802811eeafdf",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003883",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1053A — Luth 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : instruments anciens.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/instruments-anciens/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:82ee5bc4fa30dfc918c88364",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1053A — Luth 1"
+            ],
+            "start_line": 37,
+            "end_line": 46,
+            "subtree_end_line": 46
+          },
+          "content_sha256": "ee332cf766fa07544a19d99dd4dbc59c531749a0aaa80179d4aad4088474e304",
+          "body_sha256": "aa9ff0e91a39da57279e3e16f4d4045585d44f21108bb75d789ea6cc3b8d94b5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003884",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1073A — Violon baroque 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : instruments anciens.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/instruments-anciens/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8ec360f0b01109e6e0f19151",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1073A — Violon baroque 1"
+            ],
+            "start_line": 47,
+            "end_line": 56,
+            "subtree_end_line": 56
+          },
+          "content_sha256": "6024555f5fa63be406a40ac19fb696d13c47b505d787a9a3d6cd1a434108f353",
+          "body_sha256": "b243f4bbbcd8836e1097bc1b59f571f118eb3b8d774bf5b37676cc1f5f608b1c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003885",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1083A — Viole de gambe 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : instruments anciens.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/instruments-anciens/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e0a807f74bad729f6e722033",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1083A — Viole de gambe 1"
+            ],
+            "start_line": 57,
+            "end_line": 66,
+            "subtree_end_line": 66
+          },
+          "content_sha256": "1ea5e7ff57cb6654425b483e362f23ede67eeefecf6b37815d96b520b373479f",
+          "body_sha256": "ee228a504fc58cdc98f1e917ac5f06661f6b13a9ef4f50a1ea6824d67f999cc9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003886",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1103A — Alto 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : cordes classiques.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/cordes/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7b5df2281682242c734e3b43",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1103A — Alto 1"
+            ],
+            "start_line": 67,
+            "end_line": 76,
+            "subtree_end_line": 76
+          },
+          "content_sha256": "c371c3f98800629d1b87240d0a688ec169fe2d6da713cc8cc814e930bfc10182",
+          "body_sha256": "d3c6d6eaa26aec409a1a4acab9076ea5be07a67a4e233d36e9304bec6e0f4582",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003887",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1123A — Basson 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : bois et cuivres.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/vents/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:784ddd68f7ba2382eea6fa6c",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1123A — Basson 1"
+            ],
+            "start_line": 77,
+            "end_line": 86,
+            "subtree_end_line": 86
+          },
+          "content_sha256": "14d516a25b0d479a2703b6814b45f9e7896adee3c7afeff6c4f177604709cddf",
+          "body_sha256": "a5dc6cec99b27b9f6267a7208125389a1ce3fc342d15d92a5c7f886fcd592d49",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003888",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1132A — Chant 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : chant classique.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/chant-classique/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3c920fba43ce44e546bbed32",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1132A — Chant 1"
+            ],
+            "start_line": 87,
+            "end_line": 96,
+            "subtree_end_line": 96
+          },
+          "content_sha256": "73ded3133ec29653834b1cadd25819510355cb638f7ca9047a9656010ef2214c",
+          "body_sha256": "6f0c9e721b0ef3f024c53cd557740117c6d8318522e6b969d5208d0047a606ef",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003889",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1143A — Clarinette 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : bois et cuivres.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/vents/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8fde12b1081cb2f021f6c154",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1143A — Clarinette 1"
+            ],
+            "start_line": 97,
+            "end_line": 106,
+            "subtree_end_line": 106
+          },
+          "content_sha256": "468943f8b0569d083a631f8532c935f89b404cb3e16fd98371bc0650c0ca834d",
+          "body_sha256": "ee2d42433f32b5afd25ece1a6a5b1defcb06059af516e1f9b610907e63696607",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003890",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1153A — Clavecin 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : clavecin et orgue.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5a2046e002eb614fdd8cb484",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1153A — Clavecin 1"
+            ],
+            "start_line": 107,
+            "end_line": 116,
+            "subtree_end_line": 116
+          },
+          "content_sha256": "fd55890df5b08a8d63f979d49ed039818e05f522956f8c465259d74ac1f8b0a8",
+          "body_sha256": "7cf73d4d7a07fd98d52f502a8dbf7ba67d99a9191b23121d17e4791ecde415bd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003891",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1162A — Connaissance du clavier 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : connaissance du clavier.** [Discipline officielle UdeM](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/). **Carte 1A toujours partielle**, faute de progression de session pro",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7681b9a092233020d52ab1a3",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1162A — Connaissance du clavier 1"
+            ],
+            "start_line": 117,
+            "end_line": 126,
+            "subtree_end_line": 126
+          },
+          "content_sha256": "83f8099ec3903985f540a1f732a06f18a94a1acd8560dc4f9f6e5041f7a4a731",
+          "body_sha256": "d8cf53b2f645361157303c3eb89abdf5dcae8557af21079c20c44f595f8df2ed",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003892",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1173A — Contrebasse 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : cordes classiques.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/cordes/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b708fac9e2d1174156e82870",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1173A — Contrebasse 1"
+            ],
+            "start_line": 127,
+            "end_line": 136,
+            "subtree_end_line": 136
+          },
+          "content_sha256": "b4efda42bcf6b38efc3abfcda2f8b73ba864d1038ea2b6472ee7c60f744ddf25",
+          "body_sha256": "beab26efbdb97b123c366a0bcc1c553f003f44bb6e2e75af8a5a65f538eeead4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003893",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1183A — Cor 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : bois et cuivres.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/vents/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:da28a2f7ec3843e0495bf524",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1183A — Cor 1"
+            ],
+            "start_line": 137,
+            "end_line": 146,
+            "subtree_end_line": 146
+          },
+          "content_sha256": "b9d093cd8f8e945aac1742e9425513964faa347f3de2b5e405734deb5585417a",
+          "body_sha256": "6a26ada796f12b8a460ad843d7d07ec239a7e60b770da532bfebc569f98495dc",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003894",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1193A — Flûte traversière 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : bois et cuivres.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/vents/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e8723e5888b8cb36d321cea8",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1193A — Flûte traversière 1"
+            ],
+            "start_line": 147,
+            "end_line": 156,
+            "subtree_end_line": 156
+          },
+          "content_sha256": "4f736f03fce507dcd5d929b08d4b960a511d6b8ec63e59a16c3fa2b0f7e481fc",
+          "body_sha256": "c0b2a440cd059283cfcb49bade6b10522379b58679db0dea678b8ea7286d71a9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003895",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1203A — Guitare 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : guitare et harpe classiques.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/guitare-et-harpe/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ab0f219e0f5fe595f67df5e5",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1203A — Guitare 1"
+            ],
+            "start_line": 157,
+            "end_line": 166,
+            "subtree_end_line": 166
+          },
+          "content_sha256": "d56b60dcb08969f7e05f2a3de360da62974995c64b9bdd3b039d1748d552b9f7",
+          "body_sha256": "556dfcde0ac682056723c95fd9e5f4effa5d82be4ce2a7041261e82638cd5d48",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003896",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1213A — Harpe 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : guitare et harpe classiques.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/guitare-et-harpe/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9c1a0a1c8af4c2d1f75ca24c",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1213A — Harpe 1"
+            ],
+            "start_line": 167,
+            "end_line": 176,
+            "subtree_end_line": 176
+          },
+          "content_sha256": "184eb1270a95c89aef3defb59ad0d656580bcb1af990298f76bfb02c629a1340",
+          "body_sha256": "8c70c9fb13d0fc225bf6210693c360dba5c3c01e186f5a5d995b47bc381dec44",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003897",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1223A — Hautbois 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : bois et cuivres.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/vents/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:90df51d02d7c48cc3974497c",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1223A — Hautbois 1"
+            ],
+            "start_line": 177,
+            "end_line": 186,
+            "subtree_end_line": 186
+          },
+          "content_sha256": "da605fe61980861aed57eefe747eaa6952e00366e0d2b367ac64503f06cd48b5",
+          "body_sha256": "7017f4318aa0ca2094c77dac4e98a18dcc3033116e2c4bf784af29489279e826",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003898",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1233A — Orgue 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : clavecin et orgue.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5ba329b5be92123a8f54010b",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1233A — Orgue 1"
+            ],
+            "start_line": 187,
+            "end_line": 196,
+            "subtree_end_line": 196
+          },
+          "content_sha256": "56e1d2dc65aafd71d0401bbd1d036e9103d8e922afedaf064cefb4586f736b55",
+          "body_sha256": "8f722e1f7d42de094e19ca2b3c6cbd6a8cca42bbc69b690a0aaee40d1816cfd0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003899",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1243A — Percussion 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : percussion classique.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/percussions/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7478ab6205b1ea491a3ff3fb",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1243A — Percussion 1"
+            ],
+            "start_line": 197,
+            "end_line": 206,
+            "subtree_end_line": 206
+          },
+          "content_sha256": "05b4ab13dcb207479331b5d69d0978fd6bad07c6b0bd57f975476fa1664ac140",
+          "body_sha256": "b6eb33f7b4a6aeea463a263dd6e08830cf5dff9535007c5771dda569e99ac630",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003900",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1253A — Piano 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : piano classique.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/piano/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b771f484694ec9b34787161e",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1253A — Piano 1"
+            ],
+            "start_line": 207,
+            "end_line": 216,
+            "subtree_end_line": 216
+          },
+          "content_sha256": "f58ed849b64d92cd562a121793b26238534c855f34accfec7672270b2c22e9dd",
+          "body_sha256": "5f270306311681a047c2661fb3c1e03cf5f3b64ddbb403412643e42ed9c2f6a4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003901",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1263A — Saxophone 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : bois et cuivres.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/vents/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:82c378e191715822a86492bd",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1263A — Saxophone 1"
+            ],
+            "start_line": 217,
+            "end_line": 226,
+            "subtree_end_line": 226
+          },
+          "content_sha256": "e71815f30ae6c4fbba543361f19e31d2126d41585d9cdc8bb4816858ced7e93d",
+          "body_sha256": "8f22085b152ab8d163542f8221eddd0f4cfead69b95ab3e819bee4bf70b0d35f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003902",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1273A — Trombone 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : bois et cuivres.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/vents/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8b924e24a0e6208fedcb6856",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1273A — Trombone 1"
+            ],
+            "start_line": 227,
+            "end_line": 236,
+            "subtree_end_line": 236
+          },
+          "content_sha256": "448d8a170312ad91ffae90dcc58ab42141fa01b7fcb15907ca5fbb9c25f0f33a",
+          "body_sha256": "83b51af588e18664c3b954d6c6cff8aff10ec46eac215ee206927272fe96d185",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003903",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1283A — Trompette 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : bois et cuivres.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/vents/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:31d5c6f325890c0a08cde605",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1283A — Trompette 1"
+            ],
+            "start_line": 237,
+            "end_line": 246,
+            "subtree_end_line": 246
+          },
+          "content_sha256": "48d97610dc92194e90a9e3b6117ef12ff76ee887aba1c75df8ea87b0218be356",
+          "body_sha256": "a45fc4276bf84bd714f17422148cd003c1652358dd3fb0780488485b13e91169",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003904",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1293A — Tuba 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : bois et cuivres.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/vents/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:adf5a10d4bffb6fd9a3da31a",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1293A — Tuba 1"
+            ],
+            "start_line": 247,
+            "end_line": 256,
+            "subtree_end_line": 256
+          },
+          "content_sha256": "be56334db2d8a605cb2f3cc8c1d13ccb9a143fdd3a7d054a7f45f26e366926b2",
+          "body_sha256": "556526efbd7a6ca77724932a6f4f5e87ad100b59f82a7976cbed347daf9a6b9a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003905",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1303A — Violon 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : cordes classiques.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/cordes/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6507dc994f19cffbf0ec7b40",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1303A — Violon 1"
+            ],
+            "start_line": 257,
+            "end_line": 266,
+            "subtree_end_line": 266
+          },
+          "content_sha256": "443b7a8f578c01df36ce8c07c3d0e0205739296374fae979818a242cde7ff37e",
+          "body_sha256": "b30d3ec8bea89b61868e294d56b9a7c53172f3f1591afcb3026698dbb6b0d55e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003906",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1313A — Violoncelle 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : cordes classiques.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/cordes/). **Carte 1A toujours partielle**, faute de progression de session propre au code.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4bc886f44ab477ec476582c7",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1313A — Violoncelle 1"
+            ],
+            "start_line": 267,
+            "end_line": 276,
+            "subtree_end_line": 276
+          },
+          "content_sha256": "1004d7d58acf2ba1e02992f4a2231139979a57771b2e1bce0365a3002800a667",
+          "body_sha256": "070b9e8199be95f2518b95dad8f5c0e265ea867e56e504928febeed647289cfd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003907",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1403A — Basse électrique 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : instruments et chant jazz.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/interpretation-composition-et-arrangement-jazz/). **Carte 1A toujours partielle**, faute de progression de session pr",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5f57a9117665000e73204f34",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1403A — Basse électrique 1"
+            ],
+            "start_line": 277,
+            "end_line": 286,
+            "subtree_end_line": 286
+          },
+          "content_sha256": "e20ad40459d910c8272943ddb7899c6316f2685b70b43eb2456c1a48e0532a56",
+          "body_sha256": "9a8bf53cf17347311c10262846ea614623423e537234007ff505da3883a62c40",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003908",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1413A — Batterie 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : instruments et chant jazz.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/interpretation-composition-et-arrangement-jazz/). **Carte 1A toujours partielle**, faute de progression de session pr",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:07f01163d53287feef8e322e",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1413A — Batterie 1"
+            ],
+            "start_line": 287,
+            "end_line": 296,
+            "subtree_end_line": 296
+          },
+          "content_sha256": "f3c61072ff9d296c32055cf6c842cbbc8fb5f9397014ec71169dab48b8e9fd61",
+          "body_sha256": "163e082224d3109b9ada25f07e81f67f833857e0531205513a1a751dfe57f0f6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003909",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1423A — Chant jazz 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : instruments et chant jazz.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/interpretation-composition-et-arrangement-jazz/). **Carte 1A toujours partielle**, faute de progression de session pr",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:bc719e9ff507b19e9a9a5efe",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1423A — Chant jazz 1"
+            ],
+            "start_line": 297,
+            "end_line": 306,
+            "subtree_end_line": 306
+          },
+          "content_sha256": "ecdd98fe1e854985b0bba4211579c44e95aa392d19658228cdaa51a01dad6e30",
+          "body_sha256": "6c48604153bfa8abe36fc7e50cc00debe6b0324a40a70dde9de374d246839c81",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003910",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1453A — Guitare jazz 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : instruments et chant jazz.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/interpretation-composition-et-arrangement-jazz/). **Carte 1A toujours partielle**, faute de progression de session pr",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7fa82911c85fa52cfdd546f8",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1453A — Guitare jazz 1"
+            ],
+            "start_line": 307,
+            "end_line": 316,
+            "subtree_end_line": 316
+          },
+          "content_sha256": "9ab4e9f738d82ff27c99eae9d9ff4986a32a78ccd68057203f929a44a224376b",
+          "body_sha256": "5704a14d14f5541caa1afdcd8e39153718dc39f4886fa3a082cd00f8756c4a9c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003911",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1463A — Piano jazz 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : instruments et chant jazz.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/interpretation-composition-et-arrangement-jazz/). **Carte 1A toujours partielle**, faute de progression de session pr",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:dc8ba17d232dcfdbe466276c",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1463A — Piano jazz 1"
+            ],
+            "start_line": 317,
+            "end_line": 326,
+            "subtree_end_line": 326
+          },
+          "content_sha256": "53d68c9e9fede5dbc827892ad1b3639fcc5205a830ab1aca315c7569ba8a7339",
+          "body_sha256": "039a29bc05621c8e562f5e96d38092b7e6f516d893eac3d4651cc0c5ab93c9d0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003912",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1473A — Saxophone jazz 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : instruments et chant jazz.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/interpretation-composition-et-arrangement-jazz/). **Carte 1A toujours partielle**, faute de progression de session pr",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:45c2b9a5504513456c0c0578",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1473A — Saxophone jazz 1"
+            ],
+            "start_line": 327,
+            "end_line": 336,
+            "subtree_end_line": 336
+          },
+          "content_sha256": "f53f580bec5587264d0e702c028f692c9ca37c95a5cb8a57a4e5f38a1d45251b",
+          "body_sha256": "45a8367dfaf91d782ba46027930ef755d5d0bf2d75b4d6f62d53cba68d0bcb07",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003913",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1483A — Trompette jazz 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : instruments et chant jazz.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/interpretation-composition-et-arrangement-jazz/). **Carte 1A toujours partielle**, faute de progression de session pr",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:11ee86dd844181b3ad2a66bf",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1483A — Trompette jazz 1"
+            ],
+            "start_line": 337,
+            "end_line": 346,
+            "subtree_end_line": 346
+          },
+          "content_sha256": "eaf0db53da66dd3604b45977d3505a6144aae45a10764f03c2bda9d9e9700641",
+          "body_sha256": "5c04ab7c4de476bfab16fbcc7cd4be7a5bab01ea6cf0bbaed8dec129f052697b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003914",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1523A — Trombone jazz 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : instruments et chant jazz.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/interpretation-composition-et-arrangement-jazz/). **Carte 1A toujours partielle**, faute de progression de session pr",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8890f1122b7b9d6e319bc0d9",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1523A — Trombone jazz 1"
+            ],
+            "start_line": 347,
+            "end_line": 356,
+            "subtree_end_line": 356
+          },
+          "content_sha256": "d62ee0a2b6be1b0a1f3b9ddb9a1d0f680f072484517b24b2c621d2ae69687d9f",
+          "body_sha256": "7fdd4252de7ee1f53a4f25b347a08f80764b554806641e2e6d411bcd49246aba",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003915",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUI 1533A — Contrebasse jazz 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Famille : instruments et chant jazz.** [Discipline officielle UdeM](https://musique.umontreal.ca/etudier/nos-disciplines/interpretation-composition-et-arrangement-jazz/). **Carte 1A toujours partielle**, faute de progression de session pr",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d0c75a6dae8b48c6b866b856",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "MUI 1533A — Contrebasse jazz 1"
+            ],
+            "start_line": 357,
+            "end_line": 366,
+            "subtree_end_line": 366
+          },
+          "content_sha256": "c63dcc998138106f5ad4a34b28678aaa5633ce21e528f2ea7b9b147554934dc5",
+          "body_sha256": "f1f3b780e803e5fff69affeea9f6f585a4b5991ab36c3eb0103770a1398a9512",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003916",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Synthèse",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **36 cours MUI contextualisés**, répartis entre 10 familles / sous-familles. **0 promotion** au seuil exploitable, parce que la source couvre la discipline plutôt que la matière propre à chaque premier cours. Le futur approfondissement doit",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-36-individual-instrument-context.md",
+          "document_sha256": "a8290e0f1e53c0608d5f8025737714ca764233d80a39d67589df18ce8d714103",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:67585b12309bc51de27d2386",
+            "heading_path": [
+              "UdeM — 36 cours individuels MUI : cartographie musicale contextualisée par instrument",
+              "Synthèse"
+            ],
+            "start_line": 367,
+            "end_line": 371,
+            "subtree_end_line": 371
+          },
+          "content_sha256": "7a182eb86dedc87cadb371f9ff8c759db498b7b63d76db0eba3d109916c8e28f",
+          "body_sha256": "7a265cce8e005135a04602ce1ee2fb2f7873df1807ca0df05e60e90172fcfc41",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
