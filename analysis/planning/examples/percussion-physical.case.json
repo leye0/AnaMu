@@ -63,7 +63,8 @@
       ],
       "revisit_when": [
         "gm_mapping_changed"
-      ]
+      ],
+      "depends_on": []
     },
     {
       "id": "task:physical-gesture-constraints",
@@ -92,6 +93,9 @@
       "revisit_when": [
         "performer_count_changed",
         "layout_changed"
+      ],
+      "depends_on": [
+        "task:describe-encoded-strikes"
       ]
     },
     {
@@ -119,7 +123,8 @@
       "revisit_when": [
         "audio_version_changed",
         "gesture_annotation_changed"
-      ]
+      ],
+      "depends_on": []
     }
   ]
 }
