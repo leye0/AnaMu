@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "case_id": "calibration:electroacoustic-without-midi",
+  "scope_ref": "didactic:electroacoustic-mte3300",
+  "question": "Comment proposer une segmentation spectromorphologique sans imposer l'harmonie tonale ni ignorer les sources documentaires ?",
+  "source_note": "Fondé sur la fiche MTE-3300, analyse électroacoustique et plan H27 ; scénarios fictifs. Aucune captation sonore ni œuvre n'est ici fournie.",
+  "fact_registry_ref": "analysis/knowledge/evidence-facts.json",
+  "profiles": {
+    "audio_only": [
+      {
+        "id": "demo:audio",
+        "state": "declared",
+        "facts": [
+          "audio_recording_verified"
+        ],
+        "provenance": "Audio fictif annoncé, non consulté ni auditionné dans cette démonstration",
+        "scope_ref": "didactic:electroacoustic-mte3300",
+        "note": "Situation didactique hypothétique ; aucune œuvre réelle ni acquisition audio revendiquée."
+      }
+    ],
+    "audio_and_listening_annotated": [
+      {
+        "id": "demo:audio",
+        "state": "declared",
+        "facts": [
+          "audio_recording_verified"
+        ],
+        "provenance": "Version audio fictive et segment localisé",
+        "scope_ref": "didactic:electroacoustic-mte3300",
+        "note": "Situation didactique hypothétique ; aucune œuvre réelle ni acquisition audio revendiquée."
+      },
+      {
+        "id": "demo:spectral",
+        "state": "declared",
+        "facts": [
+          "spectral_observations_annotated",
+          "transient_envelope_observed"
+        ],
+        "provenance": "Mesures de spectre et d'énergie hypothétiques",
+        "scope_ref": "didactic:electroacoustic-mte3300",
+        "note": "Situation didactique hypothétique ; aucune œuvre réelle ni acquisition audio revendiquée."
+      },
+      {
+        "id": "demo:listening",
+        "state": "declared",
+        "facts": [
+          "sound_object_segmentation_annotated",
+          "audition_annotated"
+        ],
+        "provenance": "Segmentation et audition fictives",
+        "scope_ref": "didactic:electroacoustic-mte3300",
+        "note": "Situation didactique hypothétique ; aucune œuvre réelle ni acquisition audio revendiquée."
+      },
+      {
+        "id": "demo:framework",
+        "state": "declared",
+        "facts": [
+          "electroacoustic_framework_declared"
+        ],
+        "provenance": "Cadre spectromorphologique déclaré, sans universalité",
+        "scope_ref": "didactic:electroacoustic-mte3300",
+        "note": "Situation didactique hypothétique ; aucune œuvre réelle ni acquisition audio revendiquée."
+      }
+    ],
+    "documents_only": [
+      {
+        "id": "demo:production",
+        "state": "declared",
+        "facts": [
+          "production_metadata_attested"
+        ],
+        "provenance": "Documents hypothétiques de production dûment attribués",
+        "scope_ref": "didactic:electroacoustic-mte3300",
+        "note": "Situation didactique hypothétique ; aucune œuvre réelle ni acquisition audio revendiquée."
+      },
+      {
+        "id": "demo:framework",
+        "state": "declared",
+        "facts": [
+          "electroacoustic_framework_declared"
+        ],
+        "provenance": "Cadre documentaire d'analyse déclaré",
+        "scope_ref": "didactic:electroacoustic-mte3300",
+        "note": "Situation didactique hypothétique ; aucune œuvre réelle ni acquisition audio revendiquée."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "task:observe-audio",
+      "scope_ref": "didactic:electroacoustic-mte3300",
+      "question": "Quelles propriétés spectrales et temporelles peut-on commencer à relever ?",
+      "knowledge_refs": [],
+      "material_refs": [
+        "material:0000119"
+      ],
+      "depends_on": [],
+      "proof_routes": [
+        {
+          "id": "recording-access",
+          "all_of": [
+            "audio_recording_verified"
+          ],
+          "candidate_outputs_only": [
+            "audio_feature_examination_possible"
+          ],
+          "does_not_establish": [
+            "independent_musicological_interpretation",
+            "universal_perception"
+          ]
+        }
+      ],
+      "cannot_establish": [
+        "acoustic_morphology_from_midi_alone"
+      ],
+      "revisit_when": [
+        "audio_version_changed",
+        "segmentation_revised",
+        "analytical_framework_changed"
+      ]
+    },
+    {
+      "id": "task:segment-sound",
+      "scope_ref": "didactic:electroacoustic-mte3300",
+      "question": "Quels objets, transformations et frontières ont un appui spectral et temporel ?",
+      "knowledge_refs": [],
+      "material_refs": [
+        "material:0000119"
+      ],
+      "depends_on": [
+        "task:observe-audio"
+      ],
+      "proof_routes": [
+        {
+          "id": "spectral-temporal",
+          "all_of": [
+            "audio_recording_verified",
+            "spectral_observations_annotated",
+            "transient_envelope_observed"
+          ],
+          "candidate_outputs_only": [
+            "segmentation_candidates"
+          ],
+          "does_not_establish": [
+            "independent_musicological_interpretation",
+            "universal_perception"
+          ]
+        }
+      ],
+      "cannot_establish": [
+        "perceptual_object_without_listening"
+      ],
+      "revisit_when": [
+        "audio_version_changed",
+        "segmentation_revised",
+        "analytical_framework_changed"
+      ]
+    },
+    {
+      "id": "task:compare-listening",
+      "scope_ref": "didactic:electroacoustic-mte3300",
+      "question": "Comment comparer les segmentations candidates à l'écoute dans un cadre explicite ?",
+      "knowledge_refs": [],
+      "material_refs": [
+        "material:0000119"
+      ],
+      "depends_on": [
+        "task:segment-sound"
+      ],
+      "proof_routes": [
+        {
+          "id": "listening-framework",
+          "all_of": [
+            "sound_object_segmentation_annotated",
+            "audition_annotated",
+            "electroacoustic_framework_declared"
+          ],
+          "candidate_outputs_only": [
+            "alternative_perceptual_interpretations"
+          ],
+          "does_not_establish": [
+            "independent_musicological_interpretation",
+            "universal_perception"
+          ]
+        }
+      ],
+      "cannot_establish": [
+        "unique_objective_segmentation"
+      ],
+      "revisit_when": [
+        "audio_version_changed",
+        "segmentation_revised",
+        "analytical_framework_changed"
+      ]
+    },
+    {
+      "id": "task:context-production",
+      "scope_ref": "didactic:electroacoustic-mte3300",
+      "question": "Quelles techniques ou circonstances de production sont attestées indépendamment de l'audio ?",
+      "knowledge_refs": [],
+      "material_refs": [
+        "material:0000119"
+      ],
+      "depends_on": [],
+      "proof_routes": [
+        {
+          "id": "documentation",
+          "all_of": [
+            "production_metadata_attested",
+            "electroacoustic_framework_declared"
+          ],
+          "candidate_outputs_only": [
+            "documentary_context_questions"
+          ],
+          "does_not_establish": [
+            "independent_musicological_interpretation",
+            "universal_perception"
+          ]
+        }
+      ],
+      "cannot_establish": [
+        "production_technique_inferred_from_timbre"
+      ],
+      "revisit_when": [
+        "audio_version_changed",
+        "segmentation_revised",
+        "analytical_framework_changed"
+      ]
+    }
+  ]
+}
