@@ -1,0 +1,1729 @@
+{
+  "source_document": "docs/courses/berklee-online/OMPRD-386.md",
+  "units": [
+    {
+      "id": "material:0000125",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "OMPRD-386 — Programming and Producing Drum Beats",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Berklee Online, vrai cours de production et syllabus public de douze leçons**, [page et plan officiels](https://online.berklee.edu/courses/programming-and-producing-drum-beats#syllabus), auteur du cours **Erik Hawkins**, relevé le 17 nove",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:385baa178561b35802eeb966",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 510
+          },
+          "content_sha256": "b9701dca56efc716570188a5419d6455da4a14fda6471cd673fab0995d36f475",
+          "body_sha256": "d0a3420025433628c1e343849bd10cd9ded423efc71fb5c526888e8d997cb878",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000126",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Matière attestée : douze leçons de l'instrument au morceau",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le livre *Producing Drum Beats: Writing and Mixing Killer Drum Grooves* (Erik Hawkins, Berklee Press, 2010) est indiqué dans la page officielle. **Le support sonore et les exercices intégraux restent non consultés**. Les douze leçons sont *",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d1c93a63d61dfac0dfd2c590",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Matière attestée : douze leçons de l'instrument au morceau"
+            ],
+            "start_line": 5,
+            "end_line": 23,
+            "subtree_end_line": 23
+          },
+          "content_sha256": "0b6378700e106d410300c1798928c2fb502110cd6a7dd838d370fcf2abd3da12",
+          "body_sha256": "98f79f3895d7140aca46a6494663811e34610155e87ddbb13d18ecad9d3421b5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000127",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage A — quantification n'est pas microtiming : quatre traitements distincts",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Exercice contrôlé original.** Prendre une batterie de deux mesures, kick sur 1 et 3, snare sur 2 et 4, charleston sur les croches. La première version **préserve les dates rectilignes**. La deuxième conserve le kick et la caisse sur la gr",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d6b4967d36c8568cda1ceb17",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Apprentissage A — quantification n'est pas microtiming : quatre traitements distincts"
+            ],
+            "start_line": 24,
+            "end_line": 29,
+            "subtree_end_line": 29
+          },
+          "content_sha256": "b7de67434b0c80872f3d80f2ca79bdd0d9e99a7deaa1397f1bf7b494014053c1",
+          "body_sha256": "1e1c258bc12f72aa49da17355d7d4da21103167398e917e30c1d4b5eb3e4805e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000128",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage B — le groove comme rôles complémentaires de la section rythmique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Exemple construit, non extrait du cours.** Dans un motif de 4/4, le kick marque les temps 1 et 3, le snare souligne 2 et 4, et la charleston joue huit coups réguliers. Une note de basse mélodique peut **coïncider avec le kick**, interveni",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:93be7657fb04315ecafe8362",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Apprentissage B — le groove comme rôles complémentaires de la section rythmique"
+            ],
+            "start_line": 30,
+            "end_line": 35,
+            "subtree_end_line": 35
+          },
+          "content_sha256": "0ef7faebe5ec65e3b04f0139cc02fb31679eca31707662baf00d7ca5d4ca0533",
+          "body_sha256": "414acda2258fb30cfb9bc6b9667633deca08f51c83296f7dc2a7e53a9a558a75",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000129",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage C — un fill doit avoir une position et une destination",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Étude originale.** Composer une séquence de huit mesures; les mesures 1–3 portent un ostinato, la mesure 4 peut se transformer en **fill de transition**, puis la mesure 5 commence la nouvelle phrase. Comparer trois versions du **même poin",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:875be6171292e268c03e0318",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Apprentissage C — un fill doit avoir une position et une destination"
+            ],
+            "start_line": 36,
+            "end_line": 45,
+            "subtree_end_line": 45
+          },
+          "content_sha256": "ccddc08250fdc61532116c6a477798dd0cdd238f5920cd02f0eb97f647b044f4",
+          "body_sha256": "f15afe524b21a3a5f7ffd424f29a2a00a21933eb736ba945a5f5b13fac3ecf77",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000130",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Quantification, groove, fills et interaction de la section rythmique — cinq MIDI originaux (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Ce que le syllabus officiel établit vraiment :** la [page OMPRD-386, auteur Erik Hawkins](https://online.berklee.edu/courses/programming-and-producing-drum-beats#syllabus) annonce **l'enregistrement MIDI et la quantification** (leçon 2), ",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:afe1fb2195a91c5fdda8c1c7",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Quantification, groove, fills et interaction de la section rythmique — cinq MIDI originaux (17 novembre 2026)"
+            ],
+            "start_line": 46,
+            "end_line": 49,
+            "subtree_end_line": 112
+          },
+          "content_sha256": "c2d7454a9b91522a2dcd996375f9562254e07eacd98d774575292d9e8170f37b",
+          "body_sha256": "596d93bfe400b0a185339eeb3053476cd3d76ea4dece3a2b6057f44d7c267a47",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000131",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Témoin PR-1 — même nombre de notes, quatre variables différentes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MIDI original de 16 mesures en quatre blocs de quatre](./OMPRD-386/quantization-groove-quatre-variables.mid). **192 notes sur canal GM1 10**, soit **48 par variante**, 120 BPM, PPQ 480, 4/4 constant; kick GM36 (1 et 3), snare GM38 (2 et 4)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f4d156a60bff9186bbeb9748",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Quantification, groove, fills et interaction de la section rythmique — cinq MIDI originaux (17 novembre 2026)",
+              "Témoin PR-1 — même nombre de notes, quatre variables différentes"
+            ],
+            "start_line": 50,
+            "end_line": 64,
+            "subtree_end_line": 64
+          },
+          "content_sha256": "37a89db7c722428da0af8b7c35d9e800c6a3c40ffc740db10955868b752f7bfa",
+          "body_sha256": "44d82ea0ce657361cb6e245ef04def410a7ccdfb0cf5d8b513db12bd7333fcd9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000132",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Témoin PR-2 — une arrivée fixe, trois préparations différentes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MIDI original, 24 mesures](./OMPRD-386/fills-meme-arrivee-trois-versions.mid) : trois blocs de **huit mesures** à **104 BPM** avec mêmes grosse caisse, caisse et charleston en accompagnement. Les blocs contiennent **97 / 100 / 97 notes on*",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:190122559c667604a5806eb5",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Quantification, groove, fills et interaction de la section rythmique — cinq MIDI originaux (17 novembre 2026)",
+              "Témoin PR-2 — une arrivée fixe, trois préparations différentes"
+            ],
+            "start_line": 65,
+            "end_line": 72,
+            "subtree_end_line": 72
+          },
+          "content_sha256": "7c5aaf36929f73a60b0dea254e936a2888e9aedc4784e867a792d5e8f0efdcfa",
+          "body_sha256": "2adfbb6c2f0ed6663cac8986a01710a52c26c28df0519f1da57ab717e47c15b0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000133",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Témoin PR-3 — linéarité versus superposition : même calendrier, nombre de coups différent",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MIDI original A/B, huit mesures](./OMPRD-386/lineaire-versus-superpose.mid), 120 BPM. Dans chacune des quatre mesures de A, huit coups de charleston se superposent à **deux grosses caisses** et **deux caisses claires**, soit **12 événement",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c1e5d516b8fa9a0d6d5baaff",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Quantification, groove, fills et interaction de la section rythmique — cinq MIDI originaux (17 novembre 2026)",
+              "Témoin PR-3 — linéarité versus superposition : même calendrier, nombre de coups différent"
+            ],
+            "start_line": 73,
+            "end_line": 78,
+            "subtree_end_line": 78
+          },
+          "content_sha256": "5a2c333771f19716d38d7ae98e68fe4b086d6348199d76311c0c44cb8790951d",
+          "body_sha256": "49ba03060becd4974a3c07aa3dd587d83d4d6d489da660fa7849f11d1b035cce",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000134",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Témoin PR-4 — grosse caisse identique, basse syncopée : un décalage n'est pas une erreur de quantification",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MIDI original, douze mesures](./OMPRD-386/basse-kick-alignement-anticipation-retard.mid), 120 BPM. Trois blocs de **quatre mesures**, chacun **56 notes**, total **168 attaques**, dont **144 GM percussion canal 10** et **24 notes d'une bass",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:95bc8885d3172b8d50f895c1",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Quantification, groove, fills et interaction de la section rythmique — cinq MIDI originaux (17 novembre 2026)",
+              "Témoin PR-4 — grosse caisse identique, basse syncopée : un décalage n'est pas une erreur de quantification"
+            ],
+            "start_line": 79,
+            "end_line": 92,
+            "subtree_end_line": 92
+          },
+          "content_sha256": "98ae2f7ece08292489a15456861b63543f5e1634a094001267d03f17f463f3db",
+          "body_sha256": "4e860fd4f4bcfd4af8187d9b30efd0a08f20e2f45b9d21b381047623d4278a55",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000135",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Témoin PR-5 — changer la percussion sans changer les attaques ni la dynamique numérique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MIDI original, 16 mesures](./OMPRD-386/percussion-timbres-grille-invariante.mid) : **quatre variantes de quatre mesures**, **48 notes chacune**, soit **192** attaques sur canal 10 à 100 BPM. Grosse caisse GM36 et caisse GM38 **strictement ",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ca51ada1d21cb11ee19e9264",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Quantification, groove, fills et interaction de la section rythmique — cinq MIDI originaux (17 novembre 2026)",
+              "Témoin PR-5 — changer la percussion sans changer les attaques ni la dynamique numérique"
+            ],
+            "start_line": 93,
+            "end_line": 105,
+            "subtree_end_line": 105
+          },
+          "content_sha256": "2f103674408bdba2ff796c9ab1bdfb059c48d9dbb1fc6d46148d02a3b46e3ea6",
+          "body_sha256": "e71ccc85fce7daa7e00b0a961bc574cdd51b57ea481435d11ffb9d205ea81c76",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000136",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Ce que les cinq fichiers prouvent et n'évaluent pas",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Relecture technique post-publication :** les cinq fichiers contiennent **192 / 294 / 80 / 168 / 192 notes**, respectivement, soit **926 attaques** en tout sur **deux ou trois pistes** selon l'exercice. Toutes les notes ont un note-off app",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c6ed4e213f748700922f7b43",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Quantification, groove, fills et interaction de la section rythmique — cinq MIDI originaux (17 novembre 2026)",
+              "Ce que les cinq fichiers prouvent et n'évaluent pas"
+            ],
+            "start_line": 106,
+            "end_line": 112,
+            "subtree_end_line": 112
+          },
+          "content_sha256": "3959c8464c2d1a8c9e57a19ecf30ae759d624526d32550ba24b918457f244c87",
+          "body_sha256": "32b53187219ecca50a00ea67ca0c4354db8c69de4d2c7c5bfad8f87819dde39c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000137",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Dissonance de déplacement, timeline sur deux mesures et retour — 17 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Sources et attribution.** Le [cours réel *Programming and Producing Drum Beats*, Erik Hawkins](https://online.berklee.edu/courses/programming-and-producing-drum-beats#syllabus) aborde la quantification, **le groove et groove quantize (leç",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2d17747fcb1e86a193f18f65",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Dissonance de déplacement, timeline sur deux mesures et retour — 17 novembre 2026"
+            ],
+            "start_line": 113,
+            "end_line": 116,
+            "subtree_end_line": 147
+          },
+          "content_sha256": "63de3df9c1ea0135f93146ae0b931fcb744d15dd9f0117e91d0cb66e82bd8c8f",
+          "body_sha256": "09084462796689a3cc738fc810188b9f1aab0401ee5bb4c715560cb4e9204ee5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000138",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "P-6 — retarder la caisse claire, puis revenir exactement au point de départ",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MIDI original, 16 mesures en quatre sections](./OMPRD-386/backbeat-deplacement-tension-retour.mid). 120 BPM, PPQ 480, 4/4 stable, **48 notes par section** et **192 en tout**. La grosse caisse GM36 (temps 1 et 3) et la charleston GM42 (croc",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:cc6b2dfc8af57ce22f60ec94",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Dissonance de déplacement, timeline sur deux mesures et retour — 17 novembre 2026",
+              "P-6 — retarder la caisse claire, puis revenir exactement au point de départ"
+            ],
+            "start_line": 117,
+            "end_line": 131,
+            "subtree_end_line": 131
+          },
+          "content_sha256": "9e3016a2a6e457bc1a064051ee16128f161f99fe04e266722d70b3591d32cc38",
+          "body_sha256": "64d6c19030738cc5516cb0c432f53e7948733ae55eb18f54c008bcb425e75a9d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000139",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "P-7 — cinq coups par deux mesures : 3+2 ou 2+3 ne nomme pas un genre",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MIDI original, 16 mesures en deux grandes variantes](./OMPRD-386/cinq-accents-3-2-vers-2-3-sans-style.mid). Une ligne GM42 déroule toujours **huit croches par mesure** pendant seize mesures, au tempo **116 BPM**, 4/4. Une seconde ligne GM7",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a6d954dee6e775116c8fc7c7",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Dissonance de déplacement, timeline sur deux mesures et retour — 17 novembre 2026",
+              "P-7 — cinq coups par deux mesures : 3+2 ou 2+3 ne nomme pas un genre"
+            ],
+            "start_line": 132,
+            "end_line": 147,
+            "subtree_end_line": 147
+          },
+          "content_sha256": "3a4fb71f41aab9d022943a144c2bacf477faaa271ab407f8c3e9b60d76579c7e",
+          "body_sha256": "bcc99ce01b6b0eaace26da0c808ab24471fd100d9739558fca6a8a825d19104e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000140",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "La batterie tout entière peut être en retard sans que ses membres soient désynchronisés — 17 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source du cours et comparaison expérimentale.** Le [syllabus de Programming and Producing Drum Beats, Erik Hawkins](https://online.berklee.edu/courses/programming-and-producing-drum-beats#syllabus) traite bien d'enregistrement MIDI en tem",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:86ad7c4c96b7b1af83363ff3",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "La batterie tout entière peut être en retard sans que ses membres soient désynchronisés — 17 novembre 2026"
+            ],
+            "start_line": 148,
+            "end_line": 176,
+            "subtree_end_line": 176
+          },
+          "content_sha256": "8d10524446555586c20578c10ea16314cb8958cc8d8a56dbc27ab1e91552a450",
+          "body_sha256": "0e5e6d2acaa9ee371f8011e1a1995dccbcb2c2ff84c5e8f58338de00a148acf5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000141",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Charleston : Note Off, état de pédale et ordre des événements",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance.** Le [syllabus d'Erik Hawkins](https://online.berklee.edu/courses/programming-and-producing-drum-beats#syllabus) atteste la programmation MIDI, les échantillons de batterie et le traitement des grooves (leçons 2, 6 et 8). Les ",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:53398ce80a86c774cf0c167c",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Charleston : Note Off, état de pédale et ordre des événements"
+            ],
+            "start_line": 177,
+            "end_line": 180,
+            "subtree_end_line": 209
+          },
+          "content_sha256": "7b5d88180edf8d94ac0688390d52121c4e09a639750be9a14c64e006a49bb7b1",
+          "body_sha256": "1588a49ca0e83a39c496e821164b936fc56c30c915dc0c8d3b776165289725cd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000142",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "HH-2 — Est-ce la fin de note ou la frappe suivante qui change la queue ?",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [Six variantes avec contrôles isolés](OMPRD-386/charleston-gate-fermeture-et-controles-isoles.mid), **32 attaques**. Chacun des six blocs répète le même essai quatre fois, une fois par mesure. Le GM46, lorsqu'il existe, attaque au premier t",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9124ed76a258f00b4c34f7b8",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Charleston : Note Off, état de pédale et ordre des événements",
+              "HH-2 — Est-ce la fin de note ou la frappe suivante qui change la queue ?"
+            ],
+            "start_line": 181,
+            "end_line": 195,
+            "subtree_end_line": 195
+          },
+          "content_sha256": "43ca4aa020328846a4e6cf915a1a77815b7cbdf9c689ff85f3af0060b4310fbe",
+          "body_sha256": "c9003a2b75f72eeab560a8d5d5f64b28f1742132c90c59881b3bd61341044d6b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000143",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "HH-3 — Un contrôle peut varier sans changer une seule note",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [Trois séries de CC4 sur le même GM46](OMPRD-386/charleston-gm46-cc4-trois-trajectoires.mid). Chaque bloc a **8 Note On et 9 CC4**. Toute note (date, canal, pitch, vélocité et durée) est identique d'un bloc à l'autre. Un CC4 précède chaque ",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:de48e89db9aab1117fdc492d",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Charleston : Note Off, état de pédale et ordre des événements",
+              "HH-3 — Un contrôle peut varier sans changer une seule note"
+            ],
+            "start_line": 196,
+            "end_line": 201,
+            "subtree_end_line": 201
+          },
+          "content_sha256": "8c92c2ed6ed7c4061f46494ceb0b3ad54aee7614f7a9e4600022543d03879e69",
+          "body_sha256": "f635b09ef392f88dfd9256b05725fb719ef7a3de4c0adc83bc955e1130d88b06",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000144",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "HH-4 — Une égalité de ticks n'est pas une égalité d'ordre",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [CC4 avant/après le Note On au même tick](OMPRD-386/charleston-cc4-ordre-meme-tick.mid). Dans chaque essai, CC4=0 est écrit au début, **CC4=127 et GM46 au tick 480**, retour CC4=0 au tick 960. **16 notes, 48 CC4**, en séquence A/B/B/A. Dans",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:31b9443f419ee404beab11cf",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Charleston : Note Off, état de pédale et ordre des événements",
+              "HH-4 — Une égalité de ticks n'est pas une égalité d'ordre"
+            ],
+            "start_line": 202,
+            "end_line": 209,
+            "subtree_end_line": 209
+          },
+          "content_sha256": "bcacc50bef918c0a4bea73f0ea58b8bb2aa65bd91e73c22598f8baabd9ecfe1a",
+          "body_sha256": "c150bf915068eac4091cd067f09a6d97ee46b5c190775b32ee234148009785c0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000145",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Une transition dans un morceau, pas seulement sur une grille",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Cette étude originale est une application des leçons 5, 8, 10 et 11 du [cours Programming and Producing Drum Beats](https://online.berklee.edu/courses/programming-and-producing-drum-beats#syllabus), pas une transcription d’un devoir de Berk",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e04e5e4b027fd4d7cd115b3f",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Une transition dans un morceau, pas seulement sur une grille"
+            ],
+            "start_line": 210,
+            "end_line": 224,
+            "subtree_end_line": 257
+          },
+          "content_sha256": "eca72ea56b4a0a495f20f6cf8039ac4b8c109b6fcdaa621dac4650dd216a1f56",
+          "body_sha256": "4c2d0be5a8e8334f0dc718d05971303e08dd7d45a3c8e2912a964b446e2def95",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000146",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Suivre les mêmes repères du début à la fin",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Méthode de transfert.** Écouter d’abord chaque mix en entier et noter les frontières pressenties sans consulter les marqueurs. Comparer ensuite M15–21, puis les stems correspondants. Revenir au mix entier pour distinguer ce que révèle le ",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c89b04765f341b3880089c4a",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Une transition dans un morceau, pas seulement sur une grille",
+              "Suivre les mêmes repères du début à la fin"
+            ],
+            "start_line": 225,
+            "end_line": 239,
+            "subtree_end_line": 239
+          },
+          "content_sha256": "80cc3fabd30215a21578b6b14265a31931c93d3368bb194d50a21f56b3003a53",
+          "body_sha256": "029c68ee238f5bc09609fe1dd019768ce6650330edb741f0382fbecedcdd2ce1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000147",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Un retard qu’on peut enfin comparer à un repère audible",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le [témoin batterie seule](OMPRD-386/microtiming-snare-kick-tous-instruments.mp3) conserve ses 192 frappes. Dans le nouveau rendu, la basse répète **exactement** le même motif dans les quatre blocs. Écouter A puis D pour distinguer une tran",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:67e8988d65b217f7c1503b79",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Une transition dans un morceau, pas seulement sur une grille",
+              "Un retard qu’on peut enfin comparer à un repère audible"
+            ],
+            "start_line": 240,
+            "end_line": 245,
+            "subtree_end_line": 245
+          },
+          "content_sha256": "0fbab1b41271451ad08d139637638fe0a4ed3d9a4719ba259b7db4e981f35108",
+          "body_sha256": "5891e3ecc212db956677c864bb54a66eb925b89aa512497485bfd05249abb4dc",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000148",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Trois vérifications sur une deuxième banque",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Portée des mesures récupérées :** le protocole numérique utilise un gain commun de 0,72 et un synthétiseur neuf par bloc. Les anciens MP3 GeneralUser ont un gain de 0,83, les nouveaux TimGM de 0,72; ils ne sont pas une comparaison à nivea",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:65c0a29a516b9298a0e6bb1c",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Une transition dans un morceau, pas seulement sur une grille",
+              "Trois vérifications sur une deuxième banque"
+            ],
+            "start_line": 246,
+            "end_line": 257,
+            "subtree_end_line": 257
+          },
+          "content_sha256": "a9b5926af6011465fa06282a6f8c2c7b789b3f85c26bf42df59bf85a87b98dba",
+          "body_sha256": "69a13cc94cba3af6ddbad202e0ddf75aa10e39881d9091797868b8539268bed6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000149",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Rendus audio des études de percussion",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : MP3 rendus à partir des MIDI des études, avec la banque GeneralUser GS. Les variantes d'un même fichier restent dans la même piste, sans correction de timing, de vélocité ou d'instrumentation.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4bd9efb443e0165de5e08296",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Rendus audio des études de percussion"
+            ],
+            "start_line": 258,
+            "end_line": 278,
+            "subtree_end_line": 278
+          },
+          "content_sha256": "1c4dac41057ec9b3331c5900b0407df85b77fa2976f06ad1e75a72f9dbdbf114",
+          "body_sha256": "284cbd96a6144a6890c97d8925716aee73a4696e33b06b81258025d8b6758d08",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000150",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Ces consignes sont des propositions pédagogiques originales AnaMu, fondées sur les études et sources déjà distinguées dans cette fiche. Elles ne sont pas des exercices attribués au professeur. Aucune nouvelle audition humaine n’a été réalis",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6a0a1319ae462e3f92f48e74",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026"
+            ],
+            "start_line": 279,
+            "end_line": 282,
+            "subtree_end_line": 414
+          },
+          "content_sha256": "ebb9c779be27519cd8c86fcf10fa26ede6a4e80a3b29ae9ce77e1b8271ea2d7e",
+          "body_sha256": "b027e19aad8071713ddf839121fb61b819664a13dfa1e2cd656900d2f623543e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000151",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Grille, dynamique ou microtiming",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MP3](OMPRD-386/quantization-groove-quatre-variables.mp3) · [MIDI original](OMPRD-386/quantization-groove-quatre-variables.mid)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:89375e2ed28976009c8567a2",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+              "Grille, dynamique ou microtiming"
+            ],
+            "start_line": 283,
+            "end_line": 294,
+            "subtree_end_line": 294
+          },
+          "content_sha256": "459e6e6e7e9b991b34b9f78e2192d5fd44e2bb04a4d0e7770e833c3c12fab1cc",
+          "body_sha256": "08a0c9ca16bda6dbeb21f21dc0a2b9e7392b40445685647fed0079917ba02ea4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000152",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Fills, même arrivée",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MP3](OMPRD-386/fills-meme-arrivee-trois-versions.mp3) · [MIDI original](OMPRD-386/fills-meme-arrivee-trois-versions.mid)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8d4270944f5192db7e7433f8",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+              "Fills, même arrivée"
+            ],
+            "start_line": 295,
+            "end_line": 306,
+            "subtree_end_line": 306
+          },
+          "content_sha256": "6d3c6c848708581d7b67fb371b2a34389ce1070d498dae16fe784a000cc4ee97",
+          "body_sha256": "eff607adcfd1e15c05680ef95a3b5fb51a63e2c4c2a259dd060647a3632e7ae7",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000153",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Linéaire ou superposé",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MP3](OMPRD-386/lineaire-versus-superpose.mp3) · [MIDI original](OMPRD-386/lineaire-versus-superpose.mid)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6e4d53536ec690a37c9af413",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+              "Linéaire ou superposé"
+            ],
+            "start_line": 307,
+            "end_line": 318,
+            "subtree_end_line": 318
+          },
+          "content_sha256": "f09e5de8fa827296df2ea3b4e51f6b02975c7a53b6ea6763fc9bbf54ffc2b72d",
+          "body_sha256": "4165371290486ca17ffbd281e505a9ec46e09ca5cdfb8f45d0849659ff4a03c4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000154",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Basse et grosse caisse",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MP3](OMPRD-386/basse-kick-alignement-anticipation-retard.mp3) · [MIDI original](OMPRD-386/basse-kick-alignement-anticipation-retard.mid)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:06110a11158921f493b65942",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+              "Basse et grosse caisse"
+            ],
+            "start_line": 319,
+            "end_line": 330,
+            "subtree_end_line": 330
+          },
+          "content_sha256": "af6fa96a9ca8468bd81ab296030936ad7f75fc3ec5d79c0873807753b325ec5e",
+          "body_sha256": "3405614bb1d9dabbde8d727ec480b34772594e1b091e7ec736a8965533a1da59",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000155",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Même rythme, autres percussions",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MP3](OMPRD-386/percussion-timbres-grille-invariante.mp3) · [MIDI original](OMPRD-386/percussion-timbres-grille-invariante.mid)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2e643f9dc4c856000b421c75",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+              "Même rythme, autres percussions"
+            ],
+            "start_line": 331,
+            "end_line": 342,
+            "subtree_end_line": 342
+          },
+          "content_sha256": "f6b43816ab7dd986309e452596f59de59f1b3b7a733c42c6df335967f86c831e",
+          "body_sha256": "fd2e64d7a779a9a9e8efad0611571c528adc61aefdff6c26fa41d41e61e7d3a5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000156",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Backbeat : déplacement et retour",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MP3](OMPRD-386/backbeat-deplacement-tension-retour.mp3) · [MIDI original](OMPRD-386/backbeat-deplacement-tension-retour.mid)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:703f11251ba7eb53525bb636",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+              "Backbeat : déplacement et retour"
+            ],
+            "start_line": 343,
+            "end_line": 354,
+            "subtree_end_line": 354
+          },
+          "content_sha256": "562c6cd09773290b89073362263dbad6439750eed9955212a47d6b98eb3f92af",
+          "body_sha256": "8fa547ee6caae7c5459429950dcc0a7a034d664a8fb286e40b955325840efa49",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000157",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Cinq accents : 3+2 puis 2+3",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MP3](OMPRD-386/cinq-accents-3-2-vers-2-3-sans-style.mp3) · [MIDI original](OMPRD-386/cinq-accents-3-2-vers-2-3-sans-style.mid)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:49c22d381ed6ae2269d7e046",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+              "Cinq accents : 3+2 puis 2+3"
+            ],
+            "start_line": 355,
+            "end_line": 366,
+            "subtree_end_line": 366
+          },
+          "content_sha256": "59351bb3136fad52594ee5986a2b04a7fb2b03c5517d15aa52deffeb5d697cb6",
+          "body_sha256": "bf2de16abd9a40927064d4513efc56417bf3bfc2ed5e29504b1f271fa59ee7bb",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000158",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Microtiming d’une voix ou de tout le kit",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MP3](OMPRD-386/microtiming-snare-kick-tous-instruments.mp3) · [MIDI original](OMPRD-386/microtiming-snare-kick-tous-instruments.mid)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2900b3ff97ef1eeb14953633",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+              "Microtiming d’une voix ou de tout le kit"
+            ],
+            "start_line": 367,
+            "end_line": 378,
+            "subtree_end_line": 378
+          },
+          "content_sha256": "31c2c984888034dab3032e311919dc8368f82aaca8959b8809948fe2b10a85c4",
+          "body_sha256": "8f6cc2e012e9f2d9f033ee73d9123b1512eab6b65680e41ccd274f2479500623",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000159",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Charleston : fin de note ou coup de fermeture ?",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MP3](OMPRD-386/charleston-gate-fermeture-et-controles-isoles.mp3) · [MIDI original](OMPRD-386/charleston-gate-fermeture-et-controles-isoles.mid)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:43ef3de2c86d63632acb094e",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+              "Charleston : fin de note ou coup de fermeture ?"
+            ],
+            "start_line": 379,
+            "end_line": 390,
+            "subtree_end_line": 390
+          },
+          "content_sha256": "072d38e4361e85fcf87e7f7489079687d116446209e87d4ac0de82ae794815d8",
+          "body_sha256": "098f4395c6ec36acf0a463586e28d74fbc854aaee26294c7ea3d40c6daa410b2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000160",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Les mêmes frappes avec trois séries de CC4",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MP3](OMPRD-386/charleston-gm46-cc4-trois-trajectoires.mp3) · [MIDI original](OMPRD-386/charleston-gm46-cc4-trois-trajectoires.mid)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c2d7eb0a12d7b8c9e270b364",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+              "Les mêmes frappes avec trois séries de CC4"
+            ],
+            "start_line": 391,
+            "end_line": 402,
+            "subtree_end_line": 402
+          },
+          "content_sha256": "b94f160289399e6deeb30e14fb69259f89025a4fe6ef2f0c4b5aaca6a75715ff",
+          "body_sha256": "8628110435aa219989e3c35287296f284a0f902f38a4da12751feb130e6dfd53",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000161",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CC4 et frappe au même tick",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MP3](OMPRD-386/charleston-cc4-ordre-meme-tick.mp3) · [MIDI original](OMPRD-386/charleston-cc4-ordre-meme-tick.mid)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:aca15ea0cf799a8d5e0119e0",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+              "CC4 et frappe au même tick"
+            ],
+            "start_line": 403,
+            "end_line": 414,
+            "subtree_end_line": 414
+          },
+          "content_sha256": "23e2cbd344d42e99c20a4923357178ac35645ea8956200fefde679d0e24f1834",
+          "body_sha256": "614857c4223d5d09ea01abca80f981499f76b23a69f1936dca5cdfdae59a0dda",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000162",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Exercices de transfert sur les nouveaux rendus",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Propositions originales AnaMu sur les exemples de cette fiche. Les prises GMD restent des références externes attribuées, et non des performances d’élèves du cours. Les impressions ci-dessous sont des questions ouvertes, pas des résultats d",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0fecd393365d9e6bc126e694",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Exercices de transfert sur les nouveaux rendus"
+            ],
+            "start_line": 415,
+            "end_line": 418,
+            "subtree_end_line": 498
+          },
+          "content_sha256": "d4f95debf7779201cd1a3eada26b60489b2d9bf35f20951ed56be20f474632a6",
+          "body_sha256": "546d966467bade9a431f5bcc99f3058c1cd453820fc17a7ea53887406331f183",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000163",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Même morceau, batterie continue",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Question :** Où percevez-vous la frontière de la troisième section sans fill de préparation ?",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ce5bdb1a4bac024bd1f500ac",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Exercices de transfert sur les nouveaux rendus",
+              "Même morceau, batterie continue"
+            ],
+            "start_line": 419,
+            "end_line": 428,
+            "subtree_end_line": 428
+          },
+          "content_sha256": "620d71d1ced32f9f851ef105a8bb27f167564f285b65531644b12f5c3cf66074",
+          "body_sha256": "decc9e97e07fb91751a413120023f33789cf7f9051a50a4a34e963f9d3ef78b4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000164",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Batterie seule · continue",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Question :** Pouvez-vous situer M17 en écoutant seulement la batterie continue ?",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:62f44ce8c7b2d6e53b408b10",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Exercices de transfert sur les nouveaux rendus",
+              "Batterie seule · continue"
+            ],
+            "start_line": 429,
+            "end_line": 438,
+            "subtree_end_line": 438
+          },
+          "content_sha256": "151bb09792b77117a98ce27e234a07296df6d68e6c8c79d3b78421f52e94c183",
+          "body_sha256": "efb70b897134e451f8093861e59e8d70ed17368c2fa58c7eb46035b31d50176f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000165",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Même morceau, batterie qui prépare et relâche la transition",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Question :** La préparation en M15–16 et le retrait en M17 changent-ils la place du thème ?",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4f18d5e85820408c243f9ae0",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Exercices de transfert sur les nouveaux rendus",
+              "Même morceau, batterie qui prépare et relâche la transition"
+            ],
+            "start_line": 439,
+            "end_line": 448,
+            "subtree_end_line": 448
+          },
+          "content_sha256": "c12a18dfd5f9b2a76aa254c5d248c2e0f13bb46ba3cf6bff53d164f123526930",
+          "body_sha256": "f5248cc1f62a4b2924c991091717ebc245725c33fe950f3dcdf258ec6c58d755",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000166",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Batterie seule · transition et retour",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Question :** Le fill et le retour restent-ils lisibles sans le thème ?",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8434aa33158a646c11bbfd98",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Exercices de transfert sur les nouveaux rendus",
+              "Batterie seule · transition et retour"
+            ],
+            "start_line": 449,
+            "end_line": 458,
+            "subtree_end_line": 458
+          },
+          "content_sha256": "8a8dc3d509e9320ebc07244eea55309f30f95e149e29b415625d136a06d6b054",
+          "body_sha256": "8adc0f1c5049f294a133cc5210959ecbab21e28994abc9a0ad78ff60c6509e4a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000167",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Caisse, kick ou kit en retard · avec basse fixe",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Question :** Que devient le décalage de tout le kit face à une basse qui ne bouge pas ?",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:99d7e31c0f99ca8741e1bc0f",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Exercices de transfert sur les nouveaux rendus",
+              "Caisse, kick ou kit en retard · avec basse fixe"
+            ],
+            "start_line": 459,
+            "end_line": 468,
+            "subtree_end_line": 468
+          },
+          "content_sha256": "49b46da78c21ea96be374eebdd507b9b1822f6115c974ffbf4f04697e04c4538",
+          "body_sha256": "2278d1d0f7c8ef171373c93fbb2bdede8bf7a18bec08179ec6ae836ee55aa064",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000168",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Charleston · gate et fermeture sur TimGM6mb",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Question :** Qu’est-ce qui dépend ici de la banque sonore ?",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0f5ae85b948b07964bf5c38a",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Exercices de transfert sur les nouveaux rendus",
+              "Charleston · gate et fermeture sur TimGM6mb"
+            ],
+            "start_line": 469,
+            "end_line": 478,
+            "subtree_end_line": 478
+          },
+          "content_sha256": "bb246792bd9d0588a9cd50015317d0e4b304bb4d466e5dfca525828a4bb96d43",
+          "body_sha256": "b34e9d37502aa1f8a4706db1f35c8b4d256da288f53078b5127dee14301034ff",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000169",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Charleston · trois CC4 sur TimGM6mb",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Question :** Qu’est-ce qui dépend ici de la banque sonore ?",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c49bec426d5983c9ffb796de",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Exercices de transfert sur les nouveaux rendus",
+              "Charleston · trois CC4 sur TimGM6mb"
+            ],
+            "start_line": 479,
+            "end_line": 488,
+            "subtree_end_line": 488
+          },
+          "content_sha256": "93a4baa56d0397e03e58e9f627575ba8c610069b51e2b837a2477f8e1e996314",
+          "body_sha256": "b34e9d37502aa1f8a4706db1f35c8b4d256da288f53078b5127dee14301034ff",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000170",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Charleston · ordre au même tick sur TimGM6mb",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Question :** Qu’est-ce qui dépend ici de la banque sonore ?",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:44a9aacd22f9973c3adcdf43",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Exercices de transfert sur les nouveaux rendus",
+              "Charleston · ordre au même tick sur TimGM6mb"
+            ],
+            "start_line": 489,
+            "end_line": 498,
+            "subtree_end_line": 498
+          },
+          "content_sha256": "31cd096fe047a490394495836845b31f12968e9e5462d54b7741ab4bd899d0bc",
+          "body_sha256": "b34e9d37502aa1f8a4706db1f35c8b4d256da288f53078b5127dee14301034ff",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000171",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lire et faire essayer les deux batteries complètes (18 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Partition de la batterie continue, avec légende](OMPRD-386/partition-batterie-1.html) · [MusicXML modifiable](OMPRD-386/partition-batterie-1.musicxml).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OMPRD-386.md",
+          "document_sha256": "d93617245c4206823e9e3bfdddb2a120b7d2191abbda42254ae3bbd642522a3a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:58771288bec29d149977dfbc",
+            "heading_path": [
+              "OMPRD-386 — Programming and Producing Drum Beats",
+              "Lire et faire essayer les deux batteries complètes (18 novembre 2026)"
+            ],
+            "start_line": 499,
+            "end_line": 510,
+            "subtree_end_line": 510
+          },
+          "content_sha256": "779d031942a302401980f91168d4a3b9850eef1c5e86c71b1f4044297d7ea7bb",
+          "body_sha256": "8b7a5164eb2d5ec54530f316cbe6a33464890cd177741233c78595e621d4f228",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

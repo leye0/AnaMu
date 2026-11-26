@@ -1,0 +1,184 @@
+{
+  "source_document": "docs/courses/udem-supplementary/MUL-3208X-6208X.md",
+  "units": [
+    {
+      "id": "material:0000260",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 3208X / 6208X — Histoire de la musique électro (plan UdeM réel)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [plan de cours officiel UdeM, 2 pages](https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/MUL6208X_3208X_Histoire_de_la_musique_electroacoustique.pdf). Le document porte les **codes MUL 3208X / 6",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem-supplementary/MUL-3208X-6208X.md",
+          "document_sha256": "8baec48aa9ac6e90db083fd89d17b14cf82f4dc4cb9816657793d89e9391f683",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:938efc02ff748348f89648fc",
+            "heading_path": [
+              "MUL 3208X / 6208X — Histoire de la musique électro (plan UdeM réel)"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 36
+          },
+          "content_sha256": "e2962338b0e8367dc74f8690852a100dc105f14dd5ae06886124275be64dff66",
+          "body_sha256": "16253dacd982c63130f68f452d5028564164deb337e68a2036d4d42baa4e5e90",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000261",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Quatorze foyers de matière annoncés",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : 1. Aux origines : Russolo, art des bruits, inventions et contexte historique.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem-supplementary/MUL-3208X-6208X.md",
+          "document_sha256": "8baec48aa9ac6e90db083fd89d17b14cf82f4dc4cb9816657793d89e9391f683",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:35bcc455df75cfe3b02f3ad3",
+            "heading_path": [
+              "MUL 3208X / 6208X — Histoire de la musique électro (plan UdeM réel)",
+              "Quatorze foyers de matière annoncés"
+            ],
+            "start_line": 5,
+            "end_line": 21,
+            "subtree_end_line": 21
+          },
+          "content_sha256": "1479fec7562028e7f6f484fd131343344f92375de34ba9f3ce4f19a77e7ec6e7",
+          "body_sha256": "3a269052e04d99bfb2f25a65f9b4e0b73bce1450351b8b029f45fdf7f9ae1377",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000262",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lectures citées sur la feuille pédagogique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Références sélectionnées, chacune gardée comme **lecture explicitement listée**, sans prétendre disposer de son contenu intégral : Russolo (*L'art des bruits*); Schaeffer (*Premier journal de la musique concrète*); Annette Vande Gorne (hist",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem-supplementary/MUL-3208X-6208X.md",
+          "document_sha256": "8baec48aa9ac6e90db083fd89d17b14cf82f4dc4cb9816657793d89e9391f683",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6a0ecacfd7894dc2094c74f9",
+            "heading_path": [
+              "MUL 3208X / 6208X — Histoire de la musique électro (plan UdeM réel)",
+              "Lectures citées sur la feuille pédagogique"
+            ],
+            "start_line": 22,
+            "end_line": 25,
+            "subtree_end_line": 25
+          },
+          "content_sha256": "03d2c9fe32dbd9bd75eeeb8f81da79676714e0acab7ce23dece16eb88f2a26f7",
+          "body_sha256": "6bea974a9077c1f9ad32825715eb46b62a519db89ef007dea873a79064a4cd34",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000263",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Méthode d'enseignement et évaluations précisées",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Cours magistral de 3 heures et concert d'une heure chaque semaine. Au **premier cycle**, 40 % évaluations hebdomadaires (lecture, écoute autonome indiquée autour de trois heures par semaine, questionnaire), 60 % évaluations d'écoute et théo",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem-supplementary/MUL-3208X-6208X.md",
+          "document_sha256": "8baec48aa9ac6e90db083fd89d17b14cf82f4dc4cb9816657793d89e9391f683",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a42d230db8267b3b65bc3058",
+            "heading_path": [
+              "MUL 3208X / 6208X — Histoire de la musique électro (plan UdeM réel)",
+              "Méthode d'enseignement et évaluations précisées"
+            ],
+            "start_line": 26,
+            "end_line": 29,
+            "subtree_end_line": 29
+          },
+          "content_sha256": "22d122bc7cfc0bcec9c5b5b73149478d0d351af556c054bfe0ec56acbdde1f0a",
+          "body_sha256": "a774b3264f78d72cefa44356eff422ff0907e3550ed3be7f07e50d420c585db6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000264",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lien exact aux fiches prioritaires",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **MTE 1503** : c'est de la **composition électroacoustique**, non de l'histoire; ce syllabus nourrit un catalogue de références et concepts voisins mais n'atteste pas le contenu du cours créatif MTE 1503.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem-supplementary/MUL-3208X-6208X.md",
+          "document_sha256": "8baec48aa9ac6e90db083fd89d17b14cf82f4dc4cb9816657793d89e9391f683",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:49a0836db1a57d7530fa86cb",
+            "heading_path": [
+              "MUL 3208X / 6208X — Histoire de la musique électro (plan UdeM réel)",
+              "Lien exact aux fiches prioritaires"
+            ],
+            "start_line": 30,
+            "end_line": 36,
+            "subtree_end_line": 36
+          },
+          "content_sha256": "32b9ba3f63e80261519259b748caabb6c574647abf1006f69ef242b214342599",
+          "body_sha256": "fa78f6f191541971ea919ddef90824dd4252452fd1a3035b5d444a63434bc7b4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
