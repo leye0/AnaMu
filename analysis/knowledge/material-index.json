@@ -2,13 +2,13 @@
   "schema_version": 1,
   "coverage": {
     "status": "pilot_partial_not_full_inventory",
-    "source_course_documents_indexed": 419,
+    "source_course_documents_indexed": 424,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 3289,
-    "material_units_requiring_review": 3289,
+    "material_units_active": 3320,
+    "material_units_requiring_review": 3320,
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
-    "course_material_bindings_active": 3289,
+    "course_material_bindings_active": 3320,
     "material_knowledge_bindings": 55,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
     "material_knowledge_bindings_proposed": 49,
@@ -18,8 +18,8 @@
     "extracted_candidate_assertions": 32,
     "extracted_candidate_assertions_stale": 0,
     "candidate_senses_pending_reconciliation": 6,
-    "course_documents_with_active_units": 419,
-    "source_documents_with_active_units": 419
+    "course_documents_with_active_units": 424,
+    "source_documents_with_active_units": 424
   },
   "by_course": {
     "berklee:CM-211": [
@@ -4138,6 +4138,47 @@
       "material:0003287",
       "material:0003288",
       "material:0003289"
+    ],
+    "udem:MUS 4103": [
+      "material:0003290",
+      "material:0003291",
+      "material:0003292",
+      "material:0003293",
+      "material:0003294",
+      "material:0003295"
+    ],
+    "udem:MUS 4104": [
+      "material:0003296",
+      "material:0003297",
+      "material:0003298",
+      "material:0003299",
+      "material:0003300",
+      "material:0003301"
+    ],
+    "udem:MUS 4105": [
+      "material:0003302",
+      "material:0003303",
+      "material:0003304",
+      "material:0003305",
+      "material:0003306",
+      "material:0003307"
+    ],
+    "udem:MUS 4106": [
+      "material:0003308",
+      "material:0003309",
+      "material:0003310",
+      "material:0003311",
+      "material:0003312",
+      "material:0003313",
+      "material:0003314"
+    ],
+    "udem:PLU 2800U": [
+      "material:0003315",
+      "material:0003316",
+      "material:0003317",
+      "material:0003318",
+      "material:0003319",
+      "material:0003320"
     ]
   },
   "by_document": {
@@ -8267,6 +8308,47 @@
       "material:0003287",
       "material:0003288",
       "material:0003289"
+    ],
+    "docs/courses/udem/MUS-4103.md": [
+      "material:0003290",
+      "material:0003291",
+      "material:0003292",
+      "material:0003293",
+      "material:0003294",
+      "material:0003295"
+    ],
+    "docs/courses/udem/MUS-4104.md": [
+      "material:0003296",
+      "material:0003297",
+      "material:0003298",
+      "material:0003299",
+      "material:0003300",
+      "material:0003301"
+    ],
+    "docs/courses/udem/MUS-4105.md": [
+      "material:0003302",
+      "material:0003303",
+      "material:0003304",
+      "material:0003305",
+      "material:0003306",
+      "material:0003307"
+    ],
+    "docs/courses/udem/MUS-4106.md": [
+      "material:0003308",
+      "material:0003309",
+      "material:0003310",
+      "material:0003311",
+      "material:0003312",
+      "material:0003313",
+      "material:0003314"
+    ],
+    "docs/courses/udem/PLU-2800U.md": [
+      "material:0003315",
+      "material:0003316",
+      "material:0003317",
+      "material:0003318",
+      "material:0003319",
+      "material:0003320"
     ]
   },
   "by_concept": {
