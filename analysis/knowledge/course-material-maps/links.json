@@ -1276,6 +1276,94 @@
       "pedagogical_group": null,
       "editorial_review": "unreviewed",
       "lifecycle": "active"
+    },
+    {
+      "id": "course-material:0000117",
+      "course_id": "mcgill:MUTH 202",
+      "material_id": "material:0000117",
+      "source_path": "docs/courses/mcgill/MUTH-202.md",
+      "attribution": "assistant_source_checked_not_official_syllabus",
+      "presentation_order": null,
+      "pedagogical_group": null,
+      "editorial_review": "assistant_source_checked_draft",
+      "lifecycle": "active"
+    },
+    {
+      "id": "course-material:0000118",
+      "course_id": "berklee-online:OCOMP-491",
+      "material_id": "material:0000118",
+      "source_path": "docs/courses/berklee-online/OCOMP-491.md",
+      "attribution": "assistant_source_checked_not_official_syllabus",
+      "presentation_order": null,
+      "pedagogical_group": null,
+      "editorial_review": "assistant_source_checked_draft",
+      "lifecycle": "active"
+    },
+    {
+      "id": "course-material:0000119",
+      "course_id": "udem:MTE 3300",
+      "material_id": "material:0000119",
+      "source_path": "docs/courses/udem/MTE-3300.md",
+      "attribution": "assistant_source_checked_not_official_syllabus",
+      "presentation_order": null,
+      "pedagogical_group": null,
+      "editorial_review": "assistant_source_checked_draft",
+      "lifecycle": "active"
+    },
+    {
+      "id": "course-material:0000120",
+      "course_id": "mcgill:MUTH 528",
+      "material_id": "material:0000120",
+      "source_path": "docs/courses/mcgill/MUTH-528.md",
+      "attribution": "assistant_source_checked_not_official_syllabus",
+      "presentation_order": null,
+      "pedagogical_group": null,
+      "editorial_review": "assistant_source_checked_draft",
+      "lifecycle": "active"
+    },
+    {
+      "id": "course-material:0000121",
+      "course_id": "udem:MUL 3314",
+      "material_id": "material:0000121",
+      "source_path": "docs/courses/udem/MUL-3314.md",
+      "attribution": "assistant_source_checked_not_official_syllabus",
+      "presentation_order": null,
+      "pedagogical_group": null,
+      "editorial_review": "assistant_source_checked_draft",
+      "lifecycle": "active"
+    },
+    {
+      "id": "course-material:0000122",
+      "course_id": "berklee:CM-343",
+      "material_id": "material:0000122",
+      "source_path": "docs/courses/berklee/CM-343.md",
+      "attribution": "assistant_source_checked_not_official_syllabus",
+      "presentation_order": null,
+      "pedagogical_group": null,
+      "editorial_review": "assistant_source_checked_draft",
+      "lifecycle": "active"
+    },
+    {
+      "id": "course-material:0000123",
+      "course_id": "udem:MUS 2327",
+      "material_id": "material:0000123",
+      "source_path": "docs/courses/udem/MUS-2327.md",
+      "attribution": "assistant_source_checked_not_official_syllabus",
+      "presentation_order": null,
+      "pedagogical_group": null,
+      "editorial_review": "assistant_source_checked_draft",
+      "lifecycle": "active"
+    },
+    {
+      "id": "course-material:0000124",
+      "course_id": "udem-supplementary:MUL-6262-H27",
+      "material_id": "material:0000124",
+      "source_path": "docs/courses/udem-supplementary/MUL-6262-H27.md",
+      "attribution": "assistant_source_checked_not_official_syllabus",
+      "presentation_order": null,
+      "pedagogical_group": null,
+      "editorial_review": "assistant_source_checked_draft",
+      "lifecycle": "active"
     }
   ]
 }

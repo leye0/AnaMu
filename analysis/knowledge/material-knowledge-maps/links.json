@@ -558,6 +558,240 @@
       "justification": "Comparer résolution vers V de do ou destination ré♭ à partir des graphies et voix.",
       "state": "assistant_source_checked_proposed_link",
       "does_not_establish": "Une réorthographe seule ne certifie aucune modulation."
+    },
+    {
+      "id": "material-knowledge:0000032",
+      "material_id": "material:0000117",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "voices.suspension",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Identifier les phases d'un retard en suivant les voix, y compris la perfection subséquente."
+      ],
+      "context": "Calibrage source-consulté; relation proposée, pas automatiquement validée.",
+      "justification": "Identifier les phases d'un retard en suivant les voix, y compris la perfection subséquente.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Le contre-cas Renaissance ne prouve pas le contenu du syllabus McGill."
+    },
+    {
+      "id": "material-knowledge:0000033",
+      "material_id": "material:0000117",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.cadence",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "contrasts",
+      "covered_aspects": [
+        "Une clausula modale ou une clôture plagale ne se réduit pas à une formule V–I classique."
+      ],
+      "context": "Calibrage source-consulté; relation proposée, pas automatiquement validée.",
+      "justification": "Une clausula modale ou une clôture plagale ne se réduit pas à une formule V–I classique.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Les voix et le cadre stylistique doivent être documentés."
+    },
+    {
+      "id": "material-knowledge:0000034",
+      "material_id": "material:0000118",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "motif.thematic_identity",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "contrasts",
+      "covered_aspects": [
+        "Comparer la parenté d'un motif et la fonction dramatique de son retour."
+      ],
+      "context": "Calibrage source-consulté; relation proposée, pas automatiquement validée.",
+      "justification": "Comparer la parenté d'un motif et la fonction dramatique de son retour.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Motif récurrent ne prouve pas identité de personnage."
+    },
+    {
+      "id": "material-knowledge:0000035",
+      "material_id": "material:0000118",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "unresolved_concept_or_assertion",
+        "id": null,
+        "proposed_subject": "Dramaturgie musicale et associations aux scènes"
+      },
+      "contribution_kind": "documents_context",
+      "covered_aspects": [
+        "Relation thème–scène–personnage et témoignages de production."
+      ],
+      "context": "Calibrage source-consulté; relation proposée, pas automatiquement validée.",
+      "justification": "Relation thème–scène–personnage et témoignages de production.",
+      "state": "awaiting_target_identification",
+      "does_not_establish": "Aucun concept dramatique précis présent parmi les 25 contrats initialement rapprochés."
+    },
+    {
+      "id": "material-knowledge:0000036",
+      "material_id": "material:0000119",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "unresolved_concept_or_assertion",
+        "id": null,
+        "proposed_subject": "Spectromorphologie et objets sonores"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Segmentation spectromorphologique fondée sur l'audio, les transitoires et l'écoute."
+      ],
+      "context": "Calibrage source-consulté; relation proposée, pas automatiquement validée.",
+      "justification": "Segmentation spectromorphologique fondée sur l'audio, les transitoires et l'écoute.",
+      "state": "awaiting_target_identification",
+      "does_not_establish": "Les propriétés spectrales ne sont pas démontrables avec un MIDI hypothétique."
+    },
+    {
+      "id": "material-knowledge:0000037",
+      "material_id": "material:0000120",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "form.phrase_hierarchy",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Comparer les réductions de surface et de structure en justifiant les prolongations."
+      ],
+      "context": "Calibrage source-consulté; relation proposée, pas automatiquement validée.",
+      "justification": "Comparer les réductions de surface et de structure en justifiant les prolongations.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Aucune note n'est structurelle uniquement par sa durée."
+    },
+    {
+      "id": "material-knowledge:0000038",
+      "material_id": "material:0000121",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "unresolved_concept_or_assertion",
+        "id": null,
+        "proposed_subject": "Enquête ethnomusicologique et attribution située"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Contextualiser la pratique à partir des archives, du consentement et des observateurs."
+      ],
+      "context": "Calibrage source-consulté; relation proposée, pas automatiquement validée.",
+      "justification": "Contextualiser la pratique à partir des archives, du consentement et des observateurs.",
+      "state": "awaiting_target_identification",
+      "does_not_establish": "Une gamme perçue ne prouve pas une provenance culturelle."
+    },
+    {
+      "id": "material-knowledge:0000039",
+      "material_id": "material:0000122",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "sound.sustain",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "contrasts",
+      "covered_aspects": [
+        "Séparer note off, geste de choke et extinction acoustique."
+      ],
+      "context": "Calibrage source-consulté; relation proposée, pas automatiquement validée.",
+      "justification": "Séparer note off, geste de choke et extinction acoustique.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Une commande MIDI ne prouve pas la fin de résonance."
+    },
+    {
+      "id": "material-knowledge:0000040",
+      "material_id": "material:0000122",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "notation.key_events",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "illustrates",
+      "covered_aspects": [
+        "Conserver l'identité d'une attaque et d'une commande indépendamment d'un geste physique."
+      ],
+      "context": "Calibrage source-consulté; relation proposée, pas automatiquement validée.",
+      "justification": "Conserver l'identité d'une attaque et d'une commande indépendamment d'un geste physique.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "L'événement MIDI n'est pas un geste d'instrumentiste."
+    },
+    {
+      "id": "material-knowledge:0000041",
+      "material_id": "material:0000123",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "motif.thematic_identity",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "contrasts",
+      "covered_aspects": [
+        "Un rappel local de thème peut ne pas être le retour d'un cycle complet."
+      ],
+      "context": "Calibrage source-consulté; relation proposée, pas automatiquement validée.",
+      "justification": "Un rappel local de thème peut ne pas être le retour d'un cycle complet.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Une comparaison courte de signal ne prouve pas l'identité de l'ensemble."
+    },
+    {
+      "id": "material-knowledge:0000042",
+      "material_id": "material:0000123",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "form.adaptive_transition",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Comparer structure de boucle et éventuelles conditions de déclenchement dans le jeu."
+      ],
+      "context": "Calibrage source-consulté; relation proposée, pas automatiquement validée.",
+      "justification": "Comparer structure de boucle et éventuelles conditions de déclenchement dans le jeu.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "La captation ou la partition ne prouve pas un état de jeu non observé."
+    },
+    {
+      "id": "material-knowledge:0000043",
+      "material_id": "material:0000124",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "orchestration.local_roles",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "documents_context",
+      "covered_aspects": [
+        "Le plan mentionne les rôles d'accompagnement et les articulations par instruments."
+      ],
+      "context": "Calibrage source-consulté; relation proposée, pas automatiquement validée.",
+      "justification": "Le plan mentionne les rôles d'accompagnement et les articulations par instruments.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Ces thèmes ne déterminent pas un rôle orchestral automatiquement dans une œuvre."
+    },
+    {
+      "id": "material-knowledge:0000044",
+      "material_id": "material:0000124",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "unresolved_concept_or_assertion",
+        "id": null,
+        "proposed_subject": "Pratiques, histoire et interprétations du tango"
+      },
+      "contribution_kind": "documents_context",
+      "covered_aspects": [
+        "Pratique et interprétations historiques du tango du Río de la Plata."
+      ],
+      "context": "Calibrage source-consulté; relation proposée, pas automatiquement validée.",
+      "justification": "Pratique et interprétations historiques du tango du Río de la Plata.",
+      "state": "awaiting_target_identification",
+      "does_not_establish": "L'origine et l'authenticité ne découlent pas d'un motif rythmique."
     }
   ]
 }

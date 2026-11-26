@@ -6,11 +6,19 @@
     "sources/0909a5d177b8a496ef00.json",
     "sources/1da7719bf153a3bfe7c1.json",
     "sources/1f22b00c8d307f062cca.json",
+    "sources/20b0674bd1a64c514f0e.json",
     "sources/513bce341d137d342085.json",
     "sources/7af5d263eeb2f5bb9830.json",
+    "sources/a585a8619ac435da69ba.json",
+    "sources/ab536c491fbe294ec359.json",
+    "sources/b5b2891383ce602fd714.json",
     "sources/ce2deef4f038c0f0ef0d.json",
+    "sources/d1c8ae9226369f7b92ca.json",
+    "sources/de1c99382b9320901a49.json",
+    "sources/de6c2fb47ff99b151550.json",
+    "sources/e9fb979ee3a4ebc6e908.json",
     "sources/f2d3b769dd116137ef92.json"
   ],
-  "material_units": 116,
-  "note": "Calibration pilote sur huit fiches; ne représente pas les 424 fiches du dépôt."
+  "material_units": 124,
+  "note": "16 fiches de calibration, une matière spécifique par nouvelle fiche; chaque source devra être entièrement délimitée lors du refresh."
 }

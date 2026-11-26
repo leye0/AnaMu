@@ -2,17 +2,17 @@
   "schema_version": 1,
   "coverage": {
     "status": "pilot_partial_not_full_inventory",
-    "source_course_documents_indexed": 8,
+    "source_course_documents_indexed": 16,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 116,
-    "material_units_requiring_review": 116,
-    "descriptions_assistant_source_checked": 15,
+    "material_units_active": 124,
+    "material_units_requiring_review": 124,
+    "descriptions_assistant_source_checked": 23,
     "descriptions_human_reviewed": 0,
-    "course_material_bindings_active": 116,
-    "material_knowledge_bindings": 31,
+    "course_material_bindings_active": 124,
+    "material_knowledge_bindings": 44,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
-    "material_knowledge_bindings_proposed": 30,
-    "material_knowledge_bindings_unresolved": 1,
+    "material_knowledge_bindings_proposed": 39,
+    "material_knowledge_bindings_unresolved": 5,
     "material_knowledge_bindings_confirmed": 0
   },
   "by_course": {
@@ -147,6 +147,30 @@
       "material:0000114",
       "material:0000115",
       "material:0000116"
+    ],
+    "mcgill:MUTH 202": [
+      "material:0000117"
+    ],
+    "berklee-online:OCOMP-491": [
+      "material:0000118"
+    ],
+    "udem:MTE 3300": [
+      "material:0000119"
+    ],
+    "mcgill:MUTH 528": [
+      "material:0000120"
+    ],
+    "udem:MUL 3314": [
+      "material:0000121"
+    ],
+    "berklee:CM-343": [
+      "material:0000122"
+    ],
+    "udem:MUS 2327": [
+      "material:0000123"
+    ],
+    "udem-supplementary:MUL-6262-H27": [
+      "material:0000124"
     ]
   },
   "by_document": {
@@ -281,6 +305,30 @@
       "material:0000114",
       "material:0000115",
       "material:0000116"
+    ],
+    "docs/courses/mcgill/MUTH-202.md": [
+      "material:0000117"
+    ],
+    "docs/courses/berklee-online/OCOMP-491.md": [
+      "material:0000118"
+    ],
+    "docs/courses/udem/MTE-3300.md": [
+      "material:0000119"
+    ],
+    "docs/courses/mcgill/MUTH-528.md": [
+      "material:0000120"
+    ],
+    "docs/courses/udem/MUL-3314.md": [
+      "material:0000121"
+    ],
+    "docs/courses/berklee/CM-343.md": [
+      "material:0000122"
+    ],
+    "docs/courses/udem/MUS-2327.md": [
+      "material:0000123"
+    ],
+    "docs/courses/udem-supplementary/MUL-6262-H27.md": [
+      "material:0000124"
     ]
   },
   "by_concept": {
@@ -310,7 +358,8 @@
     ],
     "harmony.cadence": [
       "material:0000029",
-      "material:0000061"
+      "material:0000061",
+      "material:0000117"
     ],
     "harmony.sonority": [
       "material:0000045",
@@ -325,7 +374,8 @@
     ],
     "orchestration.local_roles": [
       "material:0000097",
-      "material:0000100"
+      "material:0000100",
+      "material:0000124"
     ],
     "sound.velocity": [
       "material:0000097",
@@ -337,6 +387,25 @@
     ],
     "harmony.modal_mixture": [
       "material:0000104"
+    ],
+    "voices.suspension": [
+      "material:0000117"
+    ],
+    "motif.thematic_identity": [
+      "material:0000118",
+      "material:0000123"
+    ],
+    "form.phrase_hierarchy": [
+      "material:0000120"
+    ],
+    "sound.sustain": [
+      "material:0000122"
+    ],
+    "notation.key_events": [
+      "material:0000122"
+    ],
+    "form.adaptive_transition": [
+      "material:0000123"
     ]
   },
   "knowledge_links_requiring_review": []
