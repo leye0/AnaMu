@@ -1,0 +1,1100 @@
+{
+  "source_document": "docs/courses/berklee-online/OCMUS-105.md",
+  "units": [
+    {
+      "id": "material:0000458",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "OCMUS-105 — Time and Rhythm 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Dossier de matière pédagogique directement sourcé**, Boston Conservatory at Berklee **offert via Berklee Online**, auteur **Matt Sharrock**, 12 semaines, trois crédits selon la [page officielle et son syllabus public](https://online.berkl",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:bfa96f2e96ab839edcc2322f",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 291
+          },
+          "content_sha256": "4e8bc5e78835f8133809e46aeb77d08cb00a191d5589898941036c29eea883ff",
+          "body_sha256": "556c9f00f2448756c12c8ffa00e464a8b6cafdad1aead4c2498034b64bd32978",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000459",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Leçons attestées, deux chemins parallèles : pulsation corporelle puis notation",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Le cas remarquable est pédagogique :** les **six premières leçons** s'intéressent à la pulsation, au mouvement, à la mémoire de l'appui, à l'identification auditive; les **six dernières** développent la notation, en s'appuyant sur ces exp",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:86b706b9b225027ce0ec14b6",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Leçons attestées, deux chemins parallèles : pulsation corporelle puis notation"
+            ],
+            "start_line": 5,
+            "end_line": 25,
+            "subtree_end_line": 25
+          },
+          "content_sha256": "81510943e5e6ad44e2256f4ac1938704b527de5fce767c94fd3cca216f36d486",
+          "body_sha256": "e989911f4a3acf8399f85eecdebe81215ecd122712432671a11840066e6fe6b7",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000460",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 1 — un nombre de coups n'indique pas quelle pulsation est interne",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cas construit, sans musique attribuée au cours.** Pendant un cycle de deux secondes, une première voix répartit **trois coups** à 0, 2/3 et 4/3 s, tandis qu'une seconde répartit **deux coups** à 0 et 1 s; les deux recommencent leur cycle",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a5a71807b5291b82f4103421",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Apprentissage 1 — un nombre de coups n'indique pas quelle pulsation est interne"
+            ],
+            "start_line": 26,
+            "end_line": 33,
+            "subtree_end_line": 33
+          },
+          "content_sha256": "675c53eee42742d1cc0968e4884e140faa59cc160730c94d294a84790e14ae52",
+          "body_sha256": "79c7e4a5f35fcee34fae5e6295c308fd9b93368b2f6ace6813d7e9fe7d61425c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000461",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 2 — le métronome ne doit pas être pris pour le premier temps de la musique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Exercice comparatif fondé sur la matière attestée du syllabus, mais inventé pour AnaMu.** Conserver un motif de quatre mesures à noire = 120 BPM, puis compter quatre contextes de clic : (a) chaque noire, (b) un clic toutes les deux noires",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1e60263686809da3e0273afd",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Apprentissage 2 — le métronome ne doit pas être pris pour le premier temps de la musique"
+            ],
+            "start_line": 34,
+            "end_line": 39,
+            "subtree_end_line": 39
+          },
+          "content_sha256": "82bfa47aeb3d00761b903d5a3eacf9c860c7e29835850351104076a6ac8c0881",
+          "body_sha256": "d52ebe3a8479a4e2e38c23b5ff171f452299e5814eca40b444d8a41c89c96a01",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000462",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 3 — 7/8 fixe, cellules variables, mètre inchangé",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : En 7/8, les cellules d'accent **3+2+2**, **2+3+2** et **2+2+3** conservent la même longueur de **sept croches**. Elles peuvent changer le relief interne **sans changer le mètre, la durée de la mesure ou le tempo**. À la noire = 120 BPM (cro",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:de7d9d37ccacefeafd52cad4",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Apprentissage 3 — 7/8 fixe, cellules variables, mètre inchangé"
+            ],
+            "start_line": 40,
+            "end_line": 48,
+            "subtree_end_line": 48
+          },
+          "content_sha256": "2d7d754fd6dfed5317e8fe3e71aabcb38af0f63c27924183970dc621845e11ff",
+          "body_sha256": "1311fb7d8879f78ccd6cd95e396ab78ef78af1981915f0f1440397a406a76f02",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000463",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Une vraie démonstration GM de 4/4 vers 7/8 ne certifie pas la battue intérieure (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Apprentissage sourcé.** [Le vrai syllabus Time and Rhythm 1](https://online.berklee.edu/courses/time-and-rhythm-1#syllabus) traite des divisions métriques, des mesures à sept, des changements et de la pulsation intérieure, puis de la nota",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2b2505191fec9510c85282d0",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Une vraie démonstration GM de 4/4 vers 7/8 ne certifie pas la battue intérieure (17 novembre 2026)"
+            ],
+            "start_line": 49,
+            "end_line": 58,
+            "subtree_end_line": 58
+          },
+          "content_sha256": "423df3829d547503880581aa0e30cd6cee2e6b2480154700ecbd8f31bdb0f5d5",
+          "body_sha256": "97cdacb5ce163867be0077f0f2bd0a1c34388c351185242821d96bc1580a5c8e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000464",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Pulsation intérieure : huit sons joués et douze notes MIDI, deux décomptes (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source.** Le [vrai syllabus OCMUS-105](https://online.berklee.edu/courses/time-and-rhythm-1#syllabus) travaille la pulsation, les contretemps et la dictée **avant** d'approfondir la notation. Les exercices qui suivent sont **des comparate",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:897b4835875547f4e5b66df9",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Pulsation intérieure : huit sons joués et douze notes MIDI, deux décomptes (17 novembre 2026)"
+            ],
+            "start_line": 59,
+            "end_line": 71,
+            "subtree_end_line": 71
+          },
+          "content_sha256": "c7c491b01c8f6cac099ec9d6c675fa74af4236ae9d131dd47795248ae4edd8c5",
+          "body_sha256": "e27194bc274c4359559805d3b04c6425b19c8893fae4e2fe336b659428c84aef",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000465",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Mètres composés, trois contre deux et pulsation sans clic — huit témoins de la deuxième passe (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve du syllabus et frontière.** Le [plan public officiel de *Time and Rhythm 1*, Matt Sharrock](https://online.berklee.edu/courses/time-and-rhythm-1#syllabus) distingue **les pulsations duelles/triples/quadruples et le mètre simple/com",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:99d69a4e677eee7e18e122cb",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Mètres composés, trois contre deux et pulsation sans clic — huit témoins de la deuxième passe (17 novembre 2026)"
+            ],
+            "start_line": 72,
+            "end_line": 75,
+            "subtree_end_line": 134
+          },
+          "content_sha256": "eaa794f76a7a34ac9c917de75d0f5cf9f71f10d00cb96bc03fcb5d56602be4fa",
+          "body_sha256": "8442f3f2c301fa0a5f32ab61662468b71d13deeb6014080d8eca7dd7f98d2286",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000466",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Contrôle C-1 — mêmes six croches, deux organisations du temps : 6/8 / 3/4",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [Témoin MIDI original, 8 mesures](./OCMUS-105/six-croches-6-8-vers-3-4.mid) · [Registre d'audit](../../data/percussion-compound-meter-studies-2026-11-17.json).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d1dacd131743e0860ad67b9b",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Mètres composés, trois contre deux et pulsation sans clic — huit témoins de la deuxième passe (17 novembre 2026)",
+              "Contrôle C-1 — mêmes six croches, deux organisations du temps : 6/8 / 3/4"
+            ],
+            "start_line": 76,
+            "end_line": 83,
+            "subtree_end_line": 83
+          },
+          "content_sha256": "f5d4ca21b1ca3486f49f680845dc3dae45f7273ee29fc532cdfb9f5817a81170",
+          "body_sha256": "faf39adbf489bb4c1457d31e510f0b6ef2404ed2b18d5002e60e71b662068bf4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000467",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Contrôle C-2 — cinq notes, quatre instants : 3:2 simultané puis linéarisé",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [Deux pistes de percussion, 8 mesures en 6/8](./OCMUS-105/contre-rythme-3-contre-2-linearise.mid) : un **flux de deux** (GM67, ticks **0/720**) et un **flux de trois** (GM68, **0/480/960**) s'entrecroisent sur un cycle de **1 440 ticks**. L",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3e62c127f3df3d2d8e3b5956",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Mètres composés, trois contre deux et pulsation sans clic — huit témoins de la deuxième passe (17 novembre 2026)",
+              "Contrôle C-2 — cinq notes, quatre instants : 3:2 simultané puis linéarisé"
+            ],
+            "start_line": 84,
+            "end_line": 94,
+            "subtree_end_line": 94
+          },
+          "content_sha256": "1223eab9f596b9b4d0808875a569b71fd0db5db19b0f365fc75191973c87a085",
+          "body_sha256": "a6c4fe92a45d1da941149fec9ff009fb280f94ba1104f81098578b7ee21a2659",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000468",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Contrôle C-3 — trois phases du même 3:2 : coïncidence au début, au milieu, aucune",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [Témoin original, 12 mesures en 6/8](./OCMUS-105/contre-rythme-3-2-trois-phases.mid) : **108 BPM**, toujours cinq notes par mesure (deux coups GM76 et trois GM77), soit **20 par bloc de quatre mesures**, **60 au total**. Le flux de deux res",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e25adec226192bcee70a298a",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Mètres composés, trois contre deux et pulsation sans clic — huit témoins de la deuxième passe (17 novembre 2026)",
+              "Contrôle C-3 — trois phases du même 3:2 : coïncidence au début, au milieu, aucune"
+            ],
+            "start_line": 95,
+            "end_line": 106,
+            "subtree_end_line": 106
+          },
+          "content_sha256": "4da99c16fb0c955195879cfcb53789e4d30e6f97f5906e373f941f6bb0f8f025",
+          "body_sha256": "8bb016f26b1596347e7cb4db74a473f66452ab8e2f9c750e7bf8d03b207536b3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000469",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Contrôle C-4 — 7/8 maintenu, trois accents sans une seule note supplémentaire",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [Témoin original, 12 mesures en 7/8](./OCMUS-105/sept-huit-trois-groupements-identiques.mid) : 120 BPM, **84 notes GM42**, soit 28 par bloc de quatre mesures. Chaque mesure contient toujours exactement **sept croches** aux ticks locaux **0,",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:25ce12ed5c4a9a756b297d89",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Mètres composés, trois contre deux et pulsation sans clic — huit témoins de la deuxième passe (17 novembre 2026)",
+              "Contrôle C-4 — 7/8 maintenu, trois accents sans une seule note supplémentaire"
+            ],
+            "start_line": 107,
+            "end_line": 116,
+            "subtree_end_line": 116
+          },
+          "content_sha256": "87f9c273d1ae4f12690216c2b89d370c450c391e1abb0ef10be0936ac370c65f",
+          "body_sha256": "1a35afab5bed87f7ed495ebf68466ef9ae96d64e49773232447b3ebca009cbc1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000470",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Contrôle C-5 — ôter le clic sans ôter le temps",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [Quatre méthodes de métronome, 16 mesures](./OCMUS-105/clic-muet-et-contretemps-pratique.mid), **105 BPM**, PPQ 480, 4/4, total **236 messages Note On**. La batterie **GM36/38/42 reste strictement identique** dans les quatre blocs. Une seco",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:85c697e3948d14195b2cc763",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Mètres composés, trois contre deux et pulsation sans clic — huit témoins de la deuxième passe (17 novembre 2026)",
+              "Contrôle C-5 — ôter le clic sans ôter le temps"
+            ],
+            "start_line": 117,
+            "end_line": 129,
+            "subtree_end_line": 129
+          },
+          "content_sha256": "4c96578e5c8bf9f91b20e726c4948f4ece7ca0979d82f7c86466af70bd5ea069",
+          "body_sha256": "ca40f74151646792c2fe1539190d6e3e567e7d07de2db8d4b1c549b556216227",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000471",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict de la passe composée",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cinq MIDI originaux de cette fiche, contrôlés sur GitHub :** **48 + 36 + 60 + 84 + 236 = 464 attaques**, signatures exactes, fins appariées, marqueurs de chaque variante et **aucune écoute**. Les trois autres études de ce lot sont reliées",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6cba02494a6e3e78641cda09",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Mètres composés, trois contre deux et pulsation sans clic — huit témoins de la deuxième passe (17 novembre 2026)",
+              "Verdict de la passe composée"
+            ],
+            "start_line": 130,
+            "end_line": 134,
+            "subtree_end_line": 134
+          },
+          "content_sha256": "642cd3d34aefc80b4568a828fa814b07c51e9c3ba3803ae0d8c8f741782c1cc2",
+          "body_sha256": "06ca430e00bdc32dd1e5e5e5c8603bc0eaa3c790f581a18d12499a629be694dd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000472",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "9/8 et cycles 4 contre 3 : ce que les accents prouvent et ne prouvent pas (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Ancrage.** Le [syllabus de Matt Sharrock](https://online.berklee.edu/courses/time-and-rhythm-1#syllabus) atteste les mètres complexes **5, 7, 9** (leçon 5), les **hémioles** (3), le simple/composé (2, 8), et les changements de signatures",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:10340db84ec6c8a04088f3cc",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "9/8 et cycles 4 contre 3 : ce que les accents prouvent et ne prouvent pas (17 novembre 2026)"
+            ],
+            "start_line": 135,
+            "end_line": 138,
+            "subtree_end_line": 159
+          },
+          "content_sha256": "28bcc407a27973df9b45a908ff242df9a4505ccfeda67ee2969dbfbdd88b4cf8",
+          "body_sha256": "4b0e56042e0849f55be26d7c3a044f91a3640f930a677b7ab06fbf81075acfa1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000473",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "C-6 — trois manières de lire neuf croches en 9/8",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MIDI original, 12 mesures](./OCMUS-105/neuf-huit-trois-hierarchies.mid) : **108 Note On**, soit 36 dans chaque bloc de quatre mesures, toujours **neuf croches GM42 par mesure**, au même **9/8** et tempo de noire 120. Les **dates, numéros d",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:292d79a35c95860f3f08707c",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "9/8 et cycles 4 contre 3 : ce que les accents prouvent et ne prouvent pas (17 novembre 2026)",
+              "C-6 — trois manières de lire neuf croches en 9/8"
+            ],
+            "start_line": 139,
+            "end_line": 150,
+            "subtree_end_line": 150
+          },
+          "content_sha256": "ac2e825eae78a73b2a2e2c6da6d912b88542990599624ddab9dd74656d062a1c",
+          "body_sha256": "5b12fa0bcfc5a656967ed3b9e74de8a471669dd42f9eb1968b75922b949ee06d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000474",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "C-7 — un 4/4 explicitement noté avec un cycle concurrent de trois noires",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MIDI original, 12 mesures](./OCMUS-105/quatre-quarts-contre-cycle-trois-temps.mid) : **68 notes on**, soit **30** dans les six premières mesures, **38** dans les six suivantes. Les 30 coups de base (quatre noires GM42 par mesure, appui GM5",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4e8a0f256c8021b034530d1f",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "9/8 et cycles 4 contre 3 : ce que les accents prouvent et ne prouvent pas (17 novembre 2026)",
+              "C-7 — un 4/4 explicitement noté avec un cycle concurrent de trois noires"
+            ],
+            "start_line": 151,
+            "end_line": 159,
+            "subtree_end_line": 159
+          },
+          "content_sha256": "1f7e781a6c51a74ad52534d969cc293a7b4a42ba8fdaf594afdd484c9cc45728",
+          "body_sha256": "5f12e682dddad3b2e22926d71fcad494039de496cd2ee8916075d7055d78d805",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000475",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "La battue ressentie n'est pas située exactement sur tous les événements Note On (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cours vrai et limites.** Le [plan de Time and Rhythm 1](https://online.berklee.edu/courses/time-and-rhythm-1#syllabus) comporte explicitement **pulsation corporelle et intérieure, accentuation, syncopes, polyrythmies et exercices de métro",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:95cd370718d0f2173b89d0fd",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "La battue ressentie n'est pas située exactement sur tous les événements Note On (17 novembre 2026)"
+            ],
+            "start_line": 160,
+            "end_line": 170,
+            "subtree_end_line": 170
+          },
+          "content_sha256": "0649e5669a08c870712626dd8a3478e30b7271c96ad0ee0f2f107a640c1813ab",
+          "body_sha256": "b560bdaa305e97b0c35ce187bc9189b583a520661aa521bcdd5becfd16671038",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000476",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Accélérer sans changer le motif",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Deux blocs de huit mesures reprennent le **même calendrier en ticks**, la même basse, les mêmes accords et les mêmes frappes. Le premier reste à **104 BPM**. Le second garde 104 pendant quatre mesures, puis passe par **108, 112, 116 et 120",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b7a9f08d75093536ce52fcc9",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Accélérer sans changer le motif"
+            ],
+            "start_line": 171,
+            "end_line": 178,
+            "subtree_end_line": 178
+          },
+          "content_sha256": "140fe9e070f3be011063e152d4c3f947703f1511c45811b924d895472ddd4d0c",
+          "body_sha256": "a74b1cc1fc1866cc7fa1fdee7b4640e352876203660c0e92c31bff3f841068b6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000477",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Rendus audio des études de percussion",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : MP3 rendus à partir des MIDI des études, avec la banque GeneralUser GS. Les variantes d'un même fichier restent dans la même piste, sans correction de timing, de vélocité ou d'instrumentation.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:34f71b4e4e6e9947e30f4531",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Rendus audio des études de percussion"
+            ],
+            "start_line": 179,
+            "end_line": 190,
+            "subtree_end_line": 190
+          },
+          "content_sha256": "d423fd67f6f8dbbccaadfd50f6bbf56c1fb28eae30923b71043eebfc21790025",
+          "body_sha256": "8577aca9c8e0628a5f40bf513767e2599fed126d185299ffb6555e8e7451eabd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000478",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Ces consignes sont des propositions pédagogiques originales AnaMu, fondées sur les études et sources déjà distinguées dans cette fiche. Elles ne sont pas des exercices attribués au professeur. Aucune nouvelle audition humaine n’a été réalis",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c9c60b75ffe6fb966a7711ec",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026"
+            ],
+            "start_line": 191,
+            "end_line": 194,
+            "subtree_end_line": 278
+          },
+          "content_sha256": "ebb9c779be27519cd8c86fcf10fa26ede6a4e80a3b29ae9ce77e1b8271ea2d7e",
+          "body_sha256": "b027e19aad8071713ddf839121fb61b819664a13dfa1e2cd656900d2f623543e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000479",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Six croches : 6/8 puis 3/4",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MP3](OCMUS-105/six-croches-6-8-vers-3-4.mp3) · [MIDI original](OCMUS-105/six-croches-6-8-vers-3-4.mid)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:046d50afd2b9df7312e268a5",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+              "Six croches : 6/8 puis 3/4"
+            ],
+            "start_line": 195,
+            "end_line": 206,
+            "subtree_end_line": 206
+          },
+          "content_sha256": "4473b01c85ff6d629d6938286362abf5e3efca85df8432273174c1e48dba73d1",
+          "body_sha256": "13e9ec2576eccc5dbb728a40054db41394970d523ac96ecb34e9129e81007958",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000480",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "3 contre 2 sans superposition",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MP3](OCMUS-105/contre-rythme-3-contre-2-linearise.mp3) · [MIDI original](OCMUS-105/contre-rythme-3-contre-2-linearise.mid)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:64026bb8ce84cec67196447e",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+              "3 contre 2 sans superposition"
+            ],
+            "start_line": 207,
+            "end_line": 218,
+            "subtree_end_line": 218
+          },
+          "content_sha256": "5786ce31350fac715e4e9125fbb7f5f4fa2c5a303944a98cb89b7beb7c722a62",
+          "body_sha256": "8260c4775c8848bd691848dd53ba2ac07a6d2d3c31b36572a892795e3906ca00",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000481",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Trois phases du 3 contre 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MP3](OCMUS-105/contre-rythme-3-2-trois-phases.mp3) · [MIDI original](OCMUS-105/contre-rythme-3-2-trois-phases.mid)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1d3818b079a3d5ab8f5e27d2",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+              "Trois phases du 3 contre 2"
+            ],
+            "start_line": 219,
+            "end_line": 230,
+            "subtree_end_line": 230
+          },
+          "content_sha256": "a142d6767e32c02162040b73978443ae510783b14fe8acd1259f8d75e61c7bc2",
+          "body_sha256": "ae0a6d9b1a894fad5e51aaad4a2f534bd48b5cb3f86f042a470e23ea85f56791",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000482",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "7/8 : trois groupements",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MP3](OCMUS-105/sept-huit-trois-groupements-identiques.mp3) · [MIDI original](OCMUS-105/sept-huit-trois-groupements-identiques.mid)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e4909e49d76620245a2b980f",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+              "7/8 : trois groupements"
+            ],
+            "start_line": 231,
+            "end_line": 242,
+            "subtree_end_line": 242
+          },
+          "content_sha256": "0f004be387b1409f4fbd589f9ef14c3bf3675be32240d52e8c2c4d967a78e599",
+          "body_sha256": "3d9dca7fd2f8995c25d1146d419a3b989af62387da71c4ae8024272b18d55689",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000483",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Métronome : clics et trous",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MP3](OCMUS-105/clic-muet-et-contretemps-pratique.mp3) · [MIDI original](OCMUS-105/clic-muet-et-contretemps-pratique.mid)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6b31860d4b6fc35fc6bad3ef",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+              "Métronome : clics et trous"
+            ],
+            "start_line": 243,
+            "end_line": 254,
+            "subtree_end_line": 254
+          },
+          "content_sha256": "c1755e025f734e5597aefab6ecdc912e034f0917a49d4c8c78e739f0ecbc91d4",
+          "body_sha256": "5152fdd402a13b9fc6631474ca9833d231a43a8006ed02497939e75714be19a2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000484",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "9/8 : trois groupements",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MP3](OCMUS-105/neuf-huit-trois-hierarchies.mp3) · [MIDI original](OCMUS-105/neuf-huit-trois-hierarchies.mid)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c892c487015051f9e74cea56",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+              "9/8 : trois groupements"
+            ],
+            "start_line": 255,
+            "end_line": 266,
+            "subtree_end_line": 266
+          },
+          "content_sha256": "261afe1f249037374d6cfef165b5555d3616008bb6425129d39600a3b19849ab",
+          "body_sha256": "105f2c8d074de1cc1ead004cc2143cb2cd28b6647c91f4489da0cb3ed64cd0ec",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000485",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "4/4 contre un cycle de trois noires",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MP3](OCMUS-105/quatre-quarts-contre-cycle-trois-temps.mp3) · [MIDI original](OCMUS-105/quatre-quarts-contre-cycle-trois-temps.mid)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:fab51074f7c68abec4f4b0ac",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+              "4/4 contre un cycle de trois noires"
+            ],
+            "start_line": 267,
+            "end_line": 278,
+            "subtree_end_line": 278
+          },
+          "content_sha256": "ee3d5016cf53fcc3a0eb19cac63fd1f903f1e7fe424dbffc1d3bb910d27882b4",
+          "body_sha256": "a365959155a9f67e0baa9d1382026aedbbf06e49551d1e10e4a240576b210acd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000486",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Exercices de transfert sur les nouveaux rendus",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Propositions originales AnaMu sur les exemples de cette fiche. Les prises GMD restent des références externes attribuées, et non des performances d’élèves du cours. Les impressions ci-dessous sont des questions ouvertes, pas des résultats d",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:cc1486e8a764f3346a8ddc1f",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Exercices de transfert sur les nouveaux rendus"
+            ],
+            "start_line": 279,
+            "end_line": 282,
+            "subtree_end_line": 291
+          },
+          "content_sha256": "d4f95debf7779201cd1a3eada26b60489b2d9bf35f20951ed56be20f474632a6",
+          "body_sha256": "546d966467bade9a431f5bcc99f3058c1cd453820fc17a7ea53887406331f183",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000487",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Mêmes frappes · tempo fixe puis accélération",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Question :** Le groupe accélère-t-il alors que le nombre de frappes par mesure reste identique ?",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCMUS-105.md",
+          "document_sha256": "4791a2a08ce24b09d17e9f5c680516bf3133c32412fd4555414b3df5d5f93434",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:aadccf6aed3d6086ff91b936",
+            "heading_path": [
+              "OCMUS-105 — Time and Rhythm 1",
+              "Exercices de transfert sur les nouveaux rendus",
+              "Mêmes frappes · tempo fixe puis accélération"
+            ],
+            "start_line": 283,
+            "end_line": 291,
+            "subtree_end_line": 291
+          },
+          "content_sha256": "2e1ec55cafdd1606954bd31dcf4e503bea90ab2730d60f9314a300315ed97b4e",
+          "body_sha256": "f18888fc8f79a88cba78ba7de3b108c559d9336591a45c3bcde2d9d98392d1be",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
