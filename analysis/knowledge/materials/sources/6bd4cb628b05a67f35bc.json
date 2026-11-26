@@ -187,13 +187,17 @@
       "kind": "markdown_section",
       "title": "2. Différence entre répétition perceptible et continuité",
       "title_origin": "source_heading_or_key",
-      "description": "Extrait documentaire à qualifier : Les travaux **2.1–2.2** séparent improvisation et composition, puis demandent un déroulement où l'auditeur perçoit une évolution cohérente malgré un montage du matériau. L'instruction insiste sur les **transitions**, le déroulement temporel",
-      "description_origin": "source_proposal_unreviewed",
-      "editorial_review": "unreviewed",
+      "description": "Le programme public MIT 21M.361 (2008), travaux 2.1 et 2.2, distingue improvisation et composition en demandant une continuité perceptible malgré l'assemblage d'éléments. Les transitions, l'évolution temporelle et la transformation du matériau sont des objets de travail explicites, différents de la simple juxtaposition d'événements.",
+      "description_origin": "assistant_source_checked",
+      "editorial_review": "assistant_source_checked_draft",
       "review_required": true,
       "covers": [],
-      "does_not_cover": [],
-      "notes": [],
+      "does_not_cover": [
+        "Le résumé des énoncés n'atteste ni le résultat auditif d'un travail d'étudiant ni une méthode universelle de composition."
+      ],
+      "notes": [
+        "Description source-consultée, en attente de revue musicale indépendante."
+      ],
       "source_bindings": [
         {
           "document_path": "docs/courses/mit/21M-361.md",
@@ -216,7 +220,8 @@
         }
       ],
       "lifecycle": "active",
-      "locator_review": "unreviewed"
+      "locator_review": "source_verified_editorial_pending",
+      "editorial_revision": 1
     },
     {
       "id": "material:0000420",
