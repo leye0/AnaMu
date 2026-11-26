@@ -80,6 +80,41 @@ def evaluate_route(route: dict, evidence: dict[str, dict]) -> dict:
             "does_not_establish": route.get("does_not_establish", [])}
 
 
+def execution_order(tasks: list[dict]) -> list[str]:
+    """Order *candidate* operations, not musical events or proven claims."""
+    by_id = {task["id"]: task for task in tasks}
+    if len(by_id) != len(tasks):
+        raise ValueError("Duplicate candidate operation IDs")
+    dependencies: dict[str, list[str]] = {}
+    for task in tasks:
+        needed = require_strings(task.get("depends_on", []),
+                                 "task.depends_on")
+        if any(ref not in by_id for ref in needed):
+            raise ValueError("Unknown execution prerequisite in: " + task["id"])
+        if task["id"] in needed:
+            raise ValueError("Self-dependency in task: " + task["id"])
+        dependencies[task["id"]] = needed
+    ordered = []
+    active: set[str] = set()
+    complete: set[str] = set()
+
+    def visit(identifier: str) -> None:
+        if identifier in active:
+            raise ValueError("Execution prerequisite cycle: " + identifier)
+        if identifier in complete:
+            return
+        active.add(identifier)
+        for predecessor in dependencies[identifier]:
+            visit(predecessor)
+        active.remove(identifier)
+        complete.add(identifier)
+        ordered.append(identifier)
+
+    for task in tasks:
+        visit(task["id"])
+    return ordered
+
+
 def plan(case: dict, profile: str) -> dict:
     if case.get("schema_version") != 1:
         raise ValueError("unsupported planner case schema")
@@ -118,12 +153,28 @@ def plan(case: dict, profile: str) -> dict:
                           "cannot_establish": task.get("cannot_establish", []),
                           "revisit_when": task.get("revisit_when", []),
                           "execution_state": "not_executed_by_planner"})
+    ordering = execution_order(tasks)
+    rank = {identifier: index + 1 for index, identifier in enumerate(ordering)}
+    declarations = {task["id"]: task for task in tasks}
+    for task in evaluated:
+        predecessors = declarations[task["id"]].get("depends_on", [])
+        task["depends_on"] = predecessors
+        task["schedule_rank"] = rank[task["id"]]
+        task["predecessors_are_executed"] = False if predecessors else None
+        task["executable_now"] = (
+            task["state"] != "blocked_missing_or_unverified_evidence"
+            and not predecessors)
+        # Dependencies being *ready* never makes their observations exist.
     counts = Counter(task["state"] for task in evaluated)
     return {"schema_version": 1, "case_id": case.get("case_id"),
             "question": case.get("question"), "source_note": case.get("source_note"),
             "evidence_profile": profile,
             "limitation": "Proof-route scheduling only. No observations, musical conclusions or evaluations have been executed.",
             "evidence_audit": audit, "task_counts": dict(sorted(counts.items())),
+            "candidate_execution_order": ordering,
+            "execution_order_note": (
+                "Scheduling prerequisites are not proofs. An upstream task "
+                "must actually run before a dependent task can be executed."),
             "tasks": evaluated}
 
 
