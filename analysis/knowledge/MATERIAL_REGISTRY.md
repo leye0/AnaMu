@@ -55,7 +55,13 @@ section délimitée chacune**. Les autres sections de ces huit fiches doivent
 être générées à la reprise complète.
 
 Les 23 descriptions restent des **brouillons éditoriaux**, et aucun lien
-n'est confirmé musicologiquement. Dix mentions sélectionnées ont fourni
+n'est confirmé musicologiquement.
+Les cinq cibles sans concept canonique sont suivies dans
+[les sens candidats P3](candidate-senses.json) : contexte historique,
+dramaturgie, spectromorphologie, enquête ethnomusicologique et
+interprétations du tango. Ces **propositions** conservent leur portée et
+leurs exigences de preuve; aucune n'est automatiquement fusionnée aux
+25 concepts existants. Dix mentions sélectionnées ont fourni
 20 assertions candidates dans un fichier séparé : elles ne constituent pas
 la lecture détaillée de tous les passages des 16 fiches.
 
@@ -78,6 +84,7 @@ python -m anamu_analysis.materials refresh
 python -m anamu_analysis.materials search "sixtes et quartes"
 python -m anamu_analysis.materials search --course berklee:CM-211
 python -m anamu_analysis.materials search --concept harmony.function
+python -m anamu_analysis.materials search --candidate-sense candidate-sense:00003
 python -m anamu_analysis.materials search --review assistant_source_checked_draft
 python -m anamu_analysis.materials show material:0000001 --source
 python -m anamu_analysis.materials describe material:0000001 \
