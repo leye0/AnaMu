@@ -41,6 +41,113 @@
       ],
       "lifecycle": "active",
       "locator_review": "source_verified_editorial_pending"
+    },
+    {
+      "id": "material:0003393",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 6262 — Tango du Río de la Plata : interprétation, analyse, composition",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **H27 · UdeM · 3 crédits.** [Plan officiel propre au code](https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Plan_de_cours_Se%CC%81min_Le_tango_Interp._analyse_et_compo.pdf) · **Nature du document :** `plan_de_semina",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem-supplementary/MUL-6262-H27.md",
+          "document_sha256": "e422e11f165be42c09cc3c27906ad0534a85c5d612b23714656760b2a0b9aea6",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:73a9ebce12b43b3fd517b13e",
+            "heading_path": [
+              "MUL 6262 — Tango du Río de la Plata : interprétation, analyse, composition"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 24
+          },
+          "content_sha256": "53b7b6b9885f1fc31ab94a19a4138010dce4b1d7d0e00fcf1be8049ed4350005",
+          "body_sha256": "574f771580b7a45312d9e8e5456f9795d7470f5257bd20606575e5987f1d794d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003394",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Travaux et évaluation de cette édition",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Travaux en cours 75 % ; final 25 % (écrit 10 %, présentation 15 %). Interprètes : 1–2 pièces et analyse; compositeurs : arrangement + pièce originale + texte; musicologues : présentation ~20 min + travail écrit.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem-supplementary/MUL-6262-H27.md",
+          "document_sha256": "e422e11f165be42c09cc3c27906ad0534a85c5d612b23714656760b2a0b9aea6",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e620a1d51e40f27deec6652e",
+            "heading_path": [
+              "MUL 6262 — Tango du Río de la Plata : interprétation, analyse, composition",
+              "Travaux et évaluation de cette édition"
+            ],
+            "start_line": 16,
+            "end_line": 19,
+            "subtree_end_line": 19
+          },
+          "content_sha256": "d186f6409bc8107baffacafcf0bc3b284965e8e80c69c190f9ac9bd7eda38ed2",
+          "body_sha256": "f4b91349c52c3c79453831d20747d77655ad5f96d20375c931c495dd2456f7d8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003395",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Limites",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : La page facultaire mentionne enseignant « à confirmer » : ne pas attribuer le plan à un professeur particulier. Un plan de séminaire n'est pas une liste de semaines.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem-supplementary/MUL-6262-H27.md",
+          "document_sha256": "e422e11f165be42c09cc3c27906ad0534a85c5d612b23714656760b2a0b9aea6",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:19e0437bea39e0ac501c4a7c",
+            "heading_path": [
+              "MUL 6262 — Tango du Río de la Plata : interprétation, analyse, composition",
+              "Limites"
+            ],
+            "start_line": 20,
+            "end_line": 24,
+            "subtree_end_line": 24
+          },
+          "content_sha256": "7ae471d36ecc804a331a67811d557160f983feeb75113600f8f5a7540c621b22",
+          "body_sha256": "497a0db180e3d3da2562fcb83d4ede45038ada554e5b8f3945f2ba8fc8d87b04",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
     }
   ]
 }

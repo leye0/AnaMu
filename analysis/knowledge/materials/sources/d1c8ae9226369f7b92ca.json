@@ -41,6 +41,113 @@
       ],
       "lifecycle": "active",
       "locator_review": "source_verified_editorial_pending"
+    },
+    {
+      "id": "material:0003396",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 3300 — Analyse de la musique électroacoustique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Université de Montréal, baccalauréat en musique — Composition, version A26. Option, hiver 2027, Ana Dall’Ara-Majek. Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-3300.md",
+          "document_sha256": "164014725ce643b840548344d7082e8c592da7c0d2e6ae6f8522218e110b0c45",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:365a17a417b2fc8a9d7ce7a7",
+            "heading_path": [
+              "MTE 3300 — Analyse de la musique électroacoustique"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 24
+          },
+          "content_sha256": "4d978bc920aae8e43ff8cae6aa9988cef9718beb9d72d35b7302dbbe15dcd352",
+          "body_sha256": "f5d55b51dd4649a13406b7470bb227f7dc0f006e12ebc790d4ecf640981a93c6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003397",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources et matière",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Plan abrégé portant les deux sigles. Écoute réduite et reconnaissance de structures, sémiologie musicale, Gestalt et scène auditive, analyse fonctionnelle, spectromorphologie, unités sémiotiques temporelles et sonologie auditive. Études de",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-3300.md",
+          "document_sha256": "164014725ce643b840548344d7082e8c592da7c0d2e6ae6f8522218e110b0c45",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7cf17f94e3682918738d4723",
+            "heading_path": [
+              "MTE 3300 — Analyse de la musique électroacoustique",
+              "Sources et matière"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 8
+          },
+          "content_sha256": "7ceba51e1e08add2302a0ab57cba18f269a7997872bc6ed9eb107337e2549264",
+          "body_sha256": "373faf7f4c30bf3b3db8109e46842fbe58a8e20151bea13d9fe7c76eb7415eeb",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003398",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le calendrier, les œuvres précises, les consignes et le barème restent à obtenir.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-3300.md",
+          "document_sha256": "164014725ce643b840548344d7082e8c592da7c0d2e6ae6f8522218e110b0c45",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f61c343de61ef77a4b72cf68",
+            "heading_path": [
+              "MTE 3300 — Analyse de la musique électroacoustique",
+              "Lacunes"
+            ],
+            "start_line": 9,
+            "end_line": 13,
+            "subtree_end_line": 13
+          },
+          "content_sha256": "575a120df0af3e18827ac63581c122fd8fb3cef330ee972395e3738329370cbd",
+          "body_sha256": "66008ca7c9cc0a4f909e33cae963e36c4d383e0a805c0adbaf076a47056225fb",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
     }
   ]
 }

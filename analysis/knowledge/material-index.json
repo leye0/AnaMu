@@ -4,11 +4,11 @@
     "status": "pilot_partial_not_full_inventory",
     "source_course_documents_indexed": 424,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 3382,
-    "material_units_requiring_review": 3382,
+    "material_units_active": 3398,
+    "material_units_requiring_review": 3398,
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
-    "course_material_bindings_active": 3382,
+    "course_material_bindings_active": 3398,
     "material_knowledge_bindings": 55,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
     "material_knowledge_bindings_proposed": 49,
@@ -188,10 +188,23 @@
       "material:0003328"
     ],
     "udem:MTE 3300": [
-      "material:0000119"
+      "material:0000119",
+      "material:0003396",
+      "material:0003397",
+      "material:0003398"
     ],
     "mcgill:MUTH 528": [
-      "material:0000120"
+      "material:0000120",
+      "material:0003383",
+      "material:0003384",
+      "material:0003385",
+      "material:0003386",
+      "material:0003387",
+      "material:0003388",
+      "material:0003389",
+      "material:0003390",
+      "material:0003391",
+      "material:0003392"
     ],
     "udem:MUL 3314": [
       "material:0000121"
@@ -246,7 +259,10 @@
       "material:0000123"
     ],
     "udem-supplementary:MUL-6262-H27": [
-      "material:0000124"
+      "material:0000124",
+      "material:0003393",
+      "material:0003394",
+      "material:0003395"
     ],
     "berklee-online:OMPRD-386": [
       "material:0000125",
@@ -4402,10 +4418,23 @@
       "material:0003328"
     ],
     "docs/courses/udem/MTE-3300.md": [
-      "material:0000119"
+      "material:0000119",
+      "material:0003396",
+      "material:0003397",
+      "material:0003398"
     ],
     "docs/courses/mcgill/MUTH-528.md": [
-      "material:0000120"
+      "material:0000120",
+      "material:0003383",
+      "material:0003384",
+      "material:0003385",
+      "material:0003386",
+      "material:0003387",
+      "material:0003388",
+      "material:0003389",
+      "material:0003390",
+      "material:0003391",
+      "material:0003392"
     ],
     "docs/courses/udem/MUL-3314.md": [
       "material:0000121"
@@ -4460,7 +4489,10 @@
       "material:0000123"
     ],
     "docs/courses/udem-supplementary/MUL-6262-H27.md": [
-      "material:0000124"
+      "material:0000124",
+      "material:0003393",
+      "material:0003394",
+      "material:0003395"
     ],
     "docs/courses/berklee-online/OMPRD-386.md": [
       "material:0000125",
