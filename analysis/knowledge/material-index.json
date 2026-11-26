@@ -2,13 +2,13 @@
   "schema_version": 1,
   "coverage": {
     "status": "pilot_partial_not_full_inventory",
-    "source_course_documents_indexed": 392,
+    "source_course_documents_indexed": 401,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 3099,
-    "material_units_requiring_review": 3099,
+    "material_units_active": 3157,
+    "material_units_requiring_review": 3157,
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
-    "course_material_bindings_active": 3099,
+    "course_material_bindings_active": 3157,
     "material_knowledge_bindings": 55,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
     "material_knowledge_bindings_proposed": 49,
@@ -18,8 +18,8 @@
     "extracted_candidate_assertions": 32,
     "extracted_candidate_assertions_stale": 0,
     "candidate_senses_pending_reconciliation": 6,
-    "course_documents_with_active_units": 392,
-    "source_documents_with_active_units": 392
+    "course_documents_with_active_units": 401,
+    "source_documents_with_active_units": 401
   },
   "by_course": {
     "berklee:CM-211": [
@@ -3894,6 +3894,82 @@
       "material:0003097",
       "material:0003098",
       "material:0003099"
+    ],
+    "udem:MUS 1011": [
+      "material:0003100",
+      "material:0003101",
+      "material:0003102",
+      "material:0003103",
+      "material:0003104",
+      "material:0003105",
+      "material:0003106"
+    ],
+    "udem:MUS 1012": [
+      "material:0003107",
+      "material:0003108",
+      "material:0003109",
+      "material:0003110",
+      "material:0003111",
+      "material:0003112",
+      "material:0003113"
+    ],
+    "udem:MUS 1013": [
+      "material:0003114",
+      "material:0003115",
+      "material:0003116",
+      "material:0003117",
+      "material:0003118",
+      "material:0003119"
+    ],
+    "udem:MUS 1014": [
+      "material:0003120",
+      "material:0003121",
+      "material:0003122",
+      "material:0003123",
+      "material:0003124",
+      "material:0003125"
+    ],
+    "udem:MUS 1015": [
+      "material:0003126",
+      "material:0003127",
+      "material:0003128",
+      "material:0003129",
+      "material:0003130",
+      "material:0003131"
+    ],
+    "udem:MUS 1016": [
+      "material:0003132",
+      "material:0003133",
+      "material:0003134",
+      "material:0003135",
+      "material:0003136",
+      "material:0003137"
+    ],
+    "udem:MUS 1217": [
+      "material:0003138",
+      "material:0003139",
+      "material:0003140",
+      "material:0003141",
+      "material:0003142",
+      "material:0003143",
+      "material:0003144"
+    ],
+    "udem:MUS 1232": [
+      "material:0003145",
+      "material:0003146",
+      "material:0003147",
+      "material:0003148",
+      "material:0003149"
+    ],
+    "udem:MUS 1300": [
+      "material:0003150",
+      "material:0003151",
+      "material:0003152",
+      "material:0003153",
+      "material:0003154",
+      "material:0003155",
+      "material:0003156",
+      "material:0003157"
     ]
   },
   "by_document": {
@@ -7779,6 +7855,82 @@
       "material:0003097",
       "material:0003098",
       "material:0003099"
+    ],
+    "docs/courses/udem/MUS-1011.md": [
+      "material:0003100",
+      "material:0003101",
+      "material:0003102",
+      "material:0003103",
+      "material:0003104",
+      "material:0003105",
+      "material:0003106"
+    ],
+    "docs/courses/udem/MUS-1012.md": [
+      "material:0003107",
+      "material:0003108",
+      "material:0003109",
+      "material:0003110",
+      "material:0003111",
+      "material:0003112",
+      "material:0003113"
+    ],
+    "docs/courses/udem/MUS-1013.md": [
+      "material:0003114",
+      "material:0003115",
+      "material:0003116",
+      "material:0003117",
+      "material:0003118",
+      "material:0003119"
+    ],
+    "docs/courses/udem/MUS-1014.md": [
+      "material:0003120",
+      "material:0003121",
+      "material:0003122",
+      "material:0003123",
+      "material:0003124",
+      "material:0003125"
+    ],
+    "docs/courses/udem/MUS-1015.md": [
+      "material:0003126",
+      "material:0003127",
+      "material:0003128",
+      "material:0003129",
+      "material:0003130",
+      "material:0003131"
+    ],
+    "docs/courses/udem/MUS-1016.md": [
+      "material:0003132",
+      "material:0003133",
+      "material:0003134",
+      "material:0003135",
+      "material:0003136",
+      "material:0003137"
+    ],
+    "docs/courses/udem/MUS-1217.md": [
+      "material:0003138",
+      "material:0003139",
+      "material:0003140",
+      "material:0003141",
+      "material:0003142",
+      "material:0003143",
+      "material:0003144"
+    ],
+    "docs/courses/udem/MUS-1232.md": [
+      "material:0003145",
+      "material:0003146",
+      "material:0003147",
+      "material:0003148",
+      "material:0003149"
+    ],
+    "docs/courses/udem/MUS-1300.md": [
+      "material:0003150",
+      "material:0003151",
+      "material:0003152",
+      "material:0003153",
+      "material:0003154",
+      "material:0003155",
+      "material:0003156",
+      "material:0003157"
     ]
   },
   "by_concept": {
