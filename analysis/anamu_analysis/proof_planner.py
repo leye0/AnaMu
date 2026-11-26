@@ -87,6 +87,48 @@ def evaluate_route(route: dict, evidence: dict[str, dict]) -> dict:
             "does_not_establish": route.get("does_not_establish", [])}
 
 
+def fact_vocabulary(case: dict) -> set[str] | None:
+    """Optional shared vocabulary. Validate names, never assert their truth."""
+    ref = case.get("fact_registry_ref")
+    if ref is None:
+        return None
+    if not isinstance(ref, str) or not ref:
+        raise ValueError("fact_registry_ref must be a nonempty repository-relative path")
+    repo = Path(__file__).resolve().parents[2]
+    path = (repo / ref).resolve()
+    allowed = repo / "analysis/knowledge"
+    if not path.is_relative_to(allowed):
+        raise ValueError("Fact registry must reside within analysis/knowledge")
+    registry = load_json(path)
+    if registry.get("schema_version") != 1:
+        raise ValueError("Unsupported evidence fact registry schema")
+    values = registry.get("facts")
+    if not isinstance(values, list):
+        raise ValueError("Evidence fact registry must have a facts array")
+    ids = require_strings([f.get("id") for f in values
+                           if isinstance(f, dict)], "registry.facts")
+    if len(ids) != len(values):
+        raise ValueError("Malformed evidence fact definition")
+    return set(ids)
+
+
+def check_fact_vocabulary(case: dict, known: set[str] | None) -> None:
+    if known is None:
+        return
+    for name, entries in case["profiles"].items():
+        for entry in entries:
+            for fact in entry.get("facts", []):
+                if fact not in known:
+                    raise ValueError("Unknown evidence fact in profile " +
+                                     name + ": " + str(fact))
+    for task in case["tasks"]:
+        for route in task.get("proof_routes", []):
+            for fact in route.get("all_of", []):
+                if fact not in known:
+                    raise ValueError("Unknown evidence fact in route " +
+                                     route.get("id", "?") + ": " + str(fact))
+
+
 def execution_order(tasks: list[dict]) -> list[str]:
     """Order *candidate* operations, not musical events or proven claims."""
     by_id = {task["id"]: task for task in tasks}
@@ -129,6 +171,8 @@ def plan(case: dict, profile: str) -> dict:
     if not isinstance(profiles, dict) or profile not in profiles:
         raise ValueError("unknown evidence profile: " + profile)
     evidence, audit = evidence_index(profiles[profile])
+    known_facts = fact_vocabulary(case)
+    check_fact_vocabulary(case, known_facts)
     tasks = case.get("tasks", [])
     if not isinstance(tasks, list) or not tasks:
         raise ValueError("nonempty tasks array required")
@@ -176,6 +220,10 @@ def plan(case: dict, profile: str) -> dict:
     return {"schema_version": 1, "case_id": case.get("case_id"),
             "question": case.get("question"), "source_note": case.get("source_note"),
             "evidence_profile": profile,
+            "fact_registry_ref": case.get("fact_registry_ref"),
+            "vocabulary_note": (
+                "A registered proof requirement is a known question, not proof "
+                "that the required fact holds for this piece."),
             "limitation": "Proof-route scheduling only. No observations, musical conclusions or evaluations have been executed.",
             "verification_boundary": (
                 "Evidence states, including verified, are supplied by the case profile; "
