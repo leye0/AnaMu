@@ -440,6 +440,21 @@ def show(repo: Path, identifier: str, include_source: bool) -> dict:
               "knowledge_bindings": [b for b in read_json(
                   root / "material-knowledge-maps/links.json", {"bindings": []})["bindings"]
                   if b["material_id"] == identifier]}
+    selected_mentions = []
+    selected_assertions = []
+    # A single material is a point of entry to the semantic extraction.
+    # Read pilot and subsequent mention batches without treating them as
+    # verified musical facts.
+    for path in sorted((root / "mentions").glob("*.json")):
+        batch = read_json(path, {})
+        selected_mentions.extend(
+            item for item in batch.get("mentions", [])
+            if item.get("material_id") == identifier)
+        selected_assertions.extend(
+            item for item in batch.get("assertions", [])
+            if item.get("material_id") == identifier)
+    result["mentions"] = selected_mentions
+    result["candidate_assertions"] = selected_assertions
     if include_source:
         source = unit_source(unit)
         document = repo / source["document_path"]
