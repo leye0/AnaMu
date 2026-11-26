@@ -21,7 +21,8 @@
       "candidate_assertion_ids": [
         "candidate-assertion:0001",
         "candidate-assertion:0002"
-      ]
+      ],
+      "reviewed_material_revision": 1
     },
     {
       "id": "mention:calibration:0002",
@@ -37,7 +38,8 @@
       "candidate_assertion_ids": [
         "candidate-assertion:0003",
         "candidate-assertion:0004"
-      ]
+      ],
+      "reviewed_material_revision": 1
     },
     {
       "id": "mention:calibration:0003",
@@ -53,7 +55,8 @@
       "candidate_assertion_ids": [
         "candidate-assertion:0005",
         "candidate-assertion:0006"
-      ]
+      ],
+      "reviewed_material_revision": 1
     },
     {
       "id": "mention:calibration:0004",
@@ -69,7 +72,8 @@
       "candidate_assertion_ids": [
         "candidate-assertion:0007",
         "candidate-assertion:0008"
-      ]
+      ],
+      "reviewed_material_revision": 1
     },
     {
       "id": "mention:calibration:0005",
@@ -85,7 +89,8 @@
       "candidate_assertion_ids": [
         "candidate-assertion:0009",
         "candidate-assertion:0010"
-      ]
+      ],
+      "reviewed_material_revision": 1
     },
     {
       "id": "mention:calibration:0006",
@@ -101,7 +106,8 @@
       "candidate_assertion_ids": [
         "candidate-assertion:0011",
         "candidate-assertion:0012"
-      ]
+      ],
+      "reviewed_material_revision": 1
     },
     {
       "id": "mention:calibration:0007",
@@ -117,7 +123,8 @@
       "candidate_assertion_ids": [
         "candidate-assertion:0013",
         "candidate-assertion:0014"
-      ]
+      ],
+      "reviewed_material_revision": 1
     },
     {
       "id": "mention:calibration:0008",
@@ -133,7 +140,8 @@
       "candidate_assertion_ids": [
         "candidate-assertion:0015",
         "candidate-assertion:0016"
-      ]
+      ],
+      "reviewed_material_revision": 1
     },
     {
       "id": "mention:calibration:0009",
@@ -149,7 +157,8 @@
       "candidate_assertion_ids": [
         "candidate-assertion:0017",
         "candidate-assertion:0018"
-      ]
+      ],
+      "reviewed_material_revision": 1
     },
     {
       "id": "mention:calibration:0010",
@@ -165,7 +174,8 @@
       "candidate_assertion_ids": [
         "candidate-assertion:0019",
         "candidate-assertion:0020"
-      ]
+      ],
+      "reviewed_material_revision": 1
     }
   ],
   "assertions": [
@@ -186,7 +196,8 @@
       "source_role": "anamu_comparative_explanation",
       "source_is_direct_citation": false,
       "causal_claim": false,
-      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante."
+      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
+      "reviewed_material_revision": 1
     },
     {
       "id": "candidate-assertion:0002",
@@ -205,7 +216,8 @@
       "source_role": "anamu_comparative_explanation",
       "source_is_direct_citation": false,
       "causal_claim": false,
-      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante."
+      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
+      "reviewed_material_revision": 1
     },
     {
       "id": "candidate-assertion:0003",
@@ -224,7 +236,8 @@
       "source_role": "anamu_study_with_external_comparators",
       "source_is_direct_citation": false,
       "causal_claim": false,
-      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante."
+      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
+      "reviewed_material_revision": 1
     },
     {
       "id": "candidate-assertion:0004",
@@ -242,7 +255,8 @@
       "source_role": "anamu_study_with_external_comparators",
       "source_is_direct_citation": false,
       "causal_claim": false,
-      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante."
+      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
+      "reviewed_material_revision": 1
     },
     {
       "id": "candidate-assertion:0005",
@@ -261,7 +275,8 @@
       "source_role": "anamu_comparison_using_morgan_and_long",
       "source_is_direct_citation": false,
       "causal_claim": false,
-      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante."
+      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
+      "reviewed_material_revision": 1
     },
     {
       "id": "candidate-assertion:0006",
@@ -279,7 +294,8 @@
       "source_role": "anamu_comparison_using_morgan_and_long",
       "source_is_direct_citation": false,
       "causal_claim": false,
-      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante."
+      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
+      "reviewed_material_revision": 1
     },
     {
       "id": "candidate-assertion:0007",
@@ -298,7 +314,8 @@
       "source_role": "course_document_analysis_method",
       "source_is_direct_citation": false,
       "causal_claim": false,
-      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante."
+      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
+      "reviewed_material_revision": 1
     },
     {
       "id": "candidate-assertion:0008",
@@ -316,7 +333,8 @@
       "source_role": "course_document_analysis_method",
       "source_is_direct_citation": false,
       "causal_claim": false,
-      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante."
+      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
+      "reviewed_material_revision": 1
     },
     {
       "id": "candidate-assertion:0009",
@@ -334,7 +352,8 @@
       "source_role": "direct_course_plan_summarized",
       "source_is_direct_citation": false,
       "causal_claim": false,
-      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante."
+      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
+      "reviewed_material_revision": 1
     },
     {
       "id": "candidate-assertion:0010",
@@ -351,7 +370,8 @@
       "source_role": "direct_course_plan_summarized",
       "source_is_direct_citation": false,
       "causal_claim": false,
-      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante."
+      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
+      "reviewed_material_revision": 1
     },
     {
       "id": "candidate-assertion:0011",
@@ -370,7 +390,8 @@
       "source_role": "anamu_analysis_with_external_syllabus_distinguished",
       "source_is_direct_citation": false,
       "causal_claim": false,
-      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante."
+      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
+      "reviewed_material_revision": 1
     },
     {
       "id": "candidate-assertion:0012",
@@ -388,7 +409,8 @@
       "source_role": "anamu_analysis_with_external_syllabus_distinguished",
       "source_is_direct_citation": false,
       "causal_claim": false,
-      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante."
+      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
+      "reviewed_material_revision": 1
     },
     {
       "id": "candidate-assertion:0013",
@@ -407,7 +429,8 @@
       "source_role": "anamu_documentary_method_not_course_syllabus",
       "source_is_direct_citation": false,
       "causal_claim": false,
-      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante."
+      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
+      "reviewed_material_revision": 1
     },
     {
       "id": "candidate-assertion:0014",
@@ -424,7 +447,8 @@
       "source_role": "anamu_documentary_method_not_course_syllabus",
       "source_is_direct_citation": false,
       "causal_claim": false,
-      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante."
+      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
+      "reviewed_material_revision": 1
     },
     {
       "id": "candidate-assertion:0015",
@@ -442,7 +466,8 @@
       "source_role": "anamu_comparison_using_percussion_sources",
       "source_is_direct_citation": false,
       "causal_claim": false,
-      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante."
+      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
+      "reviewed_material_revision": 1
     },
     {
       "id": "candidate-assertion:0016",
@@ -461,7 +486,8 @@
       "source_role": "anamu_comparison_using_percussion_sources",
       "source_is_direct_citation": false,
       "causal_claim": false,
-      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante."
+      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
+      "reviewed_material_revision": 1
     },
     {
       "id": "candidate-assertion:0017",
@@ -479,7 +505,8 @@
       "source_role": "anamu_comparison_using_cook_article",
       "source_is_direct_citation": false,
       "causal_claim": false,
-      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante."
+      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
+      "reviewed_material_revision": 1
     },
     {
       "id": "candidate-assertion:0018",
@@ -497,7 +524,8 @@
       "source_role": "anamu_comparison_using_cook_article",
       "source_is_direct_citation": false,
       "causal_claim": false,
-      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante."
+      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
+      "reviewed_material_revision": 1
     },
     {
       "id": "candidate-assertion:0019",
@@ -514,7 +542,8 @@
       "source_role": "direct_official_seminar_outline",
       "source_is_direct_citation": false,
       "causal_claim": false,
-      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante."
+      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
+      "reviewed_material_revision": 1
     },
     {
       "id": "candidate-assertion:0020",
@@ -532,7 +561,8 @@
       "source_role": "direct_official_seminar_outline",
       "source_is_direct_citation": false,
       "causal_claim": false,
-      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante."
+      "warning": "Proposition issue de la fiche AnaMu; ne préjuge ni de l'intégration au moteur ni d'une validation musicologique indépendante.",
+      "reviewed_material_revision": 1
     }
   ],
   "coverage": {
@@ -540,5 +570,6 @@
     "mentions": 10,
     "candidate_assertions": 20,
     "assertions_human_reviewed": 0
-  }
+  },
+  "revision_contract": "Candidate assertions must be re-reviewed when their source material revision changes; saved statements are not silently updated."
 }
