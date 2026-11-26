@@ -2,13 +2,13 @@
   "schema_version": 1,
   "coverage": {
     "status": "pilot_partial_not_full_inventory",
-    "source_course_documents_indexed": 166,
+    "source_course_documents_indexed": 176,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 1635,
-    "material_units_requiring_review": 1635,
+    "material_units_active": 1687,
+    "material_units_requiring_review": 1687,
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
-    "course_material_bindings_active": 1635,
+    "course_material_bindings_active": 1687,
     "material_knowledge_bindings": 55,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
     "material_knowledge_bindings_proposed": 49,
@@ -18,8 +18,8 @@
     "extracted_candidate_assertions": 32,
     "extracted_candidate_assertions_stale": 0,
     "candidate_senses_pending_reconciliation": 6,
-    "course_documents_with_active_units": 166,
-    "source_documents_with_active_units": 166
+    "course_documents_with_active_units": 176,
+    "source_documents_with_active_units": 176
   },
   "by_course": {
     "berklee:CM-211": [
@@ -1988,6 +1988,78 @@
       "material:0001633",
       "material:0001634",
       "material:0001635"
+    ],
+    "berklee:MLAN-335": [
+      "material:0001636",
+      "material:0001637",
+      "material:0001638",
+      "material:0001639",
+      "material:0001640"
+    ],
+    "berklee:MLAN-340": [
+      "material:0001641",
+      "material:0001642",
+      "material:0001643",
+      "material:0001644",
+      "material:0001645"
+    ],
+    "berklee:MLAN-351": [
+      "material:0001646",
+      "material:0001647",
+      "material:0001648",
+      "material:0001649",
+      "material:0001650"
+    ],
+    "berklee:MLAN-352": [
+      "material:0001651",
+      "material:0001652",
+      "material:0001653",
+      "material:0001654",
+      "material:0001655"
+    ],
+    "berklee:MLAN-353": [
+      "material:0001656",
+      "material:0001657",
+      "material:0001658",
+      "material:0001659",
+      "material:0001660"
+    ],
+    "berklee:MLAN-371": [
+      "material:0001661",
+      "material:0001662",
+      "material:0001663",
+      "material:0001664",
+      "material:0001665"
+    ],
+    "berklee:MLAN-372": [
+      "material:0001666",
+      "material:0001667",
+      "material:0001668",
+      "material:0001669",
+      "material:0001670"
+    ],
+    "berklee:MLAN-375": [
+      "material:0001671",
+      "material:0001672",
+      "material:0001673",
+      "material:0001674",
+      "material:0001675",
+      "material:0001676"
+    ],
+    "berklee:MLAN-381": [
+      "material:0001677",
+      "material:0001678",
+      "material:0001679",
+      "material:0001680",
+      "material:0001681",
+      "material:0001682"
+    ],
+    "berklee:MLAN-411": [
+      "material:0001683",
+      "material:0001684",
+      "material:0001685",
+      "material:0001686",
+      "material:0001687"
     ]
   },
   "by_document": {
@@ -3957,6 +4029,78 @@
       "material:0001633",
       "material:0001634",
       "material:0001635"
+    ],
+    "docs/courses/berklee/MLAN-335.md": [
+      "material:0001636",
+      "material:0001637",
+      "material:0001638",
+      "material:0001639",
+      "material:0001640"
+    ],
+    "docs/courses/berklee/MLAN-340.md": [
+      "material:0001641",
+      "material:0001642",
+      "material:0001643",
+      "material:0001644",
+      "material:0001645"
+    ],
+    "docs/courses/berklee/MLAN-351.md": [
+      "material:0001646",
+      "material:0001647",
+      "material:0001648",
+      "material:0001649",
+      "material:0001650"
+    ],
+    "docs/courses/berklee/MLAN-352.md": [
+      "material:0001651",
+      "material:0001652",
+      "material:0001653",
+      "material:0001654",
+      "material:0001655"
+    ],
+    "docs/courses/berklee/MLAN-353.md": [
+      "material:0001656",
+      "material:0001657",
+      "material:0001658",
+      "material:0001659",
+      "material:0001660"
+    ],
+    "docs/courses/berklee/MLAN-371.md": [
+      "material:0001661",
+      "material:0001662",
+      "material:0001663",
+      "material:0001664",
+      "material:0001665"
+    ],
+    "docs/courses/berklee/MLAN-372.md": [
+      "material:0001666",
+      "material:0001667",
+      "material:0001668",
+      "material:0001669",
+      "material:0001670"
+    ],
+    "docs/courses/berklee/MLAN-375.md": [
+      "material:0001671",
+      "material:0001672",
+      "material:0001673",
+      "material:0001674",
+      "material:0001675",
+      "material:0001676"
+    ],
+    "docs/courses/berklee/MLAN-381.md": [
+      "material:0001677",
+      "material:0001678",
+      "material:0001679",
+      "material:0001680",
+      "material:0001681",
+      "material:0001682"
+    ],
+    "docs/courses/berklee/MLAN-411.md": [
+      "material:0001683",
+      "material:0001684",
+      "material:0001685",
+      "material:0001686",
+      "material:0001687"
     ]
   },
   "by_concept": {
