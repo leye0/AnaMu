@@ -170,6 +170,18 @@ def plan(case: dict, profile: str) -> dict:
     profiles = case.get("profiles")
     if not isinstance(profiles, dict) or profile not in profiles:
         raise ValueError("unknown evidence profile: " + profile)
+    scope = case.get("scope_ref")
+    if scope is not None:
+        if not isinstance(scope, str) or not scope.strip():
+            raise ValueError("scope_ref must be a nonempty string")
+        for name, items in profiles.items():
+            for item in items:
+                if item.get("scope_ref") != scope:
+                    raise ValueError("Evidence scope mismatch in profile " + name +
+                                     ": " + str(item.get("id")))
+        for task in case.get("tasks", []):
+            if task.get("scope_ref") != scope:
+                raise ValueError("Task scope mismatch: " + str(task.get("id")))
     evidence, audit = evidence_index(profiles[profile])
     known_facts = fact_vocabulary(case)
     check_fact_vocabulary(case, known_facts)
@@ -219,6 +231,7 @@ def plan(case: dict, profile: str) -> dict:
     counts = Counter(task["state"] for task in evaluated)
     return {"schema_version": 1, "case_id": case.get("case_id"),
             "question": case.get("question"), "source_note": case.get("source_note"),
+            "scope_ref": case.get("scope_ref"),
             "evidence_profile": profile,
             "fact_registry_ref": case.get("fact_registry_ref"),
             "vocabulary_note": (
