@@ -90,9 +90,13 @@ notes déjà localisées.
 - **Faits de la fiche** : les trois schémas et les critères décrits.
 - **Savoirs candidats** : rapports entre chiffrage, basse, voix et
   fonction ; ils demandent encore réconciliation et revue.
-- **Preuve d'œuvre** : absente dans ce dossier ; les MIDI pédagogiques
-  liés depuis CM-211 sont des ressources distinctes qui n'ont
-  pas été réanalysées ici.
+- **Preuve d'événements MIDI** : le fichier pédagogique CM-211
+  six-quartes-trois-fonctions.mid a depuis été lu, avec les événements
+  localisés dans le [rapport d'audit](../examples/cm211-six-four-midi-observations.json).
+  Il permet de vérifier les attaques notées, **pas** une fonction harmonique
+  ni une écoute.
+- **Œuvre indépendante** : absente ; cette étude reste une démonstration
+  AnaMu, pas une évaluation sur une œuvre extérieure aux exemples.
 - **Capacité automatique** : les mécanismes MIDI initiaux d'AnaMu
   savent inventorier des notes et sonorités ; ils ne savent pas
   attribuer ce choix fonctionnel.
@@ -100,7 +104,47 @@ notes déjà localisées.
   parcours de conception et une base pour préparer un véritable
   examen de passage musical.
 
-## 6. Conditions d'une reprise réellement musicale
+## 6. Audit du véritable MIDI de l'étude AnaMu
+
+**Un pas supplémentaire a été réalisé après la première rédaction de ce
+dossier** : le fichier
+[six-quartes-trois-fonctions.mid](../../docs/courses/berklee/CM-211/six-quartes-trois-fonctions.mid)
+a été lu comme fichier MIDI format 1 via sa version Git
+(empreinte blob SHA-1 commençant par 903eba91). Il contient cinq pistes,
+dont quatre nommées Basse, Tenor, Alto et Soprano, à 480 ticks/noire,
+4/4 et noire = 96. Les quatre pistes musicales comportent **27 attaques
+de notes chacune**, soit **108 attaques**. Le nombre de Note Off observé
+est aussi de 108 ; l'appariement strict de toutes les notes n'est pas
+revendiqué par ce seul contrôle.
+
+Les marqueurs de variantes commencent à 0:00, 0:22,5 et 0:45,0.
+Voici les **numéros MIDI** des quatre pistes au début, au milieu et
+à l'arrivée de leurs fenêtres décisives :
+
+| Cas | Premier instant | Deuxième instant | Arrivée |
+| --- | --- | --- | --- |
+| A · m. 7→8 | [43, 55, 60, 64] | [43, 55, 59, 62] | [48, 55, 60, 64] |
+| B · m. 16→17 | [48, 55, 60, 64] | [50, 55, 59, 67] | [52, 55, 60, 67] |
+| C · m. 25→26 | [48, 55, 60, 64] | [48, 57, 60, 65] | [48, 55, 60, 64] |
+
+L'ordre de chaque tableau est **Basse, Tenor, Alto, Soprano** tel que
+nommé dans le MIDI. Les notes du deuxième instant sont attaquées
+960 ticks après le début de la mesure, soit au troisième temps de 4/4 ;
+l'arrivée est à la mesure suivante.
+
+**Lecture comparée :** ces événements donnent les trajectoires
+sol→sol→do, do→ré→mi et do→do→do dans la piste basse, comme le schéma
+didactique. Mais nommer une piste « Basse » dans un MIDI ne suffit pas
+à certifier son statut musical dans toute œuvre, et les trois fonctions
+restent des **interprétations de la fiche**, sous son cadre tonal.
+
+Ce que l'audit **n'a pas** fait : vérifier la partition MusicXML,
+écouter l'audio, évaluer une cadence ou confronter une interprétation
+à des annotations musicales indépendantes. Il confirme un **échantillon
+réel d'événements** que le futur moteur pourra recevoir sans prétendre
+que la classification fonctionnelle soit déjà implémentée.
+
+## 7. Conditions d'une reprise réellement musicale
 
 1. Choisir une pièce et une édition identifiables et fixer un passage.
 2. Aligner partition/voix, événements MIDI éventuels et audio si la
