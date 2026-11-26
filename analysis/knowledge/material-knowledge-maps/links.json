@@ -797,6 +797,186 @@
       "justification": "Pratique et interprétations historiques du tango du Río de la Plata.",
       "state": "awaiting_target_reconciliation",
       "does_not_establish": "L'origine et l'authenticité ne découlent pas d'un motif rythmique."
+    },
+    {
+      "id": "material-knowledge:0000045",
+      "material_id": "material:0000193",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "rhythm.notated_grid",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "contrasts",
+      "covered_aspects": [
+        "Les changements de chiffrage, de regroupement, de phase et de cycles de phrase sont des opérations différentes même si certains ticks MIDI restent identiques."
+      ],
+      "context": "Section source-consultée; contribution proposée et sensible au cadre musical.",
+      "justification": "Les changements de chiffrage, de regroupement, de phase et de cycles de phrase sont des opérations différentes même si certains ticks MIDI restent identiques.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Une nouvelle signature ne démontre pas une nouvelle perception de battue."
+    },
+    {
+      "id": "material-knowledge:0000046",
+      "material_id": "material:0000193",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "rhythm.accent_grouping",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Départager hiérarchie d'accents et longueur notée de mesure en comparant les attaques invariantes."
+      ],
+      "context": "Section source-consultée; contribution proposée et sensible au cadre musical.",
+      "justification": "Départager hiérarchie d'accents et longueur notée de mesure en comparant les attaques invariantes.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Des accents déplacés ne prouvent pas un polymètre entendu."
+    },
+    {
+      "id": "material-knowledge:0000047",
+      "material_id": "material:0000220",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "motif.thematic_identity",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "contrasts",
+      "covered_aspects": [
+        "Réponse réelle d'un sujet par transposition constante versus réponse tonale aux intervalles ajustés."
+      ],
+      "context": "Section source-consultée; contribution proposée et sensible au cadre musical.",
+      "justification": "Réponse réelle d'un sujet par transposition constante versus réponse tonale aux intervalles ajustés.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Même contour ne suffit pas à conclure à une réponse réelle ou une fonction correcte."
+    },
+    {
+      "id": "material-knowledge:0000048",
+      "material_id": "material:0000220",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.function",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Considérer les fonctions tonique/dominante et la continuation lors de l'étude d'une réponse fuguée."
+      ],
+      "context": "Section source-consultée; contribution proposée et sensible au cadre musical.",
+      "justification": "Considérer les fonctions tonique/dominante et la continuation lors de l'étude d'une réponse fuguée.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "La fonction ne provient pas de la seule classe d'intervalle transposé."
+    },
+    {
+      "id": "material-knowledge:0000049",
+      "material_id": "material:0000329",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "rhythm.microtiming",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "illustrates",
+      "covered_aspects": [
+        "Positions de fermeture nominale GM44 à −125/0/+125 ms par rapport au backbeat invariant."
+      ],
+      "context": "Section source-consultée; contribution proposée et sensible au cadre musical.",
+      "justification": "Positions de fermeture nominale GM44 à −125/0/+125 ms par rapport au backbeat invariant.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "La temporalité MIDI ne prouve pas la perception de la coïncidence."
+    },
+    {
+      "id": "material-knowledge:0000050",
+      "material_id": "material:0000329",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "sound.sustain",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "contrasts",
+      "covered_aspects": [
+        "Séparer événement de pédale/choke et extinction acoustique réelle du charleston."
+      ],
+      "context": "Section source-consultée; contribution proposée et sensible au cadre musical.",
+      "justification": "Séparer événement de pédale/choke et extinction acoustique réelle du charleston.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "La commande Note Off n'est pas une mesure d'amortissement."
+    },
+    {
+      "id": "material-knowledge:0000051",
+      "material_id": "material:0000442",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "sound.velocity",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "contrasts",
+      "covered_aspects": [
+        "Vélocité identique entre deux rendus n'implique pas une même énergie de leur rôle isolé."
+      ],
+      "context": "Section source-consultée; contribution proposée et sensible au cadre musical.",
+      "justification": "Vélocité identique entre deux rendus n'implique pas une même énergie de leur rôle isolé.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Les valeurs concernent les fichiers comparés, pas une loi instrumentale générale."
+    },
+    {
+      "id": "material-knowledge:0000052",
+      "material_id": "material:0000442",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "sound.masking",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Confronter RMS de la couche et RMS du mix afin de montrer pourquoi le même total peut masquer une différence de premier plan."
+      ],
+      "context": "Section source-consultée; contribution proposée et sensible au cadre musical.",
+      "justification": "Confronter RMS de la couche et RMS du mix afin de montrer pourquoi le même total peut masquer une différence de premier plan.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Le RMS ne prouve pas la sonie ni la hiérarchie perceptive."
+    },
+    {
+      "id": "material-knowledge:0000053",
+      "material_id": "material:0000289",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "form.adaptive_transition",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Évaluer la transition à partir de l'heure de l'alerte, de la prochaine battue/barre admissible et des délais de diffusion."
+      ],
+      "context": "Section source-consultée; contribution proposée et sensible au cadre musical.",
+      "justification": "Évaluer la transition à partir de l'heure de l'alerte, de la prochaine battue/barre admissible et des délais de diffusion.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Une marge calculée n'est pas une mesure de latence du moteur de jeu."
+    },
+    {
+      "id": "material-knowledge:0000054",
+      "material_id": "material:0000289",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "rhythm.notated_grid",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "illustrates",
+      "covered_aspects": [
+        "Une même alerte reçoit des repères temporels différents suivant les grilles et leurs phases."
+      ],
+      "context": "Section source-consultée; contribution proposée et sensible au cadre musical.",
+      "justification": "Une même alerte reçoit des repères temporels différents suivant les grilles et leurs phases.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Une grille plus serrée ne rend pas le prochain repère plus proche pour toute date d'alerte."
     }
   ]
 }
