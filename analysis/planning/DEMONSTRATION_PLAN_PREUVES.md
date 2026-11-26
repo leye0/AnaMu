@@ -3,7 +3,9 @@
 **25 novembre 2026.** Ce dossier documente le
 [prototype de planificateur](../anamu_analysis/proof_planner.py), les deux
 [contrats de cas 6/4](examples/verticale-64.case.json) et
-[percussion](examples/percussion-physical.case.json), et leur rapport au
+[percussion](examples/percussion-physical.case.json), le
+[parcours électroacoustique](examples/electroacoustic.case.json) sans MIDI,
+et leur rapport au
 [contrat P0](../architecture/CONTRATS_PREUVES_ET_RAISONNEMENT.md).
 
 ## 1. Ce que le prototype fait réellement
@@ -37,6 +39,9 @@ python -m anamu_analysis.proof_planner planning/examples/verticale-64.case.json 
 python -m anamu_analysis.proof_planner planning/examples/verticale-64.case.json --profile real_midi_events_only
 python -m anamu_analysis.proof_planner planning/examples/percussion-physical.case.json --profile midi_only
 python -m anamu_analysis.proof_planner planning/examples/percussion-physical.case.json --profile layout_annotated
+python -m anamu_analysis.proof_planner planning/examples/electroacoustic.case.json --profile audio_only
+python -m anamu_analysis.proof_planner planning/examples/electroacoustic.case.json --profile audio_and_listening_annotated
+python -m anamu_analysis.proof_planner planning/examples/electroacoustic.case.json --profile documents_only
 
 # Comparer ce qu'une nouvelle preuve rend seulement examinable
 python -m anamu_analysis.proof_planner planning/examples/verticale-64.case.json --profile classes_only --compare tonal_annotated
@@ -50,6 +55,9 @@ python -m anamu_analysis.proof_planner planning/examples/percussion-physical.cas
 | Sixte-et-quarte, événements du vrai MIDI CM-211 vérifiés | 0 sous hypothèses, **1 sur données vérifiées** | 4 | Les notes sont disponibles, mais la fonction, la voix et l'audio ne sont pas inférés |
 | Percussion, événements GM seuls | 1 | 2 | Ni le geste physique ni le déclin acoustique ne sont prouvés |
 | Percussion, implantation/efforts déclarés | 2 | 1 | La résonance réelle reste bloquée sans audio |
+| Électroacoustique, audio seulement déclaré | 1 | 3 | Relevé d'audio envisageable; segmentation et contexte restent à étayer |
+| Électroacoustique, observations et écoute annotées | 3 | 1 | Segmentation et confrontation possibles sous hypothèses; archives de production manquantes |
+| Électroacoustique, archives seulement | 1 | 3 | La branche documentaire avance sans dépendre d'un MIDI ou d'un fichier audio |
 
 Les profils illustratifs restent des scénarios déclarés. La nouvelle
 ligne de **MIDI réel** emploie les attaques relevées dans le
@@ -84,10 +92,20 @@ d'inventaire des événements tout en laissant la jouabilité et le son
 réel explicitement **bloqués**. Un concept acoustique n'est donc pas
 subordonné artificiellement à une analyse tonale.
 
+**Électroacoustique (nouveau cas)** — La source
+[MTE-3300](../../docs/courses/udem/MTE-3300.md) décrit une analyse
+spectromorphologique fondée sur l'audio et l'écoute. Les profils
+illustratifs distinguent l'accès à un fichier audio, des observations
+et segmentations annotées, et des documents de production. Une tâche
+documentaire peut être prête quand la segmentation audio ne l'est pas ;
+**aucune route MIDI n'existe dans ce cas**. Le vocabulaire de preuves
+partagé a été étendu à 23 types. Les décomptes du tableau représentent
+la disponibilité selon les profils, pas des résultats d'écoute.
+
 ## 4. Généralisation des preuves et ordre d'exécution
 
 Les deux cas partagent désormais le
-[registre de 18 catégories de faits](../knowledge/evidence-facts.json) :
+[registre de 23 catégories de faits](../knowledge/evidence-facts.json) :
 événements MIDI, continuité des voix, partitions, écoute, contexte,
 implantation d'instruments, gestes d'amortissement et autres besoins.
 L'orthographe d'une exigence inconnue provoque un arrêt, au lieu de
