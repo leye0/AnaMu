@@ -4,11 +4,11 @@
     "status": "pilot_partial_not_full_inventory",
     "source_course_documents_indexed": 424,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 3398,
-    "material_units_requiring_review": 3398,
+    "material_units_active": 3412,
+    "material_units_requiring_review": 3412,
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
-    "course_material_bindings_active": 3398,
+    "course_material_bindings_active": 3412,
     "material_knowledge_bindings": 55,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
     "material_knowledge_bindings_proposed": 49,
@@ -207,7 +207,13 @@
       "material:0003392"
     ],
     "udem:MUL 3314": [
-      "material:0000121"
+      "material:0000121",
+      "material:0003399",
+      "material:0003400",
+      "material:0003401",
+      "material:0003402",
+      "material:0003403",
+      "material:0003404"
     ],
     "berklee:CM-343": [
       "material:0000122",
@@ -256,7 +262,15 @@
       "material:0003371"
     ],
     "udem:MUS 2327": [
-      "material:0000123"
+      "material:0000123",
+      "material:0003405",
+      "material:0003406",
+      "material:0003407",
+      "material:0003408",
+      "material:0003409",
+      "material:0003410",
+      "material:0003411",
+      "material:0003412"
     ],
     "udem-supplementary:MUL-6262-H27": [
       "material:0000124",
@@ -4437,7 +4451,13 @@
       "material:0003392"
     ],
     "docs/courses/udem/MUL-3314.md": [
-      "material:0000121"
+      "material:0000121",
+      "material:0003399",
+      "material:0003400",
+      "material:0003401",
+      "material:0003402",
+      "material:0003403",
+      "material:0003404"
     ],
     "docs/courses/berklee/CM-343.md": [
       "material:0000122",
@@ -4486,7 +4506,15 @@
       "material:0003371"
     ],
     "docs/courses/udem/MUS-2327.md": [
-      "material:0000123"
+      "material:0000123",
+      "material:0003405",
+      "material:0003406",
+      "material:0003407",
+      "material:0003408",
+      "material:0003409",
+      "material:0003410",
+      "material:0003411",
+      "material:0003412"
     ],
     "docs/courses/udem-supplementary/MUL-6262-H27.md": [
       "material:0000124",

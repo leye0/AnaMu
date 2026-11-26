@@ -42,6 +42,223 @@
       ],
       "lifecycle": "active",
       "locator_review": "source_verified_editorial_pending"
+    },
+    {
+      "id": "material:0003399",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 3314 — Introduction à l’ethnomusicologie",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : UdeM, Composition A26 : option du bloc 75D, 3 crédits. Consultation : 10 novembre 2026. **Documentation partielle ; syllabus UdeM non obtenu.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-3314.md",
+          "document_sha256": "6ebc018c4882431630e4ad63f15334511b1065d0d30bb11c56c7fa5bd54ae661",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6227607c8ea7a0a4608d0649",
+            "heading_path": [
+              "MUL 3314 — Introduction à l’ethnomusicologie"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 47
+          },
+          "content_sha256": "cbab40b04d6217683a500fa58efc0d707cb7ff7202609a27e6fca339456b4d29",
+          "body_sha256": "d99b8805c27f0f2e72ba24b97205e2df75a39759c9cba87e8f50288c3e1726ac",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003400",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources et matière accessible",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Notice officielle](https://admission.umontreal.ca/cours-et-horaires/cours/mul-3314/) — Histoire et théories, depuis l’école de Berlin jusqu’aux approches anthropologiques contemporaines.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-3314.md",
+          "document_sha256": "6ebc018c4882431630e4ad63f15334511b1065d0d30bb11c56c7fa5bd54ae661",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a3a6856548f043914fd94a4e",
+            "heading_path": [
+              "MUL 3314 — Introduction à l’ethnomusicologie",
+              "Sources et matière accessible"
+            ],
+            "start_line": 5,
+            "end_line": 11,
+            "subtree_end_line": 11
+          },
+          "content_sha256": "649105a2ff40c837cc9afc783b193c11886594bc1aafbcb73c83069460b1e0c8",
+          "body_sha256": "26198fb75c01c3179bc93cc9886192f4e0721a24c5de89c39742978497b195f5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003401",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes et reprise",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : La démarche d’enquête du plan parallèle ne remplace pas l’histoire de la discipline annoncée à l’UdeM. Berlin, évolution des théories, auteurs prescrits, éthique du terrain et critères de travail locaux restent à documenter. Les sujets MIT",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-3314.md",
+          "document_sha256": "6ebc018c4882431630e4ad63f15334511b1065d0d30bb11c56c7fa5bd54ae661",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a90f23a84fe9b5ff93605cdb",
+            "heading_path": [
+              "MUL 3314 — Introduction à l’ethnomusicologie",
+              "Lacunes et reprise"
+            ],
+            "start_line": 12,
+            "end_line": 18,
+            "subtree_end_line": 18
+          },
+          "content_sha256": "084d03601aed60a2590a1df45e8308db2c4dee22053909c8a01f5dc2e6885f1e",
+          "body_sha256": "3a20e9bde60f15814bc34cff66d0eae9cf431f690d581af78f9273ee78460c07",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003402",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — évaluation sourcée (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Apport :** indirecte. **Source :** [Notice UdeM : histoire et théories de l'ethnomusicologie; syllabus et corpus locaux non obtenus. Les enquêtes MIT 21M.030 sont seulement comparatives.](https://admission.umontreal.ca/cours-et-horaires/c",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-3314.md",
+          "document_sha256": "6ebc018c4882431630e4ad63f15334511b1065d0d30bb11c56c7fa5bd54ae661",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1f87ad7de5f2d3086d3ffcaf",
+            "heading_path": [
+              "MUL 3314 — Introduction à l’ethnomusicologie",
+              "Application à l'analyse et à la création — évaluation sourcée (12 novembre 2026)"
+            ],
+            "start_line": 19,
+            "end_line": 22,
+            "subtree_end_line": 47
+          },
+          "content_sha256": "f2243201135813854b68d679c53d477356aeddcea5d70bb2a437465f04aa7e5b",
+          "body_sha256": "9eb9f5c0d8fe0a096e54ded944457460c9de68b482d913f5217a0d7eb1545356",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003403",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage/domaine 2 — Observation de structures musicales en contexte",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Applicabilité :** `UNKNOWN / AUDIO_REQUIRED / CONTEXT_REQUIRED` ; la section actuelle n'est pas supposée identique aux documents historiques ou externes.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-3314.md",
+          "document_sha256": "6ebc018c4882431630e4ad63f15334511b1065d0d30bb11c56c7fa5bd54ae661",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2cc4e14ede970888d36121d8",
+            "heading_path": [
+              "MUL 3314 — Introduction à l’ethnomusicologie",
+              "Application à l'analyse et à la création — évaluation sourcée (12 novembre 2026)",
+              "Apprentissage/domaine 2 — Observation de structures musicales en contexte"
+            ],
+            "start_line": 33,
+            "end_line": 42,
+            "subtree_end_line": 42
+          },
+          "content_sha256": "8099478c4aecb6bf490c0ad55a1ab92711bbb9e0b6e65e778bdf9ce5bb7052c1",
+          "body_sha256": "50d67b21c8cf916a99d792b6c7f720d3cb71ebb38be8bc255da46297ed119ba8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003404",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Apport :** indirecte ; `non_algorithmique=null` (valeur `null` si la preuve manque).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-3314.md",
+          "document_sha256": "6ebc018c4882431630e4ad63f15334511b1065d0d30bb11c56c7fa5bd54ae661",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c87ec2616d7356bb3f8926bd",
+            "heading_path": [
+              "MUL 3314 — Introduction à l’ethnomusicologie",
+              "Application à l'analyse et à la création — évaluation sourcée (12 novembre 2026)",
+              "Verdict"
+            ],
+            "start_line": 43,
+            "end_line": 47,
+            "subtree_end_line": 47
+          },
+          "content_sha256": "f2450d9d92f21174eb6bd87cb1631c6cc6f2b6a81a102aed71a0372a5eaaae8e",
+          "body_sha256": "1a01cbeb1c90c0521a55604ccbe96595fb708a7ea1793a1ddd0925b341b0a5ae",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
     }
   ]
 }

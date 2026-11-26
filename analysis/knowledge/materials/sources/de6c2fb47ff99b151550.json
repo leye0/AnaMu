@@ -41,6 +41,296 @@
       ],
       "lifecycle": "active",
       "locator_review": "source_verified_editorial_pending"
+    },
+    {
+      "id": "material:0003405",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 2327 — Création sonore jeux vidéo 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : UdeM, B.Mus. Composition A26 : option, bloc 75F, 3 crédits. Consultation : 10 novembre 2026. **Documentation partielle : syllabus cible non obtenu.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-2327.md",
+          "document_sha256": "2eee0153f87b68cc235e65fb9a7e4ad2c03b6cecb8f52a410aef724db81cee18",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8ce8f009e251c7999c40f093",
+            "heading_path": [
+              "MUS 2327 — Création sonore jeux vidéo 1"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 68
+          },
+          "content_sha256": "d39708b4209f11eefe797e4b341b562feedaebb2357fa2afc9ca57cd90841b68",
+          "body_sha256": "88a5f7d59dce4b29c6de9fa9b6ac8760bd8e5bf19248ec64ed00b84bae7ae35a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003406",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Liens et matière accessible",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Notice officielle](https://admission.umontreal.ca/cours-et-horaires/cours/mus-2327/) — Histoire et théorie de la création audio/musicale pour le jeu, industrie, production, outils, analyses et démonstrations. Description du périmètre, sa",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-2327.md",
+          "document_sha256": "2eee0153f87b68cc235e65fb9a7e4ad2c03b6cecb8f52a410aef724db81cee18",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:606077d59e1eb98ee53e6f1a",
+            "heading_path": [
+              "MUS 2327 — Création sonore jeux vidéo 1",
+              "Liens et matière accessible"
+            ],
+            "start_line": 5,
+            "end_line": 10,
+            "subtree_end_line": 10
+          },
+          "content_sha256": "405b5d9f138d83bacef8cf5cb3de12dc5daa5969912d2be6333737725e0b9c83",
+          "body_sha256": "5e26de35bdfe077917e0f3988a657366b8562739c18f519ef93de384404b80e3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003407",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Provenance, accès et lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le syllabus cible n’est pas obtenu. La seule formation Wwise ne remplace pas ce cours de théorie et d’analyse ; le plan parallèle plus large ci-dessous constitue désormais une première documentation partielle. Obtenir corpus de jeux, lectur",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-2327.md",
+          "document_sha256": "2eee0153f87b68cc235e65fb9a7e4ad2c03b6cecb8f52a410aef724db81cee18",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:af5cbb32c5ebf55a9c1472f2",
+            "heading_path": [
+              "MUS 2327 — Création sonore jeux vidéo 1",
+              "Provenance, accès et lacunes"
+            ],
+            "start_line": 11,
+            "end_line": 16,
+            "subtree_end_line": 16
+          },
+          "content_sha256": "eff67246e397931cbb5423ac4d0913dcedb6cc3e0e7d1f5b414e16d67be1d90f",
+          "body_sha256": "59e661064a2b7a7414f0b1d1c067d7cab9818373a3d16fb080e49db30e17653d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003408",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Complément de collecte — plan parallèle de musique interactive",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [Interactive Scoring for Games, Berklee Online, rubrique Syllabus](https://online.berklee.edu/courses/interactive-scoring-for-games#syllabus) — Leçons 1–3 : structure de l’industrie et du jeu, esthétique, outils d’interactivité, spotting et",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-2327.md",
+          "document_sha256": "2eee0153f87b68cc235e65fb9a7e4ad2c03b6cecb8f52a410aef724db81cee18",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8c83bc8e9156a7ab99802cf1",
+            "heading_path": [
+              "MUS 2327 — Création sonore jeux vidéo 1",
+              "Complément de collecte — plan parallèle de musique interactive"
+            ],
+            "start_line": 17,
+            "end_line": 23,
+            "subtree_end_line": 23
+          },
+          "content_sha256": "8f2af680ba92c95c335d2da408e66780fe2a1b5d6873a9c93b16134dab070464",
+          "body_sha256": "c719774be33fa835f08c965057bee5bf87f0292ecffedf83141b8eb48cecc4ba",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003409",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — première évaluation selon le gabarit (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Code MUS 2327. Contribution :** directe et indirecte, entre analyse de créations sonores et contextualisation historique. [Source et attribution : notice officielle de Création sonore jeux vidéo 1 : histoire, théorie, outils, industrie, a",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-2327.md",
+          "document_sha256": "2eee0153f87b68cc235e65fb9a7e4ad2c03b6cecb8f52a410aef724db81cee18",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5cc125473e6ae4e1e3bf0892",
+            "heading_path": [
+              "MUS 2327 — Création sonore jeux vidéo 1",
+              "Application à l'analyse et à la création — première évaluation selon le gabarit (12 novembre 2026)"
+            ],
+            "start_line": 24,
+            "end_line": 27,
+            "subtree_end_line": 55
+          },
+          "content_sha256": "b5a4f837636fb514bda0b603b6b6638b51b88373af86036ded90f97e69631609",
+          "body_sha256": "30c327adca1b6bb0491697e000fde581bc342d4d1cb254331ec9983ffb77a8fb",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003410",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage ou domaine 1 — Analyser la fonction musicale d'un événement de jeu",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve :** domaine nommé dans la notice du code; détails et exercices de section inconnus. **Catégorie :** `AUDIO_REQUIRED / CONTEXT_REQUIRED / MIDI_PROXY`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-2327.md",
+          "document_sha256": "2eee0153f87b68cc235e65fb9a7e4ad2c03b6cecb8f52a410aef724db81cee18",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:228b04732932efdaf12326ea",
+            "heading_path": [
+              "MUS 2327 — Création sonore jeux vidéo 1",
+              "Application à l'analyse et à la création — première évaluation selon le gabarit (12 novembre 2026)",
+              "Apprentissage ou domaine 1 — Analyser la fonction musicale d'un événement de jeu"
+            ],
+            "start_line": 28,
+            "end_line": 37,
+            "subtree_end_line": 37
+          },
+          "content_sha256": "35868b8133385bbdaec43ef297ae9fbdc8b2ae081318689ee4b3c7dde16b74e5",
+          "body_sha256": "b7f3a6331098199e5df58f863c5d80d8911e0b4526e6823daeaec82947200557",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003411",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage ou domaine 2 — Histoire, industrie et outils de production de jeu",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve :** domaine nommé dans la notice du code; détails et exercices de section inconnus. **Catégorie :** `CONTEXT_REQUIRED / NOT_MUSIC_ALGORITHM`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-2327.md",
+          "document_sha256": "2eee0153f87b68cc235e65fb9a7e4ad2c03b6cecb8f52a410aef724db81cee18",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c4b47cf03cc112260b20526a",
+            "heading_path": [
+              "MUS 2327 — Création sonore jeux vidéo 1",
+              "Application à l'analyse et à la création — première évaluation selon le gabarit (12 novembre 2026)",
+              "Apprentissage ou domaine 2 — Histoire, industrie et outils de production de jeu"
+            ],
+            "start_line": 38,
+            "end_line": 47,
+            "subtree_end_line": 47
+          },
+          "content_sha256": "e14af5697f284c5719913067a5deb4daef9727e9ec40ee633bf4b409f64e86a3",
+          "body_sha256": "d5cb0f52b65cf392415d1393f463d8fa2c8d76bb7be561278d2536304c4d28f5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003412",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Apport :** directe et indirecte, entre analyse de créations sonores et contextualisation historique.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-2327.md",
+          "document_sha256": "2eee0153f87b68cc235e65fb9a7e4ad2c03b6cecb8f52a410aef724db81cee18",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:426614515f724dff16b0a96e",
+            "heading_path": [
+              "MUS 2327 — Création sonore jeux vidéo 1",
+              "Application à l'analyse et à la création — première évaluation selon le gabarit (12 novembre 2026)",
+              "Verdict"
+            ],
+            "start_line": 48,
+            "end_line": 55,
+            "subtree_end_line": 55
+          },
+          "content_sha256": "77e6f304e5cb43a2e66bbf2a8710087ad0b364168396165d9b65ba870b0c10da",
+          "body_sha256": "682e6b59fefd9a642465e57a3ceedb1fd6fad1664b8f77985918a7d7c09aed09",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
     }
   ]
 }
