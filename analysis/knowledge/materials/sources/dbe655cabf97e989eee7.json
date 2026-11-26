@@ -259,13 +259,18 @@
       "kind": "markdown_section",
       "title": "Q1 — Réponse réelle ou tonale : comparer les relations du sujet, pas seulement son contour",
       "title_origin": "source_heading_or_key",
-      "description": "Extrait documentaire à qualifier : **Analyser.** Sur une partition à voix distinctes, extraire le sujet en intervalles et valeurs rythmiques puis la première réponse, avec son retard et sa nouvelle position tonale. Tester une transposition **constante** pour la réponse réell",
-      "description_origin": "source_proposal_unreviewed",
-      "editorial_review": "unreviewed",
+      "description": "Méthode pour distinguer une réponse réelle de fugue par transposition constante et une réponse tonale modifiant certains intervalles pour soutenir les fonctions tonique/dominante. La comparaison doit suivre les voix sur partition, la continuation et le cadre tonal; la seule ressemblance de contour ou une transposition à la quinte ne garantit pas la classification.",
+      "description_origin": "assistant_source_checked",
+      "editorial_review": "assistant_source_checked_draft",
       "review_required": true,
       "covers": [],
-      "does_not_cover": [],
-      "notes": [],
+      "does_not_cover": [
+        "Le MIDI AnaMu mentionné n'atteste pas la différence réelle/tonale.",
+        "Ce protocole comparatif ne reconstitue pas un devoir officiel de la section McGill."
+      ],
+      "notes": [
+        "Description source-consultée, en attente de revue musicale indépendante."
+      ],
       "source_bindings": [
         {
           "document_path": "docs/courses/mcgill/MUTH-304.md",
@@ -288,7 +293,8 @@
         }
       ],
       "lifecycle": "active",
-      "locator_review": "unreviewed"
+      "locator_review": "source_verified_editorial_pending",
+      "editorial_revision": 1
     },
     {
       "id": "material:0000221",
