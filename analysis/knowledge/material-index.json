@@ -2,13 +2,13 @@
   "schema_version": 1,
   "coverage": {
     "status": "pilot_partial_not_full_inventory",
-    "source_course_documents_indexed": 136,
+    "source_course_documents_indexed": 146,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 1460,
-    "material_units_requiring_review": 1460,
+    "material_units_active": 1527,
+    "material_units_requiring_review": 1527,
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
-    "course_material_bindings_active": 1460,
+    "course_material_bindings_active": 1527,
     "material_knowledge_bindings": 55,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
     "material_knowledge_bindings_proposed": 49,
@@ -18,8 +18,8 @@
     "extracted_candidate_assertions": 32,
     "extracted_candidate_assertions_stale": 0,
     "candidate_senses_pending_reconciliation": 6,
-    "course_documents_with_active_units": 136,
-    "source_documents_with_active_units": 136
+    "course_documents_with_active_units": 146,
+    "source_documents_with_active_units": 146
   },
   "by_course": {
     "berklee:CM-211": [
@@ -1753,6 +1753,93 @@
       "material:0001458",
       "material:0001459",
       "material:0001460"
+    ],
+    "berklee:ISKB-211": [
+      "material:0001461",
+      "material:0001462",
+      "material:0001463",
+      "material:0001464",
+      "material:0001465",
+      "material:0001466",
+      "material:0001467",
+      "material:0001468"
+    ],
+    "berklee:ISKB-212": [
+      "material:0001469",
+      "material:0001470",
+      "material:0001471",
+      "material:0001472",
+      "material:0001473",
+      "material:0001474",
+      "material:0001475",
+      "material:0001476"
+    ],
+    "berklee:LHUM-400": [
+      "material:0001477",
+      "material:0001478",
+      "material:0001479",
+      "material:0001480",
+      "material:0001481",
+      "material:0001482"
+    ],
+    "berklee:MHIS-201": [
+      "material:0001483",
+      "material:0001484",
+      "material:0001485",
+      "material:0001486",
+      "material:0001487",
+      "material:0001488"
+    ],
+    "berklee:MHIS-202": [
+      "material:0001489",
+      "material:0001490",
+      "material:0001491",
+      "material:0001492",
+      "material:0001493",
+      "material:0001494"
+    ],
+    "berklee:MHIS-203": [
+      "material:0001495",
+      "material:0001496",
+      "material:0001497",
+      "material:0001498",
+      "material:0001499",
+      "material:0001500"
+    ],
+    "berklee:MHIS-251": [
+      "material:0001501",
+      "material:0001502",
+      "material:0001503",
+      "material:0001504",
+      "material:0001505",
+      "material:0001506",
+      "material:0001507",
+      "material:0001508"
+    ],
+    "berklee:MHIS-252": [
+      "material:0001509",
+      "material:0001510",
+      "material:0001511",
+      "material:0001512",
+      "material:0001513",
+      "material:0001514",
+      "material:0001515",
+      "material:0001516",
+      "material:0001517"
+    ],
+    "berklee:MHIS-317": [
+      "material:0001518",
+      "material:0001519",
+      "material:0001520",
+      "material:0001521",
+      "material:0001522"
+    ],
+    "berklee:MHIS-319": [
+      "material:0001523",
+      "material:0001524",
+      "material:0001525",
+      "material:0001526",
+      "material:0001527"
     ]
   },
   "by_document": {
@@ -3487,6 +3574,93 @@
       "material:0001458",
       "material:0001459",
       "material:0001460"
+    ],
+    "docs/courses/berklee/ISKB-211.md": [
+      "material:0001461",
+      "material:0001462",
+      "material:0001463",
+      "material:0001464",
+      "material:0001465",
+      "material:0001466",
+      "material:0001467",
+      "material:0001468"
+    ],
+    "docs/courses/berklee/ISKB-212.md": [
+      "material:0001469",
+      "material:0001470",
+      "material:0001471",
+      "material:0001472",
+      "material:0001473",
+      "material:0001474",
+      "material:0001475",
+      "material:0001476"
+    ],
+    "docs/courses/berklee/LHUM-400.md": [
+      "material:0001477",
+      "material:0001478",
+      "material:0001479",
+      "material:0001480",
+      "material:0001481",
+      "material:0001482"
+    ],
+    "docs/courses/berklee/MHIS-201.md": [
+      "material:0001483",
+      "material:0001484",
+      "material:0001485",
+      "material:0001486",
+      "material:0001487",
+      "material:0001488"
+    ],
+    "docs/courses/berklee/MHIS-202.md": [
+      "material:0001489",
+      "material:0001490",
+      "material:0001491",
+      "material:0001492",
+      "material:0001493",
+      "material:0001494"
+    ],
+    "docs/courses/berklee/MHIS-203.md": [
+      "material:0001495",
+      "material:0001496",
+      "material:0001497",
+      "material:0001498",
+      "material:0001499",
+      "material:0001500"
+    ],
+    "docs/courses/berklee/MHIS-251.md": [
+      "material:0001501",
+      "material:0001502",
+      "material:0001503",
+      "material:0001504",
+      "material:0001505",
+      "material:0001506",
+      "material:0001507",
+      "material:0001508"
+    ],
+    "docs/courses/berklee/MHIS-252.md": [
+      "material:0001509",
+      "material:0001510",
+      "material:0001511",
+      "material:0001512",
+      "material:0001513",
+      "material:0001514",
+      "material:0001515",
+      "material:0001516",
+      "material:0001517"
+    ],
+    "docs/courses/berklee/MHIS-317.md": [
+      "material:0001518",
+      "material:0001519",
+      "material:0001520",
+      "material:0001521",
+      "material:0001522"
+    ],
+    "docs/courses/berklee/MHIS-319.md": [
+      "material:0001523",
+      "material:0001524",
+      "material:0001525",
+      "material:0001526",
+      "material:0001527"
     ]
   },
   "by_concept": {
