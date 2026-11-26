@@ -34,6 +34,7 @@ Depuis le dossier analysis/ :
 ~~~sh
 python -m anamu_analysis.proof_planner planning/examples/verticale-64.case.json --profile classes_only
 python -m anamu_analysis.proof_planner planning/examples/verticale-64.case.json --profile tonal_annotated
+python -m anamu_analysis.proof_planner planning/examples/verticale-64.case.json --profile real_midi_events_only
 python -m anamu_analysis.proof_planner planning/examples/percussion-physical.case.json --profile midi_only
 python -m anamu_analysis.proof_planner planning/examples/percussion-physical.case.json --profile layout_annotated
 
@@ -46,11 +47,17 @@ python -m anamu_analysis.proof_planner planning/examples/percussion-physical.cas
 | --- | ---: | ---: | --- |
 | Sixte-et-quarte, classes de hauteurs seules | 1 | 4 | Impossible de classer la fonction, la phrase ou la perception |
 | Sixte-et-quarte, basse/voix/phrase annotées | 4 | 1 | La question perceptive reste bloquée faute d'écoute |
+| Sixte-et-quarte, événements du vrai MIDI CM-211 vérifiés | 0 sous hypothèses, **1 sur données vérifiées** | 4 | Les notes sont disponibles, mais la fonction, la voix et l'audio ne sont pas inférés |
 | Percussion, événements GM seuls | 1 | 2 | Ni le geste physique ni le déclin acoustique ne sont prouvés |
 | Percussion, implantation/efforts déclarés | 2 | 1 | La résonance réelle reste bloquée sans audio |
 
-Ces décomptes sont ceux des scénarios construits et du CLI, **pas des
-performances de reconnaissance musicale**. Aucune suite de tests
+Les profils illustratifs restent des scénarios déclarés. La nouvelle
+ligne de **MIDI réel** emploie les attaques relevées dans le
+[rapport d'observations CM-211](../examples/cm211-six-four-midi-observations.json),
+sans ajouter de voix ou de fonction automatiquement.
+
+Ces décomptes sont ceux des profils du CLI, **pas des performances de
+reconnaissance musicale**. Aucune suite de tests
 unitaires, validateur ou workflow n'a été ajoutée ou lancée.
 
 En comparaison des profils, le CLI constate **trois tâches devenues
