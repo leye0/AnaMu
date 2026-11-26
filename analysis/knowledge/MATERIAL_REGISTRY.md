@@ -70,6 +70,10 @@ Depuis **analysis/** avec Python 3.11+ et les dépendances déjà indiquées
 dans [le README d'analyse](../README.md) :
 
 ~~~sh
+# Préparer la génération complète sans écrire sur disque
+python -m anamu_analysis.materials refresh --dry-run
+
+# Appliquer seulement après examen des nouveaux IDs et des liens périmés
 python -m anamu_analysis.materials refresh
 python -m anamu_analysis.materials search "sixtes et quartes"
 python -m anamu_analysis.materials search --course berklee:CM-211
@@ -103,6 +107,12 @@ et la [démonstration de routes de preuve](../planning/DEMONSTRATION_PLAN_PREUVE
 distinguent une opération **prête** d'une conclusion effectivement
 établie. Le module de planification ne crée ni analyse d'œuvre ni règle
 musicologique automatiquement.
+
+Le mode **--dry-run** parcourt les documents et les entrées JSON, calcule
+le nombre d'IDs nouveaux/réutilisés, les cibles orphelines refusées et
+les liens à revoir, **sans écrire de nouveaux fichiers**. Il constitue
+la première inspection avant de produire un catalogue volumineux sur un
+checkout complet. Le contenu pilote reste sous contrôle Git.
 
 ### Actualiser sans détruire le travail humain
 
