@@ -768,13 +768,18 @@
       "kind": "markdown_section",
       "title": "Quatre façons de modifier l'organisation temporelle sans les confondre (17 novembre 2026)",
       "title_origin": "source_heading_or_key",
-      "description": "Extrait documentaire à qualifier : Le [cours CM-320 Berklee](https://college.berklee.edu/courses/cm-320) concerne réellement les **mètres complexes, groupes asymétriques, polyrhythmies et relations temporelles**. Les fichiers ci-dessous ont été créés pour les [cours Berklee ",
-      "description_origin": "source_proposal_unreviewed",
-      "editorial_review": "unreviewed",
+      "description": "Comparaison de quatre transformations temporelles distinctes à partir des études AnaMu : changer la signature et les accents sans changer les événements, déplacer les accents avec signature stable, décaler la phase de rapports 3:2, ou superposer des cycles de phrase différents. Les invariants en ticks ne suffisent pas à prouver un polymètre ou une sensation de tension.",
+      "description_origin": "assistant_source_checked",
+      "editorial_review": "assistant_source_checked_draft",
       "review_required": true,
       "covers": [],
-      "does_not_cover": [],
-      "notes": [],
+      "does_not_cover": [
+        "Les MIDI viennent d'études d'autres cours, non de devoirs attestés de CM-320.",
+        "La perception d'une battue ou de polymétrie exige écoute et contexte."
+      ],
+      "notes": [
+        "Description source-consultée, en attente de revue musicale indépendante."
+      ],
       "source_bindings": [
         {
           "document_path": "docs/courses/berklee/CM-320.md",
@@ -796,7 +801,8 @@
         }
       ],
       "lifecycle": "active",
-      "locator_review": "unreviewed"
+      "locator_review": "source_verified_editorial_pending",
+      "editorial_revision": 1
     },
     {
       "id": "material:0000194",
