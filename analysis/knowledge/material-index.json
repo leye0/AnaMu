@@ -16,7 +16,8 @@
     "material_knowledge_bindings_confirmed": 0,
     "extracted_candidate_mentions": 10,
     "extracted_candidate_assertions": 20,
-    "extracted_candidate_assertions_stale": 0
+    "extracted_candidate_assertions_stale": 0,
+    "candidate_senses_pending_reconciliation": 5
   },
   "by_course": {
     "berklee:CM-211": [
@@ -412,5 +413,22 @@
     ]
   },
   "knowledge_links_requiring_review": [],
-  "candidate_assertions_requiring_review": []
+  "candidate_assertions_requiring_review": [],
+  "by_candidate_sense": {
+    "candidate-sense:00001": [
+      "material:0000065"
+    ],
+    "candidate-sense:00002": [
+      "material:0000118"
+    ],
+    "candidate-sense:00003": [
+      "material:0000119"
+    ],
+    "candidate-sense:00004": [
+      "material:0000121"
+    ],
+    "candidate-sense:00005": [
+      "material:0000124"
+    ]
+  }
 }
