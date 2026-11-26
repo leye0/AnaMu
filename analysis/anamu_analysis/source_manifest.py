@@ -127,6 +127,8 @@ def reconcile(previous: dict, fresh: list[dict], fingerprint: str,
             else:
                 changes["unchanged"] += 1
         record.update(observed)
+        record.setdefault("source_revision", 1)
+        record.setdefault("review_required", True)
         record["lifecycle"] = "present"
         reconciled.append(record)
 
@@ -181,7 +183,9 @@ def main(argv: list[str] | None = None) -> None:
             path.parent.mkdir(parents=True, exist_ok=True)
             written = json.dumps(manifest, ensure_ascii=False, indent=2) + "\n"
             if not path.exists() or path.read_text(encoding="utf-8") != written:
-                path.write_text(written, encoding="utf-8")
+                temporary = path.with_name(path.name + ".tmp")
+                temporary.write_text(written, encoding="utf-8")
+                temporary.replace(path)
         print(json.dumps({"mode": args.command, "counts": manifest["counts"],
                           "changes": changes,
                           "warning": "This is a source-file audit, not a semantic or musical validation."},
