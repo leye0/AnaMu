@@ -46,11 +46,18 @@ def evidence_index(items: Any) -> tuple[dict[str, dict], list[dict]]:
         status = item.get("state", "candidate")
         if status not in STATES:
             raise ValueError("unknown evidence state: " + str(status))
+        if status == "verified" and (not isinstance(item.get("provenance"), str)
+                                   or not item["provenance"].strip()):
+            raise ValueError("verified-labelled evidence requires source provenance")
         facts = require_strings(item.get("facts", []), "evidence.facts")
         for fact in facts:
-            previous = found.get(fact)
-            if previous is None or STATES[status] > STATES[previous["state"]]:
-                found[fact] = {"state": status, "evidence_id": item["id"]}
+            if fact in found:
+                raise ValueError("Same fact claimed by multiple evidence items: " +
+                                 fact + ". Reconcile its provenance first.")
+            # 'verified' is the state *declared by the upstream evidence
+            # provider*. This planner does not independently authenticate
+            # files, resolve sources or inspect musical assertions.
+            found[fact] = {"state": status, "evidence_id": item["id"]}
         audit.append({"id": item["id"], "state": status, "facts": facts,
                       "provenance": item.get("provenance"),
                       "note": item.get("note")})
@@ -170,6 +177,10 @@ def plan(case: dict, profile: str) -> dict:
             "question": case.get("question"), "source_note": case.get("source_note"),
             "evidence_profile": profile,
             "limitation": "Proof-route scheduling only. No observations, musical conclusions or evaluations have been executed.",
+            "verification_boundary": (
+                "Evidence states, including verified, are supplied by the case profile; "
+                "the planner requires provenance but cannot authenticate it. "
+                "Ready_verified_inputs is not an independent proof audit."),
             "evidence_audit": audit, "task_counts": dict(sorted(counts.items())),
             "candidate_execution_order": ordering,
             "execution_order_note": (
