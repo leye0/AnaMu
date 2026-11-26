@@ -8,7 +8,9 @@ Le [plan directeur de cartographie et de raisonnement musical](planning/PLAN_RAI
 
 Le [référentiel de matière et ses deux mappings](planning/MAPPING_MATIERE.md) précise la couche préalable : décrire et maintenir les contenus, puis les relier au raisonnement. Un exemple JSON accompagne cette proposition.
 
-Le [registre maintenable des unités de matière](knowledge/MATERIAL_REGISTRY.md) dispose d'un premier **lot pilote publié** : huit fiches, 116 unités documentaires, 15 descriptions sourcées en attente de confirmation et 31 contributions analytiques proposées. Sa mise à l'échelle des 424 fiches, 76 références et 30 JSON reste à réaliser ; ces propositions ne sont pas des règles musicales validées.
+Le [registre maintenable des unités de matière](knowledge/MATERIAL_REGISTRY.md) dispose maintenant d'un **lot pilote de 16 fiches représentées** : 124 unités documentaires candidates, 23 descriptions vérifiées sur leurs passages (en attente de revue) et 44 contributions analytiques proposées. Les 8 premières fiches sont partitionnées en fragments; les 8 suivantes n'ont encore qu'une section sélectionnée chacune. La mise à l'échelle complète reste à réaliser.
+
+Le [manifeste P1](knowledge/source-manifest.json) identifie les 530 sources de l'édition avec leurs empreintes Git. Le [contrat P0](architecture/CONTRATS_PREUVES_ET_RAISONNEMENT.md) et les [20 assertions candidates P2b](knowledge/mentions/calibration-2026-11.json) amorcent la distinction entre concepts, assertions et preuves. Un [premier planificateur de routes de preuve](planning/DEMONSTRATION_PLAN_PREUVES.md) compare deux cas contrastés (harmonie et percussion), sans prétendre analyser une œuvre.
 
 ## Ce qui existe dans cette première version
 
