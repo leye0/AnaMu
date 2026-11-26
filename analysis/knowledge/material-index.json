@@ -2,13 +2,13 @@
   "schema_version": 1,
   "coverage": {
     "status": "pilot_partial_not_full_inventory",
-    "source_course_documents_indexed": 106,
+    "source_course_documents_indexed": 116,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 1184,
-    "material_units_requiring_review": 1184,
+    "material_units_active": 1252,
+    "material_units_requiring_review": 1252,
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
-    "course_material_bindings_active": 1184,
+    "course_material_bindings_active": 1252,
     "material_knowledge_bindings": 55,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
     "material_knowledge_bindings_proposed": 49,
@@ -18,8 +18,8 @@
     "extracted_candidate_assertions": 32,
     "extracted_candidate_assertions_stale": 0,
     "candidate_senses_pending_reconciliation": 6,
-    "course_documents_with_active_units": 106,
-    "source_documents_with_active_units": 106
+    "course_documents_with_active_units": 116,
+    "source_documents_with_active_units": 116
   },
   "by_course": {
     "berklee:CM-211": [
@@ -1417,6 +1417,94 @@
       "material:0001182",
       "material:0001183",
       "material:0001184"
+    ],
+    "berklee:COND-334": [
+      "material:0001185",
+      "material:0001186",
+      "material:0001187",
+      "material:0001188",
+      "material:0001189"
+    ],
+    "berklee:COND-341": [
+      "material:0001190",
+      "material:0001191",
+      "material:0001192",
+      "material:0001193",
+      "material:0001194"
+    ],
+    "berklee:COND-351": [
+      "material:0001195",
+      "material:0001196",
+      "material:0001197",
+      "material:0001198",
+      "material:0001199"
+    ],
+    "berklee:COND-355": [
+      "material:0001200",
+      "material:0001201",
+      "material:0001202",
+      "material:0001203",
+      "material:0001204"
+    ],
+    "berklee:COND-361": [
+      "material:0001205",
+      "material:0001206",
+      "material:0001207",
+      "material:0001208",
+      "material:0001209"
+    ],
+    "berklee:COND-391": [
+      "material:0001210",
+      "material:0001211",
+      "material:0001212",
+      "material:0001213",
+      "material:0001214"
+    ],
+    "berklee:COND-421": [
+      "material:0001215",
+      "material:0001216",
+      "material:0001217",
+      "material:0001218",
+      "material:0001219",
+      "material:0001220",
+      "material:0001221"
+    ],
+    "berklee:COND-498": [
+      "material:0001222",
+      "material:0001223",
+      "material:0001224",
+      "material:0001225",
+      "material:0001226"
+    ],
+    "berklee:CP-210": [
+      "material:0001227",
+      "material:0001228",
+      "material:0001229",
+      "material:0001230",
+      "material:0001231",
+      "material:0001232",
+      "material:0001233",
+      "material:0001234",
+      "material:0001235",
+      "material:0001236",
+      "material:0001237",
+      "material:0001238",
+      "material:0001239"
+    ],
+    "berklee:CP-215": [
+      "material:0001240",
+      "material:0001241",
+      "material:0001242",
+      "material:0001243",
+      "material:0001244",
+      "material:0001245",
+      "material:0001246",
+      "material:0001247",
+      "material:0001248",
+      "material:0001249",
+      "material:0001250",
+      "material:0001251",
+      "material:0001252"
     ]
   },
   "by_document": {
@@ -2815,6 +2903,94 @@
       "material:0001182",
       "material:0001183",
       "material:0001184"
+    ],
+    "docs/courses/berklee/COND-334.md": [
+      "material:0001185",
+      "material:0001186",
+      "material:0001187",
+      "material:0001188",
+      "material:0001189"
+    ],
+    "docs/courses/berklee/COND-341.md": [
+      "material:0001190",
+      "material:0001191",
+      "material:0001192",
+      "material:0001193",
+      "material:0001194"
+    ],
+    "docs/courses/berklee/COND-351.md": [
+      "material:0001195",
+      "material:0001196",
+      "material:0001197",
+      "material:0001198",
+      "material:0001199"
+    ],
+    "docs/courses/berklee/COND-355.md": [
+      "material:0001200",
+      "material:0001201",
+      "material:0001202",
+      "material:0001203",
+      "material:0001204"
+    ],
+    "docs/courses/berklee/COND-361.md": [
+      "material:0001205",
+      "material:0001206",
+      "material:0001207",
+      "material:0001208",
+      "material:0001209"
+    ],
+    "docs/courses/berklee/COND-391.md": [
+      "material:0001210",
+      "material:0001211",
+      "material:0001212",
+      "material:0001213",
+      "material:0001214"
+    ],
+    "docs/courses/berklee/COND-421.md": [
+      "material:0001215",
+      "material:0001216",
+      "material:0001217",
+      "material:0001218",
+      "material:0001219",
+      "material:0001220",
+      "material:0001221"
+    ],
+    "docs/courses/berklee/COND-498.md": [
+      "material:0001222",
+      "material:0001223",
+      "material:0001224",
+      "material:0001225",
+      "material:0001226"
+    ],
+    "docs/courses/berklee/CP-210.md": [
+      "material:0001227",
+      "material:0001228",
+      "material:0001229",
+      "material:0001230",
+      "material:0001231",
+      "material:0001232",
+      "material:0001233",
+      "material:0001234",
+      "material:0001235",
+      "material:0001236",
+      "material:0001237",
+      "material:0001238",
+      "material:0001239"
+    ],
+    "docs/courses/berklee/CP-215.md": [
+      "material:0001240",
+      "material:0001241",
+      "material:0001242",
+      "material:0001243",
+      "material:0001244",
+      "material:0001245",
+      "material:0001246",
+      "material:0001247",
+      "material:0001248",
+      "material:0001249",
+      "material:0001250",
+      "material:0001251",
+      "material:0001252"
     ]
   },
   "by_concept": {
