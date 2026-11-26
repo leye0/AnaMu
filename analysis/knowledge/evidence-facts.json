@@ -145,6 +145,46 @@
       "limitations": "Note Off n'est pas un geste physique.",
       "scope": "passage_or_context_specific",
       "requires_provenance": true
+    },
+    {
+      "id": "spectral_observations_annotated",
+      "modality": "audio_analysis",
+      "meaning": "Observations de spectre, énergie et masses sonores reliées à un segment identifié.",
+      "limitations": "Spectres ou mesures ne suffisent pas à une lecture esthétique.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "transient_envelope_observed",
+      "modality": "audio_analysis",
+      "meaning": "Transitoires et enveloppes temporelles localisés sur une version audio.",
+      "limitations": "Les transitoires ne fixent pas seuls les objets perceptifs.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "sound_object_segmentation_annotated",
+      "modality": "human_listening",
+      "meaning": "Frontières et objets sonores candidats annotés avec leurs alternatives.",
+      "limitations": "La segmentation reste révisable et liée à une audition située.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "electroacoustic_framework_declared",
+      "modality": "context",
+      "meaning": "Cadre d'analyse électroacoustique explicitement nommé et circonscrit.",
+      "limitations": "La théorie retenue ne devient pas une propriété universelle de l'œuvre.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "production_metadata_attested",
+      "modality": "documents",
+      "meaning": "Informations de production attribuées à des documents ou témoignages identifiables.",
+      "limitations": "Une ressemblance de timbre ne démontre ni technique de production ni filiation.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
     }
   ],
   "limitations": [
