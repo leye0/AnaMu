@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "contract": "Vocabulaire de faits nécessaires à des opérations, distinct des faits constatés sur une œuvre. La présence d'un nom n'atteste pas sa vérification.",
+  "facts": [
+    {
+      "id": "pitch_classes_provided",
+      "modality": "notation",
+      "meaning": "Collection de classes de hauteurs fournie et identifiable.",
+      "limitations": "Ne certifie ni graphie, ni voix, ni fonction.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "bass_trajectory_annotated",
+      "modality": "score_or_analyst_annotation",
+      "meaning": "Suite de basses délimitée pour un passage.",
+      "limitations": "N'est pas inférée de la touche la plus grave.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "voice_leading_annotated",
+      "modality": "score_or_analyst_annotation",
+      "meaning": "Trajectoires des voix annotées avec leurs identités.",
+      "limitations": "Les noms de pistes ne certifient pas la séparation réelle.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "previous_next_harmony_annotated",
+      "modality": "score_or_analyst_annotation",
+      "meaning": "Contexte harmonique avant et après un événement.",
+      "limitations": "Ne garantit pas à lui seul un centre tonal.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "tonal_frame_declared",
+      "modality": "context",
+      "meaning": "Cadre théorique tonal explicitement retenu.",
+      "limitations": "N'est pas une preuve que l'œuvre adhère à ce cadre.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "phrase_context_annotated",
+      "modality": "score_or_analyst_annotation",
+      "meaning": "Frontières ou continuités de phrase annotées.",
+      "limitations": "Une annotation de phrase n'est pas une cadence prouvée.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "midi_note_events_verified",
+      "modality": "midi",
+      "meaning": "Événements de notes lus et reliés à un fichier MIDI précisément identifié.",
+      "limitations": "N'implique pas les voix, la notation ou la fonction musicale.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "score_with_notated_bass",
+      "modality": "score",
+      "meaning": "Partition incluant une basse graphiquement notée.",
+      "limitations": "N'implique pas à elle seule la fonction harmonique.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "score_note_events_verified",
+      "modality": "score",
+      "meaning": "Événements de notation d'une partition vérifiés sur un passage.",
+      "limitations": "La notation n'est pas une audition.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "audio_excerpt_verified",
+      "modality": "audio",
+      "meaning": "Fichier audio identifié et passage localisé.",
+      "limitations": "La présence d'un audio ne prouve aucun jugement d'écoute.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "audition_annotated",
+      "modality": "human_listening",
+      "meaning": "Annotation d'écoute située, datée et attribuée.",
+      "limitations": "Le jugement perceptif n'est pas universel.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "gm_percussion_events_supplied",
+      "modality": "midi",
+      "meaning": "Événements de percussion encodés sous un contrat MIDI déclaré.",
+      "limitations": "Un kit virtuel ne désigne pas l'instrument physique.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "gm_profile_declared",
+      "modality": "metadata",
+      "meaning": "Profil GM supposé pour l'export étudié.",
+      "limitations": "Profil déclaré n'est pas identification indépendante du kit.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "physical_layout_annotated",
+      "modality": "human_or_stage_plan",
+      "meaning": "Implantation des instruments documentée.",
+      "limitations": "Ne prouve pas la distance ou les gestes sans contexte.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "performer_assignment_annotated",
+      "modality": "score_or_human_annotation",
+      "meaning": "Affectation des événements à des instrumentistes documentée.",
+      "limitations": "Un canal MIDI ne signifie pas une personne.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "sticks_and_changes_annotated",
+      "modality": "stage_practice",
+      "meaning": "Baguettes, changements et accès aux surfaces annotés.",
+      "limitations": "La jouabilité doit être validée sur le matériel réel.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "audio_recording_verified",
+      "modality": "audio",
+      "meaning": "Enregistrement identifié et passage localisé.",
+      "limitations": "Le fichier ne prouve pas une extinction ou son origine.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    },
+    {
+      "id": "damping_gesture_annotated",
+      "modality": "score_or_video",
+      "meaning": "Geste d'amortissement prescrit ou constaté dans son support.",
+      "limitations": "Note Off n'est pas un geste physique.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true
+    }
+  ],
+  "limitations": [
+    "Un fait de cette liste n'est jamais automatiquement vrai pour une œuvre.",
+    "Chaque profil doit fournir l'élément de preuve ou l'annotation correspondant.",
+    "Les profils de démonstration peuvent simuler la présence des faits sans analyser un fichier."
+  ]
+}
