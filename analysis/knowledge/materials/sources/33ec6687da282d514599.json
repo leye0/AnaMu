@@ -1,0 +1,332 @@
+{
+  "source_document": "docs/courses/udem/MUS-3127X.md",
+  "units": [
+    {
+      "id": "material:0003197",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 3127X — Création de maquettes MIDI orchestrales",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **UdeM, B. Mus. Composition A26, option 75F ; Samuel Laflamme, automne 2026.** [Plan-cadre officiel MUS 3127X / 6127X](https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/Plan_cadre_MUS_3127X_6127X_Cr%C3%A9ation_de_maq",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3127X.md",
+          "document_sha256": "8e58f04d9548e1dfab52c5c0f6751eb1d313a98a4000b49718769260723bbcc4",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0d321902eeb48d343c7b5192",
+            "heading_path": [
+              "MUS 3127X — Création de maquettes MIDI orchestrales"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 63
+          },
+          "content_sha256": "fcf1360a66cd8f199aa10f28f6d318d82a68b3a06f90f8c993f58bd256fc0395",
+          "body_sha256": "a60c3f47805363015bc427ebcdaa8e8850cc0f37b61625ba862fb05b74241b5e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003198",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Domaines réellement enseignés",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : La formation porte sur la **simulation instrumentale** en séquenceur/échantillonneur, le contrôle fin des paramètres **expressifs MIDI**, le réalisme du **jeu instrumental**, le **mixage** et la **perspective spatiale** d'une formation orch",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3127X.md",
+          "document_sha256": "8e58f04d9548e1dfab52c5c0f6751eb1d313a98a4000b49718769260723bbcc4",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2c08b4e920d74969a8d189ae",
+            "heading_path": [
+              "MUS 3127X — Création de maquettes MIDI orchestrales",
+              "Domaines réellement enseignés"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 20
+          },
+          "content_sha256": "727a08a359c9eb9d8f4596209e951a63ec46b5552ae4b9e95e90d29b765a3058",
+          "body_sha256": "04cc25ef8832393da78b499b2f0e6a80798f1dffa556b7c0e5dd1740f8f928d9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003199",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Exercices attestés et destination des évaluations",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Les **quatre travaux** totalisent **60 %** et le projet final vaut **40 %**, selon une **pondération indicative** publiée. Le plan-cadre prévoit **70 % d'enseignement théorique** et **30 % de laboratoire**. Les règles d'articulations, famil",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3127X.md",
+          "document_sha256": "8e58f04d9548e1dfab52c5c0f6751eb1d313a98a4000b49718769260723bbcc4",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a0870c17deaf20112f8cdd2a",
+            "heading_path": [
+              "MUS 3127X — Création de maquettes MIDI orchestrales",
+              "Domaines réellement enseignés",
+              "Exercices attestés et destination des évaluations"
+            ],
+            "start_line": 9,
+            "end_line": 20,
+            "subtree_end_line": 20
+          },
+          "content_sha256": "56e37848f2bc95c6ba42e0a8c8a1668c5b6cf522d38f8915630d3534db2f6c8c",
+          "body_sha256": "808622a928c50cccdb20d768108226fff1d8c5d5fb62f7942f7680e59095aed4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003200",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Distinction fondamentale pour la documentation d'AnaMu",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Un bon rendu d'échantillons n'est ni l'enregistrement acoustique d'un orchestre ni la preuve de la jouabilité d'une partition. Le plan cherche précisément à rendre la **simulation MIDI expressive et spatialisée**. Les exemples plus détaillé",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3127X.md",
+          "document_sha256": "8e58f04d9548e1dfab52c5c0f6751eb1d313a98a4000b49718769260723bbcc4",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:36c6c3449becf440d4b5d48d",
+            "heading_path": [
+              "MUS 3127X — Création de maquettes MIDI orchestrales",
+              "Distinction fondamentale pour la documentation d'AnaMu"
+            ],
+            "start_line": 21,
+            "end_line": 24,
+            "subtree_end_line": 24
+          },
+          "content_sha256": "713a1468ff7885d068e9001397fe67f4e70cc8a76022eba3dcac438ec706353b",
+          "body_sha256": "0863e55e506a00f7eec341ba70913a4de934582e737963517af44819a4d2b886",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003201",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Manquent : partition de départ, configuration logicielle imposée, objectifs et dates de chaque devoir, barème d'expression/sonorité et exemples audio avant/après. Le document est un **plan-cadre d'un cours réellement offert** et non le syll",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3127X.md",
+          "document_sha256": "8e58f04d9548e1dfab52c5c0f6751eb1d313a98a4000b49718769260723bbcc4",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2b66d3df70daf60b7c6de533",
+            "heading_path": [
+              "MUS 3127X — Création de maquettes MIDI orchestrales",
+              "Lacunes"
+            ],
+            "start_line": 25,
+            "end_line": 28,
+            "subtree_end_line": 28
+          },
+          "content_sha256": "3c23f942f056493be056b58b40093f2e0b87c1c24466cd2c5e3a5f1e1849c87b",
+          "body_sha256": "d79ee06cbacc9cbe4f4c20beb5c4f290a650db76000d37551cd3423e1f593bdd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003202",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — première évaluation (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Périmètre :** apprentissage(s) explicitement mentionné(s) dans les sources déjà citées plus haut. **Apport :** directe. **Couverture :** partielle, non exhaustive du syllabus ni des objectifs de la section. Les procédures suivantes sont d",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3127X.md",
+          "document_sha256": "8e58f04d9548e1dfab52c5c0f6751eb1d313a98a4000b49718769260723bbcc4",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0fd2965b9d002602484417b4",
+            "heading_path": [
+              "MUS 3127X — Création de maquettes MIDI orchestrales",
+              "Application à l'analyse et à la création — première évaluation (12 novembre 2026)"
+            ],
+            "start_line": 29,
+            "end_line": 32,
+            "subtree_end_line": 63
+          },
+          "content_sha256": "92b4f511d5ca0441a0ee4f4451cb8bf8991963e5be72667bc5ce2d97955094c1",
+          "body_sha256": "ccf3a3622568c382c90e30978baa69d906b8322c91d95e24672718d0fa84d694",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003203",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 1 — Contrôleurs expressifs dans une maquette orchestrale",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve du cours :** Plan-cadre UdeM A26 : contrôle fin des paramètres expressifs MIDI et simulation du jeu instrumental.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3127X.md",
+          "document_sha256": "8e58f04d9548e1dfab52c5c0f6751eb1d313a98a4000b49718769260723bbcc4",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e459c7ccace4e3b7fe8cc957",
+            "heading_path": [
+              "MUS 3127X — Création de maquettes MIDI orchestrales",
+              "Application à l'analyse et à la création — première évaluation (12 novembre 2026)",
+              "Apprentissage 1 — Contrôleurs expressifs dans une maquette orchestrale"
+            ],
+            "start_line": 33,
+            "end_line": 42,
+            "subtree_end_line": 42
+          },
+          "content_sha256": "fd4c773990cce490e6a00f74fd61bdc381ec9c2e993ead5ec4b6ddb2ebdad2e9",
+          "body_sha256": "9b2240e6d74c8f605930d79226eb0d4c6ce394aa75c295a640879e2ff97fd85e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003204",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 2 — Placement spatial virtuel et équilibre entre familles",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve du cours :** Même plan-cadre : mixage, perspective spatiale, orchestre virtuel, cordes et bois.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3127X.md",
+          "document_sha256": "8e58f04d9548e1dfab52c5c0f6751eb1d313a98a4000b49718769260723bbcc4",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9a050bf7764bc9029320d3ff",
+            "heading_path": [
+              "MUS 3127X — Création de maquettes MIDI orchestrales",
+              "Application à l'analyse et à la création — première évaluation (12 novembre 2026)",
+              "Apprentissage 2 — Placement spatial virtuel et équilibre entre familles"
+            ],
+            "start_line": 43,
+            "end_line": 52,
+            "subtree_end_line": 52
+          },
+          "content_sha256": "eb68ace8c72e80ca58a9b6e747a20121b2c66fb03d6979917a95f5d5e35a872b",
+          "body_sha256": "9913a3579bfc296b646013d1ca67b61aaff2733b4f821453955a2495133cdd86",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003205",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict du cours",
+      "title_origin": "source_heading_or_key",
+      "description": "Titre ou passage sans description éditoriale vérifiée.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3127X.md",
+          "document_sha256": "8e58f04d9548e1dfab52c5c0f6751eb1d313a98a4000b49718769260723bbcc4",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e969710dcb504b3582436e20",
+            "heading_path": [
+              "MUS 3127X — Création de maquettes MIDI orchestrales",
+              "Application à l'analyse et à la création — première évaluation (12 novembre 2026)",
+              "Verdict du cours"
+            ],
+            "start_line": 53,
+            "end_line": 63,
+            "subtree_end_line": 63
+          },
+          "content_sha256": "4cd4b12722393bd01fafe3425d6f9275797f6bbdc9e09418d0c84d1f6d2da2fa",
+          "body_sha256": "cf06cc4ca75e542d95bd2c9b361097536668aaa85c3f93aded0cc0b88a5f4890",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
