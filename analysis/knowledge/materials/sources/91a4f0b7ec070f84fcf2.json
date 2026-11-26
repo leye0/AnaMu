@@ -1,0 +1,368 @@
+{
+  "source_document": "docs/courses/berklee/CM-227.md",
+  "units": [
+    {
+      "id": "material:0000817",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-227 — The Art of Modulation",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Berklee College of Music, inventaire candidat 2026 : cours de composition/arrangement ou spécialité voisine. Pertinence musicale distincte de l’admissibilité dans un parcours. Consultation : 10 novembre 2026. **Documentation partielle : syl",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-227.md",
+          "document_sha256": "02924f07889535453e303ef3d0e06a67c89c284bcaf714bc0b272edbfb2460df",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e858eb334383b8ba532040df",
+            "heading_path": [
+              "CM-227 — The Art of Modulation"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 71
+          },
+          "content_sha256": "4e887317c98b09d8112da48cc4a895afe556311b4a370425b9f4e8c2bef8b749",
+          "body_sha256": "a8cbbfca1272a98b2ce2547f1e2d9305e0a57446202304abbb3b191b08fc5c3e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000818",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources et matière accessible",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Notice officielle Boston](https://college.berklee.edu/courses/cm-227) — Modulations graduelles et soudaines, tonalités proches ou éloignées, degrés de parenté et systèmes majeur–mineur. C’est une description institutionnelle, pas un plan",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-227.md",
+          "document_sha256": "02924f07889535453e303ef3d0e06a67c89c284bcaf714bc0b272edbfb2460df",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7fbfeadb12c762fad80f983d",
+            "heading_path": [
+              "CM-227 — The Art of Modulation",
+              "Sources et matière accessible"
+            ],
+            "start_line": 5,
+            "end_line": 11,
+            "subtree_end_line": 11
+          },
+          "content_sha256": "865d42584439f24b5f268d01f056673bde9617a3637892264f5007c5b5edc566",
+          "body_sha256": "b5e2efdfbd8af29c491a9e6297bf7a9554bfb7458f5790155765abc7fdad5cae",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000819",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes et suite",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : La leçon ne documente pas les trois degrés de parenté spécifiques à CM-227. Syllabus de section, bibliographie, répertoire précis, sujets complets et barèmes encore inconnus. Les recoupements partiels ne clôturent pas le cours.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-227.md",
+          "document_sha256": "02924f07889535453e303ef3d0e06a67c89c284bcaf714bc0b272edbfb2460df",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ba8468189d0979f16af148aa",
+            "heading_path": [
+              "CM-227 — The Art of Modulation",
+              "Lacunes et suite"
+            ],
+            "start_line": 12,
+            "end_line": 16,
+            "subtree_end_line": 16
+          },
+          "content_sha256": "045170705785d66e55db561f77cc3b335b6155a9a5ee361aba06e66058eef878",
+          "body_sha256": "cba1c057ac27058ffca5c2aeb61c00fbb8a4934146e36e61f1a1351553cc849e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000820",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — premier apprentissage sourcé (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Apport musical : direct**, dans la limite de la [notice officielle du cours](https://college.berklee.edu/courses/cm-227). [MIDI original de démonstration](./CM-227/exemple.mid), distinct des consignes réelles de Berklee.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-227.md",
+          "document_sha256": "02924f07889535453e303ef3d0e06a67c89c284bcaf714bc0b272edbfb2460df",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:38abcb0a86fb39dea0a57c18",
+            "heading_path": [
+              "CM-227 — The Art of Modulation",
+              "Application à l'analyse et à la création — premier apprentissage sourcé (11 novembre 2026)"
+            ],
+            "start_line": 17,
+            "end_line": 20,
+            "subtree_end_line": 30
+          },
+          "content_sha256": "88b564b10726fff10810c9cd83738697434198b113c4a674027c60a646758344",
+          "body_sha256": "113d5053056c2bd00f0232c349ff782de60146a2b6adb3d512f16a3942b8549f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000821",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage : Modulation vers une tonalité voisine",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Détection / interprétation MIDI :** 1. Trouver C comme centre des mesures initiales, repérer le F♯ de D7 au changement local, puis une tenue/confirmation de G majeur. 2. Examiner les cadences et la durée de la région en G. 3. Comparer l'h",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-227.md",
+          "document_sha256": "02924f07889535453e303ef3d0e06a67c89c284bcaf714bc0b272edbfb2460df",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:cbc9da44f3c4050a303937a9",
+            "heading_path": [
+              "CM-227 — The Art of Modulation",
+              "Application à l'analyse et à la création — premier apprentissage sourcé (11 novembre 2026)",
+              "Apprentissage : Modulation vers une tonalité voisine"
+            ],
+            "start_line": 21,
+            "end_line": 30,
+            "subtree_end_line": 30
+          },
+          "content_sha256": "503d3151b2901403d582ff930f747f4a299b0a41553a494a4640c74df26cd5cc",
+          "body_sha256": "3d3ead7c0df26fa9c79c7af2256892bff095e65c5676ed3186e4d46d2d374c4f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000822",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deuxième passe qualitative — modulations proches et lointaines (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance :** [notice Berklee CM-227](https://college.berklee.edu/courses/cm-227) : modulations graduelles et soudaines vers tonalités proches ou éloignées, trois degrés de parenté et systèmes majeur/mineur. **Les trois degrés sont annon",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-227.md",
+          "document_sha256": "02924f07889535453e303ef3d0e06a67c89c284bcaf714bc0b272edbfb2460df",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:74f5cdafe5bf97c0d2233d4c",
+            "heading_path": [
+              "CM-227 — The Art of Modulation",
+              "Deuxième passe qualitative — modulations proches et lointaines (12 novembre 2026)"
+            ],
+            "start_line": 31,
+            "end_line": 34,
+            "subtree_end_line": 60
+          },
+          "content_sha256": "8d2a95500556f753f575a397494a2002b365ffca9fb6bfb69c499a80d1eb1798",
+          "body_sha256": "5829c0a7006b671476965c59840a0105ad5357ccc9784b3621ab9db62aa1234b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000823",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q1 — Modulation graduelle avec accord pivot : double lecture vérifiable",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Identifier la tonalité de départ par phrases et cadences, puis rechercher un accord susceptible de recevoir deux analyses romaines compatibles avec deux centres tonals. Annoter sur partition les deux fonctions, les mouvements",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-227.md",
+          "document_sha256": "02924f07889535453e303ef3d0e06a67c89c284bcaf714bc0b272edbfb2460df",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3685134532fedc9d7659d493",
+            "heading_path": [
+              "CM-227 — The Art of Modulation",
+              "Deuxième passe qualitative — modulations proches et lointaines (12 novembre 2026)",
+              "Q1 — Modulation graduelle avec accord pivot : double lecture vérifiable"
+            ],
+            "start_line": 35,
+            "end_line": 42,
+            "subtree_end_line": 42
+          },
+          "content_sha256": "540d1bff364421d9b1a5ffb0706f2f03a7d5873cb30e24a7a9126bc452370e89",
+          "body_sha256": "f1de5e0aa16619cd6e3f5466b26d3a17c4c3c057308618424dc90b74132ef466",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000824",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q2 — Modulation soudaine : rupture et confirmation d'un nouveau centre",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Localiser frontière de phrase, silence, changement de texture ou rupture de progression; comparer basses, altérations, lignes et cadences avant/après. Tester « nouvelle tonalité installée » contre « accord chromatique de passa",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-227.md",
+          "document_sha256": "02924f07889535453e303ef3d0e06a67c89c284bcaf714bc0b272edbfb2460df",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:bd1198e8acb0e5baabcca02c",
+            "heading_path": [
+              "CM-227 — The Art of Modulation",
+              "Deuxième passe qualitative — modulations proches et lointaines (12 novembre 2026)",
+              "Q2 — Modulation soudaine : rupture et confirmation d'un nouveau centre"
+            ],
+            "start_line": 43,
+            "end_line": 50,
+            "subtree_end_line": 50
+          },
+          "content_sha256": "a4a94ea7a4d57fbd089320dabbde0055581a635cd343ded195a7842473321a4b",
+          "body_sha256": "ae295779ec32e65a463f3854a222a56865fed5d5867c08d2c2e640e5d9b68e18",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000825",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q3 — Parenté tonale : distance descriptive versus classification officielle",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Pour les centres candidats, mesurer différence d'armures, notes communes, dominantes et sensibles, puis relever les moyens compositionnels qui rendent la transition lisse ou abrupte. Comparer plusieurs explications, y compris",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-227.md",
+          "document_sha256": "02924f07889535453e303ef3d0e06a67c89c284bcaf714bc0b272edbfb2460df",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:68d242e46949e4a3c1df5c09",
+            "heading_path": [
+              "CM-227 — The Art of Modulation",
+              "Deuxième passe qualitative — modulations proches et lointaines (12 novembre 2026)",
+              "Q3 — Parenté tonale : distance descriptive versus classification officielle"
+            ],
+            "start_line": 51,
+            "end_line": 60,
+            "subtree_end_line": 60
+          },
+          "content_sha256": "1c2773b0b9fb34dc0e66018ec19c7e8b2ef36e792de488c174f7ecaf152d9c44",
+          "body_sha256": "8c1eb84c306533ea95b8e8c16d9fcc9f8f859d8651eb5c20516f466f9a53f7e1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000826",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — une demi-cadence peut faire place à une autre tonalité (13 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve du cours.** La [notice CM-227](https://college.berklee.edu/courses/cm-227) annonce les modulations graduelles et soudaines. Ce cas externe n'est pas une pièce attribuée à un plan de section.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-227.md",
+          "document_sha256": "02924f07889535453e303ef3d0e06a67c89c284bcaf714bc0b272edbfb2460df",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ddfd91240c3f8c7ca3ee58a4",
+            "heading_path": [
+              "CM-227 — The Art of Modulation",
+              "Application à l'analyse et à la création — une demi-cadence peut faire place à une autre tonalité (13 novembre 2026)"
+            ],
+            "start_line": 61,
+            "end_line": 71,
+            "subtree_end_line": 71
+          },
+          "content_sha256": "9e86a2781e49608f57916b0b36c7fb10080fc9c6e948af6304ed98fba7334e7a",
+          "body_sha256": "e43100fe162a77e9159484bb3cf3a4077c93e64e48d36bcaf0ea3a1b65135020",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
