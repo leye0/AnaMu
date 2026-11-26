@@ -9,15 +9,15 @@
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
     "course_material_bindings_active": 457,
-    "material_knowledge_bindings": 54,
+    "material_knowledge_bindings": 55,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
     "material_knowledge_bindings_proposed": 49,
-    "material_knowledge_bindings_unresolved": 5,
+    "material_knowledge_bindings_unresolved": 6,
     "material_knowledge_bindings_confirmed": 0,
     "extracted_candidate_mentions": 10,
     "extracted_candidate_assertions": 20,
     "extracted_candidate_assertions_stale": 0,
-    "candidate_senses_pending_reconciliation": 5
+    "candidate_senses_pending_reconciliation": 6
   },
   "by_course": {
     "berklee:CM-211": [
@@ -1191,6 +1191,9 @@
     ],
     "candidate-sense:00005": [
       "material:0000124"
+    ],
+    "candidate-sense:00006": [
+      "material:0000419"
     ]
   }
 }
