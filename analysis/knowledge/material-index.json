@@ -2,13 +2,13 @@
   "schema_version": 1,
   "coverage": {
     "status": "pilot_partial_not_full_inventory",
-    "source_course_documents_indexed": 316,
+    "source_course_documents_indexed": 326,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 2671,
-    "material_units_requiring_review": 2671,
+    "material_units_active": 2726,
+    "material_units_requiring_review": 2726,
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
-    "course_material_bindings_active": 2671,
+    "course_material_bindings_active": 2726,
     "material_knowledge_bindings": 55,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
     "material_knowledge_bindings_proposed": 49,
@@ -18,8 +18,8 @@
     "extracted_candidate_assertions": 32,
     "extracted_candidate_assertions_stale": 0,
     "candidate_senses_pending_reconciliation": 6,
-    "course_documents_with_active_units": 316,
-    "source_documents_with_active_units": 316
+    "course_documents_with_active_units": 326,
+    "source_documents_with_active_units": 326
   },
   "by_course": {
     "berklee:CM-211": [
@@ -3314,6 +3314,81 @@
       "material:0002669",
       "material:0002670",
       "material:0002671"
+    ],
+    "udem:MUE 1283": [
+      "material:0002672",
+      "material:0002673",
+      "material:0002674",
+      "material:0002675",
+      "material:0002676",
+      "material:0002677"
+    ],
+    "udem:MUE 1341": [
+      "material:0002678",
+      "material:0002679",
+      "material:0002680",
+      "material:0002681",
+      "material:0002682",
+      "material:0002683",
+      "material:0002684"
+    ],
+    "udem:MUE 1342": [
+      "material:0002685",
+      "material:0002686",
+      "material:0002687",
+      "material:0002688",
+      "material:0002689",
+      "material:0002690"
+    ],
+    "udem:MUE 1343": [
+      "material:0002691",
+      "material:0002692",
+      "material:0002693",
+      "material:0002694",
+      "material:0002695",
+      "material:0002696"
+    ],
+    "udem:MUE 1361": [
+      "material:0002697",
+      "material:0002698",
+      "material:0002699",
+      "material:0002700",
+      "material:0002701"
+    ],
+    "udem:MUE 1362": [
+      "material:0002702",
+      "material:0002703",
+      "material:0002704",
+      "material:0002705",
+      "material:0002706"
+    ],
+    "udem:MUE 1363": [
+      "material:0002707",
+      "material:0002708",
+      "material:0002709",
+      "material:0002710",
+      "material:0002711"
+    ],
+    "udem:MUE 1381": [
+      "material:0002712",
+      "material:0002713",
+      "material:0002714",
+      "material:0002715",
+      "material:0002716"
+    ],
+    "udem:MUE 1382": [
+      "material:0002717",
+      "material:0002718",
+      "material:0002719",
+      "material:0002720",
+      "material:0002721"
+    ],
+    "udem:MUE 1383": [
+      "material:0002722",
+      "material:0002723",
+      "material:0002724",
+      "material:0002725",
+      "material:0002726"
     ]
   },
   "by_document": {
@@ -6619,6 +6694,81 @@
       "material:0002669",
       "material:0002670",
       "material:0002671"
+    ],
+    "docs/courses/udem/MUE-1283.md": [
+      "material:0002672",
+      "material:0002673",
+      "material:0002674",
+      "material:0002675",
+      "material:0002676",
+      "material:0002677"
+    ],
+    "docs/courses/udem/MUE-1341.md": [
+      "material:0002678",
+      "material:0002679",
+      "material:0002680",
+      "material:0002681",
+      "material:0002682",
+      "material:0002683",
+      "material:0002684"
+    ],
+    "docs/courses/udem/MUE-1342.md": [
+      "material:0002685",
+      "material:0002686",
+      "material:0002687",
+      "material:0002688",
+      "material:0002689",
+      "material:0002690"
+    ],
+    "docs/courses/udem/MUE-1343.md": [
+      "material:0002691",
+      "material:0002692",
+      "material:0002693",
+      "material:0002694",
+      "material:0002695",
+      "material:0002696"
+    ],
+    "docs/courses/udem/MUE-1361.md": [
+      "material:0002697",
+      "material:0002698",
+      "material:0002699",
+      "material:0002700",
+      "material:0002701"
+    ],
+    "docs/courses/udem/MUE-1362.md": [
+      "material:0002702",
+      "material:0002703",
+      "material:0002704",
+      "material:0002705",
+      "material:0002706"
+    ],
+    "docs/courses/udem/MUE-1363.md": [
+      "material:0002707",
+      "material:0002708",
+      "material:0002709",
+      "material:0002710",
+      "material:0002711"
+    ],
+    "docs/courses/udem/MUE-1381.md": [
+      "material:0002712",
+      "material:0002713",
+      "material:0002714",
+      "material:0002715",
+      "material:0002716"
+    ],
+    "docs/courses/udem/MUE-1382.md": [
+      "material:0002717",
+      "material:0002718",
+      "material:0002719",
+      "material:0002720",
+      "material:0002721"
+    ],
+    "docs/courses/udem/MUE-1383.md": [
+      "material:0002722",
+      "material:0002723",
+      "material:0002724",
+      "material:0002725",
+      "material:0002726"
     ]
   },
   "by_concept": {
