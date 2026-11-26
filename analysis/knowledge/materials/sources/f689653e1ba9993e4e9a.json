@@ -1,0 +1,442 @@
+{
+  "source_document": "docs/courses/mcgill/MUCO-541.md",
+  "units": [
+    {
+      "id": "material:0001842",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUCO 541 — Advanced Digital Studio Composition 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-541.md",
+          "document_sha256": "cc5fa0e714a2856a99e6b62d1a55884035af913bf6417ca2110c4afefbc23f94",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:615dd07935f9f46a103e189b",
+            "heading_path": [
+              "MUCO 541 — Advanced Digital Studio Composition 1"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 80
+          },
+          "content_sha256": "eeed218f6cca97a13ffe60d717e7d915b445b9b7bc8f5b883f62a15775adf4cc",
+          "body_sha256": "89120b9aa38472ffe8ca15a1dc4a095f790f8898ef0242352ecf4ed61d7a6460",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001843",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Cours recensé",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Obligatoire, Composition 2026. Esthétique, poétique et analyse de l’électroacoustique, synthèse et traitement du signal, pièce complète avec performance éventuelle. [Description institutionnelle](https://www.mcgill.ca/music/programs/bmus/mu",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-541.md",
+          "document_sha256": "cc5fa0e714a2856a99e6b62d1a55884035af913bf6417ca2110c4afefbc23f94",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:bfe95fa1826b34d2cbd5750a",
+            "heading_path": [
+              "MUCO 541 — Advanced Digital Studio Composition 1",
+              "Cours recensé"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 8
+          },
+          "content_sha256": "cd40868e53e0b6688da80825c26f734825535c8840e41da18345482d3dc9b797",
+          "body_sha256": "d355b6a69d81358f8071669018808c07ecb72b4c3eed246d35ec9a4359253640",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001844",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Support parallèle consultable",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : MIT 21M.361, module 4. Quatre consignes de Max/MSP abordent synthèse, procédés et interaction, avec projet final. Ce cours d’introduction sert uniquement d’exemple de travaux pratiques. Il ne documente ni le niveau avancé ni les lectures es",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-541.md",
+          "document_sha256": "cc5fa0e714a2856a99e6b62d1a55884035af913bf6417ca2110c4afefbc23f94",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:95bcf842a8ffc9e92c2a67ac",
+            "heading_path": [
+              "MUCO 541 — Advanced Digital Studio Composition 1",
+              "Support parallèle consultable"
+            ],
+            "start_line": 9,
+            "end_line": 12,
+            "subtree_end_line": 12
+          },
+          "content_sha256": "53a6c1c929005fd61970c61ff29dd342e62e9a46530c92515537f3428365d745",
+          "body_sha256": "5762918f6103920286f7ea0150fe3152c969472edcbf49f8987379ba95e0d44c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001845",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Ce support externe documente les sujets indiqués dans la fiche, avec sa propre progression. Les lectures prescrites, consignes, exemples et critères du cours recensé restent à obtenir auprès de l’établissement.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-541.md",
+          "document_sha256": "cc5fa0e714a2856a99e6b62d1a55884035af913bf6417ca2110c4afefbc23f94",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:aa82365c45da0edecb137784",
+            "heading_path": [
+              "MUCO 541 — Advanced Digital Studio Composition 1",
+              "Lacunes"
+            ],
+            "start_line": 13,
+            "end_line": 17,
+            "subtree_end_line": 17
+          },
+          "content_sha256": "f2b3f5d4c0219556eb2de9abab9a9d64a893634e662f9b01130c7ab5db5cc1b4",
+          "body_sha256": "302994f0dd267239e2d49587547f7a1e80c11765e2a6a4f3e2e96c19669041dc",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001846",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — application conditionnée par l'audio ou les projets (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Code : MUCO 541. Contribution :** directe pour l'analyse/création sonore, surtout par audio et outils de synthèse. **[Preuve : description institutionnelle Advanced Digital Studio Composition 1 : esthétique, analyse électroacoustique, syn",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-541.md",
+          "document_sha256": "cc5fa0e714a2856a99e6b62d1a55884035af913bf6417ca2110c4afefbc23f94",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:22fdafd1023dda1b9d700228",
+            "heading_path": [
+              "MUCO 541 — Advanced Digital Studio Composition 1",
+              "Application à l'analyse et à la création — application conditionnée par l'audio ou les projets (12 novembre 2026)"
+            ],
+            "start_line": 18,
+            "end_line": 21,
+            "subtree_end_line": 49
+          },
+          "content_sha256": "e3a837f2dd05aebe412a5d65f7fe9f439a5fb2d7164f753133d0cd4c7d9750c6",
+          "body_sha256": "c9637198925e86ba8b47a1730fe8441a883858ffbe644e62ac46c48044182b90",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001847",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage ou domaine 1 — Synthèse sonore et traitement du signal",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Attestation :** domaine décrit dans la notice, sans attribution d'exercice spécifique. **Catégorie :** `AUDIO_REQUIRED / MIDI_PROXY`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-541.md",
+          "document_sha256": "cc5fa0e714a2856a99e6b62d1a55884035af913bf6417ca2110c4afefbc23f94",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8c2d62a27d953c51f7fc3274",
+            "heading_path": [
+              "MUCO 541 — Advanced Digital Studio Composition 1",
+              "Application à l'analyse et à la création — application conditionnée par l'audio ou les projets (12 novembre 2026)",
+              "Apprentissage ou domaine 1 — Synthèse sonore et traitement du signal"
+            ],
+            "start_line": 22,
+            "end_line": 31,
+            "subtree_end_line": 31
+          },
+          "content_sha256": "007c2859055da9bebd94f4a98551b4f4082103d0de0e1e3eae2dbc107fe7417d",
+          "body_sha256": "19819362d41a81cb55f2b24a664c418f61e57dd619821190e722aa0bfdfb2fe1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001848",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage ou domaine 2 — Forme de la pièce électroacoustique et jugement esthétique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Attestation :** domaine décrit dans la notice, sans attribution d'exercice spécifique. **Catégorie :** `AUDIO_REQUIRED / CONTEXT_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-541.md",
+          "document_sha256": "cc5fa0e714a2856a99e6b62d1a55884035af913bf6417ca2110c4afefbc23f94",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:47cb9ecf25c1f1cb4ee7c1da",
+            "heading_path": [
+              "MUCO 541 — Advanced Digital Studio Composition 1",
+              "Application à l'analyse et à la création — application conditionnée par l'audio ou les projets (12 novembre 2026)",
+              "Apprentissage ou domaine 2 — Forme de la pièce électroacoustique et jugement esthétique"
+            ],
+            "start_line": 32,
+            "end_line": 41,
+            "subtree_end_line": 41
+          },
+          "content_sha256": "d18b9a949ac4f695df9db1c85fa737df2ba0e51aa1b26aada59ef02542f74dc8",
+          "body_sha256": "c67f4e397a2685d91bc8f19871565b1988f6e992e61f063811e3717b8afeaec3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001849",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Apport :** directe pour l'analyse/création sonore, surtout par audio et outils de synthèse.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-541.md",
+          "document_sha256": "cc5fa0e714a2856a99e6b62d1a55884035af913bf6417ca2110c4afefbc23f94",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:847104f7370675737c110624",
+            "heading_path": [
+              "MUCO 541 — Advanced Digital Studio Composition 1",
+              "Application à l'analyse et à la création — application conditionnée par l'audio ou les projets (12 novembre 2026)",
+              "Verdict"
+            ],
+            "start_line": 42,
+            "end_line": 49,
+            "subtree_end_line": 49
+          },
+          "content_sha256": "8c88fe314feca7f52b41e76103dc3d4b2c5e08041e67ea0c91ee80bbbe846f67",
+          "body_sha256": "8eca9e4e70fc7de0caf5c85a55da4ff781dabeed89d01690a71d11b17866605d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001850",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deuxième passe qualitative — forme électroacoustique, transformations et attentes audibles (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance du code.** Les [exigences McGill 2026–2027](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) décrivent **MUCO 541 — Advanced Digital Studio Composition 1** : esthétique et poétique électroacoustiques, a",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-541.md",
+          "document_sha256": "cc5fa0e714a2856a99e6b62d1a55884035af913bf6417ca2110c4afefbc23f94",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f2fec22192c2a129c84ca4b3",
+            "heading_path": [
+              "MUCO 541 — Advanced Digital Studio Composition 1",
+              "Deuxième passe qualitative — forme électroacoustique, transformations et attentes audibles (12 novembre 2026)"
+            ],
+            "start_line": 50,
+            "end_line": 53,
+            "subtree_end_line": 80
+          },
+          "content_sha256": "67b650f22596061421db9d8930b42c0ac651932c40d4545f402740f8affe371f",
+          "body_sha256": "776eb31ba08bf75075ae542f6f9d29460f933fd58d906a3599d4ec3105c3aead",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001851",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q1 — Reconnaître un retour sonore malgré une transformation timbrale",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser une œuvre existante.** Obtenir le fichier audio et, si possible, les sources/paramètres de production. Segmenter les événements en comparant attaques, enveloppes, durée, contour spectral, répétition de grains ou figures rythmique",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-541.md",
+          "document_sha256": "cc5fa0e714a2856a99e6b62d1a55884035af913bf6417ca2110c4afefbc23f94",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:52dcce6291f190838ef41210",
+            "heading_path": [
+              "MUCO 541 — Advanced Digital Studio Composition 1",
+              "Deuxième passe qualitative — forme électroacoustique, transformations et attentes audibles (12 novembre 2026)",
+              "Q1 — Reconnaître un retour sonore malgré une transformation timbrale"
+            ],
+            "start_line": 54,
+            "end_line": 61,
+            "subtree_end_line": 61
+          },
+          "content_sha256": "b91e1a37d14e3f11c4e4cf601b03238e470a022e7a5b68c81e4eaabb92e6d083",
+          "body_sha256": "a3a627c1f3f64a60825386188a8745c6f5c768d5168c700dcbaea17f22b55a0a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001852",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q2 — Transition, continuité et rupture : segmenter avec des indices indépendants",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Suivre sur l'audio l'énergie RMS, la densité d'attaques, l'évolution spectrale, les silences et la répartition spatiale lorsque des canaux multivoies existent. Comparer les frontières proposées par ces mesures à l'écoute des c",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-541.md",
+          "document_sha256": "cc5fa0e714a2856a99e6b62d1a55884035af913bf6417ca2110c4afefbc23f94",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:befa86aeedd979520dba7c33",
+            "heading_path": [
+              "MUCO 541 — Advanced Digital Studio Composition 1",
+              "Deuxième passe qualitative — forme électroacoustique, transformations et attentes audibles (12 novembre 2026)",
+              "Q2 — Transition, continuité et rupture : segmenter avec des indices indépendants"
+            ],
+            "start_line": 62,
+            "end_line": 69,
+            "subtree_end_line": 69
+          },
+          "content_sha256": "9f8c62cca923cee115bb8d9db53c3b0a2cb1d134cfee6a0ac52db144f0d3a279",
+          "body_sha256": "3a78ae264f686d2022893c7ad029e748479789ad7f91b7d7f881e6473edc54a8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001853",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q3 — Attente dans une forme sonore complète : régularité locale puis écart motivé",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Sur plusieurs épisodes, relever un schéma reproductible (fréquence d'apparition d'une attaque, durée des silences, retour d'une texture ou d'un contraste de registres), puis formuler une prédiction **datée avant l'événement su",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-541.md",
+          "document_sha256": "cc5fa0e714a2856a99e6b62d1a55884035af913bf6417ca2110c4afefbc23f94",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:370206508b3836af50d433fc",
+            "heading_path": [
+              "MUCO 541 — Advanced Digital Studio Composition 1",
+              "Deuxième passe qualitative — forme électroacoustique, transformations et attentes audibles (12 novembre 2026)",
+              "Q3 — Attente dans une forme sonore complète : régularité locale puis écart motivé"
+            ],
+            "start_line": 70,
+            "end_line": 80,
+            "subtree_end_line": 80
+          },
+          "content_sha256": "e0198eb991067322e0d9fb6cd0e918311ed518806a9b8b3d0ad0a5bac785dce7",
+          "body_sha256": "1bdce945985ee8634defd85480373a9da732430faa17680401a664a6d68338cf",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

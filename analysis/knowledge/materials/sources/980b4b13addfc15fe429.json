@@ -1,0 +1,406 @@
+{
+  "source_document": "docs/courses/mcgill/MUCO-542.md",
+  "units": [
+    {
+      "id": "material:0001854",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUCO 542 — Advanced Digital Studio Composition 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : McGill, Schulich, Composition 2026. Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-542.md",
+          "document_sha256": "07ab795eef8734faefb8d608f926e047584f64a00e25499c51f749875518f2fa",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:40941738aec0460fb12c4126",
+            "heading_path": [
+              "MUCO 542 — Advanced Digital Studio Composition 2"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 74
+          },
+          "content_sha256": "9bf46bea1a3455009232cbd65064dea7d2c4b16244349c6b7b8ab562cafb3a6d",
+          "body_sha256": "2b873a9f9619445fd01e525827ed02dae315a04b8df6ec58099238e3f68aa28c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001855",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources et matière",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [Exigences de Composition](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements). Option recommandée en studio avancé. Projet d’envergure mobilisant la composition assistée, l’analyse et la resynthèse ou les contrôleurs",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-542.md",
+          "document_sha256": "07ab795eef8734faefb8d608f926e047584f64a00e25499c51f749875518f2fa",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:38bb5db3a875c10f07aa2e27",
+            "heading_path": [
+              "MUCO 542 — Advanced Digital Studio Composition 2",
+              "Sources et matière"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 8
+          },
+          "content_sha256": "14fd3bea12388dcd4e65ac9c9da5e10a8e0634580b5706095edb0458ca63c9b6",
+          "body_sha256": "3c416eac43f5f46016a6b81f0bb5aa4ba88daf0f7a1f88fc0c6f446a983c5327",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001856",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Les outils sont attestés dans l’environnement d’auxiliariat. Leur répartition par séance, les consignes des exercices et les critères du projet restent à confirmer.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-542.md",
+          "document_sha256": "07ab795eef8734faefb8d608f926e047584f64a00e25499c51f749875518f2fa",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b6e060e80c320daa1a7e67a3",
+            "heading_path": [
+              "MUCO 542 — Advanced Digital Studio Composition 2",
+              "Lacunes"
+            ],
+            "start_line": 9,
+            "end_line": 13,
+            "subtree_end_line": 13
+          },
+          "content_sha256": "23027fc9ccbde320cae0cae0db8b85899e21cd71ceb66c98cbc81c89f28aca2f",
+          "body_sha256": "722d30117d946032b0d229f37ff3fffa1987262618ece0d38a76a57893c7b9f0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001857",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — évaluation sans MIDI trompeur (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cours MUCO 542. Apport :** directe pour analyse, synthèse et composition sonore. **Preuve :** [option de studio numérique avancé ; affichage de l'auxiliariat H27 atteste des outils IRCAM/Max en environnement de section, mais pas leur affe",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-542.md",
+          "document_sha256": "07ab795eef8734faefb8d608f926e047584f64a00e25499c51f749875518f2fa",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5b0732c0acead94fa30a7e72",
+            "heading_path": [
+              "MUCO 542 — Advanced Digital Studio Composition 2",
+              "Application à l'analyse et à la création — évaluation sans MIDI trompeur (12 novembre 2026)"
+            ],
+            "start_line": 14,
+            "end_line": 17,
+            "subtree_end_line": 43
+          },
+          "content_sha256": "565642f5ded9307de9334825f531506c449ee99673458cfd7153f2676b072cea",
+          "body_sha256": "069f71813ff41bbcadfb89c0975d1006cdc43ec4d49679c8291d3eba2f4469f6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001858",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage ou domaine 1 — Analyse et resynthèse d'un matériau enregistré",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Classification :** `AUDIO_REQUIRED / MIDI_PROXY`. La matière inconnue est identifiée comme telle, et les sources comparatives ne sont pas attribuées à ce cours.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-542.md",
+          "document_sha256": "07ab795eef8734faefb8d608f926e047584f64a00e25499c51f749875518f2fa",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:74b09f2d56d3a3cbb2a4abb1",
+            "heading_path": [
+              "MUCO 542 — Advanced Digital Studio Composition 2",
+              "Application à l'analyse et à la création — évaluation sans MIDI trompeur (12 novembre 2026)",
+              "Apprentissage ou domaine 1 — Analyse et resynthèse d'un matériau enregistré"
+            ],
+            "start_line": 18,
+            "end_line": 27,
+            "subtree_end_line": 27
+          },
+          "content_sha256": "4126e3b0947c5d06cf9e6c4069ea9b6accf224f5efe0ab9961dd26fde8811a15",
+          "body_sha256": "b2a9e5b759c7339c45aa0f6e0a3acfd9a6d1860988d3e742b090b5612a153a0b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001859",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage ou domaine 2 — Contrôle gestuel d'un système de synthèse",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Classification :** `CONTEXT_REQUIRED / AUDIO_REQUIRED`. La matière inconnue est identifiée comme telle, et les sources comparatives ne sont pas attribuées à ce cours.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-542.md",
+          "document_sha256": "07ab795eef8734faefb8d608f926e047584f64a00e25499c51f749875518f2fa",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:bdb06f9b313c866bed196d1b",
+            "heading_path": [
+              "MUCO 542 — Advanced Digital Studio Composition 2",
+              "Application à l'analyse et à la création — évaluation sans MIDI trompeur (12 novembre 2026)",
+              "Apprentissage ou domaine 2 — Contrôle gestuel d'un système de synthèse"
+            ],
+            "start_line": 28,
+            "end_line": 37,
+            "subtree_end_line": 37
+          },
+          "content_sha256": "3a1bdfac92cd3de1296515462c4a68ad91bd31932032d228019abe73be99eb0e",
+          "body_sha256": "2ae02e598687b43f6e1e5bc4b0f1b123ae78c3dbb36496f344f0423355c01f80",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001860",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Apport :** directe pour analyse, synthèse et composition sonore ; `non_algorithmique=false` (indéterminé si la section est trop variable).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-542.md",
+          "document_sha256": "07ab795eef8734faefb8d608f926e047584f64a00e25499c51f749875518f2fa",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f441f0447d073674e35c7dcb",
+            "heading_path": [
+              "MUCO 542 — Advanced Digital Studio Composition 2",
+              "Application à l'analyse et à la création — évaluation sans MIDI trompeur (12 novembre 2026)",
+              "Verdict"
+            ],
+            "start_line": 38,
+            "end_line": 43,
+            "subtree_end_line": 43
+          },
+          "content_sha256": "c918cc2abfd025bce946aeb02d1b0931b88564463f406f8d0f8e1c1fe470ad3c",
+          "body_sha256": "a79b70c8d79d47a90e88dd476711694a23ac5322d931d2f3ef6d2b64ff860aa9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001861",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deuxième passe qualitative — resynthèse, geste et direction à grande échelle (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve propre au cours.** Les [exigences McGill 2026–2027](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) présentent **MUCO 542, hiver 2027**, comme un approfondissement du studio numérique conduisant à une **œu",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-542.md",
+          "document_sha256": "07ab795eef8734faefb8d608f926e047584f64a00e25499c51f749875518f2fa",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e36efade53a6f7691490588a",
+            "heading_path": [
+              "MUCO 542 — Advanced Digital Studio Composition 2",
+              "Deuxième passe qualitative — resynthèse, geste et direction à grande échelle (12 novembre 2026)"
+            ],
+            "start_line": 44,
+            "end_line": 47,
+            "subtree_end_line": 74
+          },
+          "content_sha256": "a1e4e43ad9a24c9ac0548dc5454c1298806871ff94f79bcd62a0ef555b304dd6",
+          "body_sha256": "baf19ea9fff77c8b64b08211f1e98fdf7837f98ea9a42501935d1e63f6d66d65",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001862",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q1 — Analyse et resynthèse : trajectoire cible versus résultat audible",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Exiger fichier source, paramètres ou patch de resynthèse, rendu audio et conditions d'écoute. Calculer ou relever spectre et enveloppes avant/après, comparer partiels stables, composantes bruitées, transitoires et évolution te",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-542.md",
+          "document_sha256": "07ab795eef8734faefb8d608f926e047584f64a00e25499c51f749875518f2fa",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2f0d0b807a6700afe0448515",
+            "heading_path": [
+              "MUCO 542 — Advanced Digital Studio Composition 2",
+              "Deuxième passe qualitative — resynthèse, geste et direction à grande échelle (12 novembre 2026)",
+              "Q1 — Analyse et resynthèse : trajectoire cible versus résultat audible"
+            ],
+            "start_line": 48,
+            "end_line": 55,
+            "subtree_end_line": 55
+          },
+          "content_sha256": "432ed97c8a09ca1980e25baba52fda32d635e8f4f1fb1e4cae64789270dedd36",
+          "body_sha256": "6f86b3601da04c6db7062a08ba63417b1f486dfef674e3e6eb63e812e4e063cb",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001863",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q2 — Contrôle gestuel : relation entre mouvement, réponse et stabilité",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Réunir captation des gestes ou logs de capteurs, définition du mapping, timestamps, audio d'entrée/sortie et éventuelle partition. Vérifier la fonction réelle du geste (fréquence, spatialisation, déclenchement, grain, etc.), l",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-542.md",
+          "document_sha256": "07ab795eef8734faefb8d608f926e047584f64a00e25499c51f749875518f2fa",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d59924a4a377844881b0034f",
+            "heading_path": [
+              "MUCO 542 — Advanced Digital Studio Composition 2",
+              "Deuxième passe qualitative — resynthèse, geste et direction à grande échelle (12 novembre 2026)",
+              "Q2 — Contrôle gestuel : relation entre mouvement, réponse et stabilité"
+            ],
+            "start_line": 56,
+            "end_line": 63,
+            "subtree_end_line": 63
+          },
+          "content_sha256": "a418c9f5f73f39e5939f9cde531ef854b0d04546c1d357c00440d749f3ff3dc0",
+          "body_sha256": "4915b26f465c99568749aaa28b20a0df511454ea38bf29214a6f1374c6cb1c0a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001864",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q3 — Œuvre de grande envergure : tension de transformation, espace et retour",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Sur une œuvre complète connue, segmenter chronologie, familles de matériaux, rappels transformés, densité, silences et paramètres de spatialisation si l'audio multicanal est disponible. Comparer les transitions lentes, les bas",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-542.md",
+          "document_sha256": "07ab795eef8734faefb8d608f926e047584f64a00e25499c51f749875518f2fa",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:94dd0b3bc020b641935c812d",
+            "heading_path": [
+              "MUCO 542 — Advanced Digital Studio Composition 2",
+              "Deuxième passe qualitative — resynthèse, geste et direction à grande échelle (12 novembre 2026)",
+              "Q3 — Œuvre de grande envergure : tension de transformation, espace et retour"
+            ],
+            "start_line": 64,
+            "end_line": 74,
+            "subtree_end_line": 74
+          },
+          "content_sha256": "aa948c216287b65d0f50104e30d645d005c9744e12b44816374f943768d81b49",
+          "body_sha256": "7241b70a4ab0b9c8802fd879c7bbe751338e7146ef798fb911e08fe657571950",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

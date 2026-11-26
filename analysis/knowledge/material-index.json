@@ -2,13 +2,13 @@
   "schema_version": 1,
   "coverage": {
     "status": "pilot_partial_not_full_inventory",
-    "source_course_documents_indexed": 186,
+    "source_course_documents_indexed": 196,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 1772,
-    "material_units_requiring_review": 1772,
+    "material_units_active": 1864,
+    "material_units_requiring_review": 1864,
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
-    "course_material_bindings_active": 1772,
+    "course_material_bindings_active": 1864,
     "material_knowledge_bindings": 55,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
     "material_knowledge_bindings_proposed": 49,
@@ -18,8 +18,8 @@
     "extracted_candidate_assertions": 32,
     "extracted_candidate_assertions_stale": 0,
     "candidate_senses_pending_reconciliation": 6,
-    "course_documents_with_active_units": 186,
-    "source_documents_with_active_units": 186
+    "course_documents_with_active_units": 196,
+    "source_documents_with_active_units": 196
   },
   "by_course": {
     "berklee:CM-211": [
@@ -2098,13 +2098,30 @@
       "material:0001711",
       "material:0001712",
       "material:0001713",
-      "material:0001714"
+      "material:0001714",
+      "material:0001773",
+      "material:0001774",
+      "material:0001775",
+      "material:0001776",
+      "material:0001777",
+      "material:0001778"
     ],
     "mcgill:MUCO 460": [
       "material:0001719",
       "material:0001720",
       "material:0001721",
-      "material:0001722"
+      "material:0001722",
+      "material:0001831",
+      "material:0001832",
+      "material:0001833",
+      "material:0001834",
+      "material:0001835",
+      "material:0001836",
+      "material:0001837",
+      "material:0001838",
+      "material:0001839",
+      "material:0001840",
+      "material:0001841"
     ],
     "mcgill:MUCO 241": [
       "material:0001723",
@@ -2163,6 +2180,97 @@
       "material:0001770",
       "material:0001771",
       "material:0001772"
+    ],
+    "mcgill:MUCO 340D1": [
+      "material:0001779",
+      "material:0001780",
+      "material:0001781",
+      "material:0001782",
+      "material:0001783",
+      "material:0001784",
+      "material:0001785"
+    ],
+    "mcgill:MUCO 340D2": [
+      "material:0001786",
+      "material:0001787",
+      "material:0001788",
+      "material:0001789",
+      "material:0001790",
+      "material:0001791",
+      "material:0001792",
+      "material:0001793"
+    ],
+    "mcgill:MUCO 341": [
+      "material:0001794",
+      "material:0001795",
+      "material:0001796",
+      "material:0001797",
+      "material:0001798",
+      "material:0001799",
+      "material:0001800",
+      "material:0001801",
+      "material:0001802"
+    ],
+    "mcgill:MUCO 342": [
+      "material:0001803",
+      "material:0001804",
+      "material:0001805",
+      "material:0001806",
+      "material:0001807",
+      "material:0001808",
+      "material:0001809",
+      "material:0001810",
+      "material:0001811",
+      "material:0001812",
+      "material:0001813",
+      "material:0001814",
+      "material:0001815",
+      "material:0001816"
+    ],
+    "mcgill:MUCO 440D1": [
+      "material:0001817",
+      "material:0001818",
+      "material:0001819",
+      "material:0001820",
+      "material:0001821",
+      "material:0001822",
+      "material:0001823"
+    ],
+    "mcgill:MUCO 440D2": [
+      "material:0001824",
+      "material:0001825",
+      "material:0001826",
+      "material:0001827",
+      "material:0001828",
+      "material:0001829",
+      "material:0001830"
+    ],
+    "mcgill:MUCO 541": [
+      "material:0001842",
+      "material:0001843",
+      "material:0001844",
+      "material:0001845",
+      "material:0001846",
+      "material:0001847",
+      "material:0001848",
+      "material:0001849",
+      "material:0001850",
+      "material:0001851",
+      "material:0001852",
+      "material:0001853"
+    ],
+    "mcgill:MUCO 542": [
+      "material:0001854",
+      "material:0001855",
+      "material:0001856",
+      "material:0001857",
+      "material:0001858",
+      "material:0001859",
+      "material:0001860",
+      "material:0001861",
+      "material:0001862",
+      "material:0001863",
+      "material:0001864"
     ]
   },
   "by_document": {
@@ -4309,6 +4417,118 @@
       "material:0001770",
       "material:0001771",
       "material:0001772"
+    ],
+    "docs/courses/mcgill/MUCO-261.md": [
+      "material:0001773",
+      "material:0001774",
+      "material:0001775",
+      "material:0001776",
+      "material:0001777",
+      "material:0001778"
+    ],
+    "docs/courses/mcgill/MUCO-340D1.md": [
+      "material:0001779",
+      "material:0001780",
+      "material:0001781",
+      "material:0001782",
+      "material:0001783",
+      "material:0001784",
+      "material:0001785"
+    ],
+    "docs/courses/mcgill/MUCO-340D2.md": [
+      "material:0001786",
+      "material:0001787",
+      "material:0001788",
+      "material:0001789",
+      "material:0001790",
+      "material:0001791",
+      "material:0001792",
+      "material:0001793"
+    ],
+    "docs/courses/mcgill/MUCO-341.md": [
+      "material:0001794",
+      "material:0001795",
+      "material:0001796",
+      "material:0001797",
+      "material:0001798",
+      "material:0001799",
+      "material:0001800",
+      "material:0001801",
+      "material:0001802"
+    ],
+    "docs/courses/mcgill/MUCO-342.md": [
+      "material:0001803",
+      "material:0001804",
+      "material:0001805",
+      "material:0001806",
+      "material:0001807",
+      "material:0001808",
+      "material:0001809",
+      "material:0001810",
+      "material:0001811",
+      "material:0001812",
+      "material:0001813",
+      "material:0001814",
+      "material:0001815",
+      "material:0001816"
+    ],
+    "docs/courses/mcgill/MUCO-440D1.md": [
+      "material:0001817",
+      "material:0001818",
+      "material:0001819",
+      "material:0001820",
+      "material:0001821",
+      "material:0001822",
+      "material:0001823"
+    ],
+    "docs/courses/mcgill/MUCO-440D2.md": [
+      "material:0001824",
+      "material:0001825",
+      "material:0001826",
+      "material:0001827",
+      "material:0001828",
+      "material:0001829",
+      "material:0001830"
+    ],
+    "docs/courses/mcgill/MUCO-460.md": [
+      "material:0001831",
+      "material:0001832",
+      "material:0001833",
+      "material:0001834",
+      "material:0001835",
+      "material:0001836",
+      "material:0001837",
+      "material:0001838",
+      "material:0001839",
+      "material:0001840",
+      "material:0001841"
+    ],
+    "docs/courses/mcgill/MUCO-541.md": [
+      "material:0001842",
+      "material:0001843",
+      "material:0001844",
+      "material:0001845",
+      "material:0001846",
+      "material:0001847",
+      "material:0001848",
+      "material:0001849",
+      "material:0001850",
+      "material:0001851",
+      "material:0001852",
+      "material:0001853"
+    ],
+    "docs/courses/mcgill/MUCO-542.md": [
+      "material:0001854",
+      "material:0001855",
+      "material:0001856",
+      "material:0001857",
+      "material:0001858",
+      "material:0001859",
+      "material:0001860",
+      "material:0001861",
+      "material:0001862",
+      "material:0001863",
+      "material:0001864"
     ]
   },
   "by_concept": {
