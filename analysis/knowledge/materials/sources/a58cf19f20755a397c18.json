@@ -1,0 +1,148 @@
+{
+  "source_document": "docs/courses/mcgill/MUTH 204.md",
+  "units": [
+    {
+      "id": "material:0002054",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUTH 204 — Tonal Counterpoint 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH 204.md",
+          "document_sha256": "86015b6a3ddcd6d6137b5c211390f3f1f094d76a6d6f90dce36b4524a52f30a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0b41c32d87fc5975489b4d2d",
+            "heading_path": [
+              "MUTH 204 — Tonal Counterpoint 1"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 15
+          },
+          "content_sha256": "8e7fe8314335a01d4a582ad556edb73ba843f5e789f9e52e81eae2ebbf8beb46",
+          "body_sha256": "89120b9aa38472ffe8ca15a1dc4a095f790f8898ef0242352ecf4ed61d7a6460",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002055",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Cours recensé",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Choix complémentaire de théorie, Composition 2026. Analyse des techniques contrapuntiques baroques et exercices d’écriture en style strict. [Source officielle](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH 204.md",
+          "document_sha256": "86015b6a3ddcd6d6137b5c211390f3f1f094d76a6d6f90dce36b4524a52f30a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:136a243ae9d77ad03d09cb21",
+            "heading_path": [
+              "MUTH 204 — Tonal Counterpoint 1",
+              "Cours recensé"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 8
+          },
+          "content_sha256": "e386e6414133d5552122ee19d0299e1e7f91d810ebcf1c3185d3c3af3bd63f6c",
+          "body_sha256": "a96108616195f4adc850a028c35b7f45b102fb63a075ddda82d0b0a023cc7a1a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002056",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Support parallèle",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Counterpoint, OCOMP-250, Berklee Online. Leçons de contrepoint tonal à deux voix, de canon, d’imitation et d’invention, avec activités et projet. Les exigences de style strict propres à la section McGill restent à établir. [Support public](",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH 204.md",
+          "document_sha256": "86015b6a3ddcd6d6137b5c211390f3f1f094d76a6d6f90dce36b4524a52f30a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:37aeda700aaf58d4c6538bfc",
+            "heading_path": [
+              "MUTH 204 — Tonal Counterpoint 1",
+              "Support parallèle"
+            ],
+            "start_line": 9,
+            "end_line": 12,
+            "subtree_end_line": 12
+          },
+          "content_sha256": "a03133f10592e0952e74f7b556a142e7a0b9751df1a1358428749afe2fa7a976",
+          "body_sha256": "4ca8d4da5a06e8e15b645ac5cd0df7b6f1192fa769a29cc95ce7a4761c98a37f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002057",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le support parallèle appartient à une autre formation. L’usage de son contenu par le cours recensé reste à établir. Rechercher le syllabus de section, les lectures, le répertoire, les exercices distribués et leurs critères d’évaluation.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH 204.md",
+          "document_sha256": "86015b6a3ddcd6d6137b5c211390f3f1f094d76a6d6f90dce36b4524a52f30a8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4a4265db208a8ac2aaddbf16",
+            "heading_path": [
+              "MUTH 204 — Tonal Counterpoint 1",
+              "Lacunes"
+            ],
+            "start_line": 13,
+            "end_line": 15,
+            "subtree_end_line": 15
+          },
+          "content_sha256": "e0055daa37569dc7d3a23b6995e480cf95cc9c9ea2a8d00a16d7870f76a818e9",
+          "body_sha256": "c714e0bca05d95b96e888c003a45a38a020fe25385ab4e7ea0c34c33eb0e8687",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
