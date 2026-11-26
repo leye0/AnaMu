@@ -46,13 +46,14 @@ recopie pas le texte intégral** des 424 fiches. Les unités de source peuvent
 section automatiquement détectée n'est pas une définition universelle du
 niveau de granularité.
 
-Un **catalogue pilote est publié**, avec **16 fiches représentées**,
-**124 unités documentaires candidates**, **23 descriptions** vérifiées sur des
+Un **catalogue pilote est publié**, avec **36 fiches représentées**,
+**457 unités documentaires candidates**, **23 descriptions** vérifiées sur des
 passages précis par l'assistant, et **44 contributions analytiques proposées**
-(dont **5 cibles non résolues**). Les huit premières fiches ont été partitionnées
-en 116 unités; les huit fiches supplémentaires ne possèdent encore **qu'une
-section délimitée chacune**. Les autres sections de ces huit fiches doivent
-être générées à la reprise complète.
+(dont **5 cibles non résolues**). Vingt-huit fiches ont été entièrement
+partitionnées en sections documentaires ; les huit fiches de calibration
+supplémentaires possèdent encore **une seule section délimitée chacune**.
+Les passages restants de ces huit fiches et les autres sources doivent être
+générés pendant la reprise complète.
 
 Les 23 descriptions restent des **brouillons éditoriaux**, et aucun lien
 n'est confirmé musicologiquement.
@@ -63,7 +64,7 @@ interprétations du tango. Ces **propositions** conservent leur portée et
 leurs exigences de preuve; aucune n'est automatiquement fusionnée aux
 25 concepts existants. Dix mentions sélectionnées ont fourni
 20 assertions candidates dans un fichier séparé : elles ne constituent pas
-la lecture détaillée de tous les passages des 16 fiches.
+la lecture détaillée de tous les passages des 36 fiches.
 
 La commande **refresh** permet de poursuivre sur toutes les sources et de
 conserver les unités, descriptions et liens existants. Son exécution complète
