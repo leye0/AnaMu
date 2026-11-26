@@ -43,12 +43,54 @@ def save_json(path: Path, value: Any) -> None:
 
 def load_catalog(folder: Path) -> dict:
     base = folder / "materials"
-    manifest = read_json(base / "catalog.json", {"schema_version": 1, "units": []})
+    manifest_path = base / "catalog.json"
+    if not manifest_path.exists():
+        # Fresh build is legitimate; a lost manifest with existing chunks
+        # or bindings must not silently reallocate all persistent IDs.
+        if (base / "sources").exists() and any((base / "sources").glob("*.json")):
+            raise ValueError("Material manifest missing although source chunks exist")
+        for name in ("course-material-maps/links.json",
+                     "material-knowledge-maps/links.json"):
+            if (folder / name).exists():
+                raise ValueError("Material manifest missing although mappings exist")
+        return {"schema_version": 1, "units": []}
+    manifest = read_json(manifest_path, {})
+    if manifest.get("schema_version") != 1:
+        raise ValueError("Unknown material catalogue schema version")
     if "chunks" not in manifest:
+        units = manifest.get("units")
+        if not isinstance(units, list):
+            raise ValueError("Malformed material catalogue: units missing")
         return manifest
+    chunks = manifest["chunks"]
+    if not isinstance(chunks, list) or len(chunks) != len(set(chunks)):
+        raise ValueError("Malformed material chunk list or duplicate chunk paths")
     units = []
-    for chunk in manifest["chunks"]:
-        units.extend(read_json(base / chunk, {"units": []})["units"])
+    sources = set()
+    for chunk in chunks:
+        if not isinstance(chunk, str) or not chunk.startswith("sources/") or (
+                ".." in Path(chunk).parts):
+            raise ValueError("Invalid material chunk path: " + str(chunk))
+        path = base / chunk
+        if not path.exists():
+            raise ValueError("Missing catalogue chunk: " + chunk)
+        value = read_json(path, {})
+        if not isinstance(value.get("units"), list):
+            raise ValueError("Malformed catalogue chunk: " + chunk)
+        if value.get("source_document") in sources:
+            raise ValueError("Multiple chunks for one source document: " + chunk)
+        sources.add(value.get("source_document"))
+        for unit in value["units"]:
+            if unit_source(unit)["document_path"] != value["source_document"]:
+                raise ValueError("Material source and chunk disagree: " + chunk)
+        units.extend(value["units"])
+    if len(units) != manifest.get("material_units"):
+        raise ValueError("Catalogue count mismatch: expected " +
+                         str(manifest.get("material_units")) + ", found " +
+                         str(len(units)))
+    ids = [unit["id"] for unit in units]
+    if len(ids) != len(set(ids)):
+        raise ValueError("Duplicate persistent material ID")
     return {"schema_version": 1, "units": units}
 
 
