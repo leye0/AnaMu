@@ -12,7 +12,8 @@
           "gm_percussion_events_supplied",
           "gm_profile_declared"
         ],
-        "provenance": "Contexte hypothétique d'un export GM"
+        "provenance": "Contexte hypothétique d'un export GM",
+        "scope_ref": "didactic:percussion-hypothetical"
       }
     ],
     "layout_annotated": [
@@ -23,7 +24,8 @@
           "gm_percussion_events_supplied",
           "gm_profile_declared"
         ],
-        "provenance": "Export GM hypothétique"
+        "provenance": "Export GM hypothétique",
+        "scope_ref": "didactic:percussion-hypothetical"
       },
       {
         "id": "toy:layout",
@@ -33,7 +35,8 @@
           "performer_assignment_annotated",
           "sticks_and_changes_annotated"
         ],
-        "provenance": "Hypothèses d'implantation et d'effectif"
+        "provenance": "Hypothèses d'implantation et d'effectif",
+        "scope_ref": "didactic:percussion-hypothetical"
       }
     ]
   },
@@ -64,7 +67,8 @@
       "revisit_when": [
         "gm_mapping_changed"
       ],
-      "depends_on": []
+      "depends_on": [],
+      "scope_ref": "didactic:percussion-hypothetical"
     },
     {
       "id": "task:physical-gesture-constraints",
@@ -96,7 +100,8 @@
       ],
       "depends_on": [
         "task:describe-encoded-strikes"
-      ]
+      ],
+      "scope_ref": "didactic:percussion-hypothetical"
     },
     {
       "id": "task:acoustic-decay",
@@ -124,8 +129,10 @@
         "audio_version_changed",
         "gesture_annotation_changed"
       ],
-      "depends_on": []
+      "depends_on": [],
+      "scope_ref": "didactic:percussion-hypothetical"
     }
   ],
-  "fact_registry_ref": "analysis/knowledge/evidence-facts.json"
+  "fact_registry_ref": "analysis/knowledge/evidence-facts.json",
+  "scope_ref": "didactic:percussion-hypothetical"
 }
