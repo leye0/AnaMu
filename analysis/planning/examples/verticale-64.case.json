@@ -2,7 +2,7 @@
   "schema_version": 1,
   "case_id": "calibration:tonal-six-four",
   "question": "Une figure 6/4 est-elle cadentielle, de passage ou de pédale dans ce passage ?",
-  "source_note": "Cas de conception fondé sur la section AnaMu Trois sixtes et quartes, trois fonctions de CM-211 (17 novembre 2026), et non transcription d'une œuvre ni exercice attesté du syllabus Berklee.",
+  "source_note": "Profils illustratifs construits depuis CM-211; profil real_midi_events_only issu du vrai fichier MIDI pédagogique lu comme événements. Aucune conclusion harmonique automatique ni validation indépendante du syllabus.",
   "profiles": {
     "classes_only": [
       {
@@ -57,7 +57,18 @@
         "provenance": "Cadre tonal et phrase de l'exemple AnaMu"
       }
     ],
-    "source_only": []
+    "source_only": [],
+    "real_midi_events_only": [
+      {
+        "id": "git:903eba91fc5867c8d6389a128cdbb040e8fef521",
+        "state": "verified",
+        "facts": [
+          "midi_note_events_verified"
+        ],
+        "provenance": "docs/courses/berklee/CM-211/six-quartes-trois-fonctions.mid — Git blob 903eba91fc5867c8d6389a128cdbb040e8fef521; 108 attaques sur quatre pistes d'après audit des événements",
+        "note": "Les noms de pistes ne certifient pas la continuité de voix; une observation de notes ne certifie ni fonction harmonique ni cadence."
+      }
+    ]
   },
   "tasks": [
     {
@@ -232,5 +243,6 @@
         "listener_annotation_changed"
       ]
     }
-  ]
+  ],
+  "midi_audit_ref": "analysis/examples/cm211-six-four-midi-observations.json"
 }
