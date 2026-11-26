@@ -294,7 +294,7 @@ def choose_old(candidate: dict, unused: dict[str, dict],
     return None, "new"
 
 
-def refresh(repo: Path = REPO_ROOT) -> dict:
+def refresh(repo: Path = REPO_ROOT, dry_run: bool = False) -> dict:
     repo = repo.resolve()
     folder = repo / "analysis/knowledge"
     materials_path = folder / "materials/catalog.json"
@@ -475,18 +475,23 @@ def refresh(repo: Path = REPO_ROOT) -> dict:
         "ambiguous_identity_candidates": ambiguities,
         "note": "Documentary coverage, not semantic mastery or validated musical reasoning.",
     }
-    save_catalog(folder, units, knowledge["source_fingerprint"])
-    save_json(courses_path, {"schema_version": 1, "bindings": bindings})
-    if not links_path.exists():
-        save_json(links_path, {"schema_version": 1, "bindings": []})
-    save_json(index_path, {
-        "schema_version": 1, "coverage": coverage,
-        "by_course": dict(sorted(by_course.items())),
-        "by_document": dict(sorted(by_document.items())),
-        "by_concept": dict(sorted(by_concept.items())),
-        "knowledge_links_requiring_review": stale_links,
-        "candidate_assertions_requiring_review": stale_assertions,
-    })
+    coverage["execution_mode"] = "preview_no_writes" if dry_run else "written"
+    coverage["new_unit_ids"] = max(0, next_unit -
+                                   max((number(i) for i in ids), default=0))
+    coverage["existing_unit_ids_reused"] = len(old_units) - len(unused)
+    if not dry_run:
+        save_catalog(folder, units, knowledge["source_fingerprint"])
+        save_json(courses_path, {"schema_version": 1, "bindings": bindings})
+        if not links_path.exists():
+            save_json(links_path, {"schema_version": 1, "bindings": []})
+        save_json(index_path, {
+            "schema_version": 1, "coverage": coverage,
+            "by_course": dict(sorted(by_course.items())),
+            "by_document": dict(sorted(by_document.items())),
+            "by_concept": dict(sorted(by_concept.items())),
+            "knowledge_links_requiring_review": stale_links,
+            "candidate_assertions_requiring_review": stale_assertions,
+        })
     return coverage
 
 
@@ -569,7 +574,11 @@ def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description="AnaMu — référentiel de matières")
     parser.add_argument("--repo", type=Path, default=REPO_ROOT)
     commands = parser.add_subparsers(dest="command", required=True)
-    commands.add_parser("refresh", help="Create/update stable material metadata and mappings")
+    refresh_parser = commands.add_parser(
+        "refresh", help="Create/update stable material metadata and mappings")
+    refresh_parser.add_argument(
+        "--dry-run", action="store_true",
+        help="Calculate identities, coverage and stale references without modifying files")
     search_parser = commands.add_parser("search", help="Search titles, descriptions and source paths")
     search_parser.add_argument("query", nargs="?", default="",
                                help="Optional words in a title, description or source path")
@@ -588,7 +597,8 @@ def main(argv: list[str] | None = None) -> None:
     repo = args.repo.resolve()
     try:
         if args.command == "refresh":
-            print(json.dumps(refresh(repo), ensure_ascii=False, indent=2))
+            print(json.dumps(refresh(repo, dry_run=args.dry_run),
+                             ensure_ascii=False, indent=2))
         elif args.command == "show":
             print(json.dumps(show(repo, args.id, args.source), ensure_ascii=False, indent=2))
         elif args.command == "describe":
