@@ -1,0 +1,514 @@
+{
+  "source_document": "docs/courses/berklee/CM-355.md",
+  "units": [
+    {
+      "id": "material:0000946",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-355 — Principles and Techniques of Writing for the Voice (Berklee Boston)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Option de majeure Composition, Boston, 2 crédits, prérequis CM-212 et CP-210.** Relevé du 10 novembre 2026. **Statut : catalogue seulement. Syllabus de section non obtenu.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-355.md",
+          "document_sha256": "87c549c9687f61358d9b3853dbb115a9f2d20dc75fbb33335ac9df2c4658bd92",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d9d1875afc34d21d71bdae0f",
+            "heading_path": [
+              "CM-355 — Principles and Techniques of Writing for the Voice (Berklee Boston)"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 97
+          },
+          "content_sha256": "ece6da4a52f0e48a7df3c36c58a39e2c4f7606d7bf77f2af3599f60b9062c5b2",
+          "body_sha256": "736a4ac80dc651a07e506d64157390ead1749158ccfa22f7a5bc020cbcd8e431",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000947",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Consignes réellement annoncées par la notice Boston",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [Notice officielle de CM-355](https://college.berklee.edu/courses/cm-355) : analyses d'œuvres vocales **solistes** des XIXe et XXe siècles, y compris techniques non conventionnelles, avec attention à l'organisation dramatique, à l'adaptatio",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-355.md",
+          "document_sha256": "87c549c9687f61358d9b3853dbb115a9f2d20dc75fbb33335ac9df2c4658bd92",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:bc0a59782070c833a0b4d3c8",
+            "heading_path": [
+              "CM-355 — Principles and Techniques of Writing for the Voice (Berklee Boston)",
+              "Consignes réellement annoncées par la notice Boston"
+            ],
+            "start_line": 5,
+            "end_line": 10,
+            "subtree_end_line": 10
+          },
+          "content_sha256": "2739b3c55ce38eaefd8c5e0187beb1d7aebf18fe47ac963df792240e31bdc1a4",
+          "body_sha256": "e1c8d082cdfbdd31bb356b9c210b04275ba1d2f751019d50f3767cb57a1a2b3f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000948",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Comparateur académique distinct",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le [cours Berklee Online OCWPR-334](../berklee-online/OCWPR-334.md) expose 12 leçons sur la tessiture, la prosodie, l'harmonisation et le chant accompagné ; **il enseigne des arrangements contemporains à plusieurs voix**, alors que CM-355 e",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-355.md",
+          "document_sha256": "87c549c9687f61358d9b3853dbb115a9f2d20dc75fbb33335ac9df2c4658bd92",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:392d62b891219374444bdfcf",
+            "heading_path": [
+              "CM-355 — Principles and Techniques of Writing for the Voice (Berklee Boston)",
+              "Comparateur académique distinct"
+            ],
+            "start_line": 11,
+            "end_line": 14,
+            "subtree_end_line": 14
+          },
+          "content_sha256": "282ecb7302892acfc86badbfdfd316775ee5b098713f88a18ceb332e49597de8",
+          "body_sha256": "093bae969e642fe4030e9cfd5e5a8e4d009e060851bd37a90194959bc8b83e64",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000949",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "À obtenir",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Œuvres solistes analysées, textes imposés, niveau de chant, gestion de la prosodie dramatique, techniques étendues prescrites, passages composés et corrigés, barèmes. **Les contenus de OCWPR-334 ne sont pas transférés à CM-355.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-355.md",
+          "document_sha256": "87c549c9687f61358d9b3853dbb115a9f2d20dc75fbb33335ac9df2c4658bd92",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9675acff2a10ca784ecc77ef",
+            "heading_path": [
+              "CM-355 — Principles and Techniques of Writing for the Voice (Berklee Boston)",
+              "À obtenir"
+            ],
+            "start_line": 15,
+            "end_line": 19,
+            "subtree_end_line": 19
+          },
+          "content_sha256": "1150f6a67506db7fb980b0b6773a9445527740790852ec3a69fef4fa39312612",
+          "body_sha256": "c1e0603773880d1b5ad34f137b67b0bf0609f063c6231473979cbb04a2889e6d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000950",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — limites de preuve et formats adaptés (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Code : CM 355. Apport :** directe, mais texte et prosodie indispensables. **Preuve :** [notice officielle sur voix soliste, prosodie du texte, articulation, notation et organisation dramatique; textes imposés et partitions réelles non pub",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-355.md",
+          "document_sha256": "87c549c9687f61358d9b3853dbb115a9f2d20dc75fbb33335ac9df2c4658bd92",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9b417db4ee70d657b683d525",
+            "heading_path": [
+              "CM-355 — Principles and Techniques of Writing for the Voice (Berklee Boston)",
+              "Application à l'analyse et à la création — limites de preuve et formats adaptés (11 novembre 2026)"
+            ],
+            "start_line": 20,
+            "end_line": 23,
+            "subtree_end_line": 51
+          },
+          "content_sha256": "ee7ed9c8cefd956263407048d4ba527ca1874bc57a1c9be212d322fbf68b6525",
+          "body_sha256": "6bf2f5a0ffe7303a997f06bb94692560941c1096191bac6a4fd17790e4a14de9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000951",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage ou domaine 1 — Prosodie : placer une mélodie sur des syllabes accentuées",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Statut :** matière générale attestée ou vérification conditionnelle, sans consigne précise attribuée. **Catégorie :** `CONTEXT_REQUIRED / MIDI_PROXY`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-355.md",
+          "document_sha256": "87c549c9687f61358d9b3853dbb115a9f2d20dc75fbb33335ac9df2c4658bd92",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:32e260bd12eaa15a1fd0a02c",
+            "heading_path": [
+              "CM-355 — Principles and Techniques of Writing for the Voice (Berklee Boston)",
+              "Application à l'analyse et à la création — limites de preuve et formats adaptés (11 novembre 2026)",
+              "Apprentissage ou domaine 1 — Prosodie : placer une mélodie sur des syllabes accentuées"
+            ],
+            "start_line": 24,
+            "end_line": 33,
+            "subtree_end_line": 33
+          },
+          "content_sha256": "e83a03a21b5bbec682113b36d3065db7c754d256d01e1d630bc5e83f30405e45",
+          "body_sha256": "cb93419442006ac6af05e7914947dd373bdb4b5002db4872130ce7b096098a7d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000952",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage ou domaine 2 — Organisation dramatique et techniques vocales",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Statut :** matière générale attestée ou vérification conditionnelle, sans consigne précise attribuée. **Catégorie :** `AUDIO_REQUIRED / CONTEXT_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-355.md",
+          "document_sha256": "87c549c9687f61358d9b3853dbb115a9f2d20dc75fbb33335ac9df2c4658bd92",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e4afaf0cd195c70e1a4a3bd4",
+            "heading_path": [
+              "CM-355 — Principles and Techniques of Writing for the Voice (Berklee Boston)",
+              "Application à l'analyse et à la création — limites de preuve et formats adaptés (11 novembre 2026)",
+              "Apprentissage ou domaine 2 — Organisation dramatique et techniques vocales"
+            ],
+            "start_line": 34,
+            "end_line": 43,
+            "subtree_end_line": 43
+          },
+          "content_sha256": "75b0d673a8ff26cb725e932fb447fbccf73f2815ff243617456b12a11b7b20b5",
+          "body_sha256": "75bc3de3631f3e1adf0c5b16d5633d37d0cb92724779abb4e5e19a95839f2f83",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000953",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Contribution :** directe, mais texte et prosodie indispensables.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-355.md",
+          "document_sha256": "87c549c9687f61358d9b3853dbb115a9f2d20dc75fbb33335ac9df2c4658bd92",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:77b62f05da392cc0e26ef941",
+            "heading_path": [
+              "CM-355 — Principles and Techniques of Writing for the Voice (Berklee Boston)",
+              "Application à l'analyse et à la création — limites de preuve et formats adaptés (11 novembre 2026)",
+              "Verdict"
+            ],
+            "start_line": 44,
+            "end_line": 51,
+            "subtree_end_line": 51
+          },
+          "content_sha256": "f46455724f214ba8998c103bed24049f8f53b52db612c35af552fd2a5b6688e8",
+          "body_sha256": "e089559419a5f83bfbdd5aa154367b394cc44afafd8c65ca5216eccf748473dc",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000954",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deuxième passe qualitative — voix soliste, texte et dramaturgie (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve du cours.** [Notice Berklee CM-355](https://college.berklee.edu/courses/cm-355) : œuvres solistes des XIXe et XXe siècles, rapport texte–musique, articulation de parole, capacité vocale, notation, organisation dramatique, technique",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-355.md",
+          "document_sha256": "87c549c9687f61358d9b3853dbb115a9f2d20dc75fbb33335ac9df2c4658bd92",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:64ac3d7fd54b0f0165db0d55",
+            "heading_path": [
+              "CM-355 — Principles and Techniques of Writing for the Voice (Berklee Boston)",
+              "Deuxième passe qualitative — voix soliste, texte et dramaturgie (12 novembre 2026)"
+            ],
+            "start_line": 52,
+            "end_line": 55,
+            "subtree_end_line": 81
+          },
+          "content_sha256": "e94d759a8f37a6ab584b47a6b1354c41512e9464355275bde74928b7eea59c68",
+          "body_sha256": "139936e0fd124da0d622563525ef03d43e86608a2bb2c04f19563152d77ec5ee",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000955",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q1 — Alignement syllabe, accent linguistique et accent musical",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Exiger paroles exactes, langue/prononciation, découpage syllabique, partition et si possible chant enregistré. Aligner syllabes avec hauteurs, durées, temps forts et mélismes; repérer les accords entre accent lexical et accent",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-355.md",
+          "document_sha256": "87c549c9687f61358d9b3853dbb115a9f2d20dc75fbb33335ac9df2c4658bd92",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a8a899d39cd3a0370e326627",
+            "heading_path": [
+              "CM-355 — Principles and Techniques of Writing for the Voice (Berklee Boston)",
+              "Deuxième passe qualitative — voix soliste, texte et dramaturgie (12 novembre 2026)",
+              "Q1 — Alignement syllabe, accent linguistique et accent musical"
+            ],
+            "start_line": 56,
+            "end_line": 63,
+            "subtree_end_line": 63
+          },
+          "content_sha256": "7d0862816be4164b65509b3a76f6d5202cc34c25c3790243b71c619697ae23d4",
+          "body_sha256": "35822bb526a72085f866cd01cc290ca5f6cf78da770bdc6f65b00f3f329332ad",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000956",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q2 — Tessiture, passages difficiles et respiration d'une voix entraînée",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Lire tessiture, notes extrêmes, durée de maintien et trajectoire des intervalles dans la partition; rechercher endroits plausibles de respiration et forte densité de consonnes. Vérifier avec type de voix, prononciation, tempo,",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-355.md",
+          "document_sha256": "87c549c9687f61358d9b3853dbb115a9f2d20dc75fbb33335ac9df2c4658bd92",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9ba53dbd6359c062c1226587",
+            "heading_path": [
+              "CM-355 — Principles and Techniques of Writing for the Voice (Berklee Boston)",
+              "Deuxième passe qualitative — voix soliste, texte et dramaturgie (12 novembre 2026)",
+              "Q2 — Tessiture, passages difficiles et respiration d'une voix entraînée"
+            ],
+            "start_line": 64,
+            "end_line": 71,
+            "subtree_end_line": 71
+          },
+          "content_sha256": "e76d5153cca0ce1fe9d54c1ee307f720327d73d5d58a90b352fe193fd8cb437a",
+          "body_sha256": "b66071310d42e0f51187f7a71a79234988bd95f5baa86300286f6742b59ac658",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000957",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q3 — Arc dramatique et geste vocal : ne pas inférer l'intention des seuls événements",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Réunir texte, indications de jeu, partition et audio/vidéo. Localiser changements de situation, tension et personnages si attestés; relever densité, registre, silences, nuances, articulation et éventuelles techniques non conve",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-355.md",
+          "document_sha256": "87c549c9687f61358d9b3853dbb115a9f2d20dc75fbb33335ac9df2c4658bd92",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b55fc0d53d28e9e639f31a8e",
+            "heading_path": [
+              "CM-355 — Principles and Techniques of Writing for the Voice (Berklee Boston)",
+              "Deuxième passe qualitative — voix soliste, texte et dramaturgie (12 novembre 2026)",
+              "Q3 — Arc dramatique et geste vocal : ne pas inférer l'intention des seuls événements"
+            ],
+            "start_line": 72,
+            "end_line": 81,
+            "subtree_end_line": 81
+          },
+          "content_sha256": "94d9fa307a79fb1032f844a4b0edc8cc4d80c53e10880737e4f62ca1c7f236e7",
+          "body_sha256": "9a15383015cd8efcd2fb88cb83aad682954fea1e9dbd2ae8736387b484ff528d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000958",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Trois accents à distinguer dans Erlkönig",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Ancrage.** [CM-355](https://college.berklee.edu/courses/cm-355) atteste le travail sur l'articulation de la parole et le rapport texte–musique dans les œuvres pour voix soliste. Ce cas de Schubert, *Erlkönig*, D. 328, n'est pas attribué à",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-355.md",
+          "document_sha256": "87c549c9687f61358d9b3853dbb115a9f2d20dc75fbb33335ac9df2c4658bd92",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b780f5ec31cf35e2c6e01964",
+            "heading_path": [
+              "CM-355 — Principles and Techniques of Writing for the Voice (Berklee Boston)",
+              "Trois accents à distinguer dans Erlkönig"
+            ],
+            "start_line": 82,
+            "end_line": 92,
+            "subtree_end_line": 92
+          },
+          "content_sha256": "8da6eefd0da8f6c0cffd74d85b483f54cb7de33bcb3731bc7bface2ccb7082c3",
+          "body_sha256": "aa7cd5b6863d7c03492bdf494723b31e4f1a5f8798aac14ace577ed759388f13",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000959",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Le mot culminant ne fait pas revenir le mouvement — Schubert, Gretchen",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Écoute relevée.** Dans [la prise de Schwarzkopf et Fischer, exercice 5 d’OpenLearn](https://www.open.edu/openlearn/history-the-arts/history-art/schuberts-lieder-settings-goethes-poems/content-section-4.3.1), « Kuß » arrive vers **1:49**,",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-355.md",
+          "document_sha256": "87c549c9687f61358d9b3853dbb115a9f2d20dc75fbb33335ac9df2c4658bd92",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:99c5f3dd9843c28bfe115943",
+            "heading_path": [
+              "CM-355 — Principles and Techniques of Writing for the Voice (Berklee Boston)",
+              "Le mot culminant ne fait pas revenir le mouvement — Schubert, Gretchen"
+            ],
+            "start_line": 93,
+            "end_line": 97,
+            "subtree_end_line": 97
+          },
+          "content_sha256": "0df6b244f62fa49375ba8f386174b15d7f97f73b7060d47893738c037c7358bb",
+          "body_sha256": "3ddfe07fb53eb24b65f697fb58af8fac200664439119722e7330c382a26ecb00",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

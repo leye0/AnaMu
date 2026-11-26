@@ -1,0 +1,368 @@
+{
+  "source_document": "docs/courses/berklee/CM-351.md",
+  "units": [
+    {
+      "id": "material:0000936",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-351 — Choral Composition (Berklee Boston)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Option de majeure Composition, Boston, 2 crédits, prérequis CM-212.** Consultation du 10 novembre 2026. **Statut : catalogue seulement. Aucun plan daté de la section Boston n'a été obtenu.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-351.md",
+          "document_sha256": "16b6d2c7db61a1bdc5af9aef56ac1099d808f76bdf5820794df70d5ff1317c86",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1274d2d0bd8c61e9c7652305",
+            "heading_path": [
+              "CM-351 — Choral Composition (Berklee Boston)"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 60
+          },
+          "content_sha256": "c7ed791bd6bdbc8f3327b43f66c070fac8591d864f3b8710e111f3787f585b64",
+          "body_sha256": "b8b6681945a38412179fa9331393d01210262bb62b3b14914726654241454b32",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000937",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Matière explicitement exigée au campus",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [Notice officielle de CM-351](https://college.berklee.edu/courses/cm-351) : écriture pour **chœur complet**, avec ou sans instruments d'accompagnement ; **composition chorale finale dans un style traditionnel** requise. La fiche nomme Arnol",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-351.md",
+          "document_sha256": "16b6d2c7db61a1bdc5af9aef56ac1099d808f76bdf5820794df70d5ff1317c86",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9ff47e1b3d532d4f823fd9dd",
+            "heading_path": [
+              "CM-351 — Choral Composition (Berklee Boston)",
+              "Matière explicitement exigée au campus"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 8
+          },
+          "content_sha256": "c8add528c559b336749786b211524a94d4452ea1d27404fc220cb708473a9d6d",
+          "body_sha256": "7da1928a4d9f02d3f2e7dc97572e5f7386a631a5ea8f3a79bc7f33a238d734fd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000938",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Syllabus distinct consulté comme comparaison et non comme remplacement",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [OCWPR-334 — Contemporary Vocal Arranging](../berklee-online/OCWPR-334.md), [page Berklee Online](https://online.berklee.edu/courses/contemporary-vocal-arranging#syllabus), décrit 12 leçons d'harmonisation populaire/jazz de deux à quatre pa",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-351.md",
+          "document_sha256": "16b6d2c7db61a1bdc5af9aef56ac1099d808f76bdf5820794df70d5ff1317c86",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:313e6cbb508c8b9084b07659",
+            "heading_path": [
+              "CM-351 — Choral Composition (Berklee Boston)",
+              "Syllabus distinct consulté comme comparaison et non comme remplacement"
+            ],
+            "start_line": 9,
+            "end_line": 12,
+            "subtree_end_line": 12
+          },
+          "content_sha256": "81497902f5835f56a0ed59ce88a639c1958b586ea63f40460cc99f031c2b4fd1",
+          "body_sha256": "7e8adae56ad10a9c89f9b57f870c2c9e69af2cbe2bb6213c769cae2f0ded3b53",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000939",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Ce qui manque réellement",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Plan de section Boston, choix du répertoire et des types de chœurs, exemples de voix divisis, relation à l'accompagnement, nombre de travaux, progression et consignes de la composition finale, critères de l'enseignant. **Une source de catal",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-351.md",
+          "document_sha256": "16b6d2c7db61a1bdc5af9aef56ac1099d808f76bdf5820794df70d5ff1317c86",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ed0536a5e2acec20d3fce02c",
+            "heading_path": [
+              "CM-351 — Choral Composition (Berklee Boston)",
+              "Ce qui manque réellement"
+            ],
+            "start_line": 13,
+            "end_line": 17,
+            "subtree_end_line": 17
+          },
+          "content_sha256": "e1dd7d9889638bdbbd032963e8006a229ca276c0bfc4edba5469802debf51465",
+          "body_sha256": "3d56571552d8c5c414ca62c81bdd74215f54512d1bb47162fd963dfbab4a47d6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000940",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — premier apprentissage sourcé (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Apport musical : direct**, dans la limite de la [notice officielle du cours](https://college.berklee.edu/courses/cm-351). [MIDI original de démonstration](./CM-351/exemple.mid), distinct des consignes réelles de Berklee.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-351.md",
+          "document_sha256": "16b6d2c7db61a1bdc5af9aef56ac1099d808f76bdf5820794df70d5ff1317c86",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:081060df980b504a4ba57efc",
+            "heading_path": [
+              "CM-351 — Choral Composition (Berklee Boston)",
+              "Application à l'analyse et à la création — premier apprentissage sourcé (11 novembre 2026)"
+            ],
+            "start_line": 18,
+            "end_line": 21,
+            "subtree_end_line": 31
+          },
+          "content_sha256": "e8c544f0ad259e3c17f498ed56d6f4c164d5f1e51424f83227dcc3dd82de294d",
+          "body_sha256": "eaf6c867287ccced37105c2eb6456ffd1e46cc8c021935191e7ada96d02e7a8e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000941",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage : Écriture harmonique pour chœur SATB",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Détection / interprétation MIDI :** 1. Associer les quatre lignes aux tessitures soprano/alto/ténor/basse, selon les hauteurs et la source de partition disponible. 2. Repérer les accords verticalement et les mouvements de voix. 3. Signale",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-351.md",
+          "document_sha256": "16b6d2c7db61a1bdc5af9aef56ac1099d808f76bdf5820794df70d5ff1317c86",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c9b7f2ffddf34ef0852b26de",
+            "heading_path": [
+              "CM-351 — Choral Composition (Berklee Boston)",
+              "Application à l'analyse et à la création — premier apprentissage sourcé (11 novembre 2026)",
+              "Apprentissage : Écriture harmonique pour chœur SATB"
+            ],
+            "start_line": 22,
+            "end_line": 31,
+            "subtree_end_line": 31
+          },
+          "content_sha256": "c44717dd93b70d9b74f835c01c3f090ab1e8c44683b59c7c522c0d53951649c4",
+          "body_sha256": "2b6810292aaf69382b9a4f5f8be19425b54157054ea3ddff2836d4c98a5dcb5c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000942",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deuxième passe qualitative — écriture chorale (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Attestation et périmètre.** [Notice Berklee CM-351](https://college.berklee.edu/courses/cm-351) : écriture pour chœur complet avec ou sans accompagnement instrumental; œuvre finale chorale de style traditionnel. Elle **ne précise ni école",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-351.md",
+          "document_sha256": "16b6d2c7db61a1bdc5af9aef56ac1099d808f76bdf5820794df70d5ff1317c86",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:af0a822a03e322d0f9222069",
+            "heading_path": [
+              "CM-351 — Choral Composition (Berklee Boston)",
+              "Deuxième passe qualitative — écriture chorale (12 novembre 2026)"
+            ],
+            "start_line": 32,
+            "end_line": 35,
+            "subtree_end_line": 60
+          },
+          "content_sha256": "08fb9e531d1dcf7337deeed3e5c00a9cbc8286701dea02b97bebf62c5c1f6f6f",
+          "body_sha256": "e1f7fea29bc044f98e6aafc697e11e87d995c1d266a67c037daf0eb43e4d56a7",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000943",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q1 — Distribution des voix et conduite de lignes chorales",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser une œuvre — entrées et vérification.** Obtenir conducteur choral avec nomenclature effective et, si possible, audio. Identifier pour chaque partie la tessiture, les croisements, la durée des notes longues, les mouvements conjoint",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-351.md",
+          "document_sha256": "16b6d2c7db61a1bdc5af9aef56ac1099d808f76bdf5820794df70d5ff1317c86",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8f122d2cef416792a8bc992d",
+            "heading_path": [
+              "CM-351 — Choral Composition (Berklee Boston)",
+              "Deuxième passe qualitative — écriture chorale (12 novembre 2026)",
+              "Q1 — Distribution des voix et conduite de lignes chorales"
+            ],
+            "start_line": 36,
+            "end_line": 43,
+            "subtree_end_line": 43
+          },
+          "content_sha256": "d54cf8b8b0635a552f346724c6b4ee9b6c8ba8cb662d23eef92ad4c4f226c2d3",
+          "body_sha256": "f99f62940cf96f3155dc3322c0ee5f1a3b75002b3c72bfc76b8d241c8aff4dc1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000944",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q2 — Chœur a cappella et chœur accompagné : autonomie du discours vocal",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Sur deux versions de même matériau si disponibles, isoler basse, accords tenus, mélodie et points de cadence dans les seules voix; noter ensuite ce qu'ajoute l'accompagnement : fondation, couleur, doublure, contrechant ou mouv",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-351.md",
+          "document_sha256": "16b6d2c7db61a1bdc5af9aef56ac1099d808f76bdf5820794df70d5ff1317c86",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ba169d7c68f0a2d4c31207ec",
+            "heading_path": [
+              "CM-351 — Choral Composition (Berklee Boston)",
+              "Deuxième passe qualitative — écriture chorale (12 novembre 2026)",
+              "Q2 — Chœur a cappella et chœur accompagné : autonomie du discours vocal"
+            ],
+            "start_line": 44,
+            "end_line": 51,
+            "subtree_end_line": 51
+          },
+          "content_sha256": "1598a16f74f7a63c8a9d6f8374f549c3c378c2d5870a9186cae3ed5e86811cc8",
+          "body_sha256": "dedffca1f638e4989e4f87c927d3592fe32990fe09d363bab8ec446df7528065",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000945",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q3 — « Style traditionnel » : expliciter un modèle au lieu d'inventer une norme universelle",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Identifier **d'abord** le modèle traditionnel que la partition, son programme ou une source historique permet de justifier; décrire formes de phrases, syntaxe harmonique, traitement des dissonances, accentuation du texte et te",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-351.md",
+          "document_sha256": "16b6d2c7db61a1bdc5af9aef56ac1099d808f76bdf5820794df70d5ff1317c86",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:99cfb12181fb7104686d0b89",
+            "heading_path": [
+              "CM-351 — Choral Composition (Berklee Boston)",
+              "Deuxième passe qualitative — écriture chorale (12 novembre 2026)",
+              "Q3 — « Style traditionnel » : expliciter un modèle au lieu d'inventer une norme universelle"
+            ],
+            "start_line": 52,
+            "end_line": 60,
+            "subtree_end_line": 60
+          },
+          "content_sha256": "677c17c3235aa3ab8152413002d906ae7f1898c7a69916f74c291a69a51fe976",
+          "body_sha256": "fecc3917d67dc1a3d8db9557b1ab9967e0b3b0c48e966598c242b8e7dc8dbcaa",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
