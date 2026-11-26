@@ -459,6 +459,16 @@ def refresh(repo: Path = REPO_ROOT, dry_run: bool = False) -> dict:
         "structured_json_files": knowledge["coverage"]["structured_source_documents"],
         "material_units_active": sum(u["lifecycle"] == "active" for u in units),
         "material_units_missing_source": len(unused),
+        "source_documents_with_active_units": len({
+            unit_source(u)["document_path"] for u in units
+            if u["lifecycle"] == "active"
+        }),
+        "course_documents_with_active_units": len({
+            unit_source(u)["document_path"] for u in units
+            if u["lifecycle"] == "active" and
+            unit_source(u)["document_path"].startswith("docs/courses/")
+        }),
+        "candidate_senses_pending_reconciliation": len(candidate_senses),
         "descriptions_human_reviewed": sum(u.get("editorial_review") == "human_reviewed"
                                              for u in units if u["lifecycle"] == "active"
                                              and not u["review_required"]),
