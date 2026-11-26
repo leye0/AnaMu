@@ -107,7 +107,8 @@
       ],
       "revisit_when": [
         "source_note_set_corrected"
-      ]
+      ],
+      "depends_on": []
     },
     {
       "id": "task:identify-bass-and-intervals",
@@ -146,6 +147,9 @@
       "revisit_when": [
         "bass_voice_changed",
         "score_spelling_corrected"
+      ],
+      "depends_on": [
+        "task:observe-pitch-classes"
       ]
     },
     {
@@ -182,6 +186,9 @@
         "another_continuation",
         "voice_leading_corrected",
         "new_style_evidence"
+      ],
+      "depends_on": [
+        "task:identify-bass-and-intervals"
       ]
     },
     {
@@ -212,6 +219,9 @@
       ],
       "revisit_when": [
         "phrase_boundary_revision"
+      ],
+      "depends_on": [
+        "task:observe-pitch-classes"
       ]
     },
     {
@@ -241,7 +251,8 @@
       "revisit_when": [
         "recording_changed",
         "listener_annotation_changed"
-      ]
+      ],
+      "depends_on": []
     }
   ],
   "midi_audit_ref": "analysis/examples/cm211-six-four-midi-observations.json"
