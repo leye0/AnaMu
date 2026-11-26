@@ -1,9 +1,11 @@
 # Registre maintenable des matières (première implémentation)
 
-Ce registre réalise **P1 et un premier passage documentaire de P2a** du
-[plan de mapping](../planning/MAPPING_MATIERE.md). Il ne réalise ni l'extraction
-exhaustive des assertions de P2b, ni la réconciliation de P3, ni l'analyse
-musicologique indépendante.
+Le [manifeste P1](source-manifest.json) a figé les 530 documents connus
+(424 fiches, 76 références, 30 JSON), et ce registre réalise **une calibration
+de P2a** du [plan de mapping](../planning/MAPPING_MATIERE.md). Une première
+[extraction candidate P2b](mentions/calibration-2026-11.json) et des contributions
+P3 ont été amorcées. Ce travail n'achève ni l'extraction exhaustive ni la
+réconciliation ni l'évaluation musicologique indépendante.
 
 ## Entrées et frontières de vérité
 
@@ -44,12 +46,18 @@ recopie pas le texte intégral** des 424 fiches. Les unités de source peuvent
 section automatiquement détectée n'est pas une définition universelle du
 niveau de granularité.
 
-Un **premier catalogue pilote est maintenant publié**, avec 8 fiches de cours,
-116 unités documentaires candidates, 15 descriptions relues sur leurs passages
-et 31 contributions analytiques proposées, dont une cible historique encore
-non résolue. Les 15 descriptions demeurent des brouillons vérifiés par
-l'assistant, et les 31 liens restent à faire confirmer. Cela ne constitue ni
-l'indexation active des 424 fiches ni l'intégration musicale complète.
+Un **catalogue pilote est publié**, avec **16 fiches représentées**,
+**124 unités documentaires candidates**, **23 descriptions** vérifiées sur des
+passages précis par l'assistant, et **44 contributions analytiques proposées**
+(dont **5 cibles non résolues**). Les huit premières fiches ont été partitionnées
+en 116 unités; les huit fiches supplémentaires ne possèdent encore **qu'une
+section délimitée chacune**. Les autres sections de ces huit fiches doivent
+être générées à la reprise complète.
+
+Les 23 descriptions restent des **brouillons éditoriaux**, et aucun lien
+n'est confirmé musicologiquement. Dix mentions sélectionnées ont fourni
+20 assertions candidates dans un fichier séparé : elles ne constituent pas
+la lecture détaillée de tous les passages des 16 fiches.
 
 La commande **refresh** permet de poursuivre sur toutes les sources et de
 conserver les unités, descriptions et liens existants. Son exécution complète
@@ -79,6 +87,22 @@ L'identifiant ci-dessus n'est qu'un exemple de syntaxe : chercher d'abord
 l'ID réellement attribué. **show --source** relit le passage Markdown ou
 l'enregistrement JSON dans sa source, pour vérifier ce que la description
 affirme. La modification éditoriale n'affecte pas le corps original.
+
+### Audit et parcours de raisonnement
+
+Le snapshot des sources peut être inspecté puis synchronisé sans modifier
+les cours :
+
+~~~sh
+python -m anamu_analysis.source_manifest audit
+python -m anamu_analysis.source_manifest sync
+~~~
+
+Le [contrat P0](../architecture/CONTRATS_PREUVES_ET_RAISONNEMENT.md)
+et la [démonstration de routes de preuve](../planning/DEMONSTRATION_PLAN_PREUVES.md)
+distinguent une opération **prête** d'une conclusion effectivement
+établie. Le module de planification ne crée ni analyse d'œuvre ni règle
+musicologique automatiquement.
 
 ### Actualiser sans détruire le travail humain
 
