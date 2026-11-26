@@ -6,12 +6,12 @@
     "source_course_documents_total_reference": 424,
     "material_units_active": 457,
     "material_units_requiring_review": 457,
-    "descriptions_assistant_source_checked": 23,
+    "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
     "course_material_bindings_active": 457,
-    "material_knowledge_bindings": 44,
+    "material_knowledge_bindings": 54,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
-    "material_knowledge_bindings_proposed": 39,
+    "material_knowledge_bindings_proposed": 49,
     "material_knowledge_bindings_unresolved": 5,
     "material_knowledge_bindings_confirmed": 0,
     "extracted_candidate_mentions": 10,
@@ -1093,7 +1093,8 @@
       "material:0000045",
       "material:0000061",
       "material:0000080",
-      "material:0000114"
+      "material:0000114",
+      "material:0000220"
     ],
     "harmony.tonicization": [
       "material:0000025",
@@ -1129,11 +1130,13 @@
     ],
     "sound.velocity": [
       "material:0000097",
-      "material:0000100"
+      "material:0000100",
+      "material:0000442"
     ],
     "sound.masking": [
       "material:0000097",
-      "material:0000100"
+      "material:0000100",
+      "material:0000442"
     ],
     "harmony.modal_mixture": [
       "material:0000104"
@@ -1143,19 +1146,32 @@
     ],
     "motif.thematic_identity": [
       "material:0000118",
-      "material:0000123"
+      "material:0000123",
+      "material:0000220"
     ],
     "form.phrase_hierarchy": [
       "material:0000120"
     ],
     "sound.sustain": [
-      "material:0000122"
+      "material:0000122",
+      "material:0000329"
     ],
     "notation.key_events": [
       "material:0000122"
     ],
     "form.adaptive_transition": [
-      "material:0000123"
+      "material:0000123",
+      "material:0000289"
+    ],
+    "rhythm.notated_grid": [
+      "material:0000193",
+      "material:0000289"
+    ],
+    "rhythm.accent_grouping": [
+      "material:0000193"
+    ],
+    "rhythm.microtiming": [
+      "material:0000329"
     ]
   },
   "knowledge_links_requiring_review": [],
