@@ -126,5 +126,6 @@
       ],
       "depends_on": []
     }
-  ]
+  ],
+  "fact_registry_ref": "analysis/knowledge/evidence-facts.json"
 }
