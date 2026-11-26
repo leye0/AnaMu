@@ -1,0 +1,404 @@
+{
+  "source_document": "docs/courses/berklee/AR-111.md",
+  "units": [
+    {
+      "id": "material:0000696",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "AR-111 — Arranging 1 for Entering Students",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Berklee Boston, grille Composition 2026F. Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-111.md",
+          "document_sha256": "110e361c2cc08998c2deaa8cd2050d42b31a6148068486f5bd1f2a4c042385b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2601317e8bfc0b35f5ff356c",
+            "heading_path": [
+              "AR-111 — Arranging 1 for Entering Students"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 84
+          },
+          "content_sha256": "a8315cc483a4ace65994194653bf4af49d4e2af50428495aa402780ac314dbd3",
+          "body_sha256": "d513a885fc1c4b8add2d7ba783b8f6011aeec0d6e4700683b59e128296a83650",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000697",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources et matière",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [Notice de Boston](https://college.berklee.edu/courses/ar-111). Écriture pour section rythmique et ligne principale, seule ou avec une paire de vents. Construction à partir du groove ou de la mélodie, transposition et notation rythmique. Le",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-111.md",
+          "document_sha256": "110e361c2cc08998c2deaa8cd2050d42b31a6148068486f5bd1f2a4c042385b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5e229924d77db0832bd31bb0",
+            "heading_path": [
+              "AR-111 — Arranging 1 for Entering Students",
+              "Sources et matière"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 8
+          },
+          "content_sha256": "d8d0a1e8b79153e83574ee5729d48bcfebc69b38b79a949141049e1c7fcd53b1",
+          "body_sha256": "29814b4fc4888f80a67f53b5806a3e0d62042f32ab781b24d3b1e2cc875be0b5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000698",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le plan parallèle se concentre sur la section rythmique. Les devoirs de Boston et les exercices avec deux vents restent à obtenir.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-111.md",
+          "document_sha256": "110e361c2cc08998c2deaa8cd2050d42b31a6148068486f5bd1f2a4c042385b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1645cd0717e4f4145129819c",
+            "heading_path": [
+              "AR-111 — Arranging 1 for Entering Students",
+              "Lacunes"
+            ],
+            "start_line": 9,
+            "end_line": 13,
+            "subtree_end_line": 13
+          },
+          "content_sha256": "1c8d035c22c92af4e509d12da82c278ea20b8633c56f8bcae0065f47d6feadf9",
+          "body_sha256": "3a1908c58f89b2b48b2cde7dc027ad72f2675ad975d4cdcadfc80d99cb721472",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000699",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — premier apprentissage vérifié (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Pertinence directe** pour l'analyse et/ou la composition, d'après la [notice institutionnelle propre au cours](https://college.berklee.edu/courses/ar-111). [Exemple MIDI original](./AR-111/exemple.mid) : **créé pour AnaMu**, pas un exerci",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-111.md",
+          "document_sha256": "110e361c2cc08998c2deaa8cd2050d42b31a6148068486f5bd1f2a4c042385b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:79d37150e7dd7b7d1b25f45b",
+            "heading_path": [
+              "AR-111 — Arranging 1 for Entering Students",
+              "Application à l'analyse et à la création — premier apprentissage vérifié (11 novembre 2026)"
+            ],
+            "start_line": 14,
+            "end_line": 17,
+            "subtree_end_line": 27
+          },
+          "content_sha256": "03d0c5c3794b086b281b79f6e4175f8e802c0c4c8c7f188704cf98c1f1e53b21",
+          "body_sha256": "96dda5872adda013db4a7e0685c8b1e37d1d70a73d9c8272eb1cc4b9f31db72c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000700",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage : Arrangement pour section rythmique et mélodie",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyse MIDI, étapes :** 1. Identifier les canaux de mélodie, basse, harmonie et batterie. 2. Mesurer la coïncidence des attaques de basse/batterie et le groove. 3. Déterminer les accords soutenant la mélodie et les plages de chaque instr",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-111.md",
+          "document_sha256": "110e361c2cc08998c2deaa8cd2050d42b31a6148068486f5bd1f2a4c042385b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:01d2b38802fdda016ffa424f",
+            "heading_path": [
+              "AR-111 — Arranging 1 for Entering Students",
+              "Application à l'analyse et à la création — premier apprentissage vérifié (11 novembre 2026)",
+              "Apprentissage : Arrangement pour section rythmique et mélodie"
+            ],
+            "start_line": 18,
+            "end_line": 27,
+            "subtree_end_line": 27
+          },
+          "content_sha256": "84dbfb32e04850dc80d9b9a42b374d925bbc83d770e59771a692b1ca1e2ae766",
+          "body_sha256": "e3af6f8a39b1962c9354e121b911fc867741712db3405cd93a9a587d5532002a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000701",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deuxième passe qualitative — mécanismes d'arrangement : du groove au thème et inversement (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Périmètre attesté.** La [notice officielle AR-111](https://college.berklee.edu/courses/ar-111) enseigne explicitement l'arrangement d'une **section rythmique et d'une mélodie**, la construction **bottom up** depuis le groove ou **top down",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-111.md",
+          "document_sha256": "110e361c2cc08998c2deaa8cd2050d42b31a6148068486f5bd1f2a4c042385b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:afeb47b21f402b19d436e6eb",
+            "heading_path": [
+              "AR-111 — Arranging 1 for Entering Students",
+              "Deuxième passe qualitative — mécanismes d'arrangement : du groove au thème et inversement (12 novembre 2026)"
+            ],
+            "start_line": 28,
+            "end_line": 31,
+            "subtree_end_line": 59
+          },
+          "content_sha256": "eb44702c5352b1e6817d572f8b644fd65dac92a6877f339a0f2b8f643b76fc3a",
+          "body_sha256": "906d64fa2473100f04c81c345fa26743f9936b92c61d9d44f4144f603ec14ec9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000702",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q1 — « Le groove porte le thème » : tester une hypothèse sans confondre coïncidence et influence",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser un arrangement.** Identifier les accents basse/batterie, contretemps, points de repos de la mélodie, progression d'accords et structure des phrases. Mesurer les coïncidences et décalages, puis confronter trois interprétations pos",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-111.md",
+          "document_sha256": "110e361c2cc08998c2deaa8cd2050d42b31a6148068486f5bd1f2a4c042385b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b216dbe183808f5e1b6379b2",
+            "heading_path": [
+              "AR-111 — Arranging 1 for Entering Students",
+              "Deuxième passe qualitative — mécanismes d'arrangement : du groove au thème et inversement (12 novembre 2026)",
+              "Q1 — « Le groove porte le thème » : tester une hypothèse sans confondre coïncidence et influence"
+            ],
+            "start_line": 32,
+            "end_line": 39,
+            "subtree_end_line": 39
+          },
+          "content_sha256": "986243536de13d88b80e020cfa95cb992831b22dea0ff5b277d510a3109a3a02",
+          "body_sha256": "00c12c5fa1a5b66b9a498c9646df446b6d261a2ccc0bd721801807a9aedc7ed5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000703",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q2 — Basse et batterie : vérifier comment une attente métrique se construit",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Répartir, par unité métrique, attaques de grosse caisse, caisse claire et basse; chercher une relation stable entre ces voix et les changements harmoniques, puis les écarts qui signalent transition ou arrêt. Identifier séparém",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-111.md",
+          "document_sha256": "110e361c2cc08998c2deaa8cd2050d42b31a6148068486f5bd1f2a4c042385b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f7e2e52e9b71c8f6c1a25f39",
+            "heading_path": [
+              "AR-111 — Arranging 1 for Entering Students",
+              "Deuxième passe qualitative — mécanismes d'arrangement : du groove au thème et inversement (12 novembre 2026)",
+              "Q2 — Basse et batterie : vérifier comment une attente métrique se construit"
+            ],
+            "start_line": 40,
+            "end_line": 47,
+            "subtree_end_line": 47
+          },
+          "content_sha256": "9b02726f77de6825d31f4fc26c68c9e2aca2aa2db1105a033678cb06adde2e37",
+          "body_sha256": "cbff7545e0b273cd955508067f268261c66bbe2411e1dade1c027eccf32ccb39",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000704",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q3 — Transition et fin : une fonction de section dépend de ce qui précède **et** suit",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Dans une pièce avec forme documentée, marquer les préparations : break de batterie, pédale de basse, densification rythmique, accords de transition et silence. Vérifier **ce qui arrive après** : reprise du thème, nouveau refra",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-111.md",
+          "document_sha256": "110e361c2cc08998c2deaa8cd2050d42b31a6148068486f5bd1f2a4c042385b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:143ae0fe0991ebdaf02b3238",
+            "heading_path": [
+              "AR-111 — Arranging 1 for Entering Students",
+              "Deuxième passe qualitative — mécanismes d'arrangement : du groove au thème et inversement (12 novembre 2026)",
+              "Q3 — Transition et fin : une fonction de section dépend de ce qui précède **et** suit"
+            ],
+            "start_line": 48,
+            "end_line": 59,
+            "subtree_end_line": 59
+          },
+          "content_sha256": "49b592c12830d583507198ecb904837f522d8d17e7d53ffb741b7b861a257c57",
+          "body_sha256": "fb091a1f723fbab6f28760bad1202e715e5e8a1e6a1983f7f2afa9daaab974e5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000705",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Avant la barre, après la barre — chacun son arrivée",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Point de départ.** La [notice AR-111](https://college.berklee.edu/courses/ar-111) traite l’arrangement comme une coordination des rôles. Les [variantes 6a et 6b de Carvalho et Mangueira](../berklee-online/OPIAN-300.md#relever-le-grave-les",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-111.md",
+          "document_sha256": "110e361c2cc08998c2deaa8cd2050d42b31a6148068486f5bd1f2a4c042385b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:32b488e6a116c653014b7773",
+            "heading_path": [
+              "AR-111 — Arranging 1 for Entering Students",
+              "Avant la barre, après la barre — chacun son arrivée"
+            ],
+            "start_line": 60,
+            "end_line": 77,
+            "subtree_end_line": 77
+          },
+          "content_sha256": "1c86ea85090d1bc75cfb41644058a67d2d9e1747a758f1a586753bbcd148bc67",
+          "body_sha256": "8c2c397307b96adf38bb6a45588e5bf86a53861221ee79aac7a1d94fffeba797",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000706",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Faire voyager le rôle, pas l’instrument — Horace Silver",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Contre-cas sans guitare.** La [leçon publique de Berklee Online sur les grooves contemporains](https://online.berklee.edu/courses/arranging-and-producing-contemporary-music-styles#syllabus) propose *Song for My Father* en regard de *The G",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-111.md",
+          "document_sha256": "110e361c2cc08998c2deaa8cd2050d42b31a6148068486f5bd1f2a4c042385b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:43923f3d500e8d543ae490ff",
+            "heading_path": [
+              "AR-111 — Arranging 1 for Entering Students",
+              "Faire voyager le rôle, pas l’instrument — Horace Silver"
+            ],
+            "start_line": 78,
+            "end_line": 84,
+            "subtree_end_line": 84
+          },
+          "content_sha256": "99cdd11f869198b26c155628ad3ec32ce661e7581f959b997f911c7192f0f596",
+          "body_sha256": "88223b976521709431cacf94b97a55da6b522bbca145d9c903eb94df370e64cf",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
