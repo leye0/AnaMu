@@ -1,0 +1,47 @@
+{
+  "source_document": "docs/courses/berklee-online/OCOMP-491.md",
+  "units": [
+    {
+      "id": "material:0000118",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Retour thématique et identité dramatique : tester les contre-exemples",
+      "title_origin": "assistant_source_checked",
+      "description": "Comparer sur deux chronologies distinctes les occurrences d'un matériau musical et les événements narratifs de scènes identifiées. Relever les invariants sous transformation puis tester personnages sans thème et thème sans personnage; la simple répétition d'une cellule ne suffit pas à conclure au leitmotiv ou à une intention de production.",
+      "description_origin": "assistant_source_checked",
+      "editorial_review": "assistant_source_checked_draft",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [
+        "Aucune identité de personnage ni intention de compositeur démontrée par les notes seules."
+      ],
+      "notes": [
+        "Source de section AnaMu vérifiée ; aucun syllabus parallèle ou geste audio n'est promu en preuve de section.",
+        "Calibration P2a/P3 : la granularité sera revue lors du rafraîchissement complet."
+      ],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCOMP-491.md",
+          "document_sha256": "e6b58d4f4f6a0c962f0d198f0ea02f8c4b59dcbb8cfafb8eb33f4606328167fe",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6d64426c1211eb12b57ab0fd",
+            "heading_path": [
+              "OCOMP-491 — Music Composition for Film and TV 2",
+              "Deuxième passe qualitative — réponse dramatique, variation et continuité inter-scènes (12 novembre 2026)",
+              "Q1 — Retour thématique : identité du personnage ou simple répétition de quelques notes ?"
+            ],
+            "start_line": 46,
+            "end_line": 53,
+            "subtree_end_line": 53
+          },
+          "content_sha256": "e110daffad7f22b803878111bd3863864cdbf0f1718c65494c0099b405e44da2",
+          "body_sha256": "2a2ecef7184f37f1084dac89f2acfb4a47f1bf64def806a107a7aa532effe61c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "source_verified_editorial_pending"
+    }
+  ]
+}

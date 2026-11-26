@@ -1,0 +1,46 @@
+{
+  "source_document": "docs/courses/udem/MTE-3300.md",
+  "units": [
+    {
+      "id": "material:0000119",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Spectromorphologie : segmentation et transformation d'objets sonores",
+      "title_origin": "assistant_source_checked",
+      "description": "La fiche relie le cours d'analyse électroacoustique à l'observation des évolutions d'énergie, spectre, transitoires, masses et densité dans l'audio, à une segmentation révisable et à la confrontation d'interprétations perceptives. Elle refuse de remplacer l'analyse spectrale par un MIDI hypothétique.",
+      "description_origin": "assistant_source_checked",
+      "editorial_review": "assistant_source_checked_draft",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [
+        "Aucun effet acoustique réel n'est prouvé par un exemple MIDI inexistant."
+      ],
+      "notes": [
+        "Source de section AnaMu vérifiée ; aucun syllabus parallèle ou geste audio n'est promu en preuve de section.",
+        "Calibration P2a/P3 : la granularité sera revue lors du rafraîchissement complet."
+      ],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-3300.md",
+          "document_sha256": "164014725ce643b840548344d7082e8c592da7c0d2e6ae6f8522218e110b0c45",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f09788d6b684d7561d48296f",
+            "heading_path": [
+              "MTE 3300 — Analyse de la musique électroacoustique",
+              "Application à l'analyse et à la création — limites de l'application (11 novembre 2026)"
+            ],
+            "start_line": 14,
+            "end_line": 24,
+            "subtree_end_line": 24
+          },
+          "content_sha256": "c8666bb234408a22b52e4beb3e0de4063cca23aaf3a4a35e2d5fff55970033ec",
+          "body_sha256": "83c45738a9329322140bba101178b62ad76bdfee259801042dbb2658496be0f5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "source_verified_editorial_pending"
+    }
+  ]
+}

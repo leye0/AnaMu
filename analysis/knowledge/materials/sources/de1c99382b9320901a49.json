@@ -1,0 +1,47 @@
+{
+  "source_document": "docs/courses/udem/MUL-3314.md",
+  "units": [
+    {
+      "id": "material:0000121",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Enquête ethnomusicologique : sources, consentement et contexte",
+      "title_origin": "assistant_source_checked",
+      "description": "Méthode documentaire pour identifier les sources de terrain, leur époque, leur consentement et leur cadre théorique avant de comparer les paramètres musicaux réellement observés. Une gamme ou instrumentation ressemblante ne permet pas d'attribuer une pratique à une population sans preuve contextualisée.",
+      "description_origin": "assistant_source_checked",
+      "editorial_review": "assistant_source_checked_draft",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [
+        "La fiche ne constitue ni corpus de terrain fourni ni diagnostic culturel dérivable du MIDI."
+      ],
+      "notes": [
+        "Source de section AnaMu vérifiée ; aucun syllabus parallèle ou geste audio n'est promu en preuve de section.",
+        "Calibration P2a/P3 : la granularité sera revue lors du rafraîchissement complet."
+      ],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-3314.md",
+          "document_sha256": "6ebc018c4882431630e4ad63f15334511b1065d0d30bb11c56c7fa5bd54ae661",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6c8917ed55015882bc411236",
+            "heading_path": [
+              "MUL 3314 — Introduction à l’ethnomusicologie",
+              "Application à l'analyse et à la création — évaluation sourcée (12 novembre 2026)",
+              "Apprentissage/domaine 1 — Méthodes ethnomusicologiques et contexte d'une pratique"
+            ],
+            "start_line": 23,
+            "end_line": 32,
+            "subtree_end_line": 32
+          },
+          "content_sha256": "e5dc7700b77600820d87a1cd26d3c727e197c7ce25033be70ed12079abe832c4",
+          "body_sha256": "66ffefff5e8fab8a52c3fb9a58a13fb663e7b4c27a2e7af3c1adafbb7a340832",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "source_verified_editorial_pending"
+    }
+  ]
+}

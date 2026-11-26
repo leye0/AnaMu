@@ -1,0 +1,46 @@
+{
+  "source_document": "docs/courses/udem/MUS-2327.md",
+  "units": [
+    {
+      "id": "material:0000123",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Musique de jeu : retour local, boucle complète et état du jeu",
+      "title_origin": "assistant_source_checked",
+      "description": "La fiche oppose rappel d'un geste court et retour complet d'un cycle, avec les contre-exemples publiés de Super Mario Bros. et Faxanadu. Une similarité locale ne suffit pas à identifier le point de boucle; et l'audio/partition ne prouvent pas à eux seuls l'état interne qui déclenche la musique dans le jeu.",
+      "description_origin": "assistant_source_checked",
+      "editorial_review": "assistant_source_checked_draft",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [
+        "Les chiffres de similarité rapportés concernent les captures citées; aucun moteur de jeu n'a été instrumenté."
+      ],
+      "notes": [
+        "Source de section AnaMu vérifiée ; aucun syllabus parallèle ou geste audio n'est promu en preuve de section.",
+        "Calibration P2a/P3 : la granularité sera revue lors du rafraîchissement complet."
+      ],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-2327.md",
+          "document_sha256": "2eee0153f87b68cc235e65fb9a7e4ad2c03b6cecb8f52a410aef724db81cee18",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7e674527a17bc8c75bb72af4",
+            "heading_path": [
+              "MUS 2327 — Création sonore jeux vidéo 1",
+              "Un retour de thème n’est pas forcément un tour de boucle"
+            ],
+            "start_line": 56,
+            "end_line": 68,
+            "subtree_end_line": 68
+          },
+          "content_sha256": "3c5ef944a4021abd5f486ac69e8898c6caeb836904c2c6f80478cf95d1a1c9a7",
+          "body_sha256": "7c19a625b35c3cab21b05a9a2275972e1eaac8d036543fa51e2537e462b6eefc",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "source_verified_editorial_pending"
+    }
+  ]
+}

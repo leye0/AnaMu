@@ -1,0 +1,46 @@
+{
+  "source_document": "docs/courses/udem-supplementary/MUL-6262-H27.md",
+  "units": [
+    {
+      "id": "material:0000124",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Tango du Río de la Plata : articulation et interprétations situées",
+      "title_origin": "assistant_source_checked",
+      "description": "Le plan officiel H27 documente l'étude du phrasé et des articulations instrumentales du tango, du rôle des accompagnements traditionnels et de comparaisons entre interprétations d'une même pièce. L'analyse doit conserver l'identité des interprètes et sources culturelles et ne pas transformer un rythme semblable en attestation d'origine.",
+      "description_origin": "assistant_source_checked",
+      "editorial_review": "assistant_source_checked_draft",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [
+        "Le plan nomme des thèmes, mais ne prescrit pas une définition automatique d'identité culturelle par les notes."
+      ],
+      "notes": [
+        "Source de section AnaMu vérifiée ; aucun syllabus parallèle ou geste audio n'est promu en preuve de section.",
+        "Calibration P2a/P3 : la granularité sera revue lors du rafraîchissement complet."
+      ],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem-supplementary/MUL-6262-H27.md",
+          "document_sha256": "e422e11f165be42c09cc3c27906ad0534a85c5d612b23714656760b2a0b9aea6",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3d3ae4f735aadd93c810575c",
+            "heading_path": [
+              "MUL 6262 — Tango du Río de la Plata : interprétation, analyse, composition",
+              "Thèmes, techniques et méthodes vérifiables"
+            ],
+            "start_line": 5,
+            "end_line": 15,
+            "subtree_end_line": 15
+          },
+          "content_sha256": "66a67f5a91bd0c3a83680f7942cd1c9afa7188d626259821d9275d52300c223f",
+          "body_sha256": "a489d48eb1663d4acd429bfa8aff24286d35ac28e4add4f1f832cfc41fb4f464",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "source_verified_editorial_pending"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source_document": "docs/courses/berklee/CM-343.md",
+  "units": [
+    {
+      "id": "material:0000122",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Percussion : distinguer attaque, choke, note off et extinction acoustique",
+      "title_origin": "assistant_source_checked",
+      "description": "Étude AnaMu de quatre moments distincts pour une cymbale : attaque T0, arrivée d'une nouvelle texture T1, geste de choke T2 et extinction acoustique T3. Une commande Note Off ne prouve ni amortissement physique ni disparition sonore; partition/captation et audio étayent les deux dimensions.",
+      "description_origin": "assistant_source_checked",
+      "editorial_review": "assistant_source_checked_draft",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [
+        "Les temps sont symboliques, non mesurés; la jouabilité ou la résonance ne sont pas validées expérimentalement."
+      ],
+      "notes": [
+        "Source de section AnaMu vérifiée ; aucun syllabus parallèle ou geste audio n'est promu en preuve de section.",
+        "Calibration P2a/P3 : la granularité sera revue lors du rafraîchissement complet."
+      ],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-343.md",
+          "document_sha256": "10d74cc4426ae0a1f283b240a27f00395cfbded3da82adf2f20cdebd84de7253",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7e47ea95c366c059720137ec",
+            "heading_path": [
+              "CM-343 — Writing for Classical Percussion",
+              "Audit de gestes, de roulements et de résonances — 17 novembre 2026",
+              "L'extinction est un événement musical à part entière"
+            ],
+            "start_line": 86,
+            "end_line": 93,
+            "subtree_end_line": 93
+          },
+          "content_sha256": "c72361e5117489cc4f9deea6b187b4fa72d3b186cd57a7401da32297f48a6983",
+          "body_sha256": "588c9df9da2d611787283f04402a6cc585d097c211a6a2323c79b9fa869647b6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "source_verified_editorial_pending"
+    }
+  ]
+}

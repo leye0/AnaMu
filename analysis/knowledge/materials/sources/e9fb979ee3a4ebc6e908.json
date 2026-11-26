@@ -1,0 +1,46 @@
+{
+  "source_document": "docs/courses/mcgill/MUTH-202.md",
+  "units": [
+    {
+      "id": "material:0000117",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Retard Renaissance : préparation, dissonance, résolution et perfection",
+      "title_origin": "assistant_source_checked",
+      "description": "Étude AnaMu fondée sur des comparateurs publiés : différencier préparation, dissonance, résolution et perfection conclusive dans certaines cadences de contrepoint Renaissance, ainsi que les groupements binaires et ternaires du rythme contrapuntique. Le classement exige de suivre les voix et ne se réduit ni à trois accords ni à une battue MIDI.",
+      "description_origin": "assistant_source_checked",
+      "editorial_review": "assistant_source_checked_draft",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [
+        "Les exemples de Morgan et Long ne sont pas attestés comme exercices de la section McGill."
+      ],
+      "notes": [
+        "Source de section AnaMu vérifiée ; aucun syllabus parallèle ou geste audio n'est promu en preuve de section.",
+        "Calibration P2a/P3 : la granularité sera revue lors du rafraîchissement complet."
+      ],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-202.md",
+          "document_sha256": "9edf7cd45c137cdb0d8682febcf190e763e23b2e48ba6c528773c3007598c91c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:70942b088e53f615b983548f",
+            "heading_path": [
+              "MUTH 202 — Modal Counterpoint 1",
+              "Quatre phases d'un retard Renaissance — ni trois accords ni trois battues (17 novembre 2026)"
+            ],
+            "start_line": 74,
+            "end_line": 91,
+            "subtree_end_line": 91
+          },
+          "content_sha256": "03fa0fc01e03c373ffabe02893bdf542c08d3257f5d0938bb82f8082bf042a0f",
+          "body_sha256": "d2389f3e1417ee8fa3d2cc66a9058f53e720c030509852f31715268ead927bd8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "source_verified_editorial_pending"
+    }
+  ]
+}
