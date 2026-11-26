@@ -184,6 +184,16 @@ def source_key(source: dict) -> tuple[str, str, str]:
     return source["document_path"], locator["kind"], locator["anchor"]
 
 
+def load_candidate_extractions(folder: Path) -> tuple[list[dict], list[dict]]:
+    mentions: list[dict] = []
+    assertions: list[dict] = []
+    for path in sorted((folder / "mentions").glob("*.json")):
+        batch = read_json(path, {})
+        mentions.extend(batch.get("mentions", []))
+        assertions.extend(batch.get("assertions", []))
+    return mentions, assertions
+
+
 def unit_source(unit: dict) -> dict:
     return next(binding for binding in unit["source_bindings"]
                 if binding.get("role") == "primary")
@@ -374,6 +384,13 @@ def refresh(repo: Path = REPO_ROOT) -> dict:
                    if unit_by_id[link["material_id"]]["revision"] !=
                    link.get("reviewed_material_revision") or
                    unit_by_id[link["material_id"]]["lifecycle"] != "active"]
+    extracted_mentions, candidate_assertions = load_candidate_extractions(folder)
+    stale_assertions = []
+    for item in candidate_assertions:
+        material = unit_by_id.get(item.get("material_id"))
+        if material is None or material["lifecycle"] != "active" or (
+                item.get("reviewed_material_revision") != material["revision"]):
+            stale_assertions.append(item["id"])
     by_course, by_document, by_concept = defaultdict(list), defaultdict(list), defaultdict(list)
     for unit in units:
         by_document[unit_source(unit)["document_path"]].append(unit["id"])
@@ -401,6 +418,9 @@ def refresh(repo: Path = REPO_ROOT) -> dict:
         "course_material_bindings_active": sum(b["lifecycle"] == "active" for b in bindings),
         "material_knowledge_bindings": len(old_links["bindings"]),
         "material_knowledge_bindings_stale": len(stale_links),
+        "extracted_candidate_mentions": len(extracted_mentions),
+        "extracted_candidate_assertions": len(candidate_assertions),
+        "extracted_candidate_assertions_stale": len(stale_assertions),
         "material_knowledge_bindings_proposed": sum(
             b.get("state") == "assistant_source_checked_proposed_link"
             for b in old_links["bindings"]),
@@ -423,6 +443,7 @@ def refresh(repo: Path = REPO_ROOT) -> dict:
         "by_document": dict(sorted(by_document.items())),
         "by_concept": dict(sorted(by_concept.items())),
         "knowledge_links_requiring_review": stale_links,
+        "candidate_assertions_requiring_review": stale_assertions,
     })
     return coverage
 
@@ -440,21 +461,18 @@ def show(repo: Path, identifier: str, include_source: bool) -> dict:
               "knowledge_bindings": [b for b in read_json(
                   root / "material-knowledge-maps/links.json", {"bindings": []})["bindings"]
                   if b["material_id"] == identifier]}
-    selected_mentions = []
-    selected_assertions = []
-    # A single material is a point of entry to the semantic extraction.
-    # Read pilot and subsequent mention batches without treating them as
-    # verified musical facts.
-    for path in sorted((root / "mentions").glob("*.json")):
-        batch = read_json(path, {})
-        selected_mentions.extend(
-            item for item in batch.get("mentions", [])
-            if item.get("material_id") == identifier)
-        selected_assertions.extend(
-            item for item in batch.get("assertions", [])
-            if item.get("material_id") == identifier)
-    result["mentions"] = selected_mentions
-    result["candidate_assertions"] = selected_assertions
+    # Candidate extractions are proposals, not verified musical conclusions.
+    all_mentions, all_assertions = load_candidate_extractions(root)
+    result["mentions"] = [
+        dict(item, material_revision_stale=(
+            item.get("reviewed_material_revision") != unit["revision"]))
+        for item in all_mentions if item.get("material_id") == identifier
+    ]
+    result["candidate_assertions"] = [
+        dict(item, material_revision_stale=(
+            item.get("reviewed_material_revision") != unit["revision"]))
+        for item in all_assertions if item.get("material_id") == identifier
+    ]
     if include_source:
         source = unit_source(unit)
         document = repo / source["document_path"]
