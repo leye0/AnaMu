@@ -62,8 +62,8 @@ Les six cibles sans concept canonique sont suivies dans
 dramaturgie, spectromorphologie, enquête ethnomusicologique et
 interprétations du tango et continuité électroacoustique. Ces **propositions** conservent leur portée et
 leurs exigences de preuve; aucune n'est automatiquement fusionnée aux
-25 concepts existants. Dix mentions sélectionnées ont fourni
-20 assertions candidates dans un fichier séparé : elles ne constituent pas
+25 concepts existants. Seize mentions sélectionnées ont fourni
+32 assertions candidates dans un fichier séparé : elles ne constituent pas
 la lecture détaillée de tous les passages des 36 fiches.
 
 La commande **refresh** permet de poursuivre sur toutes les sources et de
