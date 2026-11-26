@@ -5,11 +5,12 @@
  */
 const repo="leye0/AnaMu";
 const branch="analysis/material-registry-maintainable";
+const isShared=ingestionMode==="shared";
 const metadataPaths=[
   "analysis/knowledge/source-manifest.json",
   "analysis/knowledge/materials/catalog.json",
   "analysis/knowledge/material-index.json",
-  "analysis/knowledge/course-material-maps/links.json"
+  ...(isShared?[]:["analysis/knowledge/course-material-maps/links.json"])
 ];
 const files=await Promise.all(metadataPaths.map(path=>
   tools.mcp__GitHub__fetch_file({repository_full_name:repo,path,ref:branch})));
@@ -25,7 +26,7 @@ const parsed=await Promise.all(files.map(async r=>{
 const [sources,catalog,index,courseMap]=parsed;
 const sourceByPath=new Map(sources.sources.map(r=>[r.path,r]));
 if(catalog.material_units<457||catalog.chunks.length<36)throw Error("Unexpected catalogue version");
-const nums=courseMap.bindings.map(r=>Number(r.id.split(":").at(-1)));
+const nums=(courseMap?.bindings||[]).map(r=>Number(r.id.split(":").at(-1)));
 let nextMaterial=Math.max(catalog.material_units,...Object.values(index.by_document)
   .flat().map(id=>Number(id.split(":").at(-1))));
 let nextBinding=Math.max(0,...nums);
@@ -138,7 +139,7 @@ function createUnit(path,wholeSha,fragment,title){
     lifecycle:"active",locator_review:"unreviewed"}
 }
 const expectedChunks=new Set(catalog.chunks);
-let docs=sources.sources.filter(x=>x.kind==="course_markdown"&&
+let docs=sources.sources.filter(x=>x.kind===(isShared?"shared_markdown":"course_markdown")&&
   (!index.by_document[x.path]||ingestionMode==="partial"&&
     ["docs/courses/mcgill/MUTH-202.md",
      "docs/courses/berklee-online/OCOMP-491.md",
@@ -196,14 +197,16 @@ for(const {doc,file} of downloaded){
     const unit=createUnit(path,sourceSha,fragment,
       fragment.heading==="Preamble"?"Préambule — "+title:fragment.heading);
     units.push(unit);newUnits++;count++;
-    const course=courseIdentity(path);
-    const bindingID="course-material:"+String(++nextBinding).padStart(7,"0");
-    courseMap.bindings.push({id:bindingID,course_id:course,
-      material_id:unit.id,source_path:path,attribution:"not_yet_reviewed",
-      presentation_order:null,pedagogical_group:null,editorial_review:"unreviewed",
-      lifecycle:"active"});
-    (index.by_document[path]??=[]).push(unit.id);
-    (index.by_course[course]??=[]).push(unit.id)
+    if(!isShared){
+      const course=courseIdentity(path);
+      const bindingID="course-material:"+String(++nextBinding).padStart(7,"0");
+      courseMap.bindings.push({id:bindingID,course_id:course,
+        material_id:unit.id,source_path:path,attribution:"not_yet_reviewed",
+        presentation_order:null,pedagogical_group:null,editorial_review:"unreviewed",
+        lifecycle:"active"});
+      (index.by_course[course]??=[]).push(unit.id)
+    }
+    (index.by_document[path]??=[]).push(unit.id)
   }
   if(count===0)continue;
   if(newSource){catalog.chunks.push(rel);newDocs++;}
@@ -216,7 +219,7 @@ catalog.chunks.sort();
 catalog.material_units=nextMaterial;
 index.coverage.material_units_active=nextMaterial;
 index.coverage.material_units_requiring_review=nextMaterial;
-index.coverage.course_material_bindings_active=courseMap.bindings.length;
+if(!isShared)index.coverage.course_material_bindings_active=courseMap.bindings.length;
 index.coverage.source_course_documents_indexed=Object.keys(index.by_document)
   .filter(path=>path.startsWith("docs/courses/")).length;
 index.coverage.course_documents_with_active_units=index.coverage.source_course_documents_indexed;
@@ -224,7 +227,7 @@ index.coverage.source_documents_with_active_units=Object.keys(index.by_document)
 for(const [path,value] of [
   ["analysis/knowledge/materials/catalog.json",catalog],
   ["analysis/knowledge/material-index.json",index],
-  ["analysis/knowledge/course-material-maps/links.json",courseMap]
+  ...(!isShared?[["analysis/knowledge/course-material-maps/links.json",courseMap]]:[])
 ]){
   changes.push({path,mode:"100644",type:"blob",
     content:JSON.stringify(value,null,2)+"\n"})
