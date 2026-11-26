@@ -118,6 +118,29 @@
       "canonical_concept_id": null,
       "decision": "pending_reconciliation",
       "can_be_documentary_only": true
+    },
+    {
+      "id": "candidate-sense:00006",
+      "proposed_key": "electroacoustic-perceptual-continuity",
+      "preferred_name": "Continuité et transitions perceptives dans l'assemblage électroacoustique",
+      "source_material_id": "material:0000419",
+      "source_document_path": "docs/courses/mit/21M-361.md",
+      "source_role": "public_mit_assignment_summary",
+      "analytic_question": "Quels changements de matériau et transitions donnent une évolution perceptible à un montage, et sur quelles écoutes l'argument repose-t-il ?",
+      "scope_note": "Les travaux MIT 2.1–2.2 distinguent improvisation et composition et demandent une continuité perceptible ; ils ne décrivent pas une règle algorithmique universelle.",
+      "requires_evidence": [
+        "identified_audio_segments",
+        "transition_timeline",
+        "situated_listening_annotation"
+      ],
+      "does_not_establish": [
+        "expressive_continuity_from_file_concat_alone",
+        "student_result_without_listening"
+      ],
+      "review_state": "assistant_source_checked_candidate_needs_domain_review",
+      "canonical_concept_id": null,
+      "decision": "pending_reconciliation",
+      "can_be_documentary_only": true
     }
   ]
 }
