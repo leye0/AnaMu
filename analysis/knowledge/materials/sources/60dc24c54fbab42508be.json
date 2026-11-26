@@ -1,0 +1,112 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-mcgill-2026-27-ensemble-specific-material.md",
+  "units": [
+    {
+      "id": "material:0004137",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "McGill — matières propres aux ensembles 2026–2027",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Sources primaires de la Schulich School of Music : [Grandes formations, PDF officiel 2026–2027](https://www.mcgill.ca/music/files/music/large_ensemble_options_2026-2027.pdf), [Petits ensembles, PDF officiel 2026–2027](https://www.mcgill.ca/",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-2026-27-ensemble-specific-material.md",
+          "document_sha256": "d472c99060c88754db40d5610ea5bec031c60edb4c1a7ae196f6c860ee710e93",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1988e3514c09567985f642d4",
+            "heading_path": [
+              "McGill — matières propres aux ensembles 2026–2027"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 44
+          },
+          "content_sha256": "0eecbaf79195165b57892459ead5f4ce1c910296971dca00536a62825fc35cf5",
+          "body_sha256": "acbea546aaf549ea14f65e0074693092667ed6aec2008bd05333660178ce6e54",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004138",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "9 codes déjà dans le registre principal",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Promouvoir seulement MUEN 563** à la première carte exploitable : chant SATB, a cappella et section rythmique, choix d'arrangements jazz/pop/musiques du monde, préparation de concerts. Les [auditions 2026](https://www.mcgill.ca/music/ense",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-2026-27-ensemble-specific-material.md",
+          "document_sha256": "d472c99060c88754db40d5610ea5bec031c60edb4c1a7ae196f6c860ee710e93",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1509d625f2d735f98bd75da8",
+            "heading_path": [
+              "McGill — matières propres aux ensembles 2026–2027",
+              "9 codes déjà dans le registre principal"
+            ],
+            "start_line": 5,
+            "end_line": 20,
+            "subtree_end_line": 20
+          },
+          "content_sha256": "bf713cb78d9df6d116b87278231bde3d7448bac88c6f1ff5c5f983ff1121b4bf",
+          "body_sha256": "f30ccb7389f0a4f7df259d9e259dfec38f1f0f1d0121f8b14910434eb1c262df",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004139",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "18 codes voisins dans les petits ensembles (hors registre historique)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Lacunes maintenues :** La politique McGill précise que les syllabus de MUEN 590/593/594/597, notamment, sont accessibles aux membres par un site protégé. Ne pas présenter le PDF public comme ces syllabus. Les ensembles en petit groupe ont",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-2026-27-ensemble-specific-material.md",
+          "document_sha256": "d472c99060c88754db40d5610ea5bec031c60edb4c1a7ae196f6c860ee710e93",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9724debd4437e4ce7f9293e2",
+            "heading_path": [
+              "McGill — matières propres aux ensembles 2026–2027",
+              "18 codes voisins dans les petits ensembles (hors registre historique)"
+            ],
+            "start_line": 21,
+            "end_line": 44,
+            "subtree_end_line": 44
+          },
+          "content_sha256": "bc8b456278f6856fbe40c4ffb69e8cf898e11725200dce63c502522fe4d7f88c",
+          "body_sha256": "118ad7563178e195e2df4b0c3ca21c9c8b38e214e100139034684bb41661dc3f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

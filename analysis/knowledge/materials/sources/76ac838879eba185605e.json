@@ -1,0 +1,40 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-mcgill-17-current-requirements.md",
+  "units": [
+    {
+      "id": "material:0004132",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "McGill — 17 cartes partielles relues dans les exigences 2026–2027",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026 · première passe académique.** Source institutionnelle commune : [B.Mus. Composition — exigences et descriptions des cours, 2026–2027](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements), croisée ave",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-17-current-requirements.md",
+          "document_sha256": "15faaeafd2cb3d03827575ae7fd3255090f49f08ab7dc60951c0963b865bb685",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0e751d31f314f799762c49ac",
+            "heading_path": [
+              "McGill — 17 cartes partielles relues dans les exigences 2026–2027"
+            ],
+            "start_line": 1,
+            "end_line": 25,
+            "subtree_end_line": 25
+          },
+          "content_sha256": "15faaeafd2cb3d03827575ae7fd3255090f49f08ab7dc60951c0963b865bb685",
+          "body_sha256": "8ddb9cfe55827c4dc1352c4a72488c68d4027d186c1f3f818036f7a637e30258",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

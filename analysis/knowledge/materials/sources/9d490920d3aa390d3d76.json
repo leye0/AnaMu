@@ -1,0 +1,112 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-mcgill-17-musicianship-ear-training.md",
+  "units": [
+    {
+      "id": "material:0004133",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "McGill — 17 notices de solfège, formation de l'oreille, rythme et pratique musicale",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026 · source primaire :** [catalogue universitaire McGill 2026–2027](https://coursecatalogue.mcgill.ca/en/). **17 pages propres au code vérifiées** ; **dix nouveaux cours musicaux voisins** non inclus dans le registre 386, **",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-17-musicianship-ear-training.md",
+          "document_sha256": "0883c6001093a026d97acfd5b1215164d2506d0749e2ae9610d386b99abda58e",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:215a35e86f06aae609eb3014",
+            "heading_path": [
+              "McGill — 17 notices de solfège, formation de l'oreille, rythme et pratique musicale"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 32
+          },
+          "content_sha256": "6e70f3bbc7ba25388f75c31ddfc190ce7acaed9b72ef8b66fc1d73b8713003a0",
+          "body_sha256": "dc1aa5aab1f1da561f678e39561fa8f4bbe65abe5fb48b1d69cff45baab91947",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004134",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Dix cours voisins complémentaires",
+      "title_origin": "source_heading_or_key",
+      "description": "Titre ou passage sans description éditoriale vérifiée.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-17-musicianship-ear-training.md",
+          "document_sha256": "0883c6001093a026d97acfd5b1215164d2506d0749e2ae9610d386b99abda58e",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d315c08ff2ec95d3de4b82ef",
+            "heading_path": [
+              "McGill — 17 notices de solfège, formation de l'oreille, rythme et pratique musicale",
+              "Dix cours voisins complémentaires"
+            ],
+            "start_line": 5,
+            "end_line": 19,
+            "subtree_end_line": 19
+          },
+          "content_sha256": "7197777d7f05794f18c3a59042c557ef4a6ee6999cfebd84ea03261c3c5bfa42",
+          "body_sha256": "ae3c6983d0f32d9f0d686b86b0fdbf7c6155f307507050bd0e64a8968d55e876",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004135",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sept codes historiques recoupés — progression de la matière réellement annoncée",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Résultat : 17/17 notices McGill consultées ; dix cours voisins, sept renforcements académiques.** Onze autres codes candidats sans notices individuelles exactes n'ont pas été inventés. Le recoupement des cours MUSP/MUTH permet de lire la",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-17-musicianship-ear-training.md",
+          "document_sha256": "0883c6001093a026d97acfd5b1215164d2506d0749e2ae9610d386b99abda58e",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3a63b4ae3aa630cf669b00e2",
+            "heading_path": [
+              "McGill — 17 notices de solfège, formation de l'oreille, rythme et pratique musicale",
+              "Sept codes historiques recoupés — progression de la matière réellement annoncée"
+            ],
+            "start_line": 20,
+            "end_line": 32,
+            "subtree_end_line": 32
+          },
+          "content_sha256": "640990aa066e667000bdb5141bd704f8a2fb3b7ac0213b8b2e25c6e0a913d7cc",
+          "body_sha256": "451720314afe5bba144f9af0692c413567c991c52018847b71509baf107bd371",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

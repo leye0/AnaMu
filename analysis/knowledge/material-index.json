@@ -4,8 +4,8 @@
     "status": "pilot_partial_not_full_inventory",
     "source_course_documents_indexed": 424,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 4115,
-    "material_units_requiring_review": 4115,
+    "material_units_active": 4141,
+    "material_units_requiring_review": 4141,
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
     "course_material_bindings_active": 3412,
@@ -19,7 +19,7 @@
     "extracted_candidate_assertions_stale": 0,
     "candidate_senses_pending_reconciliation": 6,
     "course_documents_with_active_units": 424,
-    "source_documents_with_active_units": 464
+    "source_documents_with_active_units": 474
   },
   "by_course": {
     "berklee:CM-211": [
@@ -9316,6 +9316,52 @@
     "docs/raw-batches/2026-11-11-berklee-pibs-four-concrete-private-bass-levels.md": [
       "material:0004114",
       "material:0004115"
+    ],
+    "docs/raw-batches/2026-11-11-berklee-seven-ensemble-specific-music-subjects.md": [
+      "material:0004116",
+      "material:0004117",
+      "material:0004118",
+      "material:0004119",
+      "material:0004120",
+      "material:0004121",
+      "material:0004122",
+      "material:0004123",
+      "material:0004124"
+    ],
+    "docs/raw-batches/2026-11-11-mcgill-13-music-pedagogy-techniques.md": [
+      "material:0004125"
+    ],
+    "docs/raw-batches/2026-11-11-mcgill-14-music-theory-analysis.md": [
+      "material:0004126",
+      "material:0004127",
+      "material:0004128"
+    ],
+    "docs/raw-batches/2026-11-11-mcgill-16-music-history-courses.md": [
+      "material:0004129",
+      "material:0004130",
+      "material:0004131"
+    ],
+    "docs/raw-batches/2026-11-11-mcgill-17-current-requirements.md": [
+      "material:0004132"
+    ],
+    "docs/raw-batches/2026-11-11-mcgill-17-musicianship-ear-training.md": [
+      "material:0004133",
+      "material:0004134",
+      "material:0004135"
+    ],
+    "docs/raw-batches/2026-11-11-mcgill-18-related-music-technology-courses.md": [
+      "material:0004136"
+    ],
+    "docs/raw-batches/2026-11-11-mcgill-2026-27-ensemble-specific-material.md": [
+      "material:0004137",
+      "material:0004138",
+      "material:0004139"
+    ],
+    "docs/raw-batches/2026-11-11-mcgill-22-jazz-neighbor-courses.md": [
+      "material:0004140"
+    ],
+    "docs/raw-batches/2026-11-11-mcgill-58-direct-course-index.md": [
+      "material:0004141"
     ]
   },
   "by_concept": {
