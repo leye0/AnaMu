@@ -46,9 +46,10 @@ def evidence_index(items: Any) -> tuple[dict[str, dict], list[dict]]:
         status = item.get("state", "candidate")
         if status not in STATES:
             raise ValueError("unknown evidence state: " + str(status))
-        if status == "verified" and (not isinstance(item.get("provenance"), str)
-                                   or not item["provenance"].strip()):
-            raise ValueError("verified-labelled evidence requires source provenance")
+        if status in {"declared", "verified"} and (
+                not isinstance(item.get("provenance"), str)
+                or not item["provenance"].strip()):
+            raise ValueError("declared or verified evidence requires source provenance")
         facts = require_strings(item.get("facts", []), "evidence.facts")
         for fact in facts:
             if fact in found:
@@ -116,7 +117,11 @@ def check_fact_vocabulary(case: dict, known: set[str] | None) -> None:
     if known is None:
         return
     for name, entries in case["profiles"].items():
+        if not isinstance(entries, list):
+            raise ValueError("Evidence profile must contain a list: " + name)
         for entry in entries:
+            if not isinstance(entry, dict):
+                raise ValueError("Evidence profile item must be an object: " + name)
             for fact in entry.get("facts", []):
                 if fact not in known:
                     raise ValueError("Unknown evidence fact in profile " +
