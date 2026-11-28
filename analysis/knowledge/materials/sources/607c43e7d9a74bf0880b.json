@@ -1,0 +1,112 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-p0-12-courses-content-and-evidence-audit.md",
+  "units": [
+    {
+      "id": "material:0004170",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "AnaMu — vrai bilan de la chasse P0 : douze cours, deux cartes promues, dix preuves encore manquantes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026 · priorité à la matière réelle.** Les liens ci-dessous renvoient au code individuel, non uniquement à une grille de programme. Ce fichier distingue les ressources originales du cours et les comparateurs — aucune équivalen",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-p0-12-courses-content-and-evidence-audit.md",
+          "document_sha256": "ae7c353ef2b71a52815420a9c9bc4ca7f49b35e1f2e335cdef313e04ac1e7c3d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0bc64178913b04fbdab54958",
+            "heading_path": [
+              "AnaMu — vrai bilan de la chasse P0 : douze cours, deux cartes promues, dix preuves encore manquantes"
+            ],
+            "start_line": 1,
+            "end_line": 19,
+            "subtree_end_line": 33
+          },
+          "content_sha256": "c685abad4181956558ac977aad3529dd040d9503e5696f2ee3ddada8b8f8e39e",
+          "body_sha256": "2ce6e90e802f1ac914d713ecc71c740d2fa1893fe024b950841e3c4fc977f006",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004171",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources à forte densité acquises cette passe",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Modèle original de Luce Beaudet :** [site complet](https://bw.musique.umontreal.ca/nm/) et [lot source](2026-11-11-udem-beaudet-tonal-analysis-primary-model.md); onze axes structuraux avec partitions : MTE12041 et 12042 deviennent explo",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-p0-12-courses-content-and-evidence-audit.md",
+          "document_sha256": "ae7c353ef2b71a52815420a9c9bc4ca7f49b35e1f2e335cdef313e04ac1e7c3d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:de1bf739fb94ef43f9b87c08",
+            "heading_path": [
+              "AnaMu — vrai bilan de la chasse P0 : douze cours, deux cartes promues, dix preuves encore manquantes",
+              "Sources à forte densité acquises cette passe"
+            ],
+            "start_line": 20,
+            "end_line": 28,
+            "subtree_end_line": 28
+          },
+          "content_sha256": "e298ec9c93abc68a12011021fabdd324137c97e4cd64b1535042e6d6593d7294",
+          "body_sha256": "5d7a170d929e9983064dcfae48c49a0a231cec390cb25b5ab69f4c4380a2bc95",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004172",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Prochaine acquisition réellement utile",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : L'effort suivant doit chercher les **documents de section datés**, surtout MTE1205 (analyse moderne), EMU1310/2312 (gestuelle de direction de premier cycle), MTE1503 (composition avec Nicolas Bernier) et les deux histoires MUL. Pour MUTH322",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-p0-12-courses-content-and-evidence-audit.md",
+          "document_sha256": "ae7c353ef2b71a52815420a9c9bc4ca7f49b35e1f2e335cdef313e04ac1e7c3d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:051d2fe176fe55a5edb1f7b8",
+            "heading_path": [
+              "AnaMu — vrai bilan de la chasse P0 : douze cours, deux cartes promues, dix preuves encore manquantes",
+              "Prochaine acquisition réellement utile"
+            ],
+            "start_line": 29,
+            "end_line": 33,
+            "subtree_end_line": 33
+          },
+          "content_sha256": "95d287649cedd252db98bfe13b1057c15776329f78164e09bdf9f34653126e90",
+          "body_sha256": "393f4a39fae3d376231e584c28e82db7c71821f6e96f4dfe74f62ca38499de7a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

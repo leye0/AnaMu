@@ -4,8 +4,8 @@
     "status": "pilot_partial_not_full_inventory",
     "source_course_documents_indexed": 424,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 4141,
-    "material_units_requiring_review": 4141,
+    "material_units_active": 4238,
+    "material_units_requiring_review": 4238,
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
     "course_material_bindings_active": 3412,
@@ -19,7 +19,7 @@
     "extracted_candidate_assertions_stale": 0,
     "candidate_senses_pending_reconciliation": 6,
     "course_documents_with_active_units": 424,
-    "source_documents_with_active_units": 474
+    "source_documents_with_active_units": 484
   },
   "by_course": {
     "berklee:CM-211": [
@@ -9362,6 +9362,123 @@
     ],
     "docs/raw-batches/2026-11-11-mcgill-58-direct-course-index.md": [
       "material:0004141"
+    ],
+    "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md": [
+      "material:0004142",
+      "material:0004143",
+      "material:0004144",
+      "material:0004145",
+      "material:0004146",
+      "material:0004147",
+      "material:0004148",
+      "material:0004149",
+      "material:0004150",
+      "material:0004151",
+      "material:0004152",
+      "material:0004153",
+      "material:0004154",
+      "material:0004155",
+      "material:0004156",
+      "material:0004157",
+      "material:0004158",
+      "material:0004159",
+      "material:0004160",
+      "material:0004161",
+      "material:0004162",
+      "material:0004163",
+      "material:0004164",
+      "material:0004165"
+    ],
+    "docs/raw-batches/2026-11-11-mcgill-composition-placement-exam-2026-six-pages.md": [
+      "material:0004166",
+      "material:0004167",
+      "material:0004168",
+      "material:0004169"
+    ],
+    "docs/raw-batches/2026-11-11-p0-12-courses-content-and-evidence-audit.md": [
+      "material:0004170",
+      "material:0004171",
+      "material:0004172"
+    ],
+    "docs/raw-batches/2026-11-11-primary-exams-historical-notices-30-course-links.md": [
+      "material:0004173",
+      "material:0004174",
+      "material:0004175",
+      "material:0004176",
+      "material:0004177"
+    ],
+    "docs/raw-batches/2026-11-11-public-search-closure-87-partial-courses.md": [
+      "material:0004178",
+      "material:0004179",
+      "material:0004180",
+      "material:0004181",
+      "material:0004182",
+      "material:0004183",
+      "material:0004184",
+      "material:0004185",
+      "material:0004186",
+      "material:0004187",
+      "material:0004188"
+    ],
+    "docs/raw-batches/2026-11-11-revisit-28-active-primary-evidence-and-six-closures.md": [
+      "material:0004189",
+      "material:0004190",
+      "material:0004191",
+      "material:0004192",
+      "material:0004193"
+    ],
+    "docs/raw-batches/2026-11-11-udem-111-direct-notices.md": [
+      "material:0004194"
+    ],
+    "docs/raw-batches/2026-11-11-udem-16-music-program-path-pdfs-and-course-boundaries.md": [
+      "material:0004195",
+      "material:0004196",
+      "material:0004197"
+    ],
+    "docs/raw-batches/2026-11-11-udem-2025-26-35-music-seminar-candidate-groups.md": [
+      "material:0004198",
+      "material:0004199",
+      "material:0004200",
+      "material:0004201",
+      "material:0004202",
+      "material:0004203",
+      "material:0004204",
+      "material:0004205",
+      "material:0004206",
+      "material:0004207",
+      "material:0004208",
+      "material:0004209",
+      "material:0004210",
+      "material:0004211",
+      "material:0004212",
+      "material:0004213",
+      "material:0004214",
+      "material:0004215",
+      "material:0004216",
+      "material:0004217",
+      "material:0004218",
+      "material:0004219",
+      "material:0004220",
+      "material:0004221",
+      "material:0004222",
+      "material:0004223",
+      "material:0004224",
+      "material:0004225",
+      "material:0004226",
+      "material:0004227",
+      "material:0004228",
+      "material:0004229",
+      "material:0004230",
+      "material:0004231",
+      "material:0004232",
+      "material:0004233",
+      "material:0004234"
+    ],
+    "docs/raw-batches/2026-11-11-udem-2025-26-exact-section-postings-music.md": [
+      "material:0004235",
+      "material:0004236",
+      "material:0004237",
+      "material:0004238"
     ]
   },
   "by_concept": {
