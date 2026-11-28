@@ -1345,6 +1345,42 @@
       "justification": "Relation de deux phrases et hiérarchie cadentielle.",
       "state": "assistant_source_checked_proposed_link",
       "does_not_establish": "Variantes et expansions possibles."
+    },
+    {
+      "id": "material-knowledge:0000075",
+      "material_id": "material:0004401",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "rhythm.accent_grouping",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Attente métrique et anticipation d'une demi-unité comme cas particulier."
+      ],
+      "context": "Modèle de déplacement d'attaques ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "justification": "Attente métrique et anticipation d'une demi-unité comme cas particulier.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Ne pas réduire toutes les syncopes à ce modèle."
+    },
+    {
+      "id": "material-knowledge:0000076",
+      "material_id": "material:0004402",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "rhythm.accent_grouping",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Découpage et variantes, distinction du triolet."
+      ],
+      "context": "Huit subdivisions en contexte pop/rock ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "justification": "Découpage et variantes, distinction du triolet.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Pas une règle métrique universelle."
     }
   ]
 }

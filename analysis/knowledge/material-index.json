@@ -9,13 +9,13 @@
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
     "course_material_bindings_active": 3412,
-    "material_knowledge_bindings": 74,
+    "material_knowledge_bindings": 76,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
-    "material_knowledge_bindings_proposed": 61,
+    "material_knowledge_bindings_proposed": 63,
     "material_knowledge_bindings_unresolved": 13,
     "material_knowledge_bindings_confirmed": 0,
-    "extracted_candidate_mentions": 37,
-    "extracted_candidate_assertions": 80,
+    "extracted_candidate_mentions": 44,
+    "extracted_candidate_assertions": 94,
     "extracted_candidate_assertions_stale": 0,
     "candidate_senses_pending_reconciliation": 10,
     "course_documents_with_active_units": 424,
@@ -12758,7 +12758,9 @@
       "material:0000289"
     ],
     "rhythm.accent_grouping": [
-      "material:0000193"
+      "material:0000193",
+      "material:0004401",
+      "material:0004402"
     ],
     "rhythm.microtiming": [
       "material:0000329"

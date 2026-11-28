@@ -1,0 +1,1105 @@
+{
+  "schema_version": 1,
+  "extraction_contract": "passage_review_v2",
+  "input_commit": "7d3818c5f4f3a4d11f3fdd31a550b6dcb5eb7b5c",
+  "edition": "omt-mecanismes-08-14",
+  "scope": "Sept fragments complémentaires d'Open Music Theory tels que synthétisés et attribués dans le document AnaMu ; pas de nouvelle vérification du traité externe.",
+  "material_registry_path": "analysis/knowledge/materials/catalog.json",
+  "source_manifest_path": "analysis/knowledge/source-manifest.json",
+  "concept_registry_path": "analysis/knowledge/concepts.json",
+  "review_status": "assistant_source_checked_candidates_not_independently_validated",
+  "mentions": [
+    {
+      "id": "mention:omt-mecanismes-08-14:0001",
+      "material_id": "material:0004396",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+      "source_section_heading": "8. Collection pentatonique sans demi-ton — `pentatonic`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "b766999bc1e9a5de99a24dfee7d8b8cc157606774eb1bd006838d7519cea3e68",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:ef3cec5f349abc1d8347cf93",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "8. Collection pentatonique sans demi-ton — `pentatonic`"
+          ],
+          "start_line": 91,
+          "end_line": 102,
+          "subtree_end_line": 102
+        }
+      },
+      "label": "Pentatonique anhémitonique",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Pentatonique anhémitonique",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Collections pentatoniques et centres ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-mecanismes-08-14:0001",
+        "candidate-assertion:omt-mecanismes-08-14:0002"
+      ]
+    },
+    {
+      "id": "mention:omt-mecanismes-08-14:0002",
+      "material_id": "material:0004397",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+      "source_section_heading": "9. Collection par tons entiers — `whole_tone`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "0b654764069ccae357d671fa033255d24d3181a1d2960a0cbc14f2553a4257e3",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:5352b61d822199c686c1af98",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "9. Collection par tons entiers — `whole_tone`"
+          ],
+          "start_line": 103,
+          "end_line": 114,
+          "subtree_end_line": 114
+        }
+      },
+      "label": "Collection par tons entiers",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Collection par tons entiers",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Classes de hauteurs modulo 12 ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-mecanismes-08-14:0003",
+        "candidate-assertion:omt-mecanismes-08-14:0004"
+      ]
+    },
+    {
+      "id": "mention:omt-mecanismes-08-14:0003",
+      "material_id": "material:0004398",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+      "source_section_heading": "10. Collection octatonique et transposition limitée — `octatonic`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "f05ab6523fd8a4bdfeb71afef898aab1bdd93cfb6d66eaaf35bbd9bd0327ea03",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:1888e57a52f0a79082b2c1e1",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "10. Collection octatonique et transposition limitée — `octatonic`"
+          ],
+          "start_line": 115,
+          "end_line": 126,
+          "subtree_end_line": 126
+        }
+      },
+      "label": "Collection octatonique",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Collection octatonique",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Classes de hauteurs modulo 12 ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-mecanismes-08-14:0005",
+        "candidate-assertion:omt-mecanismes-08-14:0006"
+      ]
+    },
+    {
+      "id": "mention:omt-mecanismes-08-14:0004",
+      "material_id": "material:0004399",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+      "source_section_heading": "11. Classe d'ensembles et forme première — `pitch_class_set`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "093ca114f3d4ba361210cba36c02c8fee7744e87f05404861b41ca25e6d74f20",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:0a12f827ec69e35717f92bd4",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "11. Classe d'ensembles et forme première — `pitch_class_set`"
+          ],
+          "start_line": 127,
+          "end_line": 138,
+          "subtree_end_line": 138
+        }
+      },
+      "label": "Classes d'ensembles et forme première",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Classes d'ensembles et forme première",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Théorie des ensembles de classes de hauteurs ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-mecanismes-08-14:0007",
+        "candidate-assertion:omt-mecanismes-08-14:0008"
+      ]
+    },
+    {
+      "id": "mention:omt-mecanismes-08-14:0005",
+      "material_id": "material:0004400",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+      "source_section_heading": "12. Séries dodécaphoniques et opérations — `twelve_tone`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "65cb8a9e30b49b577b0b2e41158acac8c9caa14d1604d990fb8b403eba8aa020",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:719d5ab8010976246c1b6cce",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "12. Séries dodécaphoniques et opérations — `twelve_tone`"
+          ],
+          "start_line": 139,
+          "end_line": 150,
+          "subtree_end_line": 150
+        }
+      },
+      "label": "Série dodécaphonique et opérations",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Série dodécaphonique et opérations",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Série ordonnée de classes chromatiques ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-mecanismes-08-14:0009",
+        "candidate-assertion:omt-mecanismes-08-14:0010"
+      ]
+    },
+    {
+      "id": "mention:omt-mecanismes-08-14:0006",
+      "material_id": "material:0004401",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+      "source_section_heading": "13. Syncopes de déplacement métrique — `syncopation`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "d698416cf6a2fd8f7fb613dea1297d0e928a9759c7b10f2554f5cddde62c6e23",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:dd7c89b77f2f3b23e62d3cbf",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "13. Syncopes de déplacement métrique — `syncopation`"
+          ],
+          "start_line": 151,
+          "end_line": 162,
+          "subtree_end_line": 162
+        }
+      },
+      "label": "Syncope et déplacement métrique",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": "rhythm.accent_grouping",
+      "candidate_sense_id": null,
+      "unresolved_subject": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Modèle de déplacement d'attaques ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-mecanismes-08-14:0011",
+        "candidate-assertion:omt-mecanismes-08-14:0012"
+      ]
+    },
+    {
+      "id": "mention:omt-mecanismes-08-14:0007",
+      "material_id": "material:0004402",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+      "source_section_heading": "14. Groupements métriques 3+3+2 — `grouping_3_3_2`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "9bac4115e6bf2d04560f5b9d80e236c07f591980582b7566579237a7a1f26ae8",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:c974e78528cd564939ead3ac",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "14. Groupements métriques 3+3+2 — `grouping_3_3_2`"
+          ],
+          "start_line": 163,
+          "end_line": 174,
+          "subtree_end_line": 174
+        }
+      },
+      "label": "Groupements 3+3+2",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": "rhythm.accent_grouping",
+      "candidate_sense_id": null,
+      "unresolved_subject": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Huit subdivisions en contexte pop/rock ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-mecanismes-08-14:0013",
+        "candidate-assertion:omt-mecanismes-08-14:0014"
+      ]
+    }
+  ],
+  "assertions": [
+    {
+      "id": "candidate-assertion:omt-mecanismes-08-14:0001",
+      "mention_id": "mention:omt-mecanismes-08-14:0001",
+      "material_id": "material:0004396",
+      "reviewed_material_revision": 1,
+      "rule_key": "major_pentatonic_degrees",
+      "polarity": "definition",
+      "statement": "La pentatonique majeure correspond aux degrés 1, 2, 3, 5, 6 de la gamme majeure ; la même collection peut soutenir plusieurs centres.",
+      "scope": "Collections pentatoniques et centres ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "pitch_classes_provided",
+        "tonal_frame_declared"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "b766999bc1e9a5de99a24dfee7d8b8cc157606774eb1bd006838d7519cea3e68",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:ef3cec5f349abc1d8347cf93",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "8. Collection pentatonique sans demi-ton — `pentatonic`"
+          ],
+          "start_line": 91,
+          "end_line": 102,
+          "subtree_end_line": 102
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 84,
+        "end_codepoint_exclusive": 245,
+        "excerpt_sha256": "77d506310b13d9f8a65ee6f19c41014d965a1590ce4564efb2772df7107dd03b"
+      },
+      "applicability_conditions": "Collection majeure anhémitonique et cadre de référence déclaré.",
+      "inference_limit": "La collection ne détermine pas le centre mélodique.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-08-14:0002",
+      "mention_id": "mention:omt-mecanismes-08-14:0001",
+      "material_id": "material:0004396",
+      "reviewed_material_revision": 1,
+      "rule_key": "pentatonic_collection_not_culture",
+      "polarity": "negative",
+      "statement": "Une collection pentatonique ne suffit pas à attribuer une pratique culturelle ; les pratiques historiques nécessitent des sources spécialisées.",
+      "scope": "Collections pentatoniques et centres ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "identified_historical_sources",
+        "field_context_documented"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "b766999bc1e9a5de99a24dfee7d8b8cc157606774eb1bd006838d7519cea3e68",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:ef3cec5f349abc1d8347cf93",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "8. Collection pentatonique sans demi-ton — `pentatonic`"
+          ],
+          "start_line": 91,
+          "end_line": 102,
+          "subtree_end_line": 102
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 702,
+        "end_codepoint_exclusive": 809,
+        "excerpt_sha256": "1462a04df3d74ce1b97f76ce8e4d70bcda472ecc55a62a5509cdddc835daa9c8"
+      },
+      "applicability_conditions": "Attribution historique ou culturelle.",
+      "inference_limit": "Ne prouve pas un genre, une origine ou une tradition.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-08-14:0003",
+      "mention_id": "mention:omt-mecanismes-08-14:0002",
+      "material_id": "material:0004397",
+      "reviewed_material_revision": 1,
+      "rule_key": "whole_tone_collections_symmetry",
+      "polarity": "definition",
+      "statement": "Deux collections par tons entiers sont possibles dans les douze classes chromatiques : les classes paires ou impaires, sans demi-ton interne.",
+      "scope": "Classes de hauteurs modulo 12 ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "pitch_classes_provided",
+        "event_representation_declared"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "0b654764069ccae357d671fa033255d24d3181a1d2960a0cbc14f2553a4257e3",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:5352b61d822199c686c1af98",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "9. Collection par tons entiers — `whole_tone`"
+          ],
+          "start_line": 103,
+          "end_line": 114,
+          "subtree_end_line": 114
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 74,
+        "end_codepoint_exclusive": 226,
+        "excerpt_sha256": "2a5adf68847190124480c743d65c7932b5d9b164b84c435532b3d7835cb3fdc4"
+      },
+      "applicability_conditions": "Représentation chromatique à douze classes.",
+      "inference_limit": "Une collection partielle peut appartenir à plusieurs organisations.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-08-14:0004",
+      "mention_id": "mention:omt-mecanismes-08-14:0002",
+      "material_id": "material:0004397",
+      "reviewed_material_revision": 1,
+      "rule_key": "whole_tone_not_function_intent",
+      "polarity": "negative",
+      "statement": "Le contenu en classes de hauteurs, même symétrique, ne suffit pas à déduire la fonction ou l'intention.",
+      "scope": "Classes de hauteurs modulo 12 ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "phrase_context_annotated",
+        "audition_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "0b654764069ccae357d671fa033255d24d3181a1d2960a0cbc14f2553a4257e3",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:5352b61d822199c686c1af98",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "9. Collection par tons entiers — `whole_tone`"
+          ],
+          "start_line": 103,
+          "end_line": 114,
+          "subtree_end_line": 114
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 702,
+        "end_codepoint_exclusive": 777,
+        "excerpt_sha256": "a70911b08853dd283771d7c204148e57efe5d7672eed32799852669df9044f65"
+      },
+      "applicability_conditions": "Analyse contextualisée de la symétrie.",
+      "inference_limit": "Ne mesure ni tension ni relâchement perçus.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-08-14:0005",
+      "mention_id": "mention:omt-mecanismes-08-14:0003",
+      "material_id": "material:0004398",
+      "reviewed_material_revision": 1,
+      "rule_key": "octatonic_transposition_invariance",
+      "polarity": "definition",
+      "statement": "Une collection octatonique alterne demi-tons et tons, reste invariante sous T3, T6 et T9 et admet trois collections distinctes.",
+      "scope": "Classes de hauteurs modulo 12 ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "pitch_classes_provided",
+        "declared_transformation_operation"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "f05ab6523fd8a4bdfeb71afef898aab1bdd93cfb6d66eaaf35bbd9bd0327ea03",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:1888e57a52f0a79082b2c1e1",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "10. Collection octatonique et transposition limitée — `octatonic`"
+          ],
+          "start_line": 115,
+          "end_line": 126,
+          "subtree_end_line": 126
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 94,
+        "end_codepoint_exclusive": 237,
+        "excerpt_sha256": "97c64a41484afca0c505dacae7dbfcdfc8c3e083be3f4f69a10f8804aa3f9eb4"
+      },
+      "applicability_conditions": "Classes chromatiques modulo 12 et opération Tn définie.",
+      "inference_limit": "L'invariance n'établit pas l'intention compositionnelle.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-08-14:0006",
+      "mention_id": "mention:omt-mecanismes-08-14:0003",
+      "material_id": "material:0004398",
+      "reviewed_material_revision": 1,
+      "rule_key": "octatonic_partial_membership_not_exclusivity",
+      "polarity": "negative",
+      "statement": "La présence de quelques notes compatibles avec une collection octatonique ne démontre pas son emploi exclusif dans le passage.",
+      "scope": "Classes de hauteurs modulo 12 ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "pitch_classes_provided",
+        "identified_regions"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "f05ab6523fd8a4bdfeb71afef898aab1bdd93cfb6d66eaaf35bbd9bd0327ea03",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:1888e57a52f0a79082b2c1e1",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "10. Collection octatonique et transposition limitée — `octatonic`"
+          ],
+          "start_line": 115,
+          "end_line": 126,
+          "subtree_end_line": 126
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 643,
+        "end_codepoint_exclusive": 740,
+        "excerpt_sha256": "ca8d4b0f073cb65396eadf9ec7195fd43dfe060017dbdfcf476906a5f61a7c2a"
+      },
+      "applicability_conditions": "Fenêtre délimitée et collection candidate.",
+      "inference_limit": "Conserver les collections concurrentes et les notes hors collection.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-08-14:0007",
+      "mention_id": "mention:omt-mecanismes-08-14:0004",
+      "material_id": "material:0004399",
+      "reviewed_material_revision": 1,
+      "rule_key": "pitch_class_set_ti_equivalence",
+      "polarity": "definition",
+      "statement": "Une classe d'ensembles regroupe les collections apparentées par transposition et inversion ; la forme première en fournit une représentation normalisée.",
+      "scope": "Théorie des ensembles de classes de hauteurs ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "pitch_classes_provided",
+        "declared_transformation_operation",
+        "normalization_declared"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "093ca114f3d4ba361210cba36c02c8fee7744e87f05404861b41ca25e6d74f20",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:0a12f827ec69e35717f92bd4",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "11. Classe d'ensembles et forme première — `pitch_class_set`"
+          ],
+          "start_line": 127,
+          "end_line": 138,
+          "subtree_end_line": 138
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 89,
+        "end_codepoint_exclusive": 258,
+        "excerpt_sha256": "4397e07648723f61bb8dde7e5d9e471247138e1b9a48b3f584791ee60a240090"
+      },
+      "applicability_conditions": "Convention de forme première et opérations définies sur classes de hauteurs.",
+      "inference_limit": "L'identité de contenu intervallique seule ne suffit pas à définir toutes les équivalences T/I.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-08-14:0008",
+      "mention_id": "mention:omt-mecanismes-08-14:0004",
+      "material_id": "material:0004399",
+      "reviewed_material_revision": 1,
+      "rule_key": "prime_form_discards_context",
+      "polarity": "negative",
+      "statement": "La forme première n'explique pas à elle seule le phrasé, le registre, le rythme ou la perception.",
+      "scope": "Théorie des ensembles de classes de hauteurs ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "phrase_context_annotated",
+        "audition_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "093ca114f3d4ba361210cba36c02c8fee7744e87f05404861b41ca25e6d74f20",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:0a12f827ec69e35717f92bd4",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "11. Classe d'ensembles et forme première — `pitch_class_set`"
+          ],
+          "start_line": 127,
+          "end_line": 138,
+          "subtree_end_line": 138
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 788,
+        "end_codepoint_exclusive": 873,
+        "excerpt_sha256": "2a1270099374d11a52c7937863f190a1b057da4ef063dccaf0308e7e283eb1cc"
+      },
+      "applicability_conditions": "Comparaison sous la représentation normalisée.",
+      "inference_limit": "Une même classe d'ensembles ne démontre pas la même fonction thématique.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-08-14:0009",
+      "mention_id": "mention:omt-mecanismes-08-14:0005",
+      "material_id": "material:0004400",
+      "reviewed_material_revision": 1,
+      "rule_key": "twelve_tone_row_order_and_operations",
+      "polarity": "definition",
+      "statement": "La série de référence contient chacune des douze classes une fois dans un ordre donné ; ses variantes incluent prime, inversion, rétrograde, rétrograde de l'inversion et transpositions.",
+      "scope": "Série ordonnée de classes chromatiques ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "event_representation_declared",
+        "identified_occurrences",
+        "declared_transformation_operation"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "65cb8a9e30b49b577b0b2e41158acac8c9caa14d1604d990fb8b403eba8aa020",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:719d5ab8010976246c1b6cce",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "12. Séries dodécaphoniques et opérations — `twelve_tone`"
+          ],
+          "start_line": 139,
+          "end_line": 150,
+          "subtree_end_line": 150
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 85,
+        "end_codepoint_exclusive": 281,
+        "excerpt_sha256": "4da5c9c4a356f6131eef1a7f5e736b4ed205ce6043dc0c973f9d5c6a280fcf1a"
+      },
+      "applicability_conditions": "Série de référence et segmentation ordonnée déclarées.",
+      "inference_limit": "Un agrégat non ordonné de douze classes ne prouve pas la présence d'une série.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-08-14:0010",
+      "mention_id": "mention:omt-mecanismes-08-14:0005",
+      "material_id": "material:0004400",
+      "reviewed_material_revision": 1,
+      "rule_key": "twelve_tone_not_all_serialism",
+      "polarity": "negative",
+      "statement": "Le dodécaphonisme et le sérialisme ne sont pas synonymes et les usages des compositeurs varient.",
+      "scope": "Série ordonnée de classes chromatiques ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "identified_historical_sources",
+        "style_context"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "65cb8a9e30b49b577b0b2e41158acac8c9caa14d1604d990fb8b403eba8aa020",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:719d5ab8010976246c1b6cce",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "12. Séries dodécaphoniques et opérations — `twelve_tone`"
+          ],
+          "start_line": 139,
+          "end_line": 150,
+          "subtree_end_line": 150
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 758,
+        "end_codepoint_exclusive": 850,
+        "excerpt_sha256": "8592af3d48e619ef622c137edf5b9f5fd4957d34e72dad44f6556181c8f0a96e"
+      },
+      "applicability_conditions": "Attribution d'une pratique compositionnelle.",
+      "inference_limit": "Ne déduit pas un système à partir d'une seule séquence.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-08-14:0011",
+      "mention_id": "mention:omt-mecanismes-08-14:0006",
+      "material_id": "material:0004401",
+      "reviewed_material_revision": 1,
+      "rule_key": "syncopation_displaced_expected_attacks",
+      "polarity": "definition",
+      "statement": "Une syncope de déplacement peut déplacer des attaques attendues sur temps forts vers des positions faibles ; l'anticipation d'une demi-unité est un modèle particulier.",
+      "scope": "Modèle de déplacement d'attaques ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "metric_positions",
+        "event_representation_declared",
+        "audition_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "d698416cf6a2fd8f7fb613dea1297d0e928a9759c7b10f2554f5cddde62c6e23",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:dd7c89b77f2f3b23e62d3cbf",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "13. Syncopes de déplacement métrique — `syncopation`"
+          ],
+          "start_line": 151,
+          "end_line": 162,
+          "subtree_end_line": 162
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 81,
+        "end_codepoint_exclusive": 273,
+        "excerpt_sha256": "e86b30404a2464774a7b45301979cd637c764793781812b29cfb61557eb01840"
+      },
+      "applicability_conditions": "Pulsation, niveau métrique et attentes déclarés.",
+      "inference_limit": "Une attaque hors temps seule ne prouve pas l'attente ni la perception de syncope.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-08-14:0012",
+      "mention_id": "mention:omt-mecanismes-08-14:0006",
+      "material_id": "material:0004401",
+      "reviewed_material_revision": 1,
+      "rule_key": "syncopation_model_not_cultural_universal",
+      "polarity": "negative",
+      "statement": "Le modèle de déplacement ne couvre pas toutes les syncopes des différentes traditions.",
+      "scope": "Modèle de déplacement d'attaques ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "style_context",
+        "field_context_documented"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "d698416cf6a2fd8f7fb613dea1297d0e928a9759c7b10f2554f5cddde62c6e23",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:dd7c89b77f2f3b23e62d3cbf",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "13. Syncopes de déplacement métrique — `syncopation`"
+          ],
+          "start_line": 151,
+          "end_line": 162,
+          "subtree_end_line": 162
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 730,
+        "end_codepoint_exclusive": 793,
+        "excerpt_sha256": "164c04741a2467fe846f4c197647c7c07b7141ee65aa34588a36e6ec1e2351bf"
+      },
+      "applicability_conditions": "Comparaison de styles et traditions.",
+      "inference_limit": "Ne pas attribuer une pratique culturelle par ce patron seul.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-08-14:0013",
+      "mention_id": "mention:omt-mecanismes-08-14:0007",
+      "material_id": "material:0004402",
+      "reviewed_material_revision": 1,
+      "rule_key": "grouping_eight_subdivisions_332",
+      "polarity": "definition",
+      "statement": "Le groupement 3+3+2 découpe huit subdivisions en deux groupes de trois puis un de deux ; 3+2+3 et 2+3+3 sont des variantes de groupement.",
+      "scope": "Huit subdivisions en contexte pop/rock ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "metric_positions",
+        "event_representation_declared"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "9bac4115e6bf2d04560f5b9d80e236c07f591980582b7566579237a7a1f26ae8",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:c974e78528cd564939ead3ac",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "14. Groupements métriques 3+3+2 — `grouping_3_3_2`"
+          ],
+          "start_line": 163,
+          "end_line": 174,
+          "subtree_end_line": 174
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 79,
+        "end_codepoint_exclusive": 253,
+        "excerpt_sha256": "0933c4e5a7cd641b115c7d3674fd479feff2cf796f1db4cb1cbc07913f5a5671"
+      },
+      "applicability_conditions": "Subdivisions égales et niveau de groupement identifiés.",
+      "inference_limit": "Un groupement de trois subdivisions binaires n'est pas automatiquement un triolet.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-08-14:0014",
+      "mention_id": "mention:omt-mecanismes-08-14:0007",
+      "material_id": "material:0004402",
+      "reviewed_material_revision": 1,
+      "rule_key": "grouping_332_style_scope",
+      "polarity": "negative",
+      "statement": "Un exemple de groupement 3+3+2 en pop/rock ne prouve pas l'universalité de ce groupement ou sa provenance culturelle.",
+      "scope": "Huit subdivisions en contexte pop/rock ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "style_context",
+        "audition_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "9bac4115e6bf2d04560f5b9d80e236c07f591980582b7566579237a7a1f26ae8",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:c974e78528cd564939ead3ac",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "14. Groupements métriques 3+3+2 — `grouping_3_3_2`"
+          ],
+          "start_line": 163,
+          "end_line": 174,
+          "subtree_end_line": 174
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 708,
+        "end_codepoint_exclusive": 787,
+        "excerpt_sha256": "cb6dd09df5fa5fbc2bda8882d1eb432ddd6edaf251ed43f755c2f9651ac64996"
+      },
+      "applicability_conditions": "Contexte pop/rock déclaré.",
+      "inference_limit": "La perception de groupement exige des indices d'accent et d'écoute.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    }
+  ],
+  "passage_reviews": [
+    {
+      "material_id": "material:0004396",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "b766999bc1e9a5de99a24dfee7d8b8cc157606774eb1bd006838d7519cea3e68",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:ef3cec5f349abc1d8347cf93",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "8. Collection pentatonique sans demi-ton — `pentatonic`"
+          ],
+          "start_line": 91,
+          "end_line": 102,
+          "subtree_end_line": 102
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Lecture intégrale du fragment ; mécanisme, apport analytique, attribution et limites consignés. Clôture limitée à ce passage.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004397",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "0b654764069ccae357d671fa033255d24d3181a1d2960a0cbc14f2553a4257e3",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:5352b61d822199c686c1af98",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "9. Collection par tons entiers — `whole_tone`"
+          ],
+          "start_line": 103,
+          "end_line": 114,
+          "subtree_end_line": 114
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Lecture intégrale du fragment ; mécanisme, apport analytique, attribution et limites consignés. Clôture limitée à ce passage.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004398",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "f05ab6523fd8a4bdfeb71afef898aab1bdd93cfb6d66eaaf35bbd9bd0327ea03",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:1888e57a52f0a79082b2c1e1",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "10. Collection octatonique et transposition limitée — `octatonic`"
+          ],
+          "start_line": 115,
+          "end_line": 126,
+          "subtree_end_line": 126
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Lecture intégrale du fragment ; mécanisme, apport analytique, attribution et limites consignés. Clôture limitée à ce passage.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004399",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "093ca114f3d4ba361210cba36c02c8fee7744e87f05404861b41ca25e6d74f20",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:0a12f827ec69e35717f92bd4",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "11. Classe d'ensembles et forme première — `pitch_class_set`"
+          ],
+          "start_line": 127,
+          "end_line": 138,
+          "subtree_end_line": 138
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Lecture intégrale du fragment ; mécanisme, apport analytique, attribution et limites consignés. Clôture limitée à ce passage.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004400",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "65cb8a9e30b49b577b0b2e41158acac8c9caa14d1604d990fb8b403eba8aa020",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:719d5ab8010976246c1b6cce",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "12. Séries dodécaphoniques et opérations — `twelve_tone`"
+          ],
+          "start_line": 139,
+          "end_line": 150,
+          "subtree_end_line": 150
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Lecture intégrale du fragment ; mécanisme, apport analytique, attribution et limites consignés. Clôture limitée à ce passage.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004401",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "d698416cf6a2fd8f7fb613dea1297d0e928a9759c7b10f2554f5cddde62c6e23",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:dd7c89b77f2f3b23e62d3cbf",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "13. Syncopes de déplacement métrique — `syncopation`"
+          ],
+          "start_line": 151,
+          "end_line": 162,
+          "subtree_end_line": 162
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Lecture intégrale du fragment ; mécanisme, apport analytique, attribution et limites consignés. Clôture limitée à ce passage.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004402",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "9bac4115e6bf2d04560f5b9d80e236c07f591980582b7566579237a7a1f26ae8",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:c974e78528cd564939ead3ac",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "14. Groupements métriques 3+3+2 — `grouping_3_3_2`"
+          ],
+          "start_line": 163,
+          "end_line": 174,
+          "subtree_end_line": 174
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Lecture intégrale du fragment ; mécanisme, apport analytique, attribution et limites consignés. Clôture limitée à ce passage.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    }
+  ],
+  "coverage": {
+    "selected_material_units": 7,
+    "mentions": 7,
+    "candidate_assertions": 14,
+    "assertions_human_reviewed": 0
+  },
+  "revision_contract": "Review and claims expire when material revision or source span changes."
+}
