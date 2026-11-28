@@ -1,0 +1,1245 @@
+{
+  "source_document": "docs/data/optional-knowledge-seeds-2026.json",
+  "units": [
+    {
+      "id": "material:0006433",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "schema_version",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/schema_version",
+            "json_pointer": "/schema_version",
+            "record_identity": null
+          },
+          "content_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006434",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "as_of",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/as_of",
+            "json_pointer": "/as_of",
+            "record_identity": null
+          },
+          "content_sha256": "146a623ac4a8012181e40b52ebd863a16cb1f15e5f3c8cbb3699e78c13516055",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006435",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "status",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/status",
+            "json_pointer": "/status",
+            "record_identity": null
+          },
+          "content_sha256": "e8020535f9700cd980b3e36843223f3eda04e73461e72cd4e60e937db677d977",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006436",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "policy",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/policy",
+            "json_pointer": "/policy",
+            "record_identity": null
+          },
+          "content_sha256": "9b2adf3705743aff0d3f8bfa6af56a729e923740e8be1dd1d1b4d082fbada6e1",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006437",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "mcgill_recommended",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sources/mcgill_recommended",
+            "json_pointer": "/sources/mcgill_recommended",
+            "record_identity": null
+          },
+          "content_sha256": "478991c103ecbfe8d8b2e8a4a898a97f911c9df2e8d47d0b4df0ee84ee14b890",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006438",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "berklee_composition_department",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sources/berklee_composition_department",
+            "json_pointer": "/sources/berklee_composition_department",
+            "record_identity": null
+          },
+          "content_sha256": "5bebb390d09871e5897a578ebdbce2cc09858a4ef22826742f583cedd347a7cf",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006439",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "berklee_jazz_department",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sources/berklee_jazz_department",
+            "json_pointer": "/sources/berklee_jazz_department",
+            "record_identity": null
+          },
+          "content_sha256": "79a0e5feca385ddc7c10f09635c6adb55f3051a251a7c0efc14ae465f592afc5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006440",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "berklee_screen_scoring_department",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sources/berklee_screen_scoring_department",
+            "json_pointer": "/sources/berklee_screen_scoring_department",
+            "record_identity": null
+          },
+          "content_sha256": "72accef2bd676817737c24dc46239e662ff3f74481b53f3d4a92a96fa2c8ce8a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006441",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "berklee_jazz_degree",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sources/berklee_jazz_degree",
+            "json_pointer": "/sources/berklee_jazz_degree",
+            "record_identity": null
+          },
+          "content_sha256": "d285a4d53241fb94e13a311a5843b0da0e7a1f09921c2108a959178bd840fc51",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006442",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "berklee_screen_scoring_degree",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sources/berklee_screen_scoring_degree",
+            "json_pointer": "/sources/berklee_screen_scoring_degree",
+            "record_identity": null
+          },
+          "content_sha256": "ae8abe81795b8eb817ea64e9f61141f77b8d2b986a504f3f8ad650ef428e8b56",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006443",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Advanced Digital Studio Composition 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/0",
+            "json_pointer": "/candidates/0",
+            "record_identity": "institution_code:McGill:MUCO 542"
+          },
+          "content_sha256": "200a4c22e95c63b229ef3ca82fc23035f446d832fbd669df83af8d3f9d493185",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006444",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Opera After 1900",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/1",
+            "json_pointer": "/candidates/1",
+            "record_identity": "institution_code:McGill:MUHL 388"
+          },
+          "content_sha256": "9a9692c961df88d3efbcc432d1bc3337a11cbe38cf0b6990b00a2f2d6712652c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006445",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Modal Counterpoint 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/2",
+            "json_pointer": "/candidates/2",
+            "record_identity": "institution_code:McGill:MUTH 302"
+          },
+          "content_sha256": "cf714a375ead9872caa4b738c10e8573ed6efaa4c1b7b7eb3e2da23f8d4f1241",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006446",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Tonal Counterpoint 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/3",
+            "json_pointer": "/candidates/3",
+            "record_identity": "institution_code:McGill:MUTH 304"
+          },
+          "content_sha256": "d18bb82941a602ad66e9023ac2826a067908e866e12dacb6c2c5ba148fae4b36",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006447",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Topics in Post-Tonal Analysis",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/4",
+            "json_pointer": "/candidates/4",
+            "record_identity": "institution_code:McGill:MUTH 322"
+          },
+          "content_sha256": "7373b7119c3c4a4f9224d7545c7445252ba0e35ffa0e5fc95ac187561283ec7f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006448",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Schenkerian Theory and Analysis",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/5",
+            "json_pointer": "/candidates/5",
+            "record_identity": "institution_code:McGill:MUTH 528"
+          },
+          "content_sha256": "10561e5840ae586ee575113d7a8be452043be1c9a06c1c641b7fd9c82051d005",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006449",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Mathematical Models for Musical Analysis",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/6",
+            "json_pointer": "/candidates/6",
+            "record_identity": "institution_code:McGill:MUTH 538"
+          },
+          "content_sha256": "d498df86c4e46fbd93a5ff0cf7b49433e326f8a5f4bbcca8cd8cb53b5ec7bc52",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006450",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Advanced Writing Techniques",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/7",
+            "json_pointer": "/candidates/7",
+            "record_identity": "institution_code:McGill:MUTH 539"
+          },
+          "content_sha256": "7c1d4a137ad6a4a9e1a4cadd760741631bcd90487aac2e97251510d3e5cdc46a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006451",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "The Composer's Toolkit: Shaping Sound in Time",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/8",
+            "json_pointer": "/candidates/8",
+            "record_identity": "institution_code:Berklee:CM-103"
+          },
+          "content_sha256": "2e3a3cb698f790dab5f8b2d2902632806b456702c9b45f77b45bf21a8ffd4df3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006452",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Guitar Composition Techniques for Performers/Composers",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/9",
+            "json_pointer": "/candidates/9",
+            "record_identity": "institution_code:Berklee:CM-225"
+          },
+          "content_sha256": "88e33ac2686dce0c38eb1a7e2c10c24944e5137df08d6e3512397e8db84857b7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006453",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "The Art of Modulation",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/10",
+            "json_pointer": "/candidates/10",
+            "record_identity": "institution_code:Berklee:CM-227"
+          },
+          "content_sha256": "0345921c2d39d5b1190e76328f7e5c1eb76a6f3e354a8faa2594bcc42acd5fdf",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006454",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Composing for Acoustic Keyboards",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/11",
+            "json_pointer": "/candidates/11",
+            "record_identity": "institution_code:Berklee:CM-261"
+          },
+          "content_sha256": "6e118bae976a8eb8a07c2f65d20828e6d0e3d906f7d3e9fe4428978b1615e607",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006455",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Special Topics in Composition and Conducting 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/12",
+            "json_pointer": "/candidates/12",
+            "record_identity": "institution_code:Berklee:CM-280"
+          },
+          "content_sha256": "74f0a8bd4b71ba4bd8252fda55620f963008e79875a58a3e3fcc28a99ed250e8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006456",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Chord Scale Voicings for Arranging",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/13",
+            "json_pointer": "/candidates/13",
+            "record_identity": "institution_code:Berklee:AR-201"
+          },
+          "content_sha256": "89207fab6d7ffd676d583db04f7c4b0b8810f4487d937f5ac94cdbea8832e82e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006457",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Survey of Jazz Composition and Arranging",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/14",
+            "json_pointer": "/candidates/14",
+            "record_identity": "institution_code:Berklee:AR-228"
+          },
+          "content_sha256": "8ac1455cd55f62fc1080f86895d8a59185a18d2a2c54c87a8a5a8e1a62d8e9a5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006458",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Arranging for the Middle, High School, and College Jazz Band",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/15",
+            "json_pointer": "/candidates/15",
+            "record_identity": "institution_code:Berklee:AR-323"
+          },
+          "content_sha256": "e14baec991f9ecb23f80a72053fbe9b7e95b24e64242a81aadb2c0d860ea9076",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006459",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Big Band Arranging and Score Analysis",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/16",
+            "json_pointer": "/candidates/16",
+            "record_identity": "institution_code:Berklee:AR-331"
+          },
+          "content_sha256": "f05d9b97adef29dd23a14b5d8bb891a28b42502db34f6a9e9979ccc6467ec19d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006460",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Jazz Arranging for Small Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/17",
+            "json_pointer": "/candidates/17",
+            "record_identity": "institution_code:Berklee:AR-340"
+          },
+          "content_sha256": "6686b6fefe4b38d572b58a86ad4be41d30410926803bbc757401186bd142bb9e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006461",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/18",
+            "json_pointer": "/candidates/18",
+            "record_identity": "institution_code:Berklee:CM-320"
+          },
+          "content_sha256": "a96011cd81de0d37b8608fd760614844c56ac6c1d2dbf5a4f13497d5167d1075",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006462",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Jazz Composition 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/19",
+            "json_pointer": "/candidates/19",
+            "record_identity": "institution_code:Berklee:CM-373"
+          },
+          "content_sha256": "7f359095b455da6b459152a048046e4429efb3d167a42846236e4b0eaec8a6bb",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006463",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Jazz Composition 3",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/20",
+            "json_pointer": "/candidates/20",
+            "record_identity": "institution_code:Berklee:CM-375"
+          },
+          "content_sha256": "334fe314a4dd2869af5b4683cc4c6444cebb497a3322d0626e22e398514205f7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006464",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Post Bebop Harmonic Innovations",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/21",
+            "json_pointer": "/candidates/21",
+            "record_identity": "institution_code:Berklee:CM-385"
+          },
+          "content_sha256": "ab93ee2711f55513e35d12231aef8846ed020ab7087d8cf97693b975391517cf",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006465",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Introduction to Film and Media Scoring",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/22",
+            "json_pointer": "/candidates/22",
+            "record_identity": "institution_code:Berklee:FILM-200"
+          },
+          "content_sha256": "f7375530de68b6fe07e30bbb66297f37802a9e900ed651d894b71925ba5e5f75",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006466",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Scoring Technology 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/23",
+            "json_pointer": "/candidates/23",
+            "record_identity": "institution_code:Berklee:FILM-205"
+          },
+          "content_sha256": "a8a9e2ee9226c5882c25d096f6f737419da27d4c0d93e31ac28f18878f1709ef",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006467",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Dramatic Scoring 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/24",
+            "json_pointer": "/candidates/24",
+            "record_identity": "institution_code:Berklee:FILM-207"
+          },
+          "content_sha256": "3cb3aefa95a342bd9e48a86b0bcd8a8211560fceaad48a97c59a8b324a226b4a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006468",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Master Film Composers",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/25",
+            "json_pointer": "/candidates/25",
+            "record_identity": "institution_code:Berklee:FILM-343"
+          },
+          "content_sha256": "3671ac0d454412fa17634066deb18d1e878ba2c5d58ea56315a7f2b1159e07f8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006469",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Post-Romantic Scoring",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/26",
+            "json_pointer": "/candidates/26",
+            "record_identity": "institution_code:Berklee:FILM-351"
+          },
+          "content_sha256": "a1f2c1694c6e978494275de51d1d9a5d791ba8434078f781e642da762d800481",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006470",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Scoring Technology 3",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/27",
+            "json_pointer": "/candidates/27",
+            "record_identity": "institution_code:Berklee:FILM-405"
+          },
+          "content_sha256": "92a39e744e121377444cd68667dd420d3c139b213a3cf1fa61fd4c02f2754a44",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006471",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Dramatic Scoring 3",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/28",
+            "json_pointer": "/candidates/28",
+            "record_identity": "institution_code:Berklee:FILM-407"
+          },
+          "content_sha256": "c6477abf40f4bcdcf397ed9fdd632b33de65be0dbbe55c281b3f014b13f784f0",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006472",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "A World of Scoring",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/optional-knowledge-seeds-2026.json",
+          "document_sha256": "98ba797f82f3699b4d398e590d0d180dea0b11cc5ae0be1050aee41070b0d4cb",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/29",
+            "json_pointer": "/candidates/29",
+            "record_identity": "institution_code:Berklee:FILM-433"
+          },
+          "content_sha256": "0d0a213a15d4471841b8b7938c56e237e3687237c416f25fc7e4cba9f588e5fc",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

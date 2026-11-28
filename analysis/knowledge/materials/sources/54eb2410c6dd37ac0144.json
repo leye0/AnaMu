@@ -1,0 +1,780 @@
+{
+  "source_document": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+  "units": [
+    {
+      "id": "material:0006538",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "title",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/title",
+            "json_pointer": "/title",
+            "record_identity": null
+          },
+          "content_sha256": "df72b8d96543fea4f5cd9ce76ac72c81cebd1cb3d7036f1173044a2f94cf8d92",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006539",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "date",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/date",
+            "json_pointer": "/date",
+            "record_identity": null
+          },
+          "content_sha256": "749763b3c8999e0bdc5ab8b8bb1b770bc93742e8335207548ea5c7b5e9ac219e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006540",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "prior_studies",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/prior_studies",
+            "json_pointer": "/prior_studies",
+            "record_identity": null
+          },
+          "content_sha256": "e75e3eb4c217533219f0a75a9bccd3d2cbb8b3130b35816045eb6bcb6fa1f4dc",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006541",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "origin",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/origin",
+            "json_pointer": "/origin",
+            "record_identity": null
+          },
+          "content_sha256": "067bbcd6805c3ba76fb6a47b432a9f7e0000da162733367aca7f5095f2f9a429",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006542",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "method",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/method",
+            "json_pointer": "/method",
+            "record_identity": null
+          },
+          "content_sha256": "75d07786a8585281e94b9cb87b0fe7a82e7b7a9c0404605008ba154163abfa44",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006543",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "citations",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/citations",
+            "json_pointer": "/citations",
+            "record_identity": null
+          },
+          "content_sha256": "eea463ae758279207038e3662a4e9ebb4c192c20707a0ba4a223541ccc6bd452",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006544",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "control_claims",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/control_claims",
+            "json_pointer": "/control_claims",
+            "record_identity": null
+          },
+          "content_sha256": "48ebfa59e54791f02bfc0c97d9de2880740410c8e0e6dfeb257acfa7ac68770b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006545",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "compound-six",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/files/0",
+            "json_pointer": "/files/0",
+            "record_identity": "id:compound-six"
+          },
+          "content_sha256": "60d365a314ee7d31c9150a14a6809a35bf1a0f6641e46cfdad4753f774920c76",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006546",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "compound-twelve",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/files/1",
+            "json_pointer": "/files/1",
+            "record_identity": "id:compound-twelve"
+          },
+          "content_sha256": "29d02c0c63632a5b0045779281763d7361096663694ebcc819d7828a610ddb39",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006547",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "three-against-two-linear",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/files/2",
+            "json_pointer": "/files/2",
+            "record_identity": "id:three-against-two-linear"
+          },
+          "content_sha256": "d3a993def828faf631e7233e6508b3f85d2cc3fee49fcacbee74063cb2cb35ae",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006548",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "three-against-two-phase",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/files/3",
+            "json_pointer": "/files/3",
+            "record_identity": "id:three-against-two-phase"
+          },
+          "content_sha256": "93379629b3161eef6b58b22f6d88283ada1cb78718f6722967b778a1982bb1a9",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006549",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "seven-eight-rotations",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/files/4",
+            "json_pointer": "/files/4",
+            "record_identity": "id:seven-eight-rotations"
+          },
+          "content_sha256": "ef093eba278a1188406fb779095491350086dc96905257313d503369d41298cc",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006550",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "backbeat-displace-return",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/files/5",
+            "json_pointer": "/files/5",
+            "record_identity": "id:backbeat-displace-return"
+          },
+          "content_sha256": "a8fc3d6133a4da881f2fe530f52c567e233b1ba1c5ec0b5196308770dfb8c2a3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006551",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "five-hit-phrase",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/files/6",
+            "json_pointer": "/files/6",
+            "record_identity": "id:five-hit-phrase"
+          },
+          "content_sha256": "10c30a8300122a4b2815782fc91d4d2e8bcf889158aaef7f51e27c99afbc2884",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006552",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "metronome-gaps",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/files/7",
+            "json_pointer": "/files/7",
+            "record_identity": "id:metronome-gaps"
+          },
+          "content_sha256": "4f4b6886b3ca8114223adc32459c16a431807c3b7619d3e34fa3d8049b33ee7d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006553",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "nine-eight-accents",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/files/8",
+            "json_pointer": "/files/8",
+            "record_identity": "id:nine-eight-accents"
+          },
+          "content_sha256": "3f616cc98bb2282b4b827bc2b6a5ed4bd7597f70c12b1fcf371aa9bf053a6089",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006554",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "five-four-accents",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/files/9",
+            "json_pointer": "/files/9",
+            "record_identity": "id:five-four-accents"
+          },
+          "content_sha256": "2cb1dceaa15421b0e83ee4c8a64fe665f75a2f29dcbb7be699ef6d170e992cf5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006555",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "four-vs-three-bar-cycle",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/files/10",
+            "json_pointer": "/files/10",
+            "record_identity": "id:four-vs-three-bar-cycle"
+          },
+          "content_sha256": "e71333b233813eaf84700563dab4fea6b21e5a83bb5138bcf54aa86ea90232ab",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006556",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "total_files",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/total_files",
+            "json_pointer": "/total_files",
+            "record_identity": null
+          },
+          "content_sha256": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006557",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "total_note_ons",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/total_note_ons",
+            "json_pointer": "/total_note_ons",
+            "record_identity": null
+          },
+          "content_sha256": "3aa82834b765ea0421465a785c356dea163579e448ca30a0a2c8684dc5ae590a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006558",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "no_new_engine",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scope_limits/no_new_engine",
+            "json_pointer": "/scope_limits/no_new_engine",
+            "record_identity": null
+          },
+          "content_sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006559",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "no_test_suite_changes",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scope_limits/no_test_suite_changes",
+            "json_pointer": "/scope_limits/no_test_suite_changes",
+            "record_identity": null
+          },
+          "content_sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006560",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "no_acoustic_analysis",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scope_limits/no_acoustic_analysis",
+            "json_pointer": "/scope_limits/no_acoustic_analysis",
+            "record_identity": null
+          },
+          "content_sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006561",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "no_audio_outputs",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scope_limits/no_audio_outputs",
+            "json_pointer": "/scope_limits/no_audio_outputs",
+            "record_identity": null
+          },
+          "content_sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006562",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "no_course_registry_changes",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-compound-meter-studies-2026-11-17.json",
+          "document_sha256": "832413d0e1aeefefafd62478aafbb721794d3bd05372150c85a106f30d1e9d46",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scope_limits/no_course_registry_changes",
+            "json_pointer": "/scope_limits/no_course_registry_changes",
+            "record_identity": null
+          },
+          "content_sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

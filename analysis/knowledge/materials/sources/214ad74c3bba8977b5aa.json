@@ -1,0 +1,2361 @@
+{
+  "source_document": "docs/data/mcgill-composition-2026.json",
+  "units": [
+    {
+      "id": "material:0006324",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "schema_version",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/schema_version",
+            "json_pointer": "/schema_version",
+            "record_identity": null
+          },
+          "content_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006325",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "program_id",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/program_id",
+            "json_pointer": "/program_id",
+            "record_identity": null
+          },
+          "content_sha256": "81e6d072ac653d3642e3b4d8d3557db205d0a5f3cd01cfbf35ceaa4af0011c9d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006326",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_url",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/source_url",
+            "json_pointer": "/source_url",
+            "record_identity": null
+          },
+          "content_sha256": "478991c103ecbfe8d8b2e8a4a898a97f911c9df2e8d47d0b4df0ee84ee14b890",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006327",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_accessed",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/source_accessed",
+            "json_pointer": "/source_accessed",
+            "record_identity": null
+          },
+          "content_sha256": "146a623ac4a8012181e40b52ebd863a16cb1f15e5f3c8cbb3699e78c13516055",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006328",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "total_credits",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/total_credits",
+            "json_pointer": "/total_credits",
+            "record_identity": null
+          },
+          "content_sha256": "6affdae3b3c1aa6aa7689e9b6a7b3225a636aa1ac0025f490cca1285ceaf1487",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006329",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "foundation_credits",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/requirements/foundation_credits",
+            "json_pointer": "/requirements/foundation_credits",
+            "record_identity": null
+          },
+          "content_sha256": "e29c9c180c6279b0b02abd6a1801c7c04082cf486ec027aa13515e4f3884bb6b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006330",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "foundation_listed_prerequisite_credits",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/requirements/foundation_listed_prerequisite_credits",
+            "json_pointer": "/requirements/foundation_listed_prerequisite_credits",
+            "record_identity": null
+          },
+          "content_sha256": "785f3ec7eb32f30b90cd0fcf3657d388b5ff4297f2f9716ff66e9b69c05ddd09",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006331",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "foundation_large_ensemble_credits",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/requirements/foundation_large_ensemble_credits",
+            "json_pointer": "/requirements/foundation_large_ensemble_credits",
+            "record_identity": null
+          },
+          "content_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006332",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "foundation_non_music_electives_credits",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/requirements/foundation_non_music_electives_credits",
+            "json_pointer": "/requirements/foundation_non_music_electives_credits",
+            "record_identity": null
+          },
+          "content_sha256": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006333",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "required_credits",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/requirements/required_credits",
+            "json_pointer": "/requirements/required_credits",
+            "record_identity": null
+          },
+          "content_sha256": "d029fa3a95e174a19934857f535eb9427d967218a36ea014b70ad704bc6c8d1c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006334",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "complementary_credits",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/requirements/complementary_credits",
+            "json_pointer": "/requirements/complementary_credits",
+            "record_identity": null
+          },
+          "content_sha256": "3fdba35f04dc8c462986c992bcf875546257113072a909c162f7e470e581e278",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006335",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "complementary_music_theory_credits",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/requirements/complementary_music_theory_credits",
+            "json_pointer": "/requirements/complementary_music_theory_credits",
+            "record_identity": null
+          },
+          "content_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006336",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "complementary_music_history_credits",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/requirements/complementary_music_history_credits",
+            "json_pointer": "/requirements/complementary_music_history_credits",
+            "record_identity": null
+          },
+          "content_sha256": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006337",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "complementary_ensemble_credits",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/requirements/complementary_ensemble_credits",
+            "json_pointer": "/requirements/complementary_ensemble_credits",
+            "record_identity": null
+          },
+          "content_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006338",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "elective_credits",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/requirements/elective_credits",
+            "json_pointer": "/requirements/elective_credits",
+            "record_identity": null
+          },
+          "content_sha256": "4ec9599fc203d176a301536c2e091a19bc852759b255bd6818810a42c5fed14a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006339",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "elective_non_music_credits",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/requirements/elective_non_music_credits",
+            "json_pointer": "/requirements/elective_non_music_credits",
+            "record_identity": null
+          },
+          "content_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006340",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "elective_free_credits",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/requirements/elective_free_credits",
+            "json_pointer": "/requirements/elective_free_credits",
+            "record_identity": null
+          },
+          "content_sha256": "e629fa6598d732768f7c726b4b621285f9c3b85303900aa912017db7617d8bdb",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006341",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "status",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/status",
+            "json_pointer": "/status",
+            "record_identity": null
+          },
+          "content_sha256": "0e568e0b78352b0ebe0967fd1ded92408f20ba77dcfd78b2ccc9d4a8d1308f1a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006342",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Western Musical Traditions",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/0",
+            "json_pointer": "/courses/0",
+            "record_identity": null
+          },
+          "content_sha256": "235301c375a1cbf7ecbcfbca6d5b52270f9c468c78a8e9cd28068e6fc577dec3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006343",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "BMus Practical Lessons 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/1",
+            "json_pointer": "/courses/1",
+            "record_identity": null
+          },
+          "content_sha256": "85c55ae443247805831c4ea5edcdd04e8d338a33d6b94b7356f16042bdada8e9",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006344",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "BMus Practical Lessons 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/2",
+            "json_pointer": "/courses/2",
+            "record_identity": null
+          },
+          "content_sha256": "43e350de158da575b14068310f4d7ecb56a895861983dc6b7eb531ba64637ff5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006345",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Music as a Profession 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/3",
+            "json_pointer": "/courses/3",
+            "record_identity": null
+          },
+          "content_sha256": "8c2dcd316891162d611988945759b1f0bbceeb8a82a6b3e203653f778bc31367",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006346",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Musicianship Training 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/4",
+            "json_pointer": "/courses/4",
+            "record_identity": null
+          },
+          "content_sha256": "540ca89ae223b0800d9157ed96d14453e084dfff41771b964a853180bcc90931",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006347",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Musicianship Training 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/5",
+            "json_pointer": "/courses/5",
+            "record_identity": null
+          },
+          "content_sha256": "5355417357cb3beb7817451bb0ff129b62f29d5a8da2efb17eeb5101a89b7f63",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006348",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Musicianship (Keyboard) 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/6",
+            "json_pointer": "/courses/6",
+            "record_identity": null
+          },
+          "content_sha256": "92c5e9f0056173a1c69a33c00738a7cd89ee3151348cae14b99cbb4977e743c2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006349",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Musicianship (Keyboard) 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/7",
+            "json_pointer": "/courses/7",
+            "record_identity": null
+          },
+          "content_sha256": "f4708f56a70c4b380b60675823f4555ff0f5a6fe70bf009a194112a3853ba45c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006350",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Theory and Analysis 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/8",
+            "json_pointer": "/courses/8",
+            "record_identity": null
+          },
+          "content_sha256": "c8fb613f200d540307e65a12094f4603b0d9bfe5955805290bfeb91292651cba",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006351",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Theory and Analysis 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/9",
+            "json_pointer": "/courses/9",
+            "record_identity": null
+          },
+          "content_sha256": "985f9e13dcfe602f8b51b0d526251cc4a9673ade5e73fa863615c3c10405abbb",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006352",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Tonal Composition 1A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/10",
+            "json_pointer": "/courses/10",
+            "record_identity": null
+          },
+          "content_sha256": "2111e4e4f7ca23fac74989ed678a732e34d62dc513294398fab8cc5b730eecf0",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006353",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Tonal Composition 1B",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/11",
+            "json_pointer": "/courses/11",
+            "record_identity": null
+          },
+          "content_sha256": "db12fadadaf79f02ee43927f46b5cb22bb59a50e19362309f4d784407e976896",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006354",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Composition 1A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/12",
+            "json_pointer": "/courses/12",
+            "record_identity": null
+          },
+          "content_sha256": "dddc8ade10b48e15dec612e4aad4ac5a46fc0a269a240e052bf50fb166f6815b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006355",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Composition 1B",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/13",
+            "json_pointer": "/courses/13",
+            "record_identity": null
+          },
+          "content_sha256": "43c85bc224e9e9cd1ab62d0df2646f7a88d09510bc92476492348b66e5b2a794",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006356",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Orchestration 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/14",
+            "json_pointer": "/courses/14",
+            "record_identity": null
+          },
+          "content_sha256": "a323ed9db87a058527ed16f5b0862bde96b210e75521153cb50a2ee62a5937d3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006357",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Composition 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/15",
+            "json_pointer": "/courses/15",
+            "record_identity": null
+          },
+          "content_sha256": "7505c7b07796483996af3c4757e18c80622694c313f586634d1e1368b3c1b840",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006358",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Composition 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/16",
+            "json_pointer": "/courses/16",
+            "record_identity": null
+          },
+          "content_sha256": "8d668ac703f531422e0426f2803f9fbc5cba74142ccd8614d535a86596618e0e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006359",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Digital Studio Composition 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/17",
+            "json_pointer": "/courses/17",
+            "record_identity": null
+          },
+          "content_sha256": "89ad06efc1551667e7c6006138a6abcc7c7dd110977ef7c68a3dba5eb8368788",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006360",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Digital Studio Composition 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/18",
+            "json_pointer": "/courses/18",
+            "record_identity": null
+          },
+          "content_sha256": "5c3cc3967620e8007823827a1b823c95498c22ce7888185218270082796cf9cc",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006361",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Orchestration 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/19",
+            "json_pointer": "/courses/19",
+            "record_identity": null
+          },
+          "content_sha256": "f58b7e0a52c42deee50e8a910d36c6e36b841261a7d6141de45c008a79c02ee4",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006362",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Composition 3",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/20",
+            "json_pointer": "/courses/20",
+            "record_identity": null
+          },
+          "content_sha256": "c0e5648284d03db82139c83ec9ef2b198a70837d4dce2939e3baf1a6e7aa6cd0",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006363",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Composition 3",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/21",
+            "json_pointer": "/courses/21",
+            "record_identity": null
+          },
+          "content_sha256": "26f189a345fcb56fb6f4e1b719056a13a7d13ca3c1e4fa52f85294a909f2911a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006364",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Orchestration 3",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/22",
+            "json_pointer": "/courses/22",
+            "record_identity": null
+          },
+          "content_sha256": "eaafffc57474d440c16150ac90977f27f83f5a9030d3b0f12a2092a54ac1f4c3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006365",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Advanced Digital Studio Composition 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/23",
+            "json_pointer": "/courses/23",
+            "record_identity": null
+          },
+          "content_sha256": "2f532f80b23b8c64362791615593d8ba9b67d866ff7276c56da1d4de253ae1f7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006366",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Topics in Composition",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/24",
+            "json_pointer": "/courses/24",
+            "record_identity": null
+          },
+          "content_sha256": "d0e778b765304dd708f07c30a2d3630804496c5581f9da409528b1433b173357",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006367",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Theory and Analysis 4",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/25",
+            "json_pointer": "/courses/25",
+            "record_identity": null
+          },
+          "content_sha256": "91eec397f0c404f904375d22d5860f1c53de879763acf94e41632d11223ca3a2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006368",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Theory and Analysis 5",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/26",
+            "json_pointer": "/courses/26",
+            "record_identity": null
+          },
+          "content_sha256": "60ffbf2d0416a8831d62bc7a9806c4897851a2f28ebede6821bc5c4f3f009196",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006369",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Musicianship Training 3",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/27",
+            "json_pointer": "/courses/27",
+            "record_identity": null
+          },
+          "content_sha256": "e3a158470e347b519bfdf462eebb1608e9813edcf897c21e2b768c6378e1081f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006370",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Musicianship Training 4",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/28",
+            "json_pointer": "/courses/28",
+            "record_identity": null
+          },
+          "content_sha256": "1d27c74ec09d61298d32b7d013ad8e634e1d1aa0d7cdea58f87e7ea9425e332a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006371",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Post-Tonal Musicianship",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/29",
+            "json_pointer": "/courses/29",
+            "record_identity": null
+          },
+          "content_sha256": "f6613ea01261c2038a7cb068827a52d35b40c4fbbaae305495aeb2c07312d0fd",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006372",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Critical Thinking About Music",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/30",
+            "json_pointer": "/courses/30",
+            "record_identity": null
+          },
+          "content_sha256": "ce0c1209c2e3f2b3272b84edb5277106d37fb8809d5131ce02c73912475b7e2f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006373",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "BMus Practical Lessons 3",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/31",
+            "json_pointer": "/courses/31",
+            "record_identity": null
+          },
+          "content_sha256": "87f24028df11d9a4ddb63212fb069779079d3677fbc0310580c232efeb993b23",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006374",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "BMus Practical Lessons 4",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/32",
+            "json_pointer": "/courses/32",
+            "record_identity": null
+          },
+          "content_sha256": "6a14ea8e7882a9c732dbf90ce710a01d433e31165416541d1c72bc4ed63c77cc",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006375",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "BMus Concentration Final Examination",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/33",
+            "json_pointer": "/courses/33",
+            "record_identity": null
+          },
+          "content_sha256": "3b54419bf56f7355fc39295ac948a3eb31ec90166fb7a4b583ecef38148eb2fc",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006376",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Music as a Profession 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/34",
+            "json_pointer": "/courses/34",
+            "record_identity": null
+          },
+          "content_sha256": "650648e4324a7ff8f3490c7959d0c4dc3e497de63c3ca1a08c26e49409fa2533",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006377",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Modal Counterpoint 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/35",
+            "json_pointer": "/courses/35",
+            "record_identity": null
+          },
+          "content_sha256": "d63471a9185961786df55beee2454bcbf50000c93edca85f58da56b3d7a8a720",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006378",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Tonal Counterpoint 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/36",
+            "json_pointer": "/courses/36",
+            "record_identity": null
+          },
+          "content_sha256": "eb70463feef2d12b3ef436451af40b280397b53f5254bba97e1a943d99dfa95d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006379",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Early Twentieth-Century Music",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/37",
+            "json_pointer": "/courses/37",
+            "record_identity": null
+          },
+          "content_sha256": "df15a3623bb2f49aa25876b26e855253d4f99438492af92f4317b4ac25b9547f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006380",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Canadian Music",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/38",
+            "json_pointer": "/courses/38",
+            "record_identity": null
+          },
+          "content_sha256": "30c89e18eb0a606d2dbc9e4ad64e66c5427a919c0019d1a43ba1e97e0a3d8b08",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006381",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Music since 1945",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/39",
+            "json_pointer": "/courses/39",
+            "record_identity": null
+          },
+          "content_sha256": "252c274efcbf0f819b0808f5e01d03b022bef43ce3ac573e127e4cefa934b610",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006382",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Jazz Vocal Workshop",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/40",
+            "json_pointer": "/courses/40",
+            "record_identity": null
+          },
+          "content_sha256": "011ebb66f17704bd378c34b17a9a2d09ca0b455f5c0e9400a190889fc733726b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006383",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Cappella Antica",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/41",
+            "json_pointer": "/courses/41",
+            "record_identity": null
+          },
+          "content_sha256": "717213750dd5af1ad158a07dbdd5599e2b0f818af4e0aa5f051bbe21aa3fdec4",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006384",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Baroque Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/42",
+            "json_pointer": "/courses/42",
+            "record_identity": null
+          },
+          "content_sha256": "2cf6a921964e160e0ac770c9f8a59c6d02b0c688d0d5c3e616ce74ff1a7c678d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006385",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Cappella McGill",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/43",
+            "json_pointer": "/courses/43",
+            "record_identity": null
+          },
+          "content_sha256": "8d71382338e336898efa3a02ef3452cecc86878023409fdff182399b835980ce",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006386",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "McGill Wind Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/44",
+            "json_pointer": "/courses/44",
+            "record_identity": null
+          },
+          "content_sha256": "9353611383be73c7e853c26798ba8ea375e8191e9035966b99088b7d77a15a99",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006387",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Chamber Jazz Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/45",
+            "json_pointer": "/courses/45",
+            "record_identity": null
+          },
+          "content_sha256": "b08e71558c90831f5b85ca73d75fd97f13cf65d242d5fa35a8a637a2213107fb",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006388",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Choral Ensembles",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/46",
+            "json_pointer": "/courses/46",
+            "record_identity": null
+          },
+          "content_sha256": "e40f0b9ab77b434c8a9ff27454a95c35c4ade1e9be8e3ff214ebaf10d822ea4e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006389",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Contemporary Music Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/47",
+            "json_pointer": "/courses/47",
+            "record_identity": null
+          },
+          "content_sha256": "a5552d25f4261ba0c823884390dc399457f1aed96ddb781db605f9a31cf33588",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006390",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Jazz Ensembles",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/48",
+            "json_pointer": "/courses/48",
+            "record_identity": null
+          },
+          "content_sha256": "2b9a474628bc590f3689355837e24fe04597005d50ad7b163bb71e0166f10718",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006391",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "McGill Symphony Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/49",
+            "json_pointer": "/courses/49",
+            "record_identity": null
+          },
+          "content_sha256": "3ff712ed17390ea6a61edb677fc773a04cda6bb49d603e6ecd21ddc82d9c2bfd",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006392",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Advanced Digital Studio Composition 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/50",
+            "json_pointer": "/courses/50",
+            "record_identity": null
+          },
+          "content_sha256": "067db3e4c2cf29fce0ffe5bdc3076a58e43cd17175a4180fba23322a5eb71456",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006393",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Opera After 1900",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/51",
+            "json_pointer": "/courses/51",
+            "record_identity": null
+          },
+          "content_sha256": "285899873c32f38bd6765745a7bd1dbbe800b6d14faa453a0a8e237b14da1bda",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006394",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Modal Counterpoint 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/52",
+            "json_pointer": "/courses/52",
+            "record_identity": null
+          },
+          "content_sha256": "a5ca62038a4bd3b03724c7d613d46c1caad892ce5569b0a423ec811bf570d1d4",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006395",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Tonal Counterpoint 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/53",
+            "json_pointer": "/courses/53",
+            "record_identity": null
+          },
+          "content_sha256": "460125421e64b585ea618adea0e7746064e6374645a0fc6890156b60aeef53b3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006396",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Topics in Post-Tonal Analysis",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/54",
+            "json_pointer": "/courses/54",
+            "record_identity": null
+          },
+          "content_sha256": "8a6f450c31589e4550386865badfab5fbdfb1de810926a3db835f37427d14d06",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006397",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Schenkerian Theory and Analysis",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/55",
+            "json_pointer": "/courses/55",
+            "record_identity": null
+          },
+          "content_sha256": "f3dfca61ca717e94d8107ad3f22f7512f5b09a55ef6c85368cc782be6156293f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006398",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Mathematical Models for Musical Analysis",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/56",
+            "json_pointer": "/courses/56",
+            "record_identity": null
+          },
+          "content_sha256": "69cfd59e25081aefd1e74f122e0eb108e0e5430acecfef770e905c7e00fcfe1b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006399",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Advanced Writing Techniques",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-composition-2026.json",
+          "document_sha256": "e0e605517d6ce6fd874df8c380f272c1c6eff08c1f00be8dbf717471f3be02d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/57",
+            "json_pointer": "/courses/57",
+            "record_identity": null
+          },
+          "content_sha256": "65749297da91aa739fb17f9c6e7b7ff95682c95910561efe5791d6e87b07b75d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
