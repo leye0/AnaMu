@@ -1,0 +1,408 @@
+{
+  "source_document": "docs/data/udem-2026-27-eight-official-music-plans.json",
+  "units": [
+    {
+      "id": "material:0006960",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "schema_version",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-2026-27-eight-official-music-plans.json",
+          "document_sha256": "541f8e4bd2593f3bcff8e6ab80f3bc209d4a263ef6351fc23a84fe0e981b6cf4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/schema_version",
+            "json_pointer": "/schema_version",
+            "record_identity": null
+          },
+          "content_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006961",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "as_of",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-2026-27-eight-official-music-plans.json",
+          "document_sha256": "541f8e4bd2593f3bcff8e6ab80f3bc209d4a263ef6351fc23a84fe0e981b6cf4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/as_of",
+            "json_pointer": "/as_of",
+            "record_identity": null
+          },
+          "content_sha256": "4e9c38edd9fe3c0bdf16b4dad77c1241b1d98163621b9ba96a81c39308d39a58",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006962",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "academic_year",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-2026-27-eight-official-music-plans.json",
+          "document_sha256": "541f8e4bd2593f3bcff8e6ab80f3bc209d4a263ef6351fc23a84fe0e981b6cf4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/academic_year",
+            "json_pointer": "/academic_year",
+            "record_identity": null
+          },
+          "content_sha256": "3401b53695e99d762cd690657c434783ef4b270d1aee0e1ff68c48a9ef58bd49",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006963",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_catalogue",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-2026-27-eight-official-music-plans.json",
+          "document_sha256": "541f8e4bd2593f3bcff8e6ab80f3bc209d4a263ef6351fc23a84fe0e981b6cf4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/source_catalogue",
+            "json_pointer": "/source_catalogue",
+            "record_identity": null
+          },
+          "content_sha256": "fbcfd9819b359de843331305e3607e8bf8222579751f42f1bc21c181cfb5b877",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006964",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "baseline_total_unchanged",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-2026-27-eight-official-music-plans.json",
+          "document_sha256": "541f8e4bd2593f3bcff8e6ab80f3bc209d4a263ef6351fc23a84fe0e981b6cf4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/baseline_total_unchanged",
+            "json_pointer": "/baseline_total_unchanged",
+            "record_identity": null
+          },
+          "content_sha256": "15a26c6fa5151c712acc7ee45a1fd525ab85b801f096847c7d5fdf49efeabb4d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006965",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Analyse des paramètres de mouvement de la musique",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-2026-27-eight-official-music-plans.json",
+          "document_sha256": "541f8e4bd2593f3bcff8e6ab80f3bc209d4a263ef6351fc23a84fe0e981b6cf4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/documented_courses/0",
+            "json_pointer": "/documented_courses/0",
+            "record_identity": null
+          },
+          "content_sha256": "b498c4d3c411c0b2f2feb2a0aac19ffb0dbf2c903a17b147047151be6a0bd734",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006966",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Analyse musicale et interprétation",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-2026-27-eight-official-music-plans.json",
+          "document_sha256": "541f8e4bd2593f3bcff8e6ab80f3bc209d4a263ef6351fc23a84fe0e981b6cf4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/documented_courses/1",
+            "json_pointer": "/documented_courses/1",
+            "record_identity": null
+          },
+          "content_sha256": "cf962abcddf633fc03edfc7346b9c421efdb8b9669e91547932083d12ce252a8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006967",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "FORUM international du NEM — leadership sonore",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-2026-27-eight-official-music-plans.json",
+          "document_sha256": "541f8e4bd2593f3bcff8e6ab80f3bc209d4a263ef6351fc23a84fe0e981b6cf4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/documented_courses/2",
+            "json_pointer": "/documented_courses/2",
+            "record_identity": null
+          },
+          "content_sha256": "fb975f7ae1a04eafe4620ba34ca09ed6503f495d560c8609f1b57e8204098d29",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006968",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Théories et contextes de la musique ancienne",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-2026-27-eight-official-music-plans.json",
+          "document_sha256": "541f8e4bd2593f3bcff8e6ab80f3bc209d4a263ef6351fc23a84fe0e981b6cf4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/documented_courses/3",
+            "json_pointer": "/documented_courses/3",
+            "record_identity": null
+          },
+          "content_sha256": "03a3a2a74c5f9f486a4d1facef2c520c78dbc8f9536d6cb955d3293f0fdef5a0",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006969",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Spectacle musical à Paris, 1900–1935",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-2026-27-eight-official-music-plans.json",
+          "document_sha256": "541f8e4bd2593f3bcff8e6ab80f3bc209d4a263ef6351fc23a84fe0e981b6cf4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/documented_courses/4",
+            "json_pointer": "/documented_courses/4",
+            "record_identity": null
+          },
+          "content_sha256": "49238e1f64722eb08ceb1ddfef0db49a5def70eb266cdb166e99e889ac03e954",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006970",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Alban Berg, Lulu : analyse musicale et dramaturgique",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-2026-27-eight-official-music-plans.json",
+          "document_sha256": "541f8e4bd2593f3bcff8e6ab80f3bc209d4a263ef6351fc23a84fe0e981b6cf4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/documented_courses/5",
+            "json_pointer": "/documented_courses/5",
+            "record_identity": null
+          },
+          "content_sha256": "7584be658a3c4b5f2bc6b94e1279bedc3fe92ac76526c07f044a7a49567da08f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006971",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Tango du Río de la Plata : interprétation, analyse, composition",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-2026-27-eight-official-music-plans.json",
+          "document_sha256": "541f8e4bd2593f3bcff8e6ab80f3bc209d4a263ef6351fc23a84fe0e981b6cf4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/documented_courses/6",
+            "json_pointer": "/documented_courses/6",
+            "record_identity": null
+          },
+          "content_sha256": "fedc10c992f25f0b874760145baffa2e363c2bc1be5501ac6d78489d1f691e36",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006972",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "L'opéra et les arts de la scène",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-2026-27-eight-official-music-plans.json",
+          "document_sha256": "541f8e4bd2593f3bcff8e6ab80f3bc209d4a263ef6351fc23a84fe0e981b6cf4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/documented_courses/7",
+            "json_pointer": "/documented_courses/7",
+            "record_identity": null
+          },
+          "content_sha256": "914504086f7e950cf3e47263ee28da89c38591833504415fab2a379f396c7917",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

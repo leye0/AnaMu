@@ -1,0 +1,1245 @@
+{
+  "source_document": "docs/data/udem-35-mui-entry-skills-2026.json",
+  "units": [
+    {
+      "id": "material:0007003",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "schema_version",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/schema_version",
+            "json_pointer": "/schema_version",
+            "record_identity": null
+          },
+          "content_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007004",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "as_of",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/as_of",
+            "json_pointer": "/as_of",
+            "record_identity": null
+          },
+          "content_sha256": "4e9c38edd9fe3c0bdf16b4dad77c1241b1d98163621b9ba96a81c39308d39a58",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007005",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "program_source",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/program_source",
+            "json_pointer": "/program_source",
+            "record_identity": null
+          },
+          "content_sha256": "90f89763d5c4d5e8e9240623b93186ae3ed6d66f564e576b37a9d89427787304",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007006",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_scope",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/source_scope",
+            "json_pointer": "/source_scope",
+            "record_identity": null
+          },
+          "content_sha256": "ceb3a9402742066b1c46ed878322ddb815c57fb30b1546a240eaf1918321b631",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007007",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "baseline_registry_unchanged",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/baseline_registry_unchanged",
+            "json_pointer": "/baseline_registry_unchanged",
+            "record_identity": null
+          },
+          "content_sha256": "15a26c6fa5151c712acc7ee45a1fd525ab85b801f096847c7d5fdf49efeabb4d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007008",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1023A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/0",
+            "json_pointer": "/courses/0",
+            "record_identity": null
+          },
+          "content_sha256": "33df2fca437f3e2e8fe3f6821d74f16286261b0c3b994b26c7d05e64933e27b5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007009",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1033A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/1",
+            "json_pointer": "/courses/1",
+            "record_identity": null
+          },
+          "content_sha256": "83626ae17f70935daff63fbe799d09d44ef3975f7325c49bf6c07e4c8d321d40",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007010",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1043A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/2",
+            "json_pointer": "/courses/2",
+            "record_identity": null
+          },
+          "content_sha256": "e5fc7a3413a3a573e0b469e94cfd4dd2ef2742d30205264f2afc4b1101c4353f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007011",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1053A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/3",
+            "json_pointer": "/courses/3",
+            "record_identity": null
+          },
+          "content_sha256": "871d96c887058618e76a7d4ee848961af024cd9da55a6c81a210ac3889caae30",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007012",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1073A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/4",
+            "json_pointer": "/courses/4",
+            "record_identity": null
+          },
+          "content_sha256": "2b1c5a3f0d9bea0327b01ec20439c5a15b2eff8172d4a20d65471ef7800a8711",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007013",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1083A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/5",
+            "json_pointer": "/courses/5",
+            "record_identity": null
+          },
+          "content_sha256": "ff659f30d7f1b6b8dd4a6e1d92dd9ffee7c9193799e600444b6512030acab32c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007014",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1103A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/6",
+            "json_pointer": "/courses/6",
+            "record_identity": null
+          },
+          "content_sha256": "581e81554ff8213d03d0c2c88d895596c6257bba7629559e9f22322ad9f3351c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007015",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1123A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/7",
+            "json_pointer": "/courses/7",
+            "record_identity": null
+          },
+          "content_sha256": "58a66d4c3e486b03d64ace8279b64edf9de112cf7617413f03901c750bc4426b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007016",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1132A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/8",
+            "json_pointer": "/courses/8",
+            "record_identity": null
+          },
+          "content_sha256": "dc458f64ac4e9fc286965deb072bfda136d9d2c9786e50dc869cf6987d7111e8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007017",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1143A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/9",
+            "json_pointer": "/courses/9",
+            "record_identity": null
+          },
+          "content_sha256": "7ba8f3e78afa8d65503c906b3e2d20a5e36a0ab4557d0c5f3db4c5eaa00a7a0a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007018",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1153A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/10",
+            "json_pointer": "/courses/10",
+            "record_identity": null
+          },
+          "content_sha256": "723096c3c7b9de8e265a7bb8d6c6bbee79aaffca0a4b743850ec612a17aa6fb3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007019",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1173A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/11",
+            "json_pointer": "/courses/11",
+            "record_identity": null
+          },
+          "content_sha256": "0970d0ae2a39ad7b4675bf5cee5ea678510173dc77625a0b24ecd5e781d96899",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007020",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1183A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/12",
+            "json_pointer": "/courses/12",
+            "record_identity": null
+          },
+          "content_sha256": "8baf06fd4cfd81595536e09cbf7b538964f1a5fb60631fb3ec46058a83c5e5e4",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007021",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1193A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/13",
+            "json_pointer": "/courses/13",
+            "record_identity": null
+          },
+          "content_sha256": "3a92a0d884421e8bb8b626199d88e234f9b29431c2a0c81a1e3818e9754f2043",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007022",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1203A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/14",
+            "json_pointer": "/courses/14",
+            "record_identity": null
+          },
+          "content_sha256": "1e85369317589e9256c69b25438ca15045574e198c59d97a8237f454d03f6f81",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007023",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1213A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/15",
+            "json_pointer": "/courses/15",
+            "record_identity": null
+          },
+          "content_sha256": "33b512b9568af327e84ce9b9e10158353205d41d4ac76888b6e2b4c14d6f6889",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007024",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1223A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/16",
+            "json_pointer": "/courses/16",
+            "record_identity": null
+          },
+          "content_sha256": "7e54806055a9e56261d08f71849f449e404509d27341bd10e6b1978410edb817",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007025",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1233A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/17",
+            "json_pointer": "/courses/17",
+            "record_identity": null
+          },
+          "content_sha256": "4dde655b58c85374e812b15faa546f58150ec5ef6bd08f1ea8dd35b38273d6b5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007026",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1243A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/18",
+            "json_pointer": "/courses/18",
+            "record_identity": null
+          },
+          "content_sha256": "0d1b10b96ab4aab8db2f9e585af25d6c684d6a328a4cead0efae911b142bfbba",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007027",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1253A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/19",
+            "json_pointer": "/courses/19",
+            "record_identity": null
+          },
+          "content_sha256": "c4baa4ff9a3b26589ad82f5ea355493fa80b7c3c986afb02bb27490585f3f777",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007028",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1263A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/20",
+            "json_pointer": "/courses/20",
+            "record_identity": null
+          },
+          "content_sha256": "12a46ddffe1535a711dbb411055eb93fb456be29cb9b874270aa4f36c9f2c1bc",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007029",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1273A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/21",
+            "json_pointer": "/courses/21",
+            "record_identity": null
+          },
+          "content_sha256": "db3aa158d4a24ed0cbc42d4dabfceba7cfe6d93b19d4d3f6c5d7f7b859d6022b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007030",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1283A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/22",
+            "json_pointer": "/courses/22",
+            "record_identity": null
+          },
+          "content_sha256": "60ea4e8c37f229a2a58eb9c22a6616386bc5442602b8773d51e1020c65e11d07",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007031",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1293A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/23",
+            "json_pointer": "/courses/23",
+            "record_identity": null
+          },
+          "content_sha256": "cc5293c84a611287cdd37df68280fc31e49f6d8e3f39a573399d7031c7c02220",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007032",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1303A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/24",
+            "json_pointer": "/courses/24",
+            "record_identity": null
+          },
+          "content_sha256": "97b56aa57bb065006d471e88b54e210cfd7e63287c7184610f15364c4f303d83",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007033",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1313A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/25",
+            "json_pointer": "/courses/25",
+            "record_identity": null
+          },
+          "content_sha256": "2395fb2009fb34ac5dd49161007c191039c7b3f7a6b14cecd39182ae649a0ea3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007034",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1403A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/26",
+            "json_pointer": "/courses/26",
+            "record_identity": null
+          },
+          "content_sha256": "ffdb24c9d947ad4cc8c040e03d2c05221877c9d3b3d347c551f46ceb98fbe3ee",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007035",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1413A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/27",
+            "json_pointer": "/courses/27",
+            "record_identity": null
+          },
+          "content_sha256": "f0a668904931b9d1a6a2c5f81768215043bcfd9b2c7f8058e2a8814497c32ef0",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007036",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1423A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/28",
+            "json_pointer": "/courses/28",
+            "record_identity": null
+          },
+          "content_sha256": "1541792e979a22e88717b0c55aa485156f772cd287706ea03756651db2518345",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007037",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1453A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/29",
+            "json_pointer": "/courses/29",
+            "record_identity": null
+          },
+          "content_sha256": "696d06a96c8b8c5321e62ac43b49628ffbc9f1b5a14578b8b57b29d1c7642fbc",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007038",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1463A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/30",
+            "json_pointer": "/courses/30",
+            "record_identity": null
+          },
+          "content_sha256": "4f6f45d09a542e590cd84adf8c4e112531962f5b45fa5c72add05a2ab307f828",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007039",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1473A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/31",
+            "json_pointer": "/courses/31",
+            "record_identity": null
+          },
+          "content_sha256": "9531c86a285a05dd0454f850b616f629257bb1ec0a1d1820f0b5865e071655b2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007040",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1483A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/32",
+            "json_pointer": "/courses/32",
+            "record_identity": null
+          },
+          "content_sha256": "3e2d0bd30b24403d005f1277a95007e99225fcd21596ad1199803b74cb8b56a9",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007041",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1523A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/33",
+            "json_pointer": "/courses/33",
+            "record_identity": null
+          },
+          "content_sha256": "0e9395c88a29377bb58fc627ed2e71de5c5c2672ca28b06f195b4fb0629d43a1",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007042",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1533A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-35-mui-entry-skills-2026.json",
+          "document_sha256": "48c1721b4db0461c807758dc35a4c0f507378cc4d4ee2dc2f47c751eade74efa",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/courses/34",
+            "json_pointer": "/courses/34",
+            "record_identity": null
+          },
+          "content_sha256": "cde1910b5afe00c3dd11bd9adf2d6f1e612646651579d57b27c07a5ba4b5c00f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

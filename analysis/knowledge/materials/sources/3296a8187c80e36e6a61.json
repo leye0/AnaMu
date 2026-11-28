@@ -1,0 +1,904 @@
+{
+  "source_document": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+  "units": [
+    {
+      "id": "material:0007253",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "schema_version",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/schema_version",
+            "json_pointer": "/schema_version",
+            "record_identity": null
+          },
+          "content_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007254",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "as_of",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/as_of",
+            "json_pointer": "/as_of",
+            "record_identity": null
+          },
+          "content_sha256": "4e9c38edd9fe3c0bdf16b4dad77c1241b1d98163621b9ba96a81c39308d39a58",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007255",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "baseline_registry_total_unchanged",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/baseline_registry_total_unchanged",
+            "json_pointer": "/baseline_registry_total_unchanged",
+            "record_identity": null
+          },
+          "content_sha256": "15a26c6fa5151c712acc7ee45a1fd525ab85b801f096847c7d5fdf49efeabb4d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007256",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "ensemble_documents_class",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/ensemble_documents_class",
+            "json_pointer": "/ensemble_documents_class",
+            "record_identity": null
+          },
+          "content_sha256": "17d24d0bf7bc4734297bfcf6ba358fb8b96d7d26276a4582d0c63d971435ac4a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007257",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1171",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/0",
+            "json_pointer": "/records/0",
+            "record_identity": null
+          },
+          "content_sha256": "c5e3a453e3e448b2311f515a1bf11d41f0bb3d0864b25c26d142b630ed2fb99e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007258",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1172",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/1",
+            "json_pointer": "/records/1",
+            "record_identity": null
+          },
+          "content_sha256": "4f5cc5977e6e5f22fe891afbce9ab223c5540b4e638ff1448a145abc54b1df85",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007259",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1173",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/2",
+            "json_pointer": "/records/2",
+            "record_identity": null
+          },
+          "content_sha256": "b5d0f0734abd293fc02cb5662aab48b89ce40ff6bb2eed4bb2c124737a48c60d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007260",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1191",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/3",
+            "json_pointer": "/records/3",
+            "record_identity": null
+          },
+          "content_sha256": "350046fb3bca174c74bdef9858731b821c39c9b3f08be042ab730d408b18da50",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007261",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1192",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/4",
+            "json_pointer": "/records/4",
+            "record_identity": null
+          },
+          "content_sha256": "fbb77ca32d5d963b2f31a69a508dd3f8d02a59e22d077e149f683cf6baeeb98c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007262",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1193",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/5",
+            "json_pointer": "/records/5",
+            "record_identity": null
+          },
+          "content_sha256": "da3a9eea9d672a85fe26ad3887d7f48cd96f67465b34e62afc258a9a72ac705e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007263",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1211",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/6",
+            "json_pointer": "/records/6",
+            "record_identity": null
+          },
+          "content_sha256": "072e403bffd94ab15fc28f8ffd4af3fa2f28365d3a0403945c71a6d57c589493",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007264",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1212",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/7",
+            "json_pointer": "/records/7",
+            "record_identity": null
+          },
+          "content_sha256": "2bbbb735544e2a5dd4ff464344f284312e91de2dc652da28d6967c53877a490a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007265",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1213",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/8",
+            "json_pointer": "/records/8",
+            "record_identity": null
+          },
+          "content_sha256": "8d5640c7499e26a8f6d30b067d65793eae7bb7ec4d332856bb91c8988073d8c5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007266",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1241",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/9",
+            "json_pointer": "/records/9",
+            "record_identity": null
+          },
+          "content_sha256": "9f765159311734d76c99f77fd21dbd9fd65c6550a96bf020b9779c6f399bf018",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007267",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1242",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/10",
+            "json_pointer": "/records/10",
+            "record_identity": null
+          },
+          "content_sha256": "e3064ca1cfe140033bfa8e8cc13cf875587f8fa7208f081a3dcb3122cd82500e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007268",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1243",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/11",
+            "json_pointer": "/records/11",
+            "record_identity": null
+          },
+          "content_sha256": "1a987113e8a6754042274603b5f07420bc1d6c4bfd7c900502e6aaae4249ac13",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007269",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1251",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/12",
+            "json_pointer": "/records/12",
+            "record_identity": null
+          },
+          "content_sha256": "c111ee9c97edb793198029050fe5be637a30f35aee39538340b4b97dead216aa",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007270",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1252",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/13",
+            "json_pointer": "/records/13",
+            "record_identity": null
+          },
+          "content_sha256": "df3d6816e83057d70aec38fb6f853ec5514aea1207049409e41f1f0671a3f7a9",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007271",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1253",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/14",
+            "json_pointer": "/records/14",
+            "record_identity": null
+          },
+          "content_sha256": "3b4b403693fa5e9e49ca3aa1872f5f999a62f1c946c6a159c643eff029342846",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007272",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1281",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/15",
+            "json_pointer": "/records/15",
+            "record_identity": null
+          },
+          "content_sha256": "4d31b4c855b4583c6e557a7c7e3d398df2b0ad3024980fdb5b9c657e6d5e4796",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007273",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1282",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/16",
+            "json_pointer": "/records/16",
+            "record_identity": null
+          },
+          "content_sha256": "777bd0fb64a206db69c67317f1e40ca3a97ce1ed008fb56c9043fa7fab7e5848",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007274",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1283",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/17",
+            "json_pointer": "/records/17",
+            "record_identity": null
+          },
+          "content_sha256": "759fe71ec5018b0e0252234e120ec1b44aa9eccf6cfa349672787362b837bf64",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007275",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1341",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/18",
+            "json_pointer": "/records/18",
+            "record_identity": null
+          },
+          "content_sha256": "57f133f53a9352cc53477a3a8ad27947a6d76fc557468944962033149c803482",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007276",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1342",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/19",
+            "json_pointer": "/records/19",
+            "record_identity": null
+          },
+          "content_sha256": "cc11725d43eca1dfb7a1a84c971e48adf78ae93c4196dbce1930c15edd76aeb2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007277",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1343",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/20",
+            "json_pointer": "/records/20",
+            "record_identity": null
+          },
+          "content_sha256": "eeb9fadfb37cd7843f480866c7daa1bb85924de56378671ea6ee7189977e1cdc",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007278",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1361",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/21",
+            "json_pointer": "/records/21",
+            "record_identity": null
+          },
+          "content_sha256": "53e7bf8cb240e231585ac754a4610317d1c84ac8aed911baea0c63a6726a7eb2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007279",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1362",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/22",
+            "json_pointer": "/records/22",
+            "record_identity": null
+          },
+          "content_sha256": "0d786980da248d98a19019325c3670c576408b6d6c2434f9b8c7e22feed06245",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007280",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1363",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/23",
+            "json_pointer": "/records/23",
+            "record_identity": null
+          },
+          "content_sha256": "b8fc9bd62db27fea4e51e2f2cf34d5b8920bfc3936eaf276938efb664b4f5052",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007281",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1441",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-ensemble-season-repertoire-2026-27.json",
+          "document_sha256": "15b053b8bc83db8481eb34d32a16f8f345b4833f4b5c22c1a3381f07fdc5b57f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/24",
+            "json_pointer": "/records/24",
+            "record_identity": null
+          },
+          "content_sha256": "5badbbd506e2655163e9699ecb09fc54446717dd672532ab85006218bef01ad2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

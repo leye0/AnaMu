@@ -1,0 +1,935 @@
+{
+  "source_document": "docs/data/udem-26-ensemble-gaps-2026.json",
+  "units": [
+    {
+      "id": "material:0006973",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "schema_version",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/schema_version",
+            "json_pointer": "/schema_version",
+            "record_identity": null
+          },
+          "content_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006974",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "as_of",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/as_of",
+            "json_pointer": "/as_of",
+            "record_identity": null
+          },
+          "content_sha256": "4e9c38edd9fe3c0bdf16b4dad77c1241b1d98163621b9ba96a81c39308d39a58",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006975",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "official_base_curriculum",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/official_base_curriculum",
+            "json_pointer": "/official_base_curriculum",
+            "record_identity": null
+          },
+          "content_sha256": "90f89763d5c4d5e8e9240623b93186ae3ed6d66f564e576b37a9d89427787304",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006976",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "degree_scope_course_count_unchanged",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/degree_scope_course_count_unchanged",
+            "json_pointer": "/degree_scope_course_count_unchanged",
+            "record_identity": null
+          },
+          "content_sha256": "15a26c6fa5151c712acc7ee45a1fd525ab85b801f096847c7d5fdf49efeabb4d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006977",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Atelier de musique baroque (3 niveaux)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/0",
+            "json_pointer": "/records/0",
+            "record_identity": null
+          },
+          "content_sha256": "0dbdf25a50616cb621536e63424c2cab730c4309a3bcc333c360efeb921a689e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006978",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Atelier de musique baroque (3 niveaux)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/1",
+            "json_pointer": "/records/1",
+            "record_identity": null
+          },
+          "content_sha256": "cd52b784da8891cd1ddea90c1be1e75ea53ff1a0807980a72cf3ce10218f4fa9",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006979",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Atelier de musique baroque (3 niveaux)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/2",
+            "json_pointer": "/records/2",
+            "record_identity": null
+          },
+          "content_sha256": "e144cae8e3f994f1f71720752b4e6357b9794da10d61784758878cc4ebba46ce",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006980",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Atelier de musique contemporaine 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/3",
+            "json_pointer": "/records/3",
+            "record_identity": null
+          },
+          "content_sha256": "582c7df7eea23e9515d2a644f34bc494ce1d0a0f66e9968cc868c4d9395d47ba",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006981",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ensemble de flûtes (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/4",
+            "json_pointer": "/records/4",
+            "record_identity": null
+          },
+          "content_sha256": "1d536560fc20111efc880d80c0ac948abd100f4baa456df97cea405838753eda",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006982",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ensemble de flûtes (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/5",
+            "json_pointer": "/records/5",
+            "record_identity": null
+          },
+          "content_sha256": "5d40bbeab16cd05df496b7671c5cd99e5377a57601debe18c004db38d47227b9",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006983",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ensemble de flûtes (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/6",
+            "json_pointer": "/records/6",
+            "record_identity": null
+          },
+          "content_sha256": "fa9b92777c26f4847d70330a1d56a0f6d124685552a4ddd8ea5195ffc8487417",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006984",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ensemble de guitares classique (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/7",
+            "json_pointer": "/records/7",
+            "record_identity": null
+          },
+          "content_sha256": "6fe9398d7c2e4633f2f183938c2c9919689df6a4c026f69f264ac8f397070d38",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006985",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ensemble de guitares classique (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/8",
+            "json_pointer": "/records/8",
+            "record_identity": null
+          },
+          "content_sha256": "1c3e1f49eac52acf6a67af702fc90959e11d19b56034e3cb5192f21005304a61",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006986",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ensemble de guitares classique (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/9",
+            "json_pointer": "/records/9",
+            "record_identity": null
+          },
+          "content_sha256": "935cdd913c3b62b18534545d30452d5ac53cd61d4d51832173243f6e5cbfbd3e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006987",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ensemble générique (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/10",
+            "json_pointer": "/records/10",
+            "record_identity": null
+          },
+          "content_sha256": "70833e369bea2ca53ea2b2c2b9c2a7a5df51f576c3abea757d2f0e090c8b025c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006988",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ensemble générique (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/11",
+            "json_pointer": "/records/11",
+            "record_identity": null
+          },
+          "content_sha256": "03393f4fc70a0d94bcb13c802a6cd74151981fb6b6fbf9a2c69739ca54357edd",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006989",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ensemble générique (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/12",
+            "json_pointer": "/records/12",
+            "record_identity": null
+          },
+          "content_sha256": "47c50d70b9ead83996a4435b8c0a8c878ac143069b1cf53cdcfb8772b6aa7d24",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006990",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Quatuor de saxophones (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/13",
+            "json_pointer": "/records/13",
+            "record_identity": null
+          },
+          "content_sha256": "9fca359d8652fa17a8c9add118d7019f8d9fb2d61570799692db75a181ac6abf",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006991",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Quatuor de saxophones (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/14",
+            "json_pointer": "/records/14",
+            "record_identity": null
+          },
+          "content_sha256": "cd56f78718bf19ffadb7bdd85e321c10bd91118060f4df19c2a9a6ff26d30f7a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006992",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Quatuor de saxophones (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/15",
+            "json_pointer": "/records/15",
+            "record_identity": null
+          },
+          "content_sha256": "bced6abfc31931bcaca49f5bad4f8f392f550b3216ae0d790a283df1cded937f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006993",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Chorale jazz (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/16",
+            "json_pointer": "/records/16",
+            "record_identity": null
+          },
+          "content_sha256": "ec5941bc3638b0793565c013e54421b55e983b121d2f47790e4ea8ca274025a6",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006994",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Chorale jazz (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/17",
+            "json_pointer": "/records/17",
+            "record_identity": null
+          },
+          "content_sha256": "5c28a2b4666677b5fc7bb8a8265a24117f4a7c866cb50f3b9fec0ad7b34e03f1",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006995",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Chorale jazz (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/18",
+            "json_pointer": "/records/18",
+            "record_identity": null
+          },
+          "content_sha256": "60dfdcc6c8c451c2f3573c2e6afd204a4497a12d16aa2f2d532652484c7ea983",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006996",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ensemble de clarinettes (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/19",
+            "json_pointer": "/records/19",
+            "record_identity": null
+          },
+          "content_sha256": "cd4a3449b8fb350ee1a694c2dfdc5d88b4b385e22503fe5dd0f894c620285aa8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006997",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ensemble de clarinettes (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/20",
+            "json_pointer": "/records/20",
+            "record_identity": null
+          },
+          "content_sha256": "9cb556aeb1c9ebc980e4ad45dd1eb82326c4afed8eef7ae810098db08488d70f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006998",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ensemble de clarinettes (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/21",
+            "json_pointer": "/records/21",
+            "record_identity": null
+          },
+          "content_sha256": "6b9f265ce7d9133d048c5b16e22d6ce57e21fb848bfcedf77069ef7b80ad261d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006999",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Harmonie de concert",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/22",
+            "json_pointer": "/records/22",
+            "record_identity": null
+          },
+          "content_sha256": "cec27a304cc07ffe54f8b6d7021d846bd9a0dad8733a295c8330b8ec31affc02",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007000",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Atelier d'improvisation (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/23",
+            "json_pointer": "/records/23",
+            "record_identity": null
+          },
+          "content_sha256": "a9e615f695f95eb80fdd1a759742f68e4c7419cf256971a302de7c16bde91709",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007001",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Atelier d'improvisation (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/24",
+            "json_pointer": "/records/24",
+            "record_identity": null
+          },
+          "content_sha256": "433bdb3c90e5e25a9a2c69e6fc4ca6356873f71967ef87d8f780ccb3ba76f3e3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0007002",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Atelier d'improvisation (3 inscriptions)",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/udem-26-ensemble-gaps-2026.json",
+          "document_sha256": "c9cdf44b4df0b4fb340744de36704b29d0e7f4de6af29e66afc43cb9c56ba185",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/25",
+            "json_pointer": "/records/25",
+            "record_identity": null
+          },
+          "content_sha256": "285cfbaaa157a10680eadc0b838dd453d860d69b3b919d4b3cc52b1124a135b4",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
