@@ -1126,6 +1126,62 @@
       "justification": "Relier les hauteurs, rythmes et interactions observés aux documents du terrain et aux interprètes.",
       "state": "awaiting_target_reconciliation",
       "does_not_establish": "Un MIDI isolé ne suffit pas ; les devoirs externes ne sont pas transférables."
+    },
+    {
+      "id": "material-knowledge:0000063",
+      "material_id": "material:0002131",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "motif.thematic_identity",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Représentation, invariances, seuil et contre-exemples doivent être explicités avant de comparer des occurrences."
+      ],
+      "context": "Méthodes mathématiques conditionnelles ; le catalogue ne prouve pas qu'elles étaient enseignées dans une section précise.",
+      "justification": "Représentation, invariances, seuil et contre-exemples doivent être explicités avant de comparer des occurrences.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Une coïncidence de motifs courts ne prouve ni identité formelle ni intention."
+    },
+    {
+      "id": "material-knowledge:0000064",
+      "material_id": "material:0002132",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "unresolved_concept_or_assertion",
+        "id": null,
+        "proposed_subject": "Réseaux transformationnels et ordre musical",
+        "candidate_sense_id": "candidate-sense:00008"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Relier des occurrences par opérations vérifiées et comparer les chemins possibles."
+      ],
+      "context": "Méthodes mathématiques conditionnelles ; le catalogue ne prouve pas qu'elles étaient enseignées dans une section précise.",
+      "justification": "Relier des occurrences par opérations vérifiées et comparer les chemins possibles.",
+      "state": "awaiting_target_reconciliation",
+      "does_not_establish": "Une arête mathématique ne prouve ni influence ni intention."
+    },
+    {
+      "id": "material-knowledge:0000065",
+      "material_id": "material:0002133",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "unresolved_concept_or_assertion",
+        "id": null,
+        "proposed_subject": "Surprise informationnelle et modèle de contexte",
+        "candidate_sense_id": "candidate-sense:00009"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Une mesure en bits dépend de la représentation des événements, du contexte et de la distribution probabiliste."
+      ],
+      "context": "Méthodes mathématiques conditionnelles ; le catalogue ne prouve pas qu'elles étaient enseignées dans une section précise.",
+      "justification": "Une mesure en bits dépend de la représentation des événements, du contexte et de la distribution probabiliste.",
+      "state": "awaiting_target_reconciliation",
+      "does_not_establish": "Une valeur de surprise ne mesure pas une émotion, un plaisir ou une attente individuelle."
     }
   ]
 }
