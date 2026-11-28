@@ -194,6 +194,10 @@ def status(ledger: dict) -> dict:
         "current_assertions": sum(r["current_assertions"] for r in active),
         "assertions_with_exact_excerpt_anchor": len(ledger["anchored_assertions"]),
         "mentions_with_unresolved_subject": len(ledger["unresolved_subjects"]),
+        "unresolved_subjects": [
+            {"mention_id": m["id"], "material_id": m["material_id"],
+             "subject": m["unresolved_subject"]}
+            for m in ledger["unresolved_subjects"]],
         "stale_records": sum(r["stale_records"] for r in rows),
         "states": dict(sorted(Counter(r["extraction_state"] for r in rows).items())),
         "by_source_kind": {k: dict(v) for k, v in sorted(by_kind.items())},
@@ -207,7 +211,8 @@ def status(ledger: dict) -> dict:
 
 
 def queue(ledger: dict, *, kind: str | None = None,
-          source: str | None = None, limit: int = 20) -> list[dict]:
+          source: str | None = None, limit: int = 20,
+          state: str | None = None, source_prefix: str | None = None) -> list[dict]:
     if limit < 0:
         raise ValueError("Limit must be nonnegative")
     groups = defaultdict(list)
@@ -217,6 +222,10 @@ def queue(ledger: dict, *, kind: str | None = None,
         if kind and row["source_kind"] != kind:
             continue
         if source and row["source_path"] != source:
+            continue
+        if source_prefix and not row["source_path"].startswith(source_prefix):
+            continue
+        if state and row["extraction_state"] != state:
             continue
         groups[row["source_path"]].append(row)
     # Revisit conflicts/stale records first within each document, then round-robin
@@ -313,6 +322,9 @@ def main(argv: list[str] | None = None) -> None:
     todo = commands.add_parser("queue")
     todo.add_argument("--kind", choices=["course_markdown", "shared_markdown", "structured_register_json"])
     todo.add_argument("--source")
+    todo.add_argument("--source-prefix", help="Filter a source directory or path prefix")
+    todo.add_argument("--state", choices=["conflicting_reviews", "review_stale",
+        "partial_extraction", "legacy_partial_extraction", "not_examined_for_extraction"])
     todo.add_argument("--limit", type=int, default=20)
     todo.add_argument("--packets", action="store_true", help="Include verified bounded source content")
     commands.add_parser("audit-anchors", help="Read source bytes and verify exact assertion excerpts")
@@ -325,7 +337,8 @@ def main(argv: list[str] | None = None) -> None:
         if args.command == "status":
             result = status(ledger)
         elif args.command == "queue":
-            result = queue(ledger, kind=args.kind, source=args.source, limit=args.limit)
+            result = queue(ledger, kind=args.kind, source=args.source, limit=args.limit,
+                           state=args.state, source_prefix=args.source_prefix)
             if args.packets:
                 result = packets(repo, result)
         elif args.command == "audit-anchors":
