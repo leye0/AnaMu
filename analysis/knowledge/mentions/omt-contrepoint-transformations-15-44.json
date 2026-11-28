@@ -1,0 +1,1725 @@
+{
+  "schema_version": 1,
+  "extraction_contract": "passage_review_v2",
+  "input_commit": "b78fe6c8109e2dd6bda673ac8972dd7c4f873c28",
+  "edition": "omt-contrepoint-transformations-15-44",
+  "scope": "Onze passages : espèces, fugue, traduction orchestrale et transformations ; les références externes n'ont pas été consultées à nouveau.",
+  "material_registry_path": "analysis/knowledge/materials/catalog.json",
+  "source_manifest_path": "analysis/knowledge/source-manifest.json",
+  "concept_registry_path": "analysis/knowledge/concepts.json",
+  "review_status": "assistant_source_checked_candidates_not_independently_validated",
+  "mentions": [
+    {
+      "id": "mention:omt-contrepoint-transformations-15-44:0001",
+      "material_id": "material:0004357",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "15. Troisième espèce : 4 contre 1 — `cp_species3_4to1`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "acdd105d0107c74aa1970b18e2b8f34ab66803d715ab6d534023e886dfa326b5",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b90fcd035965338b74cf77f9",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "15. Troisième espèce : 4 contre 1 — `cp_species3_4to1`"
+          ],
+          "start_line": 5,
+          "end_line": 16,
+          "subtree_end_line": 16
+        }
+      },
+      "label": "Troisième espèce",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Troisième espèce",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Exercice de contrepoint à quatre contre un ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0001",
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0002"
+      ]
+    },
+    {
+      "id": "mention:omt-contrepoint-transformations-15-44:0002",
+      "material_id": "material:0004358",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "16. Double broderie et nota cambiata — `cp_double_neighbor_cambiata`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "ff573b902a374b8778042dd82291291b4a23f5c65f3d18af35761ab4d19bdcd3",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:47acc8e147a2964e272e7659",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "16. Double broderie et nota cambiata — `cp_double_neighbor_cambiata`"
+          ],
+          "start_line": 17,
+          "end_line": 28,
+          "subtree_end_line": 28
+        }
+      },
+      "label": "Double broderie et nota cambiata",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Double broderie et nota cambiata",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Ornements de contrepoint d'espèces ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0003",
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0004"
+      ]
+    },
+    {
+      "id": "mention:omt-contrepoint-transformations-15-44:0003",
+      "material_id": "material:0004359",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "17. Retard préparé, tenu, résolu — `cp_fourth_species_suspension`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "9a43fe759ea4a728b3e0f8decbb0f90708ad8ed84fe931f08c22f520aef74103",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:80cda78ba16ec49fc238eb13",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "17. Retard préparé, tenu, résolu — `cp_fourth_species_suspension`"
+          ],
+          "start_line": 29,
+          "end_line": 40,
+          "subtree_end_line": 40
+        }
+      },
+      "label": "Retard de quatrième espèce",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": "voices.suspension",
+      "candidate_sense_id": null,
+      "unresolved_subject": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Prototype de quatrième espèce ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0005",
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0006"
+      ]
+    },
+    {
+      "id": "mention:omt-contrepoint-transformations-15-44:0004",
+      "material_id": "material:0004360",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "18. Retards 7–6, 4–3, 9–8 et 2–3 — `cp_suspension_intervals`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "3ab6aee47f5612ace7931642230add4fbfee041844fd70dbd1af73c06dc11d37",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:3fded17df924ed6f3bf70830",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "18. Retards 7–6, 4–3, 9–8 et 2–3 — `cp_suspension_intervals`"
+          ],
+          "start_line": 41,
+          "end_line": 52,
+          "subtree_end_line": 52
+        }
+      },
+      "label": "Retards et intervalles orientés",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": "voices.suspension",
+      "candidate_sense_id": null,
+      "unresolved_subject": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Catalogue de retards à deux voix ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0007",
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0008"
+      ]
+    },
+    {
+      "id": "mention:omt-contrepoint-transformations-15-44:0005",
+      "material_id": "material:0004361",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "19. Cinquième espèce : contrepoint fleuri — `cp_fifth_species_florid`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "d2bf4e5c13b0723c503eb89c6efda82b0d36623a768b379721c7d3cda95699e1",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:aadf7e854af7cfc600fc3008",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "19. Cinquième espèce : contrepoint fleuri — `cp_fifth_species_florid`"
+          ],
+          "start_line": 53,
+          "end_line": 64,
+          "subtree_end_line": 64
+        }
+      },
+      "label": "Contrepoint fleuri",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Contrepoint fleuri",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Cinquième espèce ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0009",
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0010"
+      ]
+    },
+    {
+      "id": "mention:omt-contrepoint-transformations-15-44:0006",
+      "material_id": "material:0004362",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "20. Fugue : exposition et entrées — `fugue_exposition_entries`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "2f1ce3fd9f1a8744b4f55feff4aa67170667d64f284bb47c19dd2b08fed5b41b",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:f9d7a5ca373fa41c66ae598a",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "20. Fugue : exposition et entrées — `fugue_exposition_entries`"
+          ],
+          "start_line": 65,
+          "end_line": 76,
+          "subtree_end_line": 76
+        }
+      },
+      "label": "Exposition de fugue",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Exposition de fugue",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Exposition fuguée baroque ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0011",
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0012"
+      ]
+    },
+    {
+      "id": "mention:omt-contrepoint-transformations-15-44:0007",
+      "material_id": "material:0004363",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "21. Réponse réelle et réponse tonale — `fugue_real_tonal_answer`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "8f458906f6c75e89fc51ffe57576a01fd9fae3871348c22bd4d5aa3c203d1778",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:3ee31571c25d896239d99cce",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "21. Réponse réelle et réponse tonale — `fugue_real_tonal_answer`"
+          ],
+          "start_line": 77,
+          "end_line": 88,
+          "subtree_end_line": 88
+        }
+      },
+      "label": "Réponse réelle et tonale",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Réponse réelle et tonale",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Fugue baroque, sujet et réponse ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0013",
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0014"
+      ]
+    },
+    {
+      "id": "mention:omt-contrepoint-transformations-15-44:0008",
+      "material_id": "material:0004364",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "22. Contresujet renversable à l'octave — `fugue_invertible_counter_subject`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "36bead1ba96a97729d56e888b026e10f82b33bf09ee13f97e0a34fad54778f0e",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:30bdac745e9eb90c5e3aa6f3",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "22. Contresujet renversable à l'octave — `fugue_invertible_counter_subject`"
+          ],
+          "start_line": 89,
+          "end_line": 100,
+          "subtree_end_line": 100
+        }
+      },
+      "label": "Contresujet renversable à l'octave",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Contresujet renversable à l'octave",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Contrepoint renversable ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0015",
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0016"
+      ]
+    },
+    {
+      "id": "mention:omt-contrepoint-transformations-15-44:0009",
+      "material_id": "material:0004369",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "27. Orchestration : traduire plutôt que transcrire le piano — `orch_piano_translation`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "7525478d232e84f3f91a9fe918aca17cf05b599e389b366655ba08de27fc964d",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:aaacb55d8cdcbc7f884b108e",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "27. Orchestration : traduire plutôt que transcrire le piano — `orch_piano_translation`"
+          ],
+          "start_line": 149,
+          "end_line": 160,
+          "subtree_end_line": 160
+        }
+      },
+      "label": "Traduction orchestrale du piano",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": "orchestration.local_roles",
+      "candidate_sense_id": null,
+      "unresolved_subject": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Comparaison d'un original pianistique et d'une orchestration ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0017",
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0018"
+      ]
+    },
+    {
+      "id": "mention:omt-contrepoint-transformations-15-44:0010",
+      "material_id": "material:0004385",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "43. Transformations néo-riemanniennes P/L/R — `neo_riemann_plr`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "2595cf000f6b07dcd13d99881643c95b718ac392e2884f811b92f3a24e5616b3",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:f10a62dd260bf73709128223",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "43. Transformations néo-riemanniennes P/L/R — `neo_riemann_plr`"
+          ],
+          "start_line": 341,
+          "end_line": 352,
+          "subtree_end_line": 352
+        }
+      },
+      "label": "Transformations néo-riemanniennes P/L/R",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Transformations néo-riemanniennes P/L/R",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Réseau de triades majeures et mineures ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0019",
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0020"
+      ]
+    },
+    {
+      "id": "mention:omt-contrepoint-transformations-15-44:0011",
+      "material_id": "material:0004386",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "44. Pôle hexatonique — `neo_riemann_hexatonic`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "648cade3f782b69ef00fd089d624e6b8a91dccc9f1701de675aacbc462d49c08",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:24e3d967f3bf6683fcb051ba",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "44. Pôle hexatonique — `neo_riemann_hexatonic`"
+          ],
+          "start_line": 353,
+          "end_line": 364,
+          "subtree_end_line": 364
+        }
+      },
+      "label": "Pôle hexatonique",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Pôle hexatonique",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Relation H entre triades ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0021",
+        "candidate-assertion:omt-contrepoint-transformations-15-44:0022"
+      ]
+    }
+  ],
+  "assertions": [
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0001",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0001",
+      "material_id": "material:0004357",
+      "reviewed_material_revision": 1,
+      "rule_key": "species3_four_to_one_metric_hierarchy",
+      "polarity": "definition",
+      "statement": "Dans ce modèle de troisième espèce, quatre noires répondent à une tenue entière ; la hiérarchie des quatre appuis organise consonances et dissonances.",
+      "scope": "Exercice de contrepoint à quatre contre un ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "identified_voice_parts",
+        "metric_positions",
+        "vertical_intervals"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "acdd105d0107c74aa1970b18e2b8f34ab66803d715ab6d534023e886dfa326b5",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b90fcd035965338b74cf77f9",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "15. Troisième espèce : 4 contre 1 — `cp_species3_4to1`"
+          ],
+          "start_line": 5,
+          "end_line": 16,
+          "subtree_end_line": 16
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 75,
+        "end_codepoint_exclusive": 236,
+        "excerpt_sha256": "9a470b95d5f9a778074cc6dffaf946dcaba900ddd56a285da5a1b1f926f938ac"
+      },
+      "applicability_conditions": "Cantus et partie mobile identifiés.",
+      "inference_limit": "Le rapport de durées seul ne prouve pas la conformité d'espèce.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0002",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0001",
+      "material_id": "material:0004357",
+      "reviewed_material_revision": 1,
+      "rule_key": "species3_not_general_polyphony",
+      "polarity": "negative",
+      "statement": "Les contraintes de troisième espèce ne constituent pas une règle de toute polyphonie.",
+      "scope": "Exercice de contrepoint à quatre contre un ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "style_context"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "acdd105d0107c74aa1970b18e2b8f34ab66803d715ab6d534023e886dfa326b5",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b90fcd035965338b74cf77f9",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "15. Troisième espèce : 4 contre 1 — `cp_species3_4to1`"
+          ],
+          "start_line": 5,
+          "end_line": 16,
+          "subtree_end_line": 16
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 479,
+        "end_codepoint_exclusive": 539,
+        "excerpt_sha256": "aff1c989448978f34a9a645fbf634de58b553d71b267af26e577c6832203956a"
+      },
+      "applicability_conditions": "Exercice stylistique déclaré.",
+      "inference_limit": "Ne pas juger une autre pratique par cette seule grille.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0003",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0002",
+      "material_id": "material:0004358",
+      "reviewed_material_revision": 1,
+      "rule_key": "double_neighbor_ornament",
+      "polarity": "definition",
+      "statement": "La double broderie contourne une consonance par ses voisins supérieur et inférieur.",
+      "scope": "Ornements de contrepoint d'espèces ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "voice_trajectories",
+        "vertical_intervals"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "ff573b902a374b8778042dd82291291b4a23f5c65f3d18af35761ab4d19bdcd3",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:47acc8e147a2964e272e7659",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "16. Double broderie et nota cambiata — `cp_double_neighbor_cambiata`"
+          ],
+          "start_line": 17,
+          "end_line": 28,
+          "subtree_end_line": 28
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 89,
+        "end_codepoint_exclusive": 171,
+        "excerpt_sha256": "a4cf73d442c5cfe49875787820f8e8a191e46d1ac344ac13ed9e847e3b1eab42"
+      },
+      "applicability_conditions": "Trame consonante et voix identifiées.",
+      "inference_limit": "Ne pas confondre figure ornementale et déplacement mélodique libre.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0004",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0002",
+      "material_id": "material:0004358",
+      "reviewed_material_revision": 1,
+      "rule_key": "nota_cambiata_conditional_skip",
+      "polarity": "exception",
+      "statement": "La nota cambiata est ici décrite comme une figure de cinq notes qui peut autoriser un saut depuis une dissonance sous certaines conditions.",
+      "scope": "Ornements de contrepoint d'espèces ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "voice_trajectories",
+        "style_context",
+        "metric_positions"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "ff573b902a374b8778042dd82291291b4a23f5c65f3d18af35761ab4d19bdcd3",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:47acc8e147a2964e272e7659",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "16. Double broderie et nota cambiata — `cp_double_neighbor_cambiata`"
+          ],
+          "start_line": 17,
+          "end_line": 28,
+          "subtree_end_line": 28
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 173,
+        "end_codepoint_exclusive": 289,
+        "excerpt_sha256": "2d421f9872d6646b4782588dc5b9bec51ea8454e4143bc62c685f27afae503ab"
+      },
+      "applicability_conditions": "Cadre de troisième espèce ; conditions du traité non détaillées dans cette synthèse.",
+      "inference_limit": "Ne pas autoriser tous les sauts dissonants ni inventer le critère absent.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0005",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0003",
+      "material_id": "material:0004359",
+      "reviewed_material_revision": 1,
+      "rule_key": "species4_prepared_suspension",
+      "polarity": "definition",
+      "statement": "Dans le prototype décrit, une consonance faible est tenue sur l'appui suivant, devient dissonante par mouvement de l'autre voix puis se résout en descendant d'un degré.",
+      "scope": "Prototype de quatrième espèce ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "voice_trajectories",
+        "metric_positions",
+        "vertical_intervals"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "9a43fe759ea4a728b3e0f8decbb0f90708ad8ed84fe931f08c22f520aef74103",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:80cda78ba16ec49fc238eb13",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "17. Retard préparé, tenu, résolu — `cp_fourth_species_suspension`"
+          ],
+          "start_line": 29,
+          "end_line": 40,
+          "subtree_end_line": 40
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 86,
+        "end_codepoint_exclusive": 258,
+        "excerpt_sha256": "5fbc9a932fcf2e90f1694845064a3ed194876446b28783e1b60121baef608664"
+      },
+      "applicability_conditions": "Deux parties, liaison et appuis établis.",
+      "inference_limit": "Une dissonance accentuée seule ne suffit pas.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0006",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0003",
+      "material_id": "material:0004359",
+      "reviewed_material_revision": 1,
+      "rule_key": "species4_prototype_not_all_suspensions",
+      "polarity": "negative",
+      "statement": "D'autres genres peuvent comporter des retards qui ne suivent pas ce prototype.",
+      "scope": "Prototype de quatrième espèce ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "style_context"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "9a43fe759ea4a728b3e0f8decbb0f90708ad8ed84fe931f08c22f520aef74103",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:80cda78ba16ec49fc238eb13",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "17. Retard préparé, tenu, résolu — `cp_fourth_species_suspension`"
+          ],
+          "start_line": 29,
+          "end_line": 40,
+          "subtree_end_line": 40
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 463,
+        "end_codepoint_exclusive": 530,
+        "excerpt_sha256": "a506e562a530be0ef0a42324210914f6f8b1f44679d720f24e34258beb435175"
+      },
+      "applicability_conditions": "Comparaison stylistique.",
+      "inference_limit": "Ne pas universaliser la résolution descendante de ce modèle.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0007",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0004",
+      "material_id": "material:0004360",
+      "reviewed_material_revision": 1,
+      "rule_key": "suspension_interval_pairs_oriented",
+      "polarity": "definition",
+      "statement": "Les paires 7–6, 4–3 et 9–8 au-dessus du cantus et 2–3 au-dessous décrivent les intervalles de dissonance puis résolution.",
+      "scope": "Catalogue de retards à deux voix ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "identified_voice_parts",
+        "vertical_intervals",
+        "voice_trajectories"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "3ab6aee47f5612ace7931642230add4fbfee041844fd70dbd1af73c06dc11d37",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:3fded17df924ed6f3bf70830",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "18. Retards 7–6, 4–3, 9–8 et 2–3 — `cp_suspension_intervals`"
+          ],
+          "start_line": 41,
+          "end_line": 52,
+          "subtree_end_line": 52
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 163,
+        "end_codepoint_exclusive": 215,
+        "excerpt_sha256": "1c2c57d465c23a784cae29ddd56b3407af28280a8d711c82a91f4fc302babd2c"
+      },
+      "applicability_conditions": "Orientation du cantus et de la voix tenue identifiée.",
+      "inference_limit": "Une paire verticale seule ne démontre pas préparation et tenue.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0008",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0004",
+      "material_id": "material:0004360",
+      "reviewed_material_revision": 1,
+      "rule_key": "suspension_intervals_depend_voice_orientation",
+      "polarity": "method",
+      "statement": "Calculer les intervalles en conservant orientation et effectif des voix, plutôt que de réduire le retard au nom d'accord.",
+      "scope": "Catalogue de retards à deux voix ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "score_note_events_verified",
+        "identified_voice_parts"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "3ab6aee47f5612ace7931642230add4fbfee041844fd70dbd1af73c06dc11d37",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:3fded17df924ed6f3bf70830",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "18. Retards 7–6, 4–3, 9–8 et 2–3 — `cp_suspension_intervals`"
+          ],
+          "start_line": 41,
+          "end_line": 52,
+          "subtree_end_line": 52
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 447,
+        "end_codepoint_exclusive": 507,
+        "excerpt_sha256": "3a9c7372f8cb9f82b555a1411b34adb66e7e58f531b80da8a618c499e2df8906"
+      },
+      "applicability_conditions": "Voix et notation établies.",
+      "inference_limit": "Ne pas transposer directement le catalogue à tout effectif.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0009",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0005",
+      "material_id": "material:0004361",
+      "reviewed_material_revision": 1,
+      "rule_key": "species5_combined_rhythmic_devices",
+      "polarity": "definition",
+      "statement": "La cinquième espèce combine débits des trois premières espèces, retards de quatrième, anticipations et passages de croches.",
+      "scope": "Cinquième espèce ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "metric_positions",
+        "voice_trajectories",
+        "style_context"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "d2bf4e5c13b0723c503eb89c6efda82b0d36623a768b379721c7d3cda95699e1",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:aadf7e854af7cfc600fc3008",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "19. Cinquième espèce : contrepoint fleuri — `cp_fifth_species_florid`"
+          ],
+          "start_line": 53,
+          "end_line": 64,
+          "subtree_end_line": 64
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 90,
+        "end_codepoint_exclusive": 247,
+        "excerpt_sha256": "68cb7bff2ea89e83f3ebb1ba23d22a929f40f9f89e792b6b69b9398c9aa4cb1c"
+      },
+      "applicability_conditions": "Cadre d'espèces déclaré.",
+      "inference_limit": "La variété rythmique seule ne suffit pas à identifier la cinquième espèce.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0010",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0005",
+      "material_id": "material:0004361",
+      "reviewed_material_revision": 1,
+      "rule_key": "species5_not_renaissance_history",
+      "polarity": "negative",
+      "statement": "Le contrepoint fleuri décrit ici est un exercice de synthèse et non une description exhaustive de la polyphonie Renaissance.",
+      "scope": "Cinquième espèce ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "identified_historical_sources"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "d2bf4e5c13b0723c503eb89c6efda82b0d36623a768b379721c7d3cda95699e1",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:aadf7e854af7cfc600fc3008",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "19. Cinquième espèce : contrepoint fleuri — `cp_fifth_species_florid`"
+          ],
+          "start_line": 53,
+          "end_line": 64,
+          "subtree_end_line": 64
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 478,
+        "end_codepoint_exclusive": 549,
+        "excerpt_sha256": "455aa26ebf2489ada972d0062961e63dbef1ea70590ae5b2bde11f0c77ddccd7"
+      },
+      "applicability_conditions": "Attribution historique.",
+      "inference_limit": "Ne pas dater une œuvre sur cette base.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0011",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0006",
+      "material_id": "material:0004362",
+      "reviewed_material_revision": 1,
+      "rule_key": "fugal_exposition_successive_entries",
+      "polarity": "definition",
+      "statement": "Dans une exposition fuguée, le sujet est énoncé puis repris en sujet ou réponse par les voix successives tandis que les voix entrées poursuivent.",
+      "scope": "Exposition fuguée baroque ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "identified_voice_parts",
+        "identified_occurrences",
+        "phrase_context_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "2f1ce3fd9f1a8744b4f55feff4aa67170667d64f284bb47c19dd2b08fed5b41b",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:f9d7a5ca373fa41c66ae598a",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "20. Fugue : exposition et entrées — `fugue_exposition_entries`"
+          ],
+          "start_line": 65,
+          "end_line": 76,
+          "subtree_end_line": 76
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 83,
+        "end_codepoint_exclusive": 260,
+        "excerpt_sha256": "c645424c660ac4ed91a58c4e15f0472aad2c46d5e1b17fde23216d95c68fe49f"
+      },
+      "applicability_conditions": "Sujet, occurrences et parties identifiés.",
+      "inference_limit": "Des répétitions successives ne prouvent pas seules une exposition de fugue.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0012",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0006",
+      "material_id": "material:0004362",
+      "reviewed_material_revision": 1,
+      "rule_key": "fugal_exposition_not_entire_form",
+      "polarity": "negative",
+      "statement": "L'exposition n'explique pas toutes les sections de la fugue.",
+      "scope": "Exposition fuguée baroque ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "localized_section_boundaries",
+        "phrase_context_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "2f1ce3fd9f1a8744b4f55feff4aa67170667d64f284bb47c19dd2b08fed5b41b",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:f9d7a5ca373fa41c66ae598a",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "20. Fugue : exposition et entrées — `fugue_exposition_entries`"
+          ],
+          "start_line": 65,
+          "end_line": 76,
+          "subtree_end_line": 76
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 511,
+        "end_codepoint_exclusive": 572,
+        "excerpt_sha256": "f83e0a11281d973d840ca47f4555cb87bd28ddc1fc3bcaa3569405987ac992e8"
+      },
+      "applicability_conditions": "Analyse de forme complète.",
+      "inference_limit": "Ne pas généraliser les règles d'entrée à toutes les sections.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0013",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0007",
+      "material_id": "material:0004363",
+      "reviewed_material_revision": 1,
+      "rule_key": "fugal_real_vs_tonal_answer",
+      "polarity": "definition",
+      "statement": "La réponse réelle transpose à la quinte ou quarte ; la réponse tonale peut modifier des degrés pour les rapports tonique–dominante ou le plan modulant.",
+      "scope": "Fugue baroque, sujet et réponse ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "identified_occurrences",
+        "ordered_pitch_intervals",
+        "tonal_frame_declared"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "8f458906f6c75e89fc51ffe57576a01fd9fae3871348c22bd4d5aa3c203d1778",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:3ee31571c25d896239d99cce",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "21. Réponse réelle et réponse tonale — `fugue_real_tonal_answer`"
+          ],
+          "start_line": 77,
+          "end_line": 88,
+          "subtree_end_line": 88
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 85,
+        "end_codepoint_exclusive": 247,
+        "excerpt_sha256": "bcd13a0d12809bb25e80fa495a9be8c7769ae814fb5ea6bfae4eb9f13549ee90"
+      },
+      "applicability_conditions": "Sujet et réponse localisés, cadre tonal déclaré.",
+      "inference_limit": "Une différence d'intervalle n'établit pas à elle seule une réponse tonale.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0014",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0007",
+      "material_id": "material:0004363",
+      "reviewed_material_revision": 1,
+      "rule_key": "fugal_answer_choice_depends_subject",
+      "polarity": "negative",
+      "statement": "Le choix du type de réponse dépend de l'élan tonal du sujet, et non d'une règle mécanique.",
+      "scope": "Fugue baroque, sujet et réponse ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "previous_next_harmony_annotated",
+        "phrase_context_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "8f458906f6c75e89fc51ffe57576a01fd9fae3871348c22bd4d5aa3c203d1778",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:3ee31571c25d896239d99cce",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "21. Réponse réelle et réponse tonale — `fugue_real_tonal_answer`"
+          ],
+          "start_line": 77,
+          "end_line": 88,
+          "subtree_end_line": 88
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 495,
+        "end_codepoint_exclusive": 563,
+        "excerpt_sha256": "4a073b66a2170941f66afe16de557a3c5abb173f9b5a898e4f22d9a7506c9da0"
+      },
+      "applicability_conditions": "Contexte tonal du sujet et de sa réponse.",
+      "inference_limit": "Ne pas imposer une unique réponse à tout sujet.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0015",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0008",
+      "material_id": "material:0004364",
+      "reviewed_material_revision": 1,
+      "rule_key": "invertible_countersubject_voice_exchange",
+      "polarity": "method",
+      "statement": "Examiner si une ligne peut être réutilisée au-dessus ou en dessous du sujet, en contrôlant les quintes transformées en quartes et les retards.",
+      "scope": "Contrepoint renversable ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "identified_voice_parts",
+        "vertical_intervals",
+        "voice_trajectories"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "36bead1ba96a97729d56e888b026e10f82b33bf09ee13f97e0a34fad54778f0e",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:30bdac745e9eb90c5e3aa6f3",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "22. Contresujet renversable à l'octave — `fugue_invertible_counter_subject`"
+          ],
+          "start_line": 89,
+          "end_line": 100,
+          "subtree_end_line": 100
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 96,
+        "end_codepoint_exclusive": 235,
+        "excerpt_sha256": "66146fd9d905800189a25ab322a7e00221b6ffcbea907e9445c5377233a8cddc"
+      },
+      "applicability_conditions": "Deux dispositions de voix comparées dans le cadre de renversement à l'octave.",
+      "inference_limit": "La conservation motivique ne garantit pas la conformité contrapuntique.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0016",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0008",
+      "material_id": "material:0004364",
+      "reviewed_material_revision": 1,
+      "rule_key": "countersubject_not_necessarily_invertible",
+      "polarity": "negative",
+      "statement": "Tous les contresujets ne sont pas renversables.",
+      "scope": "Contrepoint renversable ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "identified_occurrences",
+        "score_note_events_verified"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "36bead1ba96a97729d56e888b026e10f82b33bf09ee13f97e0a34fad54778f0e",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:30bdac745e9eb90c5e3aa6f3",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "22. Contresujet renversable à l'octave — `fugue_invertible_counter_subject`"
+          ],
+          "start_line": 89,
+          "end_line": 100,
+          "subtree_end_line": 100
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 479,
+        "end_codepoint_exclusive": 526,
+        "excerpt_sha256": "25d3afd5acb43d634c5aec4e352f0cf6b90f6e795e332b2e48bd48fff09b411f"
+      },
+      "applicability_conditions": "Analyse d'une fugue ou comparaison de dispositions.",
+      "inference_limit": "Ne pas inférer le renversement de la seule récurrence.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0017",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0009",
+      "material_id": "material:0004369",
+      "reviewed_material_revision": 1,
+      "rule_key": "orchestration_piano_function_translation",
+      "polarity": "method",
+      "statement": "Comparer les réalisations en dégageant fonctions d'accords brisés, pédales, accents et voix implicites puis leur redistribution en parties adaptées.",
+      "scope": "Comparaison d'un original pianistique et d'une orchestration ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "score_note_events_verified",
+        "instrumental_part_identity",
+        "phrase_context_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "7525478d232e84f3f91a9fe918aca17cf05b599e389b366655ba08de27fc964d",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:aaacb55d8cdcbc7f884b108e",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "27. Orchestration : traduire plutôt que transcrire le piano — `orch_piano_translation`"
+          ],
+          "start_line": 149,
+          "end_line": 160,
+          "subtree_end_line": 160
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 107,
+        "end_codepoint_exclusive": 253,
+        "excerpt_sha256": "47809c688c60995d56e2afdb31e88a3fdd4218e7b7bdd6bcfcb658a0e40279c9"
+      },
+      "applicability_conditions": "Original et version orchestrale identifiés.",
+      "inference_limit": "Une équivalence de notes ne garantit pas une équivalence de geste.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0018",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0009",
+      "material_id": "material:0004369",
+      "reviewed_material_revision": 1,
+      "rule_key": "piano_orchestration_not_unique",
+      "polarity": "negative",
+      "statement": "Plusieurs traductions orchestrales d'un original peuvent être recevables.",
+      "scope": "Comparaison d'un original pianistique et d'une orchestration ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "audition_annotated",
+        "style_context"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "7525478d232e84f3f91a9fe918aca17cf05b599e389b366655ba08de27fc964d",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:aaacb55d8cdcbc7f884b108e",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "27. Orchestration : traduire plutôt que transcrire le piano — `orch_piano_translation`"
+          ],
+          "start_line": 149,
+          "end_line": 160,
+          "subtree_end_line": 160
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 507,
+        "end_codepoint_exclusive": 595,
+        "excerpt_sha256": "9aa343f59e82c9d231b504b725bc5ab5d1523abcdfdc9e310c2f21a19f46890a"
+      },
+      "applicability_conditions": "Comparaison de réalisations documentées.",
+      "inference_limit": "Ne pas déduire une préférence universelle.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0019",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0010",
+      "material_id": "material:0004385",
+      "reviewed_material_revision": 1,
+      "rule_key": "neo_riemann_plr_common_tones",
+      "polarity": "definition",
+      "statement": "Les relations P, R et L relient des triades majeures et mineures en conservant deux sons communs ; P conserve la fondamentale, R est la relation de relatif et L celle décrite ici comme échange de sensible.",
+      "scope": "Réseau de triades majeures et mineures ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "pitch_classes_provided",
+        "declared_transformation_operation"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "2595cf000f6b07dcd13d99881643c95b718ac392e2884f811b92f3a24e5616b3",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:f10a62dd260bf73709128223",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "43. Transformations néo-riemanniennes P/L/R — `neo_riemann_plr`"
+          ],
+          "start_line": 341,
+          "end_line": 352,
+          "subtree_end_line": 352
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 84,
+        "end_codepoint_exclusive": 226,
+        "excerpt_sha256": "dac7e0f8fa1d0402e94c9523c8f40a29aae70a4cc53bb5c18200c9e41579f4ea"
+      },
+      "applicability_conditions": "Triades majeures/mineures et opérations définies.",
+      "inference_limit": "Deux sons communs ne suffisent pas sans définition des opérations ; ne pas inférer un mouvement réel de voix.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0020",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0010",
+      "material_id": "material:0004385",
+      "reviewed_material_revision": 1,
+      "rule_key": "neo_riemann_not_total_tonal_explanation",
+      "polarity": "negative",
+      "statement": "Une lecture transformationnelle ne remplace pas toute interprétation tonale et ne détermine pas le phrasé.",
+      "scope": "Réseau de triades majeures et mineures ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "phrase_context_annotated",
+        "tonal_frame_declared"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "2595cf000f6b07dcd13d99881643c95b718ac392e2884f811b92f3a24e5616b3",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:f10a62dd260bf73709128223",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "43. Transformations néo-riemanniennes P/L/R — `neo_riemann_plr`"
+          ],
+          "start_line": 341,
+          "end_line": 352,
+          "subtree_end_line": 352
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 450,
+        "end_codepoint_exclusive": 527,
+        "excerpt_sha256": "0bcf01cc2523d40596a8bc49a93535c3cd5e79a80cf207ac2b99028f8911749a"
+      },
+      "applicability_conditions": "Interprétations concurrentes du passage.",
+      "inference_limit": "Conserver les lectures formelles et tonales pertinentes.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0021",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0011",
+      "material_id": "material:0004386",
+      "reviewed_material_revision": 1,
+      "rule_key": "hexatonic_pole_major_minor_relation",
+      "polarity": "definition",
+      "statement": "La relation H décrite relie une triade majeure à une mineure à tierce majeure descendante, sans son commun, avec une correspondance de chaque voix par demi-ton.",
+      "scope": "Relation H entre triades ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "pitch_classes_provided",
+        "declared_transformation_operation",
+        "voice_trajectories"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "648cade3f782b69ef00fd089d624e6b8a91dccc9f1701de675aacbc462d49c08",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:24e3d967f3bf6683fcb051ba",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "44. Pôle hexatonique — `neo_riemann_hexatonic`"
+          ],
+          "start_line": 353,
+          "end_line": 364,
+          "subtree_end_line": 364
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 67,
+        "end_codepoint_exclusive": 215,
+        "excerpt_sha256": "4d9358e7377e999adf5cf75dd56bdf15dd55eb04dac056dcbebc785dbeaf4fcb"
+      },
+      "applicability_conditions": "Triades et relation H déclarées ; disposition de voix à vérifier.",
+      "inference_limit": "La correspondance minimale ne prouve pas la conduite effectivement notée.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-contrepoint-transformations-15-44:0022",
+      "mention_id": "mention:omt-contrepoint-transformations-15-44:0011",
+      "material_id": "material:0004386",
+      "reviewed_material_revision": 1,
+      "rule_key": "hexatonic_pole_not_diatonic_modulation",
+      "polarity": "negative",
+      "statement": "Une relation H ne prouve pas une modulation diatonique.",
+      "scope": "Relation H entre triades ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "tonal_frame_declared",
+        "phrase_context_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "648cade3f782b69ef00fd089d624e6b8a91dccc9f1701de675aacbc462d49c08",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:24e3d967f3bf6683fcb051ba",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "44. Pôle hexatonique — `neo_riemann_hexatonic`"
+          ],
+          "start_line": 353,
+          "end_line": 364,
+          "subtree_end_line": 364
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 435,
+        "end_codepoint_exclusive": 508,
+        "excerpt_sha256": "0804fd8ace0c2219ca2f318b7740c6c64b097e79cb3e2fefc73b628d3ac60bf1"
+      },
+      "applicability_conditions": "Comparaison de cadres d'analyse.",
+      "inference_limit": "Le changement de centre nécessite des indices distincts.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    }
+  ],
+  "passage_reviews": [
+    {
+      "material_id": "material:0004357",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "acdd105d0107c74aa1970b18e2b8f34ab66803d715ab6d534023e886dfa326b5",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b90fcd035965338b74cf77f9",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "15. Troisième espèce : 4 contre 1 — `cp_species3_4to1`"
+          ],
+          "start_line": 5,
+          "end_line": 16,
+          "subtree_end_line": 16
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme, portée et limite examinés dans ce fragment ; exemples externes non réanalysés.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004358",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "ff573b902a374b8778042dd82291291b4a23f5c65f3d18af35761ab4d19bdcd3",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:47acc8e147a2964e272e7659",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "16. Double broderie et nota cambiata — `cp_double_neighbor_cambiata`"
+          ],
+          "start_line": 17,
+          "end_line": 28,
+          "subtree_end_line": 28
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme, portée et limite examinés dans ce fragment ; exemples externes non réanalysés.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004359",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "9a43fe759ea4a728b3e0f8decbb0f90708ad8ed84fe931f08c22f520aef74103",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:80cda78ba16ec49fc238eb13",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "17. Retard préparé, tenu, résolu — `cp_fourth_species_suspension`"
+          ],
+          "start_line": 29,
+          "end_line": 40,
+          "subtree_end_line": 40
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme, portée et limite examinés dans ce fragment ; exemples externes non réanalysés.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004360",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "3ab6aee47f5612ace7931642230add4fbfee041844fd70dbd1af73c06dc11d37",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:3fded17df924ed6f3bf70830",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "18. Retards 7–6, 4–3, 9–8 et 2–3 — `cp_suspension_intervals`"
+          ],
+          "start_line": 41,
+          "end_line": 52,
+          "subtree_end_line": 52
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme, portée et limite examinés dans ce fragment ; exemples externes non réanalysés.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004361",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "d2bf4e5c13b0723c503eb89c6efda82b0d36623a768b379721c7d3cda95699e1",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:aadf7e854af7cfc600fc3008",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "19. Cinquième espèce : contrepoint fleuri — `cp_fifth_species_florid`"
+          ],
+          "start_line": 53,
+          "end_line": 64,
+          "subtree_end_line": 64
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme, portée et limite examinés dans ce fragment ; exemples externes non réanalysés.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004362",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "2f1ce3fd9f1a8744b4f55feff4aa67170667d64f284bb47c19dd2b08fed5b41b",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:f9d7a5ca373fa41c66ae598a",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "20. Fugue : exposition et entrées — `fugue_exposition_entries`"
+          ],
+          "start_line": 65,
+          "end_line": 76,
+          "subtree_end_line": 76
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme, portée et limite examinés dans ce fragment ; exemples externes non réanalysés.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004363",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "8f458906f6c75e89fc51ffe57576a01fd9fae3871348c22bd4d5aa3c203d1778",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:3ee31571c25d896239d99cce",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "21. Réponse réelle et réponse tonale — `fugue_real_tonal_answer`"
+          ],
+          "start_line": 77,
+          "end_line": 88,
+          "subtree_end_line": 88
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme, portée et limite examinés dans ce fragment ; exemples externes non réanalysés.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004364",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "36bead1ba96a97729d56e888b026e10f82b33bf09ee13f97e0a34fad54778f0e",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:30bdac745e9eb90c5e3aa6f3",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "22. Contresujet renversable à l'octave — `fugue_invertible_counter_subject`"
+          ],
+          "start_line": 89,
+          "end_line": 100,
+          "subtree_end_line": 100
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme, portée et limite examinés dans ce fragment ; exemples externes non réanalysés.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004369",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "7525478d232e84f3f91a9fe918aca17cf05b599e389b366655ba08de27fc964d",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:aaacb55d8cdcbc7f884b108e",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "27. Orchestration : traduire plutôt que transcrire le piano — `orch_piano_translation`"
+          ],
+          "start_line": 149,
+          "end_line": 160,
+          "subtree_end_line": 160
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme, portée et limite examinés dans ce fragment ; exemples externes non réanalysés.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004385",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "2595cf000f6b07dcd13d99881643c95b718ac392e2884f811b92f3a24e5616b3",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:f10a62dd260bf73709128223",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "43. Transformations néo-riemanniennes P/L/R — `neo_riemann_plr`"
+          ],
+          "start_line": 341,
+          "end_line": 352,
+          "subtree_end_line": 352
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme, portée et limite examinés dans ce fragment ; exemples externes non réanalysés.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004386",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "648cade3f782b69ef00fd089d624e6b8a91dccc9f1701de675aacbc462d49c08",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:24e3d967f3bf6683fcb051ba",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "44. Pôle hexatonique — `neo_riemann_hexatonic`"
+          ],
+          "start_line": 353,
+          "end_line": 364,
+          "subtree_end_line": 364
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme, portée et limite examinés dans ce fragment ; exemples externes non réanalysés.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    }
+  ],
+  "coverage": {
+    "selected_material_units": 11,
+    "mentions": 11,
+    "candidate_assertions": 22,
+    "assertions_human_reviewed": 0
+  },
+  "revision_contract": "Review and claims expire when material revision or source span changes."
+}

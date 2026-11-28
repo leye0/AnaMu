@@ -1255,6 +1255,330 @@
       "justification": "Distinguer attaque entière, dévoilement en cours, prochaine attaque et prochain tour ; préserver les arbitrages.",
       "state": "assistant_source_checked_proposed_link",
       "does_not_establish": "Une moyenne RMS voisine ne prouve pas une même attaque ni une même perception."
+    },
+    {
+      "id": "material-knowledge:0000070",
+      "material_id": "material:0004389",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "voices.independence",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Rapport 1:1, consonances, mouvements et contraintes de style."
+      ],
+      "context": "Contrepoint d'espèces à deux voix ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "justification": "Rapport 1:1, consonances, mouvements et contraintes de style.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Les contraintes d'espèces ne sont pas universelles."
+    },
+    {
+      "id": "material-knowledge:0000071",
+      "material_id": "material:0004391",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.function",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Rôles et place des accords dans la phrase."
+      ],
+      "context": "Tonalité historique classique ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "justification": "Rôles et place des accords dans la phrase.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Ne pas imposer ce cadre au pop, jazz ou atonal."
+    },
+    {
+      "id": "material-knowledge:0000072",
+      "material_id": "material:0004392",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.modulation",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Stabilisation d'un nouveau centre, cadence, accord pivot et dominante secondaire."
+      ],
+      "context": "Cadre analytique tonal ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "justification": "Stabilisation d'un nouveau centre, cadence, accord pivot et dominante secondaire.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "La frontière varie selon l'école d'analyse."
+    },
+    {
+      "id": "material-knowledge:0000073",
+      "material_id": "material:0004393",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "form.phrase_hierarchy",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Idée de base, prolongation, fragmentation et accélération, cadence."
+      ],
+      "context": "Typologie de thème classique ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "justification": "Idée de base, prolongation, fragmentation et accélération, cadence.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "La longueur n'est pas un critère suffisant."
+    },
+    {
+      "id": "material-knowledge:0000074",
+      "material_id": "material:0004394",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "form.phrase_hierarchy",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Relation de deux phrases et hiérarchie cadentielle."
+      ],
+      "context": "Typologie de thème classique ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "justification": "Relation de deux phrases et hiérarchie cadentielle.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Variantes et expansions possibles."
+    },
+    {
+      "id": "material-knowledge:0000075",
+      "material_id": "material:0004401",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "rhythm.accent_grouping",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Attente métrique et anticipation d'une demi-unité comme cas particulier."
+      ],
+      "context": "Modèle de déplacement d'attaques ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "justification": "Attente métrique et anticipation d'une demi-unité comme cas particulier.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Ne pas réduire toutes les syncopes à ce modèle."
+    },
+    {
+      "id": "material-knowledge:0000076",
+      "material_id": "material:0004402",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "rhythm.accent_grouping",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Découpage et variantes, distinction du triolet."
+      ],
+      "context": "Huit subdivisions en contexte pop/rock ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "justification": "Découpage et variantes, distinction du triolet.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Pas une règle métrique universelle."
+    },
+    {
+      "id": "material-knowledge:0000077",
+      "material_id": "material:0004365",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "orchestration.local_roles",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Cohérence polyphonique par famille et doublures."
+      ],
+      "context": "Tutti tonal ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "justification": "Cohérence polyphonique par famille et doublures.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "La fusion n'est pas toujours souhaitable."
+    },
+    {
+      "id": "material-knowledge:0000078",
+      "material_id": "material:0004366",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "orchestration.local_roles",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Contraste successif et conservation des caractéristiques motiviques."
+      ],
+      "context": "Transfert motivique entre groupes instrumentaux ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "justification": "Contraste successif et conservation des caractéristiques motiviques.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Échange timbral seul insuffisant pour segmenter la forme."
+    },
+    {
+      "id": "material-knowledge:0000079",
+      "material_id": "material:0004368",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "orchestration.local_roles",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Rôle d'attaque et de maintien."
+      ],
+      "context": "Distribution de phases sonores entre sources ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "justification": "Rôle d'attaque et de maintien.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "La partition ne détermine pas l'enveloppe perçue."
+    },
+    {
+      "id": "material-knowledge:0000080",
+      "material_id": "material:0004378",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "rhythm.microtiming",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Égalité notée, long-court joué, accentuation 2 et 4."
+      ],
+      "context": "Groove jazz à quatre temps ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "justification": "Égalité notée, long-court joué, accentuation 2 et 4.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "2:1 est un modèle, pas une constante."
+    },
+    {
+      "id": "material-knowledge:0000081",
+      "material_id": "material:0004379",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "rhythm.accent_grouping",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Battue inégale et accentuation interne."
+      ],
+      "context": "Groupements de subdivisions métriques ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "justification": "Battue inégale et accentuation interne.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Signature seule insuffisante."
+    },
+    {
+      "id": "material-knowledge:0000082",
+      "material_id": "material:0004381",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "rhythm.accent_grouping",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Accents et résolutions peuvent déplacer la lecture métrique."
+      ],
+      "context": "Discordance entre notation et écoute ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "justification": "Accents et résolutions peuvent déplacer la lecture métrique.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Perception variable selon auditeur et réalisation."
+    },
+    {
+      "id": "material-knowledge:0000083",
+      "material_id": "material:0004384",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "rhythm.notated_grid",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Événements et densité sur une grille en secondes."
+      ],
+      "context": "Notation temporelle absolue ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "justification": "Événements et densité sur une grille en secondes.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "La chronologie ne détermine pas la qualité sonore."
+    },
+    {
+      "id": "material-knowledge:0000084",
+      "material_id": "material:0004359",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "voices.suspension",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Préparation consonante, liaison dissonante, résolution descendante."
+      ],
+      "context": "Prototype de quatrième espèce ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "justification": "Préparation consonante, liaison dissonante, résolution descendante.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Autres genres et prototypes possibles."
+    },
+    {
+      "id": "material-knowledge:0000085",
+      "material_id": "material:0004360",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "voices.suspension",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Paires 7–6, 4–3, 9–8 ou 2–3 selon position."
+      ],
+      "context": "Catalogue de retards à deux voix ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "justification": "Paires 7–6, 4–3, 9–8 ou 2–3 selon position.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Dépendance à l'orientation et aux voix."
+    },
+    {
+      "id": "material-knowledge:0000086",
+      "material_id": "material:0004369",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "orchestration.local_roles",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Fonctions de pédales, accents, voix et redistribution."
+      ],
+      "context": "Comparaison d'un original pianistique et d'une orchestration ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "justification": "Fonctions de pédales, accents, voix et redistribution.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Pas de réalisation unique."
+    },
+    {
+      "id": "material-knowledge:0000087",
+      "material_id": "material:0004370",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.function",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Qualités d'accord et mouvement de fondamentales ; variante mineure."
+      ],
+      "context": "Harmonie tonale jazz ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "justification": "Qualités d'accord et mouvement de fondamentales ; variante mineure.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Ni universel ni exclusivement jazz."
     }
   ]
 }

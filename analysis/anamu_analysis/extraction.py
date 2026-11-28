@@ -20,6 +20,8 @@ DISPOSITIONS = {
     "extraction_complete_for_passage",
 }
 CLOSED = {"no_analytic_assertion_in_passage", "extraction_complete_for_passage"}
+REVIEW_DIMENSIONS = {"definitions", "methods", "conditions", "exceptions",
+                     "counterexamples", "source_attribution"}
 
 
 def current_revision(row: dict, unit: dict) -> bool:
@@ -45,6 +47,8 @@ def load_ledger(folder: Path) -> dict:
     fact_ids = {row["id"] for row in registry}
     mentions, assertions, reviews = defaultdict(list), defaultdict(list), defaultdict(list)
     all_ids = set()
+    anchored_assertions = []
+    unresolved_subjects = []
     assertions_by_id = {}
     mentions_by_id = {}
     for path in sorted((folder / "mentions").glob("*.json")):
@@ -71,6 +75,33 @@ def load_ledger(folder: Path) -> dict:
                         raise ValueError("Unknown passage disposition: " + material)
                     if not isinstance(row.get("reason"), str) or not row["reason"].strip():
                         raise ValueError("Passage review requires a reason: " + material)
+                if batch.get("extraction_contract") == "passage_review_v2":
+                    if field == "passage_reviews":
+                        dims = row.get("review_dimensions", {})
+                        if (set(dims) != REVIEW_DIMENSIONS or
+                                any(v not in {"examined", "not_present", "open"}
+                                    for v in dims.values())):
+                            raise ValueError("Invalid review dimensions: " + material)
+                        remaining = row.get("remaining_questions", [])
+                        if (row["disposition"] in CLOSED and
+                                (remaining or "open" in dims.values())):
+                            raise ValueError("Closed review retains open dimensions: " + material)
+                        if row["disposition"] == "partial_extraction" and not remaining:
+                            raise ValueError("Partial review needs remaining questions: " + material)
+                    elif field == "assertions":
+                        anchor = row.get("source_anchor", {})
+                        start, end = anchor.get("start_codepoint"), anchor.get("end_codepoint_exclusive")
+                        if (anchor.get("kind") != "exact_source_excerpt" or
+                                type(start) is not int or type(end) is not int or
+                                start < 0 or end <= start or
+                                not isinstance(anchor.get("excerpt_sha256"), str) or
+                                len(anchor["excerpt_sha256"]) != 64 or
+                                not row.get("applicability_conditions") or
+                                not row.get("inference_limit")):
+                            raise ValueError("Invalid assertion anchor or limits: " + row["id"])
+                        anchored_assertions.append(row)
+                    elif field == "mentions" and row.get("unresolved_subject"):
+                        unresolved_subjects.append(row)
                 target[material].append(dict(row, batch=path.name))
     for identifier, row in assertions_by_id.items():
         mention = mentions_by_id.get(row["mention_id"])
@@ -135,7 +166,9 @@ def load_ledger(folder: Path) -> dict:
             "remaining_questions": sorted({q for r in explicit
                                            for q in r.get("remaining_questions", [])}),
         })
-    return {"rows": rows, "requirements": requirements, "fact_ids": fact_ids}
+    return {"rows": rows, "requirements": requirements, "fact_ids": fact_ids,
+            "anchored_assertions": anchored_assertions,
+            "unresolved_subjects": unresolved_subjects}
 
 
 def status(ledger: dict) -> dict:
@@ -159,6 +192,12 @@ def status(ledger: dict) -> dict:
         "units_closed_for_current_pass": len(closed),
         "units_open_for_extraction": len(active) - len(closed),
         "current_assertions": sum(r["current_assertions"] for r in active),
+        "assertions_with_exact_excerpt_anchor": len(ledger["anchored_assertions"]),
+        "mentions_with_unresolved_subject": len(ledger["unresolved_subjects"]),
+        "unresolved_subjects": [
+            {"mention_id": m["id"], "material_id": m["material_id"],
+             "subject": m["unresolved_subject"]}
+            for m in ledger["unresolved_subjects"]],
         "stale_records": sum(r["stale_records"] for r in rows),
         "states": dict(sorted(Counter(r["extraction_state"] for r in rows).items())),
         "by_source_kind": {k: dict(v) for k, v in sorted(by_kind.items())},
@@ -172,7 +211,8 @@ def status(ledger: dict) -> dict:
 
 
 def queue(ledger: dict, *, kind: str | None = None,
-          source: str | None = None, limit: int = 20) -> list[dict]:
+          source: str | None = None, limit: int = 20,
+          state: str | None = None, source_prefix: str | None = None) -> list[dict]:
     if limit < 0:
         raise ValueError("Limit must be nonnegative")
     groups = defaultdict(list)
@@ -182,6 +222,10 @@ def queue(ledger: dict, *, kind: str | None = None,
         if kind and row["source_kind"] != kind:
             continue
         if source and row["source_path"] != source:
+            continue
+        if source_prefix and not row["source_path"].startswith(source_prefix):
+            continue
+        if state and row["extraction_state"] != state:
             continue
         groups[row["source_path"]].append(row)
     # Revisit conflicts/stale records first within each document, then round-robin
@@ -206,13 +250,17 @@ def queue(ledger: dict, *, kind: str | None = None,
     return selected
 
 
-def source_packet(repo: Path, row: dict) -> dict:
+def source_packet(repo: Path, row: dict, cache: dict | None = None) -> dict:
     span = row["source_span"]
     path = (repo / span["document_path"]).resolve()
     if not path.is_relative_to(repo / "docs"):
         raise ValueError("Source is outside read-only docs/")
-    raw = path.read_bytes()
-    if digest(raw) != span["document_sha256"]:
+    cache = {} if cache is None else cache
+    if path not in cache:
+        raw = path.read_bytes()
+        cache[path] = (raw, digest(raw))
+    raw, document_hash = cache[path]
+    if document_hash != span["document_sha256"]:
         raise ValueError("Source bytes changed; refresh and review before extraction")
     loc = span["locator"]
     if loc["kind"] == "markdown_fragment":
@@ -230,6 +278,42 @@ def source_packet(repo: Path, row: dict) -> dict:
     return dict(row, source_verified_at_read=True, source_content=value)
 
 
+def packets(repo: Path, rows: list[dict]) -> list[dict]:
+    """Verify each passage while reading each source document only once."""
+    cache: dict = {}
+    return [source_packet(repo, row, cache) for row in rows]
+
+
+def audit_anchors(repo: Path, ledger: dict) -> dict:
+    """Check the exact source excerpt of every current v2 assertion."""
+    rows = {r["material_id"]: r for r in ledger["rows"]}
+    cache: dict = {}
+    errors, stale = [], []
+    verified = 0
+    for assertion in ledger["anchored_assertions"]:
+        row = rows[assertion["material_id"]]
+        if (row["material_revision"] != assertion["reviewed_material_revision"] or
+                row["source_span"] != assertion["source_span"] or
+                row["extraction_state"] == "inactive_source_retained"):
+            stale.append(assertion["id"])
+            continue
+        try:
+            value = source_packet(repo, row, cache)["source_content"]
+            anchor = assertion["source_anchor"]
+            if not isinstance(value, str):
+                raise ValueError("Exact text anchor needs a string source")
+            start, end = anchor["start_codepoint"], anchor["end_codepoint_exclusive"]
+            excerpt = value[start:end]
+            if (end > len(value) or digest(excerpt) != anchor["excerpt_sha256"] or
+                    value.find(excerpt) != value.rfind(excerpt)):
+                raise ValueError("Exact excerpt does not match uniquely")
+            verified += 1
+        except (OSError, ValueError, KeyError, IndexError) as exc:
+            errors.append({"assertion_id": assertion["id"], "reason": str(exc)})
+    return {"verified_excerpt_anchors": verified, "stale_assertions": stale,
+            "errors": errors, "musicological_validation": False}
+
+
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description="AnaMu: source-checked extraction ledger")
     parser.add_argument("--repo", type=Path, default=REPO_ROOT)
@@ -238,7 +322,12 @@ def main(argv: list[str] | None = None) -> None:
     todo = commands.add_parser("queue")
     todo.add_argument("--kind", choices=["course_markdown", "shared_markdown", "structured_register_json"])
     todo.add_argument("--source")
+    todo.add_argument("--source-prefix", help="Filter a source directory or path prefix")
+    todo.add_argument("--state", choices=["conflicting_reviews", "review_stale",
+        "partial_extraction", "legacy_partial_extraction", "not_examined_for_extraction"])
     todo.add_argument("--limit", type=int, default=20)
+    todo.add_argument("--packets", action="store_true", help="Include verified bounded source content")
+    commands.add_parser("audit-anchors", help="Read source bytes and verify exact assertion excerpts")
     show = commands.add_parser("packet")
     show.add_argument("material_id")
     args = parser.parse_args(argv)
@@ -248,7 +337,15 @@ def main(argv: list[str] | None = None) -> None:
         if args.command == "status":
             result = status(ledger)
         elif args.command == "queue":
-            result = queue(ledger, kind=args.kind, source=args.source, limit=args.limit)
+            result = queue(ledger, kind=args.kind, source=args.source, limit=args.limit,
+                           state=args.state, source_prefix=args.source_prefix)
+            if args.packets:
+                result = packets(repo, result)
+        elif args.command == "audit-anchors":
+            result = audit_anchors(repo, ledger)
+            if result["errors"] or result["stale_assertions"]:
+                print(json.dumps(result, ensure_ascii=False, indent=2))
+                parser.exit(1)
         else:
             row = next((r for r in ledger["rows"] if r["material_id"] == args.material_id), None)
             if row is None:

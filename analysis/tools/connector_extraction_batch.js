@@ -52,11 +52,15 @@ if(sha256("abc")!=="ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f200
 const fail=m=>{throw Error(m)};
 const requireText=(v,k)=>typeof v==="string"&&v.trim()?v:fail("Missing "+k);
 const unique=(values,label)=>{if(new Set(values).size!==values.length)fail("Duplicate "+label)};
-const id=requireText(batchSpec.id,"batch id");
+const packetMode=batchSpec.mode==="packet";
+const id=packetMode?"read-only-packet":requireText(batchSpec.id,"batch id");
 if(!/^[a-z0-9][a-z0-9-]{2,60}$/.test(id))fail("Invalid batch id");
-if(!Array.isArray(batchSpec.entries)||!batchSpec.entries.length)fail("Empty extraction batch");
+if(!packetMode&&(!Array.isArray(batchSpec.entries)||!batchSpec.entries.length))fail("Empty extraction batch");
+if(packetMode&&(!Array.isArray(batchSpec.paths)||!batchSpec.paths.length))fail("Packet requires source paths");
 const info=JSON.parse((await tools.mcp__GitHub__fetch({url:"https://api.github.com/repos/"+repo+"/branches/"+branch})).result.content);
 const parent=info.commit.sha;
+if(!packetMode&&typeof batchSpec.expected_head!=="string")fail("Publication requires expected_head from reviewed source packet");
+if(batchSpec.expected_head&&batchSpec.expected_head!==parent)fail("Source packet head has changed; refresh before publishing");
 const read=async path=>{
   let f=(await tools.mcp__GitHub__fetch_file({repository_full_name:repo,ref:parent,path})).result;
   if(!f.content)f=(await tools.mcp__GitHub__fetch_blob({repository_full_name:repo,blob_sha:f.sha})).result;
@@ -72,7 +76,7 @@ const [index,links,senses,concepts,manifest,listing]=await Promise.all([
   read(root+"source-manifest.json").then(JSON.parse),
   tools.mcp__GitHub__fetch({url:"https://api.github.com/repos/"+repo+"/contents/"+root+"mentions?ref="+parent}).then(x=>JSON.parse(x.result.content))
 ]);
-if(listing.some(f=>f.path===batchPath))fail("Batch already exists: "+id);
+if(!packetMode&&listing.some(f=>f.path===batchPath))fail("Batch already exists: "+id);
 const sourceMap=new Map(manifest.sources.map(s=>[s.path,s]));
 const conceptIds=new Set(concepts.concepts.map(c=>c.id));
 const senseIds=new Set(senses.candidates.map(c=>c.id));
@@ -85,7 +89,7 @@ for(const sense of newSenses){
   senseIds.add(sense.id);senses.candidates.push(sense)
 }
 const documents=new Map();
-for(const path of new Set(batchSpec.entries.map(e=>e.path))){
+for(const path of new Set(packetMode?batchSpec.paths:batchSpec.entries.map(e=>e.path))){
   const source=sourceMap.get(path);
   if(!source||!["course_markdown","shared_markdown"].includes(source.kind))fail("Not a manifest Markdown source "+path);
   const [raw,chunk]=await Promise.all([read(path),read(root+"materials/sources/"+sha256(path).slice(0,20)+".json").then(JSON.parse)]);
@@ -94,6 +98,20 @@ for(const path of new Set(batchSpec.entries.map(e=>e.path))){
   unique(ids,"material ID in "+path);
   if(ids.length!==index.by_document[path]?.length||ids.some(v=>!index.by_document[path].includes(v)))fail("Index mismatch "+path);
   documents.set(path,{raw,chunk,lines:raw.match(/[^\r\n\v\f\x1c-\x1e\x85\u2028\u2029]*(?:\r\n|[\r\n\v\f\x1c-\x1e\x85\u2028\u2029])|[^\r\n\v\f\x1c-\x1e\x85\u2028\u2029]+$/g)||[],sha:sha256(raw)})
+}
+// Read-only packets include the actual bounded text, never only the title.
+if(packetMode){
+  const requested=batchSpec.material_ids?new Set(batchSpec.material_ids):null;
+  const packets=[];
+  for(const [path,d] of documents)for(const unit of d.chunk.units){
+    if(unit.lifecycle!=="active"||(requested&&!requested.has(unit.id)))continue;
+    const b=unit.source_bindings.find(x=>x.role==="primary"),l=b.locator;
+    const passage=d.lines.slice(l.start_line-1,l.end_line).join("");
+    if(b.document_sha256!==d.sha||sha256(passage)!==b.content_sha256)fail("Invalid packet source "+unit.id);
+    packets.push({path,material_id:unit.id,revision:unit.revision,title:unit.title,content_sha256:b.content_sha256,locator:l,source_content:passage});
+  }
+  if(requested&&packets.length!==requested.size)fail("Some requested packet IDs not found");
+  text({head:parent,packets});return
 }
 unique(batchSpec.entries.map(e=>e.material_id),"material within batch");
 unique(batchSpec.entries.flatMap(e=>e.assertions.map(a=>a.rule_key)),"rule key within batch");
@@ -107,16 +125,25 @@ for(const [j,e] of batchSpec.entries.entries()){
   const passage=d.lines.slice(loc.start_line-1,loc.end_line).join("");
   if(s.document_path!==e.path||s.document_sha256!==d.sha||s.content_sha256!==sha256(passage))fail("Source fingerprint mismatch "+e.material_id);
   if(e.expected_content_sha256!==s.content_sha256)fail("Reader must name exact reviewed content SHA "+e.material_id);
+  if(e.expected_material_revision!==unit.revision)fail("Reader must name exact reviewed material revision "+e.material_id);
   const span={document_path:e.path,document_sha256:s.document_sha256,content_sha256:s.content_sha256,locator:loc};
   const review={material_id:e.material_id,reviewed_material_revision:unit.revision,source_span:span,disposition:e.disposition||"partial_extraction",reason:requireText(e.reason,"review reason"),review_state:"assistant_source_checked",remaining_questions:e.remaining_questions||[]};
   if(!["partial_extraction","no_analytic_assertion_in_passage","extraction_complete_for_passage"].includes(review.disposition))fail("Invalid disposition");
   if(review.disposition==="no_analytic_assertion_in_passage"&&e.assertions.length)fail("No assertion disposition with assertions");
+  if(!Array.isArray(review.remaining_questions)||review.remaining_questions.some(q=>typeof q!=="string"||!q.trim()))fail("Invalid remaining questions");
   if(review.disposition==="partial_extraction"&&!review.remaining_questions.length)fail("Partial review needs remaining questions");
+  if(review.disposition!=="partial_extraction"&&review.remaining_questions.length)fail("Closed review cannot have remaining extraction questions");
+  review.review_contract="passage_review_v2";
+  review.review_dimensions=e.review_dimensions;
+  const dims=["definitions","methods","conditions","exceptions","counterexamples","source_attribution"];
+  if(!review.review_dimensions||Object.keys(review.review_dimensions).length!==dims.length||dims.some(k=>!["examined","not_present","open"].includes(review.review_dimensions[k])))fail("Review must classify every extraction dimension");
+  if(review.disposition!=="partial_extraction"&&dims.some(k=>review.review_dimensions[k]==="open"))fail("Closed review has open dimensions");
   reviews.push(review);
   if(!e.assertions.length){
     if(review.disposition!=="no_analytic_assertion_in_passage")fail("Empty assertions for extracted passage");
     continue
   }
+  if(!e.target&&!e.sense_id)requireText(e.unresolved_subject,"unresolved subject");
   if(e.target&&!conceptIds.has(e.target))fail("Unknown concept "+e.target);
   if(e.sense_id&&!senseIds.has(e.sense_id))fail("Unknown candidate sense "+e.sense_id);
   if(e.target&&e.sense_id)fail("Choose a canonical or candidate sense, not both");
@@ -126,11 +153,17 @@ for(const [j,e] of batchSpec.entries.entries()){
     if(!["method","negative","positive","conditional","exception","definition","counterexample","open_question"].includes(a.polarity))fail("Unknown polarity "+a.polarity);
     if(!Array.isArray(a.requires_evidence)||!a.requires_evidence.every(x=>typeof x==="string"&&x.trim()))fail("Missing evidence requirements");
     unique(a.requires_evidence,"evidence requirement");
+    const excerpt=requireText(a.source_excerpt,"assertion source excerpt");
+    if(excerpt.length<8||passage.indexOf(excerpt)<0||passage.indexOf(excerpt)!==passage.lastIndexOf(excerpt))fail("Excerpt must locate one exact span: "+a.rule_key);
+    const offset=passage.indexOf(excerpt);
+    const start=Array.from(passage.slice(0,offset)).length;
+    const end=start+Array.from(excerpt).length;
+    const anchor={kind:"exact_source_excerpt",start_codepoint:start,end_codepoint_exclusive:end,excerpt_sha256:sha256(excerpt)};
     const aid="candidate-assertion:"+id+":"+String(assertions.length+1).padStart(4,"0");
     assertionIds.push(aid);
-    assertions.push({id:aid,mention_id:mentionId,material_id:e.material_id,reviewed_material_revision:unit.revision,rule_key:requireText(a.rule_key,"rule key"),polarity:a.polarity,statement:requireText(a.statement,"statement"),scope:requireText(e.scope,"scope"),requires_evidence:a.requires_evidence,review_state:"assistant_source_checked_candidate",source_role:requireText(e.role,"source role"),source_is_direct_citation:false,source_span:span,causal_claim:false,warning:"Candidate fondée sur ce passage, non règle universelle ni capacité validée."})
+    assertions.push({id:aid,mention_id:mentionId,material_id:e.material_id,reviewed_material_revision:unit.revision,rule_key:requireText(a.rule_key,"rule key"),polarity:a.polarity,statement:requireText(a.statement,"statement"),scope:requireText(e.scope,"scope"),requires_evidence:a.requires_evidence,review_state:"assistant_source_checked_candidate",source_role:requireText(e.role,"source role"),source_is_direct_citation:false,source_span:span,source_anchor:anchor,applicability_conditions:requireText(a.applicability_conditions,"applicability conditions"),inference_limit:requireText(a.inference_limit,"inference limit"),causal_claim:false,warning:"Candidate fondée sur ce passage, non règle universelle ni capacité validée."})
   }
-  mentions.push({id:mentionId,material_id:e.material_id,reviewed_material_revision:unit.revision,source_document_path:e.path,source_section_heading:unit.title,source_span:span,label:requireText(e.label,"label"),language:"fr",attribution_role:e.role,concept_sense_candidate:e.target||null,candidate_sense_id:e.sense_id||null,state:"assistant_source_checked_candidate",scope_note:e.scope,candidate_assertion_ids:assertionIds});
+  mentions.push({id:mentionId,material_id:e.material_id,reviewed_material_revision:unit.revision,source_document_path:e.path,source_section_heading:unit.title,source_span:span,label:requireText(e.label,"label"),language:"fr",attribution_role:e.role,concept_sense_candidate:e.target||null,candidate_sense_id:e.sense_id||null,unresolved_subject:e.unresolved_subject||null,state:"assistant_source_checked_candidate",scope_note:e.scope,candidate_assertion_ids:assertionIds});
   if(e.target||e.sense_id){
     const target=e.target?{kind:"concept",id:e.target,registry_path:root+"concepts.json"}:{kind:"unresolved_concept_or_assertion",id:null,proposed_subject:e.label,candidate_sense_id:e.sense_id};
     if(links.bindings.some(b=>b.material_id===e.material_id&&(e.target?b.target.id===e.target:b.target.candidate_sense_id===e.sense_id)))fail("Existing material target; avoid duplicate contribution "+e.material_id);
@@ -146,7 +179,7 @@ coverage.material_knowledge_bindings=links.bindings.length;
 coverage.material_knowledge_bindings_proposed=links.bindings.filter(b=>b.state==="assistant_source_checked_proposed_link").length;
 coverage.material_knowledge_bindings_unresolved=links.bindings.filter(b=>b.target.id===null).length;
 coverage.candidate_senses_pending_reconciliation=senses.candidates.filter(s=>s.decision==="pending_reconciliation").length;
-const batch={schema_version:1,edition:id,scope:requireText(batchSpec.scope,"batch scope"),material_registry_path:root+"materials/catalog.json",source_manifest_path:root+"source-manifest.json",concept_registry_path:root+"concepts.json",review_status:"assistant_source_checked_candidates_not_independently_validated",mentions,assertions,passage_reviews:reviews,coverage:{selected_material_units:reviews.length,mentions:mentions.length,candidate_assertions:assertions.length,assertions_human_reviewed:0},revision_contract:"Review and claims expire when material revision or source span changes."};
+const batch={schema_version:1,extraction_contract:"passage_review_v2",input_commit:parent,edition:id,scope:requireText(batchSpec.scope,"batch scope"),material_registry_path:root+"materials/catalog.json",source_manifest_path:root+"source-manifest.json",concept_registry_path:root+"concepts.json",review_status:"assistant_source_checked_candidates_not_independently_validated",mentions,assertions,passage_reviews:reviews,coverage:{selected_material_units:reviews.length,mentions:mentions.length,candidate_assertions:assertions.length,assertions_human_reviewed:0},revision_contract:"Review and claims expire when material revision or source span changes."};
 const changes=[[batchPath,batch],[root+"material-index.json",index],[root+"material-knowledge-maps/links.json",links],[root+"candidate-senses.json",senses]];
 const tree=await tools.mcp__GitHub__create_tree({repository_full_name:repo,base_tree_sha:info.commit.commit.tree.sha,tree_elements:changes.map(([path,o])=>({path,type:"blob",mode:"100644",content:JSON.stringify(o,null,2)+"\n"}))});
 const commit=await tools.mcp__GitHub__create_commit({repository_full_name:repo,tree_sha:tree.result.sha,parent_sha:parent,message:"Extraire "+assertions.length+" assertions candidates : "+id});

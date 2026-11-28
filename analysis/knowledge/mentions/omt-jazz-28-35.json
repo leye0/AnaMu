@@ -1,0 +1,1261 @@
+{
+  "schema_version": 1,
+  "extraction_contract": "passage_review_v2",
+  "input_commit": "4adef7812b2d603314838ec6bcfeff47346bd91d",
+  "edition": "omt-jazz-28-35",
+  "scope": "Huit mécanismes de jazz, synthèses documentaires AnaMu ; source externe non reconsultée.",
+  "material_registry_path": "analysis/knowledge/materials/catalog.json",
+  "source_manifest_path": "analysis/knowledge/source-manifest.json",
+  "concept_registry_path": "analysis/knowledge/concepts.json",
+  "review_status": "assistant_source_checked_candidates_not_independently_validated",
+  "mentions": [
+    {
+      "id": "mention:omt-jazz-28-35:0001",
+      "material_id": "material:0004370",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "28. Cadence jazz ii–V–I — `jazz_two_five_one`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "acefc898c70fc8782bea0c82339d95ea3f154caf4b931c1e4f4f6d19d8a2a3b3",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:142ea52b548bbf284efa6cf8",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "28. Cadence jazz ii–V–I — `jazz_two_five_one`"
+          ],
+          "start_line": 161,
+          "end_line": 172,
+          "subtree_end_line": 172
+        }
+      },
+      "label": "Enchaînement jazz ii–V–I",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": "harmony.function",
+      "candidate_sense_id": null,
+      "unresolved_subject": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Harmonie tonale jazz ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-jazz-28-35:0001",
+        "candidate-assertion:omt-jazz-28-35:0002"
+      ]
+    },
+    {
+      "id": "mention:omt-jazz-28-35:0002",
+      "material_id": "material:0004371",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "29. Turnaround et retour de grille — `jazz_turnaround`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "d1fea01ab64bb9cb0f2c92df4e63e3acd8d50e15515e08ca49a9401fdcc9971a",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b8b6ce1a3b4465b8b6e23484",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "29. Turnaround et retour de grille — `jazz_turnaround`"
+          ],
+          "start_line": 173,
+          "end_line": 184,
+          "subtree_end_line": 184
+        }
+      },
+      "label": "Turnaround et retour de grille",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Turnaround et retour de grille",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Boucle harmonique jazz ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-jazz-28-35:0003",
+        "candidate-assertion:omt-jazz-28-35:0004"
+      ]
+    },
+    {
+      "id": "mention:omt-jazz-28-35:0003",
+      "material_id": "material:0004372",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "30. ii appliqué ajouté avant dominante — `jazz_applied_two`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "6750094c41554bea3235f9bac843e7e092a4267c01f47c29baf341e06822cad9",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b66642c3475fa6ce2dc65e4b",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "30. ii appliqué ajouté avant dominante — `jazz_applied_two`"
+          ],
+          "start_line": 185,
+          "end_line": 196,
+          "subtree_end_line": 196
+        }
+      },
+      "label": "ii appliqué avant dominante",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "ii appliqué avant dominante",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Réorganisation locale d'une grille jazz ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-jazz-28-35:0005",
+        "candidate-assertion:omt-jazz-28-35:0006"
+      ]
+    },
+    {
+      "id": "mention:omt-jazz-28-35:0004",
+      "material_id": "material:0004373",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "31. Septième diminuée à note commune — `jazz_ct_diminished`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "2bd92adcf7d16c37795c0bad00179e290895362dec7cd18ad384e22ccd3ae193",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:10169137049cc61142ba4ef5",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "31. Septième diminuée à note commune — `jazz_ct_diminished`"
+          ],
+          "start_line": 197,
+          "end_line": 208,
+          "subtree_end_line": 208
+        }
+      },
+      "label": "Septième diminuée à note commune",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Septième diminuée à note commune",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Ornement harmonique chromatique ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-jazz-28-35:0007",
+        "candidate-assertion:omt-jazz-28-35:0008"
+      ]
+    },
+    {
+      "id": "mention:omt-jazz-28-35:0005",
+      "material_id": "material:0004374",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "32. Substitution tritonique — `jazz_tritone_sub`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "a58d3236dc5ba0d95156382076638d2363c5e355c21244f63760085a30a66d00",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:0cae0ee06eab88ce766f49b4",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "32. Substitution tritonique — `jazz_tritone_sub`"
+          ],
+          "start_line": 209,
+          "end_line": 220,
+          "subtree_end_line": 220
+        }
+      },
+      "label": "Substitution tritonique",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Substitution tritonique",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Substitution de dominante en jazz tonal ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-jazz-28-35:0009",
+        "candidate-assertion:omt-jazz-28-35:0010"
+      ]
+    },
+    {
+      "id": "mention:omt-jazz-28-35:0006",
+      "material_id": "material:0004375",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "33. Conduite des guides tierce–septième — `jazz_guide_tones`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "81e795d89006a40bc0b0ff72a554b7839753e4f21e2ffa3e2b076f1f665e0042",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:0d3a7a75432025d882a8fa0f",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "33. Conduite des guides tierce–septième — `jazz_guide_tones`"
+          ],
+          "start_line": 221,
+          "end_line": 232,
+          "subtree_end_line": 232
+        }
+      },
+      "label": "Conduite des guide tones",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Conduite des guide tones",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Voicings jazz et mouvement de voix ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-jazz-28-35:0011",
+        "candidate-assertion:omt-jazz-28-35:0012"
+      ]
+    },
+    {
+      "id": "mention:omt-jazz-28-35:0007",
+      "material_id": "material:0004376",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "34. Voicings jazz : espacement et quinte facultative — `jazz_extensions_spacing`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "39767639073282141deff9a8b7f22054cf8859898b2eb7285266524d2fa4dfc0",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:ec278187a6be72a357ab8fc8",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "34. Voicings jazz : espacement et quinte facultative — `jazz_extensions_spacing`"
+          ],
+          "start_line": 233,
+          "end_line": 244,
+          "subtree_end_line": 244
+        }
+      },
+      "label": "Espacement, extensions et omissions jazz",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Espacement, extensions et omissions jazz",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Voicing jazz à nombre de parties limité ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-jazz-28-35:0013",
+        "candidate-assertion:omt-jazz-28-35:0014"
+      ]
+    },
+    {
+      "id": "mention:omt-jazz-28-35:0008",
+      "material_id": "material:0004377",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "35. Accord–mode en improvisation — `jazz_chord_scale`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "27b5e6a47048e29bce3b54be8e53814e50bccf8044188b581dfc12b130d05d2e",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:11d56928bc797547a1aeef2f",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "35. Accord–mode en improvisation — `jazz_chord_scale`"
+          ],
+          "start_line": 245,
+          "end_line": 256,
+          "subtree_end_line": 256
+        }
+      },
+      "label": "Relation accord–mode en improvisation",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Relation accord–mode en improvisation",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Modèle diatonique accord–mode en jazz majeur ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-jazz-28-35:0015",
+        "candidate-assertion:omt-jazz-28-35:0016"
+      ]
+    }
+  ],
+  "assertions": [
+    {
+      "id": "candidate-assertion:omt-jazz-28-35:0001",
+      "mention_id": "mention:omt-jazz-28-35:0001",
+      "material_id": "material:0004370",
+      "reviewed_material_revision": 1,
+      "rule_key": "jazz_ii_v_i_major_minor",
+      "polarity": "definition",
+      "statement": "Le modèle majeur associe m7–7–maj7 sur fondamentales en quintes descendantes ; en mineur, iiø7–V7–i est fréquent et la dominante peut être altérée.",
+      "scope": "Harmonie tonale jazz ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "tonal_frame_declared",
+        "previous_next_harmony_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "acefc898c70fc8782bea0c82339d95ea3f154caf4b931c1e4f4f6d19d8a2a3b3",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:142ea52b548bbf284efa6cf8",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "28. Cadence jazz ii–V–I — `jazz_two_five_one`"
+          ],
+          "start_line": 161,
+          "end_line": 172,
+          "subtree_end_line": 172
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 66,
+        "end_codepoint_exclusive": 219,
+        "excerpt_sha256": "f2f35236c59825ac6fe54bb04a41c0c804f5a5fb3c51081c60e841b99c03641a"
+      },
+      "applicability_conditions": "Centre et fondamentales contextualisés, cadre jazz tonal.",
+      "inference_limit": "La seule suite de qualités ne prouve pas une cadence.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-jazz-28-35:0002",
+      "mention_id": "mention:omt-jazz-28-35:0001",
+      "material_id": "material:0004370",
+      "reviewed_material_revision": 1,
+      "rule_key": "jazz_ii_v_i_not_genre_diagnostic",
+      "polarity": "negative",
+      "statement": "Le schéma ii–V–I n'est ni universel ni exclusivement jazz.",
+      "scope": "Harmonie tonale jazz ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "style_context",
+        "identified_historical_sources"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "acefc898c70fc8782bea0c82339d95ea3f154caf4b931c1e4f4f6d19d8a2a3b3",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:142ea52b548bbf284efa6cf8",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "28. Cadence jazz ii–V–I — `jazz_two_five_one`"
+          ],
+          "start_line": 161,
+          "end_line": 172,
+          "subtree_end_line": 172
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 456,
+        "end_codepoint_exclusive": 519,
+        "excerpt_sha256": "28734abd6981b0f85f82eea4fda40083cfc4d5cf4b39129cce239e9dde036cbb"
+      },
+      "applicability_conditions": "Identification stylistique.",
+      "inference_limit": "Ne pas identifier le genre d'après ce schéma seul.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-jazz-28-35:0003",
+      "mention_id": "mention:omt-jazz-28-35:0002",
+      "material_id": "material:0004371",
+      "reviewed_material_revision": 1,
+      "rule_key": "turnaround_return_to_tonic",
+      "polarity": "definition",
+      "statement": "Le modèle I–vi–ii–V–I prépare le retour à la tonique ; le vi peut devenir dominante appliquée et recevoir des préparations ii–V locales.",
+      "scope": "Boucle harmonique jazz ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "previous_next_harmony_annotated",
+        "phrase_context_annotated",
+        "tonal_frame_declared"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "d1fea01ab64bb9cb0f2c92df4e63e3acd8d50e15515e08ca49a9401fdcc9971a",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b8b6ce1a3b4465b8b6e23484",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "29. Turnaround et retour de grille — `jazz_turnaround`"
+          ],
+          "start_line": 173,
+          "end_line": 184,
+          "subtree_end_line": 184
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 75,
+        "end_codepoint_exclusive": 189,
+        "excerpt_sha256": "8fed44fcab53bc57b511d32e98e3081949844f9654332dc4427fdfe426d60dec"
+      },
+      "applicability_conditions": "Grille, fonction de retour et région tonale établies.",
+      "inference_limit": "Un simple enchaînement circulaire ne prouve pas le rôle formel.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-jazz-28-35:0004",
+      "mention_id": "mention:omt-jazz-28-35:0002",
+      "material_id": "material:0004371",
+      "reviewed_material_revision": 1,
+      "rule_key": "fifths_cycle_not_turnaround",
+      "polarity": "negative",
+      "statement": "Un cercle de quintes n'est pas nécessairement un turnaround complet.",
+      "scope": "Boucle harmonique jazz ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "phrase_context_annotated",
+        "localized_section_boundaries"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "d1fea01ab64bb9cb0f2c92df4e63e3acd8d50e15515e08ca49a9401fdcc9971a",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b8b6ce1a3b4465b8b6e23484",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "29. Turnaround et retour de grille — `jazz_turnaround`"
+          ],
+          "start_line": 173,
+          "end_line": 184,
+          "subtree_end_line": 184
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 388,
+        "end_codepoint_exclusive": 456,
+        "excerpt_sha256": "d7f9334d20e99a3ac836b7790c06fc30e9266e39e34d9522ef7ab8570c65d51b"
+      },
+      "applicability_conditions": "Contexte de fin et de reprise de grille.",
+      "inference_limit": "Ne pas déduire le retour formel des fondamentales seules.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-jazz-28-35:0005",
+      "mention_id": "mention:omt-jazz-28-35:0003",
+      "material_id": "material:0004372",
+      "reviewed_material_revision": 1,
+      "rule_key": "applied_two_before_local_dominant",
+      "polarity": "method",
+      "statement": "Un ii m7 local peut précéder une dominante et resserrer le rythme harmonique en conservant l'arrivée cadentielle ultérieure.",
+      "scope": "Réorganisation locale d'une grille jazz ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "previous_next_harmony_annotated",
+        "metric_positions",
+        "tonal_frame_declared"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "6750094c41554bea3235f9bac843e7e092a4267c01f47c29baf341e06822cad9",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b66642c3475fa6ce2dc65e4b",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "30. ii appliqué ajouté avant dominante — `jazz_applied_two`"
+          ],
+          "start_line": 185,
+          "end_line": 196,
+          "subtree_end_line": 196
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 80,
+        "end_codepoint_exclusive": 228,
+        "excerpt_sha256": "a2b365138c68ba78078ddb855e7e2c82ca3ef76fc3c939a9fcecf3ffc1c294a8"
+      },
+      "applicability_conditions": "Grille sous-jacente, réalisation et dominante locale identifiées.",
+      "inference_limit": "Ne pas déduire l'ajout de la seule qualité m7.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-jazz-28-35:0006",
+      "mention_id": "mention:omt-jazz-28-35:0003",
+      "material_id": "material:0004372",
+      "reviewed_material_revision": 1,
+      "rule_key": "improvised_applied_two_absent_chart",
+      "polarity": "negative",
+      "statement": "Un accord ajouté en improvisation peut être absent des symboles de grille.",
+      "scope": "Réorganisation locale d'une grille jazz ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "score_note_events_verified",
+        "aligned_recording"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "6750094c41554bea3235f9bac843e7e092a4267c01f47c29baf341e06822cad9",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b66642c3475fa6ce2dc65e4b",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "30. ii appliqué ajouté avant dominante — `jazz_applied_two`"
+          ],
+          "start_line": 185,
+          "end_line": 196,
+          "subtree_end_line": 196
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 437,
+        "end_codepoint_exclusive": 518,
+        "excerpt_sha256": "6608ff2d37e4895db4dc3dd71aba9544a674430bb3bbbdb93da3edfc7ff0b777"
+      },
+      "applicability_conditions": "Comparaison de grille et réalisation.",
+      "inference_limit": "L'absence du symbole ne prouve pas l'absence de l'accord exécuté.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-jazz-28-35:0007",
+      "mention_id": "mention:omt-jazz-28-35:0004",
+      "material_id": "material:0004373",
+      "reviewed_material_revision": 1,
+      "rule_key": "common_tone_diminished_prolongation",
+      "polarity": "conditional",
+      "statement": "Une septième diminuée peut prolonger une harmonie en conservant un son de l'accord principal et en faisant broder chromatiquement d'autres voix.",
+      "scope": "Ornement harmonique chromatique ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "voice_trajectories",
+        "previous_next_harmony_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "2bd92adcf7d16c37795c0bad00179e290895362dec7cd18ad384e22ccd3ae193",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:10169137049cc61142ba4ef5",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "31. Septième diminuée à note commune — `jazz_ct_diminished`"
+          ],
+          "start_line": 197,
+          "end_line": 208,
+          "subtree_end_line": 208
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 80,
+        "end_codepoint_exclusive": 236,
+        "excerpt_sha256": "b6121559de58ba5fead518d82d0d1391cd37691a493784f9368e4fd0890476b9"
+      },
+      "applicability_conditions": "Accord principal et trajectoires de voix identifiés.",
+      "inference_limit": "La présence d'une septième diminuée ne suffit pas à établir la prolongation.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-jazz-28-35:0008",
+      "mention_id": "mention:omt-jazz-28-35:0004",
+      "material_id": "material:0004373",
+      "reviewed_material_revision": 1,
+      "rule_key": "common_tone_diminished_may_be_unnotated",
+      "polarity": "negative",
+      "statement": "Le chiffrage de grille peut omettre l'ornement exécuté.",
+      "scope": "Ornement harmonique chromatique ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "score_note_events_verified",
+        "aligned_recording"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "2bd92adcf7d16c37795c0bad00179e290895362dec7cd18ad384e22ccd3ae193",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:10169137049cc61142ba4ef5",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "31. Septième diminuée à note commune — `jazz_ct_diminished`"
+          ],
+          "start_line": 197,
+          "end_line": 208,
+          "subtree_end_line": 208
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 461,
+        "end_codepoint_exclusive": 529,
+        "excerpt_sha256": "dcf9a2e645a35d7aa60ef6e2b03fba5f2783a893a3a5f0ea9ea56a5e5c3b070a"
+      },
+      "applicability_conditions": "Grille et réalisation comparables.",
+      "inference_limit": "Ne pas conclure à une absence effective depuis la grille.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-jazz-28-35:0009",
+      "mention_id": "mention:omt-jazz-28-35:0005",
+      "material_id": "material:0004374",
+      "reviewed_material_revision": 1,
+      "rule_key": "tritone_substitution_shared_guide_tones",
+      "polarity": "definition",
+      "statement": "Un V7 peut être remplacé par une dominante dont la fondamentale est à un triton ; tierce et septième correspondent à la même paire de classes, souvent avec basse chromatique descendante.",
+      "scope": "Substitution de dominante en jazz tonal ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "previous_next_harmony_annotated",
+        "voice_trajectories",
+        "tonal_frame_declared"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "a58d3236dc5ba0d95156382076638d2363c5e355c21244f63760085a30a66d00",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:0cae0ee06eab88ce766f49b4",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "32. Substitution tritonique — `jazz_tritone_sub`"
+          ],
+          "start_line": 209,
+          "end_line": 220,
+          "subtree_end_line": 220
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 69,
+        "end_codepoint_exclusive": 253,
+        "excerpt_sha256": "3115e845b2e25d17b5fab1d6cacf2059852c11a8acf0857fa45656380edd8600"
+      },
+      "applicability_conditions": "Dominantes et cible fonctionnelle identifiées.",
+      "inference_limit": "La paire commune ne prouve pas la fonction ni une basse réellement descendante.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-jazz-28-35:0010",
+      "mention_id": "mention:omt-jazz-28-35:0005",
+      "material_id": "material:0004374",
+      "reviewed_material_revision": 1,
+      "rule_key": "tritone_substitution_not_automatic_idiom",
+      "polarity": "negative",
+      "statement": "Une substitution possible théoriquement n'est pas nécessairement idiomatique dans chaque contexte.",
+      "scope": "Substitution de dominante en jazz tonal ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "style_context",
+        "audition_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "a58d3236dc5ba0d95156382076638d2363c5e355c21244f63760085a30a66d00",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:0cae0ee06eab88ce766f49b4",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "32. Substitution tritonique — `jazz_tritone_sub`"
+          ],
+          "start_line": 209,
+          "end_line": 220,
+          "subtree_end_line": 220
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 450,
+        "end_codepoint_exclusive": 540,
+        "excerpt_sha256": "7dbb0a5713a4e9879ef79374c9f46f4d9ce56e85db9e6e52dc88bad89ebf87de"
+      },
+      "applicability_conditions": "Contexte stylistique et réalisation.",
+      "inference_limit": "Ne pas imposer la substitution à toute dominante.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-jazz-28-35:0011",
+      "mention_id": "mention:omt-jazz-28-35:0006",
+      "material_id": "material:0004375",
+      "reviewed_material_revision": 1,
+      "rule_key": "jazz_guide_tones_thirds_sevenths",
+      "polarity": "conditional",
+      "statement": "Entre accords liés par quinte, tierces et septièmes peuvent permuter leurs rôles par petits mouvements ; une autre voix peut relier neuvième et treizième.",
+      "scope": "Voicings jazz et mouvement de voix ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "voice_trajectories",
+        "previous_next_harmony_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "81e795d89006a40bc0b0ff72a554b7839753e4f21e2ffa3e2b076f1f665e0042",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:0d3a7a75432025d882a8fa0f",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "33. Conduite des guides tierce–septième — `jazz_guide_tones`"
+          ],
+          "start_line": 221,
+          "end_line": 232,
+          "subtree_end_line": 232
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 81,
+        "end_codepoint_exclusive": 230,
+        "excerpt_sha256": "7c2e304568f10b81548099bfedbb37bb6753900af9ff20863adf42f14f6743aa"
+      },
+      "applicability_conditions": "Fonction des notes et trajectoires établies.",
+      "inference_limit": "Une relation entre classes ne prouve pas le mouvement réel des voix.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-jazz-28-35:0012",
+      "mention_id": "mention:omt-jazz-28-35:0006",
+      "material_id": "material:0004375",
+      "reviewed_material_revision": 1,
+      "rule_key": "guide_tone_distribution_varies",
+      "polarity": "negative",
+      "statement": "Les tensions et les voix peuvent être distribuées différemment dans d'autres arrangements.",
+      "scope": "Voicings jazz et mouvement de voix ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "score_note_events_verified",
+        "instrumental_part_identity"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "81e795d89006a40bc0b0ff72a554b7839753e4f21e2ffa3e2b076f1f665e0042",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:0d3a7a75432025d882a8fa0f",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "33. Conduite des guides tierce–septième — `jazz_guide_tones`"
+          ],
+          "start_line": 221,
+          "end_line": 232,
+          "subtree_end_line": 232
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 439,
+        "end_codepoint_exclusive": 507,
+        "excerpt_sha256": "73febff8f5a1ee30bb31b081fc4cd0563768d614084cf8dc1d104df6be2f03a7"
+      },
+      "applicability_conditions": "Comparaison de voicings.",
+      "inference_limit": "Ne pas supposer une distribution unique.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-jazz-28-35:0013",
+      "mention_id": "mention:omt-jazz-28-35:0007",
+      "material_id": "material:0004376",
+      "reviewed_material_revision": 1,
+      "rule_key": "jazz_voicing_spacing_extensions",
+      "polarity": "conditional",
+      "statement": "Dans le modèle décrit, les voix sont plutôt espacées dans le grave et resserrées dans l'aigu ; la quinte peut être omise et 9e, 11e, 13e réparties dans les voix supérieures.",
+      "scope": "Voicing jazz à nombre de parties limité ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "instrumental_part_identity",
+        "score_note_events_verified",
+        "previous_next_harmony_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "39767639073282141deff9a8b7f22054cf8859898b2eb7285266524d2fa4dfc0",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:ec278187a6be72a357ab8fc8",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "34. Voicings jazz : espacement et quinte facultative — `jazz_extensions_spacing`"
+          ],
+          "start_line": 233,
+          "end_line": 244,
+          "subtree_end_line": 244
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 101,
+        "end_codepoint_exclusive": 252,
+        "excerpt_sha256": "7cea943e669dba54029a469fa75100d94458d7ea5524607370570d251d613a0e"
+      },
+      "applicability_conditions": "Registres et fonction des degrés identifiés.",
+      "inference_limit": "Ne pas traiter cette disposition comme règle acoustique universelle.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-jazz-28-35:0014",
+      "mention_id": "mention:omt-jazz-28-35:0007",
+      "material_id": "material:0004376",
+      "reviewed_material_revision": 1,
+      "rule_key": "rootless_voicing_needs_context",
+      "polarity": "conditional",
+      "statement": "Une fondamentale omise du voicing demande généralement une basse ou un autre appui contextuel.",
+      "scope": "Voicing jazz à nombre de parties limité ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "previous_next_harmony_annotated",
+        "voice_trajectories"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "39767639073282141deff9a8b7f22054cf8859898b2eb7285266524d2fa4dfc0",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:ec278187a6be72a357ab8fc8",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "34. Voicings jazz : espacement et quinte facultative — `jazz_extensions_spacing`"
+          ],
+          "start_line": 233,
+          "end_line": 244,
+          "subtree_end_line": 244
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 488,
+        "end_codepoint_exclusive": 562,
+        "excerpt_sha256": "9ca10dabaebe6d00f5c0eb5ebd37c0c449105286caa0a4f0921f5b50e41bb5d6"
+      },
+      "applicability_conditions": "Voicing et ensemble accompagnateur examinés.",
+      "inference_limit": "Ne pas inférer automatiquement une fondamentale absente.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-jazz-28-35:0015",
+      "mention_id": "mention:omt-jazz-28-35:0008",
+      "material_id": "material:0004377",
+      "reviewed_material_revision": 1,
+      "rule_key": "chord_scale_ii_v_i_major_model",
+      "polarity": "conditional",
+      "statement": "Dans le modèle majeur ii m7–V7–Imaj7, les modes associés sont dorien, mixolydien, ionien ; les notes d'accord peuvent servir d'appuis et les autres de passages ou extensions.",
+      "scope": "Modèle diatonique accord–mode en jazz majeur ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "tonal_frame_declared",
+        "previous_next_harmony_annotated",
+        "pitch_classes_provided"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "27b5e6a47048e29bce3b54be8e53814e50bccf8044188b581dfc12b130d05d2e",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:11d56928bc797547a1aeef2f",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "35. Accord–mode en improvisation — `jazz_chord_scale`"
+          ],
+          "start_line": 245,
+          "end_line": 256,
+          "subtree_end_line": 256
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 74,
+        "end_codepoint_exclusive": 225,
+        "excerpt_sha256": "ac826a5772bcd5890261da4e9adc9306fb8fdbf70e6a22023a15084a26d4bba8"
+      },
+      "applicability_conditions": "Tonalité majeure, accords et ligne improvisée identifiés.",
+      "inference_limit": "Une correspondance de collection ne prouve pas le choix conscient d'un mode.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-jazz-28-35:0016",
+      "mention_id": "mention:omt-jazz-28-35:0008",
+      "material_id": "material:0004377",
+      "reviewed_material_revision": 1,
+      "rule_key": "chord_scale_model_not_exhaustive",
+      "polarity": "exception",
+      "statement": "Les notes blues, gammes altérées et substitutions enrichissent le modèle diatonique de base.",
+      "scope": "Modèle diatonique accord–mode en jazz majeur ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "style_context",
+        "previous_next_harmony_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "27b5e6a47048e29bce3b54be8e53814e50bccf8044188b581dfc12b130d05d2e",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:11d56928bc797547a1aeef2f",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "35. Accord–mode en improvisation — `jazz_chord_scale`"
+          ],
+          "start_line": 245,
+          "end_line": 256,
+          "subtree_end_line": 256
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 412,
+        "end_codepoint_exclusive": 494,
+        "excerpt_sha256": "76ecaf3e29e494d3760f3b09a908f4d8f5c58efa34f523ad8f8a96bad15d5b47"
+      },
+      "applicability_conditions": "Improvisation dans un contexte stylistique documenté.",
+      "inference_limit": "Ne pas classer toute note hors modèle comme erreur.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    }
+  ],
+  "passage_reviews": [
+    {
+      "material_id": "material:0004370",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "acefc898c70fc8782bea0c82339d95ea3f154caf4b931c1e4f4f6d19d8a2a3b3",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:142ea52b548bbf284efa6cf8",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "28. Cadence jazz ii–V–I — `jazz_two_five_one`"
+          ],
+          "start_line": 161,
+          "end_line": 172,
+          "subtree_end_line": 172
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme, variante et limites du passage examinés ; œuvres de référence non réanalysées.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004371",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "d1fea01ab64bb9cb0f2c92df4e63e3acd8d50e15515e08ca49a9401fdcc9971a",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b8b6ce1a3b4465b8b6e23484",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "29. Turnaround et retour de grille — `jazz_turnaround`"
+          ],
+          "start_line": 173,
+          "end_line": 184,
+          "subtree_end_line": 184
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme, variante et limites du passage examinés ; œuvres de référence non réanalysées.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004372",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "6750094c41554bea3235f9bac843e7e092a4267c01f47c29baf341e06822cad9",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b66642c3475fa6ce2dc65e4b",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "30. ii appliqué ajouté avant dominante — `jazz_applied_two`"
+          ],
+          "start_line": 185,
+          "end_line": 196,
+          "subtree_end_line": 196
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme, variante et limites du passage examinés ; œuvres de référence non réanalysées.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004373",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "2bd92adcf7d16c37795c0bad00179e290895362dec7cd18ad384e22ccd3ae193",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:10169137049cc61142ba4ef5",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "31. Septième diminuée à note commune — `jazz_ct_diminished`"
+          ],
+          "start_line": 197,
+          "end_line": 208,
+          "subtree_end_line": 208
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme, variante et limites du passage examinés ; œuvres de référence non réanalysées.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004374",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "a58d3236dc5ba0d95156382076638d2363c5e355c21244f63760085a30a66d00",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:0cae0ee06eab88ce766f49b4",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "32. Substitution tritonique — `jazz_tritone_sub`"
+          ],
+          "start_line": 209,
+          "end_line": 220,
+          "subtree_end_line": 220
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme, variante et limites du passage examinés ; œuvres de référence non réanalysées.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004375",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "81e795d89006a40bc0b0ff72a554b7839753e4f21e2ffa3e2b076f1f665e0042",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:0d3a7a75432025d882a8fa0f",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "33. Conduite des guides tierce–septième — `jazz_guide_tones`"
+          ],
+          "start_line": 221,
+          "end_line": 232,
+          "subtree_end_line": 232
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme, variante et limites du passage examinés ; œuvres de référence non réanalysées.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004376",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "39767639073282141deff9a8b7f22054cf8859898b2eb7285266524d2fa4dfc0",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:ec278187a6be72a357ab8fc8",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "34. Voicings jazz : espacement et quinte facultative — `jazz_extensions_spacing`"
+          ],
+          "start_line": 233,
+          "end_line": 244,
+          "subtree_end_line": 244
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme, variante et limites du passage examinés ; œuvres de référence non réanalysées.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004377",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "27b5e6a47048e29bce3b54be8e53814e50bccf8044188b581dfc12b130d05d2e",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:11d56928bc797547a1aeef2f",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "35. Accord–mode en improvisation — `jazz_chord_scale`"
+          ],
+          "start_line": 245,
+          "end_line": 256,
+          "subtree_end_line": 256
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme, variante et limites du passage examinés ; œuvres de référence non réanalysées.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    }
+  ],
+  "coverage": {
+    "selected_material_units": 8,
+    "mentions": 8,
+    "candidate_assertions": 16,
+    "assertions_human_reviewed": 0
+  },
+  "revision_contract": "Review and claims expire when material revision or source span changes."
+}

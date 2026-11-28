@@ -1,0 +1,1109 @@
+{
+  "schema_version": 1,
+  "extraction_contract": "passage_review_v2",
+  "input_commit": "2bb68ccf13b59968cc49c619015cf402aa13e032",
+  "edition": "omt-mecanismes-01-07",
+  "scope": "Sept fragments de synthèse pédagogique Open Music Theory, chapitres indiqués dans chaque passage ; aucune nouvelle consultation indépendante du traité.",
+  "material_registry_path": "analysis/knowledge/materials/catalog.json",
+  "source_manifest_path": "analysis/knowledge/source-manifest.json",
+  "concept_registry_path": "analysis/knowledge/concepts.json",
+  "review_status": "assistant_source_checked_candidates_not_independently_validated",
+  "mentions": [
+    {
+      "id": "mention:omt-mecanismes-01-07:0001",
+      "material_id": "material:0004389",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+      "source_section_heading": "1. Contrepoint à deux voix, première espèce — `counterpoint_species_1_1`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "45387a32d182a4bebad7c0d6c1f9a41804064a108d69db456755b3e100594a93",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:eafbd92c1d9001f9ffb316b3",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "1. Contrepoint à deux voix, première espèce — `counterpoint_species_1_1`"
+          ],
+          "start_line": 7,
+          "end_line": 18,
+          "subtree_end_line": 18
+        }
+      },
+      "label": "Contrepoint de première espèce",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": "voices.independence",
+      "candidate_sense_id": null,
+      "unresolved_subject": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Contrepoint d'espèces à deux voix ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-mecanismes-01-07:0001",
+        "candidate-assertion:omt-mecanismes-01-07:0002"
+      ]
+    },
+    {
+      "id": "mention:omt-mecanismes-01-07:0002",
+      "material_id": "material:0004390",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+      "source_section_heading": "2. Deuxième espèce et notes de passage — `counterpoint_species_2_1`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "df5fb20c5801c7647c583dd74e5789286c599c04bf262e19e222afb3e580b191",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:0d8cd7072c75b7387d7ec34b",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "2. Deuxième espèce et notes de passage — `counterpoint_species_2_1`"
+          ],
+          "start_line": 19,
+          "end_line": 30,
+          "subtree_end_line": 30
+        }
+      },
+      "label": "Deuxième espèce et dissonance de passage",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Deuxième espèce et dissonance de passage",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Contrepoint de deuxième espèce ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-mecanismes-01-07:0003",
+        "candidate-assertion:omt-mecanismes-01-07:0004"
+      ]
+    },
+    {
+      "id": "mention:omt-mecanismes-01-07:0003",
+      "material_id": "material:0004391",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+      "source_section_heading": "3. Fonction harmonique, tonalité classique — `harmonic_function`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "3a1dff886f8605990f7d119f28bf706f554091115f550cacfba938ecb6982bb6",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:c8c271f84ec38236c9ba9b87",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "3. Fonction harmonique, tonalité classique — `harmonic_function`"
+          ],
+          "start_line": 31,
+          "end_line": 42,
+          "subtree_end_line": 42
+        }
+      },
+      "label": "Fonctions harmoniques T, S/PD, D",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": "harmony.function",
+      "candidate_sense_id": null,
+      "unresolved_subject": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Tonalité historique classique ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-mecanismes-01-07:0005",
+        "candidate-assertion:omt-mecanismes-01-07:0006"
+      ]
+    },
+    {
+      "id": "mention:omt-mecanismes-01-07:0004",
+      "material_id": "material:0004392",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+      "source_section_heading": "4. Tonicisation versus modulation — `modulation_tonicization`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "23fc7a6eea20a934f41b1f5faa290755a1de1b760610fba07f0ccb6c8d6d41b9",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:55e86ebff53f1d4449a2c140",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "4. Tonicisation versus modulation — `modulation_tonicization`"
+          ],
+          "start_line": 43,
+          "end_line": 54,
+          "subtree_end_line": 54
+        }
+      },
+      "label": "Tonicisation versus modulation",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": "harmony.modulation",
+      "candidate_sense_id": null,
+      "unresolved_subject": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Cadre analytique tonal ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-mecanismes-01-07:0007",
+        "candidate-assertion:omt-mecanismes-01-07:0008"
+      ]
+    },
+    {
+      "id": "mention:omt-mecanismes-01-07:0005",
+      "material_id": "material:0004393",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+      "source_section_heading": "5. Phrase-type sentence (présentation et continuation) — `sentence`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "3d19e761be7aef7d50f5f10e0206f6e0bded169990683196668b988b905a4832",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:3732ddd4f7946c9f82624037",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "5. Phrase-type sentence (présentation et continuation) — `sentence`"
+          ],
+          "start_line": 55,
+          "end_line": 66,
+          "subtree_end_line": 66
+        }
+      },
+      "label": "Sentence classique : présentation et continuation",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": "form.phrase_hierarchy",
+      "candidate_sense_id": null,
+      "unresolved_subject": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Typologie de thème classique ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-mecanismes-01-07:0009",
+        "candidate-assertion:omt-mecanismes-01-07:0010"
+      ]
+    },
+    {
+      "id": "mention:omt-mecanismes-01-07:0006",
+      "material_id": "material:0004394",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+      "source_section_heading": "6. Période : antécédent et conséquent — `period`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "fd93bfe43c2342207feba0fe60eaf81f1dfe5086ba030bd4e755e8c2e2a2e1b6",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:939441c394d6484e9f53ec2b",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "6. Période : antécédent et conséquent — `period`"
+          ],
+          "start_line": 67,
+          "end_line": 78,
+          "subtree_end_line": 78
+        }
+      },
+      "label": "Période classique : antécédent et conséquent",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": "form.phrase_hierarchy",
+      "candidate_sense_id": null,
+      "unresolved_subject": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Typologie de thème classique ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-mecanismes-01-07:0011",
+        "candidate-assertion:omt-mecanismes-01-07:0012"
+      ]
+    },
+    {
+      "id": "mention:omt-mecanismes-01-07:0007",
+      "material_id": "material:0004395",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+      "source_section_heading": "7. Modes diatoniques et centre tonal — `diatonic_modes`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "93f34bbf13bddc010c11a6e8cb048f5417b0c42a3271fc278083292059d95f8f",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:4cc80a84fee77e5344d33443",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "7. Modes diatoniques et centre tonal — `diatonic_modes`"
+          ],
+          "start_line": 79,
+          "end_line": 90,
+          "subtree_end_line": 90
+        }
+      },
+      "label": "Modes diatoniques et centre",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Modes diatoniques et centre",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Modes diatoniques modernes ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-mecanismes-01-07:0013",
+        "candidate-assertion:omt-mecanismes-01-07:0014"
+      ]
+    }
+  ],
+  "assertions": [
+    {
+      "id": "candidate-assertion:omt-mecanismes-01-07:0001",
+      "mention_id": "mention:omt-mecanismes-01-07:0001",
+      "material_id": "material:0004389",
+      "reviewed_material_revision": 1,
+      "rule_key": "species1_note_ratio_and_motion",
+      "polarity": "definition",
+      "statement": "Dans la première espèce, une note de contrepoint correspond à une note du cantus firmus ; examiner consonances simultanées et mouvements contraire, oblique, similaire ou parallèle.",
+      "scope": "Contrepoint d'espèces à deux voix ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "score_note_events_verified",
+        "identified_voice_parts",
+        "voice_trajectories"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "45387a32d182a4bebad7c0d6c1f9a41804064a108d69db456755b3e100594a93",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:eafbd92c1d9001f9ffb316b3",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "1. Contrepoint à deux voix, première espèce — `counterpoint_species_1_1`"
+          ],
+          "start_line": 7,
+          "end_line": 18,
+          "subtree_end_line": 18
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 101,
+        "end_codepoint_exclusive": 280,
+        "excerpt_sha256": "32668f9a72078938f13203ee83c630f094667cec3161b815d53130eb2e26a035"
+      },
+      "applicability_conditions": "Cadre de première espèce et deux lignes identifiées.",
+      "inference_limit": "Le rapport 1:1 ne suffit pas à prouver l'indépendance perceptive.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-01-07:0002",
+      "mention_id": "mention:omt-mecanismes-01-07:0001",
+      "material_id": "material:0004389",
+      "reviewed_material_revision": 1,
+      "rule_key": "species1_parallel_fifths_style_constraint",
+      "polarity": "conditional",
+      "statement": "Dans ce style, les quintes et octaves parallèles sont à éviter et l'arrivée vise la stabilité.",
+      "scope": "Contrepoint d'espèces à deux voix ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "style_context",
+        "voice_trajectories",
+        "vertical_intervals"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "45387a32d182a4bebad7c0d6c1f9a41804064a108d69db456755b3e100594a93",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:eafbd92c1d9001f9ffb316b3",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "1. Contrepoint à deux voix, première espèce — `counterpoint_species_1_1`"
+          ],
+          "start_line": 7,
+          "end_line": 18,
+          "subtree_end_line": 18
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 282,
+        "end_codepoint_exclusive": 355,
+        "excerpt_sha256": "6bb2d7556b8c656ace1bfb919aba731d10bbb5792f46de2d663577cdd32f2ca3"
+      },
+      "applicability_conditions": "Exercice de première espèce.",
+      "inference_limit": "Ne pas universaliser à toute époque.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-01-07:0003",
+      "mention_id": "mention:omt-mecanismes-01-07:0002",
+      "material_id": "material:0004390",
+      "reviewed_material_revision": 1,
+      "rule_key": "species2_passing_dissonance",
+      "polarity": "conditional",
+      "statement": "En deuxième espèce, deux notes de contrepoint répondent à une du cantus ; le temps fort est consonant, une dissonance de passage est admise sur temps faible si approchée et quittée conjointement.",
+      "scope": "Contrepoint de deuxième espèce ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "identified_voice_parts",
+        "metric_positions",
+        "voice_trajectories",
+        "vertical_intervals"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "df5fb20c5801c7647c583dd74e5789286c599c04bf262e19e222afb3e580b191",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:0d8cd7072c75b7387d7ec34b",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "2. Deuxième espèce et notes de passage — `counterpoint_species_2_1`"
+          ],
+          "start_line": 19,
+          "end_line": 30,
+          "subtree_end_line": 30
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 96,
+        "end_codepoint_exclusive": 294,
+        "excerpt_sha256": "b671987b3c7eafac85594f22c72d7f341c7db87f052722c13e0679c44c20c218"
+      },
+      "applicability_conditions": "Parties et métrique identifiées dans un cadre d'espèces.",
+      "inference_limit": "Une dissonance faible seule ne suffit pas à identifier une note de passage.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-01-07:0004",
+      "mention_id": "mention:omt-mecanismes-01-07:0002",
+      "material_id": "material:0004390",
+      "reviewed_material_revision": 1,
+      "rule_key": "species2_not_universal",
+      "polarity": "negative",
+      "statement": "Les critères de deuxième espèce ne peuvent être transférés sans justification au contrepoint libre.",
+      "scope": "Contrepoint de deuxième espèce ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "style_context"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "df5fb20c5801c7647c583dd74e5789286c599c04bf262e19e222afb3e580b191",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:0d8cd7072c75b7387d7ec34b",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "2. Deuxième espèce et notes de passage — `counterpoint_species_2_1`"
+          ],
+          "start_line": 19,
+          "end_line": 30,
+          "subtree_end_line": 30
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 833,
+        "end_codepoint_exclusive": 919,
+        "excerpt_sha256": "7cc732349f942e5ae609b17f47126cb629be686fc55cb059e5347b38a1f72bc1"
+      },
+      "applicability_conditions": "Comparaison de styles.",
+      "inference_limit": "Ne démontre aucun syllabus complet.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-01-07:0005",
+      "mention_id": "mention:omt-mecanismes-01-07:0003",
+      "material_id": "material:0004391",
+      "reviewed_material_revision": 1,
+      "rule_key": "classical_function_roles_in_phrase",
+      "polarity": "definition",
+      "statement": "Dans ce cadre, T, S/PD et D nomment des rôles fonctionnels tenant compte de l'attraction des degrés et de la place des accords dans la phrase.",
+      "scope": "Tonalité historique classique ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "tonal_frame_declared",
+        "phrase_context_annotated",
+        "previous_next_harmony_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "3a1dff886f8605990f7d119f28bf706f554091115f550cacfba938ecb6982bb6",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:c8c271f84ec38236c9ba9b87",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "3. Fonction harmonique, tonalité classique — `harmonic_function`"
+          ],
+          "start_line": 31,
+          "end_line": 42,
+          "subtree_end_line": 42
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 129,
+        "end_codepoint_exclusive": 308,
+        "excerpt_sha256": "7154378debf91c50ad21a7cef1d7b28abb03a55ba552dd4e2ed7eafd35093e86"
+      },
+      "applicability_conditions": "Tonalité historique et phrase contextualisée.",
+      "inference_limit": "Le chiffrage seul ne suffit pas à établir la fonction.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-01-07:0006",
+      "mention_id": "mention:omt-mecanismes-01-07:0003",
+      "material_id": "material:0004391",
+      "reviewed_material_revision": 1,
+      "rule_key": "classical_function_framework_not_universal",
+      "polarity": "negative",
+      "statement": "La classification T/S/D est dépendante du style et ne doit pas être imposée à tout répertoire.",
+      "scope": "Tonalité historique classique ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "style_context"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "3a1dff886f8605990f7d119f28bf706f554091115f550cacfba938ecb6982bb6",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:c8c271f84ec38236c9ba9b87",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "3. Fonction harmonique, tonalité classique — `harmonic_function`"
+          ],
+          "start_line": 31,
+          "end_line": 42,
+          "subtree_end_line": 42
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 801,
+        "end_codepoint_exclusive": 886,
+        "excerpt_sha256": "c1a147ec264cfdea03f36260c8e0429919193188916850910199190e119232c0"
+      },
+      "applicability_conditions": "Choix du cadre d'analyse.",
+      "inference_limit": "Ne nie pas la possibilité d'une analyse fonctionnelle dans certains autres styles.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-01-07:0007",
+      "mention_id": "mention:omt-mecanismes-01-07:0004",
+      "material_id": "material:0004392",
+      "reviewed_material_revision": 1,
+      "rule_key": "tonicization_modulation_stabilization",
+      "polarity": "definition",
+      "statement": "Une tonicisation accentue brièvement un degré ; une modulation implique le maintien et la stabilisation d'une nouvelle tonique, notamment par une cadence.",
+      "scope": "Cadre analytique tonal ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "tonal_frame_declared",
+        "previous_next_harmony_annotated",
+        "phrase_context_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "23fc7a6eea20a934f41b1f5faa290755a1de1b760610fba07f0ccb6c8d6d41b9",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:55e86ebff53f1d4449a2c140",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "4. Tonicisation versus modulation — `modulation_tonicization`"
+          ],
+          "start_line": 43,
+          "end_line": 54,
+          "subtree_end_line": 54
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 90,
+        "end_codepoint_exclusive": 252,
+        "excerpt_sha256": "c8f79efe8abb69281b1d8538cf4b977db267c579c629291d42e5c5da0bd2adf2"
+      },
+      "applicability_conditions": "Cadre tonal décrit dans la synthèse.",
+      "inference_limit": "Une dominante secondaire isolée ne suffit pas à établir une modulation.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-01-07:0008",
+      "mention_id": "mention:omt-mecanismes-01-07:0004",
+      "material_id": "material:0004392",
+      "reviewed_material_revision": 1,
+      "rule_key": "modulation_cadence_criterion_framework",
+      "polarity": "conditional",
+      "statement": "L'usage de la cadence comme indice de changement de centre dépend du cadre théorique retenu.",
+      "scope": "Cadre analytique tonal ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "style_context",
+        "tonal_frame_declared"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "23fc7a6eea20a934f41b1f5faa290755a1de1b760610fba07f0ccb6c8d6d41b9",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:55e86ebff53f1d4449a2c140",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "4. Tonicisation versus modulation — `modulation_tonicization`"
+          ],
+          "start_line": 43,
+          "end_line": 54,
+          "subtree_end_line": 54
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 687,
+        "end_codepoint_exclusive": 804,
+        "excerpt_sha256": "1d835e5a741bf93392e11cbeb1e693ce7df88d48ff0494526325b455b9539c9d"
+      },
+      "applicability_conditions": "Analyse comparée d'écoles tonales.",
+      "inference_limit": "Ne rend pas une cadence strictement nécessaire pour toute définition de modulation.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-01-07:0009",
+      "mention_id": "mention:omt-mecanismes-01-07:0005",
+      "material_id": "material:0004393",
+      "reviewed_material_revision": 1,
+      "rule_key": "sentence_presentation_continuation",
+      "polarity": "definition",
+      "statement": "Une sentence classique articule une présentation (idée de base réitérée, prolongation de tonique) et une continuation pouvant fragmenter, liquider, séquencer ou accélérer avant la cadence.",
+      "scope": "Typologie de thème classique ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "phrase_context_annotated",
+        "identified_occurrences",
+        "previous_next_harmony_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "3d19e761be7aef7d50f5f10e0206f6e0bded169990683196668b988b905a4832",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:3732ddd4f7946c9f82624037",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "5. Phrase-type sentence (présentation et continuation) — `sentence`"
+          ],
+          "start_line": 55,
+          "end_line": 66,
+          "subtree_end_line": 66
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 96,
+        "end_codepoint_exclusive": 293,
+        "excerpt_sha256": "d56994991ee6d7a80e3ad30e348c5ae554bc6dfb5290ff428623f9e531e94d60"
+      },
+      "applicability_conditions": "Cadre de forme classique, occurrences et harmonie délimitées.",
+      "inference_limit": "Ne pas exiger tous les procédés dans chaque occurrence.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-01-07:0010",
+      "mention_id": "mention:omt-mecanismes-01-07:0005",
+      "material_id": "material:0004393",
+      "reviewed_material_revision": 1,
+      "rule_key": "sentence_not_eight_bar_definition",
+      "polarity": "negative",
+      "statement": "La sentence ne se définit pas mécaniquement par une durée de huit mesures.",
+      "scope": "Typologie de thème classique ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "phrase_context_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "3d19e761be7aef7d50f5f10e0206f6e0bded169990683196668b988b905a4832",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:3732ddd4f7946c9f82624037",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "5. Phrase-type sentence (présentation et continuation) — `sentence`"
+          ],
+          "start_line": 55,
+          "end_line": 66,
+          "subtree_end_line": 66
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 786,
+        "end_codepoint_exclusive": 846,
+        "excerpt_sha256": "a7d30e6a65860c3759799a328e2c83bb6eced0a52f525618e014fe2aaea548ca"
+      },
+      "applicability_conditions": "Typologie classique.",
+      "inference_limit": "La longueur seule n'établit ni sentence ni période.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-01-07:0011",
+      "mention_id": "mention:omt-mecanismes-01-07:0006",
+      "material_id": "material:0004394",
+      "reviewed_material_revision": 1,
+      "rule_key": "period_antecedent_consequent_cadence",
+      "polarity": "definition",
+      "statement": "Une période classique associe deux phrases complémentaires : cadence relativement faible à l'antécédent, reprise de l'idée de base et cadence plus forte au conséquent.",
+      "scope": "Typologie de thème classique ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "phrase_context_annotated",
+        "identified_occurrences",
+        "previous_next_harmony_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "fd93bfe43c2342207feba0fe60eaf81f1dfe5086ba030bd4e755e8c2e2a2e1b6",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:939441c394d6484e9f53ec2b",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "6. Période : antécédent et conséquent — `period`"
+          ],
+          "start_line": 67,
+          "end_line": 78,
+          "subtree_end_line": 78
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 77,
+        "end_codepoint_exclusive": 237,
+        "excerpt_sha256": "4b95167ba015270cf5f260b27950097ae1879440603db62266f7f51a3ac490ed"
+      },
+      "applicability_conditions": "Typologie classique ; segmentation et cadences contextualisées.",
+      "inference_limit": "La répétition d'un motif ne suffit pas à identifier la période.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-01-07:0012",
+      "mention_id": "mention:omt-mecanismes-01-07:0006",
+      "material_id": "material:0004394",
+      "reviewed_material_revision": 1,
+      "rule_key": "period_not_fixed_repetition",
+      "polarity": "negative",
+      "statement": "La relation hiérarchique des cadences ne se réduit pas à une répétition mélodique ; les formes classiques admettent variantes et expansions.",
+      "scope": "Typologie de thème classique ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "phrase_context_annotated",
+        "identified_occurrences"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "fd93bfe43c2342207feba0fe60eaf81f1dfe5086ba030bd4e755e8c2e2a2e1b6",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:939441c394d6484e9f53ec2b",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "6. Période : antécédent et conséquent — `period`"
+          ],
+          "start_line": 67,
+          "end_line": 78,
+          "subtree_end_line": 78
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 389,
+        "end_codepoint_exclusive": 434,
+        "excerpt_sha256": "3da9e2f9ad595d4fb6a75b9f9f75d330889ad359e92b65811634110d4878ef17"
+      },
+      "applicability_conditions": "Cadre de période classique.",
+      "inference_limit": "Ne fixe pas une longueur universelle.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-01-07:0013",
+      "mention_id": "mention:omt-mecanismes-01-07:0007",
+      "material_id": "material:0004395",
+      "reviewed_material_revision": 1,
+      "rule_key": "diatonic_collection_center_distinction",
+      "polarity": "definition",
+      "statement": "Une même collection diatonique de sept classes peut soutenir différents modes selon le centre privilégié ; collection et échelle centrée sont à distinguer.",
+      "scope": "Modes diatoniques modernes ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "pitch_classes_provided",
+        "phrase_context_annotated",
+        "tonal_frame_declared"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "93f34bbf13bddc010c11a6e8cb048f5417b0c42a3271fc278083292059d95f8f",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:4cc80a84fee77e5344d33443",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "7. Modes diatoniques et centre tonal — `diatonic_modes`"
+          ],
+          "start_line": 79,
+          "end_line": 90,
+          "subtree_end_line": 90
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 84,
+        "end_codepoint_exclusive": 187,
+        "excerpt_sha256": "f2e76a4a4d306ac3eefb1dfc5f7b51cee967661ec565bd9e5c894e906b65228e"
+      },
+      "applicability_conditions": "Nomenclature modale moderne et centre contextualisé.",
+      "inference_limit": "L'armure ou le contenu seul ne détermine pas le mode.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-mecanismes-01-07:0014",
+      "mention_id": "mention:omt-mecanismes-01-07:0007",
+      "material_id": "material:0004395",
+      "reviewed_material_revision": 1,
+      "rule_key": "mode_hierarchy_and_cadences",
+      "polarity": "method",
+      "statement": "Examiner la hiérarchie des degrés et les cadences plutôt que d'inférer le mode de la seule armure ou collection.",
+      "scope": "Modes diatoniques modernes ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "requires_evidence": [
+        "phrase_context_annotated",
+        "previous_next_harmony_annotated",
+        "style_context"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "93f34bbf13bddc010c11a6e8cb048f5417b0c42a3271fc278083292059d95f8f",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:4cc80a84fee77e5344d33443",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "7. Modes diatoniques et centre tonal — `diatonic_modes`"
+          ],
+          "start_line": 79,
+          "end_line": 90,
+          "subtree_end_line": 90
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 417,
+        "end_codepoint_exclusive": 467,
+        "excerpt_sha256": "870d52a78fed5f7cdc5d35a054a8499df117dc7396c7556304f2fa0030908b2d"
+      },
+      "applicability_conditions": "Hypothèse modale déclarée.",
+      "inference_limit": "La nomenclature moderne n'est pas automatiquement adéquate pour le Moyen Âge.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    }
+  ],
+  "passage_reviews": [
+    {
+      "material_id": "material:0004389",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "45387a32d182a4bebad7c0d6c1f9a41804064a108d69db456755b3e100594a93",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:eafbd92c1d9001f9ffb316b3",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "1. Contrepoint à deux voix, première espèce — `counterpoint_species_1_1`"
+          ],
+          "start_line": 7,
+          "end_line": 18,
+          "subtree_end_line": 18
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Lecture intégrale du fragment : mécanisme, apport analytique, contexte d'attribution et limite consignés ; clôture de ce passage seulement.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004390",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "df5fb20c5801c7647c583dd74e5789286c599c04bf262e19e222afb3e580b191",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:0d8cd7072c75b7387d7ec34b",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "2. Deuxième espèce et notes de passage — `counterpoint_species_2_1`"
+          ],
+          "start_line": 19,
+          "end_line": 30,
+          "subtree_end_line": 30
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Lecture intégrale du fragment : mécanisme, apport analytique, contexte d'attribution et limite consignés ; clôture de ce passage seulement.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004391",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "3a1dff886f8605990f7d119f28bf706f554091115f550cacfba938ecb6982bb6",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:c8c271f84ec38236c9ba9b87",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "3. Fonction harmonique, tonalité classique — `harmonic_function`"
+          ],
+          "start_line": 31,
+          "end_line": 42,
+          "subtree_end_line": 42
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Lecture intégrale du fragment : mécanisme, apport analytique, contexte d'attribution et limite consignés ; clôture de ce passage seulement.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004392",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "23fc7a6eea20a934f41b1f5faa290755a1de1b760610fba07f0ccb6c8d6d41b9",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:55e86ebff53f1d4449a2c140",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "4. Tonicisation versus modulation — `modulation_tonicization`"
+          ],
+          "start_line": 43,
+          "end_line": 54,
+          "subtree_end_line": 54
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Lecture intégrale du fragment : mécanisme, apport analytique, contexte d'attribution et limite consignés ; clôture de ce passage seulement.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004393",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "3d19e761be7aef7d50f5f10e0206f6e0bded169990683196668b988b905a4832",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:3732ddd4f7946c9f82624037",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "5. Phrase-type sentence (présentation et continuation) — `sentence`"
+          ],
+          "start_line": 55,
+          "end_line": 66,
+          "subtree_end_line": 66
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Lecture intégrale du fragment : mécanisme, apport analytique, contexte d'attribution et limite consignés ; clôture de ce passage seulement.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004394",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "fd93bfe43c2342207feba0fe60eaf81f1dfe5086ba030bd4e755e8c2e2a2e1b6",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:939441c394d6484e9f53ec2b",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "6. Période : antécédent et conséquent — `period`"
+          ],
+          "start_line": 67,
+          "end_line": 78,
+          "subtree_end_line": 78
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Lecture intégrale du fragment : mécanisme, apport analytique, contexte d'attribution et limite consignés ; clôture de ce passage seulement.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004395",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+        "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+        "content_sha256": "93f34bbf13bddc010c11a6e8cb048f5417b0c42a3271fc278083292059d95f8f",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:4cc80a84fee77e5344d33443",
+          "heading_path": [
+            "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+            "7. Modes diatoniques et centre tonal — `diatonic_modes`"
+          ],
+          "start_line": 79,
+          "end_line": 90,
+          "subtree_end_line": 90
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Lecture intégrale du fragment : mécanisme, apport analytique, contexte d'attribution et limite consignés ; clôture de ce passage seulement.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    }
+  ],
+  "coverage": {
+    "selected_material_units": 7,
+    "mentions": 7,
+    "candidate_assertions": 14,
+    "assertions_human_reviewed": 0
+  },
+  "revision_contract": "Review and claims expire when material revision or source span changes."
+}
