@@ -1,0 +1,1059 @@
+{
+  "source_document": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+  "units": [
+    {
+      "id": "material:0006926",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "batch_id",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/batch_id",
+            "json_pointer": "/batch_id",
+            "record_identity": null
+          },
+          "content_sha256": "a2d8e40ecbf877352724cb82076a4ae1d3c1977dc70a90db614b6183efd11cee",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006927",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_family",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/source_family",
+            "json_pointer": "/source_family",
+            "record_identity": null
+          },
+          "content_sha256": "f4932893e06ee0c6b8a098dcce76d6a731761fc2f3624d476e0bb02058ca0e53",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006928",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "reviewed_on",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/reviewed_on",
+            "json_pointer": "/reviewed_on",
+            "record_identity": null
+          },
+          "content_sha256": "4e9c38edd9fe3c0bdf16b4dad77c1241b1d98163621b9ba96a81c39308d39a58",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006929",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "primary_document",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/primary_document",
+            "json_pointer": "/primary_document",
+            "record_identity": null
+          },
+          "content_sha256": "87e6aaf22541a26d9e6061bdfa2e0712c578399701dd2d057cfe7b1400cb10ef",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006930",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Troisième espèce : 4 contre 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/0",
+            "json_pointer": "/mechanisms/0",
+            "record_identity": null
+          },
+          "content_sha256": "7be132880b8c9dd0c8643edac79b3281c637ad349cf61d7bf418663e72dfd465",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006931",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Double broderie et nota cambiata",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/1",
+            "json_pointer": "/mechanisms/1",
+            "record_identity": null
+          },
+          "content_sha256": "3219e8dc6e10a4ca1912d091a23fa409137571417fc121d41f8c5a9d88749060",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006932",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Retard préparé, tenu, résolu",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/2",
+            "json_pointer": "/mechanisms/2",
+            "record_identity": null
+          },
+          "content_sha256": "90861ac1eaff78a653296c8f9343cd3e8c7a294b92015d321927665446d743e3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006933",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Retards 7–6, 4–3, 9–8 et 2–3",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/3",
+            "json_pointer": "/mechanisms/3",
+            "record_identity": null
+          },
+          "content_sha256": "2d23d4972ae6259bec5c5bc53337b04757fc871bd9e0bcf6dea41c81a4dd23ae",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006934",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Cinquième espèce : contrepoint fleuri",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/4",
+            "json_pointer": "/mechanisms/4",
+            "record_identity": null
+          },
+          "content_sha256": "8b56b6148202a73c03b4a28bf897009961393a03f90d888b3fdce948dca2a6a5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006935",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Fugue : exposition et entrées",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/5",
+            "json_pointer": "/mechanisms/5",
+            "record_identity": null
+          },
+          "content_sha256": "5df741eda5fc7c4f6c45c766875fb040331baf7627799fa32b2daca20a51eb12",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006936",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Réponse réelle et réponse tonale",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/6",
+            "json_pointer": "/mechanisms/6",
+            "record_identity": null
+          },
+          "content_sha256": "fe57973d29ed130c7d5e8371f22cd421e3f11f18883baaf85a04ee335ec80386",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006937",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Contresujet renversable à l'octave",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/7",
+            "json_pointer": "/mechanisms/7",
+            "record_identity": null
+          },
+          "content_sha256": "556253eb05e2e9c8e33bb684a09598c6d9462f3c81ca0687e7b679e4f40527fa",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006938",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Orchestrer en familles harmonisables",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/8",
+            "json_pointer": "/mechanisms/8",
+            "record_identity": null
+          },
+          "content_sha256": "0923910cf4a153f5cae4201a90bd256d562a32bb462a5457b4945d8447d0f543",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006939",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Antiphonie et articulation formelle",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/9",
+            "json_pointer": "/mechanisms/9",
+            "record_identity": null
+          },
+          "content_sha256": "3df7b5907e2f8ef4cf649a732a6e556b9fe4c5d569db327c239b02f8cfdba16b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006940",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Cadence timbrale",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/10",
+            "json_pointer": "/mechanisms/10",
+            "record_identity": null
+          },
+          "content_sha256": "7424d2a78b06c33d7aaf45a87dc77901d86f79f405a7392351ccb02a614b69d8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006941",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Orchestration attaque–tenue",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/11",
+            "json_pointer": "/mechanisms/11",
+            "record_identity": null
+          },
+          "content_sha256": "2b51c2fac13430caa783143b462acbadbf01891d7b8dfa5615ac9b229e41ffbb",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006942",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Orchestration : traduire plutôt que transcrire le piano",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/12",
+            "json_pointer": "/mechanisms/12",
+            "record_identity": null
+          },
+          "content_sha256": "d9acf7316692ba51b710e96d9e72d337f81047098bd2e8c09714e75489c375a8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006943",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Cadence jazz ii–V–I",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/13",
+            "json_pointer": "/mechanisms/13",
+            "record_identity": null
+          },
+          "content_sha256": "155caca56bb6d3c0aa347dd620eeea6b8a452b74021872f5be23cca0e634a050",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006944",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Turnaround et retour de grille",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/14",
+            "json_pointer": "/mechanisms/14",
+            "record_identity": null
+          },
+          "content_sha256": "a818c308ba958924e2c35eae1aefabc3bf13d6fc2830cdbb7c1f535739fe813a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006945",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "ii appliqué ajouté avant dominante",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/15",
+            "json_pointer": "/mechanisms/15",
+            "record_identity": null
+          },
+          "content_sha256": "e2f9fdb0da6cd058c54d8e2a5c0a3b912172a35d924bb434a40994940a9bf400",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006946",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Septième diminuée à note commune",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/16",
+            "json_pointer": "/mechanisms/16",
+            "record_identity": null
+          },
+          "content_sha256": "68d9028bcc92623c68882e547ef7dc3910dfde0e02e868a04a7dec528ff03b4f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006947",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Substitution tritonique",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/17",
+            "json_pointer": "/mechanisms/17",
+            "record_identity": null
+          },
+          "content_sha256": "11d29fec46af9eb8579ae9edff071b6bbe3e7f9d60dda8d44a4d6a8b891c4cf2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006948",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Conduite des guides tierce–septième",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/18",
+            "json_pointer": "/mechanisms/18",
+            "record_identity": null
+          },
+          "content_sha256": "43fa0d9991341103c2bc518fbbd19365a9bb1fc2e461d51efc6f816e0589d8fd",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006949",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Voicings jazz : espacement et quinte facultative",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/19",
+            "json_pointer": "/mechanisms/19",
+            "record_identity": null
+          },
+          "content_sha256": "74e2a4e1ccc7cd20b5e1c4803a6e5a8166a336c1573a68164841c90a9c475d0f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006950",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Accord–mode en improvisation",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/20",
+            "json_pointer": "/mechanisms/20",
+            "record_identity": null
+          },
+          "content_sha256": "edda4a623e279f0680a3996805f1b86280b2a501673a83cdf5d91e293ddf86fb",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006951",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Croches swing et backbeat",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/21",
+            "json_pointer": "/mechanisms/21",
+            "record_identity": null
+          },
+          "content_sha256": "8c4dc0b36a522957027ed295bf413f9e6e06518dd337cf25a02e29caec2993a9",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006952",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Mesures asymétriques",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/22",
+            "json_pointer": "/mechanisms/22",
+            "record_identity": null
+          },
+          "content_sha256": "be9711214760582f00b39100b5b438a361f01d2f395842a70db3fb7ae27292fe",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006953",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Écriture amétrique",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/23",
+            "json_pointer": "/mechanisms/23",
+            "record_identity": null
+          },
+          "content_sha256": "0bdf950436047b6a89164c6c4d77efa2ac792e541d590fc8f885b1d506a47f1a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006954",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Mesure notée versus entendue",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/24",
+            "json_pointer": "/mechanisms/24",
+            "record_identity": null
+          },
+          "content_sha256": "866ac07df4637afc98e98dd98ba9ec9a07123bebfc0dbff5ad568e9bf3de6863",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006955",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Polymétrie simultanée",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/25",
+            "json_pointer": "/mechanisms/25",
+            "record_identity": null
+          },
+          "content_sha256": "d814559c4060d18366f12c3e8142b34bf9cda5a522042323e6048c7fbb3864d1",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006956",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Modulation métrique",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/26",
+            "json_pointer": "/mechanisms/26",
+            "record_identity": null
+          },
+          "content_sha256": "9bafa7692e486988559167d1bf7a47f7118b8cd67657ff62f539ad3b8cb5baca",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006957",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Notation chronologique en secondes",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/27",
+            "json_pointer": "/mechanisms/27",
+            "record_identity": null
+          },
+          "content_sha256": "c336a4b8b97e28e43dd390731891e831d656eacd2d396d70145eb130442155ae",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006958",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Transformations néo-riemanniennes P/L/R",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/28",
+            "json_pointer": "/mechanisms/28",
+            "record_identity": null
+          },
+          "content_sha256": "26843bc59d7b3e55dbfd30f40ca6f3d6b18a2b980d075d98dea39c4e5e0436ec",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006959",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Pôle hexatonique",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/subject-research-batch-02-30-mechanisms-2026-11-11.json",
+          "document_sha256": "4e505ebfe91ed507ecf3a21a6b8b5009dfb646c29d760ae21c4e81cb6a203032",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/mechanisms/29",
+            "json_pointer": "/mechanisms/29",
+            "record_identity": null
+          },
+          "content_sha256": "57e62c384cf86b9afb29a5f306f70496e07bb5469995198f61aa249a266ace71",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

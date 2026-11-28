@@ -1,0 +1,1121 @@
+{
+  "source_document": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+  "units": [
+    {
+      "id": "material:0006678",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "title",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/title",
+            "json_pointer": "/title",
+            "record_identity": null
+          },
+          "content_sha256": "7060acd3fe477ebc299ee26435b9b65b5c188382f2125b470d8c8b553d4a5e87",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006679",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "reviewed_on",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/reviewed_on",
+            "json_pointer": "/reviewed_on",
+            "record_identity": null
+          },
+          "content_sha256": "749763b3c8999e0bdc5ab8b8bb1b770bc93742e8335207548ea5c7b5e9ac219e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006680",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "scope",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scope",
+            "json_pointer": "/scope",
+            "record_identity": null
+          },
+          "content_sha256": "fcc28cdbc5c370ddf95048cca252084806cfa09bbe8af7cb5f3702ae5500f31f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006681",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "course",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/course_source_scope/0/course",
+            "json_pointer": "/course_source_scope/0/course",
+            "record_identity": null
+          },
+          "content_sha256": "cbb27823f98f2e2d69183ad11bae2bce7ea853fbc12456cd3c32797a4b5e2758",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006682",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "kind",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/course_source_scope/0/kind",
+            "json_pointer": "/course_source_scope/0/kind",
+            "record_identity": null
+          },
+          "content_sha256": "42e6f83855f71aff823f7567d78e88b7567948e69373858d1b62083345df8fc0",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006683",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "url",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/course_source_scope/0/url",
+            "json_pointer": "/course_source_scope/0/url",
+            "record_identity": null
+          },
+          "content_sha256": "f3f7ed8442a2155bb04c1789e944aec95d8169ee5027efee5b98361bf0227526",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006684",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "course",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/course_source_scope/1/course",
+            "json_pointer": "/course_source_scope/1/course",
+            "record_identity": null
+          },
+          "content_sha256": "919786aeec0e33c7a5c1d91350690edd171889b88ecfd7dd1be658ea3be5e818",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006685",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "kind",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/course_source_scope/1/kind",
+            "json_pointer": "/course_source_scope/1/kind",
+            "record_identity": null
+          },
+          "content_sha256": "42e6f83855f71aff823f7567d78e88b7567948e69373858d1b62083345df8fc0",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006686",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "url",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/course_source_scope/1/url",
+            "json_pointer": "/course_source_scope/1/url",
+            "record_identity": null
+          },
+          "content_sha256": "8222d210fbef41726aec9c74c09857ac64170c294dae848066054bccf2dd7a67",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006687",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "course",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/course_source_scope/2/course",
+            "json_pointer": "/course_source_scope/2/course",
+            "record_identity": null
+          },
+          "content_sha256": "94713124955aa560743aa0e9ca3163e8b137ebde92e58cd2d30e0eb529dfa028",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006688",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "kind",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/course_source_scope/2/kind",
+            "json_pointer": "/course_source_scope/2/kind",
+            "record_identity": null
+          },
+          "content_sha256": "e4d584a7b721c69b28e1b4f6afebec1fa5c127e09d8698050454327d61e2c028",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006689",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "url",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/course_source_scope/2/url",
+            "json_pointer": "/course_source_scope/2/url",
+            "record_identity": null
+          },
+          "content_sha256": "0483cb054fb468e3faf5bc34192943f59b8185d926ea1a712e1c0797943dc11f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006690",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "course",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/course_source_scope/3/course",
+            "json_pointer": "/course_source_scope/3/course",
+            "record_identity": null
+          },
+          "content_sha256": "86b01fb00367ccbe5124486ed30cecd3670c8c8c1e1545e5f0cafe5992a162ca",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006691",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "kind",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/course_source_scope/3/kind",
+            "json_pointer": "/course_source_scope/3/kind",
+            "record_identity": null
+          },
+          "content_sha256": "e212b2eee495cd3f2378f104f1e82d087272364e63ee54c388eff21109d3bbd2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006692",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "url",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/course_source_scope/3/url",
+            "json_pointer": "/course_source_scope/3/url",
+            "record_identity": null
+          },
+          "content_sha256": "29a5930d46f739371897efd662e05ae1e7ce9f90e2e5b570a3cbefaefa90447b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006693",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "independent_professional_sources",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/independent_professional_sources",
+            "json_pointer": "/independent_professional_sources",
+            "record_identity": null
+          },
+          "content_sha256": "c6270452e682349a96736b2aaff5039eecf59fe0068e488abae40f771b44da00",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006694",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "independent_research_sources",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/independent_research_sources",
+            "json_pointer": "/independent_research_sources",
+            "record_identity": null
+          },
+          "content_sha256": "dd25845e7ab44646c65691e689453ff1cd1237573582393647ad6f4778ec1735",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006695",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "claims_not_supported_by_this_manifest",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/claims_not_supported_by_this_manifest",
+            "json_pointer": "/claims_not_supported_by_this_manifest",
+            "record_identity": null
+          },
+          "content_sha256": "6c8998383c90a04c8fc91f9fbb7e655220240681e4e27bde516cb2718198dab5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006696",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "total_files",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/total_files",
+            "json_pointer": "/total_files",
+            "record_identity": null
+          },
+          "content_sha256": "8527a891e224136950ff32ca212b45bc93f69fbb801c3b1ebedac52775f99e61",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006697",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "total_note_on_events",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/total_note_on_events",
+            "json_pointer": "/total_note_on_events",
+            "record_identity": null
+          },
+          "content_sha256": "93654b454b7bc1eea6739e8ca279d028a9f2650c4f3e8843abc47fc5a8893300",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006698",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "prior_manifest_groove",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/prior_manifest_groove",
+            "json_pointer": "/prior_manifest_groove",
+            "record_identity": null
+          },
+          "content_sha256": "e75e3eb4c217533219f0a75a9bccd3d2cbb8b3130b35816045eb6bcb6fa1f4dc",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006699",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "prior_manifest_compound_meter",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/prior_manifest_compound_meter",
+            "json_pointer": "/prior_manifest_compound_meter",
+            "record_identity": null
+          },
+          "content_sha256": "54eb2410c6dd37ac0144e996d09c3b64ba65bd2a9b317b3db616a9ef642af19b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006700",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "limb-collision",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/0",
+            "json_pointer": "/records/0",
+            "record_identity": "id:limb-collision"
+          },
+          "content_sha256": "802c5819dc6af62c09016d41ed448f64abe982271caf6fd0975ddd571c1d2d0f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006701",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "pedal-foot-collision",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/1",
+            "json_pointer": "/records/1",
+            "record_identity": "id:pedal-foot-collision"
+          },
+          "content_sha256": "55f4133edbb4af60e576d91b879ee9caaf2d3cf0340cbaf56fd3e99c95f0dd40",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006702",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "flam-grace-timing",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/2",
+            "json_pointer": "/records/2",
+            "record_identity": "id:flam-grace-timing"
+          },
+          "content_sha256": "e0f3ab35e0c1ce67e5a6623accec55135b399738caf341d3ff9404f866910134",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006703",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "single-double-sticking",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/3",
+            "json_pointer": "/records/3",
+            "record_identity": "id:single-double-sticking"
+          },
+          "content_sha256": "d9faab0a9bc75ceffbff045b8b6a7ce0bc5ea30171cd58fecd97aa4e7f5ba49e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006704",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "ghost-relative-levels",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/4",
+            "json_pointer": "/records/4",
+            "record_identity": "id:ghost-relative-levels"
+          },
+          "content_sha256": "a0996e9f07d5d281553189b72330dfc0bf3281e7378c7823088ecd206e740376",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006705",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "reference-vs-relative-timing",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/5",
+            "json_pointer": "/records/5",
+            "record_identity": "id:reference-vs-relative-timing"
+          },
+          "content_sha256": "1e2020b473d3bc79f015fbb0fdd81bfe634b2b706edec92b5d0368bbdc6a103b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006706",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "shuffle-role",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/6",
+            "json_pointer": "/records/6",
+            "record_identity": "id:shuffle-role"
+          },
+          "content_sha256": "6c8ae4dff2d08d77a0abe07734dcff7686861e81a26a6715e78439c1e76d3301",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006707",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "interlocking-to-unison",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/7",
+            "json_pointer": "/records/7",
+            "record_identity": "id:interlocking-to-unison"
+          },
+          "content_sha256": "2f4a48052af8aedaf9fd7190c590e58ef7deef8b69b357f7b5e62d6fba4fd3c4",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006708",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "ownership-without-sound-change",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/8",
+            "json_pointer": "/records/8",
+            "record_identity": "id:ownership-without-sound-change"
+          },
+          "content_sha256": "fa0828dde0a368e83b8dad039bcb881b16bf11514fb173ca69dd9a38bb7cedcf",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006709",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "three-surfaces-one-vs-three",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/9",
+            "json_pointer": "/records/9",
+            "record_identity": "id:three-surfaces-one-vs-three"
+          },
+          "content_sha256": "40c9d4e8871e212ad6ac09c0ac7e0aa8f074cb9cfb150611a979432af24d78f5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006710",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "solo-setup-rest",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/10",
+            "json_pointer": "/records/10",
+            "record_identity": "id:solo-setup-rest"
+          },
+          "content_sha256": "c942a71fd5ff60dcecbe25f77ca07b0aec6ebef23c8fbf2802516edecd544c65",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006711",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "vibraphone-cc64",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/11",
+            "json_pointer": "/records/11",
+            "record_identity": "id:vibraphone-cc64"
+          },
+          "content_sha256": "5c3142dcbe3b02e893fd22229aa1ec41323f5fbd8bbe4995599a4a6bb49ca931",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006712",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "triangle-muted-open",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/12",
+            "json_pointer": "/records/12",
+            "record_identity": "id:triangle-muted-open"
+          },
+          "content_sha256": "6e01ab0a2e850e1385ab2e3d4373c90eb0bd94af7f1076bcf697befabb220131",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006713",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "noteoff-is-not-sample-end",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-performance-gesture-studies-2026-11-17.json",
+          "document_sha256": "c67a04b9311cda7f18792c58ce17c7404f1f4e995889673765706883b3d996e0",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/13",
+            "json_pointer": "/records/13",
+            "record_identity": "id:noteoff-is-not-sample-end"
+          },
+          "content_sha256": "53df754f0f283f7bcc33ae861827a40e5992cd22337378f55b5cb3642a451877",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
