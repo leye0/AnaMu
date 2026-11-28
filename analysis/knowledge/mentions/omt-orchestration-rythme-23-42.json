@@ -1,0 +1,1724 @@
+{
+  "schema_version": 1,
+  "extraction_contract": "passage_review_v2",
+  "input_commit": "6b495204b5c56b000ad456538fbda68b2fb0afbb",
+  "edition": "omt-orchestration-rythme-23-42",
+  "scope": "Onze passages de synthèse OMT : quatre d'orchestration et sept de rythme ; sources externes référencées, non consultées à nouveau.",
+  "material_registry_path": "analysis/knowledge/materials/catalog.json",
+  "source_manifest_path": "analysis/knowledge/source-manifest.json",
+  "concept_registry_path": "analysis/knowledge/concepts.json",
+  "review_status": "assistant_source_checked_candidates_not_independently_validated",
+  "mentions": [
+    {
+      "id": "mention:omt-orchestration-rythme-23-42:0001",
+      "material_id": "material:0004365",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "23. Orchestrer en familles harmonisables — `orch_sectional_voicing`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "31a0f1f50a5cc0fbea3e05503b491c2f75f67f1977ed9cdf25f58ad5b15b6f4f",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:8a6ec188f261f4067e44bbe2",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "23. Orchestrer en familles harmonisables — `orch_sectional_voicing`"
+          ],
+          "start_line": 101,
+          "end_line": 112,
+          "subtree_end_line": 112
+        }
+      },
+      "label": "Polyphonie par familles instrumentales",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": "orchestration.local_roles",
+      "candidate_sense_id": null,
+      "unresolved_subject": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Tutti tonal ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-orchestration-rythme-23-42:0001",
+        "candidate-assertion:omt-orchestration-rythme-23-42:0002"
+      ]
+    },
+    {
+      "id": "mention:omt-orchestration-rythme-23-42:0002",
+      "material_id": "material:0004366",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "24. Antiphonie et articulation formelle — `orch_antiphonal_distribution`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "93010d3b41a24126ca2f42db0bfc80a210d9d63145c66af3ea26dbaa81976a19",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:de8946e740f0793d3184ea49",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "24. Antiphonie et articulation formelle — `orch_antiphonal_distribution`"
+          ],
+          "start_line": 113,
+          "end_line": 124,
+          "subtree_end_line": 124
+        }
+      },
+      "label": "Antiphonie et articulation formelle",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": "orchestration.local_roles",
+      "candidate_sense_id": null,
+      "unresolved_subject": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Transfert motivique entre groupes instrumentaux ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-orchestration-rythme-23-42:0003",
+        "candidate-assertion:omt-orchestration-rythme-23-42:0004"
+      ]
+    },
+    {
+      "id": "mention:omt-orchestration-rythme-23-42:0003",
+      "material_id": "material:0004367",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "25. Cadence timbrale — `orch_timbral_cadence`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "e0149da03582f8924b18659ab42ef492bc5add865b99f64dc99fca23ca13b053",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:469c7089fbec191e5f28ed38",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "25. Cadence timbrale — `orch_timbral_cadence`"
+          ],
+          "start_line": 125,
+          "end_line": 136,
+          "subtree_end_line": 136
+        }
+      },
+      "label": "Cadence timbrale",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Cadence timbrale",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Clôture formelle et orchestration ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-orchestration-rythme-23-42:0005",
+        "candidate-assertion:omt-orchestration-rythme-23-42:0006"
+      ]
+    },
+    {
+      "id": "mention:omt-orchestration-rythme-23-42:0004",
+      "material_id": "material:0004368",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "26. Orchestration attaque–tenue — `orch_attack_sustain`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "450945b12f44ee0f57d65bb06218a58eecd4fd26a02236831deaed573ef93e25",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:f86b904956c547a637989dc0",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "26. Orchestration attaque–tenue — `orch_attack_sustain`"
+          ],
+          "start_line": 137,
+          "end_line": 148,
+          "subtree_end_line": 148
+        }
+      },
+      "label": "Orchestration attaque–tenue",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": "orchestration.local_roles",
+      "candidate_sense_id": null,
+      "unresolved_subject": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Distribution de phases sonores entre sources ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-orchestration-rythme-23-42:0007",
+        "candidate-assertion:omt-orchestration-rythme-23-42:0008"
+      ]
+    },
+    {
+      "id": "mention:omt-orchestration-rythme-23-42:0005",
+      "material_id": "material:0004378",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "36. Croches swing et backbeat — `jazz_swing_backbeat`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "29774bce8d6af36c5e28864838e7b0594b31d026ea4a555f5efa38603dba7e4f",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:8885e3a8f8b0e16d6d92623d",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "36. Croches swing et backbeat — `jazz_swing_backbeat`"
+          ],
+          "start_line": 257,
+          "end_line": 268,
+          "subtree_end_line": 268
+        }
+      },
+      "label": "Swing et backbeat",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": "rhythm.microtiming",
+      "candidate_sense_id": null,
+      "unresolved_subject": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Groove jazz à quatre temps ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-orchestration-rythme-23-42:0009",
+        "candidate-assertion:omt-orchestration-rythme-23-42:0010"
+      ]
+    },
+    {
+      "id": "mention:omt-orchestration-rythme-23-42:0006",
+      "material_id": "material:0004379",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "37. Mesures asymétriques — `rhythm_asymmetric`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "2415171f3c01705e193566d41caec9cce52d9187fe141b2f5d0522fe0eea3a3a",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:fcbc50ebab2158c12246fce4",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "37. Mesures asymétriques — `rhythm_asymmetric`"
+          ],
+          "start_line": 269,
+          "end_line": 280,
+          "subtree_end_line": 280
+        }
+      },
+      "label": "Mesures asymétriques",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": "rhythm.accent_grouping",
+      "candidate_sense_id": null,
+      "unresolved_subject": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Groupements de subdivisions métriques ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-orchestration-rythme-23-42:0011",
+        "candidate-assertion:omt-orchestration-rythme-23-42:0012"
+      ]
+    },
+    {
+      "id": "mention:omt-orchestration-rythme-23-42:0007",
+      "material_id": "material:0004380",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "38. Écriture amétrique — `rhythm_ametric`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "40c1921e9cd5673d3d61cd64d90a9bf6c25e26321712f8d39771b129417491e2",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:9bcd63300adc77713518527a",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "38. Écriture amétrique — `rhythm_ametric`"
+          ],
+          "start_line": 281,
+          "end_line": 292,
+          "subtree_end_line": 292
+        }
+      },
+      "label": "Écriture amétrique",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Écriture amétrique",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Organisation temporelle sans grille métrique perceptible ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-orchestration-rythme-23-42:0013",
+        "candidate-assertion:omt-orchestration-rythme-23-42:0014"
+      ]
+    },
+    {
+      "id": "mention:omt-orchestration-rythme-23-42:0008",
+      "material_id": "material:0004381",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "39. Mesure notée versus entendue — `rhythm_notated_perceived`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "cdfcbb4711a27237730b7d164d83fb16ae1b81042146e5d83a003ce3ad65f3a1",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:86b4e877af38266affd25b7f",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "39. Mesure notée versus entendue — `rhythm_notated_perceived`"
+          ],
+          "start_line": 293,
+          "end_line": 304,
+          "subtree_end_line": 304
+        }
+      },
+      "label": "Mesure notée et mesure entendue",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": "rhythm.accent_grouping",
+      "candidate_sense_id": null,
+      "unresolved_subject": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Discordance entre notation et écoute ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-orchestration-rythme-23-42:0015",
+        "candidate-assertion:omt-orchestration-rythme-23-42:0016"
+      ]
+    },
+    {
+      "id": "mention:omt-orchestration-rythme-23-42:0009",
+      "material_id": "material:0004382",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "40. Polymétrie simultanée — `rhythm_polymeter`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "3ae0c69b37f6ea60edf894e95623719ecae06b609067e48b99dea67d25fba6ea",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:ebffc81144b4b9db3e2b7086",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "40. Polymétrie simultanée — `rhythm_polymeter`"
+          ],
+          "start_line": 305,
+          "end_line": 316,
+          "subtree_end_line": 316
+        }
+      },
+      "label": "Polymétrie simultanée",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Polymétrie simultanée",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Cycles métriques superposés ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-orchestration-rythme-23-42:0017",
+        "candidate-assertion:omt-orchestration-rythme-23-42:0018"
+      ]
+    },
+    {
+      "id": "mention:omt-orchestration-rythme-23-42:0010",
+      "material_id": "material:0004383",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "41. Modulation métrique — `rhythm_metric_modulation`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "8f5fd13006c22894c680bfd30326893493fee52fb6b7251aa90dca16a9bcf152",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b9653510e8829df892b227c7",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "41. Modulation métrique — `rhythm_metric_modulation`"
+          ],
+          "start_line": 317,
+          "end_line": 328,
+          "subtree_end_line": 328
+        }
+      },
+      "label": "Modulation métrique",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": null,
+      "unresolved_subject": "Modulation métrique",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Transition de tempo par équivalence de durée ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-orchestration-rythme-23-42:0019",
+        "candidate-assertion:omt-orchestration-rythme-23-42:0020"
+      ]
+    },
+    {
+      "id": "mention:omt-orchestration-rythme-23-42:0011",
+      "material_id": "material:0004384",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+      "source_section_heading": "42. Notation chronologique en secondes — `rhythm_timeline`",
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "8d31a460fb87b1d78e6f40070655f0cb27889decbf8a0274e4751f3fd2d24952",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:4ede3369674ca01fc3324430",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "42. Notation chronologique en secondes — `rhythm_timeline`"
+          ],
+          "start_line": 329,
+          "end_line": 340,
+          "subtree_end_line": 340
+        }
+      },
+      "label": "Notation chronologique en secondes",
+      "language": "fr",
+      "attribution_role": "anamu_summary_of_external_open_music_theory_resource",
+      "concept_sense_candidate": "rhythm.notated_grid",
+      "candidate_sense_id": null,
+      "unresolved_subject": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Notation temporelle absolue ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:omt-orchestration-rythme-23-42:0021",
+        "candidate-assertion:omt-orchestration-rythme-23-42:0022"
+      ]
+    }
+  ],
+  "assertions": [
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0001",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0001",
+      "material_id": "material:0004365",
+      "reviewed_material_revision": 1,
+      "rule_key": "tutti_sectional_polyphony",
+      "polarity": "conditional",
+      "statement": "Dans un tutti tonal, chaque famille peut porter une réalisation polyphonique cohérente, avec doublures et conduite des voix au niveau du pupitre.",
+      "scope": "Tutti tonal ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "instrumental_part_identity",
+        "voice_trajectories",
+        "score_note_events_verified"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "31a0f1f50a5cc0fbea3e05503b491c2f75f67f1977ed9cdf25f58ad5b15b6f4f",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:8a6ec188f261f4067e44bbe2",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "23. Orchestrer en familles harmonisables — `orch_sectional_voicing`"
+          ],
+          "start_line": 101,
+          "end_line": 112,
+          "subtree_end_line": 112
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 109,
+        "end_codepoint_exclusive": 256,
+        "excerpt_sha256": "7c10034c519c9c4fbd8cccd057d2ebc80d2f47149de068d1487be9fa22bc2f36"
+      },
+      "applicability_conditions": "Effectif et parties identifiés, tutti tonal.",
+      "inference_limit": "La cohérence écrite ne démontre pas la fusion acoustique.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0002",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0001",
+      "material_id": "material:0004365",
+      "reviewed_material_revision": 1,
+      "rule_key": "sectional_blend_not_universal_goal",
+      "polarity": "negative",
+      "statement": "La fusion des familles n'est pas un objectif universel, notamment en écriture timbrale contrastée.",
+      "scope": "Tutti tonal ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "style_context",
+        "audition_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "31a0f1f50a5cc0fbea3e05503b491c2f75f67f1977ed9cdf25f58ad5b15b6f4f",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:8a6ec188f261f4067e44bbe2",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "23. Orchestrer en familles harmonisables — `orch_sectional_voicing`"
+          ],
+          "start_line": 101,
+          "end_line": 112,
+          "subtree_end_line": 112
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 476,
+        "end_codepoint_exclusive": 556,
+        "excerpt_sha256": "0a5575cb6a8e2c136d03441bdf43faaacb6ad636cf3c677c93d428d15418a016"
+      },
+      "applicability_conditions": "Cadre orchestral et objectif timbral documentés.",
+      "inference_limit": "Ne déduit pas la préférence d'écoute d'une configuration verticale.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0003",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0002",
+      "material_id": "material:0004366",
+      "reviewed_material_revision": 1,
+      "rule_key": "antiphonal_motif_transfer",
+      "polarity": "method",
+      "statement": "Examiner le transfert d'un motif entre groupes en distinguant éléments de hauteur ou rythme conservés et changement de texture.",
+      "scope": "Transfert motivique entre groupes instrumentaux ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "instrumental_part_identity",
+        "identified_occurrences",
+        "score_note_events_verified"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "93010d3b41a24126ca2f42db0bfc80a210d9d63145c66af3ea26dbaa81976a19",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:de8946e740f0793d3184ea49",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "24. Antiphonie et articulation formelle — `orch_antiphonal_distribution`"
+          ],
+          "start_line": 113,
+          "end_line": 124,
+          "subtree_end_line": 124
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 93,
+        "end_codepoint_exclusive": 254,
+        "excerpt_sha256": "a72793f70d11e2af6316e2f161e48bfa988bcf899b98bf55286f4adaa7123cfa"
+      },
+      "applicability_conditions": "Groupes et occurrences identifiés.",
+      "inference_limit": "Le contraste de texture ne prouve pas un nouveau thème.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0004",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0002",
+      "material_id": "material:0004366",
+      "reviewed_material_revision": 1,
+      "rule_key": "timbral_exchange_not_section_boundary",
+      "polarity": "negative",
+      "statement": "Un échange timbral ne prouve pas à lui seul une nouvelle section.",
+      "scope": "Transfert motivique entre groupes instrumentaux ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "phrase_context_annotated",
+        "localized_section_boundaries"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "93010d3b41a24126ca2f42db0bfc80a210d9d63145c66af3ea26dbaa81976a19",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:de8946e740f0793d3184ea49",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "24. Antiphonie et articulation formelle — `orch_antiphonal_distribution`"
+          ],
+          "start_line": 113,
+          "end_line": 124,
+          "subtree_end_line": 124
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 474,
+        "end_codepoint_exclusive": 539,
+        "excerpt_sha256": "3984fb34ce36f39b3b9dd3b635a50c229d2ab69059427884f55977b364b28683"
+      },
+      "applicability_conditions": "Analyse de forme et orchestration.",
+      "inference_limit": "Confronter au contexte formel.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0005",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0003",
+      "material_id": "material:0004367",
+      "reviewed_material_revision": 1,
+      "rule_key": "timbral_cadence_phrase_end",
+      "polarity": "conditional",
+      "statement": "Une entrée, doublure ou redistribution instrumentale peut souligner la fin d'une phrase, avec ou sans renforcement de cadence harmonique.",
+      "scope": "Clôture formelle et orchestration ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "instrumental_part_identity",
+        "phrase_context_annotated",
+        "audition_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "e0149da03582f8924b18659ab42ef492bc5add865b99f64dc99fca23ca13b053",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:469c7089fbec191e5f28ed38",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "25. Cadence timbrale — `orch_timbral_cadence`"
+          ],
+          "start_line": 125,
+          "end_line": 136,
+          "subtree_end_line": 136
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 66,
+        "end_codepoint_exclusive": 217,
+        "excerpt_sha256": "790cd1b50b678bed2b94fcc2250f8ec804b16a31a6a12542a47786c33eea58df"
+      },
+      "applicability_conditions": "Phrase délimitée, effectif et réalisation identifiés.",
+      "inference_limit": "Une modification timbrale ne constitue pas nécessairement une cadence harmonique.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0006",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0003",
+      "material_id": "material:0004367",
+      "reviewed_material_revision": 1,
+      "rule_key": "timbral_cadence_requires_form_context",
+      "polarity": "negative",
+      "statement": "Une détection d'instrument isolée ne prouve pas une cadence timbrale ; le contexte formel est requis.",
+      "scope": "Clôture formelle et orchestration ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "phrase_context_annotated",
+        "audition_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "e0149da03582f8924b18659ab42ef492bc5add865b99f64dc99fca23ca13b053",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:469c7089fbec191e5f28ed38",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "25. Cadence timbrale — `orch_timbral_cadence`"
+          ],
+          "start_line": 125,
+          "end_line": 136,
+          "subtree_end_line": 136
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 463,
+        "end_codepoint_exclusive": 546,
+        "excerpt_sha256": "18986ddd28cc88ebd9a69c61e00c224518109fd08ed205977fc00aa0fff7052e"
+      },
+      "applicability_conditions": "Analyse contextualisée d'une clôture.",
+      "inference_limit": "Aucune force perceptive universelle n'est déduite.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0007",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0004",
+      "material_id": "material:0004368",
+      "reviewed_material_revision": 1,
+      "rule_key": "attack_sustain_distribution",
+      "polarity": "definition",
+      "statement": "Associer un timbre d'attaque à un timbre de prolongation ou de résonance peut répartir les phases perceptives d'un événement.",
+      "scope": "Distribution de phases sonores entre sources ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "instrumental_part_identity",
+        "aligned_recording",
+        "transient_envelope_observed"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "450945b12f44ee0f57d65bb06218a58eecd4fd26a02236831deaed573ef93e25",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:f86b904956c547a637989dc0",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "26. Orchestration attaque–tenue — `orch_attack_sustain`"
+          ],
+          "start_line": 137,
+          "end_line": 148,
+          "subtree_end_line": 148
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 76,
+        "end_codepoint_exclusive": 238,
+        "excerpt_sha256": "e1c82baddc364e13834f8ccfcae0a5bdf1598367d1f94ff5944d19c309c8f1f9"
+      },
+      "applicability_conditions": "Sources et événement alignés.",
+      "inference_limit": "Une superposition écrite ne prouve pas une fusion perceptive.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0008",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0004",
+      "material_id": "material:0004368",
+      "reviewed_material_revision": 1,
+      "rule_key": "score_not_actual_envelope",
+      "polarity": "negative",
+      "statement": "La perception de l'enveloppe réelle n'est pas entièrement déterminée par la partition.",
+      "scope": "Distribution de phases sonores entre sources ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "audio_recording_verified",
+        "audition_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "450945b12f44ee0f57d65bb06218a58eecd4fd26a02236831deaed573ef93e25",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:f86b904956c547a637989dc0",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "26. Orchestration attaque–tenue — `orch_attack_sustain`"
+          ],
+          "start_line": 137,
+          "end_line": 148,
+          "subtree_end_line": 148
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 456,
+        "end_codepoint_exclusive": 542,
+        "excerpt_sha256": "9bde3c16367f874e7957ab9795869d87823f99f87f5498ca392d1ad4a26aca94"
+      },
+      "applicability_conditions": "Comparaison partition-réalisation.",
+      "inference_limit": "Les durées notées ne mesurent pas la résonance.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0009",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0005",
+      "material_id": "material:0004378",
+      "reviewed_material_revision": 1,
+      "rule_key": "swing_notation_and_backbeat",
+      "polarity": "definition",
+      "statement": "Des croches égales notées peuvent être jouées long–court ; les accents sur 2 et 4 constituent un autre aspect du groove à quatre temps.",
+      "scope": "Groove jazz à quatre temps ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "score_note_events_verified",
+        "metric_positions",
+        "audio_recording_verified"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "29774bce8d6af36c5e28864838e7b0594b31d026ea4a555f5efa38603dba7e4f",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:8885e3a8f8b0e16d6d92623d",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "36. Croches swing et backbeat — `jazz_swing_backbeat`"
+          ],
+          "start_line": 257,
+          "end_line": 268,
+          "subtree_end_line": 268
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 74,
+        "end_codepoint_exclusive": 206,
+        "excerpt_sha256": "130173c1b7602238192336483c5956a8d48c046b03057be3e3a8df0797a1fa5b"
+      },
+      "applicability_conditions": "Pulsation et enregistrement ou exécution identifiés.",
+      "inference_limit": "Le backbeat ne suffit pas à établir le swing.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0010",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0005",
+      "material_id": "material:0004378",
+      "reviewed_material_revision": 1,
+      "rule_key": "swing_ratio_variable",
+      "polarity": "negative",
+      "statement": "Le rapport long/court dépend du tempo et de l'interprète ; 2:1 est un modèle et non une valeur universelle.",
+      "scope": "Groove jazz à quatre temps ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "aligned_recording",
+        "audition_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "29774bce8d6af36c5e28864838e7b0594b31d026ea4a555f5efa38603dba7e4f",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:8885e3a8f8b0e16d6d92623d",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "36. Croches swing et backbeat — `jazz_swing_backbeat`"
+          ],
+          "start_line": 257,
+          "end_line": 268,
+          "subtree_end_line": 268
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 401,
+        "end_codepoint_exclusive": 475,
+        "excerpt_sha256": "c39f692a4d765db2c96bcffee5942a91a1080932fc9e011c470b352f36b0bff9"
+      },
+      "applicability_conditions": "Mesures d'une réalisation donnée.",
+      "inference_limit": "Ne pas quantifier un swing réel depuis la seule notation.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0011",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0006",
+      "material_id": "material:0004379",
+      "reviewed_material_revision": 1,
+      "rule_key": "asymmetric_meter_internal_groups",
+      "polarity": "definition",
+      "statement": "Une mesure asymétrique peut grouper des subdivisions en appuis non équidistants, par exemple 5/8 en 2+3 ou 3+2.",
+      "scope": "Groupements de subdivisions métriques ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "metric_positions",
+        "score_note_events_verified"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "2415171f3c01705e193566d41caec9cce52d9187fe141b2f5d0522fe0eea3a3a",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:fcbc50ebab2158c12246fce4",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "37. Mesures asymétriques — `rhythm_asymmetric`"
+          ],
+          "start_line": 269,
+          "end_line": 280,
+          "subtree_end_line": 280
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 130,
+        "end_codepoint_exclusive": 213,
+        "excerpt_sha256": "dd614eee600104ee6b8f36265b8758106d4aba5a19cac078fc89b7d877684375"
+      },
+      "applicability_conditions": "Niveau de battue et subdivisions identifiés.",
+      "inference_limit": "Ne fixe pas l'ordre des groupes à partir du numérateur.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0012",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0006",
+      "material_id": "material:0004379",
+      "reviewed_material_revision": 1,
+      "rule_key": "meter_signature_not_perceived_grouping",
+      "polarity": "negative",
+      "statement": "Une même signature autorise plusieurs groupements perceptifs ; il faut examiner les accents internes.",
+      "scope": "Groupements de subdivisions métriques ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "metric_positions",
+        "audition_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "2415171f3c01705e193566d41caec9cce52d9187fe141b2f5d0522fe0eea3a3a",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:fcbc50ebab2158c12246fce4",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "37. Mesures asymétriques — `rhythm_asymmetric`"
+          ],
+          "start_line": 269,
+          "end_line": 280,
+          "subtree_end_line": 280
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 428,
+        "end_codepoint_exclusive": 487,
+        "excerpt_sha256": "38b79731496869b1cb6234c16c6536813929b8b4c0ce50cdb6205fae1a14b09f"
+      },
+      "applicability_conditions": "Comparaison notation et perception.",
+      "inference_limit": "La notation ne certifie pas l'écoute.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0013",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0007",
+      "material_id": "material:0004380",
+      "reviewed_material_revision": 1,
+      "rule_key": "ametric_duration_without_periodic_grid",
+      "polarity": "definition",
+      "statement": "Des durées peuvent être organisées sans pulsation ni accentuation métrique périodique nettement perceptible.",
+      "scope": "Organisation temporelle sans grille métrique perceptible ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "audio_recording_verified",
+        "audition_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "40c1921e9cd5673d3d61cd64d90a9bf6c25e26321712f8d39771b129417491e2",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:9bcd63300adc77713518527a",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "38. Écriture amétrique — `rhythm_ametric`"
+          ],
+          "start_line": 281,
+          "end_line": 292,
+          "subtree_end_line": 292
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 62,
+        "end_codepoint_exclusive": 165,
+        "excerpt_sha256": "88fe548b9e069599ae160f78e62a99e5a697047a6920fdefeb4e13ed53a7ae11"
+      },
+      "applicability_conditions": "Passage temporel délimité ; distinction notation et perception.",
+      "inference_limit": "Non-métrique ne signifie pas absence de durée ou d'organisation.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0014",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0007",
+      "material_id": "material:0004380",
+      "reviewed_material_revision": 1,
+      "rule_key": "barlines_not_ametric_diagnostic",
+      "polarity": "negative",
+      "statement": "L'absence de barres de mesure n'est ni une condition nécessaire ni une condition suffisante de l'amétrie.",
+      "scope": "Organisation temporelle sans grille métrique perceptible ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "score_note_events_verified",
+        "audition_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "40c1921e9cd5673d3d61cd64d90a9bf6c25e26321712f8d39771b129417491e2",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:9bcd63300adc77713518527a",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "38. Écriture amétrique — `rhythm_ametric`"
+          ],
+          "start_line": 281,
+          "end_line": 292,
+          "subtree_end_line": 292
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 167,
+        "end_codepoint_exclusive": 221,
+        "excerpt_sha256": "d83cf60dfcae5f4fc18c97d38354166bb61b35a5b851b1d049cdc01aca5ba345"
+      },
+      "applicability_conditions": "Partition et interprétation situées.",
+      "inference_limit": "Ne pas déduire un jugement auditif de la seule graphie.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0015",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0008",
+      "material_id": "material:0004381",
+      "reviewed_material_revision": 1,
+      "rule_key": "notated_perceived_meter_disagreement",
+      "polarity": "counterexample",
+      "statement": "Des accents et résolutions peuvent soutenir une écoute en 3/4 malgré une écriture en 4/4, ou affaiblir un tempo noté.",
+      "scope": "Discordance entre notation et écoute ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "score_note_events_verified",
+        "audition_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "cdfcbb4711a27237730b7d164d83fb16ae1b81042146e5d83a003ce3ad65f3a1",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:86b4e877af38266affd25b7f",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "39. Mesure notée versus entendue — `rhythm_notated_perceived`"
+          ],
+          "start_line": 293,
+          "end_line": 304,
+          "subtree_end_line": 304
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 82,
+        "end_codepoint_exclusive": 197,
+        "excerpt_sha256": "6e2e8d19ea77ab903c05ba7484ee0d55f3e5bd228e2f8f839736ee03e44a9a14"
+      },
+      "applicability_conditions": "Passage noté et réalisation sonore comparables.",
+      "inference_limit": "L'hypothèse auditive ne remplace pas la description de partition.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0016",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0008",
+      "material_id": "material:0004381",
+      "reviewed_material_revision": 1,
+      "rule_key": "perceived_meter_listener_dependence",
+      "polarity": "negative",
+      "statement": "Le groupement perçu peut varier selon les auditeurs et les interprétations.",
+      "scope": "Discordance entre notation et écoute ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "listener_context_documented",
+        "audition_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "cdfcbb4711a27237730b7d164d83fb16ae1b81042146e5d83a003ce3ad65f3a1",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:86b4e877af38266affd25b7f",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "39. Mesure notée versus entendue — `rhythm_notated_perceived`"
+          ],
+          "start_line": 293,
+          "end_line": 304,
+          "subtree_end_line": 304
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 375,
+        "end_codepoint_exclusive": 436,
+        "excerpt_sha256": "c8a1f4ad8ea1a8e25f25e2b7d97e3c14e3235e15976303007f1cef64afb46626"
+      },
+      "applicability_conditions": "Jugement d'écoute attribué.",
+      "inference_limit": "Pas de verdict perceptif universel.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0017",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0009",
+      "material_id": "material:0004382",
+      "reviewed_material_revision": 1,
+      "rule_key": "polymeter_simultaneous_grids",
+      "polarity": "definition",
+      "statement": "La polymétrie superpose des grilles métriques distinctes, notées ou suggérées par les figures et accents ; examiner plusieurs cycles plutôt qu'une syncope isolée.",
+      "scope": "Cycles métriques superposés ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "identified_voice_parts",
+        "metric_positions",
+        "score_note_events_verified"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "3ae0c69b37f6ea60edf894e95623719ecae06b609067e48b99dea67d25fba6ea",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:ebffc81144b4b9db3e2b7086",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "40. Polymétrie simultanée — `rhythm_polymeter`"
+          ],
+          "start_line": 305,
+          "end_line": 316,
+          "subtree_end_line": 316
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 67,
+        "end_codepoint_exclusive": 202,
+        "excerpt_sha256": "c3345d9e7caaeb243d60fc5dfed1246272b877d4fd20fe77c4ae0319a9da2d4f"
+      },
+      "applicability_conditions": "Parties et cycles localisés sur une horloge commune.",
+      "inference_limit": "Un seul déplacement d'accent ne suffit pas à prouver des cycles co-présents.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0018",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0009",
+      "material_id": "material:0004382",
+      "reviewed_material_revision": 1,
+      "rule_key": "polymeter_graphic_difference_not_perception",
+      "polarity": "negative",
+      "statement": "Des différences de notation ne garantissent pas une polymétrie perceptible.",
+      "scope": "Cycles métriques superposés ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "audio_recording_verified",
+        "audition_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "3ae0c69b37f6ea60edf894e95623719ecae06b609067e48b99dea67d25fba6ea",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:ebffc81144b4b9db3e2b7086",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "40. Polymétrie simultanée — `rhythm_polymeter`"
+          ],
+          "start_line": 305,
+          "end_line": 316,
+          "subtree_end_line": 316
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 412,
+        "end_codepoint_exclusive": 477,
+        "excerpt_sha256": "f9007d5b3edacc47989fbd8a6f9e42474f71f9d40945bd02acc6e4b637ce1108"
+      },
+      "applicability_conditions": "Comparaison des parties et de la réalisation.",
+      "inference_limit": "Distinguer superposition écrite et écoute.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0019",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0010",
+      "material_id": "material:0004383",
+      "reviewed_material_revision": 1,
+      "rule_key": "metric_modulation_duration_equivalence",
+      "polarity": "definition",
+      "statement": "Une modulation métrique peut conserver la durée d'une subdivision initiale en la réinterprétant comme unité métrique du tempo suivant.",
+      "scope": "Transition de tempo par équivalence de durée ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "metric_positions",
+        "event_representation_declared"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "8f5fd13006c22894c680bfd30326893493fee52fb6b7251aa90dca16a9bcf152",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b9653510e8829df892b227c7",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "41. Modulation métrique — `rhythm_metric_modulation`"
+          ],
+          "start_line": 317,
+          "end_line": 328,
+          "subtree_end_line": 328
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 73,
+        "end_codepoint_exclusive": 197,
+        "excerpt_sha256": "b4625c0657d09aa5bc7fa37da3a8cbb756a8b72c69ab861cc449a5f259e66f5a"
+      },
+      "applicability_conditions": "Unités et tempi de part et d'autre explicités.",
+      "inference_limit": "Ne pas assimiler tout changement de tempo à une modulation métrique.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0020",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0010",
+      "material_id": "material:0004383",
+      "reviewed_material_revision": 1,
+      "rule_key": "meter_change_not_metric_modulation",
+      "polarity": "negative",
+      "statement": "Une nouvelle signature seule ne prouve aucune modulation métrique.",
+      "scope": "Transition de tempo par équivalence de durée ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "metric_positions",
+        "score_note_events_verified"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "8f5fd13006c22894c680bfd30326893493fee52fb6b7251aa90dca16a9bcf152",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b9653510e8829df892b227c7",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "41. Modulation métrique — `rhythm_metric_modulation`"
+          ],
+          "start_line": 317,
+          "end_line": 328,
+          "subtree_end_line": 328
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 430,
+        "end_codepoint_exclusive": 497,
+        "excerpt_sha256": "8b96999ccc5473eb8e10c0f0d9c85b3d19a58f57d7eff9d99a34649dc58e0a72"
+      },
+      "applicability_conditions": "Transition métrique localisée.",
+      "inference_limit": "Il faut établir l'équivalence de durée.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0021",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0011",
+      "material_id": "material:0004384",
+      "reviewed_material_revision": 1,
+      "rule_key": "chronological_notation_absolute_time",
+      "polarity": "definition",
+      "statement": "Une notation chronologique peut placer événements et sonorités sur des repères absolus en secondes à la place des mesures traditionnelles.",
+      "scope": "Notation temporelle absolue ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "event_representation_declared",
+        "score_note_events_verified"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "8d31a460fb87b1d78e6f40070655f0cb27889decbf8a0274e4751f3fd2d24952",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:4ede3369674ca01fc3324430",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "42. Notation chronologique en secondes — `rhythm_timeline`"
+          ],
+          "start_line": 329,
+          "end_line": 340,
+          "subtree_end_line": 340
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 79,
+        "end_codepoint_exclusive": 236,
+        "excerpt_sha256": "74f802bd11bcc1c6f0a2982565679254b9af4fab78e28555a1c7a459e98c9761"
+      },
+      "applicability_conditions": "Origine temporelle et unité de mesure déclarées.",
+      "inference_limit": "Ne présuppose pas de pulsation régulière.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:omt-orchestration-rythme-23-42:0022",
+      "mention_id": "mention:omt-orchestration-rythme-23-42:0011",
+      "material_id": "material:0004384",
+      "reviewed_material_revision": 1,
+      "rule_key": "chronology_not_sound_quality",
+      "polarity": "negative",
+      "statement": "La chronologie seule ne renseigne pas la qualité sonore effectivement produite.",
+      "scope": "Notation temporelle absolue ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "requires_evidence": [
+        "audio_recording_verified",
+        "spectral_observations_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_summary_of_external_open_music_theory_resource",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "8d31a460fb87b1d78e6f40070655f0cb27889decbf8a0274e4751f3fd2d24952",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:4ede3369674ca01fc3324430",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "42. Notation chronologique en secondes — `rhythm_timeline`"
+          ],
+          "start_line": 329,
+          "end_line": 340,
+          "subtree_end_line": 340
+        }
+      },
+      "source_anchor": {
+        "kind": "exact_source_excerpt",
+        "start_codepoint": 446,
+        "end_codepoint_exclusive": 518,
+        "excerpt_sha256": "cc317b28ad19c8801691f0454565173632baa6c4643c2ca01829b6c9a54f35e9"
+      },
+      "applicability_conditions": "Comparaison entre notation et réalisation.",
+      "inference_limit": "Une densité d'événements ne suffit pas à caractériser le timbre.",
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    }
+  ],
+  "passage_reviews": [
+    {
+      "material_id": "material:0004365",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "31a0f1f50a5cc0fbea3e05503b491c2f75f67f1977ed9cdf25f58ad5b15b6f4f",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:8a6ec188f261f4067e44bbe2",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "23. Orchestrer en familles harmonisables — `orch_sectional_voicing`"
+          ],
+          "start_line": 101,
+          "end_line": 112,
+          "subtree_end_line": 112
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme et portée analytique extraits ; limite et exemple de référence distingués, sans prétendre avoir examiné les œuvres externes citées.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004366",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "93010d3b41a24126ca2f42db0bfc80a210d9d63145c66af3ea26dbaa81976a19",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:de8946e740f0793d3184ea49",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "24. Antiphonie et articulation formelle — `orch_antiphonal_distribution`"
+          ],
+          "start_line": 113,
+          "end_line": 124,
+          "subtree_end_line": 124
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme et portée analytique extraits ; limite et exemple de référence distingués, sans prétendre avoir examiné les œuvres externes citées.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004367",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "e0149da03582f8924b18659ab42ef492bc5add865b99f64dc99fca23ca13b053",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:469c7089fbec191e5f28ed38",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "25. Cadence timbrale — `orch_timbral_cadence`"
+          ],
+          "start_line": 125,
+          "end_line": 136,
+          "subtree_end_line": 136
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme et portée analytique extraits ; limite et exemple de référence distingués, sans prétendre avoir examiné les œuvres externes citées.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004368",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "450945b12f44ee0f57d65bb06218a58eecd4fd26a02236831deaed573ef93e25",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:f86b904956c547a637989dc0",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "26. Orchestration attaque–tenue — `orch_attack_sustain`"
+          ],
+          "start_line": 137,
+          "end_line": 148,
+          "subtree_end_line": 148
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme et portée analytique extraits ; limite et exemple de référence distingués, sans prétendre avoir examiné les œuvres externes citées.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004378",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "29774bce8d6af36c5e28864838e7b0594b31d026ea4a555f5efa38603dba7e4f",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:8885e3a8f8b0e16d6d92623d",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "36. Croches swing et backbeat — `jazz_swing_backbeat`"
+          ],
+          "start_line": 257,
+          "end_line": 268,
+          "subtree_end_line": 268
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme et portée analytique extraits ; limite et exemple de référence distingués, sans prétendre avoir examiné les œuvres externes citées.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004379",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "2415171f3c01705e193566d41caec9cce52d9187fe141b2f5d0522fe0eea3a3a",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:fcbc50ebab2158c12246fce4",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "37. Mesures asymétriques — `rhythm_asymmetric`"
+          ],
+          "start_line": 269,
+          "end_line": 280,
+          "subtree_end_line": 280
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme et portée analytique extraits ; limite et exemple de référence distingués, sans prétendre avoir examiné les œuvres externes citées.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004380",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "40c1921e9cd5673d3d61cd64d90a9bf6c25e26321712f8d39771b129417491e2",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:9bcd63300adc77713518527a",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "38. Écriture amétrique — `rhythm_ametric`"
+          ],
+          "start_line": 281,
+          "end_line": 292,
+          "subtree_end_line": 292
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme et portée analytique extraits ; limite et exemple de référence distingués, sans prétendre avoir examiné les œuvres externes citées.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004381",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "cdfcbb4711a27237730b7d164d83fb16ae1b81042146e5d83a003ce3ad65f3a1",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:86b4e877af38266affd25b7f",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "39. Mesure notée versus entendue — `rhythm_notated_perceived`"
+          ],
+          "start_line": 293,
+          "end_line": 304,
+          "subtree_end_line": 304
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme et portée analytique extraits ; limite et exemple de référence distingués, sans prétendre avoir examiné les œuvres externes citées.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004382",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "3ae0c69b37f6ea60edf894e95623719ecae06b609067e48b99dea67d25fba6ea",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:ebffc81144b4b9db3e2b7086",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "40. Polymétrie simultanée — `rhythm_polymeter`"
+          ],
+          "start_line": 305,
+          "end_line": 316,
+          "subtree_end_line": 316
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme et portée analytique extraits ; limite et exemple de référence distingués, sans prétendre avoir examiné les œuvres externes citées.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004383",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "8f5fd13006c22894c680bfd30326893493fee52fb6b7251aa90dca16a9bcf152",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b9653510e8829df892b227c7",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "41. Modulation métrique — `rhythm_metric_modulation`"
+          ],
+          "start_line": 317,
+          "end_line": 328,
+          "subtree_end_line": 328
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme et portée analytique extraits ; limite et exemple de référence distingués, sans prétendre avoir examiné les œuvres externes citées.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    },
+    {
+      "material_id": "material:0004384",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/subject-research/2026-11-11-batch-02-thirty-mechanisms-counterpoint-orchestration-jazz-rhythm.md",
+        "document_sha256": "8a6a00677ed3ff110fc96cbd12cc8c791cb1555fda594e72eee4be061f6735a9",
+        "content_sha256": "8d31a460fb87b1d78e6f40070655f0cb27889decbf8a0274e4751f3fd2d24952",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:4ede3369674ca01fc3324430",
+          "heading_path": [
+            "AnaMu — phase 1B : lot 02, 30 mécanismes musicaux (nº 15–44)",
+            "42. Notation chronologique en secondes — `rhythm_timeline`"
+          ],
+          "start_line": 329,
+          "end_line": 340,
+          "subtree_end_line": 340
+        }
+      },
+      "disposition": "extraction_complete_for_passage",
+      "reason": "Mécanisme et portée analytique extraits ; limite et exemple de référence distingués, sans prétendre avoir examiné les œuvres externes citées.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [],
+      "review_contract": "passage_review_v2",
+      "review_dimensions": {
+        "definitions": "examined",
+        "methods": "examined",
+        "conditions": "examined",
+        "exceptions": "examined",
+        "counterexamples": "examined",
+        "source_attribution": "examined"
+      }
+    }
+  ],
+  "coverage": {
+    "selected_material_units": 11,
+    "mentions": 11,
+    "candidate_assertions": 22,
+    "assertions_human_reviewed": 0
+  },
+  "revision_contract": "Review and claims expire when material revision or source span changes."
+}
