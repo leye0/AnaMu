@@ -5,7 +5,13 @@
  */
 const repo="leye0/AnaMu";
 const branch="analysis/material-registry-maintainable";
+if(!["course","shared","partial"].includes(ingestionMode))throw Error("Unknown ingestion mode");
+if(!Number.isInteger(batchLimit)||batchLimit<1)throw Error("Invalid batch limit");
 const isShared=ingestionMode==="shared";
+// Freeze every input and the eventual compare-and-swap to the same head.
+const currentBranch=JSON.parse((await tools.mcp__GitHub__fetch({
+  url:"https://api.github.com/repos/leye0/AnaMu/branches/"+branch})).result.content);
+const parent=currentBranch.commit.sha;
 const metadataPaths=[
   "analysis/knowledge/source-manifest.json",
   "analysis/knowledge/materials/catalog.json",
@@ -13,7 +19,7 @@ const metadataPaths=[
   ...(isShared?[]:["analysis/knowledge/course-material-maps/links.json"])
 ];
 const files=await Promise.all(metadataPaths.map(path=>
-  tools.mcp__GitHub__fetch_file({repository_full_name:repo,path,ref:branch})));
+  tools.mcp__GitHub__fetch_file({repository_full_name:repo,path,ref:parent})));
 const parsed=await Promise.all(files.map(async r=>{
   let content=r.result.content;
   if(!content){
@@ -25,7 +31,12 @@ const parsed=await Promise.all(files.map(async r=>{
 }));
 const [sources,catalog,index,courseMap]=parsed;
 const sourceByPath=new Map(sources.sources.map(r=>[r.path,r]));
-if(catalog.material_units<457||catalog.chunks.length<36)throw Error("Unexpected catalogue version");
+const indexedIds=Object.values(index.by_document).flat();
+if(catalog.material_units!==indexedIds.length||
+   new Set(indexedIds).size!==indexedIds.length||
+   catalog.chunks.length!==Object.keys(index.by_document).length||
+   new Set(catalog.chunks).size!==catalog.chunks.length)
+  throw Error("Catalogue/index mismatch; inspect before ingestion");
 const nums=(courseMap?.bindings||[]).map(r=>Number(r.id.split(":").at(-1)));
 let nextMaterial=Math.max(catalog.material_units,...Object.values(index.by_document)
   .flat().map(id=>Number(id.split(":").at(-1))));
@@ -76,7 +87,7 @@ function pythonRepr(s){
     .replaceAll("\n","\\n").replaceAll("\r","\\r").replaceAll("\t","\\t")+quote
 }
 function sections(path,text){
-  const lines=text.match(/[^\n]*\n|[^\n]+$/g)||[];
+  const lines=text.match(/[^\r\n\v\f\x1c-\x1e\x85\u2028\u2029]*(?:\r\n|[\r\n\v\f\x1c-\x1e\x85\u2028\u2029])|[^\r\n\v\f\x1c-\x1e\x85\u2028\u2029]+$/g)||[];
   const starts=[];
   let fence=null;
   for(let i=0;i<lines.length;i++){
@@ -154,12 +165,12 @@ else docs=docs.filter(x=>Boolean(index.by_document[x.path]));
 docs.sort((a,b)=>a.path.localeCompare(b.path,"en"));
 const offset=ingestionMode==="partial"?partialOffset:0;
 docs=docs.slice(offset,offset+batchLimit);
-if(!docs.length){text("No remaining course documents for "+ingestionMode);return;}
+if(!docs.length){text("No remaining documents for "+ingestionMode);return;}
 const downloaded=[];
 for(let offset=0;offset<docs.length;offset+=12){
   const rows=await Promise.allSettled(docs.slice(offset,offset+12).map(async doc=>({
     doc,file:(await tools.mcp__GitHub__fetch_file({
-      repository_full_name:repo,path:doc.path,ref:"main"})).result
+      repository_full_name:repo,path:doc.path,ref:parent})).result
   })));
   for(const row of rows){
     if(row.status!=="fulfilled")throw Error("Source fetch failed: "+String(row.reason));
@@ -177,7 +188,7 @@ for(const {doc,file} of downloaded){
   if(!newSource){
     if(!expectedChunks.has(rel))throw Error("No existing partial chunk "+path);
     const old=JSON.parse((await tools.mcp__GitHub__fetch_file({
-      repository_full_name:repo,path:"analysis/knowledge/materials/"+rel,ref:branch})).result.content);
+      repository_full_name:repo,path:"analysis/knowledge/materials/"+rel,ref:parent})).result.content);
     if(old.source_document!==path)throw Error("Partial chunk source mismatch "+path);
     units=old.units;
     const freshAnchors=new Map(fragmentList.map(f=>[f.id,f]));
@@ -189,6 +200,8 @@ for(const {doc,file} of downloaded){
     }
   }
   const anchors=new Set(units.map(x=>x.source_bindings.find(b=>b.role==="primary").locator.anchor));
+  if(anchors.size!==units.length)throw Error("Duplicate existing anchor "+path);
+  if(!newSource&&(units.length!==index.by_document[path].length||units.some(u=>!index.by_document[path].includes(u.id))))throw Error("Chunk/index disagreement "+path);
   const knownIds=new Set(units.map(x=>x.id));
   if(knownIds.size!==units.length)throw Error("Duplicate existing unit "+path);
   let count=0;
@@ -216,9 +229,9 @@ for(const {doc,file} of downloaded){
 }
 if(!changes.length){text("No additional units in selected documents");return;}
 catalog.chunks.sort();
-catalog.material_units=nextMaterial;
-index.coverage.material_units_active=nextMaterial;
-index.coverage.material_units_requiring_review=nextMaterial;
+catalog.material_units+=newUnits;
+index.coverage.material_units_active+=newUnits;
+index.coverage.material_units_requiring_review+=newUnits;
 if(!isShared)index.coverage.course_material_bindings_active=courseMap.bindings.length;
 index.coverage.source_course_documents_indexed=Object.keys(index.by_document)
   .filter(path=>path.startsWith("docs/courses/")).length;
@@ -232,9 +245,6 @@ for(const [path,value] of [
   changes.push({path,mode:"100644",type:"blob",
     content:JSON.stringify(value,null,2)+"\n"})
 }
-const currentBranch=JSON.parse((await tools.mcp__GitHub__fetch({
-  url:"https://api.github.com/repos/leye0/AnaMu/branches/"+branch})).result.content);
-const parent=currentBranch.commit.sha;
 const tree=await tools.mcp__GitHub__create_tree({repository_full_name:repo,
   base_tree_sha:currentBranch.commit.commit.tree.sha,tree_elements:changes});
 const commit=await tools.mcp__GitHub__create_commit({repository_full_name:repo,
@@ -243,6 +253,7 @@ const commit=await tools.mcp__GitHub__create_commit({repository_full_name:repo,
     " fiches sans promouvoir les descriptions automatiques"});
 const update=await tools.mcp__GitHub__update_ref({repository_full_name:repo,
   branch_name:branch,sha:commit.result.sha,expected_sha:parent});
+if(!update.result.success)throw Error("Branch moved; unreferenced commit "+commit.result.sha);
 text(JSON.stringify({mode:ingestionMode,commit:commit.result.sha,
   moved:update.result.success,selected:downloaded.length,newDocs,newUnits,
   retainedUnits:reused,totalDocs:index.coverage.source_course_documents_indexed,
