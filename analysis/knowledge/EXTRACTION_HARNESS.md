@@ -48,3 +48,26 @@ d'assertion sont namespacés par lot, les identités historiques sont conservée
 Ce pont est réservé à l'environnement du connecteur. La commande Python est
 l'interface maintenable sur un checkout complet. Le code des sources n'est
 jamais exécuté.
+
+## État du registre après les premiers lots
+
+| Indicateur | Valeur |
+| --- | ---: |
+| Unités documentaires | 7 323 |
+| Unités portant une assertion candidate | 30 |
+| Assertions candidates | 66 |
+| Revues explicites de passages | 12 |
+| Passages clos sans assertion analytique | 2 |
+| Extractions explicitement partielles | 10 |
+| Labels de preuve distincts utilisés par les assertions | 135 |
+| Labels correspondant exactement au vocabulaire défini | 34 |
+| Labels non réconciliés | 101 |
+
+Les 20 unités des lots antérieurs ne disposent pas encore de disposition
+de clôture; aucune assertion n'est considérée comme entièrement extraite
+ou validée. Les deux décisions documentaires concernent le titre et
+la rubrique Lacunes de MTE 1503, dont les textes ont été effectivement
+relus et identifiés par leurs empreintes. Le dénominateur des assertions
+à extraire reste inconnu. Les compteurs ci-dessus ont été recoupés via
+les données GitHub; la commande Python status sur l'intégralité du
+catalogue n'a pas été exécutée faute de checkout complet.

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "kind": "actual_python_knowledge_route_compilation_summary",
+  "code_commit": "3809959f05dd19698fdf9b377606dd4193cfdf5c",
+  "execution_environment": {
+    "mode": "partial_local_reconstruction",
+    "module_git_blobs": {
+      "knowledge_routes": "4ccef69e337cb2cb7fa1f1bf731393bab6c31f50",
+      "proof_planner": "b01bb9ad02a249b106399468dfd64abbc74d495e"
+    },
+    "projection": "One operation, four complete assertions, two required material records, and the 47 vocabulary IDs; source Markdown bytes identical to Git."
+  },
+  "source": {
+    "path": "docs/courses/udem/MTE-1503.md",
+    "git_blob_sha1": "3721407b4735127796b9d0cfd410e25659e42f64",
+    "sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2"
+  },
+  "scope_ref": "unbound-planning:operation:electroacoustic-continuity",
+  "verified_assertion_ids": [
+    "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0001",
+    "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0002",
+    "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0003",
+    "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0004"
+  ],
+  "task_results": [
+    {
+      "id": "task:compare-transformation",
+      "state": "blocked_missing_or_unverified_evidence",
+      "missing": [
+        "audio_recording_verified",
+        "spectral_observations_annotated",
+        "production_metadata_attested"
+      ]
+    },
+    {
+      "id": "task:compare-continuity",
+      "state": "blocked_missing_or_unverified_evidence",
+      "missing": [
+        "audio_recording_verified",
+        "sound_object_segmentation_annotated",
+        "production_metadata_attested"
+      ]
+    }
+  ],
+  "operations_executed": 0,
+  "musicological_conclusions_validated": 0,
+  "additional_observation": "The two MIDI execution reports were rerun using the final planner blob and remained byte-identical to the prior local outputs."
+}
