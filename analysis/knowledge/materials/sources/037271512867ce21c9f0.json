@@ -1,0 +1,532 @@
+{
+  "source_document": "docs/data/berklee-composition-2026f.json",
+  "units": [
+    {
+      "id": "material:0004435",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "schema_version",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-composition-2026f.json",
+          "document_sha256": "50f2225e01dcb0e4db2524b4d7ff9ea227b35ad59eac6e46bb942b11ac3198d7",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/schema_version",
+            "json_pointer": "/schema_version",
+            "record_identity": null
+          },
+          "content_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004436",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "program_id",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-composition-2026f.json",
+          "document_sha256": "50f2225e01dcb0e4db2524b4d7ff9ea227b35ad59eac6e46bb942b11ac3198d7",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/program_id",
+            "json_pointer": "/program_id",
+            "record_identity": null
+          },
+          "content_sha256": "42520215535c646c201f7ab1d67eda1486b40defae7fbd19e9450e5f000fc0f8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004437",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_url",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-composition-2026f.json",
+          "document_sha256": "50f2225e01dcb0e4db2524b4d7ff9ea227b35ad59eac6e46bb942b11ac3198d7",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/source_url",
+            "json_pointer": "/source_url",
+            "record_identity": null
+          },
+          "content_sha256": "120ecd673d840e4e7d550cac2ddd7175ad2f77abd4b11934944eb97dc0e682f3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004438",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_index_url",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-composition-2026f.json",
+          "document_sha256": "50f2225e01dcb0e4db2524b4d7ff9ea227b35ad59eac6e46bb942b11ac3198d7",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/source_index_url",
+            "json_pointer": "/source_index_url",
+            "record_identity": null
+          },
+          "content_sha256": "b7f12ba75db2e4d34d3aece475ba2bbad8899957f3f5df46c9c9d503c36f0954",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004439",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "catalog_year",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-composition-2026f.json",
+          "document_sha256": "50f2225e01dcb0e4db2524b4d7ff9ea227b35ad59eac6e46bb942b11ac3198d7",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/catalog_year",
+            "json_pointer": "/catalog_year",
+            "record_identity": null
+          },
+          "content_sha256": "00db535ef1a07ca677720fbd4ea97bcb7e26988daaef42f72130937e3cf6db7a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004440",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "program_code",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-composition-2026f.json",
+          "document_sha256": "50f2225e01dcb0e4db2524b4d7ff9ea227b35ad59eac6e46bb942b11ac3198d7",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/program_code",
+            "json_pointer": "/program_code",
+            "record_identity": null
+          },
+          "content_sha256": "b3ebad8126d382b8af475299dcac61e9b66accd58fc2efa3341a73899c778156",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004441",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "total_credits",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-composition-2026f.json",
+          "document_sha256": "50f2225e01dcb0e4db2524b4d7ff9ea227b35ad59eac6e46bb942b11ac3198d7",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/total_credits",
+            "json_pointer": "/total_credits",
+            "record_identity": null
+          },
+          "content_sha256": "2abaca4911e68fa9bfbf3482ee797fd5b9045b841fdff7253557c5fe15de6477",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004442",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "status",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-composition-2026f.json",
+          "document_sha256": "50f2225e01dcb0e4db2524b4d7ff9ea227b35ad59eac6e46bb942b11ac3198d7",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/status",
+            "json_pointer": "/status",
+            "record_identity": null
+          },
+          "content_sha256": "885b682e9a04b71023b4db9feddcf7f3bd5132fc92d7e706798b59fb4e7e4892",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004443",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "caution",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-composition-2026f.json",
+          "document_sha256": "50f2225e01dcb0e4db2524b4d7ff9ea227b35ad59eac6e46bb942b11ac3198d7",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/caution",
+            "json_pointer": "/caution",
+            "record_identity": null
+          },
+          "content_sha256": "6d9b20d784402cc5527473ee3119a6dda11dba395c4726beda12d160dc8a4846",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004444",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "major",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-composition-2026f.json",
+          "document_sha256": "50f2225e01dcb0e4db2524b4d7ff9ea227b35ad59eac6e46bb942b11ac3198d7",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/groups/0",
+            "json_pointer": "/groups/0",
+            "record_identity": null
+          },
+          "content_sha256": "34b0011277fbd7bb43d093db5ca97bb6d90bcdb7f29019b8b9ed15c51911c104",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004445",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "major_specific_core_and_liberal_arts",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-composition-2026f.json",
+          "document_sha256": "50f2225e01dcb0e4db2524b4d7ff9ea227b35ad59eac6e46bb942b11ac3198d7",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/groups/1",
+            "json_pointer": "/groups/1",
+            "record_identity": null
+          },
+          "content_sha256": "eb7ee2b7338a639c78e5ad9f666d26a16702880e260b26e744150f0194cdee97",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004446",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "core_music",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-composition-2026f.json",
+          "document_sha256": "50f2225e01dcb0e4db2524b4d7ff9ea227b35ad59eac6e46bb942b11ac3198d7",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/groups/2",
+            "json_pointer": "/groups/2",
+            "record_identity": null
+          },
+          "content_sha256": "b6a1bb9e756060120b51b18233b07d8293f65eada709a7cde28d9817e5819ce7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004447",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "liberal_arts_and_africana_studies",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-composition-2026f.json",
+          "document_sha256": "50f2225e01dcb0e4db2524b4d7ff9ea227b35ad59eac6e46bb942b11ac3198d7",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/groups/3",
+            "json_pointer": "/groups/3",
+            "record_identity": null
+          },
+          "content_sha256": "7ad81edc9da5b91bbf63a67145a3cf27bb8eed85aabeae974451d477bfdf72d5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004448",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "general_electives",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-composition-2026f.json",
+          "document_sha256": "50f2225e01dcb0e4db2524b4d7ff9ea227b35ad59eac6e46bb942b11ac3198d7",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/groups/4",
+            "json_pointer": "/groups/4",
+            "record_identity": null
+          },
+          "content_sha256": "978eb79bff1935eebfa82a0edd8a3083c795c5185059a5e7fca585118fb4d2d7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004449",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "research_only",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-composition-2026f.json",
+          "document_sha256": "50f2225e01dcb0e4db2524b4d7ff9ea227b35ad59eac6e46bb942b11ac3198d7",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/music_scope_filter/research_only",
+            "json_pointer": "/music_scope_filter/research_only",
+            "record_identity": null
+          },
+          "content_sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004450",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "excluded_codes",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-composition-2026f.json",
+          "document_sha256": "50f2225e01dcb0e4db2524b4d7ff9ea227b35ad59eac6e46bb942b11ac3198d7",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/music_scope_filter/excluded_codes",
+            "json_pointer": "/music_scope_filter/excluded_codes",
+            "record_identity": null
+          },
+          "content_sha256": "b72d84f7057f77f690deb39537929b01ecdff601549a595cae7a34445313d006",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004451",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "official_source_preserved",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-composition-2026f.json",
+          "document_sha256": "50f2225e01dcb0e4db2524b4d7ff9ea227b35ad59eac6e46bb942b11ac3198d7",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/music_scope_filter/official_source_preserved",
+            "json_pointer": "/music_scope_filter/official_source_preserved",
+            "record_identity": null
+          },
+          "content_sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

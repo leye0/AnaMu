@@ -1,0 +1,656 @@
+{
+  "source_document": "docs/data/berklee-music-society-candidates-2026.json",
+  "units": [
+    {
+      "id": "material:0004462",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "schema_version",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/schema_version",
+            "json_pointer": "/schema_version",
+            "record_identity": null
+          },
+          "content_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004463",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "as_of",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/as_of",
+            "json_pointer": "/as_of",
+            "record_identity": null
+          },
+          "content_sha256": "4e9c38edd9fe3c0bdf16b4dad77c1241b1d98163621b9ba96a81c39308d39a58",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004464",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "baseline_registry_total_unchanged",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/baseline_registry_total_unchanged",
+            "json_pointer": "/baseline_registry_total_unchanged",
+            "record_identity": null
+          },
+          "content_sha256": "15a26c6fa5151c712acc7ee45a1fd525ab85b801f096847c7d5fdf49efeabb4d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004465",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_grid",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/source_grid",
+            "json_pointer": "/source_grid",
+            "record_identity": null
+          },
+          "content_sha256": "b3fa91a6865bc53ad1e6b6536141efcb6613f3e52d9537844bd850bb8fdc26a7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004466",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "current_liberal_arts_requirements",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/current_liberal_arts_requirements",
+            "json_pointer": "/current_liberal_arts_requirements",
+            "record_identity": null
+          },
+          "content_sha256": "14a863f2f725b34a5851c8eaa6d20efc2ef3d044d0a0aa451eebb56b55a5b3b5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004467",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "admissibility_note",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/admissibility_note",
+            "json_pointer": "/admissibility_note",
+            "record_identity": null
+          },
+          "content_sha256": "4875a2e370eb5675c19b4cdcc500b940f3a031ed892eaebdb729732a43232380",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004468",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Music and Peace",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/0",
+            "json_pointer": "/records/0",
+            "record_identity": null
+          },
+          "content_sha256": "601c600a851d5d37607287980807cb6836f60624e5b31d24ff77e4f88eb5b03b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004469",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Music and Society Topics",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/1",
+            "json_pointer": "/records/1",
+            "record_identity": null
+          },
+          "content_sha256": "c98503c0f41d9ba52f18a8acac0c1c00e4f43b66bb02bdc1af3b747681aa3840",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004470",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "A Vision of Music's Future",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/2",
+            "json_pointer": "/records/2",
+            "record_identity": null
+          },
+          "content_sha256": "91a23eed3de7d7068191d994d9e9390c86901e77a2604d7e663ce4287b630933",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004471",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "The Beatles",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/3",
+            "json_pointer": "/records/3",
+            "record_identity": null
+          },
+          "content_sha256": "e4ecd039e2e6d3a6645873c7ab47c903f2e7919e42fdb1a9a7f869e9934bc418",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004472",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Sound and Society",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/4",
+            "json_pointer": "/records/4",
+            "record_identity": null
+          },
+          "content_sha256": "1890ee47c24f4894810397c2f6c47a6e6f2843c434a80821ca4958f1479351c7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004473",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "DJ Cultures and American Social Dance",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/5",
+            "json_pointer": "/records/5",
+            "record_identity": null
+          },
+          "content_sha256": "563eef275e881d31459e76aeccc3276d956c9bfecc465822c4d3102480018950",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004474",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Music Technologies and Culture",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/6",
+            "json_pointer": "/records/6",
+            "record_identity": null
+          },
+          "content_sha256": "a1f57fab31735af60ced512903eb6b5dbe255d2cc4fe216c5324e7146210b2f4",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004475",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Spanish Music, Culture, and Society",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/7",
+            "json_pointer": "/records/7",
+            "record_identity": null
+          },
+          "content_sha256": "f43bafe99afe3dba6717093eaef5fc89eeb08c63e02ed25b2091c23f700de429",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004476",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Cuban Music, Culture, and Society",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/8",
+            "json_pointer": "/records/8",
+            "record_identity": null
+          },
+          "content_sha256": "923777960821ada9b42b0f803a302602b226b0393081efbec24854cc83f5e273",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004477",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Music, Spirit, and Transformation",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/9",
+            "json_pointer": "/records/9",
+            "record_identity": null
+          },
+          "content_sha256": "9dd932acb4405698601ccf4092adc7e175d7826c820d987cdcaef2c46e5774ee",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004478",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Blues and Southern Culture",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/10",
+            "json_pointer": "/records/10",
+            "record_identity": null
+          },
+          "content_sha256": "1e81bcfb54ce686ae3e6f3f8db33d958acb8d04629b21fd37342c19bab3b6277",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004479",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Black Liberation Music",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/11",
+            "json_pointer": "/records/11",
+            "record_identity": null
+          },
+          "content_sha256": "8f5fa5b01d92ba2c4d0df34dbd83481e46c0cedae473f8688688a8c2a59b7ba1",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004480",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Hip-Hop Roots and Routes",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/12",
+            "json_pointer": "/records/12",
+            "record_identity": null
+          },
+          "content_sha256": "9d3d6547f0b46ec99dc67e5153d5a06ffad80c91827f0d48058afb76076dd2c8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004481",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "The Sugar Road",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/13",
+            "json_pointer": "/records/13",
+            "record_identity": null
+          },
+          "content_sha256": "96f4e49b9162e6a6e4e1bbe6a701dda3af13cfc14cbdd03bdbdf9c6e264653fb",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004482",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "African Diasporic Music, History, and Culture",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-music-society-candidates-2026.json",
+          "document_sha256": "e2306d5e91989b966897106931ab73ed6b65df306703736db19ea9dd0f6edd5a",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/14",
+            "json_pointer": "/records/14",
+            "record_identity": null
+          },
+          "content_sha256": "bcbd9bb19c798e5dd85a236305ab9b09727829c2a5fcdfde9ebbec21fcc40d30",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

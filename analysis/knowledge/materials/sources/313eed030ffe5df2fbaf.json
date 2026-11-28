@@ -1,0 +1,563 @@
+{
+  "source_document": "docs/data/berklee-10-instrumental-lab-candidates-2026.json",
+  "units": [
+    {
+      "id": "material:0004417",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "schema_version",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-10-instrumental-lab-candidates-2026.json",
+          "document_sha256": "779c335b730de68331eef6bf808bc471140fde7dd7f82dc2ea9e90eb33f833ab",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/schema_version",
+            "json_pointer": "/schema_version",
+            "record_identity": null
+          },
+          "content_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004418",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "date",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-10-instrumental-lab-candidates-2026.json",
+          "document_sha256": "779c335b730de68331eef6bf808bc471140fde7dd7f82dc2ea9e90eb33f833ab",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/date",
+            "json_pointer": "/date",
+            "record_identity": null
+          },
+          "content_sha256": "4e9c38edd9fe3c0bdf16b4dad77c1241b1d98163621b9ba96a81c39308d39a58",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004419",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "program_page",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-10-instrumental-lab-candidates-2026.json",
+          "document_sha256": "779c335b730de68331eef6bf808bc471140fde7dd7f82dc2ea9e90eb33f833ab",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/program_page",
+            "json_pointer": "/program_page",
+            "record_identity": null
+          },
+          "content_sha256": "b3fa91a6865bc53ad1e6b6536141efcb6613f3e52d9537844bd850bb8fdc26a7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004420",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "placeholder",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-10-instrumental-lab-candidates-2026.json",
+          "document_sha256": "779c335b730de68331eef6bf808bc471140fde7dd7f82dc2ea9e90eb33f833ab",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/placeholder",
+            "json_pointer": "/placeholder",
+            "record_identity": null
+          },
+          "content_sha256": "4935629247bd8609974d89130a789252f9542f8b198dcfcdc4e841a98af4f6b5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004421",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "prior_explicit_examples",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-10-instrumental-lab-candidates-2026.json",
+          "document_sha256": "779c335b730de68331eef6bf808bc471140fde7dd7f82dc2ea9e90eb33f833ab",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/prior_explicit_examples",
+            "json_pointer": "/prior_explicit_examples",
+            "record_identity": null
+          },
+          "content_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004422",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "new_verified_examples",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-10-instrumental-lab-candidates-2026.json",
+          "document_sha256": "779c335b730de68331eef6bf808bc471140fde7dd7f82dc2ea9e90eb33f833ab",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/new_verified_examples",
+            "json_pointer": "/new_verified_examples",
+            "record_identity": null
+          },
+          "content_sha256": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004423",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "current_total_explicit_examples",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-10-instrumental-lab-candidates-2026.json",
+          "document_sha256": "779c335b730de68331eef6bf808bc471140fde7dd7f82dc2ea9e90eb33f833ab",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/current_total_explicit_examples",
+            "json_pointer": "/current_total_explicit_examples",
+            "record_identity": null
+          },
+          "content_sha256": "8527a891e224136950ff32ca212b45bc93f69fbb801c3b1ebedac52775f99e61",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004424",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "scope",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-10-instrumental-lab-candidates-2026.json",
+          "document_sha256": "779c335b730de68331eef6bf808bc471140fde7dd7f82dc2ea9e90eb33f833ab",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scope",
+            "json_pointer": "/scope",
+            "record_identity": null
+          },
+          "content_sha256": "00d3a5e46efbb76541b85897b772a2354cf5a6de197c219e482ee4b3a2862875",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004425",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "String Reading Lab",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-10-instrumental-lab-candidates-2026.json",
+          "document_sha256": "779c335b730de68331eef6bf808bc471140fde7dd7f82dc2ea9e90eb33f833ab",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/0",
+            "json_pointer": "/records/0",
+            "record_identity": null
+          },
+          "content_sha256": "0a8bf875689555917415bc0191288b12216b46fd66ec020f9ecfcf0415da1c94",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004426",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Advanced String Reading Lab",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-10-instrumental-lab-candidates-2026.json",
+          "document_sha256": "779c335b730de68331eef6bf808bc471140fde7dd7f82dc2ea9e90eb33f833ab",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/1",
+            "json_pointer": "/records/1",
+            "record_identity": null
+          },
+          "content_sha256": "3a130bae30ec9e845906f56a7a6229ccb50e97ec95d515317349a423417b0a9a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004427",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Sound Reinforcement Techniques for Strings",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-10-instrumental-lab-candidates-2026.json",
+          "document_sha256": "779c335b730de68331eef6bf808bc471140fde7dd7f82dc2ea9e90eb33f833ab",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/2",
+            "json_pointer": "/records/2",
+            "record_identity": null
+          },
+          "content_sha256": "e39f6797095c6c6120d61b8e25d3f06f959730614633ebd1664f893d0d6332ac",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004428",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Recording Techniques for String Players",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-10-instrumental-lab-candidates-2026.json",
+          "document_sha256": "779c335b730de68331eef6bf808bc471140fde7dd7f82dc2ea9e90eb33f833ab",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/3",
+            "json_pointer": "/records/3",
+            "record_identity": null
+          },
+          "content_sha256": "bf5c7b70df4c89f1a8fb7cdc18515ad10d9ea6317055ce6684b0e110469229c0",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004429",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Guitar Comping and Soloing in Odd Meters",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-10-instrumental-lab-candidates-2026.json",
+          "document_sha256": "779c335b730de68331eef6bf808bc471140fde7dd7f82dc2ea9e90eb33f833ab",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/4",
+            "json_pointer": "/records/4",
+            "record_identity": null
+          },
+          "content_sha256": "5531c58975f54c45f2fb3bd57e370281c69a6f41addc67b235778af6b9a20330",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004430",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Creative Applications for Proficiency Materials",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-10-instrumental-lab-candidates-2026.json",
+          "document_sha256": "779c335b730de68331eef6bf808bc471140fde7dd7f82dc2ea9e90eb33f833ab",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/5",
+            "json_pointer": "/records/5",
+            "record_identity": null
+          },
+          "content_sha256": "04de96e365ae37bb65cc02f5a0c6d9b455a3d592c7dfe21354af0656d5ff79fd",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004431",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Guitar Lab: Developmental Arpeggios",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-10-instrumental-lab-candidates-2026.json",
+          "document_sha256": "779c335b730de68331eef6bf808bc471140fde7dd7f82dc2ea9e90eb33f833ab",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/6",
+            "json_pointer": "/records/6",
+            "record_identity": null
+          },
+          "content_sha256": "9d37ada327cd2622f371dd18739e69664533927200f3ddeac649dd2578336aaf",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004432",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Vocal Sight-Reading Techniques 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-10-instrumental-lab-candidates-2026.json",
+          "document_sha256": "779c335b730de68331eef6bf808bc471140fde7dd7f82dc2ea9e90eb33f833ab",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/7",
+            "json_pointer": "/records/7",
+            "record_identity": null
+          },
+          "content_sha256": "6f7e655b5866c957c8c7e8b7b95d2aadafeb088eab1d4a4cd8f4b35ec9531b54",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004433",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Vocal Sight-Reading Techniques 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-10-instrumental-lab-candidates-2026.json",
+          "document_sha256": "779c335b730de68331eef6bf808bc471140fde7dd7f82dc2ea9e90eb33f833ab",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/8",
+            "json_pointer": "/records/8",
+            "record_identity": null
+          },
+          "content_sha256": "0d195f9632eb3e4da927f2f84370822a303291a4be06776e5bbb95c3a7643242",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004434",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Rock Styles Lab: Hammond Organ",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-10-instrumental-lab-candidates-2026.json",
+          "document_sha256": "779c335b730de68331eef6bf808bc471140fde7dd7f82dc2ea9e90eb33f833ab",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/9",
+            "json_pointer": "/records/9",
+            "record_identity": null
+          },
+          "content_sha256": "66efdb32ee8da9a57e9c5157b144c31497c7e62921d4b9c0935e655d23920478",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

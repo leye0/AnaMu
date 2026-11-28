@@ -1,0 +1,315 @@
+{
+  "source_document": "docs/data/berklee-five-ear-microtonal-courses-2026.json",
+  "units": [
+    {
+      "id": "material:0004452",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "schema_version",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-five-ear-microtonal-courses-2026.json",
+          "document_sha256": "2434a01ef256a79882de11438054f289e50d95eb628cb31d06ffb83096cbf75c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/schema_version",
+            "json_pointer": "/schema_version",
+            "record_identity": null
+          },
+          "content_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004453",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "as_of",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-five-ear-microtonal-courses-2026.json",
+          "document_sha256": "2434a01ef256a79882de11438054f289e50d95eb628cb31d06ffb83096cbf75c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/as_of",
+            "json_pointer": "/as_of",
+            "record_identity": null
+          },
+          "content_sha256": "4e9c38edd9fe3c0bdf16b4dad77c1241b1d98163621b9ba96a81c39308d39a58",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004454",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "institution",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-five-ear-microtonal-courses-2026.json",
+          "document_sha256": "2434a01ef256a79882de11438054f289e50d95eb628cb31d06ffb83096cbf75c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/institution",
+            "json_pointer": "/institution",
+            "record_identity": null
+          },
+          "content_sha256": "8d0edf45ae545ee882d8b5485285db0f91b7d234aff79412f48a301ffdbe2d9e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004455",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_kind",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-five-ear-microtonal-courses-2026.json",
+          "document_sha256": "2434a01ef256a79882de11438054f289e50d95eb628cb31d06ffb83096cbf75c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/source_kind",
+            "json_pointer": "/source_kind",
+            "record_identity": null
+          },
+          "content_sha256": "90eccc74247d6ae3e62a4a0dd61344eea10e5a4503df898c12b2064b85720633",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004456",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "baseline_total_unchanged",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-five-ear-microtonal-courses-2026.json",
+          "document_sha256": "2434a01ef256a79882de11438054f289e50d95eb628cb31d06ffb83096cbf75c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/baseline_total_unchanged",
+            "json_pointer": "/baseline_total_unchanged",
+            "record_identity": null
+          },
+          "content_sha256": "15a26c6fa5151c712acc7ee45a1fd525ab85b801f096847c7d5fdf49efeabb4d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004457",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "World Music Ear Training",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-five-ear-microtonal-courses-2026.json",
+          "document_sha256": "2434a01ef256a79882de11438054f289e50d95eb628cb31d06ffb83096cbf75c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/0",
+            "json_pointer": "/records/0",
+            "record_identity": null
+          },
+          "content_sha256": "23eebc5f6a8823c11645363cfc576e915af094d3c7afe66f277c2c2566bed643",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004458",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Microtonal Ear Training and Composition",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-five-ear-microtonal-courses-2026.json",
+          "document_sha256": "2434a01ef256a79882de11438054f289e50d95eb628cb31d06ffb83096cbf75c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/1",
+            "json_pointer": "/records/1",
+            "record_identity": null
+          },
+          "content_sha256": "bfcc0631fe4c9344c5ca1e04df46e21c797ae393ac80771982ae56d7d667e81b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004459",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Atonal Solfege 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-five-ear-microtonal-courses-2026.json",
+          "document_sha256": "2434a01ef256a79882de11438054f289e50d95eb628cb31d06ffb83096cbf75c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/2",
+            "json_pointer": "/records/2",
+            "record_identity": null
+          },
+          "content_sha256": "fe76648f5534dac69cad0b63349cda07e16308d92d6d16b5b0e7c11391264456",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004460",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Traditional Microtonal Theory and Application",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-five-ear-microtonal-courses-2026.json",
+          "document_sha256": "2434a01ef256a79882de11438054f289e50d95eb628cb31d06ffb83096cbf75c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/3",
+            "json_pointer": "/records/3",
+            "record_identity": null
+          },
+          "content_sha256": "a750f1efafca9e92de653c885ef601d8ec660d3dfac3793c127f2ddfa0ceba15",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004461",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Microtonal Grooves",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-five-ear-microtonal-courses-2026.json",
+          "document_sha256": "2434a01ef256a79882de11438054f289e50d95eb628cb31d06ffb83096cbf75c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/4",
+            "json_pointer": "/records/4",
+            "record_identity": null
+          },
+          "content_sha256": "8309a296f6e95405c8f32febdce74c4913fe09a52eea6b28687c5be537d96c68",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

@@ -1,0 +1,1059 @@
+{
+  "source_document": "docs/data/berklee-open-elective-candidates-2026.json",
+  "units": [
+    {
+      "id": "material:0004483",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "schema_version",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/schema_version",
+            "json_pointer": "/schema_version",
+            "record_identity": null
+          },
+          "content_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004484",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "context",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/context",
+            "json_pointer": "/context",
+            "record_identity": null
+          },
+          "content_sha256": "8261dec4a47f67fb2c7f6d82139d8568d4dff0912218c0a65bbb491b50d4186f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004485",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "date",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/date",
+            "json_pointer": "/date",
+            "record_identity": null
+          },
+          "content_sha256": "146a623ac4a8012181e40b52ebd863a16cb1f15e5f3c8cbb3699e78c13516055",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004486",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "core_registry_not_mutated",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/core_registry_not_mutated",
+            "json_pointer": "/core_registry_not_mutated",
+            "record_identity": null
+          },
+          "content_sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004487",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "sources",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sources",
+            "json_pointer": "/sources",
+            "record_identity": null
+          },
+          "content_sha256": "1df318962d9a30f992dc79e272e6ac188d1008f073c639ecf089d6ccbae2c21f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004488",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Applied Acoustics for the Writer/Producer",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/0",
+            "json_pointer": "/candidates/0",
+            "record_identity": null
+          },
+          "content_sha256": "1b27c6a81482181b244007199f63b80d2e5d728bd24ba7b54894f9d187afd601",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004489",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Music Acoustics",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/1",
+            "json_pointer": "/candidates/1",
+            "record_identity": null
+          },
+          "content_sha256": "c77fc55da933615b1693a237b9ce8bfcc25eb7ff1d558df3a7c7fd0291a6f859",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004490",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Architectural Acoustics",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/2",
+            "json_pointer": "/candidates/2",
+            "record_identity": null
+          },
+          "content_sha256": "7b6a80c0f8557f8fd83b380a2b5538a524a22c82338bf3155b6702cd21ee0dcd",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004491",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Principles of Audio Electronics",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/3",
+            "json_pointer": "/candidates/3",
+            "record_identity": null
+          },
+          "content_sha256": "0cfa036dd7c156b075244c5828156252a8d13096cc9161a5341df425902f5f5e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004492",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Technology of Acoustic Instruments",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/4",
+            "json_pointer": "/candidates/4",
+            "record_identity": null
+          },
+          "content_sha256": "4ec5637764fdded073ad728e0390fab40faf5c6cdac8e798c94f055c00a52229",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004493",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Introduction to Psychoacoustics",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/5",
+            "json_pointer": "/candidates/5",
+            "record_identity": null
+          },
+          "content_sha256": "8663f2abfa28a7fd01f56426587df7ab14d0e905b548b44cf3a3d44dee6a90cc",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004494",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Psychology of Music",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/6",
+            "json_pointer": "/candidates/6",
+            "record_identity": null
+          },
+          "content_sha256": "2db3df2cb752a5f14e56a7c93c6c08638d9786a7858acbddfeaa22035a8ace93",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004495",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Music Cognition",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/7",
+            "json_pointer": "/candidates/7",
+            "record_identity": null
+          },
+          "content_sha256": "e5506b08d07ba97023f6fdfedbe809283befd3822f609a2adc0cc89c07b65db1",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004496",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Music and Peace",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/8",
+            "json_pointer": "/candidates/8",
+            "record_identity": null
+          },
+          "content_sha256": "a5f3d8e052b6cfe8f8264812b2009e1c335d8baadeeeac824dc2a89128a76fda",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004497",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Music and Society Topics",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/9",
+            "json_pointer": "/candidates/9",
+            "record_identity": null
+          },
+          "content_sha256": "0349674e544be696aa11a83dc62e1ca5258bdd97ab8ec453602209876948dc99",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004498",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "A Vision of Music's Future",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/10",
+            "json_pointer": "/candidates/10",
+            "record_identity": null
+          },
+          "content_sha256": "a0329584824ee347bf71f0ff70d8c22ac8a7af22ab2957617f3722c24724dce0",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004499",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Sound and Society: Encounter, Participation, and Transmission",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/11",
+            "json_pointer": "/candidates/11",
+            "record_identity": null
+          },
+          "content_sha256": "75b5dcc2fedf05bbf5db7ebc74ac2ed8596c2c4d69b25869567e1c92597226cd",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004500",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Spanish Music, Culture, and Society",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/12",
+            "json_pointer": "/candidates/12",
+            "record_identity": null
+          },
+          "content_sha256": "06d15cc135516523c975f688edfdcf9eb2c244b084e0911617ab280c773f1574",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004501",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Black Liberation Music",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/13",
+            "json_pointer": "/candidates/13",
+            "record_identity": null
+          },
+          "content_sha256": "fc765590221bca4baa82134ac9bc6946e67a8bcf9854212ed7d8f0363ee679aa",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004502",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Hip-Hop Roots and Routes",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/14",
+            "json_pointer": "/candidates/14",
+            "record_identity": null
+          },
+          "content_sha256": "05b1872dc7202f20a2eec76554b846bb2aeaff26c0dfed485cc601aba6a97810",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004503",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "The Sugar Road: A Sweet and Sour History of the African Diaspora",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/15",
+            "json_pointer": "/candidates/15",
+            "record_identity": null
+          },
+          "content_sha256": "87f607cc724431e4d3d4ce15a2c5892f5b9ea81f5708cf8c2ab792c4bd17253a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004504",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "African Diasporic Music, History, and Culture: Diasporic Connections and Considerations",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/16",
+            "json_pointer": "/candidates/16",
+            "record_identity": null
+          },
+          "content_sha256": "fe999951fdfea9044909cb1879c250a79f70f16e22ddee7ccea8315577dd9341",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004505",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Black Americans in Musical Theater",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/17",
+            "json_pointer": "/candidates/17",
+            "record_identity": null
+          },
+          "content_sha256": "596c722e7dc8b17fa089d4e60e6a2cf08e3948c59da68e3be3b569bf2c6043f9",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004506",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Jazz, Gender, and Justice: Diasporic Considerations",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/18",
+            "json_pointer": "/candidates/18",
+            "record_identity": null
+          },
+          "content_sha256": "d63121472d33b13f27324ee53d961f068c54314c16cd693022912889eb4f12d2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004507",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "America From the Jazz Age to the MTV Age",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/19",
+            "json_pointer": "/candidates/19",
+            "record_identity": null
+          },
+          "content_sha256": "65f901a225175036099c47b378c54f8a9caab63dd1bd01f392d96bc13892e36a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004508",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Exploring Hip-Hop Culture from the Inside/Out",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/20",
+            "json_pointer": "/candidates/20",
+            "record_identity": null
+          },
+          "content_sha256": "178f2ccb4bf675d7569f694a80bb1d35df0223ea68ce76ac53c92ecced3cb5f1",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004509",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Music of the African Continent",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/21",
+            "json_pointer": "/candidates/21",
+            "record_identity": null
+          },
+          "content_sha256": "d9935b185cf68edbb754c324c976cb6559722fcc779edc1dc3e2ff95217205e0",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004510",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Black Music of the Caribbean and the African Diaspora",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/22",
+            "json_pointer": "/candidates/22",
+            "record_identity": null
+          },
+          "content_sha256": "64519fc2b6ef30d9197bcb11f8d641a07f4c0d8473e3922bb9b54d22f61a9822",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004511",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Black Music of Central and South America",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/23",
+            "json_pointer": "/candidates/23",
+            "record_identity": null
+          },
+          "content_sha256": "4a4a340d32431f67fe4e15044771d464bdf539368decbff21f4c07bb022d14b7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004512",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Black Music in the United States",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/candidates/24",
+            "json_pointer": "/candidates/24",
+            "record_identity": null
+          },
+          "content_sha256": "27d2dcf02e56cd9fa1c2c461db4fb3d929e7a6c79d73a5a6c3d509ed5310c020",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004513",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "policy_document",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/music_scope/policy_document",
+            "json_pointer": "/music_scope/policy_document",
+            "record_identity": null
+          },
+          "content_sha256": "b579445ddf736ded2e59ab9d5c80b066879625070cbcdb080aa9bcbb5ee5b4f5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004514",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "previous_total",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/music_scope/previous_total",
+            "json_pointer": "/music_scope/previous_total",
+            "record_identity": null
+          },
+          "content_sha256": "76a50887d8f1c2e9301755428990ad81479ee21c25b43215cf524541e0503269",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004515",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "excluded_count",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/music_scope/excluded_count",
+            "json_pointer": "/music_scope/excluded_count",
+            "record_identity": null
+          },
+          "content_sha256": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004516",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "retained_count",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-open-elective-candidates-2026.json",
+          "document_sha256": "79b5fe406eeb81aaaf2ec08a19c463091bd4c945ccea32d0abfe0e281b5ad18b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/music_scope/retained_count",
+            "json_pointer": "/music_scope/retained_count",
+            "record_identity": null
+          },
+          "content_sha256": "b7a56873cd771f2c446d369b649430b65a756ba278ff97ec81bb6f55b2e73569",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
