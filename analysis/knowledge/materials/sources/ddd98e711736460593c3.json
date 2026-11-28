@@ -1,0 +1,3167 @@
+{
+  "source_document": "docs/data/gm-percussion-reference.json",
+  "units": [
+    {
+      "id": "material:0006183",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "title",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/title",
+            "json_pointer": "/title",
+            "record_identity": null
+          },
+          "content_sha256": "c5717af2fd2a32db7702fa8672bdb65c037982056cfe69c2c0ce945fb588c702",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006184",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "status",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/status",
+            "json_pointer": "/status",
+            "record_identity": null
+          },
+          "content_sha256": "1af16f866666f699094691f0fc78277f679f455ac5a1441fc9014a496c19a02d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006185",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "last_reviewed",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/last_reviewed",
+            "json_pointer": "/last_reviewed",
+            "record_identity": null
+          },
+          "content_sha256": "749763b3c8999e0bdc5ab8b8bb1b770bc93742e8335207548ea5c7b5e9ac219e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006186",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_urls",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/source_urls",
+            "json_pointer": "/source_urls",
+            "record_identity": null
+          },
+          "content_sha256": "001e6fc727e9c7a40dff10713b7bc5db671db70e898fcc973a99387426d3536b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006187",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "midi_channel_on_wire",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/conventions/midi_channel_on_wire",
+            "json_pointer": "/conventions/midi_channel_on_wire",
+            "record_identity": null
+          },
+          "content_sha256": "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006188",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "human_channel",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/conventions/human_channel",
+            "json_pointer": "/conventions/human_channel",
+            "record_identity": null
+          },
+          "content_sha256": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006189",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "all_midi_notes_0_to_127",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/conventions/all_midi_notes_0_to_127",
+            "json_pointer": "/conventions/all_midi_notes_0_to_127",
+            "record_identity": null
+          },
+          "content_sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006190",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "drum_note_range_gm1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/conventions/drum_note_range_gm1",
+            "json_pointer": "/conventions/drum_note_range_gm1",
+            "record_identity": null
+          },
+          "content_sha256": "5b1856161c1fdeffe028e4f1771357d7764dd3e3af7af4f82e59d73eaa449ef2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006191",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "drum_note_range_gm2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/conventions/drum_note_range_gm2",
+            "json_pointer": "/conventions/drum_note_range_gm2",
+            "record_identity": null
+          },
+          "content_sha256": "84ad1bfe178742b819cfbd4aa5a3bd29a38580c71f4733cf4b04c364672c239c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006192",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "program_changes_wire_zero_based",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/conventions/program_changes_wire_zero_based",
+            "json_pointer": "/conventions/program_changes_wire_zero_based",
+            "record_identity": null
+          },
+          "content_sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006193",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "gm1_program_change_does_not_select_standardized_drums",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/conventions/gm1_program_change_does_not_select_standardized_drums",
+            "json_pointer": "/conventions/gm1_program_change_does_not_select_standardized_drums",
+            "record_identity": null
+          },
+          "content_sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006194",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "gm2_rhythm_bank_cc0_msb",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/conventions/gm2_rhythm_bank_cc0_msb",
+            "json_pointer": "/conventions/gm2_rhythm_bank_cc0_msb",
+            "record_identity": null
+          },
+          "content_sha256": "2abaca4911e68fa9bfbf3482ee797fd5b9045b841fdff7253557c5fe15de6477",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006195",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "gm2_rhythm_bank_cc32_lsb",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/conventions/gm2_rhythm_bank_cc32_lsb",
+            "json_pointer": "/conventions/gm2_rhythm_bank_cc32_lsb",
+            "record_identity": null
+          },
+          "content_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006196",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "non_gm_drums_needs_context",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/conventions/non_gm_drums_needs_context",
+            "json_pointer": "/conventions/non_gm_drums_needs_context",
+            "record_identity": null
+          },
+          "content_sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006197",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Acoustic Bass Drum",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/0",
+            "json_pointer": "/gm1_drum_notes/0",
+            "record_identity": null
+          },
+          "content_sha256": "4bce2dac9ba0cd54e62895de70f555d7a7c4c5e80a152878e6c54fffc2e22ca9",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006198",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Bass Drum 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/1",
+            "json_pointer": "/gm1_drum_notes/1",
+            "record_identity": null
+          },
+          "content_sha256": "62ebd5c3058a686d343db92ea8bae152c9e366df25e99e97b92757d7fe8421c5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006199",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Side Stick",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/2",
+            "json_pointer": "/gm1_drum_notes/2",
+            "record_identity": null
+          },
+          "content_sha256": "c15d5b0a43ecf1839e220cb1e8e7d0835305cf450aaaf03948f83c6db7ec6bec",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006200",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Acoustic Snare",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/3",
+            "json_pointer": "/gm1_drum_notes/3",
+            "record_identity": null
+          },
+          "content_sha256": "5c2f37a9b00eeb833bbbf2d7cc48e6137c24708a0ac9d5334276a175f536a88e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006201",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Hand Clap",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/4",
+            "json_pointer": "/gm1_drum_notes/4",
+            "record_identity": null
+          },
+          "content_sha256": "8f828ecc192095ac81c5a3e1b013c0db57c6b07f38f34dacfbc5de703e449033",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006202",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Electric Snare",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/5",
+            "json_pointer": "/gm1_drum_notes/5",
+            "record_identity": null
+          },
+          "content_sha256": "274f9d646e3d8e512bc8276b01af52dc6943a1be0aabe94c24d499f119c0f134",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006203",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Low Floor Tom",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/6",
+            "json_pointer": "/gm1_drum_notes/6",
+            "record_identity": null
+          },
+          "content_sha256": "23e1efd1264224e59044377a4f281f58ecd84ffe35636216812606312cb2449d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006204",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Closed Hi-Hat",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/7",
+            "json_pointer": "/gm1_drum_notes/7",
+            "record_identity": null
+          },
+          "content_sha256": "a2081ba75677b4069cbb4d6da1aa8995eba1cee02bf87f230c7439353b3c64a4",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006205",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "High Floor Tom",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/8",
+            "json_pointer": "/gm1_drum_notes/8",
+            "record_identity": null
+          },
+          "content_sha256": "0582206cec68e0a3b9e3d44e17932ce2b265d9c46e3e039b20c410bb35cd1d5c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006206",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Pedal Hi-Hat",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/9",
+            "json_pointer": "/gm1_drum_notes/9",
+            "record_identity": null
+          },
+          "content_sha256": "0d5507d5660e4945e27385359676b75f8a0596ec927f329bd393cc7023eb9055",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006207",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Low Tom",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/10",
+            "json_pointer": "/gm1_drum_notes/10",
+            "record_identity": null
+          },
+          "content_sha256": "b9f374c6d95272e72c366678d33be1323b46928648726282d8815e167ec67d58",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006208",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Open Hi-Hat",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/11",
+            "json_pointer": "/gm1_drum_notes/11",
+            "record_identity": null
+          },
+          "content_sha256": "3629bdd6e6c004bd30deb2fc1ec15f25b16dc42d8508cf23738d1d862ad82fd5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006209",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Low-Mid Tom",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/12",
+            "json_pointer": "/gm1_drum_notes/12",
+            "record_identity": null
+          },
+          "content_sha256": "59d0d65611740488ba75d627e1185769a58c4589673f9afc6adc51ad426d1d16",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006210",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Hi-Mid Tom",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/13",
+            "json_pointer": "/gm1_drum_notes/13",
+            "record_identity": null
+          },
+          "content_sha256": "48d865adceee4673d6c5356b0b826689d859d2a131d8b8576f666165a2764cb4",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006211",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Crash Cymbal 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/14",
+            "json_pointer": "/gm1_drum_notes/14",
+            "record_identity": null
+          },
+          "content_sha256": "7e7077ebc2bbf3a4a6cea3283adbd2aa9de5bbf00a0bb151c15df5b6522f68f0",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006212",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "High Tom",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/15",
+            "json_pointer": "/gm1_drum_notes/15",
+            "record_identity": null
+          },
+          "content_sha256": "733815a86e1f7bfd35bdc9b3f62d8ede87634ed18d59d1cdc2abeeeb1eabf30b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006213",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ride Cymbal 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/16",
+            "json_pointer": "/gm1_drum_notes/16",
+            "record_identity": null
+          },
+          "content_sha256": "78b586f585a66f761e2b6fc0d0c59328ab96f662164857906bb1a76e9190c211",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006214",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Chinese Cymbal",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/17",
+            "json_pointer": "/gm1_drum_notes/17",
+            "record_identity": null
+          },
+          "content_sha256": "f1fcb6c1ebc17aaa5231a3545fcd92aa5ee47173809613252f546c00b0e6dbea",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006215",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ride Bell",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/18",
+            "json_pointer": "/gm1_drum_notes/18",
+            "record_identity": null
+          },
+          "content_sha256": "3b6b7cde73ff620a7773b47b5d8972066500fa7cd62b97aa5c11d84e1f4582c2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006216",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Tambourine",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/19",
+            "json_pointer": "/gm1_drum_notes/19",
+            "record_identity": null
+          },
+          "content_sha256": "0c0dc027710952789af2471192e225036ccb95484a2e614ee554bb387099ea7f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006217",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Splash Cymbal",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/20",
+            "json_pointer": "/gm1_drum_notes/20",
+            "record_identity": null
+          },
+          "content_sha256": "4ce8d1e5bb47037b8c54ab47432f554dbdf43b426006b9032f00f957766b5a0c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006218",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Cowbell",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/21",
+            "json_pointer": "/gm1_drum_notes/21",
+            "record_identity": null
+          },
+          "content_sha256": "6cbe34c02e0429b93e5e4e42338764e346318052b05f9c5d8c29c9bdbd464702",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006219",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Crash Cymbal 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/22",
+            "json_pointer": "/gm1_drum_notes/22",
+            "record_identity": null
+          },
+          "content_sha256": "475d40479a1224f795a170af2995095dd7ed2923cf2bdf4501c5dae79a29e276",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006220",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Vibraslap",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/23",
+            "json_pointer": "/gm1_drum_notes/23",
+            "record_identity": null
+          },
+          "content_sha256": "114754c2492fb13206bc37ab1a32e03ea22c6f01c4347c09611e471defebb125",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006221",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ride Cymbal 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/24",
+            "json_pointer": "/gm1_drum_notes/24",
+            "record_identity": null
+          },
+          "content_sha256": "27281b4036415a18ffbff0621713d41c72beb4ad610ef0ed8ae7bc57c8ddfbc6",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006222",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Hi Bongo",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/25",
+            "json_pointer": "/gm1_drum_notes/25",
+            "record_identity": null
+          },
+          "content_sha256": "fd09aadd405a4b3ea4fcca37c09fb777cfc2fd77e93e563c81cd84a31cd33e12",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006223",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Low Bongo",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/26",
+            "json_pointer": "/gm1_drum_notes/26",
+            "record_identity": null
+          },
+          "content_sha256": "682f5df7116d24937ded73a5d6b06a3a15ae56ee3881512921fd8ccbda1daf42",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006224",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Mute Hi Conga",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/27",
+            "json_pointer": "/gm1_drum_notes/27",
+            "record_identity": null
+          },
+          "content_sha256": "9f5b4f51f871e613639c926693cbe51ade98bd9bf757a3f5144d966b8325230e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006225",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Open Hi Conga",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/28",
+            "json_pointer": "/gm1_drum_notes/28",
+            "record_identity": null
+          },
+          "content_sha256": "f0d6754a2bf35a48e99fbcd8de2ac03c0c1fc843287e1911359d1ec1aeb84023",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006226",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Low Conga",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/29",
+            "json_pointer": "/gm1_drum_notes/29",
+            "record_identity": null
+          },
+          "content_sha256": "7e755129574b1c5d7545b3dc094eddc0d3e1f983f9153b921186cfb1ff5092a1",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006227",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "High Timbale",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/30",
+            "json_pointer": "/gm1_drum_notes/30",
+            "record_identity": null
+          },
+          "content_sha256": "c2157d12b3e3ad2a907b5558aa01bd60f855bda11bf51deafbf9b48dfcb0378f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006228",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Low Timbale",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/31",
+            "json_pointer": "/gm1_drum_notes/31",
+            "record_identity": null
+          },
+          "content_sha256": "8cc43115fb644f4a62d1a535a6f045b09a80b6de3df93e7cc2224cf706986ca9",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006229",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "High Agogo",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/32",
+            "json_pointer": "/gm1_drum_notes/32",
+            "record_identity": null
+          },
+          "content_sha256": "756db4bed64d3842b39c9f0c22bf07ca4422b9b5f33dbf9ff59fbed449777a87",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006230",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Low Agogo",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/33",
+            "json_pointer": "/gm1_drum_notes/33",
+            "record_identity": null
+          },
+          "content_sha256": "0c2c19a461b544bb52eaea87573d9082c82d604e68af9a220ec323fcac6839cc",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006231",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Cabasa",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/34",
+            "json_pointer": "/gm1_drum_notes/34",
+            "record_identity": null
+          },
+          "content_sha256": "696ce5eec73b8cf08babd3ec0a246c0b9715a65af032df9791e527654bee557a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006232",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Maracas",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/35",
+            "json_pointer": "/gm1_drum_notes/35",
+            "record_identity": null
+          },
+          "content_sha256": "7124b358987bc335f72e18bffeb53b3b123292f9095a58d038f54c3b30d204ac",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006233",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Short Whistle",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/36",
+            "json_pointer": "/gm1_drum_notes/36",
+            "record_identity": null
+          },
+          "content_sha256": "d57bd79c5b09fa2699be82f2073b8e5b246a1fd51b1dd3c2694b20caf8e77896",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006234",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Long Whistle",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/37",
+            "json_pointer": "/gm1_drum_notes/37",
+            "record_identity": null
+          },
+          "content_sha256": "c61b2e98e92549a0db15f506d6d732778aff9e63f3272690d9ec2c9bbf7837bf",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006235",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Short Guiro",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/38",
+            "json_pointer": "/gm1_drum_notes/38",
+            "record_identity": null
+          },
+          "content_sha256": "79cc7cfa0a47685d3d28dabaeac15b0946d8e79c850df2ad401b2390976f0c87",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006236",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Long Guiro",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/39",
+            "json_pointer": "/gm1_drum_notes/39",
+            "record_identity": null
+          },
+          "content_sha256": "46aa3308bc715f304affd94fcb4819cadc123f5c4475098973d9e118e01a66e7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006237",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Claves",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/40",
+            "json_pointer": "/gm1_drum_notes/40",
+            "record_identity": null
+          },
+          "content_sha256": "818d2569b1e226f412a69ce0aea70054061865415991c79699616b45344ff8ac",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006238",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Hi Wood Block",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/41",
+            "json_pointer": "/gm1_drum_notes/41",
+            "record_identity": null
+          },
+          "content_sha256": "294416e03b7efdf6115d6a7655bc5cd19606d3b0239d9777816f81763a5e5354",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006239",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Low Wood Block",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/42",
+            "json_pointer": "/gm1_drum_notes/42",
+            "record_identity": null
+          },
+          "content_sha256": "0536ce924bbfe18ad97524efa13477b489d4acc043d8c1e678f69f7aba5d1624",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006240",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Mute Cuica",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/43",
+            "json_pointer": "/gm1_drum_notes/43",
+            "record_identity": null
+          },
+          "content_sha256": "cca587d2ebd052bb274568c4ac7a544bdc77d32c37571f23b2b89233d84d3843",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006241",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Open Cuica",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/44",
+            "json_pointer": "/gm1_drum_notes/44",
+            "record_identity": null
+          },
+          "content_sha256": "001fad091bdb17c038eeb60cc4bdb8463e65c00b2aeb56bd3778d76de3a7e213",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006242",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Mute Triangle",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/45",
+            "json_pointer": "/gm1_drum_notes/45",
+            "record_identity": null
+          },
+          "content_sha256": "495eb84b99c8cb220256c2b3971a91163284e93c5d7269e8df156326b6fa3b2a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006243",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Open Triangle",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_drum_notes/46",
+            "json_pointer": "/gm1_drum_notes/46",
+            "record_identity": null
+          },
+          "content_sha256": "7f463d1f6bbe6181e1fcd6517b98b815252f63aa7348891b867f32b031620c3a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006244",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "High Q",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_extra_drums/0",
+            "json_pointer": "/gm2_extra_drums/0",
+            "record_identity": null
+          },
+          "content_sha256": "c9d9d06db5505dfcbfdc52328081bfb0e363e34e6b52a20e0af6f20d7813b570",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006245",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Slap",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_extra_drums/1",
+            "json_pointer": "/gm2_extra_drums/1",
+            "record_identity": null
+          },
+          "content_sha256": "a67681712d0e30dbcb3c2471702c53ca2a01afd04b39310ed368edfb4a482c51",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006246",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Scratch Push",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_extra_drums/2",
+            "json_pointer": "/gm2_extra_drums/2",
+            "record_identity": null
+          },
+          "content_sha256": "12ca4ef25793c39f89d6f11aa89aee009d186be81de0d90a5a38ed8dc5ac1184",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006247",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Scratch Pull",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_extra_drums/3",
+            "json_pointer": "/gm2_extra_drums/3",
+            "record_identity": null
+          },
+          "content_sha256": "3323a7bb1053269656996cb3b241b3f7d11f269a4608e04a16940bdea818e482",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006248",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Sticks",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_extra_drums/4",
+            "json_pointer": "/gm2_extra_drums/4",
+            "record_identity": null
+          },
+          "content_sha256": "001cfd1457843cbff02c7369c8efc80b432c0c3f2aaf783f48651b79746f070d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006249",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Square Click",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_extra_drums/5",
+            "json_pointer": "/gm2_extra_drums/5",
+            "record_identity": null
+          },
+          "content_sha256": "043efed68d778f1c0533de52741c7240953358dee9d78dafb130147ebdaa6a4a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006250",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Metronome Click",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_extra_drums/6",
+            "json_pointer": "/gm2_extra_drums/6",
+            "record_identity": null
+          },
+          "content_sha256": "94970626b38e5cb1210617a638efdfe582d542f8a5b9aa7ef94ad86982ce48eb",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006251",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Metronome Bell",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_extra_drums/7",
+            "json_pointer": "/gm2_extra_drums/7",
+            "record_identity": null
+          },
+          "content_sha256": "e32c25a5ca0a6f3a8a0b83e622948eef5aebeb6e8af526dc473ca71d501506e1",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006252",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Shaker",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_extra_drums/8",
+            "json_pointer": "/gm2_extra_drums/8",
+            "record_identity": null
+          },
+          "content_sha256": "971658c629d645a350836b6f6f15868f5b59defa90e3244d8031fec2a19e21e6",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006253",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Jingle Bell",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_extra_drums/9",
+            "json_pointer": "/gm2_extra_drums/9",
+            "record_identity": null
+          },
+          "content_sha256": "dc432ca5a4e0532eb096b0b202e61e2535525545506e5a89d0afc70aed6bb2aa",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006254",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Belltree",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_extra_drums/10",
+            "json_pointer": "/gm2_extra_drums/10",
+            "record_identity": null
+          },
+          "content_sha256": "8682f83ed902ffdbd6473ce7689574ec9749a34d58ba84151884158a5b0d380f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006255",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Castanets",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_extra_drums/11",
+            "json_pointer": "/gm2_extra_drums/11",
+            "record_identity": null
+          },
+          "content_sha256": "b1c210a51c4f5b935d6599162208b8f619758258fc81cf2687897f0eb4f0a198",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006256",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Mute Surdo",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_extra_drums/12",
+            "json_pointer": "/gm2_extra_drums/12",
+            "record_identity": null
+          },
+          "content_sha256": "a5bb90f6a8255be78208e686094499ba4c0b1a1d07059186dc4783c1dc6efa26",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006257",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Open Surdo",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_extra_drums/13",
+            "json_pointer": "/gm2_extra_drums/13",
+            "record_identity": null
+          },
+          "content_sha256": "14a4ea4856b48014bdb143880ed2875609a698f3a26f22a0507428abe9488082",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006258",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Standard",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_drum_kits/0",
+            "json_pointer": "/gm2_drum_kits/0",
+            "record_identity": null
+          },
+          "content_sha256": "55054140d27ecd69b93ab4467a01d8895288c7c4df8fa102b0426b070f7cab9b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006259",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Room",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_drum_kits/1",
+            "json_pointer": "/gm2_drum_kits/1",
+            "record_identity": null
+          },
+          "content_sha256": "f9f8b4da78a963017b23644b34ec419860a50d1db33ff9152c299c35c9336013",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006260",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Power",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_drum_kits/2",
+            "json_pointer": "/gm2_drum_kits/2",
+            "record_identity": null
+          },
+          "content_sha256": "4d85452142c773122534e3596ec02b4be3111b7aa5e741100d021e898deca0e3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006261",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Electronic",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_drum_kits/3",
+            "json_pointer": "/gm2_drum_kits/3",
+            "record_identity": null
+          },
+          "content_sha256": "d92a5803c0adb378ad47a4dbb28b2d65d05343010b648c286b5d60edf76337d6",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006262",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Analog",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_drum_kits/4",
+            "json_pointer": "/gm2_drum_kits/4",
+            "record_identity": null
+          },
+          "content_sha256": "80f8bbb004b68c1ffd4c755ff0e7785cfd70308c1466a9a7866c7f6f889f21f4",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006263",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Jazz",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_drum_kits/5",
+            "json_pointer": "/gm2_drum_kits/5",
+            "record_identity": null
+          },
+          "content_sha256": "7517209b054d7722f96a5766755ab409e1d3ab1e084d2d42001e6d09c058bf42",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006264",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Brush",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_drum_kits/6",
+            "json_pointer": "/gm2_drum_kits/6",
+            "record_identity": null
+          },
+          "content_sha256": "c1d274e5a27ee68141d5da12cdee584242beee3e4f3142fadbdc914bcb83492c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006265",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_drum_kits/7",
+            "json_pointer": "/gm2_drum_kits/7",
+            "record_identity": null
+          },
+          "content_sha256": "22861de14e9014791823c8389e6770c0aec82683239ff4d244a3ef717d16dc26",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006266",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "SFX",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm2_drum_kits/8",
+            "json_pointer": "/gm2_drum_kits/8",
+            "record_identity": null
+          },
+          "content_sha256": "d75abf622dae2a5852f7cbfb4da55b6dcd07846a767d6e5cd98854a6b8621952",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006267",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Celesta",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_melodic_or_percussive_programs/0",
+            "json_pointer": "/gm1_melodic_or_percussive_programs/0",
+            "record_identity": null
+          },
+          "content_sha256": "0ad5d28b8324fb7b9f88bb1f8ae1b2c878630cc0cb2d3b2901c540a6ac44bb25",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006268",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Glockenspiel",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_melodic_or_percussive_programs/1",
+            "json_pointer": "/gm1_melodic_or_percussive_programs/1",
+            "record_identity": null
+          },
+          "content_sha256": "7716b98517d6df44a7644945ae51bb82c49b7d6c7bfee10da8f96c9732418fbc",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006269",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Music Box",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_melodic_or_percussive_programs/2",
+            "json_pointer": "/gm1_melodic_or_percussive_programs/2",
+            "record_identity": null
+          },
+          "content_sha256": "01800700ccacbae54e165645fd3e26a6efef6937fe123ebbd3024a9906b6a90c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006270",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Vibraphone",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_melodic_or_percussive_programs/3",
+            "json_pointer": "/gm1_melodic_or_percussive_programs/3",
+            "record_identity": null
+          },
+          "content_sha256": "25921e64ac56a4ba6467db551d28f3852a66d94589863d015290f4ae89bef1b3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006271",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Marimba",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_melodic_or_percussive_programs/4",
+            "json_pointer": "/gm1_melodic_or_percussive_programs/4",
+            "record_identity": null
+          },
+          "content_sha256": "01225a3cd672ffbd8dbc72d3abbe39277324f52a64572b1970c37590d37ec562",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006272",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Xylophone",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_melodic_or_percussive_programs/5",
+            "json_pointer": "/gm1_melodic_or_percussive_programs/5",
+            "record_identity": null
+          },
+          "content_sha256": "92013993c8c980e9f9adf42af28532ba951515ed73b8b4594891f24b3dbf5e62",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006273",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Tubular Bells",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_melodic_or_percussive_programs/6",
+            "json_pointer": "/gm1_melodic_or_percussive_programs/6",
+            "record_identity": null
+          },
+          "content_sha256": "77fc0898998023e9925d387507bfa577e81b6da3b7bb0a8fc6f9aa3dde4962bd",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006274",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Dulcimer",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_melodic_or_percussive_programs/7",
+            "json_pointer": "/gm1_melodic_or_percussive_programs/7",
+            "record_identity": null
+          },
+          "content_sha256": "58d97c726f1be429208060f2ca42f7070b022c6d8e141d65a5efafdda443c3b0",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006275",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Timpani",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_melodic_or_percussive_programs/8",
+            "json_pointer": "/gm1_melodic_or_percussive_programs/8",
+            "record_identity": null
+          },
+          "content_sha256": "13e40a9db88ee2f1d5cf247037d6cb5710f63021e7c6ce30f155314c3695aa69",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006276",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Tinkle Bell",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_melodic_or_percussive_programs/9",
+            "json_pointer": "/gm1_melodic_or_percussive_programs/9",
+            "record_identity": null
+          },
+          "content_sha256": "d0de333468e75ce5ddf706f48056774f66ac8232a2b1bbd342b6184540a2dae8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006277",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Agogo",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_melodic_or_percussive_programs/10",
+            "json_pointer": "/gm1_melodic_or_percussive_programs/10",
+            "record_identity": null
+          },
+          "content_sha256": "2e3946256565088a733558eec122822e6aedfd06fac43b76c14adcbaa0972ab6",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006278",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Steel Drums",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_melodic_or_percussive_programs/11",
+            "json_pointer": "/gm1_melodic_or_percussive_programs/11",
+            "record_identity": null
+          },
+          "content_sha256": "da708b599b525aaf7ea5fa69db01c54de87c85cf0738382b27c184fe479f497f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006279",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Woodblock",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_melodic_or_percussive_programs/12",
+            "json_pointer": "/gm1_melodic_or_percussive_programs/12",
+            "record_identity": null
+          },
+          "content_sha256": "179effb9739356aa4f9c767599319c38b04552723cd038678121d2b1780c7d00",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006280",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Taiko Drum",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_melodic_or_percussive_programs/13",
+            "json_pointer": "/gm1_melodic_or_percussive_programs/13",
+            "record_identity": null
+          },
+          "content_sha256": "0d067027ab662ce62b56ad743cd608e005824ac656bdbff2942f255115ef8dbc",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006281",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Melodic Tom",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_melodic_or_percussive_programs/14",
+            "json_pointer": "/gm1_melodic_or_percussive_programs/14",
+            "record_identity": null
+          },
+          "content_sha256": "0ccf1a1a4a5fb5223d0e84d42da0528f21f567a1d579797420e9e39eae01b0e4",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006282",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Synth Drum",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_melodic_or_percussive_programs/15",
+            "json_pointer": "/gm1_melodic_or_percussive_programs/15",
+            "record_identity": null
+          },
+          "content_sha256": "83706d6a215904a9948787de54feb15d4bd25c1fa90438490514bb25619cff4e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006283",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Reverse Cymbal",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/gm1_melodic_or_percussive_programs/16",
+            "json_pointer": "/gm1_melodic_or_percussive_programs/16",
+            "record_identity": null
+          },
+          "content_sha256": "351c0c1513647081580dbb87c9e5da29c78c88b2bcf75b46caa7a46f9959577b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006284",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "cautions",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/gm-percussion-reference.json",
+          "document_sha256": "a87878e8bd44967b5aa542ffc4a00d519531acf0124dc4a45563a7f2d9720e6f",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/cautions",
+            "json_pointer": "/cautions",
+            "record_identity": null
+          },
+          "content_sha256": "01d0336235e3941c2a154d1c585bd20c20f1abbb25fbed3229223ea78f899b00",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
