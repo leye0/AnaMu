@@ -185,6 +185,309 @@
       "limitations": "Une ressemblance de timbre ne démontre ni technique de production ni filiation.",
       "scope": "passage_or_context_specific",
       "requires_provenance": true
+    },
+    {
+      "id": "loop_phase_annotated",
+      "modality": "music_timeline",
+      "meaning": "Phase et longueur d'un cycle déclarées et localisées dans une version musicale.",
+      "limitations": "Ne prouve ni raccord sonore ni réponse réelle à un événement de jeu.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0003",
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0004",
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0008",
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0010"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "game_state_events",
+      "modality": "runtime_or_authored_scenario",
+      "meaning": "Événements d'état horodatés dans une horloge identifiée, avec distinction entre scénario écrit et capture réelle.",
+      "limitations": "Un marqueur écrit n'est pas une mesure de réaction du moteur.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0003",
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0005",
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0009",
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0010"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "localized_music_observations",
+      "modality": "multimodal",
+      "meaning": "Observations identifiées dans une version et un passage, avec modalité, repère temporel ou autre locateur et provenance.",
+      "limitations": "N'établit ni exhaustivité ni interprétation du passage.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0005",
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0001",
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0003"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "attributed_field_recording",
+      "modality": "audio_and_field_provenance",
+      "meaning": "Enregistrement de terrain associé à une provenance, une pratique située et une version identifiée.",
+      "limitations": "Ne suffit pas à attribuer l'identité culturelle ou l'intention des participants.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0005",
+        "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0006"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "identified_historical_sources",
+      "modality": "historical_documents",
+      "meaning": "Références historiques attribuables, avec date ou intervalle documenté, édition et portée de la source.",
+      "limitations": "Une source analogue ne suffit pas à dater une œuvre ni à lui attribuer une influence.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0001",
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0002"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "runtime_transition_rules",
+      "modality": "runtime_configuration",
+      "meaning": "Règles de transition d'une configuration interactive identifiée, avec déclencheurs et contraintes de synchronisation.",
+      "limitations": "Une règle configurée ne garantit ni son exécution ni sa latence réelle.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0005",
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0010"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "aligned_recording",
+      "modality": "audio_and_alignment",
+      "meaning": "Enregistrement localisé et alignement explicite avec les repères d'un autre support identifié.",
+      "limitations": "Ne prouve pas l'identité de timbre, d'interprète ni l'exactitude d'un alignement supposé.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0006",
+        "candidate-assertion:0039"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "event_representation_declared",
+      "modality": "analysis_contract",
+      "meaning": "Définition des objets et des coordonnées utilisés pour représenter les événements d'une analyse.",
+      "limitations": "Le choix d'une représentation n'établit pas sa pertinence musicologique.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0001",
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0007"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "verified_transformation_relations",
+      "modality": "derived_observation",
+      "meaning": "Relations d'opération calculées ou vérifiées sur des occurrences précisément identifiées, sous une définition déclarée.",
+      "limitations": "Ne prouve ni causalité, ni intention, ni pertinence formelle.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0004",
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0005"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "probability_model_documented",
+      "modality": "statistical_model",
+      "meaning": "Distribution probabiliste identifiée, corpus ou méthode d'estimation, paramètres et limites documentés.",
+      "limitations": "Ne prouve pas une attente subjective ni la validité hors du corpus.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0007",
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0008"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "context_model_declared",
+      "modality": "analysis_contract",
+      "meaning": "Variables contextuelles et règle de conditionnement d'un modèle explicitement définies.",
+      "limitations": "Un contexte déclaré ne garantit pas la pertinence du modèle.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0007"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "similarity_metric_declared",
+      "modality": "analysis_contract",
+      "meaning": "Fonction de distance ou similarité explicite, applicable aux objets et normalisations déclarés.",
+      "limitations": "Une métrique n'est pas une preuve de parenté thématique.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0001"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "normalization_declared",
+      "modality": "analysis_contract",
+      "meaning": "Transformations ou invariances admises pour la comparaison explicitement déclarées.",
+      "limitations": "Une invariance analytique ne garantit pas une équivalence perceptive.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0001"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "negative_comparison_pairs",
+      "modality": "calibration_material",
+      "meaning": "Paires comparatives non apparentées selon un critère explicitement documenté, distinctes des correspondances positives.",
+      "limitations": "Un témoin négatif ne certifie pas à lui seul un taux de faux positifs généralisable.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0001"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "similarity_threshold_declared",
+      "modality": "analysis_contract",
+      "meaning": "Seuil de décision ou d'examen explicite, avec contexte de choix.",
+      "limitations": "Ne constitue pas un seuil perceptif universel.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0002"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "identified_occurrences",
+      "modality": "score_or_event_annotations",
+      "meaning": "Occurrences de matériaux localisées dans une version avec une identité distincte et un mode de délimitation.",
+      "limitations": "Ne prouve pas qu'elles ont une fonction commune.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0004"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "declared_transformation_operation",
+      "modality": "analysis_contract",
+      "meaning": "Opération formelle définie sur un type d'objet musical identifié.",
+      "limitations": "La définition ne prouve pas qu'une œuvre applique l'opération.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0004"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "held_out_examples",
+      "modality": "calibration_material",
+      "meaning": "Exemples distincts des données utilisées pour fixer un modèle, identifiés pour une évaluation de transfert.",
+      "limitations": "Ne prouve pas que l'échantillon est représentatif ni indépendant au sens statistique.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0008"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "gameplay_capture",
+      "modality": "runtime_audio_video",
+      "meaning": "Captation identifiée d'une session interactive, avec synchronisation des événements et de la sortie pertinente.",
+      "limitations": "Un rendu linéaire de variantes ne suffit pas.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0005"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "practitioner_feedback",
+      "modality": "attributed_human_annotation",
+      "meaning": "Retour situé d'un interprète ou praticien sur une observation identifiée, avec attribution et conditions.",
+      "limitations": "Ne doit pas être extrapolé à toute une tradition.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0005"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "field_context_documented",
+      "modality": "historical_or_field_documents",
+      "meaning": "Contexte de pratique et conditions de collecte documentés, avec rôle et limites des sources.",
+      "limitations": "Un contexte documenté ne prouve pas que tous les participants le partagent.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0006"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "dated_score_and_recording",
+      "modality": "score_audio_provenance",
+      "meaning": "Partition et enregistrement identifiés avec datation documentée séparément pour chacun.",
+      "limitations": "La date d'une édition ou d'un enregistrement n'est pas nécessairement la date de composition.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0001"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "work_provenance_documented",
+      "modality": "historical_documents",
+      "meaning": "Provenance d'une œuvre ou version soutenue par des sources attribuables.",
+      "limitations": "Une provenance n'établit pas une influence musicale.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0002"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
+    },
+    {
+      "id": "listener_context_documented",
+      "modality": "human_listening",
+      "meaning": "Conditions d'écoute et contexte de l'auditeur identifiés pour le jugement étudié.",
+      "limitations": "Ne garantit pas qu'un autre auditeur partage le jugement.",
+      "scope": "passage_or_context_specific",
+      "requires_provenance": true,
+      "source_assertion_refs": [
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0009"
+      ],
+      "definition_state": "assistant_source_checked_candidate_definition_not_observed_fact"
     }
   ],
   "limitations": [
