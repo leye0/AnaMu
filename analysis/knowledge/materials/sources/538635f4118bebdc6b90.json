@@ -1,0 +1,436 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-udem-26-variable-ensembles-gap-analysis.md",
+  "units": [
+    {
+      "id": "material:0004263",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "UdeM — audit de fond des 26 cours d'ensembles encore lacunaires",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026, phase 1A.** Relecture de la [grille officielle Composition A26](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) et de [l'inventaire des ensembles facultaires](https:",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-26-variable-ensembles-gap-analysis.md",
+          "document_sha256": "2518c7d2afa3578387aa436359d6592105cafff314d00b2dcbbf135c604f482b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:670ad616276699f7fa073791",
+            "heading_path": [
+              "UdeM — audit de fond des 26 cours d'ensembles encore lacunaires"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 137
+          },
+          "content_sha256": "ca47d7a842497e677670a57d6148905a4a56f64c49e7dbfae691917b4b0da897",
+          "body_sha256": "49898b47691b243fbc5c1b5948798c4357ca48988a5317cfda6fb03a034a048c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004264",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Atelier de musique baroque (3 niveaux) — MUE 1151 / MUE 1152 / MUE 1153",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Sources :** [institutionnelle 1](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [institutionnelle 2](https://musique.umontreal.ca/etudier/nos-disciplines/instruments-anciens/).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-26-variable-ensembles-gap-analysis.md",
+          "document_sha256": "2518c7d2afa3578387aa436359d6592105cafff314d00b2dcbbf135c604f482b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1a3adfa148b7e6c838131336",
+            "heading_path": [
+              "UdeM — audit de fond des 26 cours d'ensembles encore lacunaires",
+              "Atelier de musique baroque (3 niveaux) — MUE 1151 / MUE 1152 / MUE 1153"
+            ],
+            "start_line": 5,
+            "end_line": 17,
+            "subtree_end_line": 17
+          },
+          "content_sha256": "fc6b02e8e430d54f78c214fb46f0134c3b2a02146c2b27bc26ea2fbaf49e4905",
+          "body_sha256": "9053524cdf71fdf794384d2e67a0a9d0dcb33aa8c6171a8633b7d7774d1f74b8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004265",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Atelier de musique contemporaine 2 — MUE 1162",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Sources :** [institutionnelle 1](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [institutionnelle 2](https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-de-musique-",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-26-variable-ensembles-gap-analysis.md",
+          "document_sha256": "2518c7d2afa3578387aa436359d6592105cafff314d00b2dcbbf135c604f482b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:094825616fcb401428d4ad81",
+            "heading_path": [
+              "UdeM — audit de fond des 26 cours d'ensembles encore lacunaires",
+              "Atelier de musique contemporaine 2 — MUE 1162"
+            ],
+            "start_line": 18,
+            "end_line": 29,
+            "subtree_end_line": 29
+          },
+          "content_sha256": "445b8380816f789ffe3330726d7876e58f6c8b98d70e032db305a2d0ca7624d5",
+          "body_sha256": "24539884635a5a7cb0fea40c75d5dd37d7d2ad8fa05b1492c2166af52a918f48",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004266",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Ensemble de flûtes (3 inscriptions) — MUE 1221 / MUE 1222 / MUE 1223",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Sources :** [institutionnelle 1](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [institutionnelle 2](https://musique.umontreal.ca/etudier/nos-disciplines/vents/).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-26-variable-ensembles-gap-analysis.md",
+          "document_sha256": "2518c7d2afa3578387aa436359d6592105cafff314d00b2dcbbf135c604f482b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:04a4d5429cdfd9ecef230cc4",
+            "heading_path": [
+              "UdeM — audit de fond des 26 cours d'ensembles encore lacunaires",
+              "Ensemble de flûtes (3 inscriptions) — MUE 1221 / MUE 1222 / MUE 1223"
+            ],
+            "start_line": 30,
+            "end_line": 42,
+            "subtree_end_line": 42
+          },
+          "content_sha256": "01e9d94f048c10165ed341ad2c0b25b1022347c04e45b85df5cb4a8c8beb60c3",
+          "body_sha256": "580b18a94d4f5563618e7b0fddbfad21ab9c394b853f376ca644bc6bd5a6dddd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004267",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Ensemble de guitares classique (3 inscriptions) — MUE 1231 / MUE 1232 / MUE 1233",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Sources :** [institutionnelle 1](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [institutionnelle 2](https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-de-guitares",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-26-variable-ensembles-gap-analysis.md",
+          "document_sha256": "2518c7d2afa3578387aa436359d6592105cafff314d00b2dcbbf135c604f482b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:fa045d2b2238305c03aedabd",
+            "heading_path": [
+              "UdeM — audit de fond des 26 cours d'ensembles encore lacunaires",
+              "Ensemble de guitares classique (3 inscriptions) — MUE 1231 / MUE 1232 / MUE 1233"
+            ],
+            "start_line": 43,
+            "end_line": 54,
+            "subtree_end_line": 54
+          },
+          "content_sha256": "8f16fa4e5917999efe30ef8d37700cc966ad27bcf6d0f549e67e74901f4f253d",
+          "body_sha256": "c25080eb6686a773409eca981ce1ebd86e23a3b744e7fb54d16473ef6922850b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004268",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Ensemble générique (3 inscriptions) — MUE 1261 / MUE 1262 / MUE 1263",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Sources :** [institutionnelle 1](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [institutionnelle 2](https://musique.umontreal.ca/etudier/ensembles-facultaires/).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-26-variable-ensembles-gap-analysis.md",
+          "document_sha256": "2518c7d2afa3578387aa436359d6592105cafff314d00b2dcbbf135c604f482b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:243f639902ed5291d21383c6",
+            "heading_path": [
+              "UdeM — audit de fond des 26 cours d'ensembles encore lacunaires",
+              "Ensemble générique (3 inscriptions) — MUE 1261 / MUE 1262 / MUE 1263"
+            ],
+            "start_line": 55,
+            "end_line": 67,
+            "subtree_end_line": 67
+          },
+          "content_sha256": "92423ccecf6cc8c50c9c820e4d127835ef25f0da908dc550aaee60e1c03b74df",
+          "body_sha256": "94e5dd81aa0dc68a01cc41c2d4fd8e9970459b119c9882870a735566a901e894",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004269",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Quatuor de saxophones (3 inscriptions) — MUE 1271 / MUE 1272 / MUE 1273",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Sources :** [institutionnelle 1](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [institutionnelle 2](https://musique.umontreal.ca/etudier/nos-disciplines/vents/).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-26-variable-ensembles-gap-analysis.md",
+          "document_sha256": "2518c7d2afa3578387aa436359d6592105cafff314d00b2dcbbf135c604f482b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4d2c018a17afb293b4a7258a",
+            "heading_path": [
+              "UdeM — audit de fond des 26 cours d'ensembles encore lacunaires",
+              "Quatuor de saxophones (3 inscriptions) — MUE 1271 / MUE 1272 / MUE 1273"
+            ],
+            "start_line": 68,
+            "end_line": 80,
+            "subtree_end_line": 80
+          },
+          "content_sha256": "72428cc893a516902f5f3e373bc378849a350f2ebec19941911b03cfa47d68d0",
+          "body_sha256": "3b0af5c35fc166dfdff26a9148a3995d3d7a4acf51b4c479d5384d82d5cd748b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004270",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Chorale jazz (3 inscriptions) — MUE 1361 / MUE 1362 / MUE 1363",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Sources :** [institutionnelle 1](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [institutionnelle 2](https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-vocal-jazz/",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-26-variable-ensembles-gap-analysis.md",
+          "document_sha256": "2518c7d2afa3578387aa436359d6592105cafff314d00b2dcbbf135c604f482b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4701dc5b3ba46d5920a7057a",
+            "heading_path": [
+              "UdeM — audit de fond des 26 cours d'ensembles encore lacunaires",
+              "Chorale jazz (3 inscriptions) — MUE 1361 / MUE 1362 / MUE 1363"
+            ],
+            "start_line": 81,
+            "end_line": 92,
+            "subtree_end_line": 92
+          },
+          "content_sha256": "135c79baccde94b0ed632bb4a4ee8336e43abdf016658603141d4214dea342e5",
+          "body_sha256": "e9c033bfa45e6f6f7af1d37827bd30cef38b219689d64c7be82f612a145d79a0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004271",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Ensemble de clarinettes (3 inscriptions) — MUE 1381 / MUE 1382 / MUE 1383",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Sources :** [institutionnelle 1](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [institutionnelle 2](https://musique.umontreal.ca/etudier/nos-disciplines/vents/).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-26-variable-ensembles-gap-analysis.md",
+          "document_sha256": "2518c7d2afa3578387aa436359d6592105cafff314d00b2dcbbf135c604f482b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a279284edd7fd91fd46338e4",
+            "heading_path": [
+              "UdeM — audit de fond des 26 cours d'ensembles encore lacunaires",
+              "Ensemble de clarinettes (3 inscriptions) — MUE 1381 / MUE 1382 / MUE 1383"
+            ],
+            "start_line": 93,
+            "end_line": 104,
+            "subtree_end_line": 104
+          },
+          "content_sha256": "e42806390be18d3f5cafa5bd3d082a8cd6bc83d9ddb30565c72b20a68f943451",
+          "body_sha256": "da17ef717075df8cf7ca599eb998624b4065224f6614e03d8b8c8c5150476130",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004272",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Harmonie de concert — MUE 1431",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Sources :** [institutionnelle 1](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [institutionnelle 2](https://musique.umontreal.ca/etudier/ensembles-facultaires/ensemble-dinstrument",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-26-variable-ensembles-gap-analysis.md",
+          "document_sha256": "2518c7d2afa3578387aa436359d6592105cafff314d00b2dcbbf135c604f482b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:21805a1923e91958c1ecb804",
+            "heading_path": [
+              "UdeM — audit de fond des 26 cours d'ensembles encore lacunaires",
+              "Harmonie de concert — MUE 1431"
+            ],
+            "start_line": 105,
+            "end_line": 116,
+            "subtree_end_line": 116
+          },
+          "content_sha256": "d9cb1f84fc6ec9984cf8ab77ad5559d5adc35b316bb9934558fa8d8fb7e90ecb",
+          "body_sha256": "57561f2589baba886e9c83104cf5d69f1081fac73b0e7de5575a1b721ca7d021",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004273",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Atelier d'improvisation (3 inscriptions) — MUE 1491 / MUE 1492 / MUE 1493",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Sources :** [institutionnelle 1](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-26-variable-ensembles-gap-analysis.md",
+          "document_sha256": "2518c7d2afa3578387aa436359d6592105cafff314d00b2dcbbf135c604f482b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:380b2fa68154ef552b437f27",
+            "heading_path": [
+              "UdeM — audit de fond des 26 cours d'ensembles encore lacunaires",
+              "Atelier d'improvisation (3 inscriptions) — MUE 1491 / MUE 1492 / MUE 1493"
+            ],
+            "start_line": 117,
+            "end_line": 129,
+            "subtree_end_line": 129
+          },
+          "content_sha256": "687ba7da41fa7c73878b2a8c5588dba46446675a14e69233d9847fa0c0805a92",
+          "body_sha256": "6b13f14c8ae2fd9e57ec44c80cdb991c272fb209a933a14ecd2ae186e3327ca3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004274",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes de collecte prioritaires",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - Obtenir une correspondance code ↔ ensemble ↔ session (2026–2027) pour MUE 123*, 136* et 1431, plutôt que deviner une identité à partir de pages voisines.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-26-variable-ensembles-gap-analysis.md",
+          "document_sha256": "2518c7d2afa3578387aa436359d6592105cafff314d00b2dcbbf135c604f482b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7160f4a385c920a7d8bf47b7",
+            "heading_path": [
+              "UdeM — audit de fond des 26 cours d'ensembles encore lacunaires",
+              "Lacunes de collecte prioritaires"
+            ],
+            "start_line": 130,
+            "end_line": 137,
+            "subtree_end_line": 137
+          },
+          "content_sha256": "675ebb2f6eb5c5ac842e2d6b149fc170cdaa238da546985ea88f5f0abfd1cd56",
+          "body_sha256": "18a9a03d4c8e1af6668f2403ecc7a76b83213f7e8621acc62687c12bffdd8084",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

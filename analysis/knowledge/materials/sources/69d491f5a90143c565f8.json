@@ -1,0 +1,184 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-udem-beaudet-tonal-analysis-primary-model.md",
+  "units": [
+    {
+      "id": "material:0004325",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "UdeM MTE 12041 / 12042 — matière originale du modèle de Luce Beaudet",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026 · acquisition 1A.** Source centrale : [*L'œil qui entend, l'oreille qui voit*](https://bw.musique.umontreal.ca/nm/), site rédigé principalement par Luce Beaudet; [plan des deux parties](https://bw.musique.umontreal.ca/nm/",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-beaudet-tonal-analysis-primary-model.md",
+          "document_sha256": "2c2791f60689c8a5960e7f3598c788f25c98e4490b18eb8e81529484fb7ba09c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5f42b2c0d6a238471630ac5c",
+            "heading_path": [
+              "UdeM MTE 12041 / 12042 — matière originale du modèle de Luce Beaudet"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 35
+          },
+          "content_sha256": "decb09cbcec7aeefc1c9ff7bbe78565304b71f36703bd113c3b91181d30c2ae2",
+          "body_sha256": "435fe2e95c683eec13e51b94a4fe68ffb3cbf03003a2021d54f9f23dbc1fe9fe",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004326",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "11 axes d'analyse réels et leurs pages",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Couple V–I, structure d'accord et fonction harmonique](https://bw.musique.umontreal.ca/nm/couple-moteur.htm).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-beaudet-tonal-analysis-primary-model.md",
+          "document_sha256": "2c2791f60689c8a5960e7f3598c788f25c98e4490b18eb8e81529484fb7ba09c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2085668194fba4f3601c1740",
+            "heading_path": [
+              "UdeM MTE 12041 / 12042 — matière originale du modèle de Luce Beaudet",
+              "11 axes d'analyse réels et leurs pages"
+            ],
+            "start_line": 5,
+            "end_line": 18,
+            "subtree_end_line": 18
+          },
+          "content_sha256": "9d8868a4ab4ae190beb1ddb6e9d54cf05aa1e55df4471be6774b9673fe70bf24",
+          "body_sha256": "26999bf128dea91b663d9797bde1aa04c39e7676925e1f3a907106d2163c6eeb",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004327",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Contenu conceptuel effectivement expliqué",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **V–I** : tension et détente de la dominante vers la tonique; différence essentielle entre la structure sonore de l'accord et sa fonction dans la syntaxe tonale.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-beaudet-tonal-analysis-primary-model.md",
+          "document_sha256": "2c2791f60689c8a5960e7f3598c788f25c98e4490b18eb8e81529484fb7ba09c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:24977eb686338cb345cb8170",
+            "heading_path": [
+              "UdeM MTE 12041 / 12042 — matière originale du modèle de Luce Beaudet",
+              "Contenu conceptuel effectivement expliqué"
+            ],
+            "start_line": 19,
+            "end_line": 26,
+            "subtree_end_line": 26
+          },
+          "content_sha256": "acd09b29545fedf2a02eeae361f10bef6572ca4f4a8183e2c9f2e78e69e9f80c",
+          "body_sha256": "92117ce8edebef4331375b7c8f528275c175a5a04d3fcdd8d5f97eaac7e66627",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004328",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Partitions réellement évoquées sur le site",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Bach, *Clavier bien tempéré*, prélude BWV 846 (découpage en U.S.H.); Mendelssohn, quatuor op.13 IV, mesures 224–232 (dominantes secondaires); Schubert, *Winterreise* no 11; Liszt, étude transcendante no 1; Mozart, *Confutatis* du *Requiem*",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-beaudet-tonal-analysis-primary-model.md",
+          "document_sha256": "2c2791f60689c8a5960e7f3598c788f25c98e4490b18eb8e81529484fb7ba09c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1546bda27ea74a5c7169d0a7",
+            "heading_path": [
+              "UdeM MTE 12041 / 12042 — matière originale du modèle de Luce Beaudet",
+              "Partitions réellement évoquées sur le site"
+            ],
+            "start_line": 27,
+            "end_line": 30,
+            "subtree_end_line": 30
+          },
+          "content_sha256": "b217dc140882f369c272f904693716c68093b902fa1c7fe818dfc22abedf9238",
+          "body_sha256": "5200f0d4a7d2ef2a6923542b111ab5b2988850a67164e995266702d74ca22a0d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004329",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Frontière documentaire",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Deux cartes promues `usable_first_pass`**, car la source publique directement associée à ce cours apporte désormais une véritable matière théorique structurée. **Aucune preuve n'associe la partie 1 du site à MTE12041 et la partie 2 à MTE1",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-beaudet-tonal-analysis-primary-model.md",
+          "document_sha256": "2c2791f60689c8a5960e7f3598c788f25c98e4490b18eb8e81529484fb7ba09c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:222a1ff9b0b15946d77da937",
+            "heading_path": [
+              "UdeM MTE 12041 / 12042 — matière originale du modèle de Luce Beaudet",
+              "Frontière documentaire"
+            ],
+            "start_line": 31,
+            "end_line": 35,
+            "subtree_end_line": 35
+          },
+          "content_sha256": "41d3ad2ad03c3b1ae16fa197b8511d56fa7313c29985bbdaaf7668ceae6a4dbf",
+          "body_sha256": "d7addb6f03cd37ed4fdf9e74bcdac6adb49b8eb6b54bb5f0b7a1b140fa8c0feb",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

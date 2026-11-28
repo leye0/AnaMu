@@ -4,8 +4,8 @@
     "status": "pilot_partial_not_full_inventory",
     "source_course_documents_indexed": 424,
     "source_course_documents_total_reference": 424,
-    "material_units_active": 4238,
-    "material_units_requiring_review": 4238,
+    "material_units_active": 4335,
+    "material_units_requiring_review": 4335,
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
     "course_material_bindings_active": 3412,
@@ -19,7 +19,7 @@
     "extracted_candidate_assertions_stale": 0,
     "candidate_senses_pending_reconciliation": 6,
     "course_documents_with_active_units": 424,
-    "source_documents_with_active_units": 484
+    "source_documents_with_active_units": 494
   },
   "by_course": {
     "berklee:CM-211": [
@@ -9479,6 +9479,123 @@
       "material:0004236",
       "material:0004237",
       "material:0004238"
+    ],
+    "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md": [
+      "material:0004239",
+      "material:0004240",
+      "material:0004241",
+      "material:0004242",
+      "material:0004243",
+      "material:0004244",
+      "material:0004245",
+      "material:0004246",
+      "material:0004247",
+      "material:0004248",
+      "material:0004249",
+      "material:0004250"
+    ],
+    "docs/raw-batches/2026-11-11-udem-25-ensemble-2026-27-specific-material.md": [
+      "material:0004251",
+      "material:0004252",
+      "material:0004253",
+      "material:0004254",
+      "material:0004255",
+      "material:0004256",
+      "material:0004257",
+      "material:0004258",
+      "material:0004259",
+      "material:0004260",
+      "material:0004261",
+      "material:0004262"
+    ],
+    "docs/raw-batches/2026-11-11-udem-26-variable-ensembles-gap-analysis.md": [
+      "material:0004263",
+      "material:0004264",
+      "material:0004265",
+      "material:0004266",
+      "material:0004267",
+      "material:0004268",
+      "material:0004269",
+      "material:0004270",
+      "material:0004271",
+      "material:0004272",
+      "material:0004273",
+      "material:0004274"
+    ],
+    "docs/raw-batches/2026-11-11-udem-35-mui-audition-skill-evidence.md": [
+      "material:0004275",
+      "material:0004276",
+      "material:0004277",
+      "material:0004278",
+      "material:0004279",
+      "material:0004280",
+      "material:0004281",
+      "material:0004282",
+      "material:0004283",
+      "material:0004284",
+      "material:0004285",
+      "material:0004286",
+      "material:0004287",
+      "material:0004288",
+      "material:0004289",
+      "material:0004290",
+      "material:0004291",
+      "material:0004292",
+      "material:0004293",
+      "material:0004294",
+      "material:0004295",
+      "material:0004296",
+      "material:0004297",
+      "material:0004298",
+      "material:0004299",
+      "material:0004300",
+      "material:0004301",
+      "material:0004302",
+      "material:0004303",
+      "material:0004304",
+      "material:0004305",
+      "material:0004306",
+      "material:0004307",
+      "material:0004308",
+      "material:0004309",
+      "material:0004310",
+      "material:0004311"
+    ],
+    "docs/raw-batches/2026-11-11-udem-74-exact-source-links.md": [
+      "material:0004312"
+    ],
+    "docs/raw-batches/2026-11-11-udem-8-low-detail-theory-mediation-conducting.md": [
+      "material:0004313",
+      "material:0004314",
+      "material:0004315",
+      "material:0004316",
+      "material:0004317",
+      "material:0004318",
+      "material:0004319",
+      "material:0004320",
+      "material:0004321",
+      "material:0004322"
+    ],
+    "docs/raw-batches/2026-11-11-udem-8-official-2026-27-music-plans.md": [
+      "material:0004323",
+      "material:0004324"
+    ],
+    "docs/raw-batches/2026-11-11-udem-beaudet-tonal-analysis-primary-model.md": [
+      "material:0004325",
+      "material:0004326",
+      "material:0004327",
+      "material:0004328",
+      "material:0004329"
+    ],
+    "docs/raw-batches/2026-11-11-udem-composition-2026-curriculum-direct-course-evidence.md": [
+      "material:0004330",
+      "material:0004331",
+      "material:0004332",
+      "material:0004333"
+    ],
+    "docs/raw-batches/2026-11-11-udem-mediation-publics-2-real-plans.md": [
+      "material:0004334",
+      "material:0004335"
     ]
   },
   "by_concept": {
