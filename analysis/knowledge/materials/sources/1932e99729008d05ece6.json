@@ -1,0 +1,328 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-berklee-seven-ensemble-specific-music-subjects.md",
+  "units": [
+    {
+      "id": "material:0004116",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Berklee Boston — sept ensembles spécifiques de création et musique du monde",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026, phase 1A.** La grille Composition utilise le marqueur générique `ENXX-xxx`; ces sept pages sont des cours individuels officiels (ensemble, un crédit) avec des travaux musicaux distincts. Cinq descriptions contiennent des",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-seven-ensemble-specific-music-subjects.md",
+          "document_sha256": "d2ae715b94086826b328a15f38380e596ca18e3a0970c926cbd891ba6f4c5ecc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0d914b0e29a7a43b3e44b33a",
+            "heading_path": [
+              "Berklee Boston — sept ensembles spécifiques de création et musique du monde"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 89
+          },
+          "content_sha256": "174aa1e13043ec7c150d2739d33cd333ed0265fb178da907c6881c6e32c6f519",
+          "body_sha256": "2c30de86d278b161dc65d71c46ec807dce009d4f68e842e7a8db388181d0a009",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004117",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "[ENCL-406 — The Neither/Nor Composer Ensemble](https://college.berklee.edu/courses/encl-406)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Discipline :** composition_collective · **Nature :** notice officielle du cours.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-seven-ensemble-specific-music-subjects.md",
+          "document_sha256": "d2ae715b94086826b328a15f38380e596ca18e3a0970c926cbd891ba6f4c5ecc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9324f575fcedb2422ee2091f",
+            "heading_path": [
+              "Berklee Boston — sept ensembles spécifiques de création et musique du monde",
+              "[ENCL-406 — The Neither/Nor Composer Ensemble](https://college.berklee.edu/courses/encl-406)"
+            ],
+            "start_line": 5,
+            "end_line": 16,
+            "subtree_end_line": 16
+          },
+          "content_sha256": "b3449cfb6ba099e1f961469eb885fb0295f0b47a12d7ac64ab7e8219eff7b1aa",
+          "body_sha256": "1332ca9d866561a346658aa84cecef10149c5c7c96728a7c8a28892d4b12cd35",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004118",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "[ENCL-407 — Composer Sinfonietta](https://college.berklee.edu/courses/encl-407)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Discipline :** composer_orchestra · **Nature :** notice officielle du cours.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-seven-ensemble-specific-music-subjects.md",
+          "document_sha256": "d2ae715b94086826b328a15f38380e596ca18e3a0970c926cbd891ba6f4c5ecc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2c1c555a26f3354c758824d3",
+            "heading_path": [
+              "Berklee Boston — sept ensembles spécifiques de création et musique du monde",
+              "[ENCL-407 — Composer Sinfonietta](https://college.berklee.edu/courses/encl-407)"
+            ],
+            "start_line": 17,
+            "end_line": 27,
+            "subtree_end_line": 27
+          },
+          "content_sha256": "ad153bc80ae766e7041a526a336e205ae3febc942df00f3c64f30d9f939b84fd",
+          "body_sha256": "16944ab74aec396a5d8233c6d7d3ff90c7a3ea7a53379acdafcf2453833c28f9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004119",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "[ENCL-404 — Musical Theater Orchestra](https://college.berklee.edu/courses/encl-404)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Discipline :** theatre_orchestra · **Nature :** notice officielle du cours.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-seven-ensemble-specific-music-subjects.md",
+          "document_sha256": "d2ae715b94086826b328a15f38380e596ca18e3a0970c926cbd891ba6f4c5ecc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2a723b1647439bda6d22a164",
+            "heading_path": [
+              "Berklee Boston — sept ensembles spécifiques de création et musique du monde",
+              "[ENCL-404 — Musical Theater Orchestra](https://college.berklee.edu/courses/encl-404)"
+            ],
+            "start_line": 28,
+            "end_line": 37,
+            "subtree_end_line": 37
+          },
+          "content_sha256": "5604c47af1de3910574b4510619f3f3a505f01bb03c922581d5b7f2e52d8e3e1",
+          "body_sha256": "ed9478cdbf2926429cd14216a78c1788837763dfe82b0fb61f600a44237c54b5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004120",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "[ENGB-400 — Middle Eastern Fusion](https://college.berklee.edu/courses/engb-400)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Discipline :** middle_eastern_fusion · **Nature :** notice officielle du cours.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-seven-ensemble-specific-music-subjects.md",
+          "document_sha256": "d2ae715b94086826b328a15f38380e596ca18e3a0970c926cbd891ba6f4c5ecc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:47cdca4bf9ed5fa86caf03dd",
+            "heading_path": [
+              "Berklee Boston — sept ensembles spécifiques de création et musique du monde",
+              "[ENGB-400 — Middle Eastern Fusion](https://college.berklee.edu/courses/engb-400)"
+            ],
+            "start_line": 38,
+            "end_line": 49,
+            "subtree_end_line": 49
+          },
+          "content_sha256": "8e4c7cc70ddcac1f7b7698451779989a7cd489c400785ee42e174ab06048d498",
+          "body_sha256": "de7d8b7e062d2f96487faedc00713da37245c1c879eba081f37e891842b633a2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004121",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "[ENGB-403 — South Asian Ensemble](https://college.berklee.edu/courses/engb-403)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Discipline :** south_asian · **Nature :** notice officielle du cours.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-seven-ensemble-specific-music-subjects.md",
+          "document_sha256": "d2ae715b94086826b328a15f38380e596ca18e3a0970c926cbd891ba6f4c5ecc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:900c1e9a1d95529995f44cdd",
+            "heading_path": [
+              "Berklee Boston — sept ensembles spécifiques de création et musique du monde",
+              "[ENGB-403 — South Asian Ensemble](https://college.berklee.edu/courses/engb-403)"
+            ],
+            "start_line": 50,
+            "end_line": 60,
+            "subtree_end_line": 60
+          },
+          "content_sha256": "e073229797d7e11499b629155751e6128e0574f6a24898a27d2bf063d04b451b",
+          "body_sha256": "3598f5694ba77b951373254a6ea10e53e036c65a13456664633581d7c5e40a6a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004122",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "[ENGB-407 — Contemporary Balkan Ensemble](https://college.berklee.edu/courses/engb-407)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Discipline :** balkan · **Nature :** notice officielle du cours.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-seven-ensemble-specific-music-subjects.md",
+          "document_sha256": "d2ae715b94086826b328a15f38380e596ca18e3a0970c926cbd891ba6f4c5ecc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3978d80ed1180f56bbe45dc9",
+            "heading_path": [
+              "Berklee Boston — sept ensembles spécifiques de création et musique du monde",
+              "[ENGB-407 — Contemporary Balkan Ensemble](https://college.berklee.edu/courses/engb-407)"
+            ],
+            "start_line": 61,
+            "end_line": 71,
+            "subtree_end_line": 71
+          },
+          "content_sha256": "369151a658783df4e72c7aff1ac6298cd82ced674322b96ec073349588de33d8",
+          "body_sha256": "d74a2c8d10bee865616cd40ad13b4cf4d1d60ab39c5f1320a29ff1a323f36173",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004123",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "[ENGB-401 — Microtonal Grooves](https://college.berklee.edu/courses/engb-401)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Discipline :** microtonal_performance · **Nature :** notice officielle du cours.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-seven-ensemble-specific-music-subjects.md",
+          "document_sha256": "d2ae715b94086826b328a15f38380e596ca18e3a0970c926cbd891ba6f4c5ecc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:fab1472b8f81f5682022141f",
+            "heading_path": [
+              "Berklee Boston — sept ensembles spécifiques de création et musique du monde",
+              "[ENGB-401 — Microtonal Grooves](https://college.berklee.edu/courses/engb-401)"
+            ],
+            "start_line": 72,
+            "end_line": 82,
+            "subtree_end_line": 82
+          },
+          "content_sha256": "9e8134bd357fb9245a5b0464092478f8cfc15208e1ea75bf74439ac1033ace65",
+          "body_sha256": "a37c696a83d54a0326139a2ea545e433da037355e1429eb1e049c4c4164b997d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004124",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Décisions de périmètre",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - `ENCL-406` est réellement un atelier **hebdomadaire** de composition et de performance avec résultat final. Ne pas l'assimiler à un ensemble classique de simple interprétation.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-seven-ensemble-specific-music-subjects.md",
+          "document_sha256": "d2ae715b94086826b328a15f38380e596ca18e3a0970c926cbd891ba6f4c5ecc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9f7420be2196943608657779",
+            "heading_path": [
+              "Berklee Boston — sept ensembles spécifiques de création et musique du monde",
+              "Décisions de périmètre"
+            ],
+            "start_line": 83,
+            "end_line": 89,
+            "subtree_end_line": 89
+          },
+          "content_sha256": "a18dc45af795ff1599782751039ad1dd3da33c51bebf3bd19606b4531819b3ad",
+          "body_sha256": "706a7eaf7f91c3df4d2cb511394472bd0f83a992b77f0afe5a6ae3fd5410952d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

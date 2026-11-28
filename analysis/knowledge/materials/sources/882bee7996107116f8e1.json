@@ -1,0 +1,652 @@
+{
+  "source_document": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
+  "units": [
+    {
+      "id": "material:0003759",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "AnaMu 1A — 16 enrichissements directement appuyés par les pages officielles",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Collecte du 10 novembre 2026.** 9 cours Berklee et 7 ensembles McGill auparavant au statut de carte *partielle*. Chacun a maintenant des **axes de matière propres au cours** suffisamment détaillés pour orienter la phase 1B. Ces 16 cartes",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
+          "document_sha256": "78cedd07a69e8936196ebcbdf102b8f8a7d710add7f6a90de95752c21ec39fa8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:06f2a5aa588f5a6d29d3b0da",
+            "heading_path": [
+              "AnaMu 1A — 16 enrichissements directement appuyés par les pages officielles"
+            ],
+            "start_line": 1,
+            "end_line": 6,
+            "subtree_end_line": 167
+          },
+          "content_sha256": "9dacdd3906cddbd243bb587ca727de4acba440df4c0582b559f422f460fd32f9",
+          "body_sha256": "a110de64d8125bc0ea69e38a566f8c1ee6c6e62ce025ed2be962841ec40f0bd8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003760",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "COND-211 — Conducting 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Source institutionnelle propre au code](https://college.berklee.edu/courses/cond-211)** · **carte 1A : partial → usable_first_pass**.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
+          "document_sha256": "78cedd07a69e8936196ebcbdf102b8f8a7d710add7f6a90de95752c21ec39fa8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:fefd15a904459c17c0d47a48",
+            "heading_path": [
+              "AnaMu 1A — 16 enrichissements directement appuyés par les pages officielles",
+              "COND-211 — Conducting 1"
+            ],
+            "start_line": 7,
+            "end_line": 15,
+            "subtree_end_line": 15
+          },
+          "content_sha256": "e70dd22145e25ae9f21b9508b0b247956e8d12181558a9dde8cb8764312a214b",
+          "body_sha256": "ecc1729e3e53be379873461b78d1b3d59ef5b94ac5fabe5161544a029eaf41f6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003761",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "COND-216 — Conducting 1 with Live Keyboard Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Source institutionnelle propre au code](https://college.berklee.edu/courses/cond-216)** · **carte 1A : partial → usable_first_pass**.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
+          "document_sha256": "78cedd07a69e8936196ebcbdf102b8f8a7d710add7f6a90de95752c21ec39fa8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6fa06e27de13ab4191464d1f",
+            "heading_path": [
+              "AnaMu 1A — 16 enrichissements directement appuyés par les pages officielles",
+              "COND-216 — Conducting 1 with Live Keyboard Ensemble"
+            ],
+            "start_line": 16,
+            "end_line": 24,
+            "subtree_end_line": 24
+          },
+          "content_sha256": "339d5033d5049182fa9ac06ffda7a0e2548e664c3aeb6ef7579f1e0ea5da6cfb",
+          "body_sha256": "2edfa87bc50f5a33568ef131c5685bab942b592140ef72c9f90049d8e94f71e2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003762",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "COND-212 — Conducting 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Source institutionnelle propre au code](https://college.berklee.edu/courses/cond-212)** · **carte 1A : partial → usable_first_pass**.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
+          "document_sha256": "78cedd07a69e8936196ebcbdf102b8f8a7d710add7f6a90de95752c21ec39fa8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b35af9a7d2d4bacebeb97c90",
+            "heading_path": [
+              "AnaMu 1A — 16 enrichissements directement appuyés par les pages officielles",
+              "COND-212 — Conducting 2"
+            ],
+            "start_line": 25,
+            "end_line": 33,
+            "subtree_end_line": 33
+          },
+          "content_sha256": "738a5fe062215bc05122ff1a87af6ca8f47b5daf3c41adbf36c2c3529c9b26f9",
+          "body_sha256": "6c7ef408e5b56905f5a8c7963e0a0d7ba35ae3a1e519d8050cf388d6a93bb542",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003763",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "COND-217 — Conducting 2 with Live Keyboard Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Source institutionnelle propre au code](https://college.berklee.edu/courses/cond-217)** · **carte 1A : partial → usable_first_pass**.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
+          "document_sha256": "78cedd07a69e8936196ebcbdf102b8f8a7d710add7f6a90de95752c21ec39fa8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0d968b02916abd878fc69bd3",
+            "heading_path": [
+              "AnaMu 1A — 16 enrichissements directement appuyés par les pages officielles",
+              "COND-217 — Conducting 2 with Live Keyboard Ensemble"
+            ],
+            "start_line": 34,
+            "end_line": 42,
+            "subtree_end_line": 42
+          },
+          "content_sha256": "744ed1de15a56354a98d1a1e8b2950725bbd5b26b1f1e43a0ebb83dbd3298181",
+          "body_sha256": "9a3d89a952d3df2727191545efa1a32651e90658106c499b9680643bae6d18cd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003764",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "AR-123 — Arranging 1 for Continuing Students",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Source institutionnelle propre au code](https://college.berklee.edu/courses/ar-123)** · **carte 1A : partial → usable_first_pass**.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
+          "document_sha256": "78cedd07a69e8936196ebcbdf102b8f8a7d710add7f6a90de95752c21ec39fa8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d04ddc4502be2b06623d3345",
+            "heading_path": [
+              "AnaMu 1A — 16 enrichissements directement appuyés par les pages officielles",
+              "AR-123 — Arranging 1 for Continuing Students"
+            ],
+            "start_line": 43,
+            "end_line": 52,
+            "subtree_end_line": 52
+          },
+          "content_sha256": "6ed3eb64ae2b9ebddd4ddcb7f72f9b1bef9d4d0cd9a8c543a693880b390d8a5f",
+          "body_sha256": "9cb9f21ad071afe8e5f7a147c93b28cd9a09862e4d7df90404f1881e86288770",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003765",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CP-210 — The Art of Counterpoint",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Source institutionnelle propre au code](https://college.berklee.edu/courses/cp-210)** · **carte 1A : partial → usable_first_pass**.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
+          "document_sha256": "78cedd07a69e8936196ebcbdf102b8f8a7d710add7f6a90de95752c21ec39fa8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e212536aba3de942df3cc09d",
+            "heading_path": [
+              "AnaMu 1A — 16 enrichissements directement appuyés par les pages officielles",
+              "CP-210 — The Art of Counterpoint"
+            ],
+            "start_line": 53,
+            "end_line": 62,
+            "subtree_end_line": 62
+          },
+          "content_sha256": "7228edad6487b78f6b6c312017ad27fe81a375e090794cf6e4311ae042d6da69",
+          "body_sha256": "d3d1fe8ccd811da3e103dfc0f89813c55762622f19bc423e72cd210f079e4cac",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003766",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-361 — World Music Resources in Composition",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Source institutionnelle propre au code](https://college.berklee.edu/courses/cm-361)** · **carte 1A : partial → usable_first_pass**.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
+          "document_sha256": "78cedd07a69e8936196ebcbdf102b8f8a7d710add7f6a90de95752c21ec39fa8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:80c3190fc3ff0a15bef29aa9",
+            "heading_path": [
+              "AnaMu 1A — 16 enrichissements directement appuyés par les pages officielles",
+              "CM-361 — World Music Resources in Composition"
+            ],
+            "start_line": 63,
+            "end_line": 72,
+            "subtree_end_line": 72
+          },
+          "content_sha256": "15e4a284fb720acf19eb43634381b8172deb11d4b6e044f8f693a8bf6ce5e23b",
+          "body_sha256": "e224c30c143e2b762d110c39653639acf44882a3328c9701b21d2b80ea139e3f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003767",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-343 — Writing for Classical Percussion",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Source institutionnelle propre au code](https://college.berklee.edu/courses/cm-343)** · **carte 1A : partial → usable_first_pass**.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
+          "document_sha256": "78cedd07a69e8936196ebcbdf102b8f8a7d710add7f6a90de95752c21ec39fa8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7930d7adcde356e67c52dffe",
+            "heading_path": [
+              "AnaMu 1A — 16 enrichissements directement appuyés par les pages officielles",
+              "CM-343 — Writing for Classical Percussion"
+            ],
+            "start_line": 73,
+            "end_line": 82,
+            "subtree_end_line": 82
+          },
+          "content_sha256": "fd80e58fa86eb188ebef549caf82f01f5a993465ff5f0167a2b7b548fc8e5ff4",
+          "body_sha256": "e89e09d95e9722ab20cca0c744876f0bdae405c7102ddbb280876ebb95c01475",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003768",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MLAN-351 — The Music of Miles Davis",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Source institutionnelle propre au code](https://college.berklee.edu/courses/mlan-351)** · **carte 1A : partial → usable_first_pass**.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
+          "document_sha256": "78cedd07a69e8936196ebcbdf102b8f8a7d710add7f6a90de95752c21ec39fa8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:cbf50ac0c4ebe0cb0d5ea11c",
+            "heading_path": [
+              "AnaMu 1A — 16 enrichissements directement appuyés par les pages officielles",
+              "MLAN-351 — The Music of Miles Davis"
+            ],
+            "start_line": 83,
+            "end_line": 92,
+            "subtree_end_line": 92
+          },
+          "content_sha256": "a91b42dcd4989b64d5796ff05f98912799cd7e9d91958c0660922bac8a15f0d4",
+          "body_sha256": "8eb74129ff97795663f67f1586bf17238dd84667b7d7f518501ca50234748ca5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003769",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUEN 572 — Cappella Antica",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Source institutionnelle propre au code](https://www.mcgill.ca/music/ensembles/choral/cappella-antica)** · **carte 1A : partial → usable_first_pass**.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
+          "document_sha256": "78cedd07a69e8936196ebcbdf102b8f8a7d710add7f6a90de95752c21ec39fa8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:38ae9da7e9a8069a49f08fca",
+            "heading_path": [
+              "AnaMu 1A — 16 enrichissements directement appuyés par les pages officielles",
+              "MUEN 572 — Cappella Antica"
+            ],
+            "start_line": 93,
+            "end_line": 102,
+            "subtree_end_line": 102
+          },
+          "content_sha256": "e91737b50ddd9a998f3be9704d9aac019aa1e3d65a8fd0ce90629d7e0ade9d42",
+          "body_sha256": "89a0c0f3eb03884713f58e79296c3d73ba773a9eacaff4b5abf5159d52f819c9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003770",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUEN 573 — Baroque Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Source institutionnelle propre au code](https://www.mcgill.ca/music/ensembles/orchestras/baroque-orchestra)** · **carte 1A : partial → usable_first_pass**.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
+          "document_sha256": "78cedd07a69e8936196ebcbdf102b8f8a7d710add7f6a90de95752c21ec39fa8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5a7df19f34eaffb63e601b26",
+            "heading_path": [
+              "AnaMu 1A — 16 enrichissements directement appuyés par les pages officielles",
+              "MUEN 573 — Baroque Orchestra"
+            ],
+            "start_line": 103,
+            "end_line": 112,
+            "subtree_end_line": 112
+          },
+          "content_sha256": "ecfeff74e31efda8b938649c7ca2b161ec2d07fbad6e24ebc6c1a3b55234f445",
+          "body_sha256": "79eff2a9c4d9720fa34fe22447e9859169e563a133572a9fcc7f93f0c2f8b6b0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003771",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUEN 590 — McGill Wind Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Source institutionnelle propre au code](https://www.mcgill.ca/music/ensembles/orchestras/wind)** · **carte 1A : partial → usable_first_pass**.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
+          "document_sha256": "78cedd07a69e8936196ebcbdf102b8f8a7d710add7f6a90de95752c21ec39fa8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5d2857112a42d833785ce571",
+            "heading_path": [
+              "AnaMu 1A — 16 enrichissements directement appuyés par les pages officielles",
+              "MUEN 590 — McGill Wind Orchestra"
+            ],
+            "start_line": 113,
+            "end_line": 122,
+            "subtree_end_line": 122
+          },
+          "content_sha256": "3ecca354b73821570e36fb4a26662237f87c1ca9f0a0a74c7bda8c7b44356b39",
+          "body_sha256": "9b04af35fa462b9bd58a237205f33ebe811546ab4ab23ac094064aacfb7d5197",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003772",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUEN 593 — Choral Ensembles",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Source institutionnelle propre au code](https://www.mcgill.ca/music/ensembles/choral/schulich-singers)** · **carte 1A : partial → usable_first_pass**.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
+          "document_sha256": "78cedd07a69e8936196ebcbdf102b8f8a7d710add7f6a90de95752c21ec39fa8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:761a4046fbd9688beb18c7ae",
+            "heading_path": [
+              "AnaMu 1A — 16 enrichissements directement appuyés par les pages officielles",
+              "MUEN 593 — Choral Ensembles"
+            ],
+            "start_line": 123,
+            "end_line": 132,
+            "subtree_end_line": 132
+          },
+          "content_sha256": "6e029d08d77c735c854342b28398c22dc2573ec52a19d81cc2866773c02a3306",
+          "body_sha256": "e9c3719fee4b6fd14dddb006c37568db9c475c2a33ac5ad78782b016520a73ee",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003773",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUEN 594 — Contemporary Music Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Source institutionnelle propre au code](https://www.mcgill.ca/music/ensembles/orchestras/mcgill-contemporary-music-ensemble)** · **carte 1A : partial → usable_first_pass**.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
+          "document_sha256": "78cedd07a69e8936196ebcbdf102b8f8a7d710add7f6a90de95752c21ec39fa8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5918e68f148b4736d981ea3d",
+            "heading_path": [
+              "AnaMu 1A — 16 enrichissements directement appuyés par les pages officielles",
+              "MUEN 594 — Contemporary Music Ensemble"
+            ],
+            "start_line": 133,
+            "end_line": 143,
+            "subtree_end_line": 143
+          },
+          "content_sha256": "f0bbf482f2b93474f15b7be7abbb7f17d4e327ceaf02b7cd0190c77694f0d820",
+          "body_sha256": "b7e19e26660404fea0a74198147299cb6d8d8ef528019ddd2f26ddac36993e30",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003774",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUEN 595 — Jazz Ensembles",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Source institutionnelle propre au code](https://www.mcgill.ca/music/ensembles/jazz)** · **carte 1A : partial → usable_first_pass**.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
+          "document_sha256": "78cedd07a69e8936196ebcbdf102b8f8a7d710add7f6a90de95752c21ec39fa8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7601feac4cea2a67debf0c3f",
+            "heading_path": [
+              "AnaMu 1A — 16 enrichissements directement appuyés par les pages officielles",
+              "MUEN 595 — Jazz Ensembles"
+            ],
+            "start_line": 144,
+            "end_line": 153,
+            "subtree_end_line": 153
+          },
+          "content_sha256": "e727bf9cf56db381580975e678c1152d61c124847fbb1d0e3ce21ff8b8b18ce3",
+          "body_sha256": "8f2b80e1107a1d107266f3d7542f5aa4ce86d78a7377be73cda1839c55466117",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003775",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUEN 597 — McGill Symphony Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **[Source institutionnelle propre au code](https://www.mcgill.ca/music/ensembles/orchestras/mgso)** · **carte 1A : partial → usable_first_pass**.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
+          "document_sha256": "78cedd07a69e8936196ebcbdf102b8f8a7d710add7f6a90de95752c21ec39fa8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a7fa590add1d21363735b7ab",
+            "heading_path": [
+              "AnaMu 1A — 16 enrichissements directement appuyés par les pages officielles",
+              "MUEN 597 — McGill Symphony Orchestra"
+            ],
+            "start_line": 154,
+            "end_line": 164,
+            "subtree_end_line": 164
+          },
+          "content_sha256": "7e6eed9cff57313d475bc9b0ff658529461b9708563d57db6e6654b366b78fb2",
+          "body_sha256": "5a837e836afde7892809180305c41cec3bfc07e77bdd981f4783d7d0c8ebeb7d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003776",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Résultat et limites",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **16 promotions documentaires** : 9 Berklee, 7 McGill. La provenance reste une notice officielle de cours ou formation, non le syllabus du groupe inscrit. **219 cartes exploitables, 159 partielles, 8 familles non dépliées** dans le registre",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-mcgill-16-musical-promotions.md",
+          "document_sha256": "78cedd07a69e8936196ebcbdf102b8f8a7d710add7f6a90de95752c21ec39fa8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7748fc88a603bcd49fe0d5c5",
+            "heading_path": [
+              "AnaMu 1A — 16 enrichissements directement appuyés par les pages officielles",
+              "Résultat et limites"
+            ],
+            "start_line": 165,
+            "end_line": 167,
+            "subtree_end_line": 167
+          },
+          "content_sha256": "992765a372d584c1b492ac7e535c3b08b11b63ec31d2b8bc5cc4236dbe56ac96",
+          "body_sha256": "42ab6bd3a25cfcfeb44aa7965de74c891c7013a5453322b0fbc23424ccbe52ce",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

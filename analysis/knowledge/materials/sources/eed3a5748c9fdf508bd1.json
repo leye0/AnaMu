@@ -1,0 +1,295 @@
+{
+  "source_document": "docs/courses/udem/MUL-1105.md",
+  "units": [
+    {
+      "id": "material:0002981",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 1105 — Histoire de la musique baroque",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Université de Montréal, option du bloc 75D, Composition A26. Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-1105.md",
+          "document_sha256": "56bbb5f8ef998d3126037074ffab918cca13a83ffe8e9f4acd3703e2ec94a31f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:deb2df65e9fb0b2e684d3dd1",
+            "heading_path": [
+              "MUL 1105 — Histoire de la musique baroque"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 48
+          },
+          "content_sha256": "ca36d9bc852964a7673fe4cded2b4640bb8cedcd1ce929be158755af8be23937",
+          "body_sha256": "866527a12af9d278d1158f9b3954438e60166361d3be5e3ecf8dadfc0bd18fa4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002982",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Cours recensé",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Langage et contexte socioculturel de 1600 à 1750, de Monteverdi à Bach. [Notice officielle](https://admission.umontreal.ca/cours-et-horaires/cours/mul-1105/).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-1105.md",
+          "document_sha256": "56bbb5f8ef998d3126037074ffab918cca13a83ffe8e9f4acd3703e2ec94a31f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3cf221248423a5294ce0c062",
+            "heading_path": [
+              "MUL 1105 — Histoire de la musique baroque",
+              "Cours recensé"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 8
+          },
+          "content_sha256": "f5b58ee858d5e70ed9fc301100211a394de1c3b68dcda6f9d872285a79f93d51",
+          "body_sha256": "45150fe2f243fb7b3b01bebcd2a69f6a0f00248646a8b39f523d074b6e170493",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002983",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Support parallèle",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Leçons 9 à 12. Baroque précoce, musique religieuse et instrumentale, Purcell, Haendel et Bach. [Plan Berklee Online](https://online.berklee.edu/courses/music-history-of-the-western-world-1-medieval-renaissance-and-baroque#syllabus).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-1105.md",
+          "document_sha256": "56bbb5f8ef998d3126037074ffab918cca13a83ffe8e9f4acd3703e2ec94a31f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4bca14865289f94160528190",
+            "heading_path": [
+              "MUL 1105 — Histoire de la musique baroque",
+              "Support parallèle"
+            ],
+            "start_line": 9,
+            "end_line": 12,
+            "subtree_end_line": 12
+          },
+          "content_sha256": "c2ee8f4c0b0c693b58c6b22f0adea112a3ac45c70c5a2c36421a54061b55ac2d",
+          "body_sha256": "b3f832040b16924a14ffcebb14d3f7d5c2e6c4a164d61403dfa57f3b5813b3aa",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002984",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le corpus, les lectures, les exercices et l’évaluation de la section UdeM restent à obtenir. Le plan parallèle documente sa propre formation.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-1105.md",
+          "document_sha256": "56bbb5f8ef998d3126037074ffab918cca13a83ffe8e9f4acd3703e2ec94a31f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:bb0cac41b74797b2755c478e",
+            "heading_path": [
+              "MUL 1105 — Histoire de la musique baroque",
+              "Lacunes"
+            ],
+            "start_line": 13,
+            "end_line": 17,
+            "subtree_end_line": 17
+          },
+          "content_sha256": "7f2264a15528e9ed05f212a4d327a16eed6a7ec8dc456c64f8e40a8748a69e32",
+          "body_sha256": "961ad886da680886470b9c3113f65c17f07cf82bf953dada74567203aaf35086",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002985",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — histoire, sources et limites du MIDI (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cours : MUL 1105. Contribution :** analyse musicale historiquement située, mais corpus et techniques exacts non publiés. **Preuve :** [notice UdeM sur langage et contexte sociohistorique de 1600 à 1750, de Monteverdi à Bach. Le programme",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-1105.md",
+          "document_sha256": "56bbb5f8ef998d3126037074ffab918cca13a83ffe8e9f4acd3703e2ec94a31f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f18719f15cd36029ff767561",
+            "heading_path": [
+              "MUL 1105 — Histoire de la musique baroque",
+              "Application à l'analyse et à la création — histoire, sources et limites du MIDI (12 novembre 2026)"
+            ],
+            "start_line": 18,
+            "end_line": 21,
+            "subtree_end_line": 48
+          },
+          "content_sha256": "183d75c86a9977fa06ebfd08430903e90565ddd7e46104aebd265285d4333e69",
+          "body_sha256": "3241873ae212970cda90d1c663f20ce2c4eea4a762c5a5d8b971adb644316f8f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002986",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage ou champ 1 — Comparer le langage musical d'œuvres baroques datées",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve :** périmètre institutionnel général; les exemples de musique à étudier sont à confirmer. **Catégorie :** `CONTEXT_REQUIRED / MIDI_PROXY / AUDIO_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-1105.md",
+          "document_sha256": "56bbb5f8ef998d3126037074ffab918cca13a83ffe8e9f4acd3703e2ec94a31f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c6f6595ff679bdecff4094b4",
+            "heading_path": [
+              "MUL 1105 — Histoire de la musique baroque",
+              "Application à l'analyse et à la création — histoire, sources et limites du MIDI (12 novembre 2026)",
+              "Apprentissage ou champ 1 — Comparer le langage musical d'œuvres baroques datées"
+            ],
+            "start_line": 22,
+            "end_line": 31,
+            "subtree_end_line": 31
+          },
+          "content_sha256": "567cdd5e6e58dc579875b1717d38e4cff3f6d78fd001a7fb959c50e9bc98429a",
+          "body_sha256": "f6f24dfa2d10fba7c7714a3bb5308495f76834e9c0a6a1ea673b2f5feeb803db",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002987",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage ou champ 2 — Relier une analyse au contexte social des œuvres",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve :** périmètre institutionnel général; les exemples de musique à étudier sont à confirmer. **Catégorie :** `CONTEXT_REQUIRED / NOT_MUSIC_ALGORITHM`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-1105.md",
+          "document_sha256": "56bbb5f8ef998d3126037074ffab918cca13a83ffe8e9f4acd3703e2ec94a31f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2ddf0f8342b01cefc8efe6dd",
+            "heading_path": [
+              "MUL 1105 — Histoire de la musique baroque",
+              "Application à l'analyse et à la création — histoire, sources et limites du MIDI (12 novembre 2026)",
+              "Apprentissage ou champ 2 — Relier une analyse au contexte social des œuvres"
+            ],
+            "start_line": 32,
+            "end_line": 41,
+            "subtree_end_line": 41
+          },
+          "content_sha256": "8e5bbac3a3c8fb6b6ddd230368c0eb47eda49b98cdcb9d0531ffedf1846cc4ca",
+          "body_sha256": "b89ca01e12a9feb225f8b365f0e0ca30fa493f6e1e5a9cb46b97690651ab383a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002988",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Pertinence :** analyse musicale historiquement située, mais corpus et techniques exacts non publiés.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-1105.md",
+          "document_sha256": "56bbb5f8ef998d3126037074ffab918cca13a83ffe8e9f4acd3703e2ec94a31f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0d7ea369fdd4ad3997d5b053",
+            "heading_path": [
+              "MUL 1105 — Histoire de la musique baroque",
+              "Application à l'analyse et à la création — histoire, sources et limites du MIDI (12 novembre 2026)",
+              "Verdict"
+            ],
+            "start_line": 42,
+            "end_line": 48,
+            "subtree_end_line": 48
+          },
+          "content_sha256": "6255a1a325fcebdca0d7a946926d14c30926d538b6474b5223416639b21d49ad",
+          "body_sha256": "6b133828a252cb49c4c96fc6cbec355dfd4ce4af60df4d225412ea3dc36a1e6e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

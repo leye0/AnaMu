@@ -1,0 +1,625 @@
+{
+  "source_document": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+  "units": [
+    {
+      "id": "material:0006633",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "title",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+          "document_sha256": "5dc2fa8df9bb086fb7bda71b937558d50735dec7df7031d9833a4970a3b7df8c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/title",
+            "json_pointer": "/title",
+            "record_identity": null
+          },
+          "content_sha256": "b3eb2e46f5d54f0a85b0c8834a2df3f6fc29d2a1d3736c677870079e87632d19",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006634",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "created",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+          "document_sha256": "5dc2fa8df9bb086fb7bda71b937558d50735dec7df7031d9833a4970a3b7df8c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/created",
+            "json_pointer": "/created",
+            "record_identity": null
+          },
+          "content_sha256": "749763b3c8999e0bdc5ab8b8bb1b770bc93742e8335207548ea5c7b5e9ac219e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006635",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "method",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+          "document_sha256": "5dc2fa8df9bb086fb7bda71b937558d50735dec7df7031d9833a4970a3b7df8c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/method",
+            "json_pointer": "/method",
+            "record_identity": null
+          },
+          "content_sha256": "4f80df67124879c8aa55da4edb0636ab5f7fc2ca9490f52f9564c62cf5c93c75",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006636",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "relation_to_academic_courses",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+          "document_sha256": "5dc2fa8df9bb086fb7bda71b937558d50735dec7df7031d9833a4970a3b7df8c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/relation_to_academic_courses",
+            "json_pointer": "/relation_to_academic_courses",
+            "record_identity": null
+          },
+          "content_sha256": "980312ed89a1ee0cc894a459687087980a0f85b8077eac14f30722ba93493d1f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006637",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "sources",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+          "document_sha256": "5dc2fa8df9bb086fb7bda71b937558d50735dec7df7031d9833a4970a3b7df8c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sources",
+            "json_pointer": "/sources",
+            "record_identity": null
+          },
+          "content_sha256": "3db987324ead4acfcdee31221fa20b7dc39f470226a81f07c80294bb7c9b0cc8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006638",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "total_files",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+          "document_sha256": "5dc2fa8df9bb086fb7bda71b937558d50735dec7df7031d9833a4970a3b7df8c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/total_files",
+            "json_pointer": "/total_files",
+            "record_identity": null
+          },
+          "content_sha256": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006639",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "total_note_on_events",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+          "document_sha256": "5dc2fa8df9bb086fb7bda71b937558d50735dec7df7031d9833a4970a3b7df8c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/total_note_on_events",
+            "json_pointer": "/total_note_on_events",
+            "record_identity": null
+          },
+          "content_sha256": "1eb3da012cf952c58269bd949984611b7884583f20bac1322719580757161e98",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006640",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "drum_channel_zero_based",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+          "document_sha256": "5dc2fa8df9bb086fb7bda71b937558d50735dec7df7031d9833a4970a3b7df8c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/drum_channel_zero_based",
+            "json_pointer": "/drum_channel_zero_based",
+            "record_identity": null
+          },
+          "content_sha256": "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006641",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "kick-bass-phase",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+          "document_sha256": "5dc2fa8df9bb086fb7bda71b937558d50735dec7df7031d9833a4970a3b7df8c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/melodic_bass_comparison",
+            "json_pointer": "/melodic_bass_comparison",
+            "record_identity": "id:kick-bass-phase"
+          },
+          "content_sha256": "f6c72107e0a80a467c02486317b9412c0f7316886e3480e5c796b4344b7c8023",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006642",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "caveats",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+          "document_sha256": "5dc2fa8df9bb086fb7bda71b937558d50735dec7df7031d9833a4970a3b7df8c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/caveats",
+            "json_pointer": "/caveats",
+            "record_identity": null
+          },
+          "content_sha256": "da20ef2c3b7ca26739a729df85bc9ad00cd0ced8aefcda589307efd88594dd1f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006643",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "ghost-ab",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+          "document_sha256": "5dc2fa8df9bb086fb7bda71b937558d50735dec7df7031d9833a4970a3b7df8c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/studies/0",
+            "json_pointer": "/studies/0",
+            "record_identity": "id:ghost-ab"
+          },
+          "content_sha256": "69770c56cb08b28cd2512a19f6ded21ce4a381205389a0d39a906b3d9902ed86",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006644",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "hihat-ab",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+          "document_sha256": "5dc2fa8df9bb086fb7bda71b937558d50735dec7df7031d9833a4970a3b7df8c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/studies/1",
+            "json_pointer": "/studies/1",
+            "record_identity": "id:hihat-ab"
+          },
+          "content_sha256": "624edbb8fb443f7ee1b9e28ce1e02424a54a3e992e324eb5529dd0beca16f314",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006645",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "timing-factorial",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+          "document_sha256": "5dc2fa8df9bb086fb7bda71b937558d50735dec7df7031d9833a4970a3b7df8c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/studies/2",
+            "json_pointer": "/studies/2",
+            "record_identity": "id:timing-factorial"
+          },
+          "content_sha256": "f247ffa99a292b76646190e6b19da6e434b5e306a9a6ca44879c398e248d9b4d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006646",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "swing-ratios",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+          "document_sha256": "5dc2fa8df9bb086fb7bda71b937558d50735dec7df7031d9833a4970a3b7df8c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/studies/3",
+            "json_pointer": "/studies/3",
+            "record_identity": "id:swing-ratios"
+          },
+          "content_sha256": "cb0c5bf26f1d6a066b964e9348b439b1d4ad453cf55fd604888a1a684925f136",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006647",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "fill-arrival",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+          "document_sha256": "5dc2fa8df9bb086fb7bda71b937558d50735dec7df7031d9833a4970a3b7df8c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/studies/4",
+            "json_pointer": "/studies/4",
+            "record_identity": "id:fill-arrival"
+          },
+          "content_sha256": "87b5743b6fc68b46904a9383de032e003b928c6c5617fd68d4be0c68bb64eb7e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006648",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "linear-layered",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+          "document_sha256": "5dc2fa8df9bb086fb7bda71b937558d50735dec7df7031d9833a4970a3b7df8c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/studies/5",
+            "json_pointer": "/studies/5",
+            "record_identity": "id:linear-layered"
+          },
+          "content_sha256": "5a2d204222732a4d269bf62f89b4ae7475c319d78f24681550cd139e7dc43823",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006649",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "paradiddle-sticking",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+          "document_sha256": "5dc2fa8df9bb086fb7bda71b937558d50735dec7df7031d9833a4970a3b7df8c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/studies/6",
+            "json_pointer": "/studies/6",
+            "record_identity": "id:paradiddle-sticking"
+          },
+          "content_sha256": "ec3480523e0cab099f48ee7f87f36fe8c8274483ce9f22615ea8e2e56b151e63",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006650",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "kick-bass-phase",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+          "document_sha256": "5dc2fa8df9bb086fb7bda71b937558d50735dec7df7031d9833a4970a3b7df8c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/studies/7",
+            "json_pointer": "/studies/7",
+            "record_identity": "id:kick-bass-phase"
+          },
+          "content_sha256": "f47af3a46625f75735c2fa45a92045bf457fa67784b5eeb9c8cda5e0fc31a776",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006651",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "backbeat-switch",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+          "document_sha256": "5dc2fa8df9bb086fb7bda71b937558d50735dec7df7031d9833a4970a3b7df8c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/studies/8",
+            "json_pointer": "/studies/8",
+            "record_identity": "id:backbeat-switch"
+          },
+          "content_sha256": "8cc4d094a04398a11544f14be1f2194a27972576f016c27a499ba1ccca83dfa9",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006652",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "timbre-swap",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-groove-study-manifest-2026-11-17.json",
+          "document_sha256": "5dc2fa8df9bb086fb7bda71b937558d50735dec7df7031d9833a4970a3b7df8c",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/studies/9",
+            "json_pointer": "/studies/9",
+            "record_identity": "id:timbre-swap"
+          },
+          "content_sha256": "4cb78fb6fb89799c3e66225538eda161df6982f94c80404b79abf006539d63b8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

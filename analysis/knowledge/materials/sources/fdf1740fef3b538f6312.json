@@ -1,0 +1,160 @@
+{
+  "source_document": "docs/data/percussion-scores-2026-11-18.json",
+  "units": [
+    {
+      "id": "material:0006793",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "date",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-scores-2026-11-18.json",
+          "document_sha256": "e6295eae3889ff8a2a30e80293151896e1d4b96f970c9c83045c3924141768c9",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/date",
+            "json_pointer": "/date",
+            "record_identity": null
+          },
+          "content_sha256": "43db3cb95c2941e29ec982f2ece5013251a48de9e99763392a364919f1f2145e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006794",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Batterie 1 - morceau de 32 mesures",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-scores-2026-11-18.json",
+          "document_sha256": "e6295eae3889ff8a2a30e80293151896e1d4b96f970c9c83045c3924141768c9",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scores/0",
+            "json_pointer": "/scores/0",
+            "record_identity": null
+          },
+          "content_sha256": "7ceffb0113b293df903dd4fafa41e345c3db8db98e3aae80edaecb8fe198a037",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006795",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Batterie 2 - morceau de 32 mesures",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-scores-2026-11-18.json",
+          "document_sha256": "e6295eae3889ff8a2a30e80293151896e1d4b96f970c9c83045c3924141768c9",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scores/1",
+            "json_pointer": "/scores/1",
+            "record_identity": null
+          },
+          "content_sha256": "b0c890d01dff72da21ff1d6a4b8be8bfcf79004354a8af6f51f2f2b856e6c345",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006796",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Peaux en relais - montage propose a trois",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-scores-2026-11-18.json",
+          "document_sha256": "e6295eae3889ff8a2a30e80293151896e1d4b96f970c9c83045c3924141768c9",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scores/2",
+            "json_pointer": "/scores/2",
+            "record_identity": null
+          },
+          "content_sha256": "f45b192932fccd2dc52a6752c6310e601c0eb5812f3dd4a51f2be41ac9310e29",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006797",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "status",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-scores-2026-11-18.json",
+          "document_sha256": "e6295eae3889ff8a2a30e80293151896e1d4b96f970c9c83045c3924141768c9",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/status",
+            "json_pointer": "/status",
+            "record_identity": null
+          },
+          "content_sha256": "cd6d3a9e182bb8dbafce5ea68f3646a4446471525e2d3f038b3e7da85af2c3bf",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

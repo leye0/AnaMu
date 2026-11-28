@@ -1,0 +1,2524 @@
+{
+  "source_document": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+  "units": [
+    {
+      "id": "material:0003689",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cartographie 1A, 10 novembre 2026.** Cours de Boston identifiés dans [le programme de Composition](https://college.berklee.edu/program-requirements/composition-bachelors-degree), les [cours Composition](https://college.berklee.edu/composi",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:326b1f8c50211fd3012a9e08",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 667
+          },
+          "content_sha256": "094a1f3dcf393c9dd1cdd188b4b3b029e8c06ea9fc69ee37d9849e41af99ba3b",
+          "body_sha256": "8960f30013dfe13bf55964fbac3c810796915265ecff11a4dd67fa1853e2d13c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003690",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "ISKB-211 — Techniques de clavier élémentaire 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/iskb-211) · [Fiche précédente](../courses/berklee/ISKB-211.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:074cf4bdd815dd179bb25187",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "ISKB-211 — Techniques de clavier élémentaire 1"
+            ],
+            "start_line": 5,
+            "end_line": 13,
+            "subtree_end_line": 13
+          },
+          "content_sha256": "9e5701fbd649d05ac8910445bb61f35d6f41e3e0dba82390deda63b80f8ae891",
+          "body_sha256": "8e30f1ea6f1981f120263f6d1535b49c7a1618df6d38816561161dfcda17eda0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003691",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "ISKB-212 — Techniques de clavier élémentaire 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/iskb-212) · [Fiche précédente](../courses/berklee/ISKB-212.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7b4674ded4cba20b3571a51f",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "ISKB-212 — Techniques de clavier élémentaire 2"
+            ],
+            "start_line": 14,
+            "end_line": 22,
+            "subtree_end_line": 22
+          },
+          "content_sha256": "e8ea195fa4e95827e82348b4bd263c2928d99e4fdae89d6cfbca0a78656359df",
+          "body_sha256": "a37b62b6fde2a755df510028640ce1d27213f6e5265eafb99d9555e3746193ef",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003692",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-221 — Techniques of Tonal Writing",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-221) · [Fiche précédente](../courses/berklee/CM-221.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0b6b8b4a362bfb8525dfdabc",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-221 — Techniques of Tonal Writing"
+            ],
+            "start_line": 23,
+            "end_line": 32,
+            "subtree_end_line": 32
+          },
+          "content_sha256": "54a48f8b5077527ac49c1ed0279de8bb001d5327057111d8877e27e3f51ec296",
+          "body_sha256": "fea675810a9022b6459502baac7ff5931b9a8ce8deeeb1da869d0e1da7876173",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003693",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CP-215 — The Art of Counterpoint 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cp-215) · [Fiche précédente](../courses/berklee/CP-215.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c68b33efda0f777cad2aeca1",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CP-215 — The Art of Counterpoint 2"
+            ],
+            "start_line": 33,
+            "end_line": 42,
+            "subtree_end_line": 42
+          },
+          "content_sha256": "992bb857ba9f74a577742887a64e2f062b6d86861f12e6dd292e342d21eca304",
+          "body_sha256": "66fa7e7895c6b9a8ca4af57316777febc55fb6302f9f7651107cbb2d8c0feed2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003694",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-231 — Instrumentation and Score Preparation",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-231) · [Fiche précédente](../courses/berklee/CM-231.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:39ebde99130c59dfd83029d6",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-231 — Instrumentation and Score Preparation"
+            ],
+            "start_line": 43,
+            "end_line": 52,
+            "subtree_end_line": 52
+          },
+          "content_sha256": "2615d3fed44d3d9d7317577f3f3a5a32b21815ea0eca058c3fd08a014b752597",
+          "body_sha256": "66227407582ba86aa79c37ae3a62f241a8a19133dffa2611c885cd94933de6f5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003695",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MLAN-311 — Analysis of Classical and Romantic Music",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/mlan-311) · [Fiche précédente](../courses/berklee/MLAN-311.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:fac857aedcc3847984ce899e",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "MLAN-311 — Analysis of Classical and Romantic Music"
+            ],
+            "start_line": 53,
+            "end_line": 61,
+            "subtree_end_line": 61
+          },
+          "content_sha256": "3843f1ee68da139eba0883ec79e81e63fa50b119af7a09763f82d9492bf80552",
+          "body_sha256": "eab8ec848e9f843e5ca5b5f931c2855a8f92d047025716e8c3d114c714bd9f4b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003696",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-311 — Contemporary Techniques in Composition 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-311) · [Fiche précédente](../courses/berklee/CM-311.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3fad53e96f5831da7dc8eef4",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-311 — Contemporary Techniques in Composition 1"
+            ],
+            "start_line": 62,
+            "end_line": 71,
+            "subtree_end_line": 71
+          },
+          "content_sha256": "ee5d8adf2e507b49fb4e72bab61186e8fdfb083661fb8f21d82bcb5e7e0a51f8",
+          "body_sha256": "3f8569282c02d9af79e1e95398048a32d49caf92223538d00f49dece22ec72bd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003697",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-312 — Contemporary Techniques in Composition 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-312) · [Fiche précédente](../courses/berklee/CM-312.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:74686aa973c2a99805801fa1",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-312 — Contemporary Techniques in Composition 2"
+            ],
+            "start_line": 72,
+            "end_line": 80,
+            "subtree_end_line": 80
+          },
+          "content_sha256": "b63975f6bbd14f0b14d7285ff75bd7f1cec03ea720d4bfe88b9db6f1f36fee27",
+          "body_sha256": "077d183700f382c44c34871cfde1ebcc539d91fd0af6910b6ef3a992a1043d73",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003698",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-441 — Scoring for Full Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-441) · [Fiche précédente](../courses/berklee/CM-441.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6322cc4b44348c52ac06f756",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-441 — Scoring for Full Orchestra"
+            ],
+            "start_line": 81,
+            "end_line": 90,
+            "subtree_end_line": 90
+          },
+          "content_sha256": "e99ef60d710d68831406b4538d10a36b01cb6a28d9a745e6468d629528be4283",
+          "body_sha256": "abd226f01f9e60329c9e125e9153439720b6dd16bac5411cdfd262255042d55e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003699",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MLAN-312 — Analysis of 20th- and 21st-Century Music",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/mlan-312) · [Fiche précédente](../courses/berklee/MLAN-312.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c01efbca1d519b1d2c7314bd",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "MLAN-312 — Analysis of 20th- and 21st-Century Music"
+            ],
+            "start_line": 91,
+            "end_line": 100,
+            "subtree_end_line": 100
+          },
+          "content_sha256": "e6bfe7bdab7a1a9cf67595c76ccf8baade05f3f125a4df3d3c2477623007f041",
+          "body_sha256": "d8581173114e0b156520a1171d62ef4e080d9ace4a81d2df7710f06876a7ad22",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003700",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-398 — Directed Study in Composition 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-398) · [Fiche précédente](../courses/berklee/CM-398.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:418b49d3d94bb3ecbf49c11e",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-398 — Directed Study in Composition 1"
+            ],
+            "start_line": 101,
+            "end_line": 110,
+            "subtree_end_line": 110
+          },
+          "content_sha256": "a0d0b2c98ecebf2a00b45d0d7fe7d3fa2391edc4cc11ffb812e1e54d22b516f2",
+          "body_sha256": "6cfe1ad6d08ae813a28a1bb7e186707e9eb5dbbcba8aa28bf8ab82e9b27e2a17",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003701",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-497 — Directed Study in Composition 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-497) · [Fiche précédente](../courses/berklee/CM-497.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:cb1862d30624ddee4241707b",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-497 — Directed Study in Composition 2"
+            ],
+            "start_line": 111,
+            "end_line": 120,
+            "subtree_end_line": 120
+          },
+          "content_sha256": "f35e70f4d6224532bab559db6aab0ea65b0b08ba76d127ada0a0a7a50e7bee9d",
+          "body_sha256": "76ff0b56038243feb2d6ee4ad279401b5825c8430bd6f77f0a966862b13c285f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003702",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-498 — Directed Study in Composition 3",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-498) · [Fiche précédente](../courses/berklee/CM-498.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:225c4c02827b306d2e670648",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-498 — Directed Study in Composition 3"
+            ],
+            "start_line": 121,
+            "end_line": 130,
+            "subtree_end_line": 130
+          },
+          "content_sha256": "1861ca082f087dc0dfdebcf91d57e3c0274ed6f5b4a68a96b1f858fdd1ae9510",
+          "body_sha256": "e56a800bfcdb7ba0d011289d88daa6d893ccbf8342362bee414fd0cfd98e01e5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003703",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-490 — Advanced Projects in Composition",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-490) · [Fiche précédente](../courses/berklee/CM-490.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0b9730e21b22394608830399",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-490 — Advanced Projects in Composition"
+            ],
+            "start_line": 131,
+            "end_line": 140,
+            "subtree_end_line": 140
+          },
+          "content_sha256": "4b37219153bd4dadf76c399f9adc506aa81fb8f5f1664e7c6a47c8985cd87b30",
+          "body_sha256": "274111c80d47d696808c1479307dd0d49af87dff0877a154bc2c986bafef9082",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003704",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "ET-231 — Solfege 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/et-231) · [Fiche précédente](../courses/berklee/ET-231.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ac613c98f8b954a60d033077",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "ET-231 — Solfege 1"
+            ],
+            "start_line": 141,
+            "end_line": 151,
+            "subtree_end_line": 151
+          },
+          "content_sha256": "09f8aa79cea8cf4e8693383158f0285fb83cd312630223f5e31819117747f46a",
+          "body_sha256": "cfe824c8e1c3a1a4d0aa0f7c562cdb9bc37d50c9f4c221b9881370b64d67e6d3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003705",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "ET-232 — Solfege 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/et-232) · [Fiche précédente](../courses/berklee/ET-232.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:92c068bcb7e2a7cb4925647b",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "ET-232 — Solfege 2"
+            ],
+            "start_line": 152,
+            "end_line": 160,
+            "subtree_end_line": 160
+          },
+          "content_sha256": "e1e5eb94a4cad09451095d9964a90a1590ea0161abb196bd077a4af6af680d0a",
+          "body_sha256": "ea019e1f2bc6b8679732c2d7b488b2cb4848ac95d424399e4d7576cb307e2402",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003706",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "COND-211 — Conducting 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/cond-211) · [Fiche précédente](../courses/berklee/COND-211.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:09d927f22aa64bc5b94b050b",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "COND-211 — Conducting 1"
+            ],
+            "start_line": 161,
+            "end_line": 169,
+            "subtree_end_line": 169
+          },
+          "content_sha256": "7649505629bd40655f2df1c9bc6286b62bdf928e390ee306e164af1abaa9b6e5",
+          "body_sha256": "155e9cde61a76eda767e514de423ba4e2f63110cb5263ec5911e436c67c32919",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003707",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "COND-216 — Conducting 1 with Live Keyboard Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/cond-216) · [Fiche précédente](../courses/berklee/COND-216.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b330b9f27da92fd8330c8f7a",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "COND-216 — Conducting 1 with Live Keyboard Ensemble"
+            ],
+            "start_line": 170,
+            "end_line": 178,
+            "subtree_end_line": 178
+          },
+          "content_sha256": "e686d9252cb0aea36422b4dd0b23b5686f57afe8de5a3a7fedebd8c9b02657d6",
+          "body_sha256": "17502a8399e40875b9e3ab19d4bc78e324a00d147e0980e06245d566484f451e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003708",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "COND-212 — Conducting 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/cond-212) · [Fiche précédente](../courses/berklee/COND-212.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2c8be19e2b103aaa39f73cbd",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "COND-212 — Conducting 2"
+            ],
+            "start_line": 179,
+            "end_line": 187,
+            "subtree_end_line": 187
+          },
+          "content_sha256": "a3ec895b9db61f83f47dfad100b3d7836aef3f2c514a17f567b5619bcb41d83e",
+          "body_sha256": "933b500d38325d034be58538dfc0341e2faa144147608ffa130c87cf7c7673e3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003709",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "COND-217 — Conducting 2 with Live Keyboard Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/cond-217) · [Fiche précédente](../courses/berklee/COND-217.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:cfd0cd9ab8baa8fcef2edeae",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "COND-217 — Conducting 2 with Live Keyboard Ensemble"
+            ],
+            "start_line": 188,
+            "end_line": 196,
+            "subtree_end_line": 196
+          },
+          "content_sha256": "16919391b284f83ddca18e774e6eb069b560e76e36bb11230af4f810464b9c62",
+          "body_sha256": "0399b9a39f5093d9d10d593f890877e65c3fee4031a2d27136f81672d8f00624",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003710",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MHIS-251 — General Music History 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/mhis-251) · [Fiche précédente](../courses/berklee/MHIS-251.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:cbd2aa4a6ad8e1d77b90c6e4",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "MHIS-251 — General Music History 1"
+            ],
+            "start_line": 197,
+            "end_line": 205,
+            "subtree_end_line": 205
+          },
+          "content_sha256": "1cf6d9616ef7a946a0c1ede428d17ef54e5a2addf4695ec04a69e96e54e4531d",
+          "body_sha256": "b1ee4b58a1194ca8a1ac8978572d0e929a1f35344c36accc3f0a01eae072379e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003711",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MHIS-252 — General Music History 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/mhis-252) · [Fiche précédente](../courses/berklee/MHIS-252.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:273c4c95e0d004791d2285eb",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "MHIS-252 — General Music History 2"
+            ],
+            "start_line": 206,
+            "end_line": 214,
+            "subtree_end_line": 214
+          },
+          "content_sha256": "478b4f45e9ada749591ffddbaec8a16a8c67beb3c927573e8ac4f20959aad4d3",
+          "body_sha256": "d461f3410808c1d10147d5faee7bc347ae685dda4e7f826ad5bcff783864b53d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003712",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "PW-111 — Principles of Production for Musicians",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/pw-111) · [Fiche précédente](../courses/berklee/PW-111.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:625b66e3e10cc7cddfca719f",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "PW-111 — Principles of Production for Musicians"
+            ],
+            "start_line": 215,
+            "end_line": 223,
+            "subtree_end_line": 223
+          },
+          "content_sha256": "dc12060ba21257b717891130ae8822a3c66e9fc0bccf13702101dac1d8f73b88",
+          "body_sha256": "5b50f58a430fc815f97ea233f5ad1a152f001dffd37c51f5fef6ab1459f770e6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003713",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "AR-111 — Arranging 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/ar-111) · [Fiche précédente](../courses/berklee/AR-111.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:db6176868a642c9bb92ff63d",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "AR-111 — Arranging 1"
+            ],
+            "start_line": 224,
+            "end_line": 232,
+            "subtree_end_line": 232
+          },
+          "content_sha256": "df256c4a2a9d32a83065c8d0127d05929055c6416166faea22a2b7691044a560",
+          "body_sha256": "829e0e14a2d6f02f4a6e079e3817094b1f2a570015a8a886416aebb9d9e1c503",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003714",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "AR-123 — Arranging 1 Continuing",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/ar-123) · [Fiche précédente](../courses/berklee/AR-123.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f8261b586d69dbae3463f440",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "AR-123 — Arranging 1 Continuing"
+            ],
+            "start_line": 233,
+            "end_line": 241,
+            "subtree_end_line": 241
+          },
+          "content_sha256": "df3d6cd15205079963d93a8c67f8da52bb99e5f740fca93ecaac8fbf6bdb2fd0",
+          "body_sha256": "70c3462a64907bdd99577b7e46090ba76d3bb9c94304d7282563a71b8b6d8605",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003715",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "HR-112 — Harmony 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/hr-112) · [Fiche précédente](../courses/berklee/HR-112.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e89e321416e214590200c47e",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "HR-112 — Harmony 2"
+            ],
+            "start_line": 242,
+            "end_line": 251,
+            "subtree_end_line": 251
+          },
+          "content_sha256": "d64b30ac176367288a3d76d5dd3d04bdf2856fb181522d530dd819b8fa078b83",
+          "body_sha256": "98abab85d50c5cefd80982b87a03d4b580cedd58f91d8dbafdb7b7237bba6dd6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003716",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "HR-114 — Harmony 2 for Entering Students",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/hr-114) · [Fiche précédente](../courses/berklee/HR-114.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8ec63240df938dfc0b932616",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "HR-114 — Harmony 2 for Entering Students"
+            ],
+            "start_line": 252,
+            "end_line": 260,
+            "subtree_end_line": 260
+          },
+          "content_sha256": "fba2a46fb5b6740b49687474114a351bf92f9ddb52604bfc4ced3326fadbadf7",
+          "body_sha256": "cd420c93dce40e3858477c124ab3b6742d30efdde018ad4f121b0a5e5ed2e384",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003717",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "HR-211 — Harmony 3",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/hr-211) · [Fiche précédente](../courses/berklee/HR-211.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:36f2608a0d57373098078197",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "HR-211 — Harmony 3"
+            ],
+            "start_line": 261,
+            "end_line": 270,
+            "subtree_end_line": 270
+          },
+          "content_sha256": "730f911b55c768f7016740a537614c289060fcdba567bd65f4c49fede57d1cce",
+          "body_sha256": "1c7279bf41b01f13b90b5311d8715b0948378d15a4e7052cb7a24baff2bcbe8b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003718",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "HR-213 — Harmony 3 for Entering Students",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/hr-213) · [Fiche précédente](../courses/berklee/HR-213.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:32bc6e27b4a176e76f3b8f1f",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "HR-213 — Harmony 3 for Entering Students"
+            ],
+            "start_line": 271,
+            "end_line": 279,
+            "subtree_end_line": 279
+          },
+          "content_sha256": "c13f6ab1a62d2e1a274eda3d1a61a2a96c5e0e2cf619fff0c7560f241a81c38b",
+          "body_sha256": "a2c486369667e21e74e2891bc4da84dea848f5bc2fbb18331822047f87cffe8b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003719",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "HR-215 — Harmony 3 Intensive",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/hr-215) · [Fiche précédente](../courses/berklee/HR-215.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:549deba7c277139502fbe2d7",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "HR-215 — Harmony 3 Intensive"
+            ],
+            "start_line": 280,
+            "end_line": 289,
+            "subtree_end_line": 289
+          },
+          "content_sha256": "782559a24f28d3713cc5f61065b576d950f0227fc8e9e9cc42168a05d27420ec",
+          "body_sha256": "2a66133ecac0daa5477933f2d6acd28ef36ea8676617dee5141f7a9cc0e2c26f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003720",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "HR-212 — Harmony 4",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/hr-212) · [Fiche précédente](../courses/berklee/HR-212.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9caf9bc55ecdec7c43a0a557",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "HR-212 — Harmony 4"
+            ],
+            "start_line": 290,
+            "end_line": 298,
+            "subtree_end_line": 298
+          },
+          "content_sha256": "073cd36ccb2854718732502e9ac7189157b527b17f7c9469e67d8e56770a24c6",
+          "body_sha256": "e71d6bbc1696eb987b6bcfbe5e3ebcd749a169de3e39dbe06f9ced93fb9f811f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003721",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "HR-214 — Harmony 4 for Entering Students",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/hr-214) · [Fiche précédente](../courses/berklee/HR-214.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:39c69ff3fbe119e7cf3fd434",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "HR-214 — Harmony 4 for Entering Students"
+            ],
+            "start_line": 299,
+            "end_line": 307,
+            "subtree_end_line": 307
+          },
+          "content_sha256": "b6aeee66c771563858b6d8642f8189e69a694111e31edcba12bfa42d6b24ebdc",
+          "body_sha256": "915c65c3ee4077b3d070d4662b50ba66783ac7e2da9089326ad37b8c959f18fb",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003722",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "HR-216 — Harmony 4 Intensive",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/hr-216) · [Fiche précédente](../courses/berklee/HR-216.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7d9f066022503ff64f816665",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "HR-216 — Harmony 4 Intensive"
+            ],
+            "start_line": 308,
+            "end_line": 317,
+            "subtree_end_line": 317
+          },
+          "content_sha256": "01bbebb57efad72f86a58210311c619a9fadd7ac90255827e11f44991daf4cc0",
+          "body_sha256": "ccd89fccd3fbee2ae66709f8202d65d513d422d7ea9f62088a946c75a170e781",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003723",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "ET-111 — Ear Training 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/et-111) · [Fiche précédente](../courses/berklee/ET-111.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:65d48b6b02b6d8b8af9fb700",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "ET-111 — Ear Training 1"
+            ],
+            "start_line": 318,
+            "end_line": 327,
+            "subtree_end_line": 327
+          },
+          "content_sha256": "d7e9c8d19e5955f4e065d439c87754c6bf9d9e57f2c9fbef4d2a5b7b8ba8ba9b",
+          "body_sha256": "59823479cbb81f08f21c566537fb203034878bd4224f8bd39abd844bf00017b4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003724",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "ET-112 — Ear Training 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/et-112) · [Fiche précédente](../courses/berklee/ET-112.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7c479c8a7c62d2667e4f68f2",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "ET-112 — Ear Training 2"
+            ],
+            "start_line": 328,
+            "end_line": 337,
+            "subtree_end_line": 337
+          },
+          "content_sha256": "aca86f0c761ec08a1c32990f0e1d804cd022dbd9e60dc03912616f236c1db75d",
+          "body_sha256": "15691be6ae21fe45d039488f4571caf16674b0e25daf2433ff59d7b7384a5d0f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003725",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "ET-123 — Ear Training 2 Entering",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/et-123) · [Fiche précédente](../courses/berklee/ET-123.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c92a63a5044086e4af47d684",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "ET-123 — Ear Training 2 Entering"
+            ],
+            "start_line": 338,
+            "end_line": 346,
+            "subtree_end_line": 346
+          },
+          "content_sha256": "bc572c48f6ec579c398f17b5709de86efa8f66e2f456257f2eb4a27cb8c89d81",
+          "body_sha256": "92195db101751247874c29e6371792ae789905cdb94ecc8b54f787fc67197059",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003726",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-211 — Tonal Harmony and Composition 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-211) · [Fiche précédente](../courses/berklee/CM-211.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:29bb2d4847ab0f7444f8120f",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-211 — Tonal Harmony and Composition 1"
+            ],
+            "start_line": 347,
+            "end_line": 357,
+            "subtree_end_line": 357
+          },
+          "content_sha256": "89601fee003da062aa4aca7dd079e5ce29cf024757eb901aaf4223344379ccc7",
+          "body_sha256": "8a33b73ae5893d2d52bb7d0fd47ac4922e030122fe0bc2fb06a775f54657e460",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003727",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-212 — Tonal Harmony and Composition 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-212) · [Fiche précédente](../courses/berklee/CM-212.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4b961c2b36da642d7d4085bc",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-212 — Tonal Harmony and Composition 2"
+            ],
+            "start_line": 358,
+            "end_line": 366,
+            "subtree_end_line": 366
+          },
+          "content_sha256": "c22aa492d9424ae7fa8f2446e4fa582e295c5f5cfd34091e1d243c6ee4898357",
+          "body_sha256": "81fbf9c6d1de2631a0582f8ab50d05993518b0ba74e8fc55b2cd2e72b3199faf",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003728",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CP-210 — Art of Counterpoint 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/cp-210) · [Fiche précédente](../courses/berklee/CP-210.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5f94fcd07829886d67cc4517",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CP-210 — Art of Counterpoint 1"
+            ],
+            "start_line": 367,
+            "end_line": 375,
+            "subtree_end_line": 375
+          },
+          "content_sha256": "3ba42111218f8e00f329f955f12f403bb1c29cbfa92bb445aa0d731ba9c7e159",
+          "body_sha256": "3cb81c47ab722a152b813454eabe33aaafe0f6299d99cc7ebc10d3cd68de4535",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003729",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTEC-111 — Introduction to Music Technology",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/mtec-111) · [Fiche précédente](../courses/berklee/MTEC-111.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:89435b6f2b3dd72a2e24779d",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "MTEC-111 — Introduction to Music Technology"
+            ],
+            "start_line": 376,
+            "end_line": 385,
+            "subtree_end_line": 385
+          },
+          "content_sha256": "f188dbb397b81cbe1c8dd7d065a4ed04b55b847c7303f4ae6279086d89300204",
+          "body_sha256": "d687e8853c30027662d1f999bb75f15412f4f60defce70e4e8362b801333c9b0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003730",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTEC-122 — Introduction to Music Technology",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/mtec-122) · [Fiche précédente](../courses/berklee/MTEC-122.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ee5c2f3f9a4888621187c611",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "MTEC-122 — Introduction to Music Technology"
+            ],
+            "start_line": 386,
+            "end_line": 394,
+            "subtree_end_line": 394
+          },
+          "content_sha256": "332703d7f5598aaee90363dedd8b465932a39ca65c7564b44e06a7c52494c3b9",
+          "body_sha256": "f8b3602928250f786d03aada5c8a5b1c872801d5e9a17e557bb67b233143e6d7",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003731",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-103 — The Composer's Toolkit: Shaping Sound in Time",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-103) · [Fiche précédente](../courses/berklee/CM-103.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:fe4c732271a229f413414fd4",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-103 — The Composer's Toolkit: Shaping Sound in Time"
+            ],
+            "start_line": 395,
+            "end_line": 405,
+            "subtree_end_line": 405
+          },
+          "content_sha256": "a242ff77a7553a10d6d056156dec12cd4022f9564e4ceab6d58ca757b394de09",
+          "body_sha256": "7e29dfd17b9d4a54224cb98ae0d7f14604e07f5bcc00a67f2df749d59d8b631a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003732",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-227 — The Art of Modulation",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-227) · [Fiche précédente](../courses/berklee/CM-227.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:482ec57096468395d13aa482",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-227 — The Art of Modulation"
+            ],
+            "start_line": 406,
+            "end_line": 415,
+            "subtree_end_line": 415
+          },
+          "content_sha256": "043b0063e63713dc18d6449f3f393518d9e898bffe9ebbb1f407a133c61235eb",
+          "body_sha256": "f58b881cd27f5d732a2478c1781cf0137751292b1b436c89020c7fbd722b78ba",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003733",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-261 — Composing for Acoustic Keyboards",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-261) · [Fiche précédente](../courses/berklee/CM-261.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4d1242f068fb7aa66c300185",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-261 — Composing for Acoustic Keyboards"
+            ],
+            "start_line": 416,
+            "end_line": 425,
+            "subtree_end_line": 425
+          },
+          "content_sha256": "c62d68d18aba3c3acbe21dd651c668a96abd283a7a39d8851ce5b36067b8cb11",
+          "body_sha256": "d1ded5f4bdc72e7c0a42bef7ed5cb777815056b649ba6b34b185b6b57f458164",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003734",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "AR-201 — Chord Scale Voicings for Arranging",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/ar-201) · [Fiche précédente](../courses/berklee/AR-201.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9a3af347a8943c8b15defecc",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "AR-201 — Chord Scale Voicings for Arranging"
+            ],
+            "start_line": 426,
+            "end_line": 435,
+            "subtree_end_line": 435
+          },
+          "content_sha256": "bfab7f83c780a9d3ea0b905ee1cd50b8db99caa1363ae144e36cfa1af3c192ea",
+          "body_sha256": "8cfedb1947904f30da4d20ece966428113e9d3987e32308e89c280e9bfe995d2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003735",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "AR-331 — Big Band Arranging and Score Analysis",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/ar-331) · [Fiche précédente](../courses/berklee/AR-331.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:089fa48651a5fe05078973c3",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "AR-331 — Big Band Arranging and Score Analysis"
+            ],
+            "start_line": 436,
+            "end_line": 445,
+            "subtree_end_line": 445
+          },
+          "content_sha256": "c60a6dd1a7eef6596ed7c92380b2b0d7a6e59be62c1b5d271a0b917fb0f6c481",
+          "body_sha256": "e7f77e4759d80a99e2a4384d95177d9ece7a39ed62dd2db5a7b308cf98422d90",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003736",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "AR-340 — Jazz Arranging for Small Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/ar-340) · [Fiche précédente](../courses/berklee/AR-340.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e64cfe2e83e9f6586ed1f9f8",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "AR-340 — Jazz Arranging for Small Ensemble"
+            ],
+            "start_line": 446,
+            "end_line": 455,
+            "subtree_end_line": 455
+          },
+          "content_sha256": "6d9a0593edd4e63707e1ef8f23524363808803d30e83df2834d855433005ed9f",
+          "body_sha256": "49995ce569562fac65b1026a97ebd155f13be5833aaf41d0bf96379b8bc134b1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003737",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-320) · [Fiche précédente](../courses/berklee/CM-320.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8f4b2434184f265591fb0fdf",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition"
+            ],
+            "start_line": 456,
+            "end_line": 466,
+            "subtree_end_line": 466
+          },
+          "content_sha256": "62d00436d422abe6ca9d6a8d601fe93d41ebbcb82484f253b3d3fba84fac9f80",
+          "body_sha256": "7a8ef01d36fcd74c78e30dc64d911a02be84b08337ab587237781479caf53ecd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003738",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-385 — Post Bebop Harmonic Innovations",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-385) · [Fiche précédente](../courses/berklee/CM-385.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7cfe3930afc59f9e58e73f13",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-385 — Post Bebop Harmonic Innovations"
+            ],
+            "start_line": 467,
+            "end_line": 476,
+            "subtree_end_line": 476
+          },
+          "content_sha256": "52591a76a77fa28ad60506316388665744cbae01bce1694f22fc00879c85645d",
+          "body_sha256": "a6fe39ce61ae1cacd6d03278381edf982910ab834c51f02d440f2f08786f3575",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003739",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "FILM-200 — Introduction to Film and Media Scoring",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/film-200) · [Fiche précédente](../courses/berklee/FILM-200.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:bad2e515cc7448608baf1176",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "FILM-200 — Introduction to Film and Media Scoring"
+            ],
+            "start_line": 477,
+            "end_line": 486,
+            "subtree_end_line": 486
+          },
+          "content_sha256": "3e1200897374e035e71d26d969a8c3c953c32c6ad8a2fcc28a5311631c42902a",
+          "body_sha256": "17e5922e8cfe7e49a5c78471063c4b8ae98493141af3b664e62f1520ca1beb69",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003740",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "FILM-205 — Scoring Technology 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/film-205) · [Fiche précédente](../courses/berklee/FILM-205.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ae2f0b66c484b5784e32db53",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "FILM-205 — Scoring Technology 1"
+            ],
+            "start_line": 487,
+            "end_line": 496,
+            "subtree_end_line": 496
+          },
+          "content_sha256": "02b525480e75a2ea7df98b013bc581d110dbf1975af9d28a1642d39fc86722cf",
+          "body_sha256": "1b5ab05f17eaa33bf26cdfc60e14ed9a65fc9c7894514aaec01c58b68c432b92",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003741",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "FILM-207 — Dramatic Scoring 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/film-207) · [Fiche précédente](../courses/berklee/FILM-207.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:13ad23ecb2571d74a018e2d9",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "FILM-207 — Dramatic Scoring 1"
+            ],
+            "start_line": 497,
+            "end_line": 506,
+            "subtree_end_line": 506
+          },
+          "content_sha256": "a8b8e38be03ddb7b94fd44632389f144eaaa16de0f6ed0ef26cf4fb084f60555",
+          "body_sha256": "e75e5e4e432dc5f0d26c59b3dbd27a1e134707a16fdcf523c1392afdd7fc1be0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003742",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "FILM-351 — Post-Romantic Scoring",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/film-351) · [Fiche précédente](../courses/berklee/FILM-351.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:96ea9b74885beb6c194d9080",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "FILM-351 — Post-Romantic Scoring"
+            ],
+            "start_line": 507,
+            "end_line": 516,
+            "subtree_end_line": 516
+          },
+          "content_sha256": "3250433c6343b271f5e686b8c2aef41278fcd1c500ec2b26aba8fbebe30bc635",
+          "body_sha256": "aab7b3fb9fa185d890ac7cc634eddb231ca95e373d0df1f17ba5d99502f1e0f3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003743",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "FILM-405 — Scoring Technology 3",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/film-405) · [Fiche précédente](../courses/berklee/FILM-405.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d166784da9fb15f985fcf7b9",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "FILM-405 — Scoring Technology 3"
+            ],
+            "start_line": 517,
+            "end_line": 526,
+            "subtree_end_line": 526
+          },
+          "content_sha256": "533f2f4b3f4f081a7b9aafda274868d3375ae19a8a09d0d467fb5b276ced1b18",
+          "body_sha256": "247cc352300ed05b6947ee8fcbaceeba73883bcec66f8e3abd05d4f87456d539",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003744",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "FILM-407 — Dramatic Scoring 3",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/film-407) · [Fiche précédente](../courses/berklee/FILM-407.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:31d760680e625f8ccc1065c9",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "FILM-407 — Dramatic Scoring 3"
+            ],
+            "start_line": 527,
+            "end_line": 536,
+            "subtree_end_line": 536
+          },
+          "content_sha256": "40fb1a6884e97bf59f14d9fb6b6cb9448091436afa0809a7f2677b6fa4c42182",
+          "body_sha256": "aefd35655c2277a780603d9869cbca27d13e6cb33dc427fe670f6d55a36ee0a4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003745",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "FILM-433 — A World of Scoring",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/film-433) · [Fiche précédente](../courses/berklee/FILM-433.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:dc232a10cf7d42b9e86d5355",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "FILM-433 — A World of Scoring"
+            ],
+            "start_line": 537,
+            "end_line": 546,
+            "subtree_end_line": 546
+          },
+          "content_sha256": "9a2150977b9639cf32a2e1d3116ad949e063a9bd14a3bac2b3ff56b950974ac4",
+          "body_sha256": "5e5764263d38a006689fcc8cee8f5fec2e964577617c197876efdfc60db15c18",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003746",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-201 — Introduction to Composition",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-201) · [Fiche précédente](../courses/berklee/CM-201.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:167049b85e85a291bdbfbc9f",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-201 — Introduction to Composition"
+            ],
+            "start_line": 547,
+            "end_line": 557,
+            "subtree_end_line": 557
+          },
+          "content_sha256": "491924e081e1b564b286d2634423cbdf6a4cb7a31d4888ffeee3b6a5d498bafc",
+          "body_sha256": "f14d6f17e53b1a1cc321d667b166d1d5675dfe0d65feb246275ff0de269f3176",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003747",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-251 — Traditional Materials and Structure of Music 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-251) · [Fiche précédente](../courses/berklee/CM-251.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ad25f4bf82232ffcae98f8eb",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-251 — Traditional Materials and Structure of Music 1"
+            ],
+            "start_line": 558,
+            "end_line": 567,
+            "subtree_end_line": 567
+          },
+          "content_sha256": "2308cf83720b1767000ba111e1641fe3d0c10d1be9a85ea903f68fae8dad1457",
+          "body_sha256": "0945882a0c934a81c3b393eed144762126eb74dffbb8e75d7aa24cfc8f02a9ef",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003748",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-252 — Traditional Materials and Structure of Music 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-252) · [Fiche précédente](../courses/berklee/CM-252.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a13bc5087c09cc82f35e3f6b",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-252 — Traditional Materials and Structure of Music 2"
+            ],
+            "start_line": 568,
+            "end_line": 577,
+            "subtree_end_line": 577
+          },
+          "content_sha256": "4fd599892136f9b5a70e3ef3170892a2ebb8c3b157fb7bd23d8252a92e6b7d70",
+          "body_sha256": "f87cad673326d959379740a8da8007c6da5d6e9cceb42a717234c0a3d843591a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003749",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-341 — Scoring for Strings",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-341) · [Fiche précédente](../courses/berklee/CM-341.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0d90f5853e3a6795e4a34b40",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-341 — Scoring for Strings"
+            ],
+            "start_line": 578,
+            "end_line": 587,
+            "subtree_end_line": 587
+          },
+          "content_sha256": "a1f4a4c03cf1979d009ae86879cf035c18d22accbf35f1fc03c45fc5a254e8c2",
+          "body_sha256": "eeb85c9765801af35abe8dba58864a8dfe3cac6a518fa4ec6f9af36fddced4eb",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003750",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-342 — Digital Score Preparation for Composers",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-342) · [Fiche précédente](../courses/berklee/CM-342.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ec7fba46405e468a11cba5cc",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-342 — Digital Score Preparation for Composers"
+            ],
+            "start_line": 588,
+            "end_line": 596,
+            "subtree_end_line": 596
+          },
+          "content_sha256": "79b9ef8e674eef5fec895e83e859f43844f5b91b3753f2ae861c208ecc98aa20",
+          "body_sha256": "6b5e068f99f378f7298f671090c7fc7ac0bfd18a653d991b0c8ec5e6705768e6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003751",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-357 — Introduction to Electroacoustic Music for Composers",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-357) · [Fiche précédente](../courses/berklee/CM-357.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c2b00c399a019a42f400e5cd",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-357 — Introduction to Electroacoustic Music for Composers"
+            ],
+            "start_line": 597,
+            "end_line": 605,
+            "subtree_end_line": 605
+          },
+          "content_sha256": "0e50bc43e7a8014dc175177f8b35cec3b6209fc45015ace48e73b93ef64611ac",
+          "body_sha256": "d66496ed4c86a2cc22f2279f5eb1e772b4fa71216414f036d63023e3f75a0a0c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003752",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-358 — Composing Electroacoustic Music",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cm-358) · [Fiche précédente](../courses/berklee/CM-358.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:68cb8cbc55015321ee28b5b7",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CM-358 — Composing Electroacoustic Music"
+            ],
+            "start_line": 606,
+            "end_line": 615,
+            "subtree_end_line": 615
+          },
+          "content_sha256": "e67a6fb679898131643fdf27032d453ee88df1cb81e423888ac8aa2ce2ec054b",
+          "body_sha256": "b7b6dc8bf08d9a0e7334cc2df09a42987563b812d83e561e167e3c6c70dcefba",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003753",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MHIS-201 — History of Music in the European Tradition: Topics",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/mhis-201) · [Fiche précédente](../courses/berklee/MHIS-201.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ccfe999ad0e8db929f78e9f0",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "MHIS-201 — History of Music in the European Tradition: Topics"
+            ],
+            "start_line": 616,
+            "end_line": 625,
+            "subtree_end_line": 625
+          },
+          "content_sha256": "e844ccc73fce45bef68d91e124562e5ffe1b8c1d4845e93310900772e4cdc87d",
+          "body_sha256": "57ac9a180ebeb1dd2d4bba6bdccb7664bd4df3f85d40ead77c0cf33af2811d08",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003754",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MHIS-202 — History of Music in the European Tradition: Iconic Works",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/mhis-202) · [Fiche précédente](../courses/berklee/MHIS-202.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c79e8a7e12c2815fdf546a73",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "MHIS-202 — History of Music in the European Tradition: Iconic Works"
+            ],
+            "start_line": 626,
+            "end_line": 635,
+            "subtree_end_line": 635
+          },
+          "content_sha256": "78a843ebf63aaaabcf4de7a00c91d8fe49951bc2b9de7dd7f43b685889331596",
+          "body_sha256": "28ef2eaccea2b28c03fd0b8311ff2c7e1686c79b1505f7d3c381aa12f04f2bb8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003755",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MHIS-203 — History of Music in the European Tradition: Chronology",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : partial.** [Notice officielle Boston](https://college.berklee.edu/courses/mhis-203) · [Fiche précédente](../courses/berklee/MHIS-203.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:bcb044bd3b64a52de2d21f9a",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "MHIS-203 — History of Music in the European Tradition: Chronology"
+            ],
+            "start_line": 636,
+            "end_line": 645,
+            "subtree_end_line": 645
+          },
+          "content_sha256": "28ee138db36c00fd436372f8aa41efdd398f49e6de8c0275354f545d0f5f0370",
+          "body_sha256": "b8bc29c4987bf0189d09dce61c87df4fa9bc6bbca958dd3c8907583e48a1697b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003756",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CP-311 — Advanced Counterpoint",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cp-311) · [Fiche précédente](../courses/berklee/CP-311.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:98f59af0f6d19e2d8dd46722",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CP-311 — Advanced Counterpoint"
+            ],
+            "start_line": 646,
+            "end_line": 655,
+            "subtree_end_line": 655
+          },
+          "content_sha256": "3d1ccd94afb42002da93d323505e2fb499e0610467616e31e0361421351e9bea",
+          "body_sha256": "9f42ff1663ffab98604b6ec6e9a6198655054afc69ac8b2d480e672e3435904d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003757",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CP-350 — 20th- and 21st-Century Counterpoint",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Carte 1A : usable_first_pass.** [Notice officielle Boston](https://college.berklee.edu/courses/cp-350) · [Fiche précédente](../courses/berklee/CP-350.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:81485d99f1952359281de6db",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "CP-350 — 20th- and 21st-Century Counterpoint"
+            ],
+            "start_line": 656,
+            "end_line": 664,
+            "subtree_end_line": 664
+          },
+          "content_sha256": "2d1a381c970a343fec959338b71db0ab46eeb3637f5baa7cf5ba704b7a33458a",
+          "body_sha256": "4eda80ccb74fa2cd7ad9615940a94f248571a84de668375f18c2d5071ad263d4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003758",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Bilan",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **68 codes cartographiés**, 36 suffisamment thématiques pour préparer une recherche par sujets et 32 encore trop généraux / individualisés. Tous proviennent du programme ou des notices officielles, pas de syllabus de sections reconstruits.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-68-program-courses.md",
+          "document_sha256": "59f25114c5ea0ea03eb533eb7e0a6c75d49969dbe92bd1218b50253473581ad3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:653c432d204a75720e074913",
+            "heading_path": [
+              "Berklee Boston — 68 cours des parcours composition, théorie, arrangements et musique de film",
+              "Bilan"
+            ],
+            "start_line": 665,
+            "end_line": 667,
+            "subtree_end_line": 667
+          },
+          "content_sha256": "1607799d7b9e22fb608ff1e41d823bd9b22d6b429aa6c85e2b19d98ef5cdbd66",
+          "body_sha256": "d74629c0d632d077a69ea0288ac458bd182e5d3011a564ffbc6eb7a42a125306",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

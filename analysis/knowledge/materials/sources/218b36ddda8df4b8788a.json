@@ -1,0 +1,258 @@
+{
+  "source_document": "docs/courses/udem/MTE-1205.md",
+  "units": [
+    {
+      "id": "material:0002335",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 1205 — Analyse d’œuvres du 20e siècle 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1205.md",
+          "document_sha256": "9fb3db8354098796a0545a001ba7f6b89ad3a3459f76ab7b4b5087d6d7404b84",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e0e27d79032ec2dde96d5e37",
+            "heading_path": [
+              "MTE 1205 — Analyse d’œuvres du 20e siècle 1"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 38
+          },
+          "content_sha256": "69078e7a6c8e11bbf37cc204adc8e33ade813cb8b2f7cbe02a54c91c9c1092ef",
+          "body_sha256": "89120b9aa38472ffe8ca15a1dc4a095f790f8898ef0242352ecf4ed61d7a6460",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002336",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Cours recensé",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Obligatoire A26. Le cours porte surtout sur des œuvres de la première moitié du XXe siècle. [Notice du cours](https://admission.umontreal.ca/cours-et-horaires/cours/mte-1205/).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1205.md",
+          "document_sha256": "9fb3db8354098796a0545a001ba7f6b89ad3a3459f76ab7b4b5087d6d7404b84",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:44cb9f177df79468ae6aca0d",
+            "heading_path": [
+              "MTE 1205 — Analyse d’œuvres du 20e siècle 1",
+              "Cours recensé"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 8
+          },
+          "content_sha256": "23d06acb00a34ae0788d7340efdb88f4cd58ff7c7afbd0bfede4119a5b303c3b",
+          "body_sha256": "20406b680d7896051533901635ad0cd061c9fd506a21782be1176c65540e6582",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002337",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Exemples et ressources",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le [dossier de diagnostic supérieur de McGill, p. 2](https://www.mcgill.ca/music/files/music/composition_placement_descriptions1617.pdf#page=2) fournit un exemple de questions analytiques sur The Cage de Charles Ives, portant sur les struct",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1205.md",
+          "document_sha256": "9fb3db8354098796a0545a001ba7f6b89ad3a3459f76ab7b4b5087d6d7404b84",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:edc5f743c9bbc9ed79764fa8",
+            "heading_path": [
+              "MTE 1205 — Analyse d’œuvres du 20e siècle 1",
+              "Exemples et ressources"
+            ],
+            "start_line": 9,
+            "end_line": 12,
+            "subtree_end_line": 12
+          },
+          "content_sha256": "641d99c687015fdc8db64f6a92c9f9152f1fb6aaffc0f79eb35785aaabd8580c",
+          "body_sha256": "dd14ebc30314bc98e0451f8619f918f36a0caf1af73929b41f1380a76b74e37d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002338",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : La liste d’œuvres et les méthodes retenues dans la section UdeM restent à obtenir. Le plan de MTE 1206 décrit une autre période.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1205.md",
+          "document_sha256": "9fb3db8354098796a0545a001ba7f6b89ad3a3459f76ab7b4b5087d6d7404b84",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:18ac5ee94380a530551da147",
+            "heading_path": [
+              "MTE 1205 — Analyse d’œuvres du 20e siècle 1",
+              "Lacunes"
+            ],
+            "start_line": 13,
+            "end_line": 17,
+            "subtree_end_line": 17
+          },
+          "content_sha256": "28402423d162868cb91314a4d2736acbaf5edb9c4cb45b6d1cb1d5fb8603e723",
+          "body_sha256": "753e5b52b59cd81accd4dd22b9f5c42037075acc75f22c4645da999f21857115",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002339",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — première évaluation selon le gabarit (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Code MTE 1205. Contribution :** analyse musicale directe comme démarche, mais notions exactes non déterminables. [Source et attribution : notice UdeM : analyse d'œuvres de la première moitié du XXe siècle, sans titres d'œuvres ni méthodes",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1205.md",
+          "document_sha256": "9fb3db8354098796a0545a001ba7f6b89ad3a3459f76ab7b4b5087d6d7404b84",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e1c4467aedafc531fec76809",
+            "heading_path": [
+              "MTE 1205 — Analyse d’œuvres du 20e siècle 1",
+              "Application à l'analyse et à la création — première évaluation selon le gabarit (12 novembre 2026)"
+            ],
+            "start_line": 18,
+            "end_line": 21,
+            "subtree_end_line": 38
+          },
+          "content_sha256": "c95e96c7f83ec509d1208b40b98aefcba0998eb17dc41d5200898e8c878d50d1",
+          "body_sha256": "dd7d5e69f4cdcab5768b4fb10dcef3d0e60f94629ebccb4f04b717ba6c3e4420",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002340",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage ou domaine 1 — Analyse d'une œuvre de la première moitié du XXe siècle",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve :** domaine nommé dans la notice du code; détails et exercices de section inconnus. **Catégorie :** `CONTEXT_REQUIRED / MIDI_PROXY / UNKNOWN`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1205.md",
+          "document_sha256": "9fb3db8354098796a0545a001ba7f6b89ad3a3459f76ab7b4b5087d6d7404b84",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6eea8f3728855100e03a12ab",
+            "heading_path": [
+              "MTE 1205 — Analyse d’œuvres du 20e siècle 1",
+              "Application à l'analyse et à la création — première évaluation selon le gabarit (12 novembre 2026)",
+              "Apprentissage ou domaine 1 — Analyse d'une œuvre de la première moitié du XXe siècle"
+            ],
+            "start_line": 22,
+            "end_line": 31,
+            "subtree_end_line": 31
+          },
+          "content_sha256": "645d896d04e18aeaba67f8b2b4cb65e05d5cdf7e3d97eeaf90c715b67566ac5e",
+          "body_sha256": "8292e65b9f11bf1e5f0def9061563e0c09c8eea2790da1b54e7d7c2940dc334f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002341",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Apport :** analyse musicale directe comme démarche, mais notions exactes non déterminables.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1205.md",
+          "document_sha256": "9fb3db8354098796a0545a001ba7f6b89ad3a3459f76ab7b4b5087d6d7404b84",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:38acf463d13b94197efbc33d",
+            "heading_path": [
+              "MTE 1205 — Analyse d’œuvres du 20e siècle 1",
+              "Application à l'analyse et à la création — première évaluation selon le gabarit (12 novembre 2026)",
+              "Verdict"
+            ],
+            "start_line": 32,
+            "end_line": 38,
+            "subtree_end_line": 38
+          },
+          "content_sha256": "b60b3e02f9ca5aa9616fd7e1d616061a77029b4eea751462a848558fab1452d1",
+          "body_sha256": "46bd16202d1677af17c358a2fec9e43288294df1142d07a7ad98efbbdf5af4da",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

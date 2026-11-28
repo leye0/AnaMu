@@ -1,0 +1,478 @@
+{
+  "source_document": "docs/courses/berklee/CP-210.md",
+  "units": [
+    {
+      "id": "material:0001227",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CP-210 — The Art of Counterpoint",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Berklee College of Music, Boston. Parcours de composition, grille 2026F. Sources publiques consultées le 10 novembre 2026. Résumés originaux et liens.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CP-210.md",
+          "document_sha256": "594aaf399583afbb524be76f69f7a89d787b4cd78f3a8cbd784d26c5bc899cab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:dcc1f859ecdde4b3c8bf5391",
+            "heading_path": [
+              "CP-210 — The Art of Counterpoint"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 82
+          },
+          "content_sha256": "f7014bb782f9f8677a12b8551d00081dfa851b635f46d6db9d4eafd27ff45b2d",
+          "body_sha256": "2ef780d4e33b9c84479093cd66a7b4609d171d7501789529182a97950d87cfdb",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001228",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Cours de Boston",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Contrepoint libre et imitatif à deux voix, avec projets d’écriture et d’interprétation en tonalité historique et contemporaine. [Fiche officielle, description du cours](https://college.berklee.edu/courses/cp-210).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CP-210.md",
+          "document_sha256": "594aaf399583afbb524be76f69f7a89d787b4cd78f3a8cbd784d26c5bc899cab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f796d161cdf07517f149eb90",
+            "heading_path": [
+              "CP-210 — The Art of Counterpoint",
+              "Cours de Boston"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 8
+          },
+          "content_sha256": "b48a5e0926a4209447973a25a287c41b4a8f292f937b12d9446a404f12b08d8e",
+          "body_sha256": "86c50c15747940fd9eace5c33942dfc1b37ee6f6f9d0a7b4d7c72f4b46e12b6c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001229",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Plan pédagogique public d’un cours parallèle",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Leçons sur proportions, notes étrangères à l’accord, transformation motivique, écriture à deux voix en mineur, canons, ostinatos et invention. [Berklee Online, OCOMP-250, rubrique Syllabus](https://online.berklee.edu/courses/counterpoint#sy",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CP-210.md",
+          "document_sha256": "594aaf399583afbb524be76f69f7a89d787b4cd78f3a8cbd784d26c5bc899cab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:62e2035aef0394bda2b03960",
+            "heading_path": [
+              "CP-210 — The Art of Counterpoint",
+              "Plan pédagogique public d’un cours parallèle"
+            ],
+            "start_line": 9,
+            "end_line": 12,
+            "subtree_end_line": 12
+          },
+          "content_sha256": "cd0a23ec84ea1837248d5cca3ebdb8a9efb1d7165d229e7431086c9a2ee53849",
+          "body_sha256": "419dcb7d46ca2286abd9da7b7f4b6427aff6dce67874546b0f0c7991dcb94462",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001230",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le syllabus Berklee Online appartient au cours OCOMP-250. Le [registraire de Berklee](https://www.berklee.edu/registrar/online-course-equivalencies) indique explicitement qu’il n’existe actuellement aucune équivalence en ligne pour CP-210.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CP-210.md",
+          "document_sha256": "594aaf399583afbb524be76f69f7a89d787b4cd78f3a8cbd784d26c5bc899cab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:445f216dbb9acef870a5db7b",
+            "heading_path": [
+              "CP-210 — The Art of Counterpoint",
+              "Lacunes"
+            ],
+            "start_line": 13,
+            "end_line": 16,
+            "subtree_end_line": 16
+          },
+          "content_sha256": "be4e20f647e3fab70bea19b0343abe4eff8d0b98e2d0f881a00d5343708fd7f2",
+          "body_sha256": "4256f387a3caa28ec4d22c9ef25b5d2c9cf7303cd53eb3a7cc2e111bbc2fbf93",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001231",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Correspondance selon le parcours",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le [tableau Valencia → Berklee Online](https://assets.online.berklee.edu/study-abroad/berklee-online-valencia-equivalencies.pdf) associe CP-210 à OCOMP-250 pour les crédits issus d’un séjour à Valencia. Cette règle est distincte de celle du",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CP-210.md",
+          "document_sha256": "594aaf399583afbb524be76f69f7a89d787b4cd78f3a8cbd784d26c5bc899cab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e19b0204b34ba38be77b7a13",
+            "heading_path": [
+              "CP-210 — The Art of Counterpoint",
+              "Correspondance selon le parcours"
+            ],
+            "start_line": 17,
+            "end_line": 21,
+            "subtree_end_line": 21
+          },
+          "content_sha256": "effb21c526fcca1b796c51b9e98311ebe5fe31e6b1b04340fffc20c7d5e4bba6",
+          "body_sha256": "d3e3779d747701cd689420972470dcc8e053349b09f6504ccbfcb1b95fc82e8c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001232",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — étude fondée sur la notice (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Code CP-210. Contribution :** directe à l'analyse et à la création musicale. **Source :** [notice officielle The Art of Counterpoint : écriture libre et imitative à deux voix. OCOMP-250 est un cours en ligne voisin dont l'équivalence Bost",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CP-210.md",
+          "document_sha256": "594aaf399583afbb524be76f69f7a89d787b4cd78f3a8cbd784d26c5bc899cab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:44266c2a9a1242945600138e",
+            "heading_path": [
+              "CP-210 — The Art of Counterpoint",
+              "Application à l'analyse et à la création — étude fondée sur la notice (12 novembre 2026)"
+            ],
+            "start_line": 22,
+            "end_line": 25,
+            "subtree_end_line": 53
+          },
+          "content_sha256": "a06efde35c6651e47a0f1e9834a7960ad69d5dd772bc9b4b589d559288cdf9dc",
+          "body_sha256": "37b0757ef67a718404f0ff40b5ae18003b3705730828264ccdf9ff12728aee71",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001233",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 1 — Imitation mélodique à deux voix transposée à la quinte",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance :** apprentissage annoncé dans la notice officielle; détails de section inconnus. **Applicabilité :** `MIDI_DIRECT / CONTEXT_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CP-210.md",
+          "document_sha256": "594aaf399583afbb524be76f69f7a89d787b4cd78f3a8cbd784d26c5bc899cab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d3a3e5060f81291ec8447c3f",
+            "heading_path": [
+              "CP-210 — The Art of Counterpoint",
+              "Application à l'analyse et à la création — étude fondée sur la notice (12 novembre 2026)",
+              "Apprentissage 1 — Imitation mélodique à deux voix transposée à la quinte"
+            ],
+            "start_line": 26,
+            "end_line": 35,
+            "subtree_end_line": 35
+          },
+          "content_sha256": "b65fe671c5a3620e9e1fcb72e4853a4f12744fdd7ddbab3dd4b2f8e957a32182",
+          "body_sha256": "2e21226a8568da785de75b2f524513c83de6c3a85e944c6ef92850c1b0bbab8c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001234",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 2 — Analyser les mouvements de deux lignes simultanées",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance :** apprentissage annoncé dans la notice officielle; détails de section inconnus. **Applicabilité :** `MIDI_DIRECT`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CP-210.md",
+          "document_sha256": "594aaf399583afbb524be76f69f7a89d787b4cd78f3a8cbd784d26c5bc899cab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9128a521133921e2a4384466",
+            "heading_path": [
+              "CP-210 — The Art of Counterpoint",
+              "Application à l'analyse et à la création — étude fondée sur la notice (12 novembre 2026)",
+              "Apprentissage 2 — Analyser les mouvements de deux lignes simultanées"
+            ],
+            "start_line": 36,
+            "end_line": 45,
+            "subtree_end_line": 45
+          },
+          "content_sha256": "4635daea44f665fe2c5018cecbb89d8e3c3c6b2441576d9f9635acdfb9814bef",
+          "body_sha256": "d143a1b262649bef569ff68758cf19dabde1abdccfb8733c0fc195456093cd8c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001235",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict du cours",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Apport :** direct.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CP-210.md",
+          "document_sha256": "594aaf399583afbb524be76f69f7a89d787b4cd78f3a8cbd784d26c5bc899cab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:603959af9b256087ee8fd808",
+            "heading_path": [
+              "CP-210 — The Art of Counterpoint",
+              "Application à l'analyse et à la création — étude fondée sur la notice (12 novembre 2026)",
+              "Verdict du cours"
+            ],
+            "start_line": 46,
+            "end_line": 53,
+            "subtree_end_line": 53
+          },
+          "content_sha256": "001ca1f4ba11b33e92aa75b51dfee37a8061b29e3857cd960419680f51d66bd6",
+          "body_sha256": "3a83da0701c4f6cfda0c01608d64368e88a3d0d6ef947e216304e4c58d662748",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001236",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deuxième passe qualitative — contrepoint à deux voix (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve :** [notice officielle CP-210](https://college.berklee.edu/courses/cp-210) : contrepoint libre, lignes mélodiques indépendantes, écriture à deux parties, imitation, littérature et pratique tonale historique ou contemporaine. Le pro",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CP-210.md",
+          "document_sha256": "594aaf399583afbb524be76f69f7a89d787b4cd78f3a8cbd784d26c5bc899cab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:bc28c60858b9dceff702ee43",
+            "heading_path": [
+              "CP-210 — The Art of Counterpoint",
+              "Deuxième passe qualitative — contrepoint à deux voix (12 novembre 2026)"
+            ],
+            "start_line": 54,
+            "end_line": 57,
+            "subtree_end_line": 82
+          },
+          "content_sha256": "7add96d5f475c36b7bf4e68c08d1fddd3c35e29f721eab9c245048c1142cac9b",
+          "body_sha256": "563a5879430634dff4f9bc3b263b9d92529dc99bfb8eb0d2b518c65ccfd380cb",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001237",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q1 — Reconnaître une imitation plutôt qu'un contour banal",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Aligner les voix sur leur métrique, relever les intervalles *ordonnés* et la suite des durées d'un sujet candidat; rechercher les mêmes profils après décalage et transposition, puis chiffrer leurs divergences. Comparer à l'hyp",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CP-210.md",
+          "document_sha256": "594aaf399583afbb524be76f69f7a89d787b4cd78f3a8cbd784d26c5bc899cab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:699ae34c463907fb9eae37e2",
+            "heading_path": [
+              "CP-210 — The Art of Counterpoint",
+              "Deuxième passe qualitative — contrepoint à deux voix (12 novembre 2026)",
+              "Q1 — Reconnaître une imitation plutôt qu'un contour banal"
+            ],
+            "start_line": 58,
+            "end_line": 65,
+            "subtree_end_line": 65
+          },
+          "content_sha256": "b16829f47aaf559a8324d629c3b04236cd4364442307b21f2e812a3026aa173e",
+          "body_sha256": "d9578fabdf1fd375f0265796b3e2261ac78493141e9b73150b5ca951e6eeebb6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001238",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q2 — Dissonance : comprendre sa place et sa résolution",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Pour chaque simultanéité, mesurer les intervalles verticaux, leur durée et leur position métrique; examiner si une dissonance est préparée, traversée ou résolue par mouvement conjoint. Avec une grille harmonique sourcée, teste",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CP-210.md",
+          "document_sha256": "594aaf399583afbb524be76f69f7a89d787b4cd78f3a8cbd784d26c5bc899cab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:048dc229fcbfeca27495a540",
+            "heading_path": [
+              "CP-210 — The Art of Counterpoint",
+              "Deuxième passe qualitative — contrepoint à deux voix (12 novembre 2026)",
+              "Q2 — Dissonance : comprendre sa place et sa résolution"
+            ],
+            "start_line": 66,
+            "end_line": 73,
+            "subtree_end_line": 73
+          },
+          "content_sha256": "e2d9601a80c299932cc74d271704e8e4152096d1f30dab0afd412d2f5b875aa9",
+          "body_sha256": "9b507371dd933a117cb94f5dda570ca34f25f86d4b7a80f40fb09281fb9954cd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001239",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q3 — Autonomie des deux lignes versus doublure harmonisée",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** À chaque moment pertinent, calculer mouvements contraires, obliques, semblables ou parallèles en conservant les notes tenues; mesurer les attaques et pauses propres à chaque partie. Distinguer une voix indépendante d'une doubl",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CP-210.md",
+          "document_sha256": "594aaf399583afbb524be76f69f7a89d787b4cd78f3a8cbd784d26c5bc899cab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:59eaef071329e874544a3a31",
+            "heading_path": [
+              "CP-210 — The Art of Counterpoint",
+              "Deuxième passe qualitative — contrepoint à deux voix (12 novembre 2026)",
+              "Q3 — Autonomie des deux lignes versus doublure harmonisée"
+            ],
+            "start_line": 74,
+            "end_line": 82,
+            "subtree_end_line": 82
+          },
+          "content_sha256": "6b667c27db1311b116b5d25a5e1c94c4701500a8951dead3256ea3b804c88161",
+          "body_sha256": "2bc64b9f7155a58c3933716b4a045768ac08a276c417cf1ab0454c2ac3ce7e40",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

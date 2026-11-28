@@ -1,0 +1,295 @@
+{
+  "source_document": "docs/courses/udem/MUL-3333X.md",
+  "units": [
+    {
+      "id": "material:0003078",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 3333X — Courants historiques en musique, art et société",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Université de Montréal, baccalauréat en musique — Composition, version A26. Option, hiver 2027, Sylvain Caron. Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-3333X.md",
+          "document_sha256": "32bd196fca43487c33f069139c998c42d0094d33571d260e0c355bff725a11bc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:26f4e0d11a7ba0f8fbb1a84c",
+            "heading_path": [
+              "MUL 3333X — Courants historiques en musique, art et société"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 48
+          },
+          "content_sha256": "b38483ac650ab3034b001107bdc936fa5a74d67bd35fbc75658b6f2db5e27c5a",
+          "body_sha256": "588fa10786dd5393dc1147aaf854dc54927a5196b0f24539dedbb2caa7dac2d7",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003079",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources et matière",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Plan-cadre conjoint. Comparer musique et peinture au moyen des quatre modes proposés par Jean-Jacques Nattiez dans La musique, les images et les mots. Études d’œuvres, visite au Musée des beaux-arts de Montréal et mise en contexte. Pondérat",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-3333X.md",
+          "document_sha256": "32bd196fca43487c33f069139c998c42d0094d33571d260e0c355bff725a11bc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:33426aff84cffd6f165c8df2",
+            "heading_path": [
+              "MUL 3333X — Courants historiques en musique, art et société",
+              "Sources et matière"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 8
+          },
+          "content_sha256": "5b818ff78c9e2ca5c2b54e82f2f5dbf663995d04a0b725c142a3095757756779",
+          "body_sha256": "4eb7a0a652f449e5bfca033411bc6259e3c39754551ebeba7c92374547803dd0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003080",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Syllabus de la section A24",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le [plan de Sylvain Caron, automne 2024](https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/MUL3333X-6333X_A2024.pdf) porte les deux sigles et détaille la progression. Exemples au calendrier. Friedrich et Schubert pou",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-3333X.md",
+          "document_sha256": "32bd196fca43487c33f069139c998c42d0094d33571d260e0c355bff725a11bc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:dddb5ba9d318db153a114b1c",
+            "heading_path": [
+              "MUL 3333X — Courants historiques en musique, art et société",
+              "Syllabus de la section A24"
+            ],
+            "start_line": 9,
+            "end_line": 14,
+            "subtree_end_line": 14
+          },
+          "content_sha256": "da8bf491f0febed34997a3df1c7c335d9c92d3b192292a935a6af7aab0b76c0d",
+          "body_sha256": "dfecd2c3ef9d590ed92e8115a8505db7bc1339f0f511fbdb8cd1ef65b6a5e75e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003081",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Les œuvres, l’exposition retenue, le détail des lectures et le calendrier de section restent à vérifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-3333X.md",
+          "document_sha256": "32bd196fca43487c33f069139c998c42d0094d33571d260e0c355bff725a11bc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:14e46866027bae8d9ee47aaf",
+            "heading_path": [
+              "MUL 3333X — Courants historiques en musique, art et société",
+              "Lacunes"
+            ],
+            "start_line": 15,
+            "end_line": 19,
+            "subtree_end_line": 19
+          },
+          "content_sha256": "71ffcf17ec5e4f302599e2e94f964ae238abc9db6cbc1a55f31e12470100b98c",
+          "body_sha256": "aae858f111acc5d5809501e77df37181c90d4d7051967fbaa699f97cf057fcdf",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003082",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — évaluation sourcée (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Apport :** directe par analogie de forme, limitée par les supports visuels. **Source :** [Plan-cadre UdeM et syllabus A24 distinct : musique et peinture selon Nattiez, expressionnisme, notation graphique et contextes artistiques.](https:/",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-3333X.md",
+          "document_sha256": "32bd196fca43487c33f069139c998c42d0094d33571d260e0c355bff725a11bc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:11c78bdbf1eaf689afee6f05",
+            "heading_path": [
+              "MUL 3333X — Courants historiques en musique, art et société",
+              "Application à l'analyse et à la création — évaluation sourcée (12 novembre 2026)"
+            ],
+            "start_line": 20,
+            "end_line": 23,
+            "subtree_end_line": 48
+          },
+          "content_sha256": "1a1be136832bf3f94dbf219cc40de2277a428b570a7675d4b8e5b67f207b136a",
+          "body_sha256": "a060f538721175dca3314567609c28d9b03f40407a9908acd0f5af89ca74fefd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003083",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage/domaine 1 — Relations entre musique et œuvre plastique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Applicabilité :** `CONTEXT_REQUIRED / AUDIO_REQUIRED` ; la section actuelle n'est pas supposée identique aux documents historiques ou externes.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-3333X.md",
+          "document_sha256": "32bd196fca43487c33f069139c998c42d0094d33571d260e0c355bff725a11bc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9bc51e65effa595abede97cb",
+            "heading_path": [
+              "MUL 3333X — Courants historiques en musique, art et société",
+              "Application à l'analyse et à la création — évaluation sourcée (12 novembre 2026)",
+              "Apprentissage/domaine 1 — Relations entre musique et œuvre plastique"
+            ],
+            "start_line": 24,
+            "end_line": 33,
+            "subtree_end_line": 33
+          },
+          "content_sha256": "f2da3d9333f731c32b95157deec99d1ea23bc589be08c9253400ca7d055c151d",
+          "body_sha256": "9adf018e3aca4e426103dd959dbba9ba11ef38f3089646d6e326256b0c97a72d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003084",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage/domaine 2 — Notation graphique et interprétation",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Applicabilité :** `CONTEXT_REQUIRED / MIDI_PROXY` ; la section actuelle n'est pas supposée identique aux documents historiques ou externes.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-3333X.md",
+          "document_sha256": "32bd196fca43487c33f069139c998c42d0094d33571d260e0c355bff725a11bc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:cf2690697587541529fe8daa",
+            "heading_path": [
+              "MUL 3333X — Courants historiques en musique, art et société",
+              "Application à l'analyse et à la création — évaluation sourcée (12 novembre 2026)",
+              "Apprentissage/domaine 2 — Notation graphique et interprétation"
+            ],
+            "start_line": 34,
+            "end_line": 43,
+            "subtree_end_line": 43
+          },
+          "content_sha256": "4c1aa7739ef7d627ee76178fd4b4fe0342450376027b471b958e9c3d8ca4b705",
+          "body_sha256": "f02990ebcc99c42ac07c4105d57abd06c66091c611970e7ccbd9cd6b88c9c762",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003085",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Apport :** directe par analogie de forme, limitée par les supports visuels ; `non_algorithmique=false` (valeur `null` si la preuve manque).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-3333X.md",
+          "document_sha256": "32bd196fca43487c33f069139c998c42d0094d33571d260e0c355bff725a11bc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1a0f3d582895803f8f5237a8",
+            "heading_path": [
+              "MUL 3333X — Courants historiques en musique, art et société",
+              "Application à l'analyse et à la création — évaluation sourcée (12 novembre 2026)",
+              "Verdict"
+            ],
+            "start_line": 44,
+            "end_line": 48,
+            "subtree_end_line": 48
+          },
+          "content_sha256": "922df3eb7789a8df579cc437ea0fce03d3706f1bea9d5940d667f3ab234a3f64",
+          "body_sha256": "43ce45d64d8c8c505b356770a42de5b93772b7e96fa2954de5e7ee908de55d95",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

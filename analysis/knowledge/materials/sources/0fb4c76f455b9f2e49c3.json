@@ -1,0 +1,436 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+  "units": [
+    {
+      "id": "material:0004239",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "AnaMu — 22 cours à très faible matière : reprise par preuves et contexte universitaire",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026 · phase 1A, acquisition seulement.** Priorité aux cours vides plutôt qu'aux notices déjà riches. Toutes les sources primaires sont reliées ci-dessous. Les éléments attestés du **cours**, les pratiques du **programme**, le",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "document_sha256": "b81341fb36467233c379ac16f2d455630bbb06412c564ffd4cab987aa65b2fab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:543dfeac9acc88abbe819358",
+            "heading_path": [
+              "AnaMu — 22 cours à très faible matière : reprise par preuves et contexte universitaire"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 156
+          },
+          "content_sha256": "53db1ab441dceb812231dad5c5c5f26b681c97ce9ebcef130ef9ebd82f83f0dd",
+          "body_sha256": "aa9db97f33d5ec6dc6d50d878535d3c6bb3938f5b258c8707ee48c11ee93ca0c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004240",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Composition instrumentale — MCT 1601 / MCT 1602 / MCT 1603 / MCT 1604",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance :** [source 1](https://musique.umontreal.ca/etudier/nos-disciplines/composition-instrumentale/). **Nature :** `faculty_program_discipline_context`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "document_sha256": "b81341fb36467233c379ac16f2d455630bbb06412c564ffd4cab987aa65b2fab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e15ac7e73c9d90a8e6850c67",
+            "heading_path": [
+              "AnaMu — 22 cours à très faible matière : reprise par preuves et contexte universitaire",
+              "Composition instrumentale — MCT 1601 / MCT 1602 / MCT 1603 / MCT 1604"
+            ],
+            "start_line": 5,
+            "end_line": 18,
+            "subtree_end_line": 18
+          },
+          "content_sha256": "fa8c5d296ef32c1424074952c452a5a361cd2bd16be9a55cacc41775718bba63",
+          "body_sha256": "a34837c330d48845941615fe3f0724205a4cdfd7549476adde4be08ec43629e7",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004241",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Composition mixte — MCT 1701 / MCT 1702",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance :** [source 1](https://musique.umontreal.ca/etudier/nos-disciplines/composition-mixte/) · [source 2](https://musique.umontreal.ca/a-propos/nos-espaces/laboratoires-et-studios/). **Nature :** `faculty_discipline_and_facility_con",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "document_sha256": "b81341fb36467233c379ac16f2d455630bbb06412c564ffd4cab987aa65b2fab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:04d49730e3d336a10b034a73",
+            "heading_path": [
+              "AnaMu — 22 cours à très faible matière : reprise par preuves et contexte universitaire",
+              "Composition mixte — MCT 1701 / MCT 1702"
+            ],
+            "start_line": 19,
+            "end_line": 32,
+            "subtree_end_line": 32
+          },
+          "content_sha256": "23abaf68b3ed1bbb6a4304a942bb5baa7565f93f8c53996a98fb3d80af6fe3f4",
+          "body_sha256": "adb895663a96ccf8ea91c516df0ff69bd3fa3a61bdb96f7050dadb2b24d67fb8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004242",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Composition pour l'image — MCT 1801 / MCT 1802",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance :** [source 1](https://musique.umontreal.ca/etudier/nos-disciplines/composition-pour-lecran-et-la-scene/) · [source 2](https://admission.umontreal.ca/cours-et-horaires/cours/mct-3511x/) · [source 3](https://admission.umontreal.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "document_sha256": "b81341fb36467233c379ac16f2d455630bbb06412c564ffd4cab987aa65b2fab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:feefbd9d2fda56886f9099e9",
+            "heading_path": [
+              "AnaMu — 22 cours à très faible matière : reprise par preuves et contexte universitaire",
+              "Composition pour l'image — MCT 1801 / MCT 1802"
+            ],
+            "start_line": 33,
+            "end_line": 48,
+            "subtree_end_line": 48
+          },
+          "content_sha256": "a6d075c65a8fa5c66b01ed7ee9b1870a6ac16e7caa89b3c4108603450901f13b",
+          "body_sha256": "56538fb953682541a15b2c6f09a27a73e852195422e415ba0b99eebb484ecf03",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004243",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Forum de composition — MUS 3411 / MUS 3412",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance :** [source 1](https://musique.umontreal.ca/nouvelles-evenements/une-nouvelle/news/detail/News/un-baccalaureat-en-composition-qui-ouvre-toutes-les-portes/) · [source 2](https://admission.umontreal.ca/cours-et-horaires/cours/mus",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "document_sha256": "b81341fb36467233c379ac16f2d455630bbb06412c564ffd4cab987aa65b2fab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ead5c33d94668cca8328c3ee",
+            "heading_path": [
+              "AnaMu — 22 cours à très faible matière : reprise par preuves et contexte universitaire",
+              "Forum de composition — MUS 3411 / MUS 3412"
+            ],
+            "start_line": 49,
+            "end_line": 61,
+            "subtree_end_line": 61
+          },
+          "content_sha256": "f07728264755b8f320363868d194c90025449822fc8096e20ab6cacc11b60970",
+          "body_sha256": "a1936756fbc4ddcdf9564cd813f4200d9761767376ed86ea8329f92766846f5e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004244",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Solfège et dictée : diagnostic commun — MUS 1011 / MUS 1012 / MUS 1013 / MUS 1014 / MUS 1015 / MUS 1016",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance :** [source 1](https://musique.umontreal.ca/fileadmin/musique/documents/admissions/Tests_sofege_dictee_exemples.pdf) · [source 2](https://musique.umontreal.ca/etudier/espace-etudiant/tests-de-classement-et-dexemption/). **Natur",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "document_sha256": "b81341fb36467233c379ac16f2d455630bbb06412c564ffd4cab987aa65b2fab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4e09d45f0166a7055a0932d0",
+            "heading_path": [
+              "AnaMu — 22 cours à très faible matière : reprise par preuves et contexte universitaire",
+              "Solfège et dictée : diagnostic commun — MUS 1011 / MUS 1012 / MUS 1013 / MUS 1014 / MUS 1015 / MUS 1016"
+            ],
+            "start_line": 62,
+            "end_line": 75,
+            "subtree_end_line": 75
+          },
+          "content_sha256": "0187aad1df015692005af3f9ab4e71a93b921371881d96c050d9905bd0e0e4ee",
+          "body_sha256": "1932b387c8096569abac268e5e35c3fc7c7fa9d08162b88c5cdd5a642766ba63",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004245",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Harmonie 2 : épreuve directement identifiée — MTE 1221",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance :** [source 1](https://musique.umontreal.ca/fileadmin/musique/documents/admissions/TEST_Harmonie.pdf) · [source 2](https://musique.umontreal.ca/etudier/espace-etudiant/tests-de-classement-et-dexemption/). **Nature :** `named_co",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "document_sha256": "b81341fb36467233c379ac16f2d455630bbb06412c564ffd4cab987aa65b2fab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:36f474aa54ee9b0f8bfcb966",
+            "heading_path": [
+              "AnaMu — 22 cours à très faible matière : reprise par preuves et contexte universitaire",
+              "Harmonie 2 : épreuve directement identifiée — MTE 1221"
+            ],
+            "start_line": 76,
+            "end_line": 91,
+            "subtree_end_line": 91
+          },
+          "content_sha256": "bcea4a6f539d41baad4644021e07318a2cac7139c64e91a5e98138194c37a0d4",
+          "body_sha256": "39d6d44957357616314be5fc73fb3d6b7517917392b813d2ae4528a85f4e0ed2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004246",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Introduction à la sociomusicologie : 13 pages H23 — MUL 3334",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance :** [source 1](https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/MUL3334_Introduction_%C3%A0_la_sociomusicoligie_H23.pdf). **Nature :** `actual_course_syllabus_H23`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "document_sha256": "b81341fb36467233c379ac16f2d455630bbb06412c564ffd4cab987aa65b2fab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6792fcf038dd6cb199d8ff83",
+            "heading_path": [
+              "AnaMu — 22 cours à très faible matière : reprise par preuves et contexte universitaire",
+              "Introduction à la sociomusicologie : 13 pages H23 — MUL 3334"
+            ],
+            "start_line": 92,
+            "end_line": 109,
+            "subtree_end_line": 109
+          },
+          "content_sha256": "ad09128755d9064a92ef3f38cb379e8f94d6ed26b8d6cf905e019de92b157fd7",
+          "body_sha256": "c7fdbeb46765a50cc3f49d1a7c53befcabf0a063ed309fef3edacb94c2286614",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004247",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Électroacoustique : infrastructures et compétences du domaine — MTE 1503",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance :** [source 1](https://musique.umontreal.ca/etudier/nos-disciplines/musiques-numeriques/) · [source 2](https://musique.umontreal.ca/a-propos/nos-espaces/laboratoires-et-studios/). **Nature :** `adjacent_program_and_studio_conte",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "document_sha256": "b81341fb36467233c379ac16f2d455630bbb06412c564ffd4cab987aa65b2fab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:60ac9cf75315cc2d5575fd80",
+            "heading_path": [
+              "AnaMu — 22 cours à très faible matière : reprise par preuves et contexte universitaire",
+              "Électroacoustique : infrastructures et compétences du domaine — MTE 1503"
+            ],
+            "start_line": 110,
+            "end_line": 123,
+            "subtree_end_line": 123
+          },
+          "content_sha256": "13d7c8bcebaa58f58a165eaed14efc1242f59e02c64a6e480b814974a49a811a",
+          "body_sha256": "d772911b9db98b6bffa366e406c29dbd33f4a1ca888726f4937b77ad1c17ec50",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004248",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Histoire : modernité et contemporanéité — MUL 1116 / MUL 1117",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance :** [source 1](https://admission.umontreal.ca/cours-et-horaires/cours/mul-1116/) · [source 2](https://admission.umontreal.ca/cours-et-horaires/cours/mul-1117/). **Nature :** `individual_course_notices`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "document_sha256": "b81341fb36467233c379ac16f2d455630bbb06412c564ffd4cab987aa65b2fab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:fedc94a80438aaeb0521fd70",
+            "heading_path": [
+              "AnaMu — 22 cours à très faible matière : reprise par preuves et contexte universitaire",
+              "Histoire : modernité et contemporanéité — MUL 1116 / MUL 1117"
+            ],
+            "start_line": 124,
+            "end_line": 136,
+            "subtree_end_line": 136
+          },
+          "content_sha256": "6d1d89486997f14d01d2ce1d46d00cc4fc7cec15af3a88b78d07ee8276d526e0",
+          "body_sha256": "0166bd97fae491061965948b1c2321a8978b97a878c568d6cc8178618b84ff0b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004249",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Analyse des œuvres XXe siècle 1 — MTE 1205",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance :** [source 1](https://admission.umontreal.ca/cours-et-horaires/cours/mte-1205/). **Nature :** `individual_course_notice`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "document_sha256": "b81341fb36467233c379ac16f2d455630bbb06412c564ffd4cab987aa65b2fab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0d8003ac9952405b9b12a5a4",
+            "heading_path": [
+              "AnaMu — 22 cours à très faible matière : reprise par preuves et contexte universitaire",
+              "Analyse des œuvres XXe siècle 1 — MTE 1205"
+            ],
+            "start_line": 137,
+            "end_line": 148,
+            "subtree_end_line": 148
+          },
+          "content_sha256": "bcb40a92d6dd908b99ceb8305eac15409f5fbac981caf5f8a2ddb6b4229376de",
+          "body_sha256": "d61dc914b8debfbcae623be7a8c817445d22e35df8ed875d10f5ec5254d98348",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004250",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Points d'action authentiques",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : 1. Obtenir une vraie liste d'objectifs du cours MUS 1011/1012/1013/1014/1015/1016 **par niveau**; le test de 2011 n'autorise aucune progression inventée.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-22-empty-course-enrichment.md",
+          "document_sha256": "b81341fb36467233c379ac16f2d455630bbb06412c564ffd4cab987aa65b2fab",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b2c369783f3a71ea47e5b1cd",
+            "heading_path": [
+              "AnaMu — 22 cours à très faible matière : reprise par preuves et contexte universitaire",
+              "Points d'action authentiques"
+            ],
+            "start_line": 149,
+            "end_line": 156,
+            "subtree_end_line": 156
+          },
+          "content_sha256": "444a0d83a0c763a0848f68bf3758d67ad22f63b35e408dd0098a20c2c825d6b8",
+          "body_sha256": "e15efb0f474a12abdb07a642fbe43a4fa7d98e88875881f177db23e14f011c10",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

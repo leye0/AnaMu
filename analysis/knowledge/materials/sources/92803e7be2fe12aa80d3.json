@@ -1,0 +1,112 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-mcgill-16-music-history-courses.md",
+  "units": [
+    {
+      "id": "material:0004129",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "McGill — 16 notices musicales d'histoire, d'écoute et de musicologie (2026–2027)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026 · acquisition brute, cours par cours.** Source : [catalogue officiel McGill 2026–2027](https://coursecatalogue.mcgill.ca/en/), complété par les [exigences B.Mus. histoire de la musique](https://www.mcgill.ca/music/program",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-16-music-history-courses.md",
+          "document_sha256": "b0d4513a74987662560e073d7b8d12c05e07b71942250410f00868d15d36ee23",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:35ec5ae87d0fadc4269d0f93",
+            "heading_path": [
+              "McGill — 16 notices musicales d'histoire, d'écoute et de musicologie (2026–2027)"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 31
+          },
+          "content_sha256": "2812f992db8aa65d7ec3034d03e74e709cb672621d30ed5c7725d91f5a706178",
+          "body_sha256": "1e33808fb9af982e5f3084ec782fb6edd8f8981c28eb63d11e9471ee643891c4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004130",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Treize notices complémentaires hors registre",
+      "title_origin": "source_heading_or_key",
+      "description": "Titre ou passage sans description éditoriale vérifiée.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-16-music-history-courses.md",
+          "document_sha256": "b0d4513a74987662560e073d7b8d12c05e07b71942250410f00868d15d36ee23",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:efb58dd8dee54a602d58dff4",
+            "heading_path": [
+              "McGill — 16 notices musicales d'histoire, d'écoute et de musicologie (2026–2027)",
+              "Treize notices complémentaires hors registre"
+            ],
+            "start_line": 5,
+            "end_line": 22,
+            "subtree_end_line": 22
+          },
+          "content_sha256": "d07eea7a3acf63823222ea9a01369f66e0f30bf0f52ef6538bb1c081fe96599c",
+          "body_sha256": "6076cde7446bbb29467ef50941684be9878d1b0ccd07322732fdd66ea107897e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004131",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Trois notices déjà dans les 386 — précisions et liens directs complémentaires",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bilan : 16/16 pages McGill vérifiées ; 13 nouveaux voisins musicaux + trois références sur cours historiques.** Une collecte de 41 codes candidats a produit ces 16 notices réelles ; **25 codes sans notice exacte retrouvée ont été écartés*",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-16-music-history-courses.md",
+          "document_sha256": "b0d4513a74987662560e073d7b8d12c05e07b71942250410f00868d15d36ee23",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f7852c41f44ce60887db4641",
+            "heading_path": [
+              "McGill — 16 notices musicales d'histoire, d'écoute et de musicologie (2026–2027)",
+              "Trois notices déjà dans les 386 — précisions et liens directs complémentaires"
+            ],
+            "start_line": 23,
+            "end_line": 31,
+            "subtree_end_line": 31
+          },
+          "content_sha256": "1a635102e9522e5452dee2d479430e6835a587ea3cb3062e56fde4037e887b10",
+          "body_sha256": "cc381998b24e6cc50a651ecf66bf0d44ef79b908e76bb762a9cb9651c66fbb10",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

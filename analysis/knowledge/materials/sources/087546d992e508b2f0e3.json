@@ -1,0 +1,76 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-udem-8-official-2026-27-music-plans.md",
+  "units": [
+    {
+      "id": "material:0004323",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "UdeM — 8 vrais plans musicaux 2026–2027, hors registre principal",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026 · phase 1A.** Huit plans primaires téléchargeables depuis la [page officielle des séminaires A26/H27](https://musique.umontreal.ca/etudier/nos-programmes-detudes/seminaires/). Leur niveau de granularité varie (plan-cadre",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-8-official-2026-27-music-plans.md",
+          "document_sha256": "528e42da3c4cec9f4160fd8918e83b26bba80b0730c3ba97bf5216134e3a432f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e9d296d623d609f7c05d4b1a",
+            "heading_path": [
+              "UdeM — 8 vrais plans musicaux 2026–2027, hors registre principal"
+            ],
+            "start_line": 1,
+            "end_line": 15,
+            "subtree_end_line": 22
+          },
+          "content_sha256": "55ece30d8a1aa7f5a6b4b9eea81589c606f90b05e4c6eeef73348106c9f082cf",
+          "body_sha256": "73c9730128e43ebf21de234242e281dd7c07f6c4dd74a1053944fdf0809e490d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004324",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Conséquences pour l'acquisition prioritaire",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **EMU 1310 / EMU 2312** (P0) : les cadres d'observation des chefs et de mouvement expressif de MIN6961, MUL6228 et MUS6603 sont des recherches universitaires connexes, **pas** leurs syllabus de technique de direction.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-8-official-2026-27-music-plans.md",
+          "document_sha256": "528e42da3c4cec9f4160fd8918e83b26bba80b0730c3ba97bf5216134e3a432f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:94c8b5426d362efe350fff1d",
+            "heading_path": [
+              "UdeM — 8 vrais plans musicaux 2026–2027, hors registre principal",
+              "Conséquences pour l'acquisition prioritaire"
+            ],
+            "start_line": 16,
+            "end_line": 22,
+            "subtree_end_line": 22
+          },
+          "content_sha256": "7121435297dffc82f5f5817090b597ef2e8d74a3a39ddd455da827f2c3461435",
+          "body_sha256": "adf1efcaab03e5eed779a29e9deb2aad241c4dc78b4d182429ca83c8b44a500c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

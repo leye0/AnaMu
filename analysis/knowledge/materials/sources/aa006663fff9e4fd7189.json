@@ -1,0 +1,148 @@
+{
+  "source_document": "docs/courses/udem-supplementary/MUL-1102-H23.md",
+  "units": [
+    {
+      "id": "material:0000428",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 1102 — Histoire générale de la musique 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire officielle :** [plan de cours UdeM, hiver 2023](https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/MUL1102_H23_Plan_de_cours_vf.pdf). Enseignant·e : Irina Kirchberg. Le cours a un objet directement m",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem-supplementary/MUL-1102-H23.md",
+          "document_sha256": "7b0fe087b3d1a03a2b6f707c08d3ffe202fd1c3d2204d3d77a56d28f05f5b2fc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3e9a01cdebe9f9218f58d57a",
+            "heading_path": [
+              "MUL 1102 — Histoire générale de la musique 2"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 27
+          },
+          "content_sha256": "e7b9a125e30e59592367db2659cd396b127319148cf1edba75812b5533aea1f4",
+          "body_sha256": "109e713f33c251703cbaecc45d01e2faf799a3a6f494bf86444d1e08cf1f97ee",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000429",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Matière et progression réellement publiées",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - 1 — Introduction aux histoires de la musique, lieux et fonctions de la pratique musicale à la fin du XVIe et au XVIIe siècle.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem-supplementary/MUL-1102-H23.md",
+          "document_sha256": "7b0fe087b3d1a03a2b6f707c08d3ffe202fd1c3d2204d3d77a56d28f05f5b2fc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:fb05b51a34f1ed353136b750",
+            "heading_path": [
+              "MUL 1102 — Histoire générale de la musique 2",
+              "Matière et progression réellement publiées"
+            ],
+            "start_line": 5,
+            "end_line": 20,
+            "subtree_end_line": 20
+          },
+          "content_sha256": "a68cb8f59edfebc6150b322eaebfc81c66a87d82de353b69a53f7e48a18abaab",
+          "body_sha256": "c7984bc3199f80d2f7afeeacb2c77cca05b0c3d18e13260883371db44db942bd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000430",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Évaluations de cette édition",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : 8 meilleurs quiz d'écoute parmi 10 (16 %), examen médian (25 %), final (25 %), exposé sur une compositrice (14 %), travail d'approfondissement d'un genre sur le temps long (20 %). Les listes exactes des extraits d'écoute sont sur StudiUM.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem-supplementary/MUL-1102-H23.md",
+          "document_sha256": "7b0fe087b3d1a03a2b6f707c08d3ffe202fd1c3d2204d3d77a56d28f05f5b2fc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:679b0ff7cba2c85c099f7761",
+            "heading_path": [
+              "MUL 1102 — Histoire générale de la musique 2",
+              "Évaluations de cette édition"
+            ],
+            "start_line": 21,
+            "end_line": 24,
+            "subtree_end_line": 24
+          },
+          "content_sha256": "e1a6b26779f5ad1c996796f464e27f68094ce9bb8e49031eeab2a4d548fd02d2",
+          "body_sha256": "f2a04a2d1ab7721f60de1956e671cd907a1d86073bdab6656330e08213414a30",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000431",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Portée et limites",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le document H23 contient quelques dates résiduelles de 2021 : ne pas harmoniser les échéances. Un syllabus H23 ne devient pas le plan A26 de MUL1116 (avant 1945) ou MUL1117 (après 1945).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem-supplementary/MUL-1102-H23.md",
+          "document_sha256": "7b0fe087b3d1a03a2b6f707c08d3ffe202fd1c3d2204d3d77a56d28f05f5b2fc",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b11b5c633f24c8709afcbeb7",
+            "heading_path": [
+              "MUL 1102 — Histoire générale de la musique 2",
+              "Portée et limites"
+            ],
+            "start_line": 25,
+            "end_line": 27,
+            "subtree_end_line": 27
+          },
+          "content_sha256": "cdfee3d2f53039a68a2b10cbc6ca4eb6a23ca7173b7341e0ae36fc3934f89523",
+          "body_sha256": "4e6621a2b34caf01dce85d8b3bebb21581214b5727128642817a28ff7a54dc97",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

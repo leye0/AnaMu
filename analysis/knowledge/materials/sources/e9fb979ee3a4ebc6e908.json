@@ -1,0 +1,445 @@
+{
+  "source_document": "docs/courses/mcgill/MUTH-202.md",
+  "units": [
+    {
+      "id": "material:0000117",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Retard Renaissance : préparation, dissonance, résolution et perfection",
+      "title_origin": "assistant_source_checked",
+      "description": "Étude AnaMu fondée sur des comparateurs publiés : différencier préparation, dissonance, résolution et perfection conclusive dans certaines cadences de contrepoint Renaissance, ainsi que les groupements binaires et ternaires du rythme contrapuntique. Le classement exige de suivre les voix et ne se réduit ni à trois accords ni à une battue MIDI.",
+      "description_origin": "assistant_source_checked",
+      "editorial_review": "assistant_source_checked_draft",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [
+        "Les exemples de Morgan et Long ne sont pas attestés comme exercices de la section McGill."
+      ],
+      "notes": [
+        "Source de section AnaMu vérifiée ; aucun syllabus parallèle ou geste audio n'est promu en preuve de section.",
+        "Calibration P2a/P3 : la granularité sera revue lors du rafraîchissement complet."
+      ],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-202.md",
+          "document_sha256": "9edf7cd45c137cdb0d8682febcf190e763e23b2e48ba6c528773c3007598c91c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:70942b088e53f615b983548f",
+            "heading_path": [
+              "MUTH 202 — Modal Counterpoint 1",
+              "Quatre phases d'un retard Renaissance — ni trois accords ni trois battues (17 novembre 2026)"
+            ],
+            "start_line": 74,
+            "end_line": 91,
+            "subtree_end_line": 91
+          },
+          "content_sha256": "03fa0fc01e03c373ffabe02893bdf542c08d3257f5d0938bb82f8082bf042a0f",
+          "body_sha256": "d2389f3e1417ee8fa3d2cc66a9058f53e720c030509852f31715268ead927bd8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "source_verified_editorial_pending"
+    },
+    {
+      "id": "material:0003372",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUTH 202 — Modal Counterpoint 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : B. Mus. Composition McGill, édition 2026. Option de théorie. Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-202.md",
+          "document_sha256": "9edf7cd45c137cdb0d8682febcf190e763e23b2e48ba6c528773c3007598c91c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:272bdceee8b7aaccb6a2d08a",
+            "heading_path": [
+              "MUTH 202 — Modal Counterpoint 1"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 91
+          },
+          "content_sha256": "cd8f202f6c44989feb8c8ada9c11a934b84801fd674bfe55467793ec66ca6416",
+          "body_sha256": "ffb7d1e9b07a48eafe822f700252bf241a5a4629bed650374d50fe9e72925e48",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003373",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources et matière accessible",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - Exemple de niveau supérieur, partie A. Compléter une texture modale à trois voix dans la tradition Renaissance. Les chapitres 13 et 14 du manuel de Peter Schubert donnent la référence de l’exercice, en complément des analyses de Palestrin",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-202.md",
+          "document_sha256": "9edf7cd45c137cdb0d8682febcf190e763e23b2e48ba6c528773c3007598c91c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d9a860d6bf23ac30f02b73d8",
+            "heading_path": [
+              "MUTH 202 — Modal Counterpoint 1",
+              "Sources et matière accessible"
+            ],
+            "start_line": 5,
+            "end_line": 9,
+            "subtree_end_line": 9
+          },
+          "content_sha256": "8a8a4169f207ff6c54b5d572098a11e68dd5a60ef4046d4310452088fae32f2a",
+          "body_sha256": "5259289e6bd89134d006294bd6cc7c81848032998aa0b9be3cfe26bc488cf2b2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003374",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes et reprise",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le document est un exercice de classement aux cycles supérieurs. Vérifier le plan de ce cours et les chapitres effectivement prescrits.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-202.md",
+          "document_sha256": "9edf7cd45c137cdb0d8682febcf190e763e23b2e48ba6c528773c3007598c91c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ef0bdd9f4f42f2db2078b6af",
+            "heading_path": [
+              "MUTH 202 — Modal Counterpoint 1",
+              "Lacunes et reprise"
+            ],
+            "start_line": 10,
+            "end_line": 13,
+            "subtree_end_line": 13
+          },
+          "content_sha256": "ad8fdfc492acc38a070d8fa21cb1e6e2a1dbf48136608c261ba9247ce3b1c25c",
+          "body_sha256": "386e2c0a3fe3105fced917117ca8d582b302e44d76cc6a1756e32d1530da6b54",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003375",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Syllabus comparateur (10 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le [plan complet de progression publique d'OCOMP-250](../berklee-online/OCOMP-250.md) décrit une méthode tonale/interstylistique avec espèces, canons, ostinatos et invention de Bach. **Il ne représente pas le cours MUTH 202**, qui annonce u",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-202.md",
+          "document_sha256": "9edf7cd45c137cdb0d8682febcf190e763e23b2e48ba6c528773c3007598c91c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:46289a21892aa50cce9113be",
+            "heading_path": [
+              "MUTH 202 — Modal Counterpoint 1",
+              "Syllabus comparateur (10 novembre 2026)"
+            ],
+            "start_line": 14,
+            "end_line": 18,
+            "subtree_end_line": 18
+          },
+          "content_sha256": "7aa6a744ac04f85e6106f5832c0ad9e18196433e2772a5eeffe146bcecb7f575",
+          "body_sha256": "8761221b494c4e996f9cd23c76a89591aec3d797a16dace48ea521ed8dec38ea",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003376",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — première passe (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Contribution : directe à l'analyse et à la création.** [Source institutionnelle pour ce cours](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) et documentation préexistante dans cette fiche. [MIDI original de dém",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-202.md",
+          "document_sha256": "9edf7cd45c137cdb0d8682febcf190e763e23b2e48ba6c528773c3007598c91c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5c3157771c578324c5264ac8",
+            "heading_path": [
+              "MUTH 202 — Modal Counterpoint 1",
+              "Application à l'analyse et à la création — première passe (11 novembre 2026)"
+            ],
+            "start_line": 19,
+            "end_line": 22,
+            "subtree_end_line": 32
+          },
+          "content_sha256": "f593f1ab17c3f9e6bb4f6992022a5d7a4b0a543fca82aef76bf327154a731109",
+          "body_sha256": "8a90a6590bae41775f491c55045b9f681215f5a3aa41c79df13f01dc4ea4fcd1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003377",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage traité : Contrepoint modal et imitation à plusieurs voix",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser un morceau (procédure) :** 1. Séparer les voix en séquences d'intervalles et rythmes. 2. Comparer les segments transposés avec décalage temporel. 3. Identifier une collection et un centre modal probables en tenant compte des fins",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-202.md",
+          "document_sha256": "9edf7cd45c137cdb0d8682febcf190e763e23b2e48ba6c528773c3007598c91c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6b4d5781fdc99f2d2a5c6a4b",
+            "heading_path": [
+              "MUTH 202 — Modal Counterpoint 1",
+              "Application à l'analyse et à la création — première passe (11 novembre 2026)",
+              "Apprentissage traité : Contrepoint modal et imitation à plusieurs voix"
+            ],
+            "start_line": 23,
+            "end_line": 32,
+            "subtree_end_line": 32
+          },
+          "content_sha256": "b892490f25a6cd2b1f29d17ebcef804ebb4c1c4f166db7736eab7bfdbcfc3aca",
+          "body_sha256": "c569866f18e65bb3817c6d266f0115ae921c3aa1cd78cb0da185b74b7a12a012",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003378",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deuxième passe qualitative — imitation Renaissance, mode et articulations polyphoniques (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Attestation exacte.** Les [exigences McGill 2026–2027](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) décrivent **MUTH 202** comme l'étude de techniques polyphoniques de la Renaissance par analyse d'œuvres de Pa",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-202.md",
+          "document_sha256": "9edf7cd45c137cdb0d8682febcf190e763e23b2e48ba6c528773c3007598c91c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3ba6e71177795a5f366b27ce",
+            "heading_path": [
+              "MUTH 202 — Modal Counterpoint 1",
+              "Deuxième passe qualitative — imitation Renaissance, mode et articulations polyphoniques (12 novembre 2026)"
+            ],
+            "start_line": 33,
+            "end_line": 36,
+            "subtree_end_line": 64
+          },
+          "content_sha256": "10dc9ac5165e5b9e027888d9d7b7fb8a34c53cc9418e38f7fb189ac1aa33398e",
+          "body_sha256": "d8cf7905ff3bccd5121d108aaf47ed656bd93bbb2aeaeb4099ef4de5d9943c22",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003379",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q1 — Retour d'une idée par imitation : degré de parenté et fonction de texture",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser une musique existante.** Sur une **partition Renaissance identifiée**, isoler deux ou trois lignes et comparer leurs motifs par intervalles ordonnés, profils rythmiques, décalages et ajustements éventuels. Chercher si la nouvelle",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-202.md",
+          "document_sha256": "9edf7cd45c137cdb0d8682febcf190e763e23b2e48ba6c528773c3007598c91c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a719d1c5ffcdcabb18b41b84",
+            "heading_path": [
+              "MUTH 202 — Modal Counterpoint 1",
+              "Deuxième passe qualitative — imitation Renaissance, mode et articulations polyphoniques (12 novembre 2026)",
+              "Q1 — Retour d'une idée par imitation : degré de parenté et fonction de texture"
+            ],
+            "start_line": 37,
+            "end_line": 44,
+            "subtree_end_line": 44
+          },
+          "content_sha256": "4dbd55e44bb9dc5c45661d0a038892e037f3e6172c42221f0d23015bc530e468",
+          "body_sha256": "85b558fe272201d8dbab4e99e3b005504e5d87e119d9cb8c619008d4d4686b3b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003380",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q2 — Centre modal, finales et inflexions : éviter la lecture fonctionnelle automatique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Utiliser les phrases notées, voix, clefs, altérations et arrêts cadentiels, non seulement l'ensemble des classes de hauteurs. Repérer finales possibles, notes récurrentes de repos, ambitus et inflexions occasionnelles près des",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-202.md",
+          "document_sha256": "9edf7cd45c137cdb0d8682febcf190e763e23b2e48ba6c528773c3007598c91c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ac2767f0aab98a73531cb97a",
+            "heading_path": [
+              "MUTH 202 — Modal Counterpoint 1",
+              "Deuxième passe qualitative — imitation Renaissance, mode et articulations polyphoniques (12 novembre 2026)",
+              "Q2 — Centre modal, finales et inflexions : éviter la lecture fonctionnelle automatique"
+            ],
+            "start_line": 45,
+            "end_line": 52,
+            "subtree_end_line": 52
+          },
+          "content_sha256": "a2789d3a57628944ad40034794b6131b24eac2972ea7a9b13d23c2d728314f0f",
+          "body_sha256": "1fc94ba3fa7d121256c550566c1690208a9e91b1f8e5a56e74aa53a213124152",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003381",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q3 — Cadences et articulation collective : les voix n'arrêtent pas toujours ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Relever pour chaque voix attaques, tenues, respirations notées et entrées; rechercher les points où deux lignes approchent conjointement d'une fin de phrase pendant qu'une troisième maintient une continuation. Cartographier le",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-202.md",
+          "document_sha256": "9edf7cd45c137cdb0d8682febcf190e763e23b2e48ba6c528773c3007598c91c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2c50996fe96c08f0249eb20a",
+            "heading_path": [
+              "MUTH 202 — Modal Counterpoint 1",
+              "Deuxième passe qualitative — imitation Renaissance, mode et articulations polyphoniques (12 novembre 2026)",
+              "Q3 — Cadences et articulation collective : les voix n'arrêtent pas toujours ensemble"
+            ],
+            "start_line": 53,
+            "end_line": 64,
+            "subtree_end_line": 64
+          },
+          "content_sha256": "d74bda30282f45849e4ba4d98c4e0f638100347d892a64bb422179b01b3e81b8",
+          "body_sha256": "82dfa76e8fd4b4b08813192805d4354e78dbf45001ae4450ab98ac89cb4462e6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003382",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Cas documenté — distinguer l’ordre des hauteurs de la vitesse des voix (13 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Ancrage.** Les [exigences McGill](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) situent MUTH 202 dans le contrepoint modal de la Renaissance. Le canon suivant est un comparateur, non une preuve que MUTH 202 ens",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-202.md",
+          "document_sha256": "9edf7cd45c137cdb0d8682febcf190e763e23b2e48ba6c528773c3007598c91c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:833dabe6df370c1f8a63d504",
+            "heading_path": [
+              "MUTH 202 — Modal Counterpoint 1",
+              "Cas documenté — distinguer l’ordre des hauteurs de la vitesse des voix (13 novembre 2026)"
+            ],
+            "start_line": 65,
+            "end_line": 73,
+            "subtree_end_line": 73
+          },
+          "content_sha256": "b01aeef379ecc52e256cdb5322b1cd6ea44e2d462eb91bceabc034c16d50c855",
+          "body_sha256": "670fcac38bfb197987c1553d91279f03c984b2d57f362461c429c1a89b3a59d3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

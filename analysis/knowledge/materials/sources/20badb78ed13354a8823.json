@@ -1,0 +1,1214 @@
+{
+  "source_document": "docs/data/harmony-context-studies-2026-11-18.json",
+  "units": [
+    {
+      "id": "material:0006285",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "date",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/date",
+            "json_pointer": "/date",
+            "record_identity": null
+          },
+          "content_sha256": "43db3cb95c2941e29ec982f2ece5013251a48de9e99763392a364919f1f2145e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006286",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Trois sixtes-et-quartes, trois fonctions",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/0",
+            "json_pointer": "/tracks/0",
+            "record_identity": "id:six-quartes-trois-fonctions"
+          },
+          "content_sha256": "ea8cb5a4b791a166ce89561151768b1cb252cd38e9fd0688295ea7070195933e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006287",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Même D7–G, deux continuations",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/1",
+            "json_pointer": "/tracks/1",
+            "record_identity": "id:tonicisation-ou-region-en-sol"
+          },
+          "content_sha256": "28581953c08b5c17ab4fc04a17f4f86909a3b1e98eca6fdf532cd2b3213e3d49",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006288",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Fa♯ ou sol♭ : même verticale, deux suites",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/2",
+            "json_pointer": "/tracks/2",
+            "record_identity": "id:meme-touche-fa-diese-sol-bemol"
+          },
+          "content_sha256": "0be47513f56fffa3409795296682525b6e4a73f6c3fc44d6d08c03114f4d9fca",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006289",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Une septième diminuée, quatre destinations",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/3",
+            "json_pointer": "/tracks/3",
+            "record_identity": "id:septieme-diminuee-quatre-destinations"
+          },
+          "content_sha256": "1b1a5a9ddf1d590f4921f50b58cfb948c215fcbcc632bb5d386b3d66b31bd760",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006290",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Diminuer pour orner ou préparer la dominante",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/4",
+            "json_pointer": "/tracks/4",
+            "record_identity": "id:diminue-ornement-ou-dominante"
+          },
+          "content_sha256": "8a1a43c4c2dcac62d823cacdf63ae9639f018b7ef2376bfdc68995c744e76c8d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006291",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Substituer la dominante, conserver deux notes-guides",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/5",
+            "json_pointer": "/tracks/5",
+            "record_identity": "id:substitution-deux-notes-guides"
+          },
+          "content_sha256": "83663477c575adc711f84c0106e44876d9bc2881db14d283eea59d17dbcc7971",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006292",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Même phrase, la ou la bémol au IV",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/6",
+            "json_pointer": "/tracks/6",
+            "record_identity": "id:une-note-change-iv-majeur-mineur"
+          },
+          "content_sha256": "3e8ffef53b93dc984c4a8c26bf7d4be1c07c3873afa84ff316a6cc89b708187b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006293",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Résoudre, dévier ou déplacer la sonorité",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/7",
+            "json_pointer": "/tracks/7",
+            "record_identity": "id:dominante-resout-devie-ou-glisse"
+          },
+          "content_sha256": "18f41325744219bc551c930ad45e3e2b6b21ac2fdfab352a5bbd150fbeccc3c2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006294",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "engine",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/engine",
+            "json_pointer": "/render/engine",
+            "record_identity": null
+          },
+          "content_sha256": "48c92610e1337a0bf1b3740c857a9a5d549f24bd8af687d291ee876d496f11ab",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006295",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "bank",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/bank",
+            "json_pointer": "/render/bank",
+            "record_identity": null
+          },
+          "content_sha256": "c9b6358b26fdff4dcd1d3c4bb766b8beab0e330469ee9dd2ee8af08474092fa3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006296",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "bank_url",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/bank_url",
+            "json_pointer": "/render/bank_url",
+            "record_identity": null
+          },
+          "content_sha256": "6539111b72248b79d688c32ae85d76bb37dd617070601730985991f7992694b5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006297",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "bank_sha256",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/bank_sha256",
+            "json_pointer": "/render/bank_sha256",
+            "record_identity": null
+          },
+          "content_sha256": "a6a8e5cd6092dddad2ee92bb832bce586f44cc099fd89620b1145f7a9ff27dd8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006298",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "gain",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/gain",
+            "json_pointer": "/render/gain",
+            "record_identity": null
+          },
+          "content_sha256": "6fc7a7dec4a0180f30ce78307da9ef72c0e752677f281dd54057c227e6045efd",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006299",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "sample_rate_pcm",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/sample_rate_pcm",
+            "json_pointer": "/render/sample_rate_pcm",
+            "record_identity": null
+          },
+          "content_sha256": "5d1dbce82e135ab816d7c6d1f5f9020b94000975fa77f0a349a5b4d226d82332",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006300",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "sample_rate_mp3",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/sample_rate_mp3",
+            "json_pointer": "/render/sample_rate_mp3",
+            "record_identity": null
+          },
+          "content_sha256": "981a4f273dcd49530ba08a5e7af0cc709d1078b8ce4b6d4e7424dca6f9a0790a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006301",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "bitrate_kbps",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/bitrate_kbps",
+            "json_pointer": "/render/bitrate_kbps",
+            "record_identity": null
+          },
+          "content_sha256": "7b1a278f5abe8e9da907fc9c29dfd432d60dc76e17b0fabab659d2a508bc65c4",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006302",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "channels",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/channels",
+            "json_pointer": "/render/channels",
+            "record_identity": null
+          },
+          "content_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006303",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "reverb",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/reverb",
+            "json_pointer": "/render/reverb",
+            "record_identity": null
+          },
+          "content_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006304",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "chorus",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/chorus",
+            "json_pointer": "/render/chorus",
+            "record_identity": null
+          },
+          "content_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006305",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "tail_seconds",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/tail_seconds",
+            "json_pointer": "/render/tail_seconds",
+            "record_identity": null
+          },
+          "content_sha256": "b8736b999909049671d0ea075a42b308a5fbe2df1854899123fe09eb0ee9de61",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006306",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "normalization",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/normalization",
+            "json_pointer": "/render/normalization",
+            "record_identity": null
+          },
+          "content_sha256": "210e9723a3ec49d125f82d13fa8d54aaafc4a6b155ad6b41ff9f1bab568a7ca3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006307",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "note",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/note",
+            "json_pointer": "/render/note",
+            "record_identity": null
+          },
+          "content_sha256": "4ca73422c504b704936f979a7318493ab68b869f4591ebc22c5af25727c79f0d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006308",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "scope",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scope",
+            "json_pointer": "/scope",
+            "record_identity": null
+          },
+          "content_sha256": "965dafb7a55c61d18362e569063870b92af4450e45d62dd763cd6d73a7aeba08",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006309",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Trois sixtes-et-quartes, trois fonctions",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scores/0",
+            "json_pointer": "/scores/0",
+            "record_identity": null
+          },
+          "content_sha256": "9577108bbe7ed9a0913c9c5307e900ce5128a41fca431f5fbdbfdb0f79be8046",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006310",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Même D7–G, deux continuations",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scores/1",
+            "json_pointer": "/scores/1",
+            "record_identity": null
+          },
+          "content_sha256": "8e2c5104a141e5826a2707bd7ad6e98f71acbc1b5f5088b524e64368cff94f53",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006311",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Fa♯ ou sol♭ : même verticale, deux suites",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scores/2",
+            "json_pointer": "/scores/2",
+            "record_identity": null
+          },
+          "content_sha256": "d76d89e07a7a17b7285f4d25dbdf083f7742900c0b9a2ababfe5925e4f33f168",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006312",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Une septième diminuée, quatre destinations",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scores/3",
+            "json_pointer": "/scores/3",
+            "record_identity": null
+          },
+          "content_sha256": "7e5af47849e5d6acb3edf9ae330ae17a13c8041ed88c5aa96fbb93b04a51e19f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006313",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Diminuer pour orner ou préparer la dominante",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scores/4",
+            "json_pointer": "/scores/4",
+            "record_identity": null
+          },
+          "content_sha256": "a3e874099c3ec418dbfbd21598fe48dd82a5b605db260c0e17146b2237bf4b1b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006314",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Substituer la dominante, conserver deux notes-guides",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scores/5",
+            "json_pointer": "/scores/5",
+            "record_identity": null
+          },
+          "content_sha256": "759af4216e0c6827b9113a6d0b472f1a61bec19bb26f27b4b4ee36ecd4054855",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006315",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Même phrase, la ou la bémol au IV",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scores/6",
+            "json_pointer": "/scores/6",
+            "record_identity": null
+          },
+          "content_sha256": "2e6b507a428ca6618d97819be52cfcbb5de63deec467286d6bb3757fa987f0d1",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006316",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Résoudre, dévier ou déplacer la sonorité",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scores/7",
+            "json_pointer": "/scores/7",
+            "record_identity": null
+          },
+          "content_sha256": "d8b1d65392070b5cf266db3c6b021587f317cae6a6daec691e3e6a1e444c90a4",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006317",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Un seul la devient la bémol",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/listening_trials/berklee:HR-211/0",
+            "json_pointer": "/listening_trials/berklee:HR-211/0",
+            "record_identity": null
+          },
+          "content_sha256": "41e15d2aa494df0c3a6db573a86125d9097e7fd0e4b235827dba9ee71cb1a54c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006318",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Deux dominantes, mêmes notes-guides",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/listening_trials/berklee:HR-211/1",
+            "json_pointer": "/listening_trials/berklee:HR-211/1",
+            "record_identity": null
+          },
+          "content_sha256": "7f6950304cde7dbd717f82b785db965c603518b26bfb5e77d72271c0b67df920",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006319",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "La verticale seule, témoin identique",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/listening_trials/udem:MTE-1221/0",
+            "json_pointer": "/listening_trials/udem:MTE-1221/0",
+            "record_identity": null
+          },
+          "content_sha256": "454547158e8a6bd8eb87942a677df3f9f5dbaecb627ee5a1a2bd8d040868324c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006320",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "La verticale avec sa suite",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/listening_trials/udem:MTE-1221/1",
+            "json_pointer": "/listening_trials/udem:MTE-1221/1",
+            "record_identity": null
+          },
+          "content_sha256": "a4d9f0038c40fc489fe08aa57c65108c4f4ae5235f4245e99dde05722c4e9475",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006321",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "D7–G avec deux fins de phrase",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/listening_trials/berklee:CM-212/0",
+            "json_pointer": "/listening_trials/berklee:CM-212/0",
+            "record_identity": null
+          },
+          "content_sha256": "58ba0366f8470ed6fad568526286a9506ea51756f728d4c4e959f52d6f1e50a5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006322",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "date",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/source_review/date",
+            "json_pointer": "/source_review/date",
+            "record_identity": null
+          },
+          "content_sha256": "43db3cb95c2941e29ec982f2ece5013251a48de9e99763392a364919f1f2145e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006323",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "notes",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/harmony-context-studies-2026-11-18.json",
+          "document_sha256": "c59439bebf12e7f015f8701319eefd8c58f6871ca8c6865ee0abfaf5a19fa672",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/source_review/notes",
+            "json_pointer": "/source_review/notes",
+            "record_identity": null
+          },
+          "content_sha256": "ae8855c4ce45184245a61944a1b3cf0c6ddca6068419a8e652188bb354b1c8c3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

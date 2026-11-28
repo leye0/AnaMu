@@ -1,0 +1,762 @@
+{
+  "source_document": "docs/course-material-source-trail.md",
+  "units": [
+    {
+      "id": "material:0003438",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Repérage des supports de cours",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Relevé du 10 novembre 2026. Les [fiches par cours](data/course-material-progress.json) donnent le statut canonique. Ce relevé conserve les pistes d’accès et les limites des sources déjà examinées pour poursuivre la recherche cours par cours",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:27f96d1e3bb742b0342afd70",
+            "heading_path": [
+              "Repérage des supports de cours"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 219
+          },
+          "content_sha256": "e215d7106e5db176fa419f2caedad3fd2cc02ea136874e0595b291a91299b780",
+          "body_sha256": "0faed6d279cb02ca946ecd89c70fe1cbc1d850cf2a3e80bd0cb1b35219c456e2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003439",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Université de Montréal · Composition A26",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Les recherches publiques par sigles et par intitulés, y compris des recherches ciblées de plans et de supports sur les sites UdeM, ont ramené principalement les notices institutionnelles. Le guide confirme un cadre de formation et d’évaluat",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:741efeede22031d81cd8fec1",
+            "heading_path": [
+              "Repérage des supports de cours",
+              "Université de Montréal · Composition A26"
+            ],
+            "start_line": 5,
+            "end_line": 20,
+            "subtree_end_line": 20
+          },
+          "content_sha256": "9fc2ebf7f7868cd8941175bf2ccb37e9af588247accab2caa32a6aebe7d2fb43",
+          "body_sha256": "bbbc68dfc7f3be6e051284f6b4854a86df19ef8cfaa74ce9d0948f6b8d256d8f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003440",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "McGill · Composition 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Plusieurs pages du catalogue McGill n’exposaient que l’écran JavaScript ou une erreur lors de la consultation automatisée. La page des exigences de l’École Schulich permet de consulter les descriptions institutionnelles. Le diagnostic sur M",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1c9fb7364876b2d763fceb79",
+            "heading_path": [
+              "Repérage des supports de cours",
+              "McGill · Composition 2026"
+            ],
+            "start_line": 21,
+            "end_line": 33,
+            "subtree_end_line": 33
+          },
+          "content_sha256": "0313c7b68fe59d0444bb4bbd1834643fb2936c363209f84c2e5956e72b593c07",
+          "body_sha256": "dd84468223f521ed2ff8e6db9e630a9173a60d016d695b0eedeaff6e93cba2f2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003441",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Berklee · options de majeure",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : La [page officielle des exigences du B.Mus. Composition](https://college.berklee.edu/program-requirements/composition-bachelors-degree) donne les familles CM, CP, COND, MLAN et MHIS non déjà suivies dans la majeure et cite aussi CW-247, CW-",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6a8b085618b83a8a3357554c",
+            "heading_path": [
+              "Repérage des supports de cours",
+              "Berklee · options de majeure"
+            ],
+            "start_line": 34,
+            "end_line": 50,
+            "subtree_end_line": 50
+          },
+          "content_sha256": "9c05b7499849af1569c6a6c975973058eefe26a1a5b7a4da88b4e0f1c49c99e6",
+          "body_sha256": "46d93cb579685762b5b87faaff4c2dc761afa1cff9a4e1005b6f3b667dacc8db",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003442",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Documents pédagogiques complémentaires et accès",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Berklee, études dirigées en composition](courses/berklee/CM-398.md). Le programme du concert de 2022 et sa captation illustrent les effectifs et formats des œuvres du séminaire. Les [exigences de portfolio](https://college.berklee.edu/co",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9c752b052a872754a8e8614f",
+            "heading_path": [
+              "Repérage des supports de cours",
+              "Documents pédagogiques complémentaires et accès"
+            ],
+            "start_line": 51,
+            "end_line": 58,
+            "subtree_end_line": 58
+          },
+          "content_sha256": "dc2ef33792223d1b6650be4caec13344a5d5c0340d27c67c0ca06763e5a6aea2",
+          "body_sha256": "d74305809bc809e9e494907632496635f30d3779442aeb705bedcc09218d9396",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003443",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "UdeM · plans de séminaires et éditions",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : La [page des séminaires 2026–2027](https://musique.umontreal.ca/etudier/nos-programmes-detudes/seminaires/) lie des PDF par sigle. Suivre les liens des deux trimestres et contrôler les sigles imprimés dans les documents, en particulier lors",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1a46d33e72ea74f6e4bcaaf6",
+            "heading_path": [
+              "Repérage des supports de cours",
+              "UdeM · plans de séminaires et éditions"
+            ],
+            "start_line": 59,
+            "end_line": 68,
+            "subtree_end_line": 74
+          },
+          "content_sha256": "7489443ade3fef58792690cbb2d8e4d5d2617f752d68be1e01c7ad58e562b988",
+          "body_sha256": "98597d49aa0920864ac7b04f1b0283075a4559f2930dc97ff8b9c77aa4a0645d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003444",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Options de pratique musicale du bloc 75H",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Auditions des ensembles, UdeM](https://musique.umontreal.ca/no_cache/etudier/espace-etudiant/auditions-et-rencontres-prealables-a-la-participation-aux-ensembles/). Donne les modalités d’entrée par ensemble et des exemples de tâches. La c",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b6ea2ec8eeae7aa8e7f94f8e",
+            "heading_path": [
+              "Repérage des supports de cours",
+              "UdeM · plans de séminaires et éditions",
+              "Options de pratique musicale du bloc 75H"
+            ],
+            "start_line": 69,
+            "end_line": 74,
+            "subtree_end_line": 74
+          },
+          "content_sha256": "1412d7936f3410b8757e9fc3af0fbe41e256c8926a0fdcf63a8afc1768efd566",
+          "body_sha256": "608583275d507a5b95e823c093017188b6ed08197e38b0f26cc6e513bc4490d5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003445",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Harmonie, écoute et composition · pistes de section",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Berklee, table de transfert Valencia → Berklee Online](https://assets.online.berklee.edu/study-abroad/berklee-online-valencia-equivalencies.pdf). Les correspondances comprennent CM-211/212, CP-210 et HR-211/212. Les plans en ligne détail",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:91404dd8e415e6ede6651e62",
+            "heading_path": [
+              "Repérage des supports de cours",
+              "Harmonie, écoute et composition · pistes de section"
+            ],
+            "start_line": 75,
+            "end_line": 81,
+            "subtree_end_line": 81
+          },
+          "content_sha256": "016540cdce79393a7317cf87d3d9e0a9f5379a03e8662fe9a1cd1848d3bec42c",
+          "body_sha256": "13b26ecf7c36b64f1d02bfe24b58fa001e9e9fc3301e0e407d4e1e59f29583d4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003446",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Direction, orchestration et productions de classe",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - Les plans [M-SK 0991](https://apolyakov.com/wp-content/uploads/2023/09/APu_Handout-Conducting-1-syllabus-2023.docx-1-1-1.pdf) et [M-SK 0992](https://apolyakov.com/wp-content/uploads/2025/01/Spring-2024-M-SK-0992-5-Conducting-2-1.pdf) du B",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:42133d2565cf10ff0754191b",
+            "heading_path": [
+              "Repérage des supports de cours",
+              "Direction, orchestration et productions de classe"
+            ],
+            "start_line": 82,
+            "end_line": 88,
+            "subtree_end_line": 88
+          },
+          "content_sha256": "c5d9b1069644bfc0534fec18f3119ce477acb3ff7dad58fccaa21ac7bf2f093f",
+          "body_sha256": "4167841111240d6283a1886c4d8d0a32983ac55a8ad03628bf33ed4fbe1eb6cc",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003447",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Histoire de la musique, formation auditive et composition tonale",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [MUL 3333X, édition A24](courses/udem/MUL-3333X.md). Plan de section avec calendrier par semaine, lectures, consignes de synthèse et grille d’évaluation. Le plan-cadre H27 conserve sa propre pondération indicative.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:745dfe0be8603990c73faeb2",
+            "heading_path": [
+              "Repérage des supports de cours",
+              "Histoire de la musique, formation auditive et composition tonale"
+            ],
+            "start_line": 89,
+            "end_line": 95,
+            "subtree_end_line": 95
+          },
+          "content_sha256": "36d260791e2012b6dc49fa5d8e3593664760ae126baa4a02e6d7f72f917472ac",
+          "body_sha256": "4e55692bfcca70cbec5ed7a0687b9127023a793622153e3c62f21c2ac28af131",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003448",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Pratique d’ensemble · sources par type de document",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [MUE 1441](courses/udem/MUE-1441.md) relie le programme orchestral 2026–2027 aux œuvres annoncées et distingue les cahiers de traits d’audition, avec parties par instrument. Le programme de saison en PDF est accessible même si la page du",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c84e6ddf4158feb5d9246262",
+            "heading_path": [
+              "Repérage des supports de cours",
+              "Pratique d’ensemble · sources par type de document"
+            ],
+            "start_line": 96,
+            "end_line": 102,
+            "subtree_end_line": 102
+          },
+          "content_sha256": "053e95af635d12c7e78cc850244b7dcf3c9ea7189a1c1e0c27904467256f0e88",
+          "body_sha256": "5f90843e966abea581258e878660ef8886301242ba7c5a566624def6d3dac11e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003449",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Écriture, jazz et analyse — nouvelle passe du 10 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Vingt-deux dossiers traités (19 nouvelles fiches et 3 compléments), dont 17 passages de catalogue à documentation partielle. Aucun nouveau syllabus du cours cible n’est déclaré obtenu. Cinq fiches de recherche restent au catalogue : MCT 160",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d4ca6d741630b8a866e5ec1f",
+            "heading_path": [
+              "Repérage des supports de cours",
+              "Écriture, jazz et analyse — nouvelle passe du 10 novembre 2026"
+            ],
+            "start_line": 103,
+            "end_line": 118,
+            "subtree_end_line": 118
+          },
+          "content_sha256": "194870ebf54682ba26a156b017019fdaee5eed000499ad510ac17ea49111e243",
+          "body_sha256": "3158beb96e3e3194f8e981c54e6846881f690c22c4398f3e5cf008491fce9345",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003450",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Ateliers, son, cinéma et solfège — passe complémentaire du 10 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **22 nouvelles fiches** : neuf cours passent à la documentation partielle ; treize conservent le statut catalogue avec leurs liens et lacunes. Aucun syllabus cible supplémentaire n’est déclaré obtenu. Le registre conserve ses 332 entrées et",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a5733e4b60953ac9f75aada5",
+            "heading_path": [
+              "Repérage des supports de cours",
+              "Ateliers, son, cinéma et solfège — passe complémentaire du 10 novembre 2026"
+            ],
+            "start_line": 119,
+            "end_line": 137,
+            "subtree_end_line": 137
+          },
+          "content_sha256": "8556cd2c4fca5885e09cba500035de5a97bb8e284c841e54e4dfdb3e6024dba4",
+          "body_sha256": "19a425f3466a015d0d1dff05eeea45a540690910edb905b62c49f4610b00587f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003451",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sociomusicologie, acoustique et cultures musicales — 10 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **17 fiches créées** : un syllabus historique du cours cible (MUL 3334, H23), neuf fiches partielles et sept recherches au catalogue. Le registre passe à **12 syllabus documentés, 171 fiches partielles et 149 entrées au catalogue**, sans aj",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0df02e19be657b277f56f27b",
+            "heading_path": [
+              "Repérage des supports de cours",
+              "Sociomusicologie, acoustique et cultures musicales — 10 novembre 2026"
+            ],
+            "start_line": 138,
+            "end_line": 154,
+            "subtree_end_line": 154
+          },
+          "content_sha256": "561fb2122a72def2940154da7163ec76d62467e5ef7a540e832f86c5c63f1a4f",
+          "body_sha256": "cac9307439486a7ea79f8d443dc6c2d66492a628c3207a038627b8a79e3453f6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003452",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Analyse tonale, orchestration historique, musicothérapie, médiation et pratique — 10/11 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Douze fiches supplémentaires** au fil de l'examen des liens, dont **sept** passent du catalogue à une preuve pédagogique **partielle**, **une** à un **plan de cours du sigle exact (édition historique H25)** et **quatre** gardent explicite",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9fe524f83eb238c242c59929",
+            "heading_path": [
+              "Repérage des supports de cours",
+              "Analyse tonale, orchestration historique, musicothérapie, médiation et pratique — 10/11 novembre 2026"
+            ],
+            "start_line": 155,
+            "end_line": 173,
+            "subtree_end_line": 173
+          },
+          "content_sha256": "77c03923883aa5a78f119cf19863ec83a7d936e1c08285db4400813c13bc3198",
+          "body_sha256": "bd6186dfe2874fa4ce56136c03520ed13a8418f5c26a084709ad6925edac45f7",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003453",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Complément UdeM et déploiement des options Berklee — 11 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Mise à jour du registre : 402 codes**, contre 332 avant l'intégration des 70 candidats Berklee ; 13 syllabus d'un code cible, 193 dossiers partiels et 196 au catalogue. La liste [Berklee majeure : 83 candidats](berklee-major-elective-cand",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:da1d7e3c5264b7d9caae65de",
+            "heading_path": [
+              "Repérage des supports de cours",
+              "Complément UdeM et déploiement des options Berklee — 11 novembre 2026"
+            ],
+            "start_line": 174,
+            "end_line": 194,
+            "subtree_end_line": 194
+          },
+          "content_sha256": "fb905940addf4778e845c4699def793ce36cb64f67dce4e8365ed0ae84aa1768",
+          "body_sha256": "96040611e6d8bb8eeb260b7ef48dd3116716be6b87b3e8c6f93835d81ac37859",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003454",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "McGill — examen de concentration MUIN 283 (sources instrumentales, novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : La [fiche MUIN 283](courses/mcgill/MUIN-283.md) documente désormais des **consignes et répertoires d'examen propres aux instruments** : [jazz, révision 2025](https://www.mcgill.ca/music/files/music/jazz_exam_guidelines_revised_10-sep-2025_.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:700f5fa3a65c47c4291f3330",
+            "heading_path": [
+              "Repérage des supports de cours",
+              "McGill — examen de concentration MUIN 283 (sources instrumentales, novembre 2026)"
+            ],
+            "start_line": 195,
+            "end_line": 198,
+            "subtree_end_line": 202
+          },
+          "content_sha256": "e884e8688071dd886306ce42e1b4c7abf9a2288a403eedb8c2d096ff7ff61e3e",
+          "body_sha256": "214b56381d530508e94a3547f431fd498c1aa797c91934f8936adbce55a5c5c5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003455",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Complément de répertoires MUIN 283 : bois, cuivres, musique ancienne et chant jazz",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Les exigences spécialisées ont été résumées directement dans la [fiche MUIN 283](courses/mcgill/MUIN-283.md), **sans inventer de syllabus de leçons**. Les guides consultés sont [cuivres 2019](https://www.mcgill.ca/music/files/music/brass_ex",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e55419700be1fd439bcac104",
+            "heading_path": [
+              "Repérage des supports de cours",
+              "McGill — examen de concentration MUIN 283 (sources instrumentales, novembre 2026)",
+              "Complément de répertoires MUIN 283 : bois, cuivres, musique ancienne et chant jazz"
+            ],
+            "start_line": 199,
+            "end_line": 202,
+            "subtree_end_line": 202
+          },
+          "content_sha256": "18bed78f646a9d15c24f50a13d87b20dd322ace079cd63f3d72f91f799be60e4",
+          "body_sha256": "3eec38dd63fe75f1e2df655c3d068b0b6d08eed107753e7e9d87c55ee39bd232",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003456",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Berklee Boston — options chorales et vocales (10 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Les fiches [CM-351](courses/berklee/CM-351.md) et [CM-355](courses/berklee/CM-355.md) disposent maintenant de notes de collecte distinguant les preuves **du catalogue Boston** (composition chorale finale traditionnelle pour CM-351 ; passage",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a9105222653dffa80f7de425",
+            "heading_path": [
+              "Repérage des supports de cours",
+              "Berklee Boston — options chorales et vocales (10 novembre 2026)"
+            ],
+            "start_line": 203,
+            "end_line": 206,
+            "subtree_end_line": 206
+          },
+          "content_sha256": "46adf60edcb9696aca3a51b7354d25a8aef21377f2b1ef5af82b4d8a12ba4b07",
+          "body_sha256": "a3ef660b6be384d693b9ddc9e6a5eade54bcad7bc1c3194161b135ef16ec2614",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003457",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources de devoirs détaillés en électroacoustique : MIT 21M.361 (printemps 2008)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : La [fiche complémentaire MIT 21M.361](courses/mit/21M-361.md) synthétise **treize consignes originales d'exercices**, réparties en cinq modules et documentées par liens vers les pages d'assignments OpenCourseWare. À la différence d'un catal",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c4e1f789f09db66dbd71d734",
+            "heading_path": [
+              "Repérage des supports de cours",
+              "Sources de devoirs détaillés en électroacoustique : MIT 21M.361 (printemps 2008)"
+            ],
+            "start_line": 207,
+            "end_line": 212,
+            "subtree_end_line": 212
+          },
+          "content_sha256": "c582ee13e29c9642071bb7609ae8cbeef2cf4c6a0893185c78f7a35f35367424",
+          "body_sha256": "89ce2c6965eac44a0da0a295da5ff1e81b2f79e51e7e46cd0b4b9863c05c7752",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003458",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Approfondissement de syllabus UdeM vérifiés dans les sources primaires — 10 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : La [fiche MUS 3326X, section A de l'automne 2026](courses/udem/MUS-3326X.md) détaille désormais le **calendrier des douze séances 0–11**, les activités de synthèse, enveloppes, MIDI, patterns, stochastique, buffers, granulation, OSC et bus",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/course-material-source-trail.md",
+          "document_sha256": "a04fcc8d42ce71222dd392fd2ac640390af94476a9d0619dbe620112944b048d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5ebdca5134e2e932e3f4e6ff",
+            "heading_path": [
+              "Repérage des supports de cours",
+              "Approfondissement de syllabus UdeM vérifiés dans les sources primaires — 10 novembre 2026"
+            ],
+            "start_line": 213,
+            "end_line": 219,
+            "subtree_end_line": 219
+          },
+          "content_sha256": "35d2205163547fa011394b0f484e35dee56dd6e92a1abf5cd267c57f69491adf",
+          "body_sha256": "43d848fd414e996e307bbf24a9470688d0c82e4451f2cc6edc5c2f7b8f53a0d0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

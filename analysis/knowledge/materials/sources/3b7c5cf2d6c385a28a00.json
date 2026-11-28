@@ -1,0 +1,258 @@
+{
+  "source_document": "docs/courses/udem/MUE-1153.md",
+  "units": [
+    {
+      "id": "material:0002495",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUE 1153 — Atelier de musique baroque",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Université de Montréal, option 75H de Composition A26. Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUE-1153.md",
+          "document_sha256": "f6b7ac223c88f94b8f6aa6f2d667a0dc53c7c389387b98ee56521e98456b494c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d787621260a9b50998711751",
+            "heading_path": [
+              "MUE 1153 — Atelier de musique baroque"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 39
+          },
+          "content_sha256": "69d5904ef57c928f6cc5f91c93447e70e15d35d14d5d487f123d692b3d3ea4ad",
+          "body_sha256": "bc6a9ca294be08b425079789dbc84ddd3320eab050d4bef7345e39ee1db1e9b0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002496",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Pratique et répertoire documentés",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le [programme Le mythe d’Orphée, 30 octobre 2021](https://musique.umontreal.ca/concerts-et-evenements/programmes-de-concerts/le-mythe-dorphee-samedi-30-octobre-2021/) identifie l’Atelier et détaille des extraits de L’Orfeo de Monteverdi, do",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUE-1153.md",
+          "document_sha256": "f6b7ac223c88f94b8f6aa6f2d667a0dc53c7c389387b98ee56521e98456b494c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4d4e37d882fdf68e58606b59",
+            "heading_path": [
+              "MUE 1153 — Atelier de musique baroque",
+              "Pratique et répertoire documentés"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 8
+          },
+          "content_sha256": "1bbd83e85f921959e4196b89f451d42e8dd601b4dc5df3dda754a996e68d7ceb",
+          "body_sha256": "9ba53d905fb2ccc68a8c072a3339726e331b9dd0fda63471b496d720847fafc8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002497",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Les œuvres sont attribuées à l’atelier, avec répartition par section inconnue. Chercher les parties, consignes de jeu et critères propres au niveau.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUE-1153.md",
+          "document_sha256": "f6b7ac223c88f94b8f6aa6f2d667a0dc53c7c389387b98ee56521e98456b494c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3eecb408163362812a5aa050",
+            "heading_path": [
+              "MUE 1153 — Atelier de musique baroque",
+              "Lacunes"
+            ],
+            "start_line": 9,
+            "end_line": 12,
+            "subtree_end_line": 12
+          },
+          "content_sha256": "68cdd702e43103390a1eb04ba2e608d37ae041e8efca4d30122f1468214d302a",
+          "body_sha256": "ebb3959ecc699f34b3abe745faefe2cdaf7b8bef2177e3a9619ac3be1aa6e85b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002498",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Syllabus UdeM complémentaire d'interprétation ancienne — provenance séparée",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le [plan A21 du séminaire MIN6956](../udem-supplementary/MIN-6956-A21.md) fait réellement étudier articulation, phrasé, agogique, ornementation, basse continue, éditions, systèmes d'intonation et traités historiques (Harnoncourt, Quantz, C.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUE-1153.md",
+          "document_sha256": "f6b7ac223c88f94b8f6aa6f2d667a0dc53c7c389387b98ee56521e98456b494c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ccf306e1fd5896b7d42c04d3",
+            "heading_path": [
+              "MUE 1153 — Atelier de musique baroque",
+              "Syllabus UdeM complémentaire d'interprétation ancienne — provenance séparée"
+            ],
+            "start_line": 13,
+            "end_line": 16,
+            "subtree_end_line": 16
+          },
+          "content_sha256": "daa9277477e5473df7218f75473713f5070200b70590498f7200f04525cb8edb",
+          "body_sha256": "44fdf38c31907044cc2ead4fc348f8cf943bb3e371fd4b625a0badbbc4db5397",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002499",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — première évaluation (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Périmètre et preuve attribuée au code.** Même programme UdeM 2021 : toccata, ritournelles, airs, mise en scène et chorégraphie; aucun contenu distinct d'un supposé niveau avancé 1153 n'est publié. Les éléments ci-dessous sont une **propos",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUE-1153.md",
+          "document_sha256": "f6b7ac223c88f94b8f6aa6f2d667a0dc53c7c389387b98ee56521e98456b494c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8bfce07c908ab20b0d744b3d",
+            "heading_path": [
+              "MUE 1153 — Atelier de musique baroque",
+              "Application à l'analyse et à la création — première évaluation (12 novembre 2026)"
+            ],
+            "start_line": 17,
+            "end_line": 20,
+            "subtree_end_line": 39
+          },
+          "content_sha256": "c7026655db99f665724110e1a1e810689a81db76100226a706cb9c45d73e9302",
+          "body_sha256": "f0e474fda1e193aa1e44c380274b8b0174846a98196b9b0f6bb362a25504df57",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002500",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 1 — Coordination baroque et interaction scène–musique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyse de musique existante — entrées, méthode et limites.** Entrées : vidéo de concert, partition de la pièce et minutage scénique. Annoter les entrées musicales et les gestes de scène, les pauses d'écoute et passages instrumentaux; exa",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUE-1153.md",
+          "document_sha256": "f6b7ac223c88f94b8f6aa6f2d667a0dc53c7c389387b98ee56521e98456b494c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e3655ed1ec8d93656b783e8f",
+            "heading_path": [
+              "MUE 1153 — Atelier de musique baroque",
+              "Application à l'analyse et à la création — première évaluation (12 novembre 2026)",
+              "Apprentissage 1 — Coordination baroque et interaction scène–musique"
+            ],
+            "start_line": 21,
+            "end_line": 28,
+            "subtree_end_line": 28
+          },
+          "content_sha256": "78eb391e794f4febee709404d09d79265a1618df01cffc0d63320c8a7a1b97c1",
+          "body_sha256": "485dd3781d380b8ed6b2dfda61011e7e57134be5a61c7e9d8cd19809eed1d75d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002501",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict provisoire",
+      "title_origin": "source_heading_or_key",
+      "description": "Titre ou passage sans description éditoriale vérifiée.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUE-1153.md",
+          "document_sha256": "f6b7ac223c88f94b8f6aa6f2d667a0dc53c7c389387b98ee56521e98456b494c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:23645851b0df074fe41e46f4",
+            "heading_path": [
+              "MUE 1153 — Atelier de musique baroque",
+              "Application à l'analyse et à la création — première évaluation (12 novembre 2026)",
+              "Verdict provisoire"
+            ],
+            "start_line": 29,
+            "end_line": 39,
+            "subtree_end_line": 39
+          },
+          "content_sha256": "135d34e13a1fe16093239875b8ff797ff13bb3026bc3ddf8073eb57c91c5ce81",
+          "body_sha256": "014777302c76d8741a4b9d23403fdc7fc418c6d4d0a1b38c5dc5acd9c0987bfb",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

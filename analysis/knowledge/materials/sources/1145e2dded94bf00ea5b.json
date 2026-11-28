@@ -1,0 +1,406 @@
+{
+  "source_document": "docs/courses/berklee/FILM-405.md",
+  "units": [
+    {
+      "id": "material:0001362",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "FILM-405 — Scoring Technology 3",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Berklee College of Music, candidat de spécialité voisine dans l’inventaire 2026, 2 crédits. Statut dans la majeure Composition à vérifier séparément de sa pertinence musicale. Consultation : 10 novembre 2026. **Documentation partielle. Syll",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/FILM-405.md",
+          "document_sha256": "c7a4ded26dde5b2d71beecff58b342ce4566286a1f1144c4238c195834a29c1a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0ec1ced557fb24decb2dfb81",
+            "heading_path": [
+              "FILM-405 — Scoring Technology 3"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 99
+          },
+          "content_sha256": "cd811d4bd7b89cf350a23cfdabba5bb40dafd3901fd10319b8bcca32475c7439",
+          "body_sha256": "f93bada450dac64a97adab9a9a0bfb35058a204a68fabc7b781837fb0c76d618",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001363",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources et contenu accessible",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Notice officielle](https://college.berklee.edu/courses/film-405) — Montage musical pour film avec musique originale ou temporaire, synchronisation sur station audio et documents de postproduction. Préalables : FILM-305/307/340 ; concomit",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/FILM-405.md",
+          "document_sha256": "c7a4ded26dde5b2d71beecff58b342ce4566286a1f1144c4238c195834a29c1a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e5ef056c8cd304604491b02a",
+            "heading_path": [
+              "FILM-405 — Scoring Technology 3",
+              "Sources et contenu accessible"
+            ],
+            "start_line": 5,
+            "end_line": 9,
+            "subtree_end_line": 9
+          },
+          "content_sha256": "f84e45afc64735cf7ef2fce3cbae9b7f241fb49636c3cf0874ac16961f2e45e3",
+          "body_sha256": "495250dd281138166c18188bf37e07027ad39c118168a05102cb5e71ed85d7c8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001364",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Limites et reprise",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Obtenir les modèles de documents, sessions de laboratoire et critères de livraison du cours Boston. Les fichiers d’exercice du plan parallèle ne sont pas acquis ; les autres volets de postproduction ne sont pas attribués à FILM-405 par hypo",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/FILM-405.md",
+          "document_sha256": "c7a4ded26dde5b2d71beecff58b342ce4566286a1f1144c4238c195834a29c1a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3275c3934348ce159f66635f",
+            "heading_path": [
+              "FILM-405 — Scoring Technology 3",
+              "Limites et reprise"
+            ],
+            "start_line": 10,
+            "end_line": 14,
+            "subtree_end_line": 14
+          },
+          "content_sha256": "1b93ff00a332283e2978e66f340ff397ec2cc5a15a785ce90148c136d9fc6fd7",
+          "body_sha256": "dc216a9e7570ba0eb85fb5324b32a43d5cde223ee7a996a02f4d9252409ba30f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001365",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — analyse documentée hors MIDI isolé (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cours : FILM-405. Apport :** directe à l'édition et à la production musicale sur image, mais pas démontrable par un MIDI seul. **Preuve :** [notice officielle Scoring Technology 3 : montage original/temporaire, synchronisation sur station",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/FILM-405.md",
+          "document_sha256": "c7a4ded26dde5b2d71beecff58b342ce4566286a1f1144c4238c195834a29c1a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7d516ea5f1095cba340ef4c1",
+            "heading_path": [
+              "FILM-405 — Scoring Technology 3",
+              "Application à l'analyse et à la création — analyse documentée hors MIDI isolé (12 novembre 2026)"
+            ],
+            "start_line": 15,
+            "end_line": 18,
+            "subtree_end_line": 46
+          },
+          "content_sha256": "f21867ff130ad3cd109ea5da0a12381dff824f7590be667459b288df5d14f761",
+          "body_sha256": "c0f7278ae6eeffa2cb7f9d4afb79caa006c106add917eaf5cceb952358c4dd7e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001366",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage ou domaine 1 — Montage musical et synchronisation sur station audio",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance :** apprentissage annoncé ou procédure adaptée au domaine, sans consigne de section attribuée. **Catégorie :** `AUDIO_REQUIRED / CONTEXT_REQUIRED / MIDI_PROXY` (`VIDEO_REQUIRED` est une précision de format associée à `CONTEXT_R",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/FILM-405.md",
+          "document_sha256": "c7a4ded26dde5b2d71beecff58b342ce4566286a1f1144c4238c195834a29c1a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b25c7dcc7088759629c0c253",
+            "heading_path": [
+              "FILM-405 — Scoring Technology 3",
+              "Application à l'analyse et à la création — analyse documentée hors MIDI isolé (12 novembre 2026)",
+              "Apprentissage ou domaine 1 — Montage musical et synchronisation sur station audio"
+            ],
+            "start_line": 19,
+            "end_line": 28,
+            "subtree_end_line": 28
+          },
+          "content_sha256": "28792de3e72d3274eaa8c5bf1854b68c6be7750cfec4f2b439c136c4a56f5f4f",
+          "body_sha256": "4455173a03800346e8be92f3f61b552338a7d68642c7d35e6b2035d14bf82223",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001367",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage ou domaine 2 — Préparer les éléments de postproduction et les livrables",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance :** apprentissage annoncé ou procédure adaptée au domaine, sans consigne de section attribuée. **Catégorie :** `AUDIO_REQUIRED / CONTEXT_REQUIRED` (`VIDEO_REQUIRED` est une précision de format associée à `CONTEXT_REQUIRED`).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/FILM-405.md",
+          "document_sha256": "c7a4ded26dde5b2d71beecff58b342ce4566286a1f1144c4238c195834a29c1a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b69c82315f2317a50b481215",
+            "heading_path": [
+              "FILM-405 — Scoring Technology 3",
+              "Application à l'analyse et à la création — analyse documentée hors MIDI isolé (12 novembre 2026)",
+              "Apprentissage ou domaine 2 — Préparer les éléments de postproduction et les livrables"
+            ],
+            "start_line": 29,
+            "end_line": 38,
+            "subtree_end_line": 38
+          },
+          "content_sha256": "627e60bc01a4478afd9155b6502d2ad113863af0ed461e9b71edf3ff272be6d9",
+          "body_sha256": "64c75c37d3632cd6ec840fd1eafc1ae99a9c11e553ba0043ec0a0c422e978661",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001368",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Contribution :** directe à l'édition et à la production musicale sur image, mais pas démontrable par un MIDI seul.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/FILM-405.md",
+          "document_sha256": "c7a4ded26dde5b2d71beecff58b342ce4566286a1f1144c4238c195834a29c1a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f950526d26f22eb073741c90",
+            "heading_path": [
+              "FILM-405 — Scoring Technology 3",
+              "Application à l'analyse et à la création — analyse documentée hors MIDI isolé (12 novembre 2026)",
+              "Verdict"
+            ],
+            "start_line": 39,
+            "end_line": 46,
+            "subtree_end_line": 46
+          },
+          "content_sha256": "908b1c866d793faf1436193c745bdeda854a35a372525177e8fedfe995de1234",
+          "body_sha256": "e4b863969d5a5b47a8fb7939fb0bd7ef10648c49d7f45fe962a92161f9947160",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001369",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deuxième passe qualitative — preuve, méthode et réfutation (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source directe :** [FILM-405 — Scoring Technology 3](https://college.berklee.edu/courses/film-405). **Provenance :** Notice officielle : montage de musique originale et temporaire sur image dans une station audio, synchronisation, prépara",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/FILM-405.md",
+          "document_sha256": "c7a4ded26dde5b2d71beecff58b342ce4566286a1f1144c4238c195834a29c1a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:dcb55c4c3dcfb29d0764c6df",
+            "heading_path": [
+              "FILM-405 — Scoring Technology 3",
+              "Deuxième passe qualitative — preuve, méthode et réfutation (12 novembre 2026)"
+            ],
+            "start_line": 47,
+            "end_line": 50,
+            "subtree_end_line": 99
+          },
+          "content_sha256": "eb7249802a358dfe1c4d97ca0d8431f39beae0bfd94a3ec98907e64bb05b606c",
+          "body_sha256": "f875bbafa1e9b8980435564b89b836d60e69a65b39a7a9971d3fdde00561576e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001370",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q1 — Montage musical : localiser un splice, un fondu et le hit visuel",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Apprentissage attesté et périmètre.** Montage et synchronisation audio sur image expressément attribués à FILM-405.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/FILM-405.md",
+          "document_sha256": "c7a4ded26dde5b2d71beecff58b342ce4566286a1f1144c4238c195834a29c1a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7f3ec826c0a752115e73f565",
+            "heading_path": [
+              "FILM-405 — Scoring Technology 3",
+              "Deuxième passe qualitative — preuve, méthode et réfutation (12 novembre 2026)",
+              "Q1 — Montage musical : localiser un splice, un fondu et le hit visuel"
+            ],
+            "start_line": 51,
+            "end_line": 66,
+            "subtree_end_line": 66
+          },
+          "content_sha256": "d09892560e94c424b98f84994a3a3dac965a5ff6dffdd84c4b49db49e75f0227",
+          "body_sha256": "1863b27967ff397122a0e36211512eb05a227bff87ba199d563b1eddd6bb600d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001371",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q2 — Tempo/montage : distinguer recalage audio, modification de tempo et changement de durée",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Apprentissage attesté et périmètre.** La synchronisation au montage fait partie de la notice, mais les fonctions avancées précises du logiciel ne sont pas énumérées comme devoirs.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/FILM-405.md",
+          "document_sha256": "c7a4ded26dde5b2d71beecff58b342ce4566286a1f1144c4238c195834a29c1a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c302a26359b5ad23e7b827a5",
+            "heading_path": [
+              "FILM-405 — Scoring Technology 3",
+              "Deuxième passe qualitative — preuve, méthode et réfutation (12 novembre 2026)",
+              "Q2 — Tempo/montage : distinguer recalage audio, modification de tempo et changement de durée"
+            ],
+            "start_line": 67,
+            "end_line": 82,
+            "subtree_end_line": 82
+          },
+          "content_sha256": "770cf6d863dd2325cec73982571d05c3fcfb4a9d0c93a1b47b822a74da010bf1",
+          "body_sha256": "3191dcd8d045118ee32dee077157cff2b04e149216a83106ef8c15e4586b6978",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001372",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q3 — Documents de postproduction et livraison reproductible",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Apprentissage attesté et périmètre.** Préparation de documents de postproduction explicitement nommée; aucune nomenclature ou format exact n'est publié par la section.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/FILM-405.md",
+          "document_sha256": "c7a4ded26dde5b2d71beecff58b342ce4566286a1f1144c4238c195834a29c1a",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:06363b4c452f109e17b2a211",
+            "heading_path": [
+              "FILM-405 — Scoring Technology 3",
+              "Deuxième passe qualitative — preuve, méthode et réfutation (12 novembre 2026)",
+              "Q3 — Documents de postproduction et livraison reproductible"
+            ],
+            "start_line": 83,
+            "end_line": 99,
+            "subtree_end_line": 99
+          },
+          "content_sha256": "e6ba38d1cb3a6268a8b172a1fb61a1c2e4f9e148e2464bbf22b176b56415c5a1",
+          "body_sha256": "aa3bf1185f7a5d01167a6b176ea42f54a0720c70bb155a8644386964dfe1b830",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

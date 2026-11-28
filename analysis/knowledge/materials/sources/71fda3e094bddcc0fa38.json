@@ -1,0 +1,404 @@
+{
+  "source_document": "docs/courses/berklee/AR-201.md",
+  "units": [
+    {
+      "id": "material:0000716",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "AR-201 — Chord Scale Voicings for Arranging",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Berklee College of Music, inventaire candidat 2026 : cours de composition/arrangement ou spécialité voisine. Pertinence musicale distincte de l’admissibilité dans un parcours. Consultation : 10 novembre 2026. **Documentation partielle : syl",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-201.md",
+          "document_sha256": "01b99e1f5bfe0f71af58b217deb853784e3b964970f06b0cd5f2b03b12f0e260",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:759bc06de78cf155cbb57491",
+            "heading_path": [
+              "AR-201 — Chord Scale Voicings for Arranging"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 93
+          },
+          "content_sha256": "d2ba774409fcd36aa75d05d74a52a978c4da80b7082d893d66a464cb41600b46",
+          "body_sha256": "a8cbbfca1272a98b2ce2547f1e2d9305e0a57446202304abbb3b191b08fc5c3e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000717",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources et matière accessible",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Notice officielle Boston](https://college.berklee.edu/courses/ar-201) — Écriture instrumentale à cinq/six parties ; secondes, tierces, quartes, triades supérieures, clusters et voicings issus des accords-gammes, avec analyse de partition",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-201.md",
+          "document_sha256": "01b99e1f5bfe0f71af58b217deb853784e3b964970f06b0cd5f2b03b12f0e260",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e9756fda35d1906dd4ca80ce",
+            "heading_path": [
+              "AR-201 — Chord Scale Voicings for Arranging",
+              "Sources et matière accessible"
+            ],
+            "start_line": 5,
+            "end_line": 11,
+            "subtree_end_line": 11
+          },
+          "content_sha256": "0c8006c20672f0b45efd0901289eb3c76a7c95cd99720921dfb43d07ea7ab7d4",
+          "body_sha256": "16741add2473cc4059bedb8a723747f3091550cc657cea0f135832f5c19b4088",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000718",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes et suite",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Les clusters, les cinq/six parties et les analyses propres à AR-201 ne sont pas documentés intégralement. Syllabus de section, bibliographie, répertoire précis, sujets complets et barèmes encore inconnus. Les recoupements partiels ne clôtur",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-201.md",
+          "document_sha256": "01b99e1f5bfe0f71af58b217deb853784e3b964970f06b0cd5f2b03b12f0e260",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ae4c2f2cce2a64197c6bc1a5",
+            "heading_path": [
+              "AR-201 — Chord Scale Voicings for Arranging",
+              "Lacunes et suite"
+            ],
+            "start_line": 12,
+            "end_line": 16,
+            "subtree_end_line": 16
+          },
+          "content_sha256": "d4e42b25126f38777fea43cbafcf15ab6c5c2c3b3ee2164093bed28b64bc9dbf",
+          "body_sha256": "b35e24286cac0ca4fea1073fcb1cf7360ebfd78b9ce3dbbd72b60a1d2111aeb2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000719",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — étude du contenu attesté (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Apport : direct aux compétences d'analyse et de création.** [Notice institutionnelle du cours](https://college.berklee.edu/courses/ar-201) ; [exemple MIDI original pour AnaMu](./AR-201/exemple.mid) — **pas un exercice, ni une œuvre du pro",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-201.md",
+          "document_sha256": "01b99e1f5bfe0f71af58b217deb853784e3b964970f06b0cd5f2b03b12f0e260",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:808aa5c1ae5c9a3eb39769dd",
+            "heading_path": [
+              "AR-201 — Chord Scale Voicings for Arranging",
+              "Application à l'analyse et à la création — étude du contenu attesté (11 novembre 2026)"
+            ],
+            "start_line": 17,
+            "end_line": 20,
+            "subtree_end_line": 30
+          },
+          "content_sha256": "a23e38c04c61ec4b8395408cb65c15b6fb9eb7dfcc8144c3701ac01eb2878ea4",
+          "body_sha256": "cb18e54fe35a2c2454824af0a9c71ee3fdde9d092b50c7864031cbf0713d85f4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000720",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage : Voicings à cinq parties par superposition de quartes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Procédure d'analyse MIDI :** 1. Détecter les attaques simultanées de cinq hauteurs distinctes. 2. Ordonner les notes dans leur registre et mesurer les intervalles adjacents. 3. Repérer les blocs de quartes justes (cinq demi-tons) et compa",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-201.md",
+          "document_sha256": "01b99e1f5bfe0f71af58b217deb853784e3b964970f06b0cd5f2b03b12f0e260",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:29cafc2072228b704d8a22dd",
+            "heading_path": [
+              "AR-201 — Chord Scale Voicings for Arranging",
+              "Application à l'analyse et à la création — étude du contenu attesté (11 novembre 2026)",
+              "Apprentissage : Voicings à cinq parties par superposition de quartes"
+            ],
+            "start_line": 21,
+            "end_line": 30,
+            "subtree_end_line": 30
+          },
+          "content_sha256": "9f46be5d3abb44bf12fef5e0650d9315c355b5938443d1e2d0f7ee57f395a8bd",
+          "body_sha256": "e055e470f7ce3ae63c327b93f7763b8f0737f70c9bb6e677bf6deca01946e846",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000721",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deuxième passe qualitative — arrangement et composition jazz (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve de cours :** [AR-201 — Chord Scale Voicings for Arranging](https://college.berklee.edu/courses/ar-201). Notice Berklee : écriture à cinq ou six parties, notes espacées en secondes/tierces/quartes, clusters, triades supérieures et v",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-201.md",
+          "document_sha256": "01b99e1f5bfe0f71af58b217deb853784e3b964970f06b0cd5f2b03b12f0e260",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3e8c658d86163f0fb3d6d67d",
+            "heading_path": [
+              "AR-201 — Chord Scale Voicings for Arranging",
+              "Deuxième passe qualitative — arrangement et composition jazz (12 novembre 2026)"
+            ],
+            "start_line": 31,
+            "end_line": 34,
+            "subtree_end_line": 66
+          },
+          "content_sha256": "ccbb19ac6a68f1f9c21fe920e92e7d87a08139c37f10f717517f381bd69deff5",
+          "body_sha256": "2c82ec42f815265f1a4b165f35de3b14194b590f4f4ed6b503fba5543bc5f3f3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000722",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q1 — Voicings à cinq parties : identifier quartes, registres et doublures",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyse d'une musique existante — données, opérations, justification.** Sur [l'exemple AnaMu](./AR-201/exemple.mid), isoler chaque simultanéité de cinq sons et les trier du grave à l'aigu; tester la grille do–fa–si♭–mi♭–la♭, soit quatre q",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-201.md",
+          "document_sha256": "01b99e1f5bfe0f71af58b217deb853784e3b964970f06b0cd5f2b03b12f0e260",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9ec1bc86ecce6c0029ea1963",
+            "heading_path": [
+              "AR-201 — Chord Scale Voicings for Arranging",
+              "Deuxième passe qualitative — arrangement et composition jazz (12 novembre 2026)",
+              "Q1 — Voicings à cinq parties : identifier quartes, registres et doublures"
+            ],
+            "start_line": 35,
+            "end_line": 44,
+            "subtree_end_line": 44
+          },
+          "content_sha256": "91f86d1ee72503229a69823b2ae19e16dbd04d5e64e9771e361784e7a479fa68",
+          "body_sha256": "d02c2a628f409b93bef63ef6c01d0ada6730de49edfb0c05266d0afe65ef3e37",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000723",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q2 — Cluster de secondes et équilibre de texture : mesurer sans confondre dissonance et erreur",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyse d'une musique existante — données, opérations, justification.** Dans une partition ou séquence d'ensemble qui contient vraiment des clusters, relever les intervalles adjacents de un/deux demi-tons, leur registre, la densité des at",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-201.md",
+          "document_sha256": "01b99e1f5bfe0f71af58b217deb853784e3b964970f06b0cd5f2b03b12f0e260",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2afc7c657163d81a7e8059ed",
+            "heading_path": [
+              "AR-201 — Chord Scale Voicings for Arranging",
+              "Deuxième passe qualitative — arrangement et composition jazz (12 novembre 2026)",
+              "Q2 — Cluster de secondes et équilibre de texture : mesurer sans confondre dissonance et erreur"
+            ],
+            "start_line": 45,
+            "end_line": 54,
+            "subtree_end_line": 54
+          },
+          "content_sha256": "2336892423ee093cb49f99680b97cac24a33d5dbed445f71e3c99ca53dc9ab1f",
+          "body_sha256": "6e2648b52d102366fc19096a4908064343ea0382de570b8c192a0eaf99183871",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000724",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q3 — Triade supérieure et structure chord-scale : vérifier les deux couches",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyse d'une musique existante — données, opérations, justification.** Pour un voicing sourcé, séparer la basse et l'accord inférieur de la triade aiguë, caractériser classes d'accord et tensions globales; expliquer pourquoi la triade ha",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-201.md",
+          "document_sha256": "01b99e1f5bfe0f71af58b217deb853784e3b964970f06b0cd5f2b03b12f0e260",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2c42a076884b170fdaa4b600",
+            "heading_path": [
+              "AR-201 — Chord Scale Voicings for Arranging",
+              "Deuxième passe qualitative — arrangement et composition jazz (12 novembre 2026)",
+              "Q3 — Triade supérieure et structure chord-scale : vérifier les deux couches"
+            ],
+            "start_line": 55,
+            "end_line": 66,
+            "subtree_end_line": 66
+          },
+          "content_sha256": "e26291ea4155119f916f229de7d38d48f7a289f67f85cad743166186949a4f79",
+          "body_sha256": "c0222058c24c49c3f3971b9cec57c8de3faa11489a5f5b03a89e511ede7ea20d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000725",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Comparateur MIDI — même grille, autres rôles",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le [cas Vuono dans AR-228](./AR-228.md#même-grille-autres-rôles-de-pupitre) montre deux tours du même blues avec un E♭9 inchangé et des rôles de cuivres différents. Le [MIDI original A/B](https://raw.githubusercontent.com/leye0/AnaMu/main/d",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-201.md",
+          "document_sha256": "01b99e1f5bfe0f71af58b217deb853784e3b964970f06b0cd5f2b03b12f0e260",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1903cd732a516c3df1f4fda7",
+            "heading_path": [
+              "AR-201 — Chord Scale Voicings for Arranging",
+              "Comparateur MIDI — même grille, autres rôles"
+            ],
+            "start_line": 67,
+            "end_line": 79,
+            "subtree_end_line": 79
+          },
+          "content_sha256": "446b8397581fd47fe3caa06d94f246fd2b6fbf69bc98bae4edb6646fa7d5fdd5",
+          "body_sha256": "87b3531527337615164ee12938583dd96dd580540c21bed9a2281d03dee74106",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000726",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Le symbole d'accord n'est pas la liste des notes de l'orchestre",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Attestation et comparaison.** La [notice AR-201](https://college.berklee.edu/courses/ar-201) décrit l'écriture à cinq/six voix, les voicings en secondes, tierces et quartes, les triades supérieures, les clusters et l'analyse de partitions",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/AR-201.md",
+          "document_sha256": "01b99e1f5bfe0f71af58b217deb853784e3b964970f06b0cd5f2b03b12f0e260",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:bf591aa06e71c84b01c4a50d",
+            "heading_path": [
+              "AR-201 — Chord Scale Voicings for Arranging",
+              "Le symbole d'accord n'est pas la liste des notes de l'orchestre"
+            ],
+            "start_line": 80,
+            "end_line": 93,
+            "subtree_end_line": 93
+          },
+          "content_sha256": "3294427566ebc33c2c12008feaff4ceb9ee1bfdc63a72c0483abb92ce22896f8",
+          "body_sha256": "dcd0615ed3666b74fcc192a62125b60c8b808b54b55f053ba6732a5e5af99bcd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

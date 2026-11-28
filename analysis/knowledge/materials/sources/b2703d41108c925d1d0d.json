@@ -1,0 +1,548 @@
+{
+  "source_document": "docs/courses/berklee-online/OCWPR-366.md",
+  "units": [
+    {
+      "id": "material:0000589",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "OCWPR-366 — Orchestration 2: Writing Techniques for Full Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Établissement et édition :** Berklee Online, cours de premier cycle, 3 crédits, cours écrit par **Ben Newhouse**. Relevé public du 10 novembre 2026. **Un vrai plan détaillé de douze leçons a été consulté, mais non les cours intégraux et b",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCWPR-366.md",
+          "document_sha256": "81c11da8683d8f5ed15c98058a4a22b7f62804a3e6d5ecc343cd1131c2f85cae",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:08e0c352c2c25710cb612696",
+            "heading_path": [
+              "OCWPR-366 — Orchestration 2: Writing Techniques for Full Orchestra"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 166
+          },
+          "content_sha256": "05f41dd967e0e1e8e48797f8b691d90bb655503719a365570472b75fe8ffa86f",
+          "body_sha256": "71682c14a91c424248f85df5e8be1f7af09245b727dc0b512411fa75a2216289",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000590",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Preuve pédagogique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Source primaire : page officielle OCWPR-366, rubrique « Syllabus », « Requirements » et « Instructors »](https://online.berklee.edu/courses/orchestration-2-writing-techniques-for-full-orchestra#syllabus).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCWPR-366.md",
+          "document_sha256": "81c11da8683d8f5ed15c98058a4a22b7f62804a3e6d5ecc343cd1131c2f85cae",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:888332864949ce40d86a1faf",
+            "heading_path": [
+              "OCWPR-366 — Orchestration 2: Writing Techniques for Full Orchestra",
+              "Preuve pédagogique"
+            ],
+            "start_line": 5,
+            "end_line": 9,
+            "subtree_end_line": 9
+          },
+          "content_sha256": "4a8dc056da99f71ea6c086fd1f96625e01372125af9c3e6ca06b917a6b8298d3",
+          "body_sha256": "af8f3cbbe19c1f55c2d22664e6966bb6cb37bf63a137143a41eab4084ca2cead",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000591",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Séquence réelle du syllabus, résumée sans reproduction des leçons",
+      "title_origin": "source_heading_or_key",
+      "description": "Titre ou passage sans description éditoriale vérifiée.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCWPR-366.md",
+          "document_sha256": "81c11da8683d8f5ed15c98058a4a22b7f62804a3e6d5ecc343cd1131c2f85cae",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:178e35e9b78fa0073c69034f",
+            "heading_path": [
+              "OCWPR-366 — Orchestration 2: Writing Techniques for Full Orchestra",
+              "Séquence réelle du syllabus, résumée sans reproduction des leçons"
+            ],
+            "start_line": 10,
+            "end_line": 26,
+            "subtree_end_line": 26
+          },
+          "content_sha256": "8c4e91bcf4d208bf5f127dff9b6945402024aab3c2ab524d4b8d56f459e20764",
+          "body_sha256": "98088d493a2b08a9293b8c968f17cd9f4bdfa127759f1297bc071da4479c8f40",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000592",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Prérequis, matériel, lectures, travaux et limites",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Prérequis et supports exigés :** Prérequis : Orchestration 1 ou maîtrise équivalente, DAW et bibliothèque orchestrale, capacité d'enregistrer et de produire un MP3 ; partition PDF remise. **Aucun manuel obligatoire** indiqué.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCWPR-366.md",
+          "document_sha256": "81c11da8683d8f5ed15c98058a4a22b7f62804a3e6d5ecc343cd1131c2f85cae",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:87e2aff02512f49bafe3e43f",
+            "heading_path": [
+              "OCWPR-366 — Orchestration 2: Writing Techniques for Full Orchestra",
+              "Prérequis, matériel, lectures, travaux et limites"
+            ],
+            "start_line": 27,
+            "end_line": 35,
+            "subtree_end_line": 35
+          },
+          "content_sha256": "d11608ba4f2ab0263b08ba39550ffc406add11853559269cc42fe353b3f8dcb8",
+          "body_sha256": "3a5cebd897b96d6b5c03d6a865b121feb03f8704f1622c512be690a2c801563d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000593",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — comment l'orchestre articule une section (13 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve du cours.** Le [plan public OCWPR-366](https://online.berklee.edu/courses/orchestration-2-writing-techniques-for-full-orchestra#syllabus) expose les relais mélodiques (leçon 3), la séparation, l'équilibre et le premier plan dans le",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCWPR-366.md",
+          "document_sha256": "81c11da8683d8f5ed15c98058a4a22b7f62804a3e6d5ecc343cd1131c2f85cae",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ac04d64064526180bbe0b325",
+            "heading_path": [
+              "OCWPR-366 — Orchestration 2: Writing Techniques for Full Orchestra",
+              "Application à l'analyse et à la création — comment l'orchestre articule une section (13 novembre 2026)"
+            ],
+            "start_line": 36,
+            "end_line": 39,
+            "subtree_end_line": 57
+          },
+          "content_sha256": "306b6472c62e643e4bd8956450dd5a21c95c25aae81ff9b9fa7833733cd25400",
+          "body_sha256": "94e7ae5a026b4a1c83d0d5cd5305eb6f1b6d68e788eeb28d5d286fe7726ec72e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000594",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q1 — Un relais de ligne peut relier deux phrases sans effacer leur frontière",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyse.** Aligner partition en sons réels et audio. Marquer d'abord le contour et les appuis de la ligne, puis qui les porte, où les deux instruments se chevauchent et ce que fait l'accompagnement au même moment. Si la ligne garde sa dir",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCWPR-366.md",
+          "document_sha256": "81c11da8683d8f5ed15c98058a4a22b7f62804a3e6d5ecc343cd1131c2f85cae",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1dba249c2813edd8833209f4",
+            "heading_path": [
+              "OCWPR-366 — Orchestration 2: Writing Techniques for Full Orchestra",
+              "Application à l'analyse et à la création — comment l'orchestre articule une section (13 novembre 2026)",
+              "Q1 — Un relais de ligne peut relier deux phrases sans effacer leur frontière"
+            ],
+            "start_line": 40,
+            "end_line": 45,
+            "subtree_end_line": 45
+          },
+          "content_sha256": "c11e4beddb694dd47ed270cc4d89f14666cdf53f61bf53ee8e6daf4432899e52",
+          "body_sha256": "8d7a74d441112a9c3a9057dc5dc4ddec4308b0c333bbbbc4f30354ecf332ac56",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000595",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q2 — Une couche peut finir, une autre prolonger, une troisième préparer",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyse.** Donner une étendue à chaque relation et garder les couches séparées. Dans une maquette originale sur 12 mesures, la ligne A conclut à m. 8, une pédale installée à m. 5 continue jusqu'à m. 10, et la ligne B entre à m. 9 après un",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCWPR-366.md",
+          "document_sha256": "81c11da8683d8f5ed15c98058a4a22b7f62804a3e6d5ecc343cd1131c2f85cae",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:82c3a9ff7ae6960a30923772",
+            "heading_path": [
+              "OCWPR-366 — Orchestration 2: Writing Techniques for Full Orchestra",
+              "Application à l'analyse et à la création — comment l'orchestre articule une section (13 novembre 2026)",
+              "Q2 — Une couche peut finir, une autre prolonger, une troisième préparer"
+            ],
+            "start_line": 46,
+            "end_line": 51,
+            "subtree_end_line": 51
+          },
+          "content_sha256": "563eb4d7a9c27c339262e6e6b48e1593ae3349660442b22cba047c8d824290d9",
+          "body_sha256": "11878890d4038ae5bd8bc333b4d7dd69394c7c1b5f61f6f7d281413da77fcca9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000596",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q3 — Une transition se juge par la stabilité du nouveau premier plan",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyse.** Examiner une fenêtre avant, pendant et après le passage de relais. Relever qui porte les attaques, les appuis et le mouvement mélodique sur chaque fenêtre. Un accent fort peut attirer l'attention une fois sans transférer le rôl",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCWPR-366.md",
+          "document_sha256": "81c11da8683d8f5ed15c98058a4a22b7f62804a3e6d5ecc343cd1131c2f85cae",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5e4ba6d3b5b09f0be98b2e21",
+            "heading_path": [
+              "OCWPR-366 — Orchestration 2: Writing Techniques for Full Orchestra",
+              "Application à l'analyse et à la création — comment l'orchestre articule une section (13 novembre 2026)",
+              "Q3 — Une transition se juge par la stabilité du nouveau premier plan"
+            ],
+            "start_line": 52,
+            "end_line": 57,
+            "subtree_end_line": 57
+          },
+          "content_sha256": "227d46168856cf86b892e99d155418e84e7d52fcb3d2464d7079bf714be5066f",
+          "body_sha256": "71f9c63690ce964d197395181cc6c047f6151dd16765cd87b0f1cb0fc421b852",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000597",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Cas vérifié et étude MIDI — une ligne peut occuper plusieurs portées (13 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve du cours.** Le [plan public d’OCWPR-366](https://online.berklee.edu/courses/orchestration-2-writing-techniques-for-full-orchestra#syllabus) nomme *Boléro* pour les trois plans de la leçon 7. La fenêtre ci-dessous est le choix d’Ana",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCWPR-366.md",
+          "document_sha256": "81c11da8683d8f5ed15c98058a4a22b7f62804a3e6d5ecc343cd1131c2f85cae",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:cdb539da6fe0cc088d5ad6c0",
+            "heading_path": [
+              "OCWPR-366 — Orchestration 2: Writing Techniques for Full Orchestra",
+              "Cas vérifié et étude MIDI — une ligne peut occuper plusieurs portées (13 novembre 2026)"
+            ],
+            "start_line": 58,
+            "end_line": 75,
+            "subtree_end_line": 75
+          },
+          "content_sha256": "7510ab0b7861bec360a01ec13e75678e9ce0717fe7af4b963d18c7ff943b3ae2",
+          "body_sha256": "282f04b23e8bc96353f1f4950c0630416d7d06f46cfed33d3b9c4b08fb546e2b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000598",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Doublure, fusion et masquage à l'écoute",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Point de départ.** Reprendre *Boléro*, m. 149–156, dans le [conducteur éd. Sceaux](https://upload.wikimedia.org/wikipedia/commons/6/65/Bolero-ravel-nicolas-sceaux-cc0-domaine-public.pdf#page=10), puis écouter l'entrée **cor + piccolos + c",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCWPR-366.md",
+          "document_sha256": "81c11da8683d8f5ed15c98058a4a22b7f62804a3e6d5ecc343cd1131c2f85cae",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c173a688ba9348e221f0f807",
+            "heading_path": [
+              "OCWPR-366 — Orchestration 2: Writing Techniques for Full Orchestra",
+              "Doublure, fusion et masquage à l'écoute"
+            ],
+            "start_line": 76,
+            "end_line": 94,
+            "subtree_end_line": 94
+          },
+          "content_sha256": "036daa151ff0faabbc6f97e89382c54a03c3f2f4964cfa848adfd4d5ae52571b",
+          "body_sha256": "bc5e3250c5eb088b47883ea8a3ef7015b0f164f262ba3602ac36bdc6026b4f20",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000599",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Ravel — le thème change de porteur avant de grossir",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Observer où se fait le changement.** Dans le [conducteur Durand, p. imprimées 1–4](https://www.imslp.eu/files/imglnks/euimg/5/5c/IMSLP01578-Ravel_-_Bolero_%28Full_Score_Durand_1929%29.pdf#page=2), le tambour installe son ostinato en 3/4,",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCWPR-366.md",
+          "document_sha256": "81c11da8683d8f5ed15c98058a4a22b7f62804a3e6d5ecc343cd1131c2f85cae",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2f1ca230e7a50797c8febfe9",
+            "heading_path": [
+              "OCWPR-366 — Orchestration 2: Writing Techniques for Full Orchestra",
+              "Ravel — le thème change de porteur avant de grossir"
+            ],
+            "start_line": 95,
+            "end_line": 100,
+            "subtree_end_line": 119
+          },
+          "content_sha256": "3c50ef0a15d797a4085406642e8b3c6287291ee55aca5a3ca3b1d33abe987c81",
+          "body_sha256": "4fa12a662904b045324d9f9253fc76f58b3c848bf2cc542bd9382d50a48f30cb",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000600",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Pulsation stable dans une prise, resserrée dans une autre",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Comparer deux fichiers Ogg publics identifiés. Le [fichier Lamoureux de 1930](https://commons.wikimedia.org/wiki/File:Bolero-Maurice_Ravel-1930.ogg) est généralement crédité à Ravel. La [préface Breitkopf](https://www.breitkopf.com/assets/p",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCWPR-366.md",
+          "document_sha256": "81c11da8683d8f5ed15c98058a4a22b7f62804a3e6d5ecc343cd1131c2f85cae",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3626d853f4db5764378e2d96",
+            "heading_path": [
+              "OCWPR-366 — Orchestration 2: Writing Techniques for Full Orchestra",
+              "Ravel — le thème change de porteur avant de grossir",
+              "Pulsation stable dans une prise, resserrée dans une autre"
+            ],
+            "start_line": 101,
+            "end_line": 119,
+            "subtree_end_line": 119
+          },
+          "content_sha256": "8ce45ceef225630ed571e6a0e1773875f1482fa23b5bf626b78d12dcb97c9078",
+          "body_sha256": "4d1bcc84f7ec4edc1265e2a3955a82c471ec343ce267e7110c9146d3762c9071",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000601",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Des cors qui accentuent sans créer de nouvelles croches",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve du cours.** Le [syllabus OCWPR-366](https://online.berklee.edu/courses/orchestration-2-writing-techniques-for-full-orchestra#syllabus) nomme les accents (leçon 2) et *Le Sacre du printemps* (leçon 8). La fenêtre ci-dessous est une",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCWPR-366.md",
+          "document_sha256": "81c11da8683d8f5ed15c98058a4a22b7f62804a3e6d5ecc343cd1131c2f85cae",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:cc6a0e537e1c6804a1400a0e",
+            "heading_path": [
+              "OCWPR-366 — Orchestration 2: Writing Techniques for Full Orchestra",
+              "Des cors qui accentuent sans créer de nouvelles croches"
+            ],
+            "start_line": 120,
+            "end_line": 135,
+            "subtree_end_line": 135
+          },
+          "content_sha256": "ff7567e4774be78a30e892115d38c43cbd796e308a1212b0b9f4593002200094",
+          "body_sha256": "854de216b0a9291309d0b32df0f17889e80f655d877a4ccd256b44043435680a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000602",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "La cymbale tient après le dernier coup : distinguer transition timbrale et nouvelle pulsation (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Ancrage direct.** Le [syllabus réel d'OCWPR-366](https://online.berklee.edu/courses/orchestration-2-writing-techniques-for-full-orchestra#syllabus) nomme le **travail des accents** (leçon 2), les **deux et trois couches** (6–7), les **tex",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCWPR-366.md",
+          "document_sha256": "81c11da8683d8f5ed15c98058a4a22b7f62804a3e6d5ecc343cd1131c2f85cae",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4f1ca1a2b467b6ce009339ce",
+            "heading_path": [
+              "OCWPR-366 — Orchestration 2: Writing Techniques for Full Orchestra",
+              "La cymbale tient après le dernier coup : distinguer transition timbrale et nouvelle pulsation (17 novembre 2026)"
+            ],
+            "start_line": 136,
+            "end_line": 153,
+            "subtree_end_line": 153
+          },
+          "content_sha256": "d5c9ad6a274fd472be0e926ccc734dbafaba46f92c69a5421ad4a68c43cb1764",
+          "body_sha256": "56f14b5e0eea8d911879ba73de2cf0717c7f7c234adcec744a6d253afe6a4dd0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000603",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Déclin de cymbale et contrôle de résonance : le silence des messages ne fait pas le silence de la pièce (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Portée réelle.** [OCWPR-366, Orchestration 2: Writing Techniques for Full Orchestra](https://online.berklee.edu/courses/orchestration-2-writing-techniques-for-full-orchestra#syllabus) développe les techniques d'écriture orchestrale et de",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCWPR-366.md",
+          "document_sha256": "81c11da8683d8f5ed15c98058a4a22b7f62804a3e6d5ecc343cd1131c2f85cae",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:25511856ec43eb99ac07bb96",
+            "heading_path": [
+              "OCWPR-366 — Orchestration 2: Writing Techniques for Full Orchestra",
+              "Déclin de cymbale et contrôle de résonance : le silence des messages ne fait pas le silence de la pièce (17 novembre 2026)"
+            ],
+            "start_line": 154,
+            "end_line": 166,
+            "subtree_end_line": 166
+          },
+          "content_sha256": "3fa83f576838e28bc8a07d73bcb082d673e14cca15fea554fbcade46cdc131e3",
+          "body_sha256": "e3cf4a5f52f8b297ccf31e3ec508be22a95bce5cdf09762737ef6a6843cbc503",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

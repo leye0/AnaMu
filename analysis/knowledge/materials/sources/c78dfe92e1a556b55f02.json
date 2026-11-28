@@ -1,0 +1,40 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-udem-111-direct-notices.md",
+  "units": [
+    {
+      "id": "material:0004194",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "UdeM — balayage de 111 pages de cours musicales auparavant partielles",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026 · Phase 1A · source primaire:** [cours et horaires UdeM](https://admission.umontreal.ca/cours-et-horaires/cours/). Chaque URL ci-dessous mène à **la notice du code exact**, consultée et retrouvée avec identifiant correspo",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-111-direct-notices.md",
+          "document_sha256": "70360c064f80938b86684469c13f28085a0cfa3b4155a2aaf18457b28a3da499",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f80f6371f7ebc40d655cb842",
+            "heading_path": [
+              "UdeM — balayage de 111 pages de cours musicales auparavant partielles"
+            ],
+            "start_line": 1,
+            "end_line": 121,
+            "subtree_end_line": 121
+          },
+          "content_sha256": "70360c064f80938b86684469c13f28085a0cfa3b4155a2aaf18457b28a3da499",
+          "body_sha256": "afef41dcc074a0821f2497b0c8f96295aa2de0206dec047666145ae56a4b215d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

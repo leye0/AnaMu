@@ -1,0 +1,330 @@
+{
+  "source_document": "docs/courses/mit/21M-351.md",
+  "units": [
+    {
+      "id": "material:0000251",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MIT 21M.351 — Music Composition, Fall 2008",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Dossier universitaire externe de comparaison, hors des 378 cours recensés dans le registre AnaMu.** Cours MIT OpenCourseWare d'automne 2008, enseigné par **Peter Child**. L'archive fournit un véritable [syllabus](https://ocw.mit.edu/cours",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-351.md",
+          "document_sha256": "d8977d01d80abefd096061eaa80b3ddfc3f48584a45104e44b89010f6bafca1d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ccf4858847e153554c24a400",
+            "heading_path": [
+              "MIT 21M.351 — Music Composition, Fall 2008"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 83
+          },
+          "content_sha256": "8890ddb1aa620a352e4bc6d8572adee896ddb6353ad31a32cf6b4acc9f5cf555",
+          "body_sha256": "b23e774b29f9ccea510466ad8f8d983fdb62590251616501e394951444b67047",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000252",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Progression du cours, démontrée par les documents originaux",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Séminaire de composition hebdomadaire de trois heures, axé sur l'écriture post-tonale du XXe siècle, l'analyse de partitions et des retours en cours sur les travaux. Cinq projets : (1) mélodie pour instrument à vent solo; (2) contrepoint à ",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-351.md",
+          "document_sha256": "d8977d01d80abefd096061eaa80b3ddfc3f48584a45104e44b89010f6bafca1d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e2d2d16c62232f30f5c6e5c5",
+            "heading_path": [
+              "MIT 21M.351 — Music Composition, Fall 2008",
+              "Progression du cours, démontrée par les documents originaux"
+            ],
+            "start_line": 5,
+            "end_line": 19,
+            "subtree_end_line": 19
+          },
+          "content_sha256": "5117b3eee7d01d87113add4600cd0206be795959450ee4438f43fd1c686403f1",
+          "body_sha256": "864143863712717bc130daddf2799825b45d7a335886f6593652f3d314246d7d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000253",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Étude AnaMu A — la même séquence de coups n'est pas la même instrumentation",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Hypothèse construite, non extraite d'une copie du MIT.** Écrire huit croches d'un même motif d'attaques réparties entre caisse claire, tom-tom, temple blocks et vibraphone. Garder les dates identiques, mais produire deux affectations inst",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-351.md",
+          "document_sha256": "d8977d01d80abefd096061eaa80b3ddfc3f48584a45104e44b89010f6bafca1d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:03d54bc5f922b1cd4677bb3c",
+            "heading_path": [
+              "MIT 21M.351 — Music Composition, Fall 2008",
+              "Étude AnaMu A — la même séquence de coups n'est pas la même instrumentation"
+            ],
+            "start_line": 20,
+            "end_line": 32,
+            "subtree_end_line": 32
+          },
+          "content_sha256": "8b05f3e771b2662236944c862018472f3d2f8b6b2a9685f664b5c052c2eb2f85",
+          "body_sha256": "cb85941e4d99a4e8e25d307c504b30ecae82e2238a7005e20bd2a3af3f42c3c8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000254",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Étude AnaMu B — une résonance détermine le moment de la transition",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : La même écriture contient des sources à **déclin bref** (caisse claire étouffée ou temple blocks) et des sources plus **résonantes** (vibraphone avec pédale, cymbale suspendue). Les fins **notées** de deux frappes ne produisent pas forcémen",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-351.md",
+          "document_sha256": "d8977d01d80abefd096061eaa80b3ddfc3f48584a45104e44b89010f6bafca1d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d4d538709c32215734a68ef5",
+            "heading_path": [
+              "MIT 21M.351 — Music Composition, Fall 2008",
+              "Étude AnaMu B — une résonance détermine le moment de la transition"
+            ],
+            "start_line": 33,
+            "end_line": 41,
+            "subtree_end_line": 41
+          },
+          "content_sha256": "b4b0358d5752ad2e547c9511dd5634711b520a8f15bebfb000efe2fea55e133a",
+          "body_sha256": "80896bf6ac8d055cd4c687c4e92244495341b2042c541545491c790f18136778",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000255",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Un vrai problème du projet de percussion solo : le temps d'atteindre le vibraphone (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Ce qui provient directement du cours du MIT.** Le [projet percussion publié dans MIT 21M.351, automne 2008](https://ocw.mit.edu/courses/21m-351-music-composition-fall-2008/pages/projects/) demande un **solo de 2–3 minutes** et restreint l",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-351.md",
+          "document_sha256": "d8977d01d80abefd096061eaa80b3ddfc3f48584a45104e44b89010f6bafca1d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:90f455e49a835734df1b2e7c",
+            "heading_path": [
+              "MIT 21M.351 — Music Composition, Fall 2008",
+              "Un vrai problème du projet de percussion solo : le temps d'atteindre le vibraphone (17 novembre 2026)"
+            ],
+            "start_line": 42,
+            "end_line": 45,
+            "subtree_end_line": 62
+          },
+          "content_sha256": "72bb6de400fae20c17ea9229e89e8426331474e7cfa8939d3d1886f000ed465d",
+          "body_sha256": "41e670a5877a0ebb3b661f26bdb92bd46dfd90b69eeecd9be5e55fe7f6f7ba3f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000256",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Étude AnaMu : même objectif de transition, un espace écrit en plus",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [**MIDI original de huit mesures — passage caisse claire → vibraphone**](./21M-351/solo-caisse-vers-vibraphone-fenetre-changement.mid), **100 BPM, PPQ 480**, deux sections de quatre mesures. Il y a **30 attaques** au total : **16** dans A, ",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-351.md",
+          "document_sha256": "d8977d01d80abefd096061eaa80b3ddfc3f48584a45104e44b89010f6bafca1d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:86cb471ee97596376ca14685",
+            "heading_path": [
+              "MIT 21M.351 — Music Composition, Fall 2008",
+              "Un vrai problème du projet de percussion solo : le temps d'atteindre le vibraphone (17 novembre 2026)",
+              "Étude AnaMu : même objectif de transition, un espace écrit en plus"
+            ],
+            "start_line": 46,
+            "end_line": 62,
+            "subtree_end_line": 62
+          },
+          "content_sha256": "4d3cc094740a2912062552958abaa7ee28b744ff88f2403d3719853cde18afed",
+          "body_sha256": "25057b95564772274f131085507ec1e896b4d4eca1e2575ba38a7e0c9a2963f6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000257",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Rendus audio des études de percussion",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : MP3 rendus à partir des MIDI des études, avec la banque GeneralUser GS. Les variantes d'un même fichier restent dans la même piste, sans correction de timing, de vélocité ou d'instrumentation.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-351.md",
+          "document_sha256": "d8977d01d80abefd096061eaa80b3ddfc3f48584a45104e44b89010f6bafca1d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:49033ebbdc3e15451beadeda",
+            "heading_path": [
+              "MIT 21M.351 — Music Composition, Fall 2008",
+              "Rendus audio des études de percussion"
+            ],
+            "start_line": 63,
+            "end_line": 68,
+            "subtree_end_line": 68
+          },
+          "content_sha256": "3e0df584683ec381bc4c2d8cac839350c56f78bea2f68c6356c7e5a7be01237f",
+          "body_sha256": "9a47b0a78242cb57ed0513d221c6a4af0fc5905fde0083e122b9799e8805e46d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000258",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Ces consignes sont des propositions pédagogiques originales AnaMu, fondées sur les études et sources déjà distinguées dans cette fiche. Elles ne sont pas des exercices attribués au professeur. Aucune nouvelle audition humaine n’a été réalis",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-351.md",
+          "document_sha256": "d8977d01d80abefd096061eaa80b3ddfc3f48584a45104e44b89010f6bafca1d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2f0cf5371a1a976102dd42f1",
+            "heading_path": [
+              "MIT 21M.351 — Music Composition, Fall 2008",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026"
+            ],
+            "start_line": 69,
+            "end_line": 72,
+            "subtree_end_line": 83
+          },
+          "content_sha256": "ebb9c779be27519cd8c86fcf10fa26ede6a4e80a3b29ae9ce77e1b8271ea2d7e",
+          "body_sha256": "b027e19aad8071713ddf839121fb61b819664a13dfa1e2cd656900d2f623543e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000259",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Caisse claire → vibraphone",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [MP3](21M-351/solo-caisse-vers-vibraphone-fenetre-changement.mp3) · [MIDI original](21M-351/solo-caisse-vers-vibraphone-fenetre-changement.mid)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-351.md",
+          "document_sha256": "d8977d01d80abefd096061eaa80b3ddfc3f48584a45104e44b89010f6bafca1d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3c0e1586c253288354c0e7e6",
+            "heading_path": [
+              "MIT 21M.351 — Music Composition, Fall 2008",
+              "Parcours de comparaison et réinvestissement — 17 novembre 2026",
+              "Caisse claire → vibraphone"
+            ],
+            "start_line": 73,
+            "end_line": 83,
+            "subtree_end_line": 83
+          },
+          "content_sha256": "4c1a1896b638a6bf40152a3ef907f73bd6a2261287582f89146e7b0c02bef637",
+          "body_sha256": "c47331ec1a005440f0f0a31a6bc2bae11e5dc1792e0ee86595587b61e3c7e2ff",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

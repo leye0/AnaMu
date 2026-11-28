@@ -1,0 +1,2454 @@
+{
+  "source_document": "docs/data/percussion-resonance-2026-11-18.json",
+  "units": [
+    {
+      "id": "material:0006714",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "date",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/date",
+            "json_pointer": "/date",
+            "record_identity": null
+          },
+          "content_sha256": "43db3cb95c2941e29ec982f2ece5013251a48de9e99763392a364919f1f2145e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006715",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "scope",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scope",
+            "json_pointer": "/scope",
+            "record_identity": null
+          },
+          "content_sha256": "cdf73cbd694dd42b10518467f6fc9bf040dacee502650cdce49a5553f16fb989",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006716",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "engine",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/engine",
+            "json_pointer": "/render/engine",
+            "record_identity": null
+          },
+          "content_sha256": "48c92610e1337a0bf1b3740c857a9a5d549f24bd8af687d291ee876d496f11ab",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006717",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "sample_rate_pcm",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/sample_rate_pcm",
+            "json_pointer": "/render/sample_rate_pcm",
+            "record_identity": null
+          },
+          "content_sha256": "5d1dbce82e135ab816d7c6d1f5f9020b94000975fa77f0a349a5b4d226d82332",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006718",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "sample_rate_mp3",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/sample_rate_mp3",
+            "json_pointer": "/render/sample_rate_mp3",
+            "record_identity": null
+          },
+          "content_sha256": "981a4f273dcd49530ba08a5e7af0cc709d1078b8ce4b6d4e7424dca6f9a0790a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006719",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "bitrate_kbps",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/bitrate_kbps",
+            "json_pointer": "/render/bitrate_kbps",
+            "record_identity": null
+          },
+          "content_sha256": "7b1a278f5abe8e9da907fc9c29dfd432d60dc76e17b0fabab659d2a508bc65c4",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006720",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "fixed_synth_gain",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/fixed_synth_gain",
+            "json_pointer": "/render/fixed_synth_gain",
+            "record_identity": null
+          },
+          "content_sha256": "209c9aa4529a257f1aded8c64911e7195a2ab83dc5bc866084185e327c44af09",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006721",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "reverb",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/reverb",
+            "json_pointer": "/render/reverb",
+            "record_identity": null
+          },
+          "content_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006722",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "chorus",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/chorus",
+            "json_pointer": "/render/chorus",
+            "record_identity": null
+          },
+          "content_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006723",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "tail_seconds",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/tail_seconds",
+            "json_pointer": "/render/tail_seconds",
+            "record_identity": null
+          },
+          "content_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006724",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "fade_last_tail_seconds",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/fade_last_tail_seconds",
+            "json_pointer": "/render/fade_last_tail_seconds",
+            "record_identity": null
+          },
+          "content_sha256": "0602d7c813c1f6e7351a5832730f29daf739674976caba8d9dd955be838d46ea",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006725",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "generaluser",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/bank_sha256/generaluser",
+            "json_pointer": "/render/bank_sha256/generaluser",
+            "record_identity": null
+          },
+          "content_sha256": "a6a8e5cd6092dddad2ee92bb832bce586f44cc099fd89620b1145f7a9ff27dd8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006726",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "timgm",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/bank_sha256/timgm",
+            "json_pointer": "/render/bank_sha256/timgm",
+            "record_identity": null
+          },
+          "content_sha256": "7674c87223347c910aabce7e4a721c041c2217c82d383c0878898db9d87ccc6a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006727",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "level_matching",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/level_matching",
+            "json_pointer": "/render/level_matching",
+            "record_identity": null
+          },
+          "content_sha256": "87121cbaab646f7193474d18bee995daf5dca5d28569a6949b70e1b8c918ce5f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006728",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "engine_note",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render/engine_note",
+            "json_pointer": "/render/engine_note",
+            "record_identity": null
+          },
+          "content_sha256": "2128d71bd1dccc7a9311a6292fddb290d89568340e4e00becb27b1dfb78589fb",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006729",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Vibraphone et pédale de sustain · GeneralUser GS · gain commun",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/0",
+            "json_pointer": "/tracks/0",
+            "record_identity": "id:resonance-vibraphone-cc64-generaluser"
+          },
+          "content_sha256": "d44b9ca6e909a068f9935bb468d9227cadd2120bb9f84d10f84d771f4d45add2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006730",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Vibraphone et pédale de sustain · TimGM6mb · gain commun",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/1",
+            "json_pointer": "/tracks/1",
+            "record_identity": "id:resonance-vibraphone-cc64-timgm"
+          },
+          "content_sha256": "0f597849880651cf492b2623c37443f38e603b70331164eaa1aa166a8be14608",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006731",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Triangle ouvert ou étouffé · GeneralUser GS · gain commun",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/2",
+            "json_pointer": "/tracks/2",
+            "record_identity": "id:resonance-triangle-muted-open-generaluser"
+          },
+          "content_sha256": "ea74335f3b2515101d3755ea4fe30d40442b31595f0f19830591067fa431fe65",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006732",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Triangle ouvert ou étouffé · TimGM6mb · gain commun",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/3",
+            "json_pointer": "/tracks/3",
+            "record_identity": "id:resonance-triangle-muted-open-timgm"
+          },
+          "content_sha256": "a138544eab6a9bf136156f2943a6226ef5e5b23f397aa7a95c99ca17d2b0c413",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006733",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Caisse claire, fin de note courte ou longue · GeneralUser GS · gain commun",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/4",
+            "json_pointer": "/tracks/4",
+            "record_identity": "id:resonance-noteoff-is-not-sample-end-generaluser"
+          },
+          "content_sha256": "5fdefef9ca2a3b6f6cb632a58d8f16c23883af7eb1830133afab7798f7eec135",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006734",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Caisse claire, fin de note courte ou longue · TimGM6mb · gain commun",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/5",
+            "json_pointer": "/tracks/5",
+            "record_identity": "id:resonance-noteoff-is-not-sample-end-timgm"
+          },
+          "content_sha256": "980ae207e5166a86b0d22264391577a093998952a2750fa364a2d28f24550a83",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006735",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_study",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/0/source_study",
+            "json_pointer": "/measurements/0/source_study",
+            "record_identity": null
+          },
+          "content_sha256": "89ed787da61efc7b4c86cc4018842827a99965e33375ffe6177c0cc91de181b2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006736",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "bank",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/0/bank",
+            "json_pointer": "/measurements/0/bank",
+            "record_identity": null
+          },
+          "content_sha256": "77c58acfc22f5454cc6300e0d10f715361402bfb1f97461ed2e6508ae3c80607",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006737",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "window_after_section_start_seconds",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/0/window_after_section_start_seconds",
+            "json_pointer": "/measurements/0/window_after_section_start_seconds",
+            "record_identity": null
+          },
+          "content_sha256": "f6ff30fb773b3b7c956d79c42b704486f412403787186634aeb981f501baea08",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006738",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "0",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : Pédale relâchée",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/0/values/0",
+            "json_pointer": "/measurements/0/values/0",
+            "record_identity": null
+          },
+          "content_sha256": "60df5d3846cb819129109c5430ec5f05738c7bdcaf64b38a9c3773fdf672a8ad",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006739",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "1",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : Pédale tenue",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/0/values/1",
+            "json_pointer": "/measurements/0/values/1",
+            "record_identity": null
+          },
+          "content_sha256": "85b3238cb8f62386ce7572838bab8aa46092620a64fda2cf38b21aee9b8d659f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006740",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "2",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : Relâchements brefs",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/0/values/2",
+            "json_pointer": "/measurements/0/values/2",
+            "record_identity": null
+          },
+          "content_sha256": "cd78bfc56d1c63573d1918ce5e80a59b082adb1fe10ce3bf555b786087a10192",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006741",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_study",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/1/source_study",
+            "json_pointer": "/measurements/1/source_study",
+            "record_identity": null
+          },
+          "content_sha256": "89ed787da61efc7b4c86cc4018842827a99965e33375ffe6177c0cc91de181b2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006742",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "bank",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/1/bank",
+            "json_pointer": "/measurements/1/bank",
+            "record_identity": null
+          },
+          "content_sha256": "1ae207ce8b31ded60cc2d5391fc3fd8e99e078128ee2c11a7b7fb1e3923b6199",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006743",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "window_after_section_start_seconds",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/1/window_after_section_start_seconds",
+            "json_pointer": "/measurements/1/window_after_section_start_seconds",
+            "record_identity": null
+          },
+          "content_sha256": "f6ff30fb773b3b7c956d79c42b704486f412403787186634aeb981f501baea08",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006744",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "0",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : Pédale relâchée",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/1/values/0",
+            "json_pointer": "/measurements/1/values/0",
+            "record_identity": null
+          },
+          "content_sha256": "c0d024777f995474c4752c6b9d3957b6bbc9d7f8bbdf5418a54911d326c74fab",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006745",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "1",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : Pédale tenue",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/1/values/1",
+            "json_pointer": "/measurements/1/values/1",
+            "record_identity": null
+          },
+          "content_sha256": "f7e27cc2704e9623863d43fd7fee85f6907770228441732b5aca45cbe89d5927",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006746",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "2",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : Relâchements brefs",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/1/values/2",
+            "json_pointer": "/measurements/1/values/2",
+            "record_identity": null
+          },
+          "content_sha256": "932baf31596f7d10535c24cf9a4d38fceebe91859e209d799c0e48cf68778374",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006747",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_study",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/2/source_study",
+            "json_pointer": "/measurements/2/source_study",
+            "record_identity": null
+          },
+          "content_sha256": "89ed787da61efc7b4c86cc4018842827a99965e33375ffe6177c0cc91de181b2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006748",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "bank",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/2/bank",
+            "json_pointer": "/measurements/2/bank",
+            "record_identity": null
+          },
+          "content_sha256": "77c58acfc22f5454cc6300e0d10f715361402bfb1f97461ed2e6508ae3c80607",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006749",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "window_after_section_start_seconds",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/2/window_after_section_start_seconds",
+            "json_pointer": "/measurements/2/window_after_section_start_seconds",
+            "record_identity": null
+          },
+          "content_sha256": "d39b06116323f4376f97c42bd70bae28b6b9f4c491d18636f09416bd86ba3532",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006750",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "0",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : Pédale relâchée",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/2/values/0",
+            "json_pointer": "/measurements/2/values/0",
+            "record_identity": null
+          },
+          "content_sha256": "dac8e5a0ba707c4703663b8e70363ed14d36362dc0a5f09ae9d99c8714de2481",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006751",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "1",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : Pédale tenue",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/2/values/1",
+            "json_pointer": "/measurements/2/values/1",
+            "record_identity": null
+          },
+          "content_sha256": "859683cdea7b34b5858ecc460a92e30753e05a5afda46d1312853c081f1b0fc7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006752",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "2",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : Relâchements brefs",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/2/values/2",
+            "json_pointer": "/measurements/2/values/2",
+            "record_identity": null
+          },
+          "content_sha256": "8d0116334a3d496e789de7ef254bcb559955299ed6ce782fadb1149d3db9b10e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006753",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_study",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/3/source_study",
+            "json_pointer": "/measurements/3/source_study",
+            "record_identity": null
+          },
+          "content_sha256": "89ed787da61efc7b4c86cc4018842827a99965e33375ffe6177c0cc91de181b2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006754",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "bank",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/3/bank",
+            "json_pointer": "/measurements/3/bank",
+            "record_identity": null
+          },
+          "content_sha256": "1ae207ce8b31ded60cc2d5391fc3fd8e99e078128ee2c11a7b7fb1e3923b6199",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006755",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "window_after_section_start_seconds",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/3/window_after_section_start_seconds",
+            "json_pointer": "/measurements/3/window_after_section_start_seconds",
+            "record_identity": null
+          },
+          "content_sha256": "d39b06116323f4376f97c42bd70bae28b6b9f4c491d18636f09416bd86ba3532",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006756",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "0",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : Pédale relâchée",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/3/values/0",
+            "json_pointer": "/measurements/3/values/0",
+            "record_identity": null
+          },
+          "content_sha256": "64bb5fb75801c51ce61a32dcc78b4584942c022274f6988c776932f3ff2e15c9",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006757",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "1",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : Pédale tenue",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/3/values/1",
+            "json_pointer": "/measurements/3/values/1",
+            "record_identity": null
+          },
+          "content_sha256": "a3cba4314c60113600856b8bc8c3c63ffadb723e720a4a012cdeae66a4a7d1f6",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006758",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "2",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : Relâchements brefs",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/3/values/2",
+            "json_pointer": "/measurements/3/values/2",
+            "record_identity": null
+          },
+          "content_sha256": "c99ca5ec6b5727933d6e3d7c293d198c6118183f0f435cbfc771b01bc250893e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006759",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_study",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/4/source_study",
+            "json_pointer": "/measurements/4/source_study",
+            "record_identity": null
+          },
+          "content_sha256": "038a7c010904fae8f7f24a30c184ed48e10e364c8650577d8a31c3e9fa4363e7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006760",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "bank",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/4/bank",
+            "json_pointer": "/measurements/4/bank",
+            "record_identity": null
+          },
+          "content_sha256": "77c58acfc22f5454cc6300e0d10f715361402bfb1f97461ed2e6508ae3c80607",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006761",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "window_after_section_start_seconds",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/4/window_after_section_start_seconds",
+            "json_pointer": "/measurements/4/window_after_section_start_seconds",
+            "record_identity": null
+          },
+          "content_sha256": "33433c7192aa1ebf43675fe3245c146126b61836f6cc146c765df9bc78f6e462",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006762",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "0",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : GM81 ouvert",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/4/values/0",
+            "json_pointer": "/measurements/4/values/0",
+            "record_identity": null
+          },
+          "content_sha256": "a7c665d90b6c597c5cf21d97ab7fe80ef3552a840795cb000dc2824ce561fdfd",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006763",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "1",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : GM80 étouffé",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/4/values/1",
+            "json_pointer": "/measurements/4/values/1",
+            "record_identity": null
+          },
+          "content_sha256": "fb01230d8df4bb4dc2717cd7ea200a0368d54027b80d1cbe081a9e36b3ffba63",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006764",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_study",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/5/source_study",
+            "json_pointer": "/measurements/5/source_study",
+            "record_identity": null
+          },
+          "content_sha256": "038a7c010904fae8f7f24a30c184ed48e10e364c8650577d8a31c3e9fa4363e7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006765",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "bank",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/5/bank",
+            "json_pointer": "/measurements/5/bank",
+            "record_identity": null
+          },
+          "content_sha256": "1ae207ce8b31ded60cc2d5391fc3fd8e99e078128ee2c11a7b7fb1e3923b6199",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006766",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "window_after_section_start_seconds",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/5/window_after_section_start_seconds",
+            "json_pointer": "/measurements/5/window_after_section_start_seconds",
+            "record_identity": null
+          },
+          "content_sha256": "33433c7192aa1ebf43675fe3245c146126b61836f6cc146c765df9bc78f6e462",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006767",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "0",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : GM81 ouvert",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/5/values/0",
+            "json_pointer": "/measurements/5/values/0",
+            "record_identity": null
+          },
+          "content_sha256": "687661a83f6b39fc42af0ef56f942caf579f2d5fb65e9afd349f30f24e2b452d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006768",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "1",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : GM80 étouffé",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/5/values/1",
+            "json_pointer": "/measurements/5/values/1",
+            "record_identity": null
+          },
+          "content_sha256": "b774d7e881b52e0b079908133e0a99df93f989934a67129fe5790014b52478a4",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006769",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_study",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/6/source_study",
+            "json_pointer": "/measurements/6/source_study",
+            "record_identity": null
+          },
+          "content_sha256": "484a141f1d0a21dc062bf3da26979d15b6cfea32666475f69a05dee17fd08416",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006770",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "bank",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/6/bank",
+            "json_pointer": "/measurements/6/bank",
+            "record_identity": null
+          },
+          "content_sha256": "77c58acfc22f5454cc6300e0d10f715361402bfb1f97461ed2e6508ae3c80607",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006771",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "window_after_section_start_seconds",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/6/window_after_section_start_seconds",
+            "json_pointer": "/measurements/6/window_after_section_start_seconds",
+            "record_identity": null
+          },
+          "content_sha256": "6dd6084c31a413751716b695e1b00b039f356dbebf0a734b5cd854cf4899293a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006772",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "0",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : Gate 45 ticks",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/6/values/0",
+            "json_pointer": "/measurements/6/values/0",
+            "record_identity": null
+          },
+          "content_sha256": "bc5d0385da6072b59e05c8e79748f84fc8f3014e164068caf94c70958a0d954e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006773",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "1",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : Gate 380 ticks",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/6/values/1",
+            "json_pointer": "/measurements/6/values/1",
+            "record_identity": null
+          },
+          "content_sha256": "9208496d218a7a07350a74ae1f37b3dcef909462c0bb1718d22316b55f6adff3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006774",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_study",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/7/source_study",
+            "json_pointer": "/measurements/7/source_study",
+            "record_identity": null
+          },
+          "content_sha256": "484a141f1d0a21dc062bf3da26979d15b6cfea32666475f69a05dee17fd08416",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006775",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "bank",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/7/bank",
+            "json_pointer": "/measurements/7/bank",
+            "record_identity": null
+          },
+          "content_sha256": "1ae207ce8b31ded60cc2d5391fc3fd8e99e078128ee2c11a7b7fb1e3923b6199",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006776",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "window_after_section_start_seconds",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/7/window_after_section_start_seconds",
+            "json_pointer": "/measurements/7/window_after_section_start_seconds",
+            "record_identity": null
+          },
+          "content_sha256": "6dd6084c31a413751716b695e1b00b039f356dbebf0a734b5cd854cf4899293a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006777",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "0",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : Gate 45 ticks",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/7/values/0",
+            "json_pointer": "/measurements/7/values/0",
+            "record_identity": null
+          },
+          "content_sha256": "f1b3b0c8b6cb4130636023b397a946fd89f2b4b01ae4ba8c33c884906dd570a5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006778",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "1",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : Gate 380 ticks",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/7/values/1",
+            "json_pointer": "/measurements/7/values/1",
+            "record_identity": null
+          },
+          "content_sha256": "a7728be3c49ebaaaaba7fd7a4956b359dc9d026c061ba04b6d9f95cbaa646a9d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006779",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_study",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/8/source_study",
+            "json_pointer": "/measurements/8/source_study",
+            "record_identity": null
+          },
+          "content_sha256": "484a141f1d0a21dc062bf3da26979d15b6cfea32666475f69a05dee17fd08416",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006780",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "bank",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/8/bank",
+            "json_pointer": "/measurements/8/bank",
+            "record_identity": null
+          },
+          "content_sha256": "77c58acfc22f5454cc6300e0d10f715361402bfb1f97461ed2e6508ae3c80607",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006781",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "window_after_section_start_seconds",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/8/window_after_section_start_seconds",
+            "json_pointer": "/measurements/8/window_after_section_start_seconds",
+            "record_identity": null
+          },
+          "content_sha256": "da42808ef512e8748a08c5e2b16386252660504401d887b9620d52b15242890c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006782",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "0",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : Gate 45 ticks",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/8/values/0",
+            "json_pointer": "/measurements/8/values/0",
+            "record_identity": null
+          },
+          "content_sha256": "3faa1e03a20feb26457cf6fd4e369030c26177e4c1427b88d34fbcc7d84639b8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006783",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "1",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : Gate 380 ticks",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/8/values/1",
+            "json_pointer": "/measurements/8/values/1",
+            "record_identity": null
+          },
+          "content_sha256": "1827265b3096160f1f6965c0f732ecad11721c599645be0d14f7af1729c50179",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006784",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_study",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/9/source_study",
+            "json_pointer": "/measurements/9/source_study",
+            "record_identity": null
+          },
+          "content_sha256": "484a141f1d0a21dc062bf3da26979d15b6cfea32666475f69a05dee17fd08416",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006785",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "bank",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/9/bank",
+            "json_pointer": "/measurements/9/bank",
+            "record_identity": null
+          },
+          "content_sha256": "1ae207ce8b31ded60cc2d5391fc3fd8e99e078128ee2c11a7b7fb1e3923b6199",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006786",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "window_after_section_start_seconds",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/9/window_after_section_start_seconds",
+            "json_pointer": "/measurements/9/window_after_section_start_seconds",
+            "record_identity": null
+          },
+          "content_sha256": "da42808ef512e8748a08c5e2b16386252660504401d887b9620d52b15242890c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006787",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "0",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : Gate 45 ticks",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/9/values/0",
+            "json_pointer": "/measurements/9/values/0",
+            "record_identity": null
+          },
+          "content_sha256": "bee6225bb40d8c5fa5a5d06d27414d724a8290c3cf1cf576731157e60c77e34d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006788",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "1",
+      "title_origin": "source_heading_or_key",
+      "description": "Description documentaire non revue : Gate 380 ticks",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurements/9/values/1",
+            "json_pointer": "/measurements/9/values/1",
+            "record_identity": null
+          },
+          "content_sha256": "75b5881dc5fbfef8d11ef74fde20789ef7a5a6385a17e83e0088a7334a830ae7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006789",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "db_floor_note",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/db_floor_note",
+            "json_pointer": "/db_floor_note",
+            "record_identity": null
+          },
+          "content_sha256": "70ca912cc7b0ea2ffebc63b73c2d0a1d729787dda3b15d211a6715a36dd15e2d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006790",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "measurement_limit",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/measurement_limit",
+            "json_pointer": "/measurement_limit",
+            "record_identity": null
+          },
+          "content_sha256": "6487ae51fd57e68de04ceafe74a17a1144fe21882d57093855c07f53e1def817",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006791",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Pédale de vibraphone · GeneralUser GS",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/listening_trials/berklee:CM-343/0",
+            "json_pointer": "/listening_trials/berklee:CM-343/0",
+            "record_identity": null
+          },
+          "content_sha256": "0c2fac925956af250f9c11510a2a15729b756850e4d12f7b056ba6a4e843346c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006792",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Pédale de vibraphone · TimGM6mb",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-resonance-2026-11-18.json",
+          "document_sha256": "d458ea67382cd3d003bcff356dfeffe9095a751c393ba270eb9c546a646d21a4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/listening_trials/berklee:CM-343/1",
+            "json_pointer": "/listening_trials/berklee:CM-343/1",
+            "record_identity": null
+          },
+          "content_sha256": "7c2325f1b1b9ee58bc5d410c2b7a9fa808f4dc0f0d8a7747471bf6ac53d5cf51",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

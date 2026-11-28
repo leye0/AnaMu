@@ -1,0 +1,368 @@
+{
+  "source_document": "docs/courses/berklee/CM-201.md",
+  "units": [
+    {
+      "id": "material:0000784",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-201 — Introduction to Composition",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Berklee College of Music (Boston), candidat à l'option de majeure Composition. Recherche documentaire du 11 novembre 2026. **Documentation partielle : le syllabus propre à CM-201 n'a pas été obtenu.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-201.md",
+          "document_sha256": "042caac17e802a734ef02dc7b7f1f2b0423b08b428d373aa1a31ef4094940ec6",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:61f9896fec7460054e3456a6",
+            "heading_path": [
+              "CM-201 — Introduction to Composition"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 76
+          },
+          "content_sha256": "3717ca541d0a68b9497367945563bd63f4b09390189a618e249134c3af5781f6",
+          "body_sha256": "aeffb0b45abb496db324281d00d8a284b136a99e6f71b4fbc0edead73f639436",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000785",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources, contenus et limites de provenance",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [CM-201, notice officielle de Berklee College](https://college.berklee.edu/courses/cm-201) — Contenu attribuable au cours : développement d'une écriture personnelle, composition par le timbre et les sons, élaboration de petites idées en f",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-201.md",
+          "document_sha256": "042caac17e802a734ef02dc7b7f1f2b0423b08b428d373aa1a31ef4094940ec6",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5b953b8b56a26c7c0ddd5967",
+            "heading_path": [
+              "CM-201 — Introduction to Composition",
+              "Sources, contenus et limites de provenance"
+            ],
+            "start_line": 5,
+            "end_line": 11,
+            "subtree_end_line": 11
+          },
+          "content_sha256": "5d223d5f2b7cfebeec58ced2143d4f6ef573c3494eb5e420f9d5289ba0f21ef3",
+          "body_sha256": "84b6bd23f2a1a187a3f3090bbc677b3d16e0987c8fc68d32bfc12725c3ccbb5f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000786",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "État de la collecte",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le lien MIT apporte une **matière pédagogique réelle**, et non une déduction à partir du seul intitulé, mais **ne prouve aucune séquence, consigne ou évaluation de CM-201**. À rechercher : plan de cours Berklee Boston, modalités des partiti",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-201.md",
+          "document_sha256": "042caac17e802a734ef02dc7b7f1f2b0423b08b428d373aa1a31ef4094940ec6",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3c549e4a73bac02819a2d28a",
+            "heading_path": [
+              "CM-201 — Introduction to Composition",
+              "État de la collecte"
+            ],
+            "start_line": 12,
+            "end_line": 16,
+            "subtree_end_line": 16
+          },
+          "content_sha256": "2aeacefa2af90cd22e3d556c7bd9cf2f631d0e4ff2aa8c99052b8f6a045a7ef1",
+          "body_sha256": "190e5c317834fea9bf38573bd322ab3c3e973ad4d86ff9208c6f70ef659b83e1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000787",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — premier apprentissage vérifié (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Pertinence directe** pour l'analyse et/ou la composition, d'après la [notice institutionnelle propre au cours](https://college.berklee.edu/courses/cm-201). [Exemple MIDI original](./CM-201/exemple.mid) : **créé pour AnaMu**, pas un exerci",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-201.md",
+          "document_sha256": "042caac17e802a734ef02dc7b7f1f2b0423b08b428d373aa1a31ef4094940ec6",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a2cb3059139f37dee5c6902f",
+            "heading_path": [
+              "CM-201 — Introduction to Composition",
+              "Application à l'analyse et à la création — premier apprentissage vérifié (11 novembre 2026)"
+            ],
+            "start_line": 17,
+            "end_line": 20,
+            "subtree_end_line": 30
+          },
+          "content_sha256": "4ea1506cf20250100d0a3b0881aea866b1a6a9e8e7e6de3518331064eb2ef70c",
+          "body_sha256": "51373f04d83bc7893e3795e0576edf4890f38c5d3c511509c5cdc1e3cd49b15f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000788",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage : Développer une petite idée mélodique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyse MIDI, étapes :** 1. Extraire les trois premières hauteurs et leur schéma intervallique. 2. Rechercher ce schéma plus loin avec transposition et compression des durées. 3. Annoter les endroits où une courte cellule devient un passa",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-201.md",
+          "document_sha256": "042caac17e802a734ef02dc7b7f1f2b0423b08b428d373aa1a31ef4094940ec6",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:af562c3da06de1fe37d79cff",
+            "heading_path": [
+              "CM-201 — Introduction to Composition",
+              "Application à l'analyse et à la création — premier apprentissage vérifié (11 novembre 2026)",
+              "Apprentissage : Développer une petite idée mélodique"
+            ],
+            "start_line": 21,
+            "end_line": 30,
+            "subtree_end_line": 30
+          },
+          "content_sha256": "604c2bad0adf746af56bdfc994994a5bd2f640f226f0e2a9d5b85249d0031130",
+          "body_sha256": "64c0baf018463130981d3dd072dd2c82904beaf8de1fa9beda6df78822edafba",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000789",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deuxième passe qualitative — de l'idée à la forme, au timbre et à la représentation (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Attestation du cours.** [Notice officielle CM-201](https://college.berklee.edu/courses/cm-201) : développement d'idées simples en formes plus longues, composition avec le son et le timbre, partitions notées et graphiques, pratiques d'écri",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-201.md",
+          "document_sha256": "042caac17e802a734ef02dc7b7f1f2b0423b08b428d373aa1a31ef4094940ec6",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:445767636e1a7fcf31a5ac21",
+            "heading_path": [
+              "CM-201 — Introduction to Composition",
+              "Deuxième passe qualitative — de l'idée à la forme, au timbre et à la représentation (12 novembre 2026)"
+            ],
+            "start_line": 31,
+            "end_line": 34,
+            "subtree_end_line": 62
+          },
+          "content_sha256": "0f26ca2b654f45269f9749ef18dbc41cf5f5514599a84518d240faedb7b78610",
+          "body_sha256": "45207dc0b367f88c197404a15dcd3649894b3962035d2402fce7d831337044c0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000790",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q1 — Expansion motivique vers une forme lisible",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser — entrées et opérations.** Lire partition ou MIDI avec métrique fiable; extraire les cellules d'intervalles, les durées relatives, les silences et les points d'arrivée. Repérer récurrences transposées, augmentées, fragmentées ou",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-201.md",
+          "document_sha256": "042caac17e802a734ef02dc7b7f1f2b0423b08b428d373aa1a31ef4094940ec6",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:85375fbabdba6282a54786e2",
+            "heading_path": [
+              "CM-201 — Introduction to Composition",
+              "Deuxième passe qualitative — de l'idée à la forme, au timbre et à la représentation (12 novembre 2026)",
+              "Q1 — Expansion motivique vers une forme lisible"
+            ],
+            "start_line": 35,
+            "end_line": 42,
+            "subtree_end_line": 42
+          },
+          "content_sha256": "c550ecb55b7ffa8c594c8c8e86bfda6fbebd45bdb76b13fa6629987bb3ea7da6",
+          "body_sha256": "b482a6d7d1ac3eadedfbc2638e94f928ec0a0907a622ddd75308a765479495f7",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000791",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q2 — Composition par timbre : distinguer notes communes et matériaux sonores",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Réunir audio (nécessaire) et, si disponibles, partitions, dispositifs et métadonnées d'instruments. Séparer évolution de hauteur, spectre, enveloppe d'attaque, résonance et densité; comparer deux passages où le motif reste sim",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-201.md",
+          "document_sha256": "042caac17e802a734ef02dc7b7f1f2b0423b08b428d373aa1a31ef4094940ec6",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9f72a893bd126b304cef3235",
+            "heading_path": [
+              "CM-201 — Introduction to Composition",
+              "Deuxième passe qualitative — de l'idée à la forme, au timbre et à la représentation (12 novembre 2026)",
+              "Q2 — Composition par timbre : distinguer notes communes et matériaux sonores"
+            ],
+            "start_line": 43,
+            "end_line": 50,
+            "subtree_end_line": 50
+          },
+          "content_sha256": "88d12f851df1978593af7129f0b7b1107e5249162ea2709c6d2c2ee2f3c4fd30",
+          "body_sha256": "64d5a3974b21b4a0a8dd623eb9a5ca92b5475c2e696e2d163e0fc27f9586a076",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000792",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q3 — Notation traditionnelle, graphique et lecture : cohérence entre consigne et résultat",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Comparer la partition, sa légende graphique éventuelle, les parties d'instrument et une captation de lecture. Identifier ce qui est fixé (hauteur/rythme) ou ouvert (geste, densité, durée relative); annoter les divergences entr",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-201.md",
+          "document_sha256": "042caac17e802a734ef02dc7b7f1f2b0423b08b428d373aa1a31ef4094940ec6",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:68e7b8168f840e93c42f4338",
+            "heading_path": [
+              "CM-201 — Introduction to Composition",
+              "Deuxième passe qualitative — de l'idée à la forme, au timbre et à la représentation (12 novembre 2026)",
+              "Q3 — Notation traditionnelle, graphique et lecture : cohérence entre consigne et résultat"
+            ],
+            "start_line": 51,
+            "end_line": 62,
+            "subtree_end_line": 62
+          },
+          "content_sha256": "eaa8b920b45b0537c1af1073df1093566a385a48603cf978cdff9ff3f2c70f80",
+          "body_sha256": "d9a7948df362c69d129851b795a2e29bb74c33a1610317ed30649903f37e2a52",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000793",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Cas vérifié — un retour peut être bref, partiel ou conclusif (13 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Ancrage.** La [notice CM-201](https://college.berklee.edu/courses/cm-201) atteste l'élaboration de petites idées et la composition en formes plus longues. Le [devoir public MIT 21M.065 no 9](https://ocw.mit.edu/courses/21m-065-introductio",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-201.md",
+          "document_sha256": "042caac17e802a734ef02dc7b7f1f2b0423b08b428d373aa1a31ef4094940ec6",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3ff2e69461d54f53e046e974",
+            "heading_path": [
+              "CM-201 — Introduction to Composition",
+              "Cas vérifié — un retour peut être bref, partiel ou conclusif (13 novembre 2026)"
+            ],
+            "start_line": 63,
+            "end_line": 76,
+            "subtree_end_line": 76
+          },
+          "content_sha256": "471b68a1a629bc0330046cf2577d0db177b712eaf4c19ccf65c5bd61b1a4bf4f",
+          "body_sha256": "88bc6c67b6f80500b50477bc94ab1794c3cac85122144e5b20c0db5e6c33dacf",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

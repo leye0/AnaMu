@@ -1,0 +1,368 @@
+{
+  "source_document": "docs/courses/udem/MUS-1321.md",
+  "units": [
+    {
+      "id": "material:0003158",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 1321 — Analyse, synthèse et traitement des sons",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-1321.md",
+          "document_sha256": "24994d2f7bd12e8b51f4c38bddba0691f5338dc15914d392b39dff8460827544",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ab4925115a4184a81f188959",
+            "heading_path": [
+              "MUS 1321 — Analyse, synthèse et traitement des sons"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 62
+          },
+          "content_sha256": "b6aa723b2248fc0b597785b4bae1601a846e4210b618ff770b76fbc998010b21",
+          "body_sha256": "89120b9aa38472ffe8ca15a1dc4a095f790f8898ef0242352ecf4ed61d7a6460",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003159",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Cours recensé",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Obligatoire, Composition A26. La notice annonce échantillonnage, Fourier, synthèses additive et soustractive, spatialisation, égalisation, compression, distorsion, modulation et granulation. [Description institutionnelle](https://admission.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-1321.md",
+          "document_sha256": "24994d2f7bd12e8b51f4c38bddba0691f5338dc15914d392b39dff8460827544",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7f22a66cc46b6bac2cb86423",
+            "heading_path": [
+              "MUS 1321 — Analyse, synthèse et traitement des sons",
+              "Cours recensé"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 8
+          },
+          "content_sha256": "01c79891ff34aba507f60c2352caffb93b2f6279e9283fdbb2d28b0fdd05649a",
+          "body_sha256": "ebfcecfc0997f4cdb1efebeb0fee4f918d1f0c9ef74ddb4c94e3aad63f7b5831",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003160",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Support parallèle consultable",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le manuel public de Julius O. Smith III présente l’analyse, le traitement et la synthèse audio par représentations spectrales calculées avec la FFT. Point d’entrée théorique pour la partie Fourier de la notice UdeM. [Support et contenu](htt",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-1321.md",
+          "document_sha256": "24994d2f7bd12e8b51f4c38bddba0691f5338dc15914d392b39dff8460827544",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:685bcf057d358212103f315b",
+            "heading_path": [
+              "MUS 1321 — Analyse, synthèse et traitement des sons",
+              "Support parallèle consultable"
+            ],
+            "start_line": 9,
+            "end_line": 12,
+            "subtree_end_line": 12
+          },
+          "content_sha256": "32da2fb0ceab92357e08aa8cd157a2b4a9c332959ac65834a7928d3d9e47d278",
+          "body_sha256": "5e8bb01f54e7f37bb8e5a3ff219c0a4359e190bc648224c19bb88a5ef01e1d85",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003161",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Ce support externe documente les sujets indiqués dans la fiche, avec sa propre progression. Les lectures prescrites, consignes, exemples et critères du cours recensé restent à obtenir auprès de l’établissement.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-1321.md",
+          "document_sha256": "24994d2f7bd12e8b51f4c38bddba0691f5338dc15914d392b39dff8460827544",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9cfcee25ae163e33d7634f0f",
+            "heading_path": [
+              "MUS 1321 — Analyse, synthèse et traitement des sons",
+              "Lacunes"
+            ],
+            "start_line": 13,
+            "end_line": 16,
+            "subtree_end_line": 16
+          },
+          "content_sha256": "da696101e540c75079da608548c6007723e47f8bc21de175688d2c912e2244ff",
+          "body_sha256": "302994f0dd267239e2d49587547f7a1e80c11765e2a6a4f3e2e96c19669041dc",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003162",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Comparaison entre techniques et écriture sonore (source datée)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le [MIT 21M.361, printemps 2008](../mit/21M-361.md) publie ses tâches de convolution, montage, filtrage, feedback et superpositions. Elles illustrent une **utilisation compositionnelle** de certaines méthodes qui recoupent les thèmes du cat",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-1321.md",
+          "document_sha256": "24994d2f7bd12e8b51f4c38bddba0691f5338dc15914d392b39dff8460827544",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:93ee30dd6b11c190698c666b",
+            "heading_path": [
+              "MUS 1321 — Analyse, synthèse et traitement des sons",
+              "Comparaison entre techniques et écriture sonore (source datée)"
+            ],
+            "start_line": 17,
+            "end_line": 21,
+            "subtree_end_line": 21
+          },
+          "content_sha256": "9fe5d120fac4adb1615463d89e077b00f1d678b4b438958a9c87a1ad5b6477da",
+          "body_sha256": "5d9eb3c7972d08f37f91d4dde4293d4d304f2fa4ac3f5700945786a8daf10e36",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003163",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — cours exigeant de l'audio (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cours :** MUS 1321 — Analyse, synthèse et traitement des sons. **Apport :** direct aux compétences de création et d'analyse musicale, mais **pas représentable fidèlement par le seul MIDI**. **Preuve :** [notice officielle du cours](https:",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-1321.md",
+          "document_sha256": "24994d2f7bd12e8b51f4c38bddba0691f5338dc15914d392b39dff8460827544",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6d76640b957a046ba44650ee",
+            "heading_path": [
+              "MUS 1321 — Analyse, synthèse et traitement des sons",
+              "Application à l'analyse et à la création — cours exigeant de l'audio (11 novembre 2026)"
+            ],
+            "start_line": 22,
+            "end_line": 25,
+            "subtree_end_line": 62
+          },
+          "content_sha256": "92c5631a93ecb02dbec822b06d2f6038ed8225349fab1350f5a0d21a59ec2b14",
+          "body_sha256": "31c6766acbfcbd3dfc223a3e236b4bd67a8922b29daff3ea59d05a27b21a1bdd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003164",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 1 — Échantillonnage et analyse de Fourier",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve :** matière directement annoncée dans la notice institutionnelle. **Applicabilité :** `AUDIO_REQUIRED / CONTEXT_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-1321.md",
+          "document_sha256": "24994d2f7bd12e8b51f4c38bddba0691f5338dc15914d392b39dff8460827544",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5161b2ba97b7336415e98d6e",
+            "heading_path": [
+              "MUS 1321 — Analyse, synthèse et traitement des sons",
+              "Application à l'analyse et à la création — cours exigeant de l'audio (11 novembre 2026)",
+              "Apprentissage 1 — Échantillonnage et analyse de Fourier"
+            ],
+            "start_line": 26,
+            "end_line": 35,
+            "subtree_end_line": 35
+          },
+          "content_sha256": "680bf69063d80d19fb5f5e555e583e7121517634736530f4af6c09a0de4e958b",
+          "body_sha256": "8045d39ad67d6a169d5d386c95b479bfc50f3c58d19267173e6e10af31bf25ec",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003165",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 2 — Synthèses additive et soustractive",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve :** matière directement annoncée dans la notice institutionnelle. **Applicabilité :** `AUDIO_REQUIRED / MIDI_PROXY`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-1321.md",
+          "document_sha256": "24994d2f7bd12e8b51f4c38bddba0691f5338dc15914d392b39dff8460827544",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9343cde2a27ea6b40efb1377",
+            "heading_path": [
+              "MUS 1321 — Analyse, synthèse et traitement des sons",
+              "Application à l'analyse et à la création — cours exigeant de l'audio (11 novembre 2026)",
+              "Apprentissage 2 — Synthèses additive et soustractive"
+            ],
+            "start_line": 36,
+            "end_line": 45,
+            "subtree_end_line": 45
+          },
+          "content_sha256": "488199d0d305dbb91396798445fc17929984aec35eda71c7842ff9d5754e4733",
+          "body_sha256": "92ca54ce4b9933e271b0feaf873caad015cbb9908520962c32d3471b874c5679",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003166",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 3 — Compression, égalisation, modulation et spatialisation",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve :** matière directement annoncée dans la notice institutionnelle. **Applicabilité :** `AUDIO_REQUIRED / MIDI_PROXY`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-1321.md",
+          "document_sha256": "24994d2f7bd12e8b51f4c38bddba0691f5338dc15914d392b39dff8460827544",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7e3a2ccb133fec0680f3e9ec",
+            "heading_path": [
+              "MUS 1321 — Analyse, synthèse et traitement des sons",
+              "Application à l'analyse et à la création — cours exigeant de l'audio (11 novembre 2026)",
+              "Apprentissage 3 — Compression, égalisation, modulation et spatialisation"
+            ],
+            "start_line": 46,
+            "end_line": 55,
+            "subtree_end_line": 55
+          },
+          "content_sha256": "fe5a4b5ae1f111e11a7357756c60d8ee4a4f6424e8e639742240f78f33de2565",
+          "body_sha256": "411f1cb4013596023d9511d944d3b0d0f59ede7883745540acf2faa2e8faa898",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003167",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict du cours",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Apport :** direct à l'analyse/création **audio**, pas à une reconnaissance fiable dans un MIDI nu.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-1321.md",
+          "document_sha256": "24994d2f7bd12e8b51f4c38bddba0691f5338dc15914d392b39dff8460827544",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:938210fcca2472c664527a9d",
+            "heading_path": [
+              "MUS 1321 — Analyse, synthèse et traitement des sons",
+              "Application à l'analyse et à la création — cours exigeant de l'audio (11 novembre 2026)",
+              "Verdict du cours"
+            ],
+            "start_line": 56,
+            "end_line": 62,
+            "subtree_end_line": 62
+          },
+          "content_sha256": "51ffa0a810bfa98e47654565bcd840a96894180737eceaedcb9abe2e3b84893f",
+          "body_sha256": "b604b60b09fbbb4bef7e462a828c9b602af109a2314e5ae78d8fa556b11d211d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

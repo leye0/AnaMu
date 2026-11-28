@@ -1,0 +1,844 @@
+{
+  "source_document": "docs/courses/berklee/CM-320.md",
+  "units": [
+    {
+      "id": "material:0000172",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Berklee College of Music, inventaire candidat 2026 : cours de composition/arrangement ou spécialité voisine. Pertinence musicale distincte de l’admissibilité dans un parcours. Consultation : 10 novembre 2026. **Documentation partielle : syl",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:16e550076d63aa554dc2867a",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 273
+          },
+          "content_sha256": "71bc5374b20f043724a0bfacd3351337b5143ba797495ec8694e957df214b4b6",
+          "body_sha256": "a8cbbfca1272a98b2ce2547f1e2d9305e0a57446202304abbb3b191b08fc5c3e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000173",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources et matière accessible",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Notice officielle Boston](https://college.berklee.edu/courses/cm-320) — Mètres impairs, polyrythmie linéaire, cellules et modulation métrique dans jazz, metal progressif et musiques du monde. Konnakol et grooves moyen-orientaux ; exemple",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8f9f95bdad08909f15b3296f",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Sources et matière accessible"
+            ],
+            "start_line": 5,
+            "end_line": 11,
+            "subtree_end_line": 11
+          },
+          "content_sha256": "f3c7e2b2526047e30a9de1e2d7ad6ecc1dc850f0a509d969ba0905f64c8283e4",
+          "body_sha256": "e4e3892f6b5483596c9502b82c76bd31993163351638534b06ecdf10d1d99c79",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000174",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes et suite",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Ce support introductif ne couvre pas le Konnakol ni les analyses avancées de CM-320 ; obtenir les transcriptions et critères de la pièce finale. Syllabus de section, bibliographie, répertoire précis, sujets complets et barèmes encore inconn",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e844ce91eeca565574e9967e",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Lacunes et suite"
+            ],
+            "start_line": 12,
+            "end_line": 16,
+            "subtree_end_line": 16
+          },
+          "content_sha256": "492343cc5129b44c36c3344e165620c7c408b91de34cf45a028da3db0a47d456",
+          "body_sha256": "c3b64f9091217059383166a37cb230fc1508cc3f131b769d35d1a0454e36c812",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000175",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — étude du contenu attesté (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Apport : direct aux compétences d'analyse et de création.** [Notice institutionnelle du cours](https://college.berklee.edu/courses/cm-320) ; [exemple MIDI original pour AnaMu](./CM-320/exemple.mid) — **pas un exercice, ni une œuvre du pro",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:35c034be88aa20e1107309b9",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Application à l'analyse et à la création — étude du contenu attesté (11 novembre 2026)"
+            ],
+            "start_line": 17,
+            "end_line": 20,
+            "subtree_end_line": 30
+          },
+          "content_sha256": "4d74bca829b324b94bcc604dd1db9ae2643e6612b09f1b6e528ca914ca7dfd04",
+          "body_sha256": "862030d35430fa00703d06e4e4b7add8bc8284108a89f64946c60f9a5c434bc8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000176",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage : Mètre impair 5/8, groupes 3+2 et polyrythmie linéaire",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Procédure d'analyse MIDI :** 1. Lire la signature MIDI 5/8 et convertir les ticks en unités de croches. 2. Repérer les attaques accentuées des deux groupements 3 puis 2, séparés de trois et deux croches. 3. Comparer les cycles d'autres vo",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2cba99f1e8e69b8b0796371b",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Application à l'analyse et à la création — étude du contenu attesté (11 novembre 2026)",
+              "Apprentissage : Mètre impair 5/8, groupes 3+2 et polyrythmie linéaire"
+            ],
+            "start_line": 21,
+            "end_line": 30,
+            "subtree_end_line": 30
+          },
+          "content_sha256": "b85566ad8e9d2720b1f079297b751207a25bd3f29f08dd7c1f3785ef6541200d",
+          "body_sha256": "bf9512d8a0255bb9a90d490deae6025e2ac4f6e072dbd6df0c83889f786e8a0e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000177",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deuxième passe qualitative — composition rythmique (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source du cours :** [notice officielle CM-320](https://college.berklee.edu/courses/cm-320), qui annonce mètres impairs, cellules, polyrythmie linéaire, modulation métrique et étude de traditions rythmiques. Méthodes d'AnaMu, **sans recons",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5a6c97dc8d4670261edbf9d3",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Deuxième passe qualitative — composition rythmique (12 novembre 2026)"
+            ],
+            "start_line": 31,
+            "end_line": 34,
+            "subtree_end_line": 60
+          },
+          "content_sha256": "5b708c0a899c567d9d16d80de17c1f2160f99b89304dd0b6943e785e2c64fb30",
+          "body_sha256": "c6c313e9541bf8a66fbedc01de59615b67fc117fccccb65312f2ec1fa026a8b2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000178",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q1 — Changement de groupement dans un même 5/8",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Enregistrer la signature métrique et localiser attaques, silences et accents de vélocité ou d'audio par unité de croche. Comparer la partition en **3+2** (seuils aux croches 0 et 3) à **2+3** (seuils 0 et 2); chercher récurren",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4f1fd6c42a8722776abdad85",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Deuxième passe qualitative — composition rythmique (12 novembre 2026)",
+              "Q1 — Changement de groupement dans un même 5/8"
+            ],
+            "start_line": 35,
+            "end_line": 42,
+            "subtree_end_line": 42
+          },
+          "content_sha256": "bd15111396516a158e2295291a60cba54bed7148d226e1bd51dfcc535e403e60",
+          "body_sha256": "a1dec3cd859dc2a4ed17d8a719e8bc43a23e014e44dd0f36a8bd60b58a9fcea0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000179",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q2 — Polyrythmie linéaire : répartir les attaques sans inventer deux percussionnistes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Définir une grille commune de subdivisions, reconstruire les cycles d'attaques et chercher des partitions complémentaires de la grille entre les voix. Comparer à un ostinato monophonique syncopé et à deux rythmes indépendants ",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ccb9bc415e58575a87adc24c",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Deuxième passe qualitative — composition rythmique (12 novembre 2026)",
+              "Q2 — Polyrythmie linéaire : répartir les attaques sans inventer deux percussionnistes"
+            ],
+            "start_line": 43,
+            "end_line": 50,
+            "subtree_end_line": 50
+          },
+          "content_sha256": "3b12d89581c6e42976d11895ab41f0661abc5f61109b8be8663df996217f78b0",
+          "body_sha256": "af205068cddff720cea385d3eb3ad1b1e718e21ac249c0fd97b8210e0aa701c9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000180",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q3 — Modulation métrique : vérifier l'égalité des durées de battue",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Lire la partition ou la carte de tempos et déterminer **quelle valeur avant le changement égale quelle valeur après**. Exemple de contrôle : noire ancienne = noire pointée nouvelle; à 120 noires/min avant, cela donne 180 noire",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d49c1cdfaf42458bf77b3972",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Deuxième passe qualitative — composition rythmique (12 novembre 2026)",
+              "Q3 — Modulation métrique : vérifier l'égalité des durées de battue"
+            ],
+            "start_line": 51,
+            "end_line": 60,
+            "subtree_end_line": 60
+          },
+          "content_sha256": "b6a8d1f965445f0a5ceac1fcf1973ee4151e341c488c10ee9d8f128323d2c601",
+          "body_sha256": "ca0dda4d298f55ad9c8632281898f212310518f8af8d273d9c43d093c6c0a1b8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000181",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Cas documenté — deux groupements dans le même 9/8 (13 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Ancrage.** La [notice CM-320](https://college.berklee.edu/courses/cm-320) atteste l’étude des mètres impairs et des cellules rythmiques. *Blue Rondo à la Turk* est un comparateur AnaMu, sans attribution à une section du cours.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e65f6c65957262c7623efa08",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Cas documenté — deux groupements dans le même 9/8 (13 novembre 2026)"
+            ],
+            "start_line": 61,
+            "end_line": 68,
+            "subtree_end_line": 68
+          },
+          "content_sha256": "a5a01c98740e4069e217089fbb05c9b986181a998bf7f3eb865556f9b2ebbb89",
+          "body_sha256": "f0812d32b5dc3c75cec1ac1d0633a45edafd85a097e60942cdc441a9a7fbe99f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000182",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Densité écrite et densité entendue — Beethoven, op. 109",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Ancrage.** [CM-320](https://college.berklee.edu/courses/cm-320) annonce les cellules et la modulation métrique. La sixième variation de l’op. 109, III, est un comparateur historique, ni un exemple de jazz, ni un devoir de ce cours. [Parti",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f7e0cfc1626dc379d9f729ef",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Densité écrite et densité entendue — Beethoven, op. 109"
+            ],
+            "start_line": 69,
+            "end_line": 84,
+            "subtree_end_line": 84
+          },
+          "content_sha256": "c7ecd34cd345d93b18b7bc3491e66e16fb2a53cb938aedd4e780726a053ed0f5",
+          "body_sha256": "6a1f9f2f9a3c43698e5e07aacaf5b129fb8cff1e71bf44c38ba3d3eae360b06e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000183",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Holst — garder le moteur en changeant qui le joue",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cas sur conducteur :** *Mars*, premier mouvement des *Planètes*. Dans les deux premières mesures du [conducteur Goodwin & Tabb, réimpr. Boosey & Hawkes, p. 1](https://vmirror.imslp.org/files/imglnks/usimg/f/f5/IMSLP24899-PMLP33488-Holst-P",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2a58cac43c3652b515ecd373",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Holst — garder le moteur en changeant qui le joue"
+            ],
+            "start_line": 85,
+            "end_line": 92,
+            "subtree_end_line": 92
+          },
+          "content_sha256": "6e7cafba55e5cbca0bb741122b494ef7078f49947aaa1d2b977b4f936c21bebf",
+          "body_sha256": "f6e7ce7a5a3394879ecc1ce0133c0aae27eaaa301fe102ca2b5827de6b5aa1dd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000184",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Six croches deux reliefs",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Ancrage.** CM-320 documente le groupement irrégulier et la polyrythmie. Le cas [Brubeck](#cas-documenté--deux-groupements-dans-le-même-98-13-novembre-2026) faisait varier l’intérieur du 9/8, surtout à la quatrième mesure. Dans la [prise C",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a7bb8edb22b1a472e5f6189c",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Six croches deux reliefs"
+            ],
+            "start_line": 93,
+            "end_line": 112,
+            "subtree_end_line": 128
+          },
+          "content_sha256": "2943ae5c7456c2b84f1e401fa04c21d874af30f0ae21b3f0473a52014e8f8bba",
+          "body_sha256": "698743689192ff38900106a6fc5e1394ffbe0033924a30d7c6186a759085c8bd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000185",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Audit des paramètres contrôlés de « Six croches, deux reliefs » — 17 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Relecture indépendante du [MIDI publié](CM-320/six-croches-deux-reliefs.mid) : **six pistes**, **480 ticks/noire**, signature **6/8** et tempo MIDI constant à **120 noires/min**. Les quatre blocs commencent à 0, 21, 42 et 63 s; chacun compo",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:05aa47bc682bd94fbaa811f1",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Six croches deux reliefs",
+              "Audit des paramètres contrôlés de « Six croches, deux reliefs » — 17 novembre 2026"
+            ],
+            "start_line": 113,
+            "end_line": 128,
+            "subtree_end_line": 128
+          },
+          "content_sha256": "4b3769d1afb947720d45ce1e34a5ddd91f040b1b4ee7966d6c818d636268ac06",
+          "body_sha256": "74a2030dae8627597541e9a03c6a79b8b752a1b993ac0dee2a13800e1bc0cc83",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000186",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Garder la battue ou garder la mesure",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Ancrage.** La modulation métrique figure dans la [notice CM-320](https://college.berklee.edu/courses/cm-320). Ces prises de studio sont des comparateurs, pas des titres attribués au cours. [Keith Waters, *The Studio Recordings of the Mile",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d88c8b6e4538ee352d71510d",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Garder la battue ou garder la mesure"
+            ],
+            "start_line": 129,
+            "end_line": 139,
+            "subtree_end_line": 139
+          },
+          "content_sha256": "952d4011907d1f3856742cba50111e471e2834fd521bbeab8b3caf8f20cee529",
+          "body_sha256": "f0aec23a681f9703171d8c8d352a7a094c770876da515d74d482094831fbf4c2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000187",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Quatre temps deux horloges",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : [Écouter « Quatre temps, deux horloges »](CM-320/quatre-temps-deux-horloges.mp3) · [Télécharger le MIDI](https://raw.githubusercontent.com/leye0/AnaMu/main/docs/courses/berklee/CM-320/quatre-temps-deux-horloges.mid)",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b38b3bf12398075973663f65",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Quatre temps deux horloges"
+            ],
+            "start_line": 140,
+            "end_line": 156,
+            "subtree_end_line": 175
+          },
+          "content_sha256": "008745a9ee4774e837b7fd72c25b2971b337e9d595c8c8b7f8a5139fb161169e",
+          "body_sha256": "7b8201217d2a728b7d2b88c39f0ef484671ee519856e26a1b6c2ea2e0c82311b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000188",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Audit indépendant du MIDI de « Quatre temps, deux horloges » — 17 novembre 2026",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Méthode.** Relecture des événements du [fichier MIDI publié](CM-320/quatre-temps-deux-horloges.mid), format 1, cinq pistes, 960 ticks par noire, avec conversion de chaque temps en secondes sur la carte des tempos (et non comparaison naïve",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c14d65ff35733c715c0ec0e8",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Quatre temps deux horloges",
+              "Audit indépendant du MIDI de « Quatre temps, deux horloges » — 17 novembre 2026"
+            ],
+            "start_line": 157,
+            "end_line": 175,
+            "subtree_end_line": 175
+          },
+          "content_sha256": "f7b0e9b8f58dadc79d2e168623f77243c911f2ad851145c8bd94c460903d8e79",
+          "body_sha256": "5f19f8fabb84cf64f4337ca400bea99b90b568d239957f6a1de4282f8ecb99d1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000189",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Trois coups contre deux : la coïncidence exacte ne dit pas où est la battue (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Ce qu'atteste le cours.** La [notice CM-320 Berklee](https://college.berklee.edu/courses/cm-320) nomme mètres impairs, cellules, **polyrythmie linéaire**, modulation métrique et plusieurs répertoires rythmiques à analyser. Les exercices p",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:55c681cc6293b5793e3267f3",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Trois coups contre deux : la coïncidence exacte ne dit pas où est la battue (17 novembre 2026)"
+            ],
+            "start_line": 176,
+            "end_line": 198,
+            "subtree_end_line": 198
+          },
+          "content_sha256": "d2e8bff1f6b3a6e1d7e165c69840608e1c8db58c3bf039a975601744b5a9153a",
+          "body_sha256": "84ebdc4760a130226c3bff274b7834e9a865096db3f65517032d5f388aeee337",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000190",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Audit du témoin 5/8 : le groupement n'est pas une polyrythmie attestée (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Fichier examiné sans écoute :** [CM-320/exemple.mid](./CM-320/exemple.mid), SHA Git Blob **8d539666a74c9ac815237fbcd824612dd2c9d00c**. Relecture directe des événements : Standard MIDI File format **0**, une piste, **480 ticks par noire**,",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7cfd6459fa8bd5ba95a026cc",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Audit du témoin 5/8 : le groupement n'est pas une polyrythmie attestée (17 novembre 2026)"
+            ],
+            "start_line": 199,
+            "end_line": 215,
+            "subtree_end_line": 215
+          },
+          "content_sha256": "488dc224d2517ea451e49cb6b50093ca856fb7007c0fae0e21401c63afe727d6",
+          "body_sha256": "3fea88e411487f2da6ecbe281bafc3c84ca24c699095493a6e7638c1aed3d0c6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000191",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Réemploi de la carte GM : une mesure change de longueur, pas seulement d'accent (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve du code.** [CM-320, notice Berklee](https://college.berklee.edu/courses/cm-320) comprend les mètres asymétriques, groupes rythmiques, polyrythmie et modulation métrique; la [nouvelle carte GM1/GM2](../../references/gm-percussion.md",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ba9ab827cadaffe76905db38",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Réemploi de la carte GM : une mesure change de longueur, pas seulement d'accent (17 novembre 2026)"
+            ],
+            "start_line": 216,
+            "end_line": 235,
+            "subtree_end_line": 235
+          },
+          "content_sha256": "6fe45122d640c7175396e49139a7f0866859674b7e06086d7d386cff2b0e366a",
+          "body_sha256": "55b50bc6983527b5ec2424cee8a0fb77910762240ca0367de4b168fc14e1493a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000192",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Groove, backbeat et microtiming — trois axes que la métrique ne résume pas (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source du cours.** [Berklee CM-320](https://college.berklee.edu/courses/cm-320) prouve l'étude de **mètres complexes, cellules rythmiques, polyrythmie linéaire, modulation métrique et styles concernés**. Il ne prouve **ni le cours de batt",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2876cf5e0ec317cb78df4163",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Groove, backbeat et microtiming — trois axes que la métrique ne résume pas (17 novembre 2026)"
+            ],
+            "start_line": 236,
+            "end_line": 250,
+            "subtree_end_line": 250
+          },
+          "content_sha256": "78fb26d433ecbcdf2ae1a0f11c481447e6b13ddfe39f827d0b433ff1ad39ace2",
+          "body_sha256": "7adac01a91c3775eedf9747f708cc1432da22f046b2d9a7d83d34a38f2d3ff42",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000193",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Quatre façons de modifier l'organisation temporelle sans les confondre (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Comparaison de quatre transformations temporelles distinctes à partir des études AnaMu : changer la signature et les accents sans changer les événements, déplacer les accents avec signature stable, décaler la phase de rapports 3:2, ou superposer des cycles de phrase différents. Les invariants en ticks ne suffisent pas à prouver un polymètre ou une sensation de tension.",
+      "description_origin": "assistant_source_checked",
+      "editorial_review": "assistant_source_checked_draft",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [
+        "Les MIDI viennent d'études d'autres cours, non de devoirs attestés de CM-320.",
+        "La perception d'une battue ou de polymétrie exige écoute et contexte."
+      ],
+      "notes": [
+        "Description source-consultée, en attente de revue musicale indépendante."
+      ],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f8024360562342eea871a2dc",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Quatre façons de modifier l'organisation temporelle sans les confondre (17 novembre 2026)"
+            ],
+            "start_line": 251,
+            "end_line": 262,
+            "subtree_end_line": 262
+          },
+          "content_sha256": "70d1aac1c11458bd80ceeddfc0a76f74c4837b6ef5b11f0d3495cf364f403118",
+          "body_sha256": "a44561e9853636880e6e393414abac74ecef2480654a64e2f4c82ed0a73ec3c5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "source_verified_editorial_pending",
+      "editorial_revision": 1
+    },
+    {
+      "id": "material:0000194",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Un déplacement de batterie n'est pas une modulation métrique ni une erreur humaine par défaut (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance académique.** La [notice CM-320 de Berklee](https://college.berklee.edu/courses/cm-320) porte sur **mètres complexes, polyrythmies, cellules, métriques asymétriques et modulation métrique**. Les expériences ci-dessous provienne",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-320.md",
+          "document_sha256": "7b9dbbd7defeeabc710eb40b170c6c38f7e23c3687c34f523dff6a2ff89f82a3",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0508ffe416e82819a1d22e61",
+            "heading_path": [
+              "CM-320 — From Brubeck to Tigran: Complex Rhythm in Contemporary Composition",
+              "Un déplacement de batterie n'est pas une modulation métrique ni une erreur humaine par défaut (17 novembre 2026)"
+            ],
+            "start_line": 263,
+            "end_line": 273,
+            "subtree_end_line": 273
+          },
+          "content_sha256": "4c29f1ada5a9684d652db75058d0319491c52b454372df0208d46527751cfaf3",
+          "body_sha256": "0e01be4253a0c4a68aa7264d0a8fc848b1f0558805b30affe0922e4053dd8066",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

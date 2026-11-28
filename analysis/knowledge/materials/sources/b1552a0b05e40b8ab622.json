@@ -1,0 +1,112 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-mcgill-14-music-theory-analysis.md",
+  "units": [
+    {
+      "id": "material:0004126",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "McGill — 14 cours de théorie, écriture et analyse : sources de concepts",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026 · collecte complémentaire à partir du [catalogue officiel McGill 2026–2027](https://coursecatalogue.mcgill.ca/en/).** Quatorze notices individuelles ont été retrouvées avec correspondance exacte de code ; **dix renforcent",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-14-music-theory-analysis.md",
+          "document_sha256": "2d9180e26ecb6dae643683eaea4756e338deeb425c43c4af02ddcb4dc2e25ec6",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5a6f45e46343212af376a303",
+            "heading_path": [
+              "McGill — 14 cours de théorie, écriture et analyse : sources de concepts"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 29
+          },
+          "content_sha256": "db7bd0bbc7cc4f764d6122ffec2f9402398ed1fa6482f34c9ccfa8f21db8a792",
+          "body_sha256": "e0c5c4e322b133a236dae8cd724ac2d247f753f72439d9cebe1c4ba4566dcec3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004127",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Quatre cours voisins supplémentaires",
+      "title_origin": "source_heading_or_key",
+      "description": "Titre ou passage sans description éditoriale vérifiée.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-14-music-theory-analysis.md",
+          "document_sha256": "2d9180e26ecb6dae643683eaea4756e338deeb425c43c4af02ddcb4dc2e25ec6",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4dd1d02aa3dfff0d15ff27d3",
+            "heading_path": [
+              "McGill — 14 cours de théorie, écriture et analyse : sources de concepts",
+              "Quatre cours voisins supplémentaires"
+            ],
+            "start_line": 5,
+            "end_line": 13,
+            "subtree_end_line": 13
+          },
+          "content_sha256": "e9a75da6815b5965e032261f18224d4f4d54ae1fceb7042ae49b95065d607e41",
+          "body_sha256": "7175f802270e2bc5818884f8b540d67e43c918ec4a3a739846612705324902e0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004128",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Dix cours historiques : matière de référence recoupée",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Résultat : 14 notices directes attestées, quatre matières voisines en plus et dix recoupements documentaires sur les cours principaux.** Les 32 autres codes candidats du balayage technique sans page correspondante ont été laissés de côté",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-14-music-theory-analysis.md",
+          "document_sha256": "2d9180e26ecb6dae643683eaea4756e338deeb425c43c4af02ddcb4dc2e25ec6",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8c79a3acd8d69a5f2ae71754",
+            "heading_path": [
+              "McGill — 14 cours de théorie, écriture et analyse : sources de concepts",
+              "Dix cours historiques : matière de référence recoupée"
+            ],
+            "start_line": 14,
+            "end_line": 29,
+            "subtree_end_line": 29
+          },
+          "content_sha256": "97c6ed46db3524a8f61365fcf7d98ed4d92f3c512e544461b64167bceebf73d1",
+          "body_sha256": "ef975fac994e111b72ebc17c7473b2d2f5243cbd5921dccc2ad81459614992aa",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

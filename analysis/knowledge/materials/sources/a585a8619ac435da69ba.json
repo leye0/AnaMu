@@ -1,0 +1,336 @@
+{
+  "source_document": "docs/courses/berklee-online/OCOMP-491.md",
+  "units": [
+    {
+      "id": "material:0000118",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Retour thématique et identité dramatique : tester les contre-exemples",
+      "title_origin": "assistant_source_checked",
+      "description": "Comparer sur deux chronologies distinctes les occurrences d'un matériau musical et les événements narratifs de scènes identifiées. Relever les invariants sous transformation puis tester personnages sans thème et thème sans personnage; la simple répétition d'une cellule ne suffit pas à conclure au leitmotiv ou à une intention de production.",
+      "description_origin": "assistant_source_checked",
+      "editorial_review": "assistant_source_checked_draft",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [
+        "Aucune identité de personnage ni intention de compositeur démontrée par les notes seules."
+      ],
+      "notes": [
+        "Source de section AnaMu vérifiée ; aucun syllabus parallèle ou geste audio n'est promu en preuve de section.",
+        "Calibration P2a/P3 : la granularité sera revue lors du rafraîchissement complet."
+      ],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCOMP-491.md",
+          "document_sha256": "e6b58d4f4f6a0c962f0d198f0ea02f8c4b59dcbb8cfafb8eb33f4606328167fe",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6d64426c1211eb12b57ab0fd",
+            "heading_path": [
+              "OCOMP-491 — Music Composition for Film and TV 2",
+              "Deuxième passe qualitative — réponse dramatique, variation et continuité inter-scènes (12 novembre 2026)",
+              "Q1 — Retour thématique : identité du personnage ou simple répétition de quelques notes ?"
+            ],
+            "start_line": 46,
+            "end_line": 53,
+            "subtree_end_line": 53
+          },
+          "content_sha256": "e110daffad7f22b803878111bd3863864cdbf0f1718c65494c0099b405e44da2",
+          "body_sha256": "2a2ecef7184f37f1084dac89f2acfb4a47f1bf64def806a107a7aa532effe61c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "source_verified_editorial_pending"
+    },
+    {
+      "id": "material:0003321",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "OCOMP-491 — Music Composition for Film and TV 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Nature : syllabus public d'un cours Berklee Online distinct des cours de Boston.** Vérification : 10 novembre 2026. Auteur du cours : Ben Newhouse. **Plan de 12 leçons documenté, contenus intégrals et évaluations non obtenus.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCOMP-491.md",
+          "document_sha256": "e6b58d4f4f6a0c962f0d198f0ea02f8c4b59dcbb8cfafb8eb33f4606328167fe",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a762e107c96fa70eb3762e94",
+            "heading_path": [
+              "OCOMP-491 — Music Composition for Film and TV 2"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 72
+          },
+          "content_sha256": "127f08bd4e11a8da750f2b207bdfc95837f4146faea5c70827ea7daa74fd1ea3",
+          "body_sha256": "7444cc30b465ba62c52aa476015e5d63d9e22b6cd905a3d1e78e241f7500e49e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003322",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Provenance et portée",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Page officielle, rubrique « Syllabus »](https://online.berklee.edu/courses/music-composition-for-film-and-tv-2#syllabus) : objectifs, séquence de leçons, intitulés d'activités, exigences. Accès public au résumé ; ressources pédagogiques",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCOMP-491.md",
+          "document_sha256": "e6b58d4f4f6a0c962f0d198f0ea02f8c4b59dcbb8cfafb8eb33f4606328167fe",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5d779c604ce51505a96139d8",
+            "heading_path": [
+              "OCOMP-491 — Music Composition for Film and TV 2",
+              "Provenance et portée"
+            ],
+            "start_line": 5,
+            "end_line": 9,
+            "subtree_end_line": 9
+          },
+          "content_sha256": "2e01dbeae2757e1931c41ad3c91946fdbc4cabd0708d2b457505ac6f25e160f6",
+          "body_sha256": "70391505af7cf83c18c3eee5fdbfef65f731857c2e7404bc92c8307b3a7b22e7",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003323",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Résultats d'apprentissage déclarés ou directement exposés par le plan",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - Écrire pour des émotions ou mouvements dramatiques contrastés, puis réutiliser les matériaux sous plusieurs formes.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCOMP-491.md",
+          "document_sha256": "e6b58d4f4f6a0c962f0d198f0ea02f8c4b59dcbb8cfafb8eb33f4606328167fe",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1c6ff02d1c88181a3f288740",
+            "heading_path": [
+              "OCOMP-491 — Music Composition for Film and TV 2",
+              "Résultats d'apprentissage déclarés ou directement exposés par le plan"
+            ],
+            "start_line": 10,
+            "end_line": 16,
+            "subtree_end_line": 16
+          },
+          "content_sha256": "b765da9ca59f4c5201a9555801a398070fbf714b38ffd27ab2fbc3d3ba96d008",
+          "body_sha256": "7fe72db9c840cba42cd6ec58e2f8caaa5ecbcee49661b2096b1c44c86588c33b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003324",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Progression attestée par le plan public",
+      "title_origin": "source_heading_or_key",
+      "description": "Titre ou passage sans description éditoriale vérifiée.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCOMP-491.md",
+          "document_sha256": "e6b58d4f4f6a0c962f0d198f0ea02f8c4b59dcbb8cfafb8eb33f4606328167fe",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7cf79354a68949c4272bb4ef",
+            "heading_path": [
+              "OCOMP-491 — Music Composition for Film and TV 2",
+              "Progression attestée par le plan public"
+            ],
+            "start_line": 17,
+            "end_line": 33,
+            "subtree_end_line": 33
+          },
+          "content_sha256": "d2fd1748af345dba2db9c964661750944cf7bc6567a051dd22352cf170aabc9a",
+          "body_sha256": "397690e08e70cbde8ad558ab8e62d34d481cf1454776ff75f4d4f8007db82823",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003325",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lectures, exemples et éléments non publics",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Lectures :** Manuel exigé d'après la page publique : Lalo Schifrin, *Music Composition for Film and Television* (Berklee Press, 2011). Les films *Atlantis* et *Back to the Future* constituent des exemples d'analyse déclarés par la progr",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCOMP-491.md",
+          "document_sha256": "e6b58d4f4f6a0c962f0d198f0ea02f8c4b59dcbb8cfafb8eb33f4606328167fe",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e7f653c0eeca91b6f2a5b5f7",
+            "heading_path": [
+              "OCOMP-491 — Music Composition for Film and TV 2",
+              "Lectures, exemples et éléments non publics"
+            ],
+            "start_line": 34,
+            "end_line": 41,
+            "subtree_end_line": 41
+          },
+          "content_sha256": "b137a70be8491409e859503c34bf8677ee622c799348fb9bb08b4332b2363c3c",
+          "body_sha256": "fbb8ea1cc47b957894d740441b63284411f0dfe00c339a289f4df7233bed39c3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003326",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deuxième passe qualitative — réponse dramatique, variation et continuité inter-scènes (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Fondement académique direct.** Le [syllabus Berklee Online OCOMP-491 — Music Composition for Film and TV 2](https://online.berklee.edu/courses/music-composition-for-film-and-tv-2#syllabus) inclut **vamp et ostinato de comédie/infiltration",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCOMP-491.md",
+          "document_sha256": "e6b58d4f4f6a0c962f0d198f0ea02f8c4b59dcbb8cfafb8eb33f4606328167fe",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:07dc21a8bcf8bfa8b9a74875",
+            "heading_path": [
+              "OCOMP-491 — Music Composition for Film and TV 2",
+              "Deuxième passe qualitative — réponse dramatique, variation et continuité inter-scènes (12 novembre 2026)"
+            ],
+            "start_line": 42,
+            "end_line": 45,
+            "subtree_end_line": 72
+          },
+          "content_sha256": "3202ac5a86ebc8eca6b92cc0bc65c01cb23d94afde5971c486b7a8d293d375c6",
+          "body_sha256": "a74d346683859ceadbbe13a62138e784e7eaf2ccf0ddabe5140c08d3251a459a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003327",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q2 — Réponse musicale à l'action : le rôle change selon le point d'arrivée",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Aligner ostinatos, ruptures de rythme, appels de cuivres, changements de cadence et silences sur le montage réel. Tester si une figure sert **préparation** (modification avant la coupe), **réponse** (nouvelle figure après le g",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCOMP-491.md",
+          "document_sha256": "e6b58d4f4f6a0c962f0d198f0ea02f8c4b59dcbb8cfafb8eb33f4606328167fe",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d63ea26389dc0dd3ca7e63a1",
+            "heading_path": [
+              "OCOMP-491 — Music Composition for Film and TV 2",
+              "Deuxième passe qualitative — réponse dramatique, variation et continuité inter-scènes (12 novembre 2026)",
+              "Q2 — Réponse musicale à l'action : le rôle change selon le point d'arrivée"
+            ],
+            "start_line": 54,
+            "end_line": 61,
+            "subtree_end_line": 61
+          },
+          "content_sha256": "bc6614ae0720ef63fa7747152b1e47b99b862836feb7643f81767771d1e4b1eb",
+          "body_sha256": "1041b7f7fb91ecc355de3d31f948ddef853afb157353600dceb255abb449d017",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003328",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q3 — Esquisse → orchestration → montage : identifier des relations de production documentées",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Avec les **versions datées** d'un cue et ses fichiers de travail, distinguer les éléments issus d'une esquisse du compositeur (mélodie, basse, rythme) et ceux ajoutés par orchestration, préparation de parties, enregistrement o",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee-online/OCOMP-491.md",
+          "document_sha256": "e6b58d4f4f6a0c962f0d198f0ea02f8c4b59dcbb8cfafb8eb33f4606328167fe",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8b6152d67a6aa5f4dd0ad327",
+            "heading_path": [
+              "OCOMP-491 — Music Composition for Film and TV 2",
+              "Deuxième passe qualitative — réponse dramatique, variation et continuité inter-scènes (12 novembre 2026)",
+              "Q3 — Esquisse → orchestration → montage : identifier des relations de production documentées"
+            ],
+            "start_line": 62,
+            "end_line": 72,
+            "subtree_end_line": 72
+          },
+          "content_sha256": "e1ebb37b136cf355f914a722063c1daa2695686c6e734bf9fb29f0892c84fdd3",
+          "body_sha256": "1399a1d6a5828750559cd2d8ffd5ab600b4361b9cdd5c426a033d62c4385abdc",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

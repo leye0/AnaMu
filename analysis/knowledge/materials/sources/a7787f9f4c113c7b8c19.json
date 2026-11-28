@@ -1,0 +1,295 @@
+{
+  "source_document": "docs/courses/udem/MUL-1106.md",
+  "units": [
+    {
+      "id": "material:0002989",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 1106 — Histoire de la musique classique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Université de Montréal, option du bloc 75D, Composition A26. Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-1106.md",
+          "document_sha256": "e6616a586af8b5463c9fe3a09c72439f79d539292f0353c970d27d015cf6abe9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7c0ed4cff3850793de2d96f3",
+            "heading_path": [
+              "MUL 1106 — Histoire de la musique classique"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 48
+          },
+          "content_sha256": "20eb76b88c6e62219be0bf4e97a5b16d58aad64ebe069c115c5fb06bc9a8fb88",
+          "body_sha256": "866527a12af9d278d1158f9b3954438e60166361d3be5e3ecf8dadfc0bd18fa4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002990",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Cours recensé",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Langage du XVIIIe siècle et contexte social, de Pergolesi, C. P. E. Bach et Gluck à Beethoven. [Notice officielle](https://admission.umontreal.ca/cours-et-horaires/cours/mul-1106/).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-1106.md",
+          "document_sha256": "e6616a586af8b5463c9fe3a09c72439f79d539292f0353c970d27d015cf6abe9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:de42307b3f3302403e1df591",
+            "heading_path": [
+              "MUL 1106 — Histoire de la musique classique",
+              "Cours recensé"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 8
+          },
+          "content_sha256": "40b6b160c45ad93bc30ffe367c740e011b0c0b92d942de640dccbea481d00d9b",
+          "body_sha256": "0b1210d1ceca083b178b8f963880af6847bc3fdc57dc9ba2960eec780bf0878a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002991",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Support parallèle",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Leçons 1 à 3. Lumières, classicisme viennois et Beethoven. [Plan Berklee Online](https://online.berklee.edu/courses/music-history-of-the-western-world-2-classical-romantic-and-modern#syllabus).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-1106.md",
+          "document_sha256": "e6616a586af8b5463c9fe3a09c72439f79d539292f0353c970d27d015cf6abe9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f46266835f63040aeb8c3da4",
+            "heading_path": [
+              "MUL 1106 — Histoire de la musique classique",
+              "Support parallèle"
+            ],
+            "start_line": 9,
+            "end_line": 12,
+            "subtree_end_line": 12
+          },
+          "content_sha256": "eb5ee8a30dc3f4676d40366ce3a43d89c9ab9649f57057ff6f71f76326107a3c",
+          "body_sha256": "4cfb3b68570d8a5f91bdf5e7c6198f686e3efb7cad13b4ee15148f8593beba11",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002992",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le corpus, les lectures, les exercices et l’évaluation de la section UdeM restent à obtenir. Le plan parallèle documente sa propre formation.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-1106.md",
+          "document_sha256": "e6616a586af8b5463c9fe3a09c72439f79d539292f0353c970d27d015cf6abe9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c0497868d1d22ab85d0cf390",
+            "heading_path": [
+              "MUL 1106 — Histoire de la musique classique",
+              "Lacunes"
+            ],
+            "start_line": 13,
+            "end_line": 17,
+            "subtree_end_line": 17
+          },
+          "content_sha256": "7f2264a15528e9ed05f212a4d327a16eed6a7ec8dc456c64f8e40a8748a69e32",
+          "body_sha256": "961ad886da680886470b9c3113f65c17f07cf82bf953dada74567203aaf35086",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002993",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — histoire, sources et limites du MIDI (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cours : MUL 1106. Contribution :** analyse de langage historique et contextualisation de la composition. **Preuve :** [notice institutionnelle : langage du XVIIIe siècle et histoire sociale, de Pergolesi, C. P. E. Bach et Gluck à Beethove",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-1106.md",
+          "document_sha256": "e6616a586af8b5463c9fe3a09c72439f79d539292f0353c970d27d015cf6abe9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b5f84e80cebd4a810030bbee",
+            "heading_path": [
+              "MUL 1106 — Histoire de la musique classique",
+              "Application à l'analyse et à la création — histoire, sources et limites du MIDI (12 novembre 2026)"
+            ],
+            "start_line": 18,
+            "end_line": 21,
+            "subtree_end_line": 48
+          },
+          "content_sha256": "7184b42ba26c28e57b0baa049ecc3d8675d6745a43b32bc5e0b5266f77594333",
+          "body_sha256": "250b4c80df4e4cfa549bd76d30afc86e17f1d7d5aaaaf1ec3f5856a4bbc9dc44",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002994",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage ou champ 1 — Repérer et comparer des organisations de phrase dans des œuvres classiques",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve :** périmètre institutionnel général; les exemples de musique à étudier sont à confirmer. **Catégorie :** `CONTEXT_REQUIRED / MIDI_PROXY`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-1106.md",
+          "document_sha256": "e6616a586af8b5463c9fe3a09c72439f79d539292f0353c970d27d015cf6abe9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6378d47c6d6670a1d6f3cae2",
+            "heading_path": [
+              "MUL 1106 — Histoire de la musique classique",
+              "Application à l'analyse et à la création — histoire, sources et limites du MIDI (12 novembre 2026)",
+              "Apprentissage ou champ 1 — Repérer et comparer des organisations de phrase dans des œuvres classiques"
+            ],
+            "start_line": 22,
+            "end_line": 31,
+            "subtree_end_line": 31
+          },
+          "content_sha256": "2d691b3b42585d97e85b331df54a505f8782609ff21c6ac00a698c1d43169065",
+          "body_sha256": "b411529ad5cc65ee5e61572f18a631073e0ae459bcc3d384d1782f16312188e5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002995",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage ou champ 2 — Lire les influences sociales et historiques sur l'écriture",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve :** périmètre institutionnel général; les exemples de musique à étudier sont à confirmer. **Catégorie :** `CONTEXT_REQUIRED / NOT_MUSIC_ALGORITHM`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-1106.md",
+          "document_sha256": "e6616a586af8b5463c9fe3a09c72439f79d539292f0353c970d27d015cf6abe9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0443af09747e42729ce1d60e",
+            "heading_path": [
+              "MUL 1106 — Histoire de la musique classique",
+              "Application à l'analyse et à la création — histoire, sources et limites du MIDI (12 novembre 2026)",
+              "Apprentissage ou champ 2 — Lire les influences sociales et historiques sur l'écriture"
+            ],
+            "start_line": 32,
+            "end_line": 41,
+            "subtree_end_line": 41
+          },
+          "content_sha256": "3930d8e4f29a9597ffd07e98dd9dd9086e7094833b7cb924c6cf07179db73bb8",
+          "body_sha256": "d2c39dc90a84bd43a338c1761c0b4fedc33891cdeedf6b8eef0ca1db6d27fce1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002996",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Pertinence :** analyse de langage historique et contextualisation de la composition.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUL-1106.md",
+          "document_sha256": "e6616a586af8b5463c9fe3a09c72439f79d539292f0353c970d27d015cf6abe9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:10bb9801c6f461754304d97e",
+            "heading_path": [
+              "MUL 1106 — Histoire de la musique classique",
+              "Application à l'analyse et à la création — histoire, sources et limites du MIDI (12 novembre 2026)",
+              "Verdict"
+            ],
+            "start_line": 42,
+            "end_line": 48,
+            "subtree_end_line": 48
+          },
+          "content_sha256": "0ebfd7cd5db106be95c1dec3d13ea41ed795f5f2134d88028c890e9cdea713cf",
+          "body_sha256": "eddf68b98ce2d891e80d14ba9f1d9063ef3f0cd54df89f049c17c5b3dab8f8f5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

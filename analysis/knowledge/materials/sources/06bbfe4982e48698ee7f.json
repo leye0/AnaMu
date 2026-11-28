@@ -1,0 +1,478 @@
+{
+  "source_document": "docs/courses/mcgill/MUTH-204.md",
+  "units": [
+    {
+      "id": "material:0002072",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUTH 204 — Tonal Counterpoint 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : B. Mus. Composition McGill, édition 2026. Option de théorie. Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-204.md",
+          "document_sha256": "7b5fb8c4b47577e368338104509c1f1e7454823d8a82dada30977d458bc8073b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:cece08474a2976fe350a6e74",
+            "heading_path": [
+              "MUTH 204 — Tonal Counterpoint 1"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 100
+          },
+          "content_sha256": "b6040555932d00b54042ab03a4b23dd249ffedfe102e91e3e1a088bf76a97853",
+          "body_sha256": "ffb7d1e9b07a48eafe822f700252bf241a5a4629bed650374d50fe9e72925e48",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002073",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources et matière accessible",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - Exemple de niveau supérieur, partie B. Écrire le début d’une fugue, avec exposition, épisode et entrée intermédiaire. Le document renvoie au chapitre 13 de *Baroque Counterpoint* de Schubert et Neidhöfer. Ce niveau d’exercice ne situe pas",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-204.md",
+          "document_sha256": "7b5fb8c4b47577e368338104509c1f1e7454823d8a82dada30977d458bc8073b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:fb717c9b262bb37a481ba0aa",
+            "heading_path": [
+              "MUTH 204 — Tonal Counterpoint 1",
+              "Sources et matière accessible"
+            ],
+            "start_line": 5,
+            "end_line": 9,
+            "subtree_end_line": 9
+          },
+          "content_sha256": "ee163d5155b8057da47f0b5a334bed659a0ae0f55c39a3f2d20e14e6d171157f",
+          "body_sha256": "527871cd9e55c161f18b8940a7ea2b5e7329a837d50ccc2274c6b71fe05d0f2a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002074",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes et reprise",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le document est un exercice de classement aux cycles supérieurs. Vérifier le plan de ce cours et les chapitres effectivement prescrits.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-204.md",
+          "document_sha256": "7b5fb8c4b47577e368338104509c1f1e7454823d8a82dada30977d458bc8073b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e1186c6061cf7684a4946f10",
+            "heading_path": [
+              "MUTH 204 — Tonal Counterpoint 1",
+              "Lacunes et reprise"
+            ],
+            "start_line": 10,
+            "end_line": 13,
+            "subtree_end_line": 13
+          },
+          "content_sha256": "ad8fdfc492acc38a070d8fa21cb1e6e2a1dbf48136608c261ba9247ce3b1c25c",
+          "body_sha256": "386e2c0a3fe3105fced917117ca8d582b302e44d76cc6a1756e32d1530da6b54",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002075",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Syllabus comparateur (10 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le [cours Berklee Online OCOMP-250](../berklee-online/OCOMP-250.md) organise l'imitation, les canons et inventions de Bach. Il ne fixe **ni exposition de fugue ni programme de MUTH 204** ; le sujet de fugue dans le document McGill provient",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-204.md",
+          "document_sha256": "7b5fb8c4b47577e368338104509c1f1e7454823d8a82dada30977d458bc8073b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:128def0d151a7f8d8e548406",
+            "heading_path": [
+              "MUTH 204 — Tonal Counterpoint 1",
+              "Syllabus comparateur (10 novembre 2026)"
+            ],
+            "start_line": 14,
+            "end_line": 18,
+            "subtree_end_line": 18
+          },
+          "content_sha256": "1778d49953cc8031f7e2a2d5abc2c9e376e28816a86ab408d82c3d0a092a6318",
+          "body_sha256": "b29797569d5a474986c1b99c5b374eaecce5c1a93bb5895fe986c836ef402b98",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002076",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — analyse d'apprentissages sourcés (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cours MUTH 204. Pertinence : directe pour l'analyse et la création.** **Preuve :** [McGill identifie « Tonal Counterpoint 1 »; le document d'examen fugué des cycles supérieurs ne décrit pas la progression de ce cours.](https://www.mcgill.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-204.md",
+          "document_sha256": "7b5fb8c4b47577e368338104509c1f1e7454823d8a82dada30977d458bc8073b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:15bcfef25f94466fdd78c54a",
+            "heading_path": [
+              "MUTH 204 — Tonal Counterpoint 1",
+              "Application à l'analyse et à la création — analyse d'apprentissages sourcés (11 novembre 2026)"
+            ],
+            "start_line": 19,
+            "end_line": 22,
+            "subtree_end_line": 50
+          },
+          "content_sha256": "9f00a1397f2d75824c3d8409c2548bdf863ad57ff5da0d838547158d748f2df4",
+          "body_sha256": "20bccd80d95650f9e2fb5c37956560b85eb48b20add5ef87ccc4d56c90ede7a0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002077",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 1 — Imitation tonale à la dominante",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Portée et catégorie :** contenu annoncé par la source du cours; `MIDI_DIRECT / CONTEXT_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-204.md",
+          "document_sha256": "7b5fb8c4b47577e368338104509c1f1e7454823d8a82dada30977d458bc8073b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c6a3064d7874e7c16879ae56",
+            "heading_path": [
+              "MUTH 204 — Tonal Counterpoint 1",
+              "Application à l'analyse et à la création — analyse d'apprentissages sourcés (11 novembre 2026)",
+              "Apprentissage 1 — Imitation tonale à la dominante"
+            ],
+            "start_line": 23,
+            "end_line": 32,
+            "subtree_end_line": 32
+          },
+          "content_sha256": "312b07fb3894b6913b1b148a06559e4ece87e06d61dad9a8126f3b5dbb9ea1f6",
+          "body_sha256": "533129220ce197cc121e20d9049357873ad3b02a192f84b09f203aec45c76f26",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002078",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 2 — Conduite tonale des lignes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Portée et catégorie :** contenu annoncé par la source du cours; `MIDI_DIRECT / CONTEXT_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-204.md",
+          "document_sha256": "7b5fb8c4b47577e368338104509c1f1e7454823d8a82dada30977d458bc8073b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:670044191b4a41a4c5aba1ee",
+            "heading_path": [
+              "MUTH 204 — Tonal Counterpoint 1",
+              "Application à l'analyse et à la création — analyse d'apprentissages sourcés (11 novembre 2026)",
+              "Apprentissage 2 — Conduite tonale des lignes"
+            ],
+            "start_line": 33,
+            "end_line": 42,
+            "subtree_end_line": 42
+          },
+          "content_sha256": "3898da54725685ee9e680ff8bb3393ebe19bb3671fd6cc997a2c4607248027b0",
+          "body_sha256": "40da7f89caf466472c7dce251d069dbc3932ab85403a0edc02a247553502290f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002079",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict du cours",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Contribution :** oui, direct à la connaissance musicale.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-204.md",
+          "document_sha256": "7b5fb8c4b47577e368338104509c1f1e7454823d8a82dada30977d458bc8073b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:add7f7628197584b25862a5a",
+            "heading_path": [
+              "MUTH 204 — Tonal Counterpoint 1",
+              "Application à l'analyse et à la création — analyse d'apprentissages sourcés (11 novembre 2026)",
+              "Verdict du cours"
+            ],
+            "start_line": 43,
+            "end_line": 50,
+            "subtree_end_line": 50
+          },
+          "content_sha256": "b0412e28e09e3c34d60813508f43e3c1f55d70e7d1bd8d9f53b9f07bfa65c08d",
+          "body_sha256": "3bfeaff5733d216bf0eecdb76fd43c1ce84829b0f7dc8719995d65a940a6c7c3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002080",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deuxième passe qualitative — contrepoint baroque, tensions linéaires et cadences (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Périmètre attesté.** Les [exigences McGill 2026–2027](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) précisent pour **MUTH 204** l'analyse technique des œuvres baroques et des **exercices écrits en style strict*",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-204.md",
+          "document_sha256": "7b5fb8c4b47577e368338104509c1f1e7454823d8a82dada30977d458bc8073b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:60a1328dded2254e0c947264",
+            "heading_path": [
+              "MUTH 204 — Tonal Counterpoint 1",
+              "Deuxième passe qualitative — contrepoint baroque, tensions linéaires et cadences (12 novembre 2026)"
+            ],
+            "start_line": 51,
+            "end_line": 54,
+            "subtree_end_line": 83
+          },
+          "content_sha256": "ada7202bb3d61956db8370fc6d91e49d96e20d6e121e5728d410031066517755",
+          "body_sha256": "2357c11ca1c20580c416904d337abb4ad1187ea61b6e126c3f8647e6fc680417",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002081",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q1 — Une entrée imitée n'est pas une résolution : maintenir une question en suspens",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Séparer les voix de la partition, définir la cellule par intervalles ordonnés et valeurs relatives; relever retard et transposition de chaque reprise candidate. Pendant une nouvelle entrée, observer si la voix précédente ferme",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-204.md",
+          "document_sha256": "7b5fb8c4b47577e368338104509c1f1e7454823d8a82dada30977d458bc8073b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d1900b7186412fc7439be337",
+            "heading_path": [
+              "MUTH 204 — Tonal Counterpoint 1",
+              "Deuxième passe qualitative — contrepoint baroque, tensions linéaires et cadences (12 novembre 2026)",
+              "Q1 — Une entrée imitée n'est pas une résolution : maintenir une question en suspens"
+            ],
+            "start_line": 55,
+            "end_line": 62,
+            "subtree_end_line": 62
+          },
+          "content_sha256": "4ccdd66bcb7d5e70d78fd2fd02e78a04744a238a6f6882941d372dad9318e404",
+          "body_sha256": "eb8431f4044a66f0cc2ed54f82ea477e37e4bfd796f38bd2a67477604b98b603",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002082",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q2 — Dissonances contrôlées : préparation, temps fort et mouvement de sortie",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Sur deux voix attestées par une partition, relever pour chaque frottement l'intervalle vertical, l'accent métrique, la provenance d'une note tenue et sa résolution. Une suspension *4–3 au-dessus d'une basse de sol* peut, **dan",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-204.md",
+          "document_sha256": "7b5fb8c4b47577e368338104509c1f1e7454823d8a82dada30977d458bc8073b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a757b759128cf575bedcdbdb",
+            "heading_path": [
+              "MUTH 204 — Tonal Counterpoint 1",
+              "Deuxième passe qualitative — contrepoint baroque, tensions linéaires et cadences (12 novembre 2026)",
+              "Q2 — Dissonances contrôlées : préparation, temps fort et mouvement de sortie"
+            ],
+            "start_line": 63,
+            "end_line": 70,
+            "subtree_end_line": 70
+          },
+          "content_sha256": "580b3ee140eef9a578f38ebeedd14880df4e17a0cdff4835d3375b3622e511e1",
+          "body_sha256": "081a4d17379a60518530df493fa8069f59d127cb1170299eaaadd88a1bb552b9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002083",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q3 — Tension à l'échelle de la texture : indépendance des voix et arrivée commune",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Mesurer, par phrase, recouvrement des lignes, densité d'attaques, ambitus et mouvements contraire/oblique; repérer quand les voix suivent des trajectoires différentes puis convergent vers une cadence commune. Opposer « davanta",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-204.md",
+          "document_sha256": "7b5fb8c4b47577e368338104509c1f1e7454823d8a82dada30977d458bc8073b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:21c3a83b561964db119e3223",
+            "heading_path": [
+              "MUTH 204 — Tonal Counterpoint 1",
+              "Deuxième passe qualitative — contrepoint baroque, tensions linéaires et cadences (12 novembre 2026)",
+              "Q3 — Tension à l'échelle de la texture : indépendance des voix et arrivée commune"
+            ],
+            "start_line": 71,
+            "end_line": 83,
+            "subtree_end_line": 83
+          },
+          "content_sha256": "a09df6417d66cc134f2c44edda227362ab9972ddad604b184daa94e61cab8fb6",
+          "body_sha256": "90d299da0ac16d52a5bcd14e99fe9b65c4d0acdf777f9fd124dbeedfeda42705",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002084",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Retenir une note n'est pas la réattaquer — retard tonal et appoggiature (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Ancrage.** MUTH 204 est recensé à [McGill comme contrepoint tonal](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements); le sujet de fugue du [document de classement supérieur](https://www.mcgill.ca/music/files/music/",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUTH-204.md",
+          "document_sha256": "7b5fb8c4b47577e368338104509c1f1e7454823d8a82dada30977d458bc8073b",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:38025173d2a90fc4985d7875",
+            "heading_path": [
+              "MUTH 204 — Tonal Counterpoint 1",
+              "Retenir une note n'est pas la réattaquer — retard tonal et appoggiature (17 novembre 2026)"
+            ],
+            "start_line": 84,
+            "end_line": 100,
+            "subtree_end_line": 100
+          },
+          "content_sha256": "6f914b785bc127c6c6d4ce12fdf4166a5f17b5c7e0082f56a81dbd28c0bbc1b9",
+          "body_sha256": "4286bef0123571cc2865bda26bba83249911c35060e8d0a5da76c6a651e525ff",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

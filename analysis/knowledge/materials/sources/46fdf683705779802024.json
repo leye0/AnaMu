@@ -1,0 +1,479 @@
+{
+  "source_document": "docs/courses/mcgill/MUCO-241.md",
+  "units": [
+    {
+      "id": "material:0001723",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUCO 241 — Tonal Composition 1A",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : McGill, Schulich, Composition 2026. Cours obligatoire. Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-241.md",
+          "document_sha256": "c1b6349afe4ddec2d1eff966e7d49777e54a214904e16766e78126fdec7c6d54",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d8a0d5279cc18c4dd89d4510",
+            "heading_path": [
+              "MUCO 241 — Tonal Composition 1A"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 90
+          },
+          "content_sha256": "953c35a64bdf8ff6366ac742a31cc94eedeed3c5e57af060e362be8dd7534d10",
+          "body_sha256": "d0b3e3c3f491f977c0911cfc47967fbb0414c6712440d1703dfcf19016a61de8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001724",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Cours cible",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Automne 2026. Écriture dans des idiomes classiques à tardoromantiques. Structure de phrase, profil mélodique, continuité et procédés contrapuntiques, avec analyse des formes. [Exigences du programme](https://www.mcgill.ca/music/programs/bmu",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-241.md",
+          "document_sha256": "c1b6349afe4ddec2d1eff966e7d49777e54a214904e16766e78126fdec7c6d54",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5fdc5b73f9ff938eb07a7187",
+            "heading_path": [
+              "MUCO 241 — Tonal Composition 1A",
+              "Cours cible"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 8
+          },
+          "content_sha256": "d26b376f45afbc92b6ce988292d796209e05281db32cc4535c6d3f12067b37cd",
+          "body_sha256": "1da2636e01535a4b16aac396f5ca1fe2d3381c4334ecb5de9221e87e69e7a780",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001725",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Support pédagogique comparable",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le [dossier McGill d’examens d’entrée aux cycles supérieurs](https://www.mcgill.ca/music/files/music/composition_placement_descriptions1617.pdf#page=2) donne un exercice historique d’harmonisation d’une mélodie en ajoutant trois voix dans u",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-241.md",
+          "document_sha256": "c1b6349afe4ddec2d1eff966e7d49777e54a214904e16766e78126fdec7c6d54",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b6815d12f9c9cf23e82b0dad",
+            "heading_path": [
+              "MUCO 241 — Tonal Composition 1A",
+              "Support pédagogique comparable"
+            ],
+            "start_line": 9,
+            "end_line": 12,
+            "subtree_end_line": 12
+          },
+          "content_sha256": "9224f34b3d31b183896b0faf7199e52417cfb821db9be80179ea7040542e2c32",
+          "body_sha256": "27cc83b3dfd57f3409524b0b6d42d8eab7ff44bda98c4f0838166773c3807c21",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001726",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Partitions et consignes de la section MUCO 241 à obtenir.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-241.md",
+          "document_sha256": "c1b6349afe4ddec2d1eff966e7d49777e54a214904e16766e78126fdec7c6d54",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:94df7e642667d046e0e21101",
+            "heading_path": [
+              "MUCO 241 — Tonal Composition 1A",
+              "Lacunes"
+            ],
+            "start_line": 13,
+            "end_line": 17,
+            "subtree_end_line": 17
+          },
+          "content_sha256": "5e300346baeb19e57ff13c4e36b72cdf2cbb7533d9c570f7ce42b805812fa337",
+          "body_sha256": "d6aa9289b7bd7cf7dbe5cfb1620ce0dfe7a9a4215486d016881659ab5bce3437",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001727",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — apprentissages sourcés (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cours : MUCO 241. Apport :** direct à l'analyse et à la création. **Preuve :** [exigences institutionnelles du programme McGill](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements), qui annoncent les compétences sans",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-241.md",
+          "document_sha256": "c1b6349afe4ddec2d1eff966e7d49777e54a214904e16766e78126fdec7c6d54",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4de9ae284e5418da8bcd1bfa",
+            "heading_path": [
+              "MUCO 241 — Tonal Composition 1A",
+              "Application à l'analyse et à la création — apprentissages sourcés (11 novembre 2026)"
+            ],
+            "start_line": 18,
+            "end_line": 21,
+            "subtree_end_line": 59
+          },
+          "content_sha256": "579fbcf3f1860e57c24a4318198dc2137541d58ff877e0eebb55b135f6a06685",
+          "body_sha256": "df37ff71882708f3ea0b662c3f4ebd4dc9e31feadf9f09718b5aa4ddf0ee449b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001728",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 1 — Structure de phrase tonale et continuité",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Attestation :** thème nommé dans la description institutionnelle du cours. **Classification :** `MIDI_DIRECT / CONTEXT_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-241.md",
+          "document_sha256": "c1b6349afe4ddec2d1eff966e7d49777e54a214904e16766e78126fdec7c6d54",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:80dd780d6ef14c0e7b211bb7",
+            "heading_path": [
+              "MUCO 241 — Tonal Composition 1A",
+              "Application à l'analyse et à la création — apprentissages sourcés (11 novembre 2026)",
+              "Apprentissage 1 — Structure de phrase tonale et continuité"
+            ],
+            "start_line": 22,
+            "end_line": 31,
+            "subtree_end_line": 31
+          },
+          "content_sha256": "0a892f1fad499f4beca4224d68a2b566f80565164e891ce41d9e41d3a5d36b06",
+          "body_sha256": "5a20d50c87cf74785142da4e786a4c452d20d374131d4477adfc84fedb4b1261",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001729",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 2 — Profils mélodiques et développement",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Attestation :** thème nommé dans la description institutionnelle du cours. **Classification :** `MIDI_DIRECT`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-241.md",
+          "document_sha256": "c1b6349afe4ddec2d1eff966e7d49777e54a214904e16766e78126fdec7c6d54",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:72c2a0fa5f85f1f8984e861d",
+            "heading_path": [
+              "MUCO 241 — Tonal Composition 1A",
+              "Application à l'analyse et à la création — apprentissages sourcés (11 novembre 2026)",
+              "Apprentissage 2 — Profils mélodiques et développement"
+            ],
+            "start_line": 32,
+            "end_line": 41,
+            "subtree_end_line": 41
+          },
+          "content_sha256": "f1ec9d11d00459cc69abb2d952d6abd732e20aeef11cf6a13067d6aab42fc928",
+          "body_sha256": "ecc27ebcede3918661b40b979ae2191d29e9e22fccfa22aff509f50be2855a48",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001730",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 3 — Harmonie et éléments contrapuntiques",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Attestation :** thème nommé dans la description institutionnelle du cours. **Classification :** `MIDI_DIRECT / CONTEXT_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-241.md",
+          "document_sha256": "c1b6349afe4ddec2d1eff966e7d49777e54a214904e16766e78126fdec7c6d54",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6ccd82c31cc18b50ac8cd7c2",
+            "heading_path": [
+              "MUCO 241 — Tonal Composition 1A",
+              "Application à l'analyse et à la création — apprentissages sourcés (11 novembre 2026)",
+              "Apprentissage 3 — Harmonie et éléments contrapuntiques"
+            ],
+            "start_line": 42,
+            "end_line": 51,
+            "subtree_end_line": 51
+          },
+          "content_sha256": "de6e8c5f92e0d32f16fed40a3b865f21019ef910c00e569e12a52fb38c575644",
+          "body_sha256": "cc4c1d6681b974f09e003e6a8847988368b007d669a0b18fd881e7f9b63811f0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001731",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict du cours",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Pertinence :** oui, directe.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-241.md",
+          "document_sha256": "c1b6349afe4ddec2d1eff966e7d49777e54a214904e16766e78126fdec7c6d54",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3e4719bb0457266ab3e24147",
+            "heading_path": [
+              "MUCO 241 — Tonal Composition 1A",
+              "Application à l'analyse et à la création — apprentissages sourcés (11 novembre 2026)",
+              "Verdict du cours"
+            ],
+            "start_line": 52,
+            "end_line": 59,
+            "subtree_end_line": 59
+          },
+          "content_sha256": "cb22f7cf73629b77ba0943baceaacce516cb39f115fe680ebf325d57cd8e0f0b",
+          "body_sha256": "3d787fe55595ca6f13dc2ad41003830ff3dc2fe8a3c77d7388aa12bc8937cd0f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001732",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deuxième passe qualitative — forme tonale : phrase, harmonie et contrepoint (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source du cours.** [Description McGill de MUCO 241, Tonal Composition 1A](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements) : écriture selon les ressources classiques à tardoromantiques; structure de phrase, profil",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-241.md",
+          "document_sha256": "c1b6349afe4ddec2d1eff966e7d49777e54a214904e16766e78126fdec7c6d54",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6a7f962f227a8fb49d7a7495",
+            "heading_path": [
+              "MUCO 241 — Tonal Composition 1A",
+              "Deuxième passe qualitative — forme tonale : phrase, harmonie et contrepoint (12 novembre 2026)"
+            ],
+            "start_line": 60,
+            "end_line": 63,
+            "subtree_end_line": 90
+          },
+          "content_sha256": "32b54b3d505f9c0a9ea3e99d211f0b36285289b7efa72f213fa2e164779499a7",
+          "body_sha256": "95b3919b76f7a587619de711503db6dcaba8083a08cd48efad50745281d6b192",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001733",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q1 — Phrase : vérifier la convergence du motif et de l'harmonie",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Repérer les retours de cellules à l'aide des intervalles ordonnés et des durées; relever silences, changements de registre, basses, notes sensibles et degrés des cadences selon une hypothèse tonale explicite. Dessiner les fron",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-241.md",
+          "document_sha256": "c1b6349afe4ddec2d1eff966e7d49777e54a214904e16766e78126fdec7c6d54",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7885abc35b70408475631fb4",
+            "heading_path": [
+              "MUCO 241 — Tonal Composition 1A",
+              "Deuxième passe qualitative — forme tonale : phrase, harmonie et contrepoint (12 novembre 2026)",
+              "Q1 — Phrase : vérifier la convergence du motif et de l'harmonie"
+            ],
+            "start_line": 64,
+            "end_line": 71,
+            "subtree_end_line": 71
+          },
+          "content_sha256": "df43800fd4a254fbc77c14b5befa25e83554548c2ddc24cb5a208bb8e7816349",
+          "body_sha256": "634b10116887dfb93ef98ae75bd687acc979ccf4c40084b7c2854222b93971a4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001734",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q2 — Profil mélodique et économie des moyens : transformation motivique mesurable",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Sur chaque phrase, extraire contour, intervalles signés, distribution des attaques, points culminants et reprises fragmentaires. Tester transposition, changement de rythme et élargissement de registre; relier les transformatio",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-241.md",
+          "document_sha256": "c1b6349afe4ddec2d1eff966e7d49777e54a214904e16766e78126fdec7c6d54",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d974f0537290221f984a5772",
+            "heading_path": [
+              "MUCO 241 — Tonal Composition 1A",
+              "Deuxième passe qualitative — forme tonale : phrase, harmonie et contrepoint (12 novembre 2026)",
+              "Q2 — Profil mélodique et économie des moyens : transformation motivique mesurable"
+            ],
+            "start_line": 72,
+            "end_line": 79,
+            "subtree_end_line": 79
+          },
+          "content_sha256": "0fc469a1cfc65fd541f3636dc142ccad7da6355d82dea66b654850a1960ca4c8",
+          "body_sha256": "75a3a5950d32b34eae29261a216fec550bb496a54e14a0a8a56c883b20eb33c8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001735",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q3 — Une basse fonctionnelle sous deux lignes : cohérence verticale et linéaire",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Identifier les fonctions harmoniques plausibles à l'échelle de la phrase, puis séparer basse, mélodie et voix internes; contrôler notes communes, directions de mouvement et dissonances au regard d'un style explicitement choisi",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mcgill/MUCO-241.md",
+          "document_sha256": "c1b6349afe4ddec2d1eff966e7d49777e54a214904e16766e78126fdec7c6d54",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:dceea94d214d43ad6d0ad41d",
+            "heading_path": [
+              "MUCO 241 — Tonal Composition 1A",
+              "Deuxième passe qualitative — forme tonale : phrase, harmonie et contrepoint (12 novembre 2026)",
+              "Q3 — Une basse fonctionnelle sous deux lignes : cohérence verticale et linéaire"
+            ],
+            "start_line": 80,
+            "end_line": 90,
+            "subtree_end_line": 90
+          },
+          "content_sha256": "011a09e4edb58a4e666818d623e5f692cff385447860cb6c482d21480b1bc396",
+          "body_sha256": "40d1d06405fc3fa646a5ac46f0bbb002857a8ef2947660f499866c3521a1cd76",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

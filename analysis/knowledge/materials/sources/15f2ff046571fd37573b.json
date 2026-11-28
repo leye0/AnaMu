@@ -1,0 +1,470 @@
+{
+  "source_document": "docs/data/berklee-seven-ensemble-candidates-2026.json",
+  "units": [
+    {
+      "id": "material:0004567",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "schema_version",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-seven-ensemble-candidates-2026.json",
+          "document_sha256": "7f218dc3089e8fbb1efc56bdbffbec70ce6d60ac13ee8e75c6d5f6116a78485d",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/schema_version",
+            "json_pointer": "/schema_version",
+            "record_identity": null
+          },
+          "content_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004568",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "as_of",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-seven-ensemble-candidates-2026.json",
+          "document_sha256": "7f218dc3089e8fbb1efc56bdbffbec70ce6d60ac13ee8e75c6d5f6116a78485d",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/as_of",
+            "json_pointer": "/as_of",
+            "record_identity": null
+          },
+          "content_sha256": "4e9c38edd9fe3c0bdf16b4dad77c1241b1d98163621b9ba96a81c39308d39a58",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004569",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_degree",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-seven-ensemble-candidates-2026.json",
+          "document_sha256": "7f218dc3089e8fbb1efc56bdbffbec70ce6d60ac13ee8e75c6d5f6116a78485d",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/source_degree",
+            "json_pointer": "/source_degree",
+            "record_identity": null
+          },
+          "content_sha256": "b3fa91a6865bc53ad1e6b6536141efcb6613f3e52d9537844bd850bb8fdc26a7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004570",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_ensemble_catalogue",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-seven-ensemble-candidates-2026.json",
+          "document_sha256": "7f218dc3089e8fbb1efc56bdbffbec70ce6d60ac13ee8e75c6d5f6116a78485d",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/source_ensemble_catalogue",
+            "json_pointer": "/source_ensemble_catalogue",
+            "record_identity": null
+          },
+          "content_sha256": "2e58e36689aa64b0ac8ce69be07ad14dee83c42573fd59becde41c81bddc0527",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004571",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "family",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-seven-ensemble-candidates-2026.json",
+          "document_sha256": "7f218dc3089e8fbb1efc56bdbffbec70ce6d60ac13ee8e75c6d5f6116a78485d",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/family",
+            "json_pointer": "/family",
+            "record_identity": null
+          },
+          "content_sha256": "bcc58aff2818516cd23cc1faf34b4010dd3a47e88f911f4b29f34befd3de5484",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004572",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "before",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-seven-ensemble-candidates-2026.json",
+          "document_sha256": "7f218dc3089e8fbb1efc56bdbffbec70ce6d60ac13ee8e75c6d5f6116a78485d",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/before",
+            "json_pointer": "/before",
+            "record_identity": null
+          },
+          "content_sha256": "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004573",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "added",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-seven-ensemble-candidates-2026.json",
+          "document_sha256": "7f218dc3089e8fbb1efc56bdbffbec70ce6d60ac13ee8e75c6d5f6116a78485d",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/added",
+            "json_pointer": "/added",
+            "record_identity": null
+          },
+          "content_sha256": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004574",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "after",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-seven-ensemble-candidates-2026.json",
+          "document_sha256": "7f218dc3089e8fbb1efc56bdbffbec70ce6d60ac13ee8e75c6d5f6116a78485d",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/after",
+            "json_pointer": "/after",
+            "record_identity": null
+          },
+          "content_sha256": "9400f1b21cb527d7fa3d3eabba93557a18ebe7a2ca4e471cfe5e4c5b4ca7f767",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004575",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "The Neither/Nor Composer Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-seven-ensemble-candidates-2026.json",
+          "document_sha256": "7f218dc3089e8fbb1efc56bdbffbec70ce6d60ac13ee8e75c6d5f6116a78485d",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/0",
+            "json_pointer": "/records/0",
+            "record_identity": null
+          },
+          "content_sha256": "f767823d44ad0d7d9f9632c882b5111f5042b031a65da488cb5a28e61b4bf05c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004576",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Composer Sinfonietta",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-seven-ensemble-candidates-2026.json",
+          "document_sha256": "7f218dc3089e8fbb1efc56bdbffbec70ce6d60ac13ee8e75c6d5f6116a78485d",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/1",
+            "json_pointer": "/records/1",
+            "record_identity": null
+          },
+          "content_sha256": "1f57d7b7853386727851f22cf72793722269c1486afbde68a6611d703c081c47",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004577",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Musical Theater Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-seven-ensemble-candidates-2026.json",
+          "document_sha256": "7f218dc3089e8fbb1efc56bdbffbec70ce6d60ac13ee8e75c6d5f6116a78485d",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/2",
+            "json_pointer": "/records/2",
+            "record_identity": null
+          },
+          "content_sha256": "a5d6ff23163edf5e94f1065028b8747072b1badf42cc834b9570e320f7bc98c5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004578",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Middle Eastern Fusion",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-seven-ensemble-candidates-2026.json",
+          "document_sha256": "7f218dc3089e8fbb1efc56bdbffbec70ce6d60ac13ee8e75c6d5f6116a78485d",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/3",
+            "json_pointer": "/records/3",
+            "record_identity": null
+          },
+          "content_sha256": "681ce06049854d566b9f826d99446f9908eec5a7a1b5f2cdf2090eccb285f75d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004579",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "South Asian Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-seven-ensemble-candidates-2026.json",
+          "document_sha256": "7f218dc3089e8fbb1efc56bdbffbec70ce6d60ac13ee8e75c6d5f6116a78485d",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/4",
+            "json_pointer": "/records/4",
+            "record_identity": null
+          },
+          "content_sha256": "0e7a19ee2416eb071bddfb1857fb138a267e4e017f2d1d1e51da6db19ce25558",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004580",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Contemporary Balkan Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-seven-ensemble-candidates-2026.json",
+          "document_sha256": "7f218dc3089e8fbb1efc56bdbffbec70ce6d60ac13ee8e75c6d5f6116a78485d",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/5",
+            "json_pointer": "/records/5",
+            "record_identity": null
+          },
+          "content_sha256": "146c621e8dc44bf67d76f9b6daa4565cda3a268662147e3a25b61e0dd8683358",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004581",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Microtonal Grooves",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-seven-ensemble-candidates-2026.json",
+          "document_sha256": "7f218dc3089e8fbb1efc56bdbffbec70ce6d60ac13ee8e75c6d5f6116a78485d",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/6",
+            "json_pointer": "/records/6",
+            "record_identity": null
+          },
+          "content_sha256": "79526f7dab0fff51a7d0dea6073812e1ebb44f4ed996fd82363746d07d1975b9",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

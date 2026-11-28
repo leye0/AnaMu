@@ -1,0 +1,148 @@
+{
+  "source_document": "docs/music-only-scope.md",
+  "units": [
+    {
+      "id": "material:0003490",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Filtre de pertinence : matières musicales uniquement",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Décision 10 novembre 2026 : la recherche AnaMu exclut désormais les cours de culture générale, d'arts visuels, de littérature/écriture, d'histoire, de psychologie/sociologie et de santé SANS lien musical explicite.** Ils peuvent être obli",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/music-only-scope.md",
+          "document_sha256": "064d51a2b805985bd49a82217564f8be316b7cdaf35f9859a451776407e14e46",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:538932cd6e2fc7deb409c6ac",
+            "heading_path": [
+              "Filtre de pertinence : matières musicales uniquement"
+            ],
+            "start_line": 1,
+            "end_line": 8,
+            "subtree_end_line": 53
+          },
+          "content_sha256": "76a701b6640a67e776104ead798f097f874a5715889dba1ffa3bf4320070e50d",
+          "body_sha256": "aaf4e8ba103dcc4f73335c96ea02b8b5b86cabc701adecc86efcb2043a2f5184",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003491",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "16 suppressions effectives du registre principal",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **udem — HAR 1200** : arts visuels",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/music-only-scope.md",
+          "document_sha256": "064d51a2b805985bd49a82217564f8be316b7cdaf35f9859a451776407e14e46",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3f23b6bb276182333cf5dffd",
+            "heading_path": [
+              "Filtre de pertinence : matières musicales uniquement",
+              "16 suppressions effectives du registre principal"
+            ],
+            "start_line": 9,
+            "end_line": 27,
+            "subtree_end_line": 27
+          },
+          "content_sha256": "84a40229628ed97a793f95f325a17a341046c3216a63cc0bfc48794f18938fbb",
+          "body_sha256": "f0b065cb62735df6fe03a7760cc81d52381895c71e130825c3edc1d732e54a8b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003492",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "11 suppressions effectives des candidats Berklee",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [LMSC-221](https://college.berklee.edu/courses/lmsc-221) — The Science of Health",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/music-only-scope.md",
+          "document_sha256": "064d51a2b805985bd49a82217564f8be316b7cdaf35f9859a451776407e14e46",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e569c6a15efe600aee0cf66a",
+            "heading_path": [
+              "Filtre de pertinence : matières musicales uniquement",
+              "11 suppressions effectives des candidats Berklee"
+            ],
+            "start_line": 28,
+            "end_line": 41,
+            "subtree_end_line": 41
+          },
+          "content_sha256": "92ed0bb7f492df6ec57d344b4b698c2471cb715d28f0d950ed2d2d14f1de8810",
+          "body_sha256": "647fff5fbdfd5b85590b6c46c1b0d68a6326fe42e38bcc11218d0e073e28c3ce",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003493",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Registre actif après nettoyage",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Il reste **378 cours identifiables**, huit familles musicales, et 25 candidats musicaux concrets hors registre. Les **exports complets des cursus officiels restent intacts** (leurs exclusions de recherche sont signalées), car les diplômes r",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/music-only-scope.md",
+          "document_sha256": "064d51a2b805985bd49a82217564f8be316b7cdaf35f9859a451776407e14e46",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f308679164db0b6a873a3455",
+            "heading_path": [
+              "Filtre de pertinence : matières musicales uniquement",
+              "Registre actif après nettoyage"
+            ],
+            "start_line": 42,
+            "end_line": 53,
+            "subtree_end_line": 53
+          },
+          "content_sha256": "909e356fc7c8db664f0c7c2c88d525b16e8e4d9e2fd46ff9b4a91f31a4c19333",
+          "body_sha256": "5831cce7821291270c8dd276589b0c6eab5b9d58d3b0c3d9f683f3f1400cf0de",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

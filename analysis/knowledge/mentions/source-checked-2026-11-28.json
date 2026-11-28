@@ -1,0 +1,457 @@
+{
+  "schema_version": 1,
+  "edition": "2026-11-28",
+  "scope": "Quatre passages de contrepoint, analyse post-tonale et orchestration, extraits à la suite de l'indexation documentaire.",
+  "material_registry_path": "analysis/knowledge/materials/catalog.json",
+  "source_manifest_path": "analysis/knowledge/source-manifest.json",
+  "concept_registry_path": "analysis/knowledge/concepts.json",
+  "review_status": "assistant_source_checked_candidates_not_independently_validated",
+  "mentions": [
+    {
+      "id": "mention:source-checked-2026-11-28:0001",
+      "material_id": "material:0001237",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/courses/berklee/CP-210.md",
+      "source_section_heading": "Q1 — Reconnaître une imitation plutôt qu'un contour banal",
+      "source_span": {
+        "document_path": "docs/courses/berklee/CP-210.md",
+        "document_sha256": "594aaf399583afbb524be76f69f7a89d787b4cd78f3a8cbd784d26c5bc899cab",
+        "content_sha256": "b16829f47aaf559a8324d629c3b04236cd4364442307b21f2e812a3026aa173e",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:699ae34c463907fb9eae37e2",
+          "heading_path": [
+            "CP-210 — The Art of Counterpoint",
+            "Deuxième passe qualitative — contrepoint à deux voix (12 novembre 2026)",
+            "Q1 — Reconnaître une imitation plutôt qu'un contour banal"
+          ],
+          "start_line": 58,
+          "end_line": 65,
+          "subtree_end_line": 65
+        }
+      },
+      "label": "Imitation décalée et transposée",
+      "language": "fr",
+      "attribution_role": "anamu_comparative_explanation",
+      "concept_sense_candidate": "motif.exact_recurrence",
+      "candidate_sense_id": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Étude de contrepoint à deux voix, avec parties identifiées ; exercice comparatif AnaMu.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:0033",
+        "candidate-assertion:0034"
+      ]
+    },
+    {
+      "id": "mention:source-checked-2026-11-28:0002",
+      "material_id": "material:0001238",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/courses/berklee/CP-210.md",
+      "source_section_heading": "Q2 — Dissonance : comprendre sa place et sa résolution",
+      "source_span": {
+        "document_path": "docs/courses/berklee/CP-210.md",
+        "document_sha256": "594aaf399583afbb524be76f69f7a89d787b4cd78f3a8cbd784d26c5bc899cab",
+        "content_sha256": "e2d9601a80c299932cc74d271704e8e4152096d1f30dab0afd412d2f5b875aa9",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:048dc229fcbfeca27495a540",
+          "heading_path": [
+            "CP-210 — The Art of Counterpoint",
+            "Deuxième passe qualitative — contrepoint à deux voix (12 novembre 2026)",
+            "Q2 — Dissonance : comprendre sa place et sa résolution"
+          ],
+          "start_line": 66,
+          "end_line": 73,
+          "subtree_end_line": 73
+        }
+      },
+      "label": "Dissonance contextualisée et résolution",
+      "language": "fr",
+      "attribution_role": "anamu_comparative_explanation",
+      "concept_sense_candidate": "voices.suspension",
+      "candidate_sense_id": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Contrepoint de deux lignes dans un style déclaré ; lectures à comparer, pas verdict d’espèces.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:0035",
+        "candidate-assertion:0036"
+      ]
+    },
+    {
+      "id": "mention:source-checked-2026-11-28:0003",
+      "material_id": "material:0002107",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/courses/mcgill/MUTH-322.md",
+      "source_section_heading": "Q2 — Densité et complémentarité : éviter la fausse équivalence « dissonance = tension »",
+      "source_span": {
+        "document_path": "docs/courses/mcgill/MUTH-322.md",
+        "document_sha256": "579ae05c109a10ad366403593d6ab7517639600af46e07a21c718a91046f347d",
+        "content_sha256": "10a86a15ca9a96765c57b4a1f916aeb60ae5d9140c36f08b870602fefb7b3972",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:905ae6b26ec526e686c5d584",
+          "heading_path": [
+            "MUTH 322 — Topics in Post-Tonal Analysis",
+            "Deuxième passe qualitative — hypothèses de tension dans l'analyse post-tonale (12 novembre 2026)",
+            "Q2 — Densité et complémentarité : éviter la fausse équivalence « dissonance = tension »"
+          ],
+          "start_line": 61,
+          "end_line": 68,
+          "subtree_end_line": 68
+        }
+      },
+      "label": "Complémentarité d’ensembles et densité post-tonale",
+      "language": "fr",
+      "attribution_role": "anamu_conditional_comparative_study_not_attested_section",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": "candidate-sense:00007",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Analyse conditionnelle d’une œuvre sourcée selon une opération post-tonale explicitement déclarée ; pas d’attribution de méthode à une section McGill non documentée.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:0037",
+        "candidate-assertion:0038"
+      ]
+    },
+    {
+      "id": "mention:source-checked-2026-11-28:0004",
+      "material_id": "material:0000454",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/courses/udem/MTE-2114.md",
+      "source_section_heading": "Axe approfondi 3 — Interaction de registre, dynamique et timbre dans une orchestration",
+      "source_span": {
+        "document_path": "docs/courses/udem/MTE-2114.md",
+        "document_sha256": "8f66899b45ccc5f3f2c567430b1bc43f589a04bc45263205f10af694e819f527",
+        "content_sha256": "5e90a88de480e17a3c5119c3fdf4441f0f006d38508bb513b0cf4cb9a1a95cc5",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:a9bf2654fc4e8aa283206359",
+          "heading_path": [
+            "MTE 2114 — Orchestration 1",
+            "Approfondissement de la matière attestée — deuxième passe (12 novembre 2026)",
+            "Axe approfondi 3 — Interaction de registre, dynamique et timbre dans une orchestration"
+          ],
+          "start_line": 56,
+          "end_line": 68,
+          "subtree_end_line": 68
+        }
+      },
+      "label": "Masquage possible entre couches orchestrales",
+      "language": "fr",
+      "attribution_role": "anamu_comparative_explanation_based_on_institutional_scope",
+      "concept_sense_candidate": "sound.masking",
+      "candidate_sense_id": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Orchestration de couches instrumentales identifiées ; comparaison de partition et signal sonore.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:0039",
+        "candidate-assertion:0040"
+      ]
+    }
+  ],
+  "assertions": [
+    {
+      "id": "candidate-assertion:0033",
+      "mention_id": "mention:source-checked-2026-11-28:0001",
+      "material_id": "material:0001237",
+      "reviewed_material_revision": 1,
+      "rule_key": "imitation_compare_ordered_intervals_and_durations",
+      "polarity": "method",
+      "statement": "Pour examiner une imitation, comparer les intervalles ordonnés et les durées des voix identifiées après décalage temporel et transposition, en conservant les divergences et l’hypothèse d’un contour banal.",
+      "scope": "Étude de contrepoint à deux voix, avec parties identifiées ; exercice comparatif AnaMu.",
+      "requires_evidence": [
+        "identified_voice_parts",
+        "ordered_pitch_intervals",
+        "notated_durations",
+        "temporal_offset",
+        "alternative_contour"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/berklee/CP-210.md",
+        "document_sha256": "594aaf399583afbb524be76f69f7a89d787b4cd78f3a8cbd784d26c5bc899cab",
+        "content_sha256": "b16829f47aaf559a8324d629c3b04236cd4364442307b21f2e812a3026aa173e",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:699ae34c463907fb9eae37e2",
+          "heading_path": [
+            "CP-210 — The Art of Counterpoint",
+            "Deuxième passe qualitative — contrepoint à deux voix (12 novembre 2026)",
+            "Q1 — Reconnaître une imitation plutôt qu'un contour banal"
+          ],
+          "start_line": 58,
+          "end_line": 65,
+          "subtree_end_line": 65
+        }
+      },
+      "causal_claim": false,
+      "warning": "Proposition de lecture du passage AnaMu, non règle universelle ni validation indépendante."
+    },
+    {
+      "id": "candidate-assertion:0034",
+      "mention_id": "mention:source-checked-2026-11-28:0001",
+      "material_id": "material:0001237",
+      "reviewed_material_revision": 1,
+      "rule_key": "exact_transposition_not_fugue_answer",
+      "polarity": "negative",
+      "statement": "Même une correspondance exacte sous transposition ne suffit pas à établir une réponse tonale de fugue ou une convention de contrepoint strict.",
+      "scope": "Étude de contrepoint à deux voix, avec parties identifiées ; exercice comparatif AnaMu.",
+      "requires_evidence": [
+        "style_context",
+        "score_voice_assignment"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/berklee/CP-210.md",
+        "document_sha256": "594aaf399583afbb524be76f69f7a89d787b4cd78f3a8cbd784d26c5bc899cab",
+        "content_sha256": "b16829f47aaf559a8324d629c3b04236cd4364442307b21f2e812a3026aa173e",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:699ae34c463907fb9eae37e2",
+          "heading_path": [
+            "CP-210 — The Art of Counterpoint",
+            "Deuxième passe qualitative — contrepoint à deux voix (12 novembre 2026)",
+            "Q1 — Reconnaître une imitation plutôt qu'un contour banal"
+          ],
+          "start_line": 58,
+          "end_line": 65,
+          "subtree_end_line": 65
+        }
+      },
+      "causal_claim": false,
+      "warning": "Proposition de lecture du passage AnaMu, non règle universelle ni validation indépendante."
+    },
+    {
+      "id": "candidate-assertion:0035",
+      "mention_id": "mention:source-checked-2026-11-28:0002",
+      "material_id": "material:0001238",
+      "reviewed_material_revision": 1,
+      "rule_key": "counterpoint_dissonance_compare_contextual_readings",
+      "polarity": "method",
+      "statement": "Pour confronter passage, broderie et suspension, relever durée et métrique de la simultanéité puis examiner préparation, tenue et résolution dans les lignes avec un contexte harmonique sourcé.",
+      "scope": "Contrepoint de deux lignes dans un style déclaré ; lectures à comparer, pas verdict d’espèces.",
+      "requires_evidence": [
+        "voice_trajectories",
+        "vertical_intervals",
+        "metric_positions",
+        "harmonic_context"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/berklee/CP-210.md",
+        "document_sha256": "594aaf399583afbb524be76f69f7a89d787b4cd78f3a8cbd784d26c5bc899cab",
+        "content_sha256": "e2d9601a80c299932cc74d271704e8e4152096d1f30dab0afd412d2f5b875aa9",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:048dc229fcbfeca27495a540",
+          "heading_path": [
+            "CP-210 — The Art of Counterpoint",
+            "Deuxième passe qualitative — contrepoint à deux voix (12 novembre 2026)",
+            "Q2 — Dissonance : comprendre sa place et sa résolution"
+          ],
+          "start_line": 66,
+          "end_line": 73,
+          "subtree_end_line": 73
+        }
+      },
+      "causal_claim": false,
+      "warning": "Proposition de lecture du passage AnaMu, non règle universelle ni validation indépendante."
+    },
+    {
+      "id": "candidate-assertion:0036",
+      "mention_id": "mention:source-checked-2026-11-28:0002",
+      "material_id": "material:0001238",
+      "reviewed_material_revision": 1,
+      "rule_key": "interval_class_not_counterpoint_error",
+      "polarity": "negative",
+      "statement": "La classe d’intervalle ou la seule accentuation d’une dissonance ne permet pas de conclure à une faute contrapuntique indépendamment du style.",
+      "scope": "Contrepoint de deux lignes dans un style déclaré ; lectures à comparer, pas verdict d’espèces.",
+      "requires_evidence": [
+        "style_context",
+        "voice_trajectories"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/berklee/CP-210.md",
+        "document_sha256": "594aaf399583afbb524be76f69f7a89d787b4cd78f3a8cbd784d26c5bc899cab",
+        "content_sha256": "e2d9601a80c299932cc74d271704e8e4152096d1f30dab0afd412d2f5b875aa9",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:048dc229fcbfeca27495a540",
+          "heading_path": [
+            "CP-210 — The Art of Counterpoint",
+            "Deuxième passe qualitative — contrepoint à deux voix (12 novembre 2026)",
+            "Q2 — Dissonance : comprendre sa place et sa résolution"
+          ],
+          "start_line": 66,
+          "end_line": 73,
+          "subtree_end_line": 73
+        }
+      },
+      "causal_claim": false,
+      "warning": "Proposition de lecture du passage AnaMu, non règle universelle ni validation indépendante."
+    },
+    {
+      "id": "candidate-assertion:0037",
+      "mention_id": "mention:source-checked-2026-11-28:0003",
+      "material_id": "material:0002107",
+      "reviewed_material_revision": 1,
+      "rule_key": "posttonal_complementarity_requires_declared_operation",
+      "polarity": "method",
+      "statement": "Comparer les collections de classes entre lignes et régions sous une opération déclarée, en conservant les chevauchements, le registre et la densité rythmique comme dimensions distinctes.",
+      "scope": "Analyse conditionnelle d’une œuvre sourcée selon une opération post-tonale explicitement déclarée ; pas d’attribution de méthode à une section McGill non documentée.",
+      "requires_evidence": [
+        "identified_regions",
+        "pitch_class_collections",
+        "declared_set_operation",
+        "register_and_rhythmic_density"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_conditional_comparative_study_not_attested_section",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/mcgill/MUTH-322.md",
+        "document_sha256": "579ae05c109a10ad366403593d6ab7517639600af46e07a21c718a91046f347d",
+        "content_sha256": "10a86a15ca9a96765c57b4a1f916aeb60ae5d9140c36f08b870602fefb7b3972",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:905ae6b26ec526e686c5d584",
+          "heading_path": [
+            "MUTH 322 — Topics in Post-Tonal Analysis",
+            "Deuxième passe qualitative — hypothèses de tension dans l'analyse post-tonale (12 novembre 2026)",
+            "Q2 — Densité et complémentarité : éviter la fausse équivalence « dissonance = tension »"
+          ],
+          "start_line": 61,
+          "end_line": 68,
+          "subtree_end_line": 68
+        }
+      },
+      "causal_claim": false,
+      "warning": "Proposition de lecture du passage AnaMu, non règle universelle ni validation indépendante."
+    },
+    {
+      "id": "candidate-assertion:0038",
+      "mention_id": "mention:source-checked-2026-11-28:0003",
+      "material_id": "material:0002107",
+      "reviewed_material_revision": 1,
+      "rule_key": "pitch_class_cardinality_not_perceived_tension",
+      "polarity": "negative",
+      "statement": "Un grand nombre de classes distinctes ne démontre ni tension perçue, ni système sériel, ni complémentarité structurelle ; un agrégat complet requiert l’attestation de toutes ses classes.",
+      "scope": "Analyse conditionnelle d’une œuvre sourcée selon une opération post-tonale explicitement déclarée ; pas d’attribution de méthode à une section McGill non documentée.",
+      "requires_evidence": [
+        "complete_pitch_class_observations",
+        "audio_and_context"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_conditional_comparative_study_not_attested_section",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/mcgill/MUTH-322.md",
+        "document_sha256": "579ae05c109a10ad366403593d6ab7517639600af46e07a21c718a91046f347d",
+        "content_sha256": "10a86a15ca9a96765c57b4a1f916aeb60ae5d9140c36f08b870602fefb7b3972",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:905ae6b26ec526e686c5d584",
+          "heading_path": [
+            "MUTH 322 — Topics in Post-Tonal Analysis",
+            "Deuxième passe qualitative — hypothèses de tension dans l'analyse post-tonale (12 novembre 2026)",
+            "Q2 — Densité et complémentarité : éviter la fausse équivalence « dissonance = tension »"
+          ],
+          "start_line": 61,
+          "end_line": 68,
+          "subtree_end_line": 68
+        }
+      },
+      "causal_claim": false,
+      "warning": "Proposition de lecture du passage AnaMu, non règle universelle ni validation indépendante."
+    },
+    {
+      "id": "candidate-assertion:0039",
+      "mention_id": "mention:source-checked-2026-11-28:0004",
+      "material_id": "material:0000454",
+      "reviewed_material_revision": 1,
+      "rule_key": "orchestral_masking_compare_notation_and_signal",
+      "polarity": "method",
+      "statement": "Pour examiner un masquage possible, isoler les superpositions, comparer registres et nuances écrites, puis confronter spectres et niveaux mesurés dans l’enregistrement réel.",
+      "scope": "Orchestration de couches instrumentales identifiées ; comparaison de partition et signal sonore.",
+      "requires_evidence": [
+        "instrumental_part_identity",
+        "notated_register_and_dynamics",
+        "aligned_recording",
+        "spectral_and_level_observations"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation_based_on_institutional_scope",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/udem/MTE-2114.md",
+        "document_sha256": "8f66899b45ccc5f3f2c567430b1bc43f589a04bc45263205f10af694e819f527",
+        "content_sha256": "5e90a88de480e17a3c5119c3fdf4441f0f006d38508bb513b0cf4cb9a1a95cc5",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:a9bf2654fc4e8aa283206359",
+          "heading_path": [
+            "MTE 2114 — Orchestration 1",
+            "Approfondissement de la matière attestée — deuxième passe (12 novembre 2026)",
+            "Axe approfondi 3 — Interaction de registre, dynamique et timbre dans une orchestration"
+          ],
+          "start_line": 56,
+          "end_line": 68,
+          "subtree_end_line": 68
+        }
+      },
+      "causal_claim": false,
+      "warning": "Proposition de lecture du passage AnaMu, non règle universelle ni validation indépendante."
+    },
+    {
+      "id": "candidate-assertion:0040",
+      "mention_id": "mention:source-checked-2026-11-28:0004",
+      "material_id": "material:0000454",
+      "reviewed_material_revision": 1,
+      "rule_key": "midi_velocity_not_orchestral_loudness_or_blend",
+      "polarity": "negative",
+      "statement": "La vélocité MIDI ne mesure ni le niveau acoustique en décibels ni la fusion timbrale ; une comparaison sur samples ne valide pas l’équilibre d’un orchestre en salle.",
+      "scope": "Orchestration de couches instrumentales identifiées ; comparaison de partition et signal sonore.",
+      "requires_evidence": [
+        "real_recording",
+        "listening_conditions"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation_based_on_institutional_scope",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/udem/MTE-2114.md",
+        "document_sha256": "8f66899b45ccc5f3f2c567430b1bc43f589a04bc45263205f10af694e819f527",
+        "content_sha256": "5e90a88de480e17a3c5119c3fdf4441f0f006d38508bb513b0cf4cb9a1a95cc5",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:a9bf2654fc4e8aa283206359",
+          "heading_path": [
+            "MTE 2114 — Orchestration 1",
+            "Approfondissement de la matière attestée — deuxième passe (12 novembre 2026)",
+            "Axe approfondi 3 — Interaction de registre, dynamique et timbre dans une orchestration"
+          ],
+          "start_line": 56,
+          "end_line": 68,
+          "subtree_end_line": 68
+        }
+      },
+      "causal_claim": false,
+      "warning": "Proposition de lecture du passage AnaMu, non règle universelle ni validation indépendante."
+    }
+  ],
+  "coverage": {
+    "selected_material_units": 4,
+    "mentions": 4,
+    "candidate_assertions": 8,
+    "assertions_human_reviewed": 0
+  },
+  "revision_contract": "Candidate assertions must be re-reviewed when their source material revision changes; saved statements are not silently updated."
+}

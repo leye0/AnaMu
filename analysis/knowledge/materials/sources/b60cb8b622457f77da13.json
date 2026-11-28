@@ -1,0 +1,256 @@
+{
+  "source_document": "docs/courses/mit/21M-342.md",
+  "units": [
+    {
+      "id": "material:0002147",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MIT 21M.342 — Composing for Jazz Orchestra (automne 2008)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cours externe documenté, MIT OpenCourseWare, premier cycle, Mark Harvey, automne 2008.** Dossier comparatif pour AnaMu : **hors des 378 cours identifiables du registre UdeM/McGill/Berklee** et des huit familles de choix. Il ne certifie ni",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-342.md",
+          "document_sha256": "b25ab6671d89fe591ec13eac7d40b34c077a74f5131e650a0ed708dae9efb3d1",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9b1906c0441640e066a23ec9",
+            "heading_path": [
+              "MIT 21M.342 — Composing for Jazz Orchestra (automne 2008)"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 73
+          },
+          "content_sha256": "cd44f1ba26db656ee5391b66856fd40a629158bf7d4884937dbee1e80a3dd2c4",
+          "body_sha256": "b168a15f69aee5dde1af773bfeef349421f85b16983477d740fc7266753c20d5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002148",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources primaires et statut des preuves",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [MIT OCW, syllabus de 21M.342, automne 2008](https://ocw.mit.edu/courses/21m-342-composing-for-jazz-orchestra-fall-2008/pages/syllabus/) : Mark Harvey, deux séances de 1 h 30 chaque semaine, répétitions et concerts supplémentaires; répert",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-342.md",
+          "document_sha256": "b25ab6671d89fe591ec13eac7d40b34c077a74f5131e650a0ed708dae9efb3d1",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4378d72d807d74a6618a940b",
+            "heading_path": [
+              "MIT 21M.342 — Composing for Jazz Orchestra (automne 2008)",
+              "Sources primaires et statut des preuves"
+            ],
+            "start_line": 5,
+            "end_line": 13,
+            "subtree_end_line": 13
+          },
+          "content_sha256": "5685582ec10703cd5058f795e721f41f197e456b235c976ac2b3f78c8cf4af53",
+          "body_sha256": "db6d042ada3a5f30d45a9e468ba1d251bb96afd1143e166ad072ad10891d7073",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002149",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Véritables consignes, séparées des interprétations d'AnaMu",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le syllabus prescrit aussi l'observation de répétitions et la discussion de concerts. Cet aspect humain n'est pas réductible à un nombre d'événements MIDI.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-342.md",
+          "document_sha256": "b25ab6671d89fe591ec13eac7d40b34c077a74f5131e650a0ed708dae9efb3d1",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:40bf5f0fa140fae937fed047",
+            "heading_path": [
+              "MIT 21M.342 — Composing for Jazz Orchestra (automne 2008)",
+              "Véritables consignes, séparées des interprétations d'AnaMu"
+            ],
+            "start_line": 14,
+            "end_line": 26,
+            "subtree_end_line": 26
+          },
+          "content_sha256": "73345e3aea289c454b5e4b3911ef5de03f071190038a6d8d27749f6815fe0d1d",
+          "body_sha256": "28fbf274c0ce592c633ae79fa20033f9b06acf4aa5e3d202dfa739990d1b9438",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002150",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Compétence 1 — Ne pas inventer l'harmonie en mélangeant parties transposées et sons réels",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le MIT exige un **conducteur de travail en sons réels** mais des parties individuelles adaptées à chaque instrument. Ainsi une verticalité lue telle quelle dans plusieurs parties ne représente pas nécessairement l'accord **sonore**. Un expo",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-342.md",
+          "document_sha256": "b25ab6671d89fe591ec13eac7d40b34c077a74f5131e650a0ed708dae9efb3d1",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:065e061530304501cce1edd5",
+            "heading_path": [
+              "MIT 21M.342 — Composing for Jazz Orchestra (automne 2008)",
+              "Compétence 1 — Ne pas inventer l'harmonie en mélangeant parties transposées et sons réels"
+            ],
+            "start_line": 27,
+            "end_line": 47,
+            "subtree_end_line": 47
+          },
+          "content_sha256": "c4575cc2aff0e5e996a215f9fc151ac0e6c72fd6e64c3b7a9d89744298f28dae",
+          "body_sha256": "3c38d68d9784bff3266ba379167953bf63327fb7e7e2dc4498d3ac79b36f751a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002151",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Compétence 2 — Même accord vertical, trois fonctions d'arrangement différentes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le projet MIT distingue **harmonisation en bloc**, **harmonie de soutien** et **contrechant** comme exigences séparées. Une seule photographie des classes de hauteurs ne distingue pas ces fonctions. Une harmonisation en bloc fait souvent pa",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-342.md",
+          "document_sha256": "b25ab6671d89fe591ec13eac7d40b34c077a74f5131e650a0ed708dae9efb3d1",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8894e396cf319fa323a9ea4c",
+            "heading_path": [
+              "MIT 21M.342 — Composing for Jazz Orchestra (automne 2008)",
+              "Compétence 2 — Même accord vertical, trois fonctions d'arrangement différentes"
+            ],
+            "start_line": 48,
+            "end_line": 55,
+            "subtree_end_line": 55
+          },
+          "content_sha256": "eac319dc1d8195efef96eb32e16f213d289eb6739f04e9d008a388d0974c787a",
+          "body_sha256": "23d9497c893960c6857b289e9d6de0c50755429f9ca2ebdc017642de5828a67b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002152",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Compétence 3 — Des notes correctes ne sont pas des parties livrables",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le [WDR Big Band](https://www1.wdr.de/orchester-und-chor/bigband/band/wbb-arrangement-134.html) exige **une partie PDF par personne**, des **parties transposées**, un conducteur distinct, des repères et numéros de mesures concordants, l'ind",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-342.md",
+          "document_sha256": "b25ab6671d89fe591ec13eac7d40b34c077a74f5131e650a0ed708dae9efb3d1",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a98793b4c377fb142975076d",
+            "heading_path": [
+              "MIT 21M.342 — Composing for Jazz Orchestra (automne 2008)",
+              "Compétence 3 — Des notes correctes ne sont pas des parties livrables"
+            ],
+            "start_line": 56,
+            "end_line": 63,
+            "subtree_end_line": 63
+          },
+          "content_sha256": "1c8e7f196ef7dd6986c5a547bd1666d6d62c31eb1980c2dcda127a990df6c8a4",
+          "body_sha256": "2758f9cf7020751fcb39957c1705c12e59b2b64b16b9339e4bd3c7fd4073515b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002153",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Rattachements explicites, sans transfert de syllabus",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Applicabilité :** `MIDI_DIRECT` pour hauteurs et positions dans une convention connue; `MIDI_PROXY` pour les fonctions des voix; `CONTEXT_REQUIRED` pour l'instrument, les parties et les consignes; `AUDIO_REQUIRED` pour la couleur, l'équil",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/mit/21M-342.md",
+          "document_sha256": "b25ab6671d89fe591ec13eac7d40b34c077a74f5131e650a0ed708dae9efb3d1",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7fdd619dc853f01193e14b3c",
+            "heading_path": [
+              "MIT 21M.342 — Composing for Jazz Orchestra (automne 2008)",
+              "Rattachements explicites, sans transfert de syllabus"
+            ],
+            "start_line": 64,
+            "end_line": 73,
+            "subtree_end_line": 73
+          },
+          "content_sha256": "5b19f0f2261d839aa9a63d51c4212cfca1cd13c928c4ef45d82eee07033b432c",
+          "body_sha256": "91668f47731d66497c937ed93759b99adbee216694dac66f909d89e78d94b7fd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

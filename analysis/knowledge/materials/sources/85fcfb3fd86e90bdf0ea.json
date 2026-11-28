@@ -1,0 +1,222 @@
+{
+  "source_document": "docs/COURSE_ANALYSIS_TEMPLATE.md",
+  "units": [
+    {
+      "id": "material:0003432",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "AnaMu — gabarit d'application d'un cours à l'analyse et à la composition musicale",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Convention obligatoire à partir du 11 novembre 2026.** Appliquer ce gabarit **dans la fiche existante du cours** `docs/courses/<établissement>/<CODE>.md`, sous le titre « Application à l'analyse et à la création ». Ne pas créer une second",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/COURSE_ANALYSIS_TEMPLATE.md",
+          "document_sha256": "f28f0ee26e24dcf63da52d410e9376899fa61019eb505addf1cfcbbd683f677c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:fbdffba30b1224630f6fdb73",
+            "heading_path": [
+              "AnaMu — gabarit d'application d'un cours à l'analyse et à la composition musicale"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 81
+          },
+          "content_sha256": "324300eae17bb63152b0a7aa5c07bcd0a42223bc32aa6dccebf4b526c87b41b3",
+          "body_sha256": "ed4cdd1dcd429c9cea4403d927fbefb22c373ab3c95192ea2bc93df4b91d606c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003433",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "0. Périmètre et provenance",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Code exact / intitulé / édition :** …",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/COURSE_ANALYSIS_TEMPLATE.md",
+          "document_sha256": "f28f0ee26e24dcf63da52d410e9376899fa61019eb505addf1cfcbbd683f677c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:645426c686c6b44fb0aff87f",
+            "heading_path": [
+              "AnaMu — gabarit d'application d'un cours à l'analyse et à la composition musicale",
+              "0. Périmètre et provenance"
+            ],
+            "start_line": 5,
+            "end_line": 12,
+            "subtree_end_line": 12
+          },
+          "content_sha256": "0a54714775272245ee02c83cce3655c5c45048272621690980337fd3638fdfa7",
+          "body_sha256": "e73f691a0347d3923f7383e23144ac201557be6b028097ca348c0895285a1b98",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003434",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "1. Pour **chaque apprentissage attesté** (répéter, sans gonfler artificiellement)",
+      "title_origin": "source_heading_or_key",
+      "description": "Titre ou passage sans description éditoriale vérifiée.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/COURSE_ANALYSIS_TEMPLATE.md",
+          "document_sha256": "f28f0ee26e24dcf63da52d410e9376899fa61019eb505addf1cfcbbd683f677c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:984b1dec8e4db6e1591deafd",
+            "heading_path": [
+              "AnaMu — gabarit d'application d'un cours à l'analyse et à la composition musicale",
+              "1. Pour **chaque apprentissage attesté** (répéter, sans gonfler artificiellement)"
+            ],
+            "start_line": 13,
+            "end_line": 14,
+            "subtree_end_line": 62
+          },
+          "content_sha256": "75aa41b616805e95c07b4e99a950b2d014056b5d0fd8ec5d2e0b888398ae38b3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003435",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage [ID] : [technique, pratique ou fait culturel précis]",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve du cours.** Nommer le contenu **explicitement attribué au code** dans sa notice, son épreuve ou son syllabus (avec type de preuve, année, URL). Un chapitre externe peut expliquer le mécanisme, mais ne prouve pas qu'il fait partie d",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/COURSE_ANALYSIS_TEMPLATE.md",
+          "document_sha256": "f28f0ee26e24dcf63da52d410e9376899fa61019eb505addf1cfcbbd683f677c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:53a68b3c4f80b7a0507252a8",
+            "heading_path": [
+              "AnaMu — gabarit d'application d'un cours à l'analyse et à la composition musicale",
+              "1. Pour **chaque apprentissage attesté** (répéter, sans gonfler artificiellement)",
+              "Apprentissage [ID] : [technique, pratique ou fait culturel précis]"
+            ],
+            "start_line": 15,
+            "end_line": 62,
+            "subtree_end_line": 62
+          },
+          "content_sha256": "bc8a0cf4c8de0ed04ef53cb087e454f4ab9d8800bb4491d271df42cc095f48c5",
+          "body_sha256": "bcdf9731616003448482aafd7b21116dc25b0aca1d58249b40a6645be0212945",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003436",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "2. Verdict du cours",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Interdits :** prétendre qu'un exemple MIDI original était une consigne universitaire, déduire une technique de son seul titre, identifier une culture depuis la seule gamme, déduire un effet thérapeutique du MIDI, ou annoncer une génératio",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/COURSE_ANALYSIS_TEMPLATE.md",
+          "document_sha256": "f28f0ee26e24dcf63da52d410e9376899fa61019eb505addf1cfcbbd683f677c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c0cac3e166ebf8e783a49bae",
+            "heading_path": [
+              "AnaMu — gabarit d'application d'un cours à l'analyse et à la composition musicale",
+              "2. Verdict du cours"
+            ],
+            "start_line": 63,
+            "end_line": 78,
+            "subtree_end_line": 81
+          },
+          "content_sha256": "149279ed2a948ef4c35fd58df741418841040a49e6fa6e253437238818a3e7e1",
+          "body_sha256": "3ce4197a380129588feaaaab966601481254c1e610c2dda69e7eb82d8f45a69f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003437",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Contrôle complémentaire — état de percussion et événements au même tick",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Pour une comparaison de charleston ou de cymbales, conserver dans le relevé **le statut, le canal, le tick et l'ordre d'origine dans chaque piste**, pas seulement un histogramme de notes. Distinguer explicitement **l'attaque nominale, le No",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/COURSE_ANALYSIS_TEMPLATE.md",
+          "document_sha256": "f28f0ee26e24dcf63da52d410e9376899fa61019eb505addf1cfcbbd683f677c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:cb78516300254a58fae9cf2e",
+            "heading_path": [
+              "AnaMu — gabarit d'application d'un cours à l'analyse et à la composition musicale",
+              "2. Verdict du cours",
+              "Contrôle complémentaire — état de percussion et événements au même tick"
+            ],
+            "start_line": 79,
+            "end_line": 81,
+            "subtree_end_line": 81
+          },
+          "content_sha256": "7a519429cc2adc188d3bcafb07e333907ed47097eaa59083f6ae02a2c79c493c",
+          "body_sha256": "813b6a36bf1d4e0099e678165aa22ecc0e09f5bd1647d6de9250b1e404aa5274",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

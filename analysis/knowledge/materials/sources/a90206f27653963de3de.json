@@ -1,0 +1,112 @@
+{
+  "source_document": "docs/raw-batches/2026-11-10-berklee-18-catalogue.md",
+  "units": [
+    {
+      "id": "material:0003525",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Passe RAW — 18 options / cours voisins Berklee Boston : triage documentaire",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Vérification rapide des 18 codes existants au registre (10 novembre 2026).** **18 pages de cours officielles vérifiées**, mais **0 syllabus de section publique trouvé dans cette passe** ; source = catalogue Boston, jamais la progression r",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-18-catalogue.md",
+          "document_sha256": "4d386330d07d14ab85740b469f4d90f4cb9242d92854e5b27d5d39f660550e70",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7dd39ade50327f00a169a82a",
+            "heading_path": [
+              "Passe RAW — 18 options / cours voisins Berklee Boston : triage documentaire"
+            ],
+            "start_line": 1,
+            "end_line": 25,
+            "subtree_end_line": 36
+          },
+          "content_sha256": "6ae7bb7b1cd5ea4bba5d2b6fedef1e2db98d0fc113e01b82e237f2b87d39b003",
+          "body_sha256": "6bd879ece7027e804a4cf57428ee34b85fdc66209315785149f22a9e96a86b03",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003526",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Signaux immédiats",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **CM-280 / CM-360 :** *Special Topics* n'a pas de progression fixe. Sans code de section, semestre et responsable, il est impossible de collecter un véritable syllabus commun.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-18-catalogue.md",
+          "document_sha256": "4d386330d07d14ab85740b469f4d90f4cb9242d92854e5b27d5d39f660550e70",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:beaebbed7e830280c6d8a7c2",
+            "heading_path": [
+              "Passe RAW — 18 options / cours voisins Berklee Boston : triage documentaire",
+              "Signaux immédiats"
+            ],
+            "start_line": 26,
+            "end_line": 33,
+            "subtree_end_line": 33
+          },
+          "content_sha256": "2fb3c72911816255877570b19412389bc1417fec32fb8d745fa32313c437ec69",
+          "body_sha256": "9368a29ef17bae3d0fd49615b163845ea3f1d1e9ab85d532f2ff4dc7468cec94",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003527",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Suite",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Chercher en priorité syllabus spécifiques d'une section, énoncés publiés, supports de lecture réellement prescrits. Si aucun document pédagogique n'est public, noter l'indisponibilité une fois et traiter le prochain paquet de codes non docu",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-berklee-18-catalogue.md",
+          "document_sha256": "4d386330d07d14ab85740b469f4d90f4cb9242d92854e5b27d5d39f660550e70",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6919aa32f77159a902507b05",
+            "heading_path": [
+              "Passe RAW — 18 options / cours voisins Berklee Boston : triage documentaire",
+              "Suite"
+            ],
+            "start_line": 34,
+            "end_line": 36,
+            "subtree_end_line": 36
+          },
+          "content_sha256": "6143b46d1b0538e70fc125b9cb910b3a4a866403a6d727e6651dcb0e4711ce1c",
+          "body_sha256": "df7379a66c4480a927412be3e13b8cfe03265cdf28d528a06ee06b3848a7f1b6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-udem-74-exact-source-links.md",
+  "units": [
+    {
+      "id": "material:0004312",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "UdeM — 74 autres cours : liens institutionnels directs et extrait de portée",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026, phase 1A.** Les 74 cours étaient déjà `usable_first_pass` dans les lots antérieurs ; cette passe **n'ajoute pas 74 promotions**. Elle vérifie, code par code, que la page UdeM directe donne une notice correspondant bien a",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-74-exact-source-links.md",
+          "document_sha256": "4b5c34c768676dab607cd71d14b0e50c7c4b4224ddc1740f1cd2f5881d05b50d",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:713686bc8ae3e5f78cdc5141",
+            "heading_path": [
+              "UdeM — 74 autres cours : liens institutionnels directs et extrait de portée"
+            ],
+            "start_line": 1,
+            "end_line": 83,
+            "subtree_end_line": 83
+          },
+          "content_sha256": "4b5c34c768676dab607cd71d14b0e50c7c4b4224ddc1740f1cd2f5881d05b50d",
+          "body_sha256": "60b04feed3ed4413ef6544b4965d07b5634cc9f67d514bde4d3e87c198813c7c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

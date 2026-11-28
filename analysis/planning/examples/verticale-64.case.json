@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "case_id": "calibration:tonal-six-four",
+  "question": "Une figure 6/4 est-elle cadentielle, de passage ou de pédale dans ce passage ?",
+  "source_note": "Profils illustratifs construits depuis CM-211; profil real_midi_events_only issu du vrai fichier MIDI pédagogique lu comme événements. Aucune conclusion harmonique automatique ni validation indépendante du syllabus.",
+  "profiles": {
+    "classes_only": [
+      {
+        "id": "toy:classes",
+        "state": "declared",
+        "facts": [
+          "pitch_classes_provided"
+        ],
+        "provenance": "Illustration écrite dans CM-211; aucun fichier MIDI ou partition lu",
+        "scope_ref": "didactic:berklee-cm211-six-four"
+      }
+    ],
+    "tonal_annotated": [
+      {
+        "id": "toy:classes",
+        "state": "declared",
+        "facts": [
+          "pitch_classes_provided"
+        ],
+        "provenance": "Schéma AnaMu, non observation instrumentale",
+        "scope_ref": "didactic:berklee-cm211-six-four"
+      },
+      {
+        "id": "toy:bass",
+        "state": "declared",
+        "facts": [
+          "bass_trajectory_annotated"
+        ],
+        "provenance": "Comparaison de basse des trois variantes",
+        "scope_ref": "didactic:berklee-cm211-six-four"
+      },
+      {
+        "id": "toy:voices",
+        "state": "declared",
+        "facts": [
+          "voice_leading_annotated"
+        ],
+        "provenance": "Mouvements 4→3 et 6→5 de la variante cadentielle",
+        "scope_ref": "didactic:berklee-cm211-six-four"
+      },
+      {
+        "id": "toy:neighbor",
+        "state": "declared",
+        "facts": [
+          "previous_next_harmony_annotated"
+        ],
+        "provenance": "Contextes I–V–I de la fiche",
+        "scope_ref": "didactic:berklee-cm211-six-four"
+      },
+      {
+        "id": "toy:framework",
+        "state": "declared",
+        "facts": [
+          "tonal_frame_declared",
+          "phrase_context_annotated"
+        ],
+        "provenance": "Cadre tonal et phrase de l'exemple AnaMu",
+        "scope_ref": "didactic:berklee-cm211-six-four"
+      }
+    ],
+    "source_only": [],
+    "real_midi_events_only": [
+      {
+        "id": "git:903eba91fc5867c8d6389a128cdbb040e8fef521",
+        "state": "verified",
+        "facts": [
+          "midi_note_events_verified"
+        ],
+        "provenance": "docs/courses/berklee/CM-211/six-quartes-trois-fonctions.mid — Git blob 903eba91fc5867c8d6389a128cdbb040e8fef521; 108 attaques sur quatre pistes d'après audit des événements",
+        "note": "Les noms de pistes ne certifient pas la continuité de voix; une observation de notes ne certifie ni fonction harmonique ni cadence.",
+        "scope_ref": "didactic:berklee-cm211-six-four"
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "task:observe-pitch-classes",
+      "question": "Quels ensembles de hauteurs sont effectivement donnés ?",
+      "knowledge_refs": [
+        "harmony.sonority"
+      ],
+      "material_refs": [
+        "material:0000013"
+      ],
+      "proof_routes": [
+        {
+          "id": "declared-example",
+          "all_of": [
+            "pitch_classes_provided"
+          ],
+          "candidate_outputs_only": [
+            "collection_transcribed_from_example"
+          ]
+        },
+        {
+          "id": "real-midi",
+          "all_of": [
+            "midi_note_events_verified"
+          ],
+          "candidate_outputs_only": [
+            "midi_pitch_collection_observation"
+          ]
+        }
+      ],
+      "cannot_establish": [
+        "functional_harmony",
+        "cadence",
+        "voice_identity"
+      ],
+      "revisit_when": [
+        "source_note_set_corrected"
+      ],
+      "depends_on": [],
+      "scope_ref": "didactic:berklee-cm211-six-four"
+    },
+    {
+      "id": "task:identify-bass-and-intervals",
+      "question": "Quels intervalles sont au-dessus de quelle basse ?",
+      "knowledge_refs": [
+        "harmony.lowest_pitch"
+      ],
+      "material_refs": [
+        "material:0000013"
+      ],
+      "proof_routes": [
+        {
+          "id": "annotated-example",
+          "all_of": [
+            "pitch_classes_provided",
+            "bass_trajectory_annotated"
+          ],
+          "candidate_outputs_only": [
+            "six_four_figure_candidate"
+          ]
+        },
+        {
+          "id": "notated-score",
+          "all_of": [
+            "score_with_notated_bass",
+            "score_note_events_verified"
+          ],
+          "candidate_outputs_only": [
+            "notated_six_four_observation"
+          ]
+        }
+      ],
+      "cannot_establish": [
+        "cadential_function_from_inversion_alone"
+      ],
+      "revisit_when": [
+        "bass_voice_changed",
+        "score_spelling_corrected"
+      ],
+      "depends_on": [
+        "task:observe-pitch-classes"
+      ],
+      "scope_ref": "didactic:berklee-cm211-six-four"
+    },
+    {
+      "id": "task:compare-six-four-functions",
+      "question": "Quelles lectures sont soutenues par la basse, les voix et la suite ?",
+      "knowledge_refs": [
+        "harmony.function"
+      ],
+      "material_refs": [
+        "material:0000013"
+      ],
+      "proof_routes": [
+        {
+          "id": "annotated-tonal-example",
+          "all_of": [
+            "bass_trajectory_annotated",
+            "voice_leading_annotated",
+            "previous_next_harmony_annotated",
+            "tonal_frame_declared"
+          ],
+          "candidate_outputs_only": [
+            "cadential_reading",
+            "passing_reading",
+            "pedal_reading",
+            "ambiguities"
+          ]
+        }
+      ],
+      "cannot_establish": [
+        "uniquely_correct_function_without_other_evidence",
+        "stylistic_generality"
+      ],
+      "revisit_when": [
+        "another_continuation",
+        "voice_leading_corrected",
+        "new_style_evidence"
+      ],
+      "depends_on": [
+        "task:identify-bass-and-intervals"
+      ],
+      "scope_ref": "didactic:berklee-cm211-six-four"
+    },
+    {
+      "id": "task:examine-phrase",
+      "question": "Les articulations de phrase renforcent-elles une lecture cadentielle ?",
+      "knowledge_refs": [
+        "harmony.cadence",
+        "form.phrase_hierarchy"
+      ],
+      "material_refs": [
+        "material:0000013"
+      ],
+      "proof_routes": [
+        {
+          "id": "annotated-phrase",
+          "all_of": [
+            "phrase_context_annotated",
+            "voice_leading_annotated",
+            "tonal_frame_declared"
+          ],
+          "candidate_outputs_only": [
+            "cadential_support_or_objection"
+          ]
+        }
+      ],
+      "cannot_establish": [
+        "perceived_closure_without_audition"
+      ],
+      "revisit_when": [
+        "phrase_boundary_revision"
+      ],
+      "depends_on": [
+        "task:observe-pitch-classes"
+      ],
+      "scope_ref": "didactic:berklee-cm211-six-four"
+    },
+    {
+      "id": "task:perceptual-closure",
+      "question": "La clôture est-elle perçue comme forte dans la réalisation ?",
+      "knowledge_refs": [
+        "harmony.cadence"
+      ],
+      "material_refs": [
+        "material:0000013"
+      ],
+      "proof_routes": [
+        {
+          "id": "audio-and-listening",
+          "all_of": [
+            "audio_excerpt_verified",
+            "audition_annotated"
+          ],
+          "candidate_outputs_only": [
+            "situated_perceptual_judgment"
+          ]
+        }
+      ],
+      "cannot_establish": [
+        "universal_listener_response"
+      ],
+      "revisit_when": [
+        "recording_changed",
+        "listener_annotation_changed"
+      ],
+      "depends_on": [],
+      "scope_ref": "didactic:berklee-cm211-six-four"
+    }
+  ],
+  "midi_audit_ref": "analysis/examples/cm211-six-four-midi-observations.json",
+  "fact_registry_ref": "analysis/knowledge/evidence-facts.json",
+  "scope_ref": "didactic:berklee-cm211-six-four"
+}

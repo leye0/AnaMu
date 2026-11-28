@@ -1,0 +1,888 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+  "units": [
+    {
+      "id": "material:0004142",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026 · phase 1A.** Relecture ciblée des notices directes 2026–2027 de McGill et des pages par code de Berklee Boston. Pour chacun: matière vérifiable, distinction entre cursus et séance, et lacune bloquant une promotion. **Une",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3b672e8b5620f26e992af7e4",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 236
+          },
+          "content_sha256": "ed2220921197b003463cc0d8ec4df49ebd2130ac2d42fee86a7df4336feac3b1",
+          "body_sha256": "f049319eb3b98653d75b252321a29e8b2f200da3277a2e7d30b760b2b63a0f96",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004143",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "McGill — 11 fiches",
+      "title_origin": "source_heading_or_key",
+      "description": "Titre ou passage sans description éditoriale vérifiée.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6ad3008de755e6149f2c1249",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "McGill — 11 fiches"
+            ],
+            "start_line": 5,
+            "end_line": 6,
+            "subtree_end_line": 130
+          },
+          "content_sha256": "ad6cf66be08c48d896bbb64e20f50de995169ec773ae8fd042a15eabd8cf7503",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004144",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUCO 340D2 — Composition 2 (hiver)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [official_2026_27_course_description_inherits_MUCO_340D1](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements). **Statut 1A :** `usable_first_pass`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ecded215a5a5d4dbd521f866",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "McGill — 11 fiches",
+              "MUCO 340D2 — Composition 2 (hiver)"
+            ],
+            "start_line": 7,
+            "end_line": 19,
+            "subtree_end_line": 19
+          },
+          "content_sha256": "9b6a166e728e9182090c3e9c961c323fe843169c3091dc6c5bbe1951b277d6dc",
+          "body_sha256": "74ed726a020b5772c3870e70d5be7b957d1fe71d526fbf0ec5fd13f0ef63a144",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004145",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUCO 440D1 — Composition 3 (automne)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [official_2026_27_course_description](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements). **Statut 1A :** `partial`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4a1ffb59a84409dfc5f4e602",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "McGill — 11 fiches",
+              "MUCO 440D1 — Composition 3 (automne)"
+            ],
+            "start_line": 20,
+            "end_line": 30,
+            "subtree_end_line": 30
+          },
+          "content_sha256": "c27a2df3eab4f977958f659ca3b1f0c741e49658e02b3230797c3ca960c08997",
+          "body_sha256": "8a7e7574fb67812838f179a9efbf59636b11400f4d0f7546b7d9c3742593fce3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004146",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUCO 440D2 — Composition 3 (hiver)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [official_2026_27_course_description_refers_to_MUCO_440D1](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements). **Statut 1A :** `partial`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6a5262c1135ea4191a52d9a9",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "McGill — 11 fiches",
+              "MUCO 440D2 — Composition 3 (hiver)"
+            ],
+            "start_line": 31,
+            "end_line": 41,
+            "subtree_end_line": 41
+          },
+          "content_sha256": "22a335a91533e83794953a8afd5599f36932eabe2dd9729e2eadee303a36e011",
+          "body_sha256": "5811f4bd2d070c1902386218609d2dae915a88f1d020aac94f19c03c9aa2f309",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004147",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUCO 575 — Topics in Composition",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [official_2026_27_topic_variable_catalogue](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements). **Statut 1A :** `partial`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:fdb7007eea1adeef5d4b4592",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "McGill — 11 fiches",
+              "MUCO 575 — Topics in Composition"
+            ],
+            "start_line": 42,
+            "end_line": 53,
+            "subtree_end_line": 53
+          },
+          "content_sha256": "40c0bee9556001c1964e8372822754676eb5f18d1c40a6a00fdc94b1a7ed2cef",
+          "body_sha256": "98e6c853b09577e141abd29e26a5a5bc60b7d84467485aa427a4d45381675432",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004148",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUIN 180 — BMus Practical Lessons 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [institutional_instrument_practical_policy](https://coursecatalogue.mcgill.ca/en/undergraduate/music/practical-instruction/). **Statut 1A :** `partial`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:de005bffe5b603e177ea72b1",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "McGill — 11 fiches",
+              "MUIN 180 — BMus Practical Lessons 1"
+            ],
+            "start_line": 54,
+            "end_line": 64,
+            "subtree_end_line": 64
+          },
+          "content_sha256": "ed75e9fb18da1795941cecf6147d33c950017e21c30a9eacaaeea7640172f7e7",
+          "body_sha256": "a84b956679f0488fef86d02dbc7f8847cef07ad95447d3bfe77d35d9df93f9e7",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004149",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUIN 181 — BMus Practical Lessons 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [official_practical_policy_plus_catalogue_anomaly](https://coursecatalogue.mcgill.ca/en/undergraduate/music/practical-instruction/). **Statut 1A :** `partial`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9511a9846dc2ec970c27ddf0",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "McGill — 11 fiches",
+              "MUIN 181 — BMus Practical Lessons 2"
+            ],
+            "start_line": 65,
+            "end_line": 75,
+            "subtree_end_line": 75
+          },
+          "content_sha256": "e2024ba9a4ff11a9d1474601e3dc792a7b74861e0b1697b585d09d514f2a35ed",
+          "body_sha256": "28b2828a0e81d78f4f3a0a84c18ce34b544a8f88195c1a42cb8eaf26526b6281",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004150",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUIN 280 — BMus Practical Lessons 3",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [institutional_instrument_practical_policy](https://coursecatalogue.mcgill.ca/en/undergraduate/music/practical-instruction/). **Statut 1A :** `partial`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c9795752179e3a3c8aa17c0f",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "McGill — 11 fiches",
+              "MUIN 280 — BMus Practical Lessons 3"
+            ],
+            "start_line": 76,
+            "end_line": 86,
+            "subtree_end_line": 86
+          },
+          "content_sha256": "71e1dc7ccbbd063fde1988ef9b6007f899675436a66f900c64800e57f3bdd06c",
+          "body_sha256": "183e82bf3effcdf306b03e751f5ee5e0daf11ae69069ff55769b3920b879a6dd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004151",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUIN 281 — BMus Practical Lessons 4",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [institutional_instrument_practical_policy](https://coursecatalogue.mcgill.ca/en/undergraduate/music/practical-instruction/). **Statut 1A :** `partial`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c8d1437181036ca503fc9863",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "McGill — 11 fiches",
+              "MUIN 281 — BMus Practical Lessons 4"
+            ],
+            "start_line": 87,
+            "end_line": 97,
+            "subtree_end_line": 97
+          },
+          "content_sha256": "4942ea679bf4d5576af892be935a6444e86fd48c97772b7e0b3b9271811fe391",
+          "body_sha256": "8c9d6c91f4b9c7c2e8fe4f93f9a9cb461ea3ea31fc921b7634c4d37ce0ccc32c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004152",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUPD 235 — Music as a Profession 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [official_2026_27_catalogue](https://www.mcgill.ca/music/programs/bmus/music-composition/requirements). **Statut 1A :** `partial`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7b0d7763e9748a1ccfbfae28",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "McGill — 11 fiches",
+              "MUPD 235 — Music as a Profession 2"
+            ],
+            "start_line": 98,
+            "end_line": 108,
+            "subtree_end_line": 108
+          },
+          "content_sha256": "2ab147ac1a9524d9f26e213c735ccb1b5adf50060af6b96ddc73efb649a1194d",
+          "body_sha256": "a2bf3549b311a77fbb13998fad1ba4090ff427a5683a754a399295e27a054b75",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004153",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUEN 592 — Chamber Jazz Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [official_ensemble_options_2026_27](https://www.mcgill.ca/music/files/music/small_ensemble_options_2026-2027.pdf). **Statut 1A :** `partial`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:fa5b75d05cf8a185374b61fa",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "McGill — 11 fiches",
+              "MUEN 592 — Chamber Jazz Ensemble"
+            ],
+            "start_line": 109,
+            "end_line": 119,
+            "subtree_end_line": 119
+          },
+          "content_sha256": "9e88e339dc8fb282e686f0edf6d5e21d39dded6ea4e5357638d4b41667a60e6f",
+          "body_sha256": "b48a4ee7c51477583825077591ee6af84d74f3300e9bd2fe202cbc750a304bb3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004154",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUTH 322 — Topics in Post-Tonal Analysis",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [official_historical_catalogue_and_diagnostic_comparator](https://www.mcgill.ca/study/2024-2025/courses/muth-322). **Statut 1A :** `partial`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f9d01a08d77c0adc92a53756",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "McGill — 11 fiches",
+              "MUTH 322 — Topics in Post-Tonal Analysis"
+            ],
+            "start_line": 120,
+            "end_line": 130,
+            "subtree_end_line": 130
+          },
+          "content_sha256": "2de18ba2909aeb8e29085b17447bdb36f9ef1441a7fdf389c3af379ef483fb57",
+          "body_sha256": "be527dbbe22c88dc82c8bbc83f5832205c1831d79a95c16095607dc78b0cd670",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004155",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Berklee Boston — 9 fiches",
+      "title_origin": "source_heading_or_key",
+      "description": "Titre ou passage sans description éditoriale vérifiée.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f7cc3e210ef7fbcdcb447ff6",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "Berklee Boston — 9 fiches"
+            ],
+            "start_line": 131,
+            "end_line": 132,
+            "subtree_end_line": 230
+          },
+          "content_sha256": "a7f8103e80656455050748094f759029ceb24ea9585ff4cf7f5fa10f69679c33",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004156",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MHIS-251 — General Music History 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [official_catalogue](https://college.berklee.edu/courses/mhis-251). **Statut 1A :** `partial`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:955f11f6b8085d9bef9ec8ff",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "Berklee Boston — 9 fiches",
+              "MHIS-251 — General Music History 1"
+            ],
+            "start_line": 133,
+            "end_line": 142,
+            "subtree_end_line": 142
+          },
+          "content_sha256": "4a4f3c1b253b7c6bc987fce556376b107f2e449535e915c609f10053bc0ebaf2",
+          "body_sha256": "e3c29cfa548f72f93d0be89426f231299f99c42784e2ba8e8af762621418a1ac",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004157",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MHIS-252 — General Music History 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [official_catalogue](https://college.berklee.edu/courses/mhis-252). **Statut 1A :** `partial`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:68b8af0ea41d7e3fc866d6bd",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "Berklee Boston — 9 fiches",
+              "MHIS-252 — General Music History 2"
+            ],
+            "start_line": 143,
+            "end_line": 152,
+            "subtree_end_line": 152
+          },
+          "content_sha256": "788e0e8039c789e17ba304296352fc3ea702370d3bdc331233bc354e0478ddab",
+          "body_sha256": "18af2bb2946c67c51e4c6943c7ba01e31b412ad25124c6002136f8991c674dc2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004158",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-280 — Special Topics in Composition and Conducting 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [official_variable_topic_catalogue](https://college.berklee.edu/courses/cm-280). **Statut 1A :** `partial`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ab94bf96f8e003f72c0793c1",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "Berklee Boston — 9 fiches",
+              "CM-280 — Special Topics in Composition and Conducting 1"
+            ],
+            "start_line": 153,
+            "end_line": 163,
+            "subtree_end_line": 163
+          },
+          "content_sha256": "050269e89d83c0d705039e8e593b2147212337a0a5ed5b44816ee1cbf8897029",
+          "body_sha256": "d0d5c3615ecca016166d14c277a6b05985d1949f7a981732c3949f96162c4cef",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004159",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-360 — Special Topics in Composition and Conducting 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [official_variable_topic_catalogue](https://college.berklee.edu/courses/cm-360). **Statut 1A :** `partial`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4addc5b9863d0750fee0e394",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "Berklee Boston — 9 fiches",
+              "CM-360 — Special Topics in Composition and Conducting 2"
+            ],
+            "start_line": 164,
+            "end_line": 174,
+            "subtree_end_line": 174
+          },
+          "content_sha256": "b9ce274730c927568d63fa145dd49e521ebf9d19cf5155632f9d59d5ed606d49",
+          "body_sha256": "22cfbe5f99da5db69d269854d87d9dda05ba31ff462798d387d70a08fa403cc4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004160",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-495 — Composition Internship",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [official_individual_internship_catalogue](https://college.berklee.edu/courses/cm-495). **Statut 1A :** `partial`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:09d51e3a9d47fc1a3498bfb8",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "Berklee Boston — 9 fiches",
+              "CM-495 — Composition Internship"
+            ],
+            "start_line": 175,
+            "end_line": 185,
+            "subtree_end_line": 185
+          },
+          "content_sha256": "a9545bdc35ed58537bff68a06541ac1321feda715f52b7cd55384c82dd032607",
+          "body_sha256": "148bc93c89c5ff372f688d486685ab81dd207f275c8707cc1fd721e3b1ba190e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004161",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-499 — Directed Study in Jazz Composition",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [official_majors_restriction_and_capstone_catalogue](https://college.berklee.edu/courses/cm-499). **Statut 1A :** `partial`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b130678777011ab9fcc971fc",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "Berklee Boston — 9 fiches",
+              "CM-499 — Directed Study in Jazz Composition"
+            ],
+            "start_line": 186,
+            "end_line": 196,
+            "subtree_end_line": 196
+          },
+          "content_sha256": "5a1e2b25d84e394b9e950b662a23c7267718122c911c42bf49787039e1151a2a",
+          "body_sha256": "12e23b319634dde48ffbcda7f5e1f49e1e845ec3850b46e903b40fcedd925333",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004162",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "COND-311 — Conducting Chamber Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [official_conducting_catalogue](https://college.berklee.edu/courses/cond-311). **Statut 1A :** `partial`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8e543526ee5d9d3aea57a0fb",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "Berklee Boston — 9 fiches",
+              "COND-311 — Conducting Chamber Orchestra"
+            ],
+            "start_line": 197,
+            "end_line": 207,
+            "subtree_end_line": 207
+          },
+          "content_sha256": "71a58650bc43238176de0b776e5dbfa38d80e1baf9756ad45d2a29a0168f3768",
+          "body_sha256": "7e7660ab6d1174253f1c1588e78aa686da0024da35939edb6811d532e0023949",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004163",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MLAN-375 — The Music of Igor Stravinsky",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [official_music_analysis_catalogue](https://college.berklee.edu/courses/mlan-375). **Statut 1A :** `partial`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e2438968900f8a0767008295",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "Berklee Boston — 9 fiches",
+              "MLAN-375 — The Music of Igor Stravinsky"
+            ],
+            "start_line": 208,
+            "end_line": 218,
+            "subtree_end_line": 218
+          },
+          "content_sha256": "4de4f9c294dfbd5927df736aebde2b0fe9ee412e6cc581ee5d68265fe29a534d",
+          "body_sha256": "6f536ebfbb4824fe33bd75b029951979099da5f7bccf09c8ca25e0d20b626eee",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004164",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MLAN-381 — Seminal Composers of the 20th and 21st Centuries",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source primaire :** [official_single_composer_per_semester_catalogue](https://college.berklee.edu/courses/mlan-381). **Statut 1A :** `partial`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a753920155348a960fcfc81c",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "Berklee Boston — 9 fiches",
+              "MLAN-381 — Seminal Composers of the 20th and 21st Centuries"
+            ],
+            "start_line": 219,
+            "end_line": 230,
+            "subtree_end_line": 230
+          },
+          "content_sha256": "5ac6342596cb2e0734e86f4da88607b4ef5f078ad8ab0b86903d5c98c70dbc41",
+          "body_sha256": "87c93f1a0c52a37749f4fefe3ec795b910fd9bb9bcb35a6744a60d15a67d1a47",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004165",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deux distinctions administratives critiques",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **MUCO 340D2 :** sa propre fiche de cours renvoie à MUCO 340D1, ce qui autorise l'attribution des exigences annuelles de tutorat à ce second volet (5 minutes par trimestre, ou 10 minutes pour l'année), sans inventer une durée de projet po",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-berklee-20-remaining-partials.md",
+          "document_sha256": "64bfe767cbfaa1b35c91a7778b9786dd85969698973c79af95209d898575b4b8",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:fc4e12511e40ce2261d53dba",
+            "heading_path": [
+              "AnaMu — approfondissement des 20 cours encore partiels à McGill et Berklee",
+              "Deux distinctions administratives critiques"
+            ],
+            "start_line": 231,
+            "end_line": 236,
+            "subtree_end_line": 236
+          },
+          "content_sha256": "42b8cb6bd8f50a139de54c58ba5ded76bfcd598c4c98e8bfa49e5b98ae5b244c",
+          "body_sha256": "a1bd8df93cb8c88ea08bdfb282713d853da12bd75f16692db97b3c1db5bffcc1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

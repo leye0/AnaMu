@@ -1,0 +1,512 @@
+{
+  "source_document": "docs/courses/udem/MTE-2115.md",
+  "units": [
+    {
+      "id": "material:0000290",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 2115 — Orchestration 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-2115.md",
+          "document_sha256": "57c59351a0f9022673b56d1782f7023a7fac8dc58c535b6ddaabf8a3bdcfa49f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:252570122b7f6a7c68c4378d",
+            "heading_path": [
+              "MTE 2115 — Orchestration 2"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 131
+          },
+          "content_sha256": "060a9bb4ba22a98afeeb1bafa30564258a9a41535b7ae983a67a587ec1fc83c3",
+          "body_sha256": "89120b9aa38472ffe8ca15a1dc4a095f790f8898ef0242352ecf4ed61d7a6460",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000291",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Cours recensé",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Obligatoire A26. Écriture à l’intérieur des familles de cordes, cuivres et bois. Accords, unissons et homophonie, puis lignes mélodiques, accompagnements, basses, polyphonie, doublures et mélanges. [Source institutionnelle](https://admissio",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-2115.md",
+          "document_sha256": "57c59351a0f9022673b56d1782f7023a7fac8dc58c535b6ddaabf8a3bdcfa49f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:38d7c6e2f864ce236ec71c45",
+            "heading_path": [
+              "MTE 2115 — Orchestration 2",
+              "Cours recensé"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 8
+          },
+          "content_sha256": "c338ee88da9272304f278044d5bd88bb763286c5964527835d0889d5bb35b57d",
+          "body_sha256": "a0335d6c57b45da7ca0a849fa4ebcf28dd476ce410efcf09f1e7d408c982fb4a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000292",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Support pédagogique comparable",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le plan parallèle OCWPR-366 détaille couleurs, lignes, harmonie et textures en couches. Le [module d’analyse du timbre](https://timbreandorchestration.org/syllabi/teaching-timbre-topics/module-ii/analysis-of-timbre) rassemble des lectures, ",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-2115.md",
+          "document_sha256": "57c59351a0f9022673b56d1782f7023a7fac8dc58c535b6ddaabf8a3bdcfa49f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c56ea88fde069bef75d520e2",
+            "heading_path": [
+              "MTE 2115 — Orchestration 2",
+              "Support pédagogique comparable"
+            ],
+            "start_line": 9,
+            "end_line": 12,
+            "subtree_end_line": 12
+          },
+          "content_sha256": "f5b7c8ca42ea99a01aefd8d53d71fc40cebbf1b8afb11836af00dc0eb5e23498",
+          "body_sha256": "ab1f4831a71f238b58dff482f7e4ee551c88cbee4b9a2a43b24f47cec1a07530",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000293",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le support comparable a sa propre provenance. Le plan de section, le répertoire, les consignes détaillées et les barèmes du cours recensé restent à obtenir.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-2115.md",
+          "document_sha256": "57c59351a0f9022673b56d1782f7023a7fac8dc58c535b6ddaabf8a3bdcfa49f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:456c2adc6858d20a498c1c82",
+            "heading_path": [
+              "MTE 2115 — Orchestration 2",
+              "Lacunes"
+            ],
+            "start_line": 13,
+            "end_line": 17,
+            "subtree_end_line": 17
+          },
+          "content_sha256": "cf4cd062742b0cd8d218acac54e7ef9bbc1979d55327f45f0d37f5dfa815b1c0",
+          "body_sha256": "3b48afd5db8bbc1af54f0bc5745918d45d30d375a0a8ee62a685c03ff58aebd9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000294",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — première passe (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Pertinence : directe.** Matière identifiée dans la [notice ou le plan directement attribuable](https://admission.umontreal.ca/cours-et-horaires/cours/mte-2115/). **[MIDI original de démonstration](./MTE-2115/exemple.mid)**, non produit de",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-2115.md",
+          "document_sha256": "57c59351a0f9022673b56d1782f7023a7fac8dc58c535b6ddaabf8a3bdcfa49f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8bfba2cdd965ff386dd3cc4c",
+            "heading_path": [
+              "MTE 2115 — Orchestration 2",
+              "Application à l'analyse et à la création — première passe (11 novembre 2026)"
+            ],
+            "start_line": 18,
+            "end_line": 21,
+            "subtree_end_line": 31
+          },
+          "content_sha256": "af246e4cd2bc5905c722d31d5b93f4593af3f13559d4e0a46ea3ebc486a0d26a",
+          "body_sha256": "6f0f56ece31e60bfbeb3de3fc71c3a39bce2d547e8e25558dc9fa2d341b85e8e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000295",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage attesté : Répartir mélodie, accompagnement et basse entre pupitres",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser — procédure :** 1. Séparer les canaux et leurs registres. 2. Calculer la densité d'attaques, les durées et la saillance des lignes. 3. Reconnaître une ligne mobile aiguë, un tapis harmonique à notes tenues et une basse grave. 4. ",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-2115.md",
+          "document_sha256": "57c59351a0f9022673b56d1782f7023a7fac8dc58c535b6ddaabf8a3bdcfa49f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ea9d2e2008cc13fd6f2eeebf",
+            "heading_path": [
+              "MTE 2115 — Orchestration 2",
+              "Application à l'analyse et à la création — première passe (11 novembre 2026)",
+              "Apprentissage attesté : Répartir mélodie, accompagnement et basse entre pupitres"
+            ],
+            "start_line": 22,
+            "end_line": 31,
+            "subtree_end_line": 31
+          },
+          "content_sha256": "64147b862ac18c049c94b43efb58d580a7981c49e315b5d4c8c1ce966c19bd44",
+          "body_sha256": "57acd69fd0528b94b7cbd8368d9c261ea2ede8318a9801d286cb2d21b7d5a754",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000296",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Approfondissement de la matière attestée — deuxième passe (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance et statut.** [Source propre au niveau ou au cours](https://admission.umontreal.ca/cours-et-horaires/cours/mte-2115/). Notice officielle UdeM Orchestration 2 : écriture dans familles cordes/cuivres/bois, accords, unissons, homop",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-2115.md",
+          "document_sha256": "57c59351a0f9022673b56d1782f7023a7fac8dc58c535b6ddaabf8a3bdcfa49f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9649863d8e50bf26622555a4",
+            "heading_path": [
+              "MTE 2115 — Orchestration 2",
+              "Approfondissement de la matière attestée — deuxième passe (12 novembre 2026)"
+            ],
+            "start_line": 32,
+            "end_line": 35,
+            "subtree_end_line": 68
+          },
+          "content_sha256": "b344b2cf6ad827172b02d88b63bea3c54331b3d6586a79013b7f4e1d54f6dc4a",
+          "body_sha256": "d08321607b795ac58d00d715fb78ca1e3d5b2fa71fb8c1f58d6d8d77f6044962",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000297",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Axe approfondi 1 — Comparer unisson, doublure à l'octave et harmonisation homophone",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser une œuvre existante — entrée, séquence d'opérations et vérification.** Sur conducteur et pistes MIDI identifiées, associer les voix qui ont même contour et rythme, différencier simultanéité à l'unisson, octave et intervalles harm",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-2115.md",
+          "document_sha256": "57c59351a0f9022673b56d1782f7023a7fac8dc58c535b6ddaabf8a3bdcfa49f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:126b72e301273c982c681a13",
+            "heading_path": [
+              "MTE 2115 — Orchestration 2",
+              "Approfondissement de la matière attestée — deuxième passe (12 novembre 2026)",
+              "Axe approfondi 1 — Comparer unisson, doublure à l'octave et harmonisation homophone"
+            ],
+            "start_line": 36,
+            "end_line": 45,
+            "subtree_end_line": 45
+          },
+          "content_sha256": "a9fdcc527eb7b0c0f33df9bb40bbf5d3c3ee982bfce71fea27a101cf9aac97fb",
+          "body_sha256": "31ddb7f90b0027b93acf2013febf30682528a9e38d02df56f237521909803814",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000298",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Axe approfondi 2 — Distinguer lignes mélodiques, accompagnements, basses et contrepoint",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser une œuvre existante — entrée, séquence d'opérations et vérification.** Mesurer sur plusieurs mesures la densité d'attaques, le contour, les durées et les registres des parties; proposer des fonctions mélodie, pédale, basse et con",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-2115.md",
+          "document_sha256": "57c59351a0f9022673b56d1782f7023a7fac8dc58c535b6ddaabf8a3bdcfa49f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f8e5d7693b10fb16f7d81767",
+            "heading_path": [
+              "MTE 2115 — Orchestration 2",
+              "Approfondissement de la matière attestée — deuxième passe (12 novembre 2026)",
+              "Axe approfondi 2 — Distinguer lignes mélodiques, accompagnements, basses et contrepoint"
+            ],
+            "start_line": 46,
+            "end_line": 55,
+            "subtree_end_line": 55
+          },
+          "content_sha256": "03c70eb6215a68fbc48d140116e1767d2be4c9c16d926671d0ee0473a2aa4423",
+          "body_sha256": "4cf079bdac89bef778b753691e83181b98b2083c10fbbb3956ca052c89263fd4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000299",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Axe approfondi 3 — Mélanges entre familles : arbitrer soutien harmonique et masquage",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser une œuvre existante — entrée, séquence d'opérations et vérification.** Pour une partition et captation autorisées, identifier doublures cordes–bois–cuivres et leur position relative; comparer densité spectrale et distribution des",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-2115.md",
+          "document_sha256": "57c59351a0f9022673b56d1782f7023a7fac8dc58c535b6ddaabf8a3bdcfa49f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:da87c25ba8f38954a1a562f2",
+            "heading_path": [
+              "MTE 2115 — Orchestration 2",
+              "Approfondissement de la matière attestée — deuxième passe (12 novembre 2026)",
+              "Axe approfondi 3 — Mélanges entre familles : arbitrer soutien harmonique et masquage"
+            ],
+            "start_line": 56,
+            "end_line": 68,
+            "subtree_end_line": 68
+          },
+          "content_sha256": "9d7bb3a38dab54597134a818606c7728c791685620327364f737a82034192d15",
+          "body_sha256": "451eb0bd86b7a9105bb304da1bb42f257e99ce141f9dbca415c635c4f814567a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000300",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Percussions dans un ensemble : l'attaque et la résonance peuvent franchir deux frontières différentes (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source propre au cours.** [MTE 2115 à l'UdeM](https://admission.umontreal.ca/cours-et-horaires/cours/mte-2115/) couvre répartitions instrumentales, **unisson, accompagnements, basses, contrepoint et mélanges de familles**. L'étiquette « p",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-2115.md",
+          "document_sha256": "57c59351a0f9022673b56d1782f7023a7fac8dc58c535b6ddaabf8a3bdcfa49f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6ee246940f14baf254ceae9b",
+            "heading_path": [
+              "MTE 2115 — Orchestration 2",
+              "Percussions dans un ensemble : l'attaque et la résonance peuvent franchir deux frontières différentes (17 novembre 2026)"
+            ],
+            "start_line": 69,
+            "end_line": 86,
+            "subtree_end_line": 86
+          },
+          "content_sha256": "17818f0e7fad86ad8cf50d364af9d37fab65e9e9aeef414b6eb0ff9947d2731f",
+          "body_sha256": "d8f94c2ac1cba34ff5903986c3fab525917897db2fb50f62619a357af8ae2207",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000301",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "General MIDI n'est pas un orchestre de 47 percussionnistes (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Ancrage et provenance.** [MTE 2115 à l'UdeM](https://admission.umontreal.ca/cours-et-horaires/cours/mte-2115/) atteste mélanges de familles, orchestrations d'accords, contrepoint, homophonie et basses, mais pas un module spécifique sur la",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-2115.md",
+          "document_sha256": "57c59351a0f9022673b56d1782f7023a7fac8dc58c535b6ddaabf8a3bdcfa49f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a0cfa8d7697ae56fb79fb0db",
+            "heading_path": [
+              "MTE 2115 — Orchestration 2",
+              "General MIDI n'est pas un orchestre de 47 percussionnistes (17 novembre 2026)"
+            ],
+            "start_line": 87,
+            "end_line": 98,
+            "subtree_end_line": 98
+          },
+          "content_sha256": "93e32749aa00b80ac2024ba885fadf1fa29a8405dd5d37436cabe0ef280dd469",
+          "body_sha256": "17f0716fdf562af32f2a1721bb83aff2d576caaeb6144e72b6a912992a9b41d6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000302",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "La grosse caisse et la basse jouent ensemble, ou se répondent — analyse contrôlée (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Ancrage.** Le [cours d'orchestration MTE-2115](https://admission.umontreal.ca/cours-et-horaires/cours/mte-2115/) traite **rôles et répartition des voix, mélodie, accompagnement, basse, mélanges instrumentaux**. La [leçon 10 du cours Berkl",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-2115.md",
+          "document_sha256": "57c59351a0f9022673b56d1782f7023a7fac8dc58c535b6ddaabf8a3bdcfa49f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0a9cc59bf20f06783a11e405",
+            "heading_path": [
+              "MTE 2115 — Orchestration 2",
+              "La grosse caisse et la basse jouent ensemble, ou se répondent — analyse contrôlée (17 novembre 2026)"
+            ],
+            "start_line": 99,
+            "end_line": 117,
+            "subtree_end_line": 117
+          },
+          "content_sha256": "00e05cc039cbbf7fa6b9225340844a2f6c9bfcdce669589806519ac6ee4957dd",
+          "body_sha256": "8a2f4f96cdcd0936ea6347a2ff20b5d41948c5a0d1aa9fe45ad57f7ad1aee98d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000303",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Une fonction orchestrale peut passer d'un instrumentiste à l'autre sans changer de motif (17 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source réellement attribuable.** [MTE-2115, Orchestration 2, UdeM](https://admission.umontreal.ca/cours-et-horaires/cours/mte-2115/) traite de l'orchestration des voix, de la basse, des familles instrumentales et des textures. Les **nouve",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-2115.md",
+          "document_sha256": "57c59351a0f9022673b56d1782f7023a7fac8dc58c535b6ddaabf8a3bdcfa49f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:cb507e24cd7813219c5c836d",
+            "heading_path": [
+              "MTE 2115 — Orchestration 2",
+              "Une fonction orchestrale peut passer d'un instrumentiste à l'autre sans changer de motif (17 novembre 2026)"
+            ],
+            "start_line": 118,
+            "end_line": 131,
+            "subtree_end_line": 131
+          },
+          "content_sha256": "731abd1bfdcb4033f3b52ef50d4aef418877ab2d291ff94e3b72ea5a86d7b6f5",
+          "body_sha256": "73e98dd5f9de37421bb7eb20ac8b0ade4788dfea16eda4d627c6e9c5d74dacca",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

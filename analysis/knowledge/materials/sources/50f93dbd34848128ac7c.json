@@ -1,0 +1,40 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-mcgill-18-related-music-technology-courses.md",
+  "units": [
+    {
+      "id": "material:0004136",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "McGill — 18 cours complémentaires de technologie, cognition et production musicale",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026 · expansion documentaire des spécialisations voisines.** Pages individuelles du [catalogue McGill 2026–2027](https://coursecatalogue.mcgill.ca/en/), vérifiées code par code. Ce lot est **hors des 386 entrées du B.Mus. Com",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-18-related-music-technology-courses.md",
+          "document_sha256": "0d85ae799a2edda169ba8fdd09f9a912694f52c56230f1ac99eb51a360cc006e",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:bf260cfdb80d2bd891163404",
+            "heading_path": [
+              "McGill — 18 cours complémentaires de technologie, cognition et production musicale"
+            ],
+            "start_line": 1,
+            "end_line": 26,
+            "subtree_end_line": 26
+          },
+          "content_sha256": "0d85ae799a2edda169ba8fdd09f9a912694f52c56230f1ac99eb51a360cc006e",
+          "body_sha256": "a48f408ae76688bbba99c0cefa53d1100471fba0beb75dd87194ea0bc1c98195",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

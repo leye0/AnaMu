@@ -1,0 +1,3973 @@
+{
+  "source_document": "docs/data/remaining-115-course-evidence-queue-2026.json",
+  "units": [
+    {
+      "id": "material:0006798",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "schema_version",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/schema_version",
+            "json_pointer": "/schema_version",
+            "record_identity": null
+          },
+          "content_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006799",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "as_of",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/as_of",
+            "json_pointer": "/as_of",
+            "record_identity": null
+          },
+          "content_sha256": "4e9c38edd9fe3c0bdf16b4dad77c1241b1d98163621b9ba96a81c39308d39a58",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006800",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "baseline_total",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/baseline_total",
+            "json_pointer": "/baseline_total",
+            "record_identity": null
+          },
+          "content_sha256": "15a26c6fa5151c712acc7ee45a1fd525ab85b801f096847c7d5fdf49efeabb4d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006801",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "usable_first_pass",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/usable_first_pass",
+            "json_pointer": "/usable_first_pass",
+            "record_identity": null
+          },
+          "content_sha256": "4be84111a613654b362415e563cb7607df7b203b5d303802a8a546061bbc7847",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006802",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "partial",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/partial",
+            "json_pointer": "/partial",
+            "record_identity": null
+          },
+          "content_sha256": "28dae7c8bde2f3ca608f86d0e16a214dee74c74bee011cdfdd46bc04b655bc14",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006803",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "unresolved_pool",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/unresolved_pool",
+            "json_pointer": "/unresolved_pool",
+            "record_identity": null
+          },
+          "content_sha256": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006804",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "catalog_only",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/historical_partial_states/catalog_only",
+            "json_pointer": "/historical_partial_states/catalog_only",
+            "record_identity": null
+          },
+          "content_sha256": "69f59c273b6e669ac32a6dd5e1b2cb63333d8b004f9696447aee2d422ce63763",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006805",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "partially_documented",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/historical_partial_states/partially_documented",
+            "json_pointer": "/historical_partial_states/partially_documented",
+            "record_identity": null
+          },
+          "content_sha256": "b7a56873cd771f2c446d369b649430b65a756ba278ff97ec81bb6f55b2e73569",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006806",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "P0",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/priority_count/P0",
+            "json_pointer": "/priority_count/P0",
+            "record_identity": null
+          },
+          "content_sha256": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006807",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "P1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/priority_count/P1",
+            "json_pointer": "/priority_count/P1",
+            "record_identity": null
+          },
+          "content_sha256": "535fa30d7e25dd8a49f1536779734ec8286108d115da5045d77f3b4185d8f790",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006808",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "P2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/priority_count/P2",
+            "json_pointer": "/priority_count/P2",
+            "record_identity": null
+          },
+          "content_sha256": "98a3ab7c340e8a033e7b37b6ef9428751581760af67bbab2b9e05d4964a8874a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006809",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "P3",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/priority_count/P3",
+            "json_pointer": "/priority_count/P3",
+            "record_identity": null
+          },
+          "content_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006810",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MHIS-251",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/0",
+            "json_pointer": "/records/0",
+            "record_identity": null
+          },
+          "content_sha256": "48561e35ccce0c577b8ae008b202448cdf116a0cad739c7e2e245c7c2c8f0e7c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006811",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MHIS-252",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/1",
+            "json_pointer": "/records/1",
+            "record_identity": null
+          },
+          "content_sha256": "69b130a8e08b1ee229e97e7e33841187bd2a2800d286c3242fad86dcdd0e3667",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006812",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUCO 575",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/2",
+            "json_pointer": "/records/2",
+            "record_identity": null
+          },
+          "content_sha256": "5610a81d1f20996c829795adc557b6a37ac95c3ddf96b3f5a762964cb938ffd7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006813",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUTH 322",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/3",
+            "json_pointer": "/records/3",
+            "record_identity": null
+          },
+          "content_sha256": "0a224bc3763aa029a35a8af93e5ed688e2b9a35ac3d9ae4ff4c77a772b101bb5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006814",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "EMU 1310",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/4",
+            "json_pointer": "/records/4",
+            "record_identity": null
+          },
+          "content_sha256": "77ac1b0d648cedc91d46de9975a9d31d610f890ed32a2e750e8d388c77f97334",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006815",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "EMU 2312",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/5",
+            "json_pointer": "/records/5",
+            "record_identity": null
+          },
+          "content_sha256": "69cf368aa45f9f29ea373dda31da9b7037902f960bcd42a3fb908304d387e199",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006816",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MTE 1205",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/6",
+            "json_pointer": "/records/6",
+            "record_identity": null
+          },
+          "content_sha256": "afbd3d0566bd9513cd66b2d11657bc8d5425a9fe40a07908dd06045617118cad",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006817",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MTE 1503",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/7",
+            "json_pointer": "/records/7",
+            "record_identity": null
+          },
+          "content_sha256": "0b45f44e52bcde3bd691d6c4d66e9417d02074273d5f4d692cf7d8389355810b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006818",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUL 1116",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/8",
+            "json_pointer": "/records/8",
+            "record_identity": null
+          },
+          "content_sha256": "493c95c6808e569aa496cb74e8f840f38029dd2771469bec0641a2b11dea14c6",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006819",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUL 1117",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/9",
+            "json_pointer": "/records/9",
+            "record_identity": null
+          },
+          "content_sha256": "66c421a4d01d2a5d050f33f536f9e5940ee4f17e828ac06fe3f4c36c31066a06",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006820",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "COND-311",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/10",
+            "json_pointer": "/records/10",
+            "record_identity": null
+          },
+          "content_sha256": "3a136469829a6a26e096845c9f603e702cfbc17553aaf82597b672c66daff03c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006821",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MLAN-375",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/11",
+            "json_pointer": "/records/11",
+            "record_identity": null
+          },
+          "content_sha256": "7ec3d664728faae16c18d41acdf298be75a1dbbeb768d1cfa6ecded64987603b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006822",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MLAN-381",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/12",
+            "json_pointer": "/records/12",
+            "record_identity": null
+          },
+          "content_sha256": "d1e5939c93a0c2168bb44d2c178fc333338539d1892530f89e002b4af834fdcd",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006823",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUCO 440D1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/13",
+            "json_pointer": "/records/13",
+            "record_identity": null
+          },
+          "content_sha256": "68ec0933be1aa6ffd854571cce7ea635dbe704c00de18978f97b31a07d02e920",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006824",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUCO 440D2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/14",
+            "json_pointer": "/records/14",
+            "record_identity": null
+          },
+          "content_sha256": "1ae7b52b08149b6889c75627e944f4fc7f084386ea483f23a5a46ce5ed78bbfd",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006825",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUPD 235",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/15",
+            "json_pointer": "/records/15",
+            "record_identity": null
+          },
+          "content_sha256": "bac2563d267edca892e32dea0d07fc7babf2a3497aeba56f2b9bf468153dbbd3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006826",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MCT 1601",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/16",
+            "json_pointer": "/records/16",
+            "record_identity": null
+          },
+          "content_sha256": "5735057181f00d2009f7afc3afde962a5043c62b0ac0b534e335f4f1ee39dea0",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006827",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MCT 1602",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/17",
+            "json_pointer": "/records/17",
+            "record_identity": null
+          },
+          "content_sha256": "0844df80936554b8784d10591f8da5702031229477a4d9c191835d7df288fe82",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006828",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MCT 1603",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/18",
+            "json_pointer": "/records/18",
+            "record_identity": null
+          },
+          "content_sha256": "91d22b780830d1f9fd65ea3b54865e20924b835b8659dc801712f14dadc9be0e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006829",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MCT 1604",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/19",
+            "json_pointer": "/records/19",
+            "record_identity": null
+          },
+          "content_sha256": "ab893c8501b748b874924e66fa7535b26cb4fdef6cc81a945db0dc3bf3b4fad1",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006830",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MCT 1701",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/20",
+            "json_pointer": "/records/20",
+            "record_identity": null
+          },
+          "content_sha256": "91cc6bc888cac6bfb96cb79344fef159ff8d113b677840d412d69a8541180c92",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006831",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MCT 1702",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/21",
+            "json_pointer": "/records/21",
+            "record_identity": null
+          },
+          "content_sha256": "6d31d9f7a632cabd40191285d0395fe7e530fe0bb1b9172402ff2ecc600357ce",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006832",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MCT 1801",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/22",
+            "json_pointer": "/records/22",
+            "record_identity": null
+          },
+          "content_sha256": "40124b0995ac71881684c03116a75e9f8b46573a73daa6dd40ef0b7952d790c0",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006833",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MCT 1802",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/23",
+            "json_pointer": "/records/23",
+            "record_identity": null
+          },
+          "content_sha256": "1897449c120ad56aed34bafa39633de7fb85a0a9b0a5e7782c25d1ba1deb164d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006834",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUS 1011",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/24",
+            "json_pointer": "/records/24",
+            "record_identity": null
+          },
+          "content_sha256": "6222a15c7cebd356a3d9b7be5731cd3268dcd1546b9629eb4c4949c5297f2c42",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006835",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUS 1012",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/25",
+            "json_pointer": "/records/25",
+            "record_identity": null
+          },
+          "content_sha256": "23fa02d0a647ea944ee92083fdd934ef0a7fa1c5c3349ec26bade68919331273",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006836",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUS 1013",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/26",
+            "json_pointer": "/records/26",
+            "record_identity": null
+          },
+          "content_sha256": "6eededa4b1d2e7aebab0560b87813190148ab8e71f1199a88be448f9e609e383",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006837",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUS 1014",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/27",
+            "json_pointer": "/records/27",
+            "record_identity": null
+          },
+          "content_sha256": "e37653f255c140a8dfdac2c0a0ae48e518e6692c52bba2abc3fe3aa88f92d193",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006838",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUS 1015",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/28",
+            "json_pointer": "/records/28",
+            "record_identity": null
+          },
+          "content_sha256": "f9ee035986930655dbcb1458d223795c2ec5f6d861cc2ee18448b04b308e5a32",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006839",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUS 1016",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/29",
+            "json_pointer": "/records/29",
+            "record_identity": null
+          },
+          "content_sha256": "85cc2f490f312a4faf1d11ca708a018b01a7bbae7904ac8b00b1cadfc9a2867e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006840",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUS 1232",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/30",
+            "json_pointer": "/records/30",
+            "record_identity": null
+          },
+          "content_sha256": "d4a6e3348daa55ea15737560bac731b67266fff0f4149845d8144776bcd7058c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006841",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUS 4101",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/31",
+            "json_pointer": "/records/31",
+            "record_identity": null
+          },
+          "content_sha256": "542031521c961a15b7b1ebfb861619a832ce483fd9149c7742fc431974662165",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006842",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUS 4102",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/32",
+            "json_pointer": "/records/32",
+            "record_identity": null
+          },
+          "content_sha256": "29da8c88e68013181b4b569a750eb0b956613005d5891281e5bdfe8cfebdb1f6",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006843",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "CM-280",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/33",
+            "json_pointer": "/records/33",
+            "record_identity": null
+          },
+          "content_sha256": "884442c8c7a95f24942149a18455f2a7713ffe5afcc7e84b8bd64c5fc8990f97",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006844",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "CM-360",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/34",
+            "json_pointer": "/records/34",
+            "record_identity": null
+          },
+          "content_sha256": "86da0f8c752d0aa9382125c8f646507655bced29f22146c18a8523e68c1c4b33",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006845",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUEN 592",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/35",
+            "json_pointer": "/records/35",
+            "record_identity": null
+          },
+          "content_sha256": "a920a39a774b2db4149dda0b05d53f422876b64c903d8c5a23ae543ff5705a05",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006846",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUIN 180",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/36",
+            "json_pointer": "/records/36",
+            "record_identity": null
+          },
+          "content_sha256": "14ff0dd240275207ee66661607d21dd979e3918634bdc25f32537c42fa4d8920",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006847",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUIN 181",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/37",
+            "json_pointer": "/records/37",
+            "record_identity": null
+          },
+          "content_sha256": "0d5a5bdcf04815242d30f1a35dc05f8d06a9d33221e9b8ab11a45f727301021f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006848",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUIN 280",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/38",
+            "json_pointer": "/records/38",
+            "record_identity": null
+          },
+          "content_sha256": "03f3297a6c106ea8c37aed7bbde233e9094f7869a59cb22c7ac036790b38a296",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006849",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUIN 281",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/39",
+            "json_pointer": "/records/39",
+            "record_identity": null
+          },
+          "content_sha256": "05697e3a3ae79ee51db1f635a55a416d87023bc2c136fdfd519135cd65571c7e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006850",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1151",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/40",
+            "json_pointer": "/records/40",
+            "record_identity": null
+          },
+          "content_sha256": "f38ff8a75b511f920f43efaa7da3cb5ce7bf4958bb14f022a113a65245648648",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006851",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1152",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/41",
+            "json_pointer": "/records/41",
+            "record_identity": null
+          },
+          "content_sha256": "438cb3a712e495aa112cc48a7a4c7ab40f9d4eb1caaefa2adeb465747cbf5ac5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006852",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1153",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/42",
+            "json_pointer": "/records/42",
+            "record_identity": null
+          },
+          "content_sha256": "28528753191878651267d0711f963ac76fa222a444d6476661e1fe3e2c7e9803",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006853",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1162",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/43",
+            "json_pointer": "/records/43",
+            "record_identity": null
+          },
+          "content_sha256": "627b27402cb5e4bdb2f392c45fb70465b2ed96fc9a536c48a4e50a4189d46286",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006854",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1171",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/44",
+            "json_pointer": "/records/44",
+            "record_identity": null
+          },
+          "content_sha256": "22839f7f6a0fad3ebc6536ea255eb8955d3281dbdb75d80cf29e9cc14e4c22a6",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006855",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1172",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/45",
+            "json_pointer": "/records/45",
+            "record_identity": null
+          },
+          "content_sha256": "2f5c572b26aeabdfffbf05ef3136be14b3153c45187537bb7eaaad82bdf14262",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006856",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1173",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/46",
+            "json_pointer": "/records/46",
+            "record_identity": null
+          },
+          "content_sha256": "43c4d553fe5c6d92143e31e8bd80f05fb684a04485bd6ee113fa69bfe251a689",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006857",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1191",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/47",
+            "json_pointer": "/records/47",
+            "record_identity": null
+          },
+          "content_sha256": "bfad2a105c79a25ff0702c043dfe69423a69235f693b186cc701076dd63285cf",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006858",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1192",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/48",
+            "json_pointer": "/records/48",
+            "record_identity": null
+          },
+          "content_sha256": "08130991a2d999ac434d46d4736eeff4e2543132101ff239b4963c2f236d33b2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006859",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1193",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/49",
+            "json_pointer": "/records/49",
+            "record_identity": null
+          },
+          "content_sha256": "f05433cd776c7a3ae2a9bbd0636e34c144ee1e51874c08acc3b3e265b918c002",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006860",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1221",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/50",
+            "json_pointer": "/records/50",
+            "record_identity": null
+          },
+          "content_sha256": "cace2648da8dbbdd03a572a58eb33f12fb5ce800c7aaac259c2961f22169b77e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006861",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1222",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/51",
+            "json_pointer": "/records/51",
+            "record_identity": null
+          },
+          "content_sha256": "4a6c9c5e9f3f44d317615b60976029ae2572750ecb6c484ae7776ad060a0ee44",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006862",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1223",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/52",
+            "json_pointer": "/records/52",
+            "record_identity": null
+          },
+          "content_sha256": "22697ad0e8b8413744fc0bdab8038895460a871d9fd3ce4466dd00dfd8ece620",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006863",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1231",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/53",
+            "json_pointer": "/records/53",
+            "record_identity": null
+          },
+          "content_sha256": "8ba23c91612b152f8cf83c9c5788342a07b914d0d7253570ea1ab7bf001d79e9",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006864",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1232",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/54",
+            "json_pointer": "/records/54",
+            "record_identity": null
+          },
+          "content_sha256": "f5f0b60bed422a20f32ac5f8c177f2eb90e2b7369b50adb4de5680500223e0fa",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006865",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1233",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/55",
+            "json_pointer": "/records/55",
+            "record_identity": null
+          },
+          "content_sha256": "32d7b44ce41cfb0e28733dd1036a93782e90f600f0a5f182915f3be895942844",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006866",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1251",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/56",
+            "json_pointer": "/records/56",
+            "record_identity": null
+          },
+          "content_sha256": "f80f531a3faf17d9b8fade0d026bc60f9a4a0911fb2dc1cf94238129d908d5fc",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006867",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1252",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/57",
+            "json_pointer": "/records/57",
+            "record_identity": null
+          },
+          "content_sha256": "1a6d93e69da76d4ae015d3c904eb46c212c14f3a52859e56c8f3e77a3f6f77a1",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006868",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1253",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/58",
+            "json_pointer": "/records/58",
+            "record_identity": null
+          },
+          "content_sha256": "66bf110905de709caecd853f1aaa4fefe2afb51aa1a14ab4b72aa9d7725fdf5e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006869",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1261",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/59",
+            "json_pointer": "/records/59",
+            "record_identity": null
+          },
+          "content_sha256": "0392e8f8b587b9603647fc9f48e5bdac0a4e24137c9a957feeb4405abdd2bd50",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006870",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1262",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/60",
+            "json_pointer": "/records/60",
+            "record_identity": null
+          },
+          "content_sha256": "3ba68b3458dc7332f297be250bbc56ab3842c6e4bd298516a7a391ee7edc3b43",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006871",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1263",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/61",
+            "json_pointer": "/records/61",
+            "record_identity": null
+          },
+          "content_sha256": "19970b92a9a9f7b6089ef98ec85a955babaa0a6fcf26483ed09a9095a782e9ec",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006872",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1271",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/62",
+            "json_pointer": "/records/62",
+            "record_identity": null
+          },
+          "content_sha256": "0f68d76705054fed218cbb8095670f676e96f899de50592d4904da5fb756bad5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006873",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1272",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/63",
+            "json_pointer": "/records/63",
+            "record_identity": null
+          },
+          "content_sha256": "5f97a3cb2636c7afa6609bb347ddd886e8a612e12c5707a10ccd090416fc5326",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006874",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1273",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/64",
+            "json_pointer": "/records/64",
+            "record_identity": null
+          },
+          "content_sha256": "a268fb0d532bb29dba2b5b03c1b292581c74046c00463b9d43ddac7caf9e7ab5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006875",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1361",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/65",
+            "json_pointer": "/records/65",
+            "record_identity": null
+          },
+          "content_sha256": "81989ddba538c068e3a1b6eab82ce6909e484ec59c5c62308fbee37e6e8d03f4",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006876",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1362",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/66",
+            "json_pointer": "/records/66",
+            "record_identity": null
+          },
+          "content_sha256": "efa196103b06462b7a45d13c1dc3809c8e15fc7e51780898fe8ce6fb895f9cf1",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006877",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1363",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/67",
+            "json_pointer": "/records/67",
+            "record_identity": null
+          },
+          "content_sha256": "aac103da0ac6235a1933b1be6ebebed035042cacfa1ef5f0912508d9a6b164fc",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006878",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1381",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/68",
+            "json_pointer": "/records/68",
+            "record_identity": null
+          },
+          "content_sha256": "0292eb8125b4a8e0ac10b1f26998839a771cf02c7b945a272d3728fba3f4fb90",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006879",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1382",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/69",
+            "json_pointer": "/records/69",
+            "record_identity": null
+          },
+          "content_sha256": "c2b54ef93a7b347ea2c7f843b40e42572cdde2898e20a939313016fca5e0b003",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006880",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1383",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/70",
+            "json_pointer": "/records/70",
+            "record_identity": null
+          },
+          "content_sha256": "ef78121c8631b97de1632ea8506940a2b9663cf6b4caab1765adb91963801987",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006881",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1431",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/71",
+            "json_pointer": "/records/71",
+            "record_identity": null
+          },
+          "content_sha256": "f74c95d6f7fac373f132310f950bc98ec9b61af4e9c8a329cf4b428dafa10ee3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006882",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1491",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/72",
+            "json_pointer": "/records/72",
+            "record_identity": null
+          },
+          "content_sha256": "28231604fc3966c2b216f7ddc248cba84306b336be1e98e41fdd3685c3d0a296",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006883",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1492",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/73",
+            "json_pointer": "/records/73",
+            "record_identity": null
+          },
+          "content_sha256": "edf09b5f04438947d9da44de0d8b3860ce607fcdbac6bbbcf96bac166733bafd",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006884",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUE 1493",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/74",
+            "json_pointer": "/records/74",
+            "record_identity": null
+          },
+          "content_sha256": "daabae19b552b70523bb30dd46e70638d1bdf7f1c639f21f06be1389ac47d8ca",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006885",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1023A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/75",
+            "json_pointer": "/records/75",
+            "record_identity": null
+          },
+          "content_sha256": "d161f9af7c5938171997fa1069e46d5f36c4215823e6e73f8b588760b6f23720",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006886",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1033A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/76",
+            "json_pointer": "/records/76",
+            "record_identity": null
+          },
+          "content_sha256": "4a204b1945c0e094b682af08672e4818857ccfc78b659b6e17dbfee392c4bca9",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006887",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1043A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/77",
+            "json_pointer": "/records/77",
+            "record_identity": null
+          },
+          "content_sha256": "981d66e33b5515772cfe9cb5e1cc2a0dfcc5421068c729015f4914fcd2df601e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006888",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1053A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/78",
+            "json_pointer": "/records/78",
+            "record_identity": null
+          },
+          "content_sha256": "683a3223e519d55d351eb47686c25a2a33fc7a68cc3af7cb83d5cd14c945b78f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006889",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1073A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/79",
+            "json_pointer": "/records/79",
+            "record_identity": null
+          },
+          "content_sha256": "ac9da0846b3d0f38b2cbe59b09391d993df761eabce73058c0331a867ad3b399",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006890",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1083A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/80",
+            "json_pointer": "/records/80",
+            "record_identity": null
+          },
+          "content_sha256": "b488f396ec93c74b78823d440524e3bc34efc258c62b3216936a00e8154415db",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006891",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1103A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/81",
+            "json_pointer": "/records/81",
+            "record_identity": null
+          },
+          "content_sha256": "bfefa7ab8f064f5d16856bda18296029215cb18f462bb635713db7061bc2f252",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006892",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1123A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/82",
+            "json_pointer": "/records/82",
+            "record_identity": null
+          },
+          "content_sha256": "9ffc6ea51bef071459d32730245f3f49ca5872aae7b17070744e6eec62ab83e3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006893",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1132A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/83",
+            "json_pointer": "/records/83",
+            "record_identity": null
+          },
+          "content_sha256": "7375ecb89b120efdd7e5b4f3e5ce78ede4d9921e7ed983d6d4fc82b5de300db2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006894",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1143A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/84",
+            "json_pointer": "/records/84",
+            "record_identity": null
+          },
+          "content_sha256": "fad35d649297bdc59f842f53af31f324a72d29e1759c7cb095a3900e91725c9f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006895",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1153A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/85",
+            "json_pointer": "/records/85",
+            "record_identity": null
+          },
+          "content_sha256": "cf23e0b6e1cf271ff75f2dcd37317c5672726ef8f0352b331879820934071deb",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006896",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1173A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/86",
+            "json_pointer": "/records/86",
+            "record_identity": null
+          },
+          "content_sha256": "5477f9f96e2de62151d237b489b538cff53d2e50cd8776865ac4559f22ac4914",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006897",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1183A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/87",
+            "json_pointer": "/records/87",
+            "record_identity": null
+          },
+          "content_sha256": "41494e9096074a1f6b129558fe83ab9ec26b47e8288615de3a5c9eb816f48fe2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006898",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1193A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/88",
+            "json_pointer": "/records/88",
+            "record_identity": null
+          },
+          "content_sha256": "9d198597de39625364c622b1eee9a2295222874bf26adadde6d11e3167d43475",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006899",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1203A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/89",
+            "json_pointer": "/records/89",
+            "record_identity": null
+          },
+          "content_sha256": "a80f30f47260d55d9a3099d1110ae764ce62acf9787e40a62e262d7735984098",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006900",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1213A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/90",
+            "json_pointer": "/records/90",
+            "record_identity": null
+          },
+          "content_sha256": "65754fbcb883c6f35e27697749612cafaf43b14ba44233cfe19cbb9112e83c3d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006901",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1223A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/91",
+            "json_pointer": "/records/91",
+            "record_identity": null
+          },
+          "content_sha256": "4c66a2069b4a23c69f39dd232a2ae057ea4a172b4906fd1fb57c131dd6ca2cfa",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006902",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1233A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/92",
+            "json_pointer": "/records/92",
+            "record_identity": null
+          },
+          "content_sha256": "183b28c35382c5a45452e4cf3c2e10b0e8c7eb40c662821ee5a40c128fd9b095",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006903",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1243A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/93",
+            "json_pointer": "/records/93",
+            "record_identity": null
+          },
+          "content_sha256": "f855ea9a1e7595fb4ef773083bff1b26df7a08fda3b5aee8b6bf9e30284b2de8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006904",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1253A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/94",
+            "json_pointer": "/records/94",
+            "record_identity": null
+          },
+          "content_sha256": "aa8b739b8165c1044627eaee91f59693246f41d4748c8d7ac1ebd434c0c5b416",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006905",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1263A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/95",
+            "json_pointer": "/records/95",
+            "record_identity": null
+          },
+          "content_sha256": "352e6185cce4c215732d891414d1e9ab6d9c048a15ec305659ac160195585a2b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006906",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1273A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/96",
+            "json_pointer": "/records/96",
+            "record_identity": null
+          },
+          "content_sha256": "c5e651bfab8cbab551c2c4c94c94958f304c33b8be65d556c8d0e9aeab0fde4c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006907",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1283A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/97",
+            "json_pointer": "/records/97",
+            "record_identity": null
+          },
+          "content_sha256": "2d95e998f7861483944fb58c78f81296d435c34bf324e23dc95c906c4f29f392",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006908",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1293A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/98",
+            "json_pointer": "/records/98",
+            "record_identity": null
+          },
+          "content_sha256": "33ff2e6fb183071bad4109cbb7ff4d4f8200bce29b6208e53b64b8bc820e9152",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006909",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1303A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/99",
+            "json_pointer": "/records/99",
+            "record_identity": null
+          },
+          "content_sha256": "567b3bbbcf59857bc01800e92d474f7ffed2e65511dfc53eda052fe0d34011b8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006910",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1313A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/100",
+            "json_pointer": "/records/100",
+            "record_identity": null
+          },
+          "content_sha256": "4311f81c09c9d751132aec469de0fe877ed54535ad11be903c8549bcdc0994bc",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006911",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1403A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/101",
+            "json_pointer": "/records/101",
+            "record_identity": null
+          },
+          "content_sha256": "efaeb761ca9549a77189dd78b4c35d3116eca0743570af0272902d9e9ace09b2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006912",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1413A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/102",
+            "json_pointer": "/records/102",
+            "record_identity": null
+          },
+          "content_sha256": "e9d3a7662bc8a3d111edcf5e97060edab8b7fbce174091ae9d711508d72175cd",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006913",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1423A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/103",
+            "json_pointer": "/records/103",
+            "record_identity": null
+          },
+          "content_sha256": "3cd0d6e233a6f088266ffdfe9f26a80dc8758ec8cbe203fb2ff6d4f9432c8fce",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006914",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1453A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/104",
+            "json_pointer": "/records/104",
+            "record_identity": null
+          },
+          "content_sha256": "80fdc9fd867ed74f2855ff4a559f680fa56779c5c31106bb0e7c81f4b8ede7f6",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006915",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1463A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/105",
+            "json_pointer": "/records/105",
+            "record_identity": null
+          },
+          "content_sha256": "7017c0a397617b02acddbf3f83f3dd9eb5e22c63e65909aa5f229fd8c294e353",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006916",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1473A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/106",
+            "json_pointer": "/records/106",
+            "record_identity": null
+          },
+          "content_sha256": "78a77fdaaf6e6766abeda37a5ec8d00ae2bbe60d68f565d183d59fe0ec74f9f9",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006917",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1483A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/107",
+            "json_pointer": "/records/107",
+            "record_identity": null
+          },
+          "content_sha256": "ff3ea292812c8f334186330360f25c5c3102be8305c493dcb83f09bce9dd8849",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006918",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1523A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/108",
+            "json_pointer": "/records/108",
+            "record_identity": null
+          },
+          "content_sha256": "99902d438f66254cb055fc42065ba221e9618a8f5aeab08ad9586ea5d9f43252",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006919",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUI 1533A",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/109",
+            "json_pointer": "/records/109",
+            "record_identity": null
+          },
+          "content_sha256": "f0ea1ea838994b9e86f2169b136e76b1c065fb023eca1381cceeab250dbb6be2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006920",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUS 3411",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/110",
+            "json_pointer": "/records/110",
+            "record_identity": null
+          },
+          "content_sha256": "87cd432fe5c3bd12e1854b97b285ac494681e7a353ab5bff75291489d657f2a5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006921",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "MUS 3412",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/111",
+            "json_pointer": "/records/111",
+            "record_identity": null
+          },
+          "content_sha256": "699be9fa50f1f43560777e0a53b971bf83e412887783f69807d04d66065f0092",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006922",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "CM-495",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/112",
+            "json_pointer": "/records/112",
+            "record_identity": null
+          },
+          "content_sha256": "a843d909e80002590cf3a7c1f312654f9939481d53bbe6daa48920741e8c81b4",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006923",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "CM-499",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/113",
+            "json_pointer": "/records/113",
+            "record_identity": null
+          },
+          "content_sha256": "4c7ebffa556bf7a0dd9b7b3f7a424e2f43a0dba05fec296410ceeb36c1369a98",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006924",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "PLU 2800U",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/114",
+            "json_pointer": "/records/114",
+            "record_identity": null
+          },
+          "content_sha256": "81004a8336effd2439392cd3b559d9cc844e0e159f90f49c58ef35bb52fc032b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006925",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "last_update",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/remaining-115-course-evidence-queue-2026.json",
+          "document_sha256": "98d86afc891e731d33af28584873a9dc03e3241e3f0a339a4ec2489637206c24",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/last_update",
+            "json_pointer": "/last_update",
+            "record_identity": null
+          },
+          "content_sha256": "46dc3c0171f40c394ec9eec603151cd344682c60affc2a05c127881454157d5f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

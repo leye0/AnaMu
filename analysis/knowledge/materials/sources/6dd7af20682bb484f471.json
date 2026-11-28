@@ -1,0 +1,76 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-udem-mediation-publics-2-real-plans.md",
+  "units": [
+    {
+      "id": "material:0004334",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "UdeM — deux plans de recherche en médiation et publics de la musique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026, acquisition de matière de première passe.** Deux plans primaires UdeM auparavant non cartographiés ont été retrouvés : [MUL 6265 H22](https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/MUL6265_Medi",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-mediation-publics-2-real-plans.md",
+          "document_sha256": "f11f40a4e4271d0ca480d89c1c35784b496a03e89e16f9797197caeeb6e9e6c2",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:cd01041ff533fd176b3228c9",
+            "heading_path": [
+              "UdeM — deux plans de recherche en médiation et publics de la musique"
+            ],
+            "start_line": 1,
+            "end_line": 9,
+            "subtree_end_line": 14
+          },
+          "content_sha256": "3b2c298cbf541d17bc338b5b75a9d3d5bc77d458b7cfc760e6d225e1d4c11ff5",
+          "body_sha256": "f67b032f182b7d930addb38e081dc15705d534d7a7f367120dfb822d5ed484be",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004335",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Distinction des ateliers du registre principal",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [MUS 4101](https://admission.umontreal.ca/cours-et-horaires/cours/mus-4101/) : travail de préparation et de présentation d'un **concert-conférence destiné à un jeune public**. Les choix musicaux, la forme et le public précis restent propr",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-udem-mediation-publics-2-real-plans.md",
+          "document_sha256": "f11f40a4e4271d0ca480d89c1c35784b496a03e89e16f9797197caeeb6e9e6c2",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5ea7c0c629ec9af353829bd8",
+            "heading_path": [
+              "UdeM — deux plans de recherche en médiation et publics de la musique",
+              "Distinction des ateliers du registre principal"
+            ],
+            "start_line": 10,
+            "end_line": 14,
+            "subtree_end_line": 14
+          },
+          "content_sha256": "fc668037d25d8861932ea5de733ee14cc487fffd9c98856c97878115efb14d6e",
+          "body_sha256": "ec7430a1a56b75240d843c754a188d67eddb2f80a8be8b700a170e8e87ecc963",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

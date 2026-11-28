@@ -1,0 +1,1028 @@
+{
+  "source_document": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+  "units": [
+    {
+      "id": "material:0006400",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "schema_version",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/schema_version",
+            "json_pointer": "/schema_version",
+            "record_identity": null
+          },
+          "content_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006401",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "as_of",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/as_of",
+            "json_pointer": "/as_of",
+            "record_identity": null
+          },
+          "content_sha256": "4c1af8026a01d92e31d8a4a5dde381aba8e8edf55a92e1558fd0fc73359b0866",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006402",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "current_as_of",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/current_as_of",
+            "json_pointer": "/current_as_of",
+            "record_identity": null
+          },
+          "content_sha256": "4e9c38edd9fe3c0bdf16b4dad77c1241b1d98163621b9ba96a81c39308d39a58",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006403",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "main_registry_unchanged",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/main_registry_unchanged",
+            "json_pointer": "/main_registry_unchanged",
+            "record_identity": null
+          },
+          "content_sha256": "15a26c6fa5151c712acc7ee45a1fd525ab85b801f096847c7d5fdf49efeabb4d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006404",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_policy",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/source_policy",
+            "json_pointer": "/source_policy",
+            "record_identity": null
+          },
+          "content_sha256": "8c750c9af426d05c6baed08ebf2ba785eab8ae6d8d8c65331d720c33b281ee7b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006405",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "notes",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/notes",
+            "json_pointer": "/notes",
+            "record_identity": null
+          },
+          "content_sha256": "03e651a18e744ed0814f038cfddca0c0828f25f337e6c11675fe7b346be68f78",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006406",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Jazz Vocal Workshop",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/0",
+            "json_pointer": "/records/0",
+            "record_identity": null
+          },
+          "content_sha256": "913f8707d3c245a10a05f1d564320e04c620714c6c25e654a9a12d6ecb68c8e3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006407",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Cappella Antica",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/1",
+            "json_pointer": "/records/1",
+            "record_identity": null
+          },
+          "content_sha256": "bc2efaff2ebf4f370850642c841fa3140b5f7648d92720b964183a23e061704c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006408",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Baroque Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/2",
+            "json_pointer": "/records/2",
+            "record_identity": null
+          },
+          "content_sha256": "03d0161e565c5c250fed4971d910977827b56ff5b74386a5788324b8482281f3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006409",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "McGill Wind Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/3",
+            "json_pointer": "/records/3",
+            "record_identity": null
+          },
+          "content_sha256": "d077d22768cc4b8568e9c44fe6eb79cfd291fd4e3c58cfa4241959011b3cb998",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006410",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Chamber Jazz Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/4",
+            "json_pointer": "/records/4",
+            "record_identity": null
+          },
+          "content_sha256": "eed047d69a4485be3e249f8a1e35f7ba43ab1e5b2e9ea8445b6e286dc9f497d9",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006411",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Choral Ensembles",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/5",
+            "json_pointer": "/records/5",
+            "record_identity": null
+          },
+          "content_sha256": "b4bdabf7524094658598c68eed90d48d2ed5046dc62abf62f356918045d92d50",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006412",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Contemporary Music Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/6",
+            "json_pointer": "/records/6",
+            "record_identity": null
+          },
+          "content_sha256": "cce32b8d2ddfeb50a24e75f628fb63271d263b0d73c0ac9e386e293c1488f0a4",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006413",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Jazz Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/7",
+            "json_pointer": "/records/7",
+            "record_identity": null
+          },
+          "content_sha256": "b808f0fd7575122b51afd861021b77a1719a67d25e4d5e250f0904582d8c5a6c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006414",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "McGill Symphony Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/8",
+            "json_pointer": "/records/8",
+            "record_identity": null
+          },
+          "content_sha256": "64e8f4db01a05862756ab6fa192da9844fb51292c9eda310a9822cca357f01be",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006415",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Intro to Collaborative Piano 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/9",
+            "json_pointer": "/records/9",
+            "record_identity": null
+          },
+          "content_sha256": "9d3657d5c17581acb6a9b4d99f06183f210904eab13327497b4706a44aaac966",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006416",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Intro to Collaborative Piano 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/10",
+            "json_pointer": "/records/10",
+            "record_identity": null
+          },
+          "content_sha256": "23bc9f25262a5fcb35c24774dba0c45db03dbf3093ffee21de0e8032e263a06b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006417",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Chamber Music Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/11",
+            "json_pointer": "/records/11",
+            "record_identity": null
+          },
+          "content_sha256": "b32b8c343e3ce7bd277249d57d748ea3ba1e10af801af210156ece39e5f602c8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006418",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Guitar Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/12",
+            "json_pointer": "/records/12",
+            "record_identity": null
+          },
+          "content_sha256": "0250277a9958b79c684a77d01d02e84ad766c41f243d3628a78169bc6705b234",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006419",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Beethoven Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/13",
+            "json_pointer": "/records/13",
+            "record_identity": null
+          },
+          "content_sha256": "54d413e81a04959f455254648930d7f92dd84864411f02aa554decb90fcdfd67",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006420",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Drum Set Foundation / Viola for Violinist",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/14",
+            "json_pointer": "/records/14",
+            "record_identity": null
+          },
+          "content_sha256": "f801e2d8e49526d5d81fb041a39e1ceaa810896fbfa8a617d7dd7cde9e166df1",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006421",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Drum Set Foundation 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/15",
+            "json_pointer": "/records/15",
+            "record_identity": null
+          },
+          "content_sha256": "da9f3fa33492117cac56cba383643c4809b5094caa1f20dc454d5da7611959bb",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006422",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Tabla Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/16",
+            "json_pointer": "/records/16",
+            "record_identity": null
+          },
+          "content_sha256": "84cdd8ff8cb819e58a97693db970094c6f1d6e96f22e91803ade8198d8663584",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006423",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Jazz Combo",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/17",
+            "json_pointer": "/records/17",
+            "record_identity": null
+          },
+          "content_sha256": "1a9b131dba1ea6e3e4471a41b8ff99ecff78e532dd8fed15eabd6bc6c7622bc8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006424",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Jazz Combo Project",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/18",
+            "json_pointer": "/records/18",
+            "record_identity": null
+          },
+          "content_sha256": "695acc55b5d7b24ba5c86b3019cd157f504b98929d9fed09e74fe334ffca58ad",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006425",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Afro-Cuban/Brazilian Jazz Combo",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/19",
+            "json_pointer": "/records/19",
+            "record_identity": null
+          },
+          "content_sha256": "efc254e1afefbc7788d4826a8697505d935bd22fa0e50fd6e1136b22e0d7c5d6",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006426",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Song Interpretation 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/20",
+            "json_pointer": "/records/20",
+            "record_identity": null
+          },
+          "content_sha256": "f15e2c2e853050035f8db6eaba44b55d406e7f0998629c016be1942aecee691f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006427",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Song Interpretation 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/21",
+            "json_pointer": "/records/21",
+            "record_identity": null
+          },
+          "content_sha256": "2c166a78025d1de57a25cfce3cd6777d13e91d6c020c3415c95eba37ad121356",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006428",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Early Music Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/22",
+            "json_pointer": "/records/22",
+            "record_identity": null
+          },
+          "content_sha256": "fe342795610115d6bb4bcd3eabacd217700b6bdf5b6248210c06a4e452e02345",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006429",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Intro to Ensemble Playing for Pianists",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/23",
+            "json_pointer": "/records/23",
+            "record_identity": null
+          },
+          "content_sha256": "943b55b51ed6a379fa8e2e23e02d395e1242619e83a94247425ebd4cc74ed87d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006430",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Piano Ensembles",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/24",
+            "json_pointer": "/records/24",
+            "record_identity": null
+          },
+          "content_sha256": "3f0f1457837baa05f7738137018627d4ee597ca6f5dea04b08040db943611741",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006431",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Sonata Masterclass",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/25",
+            "json_pointer": "/records/25",
+            "record_identity": null
+          },
+          "content_sha256": "3109978955ff0bca1bf620001fa4859e98b2f26a61e8fda5e2bdeb1a8645d204",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006432",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Percussion Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/mcgill-ensemble-course-candidates-2026-27.json",
+          "document_sha256": "40948752053e4b743fefeaaf6608f33f681ee3f5219f9b8fc0634a771bb7bcd4",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/26",
+            "json_pointer": "/records/26",
+            "record_identity": null
+          },
+          "content_sha256": "5a3cb901c9e2ddcfead211e0333ad9c10f639013612d0d90e9612b42117ce4f8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

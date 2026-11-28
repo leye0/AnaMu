@@ -1,0 +1,295 @@
+{
+  "source_document": "docs/courses/udem/MUS-3101X.md",
+  "units": [
+    {
+      "id": "material:0003189",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 3101X — Composition spectrale et algorithmique 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3101X.md",
+          "document_sha256": "757da5a56e3cf35c155a34d5299bdcc61156290f2e67d315edd9e4e18bb3935c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0d5e4d69879a2210699c9965",
+            "heading_path": [
+              "MUS 3101X — Composition spectrale et algorithmique 1"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 47
+          },
+          "content_sha256": "0d7fb6d03afcce2ec39879fab9ee1884341d369e5aa3c4c86a4612fde1fc0119",
+          "body_sha256": "89120b9aa38472ffe8ca15a1dc4a095f790f8898ef0242352ecf4ed61d7a6460",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003190",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Cours recensé",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Obligatoire A26. Travaux pratiques de composition assistée pour des démarches instrumentales ou mixtes. La liste facultaire 2025–2026 identifie l’offre H26 et Pierre Michaud. [Source institutionnelle](https://musique.umontreal.ca/fileadmin/",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3101X.md",
+          "document_sha256": "757da5a56e3cf35c155a34d5299bdcc61156290f2e67d315edd9e4e18bb3935c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b0a826ee70cde9dda1458e4a",
+            "heading_path": [
+              "MUS 3101X — Composition spectrale et algorithmique 1",
+              "Cours recensé"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 8
+          },
+          "content_sha256": "4388489a0261909740ca1e1e1c0eb67138ed142bf9ed90d7a399b50fcb806e43",
+          "body_sha256": "32a9789181fb4f899000bbe7d5b3f3ddf2f855fe59563e6bee27c653076f525e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003191",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Support pédagogique comparable",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le manuel de l’IRCAM présente un exemple d’accord ou d’arpège spectral dans OMChroma. L’exemple documente une manière de convertir un matériau spectral en hauteurs musicales. L’usage de ce logiciel ou de cet exercice dans MUS 3101X reste à",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3101X.md",
+          "document_sha256": "757da5a56e3cf35c155a34d5299bdcc61156290f2e67d315edd9e4e18bb3935c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:56e58bc70831030c9932f67b",
+            "heading_path": [
+              "MUS 3101X — Composition spectrale et algorithmique 1",
+              "Support pédagogique comparable"
+            ],
+            "start_line": 9,
+            "end_line": 12,
+            "subtree_end_line": 12
+          },
+          "content_sha256": "036b76cad4cf73786b2aa08bbc73bdbb81040df0d0d83df51462a2d2c1042c56",
+          "body_sha256": "1ac59e511f9eedb4224ab13be3fdbdafc6b14476b9c51ddbdf021a90344e6db1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003192",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le support comparable a sa propre provenance. Le plan de section, le répertoire, les consignes détaillées et les barèmes du cours recensé restent à obtenir.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3101X.md",
+          "document_sha256": "757da5a56e3cf35c155a34d5299bdcc61156290f2e67d315edd9e4e18bb3935c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5af400e1f3c7b9277303cd38",
+            "heading_path": [
+              "MUS 3101X — Composition spectrale et algorithmique 1",
+              "Lacunes"
+            ],
+            "start_line": 13,
+            "end_line": 17,
+            "subtree_end_line": 17
+          },
+          "content_sha256": "cf4cd062742b0cd8d218acac54e7ef9bbc1979d55327f45f0d37f5dfa815b1c0",
+          "body_sha256": "3b48afd5db8bbc1af54f0bc5745918d45d30d375a0a8ee62a685c03ff58aebd9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003193",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — vérification des supports (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Apport :** directe par composition assistée et relations spectre/hauteurs. **Preuve :** [offre UdeM H26 en composition spectrale et algorithmique; le manuel IRCAM OMChroma est un support comparable, pas une consigne UdeM](https://musique.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3101X.md",
+          "document_sha256": "757da5a56e3cf35c155a34d5299bdcc61156290f2e67d315edd9e4e18bb3935c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2e9c47f877d9c72ba28de93e",
+            "heading_path": [
+              "MUS 3101X — Composition spectrale et algorithmique 1",
+              "Application à l'analyse et à la création — vérification des supports (12 novembre 2026)"
+            ],
+            "start_line": 18,
+            "end_line": 21,
+            "subtree_end_line": 47
+          },
+          "content_sha256": "76645fe7456463b10dd0690b4189b9cb18e4c8295ce8fe52c0bdbc1a5dba7c97",
+          "body_sha256": "bbf6324fb63fc2616b7049e8b142c06a684fabaabe420d633098f08755ae94bc",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003194",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Domaine 1 — Analyse de partiels et accord spectral",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source et classification :** compétence annoncée dans la notice ou méthodologie conditionnelle explicitée; `AUDIO_REQUIRED / MIDI_PROXY / CONTEXT_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3101X.md",
+          "document_sha256": "757da5a56e3cf35c155a34d5299bdcc61156290f2e67d315edd9e4e18bb3935c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:73c1c0a6bb3b5a7e21f6bc05",
+            "heading_path": [
+              "MUS 3101X — Composition spectrale et algorithmique 1",
+              "Application à l'analyse et à la création — vérification des supports (12 novembre 2026)",
+              "Domaine 1 — Analyse de partiels et accord spectral"
+            ],
+            "start_line": 22,
+            "end_line": 31,
+            "subtree_end_line": 31
+          },
+          "content_sha256": "440c6f8dd3266353ce08f609057f8d53fe85af80d3eb43b095f16421b22da270",
+          "body_sha256": "664e64674fb6b8380ecd8d6ea9a4b9e627c71438df1c8cdbc69a783991606d2b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003195",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Domaine 2 — Transformation algorithmique de matériel musical",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source et classification :** compétence annoncée dans la notice ou méthodologie conditionnelle explicitée; `CONTEXT_REQUIRED / MIDI_PROXY`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3101X.md",
+          "document_sha256": "757da5a56e3cf35c155a34d5299bdcc61156290f2e67d315edd9e4e18bb3935c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7dd39d7bd9404f9604162d53",
+            "heading_path": [
+              "MUS 3101X — Composition spectrale et algorithmique 1",
+              "Application à l'analyse et à la création — vérification des supports (12 novembre 2026)",
+              "Domaine 2 — Transformation algorithmique de matériel musical"
+            ],
+            "start_line": 32,
+            "end_line": 41,
+            "subtree_end_line": 41
+          },
+          "content_sha256": "ad0369ed289a31063cd52c9658adf8ead822d56d43fd0494e7f9f1c098d5a2ae",
+          "body_sha256": "6534d3f9f986568766f7c751783e847905291886f28ea5374cdc7caa262789ea",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003196",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Contribution :** directe par composition assistée et relations spectre/hauteurs; `non_algorithmique=false` (`null` indique que le contenu précis manque).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-3101X.md",
+          "document_sha256": "757da5a56e3cf35c155a34d5299bdcc61156290f2e67d315edd9e4e18bb3935c",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c1d6657b5db38b7171377744",
+            "heading_path": [
+              "MUS 3101X — Composition spectrale et algorithmique 1",
+              "Application à l'analyse et à la création — vérification des supports (12 novembre 2026)",
+              "Verdict"
+            ],
+            "start_line": 42,
+            "end_line": 47,
+            "subtree_end_line": 47
+          },
+          "content_sha256": "23c277c3e9806848b62f867fbce7d26461adc1803c038a326502752fe47cd376",
+          "body_sha256": "957f8a0f4e1632dddd2b20a88717789969a5861407bf158519db026f4c24859b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

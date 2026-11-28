@@ -1,0 +1,222 @@
+{
+  "source_document": "docs/courses/udem/MUS-4103.md",
+  "units": [
+    {
+      "id": "material:0003290",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 4103 — Atelier d'enregistrement audionumérique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : UdeM, B. Mus. Composition A26, bloc optionnel 75G, 1 crédit, offre A26. Recherche du 11 novembre 2026. **Statut partiel : plan pédagogique parallèle, pas syllabus UdeM.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-4103.md",
+          "document_sha256": "8005a48892cb87e5a5bb46b644f1939b5c0c3b27f19deb037bdcf406c65559a9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9b862aef089e3a279f13962e",
+            "heading_path": [
+              "MUS 4103 — Atelier d'enregistrement audionumérique"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 42
+          },
+          "content_sha256": "b31f551eb3b8f74c398a44ecac95dcdba03de2ea50788d3072381c894fce88b6",
+          "body_sha256": "117bcc687986e6addfe7ca3f6197d40fe7256790424abfb1c2d5d97fa2077865",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003291",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Liens vers la matière et portée",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Notice officielle MUS 4103](https://admission.umontreal.ca/cours-et-horaires/cours/mus-4103/) : techniques annoncées de choix/placement de microphones, échantillonnage, résolution, conversion analogique-numérique, mixage et matriçage. **",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-4103.md",
+          "document_sha256": "8005a48892cb87e5a5bb46b644f1939b5c0c3b27f19deb037bdcf406c65559a9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b4d6636b7da667422ebe2b5a",
+            "heading_path": [
+              "MUS 4103 — Atelier d'enregistrement audionumérique",
+              "Liens vers la matière et portée"
+            ],
+            "start_line": 5,
+            "end_line": 11,
+            "subtree_end_line": 11
+          },
+          "content_sha256": "814350f4e7af5b8338e5eee2d72646f94e86319caccef0d15b833b5a5a073e82",
+          "body_sha256": "3eeabafbdbb9b59d938acbb65c2159121302f2da935d8cffeeb3b92d5a59f66a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003292",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Matière accessible et limites",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Les cours Berklee détaillent l'analyse des transducteurs, du signal et du placement micro, avec progression à la leçon. Ils ne prouvent pas quels appareils, exercices de prise de son, projets livrables, normes d'export ou évaluations sont u",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-4103.md",
+          "document_sha256": "8005a48892cb87e5a5bb46b644f1939b5c0c3b27f19deb037bdcf406c65559a9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:57ca42025b27229090e9f2cd",
+            "heading_path": [
+              "MUS 4103 — Atelier d'enregistrement audionumérique",
+              "Matière accessible et limites"
+            ],
+            "start_line": 12,
+            "end_line": 17,
+            "subtree_end_line": 17
+          },
+          "content_sha256": "55fb234111ead5fa0a187c0cf731b5fc8bea39c52419cea1bd1a0b327cdcb241",
+          "body_sha256": "a07a63512d89739a56a77cf39076c6f073981448990fb1d2987b6eb160876f91",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003293",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — première évaluation (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Périmètre :** apprentissage(s) explicitement mentionné(s) dans les sources déjà citées plus haut. **Apport :** directe. **Couverture :** partielle, non exhaustive du syllabus ni des objectifs de la section. Les procédures suivantes sont d",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-4103.md",
+          "document_sha256": "8005a48892cb87e5a5bb46b644f1939b5c0c3b27f19deb037bdcf406c65559a9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:11cc2eba29ecdb8efa7244ce",
+            "heading_path": [
+              "MUS 4103 — Atelier d'enregistrement audionumérique",
+              "Application à l'analyse et à la création — première évaluation (12 novembre 2026)"
+            ],
+            "start_line": 18,
+            "end_line": 21,
+            "subtree_end_line": 42
+          },
+          "content_sha256": "92b4f511d5ca0441a0ee4f4451cb8bf8991963e5be72667bc5ce2d97955094c1",
+          "body_sha256": "ccf3a3622568c382c90e30978baa69d906b8322c91d95e24672718d0fa84d694",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003294",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 1 — Captation par microphones et conversion audionumérique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve du cours :** Notice UdeM A26 : choix/placement des microphones, échantillonnage, résolution et conversion analogique-numérique. Les leçons Berklee sont seulement parallèles.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-4103.md",
+          "document_sha256": "8005a48892cb87e5a5bb46b644f1939b5c0c3b27f19deb037bdcf406c65559a9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0b355fe19e440ac27226c38c",
+            "heading_path": [
+              "MUS 4103 — Atelier d'enregistrement audionumérique",
+              "Application à l'analyse et à la création — première évaluation (12 novembre 2026)",
+              "Apprentissage 1 — Captation par microphones et conversion audionumérique"
+            ],
+            "start_line": 22,
+            "end_line": 31,
+            "subtree_end_line": 31
+          },
+          "content_sha256": "5f86feaf429e56af9ec440c20c44aaea0b4f0eaf836bcdbe60740f574bc34d07",
+          "body_sha256": "129d4c72bdc252a7383863ce53fe355a1b8aac0091f412ca78080fcee28c0fec",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003295",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict du cours",
+      "title_origin": "source_heading_or_key",
+      "description": "Titre ou passage sans description éditoriale vérifiée.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MUS-4103.md",
+          "document_sha256": "8005a48892cb87e5a5bb46b644f1939b5c0c3b27f19deb037bdcf406c65559a9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5d11b35c4b123f4a50a5e86b",
+            "heading_path": [
+              "MUS 4103 — Atelier d'enregistrement audionumérique",
+              "Application à l'analyse et à la création — première évaluation (12 novembre 2026)",
+              "Verdict du cours"
+            ],
+            "start_line": 32,
+            "end_line": 42,
+            "subtree_end_line": 42
+          },
+          "content_sha256": "8be5e0e4e884dc782acf45989268e012676024192d871d307ec14dcde8476d69",
+          "body_sha256": "3db1d67c38d5f948600cf787cfa6e8309b14124aebfcc3e2341d971bba31b7c5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

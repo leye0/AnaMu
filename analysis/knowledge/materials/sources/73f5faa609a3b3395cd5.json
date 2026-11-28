@@ -1,0 +1,2596 @@
+{
+  "source_document": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+  "units": [
+    {
+      "id": "material:0003917",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cours SOL 1017 hors musique retiré.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:124137df6a4a75f52f0980b2",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)"
+            ],
+            "start_line": 1,
+            "end_line": 8,
+            "subtree_end_line": 766
+          },
+          "content_sha256": "b6f7758e04c7496bf78f172f644b5f7b04f799b999881a79c5592a22742d69e8",
+          "body_sha256": "c08d7b9d35113495c73974d5be816eaa1a3c52c6ff192f17c381af8d88f52f4c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003918",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MCT 3011 — Composition tonale 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75A · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MCT-3011.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9761ea91c429957736472217",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MCT 3011 — Composition tonale 1"
+            ],
+            "start_line": 9,
+            "end_line": 18,
+            "subtree_end_line": 18
+          },
+          "content_sha256": "df39bf88d50feadb5a7565bead84a764dea82fba3f30b866c94a2a6adb36ab10",
+          "body_sha256": "60b16089127c8a53f63d6e2448882c16f1c5d2c71a1a0ac8bfe4143ffd3b52ac",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003919",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MCT 3012 — Composition tonale 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75A · Carte 1A : partial.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MCT-3012.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5234c874f2e677b315d7143b",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MCT 3012 — Composition tonale 2"
+            ],
+            "start_line": 19,
+            "end_line": 28,
+            "subtree_end_line": 28
+          },
+          "content_sha256": "ebc104ca22c22791f05bfb94371a4b342564b5f7d72c0f0b5bc2fe90b20e917b",
+          "body_sha256": "247fc2d9f6ec4c44ddc758cd2fce07d4fd031e83bc4092c53d252ef7e5fa0cb9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003920",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 1110 — Contrepoint 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75A · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-1110.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a812cce7f09b70e2250cd716",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 1110 — Contrepoint 1"
+            ],
+            "start_line": 29,
+            "end_line": 38,
+            "subtree_end_line": 38
+          },
+          "content_sha256": "99ee52dcf79ded8031f211e8d9385ba1166244cfa78cf8750c55374a70404c36",
+          "body_sha256": "8c1f8b48d05eac033db109db51d465e70515e0af2f45cb217edb062300ff0bc0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003921",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 1111 — Contrepoint 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75A · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-1111.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7605d7a47a27e46590b4ec88",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 1111 — Contrepoint 2"
+            ],
+            "start_line": 39,
+            "end_line": 49,
+            "subtree_end_line": 49
+          },
+          "content_sha256": "b15e27102302f92f2c147c73472920e9b2d2a7821821995e87e832522e64cae1",
+          "body_sha256": "6d3a65b839d946b46a8cbcfd996bd8a881e8adda4d7d98d121f918846af226b4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003922",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 1205 — Analyse d'oeuvres du 20e siècle 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75A · Carte 1A : partial.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-1205.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b3fb126a569721fd87dd46bb",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 1205 — Analyse d'oeuvres du 20e siècle 1"
+            ],
+            "start_line": 50,
+            "end_line": 59,
+            "subtree_end_line": 59
+          },
+          "content_sha256": "58150ccd4688f4eff26ed8509e51a0c2300eef544e11b2d1c93eb2d9d34c2652",
+          "body_sha256": "57b820b23dc91edc1f2a71e13b00ed6bea9cc58980a8e3274f385cbcf2950ebc",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003923",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 1206 — Analyse d'oeuvres du 20e siècle 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75A · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-1206.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7ffc2872823d88de0afe04cd",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 1206 — Analyse d'oeuvres du 20e siècle 2"
+            ],
+            "start_line": 60,
+            "end_line": 70,
+            "subtree_end_line": 70
+          },
+          "content_sha256": "64dcc239b69d2afaedff28996bfac580de55ab62afcd68adda4981b86f73098a",
+          "body_sha256": "f520c5bb826430dcc0c3cf9e1309df74f863d6db31b5d684b91cc2f57b956bf3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003924",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 1220 — Harmonie 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75A · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-1220.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:eedab6cd6069865c37fcfe38",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 1220 — Harmonie 1"
+            ],
+            "start_line": 71,
+            "end_line": 81,
+            "subtree_end_line": 81
+          },
+          "content_sha256": "34be8e80ca1277bf807c18b52f41f20c51d088dc0a4dd0cd7023fd1a63f1b3d8",
+          "body_sha256": "e699a3d27a813dad4d577eb0813b8b7725d4afe39b6c5efd40f19e327ab8b7a5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003925",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 1221 — Harmonie 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75A · Carte 1A : partial.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-1221.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7b333f48e8598748ca75ba1c",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 1221 — Harmonie 2"
+            ],
+            "start_line": 82,
+            "end_line": 91,
+            "subtree_end_line": 91
+          },
+          "content_sha256": "ecd68ad9db3d6664fe403f07b7a2a1066d5b71b11453258fb36a9f627773aac0",
+          "body_sha256": "6ce2475ed92d96d64825cddf44f97ac5b135491fa2d66f5a9201cbf9cffdcc8d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003926",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 1403 — Composition contemporaine 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75A · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-1403.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:cc243ad6671c12377a7631fb",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 1403 — Composition contemporaine 1"
+            ],
+            "start_line": 92,
+            "end_line": 104,
+            "subtree_end_line": 104
+          },
+          "content_sha256": "d4b38dd176a5410cc66305b71bcd8822f1bf0c5ae904ee4262b4d05207bf5e13",
+          "body_sha256": "552b146a7032ccfa3bc6b12e6c1b347b54c954351ab803aa4336f2d71ee2f136",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003927",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 1404 — Composition contemporaine 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75A · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-1404.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:874822ad79864d3bb6e224b1",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 1404 — Composition contemporaine 2"
+            ],
+            "start_line": 105,
+            "end_line": 116,
+            "subtree_end_line": 116
+          },
+          "content_sha256": "9fc01e328a572e410f4dd048329fe37f53d13fcdaed0f93ced85aad2c98d2f95",
+          "body_sha256": "c0beee5218a98af661a307668d09770fdf4a616cb3303b26509660f2b48ab451",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003928",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 1503 — Composition électroacoustique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75A · Carte 1A : partial.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-1503.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:cae184f1cef97367f28698d0",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 1503 — Composition électroacoustique"
+            ],
+            "start_line": 117,
+            "end_line": 127,
+            "subtree_end_line": 127
+          },
+          "content_sha256": "93efff13d15011cd0e871e09d61c7efb34c9401db12029b074861da730e9800f",
+          "body_sha256": "08487197137c8cfde8aae185421e65d172138be2d0e87976ea65fe9f9ba3982e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003929",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 2114 — Orchestration 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75A · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-2114.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0f7ef74a3fd1a342b38c708c",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 2114 — Orchestration 1"
+            ],
+            "start_line": 128,
+            "end_line": 139,
+            "subtree_end_line": 139
+          },
+          "content_sha256": "57b6c77099d2df3eba7725a5301856a77d477602bb4a5e3bc88985b3028ef13e",
+          "body_sha256": "3a191b62c10c88a223e1dee78b8008fba10b1ccc80c01d8fbfd8a1c5b44da9ae",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003930",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 2115 — Orchestration 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75A · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-2115.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ecfa4db2be488762d60bfa01",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 2115 — Orchestration 2"
+            ],
+            "start_line": 140,
+            "end_line": 149,
+            "subtree_end_line": 149
+          },
+          "content_sha256": "1ea45c6cf95317d0461789eff0cea21e6cd3ccb9097b0ae6f9497a98fcf76cad",
+          "body_sha256": "88c588e6c08b9c32dcb86055fe00424fc2e8f1bc63f9705806de36e25dc1fa7c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003931",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 1117 — Histoire de la musique contemporaine",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75A · Carte 1A : partial.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUL-1117.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:eb6125ba6a769998c31a3108",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUL 1117 — Histoire de la musique contemporaine"
+            ],
+            "start_line": 150,
+            "end_line": 159,
+            "subtree_end_line": 159
+          },
+          "content_sha256": "cd3309b26e110306928a2e7cdbb68a36bb55f5a911e8b945e8688d8d8e134a81",
+          "body_sha256": "f5c7529076e4003a1520d35e90d40631cae639c51e3efc87fe0890c90f7ce82d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003932",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 1300 — Acoustique musicale",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75A · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-1300.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0c73c81994cbec972a05c426",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 1300 — Acoustique musicale"
+            ],
+            "start_line": 160,
+            "end_line": 170,
+            "subtree_end_line": 170
+          },
+          "content_sha256": "632140b25d5e1ccf727b2b68b6995782201b337f98a2a0b940258a7a93a2d7ec",
+          "body_sha256": "187bee56933c4cd4efe181be8d6092151bff56e3938c8b881c6acc9c462a798a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003933",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 1321 — Analyse, synthèse et traitement des sons",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75A · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-1321.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8f3e23c5b47be62f41338da0",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 1321 — Analyse, synthèse et traitement des sons"
+            ],
+            "start_line": 171,
+            "end_line": 181,
+            "subtree_end_line": 181
+          },
+          "content_sha256": "d455021acb33cdd52c96c7dbd10b95b7230f078ef93c21dadb511f05313cd8d4",
+          "body_sha256": "7a3a6f211f3c6f64c6f3b7b77bc70893871f4e912c471fd1d67d5886584fe4ef",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003934",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 3101X — Composition spectrale et algorithmique 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75A · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-3101X.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:aa313692928f37e8dc312df2",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 3101X — Composition spectrale et algorithmique 1"
+            ],
+            "start_line": 182,
+            "end_line": 192,
+            "subtree_end_line": 192
+          },
+          "content_sha256": "7178da44f346abf7097f670f35d83f7129c1e27d9e0821da8852ced97142b4e1",
+          "body_sha256": "4f153fa97129d50b3dc9adfb010193d343e8c3b9a5f7f4a27f2244335f6cea38",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003935",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 3324X — Création musicale en langage graphique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75A · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-3324X.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3316fceddabcb39f7e2c8945",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 3324X — Création musicale en langage graphique"
+            ],
+            "start_line": 193,
+            "end_line": 204,
+            "subtree_end_line": 204
+          },
+          "content_sha256": "cb2dfe6ac715a9ceb4a36b561ebe78d87e51b85924497c21988c5dafa62bd91e",
+          "body_sha256": "fd9afe2fd72a81b8fc5023c771b94808148967f552c5a07da458d1a7056e1bcd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003936",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 3411 — Forum de composition 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75A · Carte 1A : partial.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-3411.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:25f6dd6f82cf27a8e5add482",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 3411 — Forum de composition 1"
+            ],
+            "start_line": 205,
+            "end_line": 214,
+            "subtree_end_line": 214
+          },
+          "content_sha256": "4779a154322d342cfa0c5a6819d94c3d98425bb378883d3a65c76d36b1ee5ef9",
+          "body_sha256": "58632426db965d0b4f1faa6a56531f76f227557140809f3724e23dc807884374",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003937",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 3412 — Forum de composition 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75A · Carte 1A : partial.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-3412.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a6f1133667130598a46f90f4",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 3412 — Forum de composition 2"
+            ],
+            "start_line": 215,
+            "end_line": 224,
+            "subtree_end_line": 224
+          },
+          "content_sha256": "8944c4f8d349185ea7df512d74e4372f7976cc64e975468a275a7072c72d440e",
+          "body_sha256": "9db29cafd0514f49e47d473763fefe04711ed4b8ee15c1753f767469e94d0ff9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003938",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 1105 — Histoire de la musique baroque",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75D · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUL-1105.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3936c91571eab1825f0055b7",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUL 1105 — Histoire de la musique baroque"
+            ],
+            "start_line": 225,
+            "end_line": 234,
+            "subtree_end_line": 234
+          },
+          "content_sha256": "bc4759b9fd20d3db153b1b700cea1e43648b26e4d656108e7eae508d24a7be8c",
+          "body_sha256": "343282e9659d64745db1fce57ccb8067f1350d2cb9987f531142b72b7ac44c7c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003939",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 1106 — Histoire de la musique classique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75D · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUL-1106.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8ea86cb232e9fff89856e9d1",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUL 1106 — Histoire de la musique classique"
+            ],
+            "start_line": 235,
+            "end_line": 244,
+            "subtree_end_line": 244
+          },
+          "content_sha256": "9f570f0b6f4493b461e7e88de4e9eb4db8e46bd2b91672fdc0503eb9d6606de5",
+          "body_sha256": "c123028a13c15f9742834fea388e2821bc272081e07540d3748c6ed1c3c3d9eb",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003940",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 1107 — Histoire de la musique romantique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75D · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUL-1107.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:aff3c15c062713c2945ac76f",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUL 1107 — Histoire de la musique romantique"
+            ],
+            "start_line": 245,
+            "end_line": 254,
+            "subtree_end_line": 254
+          },
+          "content_sha256": "348c6d47cd02ad14e84135efcfa84f3c4d83d9c0af241a08a5ea9be2703b3021",
+          "body_sha256": "fec18164e37fdcbbd1ea2beac8a77a2856238166f3d799c805ecbcacf6cc86fd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003941",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 1115 — Histoire de la musique du Moyen-Âge à la Renaissance",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75D · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUL-1115.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5c6f31ea16e31118522c06f8",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUL 1115 — Histoire de la musique du Moyen-Âge à la Renaissance"
+            ],
+            "start_line": 255,
+            "end_line": 264,
+            "subtree_end_line": 264
+          },
+          "content_sha256": "8c71c52cf4e14ec612ff3ba92a8f8d917f870c592a0228a821269befd987136d",
+          "body_sha256": "a16005a72b2779e13ca7f00dd0f329f64451515b41a985fef74e94c4ccd07992",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003942",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 1116 — Histoire de la musique moderne",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75D · Carte 1A : partial.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUL-1116.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a1912768dde5949df834941c",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUL 1116 — Histoire de la musique moderne"
+            ],
+            "start_line": 265,
+            "end_line": 274,
+            "subtree_end_line": 274
+          },
+          "content_sha256": "f9c72e607a6fba35989398b039669b2dd2f0c3019ef808fec7b953cbbea7107b",
+          "body_sha256": "4029b7c88de7a575958aecdec2a207b81f4784d7d0ac4f22b6c3aa9f289cd2e2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003943",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 1246 — Appréciation musicale des musiques du monde",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75D · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUL-1246.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b265ea451f99ac8ae36d49df",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUL 1246 — Appréciation musicale des musiques du monde"
+            ],
+            "start_line": 275,
+            "end_line": 285,
+            "subtree_end_line": 285
+          },
+          "content_sha256": "5107a522041f395bca0a0905adf4f06bdabbcf41e50cd9d3f96b3f2d704e9620",
+          "body_sha256": "f681592528204b88b4a59ec2fa271ecb26fa4c1cf001218fee164a33fa3a10c4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003944",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 2115 — Histoire et analyse du jazz - Origines",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75D · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUL-2115.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c755e0bc7f0797d3eb97815c",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUL 2115 — Histoire et analyse du jazz - Origines"
+            ],
+            "start_line": 286,
+            "end_line": 295,
+            "subtree_end_line": 295
+          },
+          "content_sha256": "11065ec1ffe58f98a057f429d8af3966809de6d8c70a79e69bd0d4676160d855",
+          "body_sha256": "cd54e375fb9d9a2705c65a885c4795d83f3c23fb5114916b5fc01877fde8f409",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003945",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 2116 — Histoire et analyse du jazz - 1930 à 1945",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75D · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUL-2116.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f9ba6349efa47dd87c8fefdc",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUL 2116 — Histoire et analyse du jazz - 1930 à 1945"
+            ],
+            "start_line": 296,
+            "end_line": 305,
+            "subtree_end_line": 305
+          },
+          "content_sha256": "e4980f0664a64c932d72840a31e9af807f238b0670f7ab77b5dc35c244604992",
+          "body_sha256": "7d231e337e656befe463304d1eb8edd463ac5291a83f8b0a1a6fd08857fd5edb",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003946",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 2117 — Histoire et analyse du jazz - 1940 à 1959",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75D · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUL-2117.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0b7ec39124fcc60c8cbf16ff",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUL 2117 — Histoire et analyse du jazz - 1940 à 1959"
+            ],
+            "start_line": 306,
+            "end_line": 315,
+            "subtree_end_line": 315
+          },
+          "content_sha256": "59143e26a3b26bbf9920b5fc6d105b7772020e3d676fcbffa4eeb11fe36efc75",
+          "body_sha256": "5707b48e1236f3471c2320b471b01824fb3ac4c40c2ace7b3a1db70a3a4063ef",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003947",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 2118 — Histoire et analyse du jazz de 1960 à aujourd'hui",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75D · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUL-2118.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:cf3ec34faa69a8d1d91f1e83",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUL 2118 — Histoire et analyse du jazz de 1960 à aujourd'hui"
+            ],
+            "start_line": 316,
+            "end_line": 325,
+            "subtree_end_line": 325
+          },
+          "content_sha256": "d6d3e57dab6ea72b83d560bb5faa4a4b73fb2ee1c5d51f63a2d4a52c68fb6c57",
+          "body_sha256": "a41d81d192dc6aaa758abd743dea1fe563bfcb52332d8ef329503db882662ba6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003948",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 3314 — Introduction à l'ethnomusicologie",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75D · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUL-3314.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:bc602e24e3cf1ff642d90729",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUL 3314 — Introduction à l'ethnomusicologie"
+            ],
+            "start_line": 326,
+            "end_line": 335,
+            "subtree_end_line": 335
+          },
+          "content_sha256": "c5790d827004fac7925e85bb37ec4ae599cf7a094eef94d135ada1789aa1344a",
+          "body_sha256": "2013ebf7d6069aa57a24e166e8b02dfedbeafc879a777d2f3dbcf8d38c9e3199",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003949",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 3333X — Courants historiques en musique, art et société",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75D · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUL-3333X.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f461a5de4147f8632461e8a1",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUL 3333X — Courants historiques en musique, art et société"
+            ],
+            "start_line": 336,
+            "end_line": 346,
+            "subtree_end_line": 346
+          },
+          "content_sha256": "8b75c0037ed8a85c8f63e017a95f9a3797a0fa4105d52222781ac34709334432",
+          "body_sha256": "123273486f846905cee0010a925b3ae9d2fe9eebeefd3a7408c69a541041dffb",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003950",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUL 3334 — Introduction à la sociomusicologie",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75D · Carte 1A : partial.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUL-3334.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f044807275c15de9c7c1c8fb",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUL 3334 — Introduction à la sociomusicologie"
+            ],
+            "start_line": 347,
+            "end_line": 356,
+            "subtree_end_line": 356
+          },
+          "content_sha256": "d136ae9f49d3f8911fd93baf96deddd846a02f1d262bc3eddcfb5595654584bc",
+          "body_sha256": "8bf72a8af47309b3c129ffa255e21447f9f2eea65a76dd01bc82d6209f0d940b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003951",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MCT 3511X — Techniques de composition pour l'image 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75E · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MCT-3511X.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:10ccbc00ce6373adf3446749",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MCT 3511X — Techniques de composition pour l'image 1"
+            ],
+            "start_line": 357,
+            "end_line": 368,
+            "subtree_end_line": 368
+          },
+          "content_sha256": "80e5b7285f8cdbbe51d98ab8a4fa665f5fa6350ab7b37f2b395c8e704db45134",
+          "body_sha256": "ae5a0a4cd1b53ea1a276a72a3c500d054522e4d3bd14f2b87ca15afb8d81b062",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003952",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MCT 3512X — Techniques de composition pour l'image 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75E · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MCT-3512X.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:65dd45f201d5ab4dc6c64232",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MCT 3512X — Techniques de composition pour l'image 2"
+            ],
+            "start_line": 369,
+            "end_line": 380,
+            "subtree_end_line": 380
+          },
+          "content_sha256": "af11bdabf4eb46e07b135fb57dbbc08cdcf175ab1e5b206cbe738b5b1619f70e",
+          "body_sha256": "4956172240c24bdf047f3dc5ad18c6c9342c98abeff5ae80007bc1d902560d40",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003953",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 12041 — Analyse du discours harmonique tonal 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75E · Carte 1A : partial.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-12041.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:58ad0ed147354a5eff600a0b",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 12041 — Analyse du discours harmonique tonal 1"
+            ],
+            "start_line": 381,
+            "end_line": 391,
+            "subtree_end_line": 391
+          },
+          "content_sha256": "ccbd62c197b667d492feff81db0335af76f8ba70e3224db104866c73419e5648",
+          "body_sha256": "cb3cfbbe98116df11d75b4f46fb7b65c8835b594550230b363b01e93774f00af",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003954",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 12042 — Analyse du discours harmonique tonal 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75E · Carte 1A : partial.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-12042.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3413ed865bdd92e90f9491cb",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 12042 — Analyse du discours harmonique tonal 2"
+            ],
+            "start_line": 392,
+            "end_line": 401,
+            "subtree_end_line": 401
+          },
+          "content_sha256": "0536b5ee5a1e45720f871690a2acf8f0037321b416ac5e22614772d80f7e719b",
+          "body_sha256": "8abd193b37e614b77dd284ace2e8c1e32fceaa748e15efc7255e640b83394e4b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003955",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 1315 — Harmonie jazz 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75E · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-1315.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:331ab2810747342ca511ab0b",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 1315 — Harmonie jazz 1"
+            ],
+            "start_line": 402,
+            "end_line": 413,
+            "subtree_end_line": 413
+          },
+          "content_sha256": "3182eec84b17bb60a97e073068ff7ff6f718bf86d08ee1edd355c76536869012",
+          "body_sha256": "18f1036c5c9f530cfbf0b1f2d5d66c9e6f6801b088e237f7454d0d2b48e2a8db",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003956",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 1316 — Harmonie jazz 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75E · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-1316.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f8f0bd2c44f49dc3428fc25d",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 1316 — Harmonie jazz 2"
+            ],
+            "start_line": 414,
+            "end_line": 423,
+            "subtree_end_line": 423
+          },
+          "content_sha256": "1bcd314bdb23102e0a741c55010f2a9f8a828ea89a3c12b6f6669ae45a7a8ebe",
+          "body_sha256": "d10c3322e6d704c879c6050c9dcb3e296b4b01e1254a0c4c5bba59ecd0beb69f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003957",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 2110 — Contrepoint 3",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75E · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-2110.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:00e511d1830ee458ee0dcf4b",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 2110 — Contrepoint 3"
+            ],
+            "start_line": 424,
+            "end_line": 434,
+            "subtree_end_line": 434
+          },
+          "content_sha256": "e78599730bb0ab3715a4a9c70e8cb05ade1ce5347c06df8baf7df71a37975475",
+          "body_sha256": "96655558438a1c0872ffcc1b751842398ab0779b37460cad9a35d650e6ac9aa6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003958",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 2111 — Contrepoint 4",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75E · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-2111.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2f58e1aa7c56646fd6a5b52e",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 2111 — Contrepoint 4"
+            ],
+            "start_line": 435,
+            "end_line": 445,
+            "subtree_end_line": 445
+          },
+          "content_sha256": "28682df863a4628b8c8eb972af562ed186363d2b228a9bfae030acb553befa0b",
+          "body_sha256": "260a77db4e4b7d3ae3b6db63302e1b4c34801b28c43b1b40745f2a4d0cff15d4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003959",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 2210 — Analyse musicale 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75E · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-2210.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:27cd2e9032b1d3afa0306768",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 2210 — Analyse musicale 1"
+            ],
+            "start_line": 446,
+            "end_line": 455,
+            "subtree_end_line": 455
+          },
+          "content_sha256": "160745428d83cb978b58438793c4fb24be1257c5e79707127a9e9c19439baa6b",
+          "body_sha256": "dc4b8c234b7e0111cccea239a6dfd2d7f06fcf6b2c742cac4898bb86d752701f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003960",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 2211 — Analyse musicale 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75E · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-2211.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e83c771baa2b457305d3215c",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 2211 — Analyse musicale 2"
+            ],
+            "start_line": 456,
+            "end_line": 467,
+            "subtree_end_line": 467
+          },
+          "content_sha256": "c78bcbad6cf7a7480cc20cd0ef0a74383c3762bb627e1861b0b364ac19a18b7e",
+          "body_sha256": "10d8f6cf347365624a6b183c630a67bceda4165f591b315f085f14a5acdb257f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003961",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 2315 — Arrangement jazz 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75E · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-2315.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:be5e29de838470da7216b0ed",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 2315 — Arrangement jazz 1"
+            ],
+            "start_line": 468,
+            "end_line": 479,
+            "subtree_end_line": 479
+          },
+          "content_sha256": "e74c836b8f0992be727b87a7049de6752715cf1bfd315f446ae5e91b7b0f5a97",
+          "body_sha256": "e02ea6fd0165d81becf4a3f2d4cc9869b6815cce21db10d5581f30c3c4969041",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003962",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 2316 — Arrangement jazz 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75E · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-2316.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b8ddd140a69b4370daf46256",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 2316 — Arrangement jazz 2"
+            ],
+            "start_line": 480,
+            "end_line": 490,
+            "subtree_end_line": 490
+          },
+          "content_sha256": "9f22994804837a8aa1333af7801c9c09781d00763ed154f1c29779f5fb2aa3ec",
+          "body_sha256": "a04808658d8eb2f71d1cbc68b6b13f14ad6ef3126a4fd86c27e83c2d4367dce9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003963",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 3114 — Orchestration 3",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75E · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-3114.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:62a314c7d4d7864fc8256aa1",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 3114 — Orchestration 3"
+            ],
+            "start_line": 491,
+            "end_line": 500,
+            "subtree_end_line": 500
+          },
+          "content_sha256": "305e25f1e6259ceb69b321bc5802473df9729cd832c9d63e1bb623313b0d0b41",
+          "body_sha256": "3a5ec7a83f3e53e6b0dabd9c40f2171593f17b7b66dd2387460589df6aeb03fc",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003964",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 3115 — Orchestration 4",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75E · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-3115.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4b9c5e59391db5d7d1fae76e",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 3115 — Orchestration 4"
+            ],
+            "start_line": 501,
+            "end_line": 510,
+            "subtree_end_line": 510
+          },
+          "content_sha256": "d079f1282e07ffc879e3f8a461e3602061217f722c57d7e4b6d282b466cf373d",
+          "body_sha256": "84aa9320738ac8e15b4df1ea543359d78db8dc40a63770c674679e287ec75c92",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003965",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 3115X — Orchestration 4",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75E · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-3115X.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4113da38fb38be7e0a0db573",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 3115X — Orchestration 4"
+            ],
+            "start_line": 511,
+            "end_line": 521,
+            "subtree_end_line": 521
+          },
+          "content_sha256": "5915459de55dfea03395786fa12cd6031647138a38783aa8494e4181a5cac3b6",
+          "body_sha256": "d47f5684d4f660b13f885b4f4f716e6c9b20e5647b5c31bfea6e8d0ae4e8c377",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003966",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 3321 — Psychoacoustique musicale",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75E · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-3321.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:923ce4d57c20f5f2e3dff9f9",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 3321 — Psychoacoustique musicale"
+            ],
+            "start_line": 522,
+            "end_line": 533,
+            "subtree_end_line": 533
+          },
+          "content_sha256": "8d0417d5b93bb3d4b6e5de7761a736b107ca5843a708f3e4f13b83dbe4581509",
+          "body_sha256": "f4adce7879bc559c4e5863bda65b400374d60a2ed86dd816e70407e037a65e7a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003967",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 3300 — Analyse de la musique électroacoustique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75F · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MTE-3300.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8ed45093683ab0e4c823fec5",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MTE 3300 — Analyse de la musique électroacoustique"
+            ],
+            "start_line": 534,
+            "end_line": 545,
+            "subtree_end_line": 545
+          },
+          "content_sha256": "8c934a35aaf07e9ac367c64376978f250a176a84829ca99d6ce491b94e547cf4",
+          "body_sha256": "64e4a5b5a75d82fb9ff4547c32ceb78a93c772b7a06cb1a836c7058eaf4fb67e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003968",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 1217 — Typologie et morphologie sonores",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75F · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-1217.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b3cec76c79e38262fec1c975",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 1217 — Typologie et morphologie sonores"
+            ],
+            "start_line": 546,
+            "end_line": 556,
+            "subtree_end_line": 556
+          },
+          "content_sha256": "0c72c7299b8a20b1b6be7e508d0fd2cd0612cde84d6f8b0aa2f30f4e6b0af99e",
+          "body_sha256": "7e938a0b7d796825c1e67d5dcc452a12f25127c193ef80a9196861be70be843a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003969",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 1330 — Enregistrement: fondements et techniques",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75F · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-1330.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2ed46a431a9729773282d1e1",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 1330 — Enregistrement: fondements et techniques"
+            ],
+            "start_line": 557,
+            "end_line": 566,
+            "subtree_end_line": 566
+          },
+          "content_sha256": "5084affc8db5d6f6951b40a08be316b59d45ea53f6f99d9105295e65735c8cff",
+          "body_sha256": "41b0eb65f36675c50c6017d7c92cb769349f8ac5124d495f04839f94defb77f9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003970",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 1331 — Enregistrement en studio et mixage",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75F · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-1331.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:bd2226d209b3f1bc7563d56c",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 1331 — Enregistrement en studio et mixage"
+            ],
+            "start_line": 567,
+            "end_line": 577,
+            "subtree_end_line": 577
+          },
+          "content_sha256": "ea4403cefe9426ded93f5c6fa1af510d8ba60231ca1ee006c61a45678ddb2eab",
+          "body_sha256": "f877f4caeb289ac211e30b50eb0fccd7665255accfb6bb00d5a864220a74e876",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003971",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 2325 — Prise de son créative",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75F · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-2325.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:bde1ae8c07a45c4b798bd87e",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 2325 — Prise de son créative"
+            ],
+            "start_line": 578,
+            "end_line": 588,
+            "subtree_end_line": 588
+          },
+          "content_sha256": "3fdb7c74718d0a0177efa59dcf6f241ad9c4c78db155292db7338041f017e1ef",
+          "body_sha256": "fed9b0b43e0e94292e97d76c0f072bb69a162a1ff3b4300124a298a6ecf6510f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003972",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 2327 — Création sonore jeux vidéo 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75F · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-2327.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e7d668a7e90c8b3d75403057",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 2327 — Création sonore jeux vidéo 1"
+            ],
+            "start_line": 589,
+            "end_line": 599,
+            "subtree_end_line": 599
+          },
+          "content_sha256": "b04ec41cceaf79e5dc574dea8a62a4c72283a7f079de25a3f8771f8da6a67e85",
+          "body_sha256": "87beeee0a5059b265c2aef6b83a984a7a03dfb762dd89bca9b78abf7d4e47750",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003973",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 2328 — Création sonore jeux vidéo 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75F · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-2328.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:775d0c3918382edbb45e9d35",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 2328 — Création sonore jeux vidéo 2"
+            ],
+            "start_line": 600,
+            "end_line": 609,
+            "subtree_end_line": 609
+          },
+          "content_sha256": "aa7743ebcdbcb0ac311a0b4101e2b7f387c719db09144f739bd0b6e686acf8ad",
+          "body_sha256": "bbcd14e73a71a97f174fa372a2807a1ee6201f0f50932d82d7eaad492c96c314",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003974",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 3127X — Création de maquettes MIDI orchestrales",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75F · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-3127X.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3b820809d453974abe2d7282",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 3127X — Création de maquettes MIDI orchestrales"
+            ],
+            "start_line": 610,
+            "end_line": 620,
+            "subtree_end_line": 620
+          },
+          "content_sha256": "e43354e8194d6ed614e1f3d907f66a9f50e4c5ad07cb2a7f024e729bd099dc49",
+          "body_sha256": "7a3cdb72c50f30239e0c98ec48d0e04c0ab2060c99f92e014589d13e87b54704",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003975",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 3314X — Musique visuelle 1",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75F · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-3314X.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5f63acdace554ea5acd66334",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 3314X — Musique visuelle 1"
+            ],
+            "start_line": 621,
+            "end_line": 630,
+            "subtree_end_line": 630
+          },
+          "content_sha256": "5d64fc6cf1d85ed80170d768daba5d8d3b9f702b539dd5b563d40214add4d06f",
+          "body_sha256": "dd3777018a1b83bf6887b4e7888d5635c05969ff54890fc269f82659273f70d5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003976",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 3315X — Musique visuelle 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75F · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-3315X.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:fc7f8c7edde4048270a48435",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 3315X — Musique visuelle 2"
+            ],
+            "start_line": 631,
+            "end_line": 640,
+            "subtree_end_line": 640
+          },
+          "content_sha256": "557c03e8c96ea33db051aaf035561ea0b92472090201c20a8b269b864516bfa8",
+          "body_sha256": "84c9507132da0fd8738c7be6d79bd8f7e43241e66e725ca23f3563c0739bdfae",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003977",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 3322X — Acoustique des instruments de musique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75F · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-3322X.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:37f0fb1a3096c1ad65433d0d",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 3322X — Acoustique des instruments de musique"
+            ],
+            "start_line": 641,
+            "end_line": 650,
+            "subtree_end_line": 650
+          },
+          "content_sha256": "e1147bc1d88be9ca655701c4841e65a4e1e8f18c4fc440a7a6b70bea3ef9975c",
+          "body_sha256": "e0e8612a8ab2bf09d90d813cddbd17eaeeb8e93b037b0344606fcde81a8cec88",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003978",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 3323 — Musique de création et technologies",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75F · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-3323.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f461c1857426b2dbf67d98cb",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 3323 — Musique de création et technologies"
+            ],
+            "start_line": 651,
+            "end_line": 661,
+            "subtree_end_line": 661
+          },
+          "content_sha256": "7ad6ff2748304203df96e85d81e64edac896c7fb88afec5cd028af8c9a46574c",
+          "body_sha256": "aaef4662d9aa081f5dcf971189dd1a82000376f069d87d6e89536fab9028f241",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003979",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 3326X — Création musicale en langage textuel",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75F · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-3326X.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:450e55111e0427a65bdd5074",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 3326X — Création musicale en langage textuel"
+            ],
+            "start_line": 662,
+            "end_line": 673,
+            "subtree_end_line": 673
+          },
+          "content_sha256": "c46288271e9b0e274c479c701843f4f881313493246bcda285d1b996c9fd6ec9",
+          "body_sha256": "2c6d9b09ecc3dcd9f187e15927468bc8c4dfa74772546ce64e176c2de51b6840",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003980",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 3328X — Lutherie numérique et systèmes interactifs",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75F · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-3328X.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0a92231811bc319f7cb74ea3",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 3328X — Lutherie numérique et systèmes interactifs"
+            ],
+            "start_line": 674,
+            "end_line": 683,
+            "subtree_end_line": 683
+          },
+          "content_sha256": "9900588193b7258ac5463f4c6be8e614dd2514d5f732a0f73dee85e8a5b341c8",
+          "body_sha256": "8507dd27dcc5c40801350cb208164ab8dd53f4f838b513976e7fcc287698de7a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003981",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 3329X — Projet en informatique musicale",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75F · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-3329X.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e5246d3379efa474cc80b4d6",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 3329X — Projet en informatique musicale"
+            ],
+            "start_line": 684,
+            "end_line": 693,
+            "subtree_end_line": 693
+          },
+          "content_sha256": "b6cefc79d67a822ba8f78eb503f4b1b396f3f57aa9e9d9d5bd1652eb70f5985a",
+          "body_sha256": "53de6878a4fb39985be0a39c09adaae15353b67a8652d40e389c8db86bd0ae58",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003982",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 1232 — Introduction à la musicothérapie",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75G · Carte 1A : partial.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-1232.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ee8c89b3dd194dda2f08f75f",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 1232 — Introduction à la musicothérapie"
+            ],
+            "start_line": 694,
+            "end_line": 703,
+            "subtree_end_line": 703
+          },
+          "content_sha256": "ac074d48f3d3ed02e2636688f26595da560d6cd617087e3fef6329d4d1d859a8",
+          "body_sha256": "59c88ee719a118e07ea5af55bc49be038eed8001282ce1ef22876ad4d6a80a2d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003983",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 4103 — Atelier d'enregistrement audionumérique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75G · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-4103.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e142d40e0a607628f5cfaa2b",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 4103 — Atelier d'enregistrement audionumérique"
+            ],
+            "start_line": 704,
+            "end_line": 714,
+            "subtree_end_line": 714
+          },
+          "content_sha256": "063ac9ec9268b7ea892a1b904eb137eb92d1fbff335e8563b7d55c406a6c11a5",
+          "body_sha256": "852263ffc3508d7ab0752a0ada5c3aa4707e8efa5a58c0d824d42f378c0dada5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003984",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 4104 — Atelier audiovisuel en musique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75G · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-4104.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e0971a0f861ecd6c698cdfd5",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 4104 — Atelier audiovisuel en musique"
+            ],
+            "start_line": 715,
+            "end_line": 725,
+            "subtree_end_line": 725
+          },
+          "content_sha256": "efdc381df4150c640f8c19969953dbb5cd9979935f8d8d4c6cd88ee85b0d7b3f",
+          "body_sha256": "edc5e0be37ae4931390ec7b5e03ec6ce16ce622e71a8afb74f28bb9eddac2c79",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003985",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 4105 — Communications numériques en musique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75G · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-4105.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3c8678c1c56a8ebebb2710f4",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 4105 — Communications numériques en musique"
+            ],
+            "start_line": 726,
+            "end_line": 736,
+            "subtree_end_line": 736
+          },
+          "content_sha256": "c215459fcd0e74f64bf38f46d400dae29be139ade66f98bbcf05805cb807e597",
+          "body_sha256": "4bd247178a4e9fde31b507fd137fc993b219141dcff37622ac721358c1e09587",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003986",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MUS 4106 — Atelier de médiation de la musique 3",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75G · Carte 1A : usable_first_pass.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/MUS-4106.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:aa59398800f5948a183d97b6",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "MUS 4106 — Atelier de médiation de la musique 3"
+            ],
+            "start_line": 737,
+            "end_line": 747,
+            "subtree_end_line": 747
+          },
+          "content_sha256": "be4a9f7426e057fb40422dd95bfa9854792c4960f0a788f75aeb45957a86f5a8",
+          "body_sha256": "89e5364a5467967eba5cb31e25bc870a1cad9ef4b70c27e404ce75d48612a80e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003987",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "EMU 1310 — Technique de direction",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75H · Carte 1A : partial.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/EMU-1310.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6a0cd8bc7d88daa3ee6156cb",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "EMU 1310 — Technique de direction"
+            ],
+            "start_line": 748,
+            "end_line": 757,
+            "subtree_end_line": 757
+          },
+          "content_sha256": "27321d679ee12a6be2db429b683bc9f898f56f3410319b3d3868f8b71b6d47e3",
+          "body_sha256": "2a5287df61ed0778fb939db5570495a6c93ccd8b345c760e8d616d54cc5ca6a1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0003988",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "EMU 2312 — Technique de direction – étude de la partition",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Bloc 75H · Carte 1A : partial.** [Description institutionnelle](https://admission.umontreal.ca/programmes/baccalaureat-en-musique-composition/structure-du-programme/) · [matière déjà recueillie](../courses/udem/EMU-2312.md).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-10-udem-72-topic-outlines.md",
+          "document_sha256": "d9360e17a4ce161db1b05f563cc7922d597736280df40bb8cebf207b7bff307f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:02ad1d46b284ea4a83b4f41d",
+            "heading_path": [
+              "AnaMu — UdeM : description thématique de 71 cours musicaux (passe 1A)",
+              "EMU 2312 — Technique de direction – étude de la partition"
+            ],
+            "start_line": 758,
+            "end_line": 766,
+            "subtree_end_line": 766
+          },
+          "content_sha256": "be84756e97262295bf17254ff9e78e69960cf0ad145dd84bf82f7d4661f80198",
+          "body_sha256": "a9a850c73d99652bca2ea58770eff7e27566cdfec04e5303a664dc1f5066cab0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

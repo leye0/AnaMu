@@ -1,0 +1,2020 @@
+{
+  "source_document": "docs/data/percussion-audio-2026-11-17.json",
+  "units": [
+    {
+      "id": "material:0006473",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "bank",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/bank",
+            "json_pointer": "/bank",
+            "record_identity": null
+          },
+          "content_sha256": "c9b6358b26fdff4dcd1d3c4bb766b8beab0e330469ee9dd2ee8af08474092fa3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006474",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "bank_sha256",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/bank_sha256",
+            "json_pointer": "/bank_sha256",
+            "record_identity": null
+          },
+          "content_sha256": "a6a8e5cd6092dddad2ee92bb832bce586f44cc099fd89620b1145f7a9ff27dd8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006475",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "bank_url",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/bank_url",
+            "json_pointer": "/bank_url",
+            "record_identity": null
+          },
+          "content_sha256": "6539111b72248b79d688c32ae85d76bb37dd617070601730985991f7992694b5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006476",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "renderer",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/renderer",
+            "json_pointer": "/renderer",
+            "record_identity": null
+          },
+          "content_sha256": "48c92610e1337a0bf1b3740c857a9a5d549f24bd8af687d291ee876d496f11ab",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006477",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "sample_rate",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sample_rate",
+            "json_pointer": "/sample_rate",
+            "record_identity": null
+          },
+          "content_sha256": "981a4f273dcd49530ba08a5e7af0cc709d1078b8ce4b6d4e7424dca6f9a0790a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006478",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "render_sample_rate",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/render_sample_rate",
+            "json_pointer": "/render_sample_rate",
+            "record_identity": null
+          },
+          "content_sha256": "5d1dbce82e135ab816d7c6d1f5f9020b94000975fa77f0a349a5b4d226d82332",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006479",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "bit_rate_kbps",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/bit_rate_kbps",
+            "json_pointer": "/bit_rate_kbps",
+            "record_identity": null
+          },
+          "content_sha256": "7b1a278f5abe8e9da907fc9c29dfd432d60dc76e17b0fabab659d2a508bc65c4",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006480",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "channels",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/channels",
+            "json_pointer": "/channels",
+            "record_identity": null
+          },
+          "content_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006481",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "synth_gain",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/synth_gain",
+            "json_pointer": "/synth_gain",
+            "record_identity": null
+          },
+          "content_sha256": "4d44dd7e230b631028d99be7904105ef72138e0daf4e6bdb1e3393afc744e44c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006482",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "reverb",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/reverb",
+            "json_pointer": "/reverb",
+            "record_identity": null
+          },
+          "content_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006483",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "chorus",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/chorus",
+            "json_pointer": "/chorus",
+            "record_identity": null
+          },
+          "content_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006484",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "added_tail_seconds",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/added_tail_seconds",
+            "json_pointer": "/added_tail_seconds",
+            "record_identity": null
+          },
+          "content_sha256": "b05e244762b1e472be89a93800cc3ee326743cecb55984bf12813addb8de66d0",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006485",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ghost notes et backbeat",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/0",
+            "json_pointer": "/tracks/0",
+            "record_identity": "id:ghost-ab"
+          },
+          "content_sha256": "ec8c06a3215a072ed330719143700153b3762588f56ab662732da87582e17ac7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006486",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Charleston ouvert, fermé ou à la pédale",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/1",
+            "json_pointer": "/tracks/1",
+            "record_identity": "id:hihat-ab"
+          },
+          "content_sha256": "ebe3d7cb0c39c3cc1275f31936e2a3a9562dc053b459c050512fa241079c69be",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006487",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Grille, dynamique ou microtiming",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/2",
+            "json_pointer": "/tracks/2",
+            "record_identity": "id:timing-factorial"
+          },
+          "content_sha256": "b50c23c109c02b842eaac2303963d1e0de5b4e28c2e045d83eb4a1a8598e4c46",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006488",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Swing : trois rapports de croches",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/3",
+            "json_pointer": "/tracks/3",
+            "record_identity": "id:swing-ratios"
+          },
+          "content_sha256": "5e91be401dbe409a6b848d8979dbf435aa6907914a970a2233b9262783b01b7c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006489",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Fills, même arrivée",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/4",
+            "json_pointer": "/tracks/4",
+            "record_identity": "id:fill-arrival"
+          },
+          "content_sha256": "a9a9236f6855d213453c3cc530bfb94943bb21aff317c40c6808c13a18af52f8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006490",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Linéaire ou superposé",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/5",
+            "json_pointer": "/tracks/5",
+            "record_identity": "id:linear-layered"
+          },
+          "content_sha256": "e92b90f6c3fea42628d78f10737f173fbb1275d7a3069a6033e5d757166aceda",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006491",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Paradiddle : répartition des mains",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/6",
+            "json_pointer": "/tracks/6",
+            "record_identity": "id:paradiddle-sticking"
+          },
+          "content_sha256": "8cde89f4f0f723d4fe246f8d3bea19a40143343d537b51e536a5c20b5bdabe3d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006492",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Basse et grosse caisse",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/7",
+            "json_pointer": "/tracks/7",
+            "record_identity": "id:kick-bass-phase"
+          },
+          "content_sha256": "4983460a59abb865048cc342dda591f05557a29c9cb168ddc4d7644c6e79fcd1",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006493",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Backbeat déplacé",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/8",
+            "json_pointer": "/tracks/8",
+            "record_identity": "id:backbeat-switch"
+          },
+          "content_sha256": "7093a0ecfcb4aa74808e3cf2ba9fd54fdb4e790ce0ff1f5d4aa204f09ea735c7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006494",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Même rythme, autres percussions",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/9",
+            "json_pointer": "/tracks/9",
+            "record_identity": "id:timbre-swap"
+          },
+          "content_sha256": "a013750c5d64d1fee4efd879cebc6e6fd0adfc2f9aafd80af066811ac59a6b8d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006495",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Six croches : 6/8 puis 3/4",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/10",
+            "json_pointer": "/tracks/10",
+            "record_identity": "id:compound-six"
+          },
+          "content_sha256": "9c27519de38e7d294179c0690495d0866aefc6486efb8c800124e59408d225c9",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006496",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Douze croches : 12/8 puis 6/4",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/11",
+            "json_pointer": "/tracks/11",
+            "record_identity": "id:compound-twelve"
+          },
+          "content_sha256": "468c52bb383e3d68ffb488d12ce59ffb8c596ff97b182a26a9d29b8206a79204",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006497",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "3 contre 2 sans superposition",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/12",
+            "json_pointer": "/tracks/12",
+            "record_identity": "id:three-against-two-linear"
+          },
+          "content_sha256": "aeb3129d3a54aaea5835336fb75173fa797a2dc1fdd9f86d37be4e5f47fba846",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006498",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Trois phases du 3 contre 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/13",
+            "json_pointer": "/tracks/13",
+            "record_identity": "id:three-against-two-phase"
+          },
+          "content_sha256": "d710b6778d85784333c7b7af9a2b213a7d5f73fe54cd34ffe5ea9e29503aa96b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006499",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "7/8 : trois groupements",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/14",
+            "json_pointer": "/tracks/14",
+            "record_identity": "id:seven-eight-rotations"
+          },
+          "content_sha256": "6241fbe68f834a7dd62d370ef927d884ec917cd42c38f1c9cd092ef0a401ea59",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006500",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Backbeat : déplacement et retour",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/15",
+            "json_pointer": "/tracks/15",
+            "record_identity": "id:backbeat-displace-return"
+          },
+          "content_sha256": "5d6ca6742881c06c6d4fd0fa399cdb37dac6aa495508d9ee5bd1888b11183314",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006501",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Cinq accents : 3+2 puis 2+3",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/16",
+            "json_pointer": "/tracks/16",
+            "record_identity": "id:five-hit-phrase"
+          },
+          "content_sha256": "4df28e3476d2af0350320bf1be4d24540efd2d8645cfdafa171a927ec7c6de51",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006502",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Métronome : clics et trous",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/17",
+            "json_pointer": "/tracks/17",
+            "record_identity": "id:metronome-gaps"
+          },
+          "content_sha256": "fec37345e6f4b8b8522ac3196dde4eb8f7a51bac2d7716490c2d06a64d2b9f44",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006503",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "9/8 : trois groupements",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/18",
+            "json_pointer": "/tracks/18",
+            "record_identity": "id:nine-eight-accents"
+          },
+          "content_sha256": "53e6cc035647ab733ba90e1298f80ec902eff0ce6a45a35efd8d54ddda570ddc",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006504",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "5/4 : deux hiérarchies et un témoin",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/19",
+            "json_pointer": "/tracks/19",
+            "record_identity": "id:five-four-accents"
+          },
+          "content_sha256": "e5eec8a5ed0b8cf80bb2e79657a4edb193b1d815936c8f52e3f93321159acf1e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006505",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "4/4 contre un cycle de trois noires",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/20",
+            "json_pointer": "/tracks/20",
+            "record_identity": "id:four-vs-three-bar-cycle"
+          },
+          "content_sha256": "2808ede38f6c9ba3edcccc95e3ef00e9826045e3a776a4f1aef4beb7de21cda3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006506",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Deux surfaces, une seule main ?",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/21",
+            "json_pointer": "/tracks/21",
+            "record_identity": "id:limb-collision"
+          },
+          "content_sha256": "2cab4ccba73f5d13b8c450e475106255bad87e14f15192e6db1dc36b4966ec2b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006507",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Deux pédales, un ou deux pieds",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/22",
+            "json_pointer": "/tracks/22",
+            "record_identity": "id:pedal-foot-collision"
+          },
+          "content_sha256": "820f11265f4b40fe54b7a7bd036b3bc7262efc1b8e0790c1a77fc5cec587a78f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006508",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Flam et intervalle entre les deux coups",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/23",
+            "json_pointer": "/tracks/23",
+            "record_identity": "id:flam-grace-timing"
+          },
+          "content_sha256": "63220240358c91cea9a596b249fe0eb2e7e48f4d5e512b50db33ec7de90155cd",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006509",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Doigtés RLRL et RRLL",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/24",
+            "json_pointer": "/tracks/24",
+            "record_identity": "id:single-double-sticking"
+          },
+          "content_sha256": "81f775b536e3c4d735b4612e93a1e7d0534e5c471133a33d38df00cd7f702fb9",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006510",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ghost notes faibles, moyennes, puis faibles",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/25",
+            "json_pointer": "/tracks/25",
+            "record_identity": "id:ghost-relative-levels"
+          },
+          "content_sha256": "6058e6ef7ccef69c1f255b8988e1e32a7f4f8d0f7fe8dbc89d223814ff372047",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006511",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Microtiming d’une voix ou de tout le kit",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/26",
+            "json_pointer": "/tracks/26",
+            "record_identity": "id:reference-vs-relative-timing"
+          },
+          "content_sha256": "b7fc6b6dfec775a314d73735bd74772c78e0791b8a1b173fe7c695f7e3b1f1a5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006512",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Croches droites, shuffle et half-time",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/27",
+            "json_pointer": "/tracks/27",
+            "record_identity": "id:shuffle-role"
+          },
+          "content_sha256": "1cfd4c37daf06bece0f96d4fe445cb57ef4c7de3df0e03436ff98912a021e1f7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006513",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Relais puis frappes simultanées",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/28",
+            "json_pointer": "/tracks/28",
+            "record_identity": "id:interlocking-to-unison"
+          },
+          "content_sha256": "088941a22448e8916de57416238f62dd9d49a8d28e6a925c41978c5b8fdc090c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006514",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Mêmes frappes, un ou deux exécutants",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/29",
+            "json_pointer": "/tracks/29",
+            "record_identity": "id:ownership-without-sound-change"
+          },
+          "content_sha256": "5fa0753185a5f3c4397196e127f0f92e56df8acdd46e0afbcb244edae3e7f601",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006515",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Trois surfaces, un ou trois exécutants",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/30",
+            "json_pointer": "/tracks/30",
+            "record_identity": "id:three-surfaces-one-vs-three"
+          },
+          "content_sha256": "05dfb7a2fbe7f1a6e7cdd5b832ceca64d717a4ea454b47cc4b33d35f6c51a891",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006516",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Caisse claire → vibraphone",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/31",
+            "json_pointer": "/tracks/31",
+            "record_identity": "id:solo-setup-rest"
+          },
+          "content_sha256": "0bdb9207a8cda0a549038a8646062909181cf50ce3f94849d43b01de8ebe7e48",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006517",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Vibraphone et pédale de sustain",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/32",
+            "json_pointer": "/tracks/32",
+            "record_identity": "id:vibraphone-cc64"
+          },
+          "content_sha256": "d37c44f8d957c0523a9a3b18aa84622a9526271366b0110f9435d208bcdcb961",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006518",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Triangle ouvert ou étouffé",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/33",
+            "json_pointer": "/tracks/33",
+            "record_identity": "id:triangle-muted-open"
+          },
+          "content_sha256": "be1feece4bbbd66478c255be3818c488efb328fd24203fb8fc454e8793cb8c44",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006519",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Caisse claire, fin de note courte ou longue",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/34",
+            "json_pointer": "/tracks/34",
+            "record_identity": "id:noteoff-is-not-sample-end"
+          },
+          "content_sha256": "3e57ccb1174a2224e6e3ba6a7f66d6d9136a5d567490df15a7d8ea750295f9e3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006520",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ouverture du charleston : avant quelle arrivée ?",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/35",
+            "json_pointer": "/tracks/35",
+            "record_identity": "id:HH-1"
+          },
+          "content_sha256": "fdd00bc2c4c41bd0a2cd21a37c9a9085cc2453eb17465aa0ebbb68c888d71f1b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006521",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Charleston : fin de note ou coup de fermeture ?",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/36",
+            "json_pointer": "/tracks/36",
+            "record_identity": "id:HH-2"
+          },
+          "content_sha256": "ac942c23f62574270e804c6aa30d184ccb00fd0ce53fb76de5b4b32107340558",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006522",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Les mêmes frappes avec trois séries de CC4",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/37",
+            "json_pointer": "/tracks/37",
+            "record_identity": "id:HH-3"
+          },
+          "content_sha256": "dbefcfb5280b89b2a0e5c1eb7b54f7c5a7d8a390dcbdcde605cde9162bafc908",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006523",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "CC4 et frappe au même tick",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/38",
+            "json_pointer": "/tracks/38",
+            "record_identity": "id:HH-4"
+          },
+          "content_sha256": "e4e835975eb09566eaa63e904ff436b0e41f09bdca5b9a4929a3abc334ef0e58",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006524",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ride fixe, pied sur 2/4, 1/3 ou entre les coups",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/39",
+            "json_pointer": "/tracks/39",
+            "record_identity": "id:HH-5"
+          },
+          "content_sha256": "6d859ae5db141f4f8bcf8286afba0866a8366a8d2554b8c2d86b10dbbc247351",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006525",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Pédale avant, avec ou après la caisse",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/tracks/40",
+            "json_pointer": "/tracks/40",
+            "record_identity": "id:HH-6"
+          },
+          "content_sha256": "0b094245217b830481a0eff6e1c71c73e6416f2ffd0e04afd1c14d409d60f091",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006526",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "OCMUS-105",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/supplemental_demos/0",
+            "json_pointer": "/supplemental_demos/0",
+            "record_identity": "institution_code:berklee-online:OCMUS-105"
+          },
+          "content_sha256": "1b510c21d854f0bc1d29a61426d6e8f3f71e8a781309b9a95a78877bab8ad965",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006527",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "OMPRD-386",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/supplemental_demos/1",
+            "json_pointer": "/supplemental_demos/1",
+            "record_identity": "institution_code:berklee-online:OMPRD-386"
+          },
+          "content_sha256": "d850e898c327f673e7ff448c294278959736ca833f830cf62351c80767e78717",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006528",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "OPERC-160",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/supplemental_demos/2",
+            "json_pointer": "/supplemental_demos/2",
+            "record_identity": "institution_code:berklee-online:OPERC-160"
+          },
+          "content_sha256": "9e6a106602e4f4cb17fbf139e6f98936e51befabe5614c77178102c333c38cf2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006529",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "21M-351",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/supplemental_demos/3",
+            "json_pointer": "/supplemental_demos/3",
+            "record_identity": "institution_code:mit:21M-351"
+          },
+          "content_sha256": "4f94dd23d474dbc684ca90b9634da2c6bce9acd77e5c40cdfd4a7dc99c997dc0",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006530",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "HH-3",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/renderer_specific_observations/HH-3",
+            "json_pointer": "/renderer_specific_observations/HH-3",
+            "record_identity": null
+          },
+          "content_sha256": "cc470ade8dceda624f1d4ea3c189da377f4839d6fae303bae8f74ed8d31b4a79",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006531",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "HH-4",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/renderer_specific_observations/HH-4",
+            "json_pointer": "/renderer_specific_observations/HH-4",
+            "record_identity": null
+          },
+          "content_sha256": "cc470ade8dceda624f1d4ea3c189da377f4839d6fae303bae8f74ed8d31b4a79",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006532",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "protocol",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/renderer_specific_observations/protocol",
+            "json_pointer": "/renderer_specific_observations/protocol",
+            "record_identity": null
+          },
+          "content_sha256": "b571c18eacdf06cae0e5cee97e710534041a452210b769a5186e406e7f270a05",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006533",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "fenetre_s",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/renderer_specific_observations/HH-2/fenetre_s",
+            "json_pointer": "/renderer_specific_observations/HH-2/fenetre_s",
+            "record_identity": null
+          },
+          "content_sha256": "0a6824396b28de8e8ed2ca0f50c4cb291bdd88c9721e8a565028e68270f80961",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006534",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "note_off_avance_vs_reference_db",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/renderer_specific_observations/HH-2/note_off_avance_vs_reference_db",
+            "json_pointer": "/renderer_specific_observations/HH-2/note_off_avance_vs_reference_db",
+            "record_identity": null
+          },
+          "content_sha256": "adad4f53cfeca7a03e20467f4311ab1d957b94e30c738047a43870b661314968",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006535",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "gm42_residu_vs_open_db",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/renderer_specific_observations/HH-2/gm42_residu_vs_open_db",
+            "json_pointer": "/renderer_specific_observations/HH-2/gm42_residu_vs_open_db",
+            "record_identity": null
+          },
+          "content_sha256": "c74b6d22c639075e2ec9717f7ebee77d562842ec2fc393732c12f3f684dbea69",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006536",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "gm44_residu_vs_open_db",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/renderer_specific_observations/HH-2/gm44_residu_vs_open_db",
+            "json_pointer": "/renderer_specific_observations/HH-2/gm44_residu_vs_open_db",
+            "record_identity": null
+          },
+          "content_sha256": "c74b6d22c639075e2ec9717f7ebee77d562842ec2fc393732c12f3f684dbea69",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006537",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "note",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-audio-2026-11-17.json",
+          "document_sha256": "5dd3a9a392d1274bf5dc2a1ee1f5184525a42c3286e5557a07392897037a19d5",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/renderer_specific_observations/HH-2/note",
+            "json_pointer": "/renderer_specific_observations/HH-2/note",
+            "record_identity": null
+          },
+          "content_sha256": "6093617245fc22129c6fbda64c95b466c888db96495a991f1d46c2338cae8b80",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

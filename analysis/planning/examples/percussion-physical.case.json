@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "case_id": "calibration:percussion-gestures",
+  "question": "La partie de percussion est-elle plausible physiquement et la résonance correctement représentée ?",
+  "source_note": "Cas de planification fondé sur les distinctions de CM-343. Aucun instrument physique, MIDI ou audio particulier n'a été exécuté ni auditionné.",
+  "profiles": {
+    "midi_only": [
+      {
+        "id": "toy:midi",
+        "state": "declared",
+        "facts": [
+          "gm_percussion_events_supplied",
+          "gm_profile_declared"
+        ],
+        "provenance": "Contexte hypothétique d'un export GM",
+        "scope_ref": "didactic:percussion-hypothetical"
+      }
+    ],
+    "layout_annotated": [
+      {
+        "id": "toy:midi",
+        "state": "declared",
+        "facts": [
+          "gm_percussion_events_supplied",
+          "gm_profile_declared"
+        ],
+        "provenance": "Export GM hypothétique",
+        "scope_ref": "didactic:percussion-hypothetical"
+      },
+      {
+        "id": "toy:layout",
+        "state": "declared",
+        "facts": [
+          "physical_layout_annotated",
+          "performer_assignment_annotated",
+          "sticks_and_changes_annotated"
+        ],
+        "provenance": "Hypothèses d'implantation et d'effectif",
+        "scope_ref": "didactic:percussion-hypothetical"
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "task:describe-encoded-strikes",
+      "question": "Quelles attaques et simultanéités sont encodées dans la carte GM déclarée ?",
+      "knowledge_refs": [
+        "notation.key_events"
+      ],
+      "material_refs": [],
+      "proof_routes": [
+        {
+          "id": "gm-observation",
+          "all_of": [
+            "gm_percussion_events_supplied",
+            "gm_profile_declared"
+          ],
+          "candidate_outputs_only": [
+            "mapped_percussion_note_events"
+          ]
+        }
+      ],
+      "cannot_establish": [
+        "physical_instrument_identity",
+        "number_of_players"
+      ],
+      "revisit_when": [
+        "gm_mapping_changed"
+      ],
+      "depends_on": [],
+      "scope_ref": "didactic:percussion-hypothetical"
+    },
+    {
+      "id": "task:physical-gesture-constraints",
+      "question": "Quels gestes, placements et changements de baguettes sont plausibles ?",
+      "knowledge_refs": [
+        "notation.key_events"
+      ],
+      "material_refs": [],
+      "proof_routes": [
+        {
+          "id": "layout-annotation",
+          "all_of": [
+            "gm_percussion_events_supplied",
+            "physical_layout_annotated",
+            "performer_assignment_annotated",
+            "sticks_and_changes_annotated"
+          ],
+          "candidate_outputs_only": [
+            "playability_hypotheses_requiring_real_confirmation"
+          ]
+        }
+      ],
+      "cannot_establish": [
+        "verified_human_playability_without_rehearsal"
+      ],
+      "revisit_when": [
+        "performer_count_changed",
+        "layout_changed"
+      ],
+      "depends_on": [
+        "task:describe-encoded-strikes"
+      ],
+      "scope_ref": "didactic:percussion-hypothetical"
+    },
+    {
+      "id": "task:acoustic-decay",
+      "question": "La durée sonore correspond-elle aux gestes d'amortissement ?",
+      "knowledge_refs": [
+        "sound.sustain"
+      ],
+      "material_refs": [],
+      "proof_routes": [
+        {
+          "id": "recording-and-damping",
+          "all_of": [
+            "audio_recording_verified",
+            "damping_gesture_annotated"
+          ],
+          "candidate_outputs_only": [
+            "acoustic_decay_candidate"
+          ]
+        }
+      ],
+      "cannot_establish": [
+        "true_decay_from_midi_note_off_alone"
+      ],
+      "revisit_when": [
+        "audio_version_changed",
+        "gesture_annotation_changed"
+      ],
+      "depends_on": [],
+      "scope_ref": "didactic:percussion-hypothetical"
+    }
+  ],
+  "fact_registry_ref": "analysis/knowledge/evidence-facts.json",
+  "scope_ref": "didactic:percussion-hypothetical"
+}

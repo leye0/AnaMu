@@ -1,0 +1,406 @@
+{
+  "source_document": "docs/courses/berklee/CM-373.md",
+  "units": [
+    {
+      "id": "material:0001003",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-373 — Jazz Composition 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Berklee College of Music, inventaire candidat 2026 : cours de composition/arrangement ou spécialité voisine. Pertinence musicale distincte de l’admissibilité dans un parcours. Consultation : 10 novembre 2026. **Catalogue seulement : contenu",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-373.md",
+          "document_sha256": "565a7051f83cbaf923d0ee06d481233228533743f4d460abf45e5fc4736c8daf",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:bb3a8c7cd344cdc04b89267e",
+            "heading_path": [
+              "CM-373 — Jazz Composition 2"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 77
+          },
+          "content_sha256": "1c9c109db60154a6b5ce063a59c4096f03682cffdd101b29716bc6763291e2aa",
+          "body_sha256": "dc248c4a7edba8a0d9a2410a602bf523fc038ba986d2434619bd01b11a581537",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001004",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources et matière accessible",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Notice officielle Boston](https://college.berklee.edu/courses/cm-373) — Développement motivique et formes épisodiques hors forme chanson ; analyse de modèles, devoirs et pièce épisodique de cinq minutes. C’est une description institution",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-373.md",
+          "document_sha256": "565a7051f83cbaf923d0ee06d481233228533743f4d460abf45e5fc4736c8daf",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2a2fb4fe43bd1b6e2428f776",
+            "heading_path": [
+              "CM-373 — Jazz Composition 2",
+              "Sources et matière accessible"
+            ],
+            "start_line": 5,
+            "end_line": 11,
+            "subtree_end_line": 11
+          },
+          "content_sha256": "a6eac7c0708e9fd888bc7c1b51965312cff049b1d87edc675cc0c579450ce0f8",
+          "body_sha256": "6aea08f7c726fd4b58ac885b1ad5a1daa07c18621b3b989e6ced865a3fefc089",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001005",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes et suite",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Ne pas substituer un cours centré sur la chanson à ce cours hors forme chanson. Chercher les partitions modèles et le sujet de la pièce de cinq minutes. Syllabus de section, bibliographie, répertoire précis, sujets complets et barèmes encor",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-373.md",
+          "document_sha256": "565a7051f83cbaf923d0ee06d481233228533743f4d460abf45e5fc4736c8daf",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:b1656c9f3b61ff81ceb3d6b9",
+            "heading_path": [
+              "CM-373 — Jazz Composition 2",
+              "Lacunes et suite"
+            ],
+            "start_line": 12,
+            "end_line": 16,
+            "subtree_end_line": 16
+          },
+          "content_sha256": "aba0eed05bc41b4b2d500512e3db8462df7b26cfd1f5ed4a501cd71221bf3a67",
+          "body_sha256": "920389a63cb746e0a1b704a593bf591cfaee135ca339a183b36a7cc9fd763af4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001006",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — apprentissages et MIDI originaux (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cours : CM-373. Pertinence :** directe à l'analyse et à la création musicale. **Provenance :** [notice officielle CM-373 : développement motivique, formes épisodiques hors chanson et projet de cinq minutes; aucun syllabus de section dispo",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-373.md",
+          "document_sha256": "565a7051f83cbaf923d0ee06d481233228533743f4d460abf45e5fc4736c8daf",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8035fde7ecc9a38cd3338474",
+            "heading_path": [
+              "CM-373 — Jazz Composition 2",
+              "Application à l'analyse et à la création — apprentissages et MIDI originaux (11 novembre 2026)"
+            ],
+            "start_line": 17,
+            "end_line": 20,
+            "subtree_end_line": 48
+          },
+          "content_sha256": "b3640ca9798df462269865f32313f4e06314ce2cfd5a07336aca2c407378ee73",
+          "body_sha256": "71f39ff0de6590055271c127f70ed19d390d8fd9ebc45a8051eb38ec88d967fd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001007",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 1 — Forme épisodique à trois sections contrastées",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Matière et classification :** thème officiellement annoncé; `MIDI_PROXY / CONTEXT_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-373.md",
+          "document_sha256": "565a7051f83cbaf923d0ee06d481233228533743f4d460abf45e5fc4736c8daf",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1c898688aaab82e58d172d95",
+            "heading_path": [
+              "CM-373 — Jazz Composition 2",
+              "Application à l'analyse et à la création — apprentissages et MIDI originaux (11 novembre 2026)",
+              "Apprentissage 1 — Forme épisodique à trois sections contrastées"
+            ],
+            "start_line": 21,
+            "end_line": 30,
+            "subtree_end_line": 30
+          },
+          "content_sha256": "049bae3368dcf5fdacccccd2614dfe38c6c3e99af904953bfd7b68041e371646",
+          "body_sha256": "5cf9fa8bd86182d0e4ad4b9f196f70a2d5a8d8ca7ebffa69ca16412bd1a466f4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001008",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 2 — Développement motivique : continuité et contraste",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Matière et classification :** thème officiellement annoncé; `MIDI_DIRECT / CONTEXT_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-373.md",
+          "document_sha256": "565a7051f83cbaf923d0ee06d481233228533743f4d460abf45e5fc4736c8daf",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:86d3ed934b03076d0f7f3896",
+            "heading_path": [
+              "CM-373 — Jazz Composition 2",
+              "Application à l'analyse et à la création — apprentissages et MIDI originaux (11 novembre 2026)",
+              "Apprentissage 2 — Développement motivique : continuité et contraste"
+            ],
+            "start_line": 31,
+            "end_line": 40,
+            "subtree_end_line": 40
+          },
+          "content_sha256": "2c8485ebd3349e86eb084e7e3f7ecee10ac5b60db50c7521a1a02eb77fbd4ae7",
+          "body_sha256": "9180aa5f313a169885cec308befc1a5c19138f891c02fea2bec4c70f7deed187",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001009",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Apport :** oui, directement lié à l'analyse et à la création.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-373.md",
+          "document_sha256": "565a7051f83cbaf923d0ee06d481233228533743f4d460abf45e5fc4736c8daf",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:40221cb82b523af3d9e27d11",
+            "heading_path": [
+              "CM-373 — Jazz Composition 2",
+              "Application à l'analyse et à la création — apprentissages et MIDI originaux (11 novembre 2026)",
+              "Verdict"
+            ],
+            "start_line": 41,
+            "end_line": 48,
+            "subtree_end_line": 48
+          },
+          "content_sha256": "69d8cdd19bedc4612a6687c91bf6215e69a62059263eb942d37703a02803cb84",
+          "body_sha256": "9791c670e13054377952b56c51996a80346a8ed6871f7379835f45b429b57b70",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001010",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deuxième passe qualitative — développement motivique et forme épisodique (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Attestation du cours.** [Notice Berklee CM-373](https://college.berklee.edu/courses/cm-373) : développement motivique, forme jazz épisodique **hors forme chanson**, analyse de modèles et projet de cinq minutes. Aucune grille formelle impo",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-373.md",
+          "document_sha256": "565a7051f83cbaf923d0ee06d481233228533743f4d460abf45e5fc4736c8daf",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a16f67fdeada35e9e50863bb",
+            "heading_path": [
+              "CM-373 — Jazz Composition 2",
+              "Deuxième passe qualitative — développement motivique et forme épisodique (12 novembre 2026)"
+            ],
+            "start_line": 49,
+            "end_line": 52,
+            "subtree_end_line": 77
+          },
+          "content_sha256": "d50bce3044d5eb6b3042e518cf00818f4a85eb49d54eb9242dd51b318f6a4bcc",
+          "body_sha256": "6134370dcc6fc939b011d18e909a1d0fe6d52f191896c98507a4d2e2645e4c58",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001011",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q1 — Transformation d'un motif entre épisodes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Relever pour chaque occurrence candidate le contour, les intervalles successifs, rythmes d'attaques et longueurs de notes; comparer identités, transpositions, permutations et augmentations en préservant **les opérations réelle",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-373.md",
+          "document_sha256": "565a7051f83cbaf923d0ee06d481233228533743f4d460abf45e5fc4736c8daf",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:43221bf12c98ac390cbef95d",
+            "heading_path": [
+              "CM-373 — Jazz Composition 2",
+              "Deuxième passe qualitative — développement motivique et forme épisodique (12 novembre 2026)",
+              "Q1 — Transformation d'un motif entre épisodes"
+            ],
+            "start_line": 53,
+            "end_line": 60,
+            "subtree_end_line": 60
+          },
+          "content_sha256": "68c6fc60c2a523f5dd3969e0daf0773ff14eafd0006cba5e63a799ef30e3e739",
+          "body_sha256": "2ff3e173cd7926323504e8ea6a6a5839d2d380e9528c82b27efbd890fda5784a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001012",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q2 — Forme épisodique versus rondo, AABA et simple juxtaposition",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Segmenter l'œuvre par instrumentation, harmonie, registre, rythme, cadences et motifs; proposer une carte des épisodes et des liens de transition. Comparer explicitement au schéma AABA ou au retour cyclique de type rondo, sans",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-373.md",
+          "document_sha256": "565a7051f83cbaf923d0ee06d481233228533743f4d460abf45e5fc4736c8daf",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c1ffa748e7f573dea0f4d7cc",
+            "heading_path": [
+              "CM-373 — Jazz Composition 2",
+              "Deuxième passe qualitative — développement motivique et forme épisodique (12 novembre 2026)",
+              "Q2 — Forme épisodique versus rondo, AABA et simple juxtaposition"
+            ],
+            "start_line": 61,
+            "end_line": 68,
+            "subtree_end_line": 68
+          },
+          "content_sha256": "080f3805cbeac2c58dddd64b6aed23641ac335d85db5ccee3c8047eb0931d18f",
+          "body_sha256": "1c3ca350339d953c0b5414310bd9b5ba6526c036ef80caa754e703d9ebbe928c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001013",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q3 — Proportionner un projet de cinq minutes au lieu de rallonger une boucle",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** À partir d'un enregistrement complet, mesurer durées en secondes, points culminants, densité d'événements et proportion des épisodes; comparer le temps de développement réel des idées avec les simples répétitions. Relever les",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-373.md",
+          "document_sha256": "565a7051f83cbaf923d0ee06d481233228533743f4d460abf45e5fc4736c8daf",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4c99a7e41e9e5ab9da5d4b8d",
+            "heading_path": [
+              "CM-373 — Jazz Composition 2",
+              "Deuxième passe qualitative — développement motivique et forme épisodique (12 novembre 2026)",
+              "Q3 — Proportionner un projet de cinq minutes au lieu de rallonger une boucle"
+            ],
+            "start_line": 69,
+            "end_line": 77,
+            "subtree_end_line": 77
+          },
+          "content_sha256": "92cd545526d4fc50dd77a825473df02b0e44de0d18487cada0b2baf98e03eec4",
+          "body_sha256": "4119ae1675711a17991dade7769e71083b5d0250fb5b7aa0b18aa43f5f3a9b06",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

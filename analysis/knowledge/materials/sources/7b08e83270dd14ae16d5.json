@@ -1,0 +1,332 @@
+{
+  "source_document": "docs/courses/udem/MTE-1206.md",
+  "units": [
+    {
+      "id": "material:0002342",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 1206 — Analyse d’œuvres du 20e siècle 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Université de Montréal, baccalauréat en musique — Composition, version A26. Obligatoire, hiver 2027, Simon Grégorcic. Sources publiques consultées le 10 novembre 2026.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1206.md",
+          "document_sha256": "e94009912a15cf2f786fe5813770337dfb6455f77a82cc82de5d458ae96f6e04",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:deffee47ba862986b249814e",
+            "heading_path": [
+              "MTE 1206 — Analyse d’œuvres du 20e siècle 2"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 58
+          },
+          "content_sha256": "2280b3883854e83dba40b780105e7bdffb8662b4514f28760f11e9b0d5c9dc98",
+          "body_sha256": "df63fefe52415d4db00d60c44c52d40e5237510d517030df287945faf880e2de",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002343",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources et matière",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Plan public vers lequel renvoie la ligne conjointe MTE 1206 / 6219. Analyse à l’écoute et sur partition du postsérialisme, du spectralisme, de la musique mixte, des masses sonores et du folklore imaginaire. Pondération indicative. Travaux p",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1206.md",
+          "document_sha256": "e94009912a15cf2f786fe5813770337dfb6455f77a82cc82de5d458ae96f6e04",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:72999f0dff327b43129c9576",
+            "heading_path": [
+              "MTE 1206 — Analyse d’œuvres du 20e siècle 2",
+              "Sources et matière"
+            ],
+            "start_line": 5,
+            "end_line": 8,
+            "subtree_end_line": 8
+          },
+          "content_sha256": "f5fffb4148526ae6bf34ce64b37f745b78287eb8ab69df01345977b60098df71",
+          "body_sha256": "657484fb1c70e04720df39e8078bcb6f380be6eee9174bb2551df00ff5a6c9f9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002344",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Édition historique du séminaire associé",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le [plan A20 de MTE 6219](https://musique.umontreal.ca/fileadmin/musique/documents/cours-seminaires/MTE6219_Analyse_d_oeuvres_du_XX%C3%A8me_si%C3%A8cle_2_A2020.pdf), par Jonathan Goldman, présente une autre organisation de la matière après",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1206.md",
+          "document_sha256": "e94009912a15cf2f786fe5813770337dfb6455f77a82cc82de5d458ae96f6e04",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8b7ef100d7dd267dd277fbbe",
+            "heading_path": [
+              "MTE 1206 — Analyse d’œuvres du 20e siècle 2",
+              "Édition historique du séminaire associé"
+            ],
+            "start_line": 9,
+            "end_line": 12,
+            "subtree_end_line": 12
+          },
+          "content_sha256": "f5f0b8e68a46b230840e1402988ba3027ef2ce3c13491557309fb925bc96c916",
+          "body_sha256": "f74e029a0a7af4e65a64ffe41da8dc4f59a5f31ada694fe37259735147339ef8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002345",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le PDF porte le sigle supérieur MTE 6219. Le rattachement est explicite sur la page de séminaires. Les différences d’évaluation du premier cycle, le calendrier et la liste d’œuvres restent à vérifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1206.md",
+          "document_sha256": "e94009912a15cf2f786fe5813770337dfb6455f77a82cc82de5d458ae96f6e04",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9bc18bc4c7fcbd69fd40adc6",
+            "heading_path": [
+              "MTE 1206 — Analyse d’œuvres du 20e siècle 2",
+              "Lacunes"
+            ],
+            "start_line": 13,
+            "end_line": 17,
+            "subtree_end_line": 17
+          },
+          "content_sha256": "e0e3a972b107d8a07c0a9ac0d39d665336a6746a9dcf99d86763d2f30eb11a40",
+          "body_sha256": "689d32bd90375d57cb3e8ef4b379fc526ca0af0dbf22e3fd4b6653cf00242bea",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002346",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — travail sur signal audio ou sources (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cours : MTE 1206. Importance musicale :** directe pour l'analyse/la création, surtout par l'écoute, l'audio, la partition ou le contexte. **Preuve :** [plan-cadre associé à l'analyse du XXe siècle 2, sigle supérieur MTE 6219 lié au cours;",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1206.md",
+          "document_sha256": "e94009912a15cf2f786fe5813770337dfb6455f77a82cc82de5d458ae96f6e04",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9b3e5134c8b8fdc0e27898d7",
+            "heading_path": [
+              "MTE 1206 — Analyse d’œuvres du 20e siècle 2",
+              "Application à l'analyse et à la création — travail sur signal audio ou sources (11 novembre 2026)"
+            ],
+            "start_line": 18,
+            "end_line": 21,
+            "subtree_end_line": 58
+          },
+          "content_sha256": "a6448236521d9298840e50d3ad9af467e2c9247fdf8aa5b155a8e5a5f6eb008e",
+          "body_sha256": "66f32f9ad264c7bd1acd538f7a68b74dd1b84c983f309e5b50f756c0d3841315",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002347",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 1 — Spectralisme, masses sonores et perception de la texture",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Matière :** périmètre déclaré dans la notice/plan; les opérations illustrent une méthode générique sans attribution de devoir. **Catégorie :** `AUDIO_REQUIRED / MIDI_PROXY`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1206.md",
+          "document_sha256": "e94009912a15cf2f786fe5813770337dfb6455f77a82cc82de5d458ae96f6e04",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6202942143a9c7806074da0d",
+            "heading_path": [
+              "MTE 1206 — Analyse d’œuvres du 20e siècle 2",
+              "Application à l'analyse et à la création — travail sur signal audio ou sources (11 novembre 2026)",
+              "Apprentissage 1 — Spectralisme, masses sonores et perception de la texture"
+            ],
+            "start_line": 22,
+            "end_line": 31,
+            "subtree_end_line": 31
+          },
+          "content_sha256": "873b782867fa25ef202d41411d92c765b53e4fc81e8e172aba5095ea17aad1ca",
+          "body_sha256": "a0fdacce1a962fd9f64fc731e793df3ecd2c2f71038c84065acea9f7fd674036",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002348",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 2 — Postsérialisme et musique mixte",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Matière :** périmètre déclaré dans la notice/plan; les opérations illustrent une méthode générique sans attribution de devoir. **Catégorie :** `MIDI_PROXY / AUDIO_REQUIRED / CONTEXT_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1206.md",
+          "document_sha256": "e94009912a15cf2f786fe5813770337dfb6455f77a82cc82de5d458ae96f6e04",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6fe784a759e9cac8d082564d",
+            "heading_path": [
+              "MTE 1206 — Analyse d’œuvres du 20e siècle 2",
+              "Application à l'analyse et à la création — travail sur signal audio ou sources (11 novembre 2026)",
+              "Apprentissage 2 — Postsérialisme et musique mixte"
+            ],
+            "start_line": 32,
+            "end_line": 41,
+            "subtree_end_line": 41
+          },
+          "content_sha256": "4646133514d902bb77b3f867758c4afa167006e3348e81f6cf97b14ac816e1cc",
+          "body_sha256": "6f05ec1dc2f96a9c436ce4bbf9dbf446deed492ff75c064035606bd1ac014671",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002349",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 3 — Folklore imaginaire et attribution stylistique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Matière :** périmètre déclaré dans la notice/plan; les opérations illustrent une méthode générique sans attribution de devoir. **Catégorie :** `CONTEXT_REQUIRED / MIDI_PROXY`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1206.md",
+          "document_sha256": "e94009912a15cf2f786fe5813770337dfb6455f77a82cc82de5d458ae96f6e04",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f7fdb91923f19d8c5ea775ca",
+            "heading_path": [
+              "MTE 1206 — Analyse d’œuvres du 20e siècle 2",
+              "Application à l'analyse et à la création — travail sur signal audio ou sources (11 novembre 2026)",
+              "Apprentissage 3 — Folklore imaginaire et attribution stylistique"
+            ],
+            "start_line": 42,
+            "end_line": 51,
+            "subtree_end_line": 51
+          },
+          "content_sha256": "28c39ef91daa3b1b0a931cfe8c888410fab3e08e63a15f9d1a998c8db1dfe151",
+          "body_sha256": "ff592deb02dc6e2a92b4cddc834aef147827bec3eb653916ae15405df8898609",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002350",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Apport :** oui, direct, principalement hors du seul flux MIDI.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1206.md",
+          "document_sha256": "e94009912a15cf2f786fe5813770337dfb6455f77a82cc82de5d458ae96f6e04",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ccac52ecde59b9d09465cc01",
+            "heading_path": [
+              "MTE 1206 — Analyse d’œuvres du 20e siècle 2",
+              "Application à l'analyse et à la création — travail sur signal audio ou sources (11 novembre 2026)",
+              "Verdict"
+            ],
+            "start_line": 52,
+            "end_line": 58,
+            "subtree_end_line": 58
+          },
+          "content_sha256": "74db2f5bf9b95f1db152bcd860ae8366d08f396e5f34e5357b50c0a896678501",
+          "body_sha256": "70b6f6e8853fd4b5d6123e5c021173e13f68018f009b367f1c9f31dba9fc7f75",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

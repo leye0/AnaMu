@@ -1,0 +1,40 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-mcgill-22-jazz-neighbor-courses.md",
+  "units": [
+    {
+      "id": "material:0004140",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "McGill — 22 cours de jazz, improvisation, composition et arrangements",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026 · spécialisation musicale voisine, phase 1A.** Source primaire commune : [B.Mus. Jazz — exigences 2026–2027](https://www.mcgill.ca/music/programs/bmus/jazz/requirements), avec les **22 notices de cours individuelles** lié",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-22-jazz-neighbor-courses.md",
+          "document_sha256": "902b7dca13f43d51920fd8c9e09135a67dd1a4c69bb7f7a895688e065f13ed15",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:35679ba4f42f54e4a76fe59a",
+            "heading_path": [
+              "McGill — 22 cours de jazz, improvisation, composition et arrangements"
+            ],
+            "start_line": 1,
+            "end_line": 30,
+            "subtree_end_line": 30
+          },
+          "content_sha256": "902b7dca13f43d51920fd8c9e09135a67dd1a4c69bb7f7a895688e065f13ed15",
+          "body_sha256": "1202fd40bc22bcfe2b1676f25bc690462060f2af177f319ca5b6d0640cc3a8e3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

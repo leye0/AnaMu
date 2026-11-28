@@ -1,0 +1,1555 @@
+{
+  "source_document": "docs/data/berklee-performance-course-candidates-2026.json",
+  "units": [
+    {
+      "id": "material:0004517",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "schema_version",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/schema_version",
+            "json_pointer": "/schema_version",
+            "record_identity": null
+          },
+          "content_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004518",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "as_of",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/as_of",
+            "json_pointer": "/as_of",
+            "record_identity": null
+          },
+          "content_sha256": "146a623ac4a8012181e40b52ebd863a16cb1f15e5f3c8cbb3699e78c13516055",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004519",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "purpose",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/purpose",
+            "json_pointer": "/purpose",
+            "record_identity": null
+          },
+          "content_sha256": "6b037acf0fe1dccda9f60109913690e7cc5d5f9a59a2676beb096ac4a2e784bf",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004520",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "baseline_registry_total_unchanged",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/baseline_registry_total_unchanged",
+            "json_pointer": "/baseline_registry_total_unchanged",
+            "record_identity": null
+          },
+          "content_sha256": "15a26c6fa5151c712acc7ee45a1fd525ab85b801f096847c7d5fdf49efeabb4d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004521",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "core_not_mutated",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/core_not_mutated",
+            "json_pointer": "/core_not_mutated",
+            "record_identity": null
+          },
+          "content_sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004522",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "source_notes",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/source_notes",
+            "json_pointer": "/source_notes",
+            "record_identity": null
+          },
+          "content_sha256": "f08286847bef27bdb5c563d55c9916ad20cec1be37289fb4aa6387a98de18727",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004523",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 1 – Guitare",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/0",
+            "json_pointer": "/records/0",
+            "record_identity": null
+          },
+          "content_sha256": "9c5e96169fb09369f644023e01335977d377071d78bd3e12fc7093c93947f4c4",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004524",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 2 – Guitare",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/1",
+            "json_pointer": "/records/1",
+            "record_identity": null
+          },
+          "content_sha256": "9d0f1ea9f9f703634b846e38c1e14626d7a437c2db2310418fa8a445a53e78c6",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004525",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 3 – Guitare",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/2",
+            "json_pointer": "/records/2",
+            "record_identity": null
+          },
+          "content_sha256": "9a928fbe7edc1377765eaad7897d7664d71b0a56e045644b3da41dcdc5eff3f5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004526",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 4 – Guitare",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/3",
+            "json_pointer": "/records/3",
+            "record_identity": null
+          },
+          "content_sha256": "afe48c6be673bad7dae64d73785eb839de429f382ad3af7cb2a3f9f52bb6a7ce",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004527",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 1 – Piano",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/4",
+            "json_pointer": "/records/4",
+            "record_identity": null
+          },
+          "content_sha256": "5ba633d7693caeead1a8b559483225a60b3813f50b21dc29528f51f07a5a4d25",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004528",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 2 – Piano",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/5",
+            "json_pointer": "/records/5",
+            "record_identity": null
+          },
+          "content_sha256": "8cc5c1c1c23cde8d19f8354a06684328390a6b4118661f9aeeb704cf1c558a09",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004529",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 3 – Piano",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/6",
+            "json_pointer": "/records/6",
+            "record_identity": null
+          },
+          "content_sha256": "950b4d43cf995264e2c6dc459e3bf060efcbd35575dd78b1799fa183b33e7dea",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004530",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 4 – Piano",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/7",
+            "json_pointer": "/records/7",
+            "record_identity": null
+          },
+          "content_sha256": "1f94891e1cf0c17d8f38f821ffdd82522a7d3cc27a7d3cc4d55c8abc3f027383",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004531",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 1 – Percussion",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/8",
+            "json_pointer": "/records/8",
+            "record_identity": null
+          },
+          "content_sha256": "28ef1cd6196f5533d8e946d1653a7abc1206d7645bf6f5ed6b15c3ca1caba979",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004532",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 2 – Percussion",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/9",
+            "json_pointer": "/records/9",
+            "record_identity": null
+          },
+          "content_sha256": "4267765ee5e49e60aede10b813ea1695c62fa30e6b873107f6660170ef1274a1",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004533",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 3 – Percussion",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/10",
+            "json_pointer": "/records/10",
+            "record_identity": null
+          },
+          "content_sha256": "af7f680dc8ef1b0d23966f39be98ac8527faf99108881798016bdf1045a7897a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004534",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 4 – Percussion",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/11",
+            "json_pointer": "/records/11",
+            "record_identity": null
+          },
+          "content_sha256": "6e01fc070bea6e15be3ebfddf5f3a68f5988446eba7a784e40cccdacd8baffe1",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004535",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 1 – Voix",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/12",
+            "json_pointer": "/records/12",
+            "record_identity": null
+          },
+          "content_sha256": "0d04936233bc2aeceb7645f54034ec66d6e0fa3c3605de8a388fe0d29a78b767",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004536",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 2 – Voix",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/13",
+            "json_pointer": "/records/13",
+            "record_identity": null
+          },
+          "content_sha256": "03ff00e893b2ed6f9106d9aabc67c1f1db72bd1c309390e39204dd029601db57",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004537",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 3 – Voix",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/14",
+            "json_pointer": "/records/14",
+            "record_identity": null
+          },
+          "content_sha256": "dd6893ff0763b2e301125ec8c36aeaa46145e4d34b5c6cf88fe68806005feccb",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004538",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 4 – Voix",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/15",
+            "json_pointer": "/records/15",
+            "record_identity": null
+          },
+          "content_sha256": "a5c0a31194ea4f2477685464b3c4b9d1c9cf2528f8471dbdbb505387d0fbc0c2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004539",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 1 – Cuivres",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/16",
+            "json_pointer": "/records/16",
+            "record_identity": null
+          },
+          "content_sha256": "7c3b534f4947e6964fecbb2fa0073de6089ee898be54c72e476258f942d806c8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004540",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 2 – Cuivres",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/17",
+            "json_pointer": "/records/17",
+            "record_identity": null
+          },
+          "content_sha256": "14229d1fb69e2a3ffb4f47095b9245fe02e7ff39c38f1e948213a53694c97db8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004541",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 3 – Cuivres",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/18",
+            "json_pointer": "/records/18",
+            "record_identity": null
+          },
+          "content_sha256": "327e1e5151450a623c7a3a630579997a24d6603b1ece9d8c77f3751f622369eb",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004542",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 4 – Cuivres",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/19",
+            "json_pointer": "/records/19",
+            "record_identity": null
+          },
+          "content_sha256": "aba20ecf8445406c68c0df4e70ad30d8eecace448c1a54bc4be20197a3e5bbd2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004543",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 1 – Bois",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/20",
+            "json_pointer": "/records/20",
+            "record_identity": null
+          },
+          "content_sha256": "7fa25d7815268c7a32188a426d4fb93fa015e5fecdaf004131e433baf03ecbf3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004544",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 2 – Bois",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/21",
+            "json_pointer": "/records/21",
+            "record_identity": null
+          },
+          "content_sha256": "769f4120c32f5693618f97221b216ccac8aa06132ce441540ae26b9b729447b2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004545",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 3 – Bois",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/22",
+            "json_pointer": "/records/22",
+            "record_identity": null
+          },
+          "content_sha256": "402b8ee61c564b4a7406eda3d45d5b7505a8bf772361fa1abb675a9f83d0258f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004546",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 4 – Bois",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/23",
+            "json_pointer": "/records/23",
+            "record_identity": null
+          },
+          "content_sha256": "bbd4605ee865adecdf13bd8832e79567f46f69739bf15aa11c92067e5fe41ba0",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004547",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 1 – Cordes",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/24",
+            "json_pointer": "/records/24",
+            "record_identity": null
+          },
+          "content_sha256": "b00062af80a443461654449dff94e3c5d435b98b34acb48619e847ccaac9405b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004548",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 2 – Cordes",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/25",
+            "json_pointer": "/records/25",
+            "record_identity": null
+          },
+          "content_sha256": "3c5fae5db0aa27c7c557e25bcce59e8405692e8e0327633838b55db9c65c88bb",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004549",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 3 – Cordes",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/26",
+            "json_pointer": "/records/26",
+            "record_identity": null
+          },
+          "content_sha256": "19620a42dae3e72ca9c35d93992ec1a64301b90e73f9771e860ea485fce894a5",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004550",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Private Instruction 4 – Cordes",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/27",
+            "json_pointer": "/records/27",
+            "record_identity": null
+          },
+          "content_sha256": "0e5003c9249be9ecfb0dfeee438499b336dbd0fc8fd7ea661a0b22c5ec285f50",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004551",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Core Foundations in Ensemble Playing",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/28",
+            "json_pointer": "/records/28",
+            "record_identity": null
+          },
+          "content_sha256": "e2d720fc8fe392b0c31dc243cebb9f1d2bd78657ea3a1ae28529b7c7ca5c350a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004552",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Core Foundations in American Roots",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/29",
+            "json_pointer": "/records/29",
+            "record_identity": null
+          },
+          "content_sha256": "6e94562f186b9308beaf5bebdd6a65504dd09156785b49ac93316ebe2844fa8a",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004553",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Core Foundations in Rhythm and Blues",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/30",
+            "json_pointer": "/records/30",
+            "record_identity": null
+          },
+          "content_sha256": "bbebfa7b5f7322bfd053b766a56603bc5451776b46ad07de5cd052dcb39b3e08",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004554",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Core Foundations in Rock",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/31",
+            "json_pointer": "/records/31",
+            "record_identity": null
+          },
+          "content_sha256": "4f03b2067190dca3246e23b0912124829759238227f33bdd40988a694971c675",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004555",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Core Foundations in Jazz",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/32",
+            "json_pointer": "/records/32",
+            "record_identity": null
+          },
+          "content_sha256": "5b42f7e2c9e7809edd207e2768c7fe93832f0c3eb30bfe0b5307bdd38a455a0d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004556",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Core Foundations in Latin Music Styles",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/33",
+            "json_pointer": "/records/33",
+            "record_identity": null
+          },
+          "content_sha256": "e831e01b6d1d84014623faf9d82a05229c6ed38d06ed90bca45814b86b23e8e2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004557",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Core Foundations in Global Music 1 — Africa and the Middle East",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/34",
+            "json_pointer": "/records/34",
+            "record_identity": null
+          },
+          "content_sha256": "af538b515c90455d3238c26d17139f66d9fa8aaa4658427170a61622f96350ac",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004558",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Core Foundations in Global Music 2 — Asia and Europe",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/35",
+            "json_pointer": "/records/35",
+            "record_identity": null
+          },
+          "content_sha256": "571bc755f958fabd079cf00ce0126a079b96f664dcf5239e8561e29a5e732b1b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004559",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Symphonic Winds Ensemble",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/36",
+            "json_pointer": "/records/36",
+            "record_identity": null
+          },
+          "content_sha256": "9fcc6259b38c08ef86b8f1e4555f5f620144ece74c363d5e823df271a94e4fb2",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004560",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Film Scoring Studio Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/37",
+            "json_pointer": "/records/37",
+            "record_identity": null
+          },
+          "content_sha256": "19fbc993a09db02dff910d9ebc38cc7ff9d9ad71e9dbfecdc6b1d0001c0d5e3e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004561",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Improvisation for Classical Musicians",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/38",
+            "json_pointer": "/records/38",
+            "record_identity": null
+          },
+          "content_sha256": "967a71c7729fa0f214cc4b8bbd3d22c2917b8e601f34933edc190983d3f30675",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004562",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Contemporary Orchestra",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/39",
+            "json_pointer": "/records/39",
+            "record_identity": null
+          },
+          "content_sha256": "7b7d41bed0cf7c29895eac89f8ede0c9dec36147ef256a1778e92691033782ef",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004563",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Guitar Styles Skills Labs",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/40",
+            "json_pointer": "/records/40",
+            "record_identity": null
+          },
+          "content_sha256": "17efab9727146c789c90bb6c069c40fe8d6d84617179e69a02d603141d869482",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004564",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Hammond Organ Techniques",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/41",
+            "json_pointer": "/records/41",
+            "record_identity": null
+          },
+          "content_sha256": "70449c217137c1e7c4a3fe1c2e379e8fcb8680f12d0c46f77eca2c36312bee94",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004565",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Blues Styles for Hammond Organ",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/42",
+            "json_pointer": "/records/42",
+            "record_identity": null
+          },
+          "content_sha256": "5e9604440a1aa075c2b00401288501175227a5650e7a37bac39da08764fc1a91",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004566",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Classical Repertory for Two Pianos",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/berklee-performance-course-candidates-2026.json",
+          "document_sha256": "94ccdfdc5b126b452619a589eb366dab0517492b3817aeac0135fb1e55a0161b",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/records/43",
+            "json_pointer": "/records/43",
+            "record_identity": null
+          },
+          "content_sha256": "ab4978d39d50a6598ee5a7121b21c706511bcf07fd17a2f447ba3b999b6a32fe",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

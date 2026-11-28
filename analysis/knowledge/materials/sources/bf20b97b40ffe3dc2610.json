@@ -1,0 +1,148 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-mcgill-composition-placement-exam-2026-six-pages.md",
+  "units": [
+    {
+      "id": "material:0004166",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "McGill — examen de classement en composition 2026, véritable matière académique détaillée",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source officielle :** [PDF McGill, 6 pages, révision de mars 2026](https://www.mcgill.ca/music/files/music/composition_placement_descriptions.pdf). Ce document est intitulé *Graduate Placement Examinations — Composition* et s'adresse aux",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-composition-placement-exam-2026-six-pages.md",
+          "document_sha256": "323b4a1eeb719df162da1c3350f3a0c0de7dc179f01eac7adb9f166f0df46f5f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:fd6a4dbbdf3f5f6b65488088",
+            "heading_path": [
+              "McGill — examen de classement en composition 2026, véritable matière académique détaillée"
+            ],
+            "start_line": 1,
+            "end_line": 16,
+            "subtree_end_line": 38
+          },
+          "content_sha256": "543296b0b6de0b10672a52315dc251abe4b6cb287bafd6d81be1140a7fbe9caa",
+          "body_sha256": "04e81338607014ad1450c8f3ce4a10ae498200312828246d007255a254dc6e97",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004167",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Exigences plus fines effectivement testées",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Analyse post-tonale :** ne pas seulement identifier une collection de hauteurs, mais examiner ses propriétés de combinaison/complement, ses réalisations effectives et absences, puis expliquer les liens entre matériau mélodique, registre",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-composition-placement-exam-2026-six-pages.md",
+          "document_sha256": "323b4a1eeb719df162da1c3350f3a0c0de7dc179f01eac7adb9f166f0df46f5f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:7e40656a18320f5643bcecf5",
+            "heading_path": [
+              "McGill — examen de classement en composition 2026, véritable matière académique détaillée",
+              "Exigences plus fines effectivement testées"
+            ],
+            "start_line": 17,
+            "end_line": 24,
+            "subtree_end_line": 24
+          },
+          "content_sha256": "b344a7f26bd4c0930e5c7b04d707cce944a0f99c6f2a8c0f913223553767ae76",
+          "body_sha256": "63522743ca2cb8f22a3c2f51cc6a2638eb892b949e4fd598e868071c2f09a481",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004168",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Bibliographie comme inventaire de sujets (sans copie des livres)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Contrepoint modal / tonal :** Peter Schubert, *Modal Counterpoint*; Peter Schubert & Christoph Neidhöfer, *Baroque Counterpoint*.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-composition-placement-exam-2026-six-pages.md",
+          "document_sha256": "323b4a1eeb719df162da1c3350f3a0c0de7dc179f01eac7adb9f166f0df46f5f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:75706fa79a03ef79da23f58a",
+            "heading_path": [
+              "McGill — examen de classement en composition 2026, véritable matière académique détaillée",
+              "Bibliographie comme inventaire de sujets (sans copie des livres)"
+            ],
+            "start_line": 25,
+            "end_line": 31,
+            "subtree_end_line": 31
+          },
+          "content_sha256": "da12f194cc73eed54acbf28358e784e34869220be30a9404fd6ba53b9182f2fb",
+          "body_sha256": "d59f4f2309a3f4fafd051d323e4ab04c52355082d0109ca3d5a2f67037fbe49b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004169",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Applications correctes aux deux P0 de McGill",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **MUTH 322** (sujets avancés d'analyse post-tonale) est annoncé à **sujet variable** et n'est pas offert en 2026–2027. Les exemples d'Ives, propriétés combinatoires et références post-tonales du PDF constituent des **compétences mesurées",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-composition-placement-exam-2026-six-pages.md",
+          "document_sha256": "323b4a1eeb719df162da1c3350f3a0c0de7dc179f01eac7adb9f166f0df46f5f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3cec2788824e42c66b0914d3",
+            "heading_path": [
+              "McGill — examen de classement en composition 2026, véritable matière académique détaillée",
+              "Applications correctes aux deux P0 de McGill"
+            ],
+            "start_line": 32,
+            "end_line": 38,
+            "subtree_end_line": 38
+          },
+          "content_sha256": "6710193edcdde904e3988f5129596b0165e266ca4d18bbb78b2271aa82f014f1",
+          "body_sha256": "04ba6de5f692daefa572010641aedd822c7cb3a3d1991fa78b426452e95b8130",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

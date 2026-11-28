@@ -1,0 +1,780 @@
+{
+  "source_document": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+  "units": [
+    {
+      "id": "material:0006653",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "title",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/title",
+            "json_pointer": "/title",
+            "record_identity": null
+          },
+          "content_sha256": "d5e87b00d5b3ae5c150b27ebd155389aef88024880af559b452f40f996ffe456",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006654",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "date",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/date",
+            "json_pointer": "/date",
+            "record_identity": null
+          },
+          "content_sha256": "749763b3c8999e0bdc5ab8b8bb1b770bc93742e8335207548ea5c7b5e9ac219e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006655",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "scope",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/scope",
+            "json_pointer": "/scope",
+            "record_identity": null
+          },
+          "content_sha256": "86768763d5e6aa5d522b4feba49a2332cf75a34df407cdde22641b1d8f21ec3c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006656",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "section_convention",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/section_convention",
+            "json_pointer": "/section_convention",
+            "record_identity": null
+          },
+          "content_sha256": "4dd66c117757960a60928b1885ab4097944b4bdd2e434183df24c57f8ab983c3",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006657",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "operc160",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sources/operc160",
+            "json_pointer": "/sources/operc160",
+            "record_identity": null
+          },
+          "content_sha256": "f3f7ed8442a2155bb04c1789e944aec95d8169ee5027efee5b98361bf0227526",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006658",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "omprd386",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sources/omprd386",
+            "json_pointer": "/sources/omprd386",
+            "record_identity": null
+          },
+          "content_sha256": "8222d210fbef41726aec9c74c09857ac64170c294dae848066054bccf2dd7a67",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006659",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "gm1",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sources/gm1",
+            "json_pointer": "/sources/gm1",
+            "record_identity": null
+          },
+          "content_sha256": "023687bc2bc82adad9e5ef99bceedc4950a38bf459e21431e29a3aab21053c3b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006660",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "gm1_keys",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sources/gm1_keys",
+            "json_pointer": "/sources/gm1_keys",
+            "record_identity": null
+          },
+          "content_sha256": "6b7e06efc4ff379e5347e2a4052fb44344173561e8d6f8a94f89d54ccb3fc250",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006661",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "smf",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sources/smf",
+            "json_pointer": "/sources/smf",
+            "record_identity": null
+          },
+          "content_sha256": "508b59582013a173f09b042a534df61f2e93cd07e29de51b187bfbf96f81e946",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006662",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "cc",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sources/cc",
+            "json_pointer": "/sources/cc",
+            "record_identity": null
+          },
+          "content_sha256": "77415bca54fe532202701361d1b2bed5a8cd9a56f157e00287b07c9d2308a97f",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006663",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "td27",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sources/td27",
+            "json_pointer": "/sources/td27",
+            "record_identity": null
+          },
+          "content_sha256": "5f04d487fcfdf4a233b0d99f2b10c6a5ad8bb618350d20df8e41f7a5233998e1",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006664",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "soundfont",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sources/soundfont",
+            "json_pointer": "/sources/soundfont",
+            "record_identity": null
+          },
+          "content_sha256": "f3d3ec239fd866c2b4085a1d526f222740548e4af9e94c37dc3c714f1eb1a9d7",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006665",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "jones",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sources/jones",
+            "json_pointer": "/sources/jones",
+            "record_identity": null
+          },
+          "content_sha256": "46c760504e75c39d1eeaec8f536660eb96f3e666528281c1fdd80b727609f06c",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006666",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "williams",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sources/williams",
+            "json_pointer": "/sources/williams",
+            "record_identity": null
+          },
+          "content_sha256": "4d5c5b6db31d3a58a3e53b85220e71af67bec53a890aa63fbaf60407b9f1b00e",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006667",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "riley",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sources/riley",
+            "json_pointer": "/sources/riley",
+            "record_identity": null
+          },
+          "content_sha256": "4afa4f3be16829ddb33bd5a882d4038ef1fa792aa0fbbec4320dfded8825f6b1",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006668",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "foot",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/sources/foot",
+            "json_pointer": "/sources/foot",
+            "record_identity": null
+          },
+          "content_sha256": "ddc0a8a26e27c276bf2ad93dd7a19c390e70ba3df61ad24f77046ea8e97459d8",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006669",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ouverture intérieure ou anacrouse",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/studies/0",
+            "json_pointer": "/studies/0",
+            "record_identity": "id:HH-1"
+          },
+          "content_sha256": "4492ee5874df5345410fd5f2b073a693a9ea655a5f3e374e88d2e74707a97169",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006670",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Note Off, frappe fermée ou coup de pédale",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/studies/1",
+            "json_pointer": "/studies/1",
+            "record_identity": "id:HH-2"
+          },
+          "content_sha256": "e8e28ca48f91927994ba0b14df0c53054340bb4f00400688d8730089c9e9e926",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006671",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Même flux de notes, trois séries CC4",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/studies/2",
+            "json_pointer": "/studies/2",
+            "record_identity": "id:HH-3"
+          },
+          "content_sha256": "024b7c7c72855dfd2ce0a3efe95bad14c638b9735b311ee97361d466cefb4f24",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006672",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "CC4 avant ou après la frappe au même tick",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/studies/3",
+            "json_pointer": "/studies/3",
+            "record_identity": "id:HH-4"
+          },
+          "content_sha256": "6a9032215277f60504a51779965473cea24dc117ba08120a5172be18e679232d",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006673",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Ride fixe, déplacement du pied",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/studies/4",
+            "json_pointer": "/studies/4",
+            "record_identity": "id:HH-5"
+          },
+          "content_sha256": "2ee9f132945e9cd661a0ecb0251b6c372995662ea06e4af9c2c48661050168af",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006674",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "Fermeture nominale autour du backbeat",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/studies/5",
+            "json_pointer": "/studies/5",
+            "record_identity": "id:HH-6"
+          },
+          "content_sha256": "de066a28eb92cdf36004aa0fa20cff6c7537ad064fb090200d7ce7afa02d4b58",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006675",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "files",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/totals/files",
+            "json_pointer": "/totals/files",
+            "record_identity": null
+          },
+          "content_sha256": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006676",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "note_on",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/totals/note_on",
+            "json_pointer": "/totals/note_on",
+            "record_identity": null
+          },
+          "content_sha256": "25dac95b8f595046bc435139636b0e2f1ff6e0ea31a54f3c19e7e726fb98738b",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0006677",
+      "revision": 1,
+      "kind": "json_record",
+      "title": "cc4",
+      "title_origin": "source_heading_or_key",
+      "description": "Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/data/percussion-hihat-state-studies-2026-11-17.json",
+          "document_sha256": "3f553290c719cb503140d861f94d9ecdc0439026fffff7e9279e82664e03718e",
+          "locator": {
+            "kind": "json_pointer",
+            "anchor": "/totals/cc4",
+            "json_pointer": "/totals/cc4",
+            "record_identity": null
+          },
+          "content_sha256": "f369cb89fc627e668987007d121ed1eacdc01db9e28f8bb26f358b7d8c4f08ac",
+          "body_sha256": null,
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-berklee-pibs-four-concrete-private-bass-levels.md",
+  "units": [
+    {
+      "id": "material:0004114",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Berklee — quatre niveaux concrets de leçons privées de basse (PIBS)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026 · collection académique / dépouillement des familles PIxx.** Les placeholders de la grille Composition pour quatre semestres de leçons privées ne sont PAS des codes individuels. [Famille officielle Bass PIBS-XXX](https://",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-pibs-four-concrete-private-bass-levels.md",
+          "document_sha256": "8c9dbbdf37a528a8515ace724bf1e91111deacac99844a2a90d58cbcc3d6c9ed",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:03e47e4fde4a1169a51643bb",
+            "heading_path": [
+              "Berklee — quatre niveaux concrets de leçons privées de basse (PIBS)"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 25
+          },
+          "content_sha256": "9f168c450a93c02e449be0fe51e9a0d7cafb91572e77c917cbf6c34f49a4435a",
+          "body_sha256": "5634888e5290f394430c88fd67fd78eac9e69b6b2c6308a8854221036b0378c2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004115",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Codes réellement attribuables",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Matière explicitement décrite au niveau du département BASS, attribuable à la séquence de basse et non à chacun de ses semestres :**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-berklee-pibs-four-concrete-private-bass-levels.md",
+          "document_sha256": "8c9dbbdf37a528a8515ace724bf1e91111deacac99844a2a90d58cbcc3d6c9ed",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:aaacf4e61180d72c23b6897b",
+            "heading_path": [
+              "Berklee — quatre niveaux concrets de leçons privées de basse (PIBS)",
+              "Codes réellement attribuables"
+            ],
+            "start_line": 5,
+            "end_line": 25,
+            "subtree_end_line": 25
+          },
+          "content_sha256": "70e6ed4759e7f7b0ae17d18655a00c2474c1edf943c3bb4fa9f782f30d0e3e6a",
+          "body_sha256": "2688c1373eea1015793ac9d05789a531b0ce4b23cacf713bf11af513bed96372",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

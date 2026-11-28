@@ -1,0 +1,406 @@
+{
+  "source_document": "docs/courses/berklee/CM-375.md",
+  "units": [
+    {
+      "id": "material:0001014",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-375 — Jazz Composition 3",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Berklee College of Music, inventaire candidat 2026 : cours de composition/arrangement ou spécialité voisine. Pertinence musicale distincte de l’admissibilité dans un parcours. Consultation : 10 novembre 2026. **Catalogue seulement : contenu",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-375.md",
+          "document_sha256": "92539d8612d31593f643abcfd363250d90ab4545c706e74a760550a00947578f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9afb0a73b04fa0809709d76c",
+            "heading_path": [
+              "CM-375 — Jazz Composition 3"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 77
+          },
+          "content_sha256": "fe9b88af7947fb345743edba4557a75dd086a4683cf0f47407cfaeccf355d450",
+          "body_sha256": "dc248c4a7edba8a0d9a2410a602bf523fc038ba986d2434619bd01b11a581537",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001015",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources et matière accessible",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Notice officielle Boston](https://college.berklee.edu/courses/cm-375) — Grandes compositions jazz à plusieurs sections ; forme et orchestration. Deux travaux annoncés : pièce de chambre sans section rythmique et œuvre étendue de dix minu",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-375.md",
+          "document_sha256": "92539d8612d31593f643abcfd363250d90ab4545c706e74a760550a00947578f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:73855d9fb1dd0ae02ae06664",
+            "heading_path": [
+              "CM-375 — Jazz Composition 3",
+              "Sources et matière accessible"
+            ],
+            "start_line": 5,
+            "end_line": 11,
+            "subtree_end_line": 11
+          },
+          "content_sha256": "696c55e0a81c1c3e21fcbf510251eb43f018bd8e452524cb3c619120eb6c85c9",
+          "body_sha256": "18a9b6ff0cdc1fde59a792570625bf9c36cced10aa7af0b918f94a5cbb551cdd",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001016",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes et suite",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Obtenir les modèles et consignes des deux projets. Ne pas remplacer l’œuvre étendue par un simple assemblage supposé de formes courtes. Syllabus de section, bibliographie, répertoire précis, sujets complets et barèmes encore inconnus. Cette",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-375.md",
+          "document_sha256": "92539d8612d31593f643abcfd363250d90ab4545c706e74a760550a00947578f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6e1b59427cd47315f2893b3d",
+            "heading_path": [
+              "CM-375 — Jazz Composition 3",
+              "Lacunes et suite"
+            ],
+            "start_line": 12,
+            "end_line": 16,
+            "subtree_end_line": 16
+          },
+          "content_sha256": "7b964e6dfc34c53789b0289c7a2bc972e451cfe98bdb1402f9f072b3ae5072bd",
+          "body_sha256": "3ea6d6ef96440580d55a636ed248f3f8efbdcced442711f89e1b91ab27e767ac",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001017",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — apprentissages et MIDI originaux (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Cours : CM-375. Pertinence :** directe à l'analyse et à la création musicale. **Provenance :** [notice officielle CM-375 : grande forme jazz multisection et orchestration; la pièce de chambre sans section rythmique et l'œuvre de dix minut",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-375.md",
+          "document_sha256": "92539d8612d31593f643abcfd363250d90ab4545c706e74a760550a00947578f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:17923fed493520cd468c9b00",
+            "heading_path": [
+              "CM-375 — Jazz Composition 3",
+              "Application à l'analyse et à la création — apprentissages et MIDI originaux (11 novembre 2026)"
+            ],
+            "start_line": 17,
+            "end_line": 20,
+            "subtree_end_line": 48
+          },
+          "content_sha256": "b317d73b154ab5e9b01544e4f8d08b92de7a608e2fdbb00d5a49498774bf3387",
+          "body_sha256": "57de56ec61eb9dbf6bb6fd2f21e86adcc9faa431de6269467def719a8e223082",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001018",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 1 — Plan de grande forme à quatre régions instrumentales",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Matière et classification :** thème officiellement annoncé; `MIDI_PROXY / CONTEXT_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-375.md",
+          "document_sha256": "92539d8612d31593f643abcfd363250d90ab4545c706e74a760550a00947578f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c1447d4650368be4940f505a",
+            "heading_path": [
+              "CM-375 — Jazz Composition 3",
+              "Application à l'analyse et à la création — apprentissages et MIDI originaux (11 novembre 2026)",
+              "Apprentissage 1 — Plan de grande forme à quatre régions instrumentales"
+            ],
+            "start_line": 21,
+            "end_line": 30,
+            "subtree_end_line": 30
+          },
+          "content_sha256": "dca3f2968e4e06bff10ef46ae1c779c9886dda0f0fe699c61bd63f0bb43f52c3",
+          "body_sha256": "3461222970e332d49c007b0c22bbcbaa1223b011f4d18969b1fcc1806458709e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001019",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage 2 — Orchestration de chambre et retour thématique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Matière et classification :** thème officiellement annoncé; `MIDI_PROXY / AUDIO_REQUIRED`.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-375.md",
+          "document_sha256": "92539d8612d31593f643abcfd363250d90ab4545c706e74a760550a00947578f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:08bdce779aa9652f4cbdca17",
+            "heading_path": [
+              "CM-375 — Jazz Composition 3",
+              "Application à l'analyse et à la création — apprentissages et MIDI originaux (11 novembre 2026)",
+              "Apprentissage 2 — Orchestration de chambre et retour thématique"
+            ],
+            "start_line": 31,
+            "end_line": 40,
+            "subtree_end_line": 40
+          },
+          "content_sha256": "f9ce6295d0f5414d4cb41a1f15463a22d9492e294bb50df25fac660c1f61736c",
+          "body_sha256": "8d0f9b79fd0eedc55f31ec5b2fe91d9369e445ccf051ff16cce3eb40240fe379",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001020",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Verdict",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Apport :** oui, directement lié à l'analyse et à la création.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-375.md",
+          "document_sha256": "92539d8612d31593f643abcfd363250d90ab4545c706e74a760550a00947578f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:49e62504b6d4a311c8fdda77",
+            "heading_path": [
+              "CM-375 — Jazz Composition 3",
+              "Application à l'analyse et à la création — apprentissages et MIDI originaux (11 novembre 2026)",
+              "Verdict"
+            ],
+            "start_line": 41,
+            "end_line": 48,
+            "subtree_end_line": 48
+          },
+          "content_sha256": "c857eb33a483675d46663fcbefcadba95cb2da24909764c50c47336271e32147",
+          "body_sha256": "cfe081ef19e8cddb13a624a3d515e9a2db104e1a6904b32e7ac70bc62b28cb10",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001021",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deuxième passe qualitative — architecture jazz multisection et chambre (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Preuve propre au cours.** [Notice Berklee CM-375](https://college.berklee.edu/courses/cm-375) : formes étendues et orchestration jazz, **courte pièce de chambre sans section rythmique** et **grande pièce d'environ dix minutes** demandées.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-375.md",
+          "document_sha256": "92539d8612d31593f643abcfd363250d90ab4545c706e74a760550a00947578f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1cee35caf338ce4891f83b52",
+            "heading_path": [
+              "CM-375 — Jazz Composition 3",
+              "Deuxième passe qualitative — architecture jazz multisection et chambre (12 novembre 2026)"
+            ],
+            "start_line": 49,
+            "end_line": 52,
+            "subtree_end_line": 77
+          },
+          "content_sha256": "f987a55a1824b16003939f7ec148ab017288a4e62f3810a7d4fe521a60fa0b04",
+          "body_sha256": "3eb1a25a89175534a7f5e9df373a858e1e7e18b29871ce377685d2e54d496041",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001022",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q1 — Une grande forme de dix minutes : hiérarchiser sections et sous-sections",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Relever chronologie complète, retours thématiques, cadences, textures, harmonies, changements de tempo et points d'intensification. Modéliser les groupes de mesures et leurs sous-parties plutôt que de seulement classifier quat",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-375.md",
+          "document_sha256": "92539d8612d31593f643abcfd363250d90ab4545c706e74a760550a00947578f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0a31da7f3a12650eac6be69d",
+            "heading_path": [
+              "CM-375 — Jazz Composition 3",
+              "Deuxième passe qualitative — architecture jazz multisection et chambre (12 novembre 2026)",
+              "Q1 — Une grande forme de dix minutes : hiérarchiser sections et sous-sections"
+            ],
+            "start_line": 53,
+            "end_line": 60,
+            "subtree_end_line": 60
+          },
+          "content_sha256": "a1a771bdff128a92cf1a87bd3a11f8fcda39db71c691a69d93cdf13b74803b2f",
+          "body_sha256": "e3661c3111c1e4413c017eb17dd254e11a22712c6f0723ff862014664154c0ca",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001023",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q2 — Chambre sans section rythmique : distribuer pulsation et harmonie entre les voix",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Dans une partition réellement dépourvue de batterie et de section rythmique, identifier qui articule le temps, les basses, la progression harmonique, le contrechant et les silences. Distinguer impulsion perçue et percussion ex",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-375.md",
+          "document_sha256": "92539d8612d31593f643abcfd363250d90ab4545c706e74a760550a00947578f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:dbe5467d6c773504bc88a531",
+            "heading_path": [
+              "CM-375 — Jazz Composition 3",
+              "Deuxième passe qualitative — architecture jazz multisection et chambre (12 novembre 2026)",
+              "Q2 — Chambre sans section rythmique : distribuer pulsation et harmonie entre les voix"
+            ],
+            "start_line": 61,
+            "end_line": 68,
+            "subtree_end_line": 68
+          },
+          "content_sha256": "936a2ba8ce80186da4ee96552069bca1c9830dad3e93d5b9fd39983559a3f5f4",
+          "body_sha256": "60d945dd996dbfa5d4a6ea95217a378fad4bc1fa504ed632c7b883039839ae16",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0001024",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q3 — Réorchestrer un retour : identité thématique et changement de fonction",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Comparer premières et dernières occurrences d'un thème à l'échelle des intervalles, rythme, registre, harmonisation, doublures et instruments. Tester s'il s'agit d'un retour fidèle, d'une variation ou d'une synthèse de matéria",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-375.md",
+          "document_sha256": "92539d8612d31593f643abcfd363250d90ab4545c706e74a760550a00947578f",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5e1f479fa9a17bfd77d5fd22",
+            "heading_path": [
+              "CM-375 — Jazz Composition 3",
+              "Deuxième passe qualitative — architecture jazz multisection et chambre (12 novembre 2026)",
+              "Q3 — Réorchestrer un retour : identité thématique et changement de fonction"
+            ],
+            "start_line": 69,
+            "end_line": 77,
+            "subtree_end_line": 77
+          },
+          "content_sha256": "2721ef9966461ef47a9ca8cd8c5f14dea8051ace623dec3abb67ebdd3481518c",
+          "body_sha256": "ffd7ce25949c5cb1c1a06fe63bedede23335f5effe2c76042af4bcfafbae89a3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

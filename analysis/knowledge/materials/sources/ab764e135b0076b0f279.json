@@ -1,0 +1,368 @@
+{
+  "source_document": "docs/courses/udem/MTE-1111.md",
+  "units": [
+    {
+      "id": "material:0002308",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "MTE 1111 — Contrepoint 2",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : UdeM A26, B. Mus. Composition. Cours obligatoire, bloc 75A.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1111.md",
+          "document_sha256": "349822ae0c5bfd6820ef1487c4cb9989d0493eee1bc856da231efb5718170170",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0bf5c501103b8dcf141db07f",
+            "heading_path": [
+              "MTE 1111 — Contrepoint 2"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 69
+          },
+          "content_sha256": "bb9647f5c1b15fbd86a6ad9e1a012c15b53735ba8abbf70dd3d9cde8c810735a",
+          "body_sha256": "a4bb5237e2d11d84d3cd1ccc1d7f346207fcf6356a9eeab96228fdaece6c7d4e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002309",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Sources et matière accessible",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Document pédagogique](https://musique.umontreal.ca/fileadmin/musique/documents/admissions/Test_exemption_contrepoint_exemple2017.pdf) — Exemple d’exemption, parties 1 et 3. Après le diagnostic d’un contrepoint renversable, compléter un p",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1111.md",
+          "document_sha256": "349822ae0c5bfd6820ef1487c4cb9989d0493eee1bc856da231efb5718170170",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0830acb7819a3bfeebc750fa",
+            "heading_path": [
+              "MTE 1111 — Contrepoint 2",
+              "Sources et matière accessible"
+            ],
+            "start_line": 5,
+            "end_line": 11,
+            "subtree_end_line": 11
+          },
+          "content_sha256": "e07d48120edc56a87303349ffa234c0ad46e9e73c420f6bd08349d5c16134934",
+          "body_sha256": "8d283b1c6a27c254639d78115f24bd37b70ead2af3eb06e3872129c5944c1dba",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002310",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Lacunes et reprise",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Preuve du niveau évalué à l’exemption. Chercher auprès de la Faculté le plan A26, les lectures, les travaux réguliers et leurs critères.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1111.md",
+          "document_sha256": "349822ae0c5bfd6820ef1487c4cb9989d0493eee1bc856da231efb5718170170",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:494f6ed2fef0fb011f0db99f",
+            "heading_path": [
+              "MTE 1111 — Contrepoint 2",
+              "Lacunes et reprise"
+            ],
+            "start_line": 12,
+            "end_line": 15,
+            "subtree_end_line": 15
+          },
+          "content_sha256": "9075911b69dda03e0a9a7410c3ff5e2b19630c6bd78b1cedc03c7e1652728f37",
+          "body_sha256": "a24151cdea0773669bc6aa5808013d98fa22aa52270224498d04fc35ee2fe198",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002311",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Source comparée : syllabus de contrepoint réellement accessible (10 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Le [plan OCOMP-250 de Berklee Online](../berklee-online/OCOMP-250.md) expose les canons simples/renversés, ostinatos, augmentations et diminutions, avec modèles de Bach et Josquin. Cela sert de **matière académique extérieure** à rapprocher",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1111.md",
+          "document_sha256": "349822ae0c5bfd6820ef1487c4cb9989d0493eee1bc856da231efb5718170170",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:74d9063bca47b12ffd093baa",
+            "heading_path": [
+              "MTE 1111 — Contrepoint 2",
+              "Source comparée : syllabus de contrepoint réellement accessible (10 novembre 2026)"
+            ],
+            "start_line": 16,
+            "end_line": 20,
+            "subtree_end_line": 20
+          },
+          "content_sha256": "744d5a539b902fbe8d4d7aa7c2d3541915f428ecafd59e1c2addc3bfac39bdfa",
+          "body_sha256": "ccc37df5ece6d905c9916018526f3aad04a04fd113540e353c3e4ab7092ba5b1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002312",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — première passe (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Pertinence musicale : directe.** [Preuve de matière du cours ou de son niveau](https://musique.umontreal.ca/fileadmin/musique/documents/admissions/Test_exemption_contrepoint_exemple2017.pdf) — épreuve/notice, pas nécessairement syllabus d",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1111.md",
+          "document_sha256": "349822ae0c5bfd6820ef1487c4cb9989d0493eee1bc856da231efb5718170170",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:02e959e66e5636388e55879b",
+            "heading_path": [
+              "MTE 1111 — Contrepoint 2",
+              "Application à l'analyse et à la création — première passe (11 novembre 2026)"
+            ],
+            "start_line": 21,
+            "end_line": 24,
+            "subtree_end_line": 34
+          },
+          "content_sha256": "e9e94fca72eeca29971b19df2c8660fd58d476e4ff37cbf171061926292a5c37",
+          "body_sha256": "a7c00e37b64391b7ec74bfa749ea932d2efb414f29d5bbb6c36d0045a381b0bf",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002313",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage attesté : Variation des débits et contrepoint fleuri",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser la musique en MIDI :** 1. Séparer les lignes. 2. Quantifier leurs durées et attaques par temps. 3. Identifier les alternances valeurs longues/brèves. 4. Pour reconnaître un retard strict, exiger préparation consonante, tenue diss",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1111.md",
+          "document_sha256": "349822ae0c5bfd6820ef1487c4cb9989d0493eee1bc856da231efb5718170170",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8ba1da65fa092ac533f640ee",
+            "heading_path": [
+              "MTE 1111 — Contrepoint 2",
+              "Application à l'analyse et à la création — première passe (11 novembre 2026)",
+              "Apprentissage attesté : Variation des débits et contrepoint fleuri"
+            ],
+            "start_line": 25,
+            "end_line": 34,
+            "subtree_end_line": 34
+          },
+          "content_sha256": "18c134603d77d02a618a8e7ea714af4f5855a1e413c821606e206781ac062640",
+          "body_sha256": "cc77d0122e0f5005229109064c05071f11c769b7e56d09d6ac62eb4ba637a1d1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002314",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Approfondissement de la matière attestée — deuxième passe (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Provenance et statut.** [Source propre au niveau ou au cours](https://musique.umontreal.ca/fileadmin/musique/documents/admissions/Test_exemption_contrepoint_exemple2017.pdf). Exemption UdeM associée au niveau de Contrepoint 2; le matériel",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1111.md",
+          "document_sha256": "349822ae0c5bfd6820ef1487c4cb9989d0493eee1bc856da231efb5718170170",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a9db627f8c071b48ae73d254",
+            "heading_path": [
+              "MTE 1111 — Contrepoint 2",
+              "Approfondissement de la matière attestée — deuxième passe (12 novembre 2026)"
+            ],
+            "start_line": 35,
+            "end_line": 38,
+            "subtree_end_line": 69
+          },
+          "content_sha256": "88740fbf0b1fde3652b1ac57047e1d3188d49ed90111fc4e81120fc6e469ffeb",
+          "body_sha256": "f2900427abfb49dadac9b2d080d137d6bc008a55aa7ce8965b3e1fb37359e4da",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002315",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Axe approfondi 1 — Superposer une voix en deuxième espèce et une voix fleurie",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser une œuvre existante — entrée, séquence d'opérations et vérification.** Entrées : partition de trois voix avec cantus, alignement métrique. Repérer le rapport d'attaques de la deuxième espèce et les valeurs changeantes de la voix",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1111.md",
+          "document_sha256": "349822ae0c5bfd6820ef1487c4cb9989d0493eee1bc856da231efb5718170170",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8cae078518325c265f5b1bfe",
+            "heading_path": [
+              "MTE 1111 — Contrepoint 2",
+              "Approfondissement de la matière attestée — deuxième passe (12 novembre 2026)",
+              "Axe approfondi 1 — Superposer une voix en deuxième espèce et une voix fleurie"
+            ],
+            "start_line": 39,
+            "end_line": 48,
+            "subtree_end_line": 48
+          },
+          "content_sha256": "4a227096b50eeca35a7abaca8be0fc81d24b6cdaed6802ba21cb969fccd784e9",
+          "body_sha256": "8a6d1e0e6337f2bb510c6f1a9e7802da3472af5fbe6df72d4fbc9f6b59cff439",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002316",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Axe approfondi 2 — Reconnaître deux retards authentiques plutôt que deux notes prolongées",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser une œuvre existante — entrée, séquence d'opérations et vérification.** Avec la partition, isoler au moins deux candidats, vérifier successivement préparation consonante, maintien sur temps accentué, création d'une dissonance et r",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1111.md",
+          "document_sha256": "349822ae0c5bfd6820ef1487c4cb9989d0493eee1bc856da231efb5718170170",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ca088d6fe6af0dbb78d0d186",
+            "heading_path": [
+              "MTE 1111 — Contrepoint 2",
+              "Approfondissement de la matière attestée — deuxième passe (12 novembre 2026)",
+              "Axe approfondi 2 — Reconnaître deux retards authentiques plutôt que deux notes prolongées"
+            ],
+            "start_line": 49,
+            "end_line": 58,
+            "subtree_end_line": 58
+          },
+          "content_sha256": "909a9d3f3bcf340d9d2f18119aed15eace63860be0f38dca5cff3e24b7293560",
+          "body_sha256": "a41741a0787bf02d3ba1a823092948d7ee02a599046f244e964dfa6f98772296",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0002317",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Axe approfondi 3 — Préserver l'indépendance du contrepoint lorsqu'on inverse des parties",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser une œuvre existante — entrée, séquence d'opérations et vérification.** Identifier dans une composition à plusieurs voix les paires susceptibles d'être échangées; sur la partition, recalculer intervalle/rôle mélodique après permut",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/udem/MTE-1111.md",
+          "document_sha256": "349822ae0c5bfd6820ef1487c4cb9989d0493eee1bc856da231efb5718170170",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:34735acaebaa04b8d2e6fcbf",
+            "heading_path": [
+              "MTE 1111 — Contrepoint 2",
+              "Approfondissement de la matière attestée — deuxième passe (12 novembre 2026)",
+              "Axe approfondi 3 — Préserver l'indépendance du contrepoint lorsqu'on inverse des parties"
+            ],
+            "start_line": 59,
+            "end_line": 69,
+            "subtree_end_line": 69
+          },
+          "content_sha256": "99bd09a1dd4ddede6021db2001183d4f87b513f5c931d13c4e41475b0e69fdb2",
+          "body_sha256": "297ec4949cb0837b72a746b617a7086e24572c127b4c6c43ff62fc470e918335",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

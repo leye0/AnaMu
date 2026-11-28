@@ -1,0 +1,40 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-mcgill-13-music-pedagogy-techniques.md",
+  "units": [
+    {
+      "id": "material:0004125",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "McGill — 13 cours musicaux de pédagogie instrumentale, vocale et de direction",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026 · treize notices exactes vérifiées dans le [catalogue McGill 2026–2027](https://coursecatalogue.mcgill.ca/en/)** ; point de départ : [B.Mus./B.Ed. musique — exigences et descriptions de cours](https://www.mcgill.ca/music/",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-mcgill-13-music-pedagogy-techniques.md",
+          "document_sha256": "451f95cb7741c48e549109a99f8a2d5dd12572348d4aa4c178b551777e18ffaa",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ad8ca1a7378f456759d29c4b",
+            "heading_path": [
+              "McGill — 13 cours musicaux de pédagogie instrumentale, vocale et de direction"
+            ],
+            "start_line": 1,
+            "end_line": 21,
+            "subtree_end_line": 21
+          },
+          "content_sha256": "451f95cb7741c48e549109a99f8a2d5dd12572348d4aa4c178b551777e18ffaa",
+          "body_sha256": "1183d781b75f4963d1b25be9a6914e9b7732de46977826e71a3fea2baa2c9190",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

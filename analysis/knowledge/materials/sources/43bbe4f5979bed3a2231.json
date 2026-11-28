@@ -1,0 +1,405 @@
+{
+  "source_document": "docs/courses/berklee/CM-342.md",
+  "units": [
+    {
+      "id": "material:0000925",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "CM-342 — Digital Score Preparation for Composers",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Berklee College of Music (Boston), option de majeure Composition. Recherche du 11 novembre 2026. **Documentation partielle : pas de plan public de CM-342, mais des leçons de notation du même établissement en ligne.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-342.md",
+          "document_sha256": "e5c305a1b21dbf24697dfb6ce2c7e2a23e12f973d6fa8b009e90cc84bc5da816",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0256a3a46eb9ffdac10625ad",
+            "heading_path": [
+              "CM-342 — Digital Score Preparation for Composers"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 78
+          },
+          "content_sha256": "b385d544a0379e01a81fcef53829d6be6808afe58e760238e3b54e7321f40605",
+          "body_sha256": "5466e974f8bd8a5f6e2184742ec58d64c65bceea083d1b0c161f319e10f129a4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000926",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Matière liée et provenance",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - [Berklee College, fiche CM-342](https://college.berklee.edu/courses/cm-342) — **Contenu déclaré au campus** : préparation de portfolios de composition, partitions et parties publiables dans Finale ou Sibelius, notation non standard et mon",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-342.md",
+          "document_sha256": "e5c305a1b21dbf24697dfb6ce2c7e2a23e12f973d6fa8b009e90cc84bc5da816",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c7f5d6ca185ba50d4780baa9",
+            "heading_path": [
+              "CM-342 — Digital Score Preparation for Composers",
+              "Matière liée et provenance"
+            ],
+            "start_line": 5,
+            "end_line": 10,
+            "subtree_end_line": 10
+          },
+          "content_sha256": "c7bc0aaf1673865e02d55d215d0e4b0608c5c1457f4bcdf624c6b4da003fa7ee",
+          "body_sha256": "187446b2299a6f4c84b41c00fa2f07148920b51762649c45b511ca65f7494bde",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000927",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Limites",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : La suite Dorico documente une formation authentique à la gravure numérique, mais **ne justifie pas** la substitution de Finale/Sibelius ni l'affirmation d'équivalence avec CM-342. Obtenir la liste des modèles de partitions et notations non",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-342.md",
+          "document_sha256": "e5c305a1b21dbf24697dfb6ce2c7e2a23e12f973d6fa8b009e90cc84bc5da816",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:59c78640d050c01e62667e87",
+            "heading_path": [
+              "CM-342 — Digital Score Preparation for Composers",
+              "Limites"
+            ],
+            "start_line": 11,
+            "end_line": 15,
+            "subtree_end_line": 15
+          },
+          "content_sha256": "3f7af3846512ef1dd6aadc7c595ced07b87c996bad6ab2d67399a8347cc6feca",
+          "body_sha256": "1709f3059ae59d9b2c886fe4f85bb692bcf13d0ae6089ecd3c821ef741fb08bf",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000928",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Application à l'analyse et à la création — notation plutôt qu'exemple MIDI (11 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Apport à la création musicale : direct, mais lié à la préparation éditoriale**, [notice officielle CM-342](https://college.berklee.edu/courses/cm-342). Le cours nomme explicitement la gravure de partitions et parties dans Finale/Sibelius,",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-342.md",
+          "document_sha256": "e5c305a1b21dbf24697dfb6ce2c7e2a23e12f973d6fa8b009e90cc84bc5da816",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1123a922448b464081305d28",
+            "heading_path": [
+              "CM-342 — Digital Score Preparation for Composers",
+              "Application à l'analyse et à la création — notation plutôt qu'exemple MIDI (11 novembre 2026)"
+            ],
+            "start_line": 16,
+            "end_line": 19,
+            "subtree_end_line": 27
+          },
+          "content_sha256": "fc29af7b2f94c366308c76b267741f08a949e7b979e632fa7e0a03e5d68bdae7",
+          "body_sha256": "92b4d1f6ea961afa7a77700113513e8e865dfb35926404e69ee4f5bf1e92618d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000929",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Apprentissage : préparer des partitions et parties exécutables",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser une œuvre / une édition — étapes :** 1. Lire la partition ou un MusicXML, identifier instruments, portées, clés, transpositions, dynamiques, articulations, divisi et pagination. 2. Comparer au MIDI les hauteurs et temps comme **v",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-342.md",
+          "document_sha256": "e5c305a1b21dbf24697dfb6ce2c7e2a23e12f973d6fa8b009e90cc84bc5da816",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e6c4b028291e9ae79ffeb984",
+            "heading_path": [
+              "CM-342 — Digital Score Preparation for Composers",
+              "Application à l'analyse et à la création — notation plutôt qu'exemple MIDI (11 novembre 2026)",
+              "Apprentissage : préparer des partitions et parties exécutables"
+            ],
+            "start_line": 20,
+            "end_line": 27,
+            "subtree_end_line": 27
+          },
+          "content_sha256": "189070ed5930a4660cc1635fca51345166aa703fa100c8d665d1724fd6250978",
+          "body_sha256": "c24883e3ef845964016588a807b97f8cb8c05dec550fbd76d1f44c22a9f1c69e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000930",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Deuxième passe qualitative — notation et portfolio musical (12 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Source propre à CM-342 :** [notice Berklee](https://college.berklee.edu/courses/cm-342), partitions et parties éditables dans Finale/Sibelius, notation non standard, portfolio et montage audio élémentaire. Le programme Dorico OCWPR-102 co",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-342.md",
+          "document_sha256": "e5c305a1b21dbf24697dfb6ce2c7e2a23e12f973d6fa8b009e90cc84bc5da816",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:a36da70a0c1560ba7d7f3bb2",
+            "heading_path": [
+              "CM-342 — Digital Score Preparation for Composers",
+              "Deuxième passe qualitative — notation et portfolio musical (12 novembre 2026)"
+            ],
+            "start_line": 28,
+            "end_line": 31,
+            "subtree_end_line": 51
+          },
+          "content_sha256": "266f2a78a8f724048e105c4e2ef9bb0d5960f06a62053f089c9217e638edd834",
+          "body_sha256": "4477a84acda7fa167dae48a0132909389eeafb6ccd7ef0ac0ac7801da81d8d57",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000931",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q1 — Parties extraites et transpositions de conducteur",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Comparer score et parties, convertir les hauteurs en sons réels pour éviter les faux écarts; vérifier enharmonie, clefs, articulations, nuances, mesures et reprises. Ne pas prendre une bonne hauteur MIDI comme preuve de bonne",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-342.md",
+          "document_sha256": "e5c305a1b21dbf24697dfb6ce2c7e2a23e12f973d6fa8b009e90cc84bc5da816",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:2cebd4c9deb4e8d01875b4d1",
+            "heading_path": [
+              "CM-342 — Digital Score Preparation for Composers",
+              "Deuxième passe qualitative — notation et portfolio musical (12 novembre 2026)",
+              "Q1 — Parties extraites et transpositions de conducteur"
+            ],
+            "start_line": 32,
+            "end_line": 37,
+            "subtree_end_line": 37
+          },
+          "content_sha256": "4e63fc883bf5d02273ee8c358d52b5c1f512730aaf46507d9352283d95343a9b",
+          "body_sha256": "4c0da990515bd69b349496a05ca51169417486dd56a1fafc8db2cb53002171a3",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000932",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q2 — Notation non standard et légende de jeu",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Exiger partition avec légende et audio de deux réalisations. Classer chaque signe selon ce qu'il fixe (hauteur, geste, zone de durée) ou laisse volontairement à l'interprète; signaler les ambiguïtés non documentées.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-342.md",
+          "document_sha256": "e5c305a1b21dbf24697dfb6ce2c7e2a23e12f973d6fa8b009e90cc84bc5da816",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:89185580a8409a633187ced6",
+            "heading_path": [
+              "CM-342 — Digital Score Preparation for Composers",
+              "Deuxième passe qualitative — notation et portfolio musical (12 novembre 2026)",
+              "Q2 — Notation non standard et légende de jeu"
+            ],
+            "start_line": 38,
+            "end_line": 43,
+            "subtree_end_line": 43
+          },
+          "content_sha256": "11eebb66cd3396ce9c8234e41fedb94ee03594b46c22b80d37fa4255ee8b9de8",
+          "body_sha256": "33a6fea502be3aaf246793462dbaf7c909a8a96dd6fe9a90d6fedc5af75563d0",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000933",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Q3 — Cohérence du portfolio et démonstrations sonores",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Analyser.** Vérifier versions, titre, instrumentation, numérotation et correspondance entre conducteur, parties et audio; repérer les coupes sonores ou écarts temporels sans confondre un mixage séduisant avec une notation correcte.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-342.md",
+          "document_sha256": "e5c305a1b21dbf24697dfb6ce2c7e2a23e12f973d6fa8b009e90cc84bc5da816",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:01fbaf109af6acce1f755b20",
+            "heading_path": [
+              "CM-342 — Digital Score Preparation for Composers",
+              "Deuxième passe qualitative — notation et portfolio musical (12 novembre 2026)",
+              "Q3 — Cohérence du portfolio et démonstrations sonores"
+            ],
+            "start_line": 44,
+            "end_line": 51,
+            "subtree_end_line": 51
+          },
+          "content_sha256": "7866e8612ee4da0dfbf7d89d380d23bcf141649d5cf37b4a9af138df53196a6e",
+          "body_sha256": "14ca23f1070c443183a1634fd7089559cd39934894c94a6ad64274a4c4e796d8",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000934",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Cas comparatif — aligner l’Aria des Goldberg entre partition, MIDI et enregistrement (13 novembre 2026)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Ancrage et périmètre.** La [notice CM-342](https://college.berklee.edu/courses/cm-342) atteste la préparation de partitions et parties ainsi que le montage de démos sonores. Le dossier suivant approfondit les contrôles de Q1 et Q3. Il n’a",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-342.md",
+          "document_sha256": "e5c305a1b21dbf24697dfb6ce2c7e2a23e12f973d6fa8b009e90cc84bc5da816",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:6e613d910d83d9b36a159b3d",
+            "heading_path": [
+              "CM-342 — Digital Score Preparation for Composers",
+              "Cas comparatif — aligner l’Aria des Goldberg entre partition, MIDI et enregistrement (13 novembre 2026)"
+            ],
+            "start_line": 52,
+            "end_line": 61,
+            "subtree_end_line": 78
+          },
+          "content_sha256": "a0b27104d792238c65e646ab4a7a1cbec36fa41a924455dd6c87a9b942ae7402",
+          "body_sha256": "0684708bee39d5239a672f965cb774ed0dbc492154cdc35578fe66c0373ef40b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0000935",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Relevé des trois écarts",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Les numéros de mesure désignent l’imprimé. Le numéro de passage distingue la première occurrence de la reprise. Les ticks sont absolus, depuis 0, à **384 par noire**. Les secondes correspondent au **MP3 de Commons depuis son début**, silenc",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/courses/berklee/CM-342.md",
+          "document_sha256": "e5c305a1b21dbf24697dfb6ce2c7e2a23e12f973d6fa8b009e90cc84bc5da816",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e61e7727402016ac16513b32",
+            "heading_path": [
+              "CM-342 — Digital Score Preparation for Composers",
+              "Cas comparatif — aligner l’Aria des Goldberg entre partition, MIDI et enregistrement (13 novembre 2026)",
+              "Relevé des trois écarts"
+            ],
+            "start_line": 62,
+            "end_line": 78,
+            "subtree_end_line": 78
+          },
+          "content_sha256": "1062241372da67c33ee4a5f74f5ecbdd67c6d7219c8596cecf7f625f5887ebaa",
+          "body_sha256": "22dda4f761d7133c51cb8a28cfcfff20e7d2cf0170206de354c426b40e45c705",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

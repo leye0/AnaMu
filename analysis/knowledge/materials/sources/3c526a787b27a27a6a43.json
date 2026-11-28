@@ -1,0 +1,184 @@
+{
+  "source_document": "docs/raw-batches/2026-11-11-primary-exams-historical-notices-30-course-links.md",
+  "units": [
+    {
+      "id": "material:0004173",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "AnaMu — preuves primaires de compétences musicales, notices historiques et 30 liens ciblés",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Collecte du 11 novembre 2026, phase 1A.** Sources publiques institutionnelles examinées directement, sans assimilation de tests d'admission à un syllabus de section. **Cinq PDF distincts** consultés : quatre exemples d'épreuves UdeM (12 p",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-primary-exams-historical-notices-30-course-links.md",
+          "document_sha256": "5a9fee3019ed1283ef78edb3d11de6e68c770cc0dc7632c937f04262c48e22ec",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4897edfbe01502295fcc6187",
+            "heading_path": [
+              "AnaMu — preuves primaires de compétences musicales, notices historiques et 30 liens ciblés"
+            ],
+            "start_line": 1,
+            "end_line": 4,
+            "subtree_end_line": 72
+          },
+          "content_sha256": "7893807fcb0958e795b23cda0c2808d879e068509ffea8ad38892f23146faae7",
+          "body_sha256": "2da0be986f1f750884e8406b24f0d1a70e93b9ee343d35410d7d425e5a3bbae9",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004174",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "A. Quatre documents de travail musicaux officiels (matière et exercices réels)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Prudence :** aucun de ces exercices officiels n'a été reproduit intégralement ici. Les liens restent à la source; les observations ci-dessus sont des paraphrases thématiques. Les compétences directement attachées à MTE1110/1111/1220/1221",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-primary-exams-historical-notices-30-course-links.md",
+          "document_sha256": "5a9fee3019ed1283ef78edb3d11de6e68c770cc0dc7632c937f04262c48e22ec",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:d8461f16e3fe640541ae63b8",
+            "heading_path": [
+              "AnaMu — preuves primaires de compétences musicales, notices historiques et 30 liens ciblés",
+              "A. Quatre documents de travail musicaux officiels (matière et exercices réels)"
+            ],
+            "start_line": 5,
+            "end_line": 18,
+            "subtree_end_line": 18
+          },
+          "content_sha256": "472447c1cbc0f47d084df1eb6d49d24aff178e5e20f7788bf69182df671b3f83",
+          "body_sha256": "fb21711b637f6acd9b0fd97946a73373e48b3e650768992772d2fd73a6da43d1",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004175",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "B. Répertoire primaire officiel UdeM 2015–2016 (archive, jamais syllabus contemporain)",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Source originale : [Registraire UdeM, *Rapport SR301*, répertoire facultaire 2015–2016, daté du 27 janvier 2015](https://registraire.umontreal.ca/fileadmin/registrariat/documents/Annuaires/2015-2016/MUS_tap.pdf) (PDF de répertoire, **pas**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-primary-exams-historical-notices-30-course-links.md",
+          "document_sha256": "5a9fee3019ed1283ef78edb3d11de6e68c770cc0dc7632c937f04262c48e22ec",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:e41bbd05e2291fca9a95c37f",
+            "heading_path": [
+              "AnaMu — preuves primaires de compétences musicales, notices historiques et 30 liens ciblés",
+              "B. Répertoire primaire officiel UdeM 2015–2016 (archive, jamais syllabus contemporain)"
+            ],
+            "start_line": 19,
+            "end_line": 50,
+            "subtree_end_line": 50
+          },
+          "content_sha256": "1f6cf3decf794785becdc04e2cd44e020dd9718008c24818fecd89670f5899f1",
+          "body_sha256": "e02357c1c7cf239f0901a2e28080527ce2ab6b255096ea1831edfc504df0c67a",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004176",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "C. Traçabilité de sections datées McGill et enseignants Berklee (sources directes, pas syllabus)",
+      "title_origin": "source_heading_or_key",
+      "description": "Titre ou passage sans description éditoriale vérifiée.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-primary-exams-historical-notices-30-course-links.md",
+          "document_sha256": "5a9fee3019ed1283ef78edb3d11de6e68c770cc0dc7632c937f04262c48e22ec",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:8ac116dc394a6f9d52d91d09",
+            "heading_path": [
+              "AnaMu — preuves primaires de compétences musicales, notices historiques et 30 liens ciblés",
+              "C. Traçabilité de sections datées McGill et enseignants Berklee (sources directes, pas syllabus)"
+            ],
+            "start_line": 51,
+            "end_line": 64,
+            "subtree_end_line": 64
+          },
+          "content_sha256": "e0c0a93fc88d36aa749d0b7c8415e7ddcd2d1f6ebade23b8e95cb48443ec423d",
+          "body_sha256": "76f3cc1f922678e503b0c1709ffd5701d804c40dba50630691c0d065422cb3db",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004177",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Bilan honnête",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **Sources PDF primaires nouvellement rassemblées dans ce lot : 5** (dont **4 PDF d'évaluation/diagnostic**), **pas 5 syllabi**.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/raw-batches/2026-11-11-primary-exams-historical-notices-30-course-links.md",
+          "document_sha256": "5a9fee3019ed1283ef78edb3d11de6e68c770cc0dc7632c937f04262c48e22ec",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:854e7a33ff06cfd906d9d8ad",
+            "heading_path": [
+              "AnaMu — preuves primaires de compétences musicales, notices historiques et 30 liens ciblés",
+              "Bilan honnête"
+            ],
+            "start_line": 65,
+            "end_line": 72,
+            "subtree_end_line": 72
+          },
+          "content_sha256": "dc5759f1ab8b4cdf9d3a02cb6497092e52eaf4eb17b73ba8a1739ae50074077e",
+          "body_sha256": "bca49aab26b5a0e278ed58dd1bbc38aca5e1ecba476057e49602f931394169f6",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
