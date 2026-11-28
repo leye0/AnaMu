@@ -605,6 +605,24 @@ def audit(repo: Path = REPO_ROOT) -> dict:
         check(len({r["id"] for r in entries}) == len(entries), "Duplicate " + kind + " ID")
         for row in entries:
             check(row["material_id"] in by_id, "Orphan " + kind + ": " + row["id"])
+    known_concepts = {c["id"] for c in knowledge["concepts"]}
+    known_senses = {s["id"] for s in read_json(
+        folder / "candidate-senses.json", {"candidates": []})["candidates"]}
+    by_concept, by_sense = defaultdict(list), defaultdict(list)
+    for link in links:
+        target = link["target"]
+        if target.get("id"):
+            check(target["id"] in known_concepts, "Unknown target concept: " + link["id"])
+            by_concept[target["id"]].append(link["material_id"])
+        if target.get("candidate_sense_id"):
+            sense = target["candidate_sense_id"]
+            check(sense in known_senses, "Unknown candidate sense: " + link["id"])
+            by_sense[sense].append(link["material_id"])
+    check(normalized(index.get("by_concept", {})) == normalized(by_concept),
+          "Derived concept index disagrees with links")
+    check(normalized(index.get("by_candidate_sense", {})) == normalized(by_sense),
+          "Derived candidate sense index disagrees with links")
+
     mention_ids = {r["id"] for r in mentions}
     for assertion in assertions:
         check(assertion["mention_id"] in mention_ids, "Orphan assertion mention: " + assertion["id"])
