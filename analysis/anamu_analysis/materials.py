@@ -591,7 +591,7 @@ def audit(repo: Path = REPO_ROOT) -> dict:
     for structured in knowledge["structured_sources"]:
         path = structured["path"]
         raw = (repo / path).read_bytes()
-        documents[path] = hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\0" + raw).hexdigest()
+        documents[path] = hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest()
     source_rows = [r for r in manifest["sources"] if r.get("lifecycle", "present") == "present"]
     check(len({r["id"] for r in source_rows}) == len(source_rows), "Duplicate manifest ID")
     check(len({r["path"] for r in source_rows}) == len(source_rows), "Duplicate manifest path")
