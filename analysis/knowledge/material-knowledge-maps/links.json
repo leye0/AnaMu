@@ -1255,6 +1255,96 @@
       "justification": "Distinguer attaque entière, dévoilement en cours, prochaine attaque et prochain tour ; préserver les arbitrages.",
       "state": "assistant_source_checked_proposed_link",
       "does_not_establish": "Une moyenne RMS voisine ne prouve pas une même attaque ni une même perception."
+    },
+    {
+      "id": "material-knowledge:0000070",
+      "material_id": "material:0004389",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "voices.independence",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Rapport 1:1, consonances, mouvements et contraintes de style."
+      ],
+      "context": "Contrepoint d'espèces à deux voix ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "justification": "Rapport 1:1, consonances, mouvements et contraintes de style.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Les contraintes d'espèces ne sont pas universelles."
+    },
+    {
+      "id": "material-knowledge:0000071",
+      "material_id": "material:0004391",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.function",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Rôles et place des accords dans la phrase."
+      ],
+      "context": "Tonalité historique classique ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "justification": "Rôles et place des accords dans la phrase.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Ne pas imposer ce cadre au pop, jazz ou atonal."
+    },
+    {
+      "id": "material-knowledge:0000072",
+      "material_id": "material:0004392",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.modulation",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Stabilisation d'un nouveau centre, cadence, accord pivot et dominante secondaire."
+      ],
+      "context": "Cadre analytique tonal ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "justification": "Stabilisation d'un nouveau centre, cadence, accord pivot et dominante secondaire.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "La frontière varie selon l'école d'analyse."
+    },
+    {
+      "id": "material-knowledge:0000073",
+      "material_id": "material:0004393",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "form.phrase_hierarchy",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Idée de base, prolongation, fragmentation et accélération, cadence."
+      ],
+      "context": "Typologie de thème classique ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "justification": "Idée de base, prolongation, fragmentation et accélération, cadence.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "La longueur n'est pas un critère suffisant."
+    },
+    {
+      "id": "material-knowledge:0000074",
+      "material_id": "material:0004394",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "form.phrase_hierarchy",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Relation de deux phrases et hiérarchie cadentielle."
+      ],
+      "context": "Typologie de thème classique ; synthèse AnaMu d'Open Music Theory, sans attribution à une section universitaire.",
+      "justification": "Relation de deux phrases et hiérarchie cadentielle.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Variantes et expansions possibles."
     }
   ]
 }
