@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "kind": "actual_python_midi_and_route_execution_summary",
+  "run_date": "2026-11-28",
+  "code_commit": "b7d321a28d16ef78e2ba367f848b439ef59c8f85",
+  "execution_environment": {
+    "mode": "partial_local_reconstruction_from_connector",
+    "python": "Python with mido",
+    "git_blob_identity_verified_for": {
+      "midi_io": "7aa93f64995d5b80156998184184f7957531df99",
+      "proof_inputs": "4a588a975ea00ebcb37b188c08b94354b76bec04",
+      "proof_planner": "39dd85ffb46fd3d254f708bfa19dd9d49740af93"
+    },
+    "dependencies": "Local copy of the same SHA-256 helper used by midi_io; case templates projected to the exact task and scope fields, evidence vocabulary projected to the 47 exact IDs. Not a full checkout or full Python catalogue audit.",
+    "not_unit_tests": true
+  },
+  "runs": [
+    {
+      "source": {
+        "path": "docs/courses/berklee/CM-211/six-quartes-trois-fonctions.mid",
+        "git_blob_sha1": "903eba91fc5867c8d6389a128cdbb040e8fef521",
+        "sha256": "e0aaf3e06383ae13daf135f37e10849addcc1fa13bc24e61d369673d3d0a59d1"
+      },
+      "template": {
+        "path": "analysis/planning/examples/verticale-64.case.json",
+        "source_blob_sha1": "58865523cd36dee4f16ed6f35d7b3a95733b7aff",
+        "projection": "schema_version, case_id, question, scope_ref, fact_registry_ref, tasks"
+      },
+      "scope_ref": "midi:sha256:e0aaf3e06383ae13daf135f37e10849addcc1fa13bc24e61d369673d3d0a59d1:ticks:0:49921:profile:unknown",
+      "observation": {
+        "id": "observation:midi-attacks:de357dcfec1cbcb1e68e72a8",
+        "attack_count": 108,
+        "ticks_per_quarter": 480,
+        "event_refs": [
+          "track:1:event:5",
+          "track:2:event:5",
+          "track:3:event:5",
+          "track:4:event:5",
+          "track:1:event:7",
+          "track:2:event:7",
+          "track:3:event:7",
+          "track:4:event:7",
+          "track:1:event:9",
+          "track:2:event:9",
+          "track:3:event:9",
+          "track:4:event:9",
+          "track:1:event:11",
+          "track:2:event:11",
+          "track:3:event:11",
+          "track:4:event:11",
+          "track:1:event:13",
+          "track:2:event:13",
+          "track:3:event:13",
+          "track:4:event:13",
+          "track:1:event:15",
+          "track:2:event:15",
+          "track:3:event:15",
+          "track:4:event:15",
+          "track:1:event:17",
+          "track:2:event:17",
+          "track:3:event:17",
+          "track:4:event:17",
+          "track:1:event:19",
+          "track:2:event:19",
+          "track:3:event:19",
+          "track:4:event:19",
+          "track:1:event:21",
+          "track:2:event:21",
+          "track:3:event:21",
+          "track:4:event:21",
+          "track:1:event:23",
+          "track:2:event:23",
+          "track:3:event:23",
+          "track:4:event:23",
+          "track:1:event:25",
+          "track:2:event:25",
+          "track:3:event:25",
+          "track:4:event:25",
+          "track:1:event:27",
+          "track:2:event:27",
+          "track:3:event:27",
+          "track:4:event:27",
+          "track:1:event:29",
+          "track:2:event:29",
+          "track:3:event:29",
+          "track:4:event:29",
+          "track:1:event:31",
+          "track:2:event:31",
+          "track:3:event:31",
+          "track:4:event:31",
+          "track:1:event:33",
+          "track:2:event:33",
+          "track:3:event:33",
+          "track:4:event:33",
+          "track:1:event:35",
+          "track:2:event:35",
+          "track:3:event:35",
+          "track:4:event:35",
+          "track:1:event:37",
+          "track:2:event:37",
+          "track:3:event:37",
+          "track:4:event:37",
+          "track:1:event:39",
+          "track:2:event:39",
+          "track:3:event:39",
+          "track:4:event:39",
+          "track:1:event:41",
+          "track:2:event:41",
+          "track:3:event:41",
+          "track:4:event:41",
+          "track:1:event:43",
+          "track:2:event:43",
+          "track:3:event:43",
+          "track:4:event:43",
+          "track:1:event:45",
+          "track:2:event:45",
+          "track:3:event:45",
+          "track:4:event:45",
+          "track:1:event:47",
+          "track:2:event:47",
+          "track:3:event:47",
+          "track:4:event:47",
+          "track:1:event:49",
+          "track:2:event:49",
+          "track:3:event:49",
+          "track:4:event:49",
+          "track:1:event:51",
+          "track:2:event:51",
+          "track:3:event:51",
+          "track:4:event:51",
+          "track:1:event:53",
+          "track:2:event:53",
+          "track:3:event:53",
+          "track:4:event:53",
+          "track:1:event:55",
+          "track:2:event:55",
+          "track:3:event:55",
+          "track:4:event:55",
+          "track:1:event:57",
+          "track:2:event:57",
+          "track:3:event:57",
+          "track:4:event:57"
+        ],
+        "keys_by_channel": {
+          "0": [
+            41,
+            43,
+            45,
+            48,
+            50,
+            52
+          ],
+          "1": [
+            55,
+            57
+          ],
+          "2": [
+            59,
+            60,
+            62,
+            64,
+            65
+          ],
+          "3": [
+            62,
+            64,
+            65,
+            67,
+            69,
+            71,
+            72
+          ]
+        }
+      },
+      "reader_warnings": [],
+      "facts": [
+        {
+          "id": "evidence:de357dcfec1cbcb1e68e72a8:midi_note_events_verified",
+          "fact": "midi_note_events_verified",
+          "state": "verified",
+          "observation_refs": [
+            "observation:midi-attacks:de357dcfec1cbcb1e68e72a8"
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "task:observe-pitch-classes",
+          "state": "ready_verified_inputs",
+          "routes": [
+            {
+              "id": "declared-example",
+              "state": "blocked_missing_or_unverified_evidence",
+              "missing": [
+                "pitch_classes_provided"
+              ],
+              "evidence_refs_by_fact": {}
+            },
+            {
+              "id": "real-midi",
+              "state": "ready_verified_inputs",
+              "missing": [],
+              "evidence_refs_by_fact": {
+                "midi_note_events_verified": "evidence:de357dcfec1cbcb1e68e72a8:midi_note_events_verified"
+              }
+            }
+          ]
+        },
+        {
+          "id": "task:identify-bass-and-intervals",
+          "state": "blocked_missing_or_unverified_evidence",
+          "routes": [
+            {
+              "id": "annotated-example",
+              "state": "blocked_missing_or_unverified_evidence",
+              "missing": [
+                "pitch_classes_provided",
+                "bass_trajectory_annotated"
+              ],
+              "evidence_refs_by_fact": {}
+            },
+            {
+              "id": "notated-score",
+              "state": "blocked_missing_or_unverified_evidence",
+              "missing": [
+                "score_with_notated_bass",
+                "score_note_events_verified"
+              ],
+              "evidence_refs_by_fact": {}
+            }
+          ]
+        },
+        {
+          "id": "task:compare-six-four-functions",
+          "state": "blocked_missing_or_unverified_evidence",
+          "routes": [
+            {
+              "id": "annotated-tonal-example",
+              "state": "blocked_missing_or_unverified_evidence",
+              "missing": [
+                "bass_trajectory_annotated",
+                "voice_leading_annotated",
+                "previous_next_harmony_annotated",
+                "tonal_frame_declared"
+              ],
+              "evidence_refs_by_fact": {}
+            }
+          ]
+        },
+        {
+          "id": "task:examine-phrase",
+          "state": "blocked_missing_or_unverified_evidence",
+          "routes": [
+            {
+              "id": "annotated-phrase",
+              "state": "blocked_missing_or_unverified_evidence",
+              "missing": [
+                "phrase_context_annotated",
+                "voice_leading_annotated",
+                "tonal_frame_declared"
+              ],
+              "evidence_refs_by_fact": {}
+            }
+          ]
+        },
+        {
+          "id": "task:perceptual-closure",
+          "state": "blocked_missing_or_unverified_evidence",
+          "routes": [
+            {
+              "id": "audio-and-listening",
+              "state": "blocked_missing_or_unverified_evidence",
+              "missing": [
+                "audio_excerpt_verified",
+                "audition_annotated"
+              ],
+              "evidence_refs_by_fact": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": {
+        "path": "docs/courses/berklee/CM-343/triangle-gm80-81-memes-frappes.mid",
+        "git_blob_sha1": "e0cc6f3a7e0656c6264d8dcf58d160b9b35d53f3",
+        "sha256": "6808bfd445cee40f34b288fdb3a283fce0daefd978797e11d0898c908d50027e"
+      },
+      "template": {
+        "path": "analysis/planning/examples/percussion-physical.case.json",
+        "source_blob_sha1": "e8a5567680ea8f05c52bc467673b7b669ab09dee",
+        "projection": "schema_version, case_id, question, scope_ref, fact_registry_ref, tasks"
+      },
+      "scope_ref": "midi:sha256:6808bfd445cee40f34b288fdb3a283fce0daefd978797e11d0898c908d50027e:ticks:0:15361:profile:gm1",
+      "observation": {
+        "id": "observation:midi-attacks:ef4bd9622e499727c1f2c07d",
+        "attack_count": 32,
+        "ticks_per_quarter": 480,
+        "event_refs": [
+          "track:1:event:1",
+          "track:1:event:3",
+          "track:1:event:5",
+          "track:1:event:7",
+          "track:1:event:9",
+          "track:1:event:11",
+          "track:1:event:13",
+          "track:1:event:15",
+          "track:1:event:17",
+          "track:1:event:19",
+          "track:1:event:21",
+          "track:1:event:23",
+          "track:1:event:25",
+          "track:1:event:27",
+          "track:1:event:29",
+          "track:1:event:31",
+          "track:1:event:33",
+          "track:1:event:35",
+          "track:1:event:37",
+          "track:1:event:39",
+          "track:1:event:41",
+          "track:1:event:43",
+          "track:1:event:45",
+          "track:1:event:47",
+          "track:1:event:49",
+          "track:1:event:51",
+          "track:1:event:53",
+          "track:1:event:55",
+          "track:1:event:57",
+          "track:1:event:59",
+          "track:1:event:61",
+          "track:1:event:63"
+        ],
+        "keys_by_channel": {
+          "9": [
+            80,
+            81
+          ]
+        },
+        "gm_conditional_observation": "observation:gm-channel10-attacks:ef4bd9622e499727c1f2c07d"
+      },
+      "reader_warnings": [
+        {
+          "kind": "sysex_not_interpreted",
+          "event_id": "track:0:event:1",
+          "meaning": "Device resets or profiles may affect instrument and channel interpretation"
+        }
+      ],
+      "facts": [
+        {
+          "id": "evidence:ef4bd9622e499727c1f2c07d:midi_note_events_verified",
+          "fact": "midi_note_events_verified",
+          "state": "verified",
+          "observation_refs": [
+            "observation:midi-attacks:ef4bd9622e499727c1f2c07d"
+          ]
+        },
+        {
+          "id": "evidence:ef4bd9622e499727c1f2c07d:gm_profile_declared",
+          "fact": "gm_profile_declared",
+          "state": "declared",
+          "observation_refs": []
+        },
+        {
+          "id": "evidence:ef4bd9622e499727c1f2c07d:gm_percussion_events_supplied",
+          "fact": "gm_percussion_events_supplied",
+          "state": "declared",
+          "observation_refs": [
+            "observation:gm-channel10-attacks:ef4bd9622e499727c1f2c07d"
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "task:describe-encoded-strikes",
+          "state": "ready_under_declared_assumptions",
+          "routes": [
+            {
+              "id": "gm-observation",
+              "state": "ready_under_declared_assumptions",
+              "missing": [],
+              "evidence_refs_by_fact": {
+                "gm_percussion_events_supplied": "evidence:ef4bd9622e499727c1f2c07d:gm_percussion_events_supplied",
+                "gm_profile_declared": "evidence:ef4bd9622e499727c1f2c07d:gm_profile_declared"
+              }
+            }
+          ]
+        },
+        {
+          "id": "task:physical-gesture-constraints",
+          "state": "blocked_missing_or_unverified_evidence",
+          "routes": [
+            {
+              "id": "layout-annotation",
+              "state": "blocked_missing_or_unverified_evidence",
+              "missing": [
+                "physical_layout_annotated",
+                "performer_assignment_annotated",
+                "sticks_and_changes_annotated"
+              ],
+              "evidence_refs_by_fact": {
+                "gm_percussion_events_supplied": "evidence:ef4bd9622e499727c1f2c07d:gm_percussion_events_supplied"
+              }
+            }
+          ]
+        },
+        {
+          "id": "task:acoustic-decay",
+          "state": "blocked_missing_or_unverified_evidence",
+          "routes": [
+            {
+              "id": "recording-and-damping",
+              "state": "blocked_missing_or_unverified_evidence",
+              "missing": [
+                "audio_recording_verified",
+                "damping_gesture_annotated"
+              ],
+              "evidence_refs_by_fact": {}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusions": {
+    "observed_attacks": 140,
+    "task_states": {
+      "ready_verified_inputs": 1,
+      "ready_under_declared_assumptions": 1,
+      "blocked_missing_or_unverified_evidence": 6
+    },
+    "operations_executed_by_planner": 0,
+    "musicological_conclusions_validated": 0
+  }
+}

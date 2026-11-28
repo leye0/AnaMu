@@ -24,3 +24,21 @@ Les fenêtres d'attaque ne représentent pas l'état sonore continu.
 Les adaptateurs audio, partition et contexte restent à développer. Une
 route prête signifie que ses entrées sont fournies selon ce contrat,
 pas que l'opération a été exécutée ni qu'une interprétation est vraie.
+
+## Exécution réelle du 28 novembre 2026
+
+Le [relevé d'exécution](../examples/proof-inputs-2026-11-28.json) conserve les
+empreintes des trois modules Python et des deux MIDI. Le lecteur, l'adaptateur
+et le planificateur ont été reconstitués localement avec des blobs Git identiques ;
+le helper SHA-256, les champs de tâches des cas et les identifiants du registre
+ont été repris pour cette exécution partielle, sans checkout complet.
+
+| Source | Attaques | Route disponible | Questions bloquées |
+| --- | ---: | --- | ---: |
+| CM-211, trois figures 6/4 | 108 | Inventaire MIDI, entrées vérifiées par le lecteur | 4 |
+| CM-343, triangle GM | 32 | Attaques GM sous hypothèse déclarée | 2 |
+
+Le message SysEx de CM-343 n'est pas interprété. Les hypothèses GM restent
+explicites. Aucune fonction harmonique, résonance, jouabilité ou appréciation
+perceptive n'a été validée. Ce sont deux parcours réels d'exécution, pas une
+suite de tests ni un audit intégral du dépôt.
