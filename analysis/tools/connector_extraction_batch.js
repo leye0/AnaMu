@@ -59,6 +59,7 @@ if(!packetMode&&(!Array.isArray(batchSpec.entries)||!batchSpec.entries.length))f
 if(packetMode&&(!Array.isArray(batchSpec.paths)||!batchSpec.paths.length))fail("Packet requires source paths");
 const info=JSON.parse((await tools.mcp__GitHub__fetch({url:"https://api.github.com/repos/"+repo+"/branches/"+branch})).result.content);
 const parent=info.commit.sha;
+if(!packetMode&&typeof batchSpec.expected_head!=="string")fail("Publication requires expected_head from reviewed source packet");
 if(batchSpec.expected_head&&batchSpec.expected_head!==parent)fail("Source packet head has changed; refresh before publishing");
 const read=async path=>{
   let f=(await tools.mcp__GitHub__fetch_file({repository_full_name:repo,ref:parent,path})).result;
@@ -135,14 +136,14 @@ for(const [j,e] of batchSpec.entries.entries()){
   review.review_contract="passage_review_v2";
   review.review_dimensions=e.review_dimensions;
   const dims=["definitions","methods","conditions","exceptions","counterexamples","source_attribution"];
-  if(!review.review_dimensions||dims.some(k=>!["examined","not_present","open"].includes(review.review_dimensions[k])))fail("Review must classify every extraction dimension");
+  if(!review.review_dimensions||Object.keys(review.review_dimensions).length!==dims.length||dims.some(k=>!["examined","not_present","open"].includes(review.review_dimensions[k])))fail("Review must classify every extraction dimension");
   if(review.disposition!=="partial_extraction"&&dims.some(k=>review.review_dimensions[k]==="open"))fail("Closed review has open dimensions");
   reviews.push(review);
   if(!e.assertions.length){
     if(review.disposition!=="no_analytic_assertion_in_passage")fail("Empty assertions for extracted passage");
     continue
   }
-  if(!e.target&&!e.sense_id&&!e.unresolved_subject)fail("An extraction must name a concept, sense or unresolved subject");
+  if(!e.target&&!e.sense_id)requireText(e.unresolved_subject,"unresolved subject");
   if(e.target&&!conceptIds.has(e.target))fail("Unknown concept "+e.target);
   if(e.sense_id&&!senseIds.has(e.sense_id))fail("Unknown candidate sense "+e.sense_id);
   if(e.target&&e.sense_id)fail("Choose a canonical or candidate sense, not both");

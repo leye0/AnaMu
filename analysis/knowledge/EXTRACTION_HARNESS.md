@@ -49,25 +49,62 @@ Ce pont est réservé à l'environnement du connecteur. La commande Python est
 l'interface maintenable sur un checkout complet. Le code des sources n'est
 jamais exécuté.
 
-## État du registre après les premiers lots
+## Contrat renforcé de lecture et de publication (v2)
+
+Pour une publication nouvelle, le lecteur fournit la révision de matière,
+le commit de lecture, l'empreinte du passage et, pour chaque assertion,
+un extrait littéral unique du passage. Le pont conserve les bornes en
+points de code Unicode et l'empreinte SHA-256 de cet extrait. Il exige
+également les conditions d'application et une limite d'inférence explicite.
+Les assertions v1 restent conservées sans réécriture de leur provenance.
+
+La revue de passage classe séparément six dimensions : définitions,
+méthodes, conditions, exceptions, contre-exemples et attribution.
+Chaque dimension est examinée, absente ou ouverte. Une clôture refuse
+les dimensions ouvertes et les questions d'extraction restantes.
+Les assertions ne sont pas déduites automatiquement de la présence de
+mots-clés. Un sujet non réconcilié peut être nommé explicitement sans
+lui inventer de concept ni d'identité canonique.
+
+```sh
+python -m anamu_analysis.extraction queue --state not_examined_for_extraction --source-prefix docs/courses/ --limit 15 --packets
+python -m anamu_analysis.extraction queue --state partial_extraction --limit 10 --packets
+python -m anamu_analysis.extraction audit-anchors
+```
+
+Le pont GitHub propose aussi une lecture groupée sans publication avec
+`batchSpec.mode = "packet"`, `paths` et éventuellement `material_ids`.
+Le résultat est borné aux fragments demandés, accompagné de la révision et
+du commit. Un changement de tête entre lecture et publication oblige à
+relire la source. Les documents ne sont jamais exécutés. L'audit des
+ancrages est un contrôle documentaire, pas un jugement musicologique.
+
+## État courant de l'extraction
 
 | Indicateur | Valeur |
 | --- | ---: |
 | Unités documentaires | 7 323 |
-| Unités portant une assertion candidate | 30 |
-| Assertions candidates | 66 |
-| Revues explicites de passages | 12 |
+| Unités portant une assertion candidate | 74 |
+| Assertions candidates | 154 |
+| Assertions v2 avec ancrage d'extrait exact | 88 |
+| Revues explicites de passages | 56 |
+| Passages clos après extraction | 44 |
 | Passages clos sans assertion analytique | 2 |
 | Extractions explicitement partielles | 10 |
-| Labels de preuve distincts utilisés par les assertions | 135 |
-| Labels correspondant exactement au vocabulaire défini | 34 |
-| Labels non réconciliés | 101 |
+| Extractions historiques sans disposition de clôture | 20 |
+| Mentions avec sujet explicitement non réconcilié (sans lien) | 26 |
 
-Les 20 unités des lots antérieurs ne disposent pas encore de disposition
-de clôture; aucune assertion n'est considérée comme entièrement extraite
-ou validée. Les deux décisions documentaires concernent le titre et
-la rubrique Lacunes de MTE 1503, dont les textes ont été effectivement
-relus et identifiés par leurs empreintes. Le dénominateur des assertions
-à extraire reste inconnu. Les compteurs ci-dessus ont été recoupés via
-les données GitHub; la commande Python status sur l'intégralité du
-catalogue n'a pas été exécutée faute de checkout complet.
+Les 44 nouvelles clôtures concernent les mécanismes 1–44 des deux
+synthèses thématiques AnaMu d'Open Music Theory. Les textes des fragments
+ont été lus et leurs empreintes et ancrages ont été contrôlés sur GitHub
+après publication : 28 assertions dans la première synthèse et 60 dans
+la seconde, zéro divergence détectée. La clôture désigne une passe sur
+la synthèse disponible, non une lecture exhaustive des traités externes,
+qui n'ont pas été consultés à nouveau. Elle ne valide aucune interprétation
+d'œuvre et ne clôt aucun cours. Les cinq lots sont dans mentions/omt-*.json.
+
+Il reste 7 277 unités non closes. Le dénominateur des connaissances
+à extraire demeure inconnu. La commande Python d'audit intégral et
+la nouvelle CLI de paquets n'ont pas été exécutées sur un checkout
+complet dans cette reprise. Les contrôles effectués ici ont utilisé
+les octets et registres réellement récupérés via GitHub.
