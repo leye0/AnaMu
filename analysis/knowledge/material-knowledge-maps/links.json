@@ -1182,6 +1182,79 @@
       "justification": "Une mesure en bits dépend de la représentation des événements, du contexte et de la distribution probabiliste.",
       "state": "awaiting_target_reconciliation",
       "does_not_establish": "Une valeur de surprise ne mesure pas une émotion, un plaisir ou une attente individuelle."
+    },
+    {
+      "id": "material-knowledge:0000066",
+      "material_id": "material:0001487",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "unresolved_concept_or_assertion",
+        "id": null,
+        "proposed_subject": "Attribution historique des pratiques musicales",
+        "candidate_sense_id": "candidate-sense:00010"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Rapprocher texture, hauteurs, voix et instrumentation de références historiques attribuables."
+      ],
+      "context": "Comparaison située de partitions et enregistrements datés ; notice de cours et méthode AnaMu distinctes.",
+      "justification": "Rapprocher texture, hauteurs, voix et instrumentation de références historiques attribuables.",
+      "state": "awaiting_target_reconciliation",
+      "does_not_establish": "Un patron de notes ne suffit pas à dater une œuvre."
+    },
+    {
+      "id": "material-knowledge:0000067",
+      "material_id": "material:0000278",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "form.adaptive_transition",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Distinguer ajout de couche en phase et changement de segment en confrontant les horloges et trajectoires."
+      ],
+      "context": "Scénario comparatif de musique dynamique, non démonstration de middleware.",
+      "justification": "Distinguer ajout de couche en phase et changement de segment en confrontant les horloges et trajectoires.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "BPM et tonalité communs ne prouvent pas la compatibilité ni le comportement réel."
+    },
+    {
+      "id": "material-knowledge:0000068",
+      "material_id": "material:0000279",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "form.adaptive_transition",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Comparer indépendamment signal de départ, continuité de queue et trajet rythmique."
+      ],
+      "context": "Quatre variantes didactiques de boucle synthétique ; aucune exécution Wwise.",
+      "justification": "Comparer indépendamment signal de départ, continuité de queue et trajet rythmique.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Écart PCM local et alignement MIDI ne constituent pas un seuil d'audibilité."
+    },
+    {
+      "id": "material-knowledge:0000069",
+      "material_id": "material:0000284",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "form.adaptive_transition",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Distinguer attaque entière, dévoilement en cours, prochaine attaque et prochain tour ; préserver les arbitrages."
+      ],
+      "context": "Comparatif linéaire de quatre réactions originales, pas une mesure de latence d'un moteur réel.",
+      "justification": "Distinguer attaque entière, dévoilement en cours, prochaine attaque et prochain tour ; préserver les arbitrages.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Une moyenne RMS voisine ne prouve pas une même attaque ni une même perception."
     }
   ]
 }

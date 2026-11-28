@@ -213,6 +213,29 @@
       "canonical_concept_id": null,
       "decision": "pending_reconciliation",
       "can_be_documentary_only": false
+    },
+    {
+      "id": "candidate-sense:00010",
+      "proposed_key": "historical-contextual-attribution",
+      "preferred_name": "Attribution historique contextualisée de pratiques musicales",
+      "source_material_id": "material:0001487",
+      "source_document_path": "docs/courses/berklee/MHIS-201.md",
+      "source_role": "anamu_comparative_explanation",
+      "analytic_question": "Quelles relations entre pratiques observées et références historiques identifiées sont soutenues, et avec quelles limites ?",
+      "scope_note": "Comparaison de partitions et enregistrements datés, sans attribution automatique de période.",
+      "requires_evidence": [
+        "identified_historical_sources",
+        "dated_score_and_recording",
+        "localized_music_observations"
+      ],
+      "does_not_establish": [
+        "dating_from_note_pattern",
+        "complete_course_syllabus"
+      ],
+      "review_state": "assistant_source_checked_candidate_needs_domain_review",
+      "canonical_concept_id": null,
+      "decision": "pending_reconciliation",
+      "can_be_documentary_only": true
     }
   ]
 }
