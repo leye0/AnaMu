@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "edition": "dispositions-documentaires-2026-11-28",
+  "scope": "Deux fragments documentaires relus de MTE 1503, sans assertion analytique à fabriquer.",
+  "material_registry_path": "analysis/knowledge/materials/catalog.json",
+  "source_manifest_path": "analysis/knowledge/source-manifest.json",
+  "concept_registry_path": "analysis/knowledge/concepts.json",
+  "review_status": "assistant_source_checked_candidates_not_independently_validated",
+  "mentions": [],
+  "assertions": [],
+  "passage_reviews": [
+    {
+      "material_id": "material:0002401",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/courses/udem/MTE-1503.md",
+        "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+        "content_sha256": "8fee87b4a0b3681ce58cda9a37d82f912106674ef2aa65cedfcccb7d7230db93",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:730277e545994ee75885ce7e",
+          "heading_path": [
+            "MTE 1503 — Composition électroacoustique"
+          ],
+          "start_line": 1,
+          "end_line": 4,
+          "subtree_end_line": 62
+        }
+      },
+      "disposition": "no_analytic_assertion_in_passage",
+      "reason": "Ce fragment contient uniquement le titre de la fiche et la date de consultation. Il ne définit aucun mécanisme ni procédure musicale.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": []
+    },
+    {
+      "material_id": "material:0002404",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/courses/udem/MTE-1503.md",
+        "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+        "content_sha256": "58d0c6783906c2e37d4419a08c1b84e85f015ebf60740cfe1d87ed4c60beb24a",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:347418403ccfbb0dc32e9bce",
+          "heading_path": [
+            "MTE 1503 — Composition électroacoustique",
+            "Lacunes"
+          ],
+          "start_line": 13,
+          "end_line": 16,
+          "subtree_end_line": 16
+        }
+      },
+      "disposition": "no_analytic_assertion_in_passage",
+      "reason": "Le fragment constate l’absence de plan, œuvres et consignes de l’atelier. Il ne contient aucune proposition analytique; la lacune documentaire reste réelle et ne devient pas une compétence.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": []
+    }
+  ],
+  "coverage": {
+    "selected_material_units": 2,
+    "mentions": 0,
+    "candidate_assertions": 0,
+    "assertions_human_reviewed": 0
+  },
+  "revision_contract": "Review and claims expire when material revision or source span changes."
+}
