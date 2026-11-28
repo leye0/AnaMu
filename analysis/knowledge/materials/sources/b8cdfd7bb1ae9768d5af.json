@@ -1,0 +1,580 @@
+{
+  "source_document": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+  "units": [
+    {
+      "id": "material:0004388",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **11 novembre 2026 · premier travail documentaire réellement orienté SUJETS, non collecte supplémentaire de syllabus inaccessibles.** Source fondamentale : [Open Music Theory, sommaire](https://openmusictheory.github.io/contents), ressource",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+          "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:bb34e2c21e0812121f68d911",
+            "heading_path": [
+              "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés"
+            ],
+            "start_line": 1,
+            "end_line": 6,
+            "subtree_end_line": 181
+          },
+          "content_sha256": "073f20155ba164f8f8077a043a4eb4309efdaf264db8de5c5389f2dacdd8a436",
+          "body_sha256": "54bd8c217c59345b4ec571b7be7e7dbaec67eeecfff193d553d3b239387307f2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004389",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "1. Contrepoint à deux voix, première espèce — `counterpoint_species_1_1`",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Mécanisme attesté :** Une note du contrepoint pour une note du cantus firmus (1:1); lignes mélodiques indépendantes mais simultanément consonantes; mouvements contraire, oblique, similaire ou parallèle; éviter les quintes/octaves parallèl",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+          "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:eafbd92c1d9001f9ffb316b3",
+            "heading_path": [
+              "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+              "1. Contrepoint à deux voix, première espèce — `counterpoint_species_1_1`"
+            ],
+            "start_line": 7,
+            "end_line": 18,
+            "subtree_end_line": 18
+          },
+          "content_sha256": "45387a32d182a4bebad7c0d6c1f9a41804064a108d69db456755b3e100594a93",
+          "body_sha256": "4741eecec58b2d3297679f416c67c51769f68defbb908ebe75edf1b620ba7529",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004390",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "2. Deuxième espèce et notes de passage — `counterpoint_species_2_1`",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Mécanisme attesté :** Deux notes de contrepoint contre une note de cantus firmus (2:1); temps fort consonant et dissonance de passage autorisée sur temps faible lorsqu'elle est approchée et quittée par mouvement conjoint; séparation entre",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+          "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0d8cd7072c75b7387d7ec34b",
+            "heading_path": [
+              "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+              "2. Deuxième espèce et notes de passage — `counterpoint_species_2_1`"
+            ],
+            "start_line": 19,
+            "end_line": 30,
+            "subtree_end_line": 30
+          },
+          "content_sha256": "df5fb20c5801c7647c583dd74e5789286c599c04bf262e19e222afb3e580b191",
+          "body_sha256": "ff487a0da242fc638172feeca634119000499f737e380600f2042a2585d2a55c",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004391",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "3. Fonction harmonique, tonalité classique — `harmonic_function`",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Mécanisme attesté :** Dans la pratique tonale historique, classifier des harmonies par rôles T (tonique), S/PD (sous-dominante/prédominante) et D (dominante), en considérant l'attraction des degrés et la place des accords dans la phrase.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+          "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c8c271f84ec38236c9ba9b87",
+            "heading_path": [
+              "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+              "3. Fonction harmonique, tonalité classique — `harmonic_function`"
+            ],
+            "start_line": 31,
+            "end_line": 42,
+            "subtree_end_line": 42
+          },
+          "content_sha256": "3a1dff886f8605990f7d119f28bf706f554091115f550cacfba938ecb6982bb6",
+          "body_sha256": "cddfe43cffd5b8a27a07f9cfcb1d96ff29c7dbbf7f402db1ff7a9299a12f1358",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004392",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "4. Tonicisation versus modulation — `modulation_tonicization`",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Mécanisme attesté :** Tonicisation : emprunt bref pour accentuer un degré tonal; modulation : nouvelle tonique maintenue et stabilisée, notamment par cadence dans la nouvelle tonalité.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+          "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:55e86ebff53f1d4449a2c140",
+            "heading_path": [
+              "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+              "4. Tonicisation versus modulation — `modulation_tonicization`"
+            ],
+            "start_line": 43,
+            "end_line": 54,
+            "subtree_end_line": 54
+          },
+          "content_sha256": "23fc7a6eea20a934f41b1f5faa290755a1de1b760610fba07f0ccb6c8d6d41b9",
+          "body_sha256": "5ee610df56504a76fe62418793e2d5ab331bdad7c766358bf94985e8be55b9ed",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004393",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "5. Phrase-type sentence (présentation et continuation) — `sentence`",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Mécanisme attesté :** Présentation : idée de base réitérée et prolongation de tonique; continuation : fragmentation, liquidation, répétitions séquentielles, accélération du rythme de surface ou harmonique, puis cadence.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+          "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:3732ddd4f7946c9f82624037",
+            "heading_path": [
+              "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+              "5. Phrase-type sentence (présentation et continuation) — `sentence`"
+            ],
+            "start_line": 55,
+            "end_line": 66,
+            "subtree_end_line": 66
+          },
+          "content_sha256": "3d19e761be7aef7d50f5f10e0206f6e0bded169990683196668b988b905a4832",
+          "body_sha256": "d2098b7b1832f855c263ef19ab6f6d1c81b5cfd36bbd3da4e95f9919f90c1831",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004394",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "6. Période : antécédent et conséquent — `period`",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Mécanisme attesté :** Deux phrases complémentaires, l'antécédent se termine par une cadence relativement faible, le conséquent reprend l'idée de base et mène à une cadence plus forte; exemple Haydn Trio Hob. XV:27, III.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+          "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:939441c394d6484e9f53ec2b",
+            "heading_path": [
+              "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+              "6. Période : antécédent et conséquent — `period`"
+            ],
+            "start_line": 67,
+            "end_line": 78,
+            "subtree_end_line": 78
+          },
+          "content_sha256": "fd93bfe43c2342207feba0fe60eaf81f1dfe5086ba030bd4e755e8c2e2a2e1b6",
+          "body_sha256": "22d1dd2b9c99bca7522a795f52c76888adb8da572a87b2543118944745f06857",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004395",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "7. Modes diatoniques et centre tonal — `diatonic_modes`",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Mécanisme attesté :** Une collection de sept classes de hauteurs peut générer des modes différents selon le centre privilégié (ionien, dorien, phrygien, lydien, mixolydien, éolien, locrien); distinguer collection et échelle dotée d'une to",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+          "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:4cc80a84fee77e5344d33443",
+            "heading_path": [
+              "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+              "7. Modes diatoniques et centre tonal — `diatonic_modes`"
+            ],
+            "start_line": 79,
+            "end_line": 90,
+            "subtree_end_line": 90
+          },
+          "content_sha256": "93f34bbf13bddc010c11a6e8cb048f5417b0c42a3271fc278083292059d95f8f",
+          "body_sha256": "a61f4c5a00fc51e835d9a82f0bc0c8cfdebf9d866a663110dca6e6fba7ff99c4",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004396",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "8. Collection pentatonique sans demi-ton — `pentatonic`",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Mécanisme attesté :** La pentatonique majeure peut se construire avec les degrés 1,2,3,5,6 d'une gamme majeure; plusieurs degrés de la même collection peuvent jouer le rôle de centre.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+          "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ef3cec5f349abc1d8347cf93",
+            "heading_path": [
+              "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+              "8. Collection pentatonique sans demi-ton — `pentatonic`"
+            ],
+            "start_line": 91,
+            "end_line": 102,
+            "subtree_end_line": 102
+          },
+          "content_sha256": "b766999bc1e9a5de99a24dfee7d8b8cc157606774eb1bd006838d7519cea3e68",
+          "body_sha256": "661e3c1067d2c71416d3c50ab5fef68fec418999b33b1b5656725013ccc9bccc",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004397",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "9. Collection par tons entiers — `whole_tone`",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Mécanisme attesté :** Collection {0,2,4,6,8,10} ou sa transposition chromatique complémentaire {1,3,5,7,9,11}; symétrie et absence d'attraction par demi-ton dans le matériau.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+          "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5352b61d822199c686c1af98",
+            "heading_path": [
+              "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+              "9. Collection par tons entiers — `whole_tone`"
+            ],
+            "start_line": 103,
+            "end_line": 114,
+            "subtree_end_line": 114
+          },
+          "content_sha256": "0b654764069ccae357d671fa033255d24d3181a1d2960a0cbc14f2553a4257e3",
+          "body_sha256": "da60cfa01f8c3e8b5f73d7b0999bf7def43f7e55f26a45aac827182bb58c356b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004398",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "10. Collection octatonique et transposition limitée — `octatonic`",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Mécanisme attesté :** Huit classes par alternance de demi-tons et tons; invariance par transposition T3, T6, T9; seulement trois collections octatoniques distinctes.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+          "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1888e57a52f0a79082b2c1e1",
+            "heading_path": [
+              "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+              "10. Collection octatonique et transposition limitée — `octatonic`"
+            ],
+            "start_line": 115,
+            "end_line": 126,
+            "subtree_end_line": 126
+          },
+          "content_sha256": "f05ab6523fd8a4bdfeb71afef898aab1bdd93cfb6d66eaaf35bbd9bd0327ea03",
+          "body_sha256": "5eba3301a63279cc1219901d9f1c2dfd1958759c51272f5176562fdd6214a452",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004399",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "11. Classe d'ensembles et forme première — `pitch_class_set`",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Mécanisme attesté :** Regrouper les ensembles de classes de hauteurs apparentés par transposition/inversion; représentation normalisée par forme première et identité de contenu intervallique.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+          "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:0a12f827ec69e35717f92bd4",
+            "heading_path": [
+              "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+              "11. Classe d'ensembles et forme première — `pitch_class_set`"
+            ],
+            "start_line": 127,
+            "end_line": 138,
+            "subtree_end_line": 138
+          },
+          "content_sha256": "093ca114f3d4ba361210cba36c02c8fee7744e87f05404861b41ca25e6d74f20",
+          "body_sha256": "10b6aee64ca27a92cba7a4718af01fb8f5f0881fd58f8bc1bf8c835fbd8064ba",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004400",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "12. Séries dodécaphoniques et opérations — `twelve_tone`",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Mécanisme attesté :** Une série ordonnée de douze classes de hauteurs (une fois chacune dans la séquence de référence); variantes prime P, inversion I, rétrograde R et rétrograde de l'inversion RI, avec transpositions.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+          "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:719d5ab8010976246c1b6cce",
+            "heading_path": [
+              "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+              "12. Séries dodécaphoniques et opérations — `twelve_tone`"
+            ],
+            "start_line": 139,
+            "end_line": 150,
+            "subtree_end_line": 150
+          },
+          "content_sha256": "65cb8a9e30b49b577b0b2e41158acac8c9caa14d1604d990fb8b403eba8aa020",
+          "body_sha256": "54a01e1c381f139f47030bb518a940413cb977a7ccad9505f1b72376248eb0aa",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004401",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "13. Syncopes de déplacement métrique — `syncopation`",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Mécanisme attesté :** Déplacer vers un temps faible des attaques normalement attendues sur le temps fort; dans un modèle courant, une séquence métriquement régulière est anticipée d'une demi-unité au niveau choisi.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+          "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:dd7c89b77f2f3b23e62d3cbf",
+            "heading_path": [
+              "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+              "13. Syncopes de déplacement métrique — `syncopation`"
+            ],
+            "start_line": 151,
+            "end_line": 162,
+            "subtree_end_line": 162
+          },
+          "content_sha256": "d698416cf6a2fd8f7fb613dea1297d0e928a9759c7b10f2554f5cddde62c6e23",
+          "body_sha256": "b42dfd8fb122da5263747a5723d03cfac7b2786104ae77f897e37d4ef09f4ba2",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004402",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "14. Groupements métriques 3+3+2 — `grouping_3_3_2`",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Mécanisme attesté :** Organiser huit subdivisions en deux groupes de trois puis un de deux; distinguer groupement régulier subdivisé en binaire de triolet réel et possibles variantes 3+2+3, 2+3+3.",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+          "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:c974e78528cd564939ead3ac",
+            "heading_path": [
+              "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+              "14. Groupements métriques 3+3+2 — `grouping_3_3_2`"
+            ],
+            "start_line": 163,
+            "end_line": 174,
+            "subtree_end_line": 174
+          },
+          "content_sha256": "9bac4115e6bf2d04560f5b9d80e236c07f591980582b7566579237a7a1f26ae8",
+          "body_sha256": "f87b70f8d5f9a7985017c00e05ef3556a10a170cba4c675ade7c6659cb891238",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004403",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Couverture de ce premier lot, distincte des cours",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : - **14 mécanismes/objets documentés** depuis **10 chapitres/pages pédagogiques** : contrepoint (2), harmonie et modulation (2), forme (2), modes/collections (4), ensembles de classes/dodécaphonisme (2), rythme et groupement (2).",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/subject-research/2026-11-11-first-14-music-theory-mechanisms-primary-educational-sources.md",
+          "document_sha256": "4acb73df51de196c85780f7b377d4eae447f29564ccf226bc6875dbf5309d6e9",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:5c9203c03a1bf83db760f847",
+            "heading_path": [
+              "AnaMu — phase 1B, premier lot de 14 mécanismes musicaux documentés",
+              "Couverture de ce premier lot, distincte des cours"
+            ],
+            "start_line": 175,
+            "end_line": 181,
+            "subtree_end_line": 181
+          },
+          "content_sha256": "4a9970c0820f7f4363e4d4d2b9811f6169c2b87224b1fbcadf46ad24be8f7c9c",
+          "body_sha256": "db3fc087dded9b13f7f011022a9d4561b8109ba0714d7d818e6ebb34f1c4ca20",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}

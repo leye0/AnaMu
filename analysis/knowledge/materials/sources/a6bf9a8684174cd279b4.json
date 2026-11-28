@@ -1,0 +1,294 @@
+{
+  "source_document": "docs/university-curriculum.md",
+  "units": [
+    {
+      "id": "material:0004409",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "AnaMu — référentiel universitaire de composition et d'orchestration",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Statut : contrat de couverture à établir, pas certification d'exhaustivité.**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/university-curriculum.md",
+          "document_sha256": "a333d5e48eb2e73933c153eead0a4e8e5d2baf4d9087f940e607792c9eca3e88",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:27dcdca8e0f571445d3d4b6f",
+            "heading_path": [
+              "AnaMu — référentiel universitaire de composition et d'orchestration"
+            ],
+            "start_line": 1,
+            "end_line": 13,
+            "subtree_end_line": 163
+          },
+          "content_sha256": "da0ca466c62aa5f9fbe59d54e1ec39c00750e2dfd2eba14fdcb443066a3bab2f",
+          "body_sha256": "70644e3ad5f89d3e28294bb454e5f1f33ffb810ee916f02e22fbdfe78911d36d",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004410",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Distinction entre diplôme et périmètre musical",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Les cursus originaux comportent de la culture générale ; leurs exports officiels restent fidèles, mais les contenus sans lien musical sont exclus du registre AnaMu. [Filtre](music-only-scope.md) : 386 entrées actives et huit familles musica",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/university-curriculum.md",
+          "document_sha256": "a333d5e48eb2e73933c153eead0a4e8e5d2baf4d9087f940e607792c9eca3e88",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:ebb708d48332254aebf94a5f",
+            "heading_path": [
+              "AnaMu — référentiel universitaire de composition et d'orchestration",
+              "Distinction entre diplôme et périmètre musical"
+            ],
+            "start_line": 14,
+            "end_line": 17,
+            "subtree_end_line": 17
+          },
+          "content_sha256": "d6dc7d4f5b2bceaf83f78e50c36fe6a039f63f04d980970872921fabf6095855",
+          "body_sha256": "aa5a84ba7c62fb9fb5d65978b742f2228959779cdcab3db5419281771bcb4b3f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004411",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Priorité opérationnelle actuelle : couverture thématique, avant recherche bibliographique",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Pour les 386 entrées musicales, produire d'abord une description détaillée des sujets",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/university-curriculum.md",
+          "document_sha256": "a333d5e48eb2e73933c153eead0a4e8e5d2baf4d9087f940e607792c9eca3e88",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:09a3aa608f4b6fd4d917ff1f",
+            "heading_path": [
+              "AnaMu — référentiel universitaire de composition et d'orchestration",
+              "Priorité opérationnelle actuelle : couverture thématique, avant recherche bibliographique"
+            ],
+            "start_line": 18,
+            "end_line": 28,
+            "subtree_end_line": 28
+          },
+          "content_sha256": "c2fcd5ce8aff02f3deb24c9bec0587421f6cc1d2d6d1b666d3d64d06ca416c22",
+          "body_sha256": "7adaab9d69cde5e6e668927e7ed823f938f57c7b113491b2b83a97833ecabe6b",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004412",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "1. La décision fondamentale",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Maintenant, nous reconstruisons d'abord la matière des cours.** Pour",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/university-curriculum.md",
+          "document_sha256": "a333d5e48eb2e73933c153eead0a4e8e5d2baf4d9087f940e607792c9eca3e88",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:9d00b46662a48d8c0a2ab1e4",
+            "heading_path": [
+              "AnaMu — référentiel universitaire de composition et d'orchestration",
+              "1. La décision fondamentale"
+            ],
+            "start_line": 29,
+            "end_line": 57,
+            "subtree_end_line": 57
+          },
+          "content_sha256": "eebd978a1ed9eb3382f395197281e51eabac71d803910e46e052704370ab835e",
+          "body_sha256": "750b44fef00896409015ceb4eb5efbdbc1f689d940379d4ea5b242251d0d2695",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004413",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "2. Trois programmes témoins, sources primaires",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : **Première triangulation des catalogues :**",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/university-curriculum.md",
+          "document_sha256": "a333d5e48eb2e73933c153eead0a4e8e5d2baf4d9087f940e607792c9eca3e88",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1c58e9e53caaf2a714a8ff94",
+            "heading_path": [
+              "AnaMu — référentiel universitaire de composition et d'orchestration",
+              "2. Trois programmes témoins, sources primaires"
+            ],
+            "start_line": 58,
+            "end_line": 79,
+            "subtree_end_line": 139
+          },
+          "content_sha256": "74d26164acd4c4e24f6cc0115ce49fa83f932c6a005f9e01e80aacf94ed86a1b",
+          "body_sha256": "7b4e2595a3480d9531e452d36d7d32e368d2231ea6d481616f7725449176fe7e",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004414",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Premières divergences pédagogiques qu'AnaMu doit respecter",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Ce tableau ne donne **aucun ordre de qualité** entre les universités :",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/university-curriculum.md",
+          "document_sha256": "a333d5e48eb2e73933c153eead0a4e8e5d2baf4d9087f940e607792c9eca3e88",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:1926026ccd69ae158a00f288",
+            "heading_path": [
+              "AnaMu — référentiel universitaire de composition et d'orchestration",
+              "2. Trois programmes témoins, sources primaires",
+              "Premières divergences pédagogiques qu'AnaMu doit respecter"
+            ],
+            "start_line": 80,
+            "end_line": 109,
+            "subtree_end_line": 109
+          },
+          "content_sha256": "0da60b0af1910e2a4b628c36bc97c1328bb24f6818b278f48c8ff8aef1a83772",
+          "body_sha256": "92196263329e4b6f8b43329b16383e780273ba9f88fbed1109a405f288cc56a5",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004415",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "Règle de maximisation des options",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : 1. **Recenser toutes les possibilités** : cours obligatoires, choix de blocs,",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/university-curriculum.md",
+          "document_sha256": "a333d5e48eb2e73933c153eead0a4e8e5d2baf4d9087f940e607792c9eca3e88",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:f081194c75cd449028b205ad",
+            "heading_path": [
+              "AnaMu — référentiel universitaire de composition et d'orchestration",
+              "2. Trois programmes témoins, sources primaires",
+              "Règle de maximisation des options"
+            ],
+            "start_line": 110,
+            "end_line": 139,
+            "subtree_end_line": 139
+          },
+          "content_sha256": "8b1e13052df80d483b9df0f9fd6544c8347bdc2a990cde0911d8a828f966ca29",
+          "body_sha256": "cfa812abe56cd993207aae63fe583a4f8d097262705eb6cfc3c6cb14f8d1e56f",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    },
+    {
+      "id": "material:0004416",
+      "revision": 1,
+      "kind": "markdown_section",
+      "title": "3. Travail immédiat : connaître vraiment chaque cours",
+      "title_origin": "source_heading_or_key",
+      "description": "Extrait documentaire à qualifier : Pour chaque ligne de ces catalogues, appliquer",
+      "description_origin": "source_proposal_unreviewed",
+      "editorial_review": "unreviewed",
+      "review_required": true,
+      "covers": [],
+      "does_not_cover": [],
+      "notes": [],
+      "source_bindings": [
+        {
+          "document_path": "docs/university-curriculum.md",
+          "document_sha256": "a333d5e48eb2e73933c153eead0a4e8e5d2baf4d9087f940e607792c9eca3e88",
+          "locator": {
+            "kind": "markdown_fragment",
+            "anchor": "fragment:522833bf816473268151d176",
+            "heading_path": [
+              "AnaMu — référentiel universitaire de composition et d'orchestration",
+              "3. Travail immédiat : connaître vraiment chaque cours"
+            ],
+            "start_line": 140,
+            "end_line": 163,
+            "subtree_end_line": 163
+          },
+          "content_sha256": "a87a2e53e12421943ab11ef6c9ebdd2a6b46a0ed1ef39135f7d14abdc350834b",
+          "body_sha256": "71ab9fae0f2b1f62ad09713a1e1ed2125d73a04500890350198015a54a1d9022",
+          "role": "primary"
+        }
+      ],
+      "lifecycle": "active",
+      "locator_review": "unreviewed"
+    }
+  ]
+}
