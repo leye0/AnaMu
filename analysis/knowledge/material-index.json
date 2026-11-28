@@ -9,15 +9,15 @@
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
     "course_material_bindings_active": 3412,
-    "material_knowledge_bindings": 59,
+    "material_knowledge_bindings": 69,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
-    "material_knowledge_bindings_proposed": 52,
-    "material_knowledge_bindings_unresolved": 7,
+    "material_knowledge_bindings_proposed": 56,
+    "material_knowledge_bindings_unresolved": 13,
     "material_knowledge_bindings_confirmed": 0,
-    "extracted_candidate_mentions": 20,
-    "extracted_candidate_assertions": 40,
+    "extracted_candidate_mentions": 30,
+    "extracted_candidate_assertions": 66,
     "extracted_candidate_assertions_stale": 0,
-    "candidate_senses_pending_reconciliation": 7,
+    "candidate_senses_pending_reconciliation": 10,
     "course_documents_with_active_units": 424,
     "source_documents_with_active_units": 530,
     "source_shared_documents_indexed": 76,
@@ -12729,7 +12729,8 @@
     "motif.thematic_identity": [
       "material:0000118",
       "material:0000123",
-      "material:0000220"
+      "material:0000220",
+      "material:0002131"
     ],
     "form.phrase_hierarchy": [
       "material:0000120"
@@ -12743,7 +12744,10 @@
     ],
     "form.adaptive_transition": [
       "material:0000123",
-      "material:0000289"
+      "material:0000289",
+      "material:0000278",
+      "material:0000279",
+      "material:0000284"
     ],
     "rhythm.notated_grid": [
       "material:0000193",
@@ -12766,19 +12770,31 @@
       "material:0000118"
     ],
     "candidate-sense:00003": [
-      "material:0000119"
+      "material:0000119",
+      "material:0002409"
     ],
     "candidate-sense:00004": [
-      "material:0000121"
+      "material:0000121",
+      "material:0003403"
     ],
     "candidate-sense:00005": [
       "material:0000124"
     ],
     "candidate-sense:00006": [
-      "material:0000419"
+      "material:0000419",
+      "material:0002410"
     ],
     "candidate-sense:00007": [
       "material:0002107"
+    ],
+    "candidate-sense:00008": [
+      "material:0002132"
+    ],
+    "candidate-sense:00009": [
+      "material:0002133"
+    ],
+    "candidate-sense:00010": [
+      "material:0001487"
     ]
   }
 }

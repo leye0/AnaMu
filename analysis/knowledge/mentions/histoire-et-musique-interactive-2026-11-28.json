@@ -1,0 +1,661 @@
+{
+  "schema_version": 1,
+  "edition": "histoire-et-musique-interactive-2026-11-28",
+  "scope": "Une méthode historique et trois études comparatives de musique interactive.",
+  "material_registry_path": "analysis/knowledge/materials/catalog.json",
+  "source_manifest_path": "analysis/knowledge/source-manifest.json",
+  "concept_registry_path": "analysis/knowledge/concepts.json",
+  "review_status": "assistant_source_checked_candidates_not_independently_validated",
+  "mentions": [
+    {
+      "id": "mention:histoire-et-musique-interactive-2026-11-28:0001",
+      "material_id": "material:0001487",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/courses/berklee/MHIS-201.md",
+      "source_section_heading": "Apprentissage 1 — Relier pratiques musicales et histoire des traditions occidentales",
+      "source_span": {
+        "document_path": "docs/courses/berklee/MHIS-201.md",
+        "document_sha256": "61a3ebc2cd41b266d68cc7c0ce461d43f539bbb5fa704957c8760ab6123cfae6",
+        "content_sha256": "50475df237e3c33abbe3b69b99e5c329cf9b154515b13f7d3aa8d61843516c45",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:4c304e4ce5df395fe3c6bff6",
+          "heading_path": [
+            "MHIS-201 — History of Music in the European Tradition: Topics",
+            "Application à l'analyse et à la création — première évaluation (12 novembre 2026)",
+            "Apprentissage 1 — Relier pratiques musicales et histoire des traditions occidentales"
+          ],
+          "start_line": 19,
+          "end_line": 28,
+          "subtree_end_line": 28
+        }
+      },
+      "label": "Attribution historique des pratiques musicales",
+      "language": "fr",
+      "attribution_role": "anamu_comparative_explanation",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": "candidate-sense:00010",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Comparaison située de partitions et enregistrements datés ; notice de cours et méthode AnaMu distinctes.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0001",
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0002"
+      ]
+    },
+    {
+      "id": "mention:histoire-et-musique-interactive-2026-11-28:0002",
+      "material_id": "material:0000278",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/courses/udem/MUS-2328.md",
+      "source_section_heading": "Monter l’intensité d’une boucle sans casser son cycle",
+      "source_span": {
+        "document_path": "docs/courses/udem/MUS-2328.md",
+        "document_sha256": "257c095f2266c2026e6a8131c7a320c9ac31e3a3e8defb8330df86e8f60ad2a4",
+        "content_sha256": "97e61b1ed145c1f20c21437f160058046215f335080ffb8eb95fe9497f7d5433",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:03cd813a0c759d43330e2f9c",
+          "heading_path": [
+            "MUS 2328 — Création sonore jeux vidéo 2",
+            "Monter l’intensité d’une boucle sans casser son cycle"
+          ],
+          "start_line": 56,
+          "end_line": 65,
+          "subtree_end_line": 65
+        }
+      },
+      "label": "Changement d'état et phase de boucle",
+      "language": "fr",
+      "attribution_role": "anamu_comparative_explanation",
+      "concept_sense_candidate": "form.adaptive_transition",
+      "candidate_sense_id": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Scénario comparatif de musique dynamique, non démonstration de middleware.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0003",
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0004",
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0005"
+      ]
+    },
+    {
+      "id": "mention:histoire-et-musique-interactive-2026-11-28:0003",
+      "material_id": "material:0000279",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/courses/udem/MUS-2328.md",
+      "source_section_heading": "Le raccord rythmique et la coupure audio sont deux problèmes",
+      "source_span": {
+        "document_path": "docs/courses/udem/MUS-2328.md",
+        "document_sha256": "257c095f2266c2026e6a8131c7a320c9ac31e3a3e8defb8330df86e8f60ad2a4",
+        "content_sha256": "4a52682002e445c966f8486314ff6ae830350ee636f538a1c2f7d4aa42a19376",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:64a2ea3b5c9c9e4a8f12146a",
+          "heading_path": [
+            "MUS 2328 — Création sonore jeux vidéo 2",
+            "Le raccord rythmique et la coupure audio sont deux problèmes"
+          ],
+          "start_line": 66,
+          "end_line": 84,
+          "subtree_end_line": 84
+        }
+      },
+      "label": "Raccord symbolique et continuité de signal",
+      "language": "fr",
+      "attribution_role": "anamu_comparative_explanation",
+      "concept_sense_candidate": "form.adaptive_transition",
+      "candidate_sense_id": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Quatre variantes didactiques de boucle synthétique ; aucune exécution Wwise.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0006",
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0007",
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0008"
+      ]
+    },
+    {
+      "id": "mention:histoire-et-musique-interactive-2026-11-28:0004",
+      "material_id": "material:0000284",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/courses/udem/MUS-2328.md",
+      "source_section_heading": "La note est déjà partie",
+      "source_span": {
+        "document_path": "docs/courses/udem/MUS-2328.md",
+        "document_sha256": "257c095f2266c2026e6a8131c7a320c9ac31e3a3e8defb8330df86e8f60ad2a4",
+        "content_sha256": "440d82e2a3dbb302776966a057a28b3d98c3ba3e25af17cd011545884e7c5549",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:69eab7c75af8e6d9a803b8b1",
+          "heading_path": [
+            "MUS 2328 — Création sonore jeux vidéo 2",
+            "La note est déjà partie"
+          ],
+          "start_line": 143,
+          "end_line": 160,
+          "subtree_end_line": 173
+        }
+      },
+      "label": "Alerte après attaque et alternatives de réponse",
+      "language": "fr",
+      "attribution_role": "anamu_comparative_explanation",
+      "concept_sense_candidate": "form.adaptive_transition",
+      "candidate_sense_id": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Comparatif linéaire de quatre réactions originales, pas une mesure de latence d'un moteur réel.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0009",
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0010",
+        "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0011"
+      ]
+    }
+  ],
+  "assertions": [
+    {
+      "id": "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0001",
+      "mention_id": "mention:histoire-et-musique-interactive-2026-11-28:0001",
+      "material_id": "material:0001487",
+      "reviewed_material_revision": 1,
+      "rule_key": "historical_context_compare_attributed_sources",
+      "polarity": "method",
+      "statement": "Étudier une partition et un enregistrement datés, relever texture, organisation des hauteurs, voix et instrumentation, puis confronter plusieurs références historiques attribuables.",
+      "scope": "Comparaison située de partitions et enregistrements datés ; notice de cours et méthode AnaMu distinctes.",
+      "requires_evidence": [
+        "dated_score_and_recording",
+        "identified_historical_sources",
+        "localized_music_observations"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/berklee/MHIS-201.md",
+        "document_sha256": "61a3ebc2cd41b266d68cc7c0ce461d43f539bbb5fa704957c8760ab6123cfae6",
+        "content_sha256": "50475df237e3c33abbe3b69b99e5c329cf9b154515b13f7d3aa8d61843516c45",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:4c304e4ce5df395fe3c6bff6",
+          "heading_path": [
+            "MHIS-201 — History of Music in the European Tradition: Topics",
+            "Application à l'analyse et à la création — première évaluation (12 novembre 2026)",
+            "Apprentissage 1 — Relier pratiques musicales et histoire des traditions occidentales"
+          ],
+          "start_line": 19,
+          "end_line": 28,
+          "subtree_end_line": 28
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0002",
+      "mention_id": "mention:histoire-et-musique-interactive-2026-11-28:0001",
+      "material_id": "material:0001487",
+      "reviewed_material_revision": 1,
+      "rule_key": "note_pattern_not_historical_date",
+      "polarity": "negative",
+      "statement": "Un patron de notes isolé ne suffit pas pour dater automatiquement une œuvre ou lui attribuer une période.",
+      "scope": "Comparaison située de partitions et enregistrements datés ; notice de cours et méthode AnaMu distinctes.",
+      "requires_evidence": [
+        "identified_historical_sources",
+        "work_provenance_documented"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/berklee/MHIS-201.md",
+        "document_sha256": "61a3ebc2cd41b266d68cc7c0ce461d43f539bbb5fa704957c8760ab6123cfae6",
+        "content_sha256": "50475df237e3c33abbe3b69b99e5c329cf9b154515b13f7d3aa8d61843516c45",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:4c304e4ce5df395fe3c6bff6",
+          "heading_path": [
+            "MHIS-201 — History of Music in the European Tradition: Topics",
+            "Application à l'analyse et à la création — première évaluation (12 novembre 2026)",
+            "Apprentissage 1 — Relier pratiques musicales et histoire des traditions occidentales"
+          ],
+          "start_line": 19,
+          "end_line": 28,
+          "subtree_end_line": 28
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0003",
+      "mention_id": "mention:histoire-et-musique-interactive-2026-11-28:0002",
+      "material_id": "material:0000278",
+      "reviewed_material_revision": 1,
+      "rule_key": "adaptive_layer_compare_phase_and_material",
+      "polarity": "method",
+      "statement": "Comparer longueur et phase de boucle, attaques du grave, parcours harmonique et porteur du motif entre états pour distinguer ajout de couche et changement de segment.",
+      "scope": "Scénario comparatif de musique dynamique, non démonstration de middleware.",
+      "requires_evidence": [
+        "loop_phase_annotated",
+        "game_state_events",
+        "localized_music_observations"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/udem/MUS-2328.md",
+        "document_sha256": "257c095f2266c2026e6a8131c7a320c9ac31e3a3e8defb8330df86e8f60ad2a4",
+        "content_sha256": "97e61b1ed145c1f20c21437f160058046215f335080ffb8eb95fe9497f7d5433",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:03cd813a0c759d43330e2f9c",
+          "heading_path": [
+            "MUS 2328 — Création sonore jeux vidéo 2",
+            "Monter l’intensité d’une boucle sans casser son cycle"
+          ],
+          "start_line": 56,
+          "end_line": 65,
+          "subtree_end_line": 65
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0004",
+      "mention_id": "mention:histoire-et-musique-interactive-2026-11-28:0002",
+      "material_id": "material:0000278",
+      "reviewed_material_revision": 1,
+      "rule_key": "common_tempo_key_not_synchronization",
+      "polarity": "counterexample",
+      "statement": "Deux couches au même tempo et à la même tonalité peuvent être déphasées ou porter des harmonies incompatibles au même temps.",
+      "scope": "Scénario comparatif de musique dynamique, non démonstration de middleware.",
+      "requires_evidence": [
+        "loop_phase_annotated",
+        "previous_next_harmony_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/udem/MUS-2328.md",
+        "document_sha256": "257c095f2266c2026e6a8131c7a320c9ac31e3a3e8defb8330df86e8f60ad2a4",
+        "content_sha256": "97e61b1ed145c1f20c21437f160058046215f335080ffb8eb95fe9497f7d5433",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:03cd813a0c759d43330e2f9c",
+          "heading_path": [
+            "MUS 2328 — Création sonore jeux vidéo 2",
+            "Monter l’intensité d’une boucle sans casser son cycle"
+          ],
+          "start_line": 56,
+          "end_line": 65,
+          "subtree_end_line": 65
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0005",
+      "mention_id": "mention:histoire-et-musique-interactive-2026-11-28:0002",
+      "material_id": "material:0000278",
+      "reviewed_material_revision": 1,
+      "rule_key": "game_state_clock_distinct_music_phase",
+      "polarity": "negative",
+      "statement": "Le temps écoulé depuis une demande d'état et la phase musicale ne désignent pas la même horloge ; le comportement joué requiert captation et règles de transition.",
+      "scope": "Scénario comparatif de musique dynamique, non démonstration de middleware.",
+      "requires_evidence": [
+        "game_state_events",
+        "runtime_transition_rules",
+        "gameplay_capture"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/udem/MUS-2328.md",
+        "document_sha256": "257c095f2266c2026e6a8131c7a320c9ac31e3a3e8defb8330df86e8f60ad2a4",
+        "content_sha256": "97e61b1ed145c1f20c21437f160058046215f335080ffb8eb95fe9497f7d5433",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:03cd813a0c759d43330e2f9c",
+          "heading_path": [
+            "MUS 2328 — Création sonore jeux vidéo 2",
+            "Monter l’intensité d’une boucle sans casser son cycle"
+          ],
+          "start_line": 56,
+          "end_line": 65,
+          "subtree_end_line": 65
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0006",
+      "mention_id": "mention:histoire-et-musique-interactive-2026-11-28:0003",
+      "material_id": "material:0000279",
+      "reviewed_material_revision": 1,
+      "rule_key": "loop_tail_cut_not_encoded_by_note_events",
+      "polarity": "counterexample",
+      "statement": "Deux variantes peuvent conserver les mêmes notes MIDI tout en différant par la coupure d'une queue sonore au raccord ; la durée encodée ne prouve donc pas la continuité audio.",
+      "scope": "Quatre variantes didactiques de boucle synthétique ; aucune exécution Wwise.",
+      "requires_evidence": [
+        "midi_note_events_verified",
+        "aligned_recording",
+        "transient_envelope_observed"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/udem/MUS-2328.md",
+        "document_sha256": "257c095f2266c2026e6a8131c7a320c9ac31e3a3e8defb8330df86e8f60ad2a4",
+        "content_sha256": "4a52682002e445c966f8486314ff6ae830350ee636f538a1c2f7d4aa42a19376",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:64a2ea3b5c9c9e4a8f12146a",
+          "heading_path": [
+            "MUS 2328 — Création sonore jeux vidéo 2",
+            "Le raccord rythmique et la coupure audio sont deux problèmes"
+          ],
+          "start_line": 66,
+          "end_line": 84,
+          "subtree_end_line": 84
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0007",
+      "mention_id": "mention:histoire-et-musique-interactive-2026-11-28:0003",
+      "material_id": "material:0000279",
+      "reviewed_material_revision": 1,
+      "rule_key": "pcm_sample_jump_not_audibility_threshold",
+      "polarity": "negative",
+      "statement": "Un saut entre échantillons adjacents localisé dans un rendu ne constitue pas un seuil d'audibilité ni un verdict universel sur le raccord.",
+      "scope": "Quatre variantes didactiques de boucle synthétique ; aucune exécution Wwise.",
+      "requires_evidence": [
+        "audio_recording_verified",
+        "audition_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/udem/MUS-2328.md",
+        "document_sha256": "257c095f2266c2026e6a8131c7a320c9ac31e3a3e8defb8330df86e8f60ad2a4",
+        "content_sha256": "4a52682002e445c966f8486314ff6ae830350ee636f538a1c2f7d4aa42a19376",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:64a2ea3b5c9c9e4a8f12146a",
+          "heading_path": [
+            "MUS 2328 — Création sonore jeux vidéo 2",
+            "Le raccord rythmique et la coupure audio sont deux problèmes"
+          ],
+          "start_line": 66,
+          "end_line": 84,
+          "subtree_end_line": 84
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0008",
+      "mention_id": "mention:histoire-et-musique-interactive-2026-11-28:0003",
+      "material_id": "material:0000279",
+      "reviewed_material_revision": 1,
+      "rule_key": "loop_joint_check_entry_signal_and_tail",
+      "polarity": "method",
+      "statement": "Comparer des raccords consécutifs en isolant geste réservé à l'entrée, conservation de la queue et continuité du trajet musical ; contrôler les deux canaux PCM et l'écoute du rendu.",
+      "scope": "Quatre variantes didactiques de boucle synthétique ; aucune exécution Wwise.",
+      "requires_evidence": [
+        "loop_phase_annotated",
+        "audio_recording_verified",
+        "audition_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/udem/MUS-2328.md",
+        "document_sha256": "257c095f2266c2026e6a8131c7a320c9ac31e3a3e8defb8330df86e8f60ad2a4",
+        "content_sha256": "4a52682002e445c966f8486314ff6ae830350ee636f538a1c2f7d4aa42a19376",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:64a2ea3b5c9c9e4a8f12146a",
+          "heading_path": [
+            "MUS 2328 — Création sonore jeux vidéo 2",
+            "Le raccord rythmique et la coupure audio sont deux problèmes"
+          ],
+          "start_line": 66,
+          "end_line": 84,
+          "subtree_end_line": 84
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0009",
+      "mention_id": "mention:histoire-et-musique-interactive-2026-11-28:0004",
+      "material_id": "material:0000284",
+      "reviewed_material_revision": 1,
+      "rule_key": "adaptive_unmute_is_not_new_note_attack",
+      "polarity": "negative",
+      "statement": "Dévoiler par gain une note déjà en cours ne constitue pas une réattaque de cette note ; il faut distinguer événement symbolique et enveloppe du signal.",
+      "scope": "Comparatif linéaire de quatre réactions originales, pas une mesure de latence d'un moteur réel.",
+      "requires_evidence": [
+        "midi_note_events_verified",
+        "transient_envelope_observed",
+        "game_state_events"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/udem/MUS-2328.md",
+        "document_sha256": "257c095f2266c2026e6a8131c7a320c9ac31e3a3e8defb8330df86e8f60ad2a4",
+        "content_sha256": "440d82e2a3dbb302776966a057a28b3d98c3ba3e25af17cd011545884e7c5549",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:69eab7c75af8e6d9a803b8b1",
+          "heading_path": [
+            "MUS 2328 — Création sonore jeux vidéo 2",
+            "La note est déjà partie"
+          ],
+          "start_line": 143,
+          "end_line": 160,
+          "subtree_end_line": 173
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0010",
+      "mention_id": "mention:histoire-et-musique-interactive-2026-11-28:0004",
+      "material_id": "material:0000284",
+      "reviewed_material_revision": 1,
+      "rule_key": "adaptive_response_tradeoff_contour_latency",
+      "polarity": "conditional",
+      "statement": "Après le départ d'une note, attendre la prochaine attaque peut sacrifier une partie du contour ; attendre le prochain tour peut conserver ce contour au prix d'une réponse différée.",
+      "scope": "Comparatif linéaire de quatre réactions originales, pas une mesure de latence d'un moteur réel.",
+      "requires_evidence": [
+        "loop_phase_annotated",
+        "game_state_events",
+        "runtime_transition_rules"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/udem/MUS-2328.md",
+        "document_sha256": "257c095f2266c2026e6a8131c7a320c9ac31e3a3e8defb8330df86e8f60ad2a4",
+        "content_sha256": "440d82e2a3dbb302776966a057a28b3d98c3ba3e25af17cd011545884e7c5549",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:69eab7c75af8e6d9a803b8b1",
+          "heading_path": [
+            "MUS 2328 — Création sonore jeux vidéo 2",
+            "La note est déjà partie"
+          ],
+          "start_line": 143,
+          "end_line": 160,
+          "subtree_end_line": 173
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:histoire-et-musique-interactive-2026-11-28:0011",
+      "mention_id": "mention:histoire-et-musique-interactive-2026-11-28:0004",
+      "material_id": "material:0000284",
+      "reviewed_material_revision": 1,
+      "rule_key": "similar_rms_not_same_attack",
+      "polarity": "counterexample",
+      "statement": "Des valeurs RMS moyennes proches sur une fenêtre peuvent masquer des différences de présence et de début d'attaque ; examiner l'enveloppe localisée.",
+      "scope": "Comparatif linéaire de quatre réactions originales, pas une mesure de latence d'un moteur réel.",
+      "requires_evidence": [
+        "transient_envelope_observed",
+        "audio_recording_verified"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/udem/MUS-2328.md",
+        "document_sha256": "257c095f2266c2026e6a8131c7a320c9ac31e3a3e8defb8330df86e8f60ad2a4",
+        "content_sha256": "440d82e2a3dbb302776966a057a28b3d98c3ba3e25af17cd011545884e7c5549",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:69eab7c75af8e6d9a803b8b1",
+          "heading_path": [
+            "MUS 2328 — Création sonore jeux vidéo 2",
+            "La note est déjà partie"
+          ],
+          "start_line": 143,
+          "end_line": 160,
+          "subtree_end_line": 173
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    }
+  ],
+  "passage_reviews": [
+    {
+      "material_id": "material:0001487",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/courses/berklee/MHIS-201.md",
+        "document_sha256": "61a3ebc2cd41b266d68cc7c0ce461d43f539bbb5fa704957c8760ab6123cfae6",
+        "content_sha256": "50475df237e3c33abbe3b69b99e5c329cf9b154515b13f7d3aa8d61843516c45",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:4c304e4ce5df395fe3c6bff6",
+          "heading_path": [
+            "MHIS-201 — History of Music in the European Tradition: Topics",
+            "Application à l'analyse et à la création — première évaluation (12 novembre 2026)",
+            "Apprentissage 1 — Relier pratiques musicales et histoire des traditions occidentales"
+          ],
+          "start_line": 19,
+          "end_line": 28,
+          "subtree_end_line": 28
+        }
+      },
+      "disposition": "partial_extraction",
+      "reason": "Procédure et limite historique extraites.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [
+        "Définir les critères de provenance, datation et représentativité des sources historiques."
+      ]
+    },
+    {
+      "material_id": "material:0000278",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/courses/udem/MUS-2328.md",
+        "document_sha256": "257c095f2266c2026e6a8131c7a320c9ac31e3a3e8defb8330df86e8f60ad2a4",
+        "content_sha256": "97e61b1ed145c1f20c21437f160058046215f335080ffb8eb95fe9497f7d5433",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:03cd813a0c759d43330e2f9c",
+          "heading_path": [
+            "MUS 2328 — Création sonore jeux vidéo 2",
+            "Monter l’intensité d’une boucle sans casser son cycle"
+          ],
+          "start_line": 56,
+          "end_line": 65,
+          "subtree_end_line": 65
+        }
+      },
+      "disposition": "partial_extraction",
+      "reason": "Extraction de méthode, contre-exemple et conditions de preuve.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [
+        "Obtenir une configuration jouée et des événements d'état horodatés."
+      ]
+    },
+    {
+      "material_id": "material:0000279",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/courses/udem/MUS-2328.md",
+        "document_sha256": "257c095f2266c2026e6a8131c7a320c9ac31e3a3e8defb8330df86e8f60ad2a4",
+        "content_sha256": "4a52682002e445c966f8486314ff6ae830350ee636f538a1c2f7d4aa42a19376",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:64a2ea3b5c9c9e4a8f12146a",
+          "heading_path": [
+            "MUS 2328 — Création sonore jeux vidéo 2",
+            "Le raccord rythmique et la coupure audio sont deux problèmes"
+          ],
+          "start_line": 66,
+          "end_line": 84,
+          "subtree_end_line": 84
+        }
+      },
+      "disposition": "partial_extraction",
+      "reason": "Le passage distingue explicitement les variables manipulées, les mesures et le transfert.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [
+        "Reproduire les mesures PCM et recueillir une écoute attribuée sur les quatre variantes."
+      ]
+    },
+    {
+      "material_id": "material:0000284",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/courses/udem/MUS-2328.md",
+        "document_sha256": "257c095f2266c2026e6a8131c7a320c9ac31e3a3e8defb8330df86e8f60ad2a4",
+        "content_sha256": "440d82e2a3dbb302776966a057a28b3d98c3ba3e25af17cd011545884e7c5549",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:69eab7c75af8e6d9a803b8b1",
+          "heading_path": [
+            "MUS 2328 — Création sonore jeux vidéo 2",
+            "La note est déjà partie"
+          ],
+          "start_line": 143,
+          "end_line": 160,
+          "subtree_end_line": 173
+        }
+      },
+      "disposition": "partial_extraction",
+      "reason": "Extraction de l'alternative causale, des preuves de signal et de la révocabilité conditionnelle.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [
+        "Vérifier séparément les attaques encodées et la latence effective dans un environnement interactif."
+      ]
+    }
+  ],
+  "coverage": {
+    "selected_material_units": 4,
+    "mentions": 4,
+    "candidate_assertions": 11,
+    "assertions_human_reviewed": 0
+  },
+  "revision_contract": "Review and claims expire when material revision or source span changes."
+}

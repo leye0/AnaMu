@@ -166,6 +166,76 @@
       "canonical_concept_id": null,
       "decision": "pending_reconciliation",
       "can_be_documentary_only": false
+    },
+    {
+      "id": "candidate-sense:00008",
+      "proposed_key": "transformational-network",
+      "preferred_name": "Réseaux de transformations musicales",
+      "source_material_id": "material:0002132",
+      "source_document_path": "docs/courses/mcgill/MUTH-538.md",
+      "source_role": "anamu_conditional_comparative_study_not_attested_section",
+      "analytic_question": "Quelles opérations vérifiées relient les occurrences et quelles lectures concurrentes de leur ordre restent possibles ?",
+      "scope_note": "Méthodes mathématiques conditionnelles ; le catalogue ne prouve pas qu'elles étaient enseignées dans une section précise.",
+      "requires_evidence": [
+        "identified_occurrences",
+        "declared_transformation_operation",
+        "verified_transformation_relations"
+      ],
+      "does_not_establish": [
+        "causal_influence",
+        "authorial_intent"
+      ],
+      "review_state": "assistant_source_checked_candidate_needs_domain_review",
+      "canonical_concept_id": null,
+      "decision": "pending_reconciliation",
+      "can_be_documentary_only": false
+    },
+    {
+      "id": "candidate-sense:00009",
+      "proposed_key": "contextual-information-surprisal",
+      "preferred_name": "Surprise informationnelle conditionnelle à un modèle",
+      "source_material_id": "material:0002133",
+      "source_document_path": "docs/courses/mcgill/MUTH-538.md",
+      "source_role": "anamu_conditional_comparative_study_not_attested_section",
+      "analytic_question": "Quelle surprise en bits un événement possède-t-il sous un modèle probabiliste et un contexte déclarés ?",
+      "scope_note": "Méthodes mathématiques conditionnelles ; le catalogue ne prouve pas qu'elles étaient enseignées dans une section précise.",
+      "requires_evidence": [
+        "event_representation_declared",
+        "probability_model_documented",
+        "context_model_declared",
+        "observed_events"
+      ],
+      "does_not_establish": [
+        "listener_emotion",
+        "psychological_expectation"
+      ],
+      "review_state": "assistant_source_checked_candidate_needs_domain_review",
+      "canonical_concept_id": null,
+      "decision": "pending_reconciliation",
+      "can_be_documentary_only": false
+    },
+    {
+      "id": "candidate-sense:00010",
+      "proposed_key": "historical-contextual-attribution",
+      "preferred_name": "Attribution historique contextualisée de pratiques musicales",
+      "source_material_id": "material:0001487",
+      "source_document_path": "docs/courses/berklee/MHIS-201.md",
+      "source_role": "anamu_comparative_explanation",
+      "analytic_question": "Quelles relations entre pratiques observées et références historiques identifiées sont soutenues, et avec quelles limites ?",
+      "scope_note": "Comparaison de partitions et enregistrements datés, sans attribution automatique de période.",
+      "requires_evidence": [
+        "identified_historical_sources",
+        "dated_score_and_recording",
+        "localized_music_observations"
+      ],
+      "does_not_establish": [
+        "dating_from_note_pattern",
+        "complete_course_syllabus"
+      ],
+      "review_state": "assistant_source_checked_candidate_needs_domain_review",
+      "canonical_concept_id": null,
+      "decision": "pending_reconciliation",
+      "can_be_documentary_only": true
     }
   ]
 }

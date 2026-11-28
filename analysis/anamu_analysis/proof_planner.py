@@ -59,9 +59,15 @@ def evidence_index(items: Any) -> tuple[dict[str, dict], list[dict]]:
             # provider*. This planner does not independently authenticate
             # files, resolve sources or inspect musical assertions.
             found[fact] = {"state": status, "evidence_id": item["id"]}
-        audit.append({"id": item["id"], "state": status, "facts": facts,
-                      "provenance": item.get("provenance"),
-                      "note": item.get("note")})
+        entry = {"id": item["id"], "state": status, "facts": facts,
+                 "provenance": item.get("provenance"), "note": item.get("note")}
+        # Preserve the localized observations and the evidence provider's
+        # declared scope. This does not authenticate their contents.
+        for field in ("scope_ref", "source_ref", "observation_refs",
+                      "event_refs", "epistemic_kind"):
+            if field in item:
+                entry[field] = item[field]
+        audit.append(entry)
     return found, audit
 
 
@@ -84,18 +90,21 @@ def evaluate_route(route: dict, evidence: dict[str, dict]) -> dict:
             "required": required, "verified": verified,
             "assumptions": assumptions, "candidate_not_accepted": candidate,
             "missing": missing,
+            "evidence_refs_by_fact": {
+                fact: evidence[fact]["evidence_id"] for fact in required
+                if fact in evidence and evidence[fact]["state"] != "unavailable"},
             "candidate_outputs_only": route.get("candidate_outputs_only", []),
             "does_not_establish": route.get("does_not_establish", [])}
 
 
-def fact_vocabulary(case: dict) -> set[str] | None:
+def fact_vocabulary(case: dict, repo: Path | None = None) -> set[str] | None:
     """Optional shared vocabulary. Validate names, never assert their truth."""
     ref = case.get("fact_registry_ref")
     if ref is None:
         return None
     if not isinstance(ref, str) or not ref:
         raise ValueError("fact_registry_ref must be a nonempty repository-relative path")
-    repo = Path(__file__).resolve().parents[2]
+    repo = Path(__file__).resolve().parents[2] if repo is None else repo.resolve()
     path = (repo / ref).resolve()
     allowed = repo / "analysis/knowledge"
     if not path.is_relative_to(allowed):
@@ -169,7 +178,7 @@ def execution_order(tasks: list[dict]) -> list[str]:
     return ordered
 
 
-def plan(case: dict, profile: str) -> dict:
+def plan(case: dict, profile: str, repo: Path | None = None) -> dict:
     if case.get("schema_version") != 1:
         raise ValueError("unsupported planner case schema")
     profiles = case.get("profiles")
@@ -188,7 +197,7 @@ def plan(case: dict, profile: str) -> dict:
             if task.get("scope_ref") != scope:
                 raise ValueError("Task scope mismatch: " + str(task.get("id")))
     evidence, audit = evidence_index(profiles[profile])
-    known_facts = fact_vocabulary(case)
+    known_facts = fact_vocabulary(case, repo)
     check_fact_vocabulary(case, known_facts)
     tasks = case.get("tasks", [])
     if not isinstance(tasks, list) or not tasks:

@@ -1,0 +1,542 @@
+{
+  "schema_version": 1,
+  "edition": "modeles-mathematiques-2026-11-28",
+  "scope": "Méthodes mathématiques conditionnelles ; le catalogue ne prouve pas qu'elles étaient enseignées dans une section précise.",
+  "material_registry_path": "analysis/knowledge/materials/catalog.json",
+  "source_manifest_path": "analysis/knowledge/source-manifest.json",
+  "concept_registry_path": "analysis/knowledge/concepts.json",
+  "review_status": "assistant_source_checked_candidates_not_independently_validated",
+  "mentions": [
+    {
+      "id": "mention:modeles-mathematiques-2026-11-28:0001",
+      "material_id": "material:0002131",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/courses/mcgill/MUTH-538.md",
+      "source_section_heading": "Q1 — Similarité motivique : définir la mesure avant de déclarer un retour",
+      "source_span": {
+        "document_path": "docs/courses/mcgill/MUTH-538.md",
+        "document_sha256": "b810951458e5ba922063359bc86112b5c0dd8a7db1bd986390f1ba1c12cf59f5",
+        "content_sha256": "be628972a9f28b1f688823b10077989c01e1b69e93adbc30529559ddfbfe9893",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:ee96fbc5f818132dce9b11a4",
+          "heading_path": [
+            "MUTH 538 — Mathematical Models for Musical Analysis",
+            "Deuxième passe qualitative — modèles de similarité, transformations et attentes (12 novembre 2026)",
+            "Q1 — Similarité motivique : définir la mesure avant de déclarer un retour"
+          ],
+          "start_line": 53,
+          "end_line": 60,
+          "subtree_end_line": 60
+        }
+      },
+      "label": "Similarité motivique dépendante de la mesure",
+      "language": "fr",
+      "attribution_role": "anamu_conditional_comparative_study_not_attested_section",
+      "concept_sense_candidate": "motif.thematic_identity",
+      "candidate_sense_id": null,
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Méthodes mathématiques conditionnelles ; le catalogue ne prouve pas qu'elles étaient enseignées dans une section précise.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0001",
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0002",
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0003"
+      ]
+    },
+    {
+      "id": "mention:modeles-mathematiques-2026-11-28:0002",
+      "material_id": "material:0002132",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/courses/mcgill/MUTH-538.md",
+      "source_section_heading": "Q2 — Réseau transformationnel : une structure de relations n'est pas une histoire causale",
+      "source_span": {
+        "document_path": "docs/courses/mcgill/MUTH-538.md",
+        "document_sha256": "b810951458e5ba922063359bc86112b5c0dd8a7db1bd986390f1ba1c12cf59f5",
+        "content_sha256": "01eb1900b7f36c312f236c0654aeac347b28bb0362e0529a97a9ec2042c869e9",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b784ceb19ad64fac794b706d",
+          "heading_path": [
+            "MUTH 538 — Mathematical Models for Musical Analysis",
+            "Deuxième passe qualitative — modèles de similarité, transformations et attentes (12 novembre 2026)",
+            "Q2 — Réseau transformationnel : une structure de relations n'est pas une histoire causale"
+          ],
+          "start_line": 61,
+          "end_line": 68,
+          "subtree_end_line": 68
+        }
+      },
+      "label": "Réseaux transformationnels et ordre musical",
+      "language": "fr",
+      "attribution_role": "anamu_conditional_comparative_study_not_attested_section",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": "candidate-sense:00008",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Méthodes mathématiques conditionnelles ; le catalogue ne prouve pas qu'elles étaient enseignées dans une section précise.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0004",
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0005",
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0006"
+      ]
+    },
+    {
+      "id": "mention:modeles-mathematiques-2026-11-28:0003",
+      "material_id": "material:0002133",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/courses/mcgill/MUTH-538.md",
+      "source_section_heading": "Q3 — Information et attente : la surprise dépend d'un modèle de contexte",
+      "source_span": {
+        "document_path": "docs/courses/mcgill/MUTH-538.md",
+        "document_sha256": "b810951458e5ba922063359bc86112b5c0dd8a7db1bd986390f1ba1c12cf59f5",
+        "content_sha256": "d97a0f4e37e34d2ac95990afb7380d066dcade0d35d47682db850fe5cbcc2d78",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:64952bf2d1a185d65be35bf4",
+          "heading_path": [
+            "MUTH 538 — Mathematical Models for Musical Analysis",
+            "Deuxième passe qualitative — modèles de similarité, transformations et attentes (12 novembre 2026)",
+            "Q3 — Information et attente : la surprise dépend d'un modèle de contexte"
+          ],
+          "start_line": 69,
+          "end_line": 79,
+          "subtree_end_line": 79
+        }
+      },
+      "label": "Surprise informationnelle et modèle de contexte",
+      "language": "fr",
+      "attribution_role": "anamu_conditional_comparative_study_not_attested_section",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": "candidate-sense:00009",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Méthodes mathématiques conditionnelles ; le catalogue ne prouve pas qu'elles étaient enseignées dans une section précise.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0007",
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0008",
+        "candidate-assertion:modeles-mathematiques-2026-11-28:0009"
+      ]
+    }
+  ],
+  "assertions": [
+    {
+      "id": "candidate-assertion:modeles-mathematiques-2026-11-28:0001",
+      "mention_id": "mention:modeles-mathematiques-2026-11-28:0001",
+      "material_id": "material:0002131",
+      "reviewed_material_revision": 1,
+      "rule_key": "motif_similarity_metric_and_normalization_declared",
+      "polarity": "method",
+      "statement": "Définir la représentation, les normalisations admises et la distance avant de comparer occurrences et paires non apparentées.",
+      "scope": "Méthodes mathématiques conditionnelles ; le catalogue ne prouve pas qu'elles étaient enseignées dans une section précise.",
+      "requires_evidence": [
+        "event_representation_declared",
+        "similarity_metric_declared",
+        "normalization_declared",
+        "negative_comparison_pairs"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_conditional_comparative_study_not_attested_section",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/mcgill/MUTH-538.md",
+        "document_sha256": "b810951458e5ba922063359bc86112b5c0dd8a7db1bd986390f1ba1c12cf59f5",
+        "content_sha256": "be628972a9f28b1f688823b10077989c01e1b69e93adbc30529559ddfbfe9893",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:ee96fbc5f818132dce9b11a4",
+          "heading_path": [
+            "MUTH 538 — Mathematical Models for Musical Analysis",
+            "Deuxième passe qualitative — modèles de similarité, transformations et attentes (12 novembre 2026)",
+            "Q1 — Similarité motivique : définir la mesure avant de déclarer un retour"
+          ],
+          "start_line": 53,
+          "end_line": 60,
+          "subtree_end_line": 60
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:modeles-mathematiques-2026-11-28:0002",
+      "mention_id": "mention:modeles-mathematiques-2026-11-28:0001",
+      "material_id": "material:0002131",
+      "reviewed_material_revision": 1,
+      "rule_key": "motif_similarity_threshold_and_confusions",
+      "polarity": "method",
+      "statement": "Consigner le seuil retenu et les confusions puis confronter les correspondances à la partition, l'écoute et leur rôle formel.",
+      "scope": "Méthodes mathématiques conditionnelles ; le catalogue ne prouve pas qu'elles étaient enseignées dans une section précise.",
+      "requires_evidence": [
+        "similarity_threshold_declared",
+        "score_note_events_verified",
+        "audition_annotated",
+        "phrase_context_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_conditional_comparative_study_not_attested_section",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/mcgill/MUTH-538.md",
+        "document_sha256": "b810951458e5ba922063359bc86112b5c0dd8a7db1bd986390f1ba1c12cf59f5",
+        "content_sha256": "be628972a9f28b1f688823b10077989c01e1b69e93adbc30529559ddfbfe9893",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:ee96fbc5f818132dce9b11a4",
+          "heading_path": [
+            "MUTH 538 — Mathematical Models for Musical Analysis",
+            "Deuxième passe qualitative — modèles de similarité, transformations et attentes (12 novembre 2026)",
+            "Q1 — Similarité motivique : définir la mesure avant de déclarer un retour"
+          ],
+          "start_line": 53,
+          "end_line": 60,
+          "subtree_end_line": 60
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:modeles-mathematiques-2026-11-28:0003",
+      "mention_id": "mention:modeles-mathematiques-2026-11-28:0001",
+      "material_id": "material:0002131",
+      "reviewed_material_revision": 1,
+      "rule_key": "short_motif_recurrence_not_intent",
+      "polarity": "counterexample",
+      "statement": "Un motif court peut réapparaître fortuitement ; la proximité selon une métrique ne prouve pas un retour voulu par l'auteur.",
+      "scope": "Méthodes mathématiques conditionnelles ; le catalogue ne prouve pas qu'elles étaient enseignées dans une section précise.",
+      "requires_evidence": [
+        "alternative_hypothesis",
+        "phrase_context_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_conditional_comparative_study_not_attested_section",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/mcgill/MUTH-538.md",
+        "document_sha256": "b810951458e5ba922063359bc86112b5c0dd8a7db1bd986390f1ba1c12cf59f5",
+        "content_sha256": "be628972a9f28b1f688823b10077989c01e1b69e93adbc30529559ddfbfe9893",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:ee96fbc5f818132dce9b11a4",
+          "heading_path": [
+            "MUTH 538 — Mathematical Models for Musical Analysis",
+            "Deuxième passe qualitative — modèles de similarité, transformations et attentes (12 novembre 2026)",
+            "Q1 — Similarité motivique : définir la mesure avant de déclarer un retour"
+          ],
+          "start_line": 53,
+          "end_line": 60,
+          "subtree_end_line": 60
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:modeles-mathematiques-2026-11-28:0004",
+      "mention_id": "mention:modeles-mathematiques-2026-11-28:0002",
+      "material_id": "material:0002132",
+      "reviewed_material_revision": 1,
+      "rule_key": "transform_graph_requires_verified_edges",
+      "polarity": "method",
+      "statement": "Représenter les occurrences en sommets et les arêtes par des opérations vérifiées sur les objets déclarés ; distinguer ensemble et ordre des notes.",
+      "scope": "Méthodes mathématiques conditionnelles ; le catalogue ne prouve pas qu'elles étaient enseignées dans une section précise.",
+      "requires_evidence": [
+        "identified_occurrences",
+        "declared_transformation_operation",
+        "verified_transformation_relations"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_conditional_comparative_study_not_attested_section",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/mcgill/MUTH-538.md",
+        "document_sha256": "b810951458e5ba922063359bc86112b5c0dd8a7db1bd986390f1ba1c12cf59f5",
+        "content_sha256": "01eb1900b7f36c312f236c0654aeac347b28bb0362e0529a97a9ec2042c869e9",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b784ceb19ad64fac794b706d",
+          "heading_path": [
+            "MUTH 538 — Mathematical Models for Musical Analysis",
+            "Deuxième passe qualitative — modèles de similarité, transformations et attentes (12 novembre 2026)",
+            "Q2 — Réseau transformationnel : une structure de relations n'est pas une histoire causale"
+          ],
+          "start_line": 61,
+          "end_line": 68,
+          "subtree_end_line": 68
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:modeles-mathematiques-2026-11-28:0005",
+      "mention_id": "mention:modeles-mathematiques-2026-11-28:0002",
+      "material_id": "material:0002132",
+      "reviewed_material_revision": 1,
+      "rule_key": "transform_graph_compare_paths",
+      "polarity": "method",
+      "statement": "Comparer plusieurs chemins, vérifier la composition des opérations et leur relation aux sections, sans ajouter d'arête non justifiée.",
+      "scope": "Méthodes mathématiques conditionnelles ; le catalogue ne prouve pas qu'elles étaient enseignées dans une section précise.",
+      "requires_evidence": [
+        "verified_transformation_relations",
+        "localized_section_boundaries"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_conditional_comparative_study_not_attested_section",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/mcgill/MUTH-538.md",
+        "document_sha256": "b810951458e5ba922063359bc86112b5c0dd8a7db1bd986390f1ba1c12cf59f5",
+        "content_sha256": "01eb1900b7f36c312f236c0654aeac347b28bb0362e0529a97a9ec2042c869e9",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b784ceb19ad64fac794b706d",
+          "heading_path": [
+            "MUTH 538 — Mathematical Models for Musical Analysis",
+            "Deuxième passe qualitative — modèles de similarité, transformations et attentes (12 novembre 2026)",
+            "Q2 — Réseau transformationnel : une structure de relations n'est pas une histoire causale"
+          ],
+          "start_line": 61,
+          "end_line": 68,
+          "subtree_end_line": 68
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:modeles-mathematiques-2026-11-28:0006",
+      "mention_id": "mention:modeles-mathematiques-2026-11-28:0002",
+      "material_id": "material:0002132",
+      "reviewed_material_revision": 1,
+      "rule_key": "same_graph_different_perceived_trajectory",
+      "polarity": "counterexample",
+      "statement": "Un même réseau de relations de hauteurs peut être conservé sous des ordres musicaux différents et ne détermine donc pas à lui seul la trajectoire perçue.",
+      "scope": "Méthodes mathématiques conditionnelles ; le catalogue ne prouve pas qu'elles étaient enseignées dans une section précise.",
+      "requires_evidence": [
+        "alternative_event_orders",
+        "audition_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_conditional_comparative_study_not_attested_section",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/mcgill/MUTH-538.md",
+        "document_sha256": "b810951458e5ba922063359bc86112b5c0dd8a7db1bd986390f1ba1c12cf59f5",
+        "content_sha256": "01eb1900b7f36c312f236c0654aeac347b28bb0362e0529a97a9ec2042c869e9",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b784ceb19ad64fac794b706d",
+          "heading_path": [
+            "MUTH 538 — Mathematical Models for Musical Analysis",
+            "Deuxième passe qualitative — modèles de similarité, transformations et attentes (12 novembre 2026)",
+            "Q2 — Réseau transformationnel : une structure de relations n'est pas une histoire causale"
+          ],
+          "start_line": 61,
+          "end_line": 68,
+          "subtree_end_line": 68
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:modeles-mathematiques-2026-11-28:0007",
+      "mention_id": "mention:modeles-mathematiques-2026-11-28:0003",
+      "material_id": "material:0002133",
+      "reviewed_material_revision": 1,
+      "rule_key": "conditional_surprisal_bits",
+      "polarity": "conditional",
+      "statement": "Pour une probabilité conditionnelle déclarée P(e|c) strictement positive, la surprise informationnelle du modèle vaut −log₂ P(e|c) bits.",
+      "scope": "Méthodes mathématiques conditionnelles ; le catalogue ne prouve pas qu'elles étaient enseignées dans une section précise.",
+      "requires_evidence": [
+        "event_representation_declared",
+        "probability_model_documented",
+        "context_model_declared"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_conditional_comparative_study_not_attested_section",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/mcgill/MUTH-538.md",
+        "document_sha256": "b810951458e5ba922063359bc86112b5c0dd8a7db1bd986390f1ba1c12cf59f5",
+        "content_sha256": "d97a0f4e37e34d2ac95990afb7380d066dcade0d35d47682db850fe5cbcc2d78",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:64952bf2d1a185d65be35bf4",
+          "heading_path": [
+            "MUTH 538 — Mathematical Models for Musical Analysis",
+            "Deuxième passe qualitative — modèles de similarité, transformations et attentes (12 novembre 2026)",
+            "Q3 — Information et attente : la surprise dépend d'un modèle de contexte"
+          ],
+          "start_line": 69,
+          "end_line": 79,
+          "subtree_end_line": 79
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:modeles-mathematiques-2026-11-28:0008",
+      "mention_id": "mention:modeles-mathematiques-2026-11-28:0003",
+      "material_id": "material:0002133",
+      "reviewed_material_revision": 1,
+      "rule_key": "probability_model_validate_on_separate_examples",
+      "polarity": "method",
+      "statement": "Comparer les prédictions aux événements observés sur des exemples distincts des données ayant servi à fixer le modèle et conserver les hypothèses alternatives.",
+      "scope": "Méthodes mathématiques conditionnelles ; le catalogue ne prouve pas qu'elles étaient enseignées dans une section précise.",
+      "requires_evidence": [
+        "probability_model_documented",
+        "observed_events",
+        "held_out_examples"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_conditional_comparative_study_not_attested_section",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/mcgill/MUTH-538.md",
+        "document_sha256": "b810951458e5ba922063359bc86112b5c0dd8a7db1bd986390f1ba1c12cf59f5",
+        "content_sha256": "d97a0f4e37e34d2ac95990afb7380d066dcade0d35d47682db850fe5cbcc2d78",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:64952bf2d1a185d65be35bf4",
+          "heading_path": [
+            "MUTH 538 — Mathematical Models for Musical Analysis",
+            "Deuxième passe qualitative — modèles de similarité, transformations et attentes (12 novembre 2026)",
+            "Q3 — Information et attente : la surprise dépend d'un modèle de contexte"
+          ],
+          "start_line": 69,
+          "end_line": 79,
+          "subtree_end_line": 79
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:modeles-mathematiques-2026-11-28:0009",
+      "mention_id": "mention:modeles-mathematiques-2026-11-28:0003",
+      "material_id": "material:0002133",
+      "reviewed_material_revision": 1,
+      "rule_key": "information_surprisal_not_listener_emotion",
+      "polarity": "negative",
+      "statement": "Une surprise calculée sous un modèle de corpus ne prouve pas l'émotion ou l'attente psychologique d'un auditeur donné.",
+      "scope": "Méthodes mathématiques conditionnelles ; le catalogue ne prouve pas qu'elles étaient enseignées dans une section précise.",
+      "requires_evidence": [
+        "listener_context_documented",
+        "audition_annotated"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_conditional_comparative_study_not_attested_section",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/mcgill/MUTH-538.md",
+        "document_sha256": "b810951458e5ba922063359bc86112b5c0dd8a7db1bd986390f1ba1c12cf59f5",
+        "content_sha256": "d97a0f4e37e34d2ac95990afb7380d066dcade0d35d47682db850fe5cbcc2d78",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:64952bf2d1a185d65be35bf4",
+          "heading_path": [
+            "MUTH 538 — Mathematical Models for Musical Analysis",
+            "Deuxième passe qualitative — modèles de similarité, transformations et attentes (12 novembre 2026)",
+            "Q3 — Information et attente : la surprise dépend d'un modèle de contexte"
+          ],
+          "start_line": 69,
+          "end_line": 79,
+          "subtree_end_line": 79
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    }
+  ],
+  "passage_reviews": [
+    {
+      "material_id": "material:0002131",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/courses/mcgill/MUTH-538.md",
+        "document_sha256": "b810951458e5ba922063359bc86112b5c0dd8a7db1bd986390f1ba1c12cf59f5",
+        "content_sha256": "be628972a9f28b1f688823b10077989c01e1b69e93adbc30529559ddfbfe9893",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:ee96fbc5f818132dce9b11a4",
+          "heading_path": [
+            "MUTH 538 — Mathematical Models for Musical Analysis",
+            "Deuxième passe qualitative — modèles de similarité, transformations et attentes (12 novembre 2026)",
+            "Q1 — Similarité motivique : définir la mesure avant de déclarer un retour"
+          ],
+          "start_line": 53,
+          "end_line": 60,
+          "subtree_end_line": 60
+        }
+      },
+      "disposition": "partial_extraction",
+      "reason": "Extraction des étapes, des témoins négatifs et des limites.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [
+        "Établir les familles de distances, leur calibration et leurs domaines de validité."
+      ]
+    },
+    {
+      "material_id": "material:0002132",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/courses/mcgill/MUTH-538.md",
+        "document_sha256": "b810951458e5ba922063359bc86112b5c0dd8a7db1bd986390f1ba1c12cf59f5",
+        "content_sha256": "01eb1900b7f36c312f236c0654aeac347b28bb0362e0529a97a9ec2042c869e9",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:b784ceb19ad64fac794b706d",
+          "heading_path": [
+            "MUTH 538 — Mathematical Models for Musical Analysis",
+            "Deuxième passe qualitative — modèles de similarité, transformations et attentes (12 novembre 2026)",
+            "Q2 — Réseau transformationnel : une structure de relations n'est pas une histoire causale"
+          ],
+          "start_line": 61,
+          "end_line": 68,
+          "subtree_end_line": 68
+        }
+      },
+      "disposition": "partial_extraction",
+      "reason": "Extraction des relations, de leur composition et du contre-exemple à réseau invariant.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [
+        "Définir un contrat de vérification des opérations et des chemins selon les objets représentés."
+      ]
+    },
+    {
+      "material_id": "material:0002133",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/courses/mcgill/MUTH-538.md",
+        "document_sha256": "b810951458e5ba922063359bc86112b5c0dd8a7db1bd986390f1ba1c12cf59f5",
+        "content_sha256": "d97a0f4e37e34d2ac95990afb7380d066dcade0d35d47682db850fe5cbcc2d78",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:64952bf2d1a185d65be35bf4",
+          "heading_path": [
+            "MUTH 538 — Mathematical Models for Musical Analysis",
+            "Deuxième passe qualitative — modèles de similarité, transformations et attentes (12 novembre 2026)",
+            "Q3 — Information et attente : la surprise dépend d'un modèle de contexte"
+          ],
+          "start_line": 69,
+          "end_line": 79,
+          "subtree_end_line": 79
+        }
+      },
+      "disposition": "partial_extraction",
+      "reason": "Extraction de la formule conditionnelle, du protocole d'évaluation et des limites perceptuelles.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [
+        "Définir les modèles de probabilité et le traitement des événements rares ou de probabilité nulle."
+      ]
+    }
+  ],
+  "coverage": {
+    "selected_material_units": 3,
+    "mentions": 3,
+    "candidate_assertions": 9,
+    "assertions_human_reviewed": 0
+  },
+  "revision_contract": "Review and claims expire when material revision or source span changes."
+}

@@ -50,8 +50,8 @@ Le catalogue représente maintenant **530 sources sur 530** : 424 fiches
 (3 412 unités), 76 références Markdown (1 004 unités) et 30 registres JSON
 (2 907 unités), soit **7 323 unités candidates**. Les 29 descriptions
 vérifiées sur passages et les 55 contributions analytiques antérieures sont conservées.
-Quatre contributions supplémentaires portent le total à 59 (52 liens
-proposés vers des concepts et 7 cibles non résolues). Les huit fiches de
+Les contributions portent maintenant le total à 69 (56 liens proposés
+vers des concepts, 13 contributions vers 10 sens candidats non résolus). Les huit fiches de
 calibration ont été repartitionnées : aucun fragment supplémentaire
 n'a été détecté lors de leur relecture par le pont GitHub. Les 474 chunks
 déjà publiés au début de la reprise du 28 novembre sont restés identiques.
@@ -67,15 +67,18 @@ empreintes de chaque valeur JSON. Le parcours Python `audit` doit
 
 Les 29 descriptions restent des **brouillons éditoriaux**, et aucun lien
 n'est confirmé musicologiquement.
-Les sept cibles sans concept canonique sont suivies dans
+Les dix sens sans concept canonique sont suivies dans
 [les sens candidats P3](candidate-senses.json) : contexte historique,
 dramaturgie, spectromorphologie, enquête ethnomusicologique et
 interprétations du tango, continuité électroacoustique et complémentarité
-d'ensembles en analyse post-tonale. Ces **propositions** conservent leur portée et
+d'ensembles en analyse post-tonale, réseaux transformationnels, surprise
+informationnelle et attribution historique contextualisée. Ces **propositions** conservent leur portée et
 leurs exigences de preuve; aucune n'est automatiquement fusionnée aux
-25 concepts existants. Vingt mentions sélectionnées ont fourni 40 assertions candidates dans
-deux fichiers, dont [le lot de quatre passages du 28 novembre](mentions/source-checked-2026-11-28.json) : elles ne constituent pas
-la lecture détaillée de tous les passages des 424 fiches.
+25 concepts existants. Trente mentions ont fourni 66 assertions candidates dans les lots de
+[mentions](mentions/). Le [harnais P2b](EXTRACTION_HARNESS.md) calcule
+séparément les dispositions de passage : 12 revues explicites, dont 10
+extractions partielles et deux passages documentaires sans assertion.
+Cela ne constitue pas la lecture détaillée des 424 fiches.
 
 La commande **refresh** permet de poursuivre sur toutes les sources et de
 conserver les unités, descriptions et liens existants. Son exécution complète sur le checkout n'a pas encore été effectuée.
