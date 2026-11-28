@@ -174,7 +174,7 @@ def main(argv: list[str] | None = None) -> None:
                 value = read_json(args.evidence)
                 packet = value.get("observation_packet", value)
             case = compile_case(repo, args.operation, packet)
-            result = {"case": case, "plan": plan(case, "scoped_inputs")}
+            result = {"case": case, "plan": plan(case, "scoped_inputs", repo=repo)}
         print(json.dumps(result, indent=2, ensure_ascii=False))
     except (OSError, ValueError, TypeError, KeyError, IndexError, StopIteration) as exc:
         parser.exit(2, "Knowledge routes stopped: " + str(exc) + "\n")
