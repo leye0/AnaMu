@@ -5,9 +5,10 @@
  */
 const repo="leye0/AnaMu";
 const branch="analysis/material-registry-maintainable";
-if(!["course","shared","partial"].includes(ingestionMode))throw Error("Unknown ingestion mode");
+if(!["course","shared","partial","json"].includes(ingestionMode))throw Error("Unknown ingestion mode");
 if(!Number.isInteger(batchLimit)||batchLimit<1)throw Error("Invalid batch limit");
-const isShared=ingestionMode==="shared";
+const isJson=ingestionMode==="json";
+const isShared=ingestionMode==="shared"||isJson;
 // Freeze every input and the eventual compare-and-swap to the same head.
 const currentBranch=JSON.parse((await tools.mcp__GitHub__fetch({
   url:"https://api.github.com/repos/leye0/AnaMu/branches/"+branch})).result.content);
@@ -122,6 +123,85 @@ function sections(path,text){
   if(out.map(x=>x.text).join("")!==text)throw Error("Lossy partition: "+path);
   return out
 }
+// Preserve number lexemes before JS rounds large integers or loses float type.
+// Match the Python registry's sorted, compact UTF-8 JSON representation.
+class JsonNumber {
+  constructor(value, raw){this.value=value;this.raw=raw}
+  get integer(){return !/[.eE]/.test(this.raw)}
+  canonical(){
+    if(this.integer)return BigInt(this.raw).toString();
+    const n=this.value;
+    if(!Number.isFinite(n))throw Error("Non-finite JSON number: "+this.raw);
+    if(n===0)return Object.is(n,-0)?"-0.0":"0.0";
+    const exponent=Math.floor(Math.log10(Math.abs(n)));
+    const str=n.toString();
+    if(exponent < -4 || exponent >=16){
+      const [m,e]=n.toExponential().split("e");
+      const k=Number(e);
+      return m+"e"+(k<0?"-":"+")+String(Math.abs(k)).padStart(2,"0");
+    }
+    return str.includes(".")?str:str+".0"
+  }
+}
+function isDict(v){return v!==null&&typeof v==="object"&&!Array.isArray(v)&&!(v instanceof JsonNumber)}
+function isInt(v){return typeof v==="boolean"||v instanceof JsonNumber&&v.integer}
+function pyString(v){return typeof v==="boolean"?(v?"True":"False"):v instanceof JsonNumber?v.canonical():v}
+function keyCompare(a,b){
+  const aa=Array.from(a,c=>c.codePointAt(0)),bb=Array.from(b,c=>c.codePointAt(0));
+  for(let i=0;i<Math.min(aa.length,bb.length);i++)if(aa[i]!==bb[i])return aa[i]-bb[i];
+  return aa.length-bb.length
+}
+function canonical(v){
+  if(v instanceof JsonNumber)return v.canonical();
+  if(Array.isArray(v))return "["+v.map(canonical).join(",")+"]";
+  if(isDict(v))return "{"+Object.keys(v).sort(keyCompare).map(k=>JSON.stringify(k)+":"+canonical(v[k])).join(",")+"}";
+  return JSON.stringify(v)
+}
+function *jsonRecords(v,pointer="",depth=0){
+  if(isDict(v)&&Object.keys(v).length&&depth<4){
+    if(depth>0&&["id","course_id","code","title","description","name"].some(k=>Object.hasOwn(v,k)))yield [pointer,v];
+    else for(const [key,child] of Object.entries(v))
+      yield*jsonRecords(child,pointer+"/"+key.replaceAll("~","~0").replaceAll("/","~1"),depth+1);
+  }else if(Array.isArray(v)&&v.length&&depth<4&&v.some(x=>isDict(x)||Array.isArray(x))){
+    for(let i=0;i<v.length;i++)yield*jsonRecords(v[i],pointer+"/"+i,depth+1);
+  }else yield [pointer,v]
+}
+function excerpt(s,limit=240){
+  const value=s.replace(/\s+/g," ").trim();
+  const chars=Array.from(value);
+  return chars.slice(0,limit).join("").trimEnd()+(chars.length>limit?"…":"")
+}
+function jsonUnit(path,wholeSha,pointer,value){
+  let title,description,identity=null;
+  if(isDict(value)){
+    for(const k of ["title","name","code","id","course_id"])
+      if(typeof value[k]==="string"||isInt(value[k])){title=pyString(value[k]);break}
+    for(const k of ["description","summary","label"])
+      if(typeof value[k]==="string"){description=value[k];break}
+    for(const k of ["id","course_id"])
+      if((typeof value[k]==="string"||isInt(value[k]))&&String(pyString(value[k])).trim()){
+        identity=k+":"+pyString(value[k]);break
+      }
+    if(identity===null&&typeof value.code==="string"&&typeof value.institution==="string")
+      identity="institution_code:"+value.institution+":"+value.code
+  }
+  title=title||(pointer?pointer.split("/").at(-1).replaceAll("~1","/").replaceAll("~0","~"):path.split("/").at(-1).replace(/\.json$/,""));
+  return {id:"material:"+String(++nextMaterial).padStart(7,"0"),revision:1,
+    kind:"json_record",title:excerpt(String(title),140),title_origin:"source_heading_or_key",
+    description:description?"Description documentaire non revue : "+excerpt(description):"Enregistrement JSON retrouvé ; périmètre pédagogique à qualifier.",
+    description_origin:"source_proposal_unreviewed",editorial_review:"unreviewed",review_required:true,
+    covers:[],does_not_cover:[],notes:[],source_bindings:[{document_path:path,document_sha256:wholeSha,
+      locator:{kind:"json_pointer",anchor:pointer,json_pointer:pointer,record_identity:identity},
+      content_sha256:sha256(typeof value==="string"?value:canonical(value)),body_sha256:null,role:"primary"}],
+    lifecycle:"active",locator_review:"unreviewed"}
+}
+function parseStructured(raw){
+  return JSON.parse(raw,(key,value,context)=>{
+    if(typeof value!=="number")return value;
+    if(!context?.source)throw Error("JSON numeric source lexemes unavailable");
+    return new JsonNumber(value,context.source)
+  })
+}
 function courseIdentity(path){
   const row=sourceByPath.get(path);
   if(row?.course_id)return row.course_id;
@@ -150,7 +230,7 @@ function createUnit(path,wholeSha,fragment,title){
     lifecycle:"active",locator_review:"unreviewed"}
 }
 const expectedChunks=new Set(catalog.chunks);
-let docs=sources.sources.filter(x=>x.kind===(isShared?"shared_markdown":"course_markdown")&&
+let docs=sources.sources.filter(x=>x.kind===(isJson?"structured_register_json":isShared?"shared_markdown":"course_markdown")&&
   (!index.by_document[x.path]||ingestionMode==="partial"&&
     ["docs/courses/mcgill/MUTH-202.md",
      "docs/courses/berklee-online/OCOMP-491.md",
@@ -181,7 +261,8 @@ const changes=[];
 let newUnits=0,newDocs=0,reused=0;
 for(const {doc,file} of downloaded){
   if(file.sha!==doc.git_blob_sha1)throw Error("Snapshot mismatch "+doc.path);
-  const path=doc.path,fragmentList=sections(path,file.content),
+  if(unescape(encodeURIComponent(file.content)).length!==doc.size_bytes)throw Error("Source byte count mismatch "+doc.path);
+  const path=doc.path,fragmentList=isJson?[]:sections(path,file.content),
     sourceSha=sha256(file.content),title=fragmentList.find(x=>x.heading!=="Preamble")?.heading||path;
   const rel="sources/"+sha256(path).slice(0,20)+".json";
   let units=[],newSource=!index.by_document[path];
@@ -205,6 +286,14 @@ for(const {doc,file} of downloaded){
   const knownIds=new Set(units.map(x=>x.id));
   if(knownIds.size!==units.length)throw Error("Duplicate existing unit "+path);
   let count=0;
+  if(isJson){
+    for(const [pointer,value] of jsonRecords(parseStructured(file.content))){
+      if(anchors.has(pointer))throw Error("Duplicate JSON pointer "+path+" "+pointer);
+      anchors.add(pointer);
+      const unit=jsonUnit(path,sourceSha,pointer,value);
+      units.push(unit);(index.by_document[path]??=[]).push(unit.id);newUnits++;count++;
+    }
+  }
   for(const fragment of fragmentList){
     if(anchors.has(fragment.id)){reused++;continue;}
     const unit=createUnit(path,sourceSha,fragment,
@@ -237,6 +326,10 @@ index.coverage.source_course_documents_indexed=Object.keys(index.by_document)
   .filter(path=>path.startsWith("docs/courses/")).length;
 index.coverage.course_documents_with_active_units=index.coverage.source_course_documents_indexed;
 index.coverage.source_documents_with_active_units=Object.keys(index.by_document).length;
+index.coverage.source_shared_documents_indexed=sources.sources.filter(x=>x.kind==="shared_markdown"&&index.by_document[x.path]).length;
+index.coverage.source_json_documents_indexed=sources.sources.filter(x=>x.kind==="structured_register_json"&&index.by_document[x.path]).length;
+index.coverage.status=index.coverage.source_documents_with_active_units===sources.sources.length?
+  "all_manifest_documents_represented_not_semantically_reviewed":"partial_documentary_inventory";
 for(const [path,value] of [
   ["analysis/knowledge/materials/catalog.json",catalog],
   ["analysis/knowledge/material-index.json",index],
@@ -250,7 +343,7 @@ const tree=await tools.mcp__GitHub__create_tree({repository_full_name:repo,
 const commit=await tools.mcp__GitHub__create_commit({repository_full_name:repo,
   tree_sha:tree.result.sha,parent_sha:parent,message:
     "Indexer "+newUnits+" fragments de "+downloaded.length+
-    " fiches sans promouvoir les descriptions automatiques"});
+    " sources "+ingestionMode+" sans promouvoir les descriptions automatiques"});
 const update=await tools.mcp__GitHub__update_ref({repository_full_name:repo,
   branch_name:branch,sha:commit.result.sha,expected_sha:parent});
 if(!update.result.success)throw Error("Branch moved; unreferenced commit "+commit.result.sha);
