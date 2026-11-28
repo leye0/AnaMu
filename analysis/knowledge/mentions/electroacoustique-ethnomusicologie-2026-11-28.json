@@ -1,0 +1,426 @@
+{
+  "schema_version": 1,
+  "edition": "electroacoustique-ethnomusicologie-2026-11-28",
+  "scope": "Trois passages AnaMu, méthodes de montage, continuité sonore et observation ethnomusicologique conditionnelle.",
+  "material_registry_path": "analysis/knowledge/materials/catalog.json",
+  "source_manifest_path": "analysis/knowledge/source-manifest.json",
+  "concept_registry_path": "analysis/knowledge/concepts.json",
+  "review_status": "assistant_source_checked_candidates_not_independently_validated",
+  "mentions": [
+    {
+      "id": "mention:electroacoustique-ethnomusicologie-2026-11-28:0001",
+      "material_id": "material:0002409",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/courses/udem/MTE-1503.md",
+      "source_section_heading": "Apprentissage 1 — Organisation et transformation de matériaux enregistrés",
+      "source_span": {
+        "document_path": "docs/courses/udem/MTE-1503.md",
+        "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+        "content_sha256": "7cd8500b2c6985678c303c42fee737ecca80b518d6c17324cb5b0b308e9b934e",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:2a4cd5dc4f20f3e115e0dcfd",
+          "heading_path": [
+            "MTE 1503 — Composition électroacoustique",
+            "Application à l'analyse et à la création — travail sur signal audio ou sources (11 novembre 2026)",
+            "Apprentissage 1 — Organisation et transformation de matériaux enregistrés"
+          ],
+          "start_line": 36,
+          "end_line": 45,
+          "subtree_end_line": 45
+        }
+      },
+      "label": "Comparaison de transformations de matériaux enregistrés",
+      "language": "fr",
+      "attribution_role": "anamu_comparative_explanation",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": "candidate-sense:00003",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Étude générique sur des prises réelles et versions de montage ; aucun algorithme institutionnel attesté.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0001",
+        "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0002"
+      ]
+    },
+    {
+      "id": "mention:electroacoustique-ethnomusicologie-2026-11-28:0002",
+      "material_id": "material:0002410",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/courses/udem/MTE-1503.md",
+      "source_section_heading": "Apprentissage 2 — Écriture électroacoustique et continuité des événements",
+      "source_span": {
+        "document_path": "docs/courses/udem/MTE-1503.md",
+        "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+        "content_sha256": "734e54af20eb50c9b637a2b8b8f02e8cfc6ff6770246cdf0e40a721912151f89",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:fc58827a095c3893621e2231",
+          "heading_path": [
+            "MTE 1503 — Composition électroacoustique",
+            "Application à l'analyse et à la création — travail sur signal audio ou sources (11 novembre 2026)",
+            "Apprentissage 2 — Écriture électroacoustique et continuité des événements"
+          ],
+          "start_line": 46,
+          "end_line": 55,
+          "subtree_end_line": 55
+        }
+      },
+      "label": "Continuité électroacoustique et morphologies",
+      "language": "fr",
+      "attribution_role": "anamu_comparative_explanation",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": "candidate-sense:00006",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Analyse de transitions entre événements sonores dans une étude générique, sans attribution d'un exercice MIT.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0003",
+        "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0004"
+      ]
+    },
+    {
+      "id": "mention:electroacoustique-ethnomusicologie-2026-11-28:0003",
+      "material_id": "material:0003403",
+      "reviewed_material_revision": 1,
+      "source_document_path": "docs/courses/udem/MUL-3314.md",
+      "source_section_heading": "Apprentissage/domaine 2 — Observation de structures musicales en contexte",
+      "source_span": {
+        "document_path": "docs/courses/udem/MUL-3314.md",
+        "document_sha256": "6ebc018c4882431630e4ad63f15334511b1065d0d30bb11c56c7fa5bd54ae661",
+        "content_sha256": "8099478c4aecb6bf490c0ad55a1ab92711bbb9e0b6e65e778bdf9ce5bb7052c1",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:2cc4e14ede970888d36121d8",
+          "heading_path": [
+            "MUL 3314 — Introduction à l’ethnomusicologie",
+            "Application à l'analyse et à la création — évaluation sourcée (12 novembre 2026)",
+            "Apprentissage/domaine 2 — Observation de structures musicales en contexte"
+          ],
+          "start_line": 33,
+          "end_line": 42,
+          "subtree_end_line": 42
+        }
+      },
+      "label": "Observation musicale située et confrontation au terrain",
+      "language": "fr",
+      "attribution_role": "anamu_conditional_comparative_study_not_attested_section",
+      "concept_sense_candidate": null,
+      "candidate_sense_id": "candidate-sense:00004",
+      "state": "assistant_source_checked_candidate",
+      "scope_note": "Corpus de terrain authentifié ; ne pas présumer les contenus actuels de MUL 3314.",
+      "candidate_assertion_ids": [
+        "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0005",
+        "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0006"
+      ]
+    }
+  ],
+  "assertions": [
+    {
+      "id": "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0001",
+      "mention_id": "mention:electroacoustique-ethnomusicologie-2026-11-28:0001",
+      "material_id": "material:0002409",
+      "reviewed_material_revision": 1,
+      "rule_key": "recorded_material_compare_versions",
+      "polarity": "method",
+      "statement": "Comparer les versions avant et après montage à partir des enveloppes, spectres et relations temporelles, avec les opérations réellement appliquées consignées.",
+      "scope": "Étude générique sur des prises réelles et versions de montage ; aucun algorithme institutionnel attesté.",
+      "requires_evidence": [
+        "audio_recording_verified",
+        "spectral_observations_annotated",
+        "production_metadata_attested"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/udem/MTE-1503.md",
+        "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+        "content_sha256": "7cd8500b2c6985678c303c42fee737ecca80b518d6c17324cb5b0b308e9b934e",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:2a4cd5dc4f20f3e115e0dcfd",
+          "heading_path": [
+            "MTE 1503 — Composition électroacoustique",
+            "Application à l'analyse et à la création — travail sur signal audio ou sources (11 novembre 2026)",
+            "Apprentissage 1 — Organisation et transformation de matériaux enregistrés"
+          ],
+          "start_line": 36,
+          "end_line": 45,
+          "subtree_end_line": 45
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0002",
+      "mention_id": "mention:electroacoustique-ethnomusicologie-2026-11-28:0001",
+      "material_id": "material:0002409",
+      "reviewed_material_revision": 1,
+      "rule_key": "recorded_material_midi_not_audio_edit",
+      "polarity": "negative",
+      "statement": "Un MIDI de notes seul ne démontre pas le travail de montage d'une prise sonore.",
+      "scope": "Étude générique sur des prises réelles et versions de montage ; aucun algorithme institutionnel attesté.",
+      "requires_evidence": [
+        "audio_recording_verified",
+        "production_metadata_attested"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/udem/MTE-1503.md",
+        "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+        "content_sha256": "7cd8500b2c6985678c303c42fee737ecca80b518d6c17324cb5b0b308e9b934e",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:2a4cd5dc4f20f3e115e0dcfd",
+          "heading_path": [
+            "MTE 1503 — Composition électroacoustique",
+            "Application à l'analyse et à la création — travail sur signal audio ou sources (11 novembre 2026)",
+            "Apprentissage 1 — Organisation et transformation de matériaux enregistrés"
+          ],
+          "start_line": 36,
+          "end_line": 45,
+          "subtree_end_line": 45
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0003",
+      "mention_id": "mention:electroacoustique-ethnomusicologie-2026-11-28:0002",
+      "material_id": "material:0002410",
+      "reviewed_material_revision": 1,
+      "rule_key": "electroacoustic_continuity_compare_transitions",
+      "polarity": "method",
+      "statement": "Segmenter l'audio en événements et comparer les transitions de densité, durée, espace et contraste ainsi que leurs morphologies au projet documenté.",
+      "scope": "Analyse de transitions entre événements sonores dans une étude générique, sans attribution d'un exercice MIT.",
+      "requires_evidence": [
+        "audio_recording_verified",
+        "sound_object_segmentation_annotated",
+        "production_metadata_attested"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/udem/MTE-1503.md",
+        "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+        "content_sha256": "734e54af20eb50c9b637a2b8b8f02e8cfc6ff6770246cdf0e40a721912151f89",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:fc58827a095c3893621e2231",
+          "heading_path": [
+            "MTE 1503 — Composition électroacoustique",
+            "Application à l'analyse et à la création — travail sur signal audio ou sources (11 novembre 2026)",
+            "Apprentissage 2 — Écriture électroacoustique et continuité des événements"
+          ],
+          "start_line": 46,
+          "end_line": 55,
+          "subtree_end_line": 55
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0004",
+      "mention_id": "mention:electroacoustique-ethnomusicologie-2026-11-28:0002",
+      "material_id": "material:0002410",
+      "reviewed_material_revision": 1,
+      "rule_key": "audio_alone_not_intent",
+      "polarity": "negative",
+      "statement": "L'audio seul ne suffit pas à établir l'intention compositionnelle qui a déterminé une transition.",
+      "scope": "Analyse de transitions entre événements sonores dans une étude générique, sans attribution d'un exercice MIT.",
+      "requires_evidence": [
+        "production_metadata_attested"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_comparative_explanation",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/udem/MTE-1503.md",
+        "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+        "content_sha256": "734e54af20eb50c9b637a2b8b8f02e8cfc6ff6770246cdf0e40a721912151f89",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:fc58827a095c3893621e2231",
+          "heading_path": [
+            "MTE 1503 — Composition électroacoustique",
+            "Application à l'analyse et à la création — travail sur signal audio ou sources (11 novembre 2026)",
+            "Apprentissage 2 — Écriture électroacoustique et continuité des événements"
+          ],
+          "start_line": 46,
+          "end_line": 55,
+          "subtree_end_line": 55
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0005",
+      "mention_id": "mention:electroacoustique-ethnomusicologie-2026-11-28:0003",
+      "material_id": "material:0003403",
+      "reviewed_material_revision": 1,
+      "rule_key": "ethnomusicology_compare_observation_with_practitioners",
+      "polarity": "method",
+      "statement": "Sur un corpus de terrain réellement disponible, relever hauteurs, rythmes et interactions puis confronter ces observations aux interprètes.",
+      "scope": "Corpus de terrain authentifié ; ne pas présumer les contenus actuels de MUL 3314.",
+      "requires_evidence": [
+        "attributed_field_recording",
+        "localized_music_observations",
+        "practitioner_feedback"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_conditional_comparative_study_not_attested_section",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/udem/MUL-3314.md",
+        "document_sha256": "6ebc018c4882431630e4ad63f15334511b1065d0d30bb11c56c7fa5bd54ae661",
+        "content_sha256": "8099478c4aecb6bf490c0ad55a1ab92711bbb9e0b6e65e778bdf9ce5bb7052c1",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:2cc4e14ede970888d36121d8",
+          "heading_path": [
+            "MUL 3314 — Introduction à l’ethnomusicologie",
+            "Application à l'analyse et à la création — évaluation sourcée (12 novembre 2026)",
+            "Apprentissage/domaine 2 — Observation de structures musicales en contexte"
+          ],
+          "start_line": 33,
+          "end_line": 42,
+          "subtree_end_line": 42
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    },
+    {
+      "id": "candidate-assertion:electroacoustique-ethnomusicologie-2026-11-28:0006",
+      "mention_id": "mention:electroacoustique-ethnomusicologie-2026-11-28:0003",
+      "material_id": "material:0003403",
+      "reviewed_material_revision": 1,
+      "rule_key": "ethnomusicology_midi_not_field_evidence",
+      "polarity": "negative",
+      "statement": "Un MIDI isolé ne suffit pas à documenter les structures musicales dans leur contexte de pratique.",
+      "scope": "Corpus de terrain authentifié ; ne pas présumer les contenus actuels de MUL 3314.",
+      "requires_evidence": [
+        "attributed_field_recording",
+        "field_context_documented"
+      ],
+      "review_state": "assistant_source_checked_candidate",
+      "source_role": "anamu_conditional_comparative_study_not_attested_section",
+      "source_is_direct_citation": false,
+      "source_span": {
+        "document_path": "docs/courses/udem/MUL-3314.md",
+        "document_sha256": "6ebc018c4882431630e4ad63f15334511b1065d0d30bb11c56c7fa5bd54ae661",
+        "content_sha256": "8099478c4aecb6bf490c0ad55a1ab92711bbb9e0b6e65e778bdf9ce5bb7052c1",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:2cc4e14ede970888d36121d8",
+          "heading_path": [
+            "MUL 3314 — Introduction à l’ethnomusicologie",
+            "Application à l'analyse et à la création — évaluation sourcée (12 novembre 2026)",
+            "Apprentissage/domaine 2 — Observation de structures musicales en contexte"
+          ],
+          "start_line": 33,
+          "end_line": 42,
+          "subtree_end_line": 42
+        }
+      },
+      "causal_claim": false,
+      "warning": "Candidate fondée sur ce passage, non règle universelle ni capacité validée."
+    }
+  ],
+  "passage_reviews": [
+    {
+      "material_id": "material:0002409",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/courses/udem/MTE-1503.md",
+        "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+        "content_sha256": "7cd8500b2c6985678c303c42fee737ecca80b518d6c17324cb5b0b308e9b934e",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:2a4cd5dc4f20f3e115e0dcfd",
+          "heading_path": [
+            "MTE 1503 — Composition électroacoustique",
+            "Application à l'analyse et à la création — travail sur signal audio ou sources (11 novembre 2026)",
+            "Apprentissage 1 — Organisation et transformation de matériaux enregistrés"
+          ],
+          "start_line": 36,
+          "end_line": 45,
+          "subtree_end_line": 45
+        }
+      },
+      "disposition": "partial_extraction",
+      "reason": "Procédure, frontière de média et provenance explicitement extraites.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [
+        "Définir les critères de segmentation et les métriques selon le matériau."
+      ]
+    },
+    {
+      "material_id": "material:0002410",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/courses/udem/MTE-1503.md",
+        "document_sha256": "94c43feaedab2b6a010fe6b5a82a5e31b679bdb9faf01bfd3627cd1d505392c2",
+        "content_sha256": "734e54af20eb50c9b637a2b8b8f02e8cfc6ff6770246cdf0e40a721912151f89",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:fc58827a095c3893621e2231",
+          "heading_path": [
+            "MTE 1503 — Composition électroacoustique",
+            "Application à l'analyse et à la création — travail sur signal audio ou sources (11 novembre 2026)",
+            "Apprentissage 2 — Écriture électroacoustique et continuité des événements"
+          ],
+          "start_line": 46,
+          "end_line": 55,
+          "subtree_end_line": 55
+        }
+      },
+      "disposition": "partial_extraction",
+      "reason": "Méthode et limite de l'inférence intentionnelle explicitées.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [
+        "Préciser les dimensions et seuils de contraste ; documenter le projet source."
+      ]
+    },
+    {
+      "material_id": "material:0003403",
+      "reviewed_material_revision": 1,
+      "source_span": {
+        "document_path": "docs/courses/udem/MUL-3314.md",
+        "document_sha256": "6ebc018c4882431630e4ad63f15334511b1065d0d30bb11c56c7fa5bd54ae661",
+        "content_sha256": "8099478c4aecb6bf490c0ad55a1ab92711bbb9e0b6e65e778bdf9ce5bb7052c1",
+        "locator": {
+          "kind": "markdown_fragment",
+          "anchor": "fragment:2cc4e14ede970888d36121d8",
+          "heading_path": [
+            "MUL 3314 — Introduction à l’ethnomusicologie",
+            "Application à l'analyse et à la création — évaluation sourcée (12 novembre 2026)",
+            "Apprentissage/domaine 2 — Observation de structures musicales en contexte"
+          ],
+          "start_line": 33,
+          "end_line": 42,
+          "subtree_end_line": 42
+        }
+      },
+      "disposition": "partial_extraction",
+      "reason": "Extraction de la procédure conditionnelle et de sa preuve manquante.",
+      "review_state": "assistant_source_checked",
+      "remaining_questions": [
+        "Définir la provenance et la portée des témoignages selon le terrain réel."
+      ]
+    }
+  ],
+  "coverage": {
+    "selected_material_units": 3,
+    "mentions": 3,
+    "candidate_assertions": 6,
+    "assertions_human_reviewed": 0
+  },
+  "revision_contract": "Review and claims expire when material revision or source span changes."
+}

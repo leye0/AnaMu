@@ -1069,6 +1069,63 @@
       "justification": "Le recouvrement de registre et les nuances écrites orientent la recherche de masquage, à confronter au spectre et au niveau audio réel.",
       "state": "assistant_source_checked_proposed_link",
       "does_not_establish": "Une vélocité ne mesure pas le niveau acoustique ; des samples ne valident pas l’équilibre en salle."
+    },
+    {
+      "id": "material-knowledge:0000060",
+      "material_id": "material:0002409",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "unresolved_concept_or_assertion",
+        "id": null,
+        "proposed_subject": "Comparaison de transformations de matériaux enregistrés",
+        "candidate_sense_id": "candidate-sense:00003"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "La comparaison des enveloppes, spectres et relations temporelles documente les transformations sonores."
+      ],
+      "context": "Étude générique sur des prises réelles et versions de montage ; aucun algorithme institutionnel attesté.",
+      "justification": "La comparaison des enveloppes, spectres et relations temporelles documente les transformations sonores.",
+      "state": "awaiting_target_reconciliation",
+      "does_not_establish": "Les notes MIDI ne démontrent pas un montage audio."
+    },
+    {
+      "id": "material-knowledge:0000061",
+      "material_id": "material:0002410",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "unresolved_concept_or_assertion",
+        "id": null,
+        "proposed_subject": "Continuité électroacoustique et morphologies",
+        "candidate_sense_id": "candidate-sense:00006"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Segmenter et comparer densité, durée, espace, contraste et morphologies entre événements."
+      ],
+      "context": "Analyse de transitions entre événements sonores dans une étude générique, sans attribution d'un exercice MIT.",
+      "justification": "Segmenter et comparer densité, durée, espace, contraste et morphologies entre événements.",
+      "state": "awaiting_target_reconciliation",
+      "does_not_establish": "La seule écoute ne prouve pas l'intention de composition."
+    },
+    {
+      "id": "material-knowledge:0000062",
+      "material_id": "material:0003403",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "unresolved_concept_or_assertion",
+        "id": null,
+        "proposed_subject": "Observation musicale située et confrontation au terrain",
+        "candidate_sense_id": "candidate-sense:00004"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Relier les hauteurs, rythmes et interactions observés aux documents du terrain et aux interprètes."
+      ],
+      "context": "Corpus de terrain authentifié ; ne pas présumer les contenus actuels de MUL 3314.",
+      "justification": "Relier les hauteurs, rythmes et interactions observés aux documents du terrain et aux interprètes.",
+      "state": "awaiting_target_reconciliation",
+      "does_not_establish": "Un MIDI isolé ne suffit pas ; les devoirs externes ne sont pas transférables."
     }
   ]
 }
