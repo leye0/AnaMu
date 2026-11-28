@@ -46,14 +46,23 @@ recopie pas le texte intégral** des 424 fiches. Les unités de source peuvent
 section automatiquement détectée n'est pas une définition universelle du
 niveau de granularité.
 
-Un **catalogue pilote est publié**, avec **36 fiches représentées**,
-**457 unités documentaires candidates**, **29 descriptions** vérifiées sur des
-passages précis par l'assistant, et **55 contributions analytiques proposées**
-(dont **6 cibles non résolues**). Vingt-huit fiches ont été entièrement
-partitionnées en sections documentaires ; les huit fiches de calibration
-supplémentaires possèdent encore **une seule section délimitée chacune**.
-Les passages restants de ces huit fiches et les autres sources doivent être
-générés pendant la reprise complète.
+Le catalogue représente maintenant **530 sources sur 530** : 424 fiches
+(3 412 unités), 76 références Markdown (1 004 unités) et 30 registres JSON
+(2 907 unités), soit **7 323 unités candidates**. Les 29 descriptions
+vérifiées sur passages et les 55 contributions analytiques proposées
+(dont 6 cibles non résolues) sont conservées. Les huit fiches de
+calibration ont été repartitionnées : aucun fragment supplémentaire
+n'a été détecté lors de leur relecture par le pont GitHub. Les 474 chunks
+déjà publiés au début de la reprise du 28 novembre sont restés identiques.
+
+La publication a été effectuée par lots GitHub atomiques. Le pont fixe
+une seule révision pour les lectures et la publication, vérifie les
+empreintes Git des sources et ajoute les unités sans réécrire les chunks
+existants. Les index, les mappings et les 530 chunks ont été recoupés
+au niveau des métadonnées et des identités; ce n'est pas une exécution
+complète de `compile_knowledge` en Python ni une certification des
+empreintes de chaque valeur JSON. Le parcours Python `audit` doit
+être exécuté sur un checkout complet pour ce contrôle plus fin.
 
 Les 29 descriptions restent des **brouillons éditoriaux**, et aucun lien
 n'est confirmé musicologiquement.
@@ -64,12 +73,12 @@ interprétations du tango et continuité électroacoustique. Ces **propositions*
 leurs exigences de preuve; aucune n'est automatiquement fusionnée aux
 25 concepts existants. Seize mentions sélectionnées ont fourni
 32 assertions candidates dans un fichier séparé : elles ne constituent pas
-la lecture détaillée de tous les passages des 36 fiches.
+la lecture détaillée de tous les passages des 424 fiches.
 
 La commande **refresh** permet de poursuivre sur toutes les sources et de
-conserver les unités, descriptions et liens existants. Son exécution complète
-sur le checkout n'a pas encore été effectuée. Ne pas confondre les inventaires
-documentaires de **compile_knowledge** et le registre éditorial, encore pilote.
+conserver les unités, descriptions et liens existants. Son exécution complète sur le checkout n'a pas encore été effectuée.
+Le pont de publication n'est pas le compilateur Python. Ne pas confondre
+l'exhaustivité de la représentation et l'état éditorial encore pilote.
 
 ## Commandes
 
@@ -77,6 +86,9 @@ Depuis **analysis/** avec Python 3.11+ et les dépendances déjà indiquées
 dans [le README d'analyse](../README.md) :
 
 ~~~sh
+# Contrôler les locateurs, empreintes, compteurs et liens, sans écrire
+python -m anamu_analysis.materials audit
+
 # Préparer la génération complète sans écrire sur disque
 python -m anamu_analysis.materials refresh --dry-run
 
@@ -120,7 +132,7 @@ Le mode **--dry-run** parcourt les documents et les entrées JSON, calcule
 le nombre d'IDs nouveaux/réutilisés, les cibles orphelines refusées et
 les liens à revoir, **sans écrire de nouveaux fichiers**. Il constitue
 la première inspection avant de produire un catalogue volumineux sur un
-checkout complet. Le contenu pilote reste sous contrôle Git.
+checkout complet. Le contenu du registre reste sous contrôle Git.
 
 ### Actualiser sans détruire le travail humain
 

@@ -516,6 +516,139 @@ def refresh(repo: Path = REPO_ROOT, dry_run: bool = False) -> dict:
     return coverage
 
 
+
+def audit(repo: Path = REPO_ROOT) -> dict:
+    """Read-only audit of the actual catalogue, source bytes and derived views.
+
+    This is a documentary consistency check, not a musicological validation.
+    Missing retained identities and stale analytical claims are reported separately.
+    """
+    repo = repo.resolve()
+    folder = repo / "analysis/knowledge"
+    units = load_catalog(folder)["units"]
+    index = read_json(folder / "material-index.json", {})
+    manifest = read_json(folder / "source-manifest.json", {})
+    catalogue = read_json(folder / "materials/catalog.json", {})
+    bindings = read_json(folder / "course-material-maps/links.json", {})["bindings"]
+    links = read_json(folder / "material-knowledge-maps/links.json", {})["bindings"]
+    mentions, assertions = load_candidate_extractions(folder)
+    knowledge = compile_knowledge(repo)
+    problems = []
+
+    def check(condition: bool, message: str) -> None:
+        if not condition:
+            problems.append(message)
+
+    active = [u for u in units if u["lifecycle"] == "active"]
+    by_id = {u["id"]: u for u in units}
+    expected = {}
+    for candidate in candidates(knowledge):
+        key = source_key(candidate["source"])
+        check(key not in expected, "Duplicate discovered locator: " + str(key))
+        expected[key] = candidate
+    seen = set()
+    expected_courses = set()
+    by_document = defaultdict(list)
+    for unit in units:
+        primary = unit_source(unit)
+        by_document[primary["document_path"]].append(unit["id"])
+        if unit["lifecycle"] != "active":
+            continue
+        key = source_key(primary)
+        check(key not in seen, "Duplicate active locator: " + str(key))
+        seen.add(key)
+        candidate = expected.get(key)
+        if candidate is None:
+            problems.append("Active locator absent from source: " + unit["id"])
+            continue
+        fresh = candidate["source"]
+        for field in ("document_sha256", "content_sha256", "body_sha256", "locator"):
+            check(primary.get(field) == fresh.get(field),
+                  "Source " + field + " mismatch: " + unit["id"])
+        if candidate["course_id"]:
+            expected_courses.add((candidate["course_id"], unit["id"], key[0]))
+    for key in sorted(set(expected) - seen):
+        problems.append("Unindexed source locator: " + str(key))
+
+    def normalized(view: dict) -> dict:
+        return {key: sorted(values) for key, values in view.items()}
+
+    check(normalized(index.get("by_document", {})) == normalized(by_document),
+          "Derived document index disagrees with catalogue")
+    active_bindings = [b for b in bindings if b["lifecycle"] == "active"]
+    actual_courses = {(b["course_id"], b["material_id"], b["source_path"])
+                      for b in active_bindings}
+    check(len(actual_courses) == len(active_bindings), "Duplicate active course binding")
+    check(actual_courses == expected_courses, "Course binding attribution differs from source registry")
+    check(len({b["id"] for b in bindings}) == len(bindings), "Duplicate course binding ID")
+    by_course = defaultdict(list)
+    for b in active_bindings:
+        by_course[b["course_id"]].append(b["material_id"])
+    check(normalized(index.get("by_course", {})) == normalized(by_course),
+          "Derived course index disagrees with bindings")
+
+    documents = {d["path"]: d["git_blob_sha1"] for d in knowledge["documents"]}
+    for structured in knowledge["structured_sources"]:
+        path = structured["path"]
+        raw = (repo / path).read_bytes()
+        documents[path] = hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\\0" + raw).hexdigest()
+    source_rows = [r for r in manifest["sources"] if r.get("lifecycle", "present") == "present"]
+    check(len({r["id"] for r in source_rows}) == len(source_rows), "Duplicate manifest ID")
+    check(len({r["path"] for r in source_rows}) == len(source_rows), "Duplicate manifest path")
+    check({r["path"]: r["git_blob_sha1"] for r in source_rows} == documents,
+          "Source manifest differs from actual source paths or Git blob hashes")
+    check(catalogue.get("source_fingerprint") == knowledge["source_fingerprint"],
+          "Catalogue source fingerprint differs from compilation")
+
+    for kind, entries in (("knowledge binding", links), ("mention", mentions),
+                          ("assertion", assertions)):
+        check(len({r["id"] for r in entries}) == len(entries), "Duplicate " + kind + " ID")
+        for row in entries:
+            check(row["material_id"] in by_id, "Orphan " + kind + ": " + row["id"])
+    mention_ids = {r["id"] for r in mentions}
+    for assertion in assertions:
+        check(assertion["mention_id"] in mention_ids, "Orphan assertion mention: " + assertion["id"])
+
+    def stale(entries: list[dict]) -> list[str]:
+        return [r["id"] for r in entries if r["material_id"] not in by_id
+                or by_id[r["material_id"]]["lifecycle"] != "active"
+                or r.get("reviewed_material_revision") != by_id[r["material_id"]]["revision"]]
+
+    stale_links = stale(links)
+    stale_assertions = stale(assertions)
+    check(sorted(index.get("knowledge_links_requiring_review", [])) == sorted(stale_links),
+          "Stale knowledge link index differs")
+    check(sorted(index.get("candidate_assertions_requiring_review", [])) == sorted(stale_assertions),
+          "Stale assertion index differs")
+    counts = {
+        "material_units_active": len(active),
+        "material_units_requiring_review": sum(bool(u["review_required"]) for u in active),
+        "source_documents_with_active_units": len({unit_source(u)["document_path"] for u in active}),
+        "course_material_bindings_active": len(active_bindings),
+        "material_knowledge_bindings": len(links),
+        "extracted_candidate_mentions": len(mentions),
+        "extracted_candidate_assertions": len(assertions),
+        "extracted_candidate_assertions_stale": len(stale_assertions),
+        "descriptions_human_reviewed": sum(u.get("editorial_review") == "human_reviewed"
+                                           and not u["review_required"] for u in active),
+    }
+    for field, actual in counts.items():
+        check(index.get("coverage", {}).get(field) == actual, "Coverage mismatch: " + field)
+    checked_drafts = sum(u.get("editorial_review") == "assistant_source_checked_draft" for u in active)
+    coverage = index.get("coverage", {})
+    check(coverage.get("descriptions_assistant_source_checked_drafts",
+                       coverage.get("descriptions_assistant_source_checked")) == checked_drafts,
+          "Coverage mismatch: assistant source-checked descriptions")
+    return {"state": "consistent" if not problems else "requires_repair",
+            "documentary_only": True, "counts": counts,
+            "expected_source_locators": len(expected),
+            "retained_inactive_units": len(units) - len(active),
+            "stale_knowledge_links": stale_links,
+            "stale_mentions": stale(mentions),
+            "stale_assertions": stale_assertions,
+            "problem_count": len(problems), "problems": problems}
+
+
 def show(repo: Path, identifier: str, include_source: bool) -> dict:
     root = repo / "analysis/knowledge"
     catalog = load_catalog(root)
@@ -557,7 +690,7 @@ def show(repo: Path, identifier: str, include_source: bool) -> dict:
         if not document.exists():
             result["source_preview"] = {"state": "missing"}
         elif locator["kind"] == "markdown_fragment":
-            lines = document.read_text(encoding="utf-8").splitlines(keepends=True)
+            lines = document.read_bytes().decode("utf-8").splitlines(keepends=True)
             start, end = locator["start_line"], locator["end_line"]
             snippet = "".join(lines[start - 1:end])
             result["source_preview"] = {
@@ -609,6 +742,7 @@ def main(argv: list[str] | None = None) -> None:
     refresh_parser.add_argument(
         "--dry-run", action="store_true",
         help="Calculate identities, coverage and stale references without modifying files")
+    commands.add_parser("audit", help="Audit catalogue, source locators and derived views without writing")
     search_parser = commands.add_parser("search", help="Search titles, descriptions and source paths")
     search_parser.add_argument("query", nargs="?", default="",
                                help="Optional words in a title, description or source path")
@@ -631,6 +765,11 @@ def main(argv: list[str] | None = None) -> None:
         if args.command == "refresh":
             print(json.dumps(refresh(repo, dry_run=args.dry_run),
                              ensure_ascii=False, indent=2))
+        elif args.command == "audit":
+            report = audit(repo)
+            print(json.dumps(report, ensure_ascii=False, indent=2))
+            if report["problem_count"]:
+                parser.exit(1)
         elif args.command == "show":
             print(json.dumps(show(repo, args.id, args.source), ensure_ascii=False, indent=2))
         elif args.command == "describe":
