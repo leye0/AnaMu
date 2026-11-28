@@ -996,6 +996,79 @@
       "justification": "La section compare montage brut, improvisation et déroulement composé cohérent ; la perceptibilité doit être évaluée par l'écoute.",
       "state": "awaiting_target_reconciliation",
       "does_not_establish": "Aucune continuité perceptive n'est inférée de la simple présence de segments audio."
+    },
+    {
+      "id": "material-knowledge:0000056",
+      "material_id": "material:0001237",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "motif.exact_recurrence",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Comparer les profils d’intervalles et de durées sous décalage et transposition, et une hypothèse de contour banal."
+      ],
+      "context": "Étude de contrepoint à deux voix, avec parties identifiées ; exercice comparatif AnaMu.",
+      "justification": "Comparer les profils d’intervalles et de durées sous décalage et transposition, et une hypothèse de contour banal.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Une correspondance exacte ne prouve pas une réponse tonale de fugue ni le style."
+    },
+    {
+      "id": "material-knowledge:0000057",
+      "material_id": "material:0001238",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "voices.suspension",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "La position métrique, la durée et la trajectoire d’une dissonance permettent de confronter suspension, passage et broderie."
+      ],
+      "context": "Contrepoint de deux lignes dans un style déclaré ; lectures à comparer, pas verdict d’espèces.",
+      "justification": "La position métrique, la durée et la trajectoire d’une dissonance permettent de confronter suspension, passage et broderie.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "La classe d’intervalle seule ne prouve ni erreur ni fonction."
+    },
+    {
+      "id": "material-knowledge:0000058",
+      "material_id": "material:0002107",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "unresolved_concept_or_assertion",
+        "id": null,
+        "proposed_subject": "Complémentarité d’ensembles et densité post-tonale",
+        "candidate_sense_id": "candidate-sense:00007"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Comparer les ensembles de classes et leur complémentarité en distinguant chevauchement, registre et densité rythmique."
+      ],
+      "context": "Analyse conditionnelle d’une œuvre sourcée selon une opération post-tonale explicitement déclarée ; pas d’attribution de méthode à une section McGill non documentée.",
+      "justification": "Comparer les ensembles de classes et leur complémentarité en distinguant chevauchement, registre et densité rythmique.",
+      "state": "awaiting_target_reconciliation",
+      "does_not_establish": "Le nombre de classes ne prouve ni tension perçue, ni série, ni agrégat complet."
+    },
+    {
+      "id": "material-knowledge:0000059",
+      "material_id": "material:0000454",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "sound.masking",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Le recouvrement de registre et les nuances écrites orientent la recherche de masquage, à confronter au spectre et au niveau audio réel."
+      ],
+      "context": "Orchestration de couches instrumentales identifiées ; comparaison de partition et signal sonore.",
+      "justification": "Le recouvrement de registre et les nuances écrites orientent la recherche de masquage, à confronter au spectre et au niveau audio réel.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Une vélocité ne mesure pas le niveau acoustique ; des samples ne valident pas l’équilibre en salle."
     }
   ]
 }

@@ -9,15 +9,15 @@
     "descriptions_assistant_source_checked": 29,
     "descriptions_human_reviewed": 0,
     "course_material_bindings_active": 3412,
-    "material_knowledge_bindings": 55,
+    "material_knowledge_bindings": 59,
     "note": "Unité documentaire candidate ne signifie pas matière maîtrisée, ni mécanisme musical validé.",
-    "material_knowledge_bindings_proposed": 49,
-    "material_knowledge_bindings_unresolved": 6,
+    "material_knowledge_bindings_proposed": 52,
+    "material_knowledge_bindings_unresolved": 7,
     "material_knowledge_bindings_confirmed": 0,
-    "extracted_candidate_mentions": 16,
-    "extracted_candidate_assertions": 32,
+    "extracted_candidate_mentions": 20,
+    "extracted_candidate_assertions": 40,
     "extracted_candidate_assertions_stale": 0,
-    "candidate_senses_pending_reconciliation": 6,
+    "candidate_senses_pending_reconciliation": 7,
     "course_documents_with_active_units": 424,
     "source_documents_with_active_units": 530,
     "source_shared_documents_indexed": 76,
@@ -12696,7 +12696,8 @@
       "material:0000114"
     ],
     "motif.exact_recurrence": [
-      "material:0000059"
+      "material:0000059",
+      "material:0001237"
     ],
     "harmony.diminished_symmetry": [
       "material:0000080",
@@ -12715,13 +12716,15 @@
     "sound.masking": [
       "material:0000097",
       "material:0000100",
-      "material:0000442"
+      "material:0000442",
+      "material:0000454"
     ],
     "harmony.modal_mixture": [
       "material:0000104"
     ],
     "voices.suspension": [
-      "material:0000117"
+      "material:0000117",
+      "material:0001238"
     ],
     "motif.thematic_identity": [
       "material:0000118",
@@ -12773,6 +12776,9 @@
     ],
     "candidate-sense:00006": [
       "material:0000419"
+    ],
+    "candidate-sense:00007": [
+      "material:0002107"
     ]
   }
 }

@@ -141,6 +141,31 @@
       "canonical_concept_id": null,
       "decision": "pending_reconciliation",
       "can_be_documentary_only": true
+    },
+    {
+      "id": "candidate-sense:00007",
+      "proposed_key": "posttonal-set-complementarity",
+      "preferred_name": "Complémentarité de collections de classes de hauteurs en analyse post-tonale",
+      "source_material_id": "material:0002107",
+      "source_document_path": "docs/courses/mcgill/MUTH-322.md",
+      "source_role": "anamu_conditional_comparative_study_not_attested_section",
+      "analytic_question": "Sous quelle opération déclarée les collections de régions se complètent-elles, et quelles observations distinguent cette relation de la densité ou de la tension perçue ?",
+      "scope_note": "Analyse conditionnelle d’une œuvre sourcée selon une opération post-tonale explicitement déclarée ; pas d’attribution de méthode à une section McGill non documentée.",
+      "requires_evidence": [
+        "identified_regions",
+        "pitch_class_collections",
+        "declared_set_operation",
+        "register_and_rhythmic_density"
+      ],
+      "does_not_establish": [
+        "serial_system_from_cardinality",
+        "perceived_tension_from_cardinality",
+        "complete_aggregate_without_all_pitch_classes"
+      ],
+      "review_state": "assistant_source_checked_candidate_needs_domain_review",
+      "canonical_concept_id": null,
+      "decision": "pending_reconciliation",
+      "can_be_documentary_only": false
     }
   ]
 }
