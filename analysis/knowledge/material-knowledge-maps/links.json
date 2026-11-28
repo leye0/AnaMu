@@ -1507,6 +1507,60 @@
       "justification": "Événements et densité sur une grille en secondes.",
       "state": "assistant_source_checked_proposed_link",
       "does_not_establish": "La chronologie ne détermine pas la qualité sonore."
+    },
+    {
+      "id": "material-knowledge:0000084",
+      "material_id": "material:0004359",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "voices.suspension",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Préparation consonante, liaison dissonante, résolution descendante."
+      ],
+      "context": "Prototype de quatrième espèce ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "justification": "Préparation consonante, liaison dissonante, résolution descendante.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Autres genres et prototypes possibles."
+    },
+    {
+      "id": "material-knowledge:0000085",
+      "material_id": "material:0004360",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "voices.suspension",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Paires 7–6, 4–3, 9–8 ou 2–3 selon position."
+      ],
+      "context": "Catalogue de retards à deux voix ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "justification": "Paires 7–6, 4–3, 9–8 ou 2–3 selon position.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Dépendance à l'orientation et aux voix."
+    },
+    {
+      "id": "material-knowledge:0000086",
+      "material_id": "material:0004369",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "orchestration.local_roles",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Fonctions de pédales, accents, voix et redistribution."
+      ],
+      "context": "Comparaison d'un original pianistique et d'une orchestration ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "justification": "Fonctions de pédales, accents, voix et redistribution.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Pas de réalisation unique."
     }
   ]
 }
