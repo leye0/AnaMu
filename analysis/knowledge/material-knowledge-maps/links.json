@@ -1561,6 +1561,24 @@
       "justification": "Fonctions de pédales, accents, voix et redistribution.",
       "state": "assistant_source_checked_proposed_link",
       "does_not_establish": "Pas de réalisation unique."
+    },
+    {
+      "id": "material-knowledge:0000087",
+      "material_id": "material:0004370",
+      "reviewed_material_revision": 1,
+      "target": {
+        "kind": "concept",
+        "id": "harmony.function",
+        "registry_path": "analysis/knowledge/concepts.json"
+      },
+      "contribution_kind": "provides_method",
+      "covered_aspects": [
+        "Qualités d'accord et mouvement de fondamentales ; variante mineure."
+      ],
+      "context": "Harmonie tonale jazz ; synthèse AnaMu d'Open Music Theory / Pressbooks, sans attribution de syllabus.",
+      "justification": "Qualités d'accord et mouvement de fondamentales ; variante mineure.",
+      "state": "assistant_source_checked_proposed_link",
+      "does_not_establish": "Ni universel ni exclusivement jazz."
     }
   ]
 }
